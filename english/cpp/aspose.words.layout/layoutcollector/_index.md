@@ -27,10 +27,7 @@ class LayoutCollector : public System::Object
 | [GetEntity](./getentity/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns an opaque position of the [LayoutEnumerator](../layoutenumerator/) which corresponds to the specified node. You can use returned value as an argument to [Current](../layoutenumerator/get_current/) given the document being enumerated and the document of the node are the same. |
 | [GetNumPagesSpanned](./getnumpagesspanned/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [GetEndPageIndex()](./getendpageindex/) - [GetStartPageIndex()](./getstartpageindex/). |
 | [GetStartPageIndex](./getstartpageindex/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [LayoutCollector](./layoutcollector/)(const System::SharedPtr\<Aspose::Words::Document\> \&) | Initializes an instance of this class. |
-| static [Type](./type/)() |  |
 | [get_Document](./get_document/)() const | Gets or sets the document this collector instance is attached to. |
 | [set_Document](./set_document/)(const System::SharedPtr\<Aspose::Words::Document\> \&) | Sets the document this collector instance is attached to. |
 ## Remarks

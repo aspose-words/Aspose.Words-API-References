@@ -21,9 +21,6 @@ class XpsSaveOptions : public FixedPageSaveOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [XpsSaveOptions](./xpssaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Xps](../../aspose.words/saveformat/) format. |
 | [XpsSaveOptions](./xpssaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Xps](../../aspose.words/saveformat/) or [OpenXps](../../aspose.words/saveformat/) format. |
 | [get_CompressionLevel](./get_compressionlevel/)() const | Specifies the compression level used to save document. The default value is [Normal](../compressionlevel/). |
@@ -36,9 +33,6 @@ class XpsSaveOptions : public FixedPageSaveOptions
 | [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Xps](../../aspose.words/saveformat/). |
 | [set_UseBookFoldPrintingSettings](./set_usebookfoldprintingsettings/)(bool) | Sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [MultiplePages](../../aspose.words/pagesetup/get_multiplepages/). |
 | [Equals](../fixedpagesaveoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](../fixedpagesaveoptions/gettype/)() const override |  |
-| [Is](../fixedpagesaveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fixedpagesaveoptions/type/)() |  |
 | [get_ColorMode](../fixedpagesaveoptions/get_colormode/)() const | Gets or sets a value determining how colors are rendered. |
 | [get_JpegQuality](../fixedpagesaveoptions/get_jpegquality/)() const | Gets or sets a value determining the quality of the JPEG images inside Html document. |
 | [get_MetafileRenderingOptions](../fixedpagesaveoptions/get_metafilerenderingoptions/)() const | Allows to specify metafile rendering options. |
@@ -55,9 +49,6 @@ class XpsSaveOptions : public FixedPageSaveOptions
 | [set_PageSet](../fixedpagesaveoptions/set_pageset/)(const System::SharedPtr\<Aspose::Words::Saving::PageSet\> \&) | Sets the pages to render. Default is all the pages in the document. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

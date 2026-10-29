@@ -21,10 +21,7 @@ class OutlineOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [OutlineOptions](./outlineoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_BookmarksOutlineLevels](./get_bookmarksoutlinelevels/)() const | Allows to specify individual bookmarks outline level. |
 | [get_CreateMissingOutlineLevels](./get_createmissingoutlinelevels/)() const | Gets or sets a value determining whether or not to create missing outline levels when the document is exported.
 

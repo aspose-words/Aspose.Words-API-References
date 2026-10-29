@@ -25,12 +25,9 @@ class CustomXmlPropertyCollection : public System::Collections::Generic::IEnumer
 | [Clear](./clear/)() | Removes all elements from the collection. |
 | [Contains](./contains/)(const System::String \&) | Determines whether the collection contains a property with the given name. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](./gettype/)() const override |  |
 | [IndexOfKey](./indexofkey/)(const System::String \&) | Returns the zero-based index of the specified property in the collection. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(const System::String \&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a property at the specified index. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [idx_get](./idx_get/)(const System::String \&) | Gets a property with the specified name. |
 | [idx_get](./idx_get/)(int32_t) | Gets a property at the specified index. |

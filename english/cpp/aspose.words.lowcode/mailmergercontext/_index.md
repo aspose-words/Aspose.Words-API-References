@@ -20,20 +20,14 @@ class MailMergerContext : public ProcessorContext
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MailMergerContext](./mailmergercontext/)() |  |
 | [SetRegionsDataSource](./setregionsdatasource/)(const System::SharedPtr\<System::Data::DataSet\> \&) | Sets data source used to execute mail merge with regions. |
 | [SetRegionsDataSource](./setregionsdatasource/)(const System::SharedPtr\<System::Data::DataTable\> \&) | Sets data source used to execute mail merge with regions. |
 | [SetSimpleDataSource](./setsimpledatasource/)(const System::ArrayPtr\<System::String\> \&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\> \&) | Sets data source used to execute simple mail merge. |
 | [SetSimpleDataSource](./setsimpledatasource/)(const System::SharedPtr\<System::Data::DataRow\> \&) | Sets data source used to execute simple mail merge. |
 | [SetSimpleDataSource](./setsimpledatasource/)(const System::SharedPtr\<System::Data::DataTable\> \&) | Sets data source used to execute simple mail merge. |
-| static [Type](./type/)() |  |
 | [get_MailMergeOptions](./get_mailmergeoptions/)() const | Mail merge options. |
-| [GetType](../processorcontext/gettype/)() const override |  |
-| [Is](../processorcontext/is/)(const System::TypeInfo \&) const override |  |
 | [ProcessorContext](../processorcontext/processorcontext/)() |  |
-| static [Type](../processorcontext/type/)() |  |
 | [get_FontSettings](../processorcontext/get_fontsettings/)() const | Font settings used by the processor. |
 | [get_LayoutOptions](../processorcontext/get_layoutoptions/)() const | Document layout options used by the processor. |
 | [get_WarningCallback](../processorcontext/get_warningcallback/)() const | Warning callback used by the processor. |

@@ -24,9 +24,6 @@ class BorderCollection : public System::Collections::Generic::IEnumerable<System
 | [ClearFormatting](./clearformatting/)() | Removes all borders of an object. |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::BorderCollection\> \&) | Compares collections of borders. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all borders in the collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Bottom](./get_bottom/)() | Gets the bottom border. |
 | [get_Color](./get_color/)() | Gets or sets the border color. |
 | [get_Count](./get_count/)() | Gets the number of borders in the collection. |

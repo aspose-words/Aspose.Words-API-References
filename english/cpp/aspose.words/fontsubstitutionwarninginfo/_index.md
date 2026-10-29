@@ -20,17 +20,11 @@ class FontSubstitutionWarningInfo : public WarningInfo
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Reason](./get_reason/)() const | Font substitution reason. |
 | [get_RequestedBold](./get_requestedbold/)() const | Indicates whether bold style was requested. |
 | [get_RequestedFamilyName](./get_requestedfamilyname/)() const | Requested font family name. |
 | [get_RequestedItalic](./get_requesteditalic/)() const | Indicates whether italic style was requested. |
 | [get_ResolvedFont](./get_resolvedfont/)() const | Resolved font. |
-| [GetType](../warninginfo/gettype/)() const override |  |
-| [Is](../warninginfo/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../warninginfo/type/)() |  |
 | [get_Description](../warninginfo/get_description/)() const | Returns the description of the warning. |
 | [get_Source](../warninginfo/get_source/)() const | Returns the source of the warning. |
 | [get_WarningType](../warninginfo/get_warningtype/)() const | Returns the type of the warning. |

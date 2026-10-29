@@ -21,9 +21,6 @@ class WebExtensionReference : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [WebExtensionReference](./webextensionreference/)() |  |
 | [get_Id](./get_id/)() const | Identifier associated with the web extension within a catalog provider. |
 | [get_Store](./get_store/)() const | Specifies the instance of the marketplace where the web extension is stored. |

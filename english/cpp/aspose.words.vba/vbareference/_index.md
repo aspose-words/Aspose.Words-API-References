@@ -21,9 +21,6 @@ class VbaReference : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | virtual [get_LibId](./get_libid/)() const | Gets a string value containing the identifier of an Automation type library. |
 | virtual [get_Type](./get_type/)() | Gets [VbaReferenceType](../vbareferencetype/) object that indicates the type of reference that a [VbaReference](./) object represents. |
 ## See Also

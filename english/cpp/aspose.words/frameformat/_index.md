@@ -20,9 +20,6 @@ class FrameFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Height](./get_height/)() | Gets the height of the specified frame. |
 | [get_HeightRule](./get_heightrule/)() | Gets the rule for determining the height of the specified frame. |
 | [get_HorizontalAlignment](./get_horizontalalignment/)() | Gets horizontal alignment of the specified frame. |

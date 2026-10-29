@@ -20,9 +20,6 @@ class AxisTickLabels : public Core::IChartItemTextProperties
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Alignment](./get_alignment/)() | Gets or sets text alignment of the axis tick labels. |
 | [get_Font](./get_font/)() | Provides access to font formatting of the tick labels. |
 | [get_IsAutoSpacing](./get_isautospacing/)() | Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels. |

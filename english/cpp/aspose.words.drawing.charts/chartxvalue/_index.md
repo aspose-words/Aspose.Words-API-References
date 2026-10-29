@@ -27,9 +27,6 @@ class ChartXValue : public System::Object
 | static [FromString](./fromstring/)(const System::String \&) | Creates a [ChartXValue](./) instance of the [String](../chartxvaluetype/) type. |
 | static [FromTimeSpan](./fromtimespan/)(System::TimeSpan) | Creates a [ChartXValue](./) instance of the [Time](../chartxvaluetype/) type. |
 | [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current X value object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DateTimeValue](./get_datetimevalue/)() const | Gets the stored datetime value. |
 | [get_DoubleValue](./get_doublevalue/)() const | Gets the stored numeric value. |
 | [get_MultilevelValue](./get_multilevelvalue/)() const | Gets the stored multilevel value. |

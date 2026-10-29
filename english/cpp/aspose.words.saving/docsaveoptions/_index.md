@@ -23,9 +23,6 @@ class DocSaveOptions : public SaveOptions
 | --- | --- |
 | [DocSaveOptions](./docsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Doc](../../aspose.words/saveformat/) format. |
 | [DocSaveOptions](./docsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Doc](../../aspose.words/saveformat/) or [Dot](../../aspose.words/saveformat/) format. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AlwaysCompressMetafiles](./get_alwayscompressmetafiles/)() const | When **false**, small metafiles are not compressed for performance reason. Default value is **true**, all metafiles are compressed regardless of its size. |
 | [get_DigitalSignatureDetails](./get_digitalsignaturedetails/)() const | Gets [DigitalSignatureDetails](../digitalsignaturedetails/) object used to sign a document. |
 | [get_Password](./get_password/)() const | Gets/sets a password to encrypt document using RC4 encryption method. |
@@ -40,9 +37,6 @@ class DocSaveOptions : public SaveOptions
 | [set_SaveRoutingSlip](./set_saveroutingslip/)(bool) | When **false**, RoutingSlip data is not saved to output document. Default value is **true**. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

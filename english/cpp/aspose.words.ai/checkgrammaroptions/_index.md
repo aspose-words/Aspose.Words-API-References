@@ -21,9 +21,6 @@ class CheckGrammarOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CheckGrammarOptions](./checkgrammaroptions/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ImproveStylistics](./get_improvestylistics/)() const | Allows to specify either AI will try to improve stylistics of the text being proofed. Default value is **false**. |
 | [get_MakeRevisions](./get_makerevisions/)() const | Allows to specify either final or revised document to be returned with proofed text. Default value is **false**. |
 | [get_PreserveFormatting](./get_preserveformatting/)() const | Allows to specify either [CheckGrammar()](../aimodel/checkgrammar/) will try to preserve layout and formatting of the original document, or not. Default value is **true**. |

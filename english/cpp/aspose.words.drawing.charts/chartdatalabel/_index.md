@@ -24,9 +24,6 @@ class ChartDataLabel : public Core::INumberFormatProvider,
 | Method | Description |
 | --- | --- |
 | [ClearFormat](./clearformat/)() | Clears format of this data label. The properties are set to the default values defined in the parent data label collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Font](./get_font/)() | Provides access to the font formatting of this data label. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the data label. |
 | [get_Index](./get_index/)() | Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0. |

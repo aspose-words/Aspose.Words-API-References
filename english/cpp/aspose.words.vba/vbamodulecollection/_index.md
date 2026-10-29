@@ -22,32 +22,10 @@ class VbaModuleCollection : public System::Collections::Generic::IEnumerable<Sys
 | Method | Description |
 | --- | --- |
 | [Add](./add/)(const System::SharedPtr\<Aspose::Words::Vba::VbaModule\> \&) | Adds a module to the collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Vba::VbaModule\> \&) | Removes the specified module from the collection. |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
-| [begin](./begin/)() |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() const |  |
-| [end](./end/)() |  |
 | [get_Count](./get_count/)() | Returns the number of VBA modules in the collection. |
 | [idx_get](./idx_get/)(const System::String \&) | Retrieves a [VbaModule](../vbamodule/) object by name, or Null if not found. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a [VbaModule](../vbamodule/) object by index. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Examples
 
 

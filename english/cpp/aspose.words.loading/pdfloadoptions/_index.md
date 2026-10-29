@@ -21,10 +21,7 @@ class PdfLoadOptions : public LoadOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PdfLoadOptions](./pdfloadoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_PageCount](./get_pagecount/)() const | Gets the number of pages to read. Default is MaxValue which means all pages of the document will be read. |
 | [get_PageIndex](./get_pageindex/)() const | Gets the 0-based index of the first page to read. Default is 0. |
 | [get_SkipPdfImages](./get_skippdfimages/)() const | Gets the flag indicating whether images must be skipped while loading PDF document. Default is **false**. |
@@ -32,12 +29,9 @@ class PdfLoadOptions : public LoadOptions
 | [set_PageIndex](./set_pageindex/)(int32_t) | Sets the 0-based index of the first page to read. Default is 0. |
 | [set_SkipPdfImages](./set_skippdfimages/)(bool) | Sets the flag indicating whether images must be skipped while loading PDF document. Default is **false**. |
 | [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](../loadoptions/gettype/)() const override |  |
-| [Is](../loadoptions/is/)(const System::TypeInfo \&) const override |  |
 | [LoadOptions](../loadoptions/loadoptions/)() | Initializes a new instance of this class with default values. |
 | [LoadOptions](../loadoptions/loadoptions/)(Aspose::Words::LoadFormat, const System::String \&, const System::String \&) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 | [LoadOptions](../loadoptions/loadoptions/)(const System::String \&) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| static [Type](../loadoptions/type/)() |  |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile(**Wmf** or **Emf**) images to **Png** image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |

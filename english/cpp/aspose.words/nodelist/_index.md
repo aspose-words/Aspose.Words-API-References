@@ -22,11 +22,7 @@ class NodeList : public System::Collections::Generic::IEnumerable<System::Shared
 | Method | Description |
 | --- | --- |
 | [GetEnumerator](./getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| [NodeList](./nodelist/)(const System::SharedPtr\<Aspose::Words::NodeCollection\> \&) |  |
 | [ToArray](./toarray/)() const | Copies all nodes from the collection to a new array of nodes. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() const | Gets the number of nodes in the list. |
 | [idx_get](./idx_get/)(int32_t) const | Retrieves a node at the given index. |
 ## Remarks

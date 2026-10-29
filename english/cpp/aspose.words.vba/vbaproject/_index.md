@@ -22,9 +22,6 @@ class VbaProject : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clone](./clone/)() | Performs a copy of the [VbaProject](./). |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [VbaProject](./vbaproject/)() | Creates a blank [VbaProject](./). |
 | [get_CodePage](./get_codepage/)() const | Gets or sets the VBA project’s code page. |
 | [get_IsProtected](./get_isprotected/)() | Shows whether the [VbaProject](./) is password protected. |

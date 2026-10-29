@@ -21,10 +21,7 @@ class TextWatermarkOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [TextWatermarkOptions](./textwatermarkoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_Color](./get_color/)() const | Gets or sets font color. The default value is **Silver**. |
 | [get_FontFamily](./get_fontfamily/)() const | Gets or sets font family name. The default value is "Calibri". |
 | [get_FontSize](./get_fontsize/)() const | Gets or sets a font size. The default value is 0 - auto. |

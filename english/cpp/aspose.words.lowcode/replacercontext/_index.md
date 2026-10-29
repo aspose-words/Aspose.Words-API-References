@@ -20,17 +20,11 @@ class ReplacerContext : public ProcessorContext
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ReplacerContext](./replacercontext/)() |  |
 | [SetReplacement](./setreplacement/)(const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&) | Sets pattern and replacement used by find/replace operation. |
 | [SetReplacement](./setreplacement/)(const System::String \&, const System::String \&) | Sets pattern and replacement used by find/replace operation. |
-| static [Type](./type/)() |  |
 | [get_FindReplaceOptions](./get_findreplaceoptions/)() const | Find/replace options. |
-| [GetType](../processorcontext/gettype/)() const override |  |
-| [Is](../processorcontext/is/)(const System::TypeInfo \&) const override |  |
 | [ProcessorContext](../processorcontext/processorcontext/)() |  |
-| static [Type](../processorcontext/type/)() |  |
 | [get_FontSettings](../processorcontext/get_fontsettings/)() const | Font settings used by the processor. |
 | [get_LayoutOptions](../processorcontext/get_layoutoptions/)() const | Document layout options used by the processor. |
 | [get_WarningCallback](../processorcontext/get_warningcallback/)() const | Warning callback used by the processor. |

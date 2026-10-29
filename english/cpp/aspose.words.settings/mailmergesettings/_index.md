@@ -23,10 +23,7 @@ class MailMergeSettings : public System::Object
 | --- | --- |
 | [Clear](./clear/)() | Clears the mail merge settings in such a way that when the document is saved, no mail merge settings will be saved and it will become a normal document. |
 | [Clone](./clone/)() | Returns a deep clone of this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MailMergeSettings](./mailmergesettings/)() |  |
-| static [Type](./type/)() |  |
 | [get_ActiveRecord](./get_activerecord/)() const | Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. The default value is 1. |
 | [get_AddressFieldName](./get_addressfieldname/)() const | Specifies the column within the data source that contains e-mail addresses. The default value is an empty string. |
 | [get_CheckErrors](./get_checkerrors/)() const | Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is [Default](../mailmergecheckerrors/). |

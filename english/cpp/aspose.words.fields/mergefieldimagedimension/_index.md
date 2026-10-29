@@ -21,11 +21,8 @@ class MergeFieldImageDimension : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MergeFieldImageDimension](./mergefieldimagedimension/)(double) | Creates an image dimension instance with the given value in points. |
 | [MergeFieldImageDimension](./mergefieldimagedimension/)(double, Aspose::Words::Fields::MergeFieldImageDimensionUnit) | Creates an image dimension instance with the given value and the given unit. |
-| static [Type](./type/)() |  |
 | [get_Unit](./get_unit/)() const | The unit. |
 | [get_Value](./get_value/)() const | The value. |
 | [set_Unit](./set_unit/)(Aspose::Words::Fields::MergeFieldImageDimensionUnit) | The unit. |

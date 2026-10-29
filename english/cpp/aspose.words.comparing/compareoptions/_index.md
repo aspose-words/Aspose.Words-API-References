@@ -22,9 +22,6 @@ class CompareOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CompareOptions](./compareoptions/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AdvancedOptions](./get_advancedoptions/)() const | Specifies advanced compare options that might help to produce more precise comparison output. |
 | [get_CompareMoves](./get_comparemoves/)() const | Specifies whether to compare differences between the two documents. |
 | [get_Granularity](./get_granularity/)() const | Specifies whether changes are tracked by character or by word. |

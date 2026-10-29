@@ -90,12 +90,17 @@ doc->Save(get_ArtifactsDir() + u"Hyphenation.Dictionary.Unregistered.pdf");
 ## Hyphenation::RegisterDictionary(const System::String \&, std::basic_istream\<CharType, Traits\> \&) method
 
 
-
+Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
 
 ```cpp
 template<typename CharType,typename Traits> static void Aspose::Words::Hyphenation::RegisterDictionary(const System::String & language, std::basic_istream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| language | const System::String \& | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| stream | std::basic_istream\<CharType, Traits\> \& | A stream for the dictionary file in OpenOffice format. |
 ## See Also
 
 * Class [Hyphenation](../)

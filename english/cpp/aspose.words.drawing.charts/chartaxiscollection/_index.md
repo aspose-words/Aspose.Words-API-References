@@ -21,9 +21,6 @@ class ChartAxisCollection : public System::Collections::Generic::IEnumerable<Sys
 | Method | Description |
 | --- | --- |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of axes in this collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets the axis at the specified index. |
 ## Examples

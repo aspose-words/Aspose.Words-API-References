@@ -21,9 +21,6 @@ class BubbleSizeCollection : public System::Collections::Generic::IEnumerable<do
 | Method | Description |
 | --- | --- |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of items in this collection. |
 | [get_FormatCode](./get_formatcode/)() | Gets or sets the format code applied to the bubble sizes. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets the bubble size value at the specified index. |

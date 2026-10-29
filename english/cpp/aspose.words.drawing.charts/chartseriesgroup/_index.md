@@ -20,9 +20,6 @@ class ChartSeriesGroup : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AxisGroup](./get_axisgroup/)() | Gets or sets the axis group to which this series group belongs. |
 | [get_AxisX](./get_axisx/)() | Provides access to properties of the X axis of this series group. |
 | [get_AxisY](./get_axisy/)() | Provides access to properties of the Y axis of this series group. |

@@ -21,17 +21,19 @@ class DigitalSignatureUtil
 
 | Method | Description |
 | --- | --- |
-| [DigitalSignatureUtil](./digitalsignatureutil/)() |  |
 | static [LoadSignatures](./loadsignatures/)(const System::SharedPtr\<System::IO::Stream\> \&) | Loads digital signatures from document using stream. |
 | static [LoadSignatures](./loadsignatures/)(const System::String \&) | Loads digital signatures from document. |
-| static [LoadSignatures](./loadsignatures/)(std::basic_istream\<CharType, Traits\> \&) |  |
+| static [LoadSignatures](./loadsignatures/)(std::basic_istream\<CharType, Traits\> \&) | Loads digital signatures from document using stream. |
 | static [RemoveAllSignatures](./removeallsignatures/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&) | Removes all digital signatures from document in source stream and writes unsigned document to destination stream. 
 Output will be written to the start of stream and stream size will be updated with content length.
 
 The following formats are compatible for digital signature removal: [Doc](../../aspose.words/loadformat/), [Dot](../../aspose.words/loadformat/), [Docx](../../aspose.words/loadformat/), [Dotx](../../aspose.words/loadformat/), [Docm](../../aspose.words/loadformat/), [Dotm](../../aspose.words/loadformat/), [Odt](../../aspose.words/loadformat/), [Ott](../../aspose.words/loadformat/). |
 | static [RemoveAllSignatures](./removeallsignatures/)(const System::String \&, const System::String \&) | Removes all digital signatures from source file and writes unsigned file to destination file. 
 The following formats are compatible for digital signature removal: [Doc](../../aspose.words/loadformat/), [Dot](../../aspose.words/loadformat/), [Docx](../../aspose.words/loadformat/), [Dotx](../../aspose.words/loadformat/), [Docm](../../aspose.words/loadformat/), [Dotm](../../aspose.words/loadformat/), [Odt](../../aspose.words/loadformat/), [Ott](../../aspose.words/loadformat/). |
-| static [RemoveAllSignatures](./removeallsignatures/)(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&) |  |
+| static [RemoveAllSignatures](./removeallsignatures/)(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&) | Removes all digital signatures from document in source stream and writes unsigned document to destination stream. 
+Output will be written to the start of stream and stream size will be updated with content length.
+
+The following formats are compatible for digital signature removal: [Doc](../../aspose.words/loadformat/), [Dot](../../aspose.words/loadformat/), [Docx](../../aspose.words/loadformat/), [Dotx](../../aspose.words/loadformat/), [Docm](../../aspose.words/loadformat/), [Dotm](../../aspose.words/loadformat/), [Odt](../../aspose.words/loadformat/), [Ott](../../aspose.words/loadformat/). |
 | static [Sign](./sign/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination stream. 
 Supported formats are: [Doc](../../aspose.words/loadformat/), [Dot](../../aspose.words/loadformat/), [Docx](../../aspose.words/loadformat/), [Dotx](../../aspose.words/loadformat/), [Docm](../../aspose.words/loadformat/), [Dotm](../../aspose.words/loadformat/), [Odt](../../aspose.words/loadformat/), [Ott](../../aspose.words/loadformat/).
 
@@ -44,8 +46,14 @@ Output will be written to the start of stream and stream size will be updated wi
 Supported formats are: [Doc](../../aspose.words/loadformat/), [Dot](../../aspose.words/loadformat/), [Docx](../../aspose.words/loadformat/), [Dotx](../../aspose.words/loadformat/), [Docm](../../aspose.words/loadformat/), [Dotm](../../aspose.words/loadformat/), [Odt](../../aspose.words/loadformat/), [Ott](../../aspose.words/loadformat/). |
 | static [Sign](./sign/)(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination file. 
 Supported formats are: [Doc](../../aspose.words/loadformat/), [Dot](../../aspose.words/loadformat/), [Docx](../../aspose.words/loadformat/), [Dotx](../../aspose.words/loadformat/), [Docm](../../aspose.words/loadformat/), [Dotm](../../aspose.words/loadformat/), [Odt](../../aspose.words/loadformat/), [Ott](../../aspose.words/loadformat/). |
-| static [Sign](./sign/)(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) |  |
-| static [Sign](./sign/)(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) |  |
+| static [Sign](./sign/)(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) | Signs source document using given [CertificateHolder](../certificateholder/) with digital signature and writes signed document to destination stream. 
+Supported formats are: [Doc](../../aspose.words/loadformat/), [Dot](../../aspose.words/loadformat/), [Docx](../../aspose.words/loadformat/), [Dotx](../../aspose.words/loadformat/), [Docm](../../aspose.words/loadformat/), [Dotm](../../aspose.words/loadformat/), [Odt](../../aspose.words/loadformat/), [Ott](../../aspose.words/loadformat/).
+
+Output will be written to the start of stream and stream size will be updated with content length. |
+| static [Sign](./sign/)(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) | Signs source document using given [CertificateHolder](../certificateholder/) and [SignOptions](../signoptions/) with digital signature and writes signed document to destination stream. 
+Supported formats are: [Doc](../../aspose.words/loadformat/), [Dot](../../aspose.words/loadformat/), [Docx](../../aspose.words/loadformat/), [Dotx](../../aspose.words/loadformat/), [Docm](../../aspose.words/loadformat/), [Dotm](../../aspose.words/loadformat/), [Odt](../../aspose.words/loadformat/), [Ott](../../aspose.words/loadformat/).
+
+Output will be written to the start of stream and stream size will be updated with content length. |
 ## Remarks
 
 

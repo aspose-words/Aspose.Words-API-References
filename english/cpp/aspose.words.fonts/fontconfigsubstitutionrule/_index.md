@@ -21,15 +21,9 @@ class FontConfigSubstitutionRule : public FontSubstitutionRule
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [IsFontConfigAvailable](./isfontconfigavailable/)() | Check if fontconfig utility is available or not. |
 | [ResetCache](./resetcache/)() | Resets the cache of fontconfig calling results. |
-| static [Type](./type/)() |  |
 | [set_Enabled](./set_enabled/)(bool) override | Specifies whether the rule is enabled or not. |
-| [GetType](../fontsubstitutionrule/gettype/)() const override |  |
-| [Is](../fontsubstitutionrule/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fontsubstitutionrule/type/)() |  |
 | virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
 | virtual [set_Enabled](../fontsubstitutionrule/set_enabled/)(bool) | Specifies whether the rule is enabled or not. |
 ## Remarks

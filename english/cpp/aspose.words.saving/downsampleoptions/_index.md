@@ -22,9 +22,6 @@ class DownsampleOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [DownsampleOptions](./downsampleoptions/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DownsampleImages](./get_downsampleimages/)() const | Specifies whether images should be downsampled. |
 | [get_Resolution](./get_resolution/)() const | Specifies the resolution in pixels per inch which the images should be downsampled to. |
 | [get_ResolutionThreshold](./get_resolutionthreshold/)() const | Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. |

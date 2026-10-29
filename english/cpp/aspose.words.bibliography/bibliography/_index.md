@@ -20,9 +20,6 @@ class Bibliography : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_BibliographyStyle](./get_bibliographystyle/)() const | Gets a string that represents the name of the active style to use for a bibliography. |
 | [get_Sources](./get_sources/)() const | Gets a collection that represents all the sources contained in a bibliography. |
 | [set_BibliographyStyle](./set_bibliographystyle/)(const System::String \&) | Sets a string that represents the name of the active style to use for a bibliography. |

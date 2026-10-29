@@ -22,10 +22,7 @@ class Odso : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clone](./clone/)() | Returns a deep clone of this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Odso](./odso/)() |  |
-| static [Type](./type/)() |  |
 | [get_ColumnDelimiter](./get_columndelimiter/)() const | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined. |
 | [get_DataSource](./get_datasource/)() const | Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string. |
 | [get_DataSourceType](./get_datasourcetype/)() const | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [Default](../odsodatasourcetype/). |

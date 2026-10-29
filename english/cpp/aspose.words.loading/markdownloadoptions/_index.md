@@ -20,10 +20,7 @@ class MarkdownLoadOptions : public LoadOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MarkdownLoadOptions](./markdownloadoptions/)() | Initializes a new instance of [MarkdownLoadOptions](./) class. |
-| static [Type](./type/)() |  |
 | [get_ImportUnderlineFormatting](./get_importunderlineformatting/)() const | Gets or sets a boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. The default value is **false**. |
 | [get_PreserveEmptyLines](./get_preserveemptylines/)() const | Gets or sets a boolean value indicating whether to preserve empty lines while load a [Markdown](../../aspose.words/loadformat/) document. The default value is **false**. 
  Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines. |
@@ -33,12 +30,9 @@ class MarkdownLoadOptions : public LoadOptions
  Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines. |
 | [set_SoftLineBreakCharacter](./set_softlinebreakcharacter/)(char16_t) | Sets a character value representing `soft line break`. The default value is **SPACE (U+0020)**. |
 | [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](../loadoptions/gettype/)() const override |  |
-| [Is](../loadoptions/is/)(const System::TypeInfo \&) const override |  |
 | [LoadOptions](../loadoptions/loadoptions/)() | Initializes a new instance of this class with default values. |
 | [LoadOptions](../loadoptions/loadoptions/)(Aspose::Words::LoadFormat, const System::String \&, const System::String \&) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 | [LoadOptions](../loadoptions/loadoptions/)(const System::String \&) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| static [Type](../loadoptions/type/)() |  |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile(**Wmf** or **Emf**) images to **Png** image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |

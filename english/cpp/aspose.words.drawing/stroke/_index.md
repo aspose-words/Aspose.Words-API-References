@@ -21,9 +21,6 @@ class Stroke : public Core::IFillable
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_BackColor](./get_backcolor/)() | Gets or sets the background color of the stroke. |
 | [get_BackThemeColor](./get_backthemecolor/)() | Gets or sets a ThemeColor object that represents the stroke background color. |
 | [get_BackTintAndShade](./get_backtintandshade/)() | Gets or sets a double value that lightens or darkens the stroke background color. |

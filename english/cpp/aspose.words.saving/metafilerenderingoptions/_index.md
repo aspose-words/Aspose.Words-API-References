@@ -21,10 +21,7 @@ class MetafileRenderingOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MetafileRenderingOptions](./metafilerenderingoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_EmfPlusDualRenderingMode](./get_emfplusdualrenderingmode/)() const | Gets or sets a value determining how EMF+ Dual metafiles should be rendered. |
 | [get_EmulateRasterOperations](./get_emulaterasteroperations/)() const | Gets or sets a value determining whether or not the raster operations should be emulated. |
 | [get_EmulateRenderingToSizeOnPage](./get_emulaterenderingtosizeonpage/)() const | Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size. |

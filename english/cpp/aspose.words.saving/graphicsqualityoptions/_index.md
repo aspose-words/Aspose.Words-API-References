@@ -21,10 +21,7 @@ class GraphicsQualityOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | [GraphicsQualityOptions](./graphicsqualityoptions/)() |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_CompositingMode](./get_compositingmode/)() const | Gets a value that specifies how composited images are drawn to this Graphics. |
 | [get_CompositingQuality](./get_compositingquality/)() const | Gets the rendering quality of composited images drawn to this Graphics. |
 | [get_InterpolationMode](./get_interpolationmode/)() const | Gets the interpolation mode associated with this Graphics. |

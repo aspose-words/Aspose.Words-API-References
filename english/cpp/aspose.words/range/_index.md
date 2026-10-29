@@ -23,15 +23,12 @@ class Range : public System::Collections::Generic::IEnumerable<System::SharedPtr
 | --- | --- |
 | [Delete](./delete/)() | Deletes all characters of the range. |
 | [GetEnumerator](./getenumerator/)() override |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [NormalizeFieldTypes](./normalizefieldtypes/)() | Changes field type values [FieldType](../../aspose.words.fields/fieldchar/get_fieldtype/) of [FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/), [FieldEnd](../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
 | [Replace](./replace/)(const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
 | [Replace](./replace/)(const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \&) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
 | [Replace](./replace/)(const System::String \&, const System::String \&) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [Replace](./replace/)(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \&) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [ToDocument](./todocument/)() | Constructs a new fully formed document that contains the range. |
-| static [Type](./type/)() |  |
 | [UnlinkFields](./unlinkfields/)() | Unlinks fields in this range. |
 | [UpdateFields](./updatefields/)() | Updates the values of document fields in this range. |
 | [get_Bookmarks](./get_bookmarks/)() | Returns a [Bookmarks](./get_bookmarks/) collection that represents all bookmarks in the range. |

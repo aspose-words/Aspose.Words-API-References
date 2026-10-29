@@ -21,14 +21,8 @@ class DefaultFontSubstitutionRule : public FontSubstitutionRule
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DefaultFontName](./get_defaultfontname/)() | Gets or sets the default font name. |
 | [set_DefaultFontName](./set_defaultfontname/)(const System::String \&) | Sets the default font name. |
-| [GetType](../fontsubstitutionrule/gettype/)() const override |  |
-| [Is](../fontsubstitutionrule/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fontsubstitutionrule/type/)() |  |
 | virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
 | virtual [set_Enabled](../fontsubstitutionrule/set_enabled/)(bool) | Specifies whether the rule is enabled or not. |
 ## Remarks

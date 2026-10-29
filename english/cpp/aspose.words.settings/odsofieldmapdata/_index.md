@@ -22,10 +22,7 @@ class OdsoFieldMapData : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clone](./clone/)() | Returns a deep clone of this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [OdsoFieldMapData](./odsofieldmapdata/)() |  |
-| static [Type](./type/)() |  |
 | [get_Column](./get_column/)() const | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0. |
 | [get_MappedName](./get_mappedname/)() const | Specifies the predefined merge field name which shall be mapped to the column number specified by the [Column](./get_column/) property within this field mapping. The default value is an empty string. |
 | [get_Name](./get_name/)() const | Specifies the column name within an external data source for the column whose index is specified by the [Column](./get_column/) property. The default value is an empty string. |

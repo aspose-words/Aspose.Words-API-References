@@ -21,10 +21,7 @@ class HtmlFixedSaveOptions : public FixedPageSaveOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions/)() |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_CssClassNamesPrefix](./get_cssclassnamesprefix/)() const | Specifies prefix which is added to all class names in style.css file. Default value is **"aw"**. |
 | [get_Encoding](./get_encoding/)() const | Specifies the encoding to use when exporting to HTML. Default value is **new UTF8Encoding(true)** (UTF-8 with BOM). |
 | [get_ExportEmbeddedCss](./get_exportembeddedcss/)() const | Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document. |
@@ -66,9 +63,6 @@ class HtmlFixedSaveOptions : public FixedPageSaveOptions
 | [set_ShowPageBorder](./set_showpageborder/)(bool) | Specifies whether border around pages should be shown. Default is **true**. |
 | [set_UseTargetMachineFonts](./set_usetargetmachinefonts/)(bool) | Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to **true**, [FontFormat](./get_fontformat/) and [ExportEmbeddedFonts](./get_exportembeddedfonts/) properties do not have effect, also [ResourceSavingCallback](./get_resourcesavingcallback/) is not fired for fonts. Default is **false**. |
 | [Equals](../fixedpagesaveoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](../fixedpagesaveoptions/gettype/)() const override |  |
-| [Is](../fixedpagesaveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fixedpagesaveoptions/type/)() |  |
 | [get_ColorMode](../fixedpagesaveoptions/get_colormode/)() const | Gets or sets a value determining how colors are rendered. |
 | [get_JpegQuality](../fixedpagesaveoptions/get_jpegquality/)() const | Gets or sets a value determining the quality of the JPEG images inside Html document. |
 | [get_MetafileRenderingOptions](../fixedpagesaveoptions/get_metafilerenderingoptions/)() const | Allows to specify metafile rendering options. |
@@ -85,9 +79,6 @@ class HtmlFixedSaveOptions : public FixedPageSaveOptions
 | [set_PageSet](../fixedpagesaveoptions/set_pageset/)(const System::SharedPtr\<Aspose::Words::Saving::PageSet\> \&) | Sets the pages to render. Default is all the pages in the document. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

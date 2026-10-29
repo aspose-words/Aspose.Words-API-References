@@ -27,12 +27,9 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [AppendChild](./appendchild/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Adds the specified node to the end of the stdContent range. |
 | [GetChildNodes](./getchildnodes/)(Aspose::Words::NodeType, bool) override | Returns a live collection of child nodes that match the specified types. |
 | [GetEnumerator](./getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAllChildren](./removeallchildren/)() | Removes all the nodes between this range start node and the range end node. |
 | [RemoveSelfOnly](./removeselfonly/)() override | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
 | [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/)(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, Aspose::Words::Markup::SdtType) | Initializes a new instance of the Structured document tag range start class. |
-| static [Type](./type/)() |  |
 | [get_Appearance](./get_appearance/)() override | Gets or sets the appearance of the structured document tag. |
 | [get_Color](./get_color/)() override | Gets or sets the color of the structured document tag. |
 | [get_Id](./get_id/)() override | Specifies a unique read-only persistent numerical Id for this structured document tag. |
@@ -66,37 +63,24 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | virtual [Accept](../../aspose.words/node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
-| [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Gets the text of this node and of all its children. |
-| [GetType](../../aspose.words/node/gettype/)() const override |  |
-| [Is](../../aspose.words/node/is/)(const System::TypeInfo \&) const override |  |
-| [IsAncestorNode](../../aspose.words/node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
-| [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Exports the content of the node into a string using the specified save options. |
-| static [Type](../../aspose.words/node/type/)() |  |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | virtual [get_IsComposite](../../aspose.words/node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
-| [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | virtual [get_NodeType](../../aspose.words/node/get_nodetype/)() const | Gets the type of this node. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
-| [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Specifies custom node identifier. |
-| [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
-| [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | virtual [GetChildNodes](../istructureddocumenttag/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified types. |
-| [GetType](../istructureddocumenttag/gettype/)() const override |  |
-| [Is](../istructureddocumenttag/is/)(const System::TypeInfo \&) const override |  |
 | virtual [RemoveSelfOnly](../istructureddocumenttag/removeselfonly/)() | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
-| static [Type](../istructureddocumenttag/type/)() |  |
 | virtual [get_Appearance](../istructureddocumenttag/get_appearance/)() | Gets or sets the appearance of the structured document tag. |
 | virtual [get_Color](../istructureddocumenttag/get_color/)() | Gets or sets the color of the structured document tag. |
 | virtual [get_Id](../istructureddocumenttag/get_id/)() | Specifies a unique read-only persistent numerical Id for this SDT. |

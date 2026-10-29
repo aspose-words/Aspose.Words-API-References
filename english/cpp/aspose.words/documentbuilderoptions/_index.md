@@ -21,9 +21,6 @@ class DocumentBuilderOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [DocumentBuilderOptions](./documentbuilderoptions/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ContextTableFormatting](./get_contexttableformatting/)() const | True if the formatting applied to table content does not affect the formatting of the content that follows it. Default value is **true**. |
 | [get_DesignMode](./get_designmode/)() const | Corresponds to Design Mode in Microsoft Word. |
 | [set_ContextTableFormatting](./set_contexttableformatting/)(bool) | True if the formatting applied to table content does not affect the formatting of the content that follows it. Default value is **true**. |

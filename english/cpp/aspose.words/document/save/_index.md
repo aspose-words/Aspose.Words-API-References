@@ -271,12 +271,50 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", 
 ## Document::Save(std::basic_ostream\<CharType, Traits\> \&, Aspose::Words::SaveFormat) method
 
 
-
+Saves the document to a stream using the specified format.
 
 ```cpp
 template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> & stream, Aspose::Words::SaveFormat saveFormat)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_ostream\<CharType, Traits\> \& | Stream where to save the document. |
+| saveFormat | Aspose::Words::SaveFormat | The format in which to save the document. |
+
+### ReturnValue
+
+Additional information that you can optionally use.
+## Examples
+
+
+Shows how to save a document to an image via stream, and then read the image from that stream.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->get_Font()->set_Name(u"Times New Roman");
+builder->get_Font()->set_Size(24);
+builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+```
+
+Shows how to save a document to a stream.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
+
+{
+    auto dstStream = System::MakeObject<System::IO::MemoryStream>();
+    doc->Save(dstStream, SaveFormat::Docx);
+
+    // Verify that the stream contains the document.
+    ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", System::MakeObject<Aspose::Words::Document>(dstStream)->GetText().Trim());
+}
+```
 ## See Also
 
 * Class [Document](../)
@@ -285,12 +323,21 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Sav
 ## Document::Save(std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) method
 
 
-
+Saves the document to a stream using the specified save options.
 
 ```cpp
 template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Document::Save(std::basic_ostream<CharType, Traits> & stream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> & saveOptions)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_ostream\<CharType, Traits\> \& | Stream where to save the document. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \& | Specifies the options that control how the document is saved. Can be **null**. If this is **null**, the document will be saved in the binary DOC format. |
+
+### ReturnValue
+
+Additional information that you can optionally use.
 ## See Also
 
 * Class [Document](../)

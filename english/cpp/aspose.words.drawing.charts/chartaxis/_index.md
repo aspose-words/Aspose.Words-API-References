@@ -24,9 +24,6 @@ class ChartAxis : public Core::IDmlChartTitleHolder,
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AxisBetweenCategories](./get_axisbetweencategories/)() | Gets or sets a flag indicating whether the value axis crosses the category axis between categories. |
 | [get_BaseTimeUnit](./get_basetimeunit/)() | Returns or sets the smallest time unit that is represented on the time category axis. |
 | [get_CategoryType](./get_categorytype/)() | Gets or sets type of the category axis. |

@@ -27,10 +27,7 @@ class PreferredWidth : public System::Object
 | static [FromPercent](./frompercent/)(double) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
 | static [FromPoints](./frompoints/)(double) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |
-| static [Type](./type/)() |  |
 | [get_Type](./get_type/)() const | Gets the unit of measure used for this preferred width value. |
 | [get_Value](./get_value/)() const | Gets the preferred width value. The unit of measure is specified in the [Type](./get_type/) property. |
 ## Remarks

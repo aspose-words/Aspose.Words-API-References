@@ -21,9 +21,6 @@ class ChartAxisTitle : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Font](./get_font/)() | Provides access to the font formatting of the axis title. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the axis title. |
 | [get_Orientation](./get_orientation/)() | Gets or sets the orientation of the axis title text. |

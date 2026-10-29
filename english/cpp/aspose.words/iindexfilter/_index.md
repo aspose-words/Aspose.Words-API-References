@@ -20,10 +20,7 @@ class IIndexFilter : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [ShouldSkipIndex](./shouldskipindex/)(int32_t) | Determines whether the item with the specified index should be skipped. |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words](../)

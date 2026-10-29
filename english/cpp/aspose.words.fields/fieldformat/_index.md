@@ -21,9 +21,6 @@ class FieldFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DateTimeFormat](./get_datetimeformat/)() | Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch. |
 | [get_GeneralFormats](./get_generalformats/)() | Gets a collection of general formats that are applied to a numeric, text or any field result. Corresponds to the \* switches. |
 | [get_NumericFormat](./get_numericformat/)() | Gets or sets a formatting that is applied to a numeric field result. Corresponds to the \# switch. |

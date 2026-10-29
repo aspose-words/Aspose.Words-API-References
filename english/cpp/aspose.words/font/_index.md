@@ -24,10 +24,7 @@ class Font : public IBorderAttrSource,
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Resets to default font formatting. |
-| [GetType](./gettype/)() const override |  |
 | [HasDmlEffect](./hasdmleffect/)(Aspose::Words::TextDmlEffect) | Checks if particular DrawingML text effect is applied. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AllCaps](./get_allcaps/)() | True if the font is formatted as all capital letters. |
 | [get_AutoColor](./get_autocolor/)() | Returns the present calculated color of the text (black or white) to be used for 'auto color'. If the color is not 'auto' then returns [Color](./get_color/). |
 | [get_Bidi](./get_bidi/)() | Specifies whether the contents of this run shall have right-to-left characteristics. |

@@ -21,10 +21,7 @@ class IStructuredDocumentTag : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetChildNodes](./getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified types. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [RemoveSelfOnly](./removeselfonly/)() | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
-| static [Type](./type/)() |  |
 | virtual [get_Appearance](./get_appearance/)() | Gets or sets the appearance of the structured document tag. |
 | virtual [get_Color](./get_color/)() | Gets or sets the color of the structured document tag. |
 | virtual [get_Id](./get_id/)() | Specifies a unique read-only persistent numerical Id for this SDT. |

@@ -21,9 +21,6 @@ class AdvancedCompareOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [AdvancedCompareOptions](./advancedcompareoptions/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_CompareListDefinitions](./get_comparelistdefinitions/)() const | Specifies whether list definition contents are compared instead of list definition Ids. |
 | [get_IgnoreDmlUniqueId](./get_ignoredmluniqueid/)() const | Specifies whether to ignore difference in DrawingML unique Id. |
 | [get_IgnoreStoreItemId](./get_ignorestoreitemid/)() const | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |

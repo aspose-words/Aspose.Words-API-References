@@ -21,9 +21,6 @@ class FootnoteOptions : public IFootnoteOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Columns](./get_columns/)() | Specifies the number of columns with which the footnotes area is formatted. |
 | [get_NumberStyle](./get_numberstyle/)() override | Specifies the number format for automatically numbered footnotes. |
 | [get_Position](./get_position/)() | Specifies the footnotes position. |

@@ -22,9 +22,6 @@ class PageSetup : public IBorderAttrSource
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Resets page setup to default paper size, margins and orientation. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Bidi](./get_bidi/)() | Specifies that this section contains bidirectional (complex scripts) text. |
 | [get_BorderAlwaysInFront](./get_borderalwaysinfront/)() | Specifies where the page border is positioned relative to intersecting texts and objects. |
 | [get_BorderAppliesTo](./get_borderappliesto/)() | Specifies which pages the page border is printed on. |

@@ -23,15 +23,6 @@ class FontInfoCollection : public System::Collections::Generic::IEnumerable<Syst
 | --- | --- |
 | [Contains](./contains/)(const System::String \&) | Determines whether the collection contains a font with the given name. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
-| [begin](./begin/)() |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [get_EmbedSystemFonts](./get_embedsystemfonts/)() const | Specifies whether or not to embed System fonts into the document. Default value for this property is **false**.
 
@@ -49,19 +40,6 @@ This option works only when [EmbedTrueTypeFonts](./get_embedtruetypefonts/) opti
 | [set_SaveSubsetFonts](./set_savesubsetfonts/)(bool) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**.
 
 This option works only when [EmbedTrueTypeFonts](./get_embedtruetypefonts/) property is set to **true**. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

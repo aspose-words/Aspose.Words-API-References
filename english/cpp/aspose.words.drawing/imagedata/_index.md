@@ -22,19 +22,16 @@ class ImageData : public IBorderAttrSource
 | Method | Description |
 | --- | --- |
 | [FitImageToShape](./fitimagetoshape/)() | Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&) | Saves the image into the specified stream. |
 | [Save](./save/)(const System::String \&) | Saves the image into a file. |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&) |  |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&) | Saves the image into the specified stream. |
 | [SetImage](./setimage/)(const System::SharedPtr\<System::Drawing::Image\> \&) | Sets the image that the shape displays. |
 | [SetImage](./setimage/)(const System::SharedPtr\<System::IO::Stream\> \&) | Sets the image that the shape displays. |
 | [SetImage](./setimage/)(const System::String \&) | Sets the image that the shape displays. |
-| [SetImage](./setimage/)(std::basic_istream\<CharType, Traits\> \&) |  |
+| [SetImage](./setimage/)(std::basic_istream\<CharType, Traits\> \&) | Sets the image that the shape displays. |
 | [ToByteArray](./tobytearray/)() | Returns image bytes for any image regardless whether the image is stored or linked. |
 | [ToImage](./toimage/)() | Gets the image stored in the shape as a **Image** object. |
 | [ToStream](./tostream/)() | Creates and returns a stream that contains the image bytes. |
-| static [Type](./type/)() |  |
 | [get_BiLevel](./get_bilevel/)() | Determines whether an image will be displayed in black and white. |
 | [get_Borders](./get_borders/)() | Gets the collection of borders of the image. Borders only have effect for inline images. |
 | [get_Brightness](./get_brightness/)() | Gets or sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest). |

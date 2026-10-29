@@ -21,12 +21,9 @@ class HtmlLoadOptions : public LoadOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | [HtmlLoadOptions](./htmlloadoptions/)() | Initializes a new instance of this class with default values. |
 | [HtmlLoadOptions](./htmlloadoptions/)(Aspose::Words::LoadFormat, const System::String \&, const System::String \&) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 | [HtmlLoadOptions](./htmlloadoptions/)(const System::String \&) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_BlockImportMode](./get_blockimportmode/)() const | Gets or sets a value that specifies how properties of block-level elements are imported. Default value is [Merge](../blockimportmode/). |
 | [get_ConvertSvgToEmf](./get_convertsvgtoemf/)() const | Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is **false** and, if possible, loaded SVG images are stored as is without conversion. |
 | [get_IgnoreNoscriptElements](./get_ignorenoscriptelements/)() const | Gets or sets a value indicating whether to ignore <noscript> HTML elements. Default value is **false**. |
@@ -42,12 +39,9 @@ class HtmlLoadOptions : public LoadOptions
 | [set_SupportVml](./set_supportvml/)(bool) | Sets a value indicating whether to support VML images. |
 | [set_WebRequestTimeout](./set_webrequesttimeout/)(int32_t) | The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). |
 | [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](../loadoptions/gettype/)() const override |  |
-| [Is](../loadoptions/is/)(const System::TypeInfo \&) const override |  |
 | [LoadOptions](../loadoptions/loadoptions/)() | Initializes a new instance of this class with default values. |
 | [LoadOptions](../loadoptions/loadoptions/)(Aspose::Words::LoadFormat, const System::String \&, const System::String \&) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 | [LoadOptions](../loadoptions/loadoptions/)(const System::String \&) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| static [Type](../loadoptions/type/)() |  |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile(**Wmf** or **Emf**) images to **Png** image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |

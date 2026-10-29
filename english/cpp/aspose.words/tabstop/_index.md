@@ -23,11 +23,8 @@ class TabStop : public System::Object
 | --- | --- |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::TabStop\> \&) | Compares with the specified [TabStop](./). |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [TabStop](./tabstop/)(double) | Initializes a new instance of this class. |
 | [TabStop](./tabstop/)(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) | Initializes a new instance of this class. |
-| static [Type](./type/)() |  |
 | [get_Alignment](./get_alignment/)() const | Gets or sets the alignment of text at this tab stop. |
 | [get_IsClear](./get_isclear/)() | Returns **true** if this tab stop clears any existing tab stops in this position. |
 | [get_Leader](./get_leader/)() const | Gets or sets the type of the leader line displayed under the tab character. |

@@ -23,9 +23,6 @@ class FieldToc : public Field,
 | Method | Description |
 | --- | --- |
 | [FieldToc](./fieldtoc/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [UpdatePageNumbers](./updatepagenumbers/)() | Updates the page numbers for items in this table of contents. |
 | [get_BookmarkName](./get_bookmarkname/)() | Gets the name of the bookmark that marks the portion of the document used to build the table. |
 | [get_CaptionlessTableOfFiguresLabel](./get_captionlesstableoffigureslabel/)() | Gets or sets the name of the sequence identifier used when building a table of figures that does not include caption's label and number. |
@@ -61,17 +58,12 @@ class FieldToc : public Field,
 | [set_UseParagraphOutlineLevel](./set_useparagraphoutlinelevel/)(bool) | Sets whether to use the applied paragraph outline level. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [GetType](../field/gettype/)() const override |  |
-| [Is](../field/is/)(const System::TypeInfo \&) const override |  |
 | virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| static [Type](../field/type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
-| [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
-| [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |

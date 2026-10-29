@@ -22,17 +22,11 @@ class StreamFontSource : public FontSourceBase,
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [OpenFontDataStream](./openfontdatastream/)() | This method should open the stream with font data on demand. |
-| static [Type](./type/)() |  |
 | [get_CacheKey](./get_cachekey/)() const | The key of this source in the cache. |
 | [get_IsEmbedded](./get_isembedded/)() override |  |
 | [get_Type](./get_type/)() override | Returns the type of the font source. |
 | [GetAvailableFonts](../fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
-| [GetType](../fontsourcebase/gettype/)() const override |  |
-| [Is](../fontsourcebase/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fontsourcebase/type/)() |  |
 | [get_Priority](../fontsourcebase/get_priority/)() const | Returns the font source priority. |
 | virtual [get_Type](../fontsourcebase/get_type/)() | Returns the type of the font source. |
 | [get_WarningCallback](../fontsourcebase/get_warningcallback/)() const | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |

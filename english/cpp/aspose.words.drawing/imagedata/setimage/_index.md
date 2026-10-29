@@ -103,12 +103,16 @@ ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInf
 ## ImageData::SetImage(std::basic_istream\<CharType, Traits\> \&) method
 
 
-
+Sets the image that the shape displays.
 
 ```cpp
 template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageData::SetImage(std::basic_istream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | The stream that contains the image. |
 ## See Also
 
 * Class [ImageData](../)

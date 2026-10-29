@@ -21,9 +21,6 @@ class ChartNumberFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_FormatCode](./get_formatcode/)() | Gets or sets the format code applied to a data label. |
 | [get_IsLinkedToSource](./get_islinkedtosource/)() | Specifies whether the format code is linked to a source cell. Default is true. |
 | [set_FormatCode](./set_formatcode/)(const System::String \&) | Sets the format code applied to a data label. |

@@ -23,11 +23,8 @@ class FormFieldCollection : public System::Collections::Generic::IEnumerable<Sys
 | --- | --- |
 | [Clear](./clear/)() | Removes all form fields from this collection and from the document. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(const System::String \&) | Removes a form field with the specified name. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a form field at the specified index. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Returns the number of form fields in the collection. |
 | [idx_get](./idx_get/)(const System::String \&) | Returns a form field by bookmark name. |
 | [idx_get](./idx_get/)(int32_t) | Returns a form field at the specified index. |

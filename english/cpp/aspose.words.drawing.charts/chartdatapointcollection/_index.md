@@ -24,10 +24,7 @@ class ChartDataPointCollection : public System::Collections::Generic::IEnumerabl
 | [ClearFormat](./clearformat/)() | Clears format of all [ChartDataPoint](../chartdatapoint/) in this collection. |
 | [CopyFormat](./copyformat/)(int32_t, int32_t) | Copies format from the source data point to the destination data point. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
 | [HasDefaultFormat](./hasdefaultformat/)(int32_t) | Gets a flag indicating whether the data point at the specified index has default format. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Returns the number of [ChartDataPoint](../chartdatapoint/) in this collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns [ChartDataPoint](../chartdatapoint/) for the specified index. |
 ## See Also

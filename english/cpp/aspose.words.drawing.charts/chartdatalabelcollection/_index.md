@@ -25,9 +25,6 @@ class ChartDataLabelCollection : public System::Collections::Generic::IEnumerabl
 | --- | --- |
 | [ClearFormat](./clearformat/)() | Clears format of all [ChartDataLabel](../chartdatalabel/) in this collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Returns the number of [ChartDataLabel](../chartdatalabel/) in this collection. |
 | [get_Font](./get_font/)() | Provides access to the font formatting of the data labels of the entire series. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the data labels. |

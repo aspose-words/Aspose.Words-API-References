@@ -20,9 +20,6 @@ class IChartDataPoint : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | virtual [get_Bubble3D](./get_bubble3d/)() | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | virtual [get_Explosion](./get_explosion/)() | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | virtual [get_InvertIfNegative](./get_invertifnegative/)() | Specifies whether the parent element shall inverts its colors if the value is negative. |

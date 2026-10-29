@@ -21,9 +21,6 @@ class IBibliographyStylesProvider : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetStyle](./getstyle/)(System::String) | Returns bibliography style. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

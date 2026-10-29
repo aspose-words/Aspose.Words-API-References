@@ -22,9 +22,6 @@ class ThemeColors : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Accent1](./get_accent1/)() | Specifies color Accent 1. |
 | [get_Accent2](./get_accent2/)() | Specifies color Accent 2. |
 | [get_Accent3](./get_accent3/)() | Specifies color Accent 3. |

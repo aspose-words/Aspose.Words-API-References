@@ -21,9 +21,6 @@ class FontSubstitutionRule : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | virtual [get_Enabled](./get_enabled/)() | Specifies whether the rule is enabled or not. |
 | virtual [set_Enabled](./set_enabled/)(bool) | Specifies whether the rule is enabled or not. |
 ## Examples

@@ -20,10 +20,7 @@ class SummarizeOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SummarizeOptions](./summarizeoptions/)() | Initializes a new instances of [SummarizeOptions](./) class. |
-| static [Type](./type/)() |  |
 | [get_SummaryLength](./get_summarylength/)() const | Allows to specify summary length. Default value is [Medium](../summarylength/). |
 | [set_SummaryLength](./set_summarylength/)(Aspose::Words::AI::SummaryLength) | Allows to specify summary length. Default value is [Medium](../summarylength/). |
 ## Examples

@@ -24,36 +24,11 @@ class WarningInfoCollection : public IWarningCallback,
 | --- | --- |
 | [Clear](./clear/)() | Removes all elements from the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [Warning](./warning/)(System::SharedPtr\<Aspose::Words::WarningInfo\>) override | Implements the [IWarningCallback](../iwarningcallback/) interface. Adds a warning to this collection. |
 | [WarningInfoCollection](./warninginfocollection/)() |  |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets an item at the specified index. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-| [GetType](../iwarningcallback/gettype/)() const override |  |
-| [Is](../iwarningcallback/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../iwarningcallback/type/)() |  |
 | virtual [Warning](../iwarningcallback/warning/)(System::SharedPtr\<Aspose::Words::WarningInfo\>) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

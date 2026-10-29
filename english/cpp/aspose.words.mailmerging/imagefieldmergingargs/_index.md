@@ -21,9 +21,6 @@ class ImageFieldMergingArgs : public FieldMergingArgsBase
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Image](./get_image/)() const | Specifies the image that the mail merge engine must insert into the document. |
 | [get_ImageFileName](./get_imagefilename/)() const | Sets the file name of the image that the mail merge engine must insert into the document. |
 | [get_ImageHeight](./get_imageheight/)() const | Specifies the image height for the image to insert into the document. |
@@ -37,9 +34,6 @@ class ImageFieldMergingArgs : public FieldMergingArgsBase
 | [set_ImageStream](./set_imagestream/)(std::basic_istream\<CharType, Traits\> \&) | Specifies the stream for the mail merge engine to read an image from. |
 | [set_ImageWidth](./set_imagewidth/)(const System::SharedPtr\<Aspose::Words::Fields::MergeFieldImageDimension\> \&) | Specifies the image width for the image to insert into the document. |
 | [set_Shape](./set_shape/)(const System::SharedPtr\<Aspose::Words::Drawing::Shape\> \&) | Specifies the shape that the mail merge engine must insert into the document. |
-| [GetType](../fieldmergingargsbase/gettype/)() const override |  |
-| [Is](../fieldmergingargsbase/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fieldmergingargsbase/type/)() |  |
 | [get_Document](../fieldmergingargsbase/get_document/)() const | Returns the [Document](../fieldmergingargsbase/get_document/) object for which the mail merge is performed. |
 | [get_DocumentFieldName](../fieldmergingargsbase/get_documentfieldname/)() const | Gets the name of the merge field as specified in the document. |
 | [get_Field](../fieldmergingargsbase/get_field/)() const | Gets the object that represents the current merge field. |

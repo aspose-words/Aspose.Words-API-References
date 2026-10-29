@@ -21,9 +21,6 @@ class ChartDataTable : public Core::IChartItemTextProperties,
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Font](./get_font/)() | Provides access to font formatting of the data table. |
 | [get_Format](./get_format/)() | Provides access to fill of text background and border formatting of the data table. |
 | [get_HasHorizontalBorder](./get_hashorizontalborder/)() const | Gets or sets a flag indicating whether a horizontal border of the data table is displayed. The default value is **true**. |

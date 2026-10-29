@@ -21,13 +21,10 @@ class License : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [License](./license/)() | Initializes a new instance of this class. |
 | [SetLicense](./setlicense/)(const System::SharedPtr\<System::IO::Stream\> \&) | Licenses the component. |
 | [SetLicense](./setlicense/)(const System::String \&) | Licenses the component. |
-| [SetLicense](./setlicense/)(std::basic_istream\<CharType, Traits\> \&) |  |
-| static [Type](./type/)() |  |
+| [SetLicense](./setlicense/)(std::basic_istream\<CharType, Traits\> \&) | Licenses the component. |
 ## Examples
 
 

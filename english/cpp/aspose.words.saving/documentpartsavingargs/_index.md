@@ -21,9 +21,6 @@ class DocumentPartSavingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Document](./get_document/)() const | Gets the document object that is being saved. |
 | [get_DocumentPartFileName](./get_documentpartfilename/)() const | Gets or sets the file name (without path) where the document part will be saved to. |
 | [get_DocumentPartStream](./get_documentpartstream/)() const | Allows to specify the stream where the document part will be saved to. |

@@ -23,9 +23,6 @@ class ParagraphFormat : public IBorderAttrSource,
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Resets to default paragraph formatting. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AddSpaceBetweenFarEastAndAlpha](./get_addspacebetweenfareastandalpha/)() | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [get_AddSpaceBetweenFarEastAndDigit](./get_addspacebetweenfareastanddigit/)() | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [get_Alignment](./get_alignment/)() | Gets or sets text alignment for the paragraph. |

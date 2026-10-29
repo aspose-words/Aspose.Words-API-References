@@ -21,9 +21,6 @@ class NodeChangingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Action](./get_action/)() const | Gets a value indicating what type of node change event is occurring. |
 | [get_NewParent](./get_newparent/)() const | Gets the node's parent that will be set after the operation completes. |
 | [get_Node](./get_node/)() const | Gets the [Node](./get_node/) that is being added or removed. |

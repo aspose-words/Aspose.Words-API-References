@@ -21,10 +21,6 @@ class TxtSaveOptionsBase : public SaveOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| [TxtSaveOptionsBase](./txtsaveoptionsbase/)() |  |
-| static [Type](./type/)() |  |
 | [get_Encoding](./get_encoding/)() const | Specifies the encoding to use when exporting in text formats. Default value is Encoding.UTF8. |
 | [get_ExportHeadersFootersMode](./get_exportheadersfootersmode/)() const | Specifies the way headers and footers are exported to the text formats. Default value is [PrimaryOnly](../txtexportheadersfootersmode/). |
 | [get_ForcePageBreaks](./get_forcepagebreaks/)() const | Allows to specify whether the page breaks should be preserved during export.
@@ -39,9 +35,6 @@ The default value is **false**. |
 | [set_ParagraphBreak](./set_paragraphbreak/)(const System::String \&) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

@@ -21,11 +21,8 @@ class ImageSize : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | [ImageSize](./imagesize/)(int32_t, int32_t) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
 | [ImageSize](./imagesize/)(int32_t, int32_t, double, double) | Initializes width, height and resolution to the given values. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_HeightPixels](./get_heightpixels/)() const | Gets the height of the image in pixels. |
 | [get_HeightPoints](./get_heightpoints/)() | Gets the height of the image in points. 1 point is 1/72 inch. |
 | [get_HorizontalResolution](./get_horizontalresolution/)() const | Gets the horizontal resolution in DPI. |

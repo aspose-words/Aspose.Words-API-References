@@ -22,9 +22,6 @@ class BarcodeParameters : public System::Object
 | Method | Description |
 | --- | --- |
 | [BarcodeParameters](./barcodeparameters/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AddStartStopChar](./get_addstartstopchar/)() const | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [get_BackgroundColor](./get_backgroundcolor/)() const | Bar code background color (0x000000 - 0xFFFFFF) |
 | [get_BarcodeType](./get_barcodetype/)() const | Bar code type. |
@@ -61,7 +58,7 @@ class BarcodeParameters : public System::Object
 | [set_SymbolRotation](./set_symbolrotation/)(const System::String \&) | Rotation of the barcode symbol. Valid values are [0, 3]. |
 ## Remarks
 
- The set of parameters are according to [DISPLAYBARCODE field options. See the exact list at](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
+ The set of parameters are according to [DISPLAYBARCODE field options. See the exact list at](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx) 
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

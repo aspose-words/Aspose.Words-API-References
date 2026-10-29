@@ -22,10 +22,7 @@ class OdsoRecipientData : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clone](./clone/)() | Returns a deep clone of this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [OdsoRecipientData](./odsorecipientdata/)() |  |
-| static [Type](./type/)() |  |
 | [get_Active](./get_active/)() const | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is **true**. |
 | [get_Column](./get_column/)() const | Specifies the column within the data source that contains unique data for the current record. The default value is 0. |
 | [get_Hash](./get_hash/)() const | Represents the hash code for this record. Sometimes Microsoft Word uses [Hash](./get_hash/) of a whole record instead of a [UniqueTag](./get_uniquetag/) value. The default value is 0. |

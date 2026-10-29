@@ -20,10 +20,7 @@ class IDocumentMergerPlugin : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [Merge](./merge/)(System::SharedPtr\<System::IO::Stream\>, System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>, System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>) | Merges the given input PDF documents into a single output PDF document using specified input and output streams. |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words](../)

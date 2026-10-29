@@ -21,9 +21,6 @@ class SaveOutputParameters : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ContentType](./get_contenttype/)() const | Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document. |
 ## Examples
 

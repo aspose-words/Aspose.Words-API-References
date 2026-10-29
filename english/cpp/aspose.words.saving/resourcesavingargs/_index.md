@@ -21,9 +21,6 @@ class ResourceSavingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Document](./get_document/)() const | Gets the document object that is currently being saved. |
 | [get_KeepResourceStreamOpen](./get_keepresourcestreamopen/)() const | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
 | [get_ResourceFileName](./get_resourcefilename/)() const | Gets or sets the file name (without path) where the resource will be saved to. |

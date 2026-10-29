@@ -21,9 +21,6 @@ class MailMergeRegionInfo : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_EndField](./get_endfield/)() const | Returns an end field for the region. |
 | [get_EndMustacheTag](./get_endmustachetag/)() const | Returns an end "mustache" tag for the region. |
 | [get_Fields](./get_fields/)() const | Returns a list of child fields. |

@@ -21,11 +21,8 @@ class SdtListItem : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SdtListItem](./sdtlistitem/)(const System::String \&) | Initializes a new instance of this class. |
 | [SdtListItem](./sdtlistitem/)(const System::String \&, const System::String \&) | Initializes a new instance of this class. |
-| static [Type](./type/)() |  |
 | [get_DisplayText](./get_displaytext/)() const | Gets the text to display in the run content in place of the [Value](./get_value/) attribute contents for this list item. |
 | [get_Value](./get_value/)() const | Gets the value of this list item. |
 ## Examples

@@ -20,9 +20,6 @@ class ContributorCollection : public System::Collections::Generic::IEnumerable<S
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Artist](./get_artist/)() | Gets or sets the artist of a source. |
 | [get_Author](./get_author/)() | Gets or sets the author of a source. |
 | [get_BookAuthor](./get_bookauthor/)() | Gets or sets the book author of a source. |

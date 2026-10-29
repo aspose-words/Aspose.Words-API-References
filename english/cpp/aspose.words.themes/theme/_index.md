@@ -22,10 +22,7 @@ class Theme : public Drawing::Core::Dml::Themes::IThemeProvider,
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Theme](./theme/)() |  |
-| static [Type](./type/)() |  |
 | [get_Colors](./get_colors/)() const | Allows to specify the set of theme colors for the document. |
 | [get_MajorFonts](./get_majorfonts/)() const | Allows to specify the set of major fonts for different languages. |
 | [get_MinorFonts](./get_minorfonts/)() const | Allows to specify the set of minor fonts for different languages. |

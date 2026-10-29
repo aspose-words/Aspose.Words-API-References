@@ -21,10 +21,7 @@ class PageSavingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PageSavingArgs](./pagesavingargs/)() |  |
-| static [Type](./type/)() |  |
 | [get_KeepPageStreamOpen](./get_keeppagestreamopen/)() const | Specifies whether Aspose.Words should keep the stream open or close it after saving a document page. |
 | [get_PageFileName](./get_pagefilename/)() const | Gets or sets the file name where the document page will be saved to. |
 | [get_PageIndex](./get_pageindex/)() const | Current page index. |

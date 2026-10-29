@@ -20,9 +20,6 @@ class AdjustmentCollection : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns an adjustment at the specified index. |
 ## Examples

@@ -23,10 +23,7 @@ class CellFormat : public IBorderAttrSource,
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Resets to default cell formatting. Does not change the width of the cell. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SetPaddings](./setpaddings/)(double, double, double, double) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
-| static [Type](./type/)() |  |
 | [get_Borders](./get_borders/)() | Gets collection of borders of the cell. |
 | [get_BottomPadding](./get_bottompadding/)() | Returns or sets the amount of space (in points) to add below the contents of cell. |
 | [get_FitText](./get_fittext/)() | If **true**, fits text in the cell, compressing each paragraph to the width of the cell. |

@@ -25,36 +25,14 @@ class VariableCollection : public System::Collections::Generic::IEnumerable<Syst
 | [Clear](./clear/)() | Removes all elements from the collection. |
 | [Contains](./contains/)(const System::String \&) | Determines whether the collection contains a document variable with the given name. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all variable in the collection. |
-| [GetType](./gettype/)() const override |  |
 | [IndexOfKey](./indexofkey/)(const System::String \&) | Returns the zero-based index of the specified document variable in the collection. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(const System::String \&) | Removes a document variable with the specified name from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a document variable at the specified index. |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
-| [begin](./begin/)() |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [idx_get](./idx_get/)(const System::String \&) | Gets or a sets a document variable by the case-insensitive name. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets a document variable at the specified index. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
 | [idx_set](./idx_set/)(const System::String \&, const System::String \&) | Gets or a sets a document variable by the case-insensitive name. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
 | [idx_set](./idx_set/)(int32_t, const System::String \&) | Gets or sets a document variable at the specified index. **null** values are not allowed as a right hand side of the assignment and will be replaced by empty string. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

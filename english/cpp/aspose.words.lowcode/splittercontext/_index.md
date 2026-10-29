@@ -20,15 +20,9 @@ class SplitterContext : public ProcessorContext
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SplitterContext](./splittercontext/)() |  |
-| static [Type](./type/)() |  |
 | [get_SplitOptions](./get_splitoptions/)() const | Document split options. |
-| [GetType](../processorcontext/gettype/)() const override |  |
-| [Is](../processorcontext/is/)(const System::TypeInfo \&) const override |  |
 | [ProcessorContext](../processorcontext/processorcontext/)() |  |
-| static [Type](../processorcontext/type/)() |  |
 | [get_FontSettings](../processorcontext/get_fontsettings/)() const | Font settings used by the processor. |
 | [get_LayoutOptions](../processorcontext/get_layoutoptions/)() const | Document layout options used by the processor. |
 | [get_WarningCallback](../processorcontext/get_warningcallback/)() const | Warning callback used by the processor. |

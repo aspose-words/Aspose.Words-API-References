@@ -21,9 +21,6 @@ class RevisionGroup : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Author](./get_author/)() | Gets the author of this revision group. |
 | [get_RevisionType](./get_revisiontype/)() | Gets the type of revisions included in this group. |
 | [get_Text](./get_text/)() | Returns inserted/deleted/moved text or description of format change. |

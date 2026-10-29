@@ -23,9 +23,6 @@ class CustomXmlPart : public System::Object
 | --- | --- |
 | [Clone](./clone/)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [Data](./get_data/) value. |
 | [CustomXmlPart](./customxmlpart/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Data](./get_data/)() const | Gets or sets the XML content of this Custom XML Data Storage Part. |
 | [get_DataChecksum](./get_datachecksum/)() | Specifies a cyclic redundancy check (CRC) checksum of the [Data](./get_data/) content. |
 | [get_Id](./get_id/)() const | Gets or sets the string that identifies this custom XML part within an OOXML document. |

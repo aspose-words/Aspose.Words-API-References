@@ -26,10 +26,7 @@ class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::List\> \&) | Compares with the specified list. |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this list object. |
-| [GetType](./gettype/)() const override |  |
 | [HasSameTemplate](./hassametemplate/)(const System::SharedPtr\<Aspose::Words::Lists::List\> \&) | Returns true if the current list and the given list are created from the same template. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Document](./get_document/)() const | Gets the owner document. |
 | [get_IsListStyleDefinition](./get_isliststyledefinition/)() | Returns **true** if this list is a definition of a list style. |
 | [get_IsListStyleReference](./get_isliststylereference/)() | Returns **true** if this list is a reference to a list style. |

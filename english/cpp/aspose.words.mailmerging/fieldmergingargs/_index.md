@@ -21,14 +21,8 @@ class FieldMergingArgs : public FieldMergingArgsBase
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Text](./get_text/)() const | Gets or sets the text that will be inserted into the document for the current merge field. |
 | [set_Text](./set_text/)(const System::String \&) | Sets the text that will be inserted into the document for the current merge field. |
-| [GetType](../fieldmergingargsbase/gettype/)() const override |  |
-| [Is](../fieldmergingargsbase/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fieldmergingargsbase/type/)() |  |
 | [get_Document](../fieldmergingargsbase/get_document/)() const | Returns the [Document](../fieldmergingargsbase/get_document/) object for which the mail merge is performed. |
 | [get_DocumentFieldName](../fieldmergingargsbase/get_documentfieldname/)() const | Gets the name of the merge field as specified in the document. |
 | [get_Field](../fieldmergingargsbase/get_field/)() const | Gets the object that represents the current merge field. |

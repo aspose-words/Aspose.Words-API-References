@@ -22,9 +22,6 @@ class AxisScaling : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 | Method | Description |
 | --- | --- |
 | [AxisScaling](./axisscaling/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_LogBase](./get_logbase/)() const | Gets or sets the logarithmic base for a logarithmic axis. |
 | [get_Maximum](./get_maximum/)() | Gets or sets the maximum value of the axis. |
 | [get_Minimum](./get_minimum/)() | Gets or sets minimum value of the axis. |

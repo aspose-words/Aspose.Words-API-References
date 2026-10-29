@@ -21,9 +21,6 @@ class WebExtensionProperty : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [WebExtensionProperty](./webextensionproperty/)(const System::String \&, const System::String \&) | Creates web extension custom property with specified name and value. |
 | [get_Name](./get_name/)() const | Specifies a custom property name |
 | [get_Value](./get_value/)() const | Specifies a custom property value. |

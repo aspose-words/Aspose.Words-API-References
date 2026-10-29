@@ -184,12 +184,51 @@ doc->Save(get_ArtifactsDir() + u"Charts.Funnel.docx");
 ## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<System::String\> \&, const System::ArrayPtr\<double\> \&, const System::ArrayPtr\<_Bool\> \&) method
 
 
-
+Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to Waterfall charts.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<System::String> & categories, const System::ArrayPtr<double> & values, const System::ArrayPtr<_Bool> & isSubtotal)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| seriesName | const System::String \& | A name of the series to be added. |
+| categories | const System::ArrayPtr\<System::String\> \& | Category names for the X axis. |
+| values | const System::ArrayPtr\<double\> \& | Y-axis values. |
+| isSubtotal | const System::ArrayPtr\<_Bool\> \& | Values indicating whether the corresponding Y value is a subtotal. |
+
+### ReturnValue
+
+Recently added [ChartSeries](../../chartseries/) object.
+## Remarks
+
+ For chart types other than Waterfall, isSubtotal values are ignored. 
+## Examples
+
+
+Shows how to create waterfall chart.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a Waterfall chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Waterfall, static_cast<double>(450), static_cast<double>(450));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Title()->set_Text(u"New Zealand GDP");
+
+// Delete default generated series.
+chart->get_Series()->Clear();
+
+// Add a series.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series = chart->get_Series()->Add(u"New Zealand GDP", System::MakeArray<System::String>({u"2018", u"2019 growth", u"2020 growth", u"2020", u"2021 growth", u"2022 growth", u"2022"}), System::MakeArray<double>({100, 0.57, -0.25, 100.32, 20.22, -2.92, 117.62}), System::MakeArray<bool>({true, false, false, true, false, false, true}));
+
+// Show data labels.
+series->set_HasDataLabels(true);
+
+doc->Save(get_ArtifactsDir() + u"Charts.Waterfall.docx");
+```
 ## See Also
 
 * Class [ChartSeriesCollection](../)

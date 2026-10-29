@@ -21,10 +21,7 @@ class TxtSaveOptions : public TxtSaveOptionsBase
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [TxtSaveOptions](./txtsaveoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_AddBidiMarks](./get_addbidimarks/)() const | Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.
 
 The default value is **false**. |
@@ -46,10 +43,6 @@ The default value is **false**. |
 | [set_SimplifyListLabels](./set_simplifylistlabels/)(bool) | Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.
 
 If set to **true**, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is **false**. |
-| [GetType](../txtsaveoptionsbase/gettype/)() const override |  |
-| [Is](../txtsaveoptionsbase/is/)(const System::TypeInfo \&) const override |  |
-| [TxtSaveOptionsBase](../txtsaveoptionsbase/txtsaveoptionsbase/)() |  |
-| static [Type](../txtsaveoptionsbase/type/)() |  |
 | [get_Encoding](../txtsaveoptionsbase/get_encoding/)() const | Specifies the encoding to use when exporting in text formats. Default value is Encoding.UTF8. |
 | [get_ExportHeadersFootersMode](../txtsaveoptionsbase/get_exportheadersfootersmode/)() const | Specifies the way headers and footers are exported to the text formats. Default value is [PrimaryOnly](../txtexportheadersfootersmode/). |
 | [get_ForcePageBreaks](../txtsaveoptionsbase/get_forcepagebreaks/)() const | Allows to specify whether the page breaks should be preserved during export.
@@ -64,9 +57,6 @@ The default value is **false**. |
 | [set_ParagraphBreak](../txtsaveoptionsbase/set_paragraphbreak/)(const System::String \&) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

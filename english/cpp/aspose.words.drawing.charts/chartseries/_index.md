@@ -28,13 +28,10 @@ class ChartSeries : public IChartDataPoint,
 | [Clear](./clear/)() | Removes all data values from the chart series. Format of all individual data points and data labels is cleared. |
 | [ClearValues](./clearvalues/)() | Removes all data values from the chart series with preserving the format of the data points and data labels. |
 | [CopyFormatFrom](./copyformatfrom/)(int32_t) | Copies default data point format from the data point with the specified index. |
-| [GetType](./gettype/)() const override |  |
 | [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&) | Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes, they will be empty for the X value. |
 | [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\> \&) | Inserts the specified X and Y values into the chart series at the specified index. |
 | [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\> \&, double) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(int32_t) | Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index. The corresponding data point and data label are also removed. |
-| static [Type](./type/)() |  |
 | [get_Bubble3D](./get_bubble3d/)() override | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [get_BubbleSizes](./get_bubblesizes/)() | Gets a collection of bubble sizes for this chart series. |
 | [get_DataLabels](./get_datalabels/)() | Specifies the settings for the data labels for the entire series. |
@@ -56,9 +53,6 @@ class ChartSeries : public IChartDataPoint,
 | [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [set_Name](./set_name/)(const System::String \&) | Sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
 | [set_Smooth](./set_smooth/)(bool) | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
-| [GetType](../ichartdatapoint/gettype/)() const override |  |
-| [Is](../ichartdatapoint/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../ichartdatapoint/type/)() |  |
 | virtual [get_Bubble3D](../ichartdatapoint/get_bubble3d/)() | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | virtual [get_Explosion](../ichartdatapoint/get_explosion/)() | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | virtual [get_InvertIfNegative](../ichartdatapoint/get_invertifnegative/)() | Specifies whether the parent element shall inverts its colors if the value is negative. |

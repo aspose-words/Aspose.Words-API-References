@@ -23,9 +23,6 @@ class CustomPart : public System::Object
 | --- | --- |
 | [Clone](./clone/)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [Data](./get_data/) value. |
 | [CustomPart](./custompart/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ContentType](./get_contenttype/)() const | Specifies the content type of this custom part. |
 | [get_Data](./get_data/)() const | Contains the data of this custom part. |
 | [get_IsExternal](./get_isexternal/)() const | False if this custom part is stored inside the OOXML package. True if this custom part is an external target. |

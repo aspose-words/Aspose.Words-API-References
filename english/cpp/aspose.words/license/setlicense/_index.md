@@ -97,12 +97,34 @@ license->SetLicense(testLicenseFileName);
 ## License::SetLicense(std::basic_istream\<CharType, Traits\> \&) method
 
 
-
+Licenses the component.
 
 ```cpp
 template<typename CharType,typename Traits> void Aspose::Words::License::SetLicense(std::basic_istream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | A stream that contains the license. |
+## Remarks
+
+
+Use this method to load a license from a stream.
+## Examples
+
+
+Shows how to initialize a license for Aspose.Words from a stream.
+
+```cpp
+System::String testLicenseFileName = u"Aspose.Words.Cpp.lic";
+// Set the license for our Aspose.Words product by passing a stream for a valid license file in our local file system.
+{
+    System::SharedPtr<System::IO::Stream> myStream = System::IO::File::OpenRead(System::IO::Path::Combine(get_LicenseDir(), testLicenseFileName));
+    auto license = System::MakeObject<Aspose::Words::License>();
+    license->SetLicense(myStream);
+}
+```
 ## See Also
 
 * Class [License](../)

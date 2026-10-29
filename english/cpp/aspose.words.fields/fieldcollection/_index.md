@@ -23,11 +23,8 @@ class FieldCollection : public System::Collections::Generic::IEnumerable<System:
 | --- | --- |
 | [Clear](./clear/)() | Removes all fields of this collection from the document and from this collection itself. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Fields::Field\> \&) | Removes the specified field from this collection and from the document. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a field at the specified index from this collection and from the document. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Returns the number of the fields in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns a field at the specified index. |
 ## Remarks

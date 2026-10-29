@@ -22,9 +22,6 @@ class Frameset : public System::Object
 | Method | Description |
 | --- | --- |
 | [Frameset](./frameset/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ChildFramesets](./get_childframesets/)() const | Gets the collection of child frames and frames pages. |
 | [get_FrameDefaultUrl](./get_framedefaulturl/)() | Gets or sets the web page URL or document file name to display in this frame. |
 | [get_IsFrameLinkToFile](./get_isframelinktofile/)() | Gets or sets a value indicating whether the web page or document file name specified in the [FrameDefaultUrl](./get_framedefaulturl/) property is an external resource the frame is linked with. |

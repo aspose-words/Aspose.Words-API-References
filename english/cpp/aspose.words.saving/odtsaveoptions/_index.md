@@ -21,12 +21,9 @@ class OdtSaveOptions : public SaveOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [OdtSaveOptions](./odtsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Odt](../../aspose.words/saveformat/) format. |
 | [OdtSaveOptions](./odtsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Odt](../../aspose.words/saveformat/) or [Ott](../../aspose.words/saveformat/) format. |
 | [OdtSaveOptions](./odtsaveoptions/)(const System::String \&) | Initializes a new instance of this class that can be used to save a document in the [Odt](../../aspose.words/saveformat/) format encrypted with a password. |
-| static [Type](./type/)() |  |
 | [get_DigitalSignatureDetails](./get_digitalsignaturedetails/)() const | Gets [DigitalSignatureDetails](../digitalsignaturedetails/) object used to sign a document. |
 | [get_IsStrictSchema11](./get_isstrictschema11/)() const | Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is **false**. |
 | [get_MeasureUnit](./get_measureunit/)() const | Allows to specify units of measure to apply to document content. The default value is [Centimeters](../odtsavemeasureunit/) |
@@ -39,9 +36,6 @@ class OdtSaveOptions : public SaveOptions
 | [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Specifies the format in which the document will be saved if this save options object is used. Can be [Odt](../../aspose.words/saveformat/) or [Ott](../../aspose.words/saveformat/). |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

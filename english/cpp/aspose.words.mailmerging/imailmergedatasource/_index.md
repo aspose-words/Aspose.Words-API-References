@@ -21,11 +21,8 @@ class IMailMergeDataSource : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetChildDataSource](./getchilddatasource/)(System::String) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region. |
-| [GetType](./gettype/)() const override |  |
-| virtual [GetValue](./getvalue/)(System::String, System::SharedPtr\<System::Object\> \&) |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
+| virtual [GetValue](./getvalue/)(System::String, System::SharedPtr\<System::Object\> \&) | Returns a value for the specified field name or **false** if the field is not found. |
 | virtual [MoveNext](./movenext/)() | Advances to the next record in the data source. |
-| static [Type](./type/)() |  |
 | virtual [get_TableName](./get_tablename/)() | Returns the name of the data source. |
 ## Remarks
 

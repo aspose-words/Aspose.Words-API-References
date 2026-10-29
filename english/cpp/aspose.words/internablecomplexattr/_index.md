@@ -17,13 +17,6 @@ To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.
 class InternableComplexAttr : public System::Object
 ```
 
-## Methods
-
-| Method | Description |
-| --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words](../)

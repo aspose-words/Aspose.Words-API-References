@@ -21,11 +21,8 @@ class OoxmlSaveOptions : public SaveOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [OoxmlSaveOptions](./ooxmlsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Docx](../../aspose.words/saveformat/) format. |
 | [OoxmlSaveOptions](./ooxmlsaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save a document in the [Docx](../../aspose.words/saveformat/), [Docm](../../aspose.words/saveformat/), [Dotx](../../aspose.words/saveformat/), [Dotm](../../aspose.words/saveformat/) or [FlatOpc](../../aspose.words/saveformat/) format. |
-| static [Type](./type/)() |  |
 | [get_Compliance](./get_compliance/)() | Specifies the OOXML version for the output document. The default value is [Ecma376_2006](../ooxmlcompliance/). |
 | [get_CompressionLevel](./get_compressionlevel/)() const | Specifies the compression level used to save document. The default value is [Normal](../compressionlevel/). |
 | [get_DigitalSignatureDetails](./get_digitalsignaturedetails/)() const | Gets or sets [DigitalSignatureDetails](../digitalsignaturedetails/) object used to sign a document. |
@@ -42,9 +39,6 @@ class OoxmlSaveOptions : public SaveOptions
 | [set_Zip64Mode](./set_zip64mode/)(Aspose::Words::Saving::Zip64Mode) | Specifies whether or not to use ZIP64 format extensions for the output document. The default value is [Never](../zip64mode/). |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

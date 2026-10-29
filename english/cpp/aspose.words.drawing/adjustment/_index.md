@@ -20,9 +20,6 @@ class Adjustment : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Name](./get_name/)() const | Gets the name of the adjustment. |
 | [get_Value](./get_value/)() const | Gets or sets the raw value of the adjustment. |
 | [set_Value](./set_value/)(int32_t) | Sets the raw value of the adjustment. |

@@ -22,10 +22,7 @@ class FieldListNum : public Field,
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)() override | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| static [Type](./type/)() |  |
 | [get_HasListName](./get_haslistname/)() | Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code. |
 | [get_ListLevel](./get_listlevel/)() | Gets or sets the level in the list, overriding the default behavior of the field. |
 | [get_ListName](./get_listname/)() | Gets or sets the name of the abstract numbering definition used for the numbering. |
@@ -35,17 +32,12 @@ class FieldListNum : public Field,
 | [set_StartingNumber](./set_startingnumber/)(const System::String \&) | Sets the starting value for this field. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [GetType](../field/gettype/)() const override |  |
-| [Is](../field/is/)(const System::TypeInfo \&) const override |  |
 | virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| static [Type](../field/type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
-| [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
-| [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |

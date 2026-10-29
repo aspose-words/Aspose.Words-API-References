@@ -21,9 +21,6 @@ class ComparerContext : public ProcessorContext
 | Method | Description |
 | --- | --- |
 | [ComparerContext](./comparercontext/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AcceptRevisions](./get_acceptrevisions/)() const | Indicates whether to accept revisions in the documents before comparing them. If the compared documents contain revisions and this flag is set to false, the processor will reject revisions. Default is **true**. |
 | [get_Author](./get_author/)() const | The author to be assigned to revisions created during document comparison. |
 | [get_CompareOptions](./get_compareoptions/)() const | Options used upon comparing documents. |
@@ -31,10 +28,7 @@ class ComparerContext : public ProcessorContext
 | [set_AcceptRevisions](./set_acceptrevisions/)(bool) | Indicates whether to accept revisions in the documents before comparing them. If the compared documents contain revisions and this flag is set to false, the processor will reject revisions. Default is **true**. |
 | [set_Author](./set_author/)(const System::String \&) | The author to be assigned to revisions created during document comparison. |
 | [set_DateTime](./set_datetime/)(System::DateTime) | The date and time assigned to revisions created during document comparison. |
-| [GetType](../processorcontext/gettype/)() const override |  |
-| [Is](../processorcontext/is/)(const System::TypeInfo \&) const override |  |
 | [ProcessorContext](../processorcontext/processorcontext/)() |  |
-| static [Type](../processorcontext/type/)() |  |
 | [get_FontSettings](../processorcontext/get_fontsettings/)() const | Font settings used by the processor. |
 | [get_LayoutOptions](../processorcontext/get_layoutoptions/)() const | Document layout options used by the processor. |
 | [get_WarningCallback](../processorcontext/get_warningcallback/)() const | Warning callback used by the processor. |

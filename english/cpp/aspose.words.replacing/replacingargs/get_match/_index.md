@@ -19,7 +19,7 @@ System::SharedPtr<System::Text::RegularExpressions::Match> Aspose::Words::Replac
 ## Remarks
 
 
- Match.Index" gets the zero-based starting position of the match from the start of the find and replace range.
+Match.Index" gets the zero-based starting position of the match from the start of the find and replace range.
 ## See Also
 
 * Class [ReplacingArgs](../)

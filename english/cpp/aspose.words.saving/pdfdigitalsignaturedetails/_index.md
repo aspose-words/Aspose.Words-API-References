@@ -20,11 +20,8 @@ class PdfDigitalSignatureDetails : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/)() | Initializes an instance of this class. |
 | [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::String \&, const System::String \&, System::DateTime) | Initializes an instance of this class. |
-| static [Type](./type/)() |  |
 | [get_CertificateHolder](./get_certificateholder/)() const | Returns the certificate holder object that contains the certificate was used to sign the document. |
 | [get_HashAlgorithm](./get_hashalgorithm/)() const | Gets or sets the hash algorithm. |
 | [get_Location](./get_location/)() const | Gets or sets the location of the signing. |

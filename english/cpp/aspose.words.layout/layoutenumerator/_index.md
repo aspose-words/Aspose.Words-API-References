@@ -23,11 +23,6 @@ class LayoutEnumerator : public System::Object,
 
 | Method | Description |
 | --- | --- |
-| [CloneIterator](./cloneiterator/)() const override |  |
-| [GetType](./gettype/)() const override |  |
-| [IncrementIterator](./incrementiterator/)() override |  |
-| [InitializeIterator](./initializeiterator/)() override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [LayoutEnumerator](./layoutenumerator/)(const System::SharedPtr\<Aspose::Words::Document\> \&) | Initializes new instance of this class. |
 | [MoveFirstChild](./movefirstchild/)() | Moves to the first child entity. |
 | [MoveLastChild](./movelastchild/)() | Moves to the last child entity. |
@@ -38,7 +33,6 @@ class LayoutEnumerator : public System::Object,
 | [MovePrevious](./moveprevious/)() | Moves to the previous sibling entity. |
 | [MovePreviousLogical](./movepreviouslogical/)() | Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page. |
 | [Reset](./reset/)() | Moves the enumerator to the first page of the document. |
-| static [Type](./type/)() |  |
 | [get_Current](./get_current/)() const | Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity. |
 | [get_Document](./get_document/)() const | Gets document this instance enumerates. |
 | [get_Kind](./get_kind/)() | Gets the kind of the current entity. This can be an empty string but never **null**. |

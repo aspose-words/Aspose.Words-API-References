@@ -23,11 +23,8 @@ class GeneralFormatCollection : public System::Collections::Generic::IEnumerable
 | --- | --- |
 | [Add](./add/)(Aspose::Words::Fields::GeneralFormat) | Adds a general format to the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(Aspose::Words::Fields::GeneralFormat) | Removes all occurrences of the specified general format from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a general format occurrence at the specified index. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the total number of the items in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets a general format at the specified index. |
 ## Examples

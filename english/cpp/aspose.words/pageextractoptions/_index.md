@@ -20,10 +20,7 @@ class PageExtractOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PageExtractOptions](./pageextractoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_UnlinkPagesNumberFields](./get_unlinkpagesnumberfields/)() const | Specifies whether NUMPAGES fields in the resulting document will be replaced with their actual resulting values. Default value is **true**. |
 | [get_UpdatePageStartingNumber](./get_updatepagestartingnumber/)() const | Specifies whether the start page number in the resulting document shall be updated. Default value is **true**. |
 | [set_UnlinkPagesNumberFields](./set_unlinkpagesnumberfields/)(bool) | Specifies whether NUMPAGES fields in the resulting document will be replaced with their actual resulting values. Default value is **true**. |

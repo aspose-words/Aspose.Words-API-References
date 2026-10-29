@@ -33,9 +33,6 @@ class FieldBuilder : public IFieldBuildingBlock
 | [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Inline\> \&) | Builds and inserts a field into the document before the specified inline node. |
 | [BuildAndInsert](./buildandinsert/)(const System::SharedPtr\<Aspose::Words::Paragraph\> \&) | Builds and inserts a field into the document to the end of the specified paragraph. |
 | [FieldBuilder](./fieldbuilder/)(Aspose::Words::Fields::FieldType) | Initializes an instance of the [FieldBuilder](./) class. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## Examples
 
 

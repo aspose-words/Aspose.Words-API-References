@@ -20,9 +20,6 @@ class ReadabilityStatistics : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_FleschKincaidGradeLevel](./get_fleschkincaidgradelevel/)() | Flesch-Kincaid Grade Level score. |
 | [get_FleschReadingEasy](./get_fleschreadingeasy/)() | Flesch Reading Easy score. |
 ## Examples

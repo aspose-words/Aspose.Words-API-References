@@ -21,10 +21,7 @@ class LayoutOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [LayoutOptions](./layoutoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_Callback](./get_callback/)() const | Gets [IPageLayoutCallback](../ipagelayoutcallback/) implementation used by page layout model. |
 | [get_CommentDisplayMode](./get_commentdisplaymode/)() const | Gets or sets the way comments are rendered. Default value is [ShowInBalloons](../commentdisplaymode/). |
 | [get_ContinuousSectionPageNumberingRestart](./get_continuoussectionpagenumberingrestart/)() const | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |

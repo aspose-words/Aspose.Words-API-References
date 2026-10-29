@@ -20,10 +20,7 @@ class ThumbnailGeneratingOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ThumbnailGeneratingOptions](./thumbnailgeneratingoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_GenerateFromFirstPage](./get_generatefromfirstpage/)() const | Specifies whether to generate thumbnail from first page of the document or first image. |
 | [get_ThumbnailSize](./get_thumbnailsize/)() const | Size of generated thumbnail in pixels. Default is 600x900. |
 | [set_GenerateFromFirstPage](./set_generatefromfirstpage/)(bool) | Specifies whether to generate thumbnail from first page of the document or first image. |

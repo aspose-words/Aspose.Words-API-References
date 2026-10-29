@@ -22,9 +22,6 @@ class FootnoteSeparatorCollection : public System::Collections::Generic::IEnumer
 | --- | --- |
 | [FootnoteSeparatorCollection](./footnoteseparatorcollection/)() |  |
 | [GetEnumerator](./getenumerator/)() override |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [idx_get](./idx_get/)(Aspose::Words::Notes::FootnoteSeparatorType) | Retrieves a [FootnoteSeparator](../footnoteseparator/) of the specified type. |
 ## Examples
 

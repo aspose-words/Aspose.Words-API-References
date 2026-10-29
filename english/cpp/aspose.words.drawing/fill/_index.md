@@ -21,8 +21,6 @@ class Fill : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [OneColorGradient](./onecolorgradient/)(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) | Sets the specified fill to a one-color gradient. |
 | [OneColorGradient](./onecolorgradient/)(System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) | Sets the specified fill to a one-color gradient using the specified color. |
 | [Patterned](./patterned/)(Aspose::Words::Drawing::PatternType) | Sets the specified fill to a pattern. |
@@ -35,7 +33,6 @@ class Fill : public System::Object
 | [Solid](./solid/)(System::Drawing::Color) | Sets the fill to a specified uniform color. |
 | [TwoColorGradient](./twocolorgradient/)(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) | Sets the specified fill to a two-color gradient. |
 | [TwoColorGradient](./twocolorgradient/)(System::Drawing::Color, System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) | Sets the specified fill to a two-color gradient. |
-| static [Type](./type/)() |  |
 | [get_BackColor](./get_backcolor/)() | Gets or sets a Color object that represents the background color for the fill. |
 | [get_BackThemeColor](./get_backthemecolor/)() | Gets or sets a ThemeColor object that represents the background color for the fill. |
 | [get_BackTintAndShade](./get_backtintandshade/)() | Gets or sets a double value that lightens or darkens the background color. |

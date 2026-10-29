@@ -23,9 +23,6 @@ class PageInfo : public System::Object
 | --- | --- |
 | [GetSizeInPixels](./getsizeinpixels/)(float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](./getsizeinpixels/)(float, float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Colored](./get_colored/)() | Returns **true** if the page contains colored content. |
 | [get_HeightInPoints](./get_heightinpoints/)() | Gets the height of the page in points. |
 | [get_Landscape](./get_landscape/)() const | Returns **true** if the page orientation specified in the document for this page is landscape. |

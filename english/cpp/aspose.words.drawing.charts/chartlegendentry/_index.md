@@ -22,9 +22,6 @@ class ChartLegendEntry : public Aspose::Words::Drawing::Core::Dml::IDmlExtension
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Font](./get_font/)() | Provides access to the font formatting of this legend entry. |
 | [get_IsHidden](./get_ishidden/)() const | Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is false. |
 | [set_IsHidden](./set_ishidden/)(bool) | Sets a value indicating whether this entry is hidden in the chart legend. The default value is false. |

@@ -21,9 +21,6 @@ class WebExtension : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AlternateReferences](./get_alternatereferences/)() const | Specifies alternate references to a web extension. |
 | [get_Bindings](./get_bindings/)() const | Specifies a list of web extension bindings. |
 | [get_Id](./get_id/)() const | Uniquely identifies the web extension instance in the current document. |

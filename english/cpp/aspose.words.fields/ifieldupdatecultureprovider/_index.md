@@ -21,9 +21,6 @@ class IFieldUpdateCultureProvider : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetCulture](./getculture/)(System::String, System::SharedPtr\<Aspose::Words::Fields::Field\>) | Returns a **CultureInfo** object to be used during the field's update. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

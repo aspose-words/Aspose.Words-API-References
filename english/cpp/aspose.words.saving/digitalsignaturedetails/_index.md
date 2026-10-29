@@ -21,9 +21,6 @@ class DigitalSignatureDetails : public System::Object
 | Method | Description |
 | --- | --- |
 | [DigitalSignatureDetails](./digitalsignaturedetails/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) | Initializes a new instance of [DigitalSignatureDetails](./) class. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_CertificateHolder](./get_certificateholder/)() const | Gets or sets a [CertificateHolder](./get_certificateholder/) object that contains the certificate used to sign a document. |
 | [get_SignOptions](./get_signoptions/)() const | Gets or sets a [SignOptions](./get_signoptions/) object used to sign a document. |
 | [set_CertificateHolder](./set_certificateholder/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) | Sets a [CertificateHolder](./get_certificateholder/) object that contains the certificate used to sign a document. |

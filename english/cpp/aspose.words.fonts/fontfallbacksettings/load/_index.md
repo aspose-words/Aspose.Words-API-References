@@ -89,12 +89,41 @@ doc->get_FontSettings()->get_FallbackSettings()->Save(get_ArtifactsDir() + u"Fal
 ## FontFallbackSettings::Load(std::basic_istream\<CharType, Traits\> \&) method
 
 
-
+Loads fallback settings from XML stream.
 
 ```cpp
 template<typename CharType,typename Traits> void Aspose::Words::Fonts::FontFallbackSettings::Load(std::basic_istream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | Input stream. |
+## Examples
+
+
+Shows how to load and save font fallback settings to/from a stream.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
+
+// Load an XML document that defines a set of font fallback settings.
+{
+    auto fontFallbackStream = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Font fallback rules.xml", System::IO::FileMode::Open);
+    auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
+    fontSettings->get_FallbackSettings()->Load(fontFallbackStream);
+
+    doc->set_FontSettings(fontSettings);
+}
+
+doc->Save(get_ArtifactsDir() + u"FontSettings.LoadFontFallbackSettingsFromStream.pdf");
+
+// Use a stream to save our document's current font fallback settings as an XML document.
+{
+    auto fontFallbackStream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"FallbackSettings.xml", System::IO::FileMode::Create);
+    doc->get_FontSettings()->get_FallbackSettings()->Save(fontFallbackStream);
+}
+```
 ## See Also
 
 * Class [FontFallbackSettings](../)

@@ -20,10 +20,7 @@ class ProcessorContext : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ProcessorContext](./processorcontext/)() |  |
-| static [Type](./type/)() |  |
 | [get_FontSettings](./get_fontsettings/)() const | Font settings used by the processor. |
 | [get_LayoutOptions](./get_layoutoptions/)() const | Document layout options used by the processor. |
 | [get_WarningCallback](./get_warningcallback/)() const | Warning callback used by the processor. |

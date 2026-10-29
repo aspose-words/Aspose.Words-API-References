@@ -25,9 +25,6 @@ class TableStyle : public Style,
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Alignment](./get_alignment/)() | Specifies the alignment for the table style. |
 | [get_AllowBreakAcrossPages](./get_allowbreakacrosspages/)() | Gets or sets a flag indicating whether text in a table row is allowed to split across a page break. |
 | [get_Borders](./get_borders/)() | Gets the collection of default cell borders for the style. |
@@ -54,10 +51,7 @@ class TableStyle : public Style,
 | [set_TopPadding](./set_toppadding/)(double) | Sets the amount of space (in points) to add above the contents of table cells. |
 | [set_VerticalAlignment](./set_verticalalignment/)(Aspose::Words::Tables::CellVerticalAlignment) | Specifies the vertical alignment for the cells. |
 | [Equals](../style/equals/)(const System::SharedPtr\<Aspose::Words::Style\> \&) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
-| [GetType](../style/gettype/)() const override |  |
-| [Is](../style/is/)(const System::TypeInfo \&) const override |  |
 | [Remove](../style/remove/)() | Removes the specified style from the document. |
-| static [Type](../style/type/)() |  |
 | [get_Aliases](../style/get_aliases/)() | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
 | [get_AutomaticallyUpdate](../style/get_automaticallyupdate/)() const | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [get_BaseStyleName](../style/get_basestylename/)() | Gets/sets the name of the style this style is based on. |

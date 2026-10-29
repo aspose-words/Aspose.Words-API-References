@@ -26,10 +26,7 @@ class AxisBound : public System::Object
 | [AxisBound](./axisbound/)(double) | Creates an axis bound represented as a number. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |
-| static [Type](./type/)() |  |
 | [get_IsAuto](./get_isauto/)() const | Returns a flag indicating that axis bound should be determined automatically. |
 | [get_Value](./get_value/)() const | Returns numeric value of axis bound. |
 | [get_ValueAsDate](./get_valueasdate/)() | Returns value of axis bound represented as datetime. |

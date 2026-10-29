@@ -23,30 +23,8 @@ class FramesetCollection : public System::Collections::Generic::IEnumerable<Syst
 | --- | --- |
 | [FramesetCollection](./framesetcollection/)() |  |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator that iterates through the collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
-| [begin](./begin/)() |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of frames or frames pages contained in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets a frame or frames page at the specified index. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Examples
 
 

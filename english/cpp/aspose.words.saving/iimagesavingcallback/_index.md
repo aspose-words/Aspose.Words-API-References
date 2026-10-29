@@ -20,10 +20,7 @@ class IImageSavingCallback : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | virtual [ImageSaving](./imagesaving/)(System::SharedPtr\<Aspose::Words::Saving::ImageSavingArgs\>) | Called when Aspose.Words saves an image to HTML. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -20,10 +20,7 @@ class JoinRunsOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [JoinRunsOptions](./joinrunsoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_IgnoreInsignificant](./get_ignoreinsignificant/)() const | True indicates that the insignificant attributes of all runs will be ignored when joining runs with same formatting. |
 | [get_IgnoreRedundant](./get_ignoreredundant/)() const | True indicates that the redundant attributes of all runs will be ignored when joining runs with same formatting. |
 | [get_IgnoreSpacing](./get_ignorespacing/)() const | True indicates that the spacing attributes of all runs will be ignored when joining runs with same formatting. |

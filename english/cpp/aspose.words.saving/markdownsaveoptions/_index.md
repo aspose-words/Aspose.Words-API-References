@@ -21,10 +21,7 @@ class MarkdownSaveOptions : public TxtSaveOptionsBase
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MarkdownSaveOptions](./markdownsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Markdown](../../aspose.words/saveformat/) format. |
-| static [Type](./type/)() |  |
 | [get_EmptyParagraphExportMode](./get_emptyparagraphexportmode/)() const | Specifies how to export empty paragraphs to Markdown. Default value is [EmptyLine](../markdownemptyparagraphexportmode/). |
 | [get_ExportAsHtml](./get_exportashtml/)() const | Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [None](../markdownexportashtml/). |
 | [get_ExportImagesAsBase64](./get_exportimagesasbase64/)() | Specifies whether images are saved in Base64 format to the output file. Default value is **false**. |
@@ -53,10 +50,6 @@ class MarkdownSaveOptions : public TxtSaveOptionsBase
 | [set_ResourceSavingCallback](./set_resourcesavingcallback/)(const System::SharedPtr\<Aspose::Words::Saving::IResourceSavingCallback\> \&) | Allows to control how resources are saved when a document is exported to [Markdown](../../aspose.words/saveformat/) format. |
 | [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Markdown](../../aspose.words/saveformat/). |
 | [set_TableContentAlignment](./set_tablecontentalignment/)(Aspose::Words::Saving::TableContentAlignment) | Sets a value that specifies how to align contents in tables when exporting into the [Markdown](../../aspose.words/saveformat/) format. The default value is [Auto](../tablecontentalignment/). |
-| [GetType](../txtsaveoptionsbase/gettype/)() const override |  |
-| [Is](../txtsaveoptionsbase/is/)(const System::TypeInfo \&) const override |  |
-| [TxtSaveOptionsBase](../txtsaveoptionsbase/txtsaveoptionsbase/)() |  |
-| static [Type](../txtsaveoptionsbase/type/)() |  |
 | [get_Encoding](../txtsaveoptionsbase/get_encoding/)() const | Specifies the encoding to use when exporting in text formats. Default value is Encoding.UTF8. |
 | [get_ExportHeadersFootersMode](../txtsaveoptionsbase/get_exportheadersfootersmode/)() const | Specifies the way headers and footers are exported to the text formats. Default value is [PrimaryOnly](../txtexportheadersfootersmode/). |
 | [get_ForcePageBreaks](../txtsaveoptionsbase/get_forcepagebreaks/)() const | Allows to specify whether the page breaks should be preserved during export.
@@ -71,9 +64,6 @@ The default value is **false**. |
 | [set_ParagraphBreak](../txtsaveoptionsbase/set_paragraphbreak/)(const System::String \&) | Specifies the string to use as a paragraph break when exporting in text formats. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

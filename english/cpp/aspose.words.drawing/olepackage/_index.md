@@ -21,9 +21,6 @@ class OlePackage : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DisplayName](./get_displayname/)() const | Gets or sets OLE Package display name. |
 | [get_FileName](./get_filename/)() const | Gets or sets OLE Package file name. |
 | [set_DisplayName](./set_displayname/)(System::String) | Sets OLE Package display name. |

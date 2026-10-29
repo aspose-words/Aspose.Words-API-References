@@ -23,9 +23,6 @@ class ConditionalStyleCollection : public System::Collections::Generic::IEnumera
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Clears all conditional styles of the table style. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_BottomLeftCell](./get_bottomleftcell/)() | Gets the bottom left cell style. |
 | [get_BottomRightCell](./get_bottomrightcell/)() | Gets the bottom right cell style. |
 | [get_Count](./get_count/)() const | Gets the number of conditional styles in the collection. |

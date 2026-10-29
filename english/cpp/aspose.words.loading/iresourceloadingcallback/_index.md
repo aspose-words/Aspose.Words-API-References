@@ -20,10 +20,7 @@ class IResourceLoadingCallback : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [ResourceLoading](./resourceloading/)(System::SharedPtr\<Aspose::Words::Loading::ResourceLoadingArgs\>) | Called when Aspose.Words loads any external resource. |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)

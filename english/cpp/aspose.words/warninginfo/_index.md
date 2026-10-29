@@ -21,9 +21,6 @@ class WarningInfo : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Description](./get_description/)() const | Returns the description of the warning. |
 | [get_Source](./get_source/)() const | Returns the source of the warning. |
 | [get_WarningType](./get_warningtype/)() const | Returns the type of the warning. |

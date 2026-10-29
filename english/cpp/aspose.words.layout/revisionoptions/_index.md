@@ -21,9 +21,6 @@ class RevisionOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_CommentColor](./get_commentcolor/)() const | Allows to specify the color to be used for comments. Default value is [Red](../revisioncolor/). |
 | [get_DeleteCellColor](./get_deletecellcolor/)() | Allows to specify the color to be used for deleted cells [Deletion](../../aspose.words/revisiontype/). Default value is [Pink](../revisioncolor/). |
 | [get_DeletedTextColor](./get_deletedtextcolor/)() | Allows to specify the color to be used for deleted content [Deletion](../../aspose.words/revisiontype/). Default value is [ByAuthor](../revisioncolor/). |

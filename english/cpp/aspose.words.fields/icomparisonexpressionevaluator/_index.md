@@ -21,9 +21,6 @@ class IComparisonExpressionEvaluator : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [Evaluate](./evaluate/)(System::SharedPtr\<Aspose::Words::Fields::Field\>, System::SharedPtr\<Aspose::Words::Fields::ComparisonExpression\>) | Evaluates comparison expression. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * [ComparisonExpressionEvaluator](../fieldoptions/get_comparisonexpressionevaluator/)

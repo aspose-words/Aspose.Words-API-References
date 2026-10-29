@@ -21,8 +21,6 @@ class Watermarker : public Processor
 | Method | Description |
 | --- | --- |
 | static [Create](./create/)(const System::SharedPtr\<Aspose::Words::LowCode::WatermarkerContext\> \&) | Creates new instance of the watermarker processor. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [SetImage](./setimage/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Drawing::Image\> \&) | Adds an image watermark into the document from streams with options. |
 | static [SetImage](./setimage/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Drawing::Image\> \&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\> \&) | Adds an image watermark into the document from streams with options. |
 | static [SetImage](./setimage/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::IO::Stream\> \&) | Adds an image watermark into the document from streams with options. |
@@ -55,15 +53,12 @@ class Watermarker : public Processor
 | static [SetWatermarkToImages](./setwatermarktoimages/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, const System::ArrayPtr\<uint8_t\> \&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\> \&) | Adds an image watermark into the document with options. Renders the output to images. |
 | static [SetWatermarkToImages](./setwatermarktoimages/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, const System::String \&) | Adds a text watermark into the document with options. Renders the output to images. |
 | static [SetWatermarkToImages](./setwatermarktoimages/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, const System::String \&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\> \&) | Adds a text watermark into the document with options. Renders the output to images. |
-| static [Type](./type/)() |  |
 | [Execute](../processor/execute/)() | Execute the processor action. |
 | [Execute](../processor/execute/)(System::Threading::CancellationToken) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\> \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
-| [GetType](../processor/gettype/)() const override |  |
-| [Is](../processor/is/)(const System::TypeInfo \&) const override |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, Aspose::Words::SaveFormat) |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) | Specifies output stream for the processor. |
@@ -71,7 +66,6 @@ class Watermarker : public Processor
 | [To](../processor/to/)(const System::String \&) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String \&, Aspose::Words::SaveFormat) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Specifies output file for the processor. |
-| static [Type](../processor/type/)() |  |
 ## See Also
 
 * Class [Processor](../processor/)

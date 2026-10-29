@@ -22,9 +22,6 @@ class RowFormat : public IBorderAttrSource
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Resets to default row formatting. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AllowBreakAcrossPages](./get_allowbreakacrosspages/)() | True if the text in a table row is allowed to split across a page break. |
 | [get_Borders](./get_borders/)() | Gets the collection of default cell borders for the row. |
 | [get_HeadingFormat](./get_headingformat/)() | True if the row is repeated as a table heading on every page when the table spans more than one page. |

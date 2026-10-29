@@ -22,9 +22,6 @@ class FontSourceBase : public Aspose::Fonts::IFontSource
 | Method | Description |
 | --- | --- |
 | [GetAvailableFonts](./getavailablefonts/)() | Returns list of fonts available via this source. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Priority](./get_priority/)() const | Returns the font source priority. |
 | virtual [get_Type](./get_type/)() | Returns the type of the font source. |
 | [get_WarningCallback](./get_warningcallback/)() const | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |

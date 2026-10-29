@@ -20,9 +20,6 @@ class WatermarkerContext : public ProcessorContext
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [WatermarkerContext](./watermarkercontext/)() |  |
 | [get_ImageWatermark](./get_imagewatermark/)() const | Image bytes to be used as a watermark. |
 | [get_ImageWatermarkOptions](./get_imagewatermarkoptions/)() const | Options for the text watermark. |
@@ -30,10 +27,7 @@ class WatermarkerContext : public ProcessorContext
 | [get_TextWatermarkOptions](./get_textwatermarkoptions/)() const | Options for the image watermark. |
 | [set_ImageWatermark](./set_imagewatermark/)(const System::ArrayPtr\<uint8_t\> \&) | Image bytes to be used as a watermark. |
 | [set_TextWatermark](./set_textwatermark/)(const System::String \&) | Text to be used as a watermark. |
-| [GetType](../processorcontext/gettype/)() const override |  |
-| [Is](../processorcontext/is/)(const System::TypeInfo \&) const override |  |
 | [ProcessorContext](../processorcontext/processorcontext/)() |  |
-| static [Type](../processorcontext/type/)() |  |
 | [get_FontSettings](../processorcontext/get_fontsettings/)() const | Font settings used by the processor. |
 | [get_LayoutOptions](../processorcontext/get_layoutoptions/)() const | Document layout options used by the processor. |
 | [get_WarningCallback](../processorcontext/get_warningcallback/)() const | Warning callback used by the processor. |

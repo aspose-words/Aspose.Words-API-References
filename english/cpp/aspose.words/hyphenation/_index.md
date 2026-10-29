@@ -21,13 +21,12 @@ class Hyphenation
 
 | Method | Description |
 | --- | --- |
-| [Hyphenation](./hyphenation/)() |  |
 | static [IsDictionaryRegistered](./isdictionaryregistered/)(const System::String \&) | Returns **false** if for the specified language there is no dictionary registered or if registered is Null dictionary, **true** otherwise. |
 | static [RegisterDictionary](./registerdictionary/)(const System::String \&, const System::SharedPtr\<System::IO::Stream\> \&) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
 | static [RegisterDictionary](./registerdictionary/)(const System::String \&, const System::String \&) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
 
  This method can also be used to register Null dictionary to prevent [Callback](./get_callback/) from being called repeatedly for the same language. |
-| static [RegisterDictionary](./registerdictionary/)(const System::String \&, std::basic_istream\<CharType, Traits\> \&) |  |
+| static [RegisterDictionary](./registerdictionary/)(const System::String \&, std::basic_istream\<CharType, Traits\> \&) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
 | static [UnregisterDictionary](./unregisterdictionary/)(const System::String \&) | Unregisters a hyphenation dictionary for the specified language.
 
  This is different from registering Null dictionary. Unregistering a dictionary enables callback for the specified language. |

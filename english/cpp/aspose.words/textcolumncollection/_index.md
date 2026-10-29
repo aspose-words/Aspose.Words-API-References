@@ -21,10 +21,7 @@ class TextColumnCollection : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SetCount](./setcount/)(int32_t) | Arranges text into the specified number of text columns. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of columns in the section of a document. |
 | [get_EvenlySpaced](./get_evenlyspaced/)() | True if text columns are of equal width and evenly spaced. |
 | [get_LineBetween](./get_linebetween/)() | When **true**, adds a vertical line between columns. |

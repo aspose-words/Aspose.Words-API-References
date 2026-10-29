@@ -24,11 +24,8 @@ class RevisionCollection : public System::Collections::Generic::IEnumerable<Syst
 | [Accept](./accept/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\> \&) | Accepts revisions that match specified criteria. |
 | [AcceptAll](./acceptall/)() | Accepts all revisions in this collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Reject](./reject/)(const System::SharedPtr\<Aspose::Words::IRevisionCriteria\> \&) | Rejects revisions that match specified criteria. |
 | [RejectAll](./rejectall/)() | Rejects all revisions in this collection. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Returns the number of revisions in the collection. |
 | [get_Groups](./get_groups/)() | Collection of revision groups. |
 | [idx_get](./idx_get/)(int32_t) | Returns a [Revision](../revision/) at the specified index. |

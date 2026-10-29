@@ -25,9 +25,6 @@ class CertificateHolder : public System::Object
 | static [Create](./create/)(const System::ArrayPtr\<uint8_t\> \&, const System::String \&) | Creates [CertificateHolder](./) object using byte array of PKCS12 store and its password. |
 | static [Create](./create/)(const System::String \&, const System::String \&) | Creates [CertificateHolder](./) object using path to PKCS12 store and its password. |
 | static [Create](./create/)(const System::String \&, const System::String \&, const System::String \&) | Creates [CertificateHolder](./) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Certificate](./get_certificate/)() | Returns the instance of X509Certificate2 which holds private, public keys and certificate chain. |
 ## Remarks
 

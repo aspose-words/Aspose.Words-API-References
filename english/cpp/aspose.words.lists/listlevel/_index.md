@@ -26,10 +26,7 @@ class ListLevel : public IRunAttrSource
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::ListLevel\> \&) | Compares with the specified ListLevel. |
 | static [GetEffectiveValue](./geteffectivevalue/)(int32_t, Aspose::Words::NumberStyle, const System::String \&) | Reports the string representation of the [ListLevel](./) object for the specified index of the list item. Parameters specify the [NumberStyle](../../aspose.words/numberstyle/) and an optional format string used when [Custom](../../aspose.words/numberstyle/) is specified. |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveTabStop](./removetabstop/)() | Removes tab stop from the list level. |
-| static [Type](./type/)() |  |
 | [get_Alignment](./get_alignment/)() const | Gets or sets the justification of the actual number of the list item. |
 | [get_CustomNumberStyleFormat](./get_customnumberstyleformat/)() | Gets or sets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
 | [get_Font](./get_font/)() | Specifies character formatting used for the list label. |

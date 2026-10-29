@@ -22,12 +22,9 @@ class LoadOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [LoadOptions](./loadoptions/)() | Initializes a new instance of this class with default values. |
 | [LoadOptions](./loadoptions/)(Aspose::Words::LoadFormat, const System::String \&, const System::String \&) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 | [LoadOptions](./loadoptions/)(const System::String \&) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| static [Type](./type/)() |  |
 | [get_BaseUri](./get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](./get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile(**Wmf** or **Emf**) images to **Png** image format. |
 | [get_ConvertShapeToOfficeMath](./get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |

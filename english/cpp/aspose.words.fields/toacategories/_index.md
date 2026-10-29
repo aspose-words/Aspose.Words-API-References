@@ -21,10 +21,7 @@ class ToaCategories : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ToaCategories](./toacategories/)() |  |
-| static [Type](./type/)() |  |
 | static [get_DefaultCategories](./get_defaultcategories/)() | Gets the default table of authorities categories. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets the category heading by category number. |
 | [idx_set](./idx_set/)(int32_t, const System::String \&) | Gets or sets the category heading by category number. |

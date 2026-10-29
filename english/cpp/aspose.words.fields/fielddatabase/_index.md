@@ -23,9 +23,6 @@ class FieldDatabase : public Field,
 | Method | Description |
 | --- | --- |
 | [FieldDatabase](./fielddatabase/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Connection](./get_connection/)() | Gets a connection to the data. |
 | [get_FileName](./get_filename/)() | Gets the complete path and file name of the database |
 | [get_FirstRecord](./get_firstrecord/)() | Gets the integral record number of the first data record to insert. |
@@ -46,17 +43,12 @@ class FieldDatabase : public Field,
 | [set_TableFormat](./set_tableformat/)(const System::String \&) | Sets the format that is to be applied to the result of the database query. |
 | [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [GetType](../field/gettype/)() const override |  |
-| [Is](../field/is/)(const System::TypeInfo \&) const override |  |
 | virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| static [Type](../field/type/)() |  |
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
-| [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
-| [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |

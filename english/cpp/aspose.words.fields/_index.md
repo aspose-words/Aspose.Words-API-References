@@ -263,7 +263,6 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp
 
 | Enum | Description |
 | --- | --- |
-| [FieldDatabaseTableFormat](./fielddatabasetableformat/) |  |
 | [FieldIfComparisonResult](./fieldifcomparisonresult/) | Specifies the result of the IF field condition evaluation. |
 | [FieldIndexFormat](./fieldindexformat/) | Specifies the formatting for the [FieldIndex](./fieldindex/) fields in a document. |
 | [FieldType](./fieldtype/) | Specifies Microsoft Word field types. |

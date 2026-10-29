@@ -21,9 +21,6 @@ class BuiltInDocumentProperties : public DocumentPropertyCollection
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Author](./get_author/)() | Gets or sets the name of the document's author. |
 | [get_Bytes](./get_bytes/)() | Represents an estimate of the number of bytes in the document. |
 | [get_Category](./get_category/)() | Gets or sets the category of the document. |
@@ -95,12 +92,9 @@ class BuiltInDocumentProperties : public DocumentPropertyCollection
 | [Clear](../documentpropertycollection/clear/)() | Removes all properties from the collection. |
 | [Contains](../documentpropertycollection/contains/)(const System::String \&) | Returns **true** if a property with the specified name exists in the collection. |
 | [GetEnumerator](../documentpropertycollection/getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](../documentpropertycollection/gettype/)() const override |  |
 | [IndexOf](../documentpropertycollection/indexof/)(const System::String \&) | Gets the index of a property by name. |
-| [Is](../documentpropertycollection/is/)(const System::TypeInfo \&) const override |  |
 | [Remove](../documentpropertycollection/remove/)(const System::String \&) | Removes a property with the specified name from the collection. |
 | [RemoveAt](../documentpropertycollection/removeat/)(int32_t) | Removes a property at the specified index. |
-| static [Type](../documentpropertycollection/type/)() |  |
 | [get_Count](../documentpropertycollection/get_count/)() | Gets number of items in the collection. |
 | virtual [idx_get](../documentpropertycollection/idx_get/)(System::String) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [idx_get](../documentpropertycollection/idx_get/)(int32_t) | Returns a [DocumentProperty](../documentproperty/) object by index. |

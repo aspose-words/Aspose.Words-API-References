@@ -25,9 +25,6 @@ class StyleCollection : public System::Collections::Generic::IEnumerable<System:
 | [AddCopy](./addcopy/)(const System::SharedPtr\<Aspose::Words::Style\> \&) | Copies a style into this collection. |
 | [ClearQuickStyleGallery](./clearquickstylegallery/)() | Removes all styles from the Quick Style Gallery panel. |
 | [GetEnumerator](./getenumerator/)() override | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of styles in the collection. |
 | [get_DefaultFont](./get_defaultfont/)() | Gets document default text formatting. |
 | [get_DefaultParagraphFormat](./get_defaultparagraphformat/)() | Gets document default paragraph formatting. |

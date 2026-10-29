@@ -21,9 +21,6 @@ class DocumentLoadingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_EstimatedProgress](./get_estimatedprogress/)() const | Overall estimated percentage progress. |
 ## See Also
 

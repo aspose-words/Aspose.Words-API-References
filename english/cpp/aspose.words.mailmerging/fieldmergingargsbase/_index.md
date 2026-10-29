@@ -21,9 +21,6 @@ class FieldMergingArgsBase : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Document](./get_document/)() const | Returns the [Document](./get_document/) object for which the mail merge is performed. |
 | [get_DocumentFieldName](./get_documentfieldname/)() const | Gets the name of the merge field as specified in the document. |
 | [get_Field](./get_field/)() const | Gets the object that represents the current merge field. |

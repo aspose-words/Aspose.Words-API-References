@@ -35,7 +35,6 @@ class DocumentBuilder : public IRunAttrSource,
 | [EndEditableRange](./endeditablerange/)(const System::SharedPtr\<Aspose::Words::EditableRangeStart\> \&) | Marks the current position in the document as an editable range end. |
 | [EndRow](./endrow/)() | Ends a table row in the document. |
 | [EndTable](./endtable/)() | Ends a table in the document. |
-| [GetType](./gettype/)() const override |  |
 | [InsertBreak](./insertbreak/)(Aspose::Words::BreakType) | Inserts a break of the specified type into the document. |
 | [InsertCell](./insertcell/)() | Inserts a table cell into the document. |
 | [InsertChart](./insertchart/)(Aspose::Words::Drawing::Charts::ChartType, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an chart object into the document and scales it to the specified size. |
@@ -73,20 +72,20 @@ class DocumentBuilder : public IRunAttrSource,
 | [InsertImage](./insertimage/)(const System::String \&) | Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale. |
 | [InsertImage](./insertimage/)(const System::String \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an image from a file or URL at the specified position and size. |
 | [InsertImage](./insertimage/)(const System::String \&, double, double) | Inserts an inline image from a file or URL into the document and scales it to the specified size. |
-| [InsertImage](./insertimage/)(std::basic_istream\<CharType, Traits\> \&) |  |
-| [InsertImage](./insertimage/)(std::basic_istream\<CharType, Traits\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) |  |
-| [InsertImage](./insertimage/)(std::basic_istream\<CharType, Traits\> \&, double, double) |  |
+| [InsertImage](./insertimage/)(std::basic_istream\<CharType, Traits\> \&) | Inserts an image from a stream into the document. The image is inserted inline and at 100% scale. |
+| [InsertImage](./insertimage/)(std::basic_istream\<CharType, Traits\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an image from a stream at the specified position and size. |
+| [InsertImage](./insertimage/)(std::basic_istream\<CharType, Traits\> \&, double, double) | Inserts an inline image from a stream into the document and scales it to the specified size. |
 | [InsertNode](./insertnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts a node before the cursor. |
 | [InsertOleObject](./insertoleobject/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::String \&, bool, const System::SharedPtr\<System::IO::Stream\> \&) | Inserts an embedded OLE object from a stream into the document. |
 | [InsertOleObject](./insertoleobject/)(const System::String \&, bool, bool, const System::SharedPtr\<System::IO::Stream\> \&) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension. |
-| [InsertOleObject](./insertoleobject/)(const System::String \&, bool, bool, std::basic_istream\<CharType, Traits\> \&) |  |
+| [InsertOleObject](./insertoleobject/)(const System::String \&, bool, bool, std::basic_istream\<CharType, Traits\> \&) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension. |
 | [InsertOleObject](./insertoleobject/)(const System::String \&, const System::String \&, bool, bool, const System::SharedPtr\<System::IO::Stream\> \&) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter. |
-| [InsertOleObject](./insertoleobject/)(const System::String \&, const System::String \&, bool, bool, std::basic_istream\<CharType, Traits\> \&) |  |
-| [InsertOleObject](./insertoleobject/)(std::basic_istream\<CharType, Traits\> \&, const System::String \&, bool, std::basic_istream\<CharType, Traits\> \&) |  |
+| [InsertOleObject](./insertoleobject/)(const System::String \&, const System::String \&, bool, bool, std::basic_istream\<CharType, Traits\> \&) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter. |
+| [InsertOleObject](./insertoleobject/)(std::basic_istream\<CharType, Traits\> \&, const System::String \&, bool, std::basic_istream\<CharType, Traits\> \&) | Inserts an embedded OLE object from a stream into the document. |
 | [InsertOleObjectAsIcon](./insertoleobjectasicon/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::String \&, const System::String \&, const System::String \&) | Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter. |
 | [InsertOleObjectAsIcon](./insertoleobjectasicon/)(const System::String \&, bool, const System::String \&, const System::String \&) | Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension. |
 | [InsertOleObjectAsIcon](./insertoleobjectasicon/)(const System::String \&, const System::String \&, bool, const System::String \&, const System::String \&) | Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter. |
-| [InsertOleObjectAsIcon](./insertoleobjectasicon/)(std::basic_istream\<CharType, Traits\> \&, const System::String \&, const System::String \&, const System::String \&) |  |
+| [InsertOleObjectAsIcon](./insertoleobjectasicon/)(std::basic_istream\<CharType, Traits\> \&, const System::String \&, const System::String \&, const System::String \&) | Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter. |
 | [InsertOnlineVideo](./insertonlinevideo/)(const System::String \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an online video object into the document and scales it to the specified size. |
 | [InsertOnlineVideo](./insertonlinevideo/)(const System::String \&, const System::String \&, const System::ArrayPtr\<uint8_t\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an online video object into the document and scales it to the specified size. |
 | [InsertOnlineVideo](./insertonlinevideo/)(const System::String \&, const System::String \&, const System::ArrayPtr\<uint8_t\> \&, double, double) | Inserts an online video object into the document and scales it to the specified size. |
@@ -100,7 +99,6 @@ class DocumentBuilder : public IRunAttrSource,
 | [InsertStyleSeparator](./insertstyleseparator/)() | Inserts style separator into the document. |
 | [InsertTableOfContents](./inserttableofcontents/)(const System::String \&) | Inserts a TOC (table of contents) field into the document. |
 | [InsertTextInput](./inserttextinput/)(const System::String \&, Aspose::Words::Fields::TextFormFieldType, const System::String \&, const System::String \&, int32_t) | Inserts a text form field at the current position. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MoveTo](./moveto/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Moves the cursor to an inline node or to the end of a paragraph. |
 | [MoveToBookmark](./movetobookmark/)(const System::String \&) | Moves the cursor to a bookmark. |
 | [MoveToBookmark](./movetobookmark/)(const System::String \&, bool, bool) | Moves the cursor to a bookmark with greater precision. |
@@ -121,7 +119,6 @@ class DocumentBuilder : public IRunAttrSource,
 | [StartColumnBookmark](./startcolumnbookmark/)(const System::String \&) | Marks the current position in the document as a column bookmark start. The position must be in a table cell. |
 | [StartEditableRange](./starteditablerange/)() | Marks the current position in the document as an editable range start. |
 | [StartTable](./starttable/)() | Starts a table in the document. |
-| static [Type](./type/)() |  |
 | [Write](./write/)(const System::String \&) | Inserts a string into the document at the current insert position. |
 | [Writeln](./writeln/)() | Inserts a paragraph break into the document. |
 | [Writeln](./writeln/)(const System::String \&) | Inserts a string and a paragraph break into the document. |

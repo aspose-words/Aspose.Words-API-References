@@ -21,7 +21,6 @@ class ConvertUtil
 
 | Method | Description |
 | --- | --- |
-| [ConvertUtil](./convertutil/)() |  |
 | static [InchToPoint](./inchtopoint/)(double) | Converts inches to points. |
 | static [MillimeterToPoint](./millimetertopoint/)(double) | Converts millimeters to points. |
 | static [PixelToNewDpi](./pixeltonewdpi/)(double, double, double) | Converts pixels from one resolution to another. |

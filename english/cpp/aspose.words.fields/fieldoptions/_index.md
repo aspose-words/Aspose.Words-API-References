@@ -21,9 +21,6 @@ class FieldOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_BarcodeGenerator](./get_barcodegenerator/)() const | Gets or set custom barcode generator. |
 | [get_BibliographyStylesProvider](./get_bibliographystylesprovider/)() const | Gets or sets a provider that returns a bibliography style for the [FieldBibliography](../fieldbibliography/) and [FieldCitation](../fieldcitation/) fields. |
 | [get_BuiltInTemplatesPaths](./get_builtintemplatespaths/)() const | Gets or sets paths of MS Word built-in templates. |

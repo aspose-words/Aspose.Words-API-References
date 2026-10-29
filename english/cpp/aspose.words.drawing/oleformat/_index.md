@@ -23,12 +23,9 @@ class OleFormat : public System::Object
 | --- | --- |
 | [GetOleEntry](./getoleentry/)(const System::String \&) | Gets OLE object data entry. |
 | [GetRawData](./getrawdata/)() | Gets OLE object raw data. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&) | Saves the data of the embedded object into the specified stream. |
 | [Save](./save/)(const System::String \&) | Saves the data of the embedded object into a file with the specified name. |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&) |  |
-| static [Type](./type/)() |  |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&) | Saves the data of the embedded object into the specified stream. |
 | [get_AutoUpdate](./get_autoupdate/)() | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
 | [get_Clsid](./get_clsid/)() | Gets the CLSID of the OLE object. |
 | [get_IconCaption](./get_iconcaption/)() | Gets icon caption of OLE object. 

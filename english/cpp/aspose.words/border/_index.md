@@ -26,9 +26,6 @@ class Border : public InternableComplexAttr,
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Border\> \&) | Determines whether the specified border is equal in value to the current border. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Color](./get_color/)() | Gets or sets the border color. |
 | [get_DistanceFromText](./get_distancefromtext/)() | Gets or sets distance of the border from text or from the page edge in points. |
 | [get_IsVisible](./get_isvisible/)() | Returns **true** if the [LineStyle](./get_linestyle/) is not [None](../linestyle/). |
@@ -44,9 +41,6 @@ class Border : public InternableComplexAttr,
 | [set_Shadow](./set_shadow/)(bool) | Sets a value indicating whether the border has a shadow. |
 | [set_ThemeColor](./set_themecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the theme color in the applied color scheme that is associated with this Border object. |
 | [set_TintAndShade](./set_tintandshade/)(double) | Sets a double value that lightens or darkens a color. |
-| [GetType](../internablecomplexattr/gettype/)() const override |  |
-| [Is](../internablecomplexattr/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../internablecomplexattr/type/)() |  |
 ## Remarks
 
 

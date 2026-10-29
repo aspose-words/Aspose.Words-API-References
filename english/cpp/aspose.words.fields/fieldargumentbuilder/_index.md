@@ -25,9 +25,6 @@ class FieldArgumentBuilder : public IFieldBuildingBlock
 | [AddNode](./addnode/)(const System::SharedPtr\<Aspose::Words::Inline\> \&) | Adds a node to the argument. |
 | [AddText](./addtext/)(const System::String \&) | Adds a plain text to the argument. |
 | [FieldArgumentBuilder](./fieldargumentbuilder/)() | Initializes an instance of the [FieldArgumentBuilder](./) class. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## Examples
 
 

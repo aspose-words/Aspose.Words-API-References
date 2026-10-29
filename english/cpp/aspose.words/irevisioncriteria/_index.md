@@ -20,10 +20,7 @@ class IRevisionCriteria : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [IsMatch](./ismatch/)(System::SharedPtr\<Aspose::Words::Revision\>) | Checks whether or not specified revision matches criteria. |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words](../)

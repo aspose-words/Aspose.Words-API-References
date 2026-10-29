@@ -21,9 +21,6 @@ class HorizontalRuleFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Alignment](./get_alignment/)() | Gets or sets the alignment of the horizontal rule. |
 | [get_Color](./get_color/)() | Gets or sets the brush color that fills the horizontal rule. |
 | [get_Height](./get_height/)() | Gets or sets the height of the horizontal rule. |

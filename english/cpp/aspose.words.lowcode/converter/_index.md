@@ -40,17 +40,12 @@ class Converter : public Processor
 | static [ConvertToImages](./converttoimages/)(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&) | Converts the pages of the specified input file to image files using the specified save options. |
 | static [Create](./create/)() | Creates new instance of the converter processor. |
 | static [Create](./create/)(const System::SharedPtr\<Aspose::Words::LowCode::ConverterContext\> \&) | Creates new instance of the converter processor. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [Execute](../processor/execute/)() | Execute the processor action. |
 | [Execute](../processor/execute/)(System::Threading::CancellationToken) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\> \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
-| [GetType](../processor/gettype/)() const override |  |
-| [Is](../processor/is/)(const System::TypeInfo \&) const override |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, Aspose::Words::SaveFormat) |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) | Specifies output stream for the processor. |
@@ -58,7 +53,6 @@ class Converter : public Processor
 | [To](../processor/to/)(const System::String \&) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String \&, Aspose::Words::SaveFormat) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Specifies output file for the processor. |
-| static [Type](../processor/type/)() |  |
 ## Remarks
 
 

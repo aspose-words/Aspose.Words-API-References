@@ -21,9 +21,6 @@ class ComparisonExpression : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ComparisonOperator](./get_comparisonoperator/)() const | Gets the comparison operator. |
 | [get_LeftExpression](./get_leftexpression/)() const | Gets the left expression. |
 | [get_RightExpression](./get_rightexpression/)() const | Gets the right expression. |

@@ -144,12 +144,60 @@ ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.De
 ## FileFormatUtil::DetectFileFormat(std::basic_istream\<CharType, Traits\> \&) method
 
 
-
+Detects and returns the information about a format of a document stored in a stream.
 
 ```cpp
 template<typename CharType,typename Traits> static System::SharedPtr<Aspose::Words::FileFormatInfo> Aspose::Words::FileFormatUtil::DetectFileFormat(std::basic_istream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | The stream. |
+
+### ReturnValue
+
+A [FileFormatInfo](../../fileformatinfo/) object that contains the detected information.
+## Remarks
+
+
+The stream must be positioned at the beginning of the document.
+
+When this method returns, the position in the stream is restored to the original position.
+
+Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [Document](../../document/) object.
+
+This method throws [FileCorruptedException](../../filecorruptedexception/) when the format is recognized, but the detection cannot complete because of corruption.
+## Examples
+
+
+Shows how to use the FileFormatUtil methods to detect the format of a document.
+
+```cpp
+// Load a document from a file that is missing a file extension, and then detect its file format.
+{
+    System::SharedPtr<System::IO::FileStream> docStream = System::IO::File::OpenRead(get_MyDir() + u"Word document with missing file extension");
+    System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(docStream);
+    Aspose::Words::LoadFormat loadFormat = info->get_LoadFormat();
+
+    ASSERT_EQ(LoadFormat::Doc, loadFormat);
+
+    // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
+    // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
+    System::String fileExtension = FileFormatUtil::LoadFormatToExtension(loadFormat);
+    Aspose::Words::SaveFormat saveFormat = FileFormatUtil::ExtensionToSaveFormat(fileExtension);
+
+    // 2 -  Convert the LoadFormat directly to its SaveFormat:
+    saveFormat = FileFormatUtil::LoadFormatToSaveFormat(loadFormat);
+
+    // Load a document from the stream, and then save it to the automatically detected file extension.
+    auto doc = System::MakeObject<Aspose::Words::Document>(docStream);
+
+    ASSERT_EQ(u".doc", FileFormatUtil::SaveFormatToExtension(saveFormat));
+
+    doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
+}
+```
 ## See Also
 
 * Class [FileFormatUtil](../)

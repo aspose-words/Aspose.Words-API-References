@@ -22,9 +22,6 @@ class ShadowFormat : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clear](./clear/)() | Clears shadow format. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Color](./get_color/)() | Gets or sets a **Color** object that represents the color for the shadow. The default value is **Black**. |
 | [get_Transparency](./get_transparency/)() | Gets or sets the degree of transparency for the shadow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
 | [get_Type](./get_type/)() | Gets or sets the specified [ShadowType](../shadowtype/) for ShadowFormat. |

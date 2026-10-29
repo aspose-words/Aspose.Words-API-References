@@ -23,10 +23,7 @@ class Style : public IParaAttrSource,
 | Method | Description |
 | --- | --- |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Style\> \&) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)() | Removes the specified style from the document. |
-| static [Type](./type/)() |  |
 | [get_Aliases](./get_aliases/)() | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
 | [get_AutomaticallyUpdate](./get_automaticallyupdate/)() const | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [get_BaseStyleName](./get_basestylename/)() | Gets/sets the name of the style this style is based on. |

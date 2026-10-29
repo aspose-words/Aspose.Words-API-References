@@ -21,9 +21,6 @@ class ViewOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DisplayBackgroundShape](./get_displaybackgroundshape/)() const | Controls display of the background shape in print layout view. |
 | [get_DoNotDisplayPageBoundaries](./get_donotdisplaypageboundaries/)() const | Turns off display of the space between the top of the text and the top edge of the page. |
 | [get_FormsDesign](./get_formsdesign/)() const | Specifies whether the document is in forms design mode. |

@@ -21,10 +21,7 @@ class HyphenationOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | [HyphenationOptions](./hyphenationoptions/)() |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AutoHyphenation](./get_autohyphenation/)() const | Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**. |
 | [get_ConsecutiveHyphenLimit](./get_consecutivehyphenlimit/)() const | Gets or sets the maximum number of consecutive lines that can end with hyphens. Default value for this property is 0. |
 | [get_HyphenateCaps](./get_hyphenatecaps/)() const | Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**. |

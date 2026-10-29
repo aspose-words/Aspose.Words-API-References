@@ -20,9 +20,6 @@ class FieldUpdatingProgressArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_TotalFieldsCount](./get_totalfieldscount/)() const | Gets the total fields count to be updated. |
 | [get_UpdateCompleted](./get_updatecompleted/)() const | Gets a value indicating whether field updating is completed. |
 | [get_UpdatedFieldsCount](./get_updatedfieldscount/)() const | Gets the number of updated fields. |

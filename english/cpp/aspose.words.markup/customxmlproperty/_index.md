@@ -22,9 +22,6 @@ class CustomXmlProperty : public System::Object
 | Method | Description |
 | --- | --- |
 | [CustomXmlProperty](./customxmlproperty/)(const System::String \&, const System::String \&, const System::String \&) | Initializes a new instance of this class. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Name](./get_name/)() const | Specifies the name of the custom XML attribute or smart tag property. |
 | [get_Uri](./get_uri/)() const | Gets or sets the namespace URI of the custom XML attribute or smart tag property. |
 | [get_Value](./get_value/)() const | Gets or sets the value of the custom XML attribute or smart tag property. |

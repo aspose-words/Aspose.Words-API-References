@@ -21,10 +21,7 @@ class TxtLoadOptions : public LoadOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [TxtLoadOptions](./txtloadoptions/)() | Initializes a new instance of this class with default values. |
-| static [Type](./type/)() |  |
 | [get_AutoNumberingDetection](./get_autonumberingdetection/)() const | Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is **true**. |
 | [get_DetectHyperlinks](./get_detecthyperlinks/)() const | Specifies either to detect hyperlinks in text. The default value is **false**. |
 | [get_DetectNumberingWithWhitespaces](./get_detectnumberingwithwhitespaces/)() const | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is **true**. |
@@ -38,12 +35,9 @@ class TxtLoadOptions : public LoadOptions
 | [set_LeadingSpacesOptions](./set_leadingspacesoptions/)(Aspose::Words::Loading::TxtLeadingSpacesOptions) | Sets preferred option of a leading space handling. Default value is [ConvertToIndent](../txtleadingspacesoptions/). |
 | [set_TrailingSpacesOptions](./set_trailingspacesoptions/)(Aspose::Words::Loading::TxtTrailingSpacesOptions) | Sets preferred option of a trailing space handling. Default value is [Trim](../txttrailingspacesoptions/). |
 | [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](../loadoptions/gettype/)() const override |  |
-| [Is](../loadoptions/is/)(const System::TypeInfo \&) const override |  |
 | [LoadOptions](../loadoptions/loadoptions/)() | Initializes a new instance of this class with default values. |
 | [LoadOptions](../loadoptions/loadoptions/)(Aspose::Words::LoadFormat, const System::String \&, const System::String \&) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 | [LoadOptions](../loadoptions/loadoptions/)(const System::String \&) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| static [Type](../loadoptions/type/)() |  |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile(**Wmf** or **Emf**) images to **Png** image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |

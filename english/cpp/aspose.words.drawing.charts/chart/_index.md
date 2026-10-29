@@ -21,9 +21,6 @@ class Chart : public Core::IChartFormatSource
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Axes](./get_axes/)() | Gets a collection of all axes of this chart. |
 | [get_AxisX](./get_axisx/)() | Provides access to properties of the primary X axis of the chart. |
 | [get_AxisY](./get_axisy/)() | Provides access to properties of the primary Y axis of the chart. |

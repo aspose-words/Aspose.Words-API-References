@@ -21,9 +21,6 @@ class SignatureLine : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AllowComments](./get_allowcomments/)() | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**. |
 | [get_DefaultInstructions](./get_defaultinstructions/)() | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**. |
 | [get_Email](./get_email/)() | Gets or sets suggested signer's e-mail address. Default value for this property is empty string. |

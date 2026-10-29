@@ -20,10 +20,7 @@ class Source : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Source](./source/)(const System::String \&, Aspose::Words::Bibliography::SourceType) | Initialize a new instance of the [Source](./) class. |
-| static [Type](./type/)() |  |
 | [get_AbbreviatedCaseNumber](./get_abbreviatedcasenumber/)() const | Gets or sets the abbreviated case number of a source. |
 | [get_AlbumTitle](./get_albumtitle/)() const | Gets or sets the album title of a source. |
 | [get_BookTitle](./get_booktitle/)() const | Gets or sets the book title of a source. |

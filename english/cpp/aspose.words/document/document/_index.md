@@ -98,7 +98,7 @@ Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> & 
 ## Remarks
 
 
- The document must be stored at the beginning of the stream. The stream must support random positioning.
+ The document must be stored at the beginning of the stream. The stream must support random positioning. 
 ## Examples
 
 
@@ -145,7 +145,7 @@ Aspose::Words::Document::Document(const System::SharedPtr<System::IO::Stream> & 
 ## Remarks
 
 
- The document must be stored at the beginning of the stream. The stream must support random positioning.
+ The document must be stored at the beginning of the stream. The stream must support random positioning. 
 ## Examples
 
 
@@ -330,11 +330,43 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx
 ## Document::Document(std::istream \&) constructor
 
 
-
+Opens an existing document from a stream. Automatically detects the file format.
 
 ```cpp
 Aspose::Words::Document::Document(std::istream & stream)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::istream \& | Stream where to load the document from. |
+## Remarks
+
+
+ The document must be stored at the beginning of the stream. The stream must support random positioning. 
+## Examples
+
+
+Shows how to load a document using a stream.
+
+```cpp
+{
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.docx");
+    auto doc = System::MakeObject<Aspose::Words::Document>(stream);
+
+    ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", doc->GetText().Trim());
+}
+```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentNullException** - The stream cannot be null.
+* **NotSupportedException** - The stream does not support reading or seeking.
+* **ObjectDisposedException** - The stream is a disposed object.
 
 ## See Also
 
@@ -344,11 +376,80 @@ Aspose::Words::Document::Document(std::istream & stream)
 ## Document::Document(std::istream \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) constructor
 
 
-
+Opens an existing document from a stream. Allows to specify additional options such as an encryption password.
 
 ```cpp
 Aspose::Words::Document::Document(std::istream & stream, const System::SharedPtr<Aspose::Words::Loading::LoadOptions> & loadOptions)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::istream \& | The stream where to load the document from. |
+| loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \& | Additional options to use when loading a document. Can be **null**. |
+## Remarks
+
+
+ The document must be stored at the beginning of the stream. The stream must support random positioning. 
+## Examples
+
+
+Shows how to open an HTML document with images from a stream using a base URI.
+
+```cpp
+{
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.html");
+    // Pass the URI of the base folder while loading it
+    // so that any images with relative URIs in the HTML document can be found.
+    auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
+    loadOptions->set_BaseUri(get_ImageDir());
+
+    auto doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
+
+    // Verify that the first shape of the document contains a valid image.
+    auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
+
+    ASSERT_TRUE(shape->get_IsImage());
+    ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
+    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
+    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
+}
+```
+
+Shows how to load an encrypted Microsoft Word document.
+
+```cpp
+System::SharedPtr<Aspose::Words::Document> doc;
+
+// Aspose.Words throw an exception if we try to open an encrypted document without its password.
+ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+{
+    doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
+})(), Aspose::Words::IncorrectPasswordException);
+
+// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
+auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword");
+
+// There are two ways of loading an encrypted document with a LoadOptions object.
+// 1 -  Load the document from the local file system by filename:
+doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx", options);
+
+// 2 -  Load the document from a stream:
+{
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Encrypted.docx");
+    doc = System::MakeObject<Aspose::Words::Document>(stream, options);
+}
+```
+## Exceptions
+
+* [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
+* [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
+* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
+* **IOException** - There is an input/output exception.
+* [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
+* **ArgumentNullException** - The stream cannot be null.
+* **NotSupportedException** - The stream does not support reading or seeking.
+* **ObjectDisposedException** - The stream is a disposed object.
 
 ## See Also
 

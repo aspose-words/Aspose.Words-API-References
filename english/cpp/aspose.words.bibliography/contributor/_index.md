@@ -16,13 +16,6 @@ Represents a bibliography source contributor. Can be either an corporate (an org
 class Contributor : public System::Object
 ```
 
-## Methods
-
-| Method | Description |
-| --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## Examples
 
 

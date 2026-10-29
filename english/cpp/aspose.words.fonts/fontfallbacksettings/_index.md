@@ -22,17 +22,14 @@ class FontFallbackSettings : public System::Object
 | Method | Description |
 | --- | --- |
 | [BuildAutomatic](./buildautomatic/)() | Automatically builds the fallback settings by scanning available fonts. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Load](./load/)(const System::SharedPtr\<System::IO::Stream\> \&) | Loads fallback settings from XML stream. |
 | [Load](./load/)(const System::String \&) | Loads font fallback settings from XML file. |
-| [Load](./load/)(std::basic_istream\<CharType, Traits\> \&) |  |
+| [Load](./load/)(std::basic_istream\<CharType, Traits\> \&) | Loads fallback settings from XML stream. |
 | [LoadMsOfficeFallbackSettings](./loadmsofficefallbacksettings/)() | Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts. |
 | [LoadNotoFallbackSettings](./loadnotofallbacksettings/)() | Loads predefined fallback settings which uses Google Noto fonts. |
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&) | Saves the current fallback settings to stream. |
 | [Save](./save/)(const System::String \&) | Saves the current fallback settings to file. |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&) |  |
-| static [Type](./type/)() |  |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&) | Saves the current fallback settings to stream. |
 ## Remarks
 
  By default fallback settings are initialized with predefined settings which mimics the Microsoft Word fallback. 

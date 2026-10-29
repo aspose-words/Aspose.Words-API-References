@@ -24,20 +24,14 @@ class PersonCollection : public Contributor,
 | [Add](./add/)(const System::SharedPtr\<Aspose::Words::Bibliography::Person\> \&) | Adds a [Person](../person/) to the collection. |
 | [Clear](./clear/)() | Removes all items from the collection. |
 | [Contains](./contains/)(const System::SharedPtr\<Aspose::Words::Bibliography::Person\> \&) | Determines whether the collection contains a specific person. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PersonCollection](./personcollection/)() | Initialize a new instance of the [PersonCollection](./) class. |
 | [PersonCollection](./personcollection/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Bibliography::Person\>\> \&) | Initialize a new instance of the [PersonCollection](./) class. |
 | [PersonCollection](./personcollection/)(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<System::SharedPtr\<Aspose::Words::Bibliography::Person\>\>\> \&) |  |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Bibliography::Person\> \&) | Removes the person from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes the person at the specified index. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of persons contained in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets a person at the specified index. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Bibliography::Person\> \&) | Gets or sets a person at the specified index. |
-| [GetType](../contributor/gettype/)() const override |  |
-| [Is](../contributor/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../contributor/type/)() |  |
 ## Examples
 
 

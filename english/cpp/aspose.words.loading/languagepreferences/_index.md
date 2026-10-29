@@ -23,10 +23,7 @@ class LanguagePreferences : public System::Object
 | --- | --- |
 | [AddEditingLanguage](./addeditinglanguage/)(Aspose::Words::Loading::EditingLanguage) | Adds additional editing language. |
 | [AddEditingLanguages](./addeditinglanguages/)(const System::ArrayPtr\<Aspose::Words::Loading::EditingLanguage\> \&) | Adds additional editing languages. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [LanguagePreferences](./languagepreferences/)() |  |
-| static [Type](./type/)() |  |
 | [get_DefaultEditingLanguage](./get_defaulteditinglanguage/)() const | Gets or sets default editing language.
 
 The default value is [EnglishUS](../editinglanguage/). |

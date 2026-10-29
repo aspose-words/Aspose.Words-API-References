@@ -21,19 +21,13 @@ class RtfLoadOptions : public LoadOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RtfLoadOptions](./rtfloadoptions/)() | Initializes a new instance of this class with default values. |
-| static [Type](./type/)() |  |
 | [get_RecognizeUtf8Text](./get_recognizeutf8text/)() const | When set to **true**, will try to detect UTF8 characters, they will be preserved during import. |
 | [set_RecognizeUtf8Text](./set_recognizeutf8text/)(bool) | When set to **true**, will try to detect UTF8 characters, they will be preserved during import. |
 | [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](../loadoptions/gettype/)() const override |  |
-| [Is](../loadoptions/is/)(const System::TypeInfo \&) const override |  |
 | [LoadOptions](../loadoptions/loadoptions/)() | Initializes a new instance of this class with default values. |
 | [LoadOptions](../loadoptions/loadoptions/)(Aspose::Words::LoadFormat, const System::String \&, const System::String \&) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 | [LoadOptions](../loadoptions/loadoptions/)(const System::String \&) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| static [Type](../loadoptions/type/)() |  |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile(**Wmf** or **Emf**) images to **Png** image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |

@@ -21,9 +21,6 @@ class FontSavingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Bold](./get_bold/)() const | Indicates whether the current font is bold. |
 | [get_Document](./get_document/)() const | Gets the document object that is being saved. |
 | [get_FontFamilyName](./get_fontfamilyname/)() const | Indicates the current font family name. |

@@ -22,10 +22,7 @@ class ChartFormat : public Aspose::Words::Drawing::Core::IFillable,
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SetDefaultFill](./setdefaultfill/)() | Resets the fill of the chart element to have the default value. |
-| static [Type](./type/)() |  |
 | [get_Fill](./get_fill/)() | Gets fill formatting for the parent chart element. |
 | [get_IsDefined](./get_isdefined/)() | Gets a flag indicating whether any format is defined. |
 | [get_ShapeType](./get_shapetype/)() | Gets or sets the shape type of the parent chart element. |

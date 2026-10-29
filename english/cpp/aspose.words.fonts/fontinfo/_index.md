@@ -23,9 +23,6 @@ class FontInfo : public System::Object
 | --- | --- |
 | [GetEmbeddedFont](./getembeddedfont/)(Aspose::Words::Fonts::EmbeddedFontFormat, Aspose::Words::Fonts::EmbeddedFontStyle) | Gets a specific embedded font file. |
 | [GetEmbeddedFontAsOpenType](./getembeddedfontasopentype/)(Aspose::Words::Fonts::EmbeddedFontStyle) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AltName](./get_altname/)() const | Gets or sets the alternate name for the font. |
 | [get_Charset](./get_charset/)() | Gets or sets the character set for the font. |
 | [get_EmbeddingLicensingRights](./get_embeddinglicensingrights/)() | Gets the embedded font licensing rights. |

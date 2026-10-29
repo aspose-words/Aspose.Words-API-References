@@ -21,15 +21,12 @@ class DocumentProperty : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ToBool](./tobool/)() | Returns the property value as bool. |
 | [ToByteArray](./tobytearray/)() | Returns the property value as byte array. |
 | [ToDateTime](./todatetime/)() | Returns the property value as DateTime in UTC. |
 | [ToDouble](./todouble/)() | Returns the property value as double. |
 | [ToInt](./toint/)() | Returns the property value as integer. |
 | [ToString](./tostring/)() const override | Returns the property value as a string formatted according to the current locale. |
-| static [Type](./type/)() |  |
 | [get_IsLinkToContent](./get_islinktocontent/)() | Shows whether this property is linked to content or not. |
 | [get_LinkSource](./get_linksource/)() const | Gets the source of a linked custom document property. |
 | [get_Name](./get_name/)() const | Returns the name of the property. |

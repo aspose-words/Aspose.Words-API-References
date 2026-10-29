@@ -23,12 +23,9 @@ class ListFormat : public System::Object
 | --- | --- |
 | [ApplyBulletDefault](./applybulletdefault/)() | Starts a new default bulleted list and applies it to the paragraph. |
 | [ApplyNumberDefault](./applynumberdefault/)() | Starts a new default numbered list and applies it to the paragraph. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ListIndent](./listindent/)() | Increases the list level of the current paragraph by one level. |
 | [ListOutdent](./listoutdent/)() | Decreases the list level of the current paragraph by one level. |
 | [RemoveNumbers](./removenumbers/)() | Removes numbers or bullets from the current paragraph and sets list level to zero. |
-| static [Type](./type/)() |  |
 | [get_IsListItem](./get_islistitem/)() | True when the paragraph has bulleted or numbered formatting applied to it. |
 | [get_List](./get_list/)() | Gets or sets the list this paragraph is a member of. |
 | [get_ListLevel](./get_listlevel/)() | Returns the list level formatting plus any formatting overrides applied to the current paragraph. |

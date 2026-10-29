@@ -21,9 +21,6 @@ class ImageSavingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_CurrentShape](./get_currentshape/)() const | Gets the [ShapeBase](../../aspose.words.drawing/shapebase/) object corresponding to the shape or group shape that is about to be saved. |
 | [get_Document](./get_document/)() | Gets the document object that is currently being saved. |
 | [get_ImageFileName](./get_imagefilename/)() const | Gets or sets the file name (without path) where the image will be saved to. |

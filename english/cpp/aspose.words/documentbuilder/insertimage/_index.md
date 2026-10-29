@@ -816,12 +816,67 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.d
 ## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\> \&) method
 
 
-
+Inserts an image from a stream into the document. The image is inserted inline and at 100% scale.
 
 ```cpp
 template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | The stream that contains the image. |
+
+### ReturnValue
+
+The image node that was just inserted.
+## Remarks
+
+
+You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
+## Examples
+
+
+Shows how to insert an image from a stream into a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+{
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_ImageDir() + u"Logo.jpg");
+    // Below are three ways of inserting an image from a stream.
+    // 1 -  Inline shape with a default size based on the image's original dimensions:
+    builder->InsertImage(stream);
+
+    builder->InsertBreak(BreakType::PageBreak);
+
+    // 2 -  Inline shape with custom dimensions:
+    builder->InsertImage(stream, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
+
+    builder->InsertBreak(BreakType::PageBreak);
+
+    // 3 -  Floating shape with custom dimensions:
+    builder->InsertImage(stream, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
+}
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
+```
+
+Shows how to insert a shape with an image from a stream into a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+{
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_ImageDir() + u"Logo.jpg");
+    builder->Write(u"Image from stream: ");
+    builder->InsertImage(stream);
+}
+
+doc->Save(get_ArtifactsDir() + u"Image.FromStream.docx");
+```
 ## See Also
 
 * Class [DocumentBuilder](../)
@@ -830,12 +885,59 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Dra
 ## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
-
+Inserts an image from a stream at the specified position and size.
 
 ```cpp
 template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> & stream, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | The stream that contains the image. |
+| horzPos | Aspose::Words::Drawing::RelativeHorizontalPosition | Specifies where the distance to the image is measured from. |
+| left | double | Distance in points from the origin to the left side of the image. |
+| vertPos | Aspose::Words::Drawing::RelativeVerticalPosition | Specifies where the distance to the image measured from. |
+| top | double | Distance in points from the origin to the top side of the image. |
+| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| wrapType | Aspose::Words::Drawing::WrapType | Specifies how to wrap text around the image. |
+
+### ReturnValue
+
+The image node that was just inserted.
+## Remarks
+
+
+You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
+## Examples
+
+
+Shows how to insert an image from a stream into a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+{
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_ImageDir() + u"Logo.jpg");
+    // Below are three ways of inserting an image from a stream.
+    // 1 -  Inline shape with a default size based on the image's original dimensions:
+    builder->InsertImage(stream);
+
+    builder->InsertBreak(BreakType::PageBreak);
+
+    // 2 -  Inline shape with custom dimensions:
+    builder->InsertImage(stream, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
+
+    builder->InsertBreak(BreakType::PageBreak);
+
+    // 3 -  Floating shape with custom dimensions:
+    builder->InsertImage(stream, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
+}
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
+```
 ## See Also
 
 * Class [DocumentBuilder](../)
@@ -844,12 +946,54 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Dra
 ## DocumentBuilder::InsertImage(std::basic_istream\<CharType, Traits\> \&, double, double) method
 
 
-
+Inserts an inline image from a stream into the document and scales it to the specified size.
 
 ```cpp
 template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(std::basic_istream<CharType, Traits> & stream, double width, double height)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | The stream that contains the image. |
+| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+### ReturnValue
+
+The image node that was just inserted.
+## Remarks
+
+
+You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
+## Examples
+
+
+Shows how to insert an image from a stream into a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+{
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_ImageDir() + u"Logo.jpg");
+    // Below are three ways of inserting an image from a stream.
+    // 1 -  Inline shape with a default size based on the image's original dimensions:
+    builder->InsertImage(stream);
+
+    builder->InsertBreak(BreakType::PageBreak);
+
+    // 2 -  Inline shape with custom dimensions:
+    builder->InsertImage(stream, ConvertUtil::PixelToPoint(static_cast<double>(250)), ConvertUtil::PixelToPoint(static_cast<double>(144)));
+
+    builder->InsertBreak(BreakType::PageBreak);
+
+    // 3 -  Floating shape with custom dimensions:
+    builder->InsertImage(stream, RelativeHorizontalPosition::Margin, static_cast<double>(100), RelativeVerticalPosition::Margin, static_cast<double>(100), static_cast<double>(200), static_cast<double>(100), WrapType::Square);
+}
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.docx");
+```
 ## See Also
 
 * Class [DocumentBuilder](../)

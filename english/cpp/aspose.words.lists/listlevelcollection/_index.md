@@ -22,31 +22,9 @@ class ListLevelCollection : public System::Collections::Generic::IEnumerable<Sys
 | Method | Description |
 | --- | --- |
 | [GetEnumerator](./getenumerator/)() override | Gets the enumerator object that will enumerate levels in this list. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of levels in this list. |
 | [idx_get](./idx_get/)(int32_t) | Gets a list level by index. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Lists::ListLevel\> \&) | Gets a list level by index. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Examples
 
 

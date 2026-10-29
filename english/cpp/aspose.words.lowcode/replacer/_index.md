@@ -21,8 +21,6 @@ class Replacer : public Processor
 | Method | Description |
 | --- | --- |
 | static [Create](./create/)(const System::SharedPtr\<Aspose::Words::LowCode::ReplacerContext\> \&) | Creates new instance of the replacer processor. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&) | Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options. |
 | static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \&) | Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options. |
 | static [Replace](./replace/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::String \&, const System::String \&) | Replaces all occurrences of a specified character string pattern with a replacement string in the input stream, with the specified save format and additional options. |
@@ -49,15 +47,12 @@ class Replacer : public Processor
 | static [ReplaceToImages](./replacetoimages/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \&) | Replaces all occurrences of a specified regular expression pattern with a replacement string in the input file. Renders output to images. |
 | static [ReplaceToImages](./replacetoimages/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, const System::String \&, const System::String \&) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file. Renders output to images. |
 | static [ReplaceToImages](./replacetoimages/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \&) | Replaces all occurrences of a specified character string pattern with a replacement string in the input file. Renders output to images. |
-| static [Type](./type/)() |  |
 | [Execute](../processor/execute/)() | Execute the processor action. |
 | [Execute](../processor/execute/)(System::Threading::CancellationToken) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\> \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
-| [GetType](../processor/gettype/)() const override |  |
-| [Is](../processor/is/)(const System::TypeInfo \&) const override |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, Aspose::Words::SaveFormat) |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) | Specifies output stream for the processor. |
@@ -65,7 +60,6 @@ class Replacer : public Processor
 | [To](../processor/to/)(const System::String \&) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String \&, Aspose::Words::SaveFormat) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Specifies output file for the processor. |
-| static [Type](../processor/type/)() |  |
 ## See Also
 
 * Class [Processor](../processor/)

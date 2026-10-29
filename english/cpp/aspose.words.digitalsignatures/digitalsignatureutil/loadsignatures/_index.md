@@ -116,12 +116,40 @@ ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"Digital
 ## DigitalSignatureUtil::LoadSignatures(std::basic_istream\<CharType, Traits\> \&) method
 
 
-
+Loads digital signatures from document using stream.
 
 ```cpp
 template<typename CharType,typename Traits> static System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> Aspose::Words::DigitalSignatures::DigitalSignatureUtil::LoadSignatures(std::basic_istream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | Stream with the document. |
+
+### ReturnValue
+
+Collection of digital signatures. Returns empty collection if file is not signed.
+## Examples
+
+
+Shows how to load signatures from a digitally signed document.
+
+```cpp
+// There are two ways of loading a signed document's collection of digital signatures using the DigitalSignatureUtil class.
+// 1 -  Load from a document from a local file system filename:
+System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatures = DigitalSignatureUtil::LoadSignatures(get_MyDir() + u"Digitally signed.docx");
+
+// If this collection is nonempty, then we can verify that the document is digitally signed.
+ASSERT_EQ(1, digitalSignatures->get_Count());
+
+// 2 -  Load from a document from a FileStream:
+{
+    System::SharedPtr<System::IO::Stream> stream = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Digitally signed.docx", System::IO::FileMode::Open);
+    digitalSignatures = DigitalSignatureUtil::LoadSignatures(stream);
+    ASSERT_EQ(1, digitalSignatures->get_Count());
+}
+```
 ## See Also
 
 * Class [DigitalSignatureUtil](../)

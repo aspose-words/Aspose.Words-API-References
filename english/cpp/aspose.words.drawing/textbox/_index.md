@@ -22,10 +22,7 @@ class TextBox : public System::Object
 | Method | Description |
 | --- | --- |
 | [BreakForwardLink](./breakforwardlink/)() | Breaks the link to the next [TextBox](./). |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [IsValidLinkTarget](./isvalidlinktarget/)(const System::SharedPtr\<Aspose::Words::Drawing::TextBox\> \&) | Determines whether this [TextBox](./) can be linked to the target [TextBox](./). |
-| static [Type](./type/)() |  |
 | [get_FitShapeToText](./get_fitshapetotext/)() | Determines whether Microsoft Word will grow the shape to fit text. |
 | [get_InternalMarginBottom](./get_internalmarginbottom/)() | Specifies the inner bottom margin in points for a shape. |
 | [get_InternalMarginLeft](./get_internalmarginleft/)() | Specifies the inner left margin in points for a shape. |

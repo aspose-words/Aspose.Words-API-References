@@ -21,9 +21,6 @@ class TextColumn : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_SpaceAfter](./get_spaceafter/)() | Gets or sets the space between this column and the next column in points. Not required for the last column. |
 | [get_Width](./get_width/)() | Gets or sets the width of the text column in points. |
 | [set_SpaceAfter](./set_spaceafter/)(double) | Sets the space between this column and the next column in points. Not required for the last column. |

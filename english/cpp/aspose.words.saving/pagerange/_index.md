@@ -21,10 +21,7 @@ class PageRange : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PageRange](./pagerange/)(int32_t, int32_t) | Creates a new page range object. |
-| static [Type](./type/)() |  |
 ## Examples
 
 

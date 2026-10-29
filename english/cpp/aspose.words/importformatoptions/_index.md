@@ -21,10 +21,7 @@ class ImportFormatOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | [ImportFormatOptions](./importformatoptions/)() |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_AdjustSentenceAndWordSpacing](./get_adjustsentenceandwordspacing/)() const | Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is **false**. |
 | [get_AppendDocumentWithNewPage](./get_appenddocumentwithnewpage/)() const | Gets or sets a boolean value indicating whether to change a first imported section type to the [NewPage](../sectionstart/) forcibly when call [AppendDocument()](../document/appenddocument/). 
 The default value is **true**. |

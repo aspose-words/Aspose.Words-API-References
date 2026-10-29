@@ -22,9 +22,6 @@ class ChartLegend : public Aspose::Words::Drawing::Core::Dml::IDmlExtensionListS
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Font](./get_font/)() | Provides access to the default font formatting of legend entries. To override the font formatting for a specific legend entry, use the[Font](../chartlegendentry/get_font/) property. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the legend. |
 | [get_LegendEntries](./get_legendentries/)() const | Returns a collection of legend entries for all series and trendlines of the parent chart. |

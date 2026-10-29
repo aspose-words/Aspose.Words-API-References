@@ -90,12 +90,39 @@ ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"Digital
 ## DigitalSignatureUtil::RemoveAllSignatures(std::basic_istream\<CharType, Traits\> \&, std::basic_ostream\<CharType, Traits\> \&) method
 
 
+Removes all digital signatures from document in source stream and writes unsigned document to destination stream. 
+Output will be written to the start of stream and stream size will be updated with content length.
 
+The following formats are compatible for digital signature removal: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
 
 ```cpp
 template<typename CharType,typename Traits> static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::RemoveAllSignatures(std::basic_istream<CharType, Traits> & srcStream, std::basic_ostream<CharType, Traits> & dstStream)
 ```
 
+## Examples
+
+
+Shows how to remove digital signatures from a digitally signed document.
+
+```cpp
+// There are two ways of using the DigitalSignatureUtil class to remove digital signatures
+// from a signed document by saving an unsigned copy of it somewhere else in the local file system.
+// 1 - Determine the locations of both the signed document and the unsigned copy by filename strings:
+DigitalSignatureUtil::RemoveAllSignatures(get_MyDir() + u"Digitally signed.docx", get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromString.docx");
+
+// 2 - Determine the locations of both the signed document and the unsigned copy by file streams:
+{
+    System::SharedPtr<System::IO::Stream> streamIn = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Digitally signed.docx", System::IO::FileMode::Open);
+    {
+        System::SharedPtr<System::IO::Stream> streamOut = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx", System::IO::FileMode::Create);
+        DigitalSignatureUtil::RemoveAllSignatures(streamIn, streamOut);
+    }
+}
+
+// Verify that both our output documents have no digital signatures.
+ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromString.docx")->get_Count());
+ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count());
+```
 ## See Also
 
 * Class [DigitalSignatureUtil](../)

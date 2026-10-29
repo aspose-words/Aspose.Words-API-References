@@ -20,10 +20,7 @@ class MailMergeOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [MailMergeOptions](./mailmergeoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_CleanupOptions](./get_cleanupoptions/)() const | Gets a set of flags that specify what items should be removed during mail merge. |
 | [get_CleanupParagraphsWithPunctuationMarks](./get_cleanupparagraphswithpunctuationmarks/)() const | Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the [RemoveEmptyParagraphs](../../aspose.words.mailmerging/mailmergecleanupoptions/) option is specified. |
 | [get_MergeDuplicateRegions](./get_mergeduplicateregions/)() const | Gets or sets a value indicating whether all of the document mail merge regions with the name of a data source should be merged while executing of a mail merge with regions against the data source or just the first one. |

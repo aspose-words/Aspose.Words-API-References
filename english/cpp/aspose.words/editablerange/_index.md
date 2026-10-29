@@ -21,10 +21,7 @@ class EditableRange : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)() | Removes the editable range from the document. Does not remove content inside the editable range. |
-| static [Type](./type/)() |  |
 | [get_EditableRangeEnd](./get_editablerangeend/)() | Gets the node that represents the end of the editable range. |
 | [get_EditableRangeStart](./get_editablerangestart/)() const | Gets the node that represents the start of the editable range. |
 | [get_EditorGroup](./get_editorgroup/)() | Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |

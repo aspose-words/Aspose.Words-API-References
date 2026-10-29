@@ -21,9 +21,6 @@ class UserInformation : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [UserInformation](./userinformation/)() |  |
 | [get_Address](./get_address/)() const | Gets or sets the user's postal address. |
 | static [get_DefaultUser](./get_defaultuser/)() | Default user information. |

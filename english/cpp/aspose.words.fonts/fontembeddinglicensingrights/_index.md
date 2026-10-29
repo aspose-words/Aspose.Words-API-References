@@ -20,9 +20,6 @@ class FontEmbeddingLicensingRights : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_BitmapEmbeddingOnly](./get_bitmapembeddingonly/)() const | Indicates the "Bitmap embedding only" restriction. |
 | [get_EmbeddingUsagePermissions](./get_embeddingusagepermissions/)() const | Usage permissions. |
 | [get_NoSubsetting](./get_nosubsetting/)() const | Indicates the "No subsetting" restriction. |

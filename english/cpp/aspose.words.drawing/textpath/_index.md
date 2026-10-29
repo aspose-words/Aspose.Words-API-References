@@ -21,9 +21,6 @@ class TextPath : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Bold](./get_bold/)() | True if the font is formatted as bold. |
 | [get_FitPath](./get_fitpath/)() | Defines whether the text fits the path of a shape. |
 | [get_FitShape](./get_fitshape/)() | Defines whether the text fits bounding box of a shape. |

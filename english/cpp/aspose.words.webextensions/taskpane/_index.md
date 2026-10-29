@@ -21,10 +21,7 @@ class TaskPane : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [TaskPane](./taskpane/)() |  |
-| static [Type](./type/)() |  |
 | [get_DockState](./get_dockstate/)() const | Specifies the last-docked location of this task pane object. |
 | [get_IsLocked](./get_islocked/)() const | Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user. |
 | [get_IsVisible](./get_isvisible/)() const | Specifies whether the task pane shows as visible by default when the document opens. |

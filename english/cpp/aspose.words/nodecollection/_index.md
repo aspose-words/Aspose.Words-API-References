@@ -26,14 +26,11 @@ class NodeCollection : public INodeCollection,
 | [Clear](./clear/)() | Removes all nodes from this collection and from the document. |
 | [Contains](./contains/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Determines whether a node is in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [GetType](./gettype/)() const override |  |
 | [IndexOf](./indexof/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns the zero-based index of the specified node. |
 | [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts a node into the collection at the specified index. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Removes the node from the collection and from the document. |
 | [RemoveAt](./removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](./toarray/)() | Copies all nodes from the collection to a new array of nodes. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of nodes in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a node at the given index. |
 ## Remarks

@@ -22,9 +22,6 @@ class VbaModule : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clone](./clone/)() | Performs a copy of the [VbaModule](./). |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [VbaModule](./vbamodule/)() | Creates an empty module. |
 | [get_Name](./get_name/)() const | Gets or sets VBA project module name. |
 | [get_SourceCode](./get_sourcecode/)() const | Gets or sets VBA project module source code. |

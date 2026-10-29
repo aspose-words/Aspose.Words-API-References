@@ -32,17 +32,11 @@ class TabStopCollection : public InternableComplexAttr,
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
 | [GetIndexByPosition](./getindexbyposition/)(double) | Gets the index of a tab stop with the specified position in points. |
 | [GetPositionByIndex](./getpositionbyindex/)(int32_t) | Gets the position (in points) of the tab stop at the specified index. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveByIndex](./removebyindex/)(int32_t) | Removes a tab stop at the specified index from the collection. |
 | [RemoveByPosition](./removebyposition/)(double) | Removes a tab stop at the specified position from the collection. |
-| static [Type](./type/)() |  |
 | [get_Count](./get_count/)() | Gets the number of tab stops in the collection. |
 | [idx_get](./idx_get/)(double) | Gets a tab stop at the specified position. |
 | [idx_get](./idx_get/)(int32_t) | Gets a tab stop at the given index. |
-| [GetType](../internablecomplexattr/gettype/)() const override |  |
-| [Is](../internablecomplexattr/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../internablecomplexattr/type/)() |  |
 ## Remarks
 
 

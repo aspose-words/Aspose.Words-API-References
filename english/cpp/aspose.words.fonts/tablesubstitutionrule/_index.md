@@ -23,8 +23,6 @@ class TableSubstitutionRule : public FontSubstitutionRule
 | --- | --- |
 | [AddSubstitutes](./addsubstitutes/)(const System::String \&, const System::ArrayPtr\<System::String\> \&) | Adds substitute font names for given original font name. |
 | [GetSubstitutes](./getsubstitutes/)(const System::String \&) | Returns array containing substitute font names for the specified original font name. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Load](./load/)(const System::SharedPtr\<System::IO::Stream\> \&) | Loads table substitution settings from XML stream. |
 | [Load](./load/)(const System::String \&) | Loads table substitution settings from XML file. |
 | [LoadAndroidSettings](./loadandroidsettings/)() | Loads predefined table substitution settings for Android platform. |
@@ -33,10 +31,6 @@ class TableSubstitutionRule : public FontSubstitutionRule
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&) | Saves the current table substitution settings to stream. |
 | [Save](./save/)(const System::String \&) | Saves the current table substitution settings to file. |
 | [SetSubstitutes](./setsubstitutes/)(const System::String \&, const System::ArrayPtr\<System::String\> \&) | Override substitute font names for given original font name. |
-| static [Type](./type/)() |  |
-| [GetType](../fontsubstitutionrule/gettype/)() const override |  |
-| [Is](../fontsubstitutionrule/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fontsubstitutionrule/type/)() |  |
 | virtual [get_Enabled](../fontsubstitutionrule/get_enabled/)() | Specifies whether the rule is enabled or not. |
 | virtual [set_Enabled](../fontsubstitutionrule/set_enabled/)(bool) | Specifies whether the rule is enabled or not. |
 ## Remarks

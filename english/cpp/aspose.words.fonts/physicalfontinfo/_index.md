@@ -21,9 +21,6 @@ class PhysicalFontInfo : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_EmbeddingLicensingRights](./get_embeddinglicensingrights/)() const | Embedding licensing rights for the font. |
 | [get_FilePath](./get_filepath/)() const | Path to the font file if any. |
 | [get_FontFamilyName](./get_fontfamilyname/)() const | Family name of the font. |

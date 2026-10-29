@@ -20,10 +20,7 @@ class ReflectionFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)() | Removes [ReflectionFormat](./) from the parent object. |
-| static [Type](./type/)() |  |
 | [get_Blur](./get_blur/)() | Gets or sets a double value that specifies the degree of blur effect applied to the reflection effect in points. The default value is 0.0. |
 | [get_Distance](./get_distance/)() | Gets or sets a double value that specifies the amount of separation of the reflected image from the object in points. The default value is 0.0. |
 | [get_Size](./get_size/)() | Gets or sets a double value between 0.0 and 1.0 representing the size of the reflection as a percentage of the reflected object. The default value is 0.0. |

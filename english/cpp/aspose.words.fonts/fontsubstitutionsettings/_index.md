@@ -21,9 +21,6 @@ class FontSubstitutionSettings : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DefaultFontSubstitution](./get_defaultfontsubstitution/)() const | Settings related to default font substitution rule. |
 | [get_FontConfigSubstitution](./get_fontconfigsubstitution/)() const | Settings related to font config substitution rule. |
 | [get_FontInfoSubstitution](./get_fontinfosubstitution/)() const | Settings related to font info substitution rule. |

@@ -22,41 +22,28 @@ class StructuredDocumentTagRangeEnd : public Node
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/)(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&, int32_t) | Initializes a new instance of the Structured document tag range end class. |
-| static [Type](./type/)() |  |
 | [get_Id](./get_id/)() const | Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node. Corresponding [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/) node has the same [Id](../structureddocumenttagrangestart/get_id/). |
 | [get_NodeType](./get_nodetype/)() const override | Returns [StructuredDocumentTagRangeEnd](../../aspose.words/nodetype/). |
 | virtual [Accept](../../aspose.words/node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
-| [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Gets the text of this node and of all its children. |
-| [GetType](../../aspose.words/node/gettype/)() const override |  |
-| [Is](../../aspose.words/node/is/)(const System::TypeInfo \&) const override |  |
-| [IsAncestorNode](../../aspose.words/node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
-| [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Exports the content of the node into a string using the specified save options. |
-| static [Type](../../aspose.words/node/type/)() |  |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | virtual [get_IsComposite](../../aspose.words/node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
-| [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
 | virtual [get_NodeType](../../aspose.words/node/get_nodetype/)() const | Gets the type of this node. |
 | [get_ParentNode](../../aspose.words/node/get_parentnode/)() | Gets the immediate parent of this node. |
-| [get_PrevNode](../../aspose.words/node/get_prevnode/)() const |  |
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Specifies custom node identifier. |
-| [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
-| [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 ## Remarks
 
  Can be immediate child of [Body](../../aspose.words/body/) node only. 

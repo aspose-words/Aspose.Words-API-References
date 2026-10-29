@@ -20,10 +20,7 @@ class GlowFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)() | Removes [GlowFormat](./) from the parent object. |
-| static [Type](./type/)() |  |
 | [get_Color](./get_color/)() | Gets or sets a **Color** object that represents the color for a glow effect. The default value is **Black**. |
 | [get_Radius](./get_radius/)() | Gets or sets a double value that represents the length of the radius for a glow effect in points (pt). The default value is 0.0. |
 | [get_Transparency](./get_transparency/)() | Gets or sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |

@@ -21,10 +21,7 @@ class SignOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SignOptions](./signoptions/)() |  |
-| static [Type](./type/)() |  |
 | [get_ApplicationVersion](./get_applicationversion/)() const | Gets or sets the application version for the digital signature. Default value is "12.0". |
 | [get_ColorDepth](./get_colordepth/)() const | Gets or sets the color depth for the digital signature. Default value is 32. |
 | [get_Comments](./get_comments/)() const | Specifies comments on the digital signature. Default value is empty string. |

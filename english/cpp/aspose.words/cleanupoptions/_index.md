@@ -22,9 +22,6 @@ class CleanupOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [CleanupOptions](./cleanupoptions/)() |  |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DuplicateStyle](./get_duplicatestyle/)() const | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**. |
 | [get_UnusedBuiltinStyles](./get_unusedbuiltinstyles/)() const | Specifies that unused [BuiltIn](../style/get_builtin/) styles should be removed from document. |
 | [get_UnusedLists](./get_unusedlists/)() const | Specifies whether unused list and list definitions should be removed from document. Default value is **true**. |

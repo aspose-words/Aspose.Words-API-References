@@ -22,10 +22,7 @@ class PdfSaveOptions : public FixedPageSaveOptions
 | Method | Description |
 | --- | --- |
 | [Clone](./clone/)() | Creates a deep clone of this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PdfSaveOptions](./pdfsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the [Pdf](../../aspose.words/saveformat/) format. |
-| static [Type](./type/)() |  |
 | [get_AdditionalTextPositioning](./get_additionaltextpositioning/)() const | A flag specifying whether to write additional text positioning operators or not. |
 | [get_AttachmentsEmbeddingMode](./get_attachmentsembeddingmode/)() const | Gets or sets a value determining how attachments are embedded to the PDF document. |
 | [get_CacheBackgroundGraphics](./get_cachebackgroundgraphics/)() const | Gets or sets a value determining whether or not to cache graphics placed in document's background. |
@@ -100,9 +97,6 @@ class PdfSaveOptions : public FixedPageSaveOptions
 | [set_ZoomBehavior](./set_zoombehavior/)(Aspose::Words::Saving::PdfZoomBehavior) | Sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [set_ZoomFactor](./set_zoomfactor/)(int32_t) | Sets a value determining zoom factor (in percentages) for a document. |
 | [Equals](../fixedpagesaveoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
-| [GetType](../fixedpagesaveoptions/gettype/)() const override |  |
-| [Is](../fixedpagesaveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../fixedpagesaveoptions/type/)() |  |
 | [get_ColorMode](../fixedpagesaveoptions/get_colormode/)() const | Gets or sets a value determining how colors are rendered. |
 | [get_JpegQuality](../fixedpagesaveoptions/get_jpegquality/)() const | Gets or sets a value determining the quality of the JPEG images inside Html document. |
 | [get_MetafileRenderingOptions](../fixedpagesaveoptions/get_metafilerenderingoptions/)() const | Allows to specify metafile rendering options. |
@@ -119,9 +113,6 @@ class PdfSaveOptions : public FixedPageSaveOptions
 | [set_PageSet](../fixedpagesaveoptions/set_pageset/)(const System::SharedPtr\<Aspose::Words::Saving::PageSet\> \&) | Sets the pages to render. Default is all the pages in the document. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(Aspose::Words::SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../saveoptions/createsaveoptions/)(const System::String \&) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [GetType](../saveoptions/gettype/)() const override |  |
-| [Is](../saveoptions/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../saveoptions/type/)() |  |
 | [get_AllowEmbeddingPostScriptFonts](../saveoptions/get_allowembeddingpostscriptfonts/)() const | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
 | [get_CustomTimeZoneInfo](../saveoptions/get_customtimezoneinfo/)() const | Gets or sets custom local time zone used for date/time fields. |
 | [get_DefaultTemplate](../saveoptions/get_defaulttemplate/)() const | Gets or sets path to default template (including filename). Default value for this property is empty string. |

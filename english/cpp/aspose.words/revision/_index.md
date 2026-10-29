@@ -22,10 +22,7 @@ class Revision : public System::Object
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)() | Accepts this revision. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Reject](./reject/)() | Reject this revision. |
-| static [Type](./type/)() |  |
 | [get_Author](./get_author/)() | Gets or sets the author of this revision. Can not be empty string or **null**. |
 | [get_DateTime](./get_datetime/)() | Gets or sets the date/time of this revision. |
 | [get_Group](./get_group/)() | Gets the revision group. Returns **null** if the revision does not belong to any group. |

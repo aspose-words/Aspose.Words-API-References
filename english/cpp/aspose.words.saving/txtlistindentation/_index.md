@@ -21,10 +21,7 @@ class TxtListIndentation : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [TxtListIndentation](./txtlistindentation/)() |  |
-| static [Type](./type/)() |  |
 | [get_Character](./get_character/)() const | Gets or sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation. |
 | [get_Count](./get_count/)() const | Gets or sets how many [Character](./get_character/) to use as indentation per one list level. The default value is 0, that means no indentation. |
 | [set_Character](./set_character/)(char16_t) | Sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation. |

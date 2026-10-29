@@ -21,23 +21,17 @@ class SectionCollection : public NodeCollection
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ToArray](./toarray/)() | Copies all sections from the collection to a new array of sections. |
-| static [Type](./type/)() |  |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a section at the given index. |
 | [Add](../nodecollection/add/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Adds a node to the end of the collection. |
 | [Clear](../nodecollection/clear/)() | Removes all nodes from this collection and from the document. |
 | [Contains](../nodecollection/contains/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Determines whether a node is in the collection. |
 | [GetEnumerator](../nodecollection/getenumerator/)() override | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [GetType](../nodecollection/gettype/)() const override |  |
 | [IndexOf](../nodecollection/indexof/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns the zero-based index of the specified node. |
 | [Insert](../nodecollection/insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts a node into the collection at the specified index. |
-| [Is](../nodecollection/is/)(const System::TypeInfo \&) const override |  |
 | [Remove](../nodecollection/remove/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Removes the node from the collection and from the document. |
 | [RemoveAt](../nodecollection/removeat/)(int32_t) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../nodecollection/toarray/)() | Copies all nodes from the collection to a new array of nodes. |
-| static [Type](../nodecollection/type/)() |  |
 | [get_Count](../nodecollection/get_count/)() | Gets the number of nodes in the collection. |
 | [idx_get](../nodecollection/idx_get/)(int32_t) | Retrieves a node at the given index. |
 ## Remarks

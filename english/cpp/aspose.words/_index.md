@@ -204,7 +204,6 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 | [CalendarType](./calendartype/) | Specifies the type of a calendar. |
 | [ChapterPageSeparator](./chapterpageseparator/) | Defines the separator character that appears between the chapter and page number. |
 | [ConditionalStyleType](./conditionalstyletype/) | Represents possible table areas to which conditional formatting may be defined in a table style. |
-| [DocumentPositionMovement](./documentpositionmovement/) |  |
 | [DropCapPosition](./dropcapposition/) | Specifies the position for a drop cap text. |
 | [EditorType](./editortype/) | Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document. |
 | [EmphasisMark](./emphasismark/) | Specifies possible types of emphasis mark. |
@@ -217,7 +216,6 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 | [LineSpacingRule](./linespacingrule/) | Specifies line spacing values for a paragraph. |
 | [LineStyle](./linestyle/) | Specifies line style of a [Border](./border/). |
 | [LoadFormat](./loadformat/) | Indicates the format of the document that is to be loaded. |
-| [LoadFormatTest](./loadformattest/) |  |
 | [Margins](./margins/) | Specifies preset margins. |
 | [MeasurementUnits](./measurementunits/) | Specifies the unit of measurement. |
 | [NodeChangingAction](./nodechangingaction/) | Specifies the type of node change. |
@@ -240,7 +238,6 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 | [StoryType](./storytype/) | Text of a Word document is stored in stories. [StoryType](./storytype/) identifies a story. |
 | [StyleIdentifier](./styleidentifier/) | Locale independent style identifier. |
 | [StyleType](./styletype/) | Represents type of the style. |
-| [SuspendedRevisionTypes](./suspendedrevisiontypes/) |  |
 | [TabAlignment](./tabalignment/) | Specifies the alignment/type of a tab stop. |
 | [TabLeader](./tableader/) | Specifies the type of the leader line displayed under the tab character. |
 | [TextDmlEffect](./textdmleffect/) | Dml text effect for text runs. |

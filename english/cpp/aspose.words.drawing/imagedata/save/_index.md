@@ -80,12 +80,20 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
 ## ImageData::Save(std::basic_ostream\<CharType, Traits\> \&) method
 
 
-
+Saves the image into the specified stream.
 
 ```cpp
 template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageData::Save(std::basic_ostream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_ostream\<CharType, Traits\> \& | The stream where to save the image to. |
+## Remarks
+
+
+Is it the responsibility of the caller to dispose the stream object.
 ## See Also
 
 * Class [ImageData](../)

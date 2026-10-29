@@ -23,9 +23,6 @@ class ComparisonEvaluationResult : public System::Object
 | --- | --- |
 | [ComparisonEvaluationResult](./comparisonevaluationresult/)(bool) | Creates a comparison evaluation result. |
 | [ComparisonEvaluationResult](./comparisonevaluationresult/)(const System::String \&) | Creates a failed comparison evaluation result with the corresponding error message. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ErrorMessage](./get_errormessage/)() const | Gets the failed comparison evaluation result's error message. |
 | [get_Result](./get_result/)() const | Gets the comparison evaluation result. |
 ## See Also

@@ -21,10 +21,7 @@ class DigitalSignature : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [ToString](./tostring/)() const override | Returns a user-friendly string that displays the value of this object. |
-| static [Type](./type/)() |  |
 | [get_ApplicationVersion](./get_applicationversion/)() | Gets the application version for the digital signature. |
 | [get_CertificateHolder](./get_certificateholder/)() const | Returns the certificate holder object that contains the certificate was used to sign the document. |
 | [get_ColorDepth](./get_colordepth/)() | Gets the color depth for the digital signature. |

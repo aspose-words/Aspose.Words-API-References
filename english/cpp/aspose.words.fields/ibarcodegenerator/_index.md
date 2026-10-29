@@ -22,9 +22,6 @@ class IBarcodeGenerator : public System::Object
 | --- | --- |
 | virtual [GetBarcodeImage](./getbarcodeimage/)(System::SharedPtr\<Aspose::Words::Fields::BarcodeParameters\>) | Generate barcode image using the set of parameters (for DisplayBarcode field). |
 | virtual [GetOldBarcodeImage](./getoldbarcodeimage/)(System::SharedPtr\<Aspose::Words::Fields::BarcodeParameters\>) | Generate barcode image using the set of parameters (for old-fashioned Barcode field). |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 ## Remarks
 
  Generator instance should be passed through the [BarcodeGenerator](../fieldoptions/get_barcodegenerator/) property. 

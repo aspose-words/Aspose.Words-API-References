@@ -23,9 +23,6 @@ class ChartDataPoint : public IChartDataPoint,
 | Method | Description |
 | --- | --- |
 | [ClearFormat](./clearformat/)() | Clears format of this data point. The properties are set to the default values defined in the parent series. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Bubble3D](./get_bubble3d/)() override | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [get_Explosion](./get_explosion/)() override | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of this data point. |
@@ -35,9 +32,6 @@ class ChartDataPoint : public IChartDataPoint,
 | [set_Bubble3D](./set_bubble3d/)(bool) override | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [set_Explosion](./set_explosion/)(int32_t) override | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Specifies whether the parent element shall inverts its colors if the value is negative. |
-| [GetType](../ichartdatapoint/gettype/)() const override |  |
-| [Is](../ichartdatapoint/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../ichartdatapoint/type/)() |  |
 | virtual [get_Bubble3D](../ichartdatapoint/get_bubble3d/)() | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | virtual [get_Explosion](../ichartdatapoint/get_explosion/)() | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | virtual [get_InvertIfNegative](../ichartdatapoint/get_invertifnegative/)() | Specifies whether the parent element shall inverts its colors if the value is negative. |

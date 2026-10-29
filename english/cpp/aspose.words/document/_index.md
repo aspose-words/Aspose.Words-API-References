@@ -41,15 +41,13 @@ class Document : public DocumentBase,
 | [Document](./document/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Opens an existing document from a stream. Allows to specify additional options such as an encryption password. |
 | [Document](./document/)(const System::String \&) | Opens an existing document from a file. Automatically detects the file format. |
 | [Document](./document/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Opens an existing document from a file. Allows to specify additional options such as an encryption password. |
-| [Document](./document/)(std::istream \&) |  |
-| [Document](./document/)(std::istream \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) |  |
+| [Document](./document/)(std::istream \&) | Opens an existing document from a stream. Automatically detects the file format. |
+| [Document](./document/)(std::istream \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Opens an existing document from a stream. Allows to specify additional options such as an encryption password. |
 | [EnsureMinimum](./ensureminimum/)() | If the document contains no sections, creates one section with one paragraph. |
 | [ExpandTableStylesToDirectFormatting](./expandtablestylestodirectformatting/)() | Converts formatting specified in table styles into direct formatting on tables in the document. |
 | [ExtractPages](./extractpages/)(int32_t, int32_t) | Returns the [Document](./) object representing specified range of pages. |
 | [ExtractPages](./extractpages/)(int32_t, int32_t, const System::SharedPtr\<Aspose::Words::PageExtractOptions\> \&) | Returns the [Document](./) object representing the specified range of pages and the given page extract options. |
 | [GetPageInfo](./getpageinfo/)(int32_t) | Gets the page size, orientation and other information about a page that might be useful for printing or rendering. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [JoinRunsWithSameFormatting](./joinrunswithsameformatting/)() | Joins runs with same formatting in all paragraphs of the document. |
 | [NormalizeFieldTypes](./normalizefieldtypes/)() | Changes field type values [FieldType](../../aspose.words.fields/fieldchar/get_fieldtype/) of [FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/), [FieldEnd](../../aspose.words.fields/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
 | [Protect](./protect/)(Aspose::Words::ProtectionType) | Protects the document from changes without changing the existing password or assigns a random password. |
@@ -65,12 +63,11 @@ class Document : public DocumentBase,
 | [Save](./save/)(const System::String \&) | Saves the document to a file. Automatically determines the save format from the extension. |
 | [Save](./save/)(const System::String \&, Aspose::Words::SaveFormat) | Saves the document to a file in the specified format. |
 | [Save](./save/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Saves the document to a file using the specified save options. |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&, Aspose::Words::SaveFormat) |  |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) |  |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&, Aspose::Words::SaveFormat) | Saves the document to a stream using the specified format. |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Saves the document to a stream using the specified save options. |
 | [StartTrackRevisions](./starttrackrevisions/)(const System::String \&) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StartTrackRevisions](./starttrackrevisions/)(const System::String \&, System::DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StopTrackRevisions](./stoptrackrevisions/)() | Stops automatic marking of document changes as revisions. |
-| static [Type](./type/)() |  |
 | [UnlinkFields](./unlinkfields/)() | Unlinks fields in the whole document. |
 | [Unprotect](./unprotect/)() | Removes protection from the document regardless of the password. |
 | [Unprotect](./unprotect/)(const System::String \&) | Removes protection from the document if a correct password is specified. |
@@ -155,12 +152,9 @@ class Document : public DocumentBase,
 | [set_SpellingChecked](./set_spellingchecked/)(bool) | Returns **true** if the document has been checked for spelling. |
 | [set_TrackRevisions](./set_trackrevisions/)(bool) | True if changes are tracked when this document is edited in Microsoft Word. |
 | [set_VbaProject](./set_vbaproject/)(const System::SharedPtr\<Aspose::Words::Vba::VbaProject\> \&) | Sets a [VbaProject](./get_vbaproject/). |
-| [GetType](../documentbase/gettype/)() const override |  |
 | [ImportNode](../documentbase/importnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&, bool) | Imports a node from another document to the current document. |
 | [ImportNode](../documentbase/importnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&, bool, Aspose::Words::ImportFormatMode) | Imports a node from another document to the current document with an option to control formatting. |
 | [ImportNode](../documentbase/importnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&, bool, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \&) | Imports a node from another document to the current document with an option to control formatting. |
-| [Is](../documentbase/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../documentbase/type/)() |  |
 | [get_BackgroundShape](../documentbase/get_backgroundshape/)() const | Gets or sets the background shape of the document. Can be **null**. |
 | [get_Document](../documentbase/get_document/)() const override | Gets this instance. |
 | [get_FontInfos](../documentbase/get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
@@ -183,18 +177,15 @@ class Document : public DocumentBase,
 | [GetChildNodes](../compositenode/getchildnodes/)(Aspose::Words::NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../compositenode/getenumerator/)() override | Provides support for the for each style iteration over the child nodes of this node. |
 | [GetText](../compositenode/gettext/)() override | Gets the text of this node and of all its children. |
-| [GetType](../compositenode/gettype/)() const override |  |
 | [IndexOf](../compositenode/indexof/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../compositenode/insertafter/)(T, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../compositenode/insertbefore/)(T, const System::SharedPtr\<Aspose::Words::Node\> \&) | Inserts the specified node immediately before the specified reference node. |
-| [Is](../compositenode/is/)(const System::TypeInfo \&) const override |  |
 | [PrependChild](../compositenode/prependchild/)(T) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [RemoveAllChildren](../compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
 | [RemoveChild](../compositenode/removechild/)(T) | Removes the specified child node. |
 | [RemoveSmartTags](../compositenode/removesmarttags/)() | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../compositenode/selectnodes/)(const System::String \&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../compositenode/selectsinglenode/)(const System::String \&) | Selects the first [Node](../node/) that matches the XPath expression. |
-| static [Type](../compositenode/type/)() |  |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
@@ -203,32 +194,22 @@ class Document : public DocumentBase,
 | virtual [Accept](../node/accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) | Accepts a visitor. |
 | [Clone](../node/clone/)(bool) | Creates a duplicate of the node. |
 | [GetAncestor](../node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
-| [GetAncestorOf](../node/getancestorof/)() |  |
 | virtual [GetText](../node/gettext/)() | Gets the text of this node and of all its children. |
-| [GetType](../node/gettype/)() const override |  |
-| [Is](../node/is/)(const System::TypeInfo \&) const override |  |
-| [IsAncestorNode](../node/isancestornode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [NextPreOrder](../node/nextpreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets next node according to the pre-order tree traversal algorithm. |
 | static [NodeTypeToString](../node/nodetypetostring/)(Aspose::Words::NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 | [PreviousPreOrder](../node/previouspreorder/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../node/remove/)() | Removes itself from the parent. |
-| [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Exports the content of the node into a string using the specified save options. |
-| static [Type](../node/type/)() |  |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
 | virtual [get_IsComposite](../node/get_iscomposite/)() | Returns **true** if this node can contain other nodes. |
-| [get_NextNode](../node/get_nextnode/)() const |  |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | virtual [get_NodeType](../node/get_nodetype/)() const | Gets the type of this node. |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
-| [get_PrevNode](../node/get_prevnode/)() const |  |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Specifies custom node identifier. |
-| [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
-| [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\> \&) |  |
 ## Remarks
 
 

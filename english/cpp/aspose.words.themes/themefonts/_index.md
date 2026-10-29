@@ -21,9 +21,6 @@ class ThemeFonts : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ComplexScript](./get_complexscript/)() | Specifies font name for ComplexScript characters. |
 | [get_EastAsian](./get_eastasian/)() | Specifies font name for EastAsian characters. |
 | [get_Latin](./get_latin/)() | Specifies font name for Latin characters. |

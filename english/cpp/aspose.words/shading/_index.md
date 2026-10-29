@@ -26,9 +26,6 @@ class Shading : public InternableComplexAttr,
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Shading\> \&) | Determines whether the specified [Shading](./) is equal in value to the current [Shading](./). |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_BackgroundPatternColor](./get_backgroundpatterncolor/)() | Gets or sets the color that's applied to the background of the [Shading](./) object. |
 | [get_BackgroundPatternThemeColor](./get_backgroundpatternthemecolor/)() | Gets or sets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
 | [get_BackgroundTintAndShade](./get_backgroundtintandshade/)() | Gets or sets a double value that lightens or darkens a background theme color. |
@@ -43,9 +40,6 @@ class Shading : public InternableComplexAttr,
 | [set_ForegroundPatternThemeColor](./set_foregroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
 | [set_ForegroundTintAndShade](./set_foregroundtintandshade/)(double) | Sets a double value that lightens or darkens a foreground theme color. |
 | [set_Texture](./set_texture/)(Aspose::Words::TextureIndex) | Sets the shading texture. |
-| [GetType](../internablecomplexattr/gettype/)() const override |  |
-| [Is](../internablecomplexattr/is/)(const System::TypeInfo \&) const override |  |
-| static [Type](../internablecomplexattr/type/)() |  |
 ## Examples
 
 

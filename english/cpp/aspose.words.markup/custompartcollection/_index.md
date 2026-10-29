@@ -26,32 +26,10 @@ class CustomPartCollection : public System::Collections::Generic::IEnumerable<Sy
 | [Clone](./clone/)() | Makes a deep copy of this collection and its items. |
 | [CustomPartCollection](./custompartcollection/)() |  |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes an item at the specified index. |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() const |  |
-| [end](./end/)() |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets an item at the specified index. |
 | [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Markup::CustomPart\> \&) | Gets or sets an item at the specified index. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

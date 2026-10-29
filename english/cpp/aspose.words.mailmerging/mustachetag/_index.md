@@ -20,9 +20,6 @@ class MustacheTag : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ReferenceOffset](./get_referenceoffset/)() const | Gets the zero-based starting position of the tag from the start of the [ReferenceRun](./get_referencerun/). |
 | [get_ReferenceRun](./get_referencerun/)() const | Gets the run that contains the beginning of the tag. |
 | [get_Text](./get_text/)() const | Gets the text of the tag. |

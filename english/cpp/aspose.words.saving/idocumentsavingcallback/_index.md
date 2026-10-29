@@ -20,10 +20,7 @@ class IDocumentSavingCallback : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | virtual [Notify](./notify/)(System::SharedPtr\<Aspose::Words::Saving::DocumentSavingArgs\>) | This is called to notify of document saving progress. |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

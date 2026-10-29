@@ -25,9 +25,6 @@ class FindReplaceOptions : public System::Object
 | [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection) | Initializes a new instance of the FindReplaceOptions class with the specified direction. |
 | [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\> \&) | Initializes a new instance of the FindReplaceOptions class with the specified direction and replacing callback. |
 | [FindReplaceOptions](./findreplaceoptions/)(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\> \&) | Initializes a new instance of the FindReplaceOptions class with the specified replacing callback. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_ApplyFont](./get_applyfont/)() const | Text formatting applied to new content. |
 | [get_ApplyParagraphFormat](./get_applyparagraphformat/)() const | Paragraph formatting applied to new content. |
 | [get_Direction](./get_direction/)() const | Selects direction for replace. Default value is [Forward](../findreplacedirection/). |

@@ -22,10 +22,7 @@ class XmlMapping : public System::Object
 | Method | Description |
 | --- | --- |
 | [Delete](./delete/)() | Deletes mapping of the parent structured document to XML data. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [SetMapping](./setmapping/)(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\> \&, const System::String \&, const System::String \&) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
-| static [Type](./type/)() |  |
 | [get_CustomXmlPart](./get_customxmlpart/)() | Returns the custom XML data part to which the parent structured document tag is mapped. |
 | [get_IsMapped](./get_ismapped/)() | Returns **true** if the parent structured document tag is successfully mapped to XML data. |
 | [get_PrefixMappings](./get_prefixmappings/)() const | Returns XML namespace prefix mappings to evaluate the [XPath](./get_xpath/). |

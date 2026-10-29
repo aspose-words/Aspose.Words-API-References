@@ -21,12 +21,9 @@ class CompatibilityOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [OptimizeFor](./optimizefor/)(Aspose::Words::Settings::MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word.
 
 Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the [Compliance](../../aspose.words.saving/ooxmlsaveoptions/get_compliance/) property to [Iso29500_2008_Transitional](../../aspose.words.saving/ooxmlcompliance/) or higher.) |
-| static [Type](./type/)() |  |
 | [get_AdjustLineHeightInTable](./get_adjustlineheightintable/)() | Add Document Grid Line Pitch To Lines in Table Cells. |
 | [get_AlignTablesRowByRow](./get_aligntablesrowbyrow/)() | Align Table Rows Independently. |
 | [get_AllowSpaceOfSameStyleInTable](./get_allowspaceofsamestyleintable/)() | Allow Contextual Spacing of Paragraphs in Tables. |

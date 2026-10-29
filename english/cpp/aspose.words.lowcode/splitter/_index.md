@@ -26,8 +26,6 @@ class Splitter : public Processor
 | static [ExtractPages](./extractpages/)(const System::String \&, const System::String \&, Aspose::Words::SaveFormat, int32_t, int32_t) | Extracts a specified range of pages from a document file and saves the extracted pages to a new file using the specified save format. |
 | static [ExtractPages](./extractpages/)(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&, int32_t, int32_t) | Extracts a specified range of pages from a document file and saves the extracted pages to a new file using the specified save format. |
 | static [ExtractPages](./extractpages/)(const System::String \&, const System::String \&, int32_t, int32_t) | Extracts a specified range of pages from a document file and saves the extracted pages to a new file. The output file format is determined by the extension of the output file name. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [RemoveBlankPages](./removeblankpages/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) | Removes blank pages from a document provided in an input stream and saves the updated document to an output stream in the specified save format. Returns a list of page numbers that were removed. |
 | static [RemoveBlankPages](./removeblankpages/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Removes blank pages from a document provided in an input stream and saves the updated document to an output stream in the specified save format. Returns a list of page numbers that were removed. |
 | static [RemoveBlankPages](./removeblankpages/)(const System::String \&, const System::String \&) | Removes empty pages from the document and saves the output. Returns a list of page numbers that were removed. |
@@ -38,15 +36,12 @@ class Splitter : public Processor
 | static [Split](./split/)(const System::String \&, const System::String \&, Aspose::Words::SaveFormat, const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \&) | Splits a document into multiple parts based on the specified split options and saves the resulting parts to files in the specified save format. |
 | static [Split](./split/)(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \&) | Splits a document into multiple parts based on the specified split options and saves the resulting parts to files. The output file format is determined by the extension of the output file name. |
 | static [Split](./split/)(const System::String \&, const System::String \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&, const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \&) | Splits a document into multiple parts based on the specified split options and saves the resulting parts to files in the specified save format. |
-| static [Type](./type/)() |  |
 | [Execute](../processor/execute/)() | Execute the processor action. |
 | [Execute](../processor/execute/)(System::Threading::CancellationToken) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\> \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String \&) | Specifies input document for processing. |
 | [From](../processor/from/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
-| [GetType](../processor/gettype/)() const override |  |
-| [Is](../processor/is/)(const System::TypeInfo \&) const override |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, Aspose::Words::SaveFormat) |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) |  |
 | [To](../processor/to/)(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) | Specifies output stream for the processor. |
@@ -54,7 +49,6 @@ class Splitter : public Processor
 | [To](../processor/to/)(const System::String \&) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String \&, Aspose::Words::SaveFormat) | Specifies output file for the processor. |
 | [To](../processor/to/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Specifies output file for the processor. |
-| static [Type](../processor/type/)() |  |
 ## See Also
 
 * Class [Processor](../processor/)

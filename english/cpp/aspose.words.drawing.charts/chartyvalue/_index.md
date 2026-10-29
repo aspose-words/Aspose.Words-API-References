@@ -25,9 +25,6 @@ class ChartYValue : public System::Object
 | static [FromDouble](./fromdouble/)(double) | Creates a [ChartYValue](./) instance of the [Double](../chartyvaluetype/) type. |
 | static [FromTimeSpan](./fromtimespan/)(System::TimeSpan) | Creates a [ChartYValue](./) instance of the [Time](../chartyvaluetype/) type. |
 | [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current Y value object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_DateTimeValue](./get_datetimevalue/)() const | Gets the stored datetime value. |
 | [get_DoubleValue](./get_doublevalue/)() const | Gets the stored numeric value. |
 | [get_TimeValue](./get_timevalue/)() const | Gets the stored time value. |

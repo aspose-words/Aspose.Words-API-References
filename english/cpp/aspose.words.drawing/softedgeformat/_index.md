@@ -20,10 +20,7 @@ class SoftEdgeFormat : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)() | Removes [SoftEdgeFormat](./) from the parent object. |
-| static [Type](./type/)() |  |
 | [get_Radius](./get_radius/)() | Gets or sets a double value that represents the length of the radius for a soft edge effect in points (pt). The default value is 0.0. |
 | [set_Radius](./set_radius/)(double) | Sets a double value that represents the length of the radius for a soft edge effect in points (pt). The default value is 0.0. |
 ## Remarks

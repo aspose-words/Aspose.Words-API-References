@@ -21,12 +21,9 @@ class PdfDigitalSignatureTimestampSettings : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [PdfDigitalSignatureTimestampSettings](./pdfdigitalsignaturetimestampsettings/)() | Initializes an instance of this class. |
 | [PdfDigitalSignatureTimestampSettings](./pdfdigitalsignaturetimestampsettings/)(const System::String \&, const System::String \&, const System::String \&) | Initializes an instance of this class. |
 | [PdfDigitalSignatureTimestampSettings](./pdfdigitalsignaturetimestampsettings/)(const System::String \&, const System::String \&, const System::String \&, System::TimeSpan) | Initializes an instance of this class. |
-| static [Type](./type/)() |  |
 | [get_Password](./get_password/)() const | Timestamp server password. |
 | [get_ServerUrl](./get_serverurl/)() const | Timestamp server URL. |
 | [get_Timeout](./get_timeout/)() const | Time-out value for accessing timestamp server. |

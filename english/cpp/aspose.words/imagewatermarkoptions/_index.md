@@ -21,10 +21,7 @@ class ImageWatermarkOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | [ImageWatermarkOptions](./imagewatermarkoptions/)() |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_IsWashout](./get_iswashout/)() const | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is **true**. |
 | [get_Scale](./get_scale/)() const | Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
 | [set_IsWashout](./set_iswashout/)(bool) | Sets a boolean value which is responsible for washout effect of the watermark. The default value is **true**. |

@@ -27,31 +27,9 @@ class ListCollection : public System::Collections::Generic::IEnumerable<System::
 | [AddSingleLevelList](./addsinglelevellist/)(Aspose::Words::Lists::ListTemplate) | Creates a new single level list based on the predefined template and adds it to the list collection in the document. |
 | [GetEnumerator](./getenumerator/)() override | Gets the enumerator object that will enumerate lists in the document. |
 | [GetListByListId](./getlistbylistid/)(int32_t) | Gets a list by a list identifier. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
-| [begin](./begin/)() |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() const |  |
-| [end](./end/)() |  |
 | [get_Count](./get_count/)() | Gets the count of numbered and bulleted lists in the document. |
 | [get_Document](./get_document/)() const | Gets the owner document. |
 | [idx_get](./idx_get/)(int32_t) | Gets a list by index. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

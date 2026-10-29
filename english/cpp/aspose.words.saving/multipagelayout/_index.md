@@ -20,13 +20,10 @@ class MultiPageLayout : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
 | static [Grid](./grid/)(int32_t, float, float) | Creates a layout in which pages are rendered left-to-right, top-to-bottom, in a grid with the specified number of columns. |
 | static [Horizontal](./horizontal/)(float) | Creates a layout in which all specified pages are rendered horizontally side by side, left to right, in a single output. |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | static [SinglePage](./singlepage/)() | Creates a layout that renders only the first of specified pages. |
 | static [TiffFrames](./tiffframes/)() | Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image. Applicable only to TIFF image formats. |
-| static [Type](./type/)() |  |
 | static [Vertical](./vertical/)(float) | Creates a layout where all specified pages are rendered vertically one below the other in a single output. |
 | [get_BackColor](./get_backcolor/)() | Gets or sets the background color of the output. The default is **Empty**. |
 | [get_BorderColor](./get_bordercolor/)() | Gets or sets the color of the pages border. The default is **Empty**. |

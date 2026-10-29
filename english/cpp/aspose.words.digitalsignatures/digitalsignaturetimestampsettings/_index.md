@@ -23,9 +23,6 @@ class DigitalSignatureTimestampSettings : public System::Object
 | [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/)() | Initializes a new instance of [DigitalSignatureTimestampSettings](./) class. |
 | [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/)(const System::String \&, const System::String \&, const System::String \&) | Initializes a new instance of [DigitalSignatureTimestampSettings](./) class. |
 | [DigitalSignatureTimestampSettings](./digitalsignaturetimestampsettings/)(const System::String \&, const System::String \&, const System::String \&, System::TimeSpan) | Initializes a new instance of [DigitalSignatureTimestampSettings](./) class. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Password](./get_password/)() const | Gets or sets a string value representing timestamp server password. The default value is **null**. |
 | [get_ServerUrl](./get_serverurl/)() const | Gets or sets a string value representing timestamp server URL. The default value is **null**. |
 | [get_Timeout](./get_timeout/)() const | Gets or sets a time-out value for accessing timestamp server. The default value is 100 seconds. |

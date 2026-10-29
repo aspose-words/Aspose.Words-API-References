@@ -25,9 +25,6 @@ class ChartMultilevelValue : public System::Object
 | [ChartMultilevelValue](./chartmultilevelvalue/)(const System::String \&, const System::String \&, const System::String \&) | Initializes a new instance of this class that represents a three-level value. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Gets a flag indicating whether the specified object is equal to the current multilevel data object. |
 | [GetHashCode](./gethashcode/)() const override | Gets a hash code for the current multilevel data object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Level1](./get_level1/)() const | Gets the name of the chart top level that this value refers to. |
 | [get_Level2](./get_level2/)() const | Gets the name of the chart intermediate level that this value refers to. |
 | [get_Level3](./get_level3/)() const | Gets the name of the chart bottom level that this value refers to. |

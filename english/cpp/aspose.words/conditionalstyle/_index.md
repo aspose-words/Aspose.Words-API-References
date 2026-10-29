@@ -27,9 +27,6 @@ class ConditionalStyle : public IBorderAttrSource,
 | [ClearFormatting](./clearformatting/)() | Clears formatting of this conditional style. |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Compares this conditional style with the specified object. |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Borders](./get_borders/)() | Gets the collection of default cell borders for the conditional style. |
 | [get_BottomPadding](./get_bottompadding/)() | Gets or sets the amount of space (in points) to add below the contents of table cells. |
 | [get_Font](./get_font/)() | Gets the character formatting of the conditional style. |

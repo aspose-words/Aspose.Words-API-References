@@ -22,31 +22,9 @@ class ChartSeriesGroupCollection : public System::Collections::Generic::IEnumera
 | --- | --- |
 | [Add](./add/)(Aspose::Words::Drawing::Charts::ChartSeriesType) | Adds a new series group of the specified series type to this collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes a series group at the specified index. All child series will be removed from the chart. |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Returns the number of series groups in this collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns a [ChartSeriesGroup](../chartseriesgroup/) at the specified index. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
  To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. 

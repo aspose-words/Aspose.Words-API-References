@@ -21,10 +21,7 @@ class Bookmark : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [Remove](./remove/)() | Removes the bookmark from the document. Does not remove text inside the bookmark. |
-| static [Type](./type/)() |  |
 | [get_BookmarkEnd](./get_bookmarkend/)() | Gets the node that represents the end of the bookmark. |
 | [get_BookmarkStart](./get_bookmarkstart/)() const | Gets the node that represents the start of the bookmark. |
 | [get_FirstColumn](./get_firstcolumn/)() | Gets the zero-based index of the first column of the table column range associated with the bookmark. |

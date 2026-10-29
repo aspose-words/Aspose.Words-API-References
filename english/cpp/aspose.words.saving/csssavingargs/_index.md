@@ -21,9 +21,6 @@ class CssSavingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_CssStream](./get_cssstream/)() const | Allows to specify the stream where the CSS information will be saved to. |
 | [get_Document](./get_document/)() const | Gets the document object that is currently being saved. |
 | [get_IsExportNeeded](./get_isexportneeded/)() const | Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is **true**. When this property is **false**, the CSS information will not be saved to a CSS file and will not be embedded to HTML document. |

@@ -21,9 +21,6 @@ class WebExtensionBinding : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [WebExtensionBinding](./webextensionbinding/)(const System::String \&, Aspose::Words::WebExtensions::WebExtensionBindingType, const System::String \&) | Creates web extension binding with specified parameters. |
 | [get_AppRef](./get_appref/)() const | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |
 | [get_BindingType](./get_bindingtype/)() const | Specifies the binding type. |

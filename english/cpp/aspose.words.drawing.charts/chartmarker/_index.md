@@ -21,9 +21,6 @@ class ChartMarker : public Core::IChartFormatSource
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of this marker. |
 | [get_Size](./get_size/)() | Gets or sets chart marker size. Default value is 7. |
 | [get_Symbol](./get_symbol/)() | Gets chart marker symbol. |

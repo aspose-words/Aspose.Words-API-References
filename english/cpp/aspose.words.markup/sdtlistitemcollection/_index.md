@@ -24,33 +24,11 @@ class SdtListItemCollection : public System::Collections::Generic::IEnumerable<S
 | [Add](./add/)(const System::SharedPtr\<Aspose::Words::Markup::SdtListItem\> \&) | Adds an item to this collection. |
 | [Clear](./clear/)() | Clears all items from this collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
 | [RemoveAt](./removeat/)(int32_t) | Removes a list item at the specified index. |
-| static [Type](./type/)() |  |
-| [begin](./begin/)() const |  |
-| [begin](./begin/)() |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets number of items in the collection. |
 | [get_SelectedValue](./get_selectedvalue/)() | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns a [SdtListItem](../sdtlistitem/) object given its zero-based index in the collection. |
 | [set_SelectedValue](./set_selectedvalue/)(const System::SharedPtr\<Aspose::Words::Markup::SdtListItem\> \&) | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
-## Typedefs
-
-| Typedef | Description |
-| --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Examples
 
 

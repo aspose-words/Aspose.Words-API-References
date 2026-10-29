@@ -21,9 +21,6 @@ class ReplacingArgs : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_GroupIndex](./get_groupindex/)() const | Identifies, by index, a captured group in the [Match](./get_match/) that is to be replaced with the [Replacement](./get_replacement/) string. |
 | [get_GroupName](./get_groupname/)() const | Identifies, by name, a captured group in the [Match](./get_match/) that is to be replaced with the [Replacement](./get_replacement/) string. |
 | [get_Match](./get_match/)() const | The **Match** resulting from a single regular expression match during a Replace. |

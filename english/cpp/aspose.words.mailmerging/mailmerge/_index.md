@@ -31,9 +31,6 @@ class MailMerge : public System::Object
 | [GetFieldNamesForRegion](./getfieldnamesforregion/)(const System::String \&, int32_t) | Returns a collection of mail merge field names available in the region. |
 | [GetRegionsByName](./getregionsbyname/)(const System::String \&) | Returns a collection of mail merge regions with the specified name. |
 | [GetRegionsHierarchy](./getregionshierarchy/)() | Returns a full hierarchy of regions (with fields) available in the document. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_CleanupOptions](./get_cleanupoptions/)() const | Gets a set of flags that specify what items should be removed during mail merge. |
 | [get_CleanupParagraphsWithPunctuationMarks](./get_cleanupparagraphswithpunctuationmarks/)() const | Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the [RemoveEmptyParagraphs](../mailmergecleanupoptions/) option is specified. |
 | [get_FieldMergingCallback](./get_fieldmergingcallback/)() const | Occurs during mail merge when a mail merge field is encountered in the document. |

@@ -21,7 +21,6 @@ class BuildVersionInfo
 
 | Method | Description |
 | --- | --- |
-| [BuildVersionInfo](./buildversioninfo/)() |  |
 | static [get_Product](./get_product/)() | Gets the full name of the product. |
 | static [get_Version](./get_version/)() | Gets the product version. |
 ## Examples

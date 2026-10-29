@@ -21,9 +21,6 @@ class ListLabel : public IRunAttrSource
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_Font](./get_font/)() | Gets the list label font. |
 | [get_LabelString](./get_labelstring/)() | Gets a string representation of list label. |
 | [get_LabelValue](./get_labelvalue/)() | Gets a numeric value for this label. |

@@ -21,9 +21,6 @@ class EndnoteOptions : public IFootnoteOptions
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo \&) const override |  |
-| static [Type](./type/)() |  |
 | [get_NumberStyle](./get_numberstyle/)() override | Specifies the number format for automatically numbered endnotes. |
 | [get_Position](./get_position/)() | Specifies the endnotes position. |
 | [get_RestartRule](./get_restartrule/)() override | Determines when automatic numbering restarts. |
