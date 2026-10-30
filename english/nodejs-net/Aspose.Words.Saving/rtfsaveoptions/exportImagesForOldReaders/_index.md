@@ -51,11 +51,11 @@ expect(options.saveFormat).toEqual(aw.SaveFormat.Rtf);
 // reduce the saved document's size at the cost of right-to-left text compatibility.
 options.exportCompactSize = true;
 
-// Set the "ExportImagesFotOldReaders" property to "true" to use extra keywords to ensure that our document is
+// Set the "ExportImagesForOldReaders" property to "true" to use extra keywords to ensure that our document is
 // compatible with pre-Microsoft Word 97 readers and WordPad.
-// Set the "ExportImagesFotOldReaders" property to "false" to reduce the size of the document,
+// Set the "ExportImagesForOldReaders" property to "false" to reduce the size of the document,
 // but prevent old readers from being able to read any non-metafile or BMP images that the document may contain.
-options.exportImagesForOldReaders = exportImagesForOldReaders;
+options.exportImagesForOldReaders = true;
 
 doc.save(base.artifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ```
