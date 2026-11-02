@@ -4,7 +4,7 @@ linktitle: get_DeleteCellColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_DeleteCellColor method. Allows to specify the color to be used for deleted cells Deletion. Default value is Pink in C++.'
 type: docs
-weight: 22132
+weight: 2500
 url: /cpp/aspose.words.layout/revisionoptions/get_deletecellcolor/
 ---
 ## RevisionOptions::get_DeleteCellColor method

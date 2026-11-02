@@ -4,7 +4,7 @@ linktitle: get_EmbeddingLicensingRights
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontInfo::get_EmbeddingLicensingRights method. Gets the embedded font licensing rights in C++.'
 type: docs
-weight: 12400
+weight: 11002
 url: /cpp/aspose.words.fonts/fontinfo/get_embeddinglicensingrights/
 ---
 ## FontInfo::get_EmbeddingLicensingRights method

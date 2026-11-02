@@ -4,7 +4,7 @@ linktitle: get_LegacyNumberFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat method. Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not in C++.'
 type: docs
-weight: 24713
+weight: 16000
 url: /cpp/aspose.words.fields/fieldoptions/get_legacynumberformat/
 ---
 ## FieldOptions::get_LegacyNumberFormat method

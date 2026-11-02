@@ -18,7 +18,7 @@ void Aspose::Words::Drawing::Charts::ChartDataTable::set_Show(bool value)
 
 ## Remarks
 
- The following chart types do not support data tables: Scatter, Pie, Doughnut, Surface, Radar, Treemap, Sunburst, Histogram, Pareto, Box and Whisker, Waterfall, Funnel, Combo charts that include series of these types. Showing a data table for the chart types throws a **InvalidOperationException** exception. 
+ The following chart types do not support data tables: Scatter, Pie, Doughnut, Surface, Radar, Treemap, Sunburst, Histogram, Pareto, Box and Whisker, Waterfall, Funnel, Combo charts that include series of these types. Showing a data table for the chart types throws a InvalidOperationException exception. 
 ## Examples
 
 

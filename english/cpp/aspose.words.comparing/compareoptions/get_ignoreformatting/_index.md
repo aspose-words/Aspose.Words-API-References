@@ -4,7 +4,7 @@ linktitle: get_IgnoreFormatting
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting method. True indicates that formatting is ignored in C++.'
 type: docs
-weight: 16670
+weight: 10000
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoreformatting/
 ---
 ## CompareOptions::get_IgnoreFormatting method

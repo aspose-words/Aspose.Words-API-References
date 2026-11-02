@@ -4,7 +4,7 @@ linktitle: get_StartingNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldListNum::get_StartingNumber method. Gets or sets the starting value for this field in C++.'
 type: docs
-weight: 7917
+weight: 7900
 url: /cpp/aspose.words.fields/fieldlistnum/get_startingnumber/
 ---
 ## FieldListNum::get_StartingNumber method

@@ -4,7 +4,7 @@ linktitle: get_ServerUrl
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::get_ServerUrl method. Gets or sets a string value representing timestamp server URL. The default value is null in C++.'
 type: docs
-weight: 6000
+weight: 3000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/get_serverurl/
 ---
 ## DigitalSignatureTimestampSettings::get_ServerUrl method

@@ -4,7 +4,7 @@ linktitle: get_Rotation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_Rotation method. Gets or sets the rotation of the tick labels in degrees in C++.'
 type: docs
-weight: 11800
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_rotation/
 ---
 ## AxisTickLabels::get_Rotation method

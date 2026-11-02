@@ -4,7 +4,7 @@ linktitle: get_TotalEditingTime
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_TotalEditingTime method. Gets or sets the total editing time in minutes in C++.'
 type: docs
-weight: 36896
+weight: 31000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_totaleditingtime/
 ---
 ## BuiltInDocumentProperties::get_TotalEditingTime method

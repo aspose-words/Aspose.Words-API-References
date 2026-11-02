@@ -4,7 +4,7 @@ linktitle: get_PeriodicalTitle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_PeriodicalTitle method. Gets or sets the periodical title of a source in C++.'
 type: docs
-weight: 57612
+weight: 34000
 url: /cpp/aspose.words.bibliography/source/get_periodicaltitle/
 ---
 ## Source::get_PeriodicalTitle method

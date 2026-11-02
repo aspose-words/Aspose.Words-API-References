@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutEnumerator::get_Document method. Gets document this instance enumerates in C++.'
 type: docs
-weight: 23300
+weight: 23223
 url: /cpp/aspose.words.layout/layoutenumerator/get_document/
 ---
 ## LayoutEnumerator::get_Document method

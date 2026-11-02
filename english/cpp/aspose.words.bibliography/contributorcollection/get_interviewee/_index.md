@@ -4,7 +4,7 @@ linktitle: get_Interviewee
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Interviewee method. Gets or sets the interviewee of a source in C++.'
 type: docs
-weight: 19615
+weight: 11000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_interviewee/
 ---
 ## ContributorCollection::get_Interviewee method

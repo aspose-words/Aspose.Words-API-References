@@ -4,7 +4,7 @@ linktitle: get_Border
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Border method. Returns a Border object that specifies border for the font in C++.'
 type: docs
-weight: 59126
+weight: 58216
 url: /cpp/aspose.words/font/get_border/
 ---
 ## Font::get_Border method

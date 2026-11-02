@@ -4,7 +4,7 @@ linktitle: get_DocumentDirection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::TxtLoadOptions::get_DocumentDirection method. Gets or sets a document direction. The default value is LeftToRight in C++.'
 type: docs
-weight: 9667
+weight: 5000
 url: /cpp/aspose.words.loading/txtloadoptions/get_documentdirection/
 ---
 ## TxtLoadOptions::get_DocumentDirection method

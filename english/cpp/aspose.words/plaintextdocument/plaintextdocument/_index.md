@@ -4,7 +4,7 @@ linktitle: PlainTextDocument
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PlainTextDocument::PlainTextDocument constructor. Creates a plain text document from a stream. Automatically detects the file format in C++.'
 type: docs
-weight: 8000
+weight: 2000
 url: /cpp/aspose.words/plaintextdocument/plaintextdocument/
 ---
 ## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\> \&) constructor
@@ -23,7 +23,7 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<Syst
 ## Remarks
 
 
- The document must be stored at the beginning of the stream. The stream must support random positioning. 
+ The document must be stored at the beginning of the stream. The stream must support random positioning.
 ## Examples
 
 
@@ -47,12 +47,12 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx");
 
 * [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
 * [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
-* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
-* **IOException** - There is an input/output exception.
+* Exception - There is a problem with the document and it should be reported to Aspose.Words developers.
+* IOException - There is an input/output exception.
 * [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
-* **ArgumentNullException** - The stream cannot be null.
-* **NotSupportedException** - The stream does not support reading or seeking.
-* **ObjectDisposedException** - The stream is a disposed object.
+* ArgumentNullException - The stream cannot be null.
+* NotSupportedException - The stream does not support reading or seeking.
+* ObjectDisposedException - The stream is a disposed object.
 
 ## See Also
 
@@ -76,7 +76,7 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::SharedPtr<Syst
 ## Remarks
 
 
- The document must be stored at the beginning of the stream. The stream must support random positioning. 
+ The document must be stored at the beginning of the stream. The stream must support random positioning.
 ## Examples
 
 
@@ -107,12 +107,12 @@ loadOptions->set_Password(u"MyPassword");
 
 * [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
 * [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
-* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
-* **IOException** - There is an input/output exception.
+* Exception - There is a problem with the document and it should be reported to Aspose.Words developers.
+* IOException - There is an input/output exception.
 * [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
-* **ArgumentNullException** - The stream cannot be null.
-* **NotSupportedException** - The stream does not support reading or seeking.
-* **ObjectDisposedException** - The stream is a disposed object.
+* ArgumentNullException - The stream cannot be null.
+* NotSupportedException - The stream does not support reading or seeking.
+* ObjectDisposedException - The stream is a disposed object.
 
 ## See Also
 
@@ -152,10 +152,10 @@ ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 
 * [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
 * [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
-* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
-* **IOException** - There is an input/output exception.
+* Exception - There is a problem with the document and it should be reported to Aspose.Words developers.
+* IOException - There is an input/output exception.
 * [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
-* **ArgumentException** - The name of the file cannot be null or empty string.
+* ArgumentException - The name of the file cannot be null or empty string.
 
 ## See Also
 
@@ -204,10 +204,10 @@ ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 
 * [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
 * [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
-* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
-* **IOException** - There is an input/output exception.
+* Exception - There is a problem with the document and it should be reported to Aspose.Words developers.
+* IOException - There is an input/output exception.
 * [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
-* **ArgumentException** - The name of the file cannot be null or empty string.
+* ArgumentException - The name of the file cannot be null or empty string.
 
 ## See Also
 
@@ -230,7 +230,7 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream & stream)
 ## Remarks
 
 
- The document must be stored at the beginning of the stream. The stream must support random positioning. 
+ The document must be stored at the beginning of the stream. The stream must support random positioning.
 ## Examples
 
 
@@ -254,12 +254,12 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx");
 
 * [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
 * [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
-* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
-* **IOException** - There is an input/output exception.
+* Exception - There is a problem with the document and it should be reported to Aspose.Words developers.
+* IOException - There is an input/output exception.
 * [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
-* **ArgumentNullException** - The stream cannot be null.
-* **NotSupportedException** - The stream does not support reading or seeking.
-* **ObjectDisposedException** - The stream is a disposed object.
+* ArgumentNullException - The stream cannot be null.
+* NotSupportedException - The stream does not support reading or seeking.
+* ObjectDisposedException - The stream is a disposed object.
 
 ## See Also
 
@@ -283,7 +283,7 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream & stream, const
 ## Remarks
 
 
- The document must be stored at the beginning of the stream. The stream must support random positioning. 
+ The document must be stored at the beginning of the stream. The stream must support random positioning.
 ## Examples
 
 
@@ -314,12 +314,12 @@ loadOptions->set_Password(u"MyPassword");
 
 * [UnsupportedFileFormatException](../../unsupportedfileformatexception/) - The document format is not recognized or not supported.
 * [FileCorruptedException](../../filecorruptedexception/) - The document appears to be corrupted and cannot be loaded.
-* **Exception** - There is a problem with the document and it should be reported to Aspose.Words developers.
-* **IOException** - There is an input/output exception.
+* Exception - There is a problem with the document and it should be reported to Aspose.Words developers.
+* IOException - There is an input/output exception.
 * [IncorrectPasswordException](../../incorrectpasswordexception/) - The document is encrypted and requires a password to open, but you supplied an incorrect password.
-* **ArgumentNullException** - The stream cannot be null.
-* **NotSupportedException** - The stream does not support reading or seeking.
-* **ObjectDisposedException** - The stream is a disposed object.
+* ArgumentNullException - The stream cannot be null.
+* NotSupportedException - The stream does not support reading or seeking.
+* ObjectDisposedException - The stream is a disposed object.
 
 ## See Also
 

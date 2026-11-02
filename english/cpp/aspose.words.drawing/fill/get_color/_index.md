@@ -4,7 +4,7 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_Color method. Gets or sets a Color object that represents the foreground color for the fill in C++.'
 type: docs
-weight: 50000
+weight: 49000
 url: /cpp/aspose.words.drawing/fill/get_color/
 ---
 ## Fill::get_Color method
@@ -18,7 +18,7 @@ System::Drawing::Color Aspose::Words::Drawing::Fill::get_Color()
 
 ## Remarks
 
- This property preserves the alpha component of the **Color**, unlike the [ForeColor](../get_forecolor/) property, which resets it to fully opaque color. 
+ This property preserves the alpha component of the Color, unlike the [ForeColor](../get_forecolor/) property, which resets it to fully opaque color. 
 ## Examples
 
 

@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::FootnoteSeparatorCollection::idx_get method. Retrieves a FootnoteSeparator of the specified type in C++.'
 type: docs
-weight: 8000
+weight: 5000
 url: /cpp/aspose.words.notes/footnoteseparatorcollection/idx_get/
 ---
 ## FootnoteSeparatorCollection::idx_get method

@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::idx_get method. Returns a DocumentProperty object by the name of the property in C++.'
 type: docs
-weight: 36974
+weight: 35000
 url: /cpp/aspose.words.properties/builtindocumentproperties/idx_get/
 ---
 ## BuiltInDocumentProperties::idx_get method

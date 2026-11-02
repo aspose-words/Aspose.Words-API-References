@@ -4,7 +4,7 @@ linktitle: get_StartMustacheTag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::MailMerging::MailMergeRegionInfo::get_StartMustacheTag method. Returns a start "mustache" tag for the region in C++.'
 type: docs
-weight: 21000
+weight: 8500
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/get_startmustachetag/
 ---
 ## MailMergeRegionInfo::get_StartMustacheTag method

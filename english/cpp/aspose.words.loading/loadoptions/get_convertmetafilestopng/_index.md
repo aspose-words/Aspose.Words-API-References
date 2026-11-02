@@ -4,13 +4,13 @@ linktitle: get_ConvertMetafilesToPng
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng method. Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format in C++.'
 type: docs
-weight: 20192
+weight: 4000
 url: /cpp/aspose.words.loading/loadoptions/get_convertmetafilestopng/
 ---
 ## LoadOptions::get_ConvertMetafilesToPng method
 
 
-Gets or sets whether to convert metafile(**Wmf** or **Emf**) images to **Png** image format.
+Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format.
 
 ```cpp
 _Bool Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng() const
@@ -18,7 +18,7 @@ _Bool Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng() const
 
 ## Remarks
 
- Metafiles (**Wmf** or **Emf**) is an uncompressed image format and sometimes requires to much RAM to hold and process document. This option allows to convert all metafile images to **Png** on document loading. Please note - conversion vector graphics to raster decreases quality of the images. 
+ Metafiles (Wmf or Emf) is an uncompressed image format and sometimes requires to much RAM to hold and process document. This option allows to convert all metafile images to Png on document loading. Please note - conversion vector graphics to raster decreases quality of the images. 
 ## Examples
 
 

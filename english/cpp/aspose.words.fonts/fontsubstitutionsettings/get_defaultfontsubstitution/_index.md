@@ -4,7 +4,7 @@ linktitle: get_DefaultFontSubstitution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSubstitutionSettings::get_DefaultFontSubstitution method. Settings related to default font substitution rule in C++.'
 type: docs
-weight: 10000
+weight: 2000
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings::get_DefaultFontSubstitution method

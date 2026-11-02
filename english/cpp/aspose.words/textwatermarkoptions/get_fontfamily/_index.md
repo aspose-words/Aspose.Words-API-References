@@ -4,7 +4,7 @@ linktitle: get_FontFamily
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextWatermarkOptions::get_FontFamily method. Gets or sets font family name. The default value is "Calibri" in C++.'
 type: docs
-weight: 9500
+weight: 4000
 url: /cpp/aspose.words/textwatermarkoptions/get_fontfamily/
 ---
 ## TextWatermarkOptions::get_FontFamily method

@@ -4,7 +4,7 @@ linktitle: get_BroadcastTitle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_BroadcastTitle method. Gets or sets the broadcast title of a source in C++.'
 type: docs
-weight: 57108
+weight: 7000
 url: /cpp/aspose.words.bibliography/source/get_broadcasttitle/
 ---
 ## Source::get_BroadcastTitle method

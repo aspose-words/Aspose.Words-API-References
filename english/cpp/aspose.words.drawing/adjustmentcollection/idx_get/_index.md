@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::AdjustmentCollection::idx_get method. Returns an adjustment at the specified index in C++.'
 type: docs
-weight: 8000
+weight: 4000
 url: /cpp/aspose.words.drawing/adjustmentcollection/idx_get/
 ---
 ## AdjustmentCollection::idx_get method

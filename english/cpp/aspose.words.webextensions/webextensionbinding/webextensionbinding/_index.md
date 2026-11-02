@@ -4,7 +4,7 @@ linktitle: WebExtensionBinding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionBinding::WebExtensionBinding constructor. Creates web extension binding with specified parameters in C++.'
 type: docs
-weight: 7334
+weight: 2000
 url: /cpp/aspose.words.webextensions/webextensionbinding/webextensionbinding/
 ---
 ## WebExtensionBinding::WebExtensionBinding constructor

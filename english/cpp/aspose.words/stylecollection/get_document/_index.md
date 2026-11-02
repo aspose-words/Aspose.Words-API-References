@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::StyleCollection::get_Document method. Gets the owner document in C++.'
 type: docs
-weight: 17000
+weight: 10600
 url: /cpp/aspose.words/stylecollection/get_document/
 ---
 ## StyleCollection::get_Document method

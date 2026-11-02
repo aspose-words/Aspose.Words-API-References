@@ -4,7 +4,7 @@ linktitle: get_Last
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Person::get_Last method. Gets or sets the last name of a person in C++.'
 type: docs
-weight: 9668
+weight: 8800
 url: /cpp/aspose.words.bibliography/person/get_last/
 ---
 ## Person::get_Last method

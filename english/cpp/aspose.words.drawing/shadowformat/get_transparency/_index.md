@@ -4,7 +4,7 @@ linktitle: get_Transparency
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShadowFormat::get_Transparency method. Gets or sets the degree of transparency for the shadow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0 in C++.'
 type: docs
-weight: 6168
+weight: 2750
 url: /cpp/aspose.words.drawing/shadowformat/get_transparency/
 ---
 ## ShadowFormat::get_Transparency method

@@ -4,7 +4,7 @@ linktitle: Vertical
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MultiPageLayout::Vertical method. Creates a layout where all specified pages are rendered vertically one below the other in a single output in C++.'
 type: docs
-weight: 11500
+weight: 6000
 url: /cpp/aspose.words.saving/multipagelayout/vertical/
 ---
 ## MultiPageLayout::Vertical method

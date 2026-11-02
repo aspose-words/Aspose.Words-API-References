@@ -4,7 +4,7 @@ linktitle: get_Tag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Tag method. Gets or sets the identifying tag name of a source in C++.'
 type: docs
-weight: 57828
+weight: 46000
 url: /cpp/aspose.words.bibliography/source/get_tag/
 ---
 ## Source::get_Tag method

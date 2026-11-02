@@ -4,7 +4,7 @@ linktitle: get_TintAndShade
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Border::get_TintAndShade method. Gets or sets a double value that lightens or darkens a color in C++.'
 type: docs
-weight: 14900
+weight: 14667
 url: /cpp/aspose.words/border/get_tintandshade/
 ---
 ## Border::get_TintAndShade method
@@ -42,8 +42,8 @@ doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Throws if you attempt to set this property to a value less than -1 or more than 1.
-* **InvalidOperationException** - Throws if setting this property for Border object with non-theme colors.
+* ArgumentOutOfRangeException - Throws if you attempt to set this property to a value less than -1 or more than 1.
+* InvalidOperationException - Throws if setting this property for Border object with non-theme colors.
 
 ## See Also
 

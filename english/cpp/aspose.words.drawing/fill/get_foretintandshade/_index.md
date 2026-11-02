@@ -4,7 +4,7 @@ linktitle: get_ForeTintAndShade
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_ForeTintAndShade method. Gets or sets a double value that lightens or darkens the foreground color in C++.'
 type: docs
-weight: 54000
+weight: 53000
 url: /cpp/aspose.words.drawing/fill/get_foretintandshade/
 ---
 ## Fill::get_ForeTintAndShade method
@@ -41,7 +41,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillTintAndShade.docx");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Throw if set this property to a value less than -1 or more than 1.
+* ArgumentOutOfRangeException - Throw if set this property to a value less than -1 or more than 1.
 
 ## See Also
 

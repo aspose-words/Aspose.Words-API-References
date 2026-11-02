@@ -4,7 +4,7 @@ linktitle: get_XmlMapping
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_XmlMapping method. Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document in C++.'
 type: docs
-weight: 92000
+weight: 91000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_xmlmapping/
 ---
 ## StructuredDocumentTag::get_XmlMapping method

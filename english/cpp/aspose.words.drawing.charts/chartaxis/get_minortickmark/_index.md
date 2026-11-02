@@ -4,7 +4,7 @@ linktitle: get_MinorTickMark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MinorTickMark method. Returns or sets the minor tick marks for the axis in C++.'
 type: docs
-weight: 31612
+weight: 16000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_minortickmark/
 ---
 ## ChartAxis::get_MinorTickMark method

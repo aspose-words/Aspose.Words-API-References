@@ -4,7 +4,7 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_Title method. Provides access to the axis title properties in C++.'
 type: docs
-weight: 31930
+weight: 28500
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_title/
 ---
 ## ChartAxis::get_Title method

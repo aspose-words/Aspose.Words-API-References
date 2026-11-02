@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TableStyle::get_Borders method. Gets the collection of default cell borders for the style in C++.'
 type: docs
-weight: 18252
+weight: 5000
 url: /cpp/aspose.words/tablestyle/get_borders/
 ---
 ## TableStyle::get_Borders method

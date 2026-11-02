@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaModuleCollection::idx_get method. Retrieves a VbaModule object by name, or Null if not found in C++.'
 type: docs
-weight: 11875
+weight: 14334
 url: /cpp/aspose.words.vba/vbamodulecollection/idx_get/
 ---
 ## VbaModuleCollection::idx_get(const System::String \&) method

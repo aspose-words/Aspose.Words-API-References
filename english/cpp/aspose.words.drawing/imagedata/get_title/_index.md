@@ -4,7 +4,7 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_Title method. Defines the title of an image in C++.'
 type: docs
-weight: 57000
+weight: 56000
 url: /cpp/aspose.words.drawing/imagedata/get_title/
 ---
 ## ImageData::get_Title method

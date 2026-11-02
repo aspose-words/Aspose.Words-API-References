@@ -4,7 +4,7 @@ linktitle: set_Brightness
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_Brightness method. Sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest) in C++.'
 type: docs
-weight: 59000
+weight: 58000
 url: /cpp/aspose.words.drawing/imagedata/set_brightness/
 ---
 ## ImageData::set_Brightness method

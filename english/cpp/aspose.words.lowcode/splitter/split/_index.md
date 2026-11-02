@@ -4,7 +4,7 @@ linktitle: Split
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Splitter::Split method. Splits a document from an input stream into multiple parts based on the specified split options and returns the resulting parts as an array of streams in the specified save format in C++.'
 type: docs
-weight: 8000
+weight: 3000
 url: /cpp/aspose.words.lowcode/splitter/split/
 ---
 ## Splitter::Split(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \&) method

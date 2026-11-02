@@ -4,7 +4,7 @@ linktitle: get_DistanceTop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_DistanceTop method. Gets or sets distance between table top and the surrounding text, in points in C++.'
 type: docs
-weight: 86000
+weight: 85000
 url: /cpp/aspose.words.tables/table/get_distancetop/
 ---
 ## Table::get_DistanceTop method

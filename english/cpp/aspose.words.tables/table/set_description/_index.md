@@ -4,7 +4,7 @@ linktitle: set_Description
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_Description method. Sets description of this table. It provides an alternative text representation of the information contained in the table in C++.'
 type: docs
-weight: 114000
+weight: 113000
 url: /cpp/aspose.words.tables/table/set_description/
 ---
 ## Table::set_Description method

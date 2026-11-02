@@ -4,7 +4,7 @@ linktitle: get_Comments
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Comments method. Gets or sets the comments of a source in C++.'
 type: docs
-weight: 57198
+weight: 11000
 url: /cpp/aspose.words.bibliography/source/get_comments/
 ---
 ## Source::get_Comments method

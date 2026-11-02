@@ -4,7 +4,7 @@ linktitle: get_BackgroundTintAndShade
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Shading::get_BackgroundTintAndShade method. Gets or sets a double value that lightens or darkens a background theme color in C++.'
 type: docs
-weight: 13445
+weight: 12125
 url: /cpp/aspose.words/shading/get_backgroundtintandshade/
 ---
 ## Shading::get_BackgroundTintAndShade method
@@ -49,8 +49,8 @@ doc->Save(get_ArtifactsDir() + u"Font.ForegroundAndBackground.docx");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Throw if set this property to a value less than -1 or more than 1.
-* **InvalidOperationException** - Throw if set this property for Shading object with non-theme colors.
+* ArgumentOutOfRangeException - Throw if set this property to a value less than -1 or more than 1.
+* InvalidOperationException - Throw if set this property for Shading object with non-theme colors.
 
 ## See Also
 

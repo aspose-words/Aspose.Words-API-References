@@ -4,7 +4,7 @@ linktitle: XlsxSaveOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use XlsxSaveOptions constructor of Aspose::Words::Saving::XlsxSaveOptions class in C++.'
 type: docs
-weight: 6286
+weight: 2000
 url: /cpp/aspose.words.saving/xlsxsaveoptions/xlsxsaveoptions/
 ---
 ## XlsxSaveOptions::XlsxSaveOptions constructor

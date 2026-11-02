@@ -4,7 +4,7 @@ linktitle: get_DataTable
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::Chart::get_DataTable method. Provides access to properties of a data table of this chart. The data table can be shown using the Show property in C++.'
 type: docs
-weight: 10432
+weight: 4500
 url: /cpp/aspose.words.drawing.charts/chart/get_datatable/
 ---
 ## Chart::get_DataTable method

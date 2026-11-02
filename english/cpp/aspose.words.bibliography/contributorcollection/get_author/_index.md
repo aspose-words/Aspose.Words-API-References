@@ -4,7 +4,7 @@ linktitle: get_Author
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Author method. Gets or sets the author of a source in C++.'
 type: docs
-weight: 19168
+weight: 3000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_author/
 ---
 ## ContributorCollection::get_Author method

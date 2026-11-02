@@ -4,7 +4,7 @@ linktitle: get_IsInCell
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsInCell method. True if this paragraph is an immediate child of Cell; false otherwise in C++.'
 type: docs
-weight: 42000
+weight: 41000
 url: /cpp/aspose.words/paragraph/get_isincell/
 ---
 ## Paragraph::get_IsInCell method

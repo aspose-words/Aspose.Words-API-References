@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::PersonCollection::idx_get method. Gets or sets a person at the specified index in C++.'
 type: docs
-weight: 15000
+weight: 14000
 url: /cpp/aspose.words.bibliography/personcollection/idx_get/
 ---
 ## PersonCollection::idx_get method

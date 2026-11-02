@@ -4,7 +4,7 @@ linktitle: get_Conductor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Conductor method. Gets or sets the conductor of a source in C++.'
 type: docs
-weight: 19392
+weight: 7000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_conductor/
 ---
 ## ContributorCollection::get_Conductor method

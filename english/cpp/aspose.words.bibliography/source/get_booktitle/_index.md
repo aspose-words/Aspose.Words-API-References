@@ -4,7 +4,7 @@ linktitle: get_BookTitle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_BookTitle method. Gets or sets the book title of a source in C++.'
 type: docs
-weight: 57090
+weight: 5000
 url: /cpp/aspose.words.bibliography/source/get_booktitle/
 ---
 ## Source::get_BookTitle method

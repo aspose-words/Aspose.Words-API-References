@@ -4,7 +4,7 @@ linktitle: get_NextCell
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Cell::get_NextCell method. Gets the next Cell node in C++.'
 type: docs
-weight: 22000
+weight: 9500
 url: /cpp/aspose.words.tables/cell/get_nextcell/
 ---
 ## Cell::get_NextCell method

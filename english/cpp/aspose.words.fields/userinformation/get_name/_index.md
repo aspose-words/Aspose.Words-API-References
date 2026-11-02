@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::UserInformation::get_Name method. Gets or sets the user''s name in C++.'
 type: docs
-weight: 8858
+weight: 6000
 url: /cpp/aspose.words.fields/userinformation/get_name/
 ---
 ## UserInformation::get_Name method

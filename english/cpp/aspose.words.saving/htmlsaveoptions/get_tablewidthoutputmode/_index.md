@@ -4,7 +4,7 @@ linktitle: get_TableWidthOutputMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_TableWidthOutputMode method. Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is All in C++.'
 type: docs
-weight: 49980
+weight: 47000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_tablewidthoutputmode/
 ---
 ## HtmlSaveOptions::get_TableWidthOutputMode method

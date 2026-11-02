@@ -4,7 +4,7 @@ linktitle: get_Composer
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Composer method. Gets or sets the composer of a source in C++.'
 type: docs
-weight: 19336
+weight: 6000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_composer/
 ---
 ## ContributorCollection::get_Composer method

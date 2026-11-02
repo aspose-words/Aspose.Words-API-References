@@ -4,7 +4,7 @@ linktitle: set_ChromaKey
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_ChromaKey method. Defines the color value of the image that will be treated as transparent in C++.'
 type: docs
-weight: 60000
+weight: 59000
 url: /cpp/aspose.words.drawing/imagedata/set_chromakey/
 ---
 ## ImageData::set_ChromaKey method

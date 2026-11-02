@@ -4,7 +4,7 @@ linktitle: get_MailMergeOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::MailMergerContext::get_MailMergeOptions method. Mail merge options in C++.'
 type: docs
-weight: 9000
+weight: 8000
 url: /cpp/aspose.words.lowcode/mailmergercontext/get_mailmergeoptions/
 ---
 ## MailMergerContext::get_MailMergeOptions method

@@ -4,7 +4,7 @@ linktitle: set_Result
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_Result method. Sets a string that represents the result of this form field in C++.'
 type: docs
-weight: 85000
+weight: 84000
 url: /cpp/aspose.words.fields/formfield/set_result/
 ---
 ## FormField::set_Result method

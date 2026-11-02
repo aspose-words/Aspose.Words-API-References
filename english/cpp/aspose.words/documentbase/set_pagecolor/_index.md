@@ -21,7 +21,7 @@ void Aspose::Words::DocumentBase::set_PageColor(System::Drawing::Color value)
 
 This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [BackgroundShape](../get_backgroundshape/).
 
-If the page color is not set (e.g. there is no background shape in the document) returns **Empty**.
+If the page color is not set (e.g. there is no background shape in the document) returns Empty.
 ## Examples
 
 

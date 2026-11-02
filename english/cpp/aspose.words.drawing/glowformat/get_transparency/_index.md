@@ -4,7 +4,7 @@ linktitle: get_Transparency
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GlowFormat::get_Transparency method. Gets or sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0 in C++.'
 type: docs
-weight: 7800
+weight: 7750
 url: /cpp/aspose.words.drawing/glowformat/get_transparency/
 ---
 ## GlowFormat::get_Transparency method

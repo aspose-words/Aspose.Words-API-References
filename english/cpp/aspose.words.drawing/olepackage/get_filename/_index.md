@@ -4,7 +4,7 @@ linktitle: get_FileName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OlePackage::get_FileName method. Gets or sets OLE Package file name in C++.'
 type: docs
-weight: 5750
+weight: 3000
 url: /cpp/aspose.words.drawing/olepackage/get_filename/
 ---
 ## OlePackage::get_FileName method

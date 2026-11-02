@@ -4,7 +4,7 @@ linktitle: get_FootnoteType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::Footnote::get_FootnoteType method. Returns a value that specifies whether this is a footnote or endnote in C++.'
 type: docs
-weight: 10375
+weight: 4000
 url: /cpp/aspose.words.notes/footnote/get_footnotetype/
 ---
 ## Footnote::get_FootnoteType method

@@ -4,7 +4,7 @@ linktitle: InchToPoint
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConvertUtil::InchToPoint method. Converts inches to points in C++.'
 type: docs
-weight: 8000
+weight: 1000
 url: /cpp/aspose.words/convertutil/inchtopoint/
 ---
 ## ConvertUtil::InchToPoint method

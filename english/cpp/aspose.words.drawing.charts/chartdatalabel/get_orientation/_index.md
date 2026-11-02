@@ -4,7 +4,7 @@ linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Orientation method. Gets or sets the orientation of the label text in C++.'
 type: docs
-weight: 18420
+weight: 7334
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_orientation/
 ---
 ## ChartDataLabel::get_Orientation method

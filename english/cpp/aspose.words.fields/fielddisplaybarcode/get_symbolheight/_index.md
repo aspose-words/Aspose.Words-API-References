@@ -4,7 +4,7 @@ linktitle: get_SymbolHeight
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_SymbolHeight method. Gets or sets the height of the symbol. The units are in TWIPS (1/1440 inch) in C++.'
 type: docs
-weight: 16868
+weight: 13000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_symbolheight/
 ---
 ## FieldDisplayBarcode::get_SymbolHeight method

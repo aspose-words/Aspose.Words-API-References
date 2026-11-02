@@ -4,7 +4,7 @@ linktitle: get_Position
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_Position method. Gets or sets the position of the tick labels on the axis in C++.'
 type: docs
-weight: 11700
+weight: 7000
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_position/
 ---
 ## AxisTickLabels::get_Position method

@@ -21,7 +21,7 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_HeadingPairs(cons
 
 Every heading pair occupies two elements in this array.
 
-The first element of the pair is a **String** and specifies the heading name. The second element of the pair is an **Int32** and specifies the count of document parts for this heading in the [TitlesOfParts](../get_titlesofparts/) property.
+The first element of the pair is a String and specifies the heading name. The second element of the pair is an Int32 and specifies the count of document parts for this heading in the [TitlesOfParts](../get_titlesofparts/) property.
 
 The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [TitlesOfParts](../get_titlesofparts/) property.
 

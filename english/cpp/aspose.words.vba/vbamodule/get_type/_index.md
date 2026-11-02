@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaModule::get_Type method. Specifies whether the module is a procedural module, document module, class module, or designer module in C++.'
 type: docs
-weight: 8834
+weight: 6000
 url: /cpp/aspose.words.vba/vbamodule/get_type/
 ---
 ## VbaModule::get_Type method

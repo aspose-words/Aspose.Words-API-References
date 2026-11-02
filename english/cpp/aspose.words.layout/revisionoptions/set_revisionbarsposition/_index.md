@@ -41,7 +41,7 @@ doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Values of [Center](../../../aspose.words.drawing/horizontalalignment/) and [Inside](../../../aspose.words.drawing/horizontalalignment/) are not allowed.
+* ArgumentOutOfRangeException - Values of [Center](../../../aspose.words.drawing/horizontalalignment/) and [Inside](../../../aspose.words.drawing/horizontalalignment/) are not allowed.
 
 ## See Also
 

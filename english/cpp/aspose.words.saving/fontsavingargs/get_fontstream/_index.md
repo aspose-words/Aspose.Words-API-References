@@ -4,7 +4,7 @@ linktitle: get_FontStream
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::FontSavingArgs::get_FontStream method. Allows to specify the stream where the font will be saved to in C++.'
 type: docs
-weight: 14462
+weight: 6000
 url: /cpp/aspose.words.saving/fontsavingargs/get_fontstream/
 ---
 ## FontSavingArgs::get_FontStream method

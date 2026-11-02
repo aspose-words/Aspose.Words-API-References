@@ -4,7 +4,7 @@ linktitle: get_GapWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_GapWidth method. Gets or sets the percentage of gap width between chart elements in C++.'
 type: docs
-weight: 14616
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_gapwidth/
 ---
 ## ChartSeriesGroup::get_GapWidth method

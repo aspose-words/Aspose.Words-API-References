@@ -4,7 +4,7 @@ linktitle: get_City
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_City method. Gets or sets the city of a source in C++.'
 type: docs
-weight: 57180
+weight: 10000
 url: /cpp/aspose.words.bibliography/source/get_city/
 ---
 ## Source::get_City method

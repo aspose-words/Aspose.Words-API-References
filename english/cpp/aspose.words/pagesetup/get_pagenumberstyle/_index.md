@@ -4,7 +4,7 @@ linktitle: get_PageNumberStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_PageNumberStyle method. Gets or sets the page number format in C++.'
 type: docs
-weight: 49706
+weight: 34000
 url: /cpp/aspose.words/pagesetup/get_pagenumberstyle/
 ---
 ## PageSetup::get_PageNumberStyle method

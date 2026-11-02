@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/graphicsqualityoptions/
 ## GraphicsQualityOptions class
 
 
-Allows to specify additional **Graphics** quality options. 
+Allows to specify additional Graphics quality options. 
 To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article.
 
 ```cpp

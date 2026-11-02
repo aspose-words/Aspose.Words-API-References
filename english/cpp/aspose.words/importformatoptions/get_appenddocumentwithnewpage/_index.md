@@ -4,7 +4,7 @@ linktitle: get_AppendDocumentWithNewPage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ImportFormatOptions::get_AppendDocumentWithNewPage method. Gets or sets a boolean value indicating whether to change a first imported section type to the NewPage forcibly when call AppendDocument(). The default value is true in C++.'
 type: docs
-weight: 11273
+weight: 3500
 url: /cpp/aspose.words/importformatoptions/get_appenddocumentwithnewpage/
 ---
 ## ImportFormatOptions::get_AppendDocumentWithNewPage method

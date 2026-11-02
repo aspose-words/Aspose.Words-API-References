@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_Name method. Gets or sets the name of the style in C++.'
 type: docs
-weight: 22613
+weight: 22595
 url: /cpp/aspose.words/style/get_name/
 ---
 ## Style::get_Name method

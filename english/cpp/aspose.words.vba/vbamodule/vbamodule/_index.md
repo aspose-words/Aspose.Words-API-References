@@ -4,7 +4,7 @@ linktitle: VbaModule
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaModule::VbaModule constructor. Creates an empty module in C++.'
 type: docs
-weight: 8334
+weight: 3500
 url: /cpp/aspose.words.vba/vbamodule/vbamodule/
 ---
 ## VbaModule::VbaModule constructor

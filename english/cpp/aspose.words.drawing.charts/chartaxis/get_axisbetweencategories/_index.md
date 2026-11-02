@@ -4,7 +4,7 @@ linktitle: get_AxisBetweenCategories
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories method. Gets or sets a flag indicating whether the value axis crosses the category axis between categories in C++.'
 type: docs
-weight: 31072
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_axisbetweencategories/
 ---
 ## ChartAxis::get_AxisBetweenCategories method

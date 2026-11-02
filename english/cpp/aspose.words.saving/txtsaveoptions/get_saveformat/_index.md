@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::TxtSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Text in C++.'
 type: docs
-weight: 10800
+weight: 7000
 url: /cpp/aspose.words.saving/txtsaveoptions/get_saveformat/
 ---
 ## TxtSaveOptions::get_SaveFormat method

@@ -4,7 +4,7 @@ linktitle: get_Year
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Year method. Gets or sets the year of a source in C++.'
 type: docs
-weight: 57966
+weight: 54000
 url: /cpp/aspose.words.bibliography/source/get_year/
 ---
 ## Source::get_Year method

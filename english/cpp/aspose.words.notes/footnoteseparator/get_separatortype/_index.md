@@ -4,7 +4,7 @@ linktitle: get_SeparatorType
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use get_SeparatorType method of Aspose::Words::Notes::FootnoteSeparator class in C++.'
 type: docs
-weight: 11000
+weight: 6000
 url: /cpp/aspose.words.notes/footnoteseparator/get_separatortype/
 ---
 ## FootnoteSeparator::get_SeparatorType method

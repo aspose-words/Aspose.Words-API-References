@@ -4,7 +4,7 @@ linktitle: set_ForeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::set_ForeColor method. Sets a Color object that represents the foreground color for the fill in C++.'
 type: docs
-weight: 71000
+weight: 70000
 url: /cpp/aspose.words.drawing/fill/set_forecolor/
 ---
 ## Fill::set_ForeColor method
@@ -18,7 +18,7 @@ void Aspose::Words::Drawing::Fill::set_ForeColor(System::Drawing::Color value)
 
 ## Remarks
 
- This property resets the alpha component of the **Color** to fully opaque color unlike the [Color](../get_color/) property, which preserves it. 
+ This property resets the alpha component of the Color to fully opaque color unlike the [Color](../get_color/) property, which preserves it. 
 ## See Also
 
 * Class [Fill](../)

@@ -4,7 +4,7 @@ linktitle: get_StartNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::EndnoteOptions::get_StartNumber method. Specifies the starting number or character for the first automatically numbered endnotes in C++.'
 type: docs
-weight: 7834
+weight: 5000
 url: /cpp/aspose.words.notes/endnoteoptions/get_startnumber/
 ---
 ## EndnoteOptions::get_StartNumber method

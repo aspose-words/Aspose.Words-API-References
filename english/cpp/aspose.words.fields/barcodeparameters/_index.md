@@ -58,7 +58,7 @@ class BarcodeParameters : public System::Object
 | [set_SymbolRotation](./set_symbolrotation/)(const System::String \&) | Rotation of the barcode symbol. Valid values are [0, 3]. |
 ## Remarks
 
- The set of parameters are according to [DISPLAYBARCODE field options. See the exact list at](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx) 
+ The set of parameters are according to [DISPLAYBARCODE field options. See the exact list at](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

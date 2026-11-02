@@ -4,7 +4,7 @@ linktitle: get_Value
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::PreferredWidth::get_Value method. Gets the preferred width value. The unit of measure is specified in the Type property in C++.'
 type: docs
-weight: 14000
+weight: 13000
 url: /cpp/aspose.words.tables/preferredwidth/get_value/
 ---
 ## PreferredWidth::get_Value method

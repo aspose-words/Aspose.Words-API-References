@@ -4,7 +4,7 @@ linktitle: get_MswVersion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_MswVersion method. Allows to specify that the document loading process should match a specific MS Word version. Default value is Word2019 in C++.'
 type: docs
-weight: 20528
+weight: 11000
 url: /cpp/aspose.words.loading/loadoptions/get_mswversion/
 ---
 ## LoadOptions::get_MswVersion method

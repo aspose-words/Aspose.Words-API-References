@@ -4,7 +4,7 @@ linktitle: get_PreserveFormatting
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::CheckGrammarOptions::get_PreserveFormatting method. Allows to specify either CheckGrammar() will try to preserve layout and formatting of the original document, or not. Default value is true in C++.'
 type: docs
-weight: 7800
+weight: 5000
 url: /cpp/aspose.words.ai/checkgrammaroptions/get_preserveformatting/
 ---
 ## CheckGrammarOptions::get_PreserveFormatting method

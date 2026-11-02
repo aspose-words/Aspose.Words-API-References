@@ -4,7 +4,7 @@ linktitle: get_Hidden
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Row::get_Hidden method. Gets or sets a flag indicating whether this row is hidden or not in C++.'
 type: docs
-weight: 15360
+weight: 13924
 url: /cpp/aspose.words.tables/row/get_hidden/
 ---
 ## Row::get_Hidden method

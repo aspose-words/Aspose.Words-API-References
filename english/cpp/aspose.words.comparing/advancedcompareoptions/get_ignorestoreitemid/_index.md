@@ -4,7 +4,7 @@ linktitle: get_IgnoreStoreItemId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreStoreItemId method. Specifies whether to ignore difference in StructuredDocumentTag store item Id in C++.'
 type: docs
-weight: 6668
+weight: 4000
 url: /cpp/aspose.words.comparing/advancedcompareoptions/get_ignorestoreitemid/
 ---
 ## AdvancedCompareOptions::get_IgnoreStoreItemId method

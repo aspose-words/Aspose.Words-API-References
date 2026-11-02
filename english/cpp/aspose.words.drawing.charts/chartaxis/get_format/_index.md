@@ -4,7 +4,7 @@ linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_Format method. Provides access to line formatting of the axis and fill of the tick labels in C++.'
 type: docs
-weight: 31324
+weight: 8500
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_format/
 ---
 ## ChartAxis::get_Format method

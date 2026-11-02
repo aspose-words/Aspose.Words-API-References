@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::XlsxSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Xlsx in C++.'
 type: docs
-weight: 6715
+weight: 4000
 url: /cpp/aspose.words.saving/xlsxsaveoptions/get_saveformat/
 ---
 ## XlsxSaveOptions::get_SaveFormat method

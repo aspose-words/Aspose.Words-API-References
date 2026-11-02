@@ -4,7 +4,7 @@ linktitle: get_BackColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_BackColor method. Gets or sets the background color of the stroke in C++.'
 type: docs
-weight: 23072
+weight: 2000
 url: /cpp/aspose.words.drawing/stroke/get_backcolor/
 ---
 ## Stroke::get_BackColor method
@@ -18,7 +18,7 @@ System::Drawing::Color Aspose::Words::Drawing::Stroke::get_BackColor()
 
 ## Remarks
 
- The default value for a [Shape](../../shape/) is **White**. 
+ The default value for a [Shape](../../shape/) is White. 
 ## Examples
 
 

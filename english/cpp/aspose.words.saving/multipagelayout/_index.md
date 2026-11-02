@@ -25,11 +25,11 @@ class MultiPageLayout : public System::Object
 | static [SinglePage](./singlepage/)() | Creates a layout that renders only the first of specified pages. |
 | static [TiffFrames](./tiffframes/)() | Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image. Applicable only to TIFF image formats. |
 | static [Vertical](./vertical/)(float) | Creates a layout where all specified pages are rendered vertically one below the other in a single output. |
-| [get_BackColor](./get_backcolor/)() | Gets or sets the background color of the output. The default is **Empty**. |
-| [get_BorderColor](./get_bordercolor/)() | Gets or sets the color of the pages border. The default is **Empty**. |
+| [get_BackColor](./get_backcolor/)() | Gets or sets the background color of the output. The default is Empty. |
+| [get_BorderColor](./get_bordercolor/)() | Gets or sets the color of the pages border. The default is Empty. |
 | [get_BorderWidth](./get_borderwidth/)() const | Gets or sets the width of the pages border. The default is 0. |
-| [set_BackColor](./set_backcolor/)(System::Drawing::Color) | Sets the background color of the output. The default is **Empty**. |
-| [set_BorderColor](./set_bordercolor/)(System::Drawing::Color) | Sets the color of the pages border. The default is **Empty**. |
+| [set_BackColor](./set_backcolor/)(System::Drawing::Color) | Sets the background color of the output. The default is Empty. |
+| [set_BorderColor](./set_bordercolor/)(System::Drawing::Color) | Sets the color of the pages border. The default is Empty. |
 | [set_BorderWidth](./set_borderwidth/)(float) | Sets the width of the pages border. The default is 0. |
 ## Remarks
 

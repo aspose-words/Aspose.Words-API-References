@@ -4,7 +4,7 @@ linktitle: get_SeriesType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_SeriesType method. Gets the type of chart series included in this group in C++.'
 type: docs
-weight: 14924
+weight: 12000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_seriestype/
 ---
 ## ChartSeriesGroup::get_SeriesType method

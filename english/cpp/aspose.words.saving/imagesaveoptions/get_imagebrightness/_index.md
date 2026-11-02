@@ -4,7 +4,7 @@ linktitle: get_ImageBrightness
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_ImageBrightness method. Gets or sets the brightness for the generated images in C++.'
 type: docs
-weight: 21096
+weight: 5000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_imagebrightness/
 ---
 ## ImageSaveOptions::get_ImageBrightness method

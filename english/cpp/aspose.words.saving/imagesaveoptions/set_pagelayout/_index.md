@@ -23,7 +23,7 @@ void Aspose::Words::Saving::ImageSaveOptions::set_PageLayout(const System::Share
 
  For [Tiff](../../../aspose.words/saveformat/) the default value is [TiffFrames](../../multipagelayout/tiffframes/). For other formats the default value is [SinglePage](../../multipagelayout/singlepage/). 
 
- This property has effect only when saving to the following formats: [Jpeg](../../../aspose.words/saveformat/), [Gif](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Tiff](../../../aspose.words/saveformat/), **WebP**
+ This property has effect only when saving to the following formats: [Jpeg](../../../aspose.words/saveformat/), [Gif](../../../aspose.words/saveformat/), [Png](../../../aspose.words/saveformat/), [Bmp](../../../aspose.words/saveformat/), [Tiff](../../../aspose.words/saveformat/), WebP
 ## Examples
 
 

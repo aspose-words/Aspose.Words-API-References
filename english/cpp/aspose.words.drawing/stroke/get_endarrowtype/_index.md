@@ -4,7 +4,7 @@ linktitle: get_EndArrowType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_EndArrowType method. Defines the arrowhead for the end of a stroke in C++.'
 type: docs
-weight: 23360
+weight: 7000
 url: /cpp/aspose.words.drawing/stroke/get_endarrowtype/
 ---
 ## Stroke::get_EndArrowType method

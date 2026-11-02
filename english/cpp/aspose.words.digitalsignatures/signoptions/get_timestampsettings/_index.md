@@ -4,7 +4,7 @@ linktitle: get_TimestampSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_TimestampSettings method. Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is null and the digital signature will not be time-stamped in C++.'
 type: docs
-weight: 10258
+weight: 8126
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_timestampsettings/
 ---
 ## SignOptions::get_TimestampSettings method

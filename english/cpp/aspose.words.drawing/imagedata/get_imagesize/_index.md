@@ -4,7 +4,7 @@ linktitle: get_ImageSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_ImageSize method. Gets the information about image size and resolution in C++.'
 type: docs
-weight: 52000
+weight: 51000
 url: /cpp/aspose.words.drawing/imagedata/get_imagesize/
 ---
 ## ImageData::get_ImageSize method

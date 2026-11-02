@@ -4,7 +4,7 @@ linktitle: get_MinorUnitIsAuto
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnitIsAuto method. Gets or sets a flag indicating whether default distance between minor tick marks shall be used in C++.'
 type: docs
-weight: 31684
+weight: 18000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_minorunitisauto/
 ---
 ## ChartAxis::get_MinorUnitIsAuto method

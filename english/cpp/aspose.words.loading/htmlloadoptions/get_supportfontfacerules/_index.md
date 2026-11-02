@@ -4,7 +4,7 @@ linktitle: get_SupportFontFaceRules
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::HtmlLoadOptions::get_SupportFontFaceRules method. Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is false in C++.'
 type: docs
-weight: 10667
+weight: 6500
 url: /cpp/aspose.words.loading/htmlloadoptions/get_supportfontfacerules/
 ---
 ## HtmlLoadOptions::get_SupportFontFaceRules method

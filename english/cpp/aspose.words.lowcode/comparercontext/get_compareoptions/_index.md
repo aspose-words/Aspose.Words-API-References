@@ -4,7 +4,7 @@ linktitle: get_CompareOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::ComparerContext::get_CompareOptions method. Options used upon comparing documents in C++.'
 type: docs
-weight: 8668
+weight: 5000
 url: /cpp/aspose.words.lowcode/comparercontext/get_compareoptions/
 ---
 ## ComparerContext::get_CompareOptions method

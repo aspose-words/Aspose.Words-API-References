@@ -4,7 +4,7 @@ linktitle: get_NumberSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_NumberSpacing method. Gets or sets the spacing type of the numeral being displayed in C++.'
 type: docs
-weight: 59540
+weight: 59044
 url: /cpp/aspose.words/font/get_numberspacing/
 ---
 ## Font::get_NumberSpacing method

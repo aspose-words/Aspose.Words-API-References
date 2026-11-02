@@ -4,7 +4,7 @@ linktitle: get_NavigationMapLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_NavigationMapLevel method. Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. Default value is 3 in C++.'
 type: docs
-weight: 49800
+weight: 40500
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_navigationmaplevel/
 ---
 ## HtmlSaveOptions::get_NavigationMapLevel method

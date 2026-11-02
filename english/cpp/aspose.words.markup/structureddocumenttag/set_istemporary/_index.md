@@ -4,7 +4,7 @@ linktitle: set_IsTemporary
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::set_IsTemporary method. Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified in C++.'
 type: docs
-weight: 104000
+weight: 103000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_istemporary/
 ---
 ## StructuredDocumentTag::set_IsTemporary method

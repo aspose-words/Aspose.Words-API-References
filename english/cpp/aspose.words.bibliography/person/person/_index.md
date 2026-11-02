@@ -4,7 +4,7 @@ linktitle: Person
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Person::Person constructor. Initialize a new instance of the Person class in C++.'
 type: docs
-weight: 9167
+weight: 7600
 url: /cpp/aspose.words.bibliography/person/person/
 ---
 ## Person::Person constructor

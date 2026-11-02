@@ -4,7 +4,7 @@ linktitle: set_BackTintAndShade
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::set_BackTintAndShade method. Sets a double value that lightens or darkens the background color in C++.'
 type: docs
-weight: 69000
+weight: 68000
 url: /cpp/aspose.words.drawing/fill/set_backtintandshade/
 ---
 ## Fill::set_BackTintAndShade method
@@ -47,7 +47,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillThemeColor.docx");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Throw if set this property to a value less than -1 or more than 1.
+* ArgumentOutOfRangeException - Throw if set this property to a value less than -1 or more than 1.
 
 ## See Also
 

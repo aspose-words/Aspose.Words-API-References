@@ -4,7 +4,7 @@ linktitle: get_WrapSide
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_WrapSide method. Specifies how the text is wrapped around the shape in C++.'
 type: docs
-weight: 61958
+weight: 61955
 url: /cpp/aspose.words.drawing/shapebase/get_wrapside/
 ---
 ## ShapeBase::get_WrapSide method

@@ -4,7 +4,7 @@ linktitle: get_UpdateLastSavedTimeProperty
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty method. Gets or sets a value determining whether the LastSavedTime property is updated before saving in C++.'
 type: docs
-weight: 24828
+weight: 19000
 url: /cpp/aspose.words.saving/saveoptions/get_updatelastsavedtimeproperty/
 ---
 ## SaveOptions::get_UpdateLastSavedTimeProperty method

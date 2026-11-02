@@ -24,6 +24,15 @@ class RevisionGroupCollection : public System::Collections::Generic::IEnumerable
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [get_Count](./get_count/)() | Returns the number of revision groups in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns a revision group at the specified index. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

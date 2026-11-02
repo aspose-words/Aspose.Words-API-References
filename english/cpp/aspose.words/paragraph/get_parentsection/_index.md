@@ -4,7 +4,7 @@ linktitle: get_ParentSection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_ParentSection method. Retrieves the parent Section of the paragraph in C++.'
 type: docs
-weight: 52000
+weight: 51000
 url: /cpp/aspose.words/paragraph/get_parentsection/
 ---
 ## Paragraph::get_ParentSection method

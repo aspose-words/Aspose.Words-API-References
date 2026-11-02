@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/glowformat/set_color/
 ## GlowFormat::set_Color method
 
 
-Sets a **Color** object that represents the color for a glow effect. The default value is **Black**.
+Sets a Color object that represents the color for a glow effect. The default value is Black.
 
 ```cpp
 void Aspose::Words::Drawing::GlowFormat::set_Color(System::Drawing::Color value)

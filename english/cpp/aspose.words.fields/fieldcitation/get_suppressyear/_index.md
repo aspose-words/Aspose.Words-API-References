@@ -4,7 +4,7 @@ linktitle: get_SuppressYear
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldCitation::get_SuppressYear method. Gets whether the year information is suppressed from the citation in C++.'
 type: docs
-weight: 13834
+weight: 10000
 url: /cpp/aspose.words.fields/fieldcitation/get_suppressyear/
 ---
 ## FieldCitation::get_SuppressYear method

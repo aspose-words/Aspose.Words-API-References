@@ -4,7 +4,7 @@ linktitle: PageSet
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PageSet::PageSet constructor. Creates a page set based on ranges in C++.'
 type: docs
-weight: 8000
+weight: 6500
 url: /cpp/aspose.words.saving/pageset/pageset/
 ---
 ## PageSet::PageSet(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\> \&) constructor
@@ -57,7 +57,7 @@ Aspose::Words::Saving::PageSet::PageSet(const System::ArrayPtr<int32_t> & pages)
 | pages | const System::ArrayPtr\<int32_t\> \& | Zero-based indices of pages. |
 ## Remarks
 
- If a page is encountered that is not in the document, an exception will be thrown during rendering. **MaxValue** means the last page in the document. 
+ If a page is encountered that is not in the document, an exception will be thrown during rendering. MaxValue means the last page in the document. 
 ## Examples
 
 
@@ -104,7 +104,7 @@ Aspose::Words::Saving::PageSet::PageSet(int32_t page)
 | page | int32_t | Zero-based index of the page. |
 ## Remarks
 
- If a page is encountered that is not in the document, an exception will be thrown during rendering. **MaxValue** means the last page in the document. 
+ If a page is encountered that is not in the document, an exception will be thrown during rendering. MaxValue means the last page in the document. 
 ## Examples
 
 

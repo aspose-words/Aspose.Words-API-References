@@ -4,7 +4,7 @@ linktitle: set_TextInputFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_TextInputFormat method. Sets the text formatting for a text form field in C++.'
 type: docs
-weight: 88000
+weight: 87000
 url: /cpp/aspose.words.fields/formfield/set_textinputformat/
 ---
 ## FormField::set_TextInputFormat method

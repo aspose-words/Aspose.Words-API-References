@@ -4,7 +4,7 @@ linktitle: get_Rotation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Rotation method. Gets or sets the rotation of the axis title in degrees in C++.'
 type: docs
-weight: 8335
+weight: 4500
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_rotation/
 ---
 ## ChartAxisTitle::get_Rotation method

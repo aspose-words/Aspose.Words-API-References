@@ -4,7 +4,7 @@ linktitle: get_SplitCriteria
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::SplitOptions::get_SplitCriteria method. Specifies the criteria for splitting the document into parts in C++.'
 type: docs
-weight: 6600
+weight: 3000
 url: /cpp/aspose.words.lowcode/splitoptions/get_splitcriteria/
 ---
 ## SplitOptions::get_SplitCriteria method

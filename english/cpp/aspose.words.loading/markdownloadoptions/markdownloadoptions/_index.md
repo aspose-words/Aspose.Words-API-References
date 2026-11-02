@@ -4,7 +4,7 @@ linktitle: MarkdownLoadOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::MarkdownLoadOptions::MarkdownLoadOptions constructor. Initializes a new instance of MarkdownLoadOptions class in C++.'
 type: docs
-weight: 6167
+weight: 2000
 url: /cpp/aspose.words.loading/markdownloadoptions/markdownloadoptions/
 ---
 ## MarkdownLoadOptions::MarkdownLoadOptions constructor

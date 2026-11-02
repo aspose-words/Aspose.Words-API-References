@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_Document method. Gets the document to which this node belongs in C++.'
 type: docs
-weight: 25000
+weight: 24000
 url: /cpp/aspose.words/node/get_document/
 ---
 ## Node::get_Document method

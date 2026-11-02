@@ -49,7 +49,7 @@ System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"DocumentProperties.Thumbn
 ```
 ## Exceptions
 
-* **InvalidOperationException** -  Thrown if the image is invalid or its format is unsupported for specific format of document.
+* InvalidOperationException -  Thrown if the image is invalid or its format is unsupported for specific format of document.
 
 ## See Also
 

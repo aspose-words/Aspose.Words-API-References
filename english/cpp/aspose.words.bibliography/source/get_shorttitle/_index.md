@@ -4,7 +4,7 @@ linktitle: get_ShortTitle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_ShortTitle method. Gets or sets the short title of a source in C++.'
 type: docs
-weight: 57738
+weight: 41000
 url: /cpp/aspose.words.bibliography/source/get_shorttitle/
 ---
 ## Source::get_ShortTitle method

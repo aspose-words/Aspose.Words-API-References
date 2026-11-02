@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Watermark::get_Type method. Gets the watermark type in C++.'
 type: docs
-weight: 9000
+weight: 8000
 url: /cpp/aspose.words/watermark/get_type/
 ---
 ## Watermark::get_Type method

@@ -4,7 +4,7 @@ linktitle: get_First
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Person::get_First method. Gets or sets the first name of a person in C++.'
 type: docs
-weight: 9501
+weight: 8200
 url: /cpp/aspose.words.bibliography/person/get_first/
 ---
 ## Person::get_First method

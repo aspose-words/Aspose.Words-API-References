@@ -4,7 +4,7 @@ linktitle: set_CalculateOnExit
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_CalculateOnExit method. True if references to the specified form field are automatically updated whenever the field is exited in C++.'
 type: docs
-weight: 71000
+weight: 70000
 url: /cpp/aspose.words.fields/formfield/set_calculateonexit/
 ---
 ## FormField::set_CalculateOnExit method

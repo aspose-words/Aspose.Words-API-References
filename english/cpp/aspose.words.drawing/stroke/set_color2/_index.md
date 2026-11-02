@@ -19,7 +19,7 @@ void Aspose::Words::Drawing::Stroke::set_Color2(System::Drawing::Color value)
 ## Remarks
 
 
-The default value for a [Shape](../../shape/) is **White**. 
+The default value for a [Shape](../../shape/) is White. 
 ## Examples
 
 

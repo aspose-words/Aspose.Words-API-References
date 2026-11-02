@@ -23,7 +23,7 @@ virtual System::SharedPtr<System::IO::Stream> Aspose::Words::Fields::IBibliograp
 
 ### ReturnValue
 
-The **Stream** with bibliography style XSLT stylesheet.
+The Stream with bibliography style XSLT stylesheet.
 ## Remarks
 
  The implementation should return **null** to indicate that the MS Word version of specified style should be used. 

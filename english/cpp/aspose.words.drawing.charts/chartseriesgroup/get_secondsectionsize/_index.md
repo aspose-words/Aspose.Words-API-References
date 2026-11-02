@@ -4,7 +4,7 @@ linktitle: get_SecondSectionSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_SecondSectionSize method. Gets or sets the size of the pie chart secondary section as a percentage in C++.'
 type: docs
-weight: 14770
+weight: 10000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_secondsectionsize/
 ---
 ## ChartSeriesGroup::get_SecondSectionSize method

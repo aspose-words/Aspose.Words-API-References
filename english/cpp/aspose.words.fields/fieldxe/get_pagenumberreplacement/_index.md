@@ -4,7 +4,7 @@ linktitle: get_PageNumberReplacement
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldXE::get_PageNumberReplacement method. Gets or sets text used in place of a page number in C++.'
 type: docs
-weight: 10556
+weight: 5000
 url: /cpp/aspose.words.fields/fieldxe/get_pagenumberreplacement/
 ---
 ## FieldXE::get_PageNumberReplacement method

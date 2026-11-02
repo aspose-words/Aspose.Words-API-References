@@ -4,7 +4,7 @@ linktitle: get_EntryName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldGlossary::get_EntryName method. Gets or sets the name of the glossary entry to insert in C++.'
 type: docs
-weight: 4667
+weight: 2000
 url: /cpp/aspose.words.fields/fieldglossary/get_entryname/
 ---
 ## FieldGlossary::get_EntryName method

@@ -4,7 +4,7 @@ linktitle: get_FontInfos
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBase::get_FontInfos method. Provides access to properties of fonts used in this document in C++.'
 type: docs
-weight: 13336
+weight: 12546
 url: /cpp/aspose.words/documentbase/get_fontinfos/
 ---
 ## DocumentBase::get_FontInfos method

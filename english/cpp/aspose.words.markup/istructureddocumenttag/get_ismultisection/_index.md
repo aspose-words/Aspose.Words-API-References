@@ -4,7 +4,7 @@ linktitle: get_IsMultiSection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_IsMultiSection method. Returns true if this instance is a ranged (multi-section) structured document tag in C++.'
 type: docs
-weight: 17570
+weight: 17560
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_ismultisection/
 ---
 ## IStructuredDocumentTag::get_IsMultiSection method

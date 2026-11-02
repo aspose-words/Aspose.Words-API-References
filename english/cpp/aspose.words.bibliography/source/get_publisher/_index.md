@@ -4,7 +4,7 @@ linktitle: get_Publisher
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Publisher method. Gets or sets the publisher of a source in C++.'
 type: docs
-weight: 57666
+weight: 37000
 url: /cpp/aspose.words.bibliography/source/get_publisher/
 ---
 ## Source::get_Publisher method

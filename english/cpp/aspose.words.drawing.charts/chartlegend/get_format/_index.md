@@ -4,7 +4,7 @@ linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartLegend::get_Format method. Provides access to fill and line formatting of the legend in C++.'
 type: docs
-weight: 7429
+weight: 2500
 url: /cpp/aspose.words.drawing.charts/chartlegend/get_format/
 ---
 ## ChartLegend::get_Format method

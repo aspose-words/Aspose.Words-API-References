@@ -4,7 +4,7 @@ linktitle: get_IsSignatureLine
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsSignatureLine method. Indicates that shape is a SignatureLine in C++.'
 type: docs
-weight: 61555
+weight: 61550
 url: /cpp/aspose.words.drawing/shapebase/get_issignatureline/
 ---
 ## ShapeBase::get_IsSignatureLine method

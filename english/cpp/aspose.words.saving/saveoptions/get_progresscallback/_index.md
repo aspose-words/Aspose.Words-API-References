@@ -4,7 +4,7 @@ linktitle: get_ProgressCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SaveOptions::get_ProgressCallback method. Called during saving a document and accepts data about saving progress in C++.'
 type: docs
-weight: 24527
+weight: 13000
 url: /cpp/aspose.words.saving/saveoptions/get_progresscallback/
 ---
 ## SaveOptions::get_ProgressCallback method

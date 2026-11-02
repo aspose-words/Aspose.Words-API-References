@@ -4,7 +4,7 @@ linktitle: get_TableFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDatabase::get_TableFormat method. Gets the format that is to be applied to the result of the database query in C++.'
 type: docs
-weight: 13910
+weight: 11000
 url: /cpp/aspose.words.fields/fielddatabase/get_tableformat/
 ---
 ## FieldDatabase::get_TableFormat method

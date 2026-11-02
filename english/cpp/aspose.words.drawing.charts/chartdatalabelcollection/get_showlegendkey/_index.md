@@ -4,7 +4,7 @@ linktitle: get_ShowLegendKey
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLegendKey method. Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is false in C++.'
 type: docs
-weight: 18249
+weight: 16532
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showlegendkey/
 ---
 ## ChartDataLabelCollection::get_ShowLegendKey method

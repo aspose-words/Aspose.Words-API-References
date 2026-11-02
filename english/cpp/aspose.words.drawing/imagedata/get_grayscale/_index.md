@@ -4,7 +4,7 @@ linktitle: get_GrayScale
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_GrayScale method. Determines whether a picture will display in grayscale mode in C++.'
 type: docs
-weight: 49000
+weight: 48000
 url: /cpp/aspose.words.drawing/imagedata/get_grayscale/
 ---
 ## ImageData::get_GrayScale method

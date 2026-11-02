@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BuildingBlocks::BuildingBlock::get_Name method. Gets or sets the name of this building block in C++.'
 type: docs
-weight: 16693
+weight: 11000
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_name/
 ---
 ## BuildingBlock::get_Name method

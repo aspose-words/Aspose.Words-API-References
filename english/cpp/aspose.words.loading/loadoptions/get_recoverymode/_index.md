@@ -4,7 +4,7 @@ linktitle: get_RecoveryMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_RecoveryMode method. Defines how the document should be handled if errors occur during loading. Use this property to specify whether the system should attempt to recover the document or follow another defined behavior. The default value is TryRecover in C++.'
 type: docs
-weight: 20718
+weight: 14500
 url: /cpp/aspose.words.loading/loadoptions/get_recoverymode/
 ---
 ## LoadOptions::get_RecoveryMode method

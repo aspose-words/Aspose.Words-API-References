@@ -4,7 +4,7 @@ linktitle: get_UpdatePageStartingNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageExtractOptions::get_UpdatePageStartingNumber method. Specifies whether the start page number in the resulting document shall be updated. Default value is true in C++.'
 type: docs
-weight: 6800
+weight: 4000
 url: /cpp/aspose.words/pageextractoptions/get_updatepagestartingnumber/
 ---
 ## PageExtractOptions::get_UpdatePageStartingNumber method

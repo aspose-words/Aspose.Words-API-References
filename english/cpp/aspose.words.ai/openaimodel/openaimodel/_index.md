@@ -4,7 +4,7 @@ linktitle: OpenAiModel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::OpenAiModel::OpenAiModel constructor. Initializes a new instance of OpenAiModel class in C++.'
 type: docs
-weight: 3167
+weight: 1334
 url: /cpp/aspose.words.ai/openaimodel/openaimodel/
 ---
 ## OpenAiModel::OpenAiModel(const System::String \&) constructor

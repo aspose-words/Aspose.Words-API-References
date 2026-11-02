@@ -25,6 +25,15 @@ class VbaReferenceCollection : public System::Collections::Generic::IEnumerable<
 | [RemoveAt](./removeat/)(int32_t) | Removes the [VbaReference](../vbareference/) element at the specified index of the collection. |
 | [get_Count](./get_count/)() | Returns the number of VBA references in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets [VbaReference](../vbareference/) object at the specified index. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## See Also
 
 * Namespace [Aspose::Words::Vba](../)

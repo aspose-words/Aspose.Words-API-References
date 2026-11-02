@@ -4,7 +4,7 @@ linktitle: PageRange
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PageRange::PageRange constructor. Creates a new page range object in C++.'
 type: docs
-weight: 5000
+weight: 2000
 url: /cpp/aspose.words.saving/pagerange/pagerange/
 ---
 ## PageRange::PageRange constructor
@@ -23,7 +23,7 @@ Aspose::Words::Saving::PageRange::PageRange(int32_t from, int32_t to)
 | to | int32_t | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering. |
 ## Remarks
 
-**MaxValue** means the last page in the document. 
+MaxValue means the last page in the document. 
 ## Examples
 
 

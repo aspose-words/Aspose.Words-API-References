@@ -4,7 +4,7 @@ linktitle: get_Rotation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Rotation method. Gets or sets the rotation of the label in degrees in C++.'
 type: docs
-weight: 18504
+weight: 7667
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_rotation/
 ---
 ## ChartDataLabel::get_Rotation method

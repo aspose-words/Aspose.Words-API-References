@@ -4,7 +4,7 @@ linktitle: get_IsEndOfCell
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsEndOfCell method. True if this paragraph is the last paragraph in a Cell; false otherwise in C++.'
 type: docs
-weight: 37000
+weight: 36000
 url: /cpp/aspose.words/paragraph/get_isendofcell/
 ---
 ## Paragraph::get_IsEndOfCell method

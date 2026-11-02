@@ -66,7 +66,7 @@ doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - [Hidden](../../revisiontexteffect/) is not allowed.
+* ArgumentOutOfRangeException - [Hidden](../../revisiontexteffect/) is not allowed.
 
 ## See Also
 

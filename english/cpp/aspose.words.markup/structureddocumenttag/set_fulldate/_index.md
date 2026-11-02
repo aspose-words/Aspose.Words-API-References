@@ -4,7 +4,7 @@ linktitle: set_FullDate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::set_FullDate method. Specifies the full date and time last entered into this SDT in C++.'
 type: docs
-weight: 102000
+weight: 101000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_fulldate/
 ---
 ## StructuredDocumentTag::set_FullDate method

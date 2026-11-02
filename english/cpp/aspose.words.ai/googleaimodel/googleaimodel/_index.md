@@ -4,7 +4,7 @@ linktitle: GoogleAiModel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::GoogleAiModel::GoogleAiModel constructor. Initializes a new instance of GoogleAiModel class in C++.'
 type: docs
-weight: 2500
+weight: 1500
 url: /cpp/aspose.words.ai/googleaimodel/googleaimodel/
 ---
 ## GoogleAiModel::GoogleAiModel(const System::String \&) constructor

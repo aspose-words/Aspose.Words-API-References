@@ -4,7 +4,7 @@ linktitle: get_AllCaps
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_AllCaps method. True if the font is formatted as all capital letters in C++.'
 type: docs
-weight: 59036
+weight: 58036
 url: /cpp/aspose.words/font/get_allcaps/
 ---
 ## Font::get_AllCaps method

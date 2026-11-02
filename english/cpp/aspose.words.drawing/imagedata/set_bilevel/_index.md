@@ -4,7 +4,7 @@ linktitle: set_BiLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_BiLevel method. Determines whether an image will be displayed in black and white in C++.'
 type: docs
-weight: 58000
+weight: 57000
 url: /cpp/aspose.words.drawing/imagedata/set_bilevel/
 ---
 ## ImageData::set_BiLevel method

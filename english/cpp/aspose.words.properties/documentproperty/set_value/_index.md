@@ -4,7 +4,7 @@ linktitle: set_Value
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::DocumentProperty::set_Value method. Sets the value of the property in C++.'
 type: docs
-weight: 22000
+weight: 21000
 url: /cpp/aspose.words.properties/documentproperty/set_value/
 ---
 ## DocumentProperty::set_Value method

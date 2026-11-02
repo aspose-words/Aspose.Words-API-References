@@ -4,7 +4,7 @@ linktitle: set_Multiline
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::set_Multiline method. Specifies whether this SDT allows multiple lines of text in C++.'
 type: docs
-weight: 107000
+weight: 106000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_multiline/
 ---
 ## StructuredDocumentTag::set_Multiline method

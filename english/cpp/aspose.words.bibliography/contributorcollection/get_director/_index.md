@@ -4,7 +4,7 @@ linktitle: get_Director
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Director method. Gets or sets the director of a source in C++.'
 type: docs
-weight: 19504
+weight: 9000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_director/
 ---
 ## ContributorCollection::get_Director method

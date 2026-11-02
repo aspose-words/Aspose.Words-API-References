@@ -4,7 +4,7 @@ linktitle: get_Start
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldUnknown::get_Start method. Gets the node that represents the start of the field in C++.'
 type: docs
-weight: 10000
+weight: 4000
 url: /cpp/aspose.words.fields/fieldunknown/get_start/
 ---
 ## FieldUnknown::get_Start method

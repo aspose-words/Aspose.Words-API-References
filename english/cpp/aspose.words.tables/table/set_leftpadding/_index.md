@@ -4,7 +4,7 @@ linktitle: set_LeftPadding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_LeftPadding method. Sets the amount of space (in points) to add to the left of the contents of cells in C++.'
 type: docs
-weight: 121000
+weight: 120000
 url: /cpp/aspose.words.tables/table/set_leftpadding/
 ---
 ## Table::set_LeftPadding method

@@ -4,7 +4,7 @@ linktitle: get_Radius
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GlowFormat::get_Radius method. Gets or sets a double value that represents the length of the radius for a glow effect in points (pt). The default value is 0.0 in C++.'
 type: docs
-weight: 7600
+weight: 7500
 url: /cpp/aspose.words.drawing/glowformat/get_radius/
 ---
 ## GlowFormat::get_Radius method

@@ -21,7 +21,7 @@ void Aspose::Words::Drawing::Shape::set_StrokeColor(System::Drawing::Color value
 
 This is a shortcut to the [Color](../../stroke/get_color/) property.
 
-The default value is **Black**. 
+The default value is Black. 
 ## Examples
 
 

@@ -4,7 +4,7 @@ linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_Id method. Specifies a unique read-only persistent numerical Id for this SDT in C++.'
 type: docs
-weight: 17556
+weight: 17545
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_id/
 ---
 ## IStructuredDocumentTag::get_Id method

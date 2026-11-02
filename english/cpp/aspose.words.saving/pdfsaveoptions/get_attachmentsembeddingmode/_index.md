@@ -4,7 +4,7 @@ linktitle: get_AttachmentsEmbeddingMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_AttachmentsEmbeddingMode method. Gets or sets a value determining how attachments are embedded to the PDF document in C++.'
 type: docs
-weight: 36100
+weight: 4500
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_attachmentsembeddingmode/
 ---
 ## PdfSaveOptions::get_AttachmentsEmbeddingMode method

@@ -4,7 +4,7 @@ linktitle: get_ImageContrast
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_ImageContrast method. Gets or sets the contrast for the generated images in C++.'
 type: docs
-weight: 21144
+weight: 7000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_imagecontrast/
 ---
 ## ImageSaveOptions::get_ImageContrast method

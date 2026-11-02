@@ -4,7 +4,7 @@ linktitle: get_YValues
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_YValues method. Gets a collection of Y values for this chart series in C++.'
 type: docs
-weight: 14971
+weight: 14969
 url: /cpp/aspose.words.drawing.charts/chartseries/get_yvalues/
 ---
 ## ChartSeries::get_YValues method

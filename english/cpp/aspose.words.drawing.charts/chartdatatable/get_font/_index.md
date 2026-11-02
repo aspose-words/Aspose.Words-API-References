@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataTable::get_Font method. Provides access to font formatting of the data table in C++.'
 type: docs
-weight: 10223
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartdatatable/get_font/
 ---
 ## ChartDataTable::get_Font method

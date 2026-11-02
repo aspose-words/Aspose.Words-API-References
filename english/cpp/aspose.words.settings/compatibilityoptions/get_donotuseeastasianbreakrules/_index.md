@@ -4,7 +4,7 @@ linktitle: get_DoNotUseEastAsianBreakRules
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_DoNotUseEastAsianBreakRules method. Do Not Compress Compressible Characters When Using Document Grid in C++.'
 type: docs
-weight: 75294
+weight: 75280
 url: /cpp/aspose.words.settings/compatibilityoptions/get_donotuseeastasianbreakrules/
 ---
 ## CompatibilityOptions::get_DoNotUseEastAsianBreakRules method

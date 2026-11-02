@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_Type method. Gets the style type (paragraph or character) in C++.'
 type: docs
-weight: 22914
+weight: 22910
 url: /cpp/aspose.words/style/get_type/
 ---
 ## Style::get_Type method

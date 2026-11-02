@@ -4,7 +4,7 @@ linktitle: get_UseLastFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDate::get_UseLastFormat method. Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field in C++.'
 type: docs
-weight: 7334
+weight: 2000
 url: /cpp/aspose.words.fields/fielddate/get_uselastformat/
 ---
 ## FieldDate::get_UseLastFormat method

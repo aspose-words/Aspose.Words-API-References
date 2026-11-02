@@ -4,7 +4,7 @@ linktitle: get_FirstSliceAngle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_FirstSliceAngle method. Gets or sets the angle, in degrees, of the first slice of the parent pie chart in C++.'
 type: docs
-weight: 14539
+weight: 7000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_firstsliceangle/
 ---
 ## ChartSeriesGroup::get_FirstSliceAngle method

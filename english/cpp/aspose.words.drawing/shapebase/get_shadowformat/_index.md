@@ -4,7 +4,7 @@ linktitle: get_ShadowFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_ShadowFormat method. Gets shadow formatting for the shape in C++.'
 type: docs
-weight: 61795
+weight: 61790
 url: /cpp/aspose.words.drawing/shapebase/get_shadowformat/
 ---
 ## ShapeBase::get_ShadowFormat method

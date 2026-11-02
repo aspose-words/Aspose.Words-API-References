@@ -4,7 +4,7 @@ linktitle: get_SplitOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::SplitterContext::get_SplitOptions method. Document split options in C++.'
 type: docs
-weight: 8000
+weight: 3000
 url: /cpp/aspose.words.lowcode/splittercontext/get_splitoptions/
 ---
 ## SplitterContext::get_SplitOptions method

@@ -4,7 +4,7 @@ linktitle: get_Ancestor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::get_Ancestor method. Returns the parent Comment object. Returns null for top-level comments in C++.'
 type: docs
-weight: 24000
+weight: 23000
 url: /cpp/aspose.words/comment/get_ancestor/
 ---
 ## Comment::get_Ancestor method

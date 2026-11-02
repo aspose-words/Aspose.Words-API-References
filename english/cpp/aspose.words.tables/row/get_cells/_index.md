@@ -4,7 +4,7 @@ linktitle: get_Cells
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Row::get_Cells method. Provides typed access to the Cell child nodes of the row in C++.'
 type: docs
-weight: 15216
+weight: 13462
 url: /cpp/aspose.words.tables/row/get_cells/
 ---
 ## Row::get_Cells method

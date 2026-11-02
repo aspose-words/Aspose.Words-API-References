@@ -4,7 +4,7 @@ linktitle: get_Value
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Adjustment::get_Value method. Gets or sets the raw value of the adjustment in C++.'
 type: docs
-weight: 5750
+weight: 3000
 url: /cpp/aspose.words.drawing/adjustment/get_value/
 ---
 ## Adjustment::get_Value method

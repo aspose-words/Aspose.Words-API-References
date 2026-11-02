@@ -4,7 +4,7 @@ linktitle: get_RequestedBold
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_RequestedBold method. Indicates whether bold style was requested in C++.'
 type: docs
-weight: 11000
+weight: 3000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requestedbold/
 ---
 ## FontSubstitutionWarningInfo::get_RequestedBold method

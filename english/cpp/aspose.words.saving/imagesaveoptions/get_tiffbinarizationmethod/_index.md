@@ -4,7 +4,7 @@ linktitle: get_TiffBinarizationMethod
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_TiffBinarizationMethod method. Gets or sets method used while converting images to 1 bpp format when SaveFormat is Tiff and TiffCompression is equal to Ccitt3 or Ccitt4 in C++.'
 type: docs
-weight: 21408
+weight: 16000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_tiffbinarizationmethod/
 ---
 ## ImageSaveOptions::get_TiffBinarizationMethod method

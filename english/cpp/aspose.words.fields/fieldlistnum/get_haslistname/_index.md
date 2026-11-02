@@ -4,7 +4,7 @@ linktitle: get_HasListName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldListNum::get_HasListName method. Returns a value indicating whether the name of an abstract numbering definition is provided by the field''s code in C++.'
 type: docs
-weight: 7668
+weight: 7600
 url: /cpp/aspose.words.fields/fieldlistnum/get_haslistname/
 ---
 ## FieldListNum::get_HasListName method

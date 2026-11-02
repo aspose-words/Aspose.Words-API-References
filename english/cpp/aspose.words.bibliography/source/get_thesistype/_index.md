@@ -4,7 +4,7 @@ linktitle: get_ThesisType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_ThesisType method. Gets or sets the thesis type of a source in C++.'
 type: docs
-weight: 57864
+weight: 48000
 url: /cpp/aspose.words.bibliography/source/get_thesistype/
 ---
 ## Source::get_ThesisType method

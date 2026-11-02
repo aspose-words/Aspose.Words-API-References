@@ -4,7 +4,7 @@ linktitle: get_RequestedFamilyName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_RequestedFamilyName method. Requested font family name in C++.'
 type: docs
-weight: 12000
+weight: 4000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requestedfamilyname/
 ---
 ## FontSubstitutionWarningInfo::get_RequestedFamilyName method

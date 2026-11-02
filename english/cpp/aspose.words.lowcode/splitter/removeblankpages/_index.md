@@ -4,7 +4,7 @@ linktitle: RemoveBlankPages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Splitter::RemoveBlankPages method. Removes blank pages from a document provided in an input stream and saves the updated document to an output stream in the specified save format. Returns a list of page numbers that were removed in C++.'
 type: docs
-weight: 7000
+weight: 2000
 url: /cpp/aspose.words.lowcode/splitter/removeblankpages/
 ---
 ## Splitter::RemoveBlankPages(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) method

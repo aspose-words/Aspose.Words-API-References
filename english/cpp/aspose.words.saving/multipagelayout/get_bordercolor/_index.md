@@ -4,13 +4,13 @@ linktitle: get_BorderColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MultiPageLayout::get_BorderColor method. Gets or sets the color of the pages border. The default is Empty in C++.'
 type: docs
-weight: 11750
+weight: 8000
 url: /cpp/aspose.words.saving/multipagelayout/get_bordercolor/
 ---
 ## MultiPageLayout::get_BorderColor method
 
 
-Gets or sets the color of the pages border. The default is **Empty**.
+Gets or sets the color of the pages border. The default is Empty.
 
 ```cpp
 System::Drawing::Color Aspose::Words::Saving::MultiPageLayout::get_BorderColor()

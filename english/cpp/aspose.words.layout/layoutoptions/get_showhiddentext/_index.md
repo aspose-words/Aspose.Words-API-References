@@ -4,7 +4,7 @@ linktitle: get_ShowHiddenText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText method. Gets or sets indication of whether hidden text in the document is rendered. Default is false in C++.'
 type: docs
-weight: 12751
+weight: 8000
 url: /cpp/aspose.words.layout/layoutoptions/get_showhiddentext/
 ---
 ## LayoutOptions::get_ShowHiddenText method

@@ -4,7 +4,7 @@ linktitle: get_EmulateRenderingToSizeOnPageResolution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPageResolution method. Gets or sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page in C++.'
 type: docs
-weight: 10600
+weight: 4667
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emulaterenderingtosizeonpageresolution/
 ---
 ## MetafileRenderingOptions::get_EmulateRenderingToSizeOnPageResolution method

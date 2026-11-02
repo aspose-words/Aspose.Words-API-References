@@ -4,7 +4,7 @@ linktitle: get_GradientStops
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_GradientStops method. Gets a collection of GradientStop objects for the fill in C++.'
 type: docs
-weight: 56000
+weight: 55000
 url: /cpp/aspose.words.drawing/fill/get_gradientstops/
 ---
 ## Fill::get_GradientStops method

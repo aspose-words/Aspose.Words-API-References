@@ -4,7 +4,7 @@ linktitle: get_FormatCode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartXValueCollection::get_FormatCode method. Gets or sets the format code applied to the X values in C++.'
 type: docs
-weight: 7501
+weight: 4334
 url: /cpp/aspose.words.drawing.charts/chartxvaluecollection/get_formatcode/
 ---
 ## ChartXValueCollection::get_FormatCode method

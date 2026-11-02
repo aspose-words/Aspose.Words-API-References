@@ -4,7 +4,7 @@ linktitle: get_RevisedPropertiesEffect
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesEffect method. Allows to specify the effect for content areas with changes of formatting properties FormatChange Default value is None in C++.'
 type: docs
-weight: 22656
+weight: 13000
 url: /cpp/aspose.words.layout/revisionoptions/get_revisedpropertieseffect/
 ---
 ## RevisionOptions::get_RevisedPropertiesEffect method
@@ -66,7 +66,7 @@ doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - [Hidden](../../revisiontexteffect/) is not allowed.
+* ArgumentOutOfRangeException - [Hidden](../../revisiontexteffect/) is not allowed.
 
 ## See Also
 

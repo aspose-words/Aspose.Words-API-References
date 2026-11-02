@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fielddatabasedatatable/
 ## FieldDatabaseDataTable class
 
 
-Provides data for the [FieldDatabase](../fielddatabase/) field result. Please see **DataTable** instance. 
+Provides data for the [FieldDatabase](../fielddatabase/) field result. Please see DataTable instance. 
 To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
@@ -21,7 +21,7 @@ class FieldDatabaseDataTable : public System::Object
 
 | Method | Description |
 | --- | --- |
-| static [CreateFrom](./createfrom/)(const System::SharedPtr\<System::Data::DataTable\> \&) | Initializes a new instance of the [FieldDatabaseDataTable](./) class from the **DataTable** instance. |
+| static [CreateFrom](./createfrom/)(const System::SharedPtr\<System::Data::DataTable\> \&) | Initializes a new instance of the [FieldDatabaseDataTable](./) class from the DataTable instance. |
 | [FieldDatabaseDataTable](./fielddatabasedatatable/)(const System::ArrayPtr\<System::String\> \&) | Initializes a new instance of the [FieldDatabaseDataTable](./) class. |
 | [get_ColumnNames](./get_columnnames/)() const | Gets columns that belong to this table. |
 | [get_Rows](./get_rows/)() const | Gets rows that belong to this table. |

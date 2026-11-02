@@ -4,7 +4,7 @@ linktitle: get_MailMergeCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::MailMerging::MailMerge::get_MailMergeCallback method. Allows to handle particular events during mail merge in C++.'
 type: docs
-weight: 26280
+weight: 24708
 url: /cpp/aspose.words.mailmerging/mailmerge/get_mailmergecallback/
 ---
 ## MailMerge::get_MailMergeCallback method

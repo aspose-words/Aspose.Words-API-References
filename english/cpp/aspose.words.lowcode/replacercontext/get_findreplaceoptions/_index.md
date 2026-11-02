@@ -4,7 +4,7 @@ linktitle: get_FindReplaceOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::ReplacerContext::get_FindReplaceOptions method. Find/replace options in C++.'
 type: docs
-weight: 8000
+weight: 7000
 url: /cpp/aspose.words.lowcode/replacercontext/get_findreplaceoptions/
 ---
 ## ReplacerContext::get_FindReplaceOptions method

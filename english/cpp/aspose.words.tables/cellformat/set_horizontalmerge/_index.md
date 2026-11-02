@@ -4,7 +4,7 @@ linktitle: set_HorizontalMerge
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::set_HorizontalMerge method. Specifies how the cell is merged horizontally with other cells in the row in C++.'
 type: docs
-weight: 51000
+weight: 50000
 url: /cpp/aspose.words.tables/cellformat/set_horizontalmerge/
 ---
 ## CellFormat::set_HorizontalMerge method

@@ -22,12 +22,12 @@ class TextWatermarkOptions : public System::Object
 | Method | Description |
 | --- | --- |
 | [TextWatermarkOptions](./textwatermarkoptions/)() |  |
-| [get_Color](./get_color/)() const | Gets or sets font color. The default value is **Silver**. |
+| [get_Color](./get_color/)() const | Gets or sets font color. The default value is Silver. |
 | [get_FontFamily](./get_fontfamily/)() const | Gets or sets font family name. The default value is "Calibri". |
 | [get_FontSize](./get_fontsize/)() const | Gets or sets a font size. The default value is 0 - auto. |
 | [get_IsSemitrasparent](./get_issemitrasparent/)() const | Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is **true**. |
 | [get_Layout](./get_layout/)() const | Gets or sets layout of the watermark. The default value is [Diagonal](../watermarklayout/). |
-| [set_Color](./set_color/)(System::Drawing::Color) | Sets font color. The default value is **Silver**. |
+| [set_Color](./set_color/)(System::Drawing::Color) | Sets font color. The default value is Silver. |
 | [set_FontFamily](./set_fontfamily/)(const System::String \&) | Sets font family name. The default value is "Calibri". |
 | [set_FontSize](./set_fontsize/)(float) | Sets a font size. The default value is 0 - auto. |
 | [set_IsSemitrasparent](./set_issemitrasparent/)(bool) | Sets a boolean value which is responsible for opacity of the watermark. The default value is **true**. |

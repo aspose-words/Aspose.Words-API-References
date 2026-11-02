@@ -4,7 +4,7 @@ linktitle: get_MergeWholeDocument
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::MailMergeOptions::get_MergeWholeDocument method. Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions in C++.'
 type: docs
-weight: 17378
+weight: 6000
 url: /cpp/aspose.words.lowcode/mailmergeoptions/get_mergewholedocument/
 ---
 ## MailMergeOptions::get_MergeWholeDocument method

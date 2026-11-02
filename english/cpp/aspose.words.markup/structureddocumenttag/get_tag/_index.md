@@ -4,7 +4,7 @@ linktitle: get_Tag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Tag method. Specifies a tag associated with the current SDT node. Can not be null in C++.'
 type: docs
-weight: 88000
+weight: 87000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_tag/
 ---
 ## StructuredDocumentTag::get_Tag method

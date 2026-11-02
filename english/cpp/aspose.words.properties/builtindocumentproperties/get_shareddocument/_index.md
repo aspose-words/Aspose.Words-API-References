@@ -4,7 +4,7 @@ linktitle: get_SharedDocument
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_SharedDocument method. Indicates whether the document is a shared document in C++.'
 type: docs
-weight: 36740
+weight: 25500
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_shareddocument/
 ---
 ## BuiltInDocumentProperties::get_SharedDocument method

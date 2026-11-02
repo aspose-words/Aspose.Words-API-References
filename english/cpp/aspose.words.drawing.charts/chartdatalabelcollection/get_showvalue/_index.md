@@ -4,7 +4,7 @@ linktitle: get_ShowValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowValue method. Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is false in C++.'
 type: docs
-weight: 18300
+weight: 16883
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showvalue/
 ---
 ## ChartDataLabelCollection::get_ShowValue method

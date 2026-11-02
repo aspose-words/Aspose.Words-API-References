@@ -4,7 +4,7 @@ linktitle: get_WindowsVersion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_WindowsVersion method. Gets or sets the Windows version for the digital signature. Default value is "6.1" in C++.'
 type: docs
-weight: 10296
+weight: 8334
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_windowsversion/
 ---
 ## SignOptions::get_WindowsVersion method

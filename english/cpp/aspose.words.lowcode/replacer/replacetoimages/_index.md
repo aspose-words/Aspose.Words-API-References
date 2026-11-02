@@ -4,7 +4,7 @@ linktitle: ReplaceToImages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Replacer::ReplaceToImages method. Replaces all occurrences of a specified regular expression pattern with a replacement string in the input file. Renders output to images in C++.'
 type: docs
-weight: 7000
+weight: 2000
 url: /cpp/aspose.words.lowcode/replacer/replacetoimages/
 ---
 ## Replacer::ReplaceToImages(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&) method

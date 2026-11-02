@@ -4,7 +4,7 @@ linktitle: LayoutEnumerator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutEnumerator::LayoutEnumerator constructor. Initializes new instance of this class in C++.'
 type: docs
-weight: 15500
+weight: 2000
 url: /cpp/aspose.words.layout/layoutenumerator/layoutenumerator/
 ---
 ## LayoutEnumerator::LayoutEnumerator constructor

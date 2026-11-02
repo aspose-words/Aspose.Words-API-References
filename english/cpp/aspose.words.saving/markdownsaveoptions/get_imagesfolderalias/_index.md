@@ -4,7 +4,7 @@ linktitle: get_ImagesFolderAlias
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ImagesFolderAlias method. Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string in C++.'
 type: docs
-weight: 10150
+weight: 5500
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_imagesfolderalias/
 ---
 ## MarkdownSaveOptions::get_ImagesFolderAlias method

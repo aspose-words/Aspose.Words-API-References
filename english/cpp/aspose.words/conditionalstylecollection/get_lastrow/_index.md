@@ -4,7 +4,7 @@ linktitle: get_LastRow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyleCollection::get_LastRow method. Gets the last row style in C++.'
 type: docs
-weight: 29000
+weight: 17287
 url: /cpp/aspose.words/conditionalstylecollection/get_lastrow/
 ---
 ## ConditionalStyleCollection::get_LastRow method

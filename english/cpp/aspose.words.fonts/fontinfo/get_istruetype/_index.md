@@ -4,7 +4,7 @@ linktitle: get_IsTrueType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontInfo::get_IsTrueType method. Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true in C++.'
 type: docs
-weight: 12600
+weight: 11668
 url: /cpp/aspose.words.fonts/fontinfo/get_istruetype/
 ---
 ## FontInfo::get_IsTrueType method

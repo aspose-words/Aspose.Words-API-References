@@ -4,7 +4,7 @@ linktitle: get_Version
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::PhysicalFontInfo::get_Version method. Version string of the font in C++.'
 type: docs
-weight: 13000
+weight: 5000
 url: /cpp/aspose.words.fonts/physicalfontinfo/get_version/
 ---
 ## PhysicalFontInfo::get_Version method

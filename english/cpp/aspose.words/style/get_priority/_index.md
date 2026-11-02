@@ -4,7 +4,7 @@ linktitle: get_Priority
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_Priority method. Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane in C++.'
 type: docs
-weight: 22742
+weight: 22730
 url: /cpp/aspose.words/style/get_priority/
 ---
 ## Style::get_Priority method

@@ -4,7 +4,7 @@ linktitle: get_CoordSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_CoordSize method. The width and height of the coordinate space inside the containing block of this shape in C++.'
 type: docs
-weight: 61195
+weight: 61190
 url: /cpp/aspose.words.drawing/shapebase/get_coordsize/
 ---
 ## ShapeBase::get_CoordSize method

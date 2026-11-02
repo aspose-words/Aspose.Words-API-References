@@ -29,6 +29,15 @@ class SdtListItemCollection : public System::Collections::Generic::IEnumerable<S
 | [get_SelectedValue](./get_selectedvalue/)() | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns a [SdtListItem](../sdtlistitem/) object given its zero-based index in the collection. |
 | [set_SelectedValue](./set_selectedvalue/)(const System::SharedPtr\<Aspose::Words::Markup::SdtListItem\> \&) | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Examples
 
 

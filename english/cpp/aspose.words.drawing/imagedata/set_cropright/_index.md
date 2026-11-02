@@ -4,7 +4,7 @@ linktitle: set_CropRight
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_CropRight method. Defines the fraction of picture removal from the right side in C++.'
 type: docs
-weight: 64000
+weight: 63000
 url: /cpp/aspose.words.drawing/imagedata/set_cropright/
 ---
 ## ImageData::set_CropRight method

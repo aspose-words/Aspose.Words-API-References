@@ -4,7 +4,7 @@ linktitle: get_ParentNode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_ParentNode method. Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than StyleDefinitionChange in C++.'
 type: docs
-weight: 11625
+weight: 11572
 url: /cpp/aspose.words/revision/get_parentnode/
 ---
 ## Revision::get_ParentNode method

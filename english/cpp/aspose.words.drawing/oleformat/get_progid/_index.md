@@ -4,7 +4,7 @@ linktitle: get_ProgId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_ProgId method. Gets or sets the ProgID of the OLE object in C++.'
 type: docs
-weight: 19670
+weight: 19645
 url: /cpp/aspose.words.drawing/oleformat/get_progid/
 ---
 ## OleFormat::get_ProgId method

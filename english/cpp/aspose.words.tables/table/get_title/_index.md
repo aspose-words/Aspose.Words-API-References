@@ -4,7 +4,7 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_Title method. Gets or sets title of this table. It provides an alternative text representation of the information contained in the table in C++.'
 type: docs
-weight: 103000
+weight: 102000
 url: /cpp/aspose.words.tables/table/get_title/
 ---
 ## Table::get_Title method

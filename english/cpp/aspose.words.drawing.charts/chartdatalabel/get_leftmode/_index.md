@@ -4,7 +4,7 @@ linktitle: get_LeftMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_LeftMode method. Gets or sets the interpretation mode of the Left property value: whether it sets the location of the data label from the left edge of the chart of from the position specified by its Position property in C++.'
 type: docs
-weight: 18336
+weight: 6667
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_leftmode/
 ---
 ## ChartDataLabel::get_LeftMode method

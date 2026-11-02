@@ -4,7 +4,7 @@ linktitle: set_Spacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::set_Spacing method. When columns are evenly spaced, gets or sets the amount of space between each column in points in C++.'
 type: docs
-weight: 23000
+weight: 22000
 url: /cpp/aspose.words/textcolumncollection/set_spacing/
 ---
 ## TextColumnCollection::set_Spacing method

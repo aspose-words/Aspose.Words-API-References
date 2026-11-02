@@ -4,13 +4,13 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GlowFormat::get_Color method. Gets or sets a Color object that represents the color for a glow effect. The default value is Black in C++.'
 type: docs
-weight: 7400
+weight: 7250
 url: /cpp/aspose.words.drawing/glowformat/get_color/
 ---
 ## GlowFormat::get_Color method
 
 
-Gets or sets a **Color** object that represents the color for a glow effect. The default value is **Black**.
+Gets or sets a Color object that represents the color for a glow effect. The default value is Black.
 
 ```cpp
 System::Drawing::Color Aspose::Words::Drawing::GlowFormat::get_Color()

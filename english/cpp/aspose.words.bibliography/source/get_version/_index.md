@@ -4,7 +4,7 @@ linktitle: get_Version
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Version method. Gets or sets the version of a source in C++.'
 type: docs
-weight: 57932
+weight: 52000
 url: /cpp/aspose.words.bibliography/source/get_version/
 ---
 ## Source::get_Version method

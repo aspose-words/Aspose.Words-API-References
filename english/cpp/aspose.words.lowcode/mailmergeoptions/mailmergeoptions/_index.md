@@ -4,7 +4,7 @@ linktitle: MailMergeOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use MailMergeOptions constructor of Aspose::Words::LowCode::MailMergeOptions class in C++.'
 type: docs
-weight: 17063
+weight: 2000
 url: /cpp/aspose.words.lowcode/mailmergeoptions/mailmergeoptions/
 ---
 ## MailMergeOptions::MailMergeOptions constructor

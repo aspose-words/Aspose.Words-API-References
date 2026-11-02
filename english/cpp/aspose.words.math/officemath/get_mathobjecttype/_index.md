@@ -4,7 +4,7 @@ linktitle: get_MathObjectType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Math::OfficeMath::get_MathObjectType method. Gets type MathObjectType of this Office Math object in C++.'
 type: docs
-weight: 11572
+weight: 10500
 url: /cpp/aspose.words.math/officemath/get_mathobjecttype/
 ---
 ## OfficeMath::get_MathObjectType method

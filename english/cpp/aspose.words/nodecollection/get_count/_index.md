@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::NodeCollection::get_Count method. Gets the number of nodes in the collection in C++.'
 type: docs
-weight: 16000
+weight: 15000
 url: /cpp/aspose.words/nodecollection/get_count/
 ---
 ## NodeCollection::get_Count method

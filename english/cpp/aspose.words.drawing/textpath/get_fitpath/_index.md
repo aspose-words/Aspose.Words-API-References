@@ -4,7 +4,7 @@ linktitle: get_FitPath
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_FitPath method. Defines whether the text fits the path of a shape in C++.'
 type: docs
-weight: 23138
+weight: 3000
 url: /cpp/aspose.words.drawing/textpath/get_fitpath/
 ---
 ## TextPath::get_FitPath method

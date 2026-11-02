@@ -4,7 +4,7 @@ linktitle: get_EmbeddingUsagePermissions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_EmbeddingUsagePermissions method. Usage permissions in C++.'
 type: docs
-weight: 9000
+weight: 3000
 url: /cpp/aspose.words.fonts/fontembeddinglicensingrights/get_embeddingusagepermissions/
 ---
 ## FontEmbeddingLicensingRights::get_EmbeddingUsagePermissions method

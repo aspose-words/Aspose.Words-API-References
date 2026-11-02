@@ -4,7 +4,7 @@ linktitle: get_ParentParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_ParentParagraph method. Returns the immediate parent paragraph in C++.'
 type: docs
-weight: 61660
+weight: 61655
 url: /cpp/aspose.words.drawing/shapebase/get_parentparagraph/
 ---
 ## ShapeBase::get_ParentParagraph method

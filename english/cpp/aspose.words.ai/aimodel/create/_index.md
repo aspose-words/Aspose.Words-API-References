@@ -4,7 +4,7 @@ linktitle: Create
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::AiModel::Create method. Creates a new instance of AiModel class in C++.'
 type: docs
-weight: 2750
+weight: 3417
 url: /cpp/aspose.words.ai/aimodel/create/
 ---
 ## AiModel::Create method

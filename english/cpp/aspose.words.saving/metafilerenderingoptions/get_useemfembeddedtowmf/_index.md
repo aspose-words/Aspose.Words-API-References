@@ -4,7 +4,7 @@ linktitle: get_UseEmfEmbeddedToWmf
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_UseEmfEmbeddedToWmf method. Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered in C++.'
 type: docs
-weight: 10800
+weight: 7000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_useemfembeddedtowmf/
 ---
 ## MetafileRenderingOptions::get_UseEmfEmbeddedToWmf method

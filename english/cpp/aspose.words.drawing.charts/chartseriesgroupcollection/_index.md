@@ -25,6 +25,15 @@ class ChartSeriesGroupCollection : public System::Collections::Generic::IEnumera
 | [RemoveAt](./removeat/)(int32_t) | Removes a series group at the specified index. All child series will be removed from the chart. |
 | [get_Count](./get_count/)() | Returns the number of series groups in this collection. |
 | [idx_get](./idx_get/)(int32_t) | Returns a [ChartSeriesGroup](../chartseriesgroup/) at the specified index. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
  To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. 

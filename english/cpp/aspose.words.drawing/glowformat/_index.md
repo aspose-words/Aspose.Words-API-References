@@ -21,10 +21,10 @@ class GlowFormat : public System::Object
 | Method | Description |
 | --- | --- |
 | [Remove](./remove/)() | Removes [GlowFormat](./) from the parent object. |
-| [get_Color](./get_color/)() | Gets or sets a **Color** object that represents the color for a glow effect. The default value is **Black**. |
+| [get_Color](./get_color/)() | Gets or sets a Color object that represents the color for a glow effect. The default value is Black. |
 | [get_Radius](./get_radius/)() | Gets or sets a double value that represents the length of the radius for a glow effect in points (pt). The default value is 0.0. |
 | [get_Transparency](./get_transparency/)() | Gets or sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
-| [set_Color](./set_color/)(System::Drawing::Color) | Sets a **Color** object that represents the color for a glow effect. The default value is **Black**. |
+| [set_Color](./set_color/)(System::Drawing::Color) | Sets a Color object that represents the color for a glow effect. The default value is Black. |
 | [set_Radius](./set_radius/)(double) | Sets a double value that represents the length of the radius for a glow effect in points (pt). The default value is 0.0. |
 | [set_Transparency](./set_transparency/)(double) | Sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
 ## Remarks

@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontInfo::get_Name method. Gets the name of the font in C++.'
 type: docs
-weight: 12700
+weight: 12001
 url: /cpp/aspose.words.fonts/fontinfo/get_name/
 ---
 ## FontInfo::get_Name method

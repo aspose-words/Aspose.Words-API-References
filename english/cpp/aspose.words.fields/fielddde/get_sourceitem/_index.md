@@ -4,7 +4,7 @@ linktitle: get_SourceItem
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDde::get_SourceItem method. Gets the portion of the source file that''s being linked in C++.'
 type: docs
-weight: 14924
+weight: 12000
 url: /cpp/aspose.words.fields/fielddde/get_sourceitem/
 ---
 ## FieldDde::get_SourceItem method

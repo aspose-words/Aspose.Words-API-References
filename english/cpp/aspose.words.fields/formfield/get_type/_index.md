@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::get_Type method. Returns the form field type in C++.'
 type: docs
-weight: 70000
+weight: 69000
 url: /cpp/aspose.words.fields/formfield/get_type/
 ---
 ## FormField::get_Type method

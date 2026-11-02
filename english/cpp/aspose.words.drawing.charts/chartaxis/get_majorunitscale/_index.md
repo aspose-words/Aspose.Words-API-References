@@ -4,7 +4,7 @@ linktitle: get_MajorUnitScale
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitScale method. Returns or sets the scale value for major tick marks on the time category axis in C++.'
 type: docs
-weight: 31576
+weight: 15000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_majorunitscale/
 ---
 ## ChartAxis::get_MajorUnitScale method

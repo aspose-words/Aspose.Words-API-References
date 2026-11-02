@@ -4,7 +4,7 @@ linktitle: get_ColorDepth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_ColorDepth method. Gets or sets the color depth for the digital signature. Default value is 32 in C++.'
 type: docs
-weight: 10080
+weight: 2667
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_colordepth/
 ---
 ## SignOptions::get_ColorDepth method

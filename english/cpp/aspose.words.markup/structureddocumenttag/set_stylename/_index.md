@@ -4,7 +4,7 @@ linktitle: set_StyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::set_StyleName method. Sets the name of the style applied to the structured document tag in C++.'
 type: docs
-weight: 110000
+weight: 109000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_stylename/
 ---
 ## StructuredDocumentTag::set_StyleName method

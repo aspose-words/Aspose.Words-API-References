@@ -4,7 +4,7 @@ linktitle: get_FilterLanguageId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldBibliography::get_FilterLanguageId method. Gets or sets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language in C++.'
 type: docs
-weight: 4200
+weight: 1500
 url: /cpp/aspose.words.fields/fieldbibliography/get_filterlanguageid/
 ---
 ## FieldBibliography::get_FilterLanguageId method

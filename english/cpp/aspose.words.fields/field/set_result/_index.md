@@ -4,7 +4,7 @@ linktitle: set_Result
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::Field::set_Result method. Sets text that is between the field separator and field end in C++.'
 type: docs
-weight: 39000
+weight: 37000
 url: /cpp/aspose.words.fields/field/set_result/
 ---
 ## Field::set_Result method

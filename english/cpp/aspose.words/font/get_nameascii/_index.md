@@ -4,7 +4,7 @@ linktitle: get_NameAscii
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_NameAscii method. Returns or sets the font used for Latin text (characters with character codes from 0 (zero) through 127) in C++.'
 type: docs
-weight: 59450
+weight: 58864
 url: /cpp/aspose.words/font/get_nameascii/
 ---
 ## Font::get_NameAscii method

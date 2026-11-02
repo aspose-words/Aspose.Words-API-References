@@ -4,7 +4,7 @@ linktitle: get_Department
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Department method. Gets or sets the department of a source in C++.'
 type: docs
-weight: 57324
+weight: 18000
 url: /cpp/aspose.words.bibliography/source/get_department/
 ---
 ## Source::get_Department method

@@ -4,7 +4,7 @@ linktitle: get_LastSavedTime
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedTime method. Gets or sets the time of the last save in UTC in C++.'
 type: docs
-weight: 36480
+weight: 17000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_lastsavedtime/
 ---
 ## BuiltInDocumentProperties::get_LastSavedTime method

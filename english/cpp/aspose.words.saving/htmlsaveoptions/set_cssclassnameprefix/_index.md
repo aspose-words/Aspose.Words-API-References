@@ -48,7 +48,7 @@ ASSERT_TRUE(outDocContents.Contains(u".myprefix-Header { margin-bottom:0pt; line
 ```
 ## Exceptions
 
-* **ArgumentException** - The value is not empty and is not a valid CSS identifier.
+* ArgumentException - The value is not empty and is not a valid CSS identifier.
 
 ## See Also
 

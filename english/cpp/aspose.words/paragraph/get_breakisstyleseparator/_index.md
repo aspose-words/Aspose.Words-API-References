@@ -4,7 +4,7 @@ linktitle: get_BreakIsStyleSeparator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_BreakIsStyleSeparator method. True if this paragraph break is a Style Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles in C++.'
 type: docs
-weight: 34000
+weight: 33000
 url: /cpp/aspose.words/paragraph/get_breakisstyleseparator/
 ---
 ## Paragraph::get_BreakIsStyleSeparator method

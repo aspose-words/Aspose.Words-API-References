@@ -4,7 +4,7 @@ linktitle: get_LineBetween
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::get_LineBetween method. When true, adds a vertical line between columns in C++.'
 type: docs
-weight: 17000
+weight: 16000
 url: /cpp/aspose.words/textcolumncollection/get_linebetween/
 ---
 ## TextColumnCollection::get_LineBetween method

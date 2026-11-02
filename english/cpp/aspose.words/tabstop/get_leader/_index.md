@@ -4,7 +4,7 @@ linktitle: get_Leader
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TabStop::get_Leader method. Gets or sets the type of the leader line displayed under the tab character in C++.'
 type: docs
-weight: 10715
+weight: 10000
 url: /cpp/aspose.words/tabstop/get_leader/
 ---
 ## TabStop::get_Leader method

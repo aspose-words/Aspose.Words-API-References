@@ -4,7 +4,7 @@ linktitle: set_RelativeVerticalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_RelativeVerticalAlignment method. Sets floating table relative vertical alignment in C++.'
 type: docs
-weight: 124000
+weight: 123000
 url: /cpp/aspose.words.tables/table/set_relativeverticalalignment/
 ---
 ## Table::set_RelativeVerticalAlignment method

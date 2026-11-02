@@ -4,7 +4,7 @@ linktitle: get_Spacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_Spacing method. Gets or sets the interval at which the tick labels are drawn in C++.'
 type: docs
-weight: 11900
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_spacing/
 ---
 ## AxisTickLabels::get_Spacing method

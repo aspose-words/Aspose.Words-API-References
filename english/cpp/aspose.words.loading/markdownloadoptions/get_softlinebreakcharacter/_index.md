@@ -4,7 +4,7 @@ linktitle: get_SoftLineBreakCharacter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::MarkdownLoadOptions::get_SoftLineBreakCharacter method. Gets or sets a character value representing `soft line break`. The default value is SPACE (U+0020) in C++.'
 type: docs
-weight: 6834
+weight: 4500
 url: /cpp/aspose.words.loading/markdownloadoptions/get_softlinebreakcharacter/
 ---
 ## MarkdownLoadOptions::get_SoftLineBreakCharacter method

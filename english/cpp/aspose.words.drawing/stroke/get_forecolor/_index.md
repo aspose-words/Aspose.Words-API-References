@@ -4,7 +4,7 @@ linktitle: get_ForeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_ForeColor method. Gets or sets the foreground color of the stroke in C++.'
 type: docs
-weight: 23504
+weight: 10000
 url: /cpp/aspose.words.drawing/stroke/get_forecolor/
 ---
 ## Stroke::get_ForeColor method
@@ -18,7 +18,7 @@ System::Drawing::Color Aspose::Words::Drawing::Stroke::get_ForeColor()
 
 ## Remarks
 
- The default value for a [Shape](../../shape/) is **Black**. 
+ The default value for a [Shape](../../shape/) is Black. 
 ## Examples
 
 

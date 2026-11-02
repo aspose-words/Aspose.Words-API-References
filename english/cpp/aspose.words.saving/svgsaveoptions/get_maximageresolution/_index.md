@@ -4,7 +4,7 @@ linktitle: get_MaxImageResolution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SvgSaveOptions::get_MaxImageResolution method. Gets or sets a value in pixels per inch that limits resolution of exported raster images. Default value is zero in C++.'
 type: docs
-weight: 12432
+weight: 4500
 url: /cpp/aspose.words.saving/svgsaveoptions/get_maximageresolution/
 ---
 ## SvgSaveOptions::get_MaxImageResolution method

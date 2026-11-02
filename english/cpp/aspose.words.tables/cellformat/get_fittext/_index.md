@@ -4,7 +4,7 @@ linktitle: get_FitText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_FitText method. If true, fits text in the cell, compressing each paragraph to the width of the cell in C++.'
 type: docs
-weight: 35000
+weight: 34000
 url: /cpp/aspose.words.tables/cellformat/get_fittext/
 ---
 ## CellFormat::get_FitText method

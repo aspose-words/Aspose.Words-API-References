@@ -4,7 +4,7 @@ linktitle: get_InternalMarginBottom
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextBox::get_InternalMarginBottom method. Specifies the inner bottom margin in points for a shape in C++.'
 type: docs
-weight: 17216
+weight: 17154
 url: /cpp/aspose.words.drawing/textbox/get_internalmarginbottom/
 ---
 ## TextBox::get_InternalMarginBottom method

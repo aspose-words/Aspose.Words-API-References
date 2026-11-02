@@ -4,7 +4,7 @@ linktitle: get_TabPosition
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_TabPosition method. Returns or sets the tab position (in points) for the list level in C++.'
 type: docs
-weight: 22907
+weight: 22901
 url: /cpp/aspose.words.lists/listlevel/get_tabposition/
 ---
 ## ListLevel::get_TabPosition method

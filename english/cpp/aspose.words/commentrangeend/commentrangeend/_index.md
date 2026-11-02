@@ -4,7 +4,7 @@ linktitle: CommentRangeEnd
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CommentRangeEnd::CommentRangeEnd constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 4500
+weight: 3500
 url: /cpp/aspose.words/commentrangeend/commentrangeend/
 ---
 ## CommentRangeEnd::CommentRangeEnd constructor

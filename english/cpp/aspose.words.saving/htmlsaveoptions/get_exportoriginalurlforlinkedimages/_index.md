@@ -4,7 +4,7 @@ linktitle: get_ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages method. Specifies whether original URL should be used as the URL of the linked images. Default value is false in C++.'
 type: docs
-weight: 49420
+weight: 22000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages method

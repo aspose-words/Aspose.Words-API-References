@@ -4,7 +4,7 @@ linktitle: get_IsFormatRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_IsFormatRevision method. Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 41000
+weight: 40000
 url: /cpp/aspose.words/paragraph/get_isformatrevision/
 ---
 ## Paragraph::get_IsFormatRevision method

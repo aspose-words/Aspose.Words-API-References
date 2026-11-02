@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_Borders method. Gets collection of borders of the paragraph in C++.'
 type: docs
-weight: 44161
+weight: 7000
 url: /cpp/aspose.words/paragraphformat/get_borders/
 ---
 ## ParagraphFormat::get_Borders method

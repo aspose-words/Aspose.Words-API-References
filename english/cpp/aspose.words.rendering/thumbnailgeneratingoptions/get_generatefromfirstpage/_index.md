@@ -4,7 +4,7 @@ linktitle: get_GenerateFromFirstPage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_GenerateFromFirstPage method. Specifies whether to generate thumbnail from first page of the document or first image in C++.'
 type: docs
-weight: 6600
+weight: 3000
 url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/get_generatefromfirstpage/
 ---
 ## ThumbnailGeneratingOptions::get_GenerateFromFirstPage method

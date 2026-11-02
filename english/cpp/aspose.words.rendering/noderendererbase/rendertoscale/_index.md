@@ -10,7 +10,7 @@ url: /cpp/aspose.words.rendering/noderendererbase/rendertoscale/
 ## NodeRendererBase::RenderToScale method
 
 
-Renders the shape into a **Graphics** object to a specified scale.
+Renders the shape into a Graphics object to a specified scale.
 
 ```cpp
 System::Drawing::SizeF Aspose::Words::Rendering::NodeRendererBase::RenderToScale(const System::SharedPtr<System::Drawing::Graphics> & graphics, float x, float y, float scale)

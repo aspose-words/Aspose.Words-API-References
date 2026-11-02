@@ -34,7 +34,7 @@ doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.IdPrefix.html", saveOption
 ```
 ## Exceptions
 
-* **ArgumentException** - The value does not meet the requirements specified above.
+* ArgumentException - The value does not meet the requirements specified above.
 
 ## See Also
 

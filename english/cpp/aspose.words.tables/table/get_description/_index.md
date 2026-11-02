@@ -4,7 +4,7 @@ linktitle: get_Description
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_Description method. Gets or sets description of this table. It provides an alternative text representation of the information contained in the table in C++.'
 type: docs
-weight: 82000
+weight: 81000
 url: /cpp/aspose.words.tables/table/get_description/
 ---
 ## Table::get_Description method

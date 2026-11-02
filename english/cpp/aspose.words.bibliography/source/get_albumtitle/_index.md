@@ -4,7 +4,7 @@ linktitle: get_AlbumTitle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_AlbumTitle method. Gets or sets the album title of a source in C++.'
 type: docs
-weight: 57072
+weight: 4000
 url: /cpp/aspose.words.bibliography/source/get_albumtitle/
 ---
 ## Source::get_AlbumTitle method

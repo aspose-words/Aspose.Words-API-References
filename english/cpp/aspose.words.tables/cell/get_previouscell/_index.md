@@ -4,7 +4,7 @@ linktitle: get_PreviousCell
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Cell::get_PreviousCell method. Gets the previous Cell node in C++.'
 type: docs
-weight: 26000
+weight: 12500
 url: /cpp/aspose.words.tables/cell/get_previouscell/
 ---
 ## Cell::get_PreviousCell method

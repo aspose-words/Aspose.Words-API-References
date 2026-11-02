@@ -4,7 +4,7 @@ linktitle: get_BuildingBlockGallery
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_BuildingBlockGallery method. Specifies type of building block for this SDT. Can not be null in C++.'
 type: docs
-weight: 64000
+weight: 63000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_buildingblockgallery/
 ---
 ## StructuredDocumentTag::get_BuildingBlockGallery method

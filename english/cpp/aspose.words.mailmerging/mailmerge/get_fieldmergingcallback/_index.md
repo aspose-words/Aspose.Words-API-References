@@ -4,7 +4,7 @@ linktitle: get_FieldMergingCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::MailMerging::MailMerge::get_FieldMergingCallback method. Occurs during mail merge when a mail merge field is encountered in the document in C++.'
 type: docs
-weight: 26224
+weight: 24531
 url: /cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/
 ---
 ## MailMerge::get_FieldMergingCallback method

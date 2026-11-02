@@ -4,7 +4,7 @@ linktitle: get_Glow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Glow method. Gets glow formatting for the shape in C++.'
 type: docs
-weight: 61315
+weight: 61310
 url: /cpp/aspose.words.drawing/shapebase/get_glow/
 ---
 ## ShapeBase::get_Glow method

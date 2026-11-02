@@ -4,7 +4,7 @@ linktitle: get_SaveRoutingSlip
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip method. When false, RoutingSlip data is not saved to output document. Default value is true in C++.'
 type: docs
-weight: 9875
+weight: 7000
 url: /cpp/aspose.words.saving/docsaveoptions/get_saveroutingslip/
 ---
 ## DocSaveOptions::get_SaveRoutingSlip method

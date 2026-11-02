@@ -30,7 +30,7 @@ class LayoutOptions : public System::Object
 | [get_RevisionOptions](./get_revisionoptions/)() const | Gets revision options. |
 | [get_ShowHiddenText](./get_showhiddentext/)() const | Gets or sets indication of whether hidden text in the document is rendered. Default is **false**. |
 | [get_ShowParagraphMarks](./get_showparagraphmarks/)() const | Gets or sets indication of whether paragraph marks are rendered. Default is **false**. |
-| [get_TextShaperFactory](./get_textshaperfactory/)() const | Gets **ITextShaperFactory** implementation used for Advanced Typography rendering features. |
+| [get_TextShaperFactory](./get_textshaperfactory/)() const | Gets ITextShaperFactory implementation used for Advanced Typography rendering features. |
 | [set_Callback](./set_callback/)(const System::SharedPtr\<Aspose::Words::Layout::IPageLayoutCallback\> \&) | Sets [IPageLayoutCallback](../ipagelayoutcallback/) implementation used by page layout model. |
 | [set_CommentDisplayMode](./set_commentdisplaymode/)(Aspose::Words::Layout::CommentDisplayMode) | Sets the way comments are rendered. Default value is [ShowInBalloons](../commentdisplaymode/). |
 | [set_ContinuousSectionPageNumberingRestart](./set_continuoussectionpagenumberingrestart/)(Aspose::Words::Layout::ContinuousSectionRestart) | Sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
@@ -38,7 +38,7 @@ class LayoutOptions : public System::Object
 | [set_KeepOriginalFontMetrics](./set_keeporiginalfontmetrics/)(bool) | Sets an indication of whether the original font metrics should be used after font substitution. Default is **true**. |
 | [set_ShowHiddenText](./set_showhiddentext/)(bool) | Sets indication of whether hidden text in the document is rendered. Default is **false**. |
 | [set_ShowParagraphMarks](./set_showparagraphmarks/)(bool) | Sets indication of whether paragraph marks are rendered. Default is **false**. |
-| [set_TextShaperFactory](./set_textshaperfactory/)(const System::SharedPtr\<Aspose::Words::Shaping::ITextShaperFactory\> \&) | Sets **ITextShaperFactory** implementation used for Advanced Typography rendering features. |
+| [set_TextShaperFactory](./set_textshaperfactory/)(const System::SharedPtr\<Aspose::Words::Shaping::ITextShaperFactory\> \&) | Sets ITextShaperFactory implementation used for Advanced Typography rendering features. |
 ## Remarks
 
 

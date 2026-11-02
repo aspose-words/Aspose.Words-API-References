@@ -4,7 +4,7 @@ linktitle: get_Fill
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_Fill method. Gets fill formatting for the Stroke in C++.'
 type: docs
-weight: 23468
+weight: 9500
 url: /cpp/aspose.words.drawing/stroke/get_fill/
 ---
 ## Stroke::get_Fill method

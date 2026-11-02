@@ -4,7 +4,7 @@ linktitle: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::PdfDigitalSignatureTimestampSettings constructor. Initializes an instance of this class in C++.'
 type: docs
-weight: 8143
+weight: 2000
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings::PdfDigitalSignatureTimestampSettings() constructor

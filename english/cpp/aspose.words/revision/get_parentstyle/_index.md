@@ -4,7 +4,7 @@ linktitle: get_ParentStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_ParentStyle method. Gets the immediate parent style (owner) of this revision. This property will work for only for the StyleDefinitionChange revision type in C++.'
 type: docs
-weight: 11750
+weight: 11715
 url: /cpp/aspose.words/revision/get_parentstyle/
 ---
 ## Revision::get_ParentStyle method

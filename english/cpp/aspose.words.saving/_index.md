@@ -33,7 +33,7 @@ To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/sav
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/cpp/specify-save-options/) documentation article. |
 | [FontSavingArgs](./fontsavingargs/) | Provides data for the [FontSaving()](./ifontsavingcallback/fontsaving/) event. 
 To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article. |
-| [GraphicsQualityOptions](./graphicsqualityoptions/) | Allows to specify additional **Graphics** quality options. 
+| [GraphicsQualityOptions](./graphicsqualityoptions/) | Allows to specify additional Graphics quality options. 
 To learn more, visit the [Save a Document](https://docs.aspose.com/words/cpp/save-a-document/) documentation article. |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions/) | Can be used to specify additional options when saving a document into the [HtmlFixed](../aspose.words/saveformat/) format. 
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/cpp/specify-save-options/) documentation article. |

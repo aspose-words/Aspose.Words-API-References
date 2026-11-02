@@ -32,7 +32,7 @@ void Aspose::Words::LowCode::Processor::Execute(System::Threading::CancellationT
 
 ## Exceptions
 
-* **OperationCanceledException** - Thrown when a cancellation request is detected.
+* OperationCanceledException - Thrown when a cancellation request is detected.
 
 ## See Also
 

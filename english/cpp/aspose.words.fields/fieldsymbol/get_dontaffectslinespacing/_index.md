@@ -4,7 +4,7 @@ linktitle: get_DontAffectsLineSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSymbol::get_DontAffectsLineSpacing method. Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph in C++.'
 type: docs
-weight: 10334
+weight: 3000
 url: /cpp/aspose.words.fields/fieldsymbol/get_dontaffectslinespacing/
 ---
 ## FieldSymbol::get_DontAffectsLineSpacing method

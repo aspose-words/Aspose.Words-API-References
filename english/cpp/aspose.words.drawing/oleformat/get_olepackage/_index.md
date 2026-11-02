@@ -4,7 +4,7 @@ linktitle: get_OlePackage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_OlePackage method. Provide access to OlePackage if OLE object is an OLE Package. Returns null otherwise in C++.'
 type: docs
-weight: 19603
+weight: 19574
 url: /cpp/aspose.words.drawing/oleformat/get_olepackage/
 ---
 ## OleFormat::get_OlePackage method

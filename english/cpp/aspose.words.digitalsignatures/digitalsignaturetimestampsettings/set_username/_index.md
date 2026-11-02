@@ -4,7 +4,7 @@ linktitle: set_UserName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_UserName method. Sets a string value representing timestamp server user name. The default value is null in C++.'
 type: docs
-weight: 12000
+weight: 9000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/set_username/
 ---
 ## DigitalSignatureTimestampSettings::set_UserName method

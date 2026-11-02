@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ResourceSavingArgs::get_Document method. Gets the document object that is currently being saved in C++.'
 type: docs
-weight: 8286
+weight: 2000
 url: /cpp/aspose.words.saving/resourcesavingargs/get_document/
 ---
 ## ResourceSavingArgs::get_Document method

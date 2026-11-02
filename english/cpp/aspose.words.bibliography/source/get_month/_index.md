@@ -4,7 +4,7 @@ linktitle: get_Month
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Month method. Gets or sets the month of a source in C++.'
 type: docs
-weight: 57522
+weight: 29000
 url: /cpp/aspose.words.bibliography/source/get_month/
 ---
 ## Source::get_Month method

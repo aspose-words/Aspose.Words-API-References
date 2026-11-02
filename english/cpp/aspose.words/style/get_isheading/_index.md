@@ -4,7 +4,7 @@ linktitle: get_IsHeading
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_IsHeading method. True when the style is one of the built-in Heading styles in C++.'
 type: docs
-weight: 22352
+weight: 22322
 url: /cpp/aspose.words/style/get_isheading/
 ---
 ## Style::get_IsHeading method

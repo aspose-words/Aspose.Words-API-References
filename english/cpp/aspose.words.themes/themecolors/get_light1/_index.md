@@ -4,7 +4,7 @@ linktitle: get_Light1
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Themes::ThemeColors::get_Light1 method. Specifies color Light 1 in C++.'
 type: docs
-weight: 15858
+weight: 12000
 url: /cpp/aspose.words.themes/themecolors/get_light1/
 ---
 ## ThemeColors::get_Light1 method

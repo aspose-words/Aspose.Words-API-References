@@ -4,7 +4,7 @@ linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_Orientation method. Gets or sets the orientation of the tick label text in C++.'
 type: docs
-weight: 11600
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_orientation/
 ---
 ## AxisTickLabels::get_Orientation method

@@ -54,7 +54,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
+* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

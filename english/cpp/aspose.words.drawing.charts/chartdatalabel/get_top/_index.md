@@ -4,7 +4,7 @@ linktitle: get_Top
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Top method. Gets or sets the distance of the data label in points from the top edge of the chart or from the position specified by its Position property, depending on the value of the TopMode property in C++.'
 type: docs
-weight: 18918
+weight: 16334
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_top/
 ---
 ## ChartDataLabel::get_Top method

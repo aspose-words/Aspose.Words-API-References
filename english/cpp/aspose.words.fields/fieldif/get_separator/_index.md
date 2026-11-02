@@ -4,7 +4,7 @@ linktitle: get_Separator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIf::get_Separator method. Gets the node that represents the field separator. Can be null in C++.'
 type: docs
-weight: 12700
+weight: 8000
 url: /cpp/aspose.words.fields/fieldif/get_separator/
 ---
 ## FieldIf::get_Separator method

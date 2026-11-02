@@ -4,7 +4,7 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartXValueCollection::idx_set method. Gets or sets the X value at the specified index in C++.'
 type: docs
-weight: 7834
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/chartxvaluecollection/idx_set/
 ---
 ## ChartXValueCollection::idx_set method

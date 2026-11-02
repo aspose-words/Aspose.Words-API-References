@@ -4,7 +4,7 @@ linktitle: get_Url
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Url method. Gets or sets the url of a source in C++.'
 type: docs
-weight: 57915
+weight: 51000
 url: /cpp/aspose.words.bibliography/source/get_url/
 ---
 ## Source::get_Url method

@@ -4,7 +4,7 @@ linktitle: get_SummaryLength
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::AI::SummarizeOptions::get_SummaryLength method. Allows to specify summary length. Default value is Medium in C++.'
 type: docs
-weight: 5750
+weight: 3000
 url: /cpp/aspose.words.ai/summarizeoptions/get_summarylength/
 ---
 ## SummarizeOptions::get_SummaryLength method

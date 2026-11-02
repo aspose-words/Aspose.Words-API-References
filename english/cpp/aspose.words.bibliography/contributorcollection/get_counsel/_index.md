@@ -4,7 +4,7 @@ linktitle: get_Counsel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Counsel method. Gets or sets the counsel of a source in C++.'
 type: docs
-weight: 19448
+weight: 8000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_counsel/
 ---
 ## ContributorCollection::get_Counsel method

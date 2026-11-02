@@ -74,7 +74,7 @@ ASSERT_EQ(SaveFormat::Mhtml, FileFormatUtil::ContentTypeToSaveFormat(u"multipart
 ```
 ## Exceptions
 
-* **ArgumentException** - Throws when cannot convert.
+* ArgumentException - Throws when cannot convert.
 
 ## See Also
 

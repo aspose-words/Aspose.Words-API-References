@@ -4,7 +4,7 @@ linktitle: set_BottomPadding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_BottomPadding method. Sets the amount of space (in points) to add below the contents of cells in C++.'
 type: docs
-weight: 112000
+weight: 111000
 url: /cpp/aspose.words.tables/table/set_bottompadding/
 ---
 ## Table::set_BottomPadding method

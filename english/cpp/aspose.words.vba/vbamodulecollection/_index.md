@@ -26,6 +26,15 @@ class VbaModuleCollection : public System::Collections::Generic::IEnumerable<Sys
 | [get_Count](./get_count/)() | Returns the number of VBA modules in the collection. |
 | [idx_get](./idx_get/)(const System::String \&) | Retrieves a [VbaModule](../vbamodule/) object by name, or Null if not found. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a [VbaModule](../vbamodule/) object by index. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Examples
 
 

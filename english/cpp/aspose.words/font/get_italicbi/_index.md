@@ -4,7 +4,7 @@ linktitle: get_ItalicBi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_ItalicBi method. True if the right-to-left text is formatted as italic in C++.'
 type: docs
-weight: 59324
+weight: 58612
 url: /cpp/aspose.words/font/get_italicbi/
 ---
 ## Font::get_ItalicBi method

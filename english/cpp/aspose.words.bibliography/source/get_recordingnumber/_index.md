@@ -4,7 +4,7 @@ linktitle: get_RecordingNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_RecordingNumber method. Gets or sets the recording number of a source in C++.'
 type: docs
-weight: 57684
+weight: 38000
 url: /cpp/aspose.words.bibliography/source/get_recordingnumber/
 ---
 ## Source::get_RecordingNumber method

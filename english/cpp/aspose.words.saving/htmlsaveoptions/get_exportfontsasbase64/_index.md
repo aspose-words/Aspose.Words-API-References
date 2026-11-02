@@ -4,7 +4,7 @@ linktitle: get_ExportFontsAsBase64
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportFontsAsBase64 method. Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is false in C++.'
 type: docs
-weight: 49315
+weight: 17000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportfontsasbase64/
 ---
 ## HtmlSaveOptions::get_ExportFontsAsBase64 method

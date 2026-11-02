@@ -4,7 +4,7 @@ linktitle: get_BookmarkName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_BookmarkName method. Gets or sets the name of the bookmark that marks the portion of the document used to build the index in C++.'
 type: docs
-weight: 19112
+weight: 2000
 url: /cpp/aspose.words.fields/fieldindex/get_bookmarkname/
 ---
 ## FieldIndex::get_BookmarkName method

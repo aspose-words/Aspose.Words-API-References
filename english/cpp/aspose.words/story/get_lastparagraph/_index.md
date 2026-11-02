@@ -4,7 +4,7 @@ linktitle: get_LastParagraph
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Story::get_LastParagraph method. Gets the last paragraph in the story in C++.'
 type: docs
-weight: 13000
+weight: 5000
 url: /cpp/aspose.words/story/get_lastparagraph/
 ---
 ## Story::get_LastParagraph method

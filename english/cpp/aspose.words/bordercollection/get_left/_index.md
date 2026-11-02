@@ -4,7 +4,7 @@ linktitle: get_Left
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BorderCollection::get_Left method. Gets the left border in C++.'
 type: docs
-weight: 19469
+weight: 16924
 url: /cpp/aspose.words/bordercollection/get_left/
 ---
 ## BorderCollection::get_Left method

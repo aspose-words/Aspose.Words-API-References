@@ -4,7 +4,7 @@ linktitle: get_ReplaceBackslashWithYenSign
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ReplaceBackslashWithYenSign method. Specifies whether backslash characters should be replaced with yen signs. Default value is false in C++.'
 type: docs
-weight: 49860
+weight: 41500
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_replacebackslashwithyensign/
 ---
 ## HtmlSaveOptions::get_ReplaceBackslashWithYenSign method

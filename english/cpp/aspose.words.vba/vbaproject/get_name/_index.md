@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaProject::get_Name method. Gets or sets VBA project name in C++.'
 type: docs
-weight: 10390
+weight: 7000
 url: /cpp/aspose.words.vba/vbaproject/get_name/
 ---
 ## VbaProject::get_Name method

@@ -4,7 +4,7 @@ linktitle: get_ParentRow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Cell::get_ParentRow method. Returns the parent row of the cell in C++.'
 type: docs
-weight: 25000
+weight: 12000
 url: /cpp/aspose.words.tables/cell/get_parentrow/
 ---
 ## Cell::get_ParentRow method

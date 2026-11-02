@@ -4,7 +4,7 @@ linktitle: get_CharactersWithSpaces
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_CharactersWithSpaces method. Represents an estimate of the number of characters (including spaces) in the document in C++.'
 type: docs
-weight: 36162
+weight: 6000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_characterswithspaces/
 ---
 ## BuiltInDocumentProperties::get_CharactersWithSpaces method

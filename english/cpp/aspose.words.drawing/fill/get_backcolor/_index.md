@@ -4,7 +4,7 @@ linktitle: get_BackColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_BackColor method. Gets or sets a Color object that represents the background color for the fill in C++.'
 type: docs
-weight: 46000
+weight: 45000
 url: /cpp/aspose.words.drawing/fill/get_backcolor/
 ---
 ## Fill::get_BackColor method

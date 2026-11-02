@@ -4,7 +4,7 @@ linktitle: get_CaseNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_CaseNumber method. Gets or sets the case number of a source in C++.'
 type: docs
-weight: 57144
+weight: 8000
 url: /cpp/aspose.words.bibliography/source/get_casenumber/
 ---
 ## Source::get_CaseNumber method

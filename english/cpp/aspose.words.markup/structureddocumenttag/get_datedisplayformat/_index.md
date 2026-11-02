@@ -4,7 +4,7 @@ linktitle: get_DateDisplayFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat method. String that represents the format in which dates are displayed in C++.'
 type: docs
-weight: 69000
+weight: 68000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_datedisplayformat/
 ---
 ## StructuredDocumentTag::get_DateDisplayFormat method

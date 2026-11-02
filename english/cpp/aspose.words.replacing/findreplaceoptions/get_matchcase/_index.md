@@ -4,7 +4,7 @@ linktitle: get_MatchCase
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase method. True indicates case-sensitive comparison, false indicates case-insensitive comparison in C++.'
 type: docs
-weight: 20718
+weight: 14000
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_matchcase/
 ---
 ## FindReplaceOptions::get_MatchCase method

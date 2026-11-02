@@ -4,7 +4,7 @@ linktitle: get_Reflection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Reflection method. Gets reflection formatting for the shape in C++.'
 type: docs
-weight: 61675
+weight: 61670
 url: /cpp/aspose.words.drawing/shapebase/get_reflection/
 ---
 ## ShapeBase::get_Reflection method

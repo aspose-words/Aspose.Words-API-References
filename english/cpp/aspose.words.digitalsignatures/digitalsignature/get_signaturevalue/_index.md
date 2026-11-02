@@ -4,7 +4,7 @@ linktitle: get_SignatureValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_SignatureValue method. Gets an array of bytes representing a signature value in C++.'
 type: docs
-weight: 23000
+weight: 22000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_signaturevalue/
 ---
 ## DigitalSignature::get_SignatureValue method

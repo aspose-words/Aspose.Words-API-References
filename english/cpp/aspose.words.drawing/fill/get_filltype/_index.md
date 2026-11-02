@@ -4,7 +4,7 @@ linktitle: get_FillType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_FillType method. Gets a fill type in C++.'
 type: docs
-weight: 51000
+weight: 50000
 url: /cpp/aspose.words.drawing/fill/get_filltype/
 ---
 ## Fill::get_FillType method

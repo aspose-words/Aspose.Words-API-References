@@ -4,7 +4,7 @@ linktitle: get_LineStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_LineStyle method. Defines the line style of the stroke in C++.'
 type: docs
-weight: 23684
+weight: 13000
 url: /cpp/aspose.words.drawing/stroke/get_linestyle/
 ---
 ## Stroke::get_LineStyle method

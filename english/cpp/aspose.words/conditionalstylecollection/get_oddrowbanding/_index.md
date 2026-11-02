@@ -4,7 +4,7 @@ linktitle: get_OddRowBanding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyleCollection::get_OddRowBanding method. Gets the odd row banding style in C++.'
 type: docs
-weight: 31000
+weight: 17573
 url: /cpp/aspose.words/conditionalstylecollection/get_oddrowbanding/
 ---
 ## ConditionalStyleCollection::get_OddRowBanding method

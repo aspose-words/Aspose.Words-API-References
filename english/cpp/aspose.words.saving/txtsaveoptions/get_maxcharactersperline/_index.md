@@ -4,7 +4,7 @@ linktitle: get_MaxCharactersPerLine
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::TxtSaveOptions::get_MaxCharactersPerLine method. Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0, that means no limit in C++.'
 type: docs
-weight: 10500
+weight: 5000
 url: /cpp/aspose.words.saving/txtsaveoptions/get_maxcharactersperline/
 ---
 ## TxtSaveOptions::get_MaxCharactersPerLine method

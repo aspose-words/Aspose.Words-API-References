@@ -4,7 +4,7 @@ linktitle: get_VerticalResolution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageSize::get_VerticalResolution method. Gets the vertical resolution in DPI in C++.'
 type: docs
-weight: 15000
+weight: 6000
 url: /cpp/aspose.words.drawing/imagesize/get_verticalresolution/
 ---
 ## ImageSize::get_VerticalResolution method

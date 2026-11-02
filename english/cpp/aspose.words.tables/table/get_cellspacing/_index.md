@@ -4,7 +4,7 @@ linktitle: get_CellSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_CellSpacing method. Gets or sets the amount of space (in points) between the cells in C++.'
 type: docs
-weight: 81000
+weight: 80000
 url: /cpp/aspose.words.tables/table/get_cellspacing/
 ---
 ## Table::get_CellSpacing method

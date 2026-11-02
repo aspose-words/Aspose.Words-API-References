@@ -4,7 +4,7 @@ linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::OdsoRecipientDataCollection::idx_set method. Gets or sets an item in this collection in C++.'
 type: docs
-weight: 15889
+weight: 18750
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/idx_set/
 ---
 ## OdsoRecipientDataCollection::idx_set method

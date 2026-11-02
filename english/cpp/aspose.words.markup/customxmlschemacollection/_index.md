@@ -31,6 +31,15 @@ class CustomXmlSchemaCollection : public System::Collections::Generic::IEnumerab
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets the element at the specified index. |
 | [idx_set](./idx_set/)(int32_t, const System::String \&) | Gets or sets the element at the specified index. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

@@ -4,7 +4,7 @@ linktitle: get_CssClassNamePrefix
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_CssClassNamePrefix method. Specifies a prefix which is added to all CSS class names. Default value is an empty string and generated CSS class names have no common prefix in C++.'
 type: docs
-weight: 49063
+weight: 4000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_cssclassnameprefix/
 ---
 ## HtmlSaveOptions::get_CssClassNamePrefix method
@@ -48,7 +48,7 @@ ASSERT_TRUE(outDocContents.Contains(u".myprefix-Header { margin-bottom:0pt; line
 ```
 ## Exceptions
 
-* **ArgumentException** - The value is not empty and is not a valid CSS identifier.
+* ArgumentException - The value is not empty and is not a valid CSS identifier.
 
 ## See Also
 

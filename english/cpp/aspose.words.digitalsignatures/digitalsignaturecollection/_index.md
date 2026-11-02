@@ -26,6 +26,15 @@ class DigitalSignatureCollection : public System::Collections::Generic::IEnumera
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [get_IsValid](./get_isvalid/)() | Returns **true** if all digital signatures in this collection are valid and the document has not been tampered with Also returns **true** if there are no digital signatures. Returns **false** if at least one digital signature is invalid. |
 | [idx_get](./idx_get/)(int32_t) | Gets a document signature at the specified index. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 [DigitalSignatures](../../aspose.words/document/get_digitalsignatures/)

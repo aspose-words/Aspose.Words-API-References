@@ -4,7 +4,7 @@ linktitle: get_Odso
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::MailMergeSettings::get_Odso method. Gets or sets the object that specifies the Office Data Source Object (ODSO) settings in C++.'
 type: docs
-weight: 22844
+weight: 18000
 url: /cpp/aspose.words.settings/mailmergesettings/get_odso/
 ---
 ## MailMergeSettings::get_Odso method

@@ -44,8 +44,8 @@ builder->Writeln(u"Text with themed style");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Throw if set this property to a value less than -1 or more than 1.
-* **InvalidOperationException** - Throw if set this property for [Font](../) object with non-theme colors.
+* ArgumentOutOfRangeException - Throw if set this property to a value less than -1 or more than 1.
+* InvalidOperationException - Throw if set this property for [Font](../) object with non-theme colors.
 
 ## See Also
 

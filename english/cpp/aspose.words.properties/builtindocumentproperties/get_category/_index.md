@@ -4,7 +4,7 @@ linktitle: get_Category
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Category method. Gets or sets the category of the document in C++.'
 type: docs
-weight: 36108
+weight: 4000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_category/
 ---
 ## BuiltInDocumentProperties::get_Category method

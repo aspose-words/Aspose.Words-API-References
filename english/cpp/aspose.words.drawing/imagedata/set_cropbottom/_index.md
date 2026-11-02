@@ -4,7 +4,7 @@ linktitle: set_CropBottom
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_CropBottom method. Defines the fraction of picture removal from the bottom side in C++.'
 type: docs
-weight: 62000
+weight: 61000
 url: /cpp/aspose.words.drawing/imagedata/set_cropbottom/
 ---
 ## ImageData::set_CropBottom method

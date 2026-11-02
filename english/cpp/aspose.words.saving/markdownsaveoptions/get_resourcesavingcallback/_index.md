@@ -4,7 +4,7 @@ linktitle: get_ResourceSavingCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ResourceSavingCallback method. Allows to control how resources are saved when a document is exported to Markdown format in C++.'
 type: docs
-weight: 10208
+weight: 6750
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_resourcesavingcallback/
 ---
 ## MarkdownSaveOptions::get_ResourceSavingCallback method

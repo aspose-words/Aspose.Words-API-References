@@ -4,7 +4,7 @@ linktitle: get_FontSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextWatermarkOptions::get_FontSize method. Gets or sets a font size. The default value is 0 - auto in C++.'
 type: docs
-weight: 9625
+weight: 5000
 url: /cpp/aspose.words/textwatermarkoptions/get_fontsize/
 ---
 ## TextWatermarkOptions::get_FontSize method
@@ -54,7 +54,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
+* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

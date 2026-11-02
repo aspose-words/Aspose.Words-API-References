@@ -4,7 +4,7 @@ linktitle: get_DoughnutHoleSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_DoughnutHoleSize method. Gets or sets the hole size of the parent doughnut chart as a percentage in C++.'
 type: docs
-weight: 14462
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_doughnutholesize/
 ---
 ## ChartSeriesGroup::get_DoughnutHoleSize method

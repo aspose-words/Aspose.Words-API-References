@@ -4,7 +4,7 @@ linktitle: get_Subscript
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Subscript method. True if the font is formatted as subscript in C++.'
 type: docs
-weight: 59796
+weight: 59580
 url: /cpp/aspose.words/font/get_subscript/
 ---
 ## Font::get_Subscript method

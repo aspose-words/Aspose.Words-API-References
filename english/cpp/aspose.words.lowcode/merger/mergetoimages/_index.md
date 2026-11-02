@@ -4,7 +4,7 @@ linktitle: MergeToImages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Merger::MergeToImages method. Merges the given input document streams into a single output document using specified image save options. Renders the output to images in C++.'
 type: docs
-weight: 7000
+weight: 2000
 url: /cpp/aspose.words.lowcode/merger/mergetoimages/
 ---
 ## Merger::MergeToImages(const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\> \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, Aspose::Words::LowCode::MergeFormatMode) method

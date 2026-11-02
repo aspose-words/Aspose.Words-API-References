@@ -4,7 +4,7 @@ linktitle: get_Comments
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_Comments method. Specifies comments on the digital signature. Default value is empty string in C++.'
 type: docs
-weight: 10100
+weight: 3000
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_comments/
 ---
 ## SignOptions::get_Comments method

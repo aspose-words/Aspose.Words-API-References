@@ -4,7 +4,7 @@ linktitle: get_Reporter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Reporter method. Gets or sets the reporter of a source in C++.'
 type: docs
-weight: 57720
+weight: 40000
 url: /cpp/aspose.words.bibliography/source/get_reporter/
 ---
 ## Source::get_Reporter method

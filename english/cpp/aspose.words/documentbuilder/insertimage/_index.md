@@ -178,7 +178,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.
 ## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\> \&) method
 
 
-Inserts an image from a **Image** object into the document. The image is inserted inline and at 100% scale.
+Inserts an image from a Image object into the document. The image is inserted inline and at 100% scale.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> & image)
@@ -231,7 +231,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObjec
 ## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
-Inserts an image from a **Image** object at the specified position and size.
+Inserts an image from a Image object at the specified position and size.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> & image, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, double width, double height, Aspose::Words::Drawing::WrapType wrapType)
@@ -291,7 +291,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObjec
 ## DocumentBuilder::InsertImage(const System::SharedPtr\<System::Drawing::Image\> \&, double, double) method
 
 
-Inserts an inline image from a **Image** object into the document and scales it to the specified size.
+Inserts an inline image from a Image object into the document and scales it to the specified size.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertImage(const System::SharedPtr<System::Drawing::Image> & image, double width, double height)

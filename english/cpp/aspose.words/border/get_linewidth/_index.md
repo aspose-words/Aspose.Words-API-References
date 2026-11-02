@@ -4,7 +4,7 @@ linktitle: get_LineWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Border::get_LineWidth method. Gets or sets the border width in points in C++.'
 type: docs
-weight: 14600
+weight: 13668
 url: /cpp/aspose.words/border/get_linewidth/
 ---
 ## Border::get_LineWidth method

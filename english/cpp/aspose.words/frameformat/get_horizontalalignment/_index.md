@@ -4,7 +4,7 @@ linktitle: get_HorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FrameFormat::get_HorizontalAlignment method. Gets horizontal alignment of the specified frame in C++.'
 type: docs
-weight: 19000
+weight: 4000
 url: /cpp/aspose.words/frameformat/get_horizontalalignment/
 ---
 ## FrameFormat::get_HorizontalAlignment method

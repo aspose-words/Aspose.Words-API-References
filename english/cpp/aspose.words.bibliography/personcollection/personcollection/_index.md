@@ -4,7 +4,7 @@ linktitle: PersonCollection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::PersonCollection::PersonCollection constructor. Initialize a new instance of the PersonCollection class in C++.'
 type: docs
-weight: 10500
+weight: 8000
 url: /cpp/aspose.words.bibliography/personcollection/personcollection/
 ---
 ## PersonCollection::PersonCollection() constructor

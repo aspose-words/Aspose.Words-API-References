@@ -29,7 +29,7 @@ class CertificateHolder : public System::Object
 ## Remarks
 
 
-[CertificateHolder](./) can be created by static factory methods only. It contains an instance of X509Certificate2 which is used to introduce private, public keys and certificate chains into the system. This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with **X509Certificate2** as parameters.
+[CertificateHolder](./) can be created by static factory methods only. It contains an instance of X509Certificate2 which is used to introduce private, public keys and certificate chains into the system. This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with X509Certificate2 as parameters.
 ## Examples
 
 

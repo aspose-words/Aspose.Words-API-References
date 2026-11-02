@@ -4,7 +4,7 @@ linktitle: get_Body
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Section::get_Body method. Returns the Body child node of the section in C++.'
 type: docs
-weight: 17375
+weight: 17286
 url: /cpp/aspose.words/section/get_body/
 ---
 ## Section::get_Body method

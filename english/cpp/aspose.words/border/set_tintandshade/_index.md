@@ -42,8 +42,8 @@ doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Throws if you attempt to set this property to a value less than -1 or more than 1.
-* **InvalidOperationException** - Throws if setting this property for Border object with non-theme colors.
+* ArgumentOutOfRangeException - Throws if you attempt to set this property to a value less than -1 or more than 1.
+* InvalidOperationException - Throws if setting this property for Border object with non-theme colors.
 
 ## See Also
 

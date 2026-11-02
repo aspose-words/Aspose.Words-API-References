@@ -4,7 +4,7 @@ linktitle: get_Reason
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_Reason method. Font substitution reason in C++.'
 type: docs
-weight: 10000
+weight: 2000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_reason/
 ---
 ## FontSubstitutionWarningInfo::get_Reason method

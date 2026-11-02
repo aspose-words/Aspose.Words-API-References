@@ -4,7 +4,7 @@ linktitle: set_LeftIndent
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_LeftIndent method. Sets the value that represents the left indent of the table in C++.'
 type: docs
-weight: 120000
+weight: 119000
 url: /cpp/aspose.words.tables/table/set_leftindent/
 ---
 ## Table::set_LeftIndent method

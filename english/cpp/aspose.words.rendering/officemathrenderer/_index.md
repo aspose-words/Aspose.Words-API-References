@@ -28,8 +28,8 @@ class OfficeMathRenderer : public NodeRendererBase
 | [GetOpaqueBoundsInPixels](../noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](../noderendererbase/getsizeinpixels/)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](../noderendererbase/getsizeinpixels/)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
-| [RenderToScale](../noderendererbase/rendertoscale/)(const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float) | Renders the shape into a **Graphics** object to a specified scale. |
-| [RenderToSize](../noderendererbase/rendertosize/)(const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float, float) | Renders the shape into a **Graphics** object to a specified size. |
+| [RenderToScale](../noderendererbase/rendertoscale/)(const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float) | Renders the shape into a Graphics object to a specified scale. |
+| [RenderToSize](../noderendererbase/rendertosize/)(const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float, float) | Renders the shape into a Graphics object to a specified size. |
 | [Save](../noderendererbase/save/)(const System::SharedPtr\<System::IO::Stream\> \&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a stream. |
 | [Save](../noderendererbase/save/)(const System::SharedPtr\<System::IO::Stream\> \&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a stream. |
 | [Save](../noderendererbase/save/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a file. |

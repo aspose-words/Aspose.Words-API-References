@@ -4,7 +4,7 @@ linktitle: get_NumberStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_NumberStyle method. Returns or sets the number style for this list level in C++.'
 type: docs
-weight: 22814
+weight: 22802
 url: /cpp/aspose.words.lists/listlevel/get_numberstyle/
 ---
 ## ListLevel::get_NumberStyle method

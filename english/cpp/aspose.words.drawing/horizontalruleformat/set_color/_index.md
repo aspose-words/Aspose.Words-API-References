@@ -21,7 +21,7 @@ void Aspose::Words::Drawing::HorizontalRuleFormat::set_Color(System::Drawing::Co
 
 This is a shortcut to the [Color](../../fill/get_color/) property.
 
-The default value is **Gray**. 
+The default value is Gray. 
 ## Examples
 
 

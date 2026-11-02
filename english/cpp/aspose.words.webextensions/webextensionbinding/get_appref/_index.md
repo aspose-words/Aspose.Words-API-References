@@ -4,7 +4,7 @@ linktitle: get_AppRef
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionBinding::get_AppRef method. Specifies the binding key used to map the binding entry in this list with the bound data in the document in C++.'
 type: docs
-weight: 7501
+weight: 3000
 url: /cpp/aspose.words.webextensions/webextensionbinding/get_appref/
 ---
 ## WebExtensionBinding::get_AppRef method

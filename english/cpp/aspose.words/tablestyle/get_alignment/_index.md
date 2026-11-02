@@ -4,7 +4,7 @@ linktitle: get_Alignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TableStyle::get_Alignment method. Specifies the alignment for the table style in C++.'
 type: docs
-weight: 18126
+weight: 2000
 url: /cpp/aspose.words/tablestyle/get_alignment/
 ---
 ## TableStyle::get_Alignment method

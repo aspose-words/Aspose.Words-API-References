@@ -4,7 +4,7 @@ linktitle: Source
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::Source constructor. Initialize a new instance of the Source class in C++.'
 type: docs
-weight: 57018
+weight: 2000
 url: /cpp/aspose.words.bibliography/source/source/
 ---
 ## Source::Source constructor

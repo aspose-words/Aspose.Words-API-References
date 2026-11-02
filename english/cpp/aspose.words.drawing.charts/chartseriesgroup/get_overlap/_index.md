@@ -4,7 +4,7 @@ linktitle: get_Overlap
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_Overlap method. Gets or sets the percentage of how much the series bars or columns overlap in C++.'
 type: docs
-weight: 14693
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_overlap/
 ---
 ## ChartSeriesGroup::get_Overlap method

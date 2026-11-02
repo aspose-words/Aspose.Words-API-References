@@ -4,7 +4,7 @@ linktitle: get_DateTime
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_DateTime method. Gets or sets the date/time of this revision in C++.'
 type: docs
-weight: 11375
+weight: 11286
 url: /cpp/aspose.words/revision/get_datetime/
 ---
 ## Revision::get_DateTime method

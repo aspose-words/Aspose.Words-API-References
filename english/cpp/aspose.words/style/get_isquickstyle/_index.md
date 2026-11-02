@@ -4,7 +4,7 @@ linktitle: get_IsQuickStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_IsQuickStyle method. Specifies whether this style is shown in the Quick Style gallery inside MS Word UI in C++.'
 type: docs
-weight: 22396
+weight: 22368
 url: /cpp/aspose.words/style/get_isquickstyle/
 ---
 ## Style::get_IsQuickStyle method

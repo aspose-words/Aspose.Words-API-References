@@ -4,7 +4,7 @@ linktitle: get_Performer
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Performer method. Gets or sets the performer of a source in C++.'
 type: docs
-weight: 19780
+weight: 14000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_performer/
 ---
 ## ContributorCollection::get_Performer method

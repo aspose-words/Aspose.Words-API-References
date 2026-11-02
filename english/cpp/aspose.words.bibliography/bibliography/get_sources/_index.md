@@ -4,7 +4,7 @@ linktitle: get_Sources
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Bibliography::get_Sources method. Gets a collection that represents all the sources contained in a bibliography in C++.'
 type: docs
-weight: 5750
+weight: 3000
 url: /cpp/aspose.words.bibliography/bibliography/get_sources/
 ---
 ## Bibliography::get_Sources method

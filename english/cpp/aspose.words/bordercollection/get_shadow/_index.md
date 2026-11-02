@@ -4,7 +4,7 @@ linktitle: get_Shadow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BorderCollection::get_Shadow method. Gets or sets a value indicating whether the border has a shadow in C++.'
 type: docs
-weight: 19736
+weight: 17540
 url: /cpp/aspose.words/bordercollection/get_shadow/
 ---
 ## BorderCollection::get_Shadow method

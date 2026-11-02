@@ -4,7 +4,7 @@ linktitle: get_ImlRenderingMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SaveOptions::get_ImlRenderingMode method. Gets or sets a value determining how ink (InkML) objects are rendered in C++.'
 type: docs
-weight: 24396
+weight: 10000
 url: /cpp/aspose.words.saving/saveoptions/get_imlrenderingmode/
 ---
 ## SaveOptions::get_ImlRenderingMode method

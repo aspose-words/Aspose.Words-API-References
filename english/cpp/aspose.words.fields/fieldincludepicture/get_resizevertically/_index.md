@@ -4,7 +4,7 @@ linktitle: get_ResizeVertically
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIncludePicture::get_ResizeVertically method. Gets or sets whether to resize the picture vertically from the source in C++.'
 type: docs
-weight: 8715
+weight: 5000
 url: /cpp/aspose.words.fields/fieldincludepicture/get_resizevertically/
 ---
 ## FieldIncludePicture::get_ResizeVertically method

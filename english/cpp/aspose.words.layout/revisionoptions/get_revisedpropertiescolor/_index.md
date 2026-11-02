@@ -4,7 +4,7 @@ linktitle: get_RevisedPropertiesColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesColor method. Allows to specify the color to be used for content with changes of formatting properties FormatChange Default value is NoHighlight in C++.'
 type: docs
-weight: 22613
+weight: 12000
 url: /cpp/aspose.words.layout/revisionoptions/get_revisedpropertiescolor/
 ---
 ## RevisionOptions::get_RevisedPropertiesColor method

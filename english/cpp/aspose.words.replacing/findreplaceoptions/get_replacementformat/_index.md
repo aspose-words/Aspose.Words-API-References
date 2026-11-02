@@ -4,7 +4,7 @@ linktitle: get_ReplacementFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Replacing::FindReplaceOptions::get_ReplacementFormat method. Specifies format of the replacement. Default is Text in C++.'
 type: docs
-weight: 20765
+weight: 14500
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_replacementformat/
 ---
 ## FindReplaceOptions::get_ReplacementFormat method

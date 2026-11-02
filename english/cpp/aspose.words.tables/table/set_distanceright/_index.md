@@ -4,7 +4,7 @@ linktitle: set_DistanceRight
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_DistanceRight method. Sets distance between table right and the surrounding text, in points in C++.'
 type: docs
-weight: 117000
+weight: 116000
 url: /cpp/aspose.words.tables/table/set_distanceright/
 ---
 ## Table::set_DistanceRight method

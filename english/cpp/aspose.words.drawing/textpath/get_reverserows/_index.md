@@ -4,7 +4,7 @@ linktitle: get_ReverseRows
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_ReverseRows method. Determines whether the layout order of rows is reversed in C++.'
 type: docs
-weight: 23414
+weight: 9000
 url: /cpp/aspose.words.drawing/textpath/get_reverserows/
 ---
 ## TextPath::get_ReverseRows method

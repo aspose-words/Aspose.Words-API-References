@@ -4,7 +4,7 @@ linktitle: LoadSignatures
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::LoadSignatures method. Loads digital signatures from document using stream in C++.'
 type: docs
-weight: 5000
+weight: 1000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
 ## DigitalSignatureUtil::LoadSignatures(const System::SharedPtr\<System::IO::Stream\> \&) method

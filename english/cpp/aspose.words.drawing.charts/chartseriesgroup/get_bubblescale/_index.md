@@ -4,7 +4,7 @@ linktitle: get_BubbleScale
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_BubbleScale method. Gets or sets the size of the bubbles as a percentage of their default size in C++.'
 type: docs
-weight: 14385
+weight: 5000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_bubblescale/
 ---
 ## ChartSeriesGroup::get_BubbleScale method

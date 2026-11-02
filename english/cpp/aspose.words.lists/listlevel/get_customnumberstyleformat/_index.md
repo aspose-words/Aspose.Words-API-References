@@ -4,7 +4,7 @@ linktitle: get_CustomNumberStyleFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_CustomNumberStyleFormat method. Gets or sets the custom number style format for this list level. For example: "a, ç, ĝ, ..." in C++.'
 type: docs
-weight: 22596
+weight: 22568
 url: /cpp/aspose.words.lists/listlevel/get_customnumberstyleformat/
 ---
 ## ListLevel::get_CustomNumberStyleFormat method

@@ -4,7 +4,7 @@ linktitle: get_RelativeVerticalSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalSize method. Gets or sets the value of shape''s relative size in vertical direction in C++.'
 type: docs
-weight: 61735
+weight: 61730
 url: /cpp/aspose.words.drawing/shapebase/get_relativeverticalsize/
 ---
 ## ShapeBase::get_RelativeVerticalSize method

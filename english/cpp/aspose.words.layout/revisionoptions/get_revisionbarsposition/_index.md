@@ -4,7 +4,7 @@ linktitle: get_RevisionBarsPosition
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_RevisionBarsPosition method. Gets or sets rendering position of revision bars. Default value is Outside in C++.'
 type: docs
-weight: 22742
+weight: 15000
 url: /cpp/aspose.words.layout/revisionoptions/get_revisionbarsposition/
 ---
 ## RevisionOptions::get_RevisionBarsPosition method
@@ -41,7 +41,7 @@ doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Values of [Center](../../../aspose.words.drawing/horizontalalignment/) and [Inside](../../../aspose.words.drawing/horizontalalignment/) are not allowed.
+* ArgumentOutOfRangeException - Values of [Center](../../../aspose.words.drawing/horizontalalignment/) and [Inside](../../../aspose.words.drawing/horizontalalignment/) are not allowed.
 
 ## See Also
 

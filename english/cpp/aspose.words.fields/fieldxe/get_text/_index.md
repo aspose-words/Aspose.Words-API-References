@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldXE::get_Text method. Gets or sets the text of the entry in C++.'
 type: docs
-weight: 10778
+weight: 7000
 url: /cpp/aspose.words.fields/fieldxe/get_text/
 ---
 ## FieldXE::get_Text method

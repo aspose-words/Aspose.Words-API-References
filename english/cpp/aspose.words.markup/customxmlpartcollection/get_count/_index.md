@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlPartCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 17667
+weight: 18250
 url: /cpp/aspose.words.markup/customxmlpartcollection/get_count/
 ---
 ## CustomXmlPartCollection::get_Count method

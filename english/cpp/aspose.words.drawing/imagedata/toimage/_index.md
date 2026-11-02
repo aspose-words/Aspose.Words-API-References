@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/imagedata/toimage/
 ## ImageData::ToImage method
 
 
-Gets the image stored in the shape as a **Image** object.
+Gets the image stored in the shape as a Image object.
 
 ```cpp
 System::SharedPtr<System::Drawing::Image> Aspose::Words::Drawing::ImageData::ToImage()
@@ -19,7 +19,7 @@ System::SharedPtr<System::Drawing::Image> Aspose::Words::Drawing::ImageData::ToI
 ## Remarks
 
 
-A new **Image** object is created every time this method is called.
+A new Image object is created every time this method is called.
 
 It is the responsibility of the caller to dispose the image object.
 ## See Also

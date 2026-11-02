@@ -4,7 +4,7 @@ linktitle: get_ShowBubbleSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowBubbleSize method. Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is false in C++.'
 type: docs
-weight: 18588
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showbubblesize/
 ---
 ## ChartDataLabel::get_ShowBubbleSize method

@@ -57,7 +57,7 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
 ## Exceptions
 
-* **NotSupportedException** - The [NodeCollection](../) is a "deep" collection.
+* NotSupportedException - The [NodeCollection](../) is a "deep" collection.
 
 ## See Also
 

@@ -4,7 +4,7 @@ linktitle: get_Gallery
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BuildingBlocks::BuildingBlock::get_Gallery method. Specifies the first-level categorization for the building block for the purposes of classification or user interface sorting in C++.'
 type: docs
-weight: 16462
+weight: 8000
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_gallery/
 ---
 ## BuildingBlock::get_Gallery method

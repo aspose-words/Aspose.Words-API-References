@@ -4,7 +4,7 @@ linktitle: get_Bold
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Bold method. True if the font is formatted as bold in C++.'
 type: docs
-weight: 59090
+weight: 58144
 url: /cpp/aspose.words/font/get_bold/
 ---
 ## Font::get_Bold method

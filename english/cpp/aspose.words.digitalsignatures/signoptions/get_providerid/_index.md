@@ -4,7 +4,7 @@ linktitle: get_ProviderId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_ProviderId method. Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid in C++.'
 type: docs
-weight: 10180
+weight: 5000
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_providerid/
 ---
 ## SignOptions::get_ProviderId method

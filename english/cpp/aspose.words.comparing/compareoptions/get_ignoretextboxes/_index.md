@@ -4,7 +4,7 @@ linktitle: get_IgnoreTextboxes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreTextboxes method. Specifies whether to compare differences in the data contained within text boxes in C++.'
 type: docs
-weight: 16868
+weight: 13000
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoretextboxes/
 ---
 ## CompareOptions::get_IgnoreTextboxes method

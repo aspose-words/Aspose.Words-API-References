@@ -21,7 +21,7 @@ void Aspose::Words::Drawing::Shape::set_FillColor(System::Drawing::Color value)
 
 This is a shortcut to the [Color](../../fill/get_color/) property.
 
-The default value is **White**. 
+The default value is White. 
 ## Examples
 
 

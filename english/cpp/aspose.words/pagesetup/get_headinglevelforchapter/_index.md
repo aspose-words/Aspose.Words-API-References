@@ -4,7 +4,7 @@ linktitle: get_HeadingLevelForChapter
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_HeadingLevelForChapter method. Gets or sets the heading level style that is applied to the chapter titles in the document in C++.'
 type: docs
-weight: 49412
+weight: 20000
 url: /cpp/aspose.words/pagesetup/get_headinglevelforchapter/
 ---
 ## PageSetup::get_HeadingLevelForChapter method

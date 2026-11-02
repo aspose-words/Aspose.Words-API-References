@@ -4,7 +4,7 @@ linktitle: get_Contributors
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Contributors method. Gets contributors list (author, editor, writer etc) of a source in C++.'
 type: docs
-weight: 57234
+weight: 13000
 url: /cpp/aspose.words.bibliography/source/get_contributors/
 ---
 ## Source::get_Contributors method

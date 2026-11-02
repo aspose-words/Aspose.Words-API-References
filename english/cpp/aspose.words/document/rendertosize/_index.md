@@ -10,7 +10,7 @@ url: /cpp/aspose.words/document/rendertosize/
 ## Document::RenderToSize method
 
 
-Renders a document page into a **Graphics** object to a specified size.
+Renders a document page into a Graphics object to a specified size.
 
 ```cpp
 float Aspose::Words::Document::RenderToSize(int32_t pageIndex, const System::SharedPtr<System::Drawing::Graphics> & graphics, float x, float y, float width, float height)

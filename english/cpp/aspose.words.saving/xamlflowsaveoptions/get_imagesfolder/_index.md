@@ -4,7 +4,7 @@ linktitle: get_ImagesFolder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::XamlFlowSaveOptions::get_ImagesFolder method. Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string in C++.'
 type: docs
-weight: 8500
+weight: 4000
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/get_imagesfolder/
 ---
 ## XamlFlowSaveOptions::get_ImagesFolder method

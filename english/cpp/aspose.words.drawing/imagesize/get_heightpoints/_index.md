@@ -4,7 +4,7 @@ linktitle: get_HeightPoints
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageSize::get_HeightPoints method. Gets the height of the image in points. 1 point is 1/72 inch in C++.'
 type: docs
-weight: 13000
+weight: 4000
 url: /cpp/aspose.words.drawing/imagesize/get_heightpoints/
 ---
 ## ImageSize::get_HeightPoints method

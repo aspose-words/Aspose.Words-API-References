@@ -4,7 +4,7 @@ linktitle: get_DigitalSignatureDetails
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_DigitalSignatureDetails method. Gets or sets DigitalSignatureDetails object used to sign a document in C++.'
 type: docs
-weight: 9500
+weight: 4500
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_digitalsignaturedetails/
 ---
 ## OoxmlSaveOptions::get_DigitalSignatureDetails method

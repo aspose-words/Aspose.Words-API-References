@@ -30,6 +30,15 @@ class ListCollection : public System::Collections::Generic::IEnumerable<System::
 | [get_Count](./get_count/)() | Gets the count of numbered and bulleted lists in the document. |
 | [get_Document](./get_document/)() const | Gets the owner document. |
 | [idx_get](./idx_get/)(int32_t) | Gets a list by index. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

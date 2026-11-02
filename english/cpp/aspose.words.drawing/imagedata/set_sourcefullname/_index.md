@@ -4,7 +4,7 @@ linktitle: set_SourceFullName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_SourceFullName method. Sets the path and name of the source file for the linked image in C++.'
 type: docs
-weight: 68000
+weight: 67000
 url: /cpp/aspose.words.drawing/imagedata/set_sourcefullname/
 ---
 ## ImageData::set_SourceFullName method

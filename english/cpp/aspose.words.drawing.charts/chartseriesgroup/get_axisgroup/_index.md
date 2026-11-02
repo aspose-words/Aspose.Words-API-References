@@ -4,7 +4,7 @@ linktitle: get_AxisGroup
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_AxisGroup method. Gets or sets the axis group to which this series group belongs in C++.'
 type: docs
-weight: 14154
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_axisgroup/
 ---
 ## ChartSeriesGroup::get_AxisGroup method

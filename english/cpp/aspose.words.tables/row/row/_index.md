@@ -4,7 +4,7 @@ linktitle: Row
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Row::Row constructor. Initializes a new instance of the Row class in C++.'
 type: docs
-weight: 15072
+weight: 13231
 url: /cpp/aspose.words.tables/row/row/
 ---
 ## Row::Row constructor

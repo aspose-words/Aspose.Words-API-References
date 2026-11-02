@@ -4,7 +4,7 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Title method. Gets or sets the title (caption) of the current shape object in C++.'
 type: docs
-weight: 61870
+weight: 61865
 url: /cpp/aspose.words.drawing/shapebase/get_title/
 ---
 ## ShapeBase::get_Title method

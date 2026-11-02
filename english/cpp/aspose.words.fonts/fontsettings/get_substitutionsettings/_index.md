@@ -4,7 +4,7 @@ linktitle: get_SubstitutionSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSettings::get_SubstitutionSettings method. Settings related to font substitution mechanism in C++.'
 type: docs
-weight: 17000
+weight: 16000
 url: /cpp/aspose.words.fonts/fontsettings/get_substitutionsettings/
 ---
 ## FontSettings::get_SubstitutionSettings method

@@ -4,7 +4,7 @@ linktitle: get_ResizeHorizontally
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIncludePicture::get_ResizeHorizontally method. Gets or sets whether to resize the picture horizontally from the source in C++.'
 type: docs
-weight: 8572
+weight: 4000
 url: /cpp/aspose.words.fields/fieldincludepicture/get_resizehorizontally/
 ---
 ## FieldIncludePicture::get_ResizeHorizontally method

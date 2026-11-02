@@ -4,7 +4,7 @@ linktitle: get_LineSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_LineSpacing method. Gets or sets the line spacing (in points) for the paragraph in C++.'
 type: docs
-weight: 44460
+weight: 20000
 url: /cpp/aspose.words/paragraphformat/get_linespacing/
 ---
 ## ParagraphFormat::get_LineSpacing method

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::PersonCollection::get_Count method. Gets the number of persons contained in the collection in C++.'
 type: docs
-weight: 14000
+weight: 13000
 url: /cpp/aspose.words.bibliography/personcollection/get_count/
 ---
 ## PersonCollection::get_Count method

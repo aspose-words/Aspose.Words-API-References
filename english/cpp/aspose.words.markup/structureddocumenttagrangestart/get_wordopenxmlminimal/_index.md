@@ -4,7 +4,7 @@ linktitle: get_WordOpenXMLMinimal
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_WordOpenXMLMinimal method. Gets a string that represents the XML contained within the node in the FlatOpc format. Unlike the WordOpenXML property, this method generates a stripped-down document that excludes any non-content-related parts in C++.'
 type: docs
-weight: 27454
+weight: 27450
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_wordopenxmlminimal/
 ---
 ## StructuredDocumentTagRangeStart::get_WordOpenXMLMinimal method

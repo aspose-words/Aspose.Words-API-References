@@ -4,7 +4,7 @@ linktitle: get_GradientStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_GradientStyle method. Gets the gradient style GradientStyle for the fill in C++.'
 type: docs
-weight: 57000
+weight: 56000
 url: /cpp/aspose.words.drawing/fill/get_gradientstyle/
 ---
 ## Fill::get_GradientStyle method

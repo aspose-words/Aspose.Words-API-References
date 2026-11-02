@@ -4,7 +4,7 @@ linktitle: set_Style
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_Style method. Sets the table style applied to this table in C++.'
 type: docs
-weight: 126000
+weight: 125000
 url: /cpp/aspose.words.tables/table/set_style/
 ---
 ## Table::set_Style method

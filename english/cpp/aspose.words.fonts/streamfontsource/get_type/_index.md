@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::StreamFontSource::get_Type method. Returns the type of the font source in C++.'
 type: docs
-weight: 10000
+weight: 9000
 url: /cpp/aspose.words.fonts/streamfontsource/get_type/
 ---
 ## StreamFontSource::get_Type method

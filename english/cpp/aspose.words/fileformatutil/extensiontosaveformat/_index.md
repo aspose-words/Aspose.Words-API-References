@@ -56,7 +56,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
 ```
 ## Exceptions
 
-* **ArgumentNullException** - Throws if the parameter is **null**.
+* ArgumentNullException - Throws if the parameter is **null**.
 
 ## See Also
 

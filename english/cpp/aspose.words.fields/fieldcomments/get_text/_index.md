@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldComments::get_Text method. Gets or sets the text of the comments in C++.'
 type: docs
-weight: 4667
+weight: 2000
 url: /cpp/aspose.words.fields/fieldcomments/get_text/
 ---
 ## FieldComments::get_Text method

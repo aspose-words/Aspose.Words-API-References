@@ -4,7 +4,7 @@ linktitle: get_RequestedItalic
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FontSubstitutionWarningInfo::get_RequestedItalic method. Indicates whether italic style was requested in C++.'
 type: docs
-weight: 13000
+weight: 5000
 url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requesteditalic/
 ---
 ## FontSubstitutionWarningInfo::get_RequestedItalic method

@@ -4,7 +4,7 @@ linktitle: get_MonthAccessed
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_MonthAccessed method. Gets or sets the month accessed of a source in C++.'
 type: docs
-weight: 57540
+weight: 30000
 url: /cpp/aspose.words.bibliography/source/get_monthaccessed/
 ---
 ## Source::get_MonthAccessed method

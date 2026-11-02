@@ -4,7 +4,7 @@ linktitle: set_RightPadding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::set_RightPadding method. Sets the amount of space (in points) to add to the right of the contents of cell in C++.'
 type: docs
-weight: 55000
+weight: 54000
 url: /cpp/aspose.words.tables/cellformat/set_rightpadding/
 ---
 ## CellFormat::set_RightPadding method

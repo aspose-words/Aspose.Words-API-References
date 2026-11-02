@@ -4,7 +4,7 @@ linktitle: get_FieldUpdatingProgressCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_FieldUpdatingProgressCallback method. Gets IFieldUpdatingProgressCallback implementation in C++.'
 type: docs
-weight: 24588
+weight: 13000
 url: /cpp/aspose.words.fields/fieldoptions/get_fieldupdatingprogresscallback/
 ---
 ## FieldOptions::get_FieldUpdatingProgressCallback method

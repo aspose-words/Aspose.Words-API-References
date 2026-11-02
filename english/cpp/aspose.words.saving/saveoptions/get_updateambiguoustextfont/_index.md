@@ -4,7 +4,7 @@ linktitle: get_UpdateAmbiguousTextFont
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SaveOptions::get_UpdateAmbiguousTextFont method. Determines whether the font attributes will be changed according to the character code being used in C++.'
 type: docs
-weight: 24656
+weight: 15500
 url: /cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/
 ---
 ## SaveOptions::get_UpdateAmbiguousTextFont method

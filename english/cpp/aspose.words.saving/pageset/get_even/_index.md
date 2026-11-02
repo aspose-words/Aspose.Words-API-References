@@ -4,7 +4,7 @@ linktitle: get_Even
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PageSet::get_Even method. Gets a set with all the even pages of the document in their original order in C++.'
 type: docs
-weight: 11000
+weight: 8500
 url: /cpp/aspose.words.saving/pageset/get_even/
 ---
 ## PageSet::get_Even method

@@ -4,7 +4,7 @@ linktitle: get_Artist
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Artist method. Gets or sets the artist of a source in C++.'
 type: docs
-weight: 19112
+weight: 2000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_artist/
 ---
 ## ContributorCollection::get_Artist method

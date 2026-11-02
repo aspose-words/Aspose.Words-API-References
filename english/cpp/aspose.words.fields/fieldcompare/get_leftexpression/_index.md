@@ -4,7 +4,7 @@ linktitle: get_LeftExpression
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldCompare::get_LeftExpression method. Gets or sets the left part of the comparison expression in C++.'
 type: docs
-weight: 6600
+weight: 3000
 url: /cpp/aspose.words.fields/fieldcompare/get_leftexpression/
 ---
 ## FieldCompare::get_LeftExpression method

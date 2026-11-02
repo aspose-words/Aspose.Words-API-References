@@ -4,7 +4,7 @@ linktitle: get_HyperlinksChanged
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_HyperlinksChanged method. Indicates whether hyperlinks in a document were changed in C++.'
 type: docs
-weight: 36376
+weight: 13500
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_hyperlinkschanged/
 ---
 ## BuiltInDocumentProperties::get_HyperlinksChanged method

@@ -4,7 +4,7 @@ linktitle: get_LegacyMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Replacing::FindReplaceOptions::get_LegacyMode method. Gets or sets a boolean value indicating that old find/replace algorithm is used in C++.'
 type: docs
-weight: 20671
+weight: 13000
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_legacymode/
 ---
 ## FindReplaceOptions::get_LegacyMode method

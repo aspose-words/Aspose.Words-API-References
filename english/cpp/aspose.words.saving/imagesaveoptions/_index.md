@@ -22,8 +22,8 @@ class ImageSaveOptions : public FixedPageSaveOptions
 | Method | Description |
 | --- | --- |
 | [Clone](./clone/)() | Creates a deep clone of this object. |
-| [ImageSaveOptions](./imagesaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the [Tiff](../../aspose.words/saveformat/), [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/), [Emf](../../aspose.words/saveformat/), [Eps](../../aspose.words/saveformat/), **WebP** or [Svg](../../aspose.words/saveformat/) format. |
-| [get_GraphicsQualityOptions](./get_graphicsqualityoptions/)() const | Allows to specify rendering mode and quality for the **Graphics** object. |
+| [ImageSaveOptions](./imagesaveoptions/)(Aspose::Words::SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the [Tiff](../../aspose.words/saveformat/), [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/), [Emf](../../aspose.words/saveformat/), [Eps](../../aspose.words/saveformat/), WebP or [Svg](../../aspose.words/saveformat/) format. |
+| [get_GraphicsQualityOptions](./get_graphicsqualityoptions/)() const | Allows to specify rendering mode and quality for the Graphics object. |
 | [get_HorizontalResolution](./get_horizontalresolution/)() const | Gets or sets the horizontal resolution for the generated images, in dots per inch. |
 | [get_ImageBrightness](./get_imagebrightness/)() const | Gets or sets the brightness for the generated images. |
 | [get_ImageColorMode](./get_imagecolormode/)() const | Gets or sets the color mode for the generated images. |
@@ -34,16 +34,16 @@ class ImageSaveOptions : public FixedPageSaveOptions
 | [get_PageLayout](./get_pagelayout/)() const | Gets or sets the layout used when rendering multiple pages into a single output. |
 | [get_PageSet](./get_pageset/)() | Gets or sets the pages to render. Default is all the pages in the document. |
 | [get_PaperColor](./get_papercolor/)() | Gets or sets the background (paper) color for the generated images. 
-The default value is **White**. |
+The default value is White. |
 | [get_PixelFormat](./get_pixelformat/)() const | Gets or sets the pixel format for the generated images. |
-| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [Tiff](../../aspose.words/saveformat/), [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/) or vector [Emf](../../aspose.words/saveformat/), [Eps](../../aspose.words/saveformat/), **WebP**, [Svg](../../aspose.words/saveformat/). |
+| [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [Tiff](../../aspose.words/saveformat/), [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/) or vector [Emf](../../aspose.words/saveformat/), [Eps](../../aspose.words/saveformat/), WebP, [Svg](../../aspose.words/saveformat/). |
 | [get_Scale](./get_scale/)() const | Gets or sets the zoom factor for the generated images. |
 | [get_ThresholdForFloydSteinbergDithering](./get_thresholdforfloydsteinbergdithering/)() const | Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../imagebinarizationmethod/) is [FloydSteinbergDithering](../imagebinarizationmethod/). |
 | [get_TiffBinarizationMethod](./get_tiffbinarizationmethod/)() const | Gets or sets method used while converting images to 1 bpp format when [SaveFormat](./get_saveformat/) is [Tiff](../../aspose.words/saveformat/) and [TiffCompression](./get_tiffcompression/) is equal to [Ccitt3](../tiffcompression/) or [Ccitt4](../tiffcompression/). |
 | [get_TiffCompression](./get_tiffcompression/)() const | Gets or sets the type of compression to apply when saving generated images to the TIFF format. |
 | [get_UseGdiEmfRenderer](./get_usegdiemfrenderer/)() const | Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [get_VerticalResolution](./get_verticalresolution/)() const | Gets or sets the vertical resolution for the generated images, in dots per inch. |
-| [set_GraphicsQualityOptions](./set_graphicsqualityoptions/)(const System::SharedPtr\<Aspose::Words::Saving::GraphicsQualityOptions\> \&) | Allows to specify rendering mode and quality for the **Graphics** object. |
+| [set_GraphicsQualityOptions](./set_graphicsqualityoptions/)(const System::SharedPtr\<Aspose::Words::Saving::GraphicsQualityOptions\> \&) | Allows to specify rendering mode and quality for the Graphics object. |
 | [set_HorizontalResolution](./set_horizontalresolution/)(float) | Sets the horizontal resolution for the generated images, in dots per inch. |
 | [set_ImageBrightness](./set_imagebrightness/)(float) | Sets the brightness for the generated images. |
 | [set_ImageColorMode](./set_imagecolormode/)(Aspose::Words::Saving::ImageColorMode) | Sets the color mode for the generated images. |
@@ -53,10 +53,10 @@ The default value is **White**. |
 | [set_PageLayout](./set_pagelayout/)(const System::SharedPtr\<Aspose::Words::Saving::MultiPageLayout\> \&) | Sets the layout used when rendering multiple pages into a single output. |
 | [set_PageSet](./set_pageset/)(const System::SharedPtr\<Aspose::Words::Saving::PageSet\> \&) | Sets the pages to render. Default is all the pages in the document. |
 | [set_PaperColor](./set_papercolor/)(System::Drawing::Color) | Sets the background (paper) color for the generated images. 
-The default value is **White**. |
+The default value is White. |
 | [set_PixelFormat](./set_pixelformat/)(Aspose::Words::Saving::ImagePixelFormat) | Sets the pixel format for the generated images. |
 | [set_Resolution](./set_resolution/)(float) | Sets both horizontal and vertical resolution for the generated images, in dots per inch. |
-| [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [Tiff](../../aspose.words/saveformat/), [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/) or vector [Emf](../../aspose.words/saveformat/), [Eps](../../aspose.words/saveformat/), **WebP**, [Svg](../../aspose.words/saveformat/). |
+| [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [Tiff](../../aspose.words/saveformat/), [Png](../../aspose.words/saveformat/), [Bmp](../../aspose.words/saveformat/), [Jpeg](../../aspose.words/saveformat/) or vector [Emf](../../aspose.words/saveformat/), [Eps](../../aspose.words/saveformat/), WebP, [Svg](../../aspose.words/saveformat/). |
 | [set_Scale](./set_scale/)(float) | Sets the zoom factor for the generated images. |
 | [set_ThresholdForFloydSteinbergDithering](./set_thresholdforfloydsteinbergdithering/)(uint8_t) | Sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../imagebinarizationmethod/) is [FloydSteinbergDithering](../imagebinarizationmethod/). |
 | [set_TiffBinarizationMethod](./set_tiffbinarizationmethod/)(Aspose::Words::Saving::ImageBinarizationMethod) | Sets method used while converting images to 1 bpp format when [SaveFormat](./get_saveformat/) is [Tiff](../../aspose.words/saveformat/) and [TiffCompression](./get_tiffcompression/) is equal to [Ccitt3](../tiffcompression/) or [Ccitt4](../tiffcompression/). |

@@ -4,7 +4,7 @@ linktitle: get_HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_HeaderFooterBookmarksExportMode method. Determines how bookmarks in headers/footers are exported in C++.'
 type: docs
-weight: 36525
+weight: 19000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions::get_HeaderFooterBookmarksExportMode method

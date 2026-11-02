@@ -4,7 +4,7 @@ linktitle: set_Orientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::set_Orientation method. Sets the orientation of text in a table cell in C++.'
 type: docs
-weight: 53000
+weight: 52000
 url: /cpp/aspose.words.tables/cellformat/set_orientation/
 ---
 ## CellFormat::set_Orientation method

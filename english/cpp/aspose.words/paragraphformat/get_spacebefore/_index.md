@@ -4,7 +4,7 @@ linktitle: get_SpaceBefore
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_SpaceBefore method. Gets or sets the amount of spacing (in points) before the paragraph in C++.'
 type: docs
-weight: 44780
+weight: 33000
 url: /cpp/aspose.words/paragraphformat/get_spacebefore/
 ---
 ## ParagraphFormat::get_SpaceBefore method
@@ -79,7 +79,7 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingSameStyle.docx"
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
+* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

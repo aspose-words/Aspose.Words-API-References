@@ -4,7 +4,7 @@ linktitle: get_BubbleSizes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_BubbleSizes method. Gets a collection of bubble sizes for this chart series in C++.'
 type: docs
-weight: 14590
+weight: 14564
 url: /cpp/aspose.words.drawing.charts/chartseries/get_bubblesizes/
 ---
 ## ChartSeries::get_BubbleSizes method

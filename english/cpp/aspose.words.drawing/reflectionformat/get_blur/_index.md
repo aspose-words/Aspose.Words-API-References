@@ -4,7 +4,7 @@ linktitle: get_Blur
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ReflectionFormat::get_Blur method. Gets or sets a double value that specifies the degree of blur effect applied to the reflection effect in points. The default value is 0.0 in C++.'
 type: docs
-weight: 8334
+weight: 8200
 url: /cpp/aspose.words.drawing/reflectionformat/get_blur/
 ---
 ## ReflectionFormat::get_Blur method

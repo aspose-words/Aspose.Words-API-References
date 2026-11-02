@@ -4,7 +4,7 @@ linktitle: get_FontSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::ProcessorContext::get_FontSettings method. Font settings used by the processor in C++.'
 type: docs
-weight: 7501
+weight: 3000
 url: /cpp/aspose.words.lowcode/processorcontext/get_fontsettings/
 ---
 ## ProcessorContext::get_FontSettings method

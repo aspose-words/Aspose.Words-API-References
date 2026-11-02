@@ -4,7 +4,7 @@ linktitle: LoadFormatToExtension
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FileFormatUtil::LoadFormatToExtension method. Converts a load format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot in C++.'
 type: docs
-weight: 12000
+weight: 6000
 url: /cpp/aspose.words/fileformatutil/loadformattoextension/
 ---
 ## FileFormatUtil::LoadFormatToExtension method
@@ -52,7 +52,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
 ```
 ## Exceptions
 
-* **ArgumentException** - Throws when cannot convert.
+* ArgumentException - Throws when cannot convert.
 
 ## See Also
 

@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Run::get_NodeType method. Returns Run in C++.'
 type: docs
-weight: 8572
+weight: 7500
 url: /cpp/aspose.words/run/get_nodetype/
 ---
 ## Run::get_NodeType method

@@ -4,7 +4,7 @@ linktitle: set_EntryMacro
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_EntryMacro method. Sets an entry macro name for the form field in C++.'
 type: docs
-weight: 77000
+weight: 76000
 url: /cpp/aspose.words.fields/formfield/set_entrymacro/
 ---
 ## FormField::set_EntryMacro method

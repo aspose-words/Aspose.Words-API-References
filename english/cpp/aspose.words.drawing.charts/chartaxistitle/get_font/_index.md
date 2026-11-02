@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Font method. Provides access to the font formatting of the axis title in C++.'
 type: docs
-weight: 8112
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_font/
 ---
 ## ChartAxisTitle::get_Font method

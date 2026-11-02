@@ -4,7 +4,7 @@ linktitle: set_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_Bidi method. Sets whether this is a right-to-left table in C++.'
 type: docs
-weight: 111000
+weight: 110000
 url: /cpp/aspose.words.tables/table/set_bidi/
 ---
 ## Table::set_Bidi method

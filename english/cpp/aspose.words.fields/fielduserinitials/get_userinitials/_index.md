@@ -4,7 +4,7 @@ linktitle: get_UserInitials
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldUserInitials::get_UserInitials method. Gets or sets the current user''s initials in C++.'
 type: docs
-weight: 4667
+weight: 2000
 url: /cpp/aspose.words.fields/fielduserinitials/get_userinitials/
 ---
 ## FieldUserInitials::get_UserInitials method

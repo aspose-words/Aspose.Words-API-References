@@ -4,7 +4,7 @@ linktitle: get_BorderAppliesTo
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_BorderAppliesTo method. Specifies which pages the page border is printed on in C++.'
 type: docs
-weight: 49088
+weight: 5000
 url: /cpp/aspose.words/pagesetup/get_borderappliesto/
 ---
 ## PageSetup::get_BorderAppliesTo method

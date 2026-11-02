@@ -4,7 +4,7 @@ linktitle: get_InsertAsUnicode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDdeAuto::get_InsertAsUnicode method. Gets whether to insert the linked object as Unicode text in C++.'
 type: docs
-weight: 13585
+weight: 7000
 url: /cpp/aspose.words.fields/fieldddeauto/get_insertasunicode/
 ---
 ## FieldDdeAuto::get_InsertAsUnicode method

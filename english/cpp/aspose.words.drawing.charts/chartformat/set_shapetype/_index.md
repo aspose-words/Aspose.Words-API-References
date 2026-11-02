@@ -4,7 +4,7 @@ linktitle: set_ShapeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartFormat::set_ShapeType method. Sets the shape type of the parent chart element in C++.'
 type: docs
-weight: 13000
+weight: 12000
 url: /cpp/aspose.words.drawing.charts/chartformat/set_shapetype/
 ---
 ## ChartFormat::set_ShapeType method

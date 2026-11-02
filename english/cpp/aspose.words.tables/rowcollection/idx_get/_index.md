@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::RowCollection::idx_get method. Retrieves a Row at the given index in C++.'
 type: docs
-weight: 7000
+weight: 6000
 url: /cpp/aspose.words.tables/rowcollection/idx_get/
 ---
 ## RowCollection::idx_get method

@@ -55,8 +55,8 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when the text length is out of range or the text contains only whitespaces.
-* **ArgumentNullException** -  Throws when the text is **null**.
+* ArgumentOutOfRangeException -  Throws when the text length is out of range or the text contains only whitespaces.
+* ArgumentNullException -  Throws when the text is **null**.
 
 ## See Also
 
@@ -112,8 +112,8 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when the text length is out of range or the text contain only whitespaces.
-* **ArgumentNullException** -  Throws when the text is **null**.
+* ArgumentOutOfRangeException -  Throws when the text length is out of range or the text contain only whitespaces.
+* ArgumentNullException -  Throws when the text is **null**.
 
 ## See Also
 

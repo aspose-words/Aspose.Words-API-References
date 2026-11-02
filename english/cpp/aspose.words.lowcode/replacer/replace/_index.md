@@ -4,7 +4,7 @@ linktitle: Replace
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Replacer::Replace method. Replaces all occurrences of a specified character string pattern with a replacement string in the input stream using a regular expression, with the specified save format and additional options in C++.'
 type: docs
-weight: 6000
+weight: 1000
 url: /cpp/aspose.words.lowcode/replacer/replace/
 ---
 ## Replacer::Replace(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&) method

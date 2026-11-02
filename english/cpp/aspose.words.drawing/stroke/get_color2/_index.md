@@ -4,7 +4,7 @@ linktitle: get_Color2
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_Color2 method. Defines a second color for a stroke in C++.'
 type: docs
-weight: 23252
+weight: 4000
 url: /cpp/aspose.words.drawing/stroke/get_color2/
 ---
 ## Stroke::get_Color2 method
@@ -19,7 +19,7 @@ System::Drawing::Color Aspose::Words::Drawing::Stroke::get_Color2()
 ## Remarks
 
 
-The default value for a [Shape](../../shape/) is **White**. 
+The default value for a [Shape](../../shape/) is White. 
 ## Examples
 
 

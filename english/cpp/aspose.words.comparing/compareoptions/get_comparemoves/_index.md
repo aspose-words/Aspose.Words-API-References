@@ -4,7 +4,7 @@ linktitle: get_CompareMoves
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_CompareMoves method. Specifies whether to compare differences between the two documents in C++.'
 type: docs
-weight: 16201
+weight: 3000
 url: /cpp/aspose.words.comparing/compareoptions/get_comparemoves/
 ---
 ## CompareOptions::get_CompareMoves method

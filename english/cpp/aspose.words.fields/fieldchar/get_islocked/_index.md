@@ -4,7 +4,7 @@ linktitle: get_IsLocked
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldChar::get_IsLocked method. Gets or sets whether the parent field is locked (should not recalculate its result) in C++.'
 type: docs
-weight: 7800
+weight: 7250
 url: /cpp/aspose.words.fields/fieldchar/get_islocked/
 ---
 ## FieldChar::get_IsLocked method

@@ -4,7 +4,7 @@ linktitle: get_ShowInBalloons
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_ShowInBalloons method. Allows to specify whether the revisions are rendered in the balloons. Default value is None in C++.'
 type: docs
-weight: 22828
+weight: 17000
 url: /cpp/aspose.words.layout/revisionoptions/get_showinballoons/
 ---
 ## RevisionOptions::get_ShowInBalloons method

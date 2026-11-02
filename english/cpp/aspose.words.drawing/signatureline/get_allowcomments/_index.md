@@ -4,7 +4,7 @@ linktitle: get_AllowComments
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::SignatureLine::get_AllowComments method. Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is false in C++.'
 type: docs
-weight: 14154
+weight: 2000
 url: /cpp/aspose.words.drawing/signatureline/get_allowcomments/
 ---
 ## SignatureLine::get_AllowComments method

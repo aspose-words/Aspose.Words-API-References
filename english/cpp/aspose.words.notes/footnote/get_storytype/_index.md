@@ -4,7 +4,7 @@ linktitle: get_StoryType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::Footnote::get_StoryType method. Returns Footnotes or Endnotes in C++.'
 type: docs
-weight: 10875
+weight: 8000
 url: /cpp/aspose.words.notes/footnote/get_storytype/
 ---
 ## Footnote::get_StoryType method

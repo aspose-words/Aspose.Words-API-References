@@ -4,7 +4,7 @@ linktitle: get_TextBefore
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldMergeField::get_TextBefore method. Gets the text to be inserted before the field if the field is not blank in C++.'
 type: docs
-weight: 10778
+weight: 7000
 url: /cpp/aspose.words.fields/fieldmergefield/get_textbefore/
 ---
 ## FieldMergeField::get_TextBefore method

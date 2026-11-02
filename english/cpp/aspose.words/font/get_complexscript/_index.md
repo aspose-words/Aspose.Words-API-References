@@ -4,7 +4,7 @@ linktitle: get_ComplexScript
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_ComplexScript method. Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run in C++.'
 type: docs
-weight: 59162
+weight: 58288
 url: /cpp/aspose.words/font/get_complexscript/
 ---
 ## Font::get_ComplexScript method

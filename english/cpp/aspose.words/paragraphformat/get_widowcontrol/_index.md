@@ -4,7 +4,7 @@ linktitle: get_WidowControl
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_WidowControl method. True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph in C++.'
 type: docs
-weight: 44956
+weight: 41000
 url: /cpp/aspose.words/paragraphformat/get_widowcontrol/
 ---
 ## ParagraphFormat::get_WidowControl method

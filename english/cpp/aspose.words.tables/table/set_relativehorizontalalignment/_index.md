@@ -4,7 +4,7 @@ linktitle: set_RelativeHorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_RelativeHorizontalAlignment method. Sets floating table relative horizontal alignment in C++.'
 type: docs
-weight: 123000
+weight: 122000
 url: /cpp/aspose.words.tables/table/set_relativehorizontalalignment/
 ---
 ## Table::set_RelativeHorizontalAlignment method

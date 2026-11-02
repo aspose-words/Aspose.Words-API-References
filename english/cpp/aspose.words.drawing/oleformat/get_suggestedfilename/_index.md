@@ -4,7 +4,7 @@ linktitle: get_SuggestedFileName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_SuggestedFileName method. Gets the file name suggested for the current embedded object if you want to save it into a file in C++.'
 type: docs
-weight: 19934
+weight: 19929
 url: /cpp/aspose.words.drawing/oleformat/get_suggestedfilename/
 ---
 ## OleFormat::get_SuggestedFileName method

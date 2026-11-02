@@ -4,7 +4,7 @@ linktitle: get_Station
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Station method. Gets or sets the station of a source in C++.'
 type: docs
-weight: 57810
+weight: 45000
 url: /cpp/aspose.words.bibliography/source/get_station/
 ---
 ## Source::get_Station method

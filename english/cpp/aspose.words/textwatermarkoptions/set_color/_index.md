@@ -10,7 +10,7 @@ url: /cpp/aspose.words/textwatermarkoptions/set_color/
 ## TextWatermarkOptions::set_Color method
 
 
-Sets font color. The default value is **Silver**.
+Sets font color. The default value is Silver.
 
 ```cpp
 void Aspose::Words::TextWatermarkOptions::set_Color(System::Drawing::Color value)

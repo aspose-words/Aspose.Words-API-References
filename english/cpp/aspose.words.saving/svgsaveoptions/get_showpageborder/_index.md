@@ -4,7 +4,7 @@ linktitle: get_ShowPageBorder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder method. Controls whether a border is added to the outline of the page. Default is true in C++.'
 type: docs
-weight: 12858
+weight: 9000
 url: /cpp/aspose.words.saving/svgsaveoptions/get_showpageborder/
 ---
 ## SvgSaveOptions::get_ShowPageBorder method

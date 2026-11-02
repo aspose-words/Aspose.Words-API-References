@@ -4,7 +4,7 @@ linktitle: get_IsLastRow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Row::get_IsLastRow method. True if this is the last row in a table; false otherwise in C++.'
 type: docs
-weight: 15503
+weight: 14386
 url: /cpp/aspose.words.tables/row/get_islastrow/
 ---
 ## Row::get_IsLastRow method

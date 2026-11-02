@@ -4,7 +4,7 @@ linktitle: get_StoryType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::get_StoryType method. Returns Comments in C++.'
 type: docs
-weight: 34000
+weight: 33000
 url: /cpp/aspose.words/comment/get_storytype/
 ---
 ## Comment::get_StoryType method

@@ -4,7 +4,7 @@ linktitle: get_BookmarkText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSet::get_BookmarkText method. Gets or sets the new text of the bookmark in C++.'
 type: docs
-weight: 5750
+weight: 3000
 url: /cpp/aspose.words.fields/fieldset/get_bookmarktext/
 ---
 ## FieldSet::get_BookmarkText method

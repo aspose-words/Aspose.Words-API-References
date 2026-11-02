@@ -4,7 +4,7 @@ linktitle: get_LockFields
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIncludeText::get_LockFields method. Gets whether to prevent fields in the included document from being updated in C++.'
 type: docs
-weight: 12364
+weight: 4000
 url: /cpp/aspose.words.fields/fieldincludetext/get_lockfields/
 ---
 ## FieldIncludeText::get_LockFields method

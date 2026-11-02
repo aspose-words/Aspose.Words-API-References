@@ -4,7 +4,7 @@ linktitle: get_FixCheckDigit
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::BarcodeParameters::get_FixCheckDigit method. Whether to fix the check digit if it’s invalid in C++.'
 type: docs
-weight: 21530
+weight: 11000
 url: /cpp/aspose.words.fields/barcodeparameters/get_fixcheckdigit/
 ---
 ## BarcodeParameters::get_FixCheckDigit method

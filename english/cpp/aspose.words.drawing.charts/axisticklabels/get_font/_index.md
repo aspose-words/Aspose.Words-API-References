@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisTickLabels::get_Font method. Provides access to font formatting of the tick labels in C++.'
 type: docs
-weight: 11300
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/axisticklabels/get_font/
 ---
 ## AxisTickLabels::get_Font method

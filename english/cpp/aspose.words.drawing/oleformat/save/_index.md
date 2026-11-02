@@ -58,7 +58,7 @@ oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleForm
 ```
 ## Exceptions
 
-* **InvalidOperationException** - Throws if you attempt to save a linked object.
+* InvalidOperationException - Throws if you attempt to save a linked object.
 
 ## See Also
 
@@ -112,7 +112,7 @@ oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleForm
 ```
 ## Exceptions
 
-* **InvalidOperationException** - Throws if you attempt to save a linked object.
+* InvalidOperationException - Throws if you attempt to save a linked object.
 
 ## See Also
 
@@ -170,7 +170,7 @@ oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleForm
 ```
 ## Exceptions
 
-* **InvalidOperationException** - Throws if you attempt to save a linked object.
+* InvalidOperationException - Throws if you attempt to save a linked object.
 
 ## See Also
 

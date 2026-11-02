@@ -4,7 +4,7 @@ linktitle: get_VerticalResolution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_VerticalResolution method. Gets or sets the vertical resolution for the digital signature. Default value is 1200 in C++.'
 type: docs
-weight: 10277
+weight: 8167
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_verticalresolution/
 ---
 ## SignOptions::get_VerticalResolution method

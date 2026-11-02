@@ -4,7 +4,7 @@ linktitle: get_MustacheTags
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::MailMerging::MailMergeRegionInfo::get_MustacheTags method. Returns a list of child "mustache" tags in C++.'
 type: docs
-weight: 16000
+weight: 4500
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/get_mustachetags/
 ---
 ## MailMergeRegionInfo::get_MustacheTags method

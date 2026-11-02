@@ -4,7 +4,7 @@ linktitle: get_RevisionOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutOptions::get_RevisionOptions method. Gets revision options in C++.'
 type: docs
-weight: 12668
+weight: 7000
 url: /cpp/aspose.words.layout/layoutoptions/get_revisionoptions/
 ---
 ## LayoutOptions::get_RevisionOptions method

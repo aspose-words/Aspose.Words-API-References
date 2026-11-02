@@ -4,7 +4,7 @@ linktitle: get_MarkupLanguage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_MarkupLanguage method. Gets MarkupLanguage used for this graphic object in C++.'
 type: docs
-weight: 61630
+weight: 61625
 url: /cpp/aspose.words.drawing/shapebase/get_markuplanguage/
 ---
 ## ShapeBase::get_MarkupLanguage method

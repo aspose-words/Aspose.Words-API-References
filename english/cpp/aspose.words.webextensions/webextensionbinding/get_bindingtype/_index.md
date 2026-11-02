@@ -4,7 +4,7 @@ linktitle: get_BindingType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtensionBinding::get_BindingType method. Specifies the binding type in C++.'
 type: docs
-weight: 7668
+weight: 4000
 url: /cpp/aspose.words.webextensions/webextensionbinding/get_bindingtype/
 ---
 ## WebExtensionBinding::get_BindingType method

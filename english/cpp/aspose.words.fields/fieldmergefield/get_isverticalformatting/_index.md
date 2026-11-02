@@ -4,7 +4,7 @@ linktitle: get_IsVerticalFormatting
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldMergeField::get_IsVerticalFormatting method. Gets whether to enable character conversion for vertical formatting in C++.'
 type: docs
-weight: 10556
+weight: 5000
 url: /cpp/aspose.words.fields/fieldmergefield/get_isverticalformatting/
 ---
 ## FieldMergeField::get_IsVerticalFormatting method

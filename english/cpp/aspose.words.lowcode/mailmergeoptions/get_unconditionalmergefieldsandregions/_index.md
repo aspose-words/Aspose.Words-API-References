@@ -4,7 +4,7 @@ linktitle: get_UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::MailMergeOptions::get_UnconditionalMergeFieldsAndRegions method. Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field''s condition in C++.'
 type: docs
-weight: 17814
+weight: 13000
 url: /cpp/aspose.words.lowcode/mailmergeoptions/get_unconditionalmergefieldsandregions/
 ---
 ## MailMergeOptions::get_UnconditionalMergeFieldsAndRegions method

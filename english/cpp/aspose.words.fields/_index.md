@@ -69,9 +69,9 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp
 To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article. |
 | [FieldDatabase](./fielddatabase/) | Implements the DATABASE field. 
 To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article. |
-| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Provides data for the [FieldDatabase](./fielddatabase/) field result. Please see **DataRow** instance. 
+| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Provides data for the [FieldDatabase](./fielddatabase/) field result. Please see DataRow instance. 
 To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article. |
-| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Provides data for the [FieldDatabase](./fielddatabase/) field result. Please see **DataTable** instance. 
+| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Provides data for the [FieldDatabase](./fielddatabase/) field result. Please see DataTable instance. 
 To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article. |
 | [FieldDate](./fielddate/) | Implements the DATE field. 
 To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article. |
@@ -255,7 +255,7 @@ To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp
 | [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator/) | When implemented, allows to override default comparison expressions evaluation for the [FieldIf](./fieldif/) and [FieldCompare](./fieldcompare/) fields. |
 | [IFieldDatabaseProvider](./ifielddatabaseprovider/) | Implement this interface to provide data for the [FieldDatabase](./fielddatabase/) field when it's updated. |
 | [IFieldResultFormatter](./ifieldresultformatter/) | Implement this interface if you want to control how the field result is formatted. |
-| [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider/) | When implemented, provides a **CultureInfo** object that should be used during the update of a particular field. |
+| [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider/) | When implemented, provides a CultureInfo object that should be used during the update of a particular field. |
 | [IFieldUpdatingCallback](./ifieldupdatingcallback/) | Implement this interface if you want to have your own custom methods called during a field update. |
 | [IFieldUpdatingProgressCallback](./ifieldupdatingprogresscallback/) | Implement this interface if you want to track field updating progress. |
 | [IFieldUserPromptRespondent](./ifielduserpromptrespondent/) | Represents the respondent to user prompts during field update. |

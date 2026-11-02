@@ -67,7 +67,7 @@ ASSERT_FALSE(runs->Contains(run));
 ```
 ## Exceptions
 
-* **NotSupportedException** - The [NodeCollection](../) is a "deep" collection.
+* NotSupportedException - The [NodeCollection](../) is a "deep" collection.
 
 ## See Also
 

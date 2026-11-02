@@ -4,7 +4,7 @@ linktitle: get_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_StyleIdentifier method. Gets the locale independent style identifier for a built-in style in C++.'
 type: docs
-weight: 22828
+weight: 22820
 url: /cpp/aspose.words/style/get_styleidentifier/
 ---
 ## Style::get_StyleIdentifier method

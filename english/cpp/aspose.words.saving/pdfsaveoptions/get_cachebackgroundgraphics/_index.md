@@ -4,7 +4,7 @@ linktitle: get_CacheBackgroundGraphics
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_CacheBackgroundGraphics method. Gets or sets a value determining whether or not to cache graphics placed in document''s background in C++.'
 type: docs
-weight: 36125
+weight: 5000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_cachebackgroundgraphics/
 ---
 ## PdfSaveOptions::get_CacheBackgroundGraphics method

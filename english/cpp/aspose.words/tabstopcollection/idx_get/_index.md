@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TabStopCollection::idx_get method. Gets a tab stop at the specified position in C++.'
 type: docs
-weight: 18000
+weight: 17000
 url: /cpp/aspose.words/tabstopcollection/idx_get/
 ---
 ## TabStopCollection::idx_get(double) method

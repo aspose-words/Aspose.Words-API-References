@@ -4,7 +4,7 @@ linktitle: get_KeepDocumentPartStreamOpen
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DocumentPartSavingArgs::get_KeepDocumentPartStreamOpen method. Specifies whether Aspose.Words should keep the stream open or close it after saving a document part in C++.'
 type: docs
-weight: 7834
+weight: 5000
 url: /cpp/aspose.words.saving/documentpartsavingargs/get_keepdocumentpartstreamopen/
 ---
 ## DocumentPartSavingArgs::get_KeepDocumentPartStreamOpen method

@@ -4,7 +4,7 @@ linktitle: SetWatermarkToImages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Watermarker::SetWatermarkToImages method. Adds an image watermark into the document with options. Renders the output to images in C++.'
 type: docs
-weight: 9000
+weight: 3000
 url: /cpp/aspose.words.lowcode/watermarker/setwatermarktoimages/
 ---
 ## Watermarker::SetWatermarkToImages(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \&, const System::SharedPtr\<System::IO::Stream\> \&) method

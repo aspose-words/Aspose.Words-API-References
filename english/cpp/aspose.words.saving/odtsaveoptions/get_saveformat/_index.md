@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OdtSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can be Odt or Ott in C++.'
 type: docs
-weight: 8438
+weight: 6000
 url: /cpp/aspose.words.saving/odtsaveoptions/get_saveformat/
 ---
 ## OdtSaveOptions::get_SaveFormat method

@@ -4,7 +4,7 @@ linktitle: get_SourceType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_SourceType method. Gets or sets the source type of a source in C++.'
 type: docs
-weight: 57756
+weight: 42000
 url: /cpp/aspose.words.bibliography/source/get_sourcetype/
 ---
 ## Source::get_SourceType method

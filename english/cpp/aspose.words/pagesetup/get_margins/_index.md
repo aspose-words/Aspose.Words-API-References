@@ -4,7 +4,7 @@ linktitle: get_Margins
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_Margins method. Returns or sets preset Margins of the page in C++.'
 type: docs
-weight: 49580
+weight: 28000
 url: /cpp/aspose.words/pagesetup/get_margins/
 ---
 ## PageSetup::get_Margins method

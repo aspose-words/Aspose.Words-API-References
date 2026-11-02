@@ -4,7 +4,7 @@ linktitle: get_PrefixMappings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::XmlMapping::get_PrefixMappings method. Returns XML namespace prefix mappings to evaluate the XPath in C++.'
 type: docs
-weight: 14000
+weight: 13000
 url: /cpp/aspose.words.markup/xmlmapping/get_prefixmappings/
 ---
 ## XmlMapping::get_PrefixMappings method

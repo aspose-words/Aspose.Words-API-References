@@ -4,7 +4,7 @@ linktitle: get_Style
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::Chart::get_Style method. Gets the style of the chart in C++.'
 type: docs
-weight: 10858
+weight: 7500
 url: /cpp/aspose.words.drawing.charts/chart/get_style/
 ---
 ## Chart::get_Style method

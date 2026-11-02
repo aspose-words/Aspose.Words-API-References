@@ -4,7 +4,7 @@ linktitle: get_Lcid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Lcid method. Gets or sets the locale ID of a source in C++.'
 type: docs
-weight: 57486
+weight: 27000
 url: /cpp/aspose.words.bibliography/source/get_lcid/
 ---
 ## Source::get_Lcid method

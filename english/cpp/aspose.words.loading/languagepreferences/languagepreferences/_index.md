@@ -4,7 +4,7 @@ linktitle: LanguagePreferences
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use LanguagePreferences constructor of Aspose::Words::Loading::LanguagePreferences class in C++.'
 type: docs
-weight: 7250
+weight: 4500
 url: /cpp/aspose.words.loading/languagepreferences/languagepreferences/
 ---
 ## LanguagePreferences::LanguagePreferences constructor

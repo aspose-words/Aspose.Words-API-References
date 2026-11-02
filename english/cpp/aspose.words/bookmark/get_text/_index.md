@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bookmark::get_Text method. Gets the text enclosed in the bookmark in C++.'
 type: docs
-weight: 11889
+weight: 11875
 url: /cpp/aspose.words/bookmark/get_text/
 ---
 ## Bookmark::get_Text method

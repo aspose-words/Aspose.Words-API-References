@@ -4,7 +4,7 @@ linktitle: get_Interviewer
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Interviewer method. Gets or sets the interviewer of a source in C++.'
 type: docs
-weight: 19670
+weight: 12000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_interviewer/
 ---
 ## ContributorCollection::get_Interviewer method

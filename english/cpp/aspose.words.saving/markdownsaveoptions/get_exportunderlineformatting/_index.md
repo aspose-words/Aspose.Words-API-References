@@ -4,7 +4,7 @@ linktitle: get_ExportUnderlineFormatting
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ExportUnderlineFormatting method. Gets or sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is false in C++.'
 type: docs
-weight: 10090
+weight: 3500
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_exportunderlineformatting/
 ---
 ## MarkdownSaveOptions::get_ExportUnderlineFormatting method

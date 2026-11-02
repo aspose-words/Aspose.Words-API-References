@@ -4,7 +4,7 @@ linktitle: set_Timeout
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_Timeout method. Sets a time-out value for accessing timestamp server. The default value is 100 seconds in C++.'
 type: docs
-weight: 11000
+weight: 8000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/set_timeout/
 ---
 ## DigitalSignatureTimestampSettings::set_Timeout method

@@ -4,7 +4,7 @@ linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_Width method. Specifies the default width value for this task pane instance in C++.'
 type: docs
-weight: 10889
+weight: 8000
 url: /cpp/aspose.words.webextensions/taskpane/get_width/
 ---
 ## TaskPane::get_Width method

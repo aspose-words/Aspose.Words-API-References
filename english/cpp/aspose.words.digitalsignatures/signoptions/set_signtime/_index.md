@@ -10,7 +10,7 @@ url: /cpp/aspose.words.digitalsignatures/signoptions/set_signtime/
 ## SignOptions::set_SignTime method
 
 
-The date of signing. Default value is current time (**Now**)
+The date of signing. Default value is current time (Now)
 
 ```cpp
 void Aspose::Words::DigitalSignatures::SignOptions::set_SignTime(System::DateTime value)

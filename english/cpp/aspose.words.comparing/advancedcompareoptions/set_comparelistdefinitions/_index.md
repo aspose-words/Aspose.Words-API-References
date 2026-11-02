@@ -4,7 +4,7 @@ linktitle: set_CompareListDefinitions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::AdvancedCompareOptions::set_CompareListDefinitions method. Specifies whether list definition contents are compared instead of list definition Ids in C++.'
 type: docs
-weight: 6834
+weight: 5500
 url: /cpp/aspose.words.comparing/advancedcompareoptions/set_comparelistdefinitions/
 ---
 ## AdvancedCompareOptions::set_CompareListDefinitions method

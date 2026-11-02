@@ -4,7 +4,7 @@ linktitle: get_Position
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Position method. Gets or sets the position of the data label in C++.'
 type: docs
-weight: 18462
+weight: 7501
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_position/
 ---
 ## ChartDataLabel::get_Position method

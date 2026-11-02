@@ -4,7 +4,7 @@ linktitle: get_GradientVariant
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_GradientVariant method. Gets the gradient variant GradientVariant for the fill in C++.'
 type: docs
-weight: 58000
+weight: 57000
 url: /cpp/aspose.words.drawing/fill/get_gradientvariant/
 ---
 ## Fill::get_GradientVariant method

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::get_Count method. Returns the number of series groups in this collection in C++.'
 type: docs
-weight: 12750
+weight: 13667
 url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/get_count/
 ---
 ## ChartSeriesGroupCollection::get_Count method

@@ -4,7 +4,7 @@ linktitle: get_Editor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Editor method. Gets or sets the editor of a source in C++.'
 type: docs
-weight: 19560
+weight: 10000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_editor/
 ---
 ## ContributorCollection::get_Editor method

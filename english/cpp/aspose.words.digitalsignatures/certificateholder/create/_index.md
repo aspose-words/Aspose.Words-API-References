@@ -27,10 +27,10 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> As
 An instance of [CertificateHolder](../)
 ## Exceptions
 
-* **InvalidParameterException** - Thrown if certBytes is **null**
-* **InvalidParameterException** - Thrown if password is **null**
-* **SecurityException** - Thrown if PKCS12 store contains no aliases
-* **IOException** - Thrown if there is wrong password or corrupted file.
+* InvalidParameterException - Thrown if certBytes is **null**
+* InvalidParameterException - Thrown if password is **null**
+* SecurityException - Thrown if PKCS12 store contains no aliases
+* IOException - Thrown if there is wrong password or corrupted file.
 
 ## See Also
 
@@ -57,10 +57,10 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> As
 An instance of [CertificateHolder](../)
 ## Exceptions
 
-* **InvalidParameterException** - Thrown if certBytes is **null**
-* **InvalidParameterException** - Thrown if password is **null**
-* **SecurityException** - Thrown if PKCS12 store contains no aliases
-* **IOException** - Thrown if there is wrong password or corrupted file.
+* InvalidParameterException - Thrown if certBytes is **null**
+* InvalidParameterException - Thrown if password is **null**
+* SecurityException - Thrown if PKCS12 store contains no aliases
+* IOException - Thrown if there is wrong password or corrupted file.
 
 ## See Also
 
@@ -111,10 +111,10 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 ```
 ## Exceptions
 
-* **InvalidParameterException** - Thrown if fileName is **null**
-* **InvalidParameterException** - Thrown if password is **null**
-* **SecurityException** - Thrown if PKCS12 store contains no aliases
-* **IOException** - Thrown if there is wrong password or corrupted file.
+* InvalidParameterException - Thrown if fileName is **null**
+* InvalidParameterException - Thrown if password is **null**
+* SecurityException - Thrown if PKCS12 store contains no aliases
+* IOException - Thrown if there is wrong password or corrupted file.
 
 ## See Also
 
@@ -142,11 +142,11 @@ static System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> As
 An instance of [CertificateHolder](../)
 ## Exceptions
 
-* **InvalidParameterException** - Thrown if fileName is **null**
-* **InvalidParameterException** - Thrown if password is **null**
-* **SecurityException** - Thrown if PKCS12 store contains no aliases
-* **IOException** - Thrown if there is wrong password or corrupted file.
-* **SecurityException** - Thrown if there is no private key with the given alias
+* InvalidParameterException - Thrown if fileName is **null**
+* InvalidParameterException - Thrown if password is **null**
+* SecurityException - Thrown if PKCS12 store contains no aliases
+* IOException - Thrown if there is wrong password or corrupted file.
+* SecurityException - Thrown if there is no private key with the given alias
 
 ## See Also
 

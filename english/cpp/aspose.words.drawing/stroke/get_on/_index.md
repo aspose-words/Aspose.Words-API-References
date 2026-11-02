@@ -4,7 +4,7 @@ linktitle: get_On
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_On method. Defines whether the path will be stroked in C++.'
 type: docs
-weight: 23720
+weight: 14000
 url: /cpp/aspose.words.drawing/stroke/get_on/
 ---
 ## Stroke::get_On method

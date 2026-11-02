@@ -4,7 +4,7 @@ linktitle: get_CertificateHolder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::SignerContext::get_CertificateHolder method. CertificateHolder object with certificate that used to sign file in C++.'
 type: docs
-weight: 5500
+weight: 2000
 url: /cpp/aspose.words.lowcode/signercontext/get_certificateholder/
 ---
 ## SignerContext::get_CertificateHolder method

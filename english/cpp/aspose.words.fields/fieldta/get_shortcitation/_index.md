@@ -4,7 +4,7 @@ linktitle: get_ShortCitation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldTA::get_ShortCitation method. Gets the short citation for the entry in C++.'
 type: docs
-weight: 9875
+weight: 7000
 url: /cpp/aspose.words.fields/fieldta/get_shortcitation/
 ---
 ## FieldTA::get_ShortCitation method

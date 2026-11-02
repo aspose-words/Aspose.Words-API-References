@@ -4,7 +4,7 @@ linktitle: get_InsertedTextEffect
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_InsertedTextEffect method. Allows to specify the effect to be applied to the inserted content Insertion. Default value is Underline in C++.'
 type: docs
-weight: 22352
+weight: 6000
 url: /cpp/aspose.words.layout/revisionoptions/get_insertedtexteffect/
 ---
 ## RevisionOptions::get_InsertedTextEffect method
@@ -66,7 +66,7 @@ doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Value of [Hidden](../../revisiontexteffect/) is not allowed.
+* ArgumentOutOfRangeException - Value of [Hidden](../../revisiontexteffect/) is not allowed.
 
 ## See Also
 

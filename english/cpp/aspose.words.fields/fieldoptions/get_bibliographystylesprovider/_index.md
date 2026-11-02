@@ -4,7 +4,7 @@ linktitle: get_BibliographyStylesProvider
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_BibliographyStylesProvider method. Gets or sets a provider that returns a bibliography style for the FieldBibliography and FieldCitation fields in C++.'
 type: docs
-weight: 24126
+weight: 2500
 url: /cpp/aspose.words.fields/fieldoptions/get_bibliographystylesprovider/
 ---
 ## FieldOptions::get_BibliographyStylesProvider method

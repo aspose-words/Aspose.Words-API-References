@@ -4,7 +4,7 @@ linktitle: get_Shadow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Shadow method. True if the font is formatted as shadowed in C++.'
 type: docs
-weight: 59626
+weight: 59224
 url: /cpp/aspose.words/font/get_shadow/
 ---
 ## Font::get_Shadow method

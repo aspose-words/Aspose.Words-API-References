@@ -4,7 +4,7 @@ linktitle: get_Translator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Translator method. Gets or sets the translator of a source in C++.'
 type: docs
-weight: 19890
+weight: 16000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_translator/
 ---
 ## ContributorCollection::get_Translator method

@@ -4,7 +4,7 @@ linktitle: get_BaseForeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_BaseForeColor method. Gets a Color object that represents the base foreground color for the fill without any modifiers in C++.'
 type: docs
-weight: 49000
+weight: 48000
 url: /cpp/aspose.words.drawing/fill/get_baseforecolor/
 ---
 ## Fill::get_BaseForeColor method

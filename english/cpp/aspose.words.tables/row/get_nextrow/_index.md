@@ -4,7 +4,7 @@ linktitle: get_NextRow
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Row::get_NextRow method. Gets the next Row node in C++.'
 type: docs
-weight: 15645
+weight: 14848
 url: /cpp/aspose.words.tables/row/get_nextrow/
 ---
 ## Row::get_NextRow method

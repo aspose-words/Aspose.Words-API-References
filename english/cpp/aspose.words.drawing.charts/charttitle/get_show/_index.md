@@ -4,7 +4,7 @@ linktitle: get_Show
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartTitle::get_Show method. Determines whether the title shall be shown for this chart. Default value is true in C++.'
 type: docs
-weight: 6390
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/charttitle/get_show/
 ---
 ## ChartTitle::get_Show method

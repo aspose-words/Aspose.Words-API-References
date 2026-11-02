@@ -22,11 +22,11 @@ class ShadowFormat : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clear](./clear/)() | Clears shadow format. |
-| [get_Color](./get_color/)() | Gets or sets a **Color** object that represents the color for the shadow. The default value is **Black**. |
+| [get_Color](./get_color/)() | Gets or sets a Color object that represents the color for the shadow. The default value is Black. |
 | [get_Transparency](./get_transparency/)() | Gets or sets the degree of transparency for the shadow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
 | [get_Type](./get_type/)() | Gets or sets the specified [ShadowType](../shadowtype/) for ShadowFormat. |
 | [get_Visible](./get_visible/)() | Returns **true** if the formatting applied to this instance is visible. |
-| [set_Color](./set_color/)(System::Drawing::Color) | Sets a **Color** object that represents the color for the shadow. The default value is **Black**. |
+| [set_Color](./set_color/)(System::Drawing::Color) | Sets a Color object that represents the color for the shadow. The default value is Black. |
 | [set_Transparency](./set_transparency/)(double) | Sets the degree of transparency for the shadow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
 | [set_Type](./set_type/)(Aspose::Words::Drawing::ShadowType) | Sets the specified [ShadowType](../shadowtype/) for ShadowFormat. |
 ## Examples

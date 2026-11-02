@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaModuleCollection::get_Count method. Returns the number of VBA modules in the collection in C++.'
 type: docs
-weight: 11750
+weight: 12667
 url: /cpp/aspose.words.vba/vbamodulecollection/get_count/
 ---
 ## VbaModuleCollection::get_Count method

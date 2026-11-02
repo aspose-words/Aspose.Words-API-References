@@ -4,7 +4,7 @@ linktitle: get_WidthPercent
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::HorizontalRuleFormat::get_WidthPercent method. Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width in C++.'
 type: docs
-weight: 8858
+weight: 6000
 url: /cpp/aspose.words.drawing/horizontalruleformat/get_widthpercent/
 ---
 ## HorizontalRuleFormat::get_WidthPercent method
@@ -44,7 +44,7 @@ ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
+* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

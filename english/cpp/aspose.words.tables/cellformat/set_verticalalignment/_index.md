@@ -4,7 +4,7 @@ linktitle: set_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::set_VerticalAlignment method. Sets the vertical alignment of text in the cell in C++.'
 type: docs
-weight: 57000
+weight: 56000
 url: /cpp/aspose.words.tables/cellformat/set_verticalalignment/
 ---
 ## CellFormat::set_VerticalAlignment method

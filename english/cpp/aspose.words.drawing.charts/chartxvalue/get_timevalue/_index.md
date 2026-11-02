@@ -4,7 +4,7 @@ linktitle: get_TimeValue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartXValue::get_TimeValue method. Gets the stored time value in C++.'
 type: docs
-weight: 22000
+weight: 19000
 url: /cpp/aspose.words.drawing.charts/chartxvalue/get_timevalue/
 ---
 ## ChartXValue::get_TimeValue method

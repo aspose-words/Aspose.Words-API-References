@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_NodeType method. Returns StructuredDocumentTagRangeStart in C++.'
 type: docs
-weight: 27264
+weight: 27250
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_nodetype/
 ---
 ## StructuredDocumentTagRangeStart::get_NodeType method

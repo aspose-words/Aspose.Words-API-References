@@ -4,7 +4,7 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Title method. Gets or sets the title of the document in C++.'
 type: docs
-weight: 36844
+weight: 29000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_title/
 ---
 ## BuiltInDocumentProperties::get_Title method

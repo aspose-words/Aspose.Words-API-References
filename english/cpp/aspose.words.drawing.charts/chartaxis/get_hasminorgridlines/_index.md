@@ -4,7 +4,7 @@ linktitle: get_HasMinorGridlines
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_HasMinorGridlines method. Gets or sets a flag indicating whether the axis has minor gridlines in C++.'
 type: docs
-weight: 31396
+weight: 10000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_hasminorgridlines/
 ---
 ## ChartAxis::get_HasMinorGridlines method

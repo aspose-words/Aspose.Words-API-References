@@ -4,7 +4,7 @@ linktitle: get_OwnStatus
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::get_OwnStatus method. Specifies the source of the text that''s displayed in the status bar when a form field has the focus in C++.'
 type: docs
-weight: 64000
+weight: 63000
 url: /cpp/aspose.words.fields/formfield/get_ownstatus/
 ---
 ## FormField::get_OwnStatus method

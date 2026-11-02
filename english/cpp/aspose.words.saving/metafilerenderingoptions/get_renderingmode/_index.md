@@ -4,7 +4,7 @@ linktitle: get_RenderingMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_RenderingMode method. Gets or sets a value determining how metafile images should be rendered in C++.'
 type: docs
-weight: 10700
+weight: 5000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_renderingmode/
 ---
 ## MetafileRenderingOptions::get_RenderingMode method

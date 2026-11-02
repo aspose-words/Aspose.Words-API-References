@@ -4,7 +4,7 @@ linktitle: get_UseSdtTagAsFormFieldName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_UseSdtTagAsFormFieldName method. Specifies whether to use SDT control Tag or Id property as a name of form field in PDF in C++.'
 type: docs
-weight: 36925
+weight: 32500
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_usesdttagasformfieldname/
 ---
 ## PdfSaveOptions::get_UseSdtTagAsFormFieldName method

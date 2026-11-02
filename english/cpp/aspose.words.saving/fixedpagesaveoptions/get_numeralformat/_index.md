@@ -4,7 +4,7 @@ linktitle: get_NumeralFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::FixedPageSaveOptions::get_NumeralFormat method. Gets or sets NumeralFormat used for rendering of numerals. European numerals are used by default in C++.'
 type: docs
-weight: 11556
+weight: 6000
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/
 ---
 ## FixedPageSaveOptions::get_NumeralFormat method

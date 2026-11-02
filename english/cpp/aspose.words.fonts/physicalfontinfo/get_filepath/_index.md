@@ -4,7 +4,7 @@ linktitle: get_FilePath
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::PhysicalFontInfo::get_FilePath method. Path to the font file if any in C++.'
 type: docs
-weight: 10000
+weight: 2000
 url: /cpp/aspose.words.fonts/physicalfontinfo/get_filepath/
 ---
 ## PhysicalFontInfo::get_FilePath method

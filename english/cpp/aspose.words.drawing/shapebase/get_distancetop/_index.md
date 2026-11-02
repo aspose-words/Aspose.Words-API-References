@@ -4,7 +4,7 @@ linktitle: get_DistanceTop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_DistanceTop method. Returns or sets the distance (in points) between the document text and the top edge of the shape in C++.'
 type: docs
-weight: 61255
+weight: 61250
 url: /cpp/aspose.words.drawing/shapebase/get_distancetop/
 ---
 ## ShapeBase::get_DistanceTop method

@@ -4,7 +4,7 @@ linktitle: FieldArgumentBuilder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldArgumentBuilder::FieldArgumentBuilder constructor. Initializes an instance of the FieldArgumentBuilder class in C++.'
 type: docs
-weight: 5500
+weight: 6000
 url: /cpp/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder::FieldArgumentBuilder constructor

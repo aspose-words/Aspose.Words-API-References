@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::FootnoteSeparator::get_NodeType method. Gets the type of this node in C++.'
 type: docs
-weight: 10000
+weight: 5000
 url: /cpp/aspose.words.notes/footnoteseparator/get_nodetype/
 ---
 ## FootnoteSeparator::get_NodeType method

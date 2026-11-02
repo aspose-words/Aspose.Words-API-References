@@ -4,7 +4,7 @@ linktitle: get_ImageFileName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSavingArgs::get_ImageFileName method. Gets or sets the file name (without path) where the image will be saved to in C++.'
 type: docs
-weight: 9500
+weight: 4000
 url: /cpp/aspose.words.saving/imagesavingargs/get_imagefilename/
 ---
 ## ImageSavingArgs::get_ImageFileName method

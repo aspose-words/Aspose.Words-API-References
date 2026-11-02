@@ -4,7 +4,7 @@ linktitle: get_SmallCaps
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_SmallCaps method. True if the font is formatted as small capital letters in C++.'
 type: docs
-weight: 59677
+weight: 59332
 url: /cpp/aspose.words/font/get_smallcaps/
 ---
 ## Font::get_SmallCaps method

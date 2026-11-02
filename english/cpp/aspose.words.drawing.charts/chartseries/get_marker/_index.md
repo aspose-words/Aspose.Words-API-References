@@ -4,7 +4,7 @@ linktitle: get_Marker
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_Marker method. Specifies a data marker. Marker is automatically created when requested in C++.'
 type: docs
-weight: 14826
+weight: 14814
 url: /cpp/aspose.words.drawing.charts/chartseries/get_marker/
 ---
 ## ChartSeries::get_Marker method

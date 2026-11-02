@@ -4,7 +4,7 @@ linktitle: get_ListItems
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_ListItems method. Gets SdtListItemCollection associated with this SDT in C++.'
 type: docs
-weight: 78000
+weight: 77000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_listitems/
 ---
 ## StructuredDocumentTag::get_ListItems method

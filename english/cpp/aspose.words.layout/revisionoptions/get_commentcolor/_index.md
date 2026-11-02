@@ -4,7 +4,7 @@ linktitle: get_CommentColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::RevisionOptions::get_CommentColor method. Allows to specify the color to be used for comments. Default value is Red in C++.'
 type: docs
-weight: 22088
+weight: 2000
 url: /cpp/aspose.words.layout/revisionoptions/get_commentcolor/
 ---
 ## RevisionOptions::get_CommentColor method

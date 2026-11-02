@@ -4,7 +4,7 @@ linktitle: set_DistanceTop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_DistanceTop method. Sets distance between table top and the surrounding text, in points in C++.'
 type: docs
-weight: 118000
+weight: 117000
 url: /cpp/aspose.words.tables/table/set_distancetop/
 ---
 ## Table::set_DistanceTop method

@@ -4,7 +4,7 @@ linktitle: get_All
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PageSet::get_All method. Gets a set with all the pages of the document in their original order in C++.'
 type: docs
-weight: 10000
+weight: 7500
 url: /cpp/aspose.words.saving/pageset/get_all/
 ---
 ## PageSet::get_All method

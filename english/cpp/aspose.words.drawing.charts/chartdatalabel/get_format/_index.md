@@ -4,7 +4,7 @@ linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Format method. Provides access to fill and line formatting of the data label in C++.'
 type: docs
-weight: 18126
+weight: 3500
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_format/
 ---
 ## ChartDataLabel::get_Format method

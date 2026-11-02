@@ -4,7 +4,7 @@ linktitle: get_ForegroundPatternThemeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Shading::get_ForegroundPatternThemeColor method. Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this Shading object in C++.'
 type: docs
-weight: 13667
+weight: 12875
 url: /cpp/aspose.words/shading/get_foregroundpatternthemecolor/
 ---
 ## Shading::get_ForegroundPatternThemeColor method

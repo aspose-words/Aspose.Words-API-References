@@ -4,7 +4,7 @@ linktitle: get_Callback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutOptions::get_Callback method. Gets IPageLayoutCallback implementation used by page layout model in C++.'
 type: docs
-weight: 12252
+weight: 3000
 url: /cpp/aspose.words.layout/layoutoptions/get_callback/
 ---
 ## LayoutOptions::get_Callback method

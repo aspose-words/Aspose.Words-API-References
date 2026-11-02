@@ -4,7 +4,7 @@ linktitle: get_List
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListFormat::get_List method. Gets or sets the list this paragraph is a member of in C++.'
 type: docs
-weight: 12501
+weight: 12400
 url: /cpp/aspose.words.lists/listformat/get_list/
 ---
 ## ListFormat::get_List method

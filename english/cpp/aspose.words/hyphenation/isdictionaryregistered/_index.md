@@ -4,7 +4,7 @@ linktitle: IsDictionaryRegistered
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Hyphenation::IsDictionaryRegistered method. Returns false if for the specified language there is no dictionary registered or if registered is Null dictionary, true otherwise in C++.'
 type: docs
-weight: 9000
+weight: 3000
 url: /cpp/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation::IsDictionaryRegistered method

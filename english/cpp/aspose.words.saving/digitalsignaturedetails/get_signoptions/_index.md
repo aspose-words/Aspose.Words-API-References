@@ -4,7 +4,7 @@ linktitle: get_SignOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DigitalSignatureDetails::get_SignOptions method. Gets or sets a SignOptions object used to sign a document in C++.'
 type: docs
-weight: 6750
+weight: 4000
 url: /cpp/aspose.words.saving/digitalsignaturedetails/get_signoptions/
 ---
 ## DigitalSignatureDetails::get_SignOptions method

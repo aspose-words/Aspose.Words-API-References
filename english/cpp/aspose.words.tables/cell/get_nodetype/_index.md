@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Cell::get_NodeType method. Returns Cell in C++.'
 type: docs
-weight: 23000
+weight: 10000
 url: /cpp/aspose.words.tables/cell/get_nodetype/
 ---
 ## Cell::get_NodeType method

@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::AxisScaling::get_Type method. Gets or sets scaling type of the axis in C++.'
 type: docs
-weight: 8834
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/axisscaling/get_type/
 ---
 ## AxisScaling::get_Type method

@@ -4,7 +4,7 @@ linktitle: Merge
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Merger::Merge method. Merges the given input documents into a single document and returns Document instance of the final document in C++.'
 type: docs
-weight: 6000
+weight: 1000
 url: /cpp/aspose.words.lowcode/merger/merge/
 ---
 ## Merger::Merge(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Document\>\> \&, Aspose::Words::LowCode::MergeFormatMode) method

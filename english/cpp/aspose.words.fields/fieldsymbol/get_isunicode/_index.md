@@ -4,7 +4,7 @@ linktitle: get_IsUnicode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSymbol::get_IsUnicode method. Gets or sets whether the character code is interpreted as the value of a Unicode character in C++.'
 type: docs
-weight: 10889
+weight: 8000
 url: /cpp/aspose.words.fields/fieldsymbol/get_isunicode/
 ---
 ## FieldSymbol::get_IsUnicode method

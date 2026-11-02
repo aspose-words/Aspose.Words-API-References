@@ -4,7 +4,7 @@ linktitle: get_ImageSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_ImageSize method. Gets or sets the size of a generated image in pixels in C++.'
 type: docs
-weight: 21168
+weight: 7500
 url: /cpp/aspose.words.saving/imagesaveoptions/get_imagesize/
 ---
 ## ImageSaveOptions::get_ImageSize method

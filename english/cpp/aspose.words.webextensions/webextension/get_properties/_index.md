@@ -4,7 +4,7 @@ linktitle: get_Properties
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::WebExtension::get_Properties method. Represents a set of web extension custom properties in C++.'
 type: docs
-weight: 9750
+weight: 6000
 url: /cpp/aspose.words.webextensions/webextension/get_properties/
 ---
 ## WebExtension::get_Properties method

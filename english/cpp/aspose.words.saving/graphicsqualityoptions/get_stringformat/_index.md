@@ -4,7 +4,7 @@ linktitle: get_StringFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::GraphicsQualityOptions::get_StringFormat method. Gets or sets text layout information (such as alignment, orientation and tab stops) display manipulations (such as ellipsis insertion and national digit substitution) and OpenType features in C++.'
 type: docs
-weight: 11667
+weight: 7000
 url: /cpp/aspose.words.saving/graphicsqualityoptions/get_stringformat/
 ---
 ## GraphicsQualityOptions::get_StringFormat method

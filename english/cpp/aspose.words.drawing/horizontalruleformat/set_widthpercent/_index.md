@@ -44,7 +44,7 @@ ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
+* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

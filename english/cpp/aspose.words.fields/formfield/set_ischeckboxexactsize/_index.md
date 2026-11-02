@@ -4,7 +4,7 @@ linktitle: set_IsCheckBoxExactSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_IsCheckBoxExactSize method. Sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly in C++.'
 type: docs
-weight: 80000
+weight: 79000
 url: /cpp/aspose.words.fields/formfield/set_ischeckboxexactsize/
 ---
 ## FormField::set_IsCheckBoxExactSize method

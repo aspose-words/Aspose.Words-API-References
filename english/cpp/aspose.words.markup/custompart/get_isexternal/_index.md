@@ -4,7 +4,7 @@ linktitle: get_IsExternal
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPart::get_IsExternal method. False if this custom part is stored inside the OOXML package. True if this custom part is an external target in C++.'
 type: docs
-weight: 10572
+weight: 6000
 url: /cpp/aspose.words.markup/custompart/get_isexternal/
 ---
 ## CustomPart::get_IsExternal method

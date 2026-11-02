@@ -4,7 +4,7 @@ linktitle: get_Character
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::TxtListIndentation::get_Character method. Gets or sets which character to use for indenting list levels. The default value is ''\0'', that means there is no indentation in C++.'
 type: docs
-weight: 6600
+weight: 3000
 url: /cpp/aspose.words.saving/txtlistindentation/get_character/
 ---
 ## TxtListIndentation::get_Character method

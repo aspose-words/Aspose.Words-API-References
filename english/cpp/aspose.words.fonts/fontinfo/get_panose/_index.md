@@ -4,7 +4,7 @@ linktitle: get_Panose
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontInfo::get_Panose method. Gets or sets the PANOSE typeface classification number in C++.'
 type: docs
-weight: 12800
+weight: 12334
 url: /cpp/aspose.words.fonts/fontinfo/get_panose/
 ---
 ## FontInfo::get_Panose method

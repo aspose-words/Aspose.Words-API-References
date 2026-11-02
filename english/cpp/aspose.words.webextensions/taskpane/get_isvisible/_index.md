@@ -4,7 +4,7 @@ linktitle: get_IsVisible
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_IsVisible method. Specifies whether the task pane shows as visible by default when the document opens in C++.'
 type: docs
-weight: 10556
+weight: 5000
 url: /cpp/aspose.words.webextensions/taskpane/get_isvisible/
 ---
 ## TaskPane::get_IsVisible method

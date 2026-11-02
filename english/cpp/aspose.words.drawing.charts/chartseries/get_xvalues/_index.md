@@ -4,7 +4,7 @@ linktitle: get_XValues
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_XValues method. Gets a collection of X values for this chart series in C++.'
 type: docs
-weight: 14942
+weight: 14938
 url: /cpp/aspose.words.drawing.charts/chartseries/get_xvalues/
 ---
 ## ChartSeries::get_XValues method

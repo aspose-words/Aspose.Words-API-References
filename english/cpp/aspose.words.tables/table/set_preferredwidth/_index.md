@@ -4,7 +4,7 @@ linktitle: set_PreferredWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_PreferredWidth method. Sets the table preferred width in C++.'
 type: docs
-weight: 122000
+weight: 121000
 url: /cpp/aspose.words.tables/table/set_preferredwidth/
 ---
 ## Table::set_PreferredWidth method

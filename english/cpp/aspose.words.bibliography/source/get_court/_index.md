@@ -4,7 +4,7 @@ linktitle: get_Court
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Court method. Gets or sets the court of a source in C++.'
 type: docs
-weight: 57270
+weight: 15000
 url: /cpp/aspose.words.bibliography/source/get_court/
 ---
 ## Source::get_Court method

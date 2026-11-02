@@ -4,7 +4,7 @@ linktitle: get_StartArrowLength
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Stroke::get_StartArrowLength method. Defines the arrowhead length for the start of a stroke in C++.'
 type: docs
-weight: 23790
+weight: 16000
 url: /cpp/aspose.words.drawing/stroke/get_startarrowlength/
 ---
 ## Stroke::get_StartArrowLength method

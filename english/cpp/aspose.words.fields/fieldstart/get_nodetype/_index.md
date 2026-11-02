@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldStart::get_NodeType method. Returns FieldStart in C++.'
 type: docs
-weight: 9000
+weight: 4000
 url: /cpp/aspose.words.fields/fieldstart/get_nodetype/
 ---
 ## FieldStart::get_NodeType method

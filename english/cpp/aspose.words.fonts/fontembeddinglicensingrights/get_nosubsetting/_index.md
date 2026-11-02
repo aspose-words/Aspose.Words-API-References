@@ -4,7 +4,7 @@ linktitle: get_NoSubsetting
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_NoSubsetting method. Indicates the "No subsetting" restriction in C++.'
 type: docs
-weight: 10000
+weight: 4000
 url: /cpp/aspose.words.fonts/fontembeddinglicensingrights/get_nosubsetting/
 ---
 ## FontEmbeddingLicensingRights::get_NoSubsetting method

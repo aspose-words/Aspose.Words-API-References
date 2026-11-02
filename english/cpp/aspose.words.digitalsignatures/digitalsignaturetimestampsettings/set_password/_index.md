@@ -4,7 +4,7 @@ linktitle: set_Password
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_Password method. Sets a string value representing timestamp server password. The default value is null in C++.'
 type: docs
-weight: 9000
+weight: 6000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/set_password/
 ---
 ## DigitalSignatureTimestampSettings::set_Password method

@@ -4,7 +4,7 @@ linktitle: get_FootnoteSeparators
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBase::get_FootnoteSeparators method. Provides access to the footnote/endnote separators defined in the document in C++.'
 type: docs
-weight: 13419
+weight: 12728
 url: /cpp/aspose.words/documentbase/get_footnoteseparators/
 ---
 ## DocumentBase::get_FootnoteSeparators method

@@ -4,7 +4,7 @@ linktitle: get_Transparency
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_Transparency method. Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear) in C++.'
 type: docs
-weight: 65000
+weight: 64000
 url: /cpp/aspose.words.drawing/fill/get_transparency/
 ---
 ## Fill::get_Transparency method

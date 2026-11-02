@@ -4,7 +4,7 @@ linktitle: get_StoryType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::InlineStory::get_StoryType method. Returns the type of the story in C++.'
 type: docs
-weight: 26000
+weight: 12000
 url: /cpp/aspose.words/inlinestory/get_storytype/
 ---
 ## InlineStory::get_StoryType method

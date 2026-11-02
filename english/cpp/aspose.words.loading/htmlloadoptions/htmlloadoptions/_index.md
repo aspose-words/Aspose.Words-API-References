@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions constructor. Initializes a new instance of this class with default values in C++.'
 type: docs
-weight: 9500
+weight: 2000
 url: /cpp/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 ---
 ## HtmlLoadOptions::HtmlLoadOptions() constructor

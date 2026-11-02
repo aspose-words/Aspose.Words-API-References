@@ -4,7 +4,7 @@ linktitle: get_HideMark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_HideMark method. Returns or sets visibility of cell mark in C++.'
 type: docs
-weight: 36000
+weight: 35000
 url: /cpp/aspose.words.tables/cellformat/get_hidemark/
 ---
 ## CellFormat::get_HideMark method

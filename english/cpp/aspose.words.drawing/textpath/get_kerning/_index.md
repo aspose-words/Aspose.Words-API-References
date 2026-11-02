@@ -4,7 +4,7 @@ linktitle: get_Kerning
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_Kerning method. Determines whether kerning is turned on in C++.'
 type: docs
-weight: 23322
+weight: 7000
 url: /cpp/aspose.words.drawing/textpath/get_kerning/
 ---
 ## TextPath::get_Kerning method

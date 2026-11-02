@@ -4,7 +4,7 @@ linktitle: get_ResolveThemeColors
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ImportFormatOptions::get_ResolveThemeColors method. Gets or sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. The default value is false in C++.'
 type: docs
-weight: 11819
+weight: 8500
 url: /cpp/aspose.words/importformatoptions/get_resolvethemecolors/
 ---
 ## ImportFormatOptions::get_ResolveThemeColors method

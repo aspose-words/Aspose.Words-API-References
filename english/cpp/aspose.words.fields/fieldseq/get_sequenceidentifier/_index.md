@@ -4,7 +4,7 @@ linktitle: get_SequenceIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier method. Gets or sets the name assigned to the series of items that are to be numbered in C++.'
 type: docs
-weight: 8858
+weight: 6000
 url: /cpp/aspose.words.fields/fieldseq/get_sequenceidentifier/
 ---
 ## FieldSeq::get_SequenceIdentifier method

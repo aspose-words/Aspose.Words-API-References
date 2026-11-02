@@ -56,8 +56,8 @@ class Document : public DocumentBase,
 | [RemoveCustomizations](./removecustomizations/)() | Removes toolbar and keyboard command customizations from the document. |
 | [RemoveExternalSchemaReferences](./removeexternalschemareferences/)() | Removes external XML schema references from this document. |
 | [RemoveMacros](./removemacros/)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
-| [RenderToScale](./rendertoscale/)(int32_t, const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float) | Renders a document page into a **Graphics** object to a specified scale. |
-| [RenderToSize](./rendertosize/)(int32_t, const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float, float) | Renders a document page into a **Graphics** object to a specified size. |
+| [RenderToScale](./rendertoscale/)(int32_t, const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float) | Renders a document page into a Graphics object to a specified scale. |
+| [RenderToSize](./rendertosize/)(int32_t, const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float, float) | Renders a document page into a Graphics object to a specified size. |
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) | Saves the document to a stream using the specified format. |
 | [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Saves the document to a stream using the specified save options. |
 | [Save](./save/)(const System::String \&) | Saves the document to a file. Automatically determines the save format from the extension. |
@@ -221,7 +221,7 @@ Use one of the Save method overloads to save the document in any of the [SaveFor
 
 To draw document pages directly onto a Graphics object use [RenderToScale()](./rendertoscale/) or [RenderToSize()](./rendertosize/) method.
 
-To print the document, use one of the **Print()** methods.
+To print the document, use one of the Print() methods.
 
 [MailMerge](./get_mailmerge/) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a or an array of values. MailMerge will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
 

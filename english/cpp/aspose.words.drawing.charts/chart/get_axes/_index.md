@@ -4,7 +4,7 @@ linktitle: get_Axes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::Chart::get_Axes method. Gets a collection of all axes of this chart in C++.'
 type: docs
-weight: 10144
+weight: 1500
 url: /cpp/aspose.words.drawing.charts/chart/get_axes/
 ---
 ## Chart::get_Axes method

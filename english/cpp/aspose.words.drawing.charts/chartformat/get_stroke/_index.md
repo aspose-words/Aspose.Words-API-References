@@ -4,7 +4,7 @@ linktitle: get_Stroke
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartFormat::get_Stroke method. Gets line formatting for the parent chart element in C++.'
 type: docs
-weight: 12000
+weight: 11000
 url: /cpp/aspose.words.drawing.charts/chartformat/get_stroke/
 ---
 ## ChartFormat::get_Stroke method

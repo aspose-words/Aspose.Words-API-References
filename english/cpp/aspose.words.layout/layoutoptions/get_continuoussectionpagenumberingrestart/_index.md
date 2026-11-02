@@ -4,7 +4,7 @@ linktitle: get_ContinuousSectionPageNumberingRestart
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutOptions::get_ContinuousSectionPageNumberingRestart method. Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering in C++.'
 type: docs
-weight: 12419
+weight: 5000
 url: /cpp/aspose.words.layout/layoutoptions/get_continuoussectionpagenumberingrestart/
 ---
 ## LayoutOptions::get_ContinuousSectionPageNumberingRestart method

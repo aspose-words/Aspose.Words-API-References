@@ -4,7 +4,7 @@ linktitle: SetImage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Watermarker::SetImage method. Adds an image watermark into the document from streams with options in C++.'
 type: docs
-weight: 7000
+weight: 1000
 url: /cpp/aspose.words.lowcode/watermarker/setimage/
 ---
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::SharedPtr\<System::Drawing::Image\> \&) method

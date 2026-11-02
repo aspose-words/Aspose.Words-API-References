@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::get_NodeType method. Returns FormField in C++.'
 type: docs
-weight: 62000
+weight: 61000
 url: /cpp/aspose.words.fields/formfield/get_nodetype/
 ---
 ## FormField::get_NodeType method

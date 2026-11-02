@@ -4,7 +4,7 @@ linktitle: get_EmfPlusDualRenderingMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_EmfPlusDualRenderingMode method. Gets or sets a value determining how EMF+ Dual metafiles should be rendered in C++.'
 type: docs
-weight: 10300
+weight: 3000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emfplusdualrenderingmode/
 ---
 ## MetafileRenderingOptions::get_EmfPlusDualRenderingMode method

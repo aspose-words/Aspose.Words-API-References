@@ -64,7 +64,7 @@ doc->Save(get_ArtifactsDir() + u"Comment.AddCommentWithReply.docx");
 ```
 ## Exceptions
 
-* **InvalidOperationException** - Throws if this method is called on the existing Reply comment.
+* InvalidOperationException - Throws if this method is called on the existing Reply comment.
 
 ## See Also
 

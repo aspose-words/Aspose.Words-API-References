@@ -4,7 +4,7 @@ linktitle: get_IsAuto
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::Footnote::get_IsAuto method. Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark in C++.'
 type: docs
-weight: 10500
+weight: 5000
 url: /cpp/aspose.words.notes/footnote/get_isauto/
 ---
 ## Footnote::get_IsAuto method

@@ -4,7 +4,7 @@ linktitle: get_TimestampSettings
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfDigitalSignatureDetails::get_TimestampSettings method. Gets or sets the digital signature timestamp settings in C++.'
 type: docs
-weight: 10889
+weight: 8000
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/get_timestampsettings/
 ---
 ## PdfDigitalSignatureDetails::get_TimestampSettings method

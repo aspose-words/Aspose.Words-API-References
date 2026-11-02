@@ -4,7 +4,7 @@ linktitle: get_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_StyleIdentifier method. Gets or sets the locale independent style identifier of the paragraph style applied to this formatting in C++.'
 type: docs
-weight: 44846
+weight: 36000
 url: /cpp/aspose.words/paragraphformat/get_styleidentifier/
 ---
 ## ParagraphFormat::get_StyleIdentifier method

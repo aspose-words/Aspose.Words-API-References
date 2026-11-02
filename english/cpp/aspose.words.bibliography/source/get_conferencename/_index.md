@@ -4,7 +4,7 @@ linktitle: get_ConferenceName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_ConferenceName method. Gets or sets the conference or proceedings name of a source in C++.'
 type: docs
-weight: 57216
+weight: 12000
 url: /cpp/aspose.words.bibliography/source/get_conferencename/
 ---
 ## Source::get_ConferenceName method

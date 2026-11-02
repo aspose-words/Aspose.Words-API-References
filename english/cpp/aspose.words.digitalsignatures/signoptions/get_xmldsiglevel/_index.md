@@ -4,7 +4,7 @@ linktitle: get_XmlDsigLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_XmlDsigLevel method. Specifies the level of a digital signature based on the XML-DSig standard. The default value is XmlDSig in C++.'
 type: docs
-weight: 10315
+weight: 8500
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_xmldsiglevel/
 ---
 ## SignOptions::get_XmlDsigLevel method

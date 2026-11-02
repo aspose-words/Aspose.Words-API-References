@@ -4,7 +4,7 @@ linktitle: get_IsListItem
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListFormat::get_IsListItem method. True when the paragraph has bulleted or numbered formatting applied to it in C++.'
 type: docs
-weight: 12334
+weight: 12200
 url: /cpp/aspose.words.lists/listformat/get_islistitem/
 ---
 ## ListFormat::get_IsListItem method

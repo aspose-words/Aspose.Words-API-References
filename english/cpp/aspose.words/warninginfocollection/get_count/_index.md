@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WarningInfoCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 17502
+weight: 17500
 url: /cpp/aspose.words/warninginfocollection/get_count/
 ---
 ## WarningInfoCollection::get_Count method

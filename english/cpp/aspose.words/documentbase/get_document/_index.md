@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBase::get_Document method. Gets this instance in C++.'
 type: docs
-weight: 13252
+weight: 12364
 url: /cpp/aspose.words/documentbase/get_document/
 ---
 ## DocumentBase::get_Document method

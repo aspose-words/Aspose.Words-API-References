@@ -4,7 +4,7 @@ linktitle: get_ProgressCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_ProgressCallback method. Called during loading a document and accepts data about loading progress in C++.'
 type: docs
-weight: 20671
+weight: 14000
 url: /cpp/aspose.words.loading/loadoptions/get_progresscallback/
 ---
 ## LoadOptions::get_ProgressCallback method

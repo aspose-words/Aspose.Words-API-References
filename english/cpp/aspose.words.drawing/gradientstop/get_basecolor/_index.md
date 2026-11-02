@@ -4,7 +4,7 @@ linktitle: get_BaseColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GradientStop::get_BaseColor method. Gets a value representing the color of the gradient stop without any modifiers in C++.'
 type: docs
-weight: 8334
+weight: 8200
 url: /cpp/aspose.words.drawing/gradientstop/get_basecolor/
 ---
 ## GradientStop::get_BaseColor method

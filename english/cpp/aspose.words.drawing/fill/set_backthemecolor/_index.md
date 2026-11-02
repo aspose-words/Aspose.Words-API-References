@@ -4,7 +4,7 @@ linktitle: set_BackThemeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::set_BackThemeColor method. Sets a ThemeColor object that represents the background color for the fill in C++.'
 type: docs
-weight: 68000
+weight: 67000
 url: /cpp/aspose.words.drawing/fill/set_backthemecolor/
 ---
 ## Fill::set_BackThemeColor method

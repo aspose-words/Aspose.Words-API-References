@@ -4,7 +4,7 @@ linktitle: TabStop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TabStop::TabStop constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 10143
+weight: 8500
 url: /cpp/aspose.words/tabstop/tabstop/
 ---
 ## TabStop::TabStop(double) constructor

@@ -4,7 +4,7 @@ linktitle: get_JournalName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_JournalName method. Gets or sets the journal name of a source in C++.'
 type: docs
-weight: 57468
+weight: 26000
 url: /cpp/aspose.words.bibliography/source/get_journalname/
 ---
 ## Source::get_JournalName method

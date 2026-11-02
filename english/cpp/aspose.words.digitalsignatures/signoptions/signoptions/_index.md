@@ -4,7 +4,7 @@ linktitle: SignOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use SignOptions constructor of Aspose::Words::DigitalSignatures::SignOptions class in C++.'
 type: docs
-weight: 10020
+weight: 2000
 url: /cpp/aspose.words.digitalsignatures/signoptions/signoptions/
 ---
 ## SignOptions::SignOptions constructor

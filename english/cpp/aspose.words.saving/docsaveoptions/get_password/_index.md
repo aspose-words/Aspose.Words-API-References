@@ -4,7 +4,7 @@ linktitle: get_Password
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DocSaveOptions::get_Password method. Gets/sets a password to encrypt document using RC4 encryption method in C++.'
 type: docs
-weight: 9500
+weight: 4000
 url: /cpp/aspose.words.saving/docsaveoptions/get_password/
 ---
 ## DocSaveOptions::get_Password method

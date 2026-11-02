@@ -4,7 +4,7 @@ linktitle: get_ReferenceMark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Notes::Footnote::get_ReferenceMark method. Gets/sets custom reference mark to be used for this footnote. Default value is empty string, meaning auto-numbered footnotes are used in C++.'
 type: docs
-weight: 10750
+weight: 7000
 url: /cpp/aspose.words.notes/footnote/get_referencemark/
 ---
 ## Footnote::get_ReferenceMark method

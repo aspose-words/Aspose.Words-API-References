@@ -30,7 +30,7 @@ class ImageData : public IBorderAttrSource
 | [SetImage](./setimage/)(const System::String \&) | Sets the image that the shape displays. |
 | [SetImage](./setimage/)(std::basic_istream\<CharType, Traits\> \&) | Sets the image that the shape displays. |
 | [ToByteArray](./tobytearray/)() | Returns image bytes for any image regardless whether the image is stored or linked. |
-| [ToImage](./toimage/)() | Gets the image stored in the shape as a **Image** object. |
+| [ToImage](./toimage/)() | Gets the image stored in the shape as a Image object. |
 | [ToStream](./tostream/)() | Creates and returns a stream that contains the image bytes. |
 | [get_BiLevel](./get_bilevel/)() | Determines whether an image will be displayed in black and white. |
 | [get_Borders](./get_borders/)() | Gets the collection of borders of the image. Borders only have effect for inline images. |

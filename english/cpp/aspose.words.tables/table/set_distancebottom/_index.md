@@ -4,7 +4,7 @@ linktitle: set_DistanceBottom
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_DistanceBottom method. Sets distance between table bottom and the surrounding text, in points in C++.'
 type: docs
-weight: 115000
+weight: 114000
 url: /cpp/aspose.words.tables/table/set_distancebottom/
 ---
 ## Table::set_DistanceBottom method

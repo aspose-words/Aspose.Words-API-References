@@ -4,7 +4,7 @@ linktitle: get_Height
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::HorizontalRuleFormat::get_Height method. Gets or sets the height of the horizontal rule in C++.'
 type: docs
-weight: 8572
+weight: 4000
 url: /cpp/aspose.words.drawing/horizontalruleformat/get_height/
 ---
 ## HorizontalRuleFormat::get_Height method
@@ -46,7 +46,7 @@ ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
+* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

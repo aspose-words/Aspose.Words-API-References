@@ -4,7 +4,7 @@ linktitle: get_IsValid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::SignatureLine::get_IsValid method. Indicates that signature line is signed by digital signature and this digital signature is valid in C++.'
 type: docs
-weight: 14616
+weight: 8000
 url: /cpp/aspose.words.drawing/signatureline/get_isvalid/
 ---
 ## SignatureLine::get_IsValid method

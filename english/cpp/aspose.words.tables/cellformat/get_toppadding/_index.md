@@ -4,7 +4,7 @@ linktitle: get_TopPadding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_TopPadding method. Returns or sets the amount of space (in points) to add above the contents of cell in C++.'
 type: docs
-weight: 43000
+weight: 42000
 url: /cpp/aspose.words.tables/cellformat/get_toppadding/
 ---
 ## CellFormat::get_TopPadding method

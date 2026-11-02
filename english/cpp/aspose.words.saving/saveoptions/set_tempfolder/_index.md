@@ -50,7 +50,7 @@ ASSERT_EQ(0, System::IO::Directory::GetFiles(options->get_TempFolder())->get_Len
 ```
 ## Exceptions
 
-* **OutOfMemoryException** - Throw if you are saving a very large document (thousands of pages) and/or processing many documents at the same time. The memory spike during saving can be significant enough to cause the exception.
+* OutOfMemoryException - Throw if you are saving a very large document (thousands of pages) and/or processing many documents at the same time. The memory spike during saving can be significant enough to cause the exception.
 
 ## See Also
 

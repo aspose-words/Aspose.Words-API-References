@@ -4,7 +4,7 @@ linktitle: get_EmulateRasterOperations
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRasterOperations method. Gets or sets a value determining whether or not the raster operations should be emulated in C++.'
 type: docs
-weight: 10400
+weight: 4000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emulaterasteroperations/
 ---
 ## MetafileRenderingOptions::get_EmulateRasterOperations method

@@ -4,7 +4,7 @@ linktitle: get_CommentDisplayMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode method. Gets or sets the way comments are rendered. Default value is ShowInBalloons in C++.'
 type: docs
-weight: 12336
+weight: 4000
 url: /cpp/aspose.words.layout/layoutoptions/get_commentdisplaymode/
 ---
 ## LayoutOptions::get_CommentDisplayMode method

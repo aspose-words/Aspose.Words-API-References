@@ -43,7 +43,7 @@ doc->Save(get_ArtifactsDir() + u"Document.DefaultTemplate.docx", options);
 ```
 ## Exceptions
 
-* **ArgumentNullException** - Throws if you attempt to set to a **null** value.
+* ArgumentNullException - Throws if you attempt to set to a **null** value.
 
 ## See Also
 

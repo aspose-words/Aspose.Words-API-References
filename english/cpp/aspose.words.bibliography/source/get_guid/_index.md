@@ -4,7 +4,7 @@ linktitle: get_Guid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Guid method. Gets or sets the guid of a source in C++.'
 type: docs
-weight: 57396
+weight: 22000
 url: /cpp/aspose.words.bibliography/source/get_guid/
 ---
 ## Source::get_Guid method

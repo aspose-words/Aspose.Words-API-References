@@ -4,7 +4,7 @@ linktitle: get_AxisX
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_AxisX method. Provides access to properties of the X axis of this series group in C++.'
 type: docs
-weight: 14231
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/get_axisx/
 ---
 ## ChartSeriesGroup::get_AxisX method

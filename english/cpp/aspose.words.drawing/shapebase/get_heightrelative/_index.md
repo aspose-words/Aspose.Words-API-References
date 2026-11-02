@@ -4,7 +4,7 @@ linktitle: get_HeightRelative
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_HeightRelative method. Gets or sets the value that represents the percentage of shape''s relative height in C++.'
 type: docs
-weight: 61360
+weight: 61355
 url: /cpp/aspose.words.drawing/shapebase/get_heightrelative/
 ---
 ## ShapeBase::get_HeightRelative method

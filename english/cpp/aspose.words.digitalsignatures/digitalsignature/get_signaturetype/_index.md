@@ -4,7 +4,7 @@ linktitle: get_SignatureType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_SignatureType method. Gets the type of the digital signature in C++.'
 type: docs
-weight: 22000
+weight: 21000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_signaturetype/
 ---
 ## DigitalSignature::get_SignatureType method

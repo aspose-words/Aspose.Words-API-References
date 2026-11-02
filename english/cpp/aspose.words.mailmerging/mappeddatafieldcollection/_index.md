@@ -30,6 +30,15 @@ class MappedDataFieldCollection : public System::Collections::Generic::IEnumerab
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [idx_get](./idx_get/)(const System::String \&) | Gets or sets the name of the field in the data source associated with the specified mail merge field. |
 | [idx_set](./idx_set/)(const System::String \&, const System::String \&) | Gets or sets the name of the field in the data source associated with the specified mail merge field. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

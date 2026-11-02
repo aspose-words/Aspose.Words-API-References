@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be HtmlFixed in C++.'
 type: docs
-weight: 22865
+weight: 18000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_saveformat/
 ---
 ## HtmlFixedSaveOptions::get_SaveFormat method

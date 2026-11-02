@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPartCollection::idx_get method. Gets or sets an item at the specified index in C++.'
 type: docs
-weight: 16778
+weight: 18500
 url: /cpp/aspose.words.markup/custompartcollection/idx_get/
 ---
 ## CustomPartCollection::idx_get method

@@ -4,13 +4,13 @@ linktitle: get_GraphicsQualityOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_GraphicsQualityOptions method. Allows to specify rendering mode and quality for the Graphics object in C++.'
 type: docs
-weight: 21048
+weight: 3500
 url: /cpp/aspose.words.saving/imagesaveoptions/get_graphicsqualityoptions/
 ---
 ## ImageSaveOptions::get_GraphicsQualityOptions method
 
 
-Allows to specify rendering mode and quality for the **Graphics** object.
+Allows to specify rendering mode and quality for the Graphics object.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Saving::GraphicsQualityOptions> Aspose::Words::Saving::ImageSaveOptions::get_GraphicsQualityOptions() const

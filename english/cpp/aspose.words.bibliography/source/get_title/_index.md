@@ -4,7 +4,7 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Title method. Gets or sets the title of a source in C++.'
 type: docs
-weight: 57881
+weight: 49000
 url: /cpp/aspose.words.bibliography/source/get_title/
 ---
 ## Source::get_Title method

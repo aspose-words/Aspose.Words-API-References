@@ -4,7 +4,7 @@ linktitle: get_Group
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_Group method. Gets the revision group. Returns null if the revision does not belong to any group in C++.'
 type: docs
-weight: 11500
+weight: 11429
 url: /cpp/aspose.words/revision/get_group/
 ---
 ## Revision::get_Group method

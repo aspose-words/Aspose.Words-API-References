@@ -4,7 +4,7 @@ linktitle: get_IsComposite
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_IsComposite method. Returns true if this node can contain other nodes in C++.'
 type: docs
-weight: 26000
+weight: 25000
 url: /cpp/aspose.words/node/get_iscomposite/
 ---
 ## Node::get_IsComposite method

@@ -4,7 +4,7 @@ linktitle: get_IsInline
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsInline method. A quick way to determine if this shape is positioned inline with text in C++.'
 type: docs
-weight: 61480
+weight: 61475
 url: /cpp/aspose.words.drawing/shapebase/get_isinline/
 ---
 ## ShapeBase::get_IsInline method

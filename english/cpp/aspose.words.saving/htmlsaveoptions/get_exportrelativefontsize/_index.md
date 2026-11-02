@@ -4,7 +4,7 @@ linktitle: get_ExportRelativeFontSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportRelativeFontSize method. Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is false in C++.'
 type: docs
-weight: 49480
+weight: 25000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportrelativefontsize/
 ---
 ## HtmlSaveOptions::get_ExportRelativeFontSize method

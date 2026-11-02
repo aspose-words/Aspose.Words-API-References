@@ -49,7 +49,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** -  Throws when argument was out of the range of valid values.
+* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

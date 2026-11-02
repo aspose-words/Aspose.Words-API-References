@@ -4,7 +4,7 @@ linktitle: set_LineBetween
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::set_LineBetween method. When true, adds a vertical line between columns in C++.'
 type: docs
-weight: 22000
+weight: 21000
 url: /cpp/aspose.words/textcolumncollection/set_linebetween/
 ---
 ## TextColumnCollection::set_LineBetween method

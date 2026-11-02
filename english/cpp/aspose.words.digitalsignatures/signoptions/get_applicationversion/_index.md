@@ -4,7 +4,7 @@ linktitle: get_ApplicationVersion
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::SignOptions::get_ApplicationVersion method. Gets or sets the application version for the digital signature. Default value is "12.0" in C++.'
 type: docs
-weight: 10060
+weight: 2334
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_applicationversion/
 ---
 ## SignOptions::get_ApplicationVersion method

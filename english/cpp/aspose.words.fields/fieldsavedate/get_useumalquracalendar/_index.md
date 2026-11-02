@@ -4,7 +4,7 @@ linktitle: get_UseUmAlQuraCalendar
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar method. Gets or sets whether to use the Um-al-Qura calendar in C++.'
 type: docs
-weight: 6800
+weight: 4000
 url: /cpp/aspose.words.fields/fieldsavedate/get_useumalquracalendar/
 ---
 ## FieldSaveDate::get_UseUmAlQuraCalendar method

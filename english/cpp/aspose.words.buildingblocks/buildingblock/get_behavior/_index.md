@@ -4,7 +4,7 @@ linktitle: get_Behavior
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BuildingBlocks::BuildingBlock::get_Behavior method. Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document in C++.'
 type: docs
-weight: 16154
+weight: 4000
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_behavior/
 ---
 ## BuildingBlock::get_Behavior method

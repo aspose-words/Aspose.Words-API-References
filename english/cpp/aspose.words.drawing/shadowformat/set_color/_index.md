@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/shadowformat/set_color/
 ## ShadowFormat::set_Color method
 
 
-Sets a **Color** object that represents the color for the shadow. The default value is **Black**.
+Sets a Color object that represents the color for the shadow. The default value is Black.
 
 ```cpp
 void Aspose::Words::Drawing::ShadowFormat::set_Color(System::Drawing::Color value)

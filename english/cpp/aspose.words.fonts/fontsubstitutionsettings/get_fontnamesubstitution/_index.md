@@ -4,7 +4,7 @@ linktitle: get_FontNameSubstitution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FontSubstitutionSettings::get_FontNameSubstitution method. Settings related to font name substitution rule in C++.'
 type: docs
-weight: 13000
+weight: 5000
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_fontnamesubstitution/
 ---
 ## FontSubstitutionSettings::get_FontNameSubstitution method

@@ -4,7 +4,7 @@ linktitle: get_PageLayout
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_PageLayout method. Specifies the page layout to be used when the document is opened in a PDF reader in C++.'
 type: docs
-weight: 36700
+weight: 25500
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_pagelayout/
 ---
 ## PdfSaveOptions::get_PageLayout method

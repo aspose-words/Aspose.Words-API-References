@@ -4,7 +4,7 @@ linktitle: set_Contrast
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_Contrast method. Sets the contrast for the specified picture. The value for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast) in C++.'
 type: docs
-weight: 61000
+weight: 60000
 url: /cpp/aspose.words.drawing/imagedata/set_contrast/
 ---
 ## ImageData::set_Contrast method

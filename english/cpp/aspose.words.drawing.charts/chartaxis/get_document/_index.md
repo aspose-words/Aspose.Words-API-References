@@ -4,7 +4,7 @@ linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_Document method. Returns the document containing the parent chart in C++.'
 type: docs
-weight: 31288
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_document/
 ---
 ## ChartAxis::get_Document method

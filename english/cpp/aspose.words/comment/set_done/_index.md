@@ -4,7 +4,7 @@ linktitle: set_Done
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::set_Done method. Sets flag indicating that the comment has been marked done in C++.'
 type: docs
-weight: 37000
+weight: 36000
 url: /cpp/aspose.words/comment/set_done/
 ---
 ## Comment::set_Done method

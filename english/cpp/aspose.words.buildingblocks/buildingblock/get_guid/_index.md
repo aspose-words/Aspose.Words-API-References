@@ -4,7 +4,7 @@ linktitle: get_Guid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BuildingBlocks::BuildingBlock::get_Guid method. Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block in C++.'
 type: docs
-weight: 16539
+weight: 9000
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_guid/
 ---
 ## BuildingBlock::get_Guid method

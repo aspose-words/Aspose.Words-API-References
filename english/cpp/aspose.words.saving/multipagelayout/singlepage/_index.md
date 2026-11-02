@@ -4,7 +4,7 @@ linktitle: SinglePage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MultiPageLayout::SinglePage method. Creates a layout that renders only the first of specified pages in C++.'
 type: docs
-weight: 11125
+weight: 3000
 url: /cpp/aspose.words.saving/multipagelayout/singlepage/
 ---
 ## MultiPageLayout::SinglePage method

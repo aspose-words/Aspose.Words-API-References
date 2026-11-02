@@ -4,7 +4,7 @@ linktitle: get_Value
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::SdtListItem::get_Value method. Gets the value of this list item in C++.'
 type: docs
-weight: 10000
+weight: 4000
 url: /cpp/aspose.words.markup/sdtlistitem/get_value/
 ---
 ## SdtListItem::get_Value method

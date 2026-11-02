@@ -4,7 +4,7 @@ linktitle: get_IgnoreOfficeMath
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreOfficeMath method. Gets or sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is true in C++.'
 type: docs
-weight: 20528
+weight: 11250
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoreofficemath/
 ---
 ## FindReplaceOptions::get_IgnoreOfficeMath method

@@ -4,7 +4,7 @@ linktitle: get_NumberVolumes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_NumberVolumes method. Gets or sets the number of volumes of a source in C++.'
 type: docs
-weight: 57558
+weight: 31000
 url: /cpp/aspose.words.bibliography/source/get_numbervolumes/
 ---
 ## Source::get_NumberVolumes method

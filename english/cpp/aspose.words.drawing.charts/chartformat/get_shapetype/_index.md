@@ -4,7 +4,7 @@ linktitle: get_ShapeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartFormat::get_ShapeType method. Gets or sets the shape type of the parent chart element in C++.'
 type: docs
-weight: 11000
+weight: 10000
 url: /cpp/aspose.words.drawing.charts/chartformat/get_shapetype/
 ---
 ## ChartFormat::get_ShapeType method

@@ -40,6 +40,15 @@ This option works only when [EmbedTrueTypeFonts](./get_embedtruetypefonts/) opti
 | [set_SaveSubsetFonts](./set_savesubsetfonts/)(bool) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**.
 
 This option works only when [EmbedTrueTypeFonts](./get_embedtruetypefonts/) property is set to **true**. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

@@ -4,7 +4,7 @@ linktitle: get_Modules
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaProject::get_Modules method. Returns collection of VBA project modules in C++.'
 type: docs
-weight: 10335
+weight: 6000
 url: /cpp/aspose.words.vba/vbaproject/get_modules/
 ---
 ## VbaProject::get_Modules method

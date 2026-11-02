@@ -4,7 +4,7 @@ linktitle: get_Doi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Doi method. Gets or sets the digital object identifier in C++.'
 type: docs
-weight: 57360
+weight: 20000
 url: /cpp/aspose.words.bibliography/source/get_doi/
 ---
 ## Source::get_Doi method

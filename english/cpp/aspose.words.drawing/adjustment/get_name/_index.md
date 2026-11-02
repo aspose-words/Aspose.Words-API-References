@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Adjustment::get_Name method. Gets the name of the adjustment in C++.'
 type: docs
-weight: 5500
+weight: 2000
 url: /cpp/aspose.words.drawing/adjustment/get_name/
 ---
 ## Adjustment::get_Name method

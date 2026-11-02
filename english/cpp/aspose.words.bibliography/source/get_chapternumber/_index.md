@@ -4,7 +4,7 @@ linktitle: get_ChapterNumber
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_ChapterNumber method. Gets or sets the chapter number of a source in C++.'
 type: docs
-weight: 57162
+weight: 9000
 url: /cpp/aspose.words.bibliography/source/get_chapternumber/
 ---
 ## Source::get_ChapterNumber method

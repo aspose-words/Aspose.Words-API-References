@@ -4,7 +4,7 @@ linktitle: get_AxisY
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::Chart::get_AxisY method. Provides access to properties of the primary Y axis of the chart in C++.'
 type: docs
-weight: 10288
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/chart/get_axisy/
 ---
 ## Chart::get_AxisY method

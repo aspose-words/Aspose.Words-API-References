@@ -4,7 +4,7 @@ linktitle: get_RotateLetters
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_RotateLetters method. Determines whether the letters of the text are rotated in C++.'
 type: docs
-weight: 23460
+weight: 10000
 url: /cpp/aspose.words.drawing/textpath/get_rotateletters/
 ---
 ## TextPath::get_RotateLetters method

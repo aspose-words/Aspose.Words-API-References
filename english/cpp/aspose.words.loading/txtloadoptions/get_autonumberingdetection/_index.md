@@ -4,7 +4,7 @@ linktitle: get_AutoNumberingDetection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::TxtLoadOptions::get_AutoNumberingDetection method. Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is true in C++.'
 type: docs
-weight: 9334
+weight: 3000
 url: /cpp/aspose.words.loading/txtloadoptions/get_autonumberingdetection/
 ---
 ## TxtLoadOptions::get_AutoNumberingDetection method

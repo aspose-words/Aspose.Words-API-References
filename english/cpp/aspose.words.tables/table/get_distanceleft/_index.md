@@ -4,7 +4,7 @@ linktitle: get_DistanceLeft
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_DistanceLeft method. Gets or sets distance between table left and the surrounding text, in points in C++.'
 type: docs
-weight: 84000
+weight: 83000
 url: /cpp/aspose.words.tables/table/get_distanceleft/
 ---
 ## Table::get_DistanceLeft method

@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTagRangeEnd::StructuredDocumentTagRangeEnd constructor. Initializes a new instance of the Structured document tag range end class in C++.'
 type: docs
-weight: 8000
+weight: 3500
 url: /cpp/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd::StructuredDocumentTagRangeEnd constructor

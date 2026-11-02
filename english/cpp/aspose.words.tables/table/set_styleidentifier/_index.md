@@ -4,7 +4,7 @@ linktitle: set_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_StyleIdentifier method. Sets the locale independent style identifier of the table style applied to this table in C++.'
 type: docs
-weight: 127000
+weight: 126000
 url: /cpp/aspose.words.tables/table/set_styleidentifier/
 ---
 ## Table::set_StyleIdentifier method

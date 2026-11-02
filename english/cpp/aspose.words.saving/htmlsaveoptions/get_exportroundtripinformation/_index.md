@@ -4,7 +4,7 @@ linktitle: get_ExportRoundtripInformation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportRoundtripInformation method. Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is true for HTML and false for MHTML and EPUB in C++.'
 type: docs
-weight: 49500
+weight: 26000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportroundtripinformation/
 ---
 ## HtmlSaveOptions::get_ExportRoundtripInformation method

@@ -4,7 +4,7 @@ linktitle: get_Inventor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::ContributorCollection::get_Inventor method. Gets or sets the inventor of a source in C++.'
 type: docs
-weight: 19725
+weight: 13000
 url: /cpp/aspose.words.bibliography/contributorcollection/get_inventor/
 ---
 ## ContributorCollection::get_Inventor method

@@ -4,7 +4,7 @@ linktitle: get_PageNumberSeparator
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldIndex::get_PageNumberSeparator method. Gets or sets the character sequence that is used to separate an index entry and its page number in C++.'
 type: docs
-weight: 19670
+weight: 12000
 url: /cpp/aspose.words.fields/fieldindex/get_pagenumberseparator/
 ---
 ## FieldIndex::get_PageNumberSeparator method

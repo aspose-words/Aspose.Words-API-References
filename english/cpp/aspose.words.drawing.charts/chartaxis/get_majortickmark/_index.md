@@ -4,7 +4,7 @@ linktitle: get_MajorTickMark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MajorTickMark method. Returns or sets the major tick marks in C++.'
 type: docs
-weight: 31468
+weight: 12000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_majortickmark/
 ---
 ## ChartAxis::get_MajorTickMark method

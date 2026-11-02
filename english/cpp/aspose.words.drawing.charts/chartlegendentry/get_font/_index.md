@@ -4,7 +4,7 @@ linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartLegendEntry::get_Font method. Provides access to the font formatting of this legend entry in C++.'
 type: docs
-weight: 5500
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartlegendentry/get_font/
 ---
 ## ChartLegendEntry::get_Font method

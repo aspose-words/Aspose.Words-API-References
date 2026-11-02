@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyleCollection::get_Count method. Gets the number of conditional styles in the collection in C++.'
 type: docs
-weight: 23000
+weight: 16429
 url: /cpp/aspose.words/conditionalstylecollection/get_count/
 ---
 ## ConditionalStyleCollection::get_Count method

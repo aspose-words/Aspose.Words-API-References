@@ -4,7 +4,7 @@ linktitle: set_CropTop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_CropTop method. Defines the fraction of picture removal from the top side in C++.'
 type: docs
-weight: 65000
+weight: 64000
 url: /cpp/aspose.words.drawing/imagedata/set_croptop/
 ---
 ## ImageData::set_CropTop method

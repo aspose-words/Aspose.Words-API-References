@@ -4,7 +4,7 @@ linktitle: get_StyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_StyleName method. Gets or sets the name of the table style applied to this table in C++.'
 type: docs
-weight: 100000
+weight: 99000
 url: /cpp/aspose.words.tables/table/get_stylename/
 ---
 ## Table::get_StyleName method

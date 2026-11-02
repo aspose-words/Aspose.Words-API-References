@@ -4,7 +4,7 @@ linktitle: get_UseInvariantCultureNumberFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat method. Gets or sets the value indicating that number format is parsed using invariant culture or not in C++.'
 type: docs
-weight: 24918
+weight: 21000
 url: /cpp/aspose.words.fields/fieldoptions/get_useinvariantculturenumberformat/
 ---
 ## FieldOptions::get_UseInvariantCultureNumberFormat method

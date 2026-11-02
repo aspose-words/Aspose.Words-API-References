@@ -4,7 +4,7 @@ linktitle: get_LinkedStyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_LinkedStyleName method. Gets/sets the name of the Style linked to this one. Returns empty string if no styles are linked in C++.'
 type: docs
-weight: 22440
+weight: 22414
 url: /cpp/aspose.words/style/get_linkedstylename/
 ---
 ## Style::get_LinkedStyleName method

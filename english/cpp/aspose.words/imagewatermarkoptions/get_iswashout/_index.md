@@ -4,7 +4,7 @@ linktitle: get_IsWashout
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ImageWatermarkOptions::get_IsWashout method. Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is true in C++.'
 type: docs
-weight: 6500
+weight: 3000
 url: /cpp/aspose.words/imagewatermarkoptions/get_iswashout/
 ---
 ## ImageWatermarkOptions::get_IsWashout method

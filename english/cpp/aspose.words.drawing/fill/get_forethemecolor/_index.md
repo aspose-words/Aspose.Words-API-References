@@ -4,7 +4,7 @@ linktitle: get_ForeThemeColor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_ForeThemeColor method. Gets or sets a ThemeColor object that represents the foreground color for the fill in C++.'
 type: docs
-weight: 53000
+weight: 52000
 url: /cpp/aspose.words.drawing/fill/get_forethemecolor/
 ---
 ## Fill::get_ForeThemeColor method

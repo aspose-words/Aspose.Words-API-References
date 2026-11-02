@@ -34,6 +34,15 @@ class BookmarksOutlineLevelCollection : public System::Collections::Generic::IEn
 | [idx_get](./idx_get/)(int32_t) | Gets or sets a bookmark outline level at the specified index. |
 | [idx_set](./idx_set/)(const System::String \&, int32_t) | Gets or a sets a bookmark outline level by the bookmark name. |
 | [idx_set](./idx_set/)(int32_t, int32_t) | Gets or sets a bookmark outline level at the specified index. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 ## Remarks
 
 

@@ -4,7 +4,7 @@ linktitle: get_ColorMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::FixedPageSaveOptions::get_ColorMode method. Gets or sets a value determining how colors are rendered in C++.'
 type: docs
-weight: 11223
+weight: 3000
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/get_colormode/
 ---
 ## FixedPageSaveOptions::get_ColorMode method

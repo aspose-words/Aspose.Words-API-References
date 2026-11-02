@@ -4,7 +4,7 @@ linktitle: get_UnlinkPagesNumberFields
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageExtractOptions::get_UnlinkPagesNumberFields method. Specifies whether NUMPAGES fields in the resulting document will be replaced with their actual resulting values. Default value is true in C++.'
 type: docs
-weight: 6600
+weight: 3000
 url: /cpp/aspose.words/pageextractoptions/get_unlinkpagesnumberfields/
 ---
 ## PageExtractOptions::get_UnlinkPagesNumberFields method

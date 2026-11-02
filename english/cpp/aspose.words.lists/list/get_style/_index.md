@@ -4,7 +4,7 @@ linktitle: get_Style
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::List::get_Style method. Gets the list style that this list references or defines in C++.'
 type: docs
-weight: 15900
+weight: 15778
 url: /cpp/aspose.words.lists/list/get_style/
 ---
 ## List::get_Style method

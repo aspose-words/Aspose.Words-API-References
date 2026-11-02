@@ -4,7 +4,7 @@ linktitle: get_IsLocked
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::WebExtensions::TaskPane::get_IsLocked method. Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user in C++.'
 type: docs
-weight: 10445
+weight: 4000
 url: /cpp/aspose.words.webextensions/taskpane/get_islocked/
 ---
 ## TaskPane::get_IsLocked method

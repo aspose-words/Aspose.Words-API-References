@@ -4,7 +4,7 @@ linktitle: get_ScaleCrop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_ScaleCrop method. Indicates whether document thumbnail is cropped or scaled to fit the display in C++.'
 type: docs
-weight: 36688
+weight: 24500
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_scalecrop/
 ---
 ## BuiltInDocumentProperties::get_ScaleCrop method

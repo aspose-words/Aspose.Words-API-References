@@ -4,7 +4,7 @@ linktitle: get_ExportFloatingShapesAsInlineTag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_ExportFloatingShapesAsInlineTag method. Gets or sets a value determining whether floating shapes are exported as inline tags in the document structure in C++.'
 type: docs
-weight: 36400
+weight: 16500
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportfloatingshapesasinlinetag/
 ---
 ## PdfSaveOptions::get_ExportFloatingShapesAsInlineTag method

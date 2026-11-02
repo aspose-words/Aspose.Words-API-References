@@ -4,7 +4,7 @@ linktitle: set_HorizontalAnchor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_HorizontalAnchor method. Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is Column in C++.'
 type: docs
-weight: 119000
+weight: 118000
 url: /cpp/aspose.words.tables/table/set_horizontalanchor/
 ---
 ## Table::set_HorizontalAnchor method

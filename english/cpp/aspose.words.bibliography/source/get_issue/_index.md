@@ -4,7 +4,7 @@ linktitle: get_Issue
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Issue method. Gets or sets the issue of a source in C++.'
 type: docs
-weight: 57450
+weight: 25000
 url: /cpp/aspose.words.bibliography/source/get_issue/
 ---
 ## Source::get_Issue method

@@ -4,7 +4,7 @@ linktitle: set_OwnHelp
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_OwnHelp method. Specifies the source of the text that''s displayed in a message box when a form field has the focus and the user presses F1 in C++.'
 type: docs
-weight: 83000
+weight: 82000
 url: /cpp/aspose.words.fields/formfield/set_ownhelp/
 ---
 ## FormField::set_OwnHelp method

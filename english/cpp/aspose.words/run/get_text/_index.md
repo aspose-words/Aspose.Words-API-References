@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Run::get_Text method. Gets or sets the text of the run in C++.'
 type: docs
-weight: 8858
+weight: 8500
 url: /cpp/aspose.words/run/get_text/
 ---
 ## Run::get_Text method

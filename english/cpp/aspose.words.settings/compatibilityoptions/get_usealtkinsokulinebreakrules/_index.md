@@ -4,7 +4,7 @@ linktitle: get_UseAltKinsokuLineBreakRules
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_UseAltKinsokuLineBreakRules method. Use Alternate Set of East Asian Line Breaking Rules in C++.'
 type: docs
-weight: 75844
+weight: 75840
 url: /cpp/aspose.words.settings/compatibilityoptions/get_usealtkinsokulinebreakrules/
 ---
 ## CompatibilityOptions::get_UseAltKinsokuLineBreakRules method

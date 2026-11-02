@@ -4,7 +4,7 @@ linktitle: get_FontFamily
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_FontFamily method. Defines the family of the textpath font in C++.'
 type: docs
-weight: 23230
+weight: 5000
 url: /cpp/aspose.words.drawing/textpath/get_fontfamily/
 ---
 ## TextPath::get_FontFamily method

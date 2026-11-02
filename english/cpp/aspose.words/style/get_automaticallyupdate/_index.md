@@ -4,7 +4,7 @@ linktitle: get_AutomaticallyUpdate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_AutomaticallyUpdate method. Specifies whether this style is automatically redefined based on the appropriate value in C++.'
 type: docs
-weight: 22132
+weight: 22092
 url: /cpp/aspose.words/style/get_automaticallyupdate/
 ---
 ## Style::get_AutomaticallyUpdate method

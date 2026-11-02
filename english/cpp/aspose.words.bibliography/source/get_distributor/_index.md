@@ -4,7 +4,7 @@ linktitle: get_Distributor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Distributor method. Gets or sets the distributor of a source in C++.'
 type: docs
-weight: 57342
+weight: 19000
 url: /cpp/aspose.words.bibliography/source/get_distributor/
 ---
 ## Source::get_Distributor method

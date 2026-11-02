@@ -4,7 +4,7 @@ linktitle: get_IgnoreTables
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreTables method. Specifies whether to compare the differences in data contained in tables in C++.'
 type: docs
-weight: 16802
+weight: 12000
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoretables/
 ---
 ## CompareOptions::get_IgnoreTables method

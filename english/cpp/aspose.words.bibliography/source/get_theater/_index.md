@@ -4,7 +4,7 @@ linktitle: get_Theater
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Theater method. Gets or sets the theater of a source in C++.'
 type: docs
-weight: 57846
+weight: 47000
 url: /cpp/aspose.words.bibliography/source/get_theater/
 ---
 ## Source::get_Theater method

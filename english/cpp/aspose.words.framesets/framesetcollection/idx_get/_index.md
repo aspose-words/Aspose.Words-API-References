@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Framesets::FramesetCollection::idx_get method. Gets a frame or frames page at the specified index in C++.'
 type: docs
-weight: 11875
+weight: 10000
 url: /cpp/aspose.words.framesets/framesetcollection/idx_get/
 ---
 ## FramesetCollection::idx_get method

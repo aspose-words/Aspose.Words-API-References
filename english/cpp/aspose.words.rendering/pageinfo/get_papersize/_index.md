@@ -4,7 +4,7 @@ linktitle: get_PaperSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Rendering::PageInfo::get_PaperSize method. Gets the paper size as enumeration in C++.'
 type: docs
-weight: 15000
+weight: 12000
 url: /cpp/aspose.words.rendering/pageinfo/get_papersize/
 ---
 ## PageInfo::get_PaperSize method

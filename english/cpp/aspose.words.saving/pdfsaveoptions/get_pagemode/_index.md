@@ -4,7 +4,7 @@ linktitle: get_PageMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_PageMode method. Specifies how the PDF document should be displayed when opened in a PDF reader in C++.'
 type: docs
-weight: 36725
+weight: 26000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_pagemode/
 ---
 ## PdfSaveOptions::get_PageMode method

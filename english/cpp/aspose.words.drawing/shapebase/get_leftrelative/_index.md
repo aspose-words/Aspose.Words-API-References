@@ -4,7 +4,7 @@ linktitle: get_LeftRelative
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_LeftRelative method. Gets or sets the value that represents shape''s relative left position in percent in C++.'
 type: docs
-weight: 61615
+weight: 61610
 url: /cpp/aspose.words.drawing/shapebase/get_leftrelative/
 ---
 ## ShapeBase::get_LeftRelative method

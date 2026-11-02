@@ -4,7 +4,7 @@ linktitle: get_Replacement
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Replacing::ReplacingArgs::get_Replacement method. Gets the replacement string in C++.'
 type: docs
-weight: 9889
+weight: 7000
 url: /cpp/aspose.words.replacing/replacingargs/get_replacement/
 ---
 ## ReplacingArgs::get_Replacement method

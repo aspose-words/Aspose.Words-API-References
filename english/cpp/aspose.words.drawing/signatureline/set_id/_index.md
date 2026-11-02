@@ -11,7 +11,7 @@ url: /cpp/aspose.words.drawing/signatureline/set_id/
 
 
 Sets identifier for this signature line. 
-This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../../aspose.words.digitalsignatures/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid (**NewGuid**).
+This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../../aspose.words.digitalsignatures/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid (NewGuid).
 
 ```cpp
 void Aspose::Words::Drawing::SignatureLine::set_Id(System::Guid value)

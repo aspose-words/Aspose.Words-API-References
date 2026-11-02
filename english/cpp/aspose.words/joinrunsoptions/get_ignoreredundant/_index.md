@@ -4,7 +4,7 @@ linktitle: get_IgnoreRedundant
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::JoinRunsOptions::get_IgnoreRedundant method. True indicates that the redundant attributes of all runs will be ignored when joining runs with same formatting in C++.'
 type: docs
-weight: 7668
+weight: 4000
 url: /cpp/aspose.words/joinrunsoptions/get_ignoreredundant/
 ---
 ## JoinRunsOptions::get_IgnoreRedundant method

@@ -4,7 +4,7 @@ linktitle: get_HeaderDistance
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_HeaderDistance method. Returns or sets the distance (in points) between the header and the top of the page in C++.'
 type: docs
-weight: 49391
+weight: 19000
 url: /cpp/aspose.words/pagesetup/get_headerdistance/
 ---
 ## PageSetup::get_HeaderDistance method

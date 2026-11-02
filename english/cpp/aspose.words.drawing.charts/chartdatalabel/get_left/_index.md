@@ -4,7 +4,7 @@ linktitle: get_Left
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Left method. Gets or sets the distance of the data label in points from the left edge of the chart or from the position specified by its Position property, depending on the value of the LeftMode property in C++.'
 type: docs
-weight: 18294
+weight: 6334
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_left/
 ---
 ## ChartDataLabel::get_Left method

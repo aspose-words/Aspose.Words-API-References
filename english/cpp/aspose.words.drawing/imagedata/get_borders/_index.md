@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_Borders method. Gets the collection of borders of the image. Borders only have effect for inline images in C++.'
 type: docs
-weight: 41000
+weight: 40000
 url: /cpp/aspose.words.drawing/imagedata/get_borders/
 ---
 ## ImageData::get_Borders method

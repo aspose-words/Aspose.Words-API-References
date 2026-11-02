@@ -4,7 +4,7 @@ linktitle: Grid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MultiPageLayout::Grid method. Creates a layout in which pages are rendered left-to-right, top-to-bottom, in a grid with the specified number of columns in C++.'
 type: docs
-weight: 10334
+weight: 1000
 url: /cpp/aspose.words.saving/multipagelayout/grid/
 ---
 ## MultiPageLayout::Grid method
@@ -24,7 +24,7 @@ static System::SharedPtr<Aspose::Words::Saving::MultiPageLayout> Aspose::Words::
 | verticalGap | float | The vertical gap between rows in points. |
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Thrown if columns is less than or equal to zero.
+* ArgumentOutOfRangeException - Thrown if columns is less than or equal to zero.
 
 ## See Also
 

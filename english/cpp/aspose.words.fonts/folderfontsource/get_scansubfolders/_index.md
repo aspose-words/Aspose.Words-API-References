@@ -4,7 +4,7 @@ linktitle: get_ScanSubfolders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fonts::FolderFontSource::get_ScanSubfolders method. Determines whether or not to scan the subfolders in C++.'
 type: docs
-weight: 10000
+weight: 4000
 url: /cpp/aspose.words.fonts/folderfontsource/get_scansubfolders/
 ---
 ## FolderFontSource::get_ScanSubfolders method

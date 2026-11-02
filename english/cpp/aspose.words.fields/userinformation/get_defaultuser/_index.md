@@ -4,7 +4,7 @@ linktitle: get_DefaultUser
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::UserInformation::get_DefaultUser method. Default user information in C++.'
 type: docs
-weight: 8572
+weight: 4500
 url: /cpp/aspose.words.fields/userinformation/get_defaultuser/
 ---
 ## UserInformation::get_DefaultUser method

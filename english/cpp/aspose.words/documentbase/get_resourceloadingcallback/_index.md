@@ -4,7 +4,7 @@ linktitle: get_ResourceLoadingCallback
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBase::get_ResourceLoadingCallback method. Allows to control how external resources are loaded in C++.'
 type: docs
-weight: 13751
+weight: 13456
 url: /cpp/aspose.words/documentbase/get_resourceloadingcallback/
 ---
 ## DocumentBase::get_ResourceLoadingCallback method

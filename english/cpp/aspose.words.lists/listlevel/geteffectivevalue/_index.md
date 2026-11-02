@@ -51,8 +51,8 @@ ASSERT_EQ(u"005", ListLevel::GetEffectiveValue(5, NumberStyle::Custom, customNum
 ```
 ## Exceptions
 
-* **ArgumentException** - customNumberStyleFormat is **null** or empty when the numberStyle is custom.-or- customNumberStyleFormat is not **null** or empty when the numberStyle is non-custom.-or- customNumberStyleFormat is invalid.
-* **ArgumentOutOfRangeException** - index is out of range.
+* ArgumentException - customNumberStyleFormat is **null** or empty when the numberStyle is custom.-or- customNumberStyleFormat is not **null** or empty when the numberStyle is non-custom.-or- customNumberStyleFormat is invalid.
+* ArgumentOutOfRangeException - index is out of range.
 
 ## See Also
 

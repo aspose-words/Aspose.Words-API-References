@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::EditableRangeEnd::get_NodeType method. Returns EditableRangeEnd in C++.'
 type: docs
-weight: 7800
+weight: 5000
 url: /cpp/aspose.words/editablerangeend/get_nodetype/
 ---
 ## EditableRangeEnd::get_NodeType method

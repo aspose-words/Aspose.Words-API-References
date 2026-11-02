@@ -4,7 +4,7 @@ linktitle: get_Middle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Person::get_Middle method. Gets or sets the middle name of a person in C++.'
 type: docs
-weight: 9834
+weight: 9400
 url: /cpp/aspose.words.bibliography/person/get_middle/
 ---
 ## Person::get_Middle method

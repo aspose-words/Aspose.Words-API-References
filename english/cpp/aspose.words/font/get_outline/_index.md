@@ -4,7 +4,7 @@ linktitle: get_Outline
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Outline method. True if the font is formatted as outline in C++.'
 type: docs
-weight: 59558
+weight: 59080
 url: /cpp/aspose.words/font/get_outline/
 ---
 ## Font::get_Outline method

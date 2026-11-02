@@ -4,7 +4,7 @@ linktitle: get_AllowBreakAcrossPages
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TableStyle::get_AllowBreakAcrossPages method. Gets or sets a flag indicating whether text in a table row is allowed to split across a page break in C++.'
 type: docs
-weight: 18189
+weight: 3000
 url: /cpp/aspose.words/tablestyle/get_allowbreakacrosspages/
 ---
 ## TableStyle::get_AllowBreakAcrossPages method

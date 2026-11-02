@@ -4,7 +4,7 @@ linktitle: get_ExportDocumentStructure
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_ExportDocumentStructure method. Gets or sets a value determining whether or not to export document structure in C++.'
 type: docs
-weight: 36375
+weight: 16000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportdocumentstructure/
 ---
 ## PdfSaveOptions::get_ExportDocumentStructure method

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/imagesaveoptions/set_graphicsqualityoptions/
 ## ImageSaveOptions::set_GraphicsQualityOptions method
 
 
-Allows to specify rendering mode and quality for the **Graphics** object.
+Allows to specify rendering mode and quality for the Graphics object.
 
 ```cpp
 void Aspose::Words::Saving::ImageSaveOptions::set_GraphicsQualityOptions(const System::SharedPtr<Aspose::Words::Saving::GraphicsQualityOptions> & value)

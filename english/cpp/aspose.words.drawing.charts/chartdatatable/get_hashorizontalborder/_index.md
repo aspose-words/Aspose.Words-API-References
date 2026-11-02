@@ -4,7 +4,7 @@ linktitle: get_HasHorizontalBorder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataTable::get_HasHorizontalBorder method. Gets or sets a flag indicating whether a horizontal border of the data table is displayed. The default value is true in C++.'
 type: docs
-weight: 10445
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/chartdatatable/get_hashorizontalborder/
 ---
 ## ChartDataTable::get_HasHorizontalBorder method

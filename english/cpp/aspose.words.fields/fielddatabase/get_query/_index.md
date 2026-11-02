@@ -4,7 +4,7 @@ linktitle: get_Query
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldDatabase::get_Query method. Gets a set of SQL instructions that query the database in C++.'
 type: docs
-weight: 13819
+weight: 10000
 url: /cpp/aspose.words.fields/fielddatabase/get_query/
 ---
 ## FieldDatabase::get_Query method

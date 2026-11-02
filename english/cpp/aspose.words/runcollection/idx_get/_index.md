@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::RunCollection::idx_get method. Retrieves a Run at the given index in C++.'
 type: docs
-weight: 7000
+weight: 6000
 url: /cpp/aspose.words/runcollection/idx_get/
 ---
 ## RunCollection::idx_get method

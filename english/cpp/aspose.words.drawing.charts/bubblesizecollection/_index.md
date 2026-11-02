@@ -31,7 +31,7 @@ class BubbleSizeCollection : public System::Collections::Generic::IEnumerable<do
 
 The collection allows only changing bubble sizes. To add or insert new values to a chart series, or remove values, the appropriate methods of the [ChartSeries](../chartseries/) class can be used.
 
-Empty bubble size values are represented as **NaN**.
+Empty bubble size values are represented as NaN.
 ## See Also
 
 * [Add()](../chartseries/add/)

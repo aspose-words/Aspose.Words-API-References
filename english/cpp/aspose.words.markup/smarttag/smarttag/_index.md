@@ -4,7 +4,7 @@ linktitle: SmartTag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::SmartTag::SmartTag constructor. Initializes a new instance of the SmartTag class in C++.'
 type: docs
-weight: 9143
+weight: 3834
 url: /cpp/aspose.words.markup/smarttag/smarttag/
 ---
 ## SmartTag::SmartTag constructor

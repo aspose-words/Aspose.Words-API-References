@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can be Html, Mhtml, Epub, Azw3 or Mobi in C++.'
 type: docs
-weight: 49940
+weight: 45000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_saveformat/
 ---
 ## HtmlSaveOptions::get_SaveFormat method

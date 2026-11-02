@@ -4,7 +4,7 @@ linktitle: get_MinorFonts
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Themes::Theme::get_MinorFonts method. Allows to specify the set of minor fonts for different languages in C++.'
 type: docs
-weight: 12000
+weight: 5000
 url: /cpp/aspose.words.themes/theme/get_minorfonts/
 ---
 ## Theme::get_MinorFonts method

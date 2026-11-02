@@ -4,7 +4,7 @@ linktitle: get_IsMultiLevel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::List::get_IsMultiLevel method. Returns true when the list contains 9 levels; false when 1 level in C++.'
 type: docs
-weight: 15500
+weight: 14890
 url: /cpp/aspose.words.lists/list/get_ismultilevel/
 ---
 ## List::get_IsMultiLevel method

@@ -4,7 +4,7 @@ linktitle: get_RemoveJavaScriptFromLinks
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::HtmlSaveOptions::get_RemoveJavaScriptFromLinks method. Specifies whether JavaScript will be removed from links. Default is false in C++.'
 type: docs
-weight: 49840
+weight: 41250
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/
 ---
 ## HtmlSaveOptions::get_RemoveJavaScriptFromLinks method

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Framesets::FramesetCollection::get_Count method. Gets the number of frames or frames pages contained in the collection in C++.'
 type: docs
-weight: 11750
+weight: 9000
 url: /cpp/aspose.words.framesets/framesetcollection/get_count/
 ---
 ## FramesetCollection::get_Count method

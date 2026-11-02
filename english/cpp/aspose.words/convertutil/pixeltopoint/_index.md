@@ -4,7 +4,7 @@ linktitle: PixelToPoint
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConvertUtil::PixelToPoint method. Converts pixels to points at 96 dpi in C++.'
 type: docs
-weight: 11000
+weight: 4000
 url: /cpp/aspose.words/convertutil/pixeltopoint/
 ---
 ## ConvertUtil::PixelToPoint(double) method

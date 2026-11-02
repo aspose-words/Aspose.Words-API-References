@@ -4,7 +4,7 @@ linktitle: get_PixelFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSaveOptions::get_PixelFormat method. Gets or sets the pixel format for the generated images in C++.'
 type: docs
-weight: 21312
+weight: 12000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_pixelformat/
 ---
 ## ImageSaveOptions::get_PixelFormat method

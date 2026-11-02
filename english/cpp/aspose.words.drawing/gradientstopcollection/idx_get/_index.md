@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GradientStopCollection::idx_get method. Gets or sets a GradientStop object in the collection in C++.'
 type: docs
-weight: 14000
+weight: 13000
 url: /cpp/aspose.words.drawing/gradientstopcollection/idx_get/
 ---
 ## GradientStopCollection::idx_get method

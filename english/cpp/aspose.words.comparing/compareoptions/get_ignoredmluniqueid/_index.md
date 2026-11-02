@@ -4,7 +4,7 @@ linktitle: get_IgnoreDmlUniqueId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreDmlUniqueId method. Specifies whether to ignore difference in DrawingML unique Id in C++.'
 type: docs
-weight: 16469
+weight: 7000
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoredmluniqueid/
 ---
 ## CompareOptions::get_IgnoreDmlUniqueId method

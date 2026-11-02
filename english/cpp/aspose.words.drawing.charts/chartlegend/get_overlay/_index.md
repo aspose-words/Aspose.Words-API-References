@@ -4,7 +4,7 @@ linktitle: get_Overlay
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay method. Determines whether other chart elements shall be allowed to overlap legend. Default value is false in C++.'
 type: docs
-weight: 7715
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/chartlegend/get_overlay/
 ---
 ## ChartLegend::get_Overlay method

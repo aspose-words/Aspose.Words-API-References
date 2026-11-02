@@ -4,7 +4,7 @@ linktitle: get_Institution
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Institution method. Gets or sets the institution of a source in C++.'
 type: docs
-weight: 57414
+weight: 23000
 url: /cpp/aspose.words.bibliography/source/get_institution/
 ---
 ## Source::get_Institution method

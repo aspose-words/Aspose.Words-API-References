@@ -4,7 +4,7 @@ linktitle: Sign
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign method. Signs source document using given CertificateHolder with digital signature and writes signed document to destination stream. Supported formats are: Doc, Dot, Docx, Dotx, Docm, Dotm, Odt, Ott.Output will be written to the start of stream and stream size will be updated with content length in C++.'
 type: docs
-weight: 7000
+weight: 3000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) method

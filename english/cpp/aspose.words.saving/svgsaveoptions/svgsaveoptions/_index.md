@@ -4,7 +4,7 @@ linktitle: SvgSaveOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use SvgSaveOptions constructor of Aspose::Words::Saving::SvgSaveOptions class in C++.'
 type: docs
-weight: 12072
+weight: 2000
 url: /cpp/aspose.words.saving/svgsaveoptions/svgsaveoptions/
 ---
 ## SvgSaveOptions::SvgSaveOptions constructor

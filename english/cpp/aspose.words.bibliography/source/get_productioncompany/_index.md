@@ -4,7 +4,7 @@ linktitle: get_ProductionCompany
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_ProductionCompany method. Gets or sets the production company of a source in C++.'
 type: docs
-weight: 57630
+weight: 35000
 url: /cpp/aspose.words.bibliography/source/get_productioncompany/
 ---
 ## Source::get_ProductionCompany method

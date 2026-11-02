@@ -4,7 +4,7 @@ linktitle: get_InternetSiteTitle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_InternetSiteTitle method. Gets or sets the internet site title of a source in C++.'
 type: docs
-weight: 57432
+weight: 24000
 url: /cpp/aspose.words.bibliography/source/get_internetsitetitle/
 ---
 ## Source::get_InternetSiteTitle method

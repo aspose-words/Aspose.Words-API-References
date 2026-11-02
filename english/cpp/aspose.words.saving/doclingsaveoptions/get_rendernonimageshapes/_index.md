@@ -4,7 +4,7 @@ linktitle: get_RenderNonImageShapes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::DoclingSaveOptions::get_RenderNonImageShapes method. Gets or sets a value indicating whether non-image shapes should be rendered and written to the output Docling JSON document in C++.'
 type: docs
-weight: 6500
+weight: 3000
 url: /cpp/aspose.words.saving/doclingsaveoptions/get_rendernonimageshapes/
 ---
 ## DoclingSaveOptions::get_RenderNonImageShapes method

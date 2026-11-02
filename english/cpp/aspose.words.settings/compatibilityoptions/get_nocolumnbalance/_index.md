@@ -4,7 +4,7 @@ linktitle: get_NoColumnBalance
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_NoColumnBalance method. Do Not Balance Text Columns within a Section in C++.'
 type: docs
-weight: 75476
+weight: 75462
 url: /cpp/aspose.words.settings/compatibilityoptions/get_nocolumnbalance/
 ---
 ## CompatibilityOptions::get_NoColumnBalance method

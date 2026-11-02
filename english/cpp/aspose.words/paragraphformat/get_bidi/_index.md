@@ -4,7 +4,7 @@ linktitle: get_Bidi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ParagraphFormat::get_Bidi method. Gets or sets whether this is a right-to-left paragraph in C++.'
 type: docs
-weight: 44138
+weight: 6000
 url: /cpp/aspose.words/paragraphformat/get_bidi/
 ---
 ## ParagraphFormat::get_Bidi method

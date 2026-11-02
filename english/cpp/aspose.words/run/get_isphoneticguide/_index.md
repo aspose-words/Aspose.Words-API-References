@@ -4,7 +4,7 @@ linktitle: get_IsPhoneticGuide
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Run::get_IsPhoneticGuide method. Gets a boolean value indicating either the run is a phonetic guide in C++.'
 type: docs
-weight: 8429
+weight: 7000
 url: /cpp/aspose.words/run/get_isphoneticguide/
 ---
 ## Run::get_IsPhoneticGuide method

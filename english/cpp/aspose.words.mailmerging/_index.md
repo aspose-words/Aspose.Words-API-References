@@ -17,7 +17,7 @@ The engine allows to quickly and easily populate a report template with data fro
 
 The [MailMerge](./mailmerge/) object which provides access to the reporting functionality is available via the [Document.MailMerge](../aspose.words/document/get_mailmerge/) property.
 
-For the newer and more advanced reporting engine based on the LINQ method syntax see **Reporting**.
+For the newer and more advanced reporting engine based on the LINQ method syntax see Reporting.
 ## Classes
 
 | Class | Description |

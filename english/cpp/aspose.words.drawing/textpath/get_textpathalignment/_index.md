@@ -4,7 +4,7 @@ linktitle: get_TextPathAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextPath::get_TextPathAlignment method. Defines the alignment of text in C++.'
 type: docs
-weight: 23820
+weight: 18000
 url: /cpp/aspose.words.drawing/textpath/get_textpathalignment/
 ---
 ## TextPath::get_TextPathAlignment method

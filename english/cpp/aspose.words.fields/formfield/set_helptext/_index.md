@@ -4,7 +4,7 @@ linktitle: set_HelpText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_HelpText method. Sets the text that''s displayed in a message box when the form field has the focus and the user presses F1 in C++.'
 type: docs
-weight: 79000
+weight: 78000
 url: /cpp/aspose.words.fields/formfield/set_helptext/
 ---
 ## FormField::set_HelpText method

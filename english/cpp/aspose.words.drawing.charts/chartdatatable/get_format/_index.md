@@ -4,7 +4,7 @@ linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataTable::get_Format method. Provides access to fill of text background and border formatting of the data table in C++.'
 type: docs
-weight: 10334
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/chartdatatable/get_format/
 ---
 ## ChartDataTable::get_Format method

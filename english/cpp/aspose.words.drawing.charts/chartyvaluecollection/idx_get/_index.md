@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartYValueCollection::idx_get method. Gets or sets the Y value at the specified index in C++.'
 type: docs
-weight: 7668
+weight: 5000
 url: /cpp/aspose.words.drawing.charts/chartyvaluecollection/idx_get/
 ---
 ## ChartYValueCollection::idx_get method

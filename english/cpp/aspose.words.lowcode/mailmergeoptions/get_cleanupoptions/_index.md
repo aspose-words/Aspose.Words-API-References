@@ -4,7 +4,7 @@ linktitle: get_CleanupOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::MailMergeOptions::get_CleanupOptions method. Gets a set of flags that specify what items should be removed during mail merge in C++.'
 type: docs
-weight: 17189
+weight: 3000
 url: /cpp/aspose.words.lowcode/mailmergeoptions/get_cleanupoptions/
 ---
 ## MailMergeOptions::get_CleanupOptions method

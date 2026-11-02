@@ -4,7 +4,7 @@ linktitle: get_CompositingQuality
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::GraphicsQualityOptions::get_CompositingQuality method. Gets the rendering quality of composited images drawn to this Graphics in C++.'
 type: docs
-weight: 11334
+weight: 4000
 url: /cpp/aspose.words.saving/graphicsqualityoptions/get_compositingquality/
 ---
 ## GraphicsQualityOptions::get_CompositingQuality method

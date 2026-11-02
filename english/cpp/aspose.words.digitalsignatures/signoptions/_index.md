@@ -29,7 +29,7 @@ class SignOptions : public System::Object
 | [get_HorizontalResolution](./get_horizontalresolution/)() const | Gets or sets the horizontal resolution for the digital signature. Default value is 1920. |
 | [get_OfficeVersion](./get_officeversion/)() const | Gets or sets the Office version for the digital signature. Default value is "12.0". |
 | [get_ProviderId](./get_providerid/)() const | Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid. |
-| [get_SignTime](./get_signtime/)() const | The date of signing. Default value is current time (**Now**) |
+| [get_SignTime](./get_signtime/)() const | The date of signing. Default value is current time (Now) |
 | [get_SignatureLineId](./get_signaturelineid/)() const | Signature line identifier. Default value is Empty (all zeroes) Guid. |
 | [get_SignatureLineImage](./get_signaturelineimage/)() const | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is **null**. |
 | [get_TimestampSettings](./get_timestampsettings/)() const | Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is **null** and the digital signature will not be time-stamped. |
@@ -43,7 +43,7 @@ class SignOptions : public System::Object
 | [set_HorizontalResolution](./set_horizontalresolution/)(int32_t) | Sets the horizontal resolution for the digital signature. Default value is 1920. |
 | [set_OfficeVersion](./set_officeversion/)(const System::String \&) | Sets the Office version for the digital signature. Default value is "12.0". |
 | [set_ProviderId](./set_providerid/)(System::Guid) | Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid. |
-| [set_SignTime](./set_signtime/)(System::DateTime) | The date of signing. Default value is current time (**Now**) |
+| [set_SignTime](./set_signtime/)(System::DateTime) | The date of signing. Default value is current time (Now) |
 | [set_SignatureLineId](./set_signaturelineid/)(System::Guid) | Signature line identifier. Default value is Empty (all zeroes) Guid. |
 | [set_SignatureLineImage](./set_signaturelineimage/)(const System::ArrayPtr\<uint8_t\> \&) | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is **null**. |
 | [set_TimestampSettings](./set_timestampsettings/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings\> \&) | Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA). The default value is **null** and the digital signature will not be time-stamped. |

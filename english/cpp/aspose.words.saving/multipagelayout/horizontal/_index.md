@@ -4,7 +4,7 @@ linktitle: Horizontal
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::MultiPageLayout::Horizontal method. Creates a layout in which all specified pages are rendered horizontally side by side, left to right, in a single output in C++.'
 type: docs
-weight: 10667
+weight: 2000
 url: /cpp/aspose.words.saving/multipagelayout/horizontal/
 ---
 ## MultiPageLayout::Horizontal method

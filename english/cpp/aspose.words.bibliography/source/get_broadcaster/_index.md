@@ -4,7 +4,7 @@ linktitle: get_Broadcaster
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Broadcaster method. Gets or sets the broadcaster of a source in C++.'
 type: docs
-weight: 57126
+weight: 7500
 url: /cpp/aspose.words.bibliography/source/get_broadcaster/
 ---
 ## Source::get_Broadcaster method

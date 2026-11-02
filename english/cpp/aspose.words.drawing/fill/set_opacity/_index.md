@@ -4,7 +4,7 @@ linktitle: set_Opacity
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::set_Opacity method. Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque) in C++.'
 type: docs
-weight: 75000
+weight: 74000
 url: /cpp/aspose.words.drawing/fill/set_opacity/
 ---
 ## Fill::set_Opacity method

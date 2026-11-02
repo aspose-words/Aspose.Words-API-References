@@ -4,13 +4,13 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShadowFormat::get_Color method. Gets or sets a Color object that represents the color for the shadow. The default value is Black in C++.'
 type: docs
-weight: 6112
+weight: 2500
 url: /cpp/aspose.words.drawing/shadowformat/get_color/
 ---
 ## ShadowFormat::get_Color method
 
 
-Gets or sets a **Color** object that represents the color for the shadow. The default value is **Black**.
+Gets or sets a Color object that represents the color for the shadow. The default value is Black.
 
 ```cpp
 System::Drawing::Color Aspose::Words::Drawing::ShadowFormat::get_Color()

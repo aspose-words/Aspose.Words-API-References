@@ -49,8 +49,8 @@ doc->Save(get_ArtifactsDir() + u"Font.ForegroundAndBackground.docx");
 ```
 ## Exceptions
 
-* **ArgumentOutOfRangeException** - Throw if set this property to a value less than -1 or more than 1.
-* **InvalidOperationException** - Throw if set this property for Shading object with non-theme colors.
+* ArgumentOutOfRangeException - Throw if set this property to a value less than -1 or more than 1.
+* InvalidOperationException - Throw if set this property for Shading object with non-theme colors.
 
 ## See Also
 

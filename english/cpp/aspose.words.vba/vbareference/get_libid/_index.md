@@ -4,7 +4,7 @@ linktitle: get_LibId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaReference::get_LibId method. Gets a string value containing the identifier of an Automation type library in C++.'
 type: docs
-weight: 7000
+weight: 2000
 url: /cpp/aspose.words.vba/vbareference/get_libid/
 ---
 ## VbaReference::get_LibId method

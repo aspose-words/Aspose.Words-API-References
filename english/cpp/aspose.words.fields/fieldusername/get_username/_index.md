@@ -4,7 +4,7 @@ linktitle: get_UserName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldUserName::get_UserName method. Gest or sets the current user''s name in C++.'
 type: docs
-weight: 4667
+weight: 2000
 url: /cpp/aspose.words.fields/fieldusername/get_username/
 ---
 ## FieldUserName::get_UserName method

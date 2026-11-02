@@ -4,7 +4,7 @@ linktitle: get_StyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_StyleName method. Gets or sets the name of the character style applied to this formatting in C++.'
 type: docs
-weight: 59779
+weight: 59545
 url: /cpp/aspose.words/font/get_stylename/
 ---
 ## Font::get_StyleName method

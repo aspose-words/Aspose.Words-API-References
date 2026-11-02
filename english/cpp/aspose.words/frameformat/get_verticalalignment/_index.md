@@ -4,7 +4,7 @@ linktitle: get_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FrameFormat::get_VerticalAlignment method. Gets vertical alignment of the specified frame in C++.'
 type: docs
-weight: 25000
+weight: 10000
 url: /cpp/aspose.words/frameformat/get_verticalalignment/
 ---
 ## FrameFormat::get_VerticalAlignment method

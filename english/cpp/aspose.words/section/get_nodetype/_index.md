@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Section::get_NodeType method. Returns Section in C++.'
 type: docs
-weight: 17625
+weight: 17572
 url: /cpp/aspose.words/section/get_nodetype/
 ---
 ## Section::get_NodeType method

@@ -4,7 +4,7 @@ linktitle: get_Medium
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_Medium method. Gets or sets the medium of a source in C++.'
 type: docs
-weight: 57504
+weight: 28000
 url: /cpp/aspose.words.bibliography/source/get_medium/
 ---
 ## Source::get_Medium method

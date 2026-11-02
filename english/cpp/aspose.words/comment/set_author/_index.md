@@ -4,7 +4,7 @@ linktitle: set_Author
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::set_Author method. Sets the author name for a comment in C++.'
 type: docs
-weight: 35000
+weight: 34000
 url: /cpp/aspose.words/comment/set_author/
 ---
 ## Comment::set_Author method

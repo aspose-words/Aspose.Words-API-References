@@ -4,7 +4,7 @@ linktitle: set_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_Title method. Defines the title of an image in C++.'
 type: docs
-weight: 69000
+weight: 68000
 url: /cpp/aspose.words.drawing/imagedata/set_title/
 ---
 ## ImageData::set_Title method

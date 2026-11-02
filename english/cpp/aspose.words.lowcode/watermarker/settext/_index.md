@@ -4,7 +4,7 @@ linktitle: SetText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::Watermarker::SetText method. Adds a text watermark into the document from streams with options in C++.'
 type: docs
-weight: 8000
+weight: 2000
 url: /cpp/aspose.words.lowcode/watermarker/settext/
 ---
 ## Watermarker::SetText(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat, const System::String \&) method

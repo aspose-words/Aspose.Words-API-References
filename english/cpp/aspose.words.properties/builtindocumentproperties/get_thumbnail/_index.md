@@ -4,7 +4,7 @@ linktitle: get_Thumbnail
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Thumbnail method. Gets or sets the thumbnail of the document in C++.'
 type: docs
-weight: 36818
+weight: 28000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_thumbnail/
 ---
 ## BuiltInDocumentProperties::get_Thumbnail method
@@ -49,7 +49,7 @@ System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"DocumentProperties.Thumbn
 ```
 ## Exceptions
 
-* **InvalidOperationException** -  Thrown if the image is invalid or its format is unsupported for specific format of document.
+* InvalidOperationException -  Thrown if the image is invalid or its format is unsupported for specific format of document.
 
 ## See Also
 

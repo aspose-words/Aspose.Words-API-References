@@ -19,11 +19,11 @@ System::SharedPtr<System::IO::Stream> Aspose::Words::Drawing::ImageData::ToStrea
 ## Remarks
 
 
-If the image bytes are stored in the shape, creates and returns a **MemoryStream** object.
+If the image bytes are stored in the shape, creates and returns a MemoryStream object.
 
-If the image is linked and stored in a file, opens the file and returns a **FileStream** object.
+If the image is linked and stored in a file, opens the file and returns a FileStream object.
 
-If the image is linked and stored in an external URL, downloads the file and returns a **MemoryStream** object.
+If the image is linked and stored in an external URL, downloads the file and returns a MemoryStream object.
 
 Is it the responsibility of the caller to dispose the stream object.
 ## Examples

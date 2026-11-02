@@ -4,7 +4,7 @@ linktitle: PageSavingArgs
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use PageSavingArgs constructor of Aspose::Words::Saving::PageSavingArgs class in C++.'
 type: docs
-weight: 8143
+weight: 2000
 url: /cpp/aspose.words.saving/pagesavingargs/pagesavingargs/
 ---
 ## PageSavingArgs::PageSavingArgs constructor

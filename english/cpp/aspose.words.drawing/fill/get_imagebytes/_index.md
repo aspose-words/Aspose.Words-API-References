@@ -4,7 +4,7 @@ linktitle: get_ImageBytes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_ImageBytes method. Gets the raw bytes of the fill texture or pattern in C++.'
 type: docs
-weight: 59000
+weight: 58000
 url: /cpp/aspose.words.drawing/fill/get_imagebytes/
 ---
 ## Fill::get_ImageBytes method

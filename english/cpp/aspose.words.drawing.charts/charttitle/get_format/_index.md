@@ -4,7 +4,7 @@ linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartTitle::get_Format method. Provides access to fill and line formatting of the chart title in C++.'
 type: docs
-weight: 6168
+weight: 1750
 url: /cpp/aspose.words.drawing.charts/charttitle/get_format/
 ---
 ## ChartTitle::get_Format method

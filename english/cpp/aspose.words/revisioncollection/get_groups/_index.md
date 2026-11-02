@@ -4,7 +4,7 @@ linktitle: get_Groups
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::RevisionCollection::get_Groups method. Collection of revision groups in C++.'
 type: docs
-weight: 12000
+weight: 11000
 url: /cpp/aspose.words/revisioncollection/get_groups/
 ---
 ## RevisionCollection::get_Groups method

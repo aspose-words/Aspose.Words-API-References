@@ -4,7 +4,7 @@ linktitle: get_MergeFormatMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::MergerContext::get_MergeFormatMode method. Specifies how to merge formatting that clashes in C++.'
 type: docs
-weight: 5750
+weight: 3000
 url: /cpp/aspose.words.lowcode/mergercontext/get_mergeformatmode/
 ---
 ## MergerContext::get_MergeFormatMode method

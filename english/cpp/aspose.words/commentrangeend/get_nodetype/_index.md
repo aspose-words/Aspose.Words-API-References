@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::CommentRangeEnd::get_NodeType method. Returns CommentRangeEnd in C++.'
 type: docs
-weight: 7750
+weight: 5000
 url: /cpp/aspose.words/commentrangeend/get_nodetype/
 ---
 ## CommentRangeEnd::get_NodeType method

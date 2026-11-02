@@ -4,7 +4,7 @@ linktitle: set_DropDownSelectedIndex
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_DropDownSelectedIndex method. Sets the index specifying the currently selected item in a dropdown form field in C++.'
 type: docs
-weight: 75000
+weight: 74000
 url: /cpp/aspose.words.fields/formfield/set_dropdownselectedindex/
 ---
 ## FormField::set_DropDownSelectedIndex method

@@ -4,7 +4,7 @@ linktitle: get_IsValid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_IsValid method. Returns true if this digital signature is valid and the document has not been tampered with in C++.'
 type: docs
-weight: 18000
+weight: 17000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_isvalid/
 ---
 ## DigitalSignature::get_IsValid method

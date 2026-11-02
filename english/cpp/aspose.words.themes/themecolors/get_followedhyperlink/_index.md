@@ -4,7 +4,7 @@ linktitle: get_FollowedHyperlink
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Themes::ThemeColors::get_FollowedHyperlink method. Specifies color for a clicked hyperlink in C++.'
 type: docs
-weight: 15716
+weight: 10000
 url: /cpp/aspose.words.themes/themecolors/get_followedhyperlink/
 ---
 ## ThemeColors::get_FollowedHyperlink method

@@ -4,7 +4,7 @@ linktitle: SaveFormatToLoadFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::FileFormatUtil::SaveFormatToLoadFormat method. Converts a SaveFormat value to a LoadFormat value if possible in C++.'
 type: docs
-weight: 15000
+weight: 9000
 url: /cpp/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil::SaveFormatToLoadFormat method
@@ -33,7 +33,7 @@ ASSERT_THROW(static_cast<std::function<void()>>([]() -> void
 ```
 ## Exceptions
 
-* **ArgumentException** - Throws when cannot convert.
+* ArgumentException - Throws when cannot convert.
 
 ## See Also
 

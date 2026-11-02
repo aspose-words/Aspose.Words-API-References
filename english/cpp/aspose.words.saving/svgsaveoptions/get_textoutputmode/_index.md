@@ -4,7 +4,7 @@ linktitle: get_TextOutputMode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::SvgSaveOptions::get_TextOutputMode method. Gets or sets a value determining how text should be rendered in SVG in C++.'
 type: docs
-weight: 12929
+weight: 10000
 url: /cpp/aspose.words.saving/svgsaveoptions/get_textoutputmode/
 ---
 ## SvgSaveOptions::get_TextOutputMode method

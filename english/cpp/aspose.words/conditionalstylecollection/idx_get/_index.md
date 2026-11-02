@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyleCollection::idx_get method. Retrieves a ConditionalStyle object by conditional style type in C++.'
 type: docs
-weight: 34000
+weight: 18000
 url: /cpp/aspose.words/conditionalstylecollection/idx_get/
 ---
 ## ConditionalStyleCollection::idx_get(Aspose::Words::ConditionalStyleType) method

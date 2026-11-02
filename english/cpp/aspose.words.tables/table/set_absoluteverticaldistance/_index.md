@@ -4,7 +4,7 @@ linktitle: set_AbsoluteVerticalDistance
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::set_AbsoluteVerticalDistance method. Sets absolute vertical floating table position specified by the table properties, in points. Default value is 0 in C++.'
 type: docs
-weight: 107000
+weight: 106000
 url: /cpp/aspose.words.tables/table/set_absoluteverticaldistance/
 ---
 ## Table::set_AbsoluteVerticalDistance method

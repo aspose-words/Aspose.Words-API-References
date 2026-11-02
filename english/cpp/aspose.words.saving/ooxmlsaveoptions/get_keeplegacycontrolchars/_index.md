@@ -4,7 +4,7 @@ linktitle: get_KeepLegacyControlChars
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_KeepLegacyControlChars method. Keeps original representation of legacy control characters in C++.'
 type: docs
-weight: 9600
+weight: 5000
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions::get_KeepLegacyControlChars method

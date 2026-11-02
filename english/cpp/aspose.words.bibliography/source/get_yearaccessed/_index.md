@@ -4,7 +4,7 @@ linktitle: get_YearAccessed
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::Source::get_YearAccessed method. Gets or sets the year accessed of a source in C++.'
 type: docs
-weight: 57983
+weight: 55000
 url: /cpp/aspose.words.bibliography/source/get_yearaccessed/
 ---
 ## Source::get_YearAccessed method

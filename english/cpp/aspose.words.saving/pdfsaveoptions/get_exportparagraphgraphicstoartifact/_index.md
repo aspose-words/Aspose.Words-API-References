@@ -4,7 +4,7 @@ linktitle: get_ExportParagraphGraphicsToArtifact
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::PdfSaveOptions::get_ExportParagraphGraphicsToArtifact method. Gets or sets a value determining whether a paragraph graphic should be marked as an artifact in C++.'
 type: docs
-weight: 36450
+weight: 17500
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportparagraphgraphicstoartifact/
 ---
 ## PdfSaveOptions::get_ExportParagraphGraphicsToArtifact method

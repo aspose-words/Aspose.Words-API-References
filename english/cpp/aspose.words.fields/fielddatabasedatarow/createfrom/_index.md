@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fielddatabasedatarow/createfrom/
 ## FieldDatabaseDataRow::CreateFrom method
 
 
-Initializes a new instance of the [FieldDatabaseDataRow](../) class from the **DataRow** instance.
+Initializes a new instance of the [FieldDatabaseDataRow](../) class from the DataRow instance.
 
 ```cpp
 static System::SharedPtr<Aspose::Words::Fields::FieldDatabaseDataRow> Aspose::Words::Fields::FieldDatabaseDataRow::CreateFrom(const System::SharedPtr<System::Data::DataRow> & dataRow)

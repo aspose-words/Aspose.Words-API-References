@@ -4,7 +4,7 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::HorizontalRuleFormat::get_Color method. Gets or sets the brush color that fills the horizontal rule in C++.'
 type: docs
-weight: 8429
+weight: 3000
 url: /cpp/aspose.words.drawing/horizontalruleformat/get_color/
 ---
 ## HorizontalRuleFormat::get_Color method
@@ -21,7 +21,7 @@ System::Drawing::Color Aspose::Words::Drawing::HorizontalRuleFormat::get_Color()
 
 This is a shortcut to the [Color](../../fill/get_color/) property.
 
-The default value is **Gray**. 
+The default value is Gray. 
 ## Examples
 
 

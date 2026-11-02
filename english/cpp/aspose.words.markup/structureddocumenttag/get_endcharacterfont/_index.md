@@ -4,7 +4,7 @@ linktitle: get_EndCharacterFont
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_EndCharacterFont method. Font formatting that will be applied to the last character of text entered into SDT in C++.'
 type: docs
-weight: 72000
+weight: 71000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_endcharacterfont/
 ---
 ## StructuredDocumentTag::get_EndCharacterFont method

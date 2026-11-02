@@ -4,7 +4,7 @@ linktitle: RemoveAllSignatures
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::RemoveAllSignatures method. Removes all digital signatures from document in source stream and writes unsigned document to destination stream. Output will be written to the start of stream and stream size will be updated with content length.The following formats are compatible for digital signature removal: Doc, Dot, Docx, Dotx, Docm, Dotm, Odt, Ott in C++.'
 type: docs
-weight: 6000
+weight: 2000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
 ## DigitalSignatureUtil::RemoveAllSignatures(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<System::IO::Stream\> \&) method

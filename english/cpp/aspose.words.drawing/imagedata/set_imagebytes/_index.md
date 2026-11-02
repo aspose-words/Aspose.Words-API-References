@@ -4,7 +4,7 @@ linktitle: set_ImageBytes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::set_ImageBytes method. Sets the raw bytes of the image stored in the shape in C++.'
 type: docs
-weight: 67000
+weight: 66000
 url: /cpp/aspose.words.drawing/imagedata/set_imagebytes/
 ---
 ## ImageData::set_ImageBytes method

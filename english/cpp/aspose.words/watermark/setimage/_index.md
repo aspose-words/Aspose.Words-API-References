@@ -47,7 +47,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ```
 ## Exceptions
 
-* **ArgumentNullException** -  Throws when the image is **null**.
+* ArgumentNullException -  Throws when the image is **null**.
 
 ## See Also
 
@@ -98,7 +98,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ```
 ## Exceptions
 
-* **ArgumentNullException** -  Throws when the image is **null**.
+* ArgumentNullException -  Throws when the image is **null**.
 
 ## See Also
 
@@ -144,7 +144,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermarkStream.docx");
 ```
 ## Exceptions
 
-* **ArgumentNullException** -  Throws when the path is **null**.
+* ArgumentNullException -  Throws when the path is **null**.
 
 ## See Also
 
@@ -195,7 +195,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ```
 ## Exceptions
 
-* **ArgumentNullException** -  Throws when the path is **null**.
+* ArgumentNullException -  Throws when the path is **null**.
 
 ## See Also
 

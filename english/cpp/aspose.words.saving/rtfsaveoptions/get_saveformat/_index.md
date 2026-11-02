@@ -4,7 +4,7 @@ linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::RtfSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Rtf in C++.'
 type: docs
-weight: 8715
+weight: 5000
 url: /cpp/aspose.words.saving/rtfsaveoptions/get_saveformat/
 ---
 ## RtfSaveOptions::get_SaveFormat method

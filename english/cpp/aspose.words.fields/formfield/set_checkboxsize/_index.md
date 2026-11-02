@@ -4,7 +4,7 @@ linktitle: set_CheckBoxSize
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FormField::set_CheckBoxSize method. Sets the size of the checkbox in points. Has effect only when IsCheckBoxExactSize is true in C++.'
 type: docs
-weight: 72000
+weight: 71000
 url: /cpp/aspose.words.fields/formfield/set_checkboxsize/
 ---
 ## FormField::set_CheckBoxSize method

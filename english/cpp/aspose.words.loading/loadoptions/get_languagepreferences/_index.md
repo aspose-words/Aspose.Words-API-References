@@ -4,7 +4,7 @@ linktitle: get_LanguagePreferences
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Loading::LoadOptions::get_LanguagePreferences method. Gets language preferences that will be used when document is loading in C++.'
 type: docs
-weight: 20432
+weight: 9000
 url: /cpp/aspose.words.loading/loadoptions/get_languagepreferences/
 ---
 ## LoadOptions::get_LanguagePreferences method

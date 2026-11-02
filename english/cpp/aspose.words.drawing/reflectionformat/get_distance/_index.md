@@ -4,7 +4,7 @@ linktitle: get_Distance
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ReflectionFormat::get_Distance method. Gets or sets a double value that specifies the amount of separation of the reflected image from the object in points. The default value is 0.0 in C++.'
 type: docs
-weight: 8501
+weight: 8400
 url: /cpp/aspose.words.drawing/reflectionformat/get_distance/
 ---
 ## ReflectionFormat::get_Distance method

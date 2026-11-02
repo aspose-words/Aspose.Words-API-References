@@ -4,7 +4,7 @@ linktitle: get_RightOffset
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAdvance::get_RightOffset method. Gets or sets the number of points by which the text that follows the field should be moved right in C++.'
 type: docs
-weight: 9625
+weight: 5000
 url: /cpp/aspose.words.fields/fieldadvance/get_rightoffset/
 ---
 ## FieldAdvance::get_RightOffset method

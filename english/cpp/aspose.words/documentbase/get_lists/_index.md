@@ -4,7 +4,7 @@ linktitle: get_Lists
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBase::get_Lists method. Provides access to the list formatting used in the document in C++.'
 type: docs
-weight: 13502
+weight: 12910
 url: /cpp/aspose.words/documentbase/get_lists/
 ---
 ## DocumentBase::get_Lists method

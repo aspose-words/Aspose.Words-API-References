@@ -4,7 +4,7 @@ linktitle: get_NextSibling
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_NextSibling method. Gets the node immediately following this node in C++.'
 type: docs
-weight: 28000
+weight: 26000
 url: /cpp/aspose.words/node/get_nextsibling/
 ---
 ## Node::get_NextSibling method

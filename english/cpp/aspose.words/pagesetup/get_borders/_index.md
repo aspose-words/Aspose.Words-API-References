@@ -4,7 +4,7 @@ linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::PageSetup::get_Borders method. Gets a collection of the page borders in C++.'
 type: docs
-weight: 49176
+weight: 9500
 url: /cpp/aspose.words/pagesetup/get_borders/
 ---
 ## PageSetup::get_Borders method

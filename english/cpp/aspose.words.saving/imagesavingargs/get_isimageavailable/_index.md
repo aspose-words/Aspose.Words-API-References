@@ -4,7 +4,7 @@ linktitle: get_IsImageAvailable
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::ImageSavingArgs::get_IsImageAvailable method. Returns true if the current image is available for export in C++.'
 type: docs
-weight: 9750
+weight: 6000
 url: /cpp/aspose.words.saving/imagesavingargs/get_isimageavailable/
 ---
 ## ImageSavingArgs::get_IsImageAvailable method

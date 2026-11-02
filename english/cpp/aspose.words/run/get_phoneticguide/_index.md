@@ -4,7 +4,7 @@ linktitle: get_PhoneticGuide
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Run::get_PhoneticGuide method. Gets a PhoneticGuide object in C++.'
 type: docs
-weight: 8715
+weight: 8000
 url: /cpp/aspose.words/run/get_phoneticguide/
 ---
 ## Run::get_PhoneticGuide method
