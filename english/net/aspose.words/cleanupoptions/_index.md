@@ -29,7 +29,8 @@ public class CleanupOptions
 | Name | Description |
 | --- | --- |
 | [DuplicateStyle](../../aspose.words/cleanupoptions/duplicatestyle/) { get; set; } | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is `false`. |
-| [UnusedBuiltinStyles](../../aspose.words/cleanupoptions/unusedbuiltinstyles/) { get; set; } | Specifies that unused [`BuiltIn`](../style/builtin/) styles should be removed from document. |
+| [SymbolicFonts](../../aspose.words/cleanupoptions/symbolicfonts/) { get; set; } | Specifies that symbolic fonts (Symbol, Wingdings, etc...) should be replaced using appropriate Unicode fonts. Default value is `false`. |
+| [UnusedBuiltinStyles](../../aspose.words/cleanupoptions/unusedbuiltinstyles/) { get; set; } | Specifies that unused [`BuiltIn`](../style/builtin/) styles should be removed from document. Default value is `false`. |
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Specifies whether unused list and list definitions should be removed from document. Default value is `true`. |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Specifies whether unused styles should be removed from document. Default value is `true`. |
 

@@ -5,7 +5,7 @@ articleTitle: Transparency
 second_title: Aspose.Words for .NET
 description: Adjust the fill transparency from 0.0 (opaque) to 1.0 (clear) for customizable visual effects in your designs. Enhance your project's aesthetics today!
 type: docs
-weight: 200
+weight: 230
 url: /net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property

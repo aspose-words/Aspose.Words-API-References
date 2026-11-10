@@ -5,7 +5,7 @@ articleTitle: UnusedLists
 second_title: Aspose.Words for .NET
 description: Optimize your documents with CleanupOptions' UnusedLists property. Easily remove unused lists and definitions for a cleaner, more efficient workspace.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words/cleanupoptions/unusedlists/
 ---
 ## CleanupOptions.UnusedLists property
