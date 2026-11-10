@@ -5,7 +5,7 @@ articleTitle: PresetTextured
 second_title: Aspose.Words for .NET
 description: Discover the Fill PresetTextured method to effortlessly apply stunning preset textures, enhancing your designs with unique visual appeal.
 type: docs
-weight: 240
+weight: 270
 url: /net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method

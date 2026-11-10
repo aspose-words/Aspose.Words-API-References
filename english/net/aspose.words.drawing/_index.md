@@ -52,7 +52,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [HorizontalRuleAlignment](./horizontalrulealignment/) | Represents the alignment for the specified horizontal rule. |
 | [ImageType](./imagetype/) | Specifies the type (format) of an image in a Microsoft Word document. |
 | [JoinStyle](./joinstyle/) | Line join style. |
-| [LayoutFlow](./layoutflow/) | Determines the flow of the text layout in a textbox. |
+| [LayoutFlow](./layoutflow/) | Determines the flow of the text layout in a text box. |
 | [PatternType](./patterntype/) | Specifies the fill pattern to be used to fill a shape. |
 | [PresetTexture](./presettexture/) | Specifies texture to be used to fill a shape. |
 | [RelativeHorizontalPosition](./relativehorizontalposition/) | Specifies to what the horizontal position of a shape or text frame is relative. |

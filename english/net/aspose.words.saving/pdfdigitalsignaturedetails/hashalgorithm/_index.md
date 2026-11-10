@@ -18,7 +18,7 @@ public PdfDigitalSignatureHashAlgorithm HashAlgorithm { get; set; }
 
 ## Remarks
 
-The default value is the SHA-256 algorithm.
+The default value is Auto.
 
 ## Examples
 

@@ -5,7 +5,7 @@ articleTitle: Visible
 second_title: Aspose.Words for .NET
 description: Control visibility with the Fill Visible property. Easily manage formatting to enhance your design and ensure clarity in your application.
 type: docs
-weight: 210
+weight: 240
 url: /net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property

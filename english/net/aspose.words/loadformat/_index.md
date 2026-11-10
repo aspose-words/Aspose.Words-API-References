@@ -47,6 +47,8 @@ public enum LoadFormat
 | Markdown | `63` | Markdown text document. |
 | Pdf | `64` | Pdf document. |
 | Xml | `65` | XML document. |
+| Hwp | `66` | Hancom Hangul (HWP 5.0) binary document. Load only. |
+| WordPerfect | `68` | WordPerfect 6.x or later document. |
 | Unknown | `255` | Unrecognized format, cannot be loaded by Aspose.Words. |
 
 ## Examples
@@ -120,6 +122,30 @@ Assert.That(imageShape.IsImage, Is.True);
 
 // This output document will display the image that was missing.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
+```
+
+Shows how to load a Hancom Hangul document.
+
+```csharp
+FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "HWP document.hwp");
+Assert.That(info.LoadFormat, Is.EqualTo(LoadFormat.Hwp));
+
+LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.Hwp };
+Document doc = new Document(MyDir + "HWP document.hwp", loadOptions);
+
+doc.Save(ArtifactsDir + "LoadOptions.LoadHwp.docx");
+```
+
+Shows how to load a WordPerfect document.
+
+```csharp
+FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "WordPerfect document.wpd");
+Assert.That(info.LoadFormat, Is.EqualTo(LoadFormat.WordPerfect));
+
+LoadOptions loadOptions = new LoadOptions { LoadFormat = LoadFormat.WordPerfect };
+Document doc = new Document(MyDir + "WordPerfect document.wpd", loadOptions);
+
+doc.Save(ArtifactsDir + "LoadOptions.LoadWordPerfect.docx");
 ```
 
 ### See Also

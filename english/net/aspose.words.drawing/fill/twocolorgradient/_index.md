@@ -5,7 +5,7 @@ articleTitle: TwoColorGradient
 second_title: Aspose.Words for .NET
 description: Apply a stunning two-color gradient fill with our Fill TwoColorGradient method, enhancing your designs with vibrant, customizable effects.
 type: docs
-weight: 270
+weight: 300
 url: /net/aspose.words.drawing/fill/twocolorgradient/
 ---
 ## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}

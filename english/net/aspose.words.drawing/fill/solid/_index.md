@@ -5,7 +5,7 @@ articleTitle: Solid
 second_title: Aspose.Words for .NET
 description: Discover the Fill Solid method for achieving a consistent color fill, enhancing your design's visual appeal and uniformity effortlessly.
 type: docs
-weight: 260
+weight: 290
 url: /net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
