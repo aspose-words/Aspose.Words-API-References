@@ -24,6 +24,7 @@ public enum PdfDigitalSignatureHashAlgorithm
 | Sha384 | `1` | SHA-384 hash algorithm. |
 | Sha512 | `2` | SHA-512 hash algorithm. |
 | RipeMD160 | `3` | RIPEMD-160 hash algorithm. |
+| Auto | `4` | Automatically selects an appropriate hash algorithm based on the provided private key. |
 
 ## Examples
 
@@ -53,6 +54,26 @@ Assert.That(options.DigitalSignatureDetails.SignatureDate.ToLocalTime(), Is.Equa
 Assert.That(options.DigitalSignatureDetails.CertificateHolder, Is.EqualTo(certificateHolder));
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+```
+
+Shows how to sign a PDF document with a hash algorithm selected automatically based on the private key.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Contents of signed PDF.");
+
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+PdfSaveOptions options = new PdfSaveOptions();
+options.DigitalSignatureDetails =
+    new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", DateTime.Now);
+
+// "Auto" is the default value. Some newer digital signature algorithms have specific digest requirements,
+// so Aspose.Words picks a hash algorithm that is compatible with the certificate's private key.
+Assert.That(options.DigitalSignatureDetails.HashAlgorithm, Is.EqualTo(PdfDigitalSignatureHashAlgorithm.Auto));
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureAutoHashAlgorithm.pdf", options);
 ```
 
 ### See Also

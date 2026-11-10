@@ -18,7 +18,7 @@ public RevisionColor CommentColor { get; set; }
 
 ## Remarks
 
-If set this property to ByAuthor or NoHighlight values, as the result this property will be set to default color.
+If this property is set to NoHighlight, the default color will be used for comments.
 
 ## Examples
 
@@ -66,6 +66,31 @@ revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
 // These features are only applicable to formats such as .pdf or .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
+```
+
+Shows how to render comments of each author in a different color.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Hello world!");
+Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
+comment.SetText("Comment from John.");
+builder.CurrentParagraph.AppendChild(comment);
+
+builder.Writeln();
+builder.Write("Hello again!");
+comment = new Comment(doc, "Jane Doe", "J.D.", DateTime.Now);
+comment.SetText("Comment from Jane.");
+builder.CurrentParagraph.AppendChild(comment);
+
+// Similar to Microsoft Word, the "ByAuthor" color affects regular comments as well as revision comments.
+// Comment balloons of different authors are rendered in different colors.
+doc.LayoutOptions.RevisionOptions.CommentColor = RevisionColor.ByAuthor;
+
+// This option is only applicable to formats such as .pdf or .jpg.
+doc.Save(ArtifactsDir + "Revision.CommentColorByAuthor.pdf");
 ```
 
 ### See Also

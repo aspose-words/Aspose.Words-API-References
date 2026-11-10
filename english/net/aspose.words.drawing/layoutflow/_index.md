@@ -10,7 +10,7 @@ url: /net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
 
-Determines the flow of the text layout in a textbox.
+Determines the flow of the text layout in a text box.
 
 ```csharp
 public enum LayoutFlow

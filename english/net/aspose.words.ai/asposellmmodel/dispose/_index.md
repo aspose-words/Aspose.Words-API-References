@@ -29,10 +29,14 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 // Disposing the model releases the local model and its native resources.
 using (AsposeLlmModel model = new AsposeLlmModel("Qwen25_3BPresetCpu"))
 {
-    Document summary = model.Summarize(firstDoc, new SummarizeOptions { SummaryLength = SummaryLength.Short });
+    SummarizeOptions summarizeOptions = new SummarizeOptions();
+
+    summarizeOptions.SummaryLength = SummaryLength.Short;
+    Document summary = model.Summarize(firstDoc, summarizeOptions);
     summary.Save(ArtifactsDir + "AI.AsposeLlmSummarize.One.docx");
 
-    Document combinedSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions { SummaryLength = SummaryLength.Medium });
+    summarizeOptions.SummaryLength = SummaryLength.Medium;
+    Document combinedSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, summarizeOptions);
     combinedSummary.Save(ArtifactsDir + "AI.AsposeLlmSummarize.Multiple.docx");
 }
 ```

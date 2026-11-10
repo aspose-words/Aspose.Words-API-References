@@ -5,7 +5,7 @@ articleTitle: OneColorGradient
 second_title: Aspose.Words for .NET
 description: Discover how to use the OneColorGradient method to create stunning one-color gradients for your designs. Enhance your projects effortlessly!
 type: docs
-weight: 220
+weight: 250
 url: /net/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}

@@ -41,6 +41,9 @@ public class Fill
 | [PresetTexture](../../aspose.words.drawing/fill/presettexture/) { get; } | Gets a [`PresetTexture`](../presettexture/) for the fill. |
 | [RotateWithObject](../../aspose.words.drawing/fill/rotatewithobject/) { get; set; } | Gets or sets whether the fill rotates with the specified object. |
 | [TextureAlignment](../../aspose.words.drawing/fill/texturealignment/) { get; set; } | Gets or sets the alignment for tile texture fill. |
+| [TextureHorizontalScale](../../aspose.words.drawing/fill/texturehorizontalscale/) { get; set; } | Gets or sets the horizontal scale for tile texture fill. |
+| [TextureTile](../../aspose.words.drawing/fill/texturetile/) { get; } | Returns True if the current fill is a tile texture fill. |
+| [TextureVerticalScale](../../aspose.words.drawing/fill/textureverticalscale/) { get; set; } | Gets or sets the vertical scale for tile texture fill. |
 | [Transparency](../../aspose.words.drawing/fill/transparency/) { get; set; } | Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
 | [Visible](../../aspose.words.drawing/fill/visible/) { get; set; } | Gets or sets value that is `true` if the formatting applied to this instance, is visible. |
 

@@ -5,7 +5,7 @@ articleTitle: Patterned
 second_title: Aspose.Words for .NET
 description: Discover the Fill Patterned method to effortlessly apply unique patterns to your designs, enhancing creativity and visual appeal in your projects.
 type: docs
-weight: 230
+weight: 260
 url: /net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
