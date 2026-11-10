@@ -4,7 +4,7 @@ linktitle: CommentDisplayMode
 second_title: Aspose.Words for Java
 description: Specifies the rendering mode for document comments in Java.
 type: docs
-weight: 110
+weight: 112
 url: /java/com.aspose.words/commentdisplaymode/
 ---
 

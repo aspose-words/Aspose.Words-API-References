@@ -4,7 +4,7 @@ linktitle: DefaultFontSubstitutionRule
 second_title: Aspose.Words for Java
 description: Default font substitution rule in Java.
 type: docs
-weight: 149
+weight: 151
 url: /java/com.aspose.words/defaultfontsubstitutionrule/
 ---
 

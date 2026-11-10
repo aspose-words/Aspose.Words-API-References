@@ -4,7 +4,7 @@ linktitle: ChartDataTable
 second_title: Aspose.Words for Java
 description: Allows to specify properties of a chart data table in Java.
 type: docs
-weight: 77
+weight: 78
 url: /java/com.aspose.words/chartdatatable/
 ---
 

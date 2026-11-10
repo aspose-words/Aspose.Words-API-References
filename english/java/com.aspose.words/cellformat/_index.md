@@ -4,7 +4,7 @@ linktitle: CellFormat
 second_title: Aspose.Words for Java
 description: Represents all formatting for a table cell in Java.
 type: docs
-weight: 61
+weight: 62
 url: /java/com.aspose.words/cellformat/
 ---
 

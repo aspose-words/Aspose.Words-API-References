@@ -4,7 +4,7 @@ linktitle: AxisCategoryType
 second_title: Aspose.Words for Java
 description: Specifies type of a category axis in Java.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.aspose.words/axiscategorytype/
 ---
 

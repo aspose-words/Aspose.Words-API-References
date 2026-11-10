@@ -4,7 +4,7 @@ linktitle: ChartDataLabelLocationMode
 second_title: Aspose.Words for Java
 description: Specifies how the values u200bu200bthat specify the location of a data label - the ChartDataLabel.getLeft / ChartDataLabel.setLeftdouble and ChartDataLabel.getTop / ChartDataLabel.setTopdouble properties - are interpreted in Java.
 type: docs
-weight: 73
+weight: 74
 url: /java/com.aspose.words/chartdatalabellocationmode/
 ---
 

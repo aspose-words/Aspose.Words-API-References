@@ -89,7 +89,6 @@ Shows how to control whether list definition content will be compared during doc
  CompareOptions options = new CompareOptions();
  AdvancedCompareOptions advanced = options.getAdvancedOptions();
  advanced.setCompareListDefinitions(isCompareListDefinitions);
- options.setAdvancedOptions(advanced);
 
  docA.compare(docB, "test", new Date(), options);
  
@@ -205,7 +204,6 @@ Shows how to control whether list definition content will be compared during doc
  CompareOptions options = new CompareOptions();
  AdvancedCompareOptions advanced = options.getAdvancedOptions();
  advanced.setCompareListDefinitions(isCompareListDefinitions);
- options.setAdvancedOptions(advanced);
 
  docA.compare(docB, "test", new Date(), options);
  

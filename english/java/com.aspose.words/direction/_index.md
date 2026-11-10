@@ -4,7 +4,7 @@ linktitle: Direction
 second_title: Aspose.Words for Java
 description: Text direction in Java.
 type: docs
-weight: 156
+weight: 158
 url: /java/com.aspose.words/direction/
 ---
 

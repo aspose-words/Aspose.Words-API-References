@@ -4,7 +4,7 @@ linktitle: BaselineAlignment
 second_title: Aspose.Words for Java
 description: Specifies fonts vertical position on a line in Java.
 type: docs
-weight: 36
+weight: 37
 url: /java/com.aspose.words/baselinealignment/
 ---
 

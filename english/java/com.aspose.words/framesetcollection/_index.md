@@ -4,7 +4,7 @@ linktitle: FramesetCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of instances of the Frameset class in Java.
 type: docs
-weight: 355
+weight: 357
 url: /java/com.aspose.words/framesetcollection/
 ---
 

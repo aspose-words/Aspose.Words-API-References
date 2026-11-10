@@ -4,7 +4,7 @@ linktitle: FieldKeywords
 second_title: Aspose.Words for Java
 description: Implements the KEYWORDS field in Java.
 type: docs
-weight: 253
+weight: 255
 url: /java/com.aspose.words/fieldkeywords/
 ---
 

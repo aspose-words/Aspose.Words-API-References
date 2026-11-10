@@ -4,7 +4,7 @@ linktitle: FootnoteSeparator
 second_title: Aspose.Words for Java
 description:  in Java.
 type: docs
-weight: 344
+weight: 346
 url: /java/com.aspose.words/footnoteseparator/
 ---
 
