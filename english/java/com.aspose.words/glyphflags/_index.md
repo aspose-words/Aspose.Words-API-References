@@ -4,7 +4,7 @@ linktitle: GlyphFlags
 second_title: Aspose.Words for Java
 description:  in Java.
 type: docs
-weight: 361
+weight: 363
 url: /java/com.aspose.words/glyphflags/
 ---
 

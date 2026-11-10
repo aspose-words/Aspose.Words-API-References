@@ -4,7 +4,7 @@ linktitle: ListLabel
 second_title: Aspose.Words for Java
 description: Defines properties specific to a list label in Java.
 type: docs
-weight: 429
+weight: 431
 url: /java/com.aspose.words/listlabel/
 ---
 

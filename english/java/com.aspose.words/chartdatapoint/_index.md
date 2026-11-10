@@ -4,7 +4,7 @@ linktitle: ChartDataPoint
 second_title: Aspose.Words for Java
 description: Allows to specify formatting of a single data point on the chart in Java.
 type: docs
-weight: 75
+weight: 76
 url: /java/com.aspose.words/chartdatapoint/
 ---
 
@@ -99,6 +99,7 @@ Shows how to work with data points on a line chart.
 | [getShapeType()](#getShapeType) |  |
 | [isFillSupported()](#isFillSupported) |  |
 | [isFormatDefined()](#isFormatDefined) |  |
+| [isTotal()](#isTotal) | Gets a flag indicating whether the data point is a total. |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [setExplosion(int value)](#setExplosion-int) | Specifies the amount the data point shall be moved from the center of the pie. |
@@ -529,6 +530,62 @@ public boolean isFormatDefined()
 
 **Returns:**
 boolean
+### isTotal() {#isTotal}
+```
+public boolean isTotal()
+```
+
+
+Gets a flag indicating whether the data point is a total. Applies only to Waterfall charts.
+
+ **Remarks:** 
+
+In a waterfall chart, total columns represent intermediate or final totals. If this property returns **true**, the data point is such a total column.
+
+ **Examples:** 
+
+Shows how to determine whether a data point is a total in a waterfall chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a Waterfall chart.
+ Shape shape = builder.insertChart(ChartType.WATERFALL, 450.0, 450.0);
+ Chart chart = shape.getChart();
+ chart.getTitle().setText("New Zealand GDP");
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+
+ // Add a series where the start value, the subtotal and the final value are totals.
+ ChartSeries series = chart.getSeries().add(
+         "New Zealand GDP",
+         new String[] { "2018", "2019 growth", "2020 growth", "2020", "2021 growth", "2022 growth", "2022" },
+         new double[] { 100.0, 0.57, -0.25, 100.32, 20.22, -2.92, 117.62 },
+         new boolean[] { true, false, false, true, false, false, true });
+
+ // Print the type of each data point.
+ for (int i = 0; i < series.getYValues().getCount(); i++)
+ {
+     if (series.isTotal(i))
+         System.out.println("Data point {i} is Subtotal");
+     else if (series.getYValues().get(i).getDoubleValue() > 0)
+         System.out.println("Data point {i} is Increase");
+     else
+         System.out.println("Data point {i} is Decrease");
+ }
+
+ // The same flag is available on the data point itself.
+ System.out.println("Data point 3 is total: {series.DataPoints[3].IsTotal}");
+
+ doc.save(getArtifactsDir() + "Charts.ChartSeriesAndDataPointIsTotal.docx");
+ 
+```
+
+**Returns:**
+boolean - A flag indicating whether the data point is a total.
 ### materializeSpPr() {#materializeSpPr}
 ```
 public void materializeSpPr()

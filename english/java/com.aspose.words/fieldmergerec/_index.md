@@ -4,7 +4,7 @@ linktitle: FieldMergeRec
 second_title: Aspose.Words for Java
 description: Implements the MERGEREC field in Java.
 type: docs
-weight: 260
+weight: 262
 url: /java/com.aspose.words/fieldmergerec/
 ---
 

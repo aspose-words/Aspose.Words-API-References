@@ -4,7 +4,7 @@ linktitle: AutoFitBehavior
 second_title: Aspose.Words for Java
 description: Determines how Aspose.Words resizes the table when you invoke the MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior method in Java.
 type: docs
-weight: 21
+weight: 22
 url: /java/com.aspose.words/autofitbehavior/
 ---
 

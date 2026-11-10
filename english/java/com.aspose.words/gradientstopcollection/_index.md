@@ -4,7 +4,7 @@ linktitle: GradientStopCollection
 second_title: Aspose.Words for Java
 description: Contains a collection of GradientStop objects in Java.
 type: docs
-weight: 364
+weight: 366
 url: /java/com.aspose.words/gradientstopcollection/
 ---
 

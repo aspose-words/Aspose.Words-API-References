@@ -4,7 +4,7 @@ linktitle: ChartStyle
 second_title: Aspose.Words for Java
 description: Specifies predefined styles of a chart in Java.
 type: docs
-weight: 91
+weight: 93
 url: /java/com.aspose.words/chartstyle/
 ---
 

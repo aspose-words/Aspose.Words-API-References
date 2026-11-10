@@ -4,7 +4,7 @@ linktitle: BookmarkEnd
 second_title: Aspose.Words for Java
 description: Represents an end of a bookmark in a Word document in Java.
 type: docs
-weight: 43
+weight: 44
 url: /java/com.aspose.words/bookmarkend/
 ---
 
@@ -1033,7 +1033,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (168401,6)
+Returns  true  if this node can contain other nodes. (168685,6)
 
  **Examples:** 
 

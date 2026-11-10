@@ -4,7 +4,7 @@ linktitle: OlePackage
 second_title: Aspose.Words for Java
 description: Allows to access OLE Package properties in Java.
 type: docs
-weight: 503
+weight: 505
 url: /java/com.aspose.words/olepackage/
 ---
 

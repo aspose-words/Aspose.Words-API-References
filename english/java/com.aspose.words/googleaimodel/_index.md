@@ -4,7 +4,7 @@ linktitle: GoogleAiModel
 second_title: Aspose.Words for Java
 description: Class representing Google AI Models Gemini integration within Aspose.Words in Java.
 type: docs
-weight: 362
+weight: 364
 url: /java/com.aspose.words/googleaimodel/
 ---
 

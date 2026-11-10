@@ -4,7 +4,7 @@ linktitle: Chart
 second_title: Aspose.Words for Java
 description: Provides access to the chart shape properties in Java.
 type: docs
-weight: 66
+weight: 67
 url: /java/com.aspose.words/chart/
 ---
 
@@ -60,6 +60,7 @@ Shows how to insert a chart and set a title.
 | [getDataTable()](#getDataTable) | Provides access to properties of a data table of this chart. |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of the chart. |
 | [getLegend()](#getLegend) | Provides access to the chart legend properties. |
+| [getPlotArea()](#getPlotArea) | Provides access to the plot area properties. |
 | [getSeries()](#getSeries) | Provides access to series collection. |
 | [getSeriesGroups()](#getSeriesGroups) | Provides access to a series group collection of this chart. |
 | [getShapeType()](#getShapeType) |  |
@@ -441,6 +442,45 @@ Shows how to edit the appearance of a chart's legend.
 
 **Returns:**
 [ChartLegend](../../com.aspose.words/chartlegend/) - The corresponding [ChartLegend](../../com.aspose.words/chartlegend/) value.
+### getPlotArea() {#getPlotArea}
+```
+public ChartPlotArea getPlotArea()
+```
+
+
+Provides access to the plot area properties.
+
+ **Examples:** 
+
+Shows how to set fill and line formatting for the plot area of a chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete default generated series and add our own.
+ ChartSeriesCollection seriesColl = chart.getSeries();
+ seriesColl.clear();
+ String[] categories = new String[] { "Category 1", "Category 2" };
+ seriesColl.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ seriesColl.add("Series 2", categories, new double[] { 3.0, 4.0 });
+
+ // Fill the plot area with a gradient and outline it with a thin blue line.
+ ChartPlotArea plotArea = chart.getPlotArea();
+ plotArea.getFormat().getFill().oneColorGradient(Color.blue, GradientStyle.DIAGONAL_UP, GradientVariant.VARIANT_2, 1.0);
+ plotArea.getFormat().getStroke().setForeColor(Color.BLUE);
+ plotArea.getFormat().getStroke().setWeight(0.25);
+
+ doc.save(getArtifactsDir() + "Charts.PlotAreaFormat.docx");
+ 
+```
+
+**Returns:**
+[ChartPlotArea](../../com.aspose.words/chartplotarea/) - The corresponding [ChartPlotArea](../../com.aspose.words/chartplotarea/) value.
 ### getSeries() {#getSeries}
 ```
 public ChartSeriesCollection getSeries()

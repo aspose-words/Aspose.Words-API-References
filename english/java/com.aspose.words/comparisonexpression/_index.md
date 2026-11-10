@@ -4,7 +4,7 @@ linktitle: ComparisonExpression
 second_title: Aspose.Words for Java
 description: The comparison expression in Java.
 type: docs
-weight: 117
+weight: 119
 url: /java/com.aspose.words/comparisonexpression/
 ---
 

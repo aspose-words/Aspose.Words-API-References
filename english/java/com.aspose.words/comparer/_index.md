@@ -4,7 +4,7 @@ linktitle: Comparer
 second_title: Aspose.Words for Java
 description: Provides methods intended to compare documents in Java.
 type: docs
-weight: 114
+weight: 116
 url: /java/com.aspose.words/comparer/
 ---
 

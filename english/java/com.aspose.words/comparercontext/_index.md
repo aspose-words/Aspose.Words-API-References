@@ -4,7 +4,7 @@ linktitle: ComparerContext
 second_title: Aspose.Words for Java
 description: Document comparer context in Java.
 type: docs
-weight: 115
+weight: 117
 url: /java/com.aspose.words/comparercontext/
 ---
 

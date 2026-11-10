@@ -4,7 +4,7 @@ linktitle: ChartDataLabelPosition
 second_title: Aspose.Words for Java
 description: Specifies the position for a chart data label in Java.
 type: docs
-weight: 74
+weight: 75
 url: /java/com.aspose.words/chartdatalabelposition/
 ---
 

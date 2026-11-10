@@ -4,7 +4,7 @@ linktitle: FormFieldCollection
 second_title: Aspose.Words for Java
 description: A collection of FormField objects that represent all the form fields in a range in Java.
 type: docs
-weight: 349
+weight: 351
 url: /java/com.aspose.words/formfieldcollection/
 ---
 

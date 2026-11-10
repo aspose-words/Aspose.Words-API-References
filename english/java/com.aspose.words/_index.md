@@ -41,6 +41,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ArrowLength](../com.aspose.words/arrowlength/) | Length of the arrow at the end of a line. |
 | [ArrowType](../com.aspose.words/arrowtype/) | Specifies the type of an arrow at a line end. |
 | [ArrowWidth](../com.aspose.words/arrowwidth/) | Width of the arrow at the end of a line. |
+| [AsposeLlmModel](../com.aspose.words/asposellmmodel/) | Provides AI-powered document processing backed by Aspose.LLM - an on-premise LLM inference engine that runs entirely inside the current process, so document content never leaves the machine. |
 | [AsposeWordsPrintDocument](../com.aspose.words/asposewordsprintdocument/) | Provides a default implementation for printing of a [Document](../com.aspose.words/document/) within the Java printing framework. |
 | [AutoFitBehavior](../com.aspose.words/autofitbehavior/) | Determines how Aspose.Words resizes the table when you invoke the **M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)** method. |
 | [AxisBound](../com.aspose.words/axisbound/) | Represents minimum or maximum bound of axis values. |
@@ -106,6 +107,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartMarker](../com.aspose.words/chartmarker/) | Represents a chart data marker. |
 | [ChartMultilevelValue](../com.aspose.words/chartmultilevelvalue/) | Represents a value for charts that display multilevel data. |
 | [ChartNumberFormat](../com.aspose.words/chartnumberformat/) | Represents number formatting of the parent element. |
+| [ChartPlotArea](../com.aspose.words/chartplotarea/) | Provides access to the plot area properties of a chart. |
 | [ChartSeries](../com.aspose.words/chartseries/) | Represents chart series properties. |
 | [ChartSeriesCollection](../com.aspose.words/chartseriescollection/) | Represents collection of a [ChartSeries](../com.aspose.words/chartseries/). |
 | [ChartSeriesGroup](../com.aspose.words/chartseriesgroup/) | Represents properties of a chart series group, that is, the properties of chart series of the same type associated with the same axes. |

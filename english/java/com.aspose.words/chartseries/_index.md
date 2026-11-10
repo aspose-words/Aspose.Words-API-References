@@ -4,7 +4,7 @@ linktitle: ChartSeries
 second_title: Aspose.Words for Java
 description: Represents chart series properties in Java.
 type: docs
-weight: 85
+weight: 87
 url: /java/com.aspose.words/chartseries/
 ---
 
@@ -126,6 +126,7 @@ Shows how to apply labels to data points in a line chart.
 | [insert(int index, ChartXValue xValue)](#insert-int-com.aspose.words.ChartXValue) | Inserts the specified X value into the chart series at the specified index. |
 | [insert(int index, ChartXValue xValue, ChartYValue yValue)](#insert-int-com.aspose.words.ChartXValue-com.aspose.words.ChartYValue) | Inserts the specified X and Y values into the chart series at the specified index. |
 | [insert(int index, ChartXValue xValue, ChartYValue yValue, double bubbleSize)](#insert-int-com.aspose.words.ChartXValue-com.aspose.words.ChartYValue-double) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |
+| [isTotal(int index)](#isTotal-int) | Determines whether the data point at the specified index is a total. |
 | [remove(int index)](#remove-int) | Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index. |
 | [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [setExplosion(int value)](#setExplosion-int) | Specifies the amount the data point shall be moved from the center of the pie. |
@@ -1479,6 +1480,63 @@ Shows how to insert data into a chart series.
 | yValue | [ChartYValue](../../com.aspose.words/chartyvalue/) |  |
 | bubbleSize | double |  |
 
+### isTotal(int index) {#isTotal-int}
+```
+public boolean isTotal(int index)
+```
+
+
+Determines whether the data point at the specified index is a total. Applies only to Waterfall charts.
+
+ **Examples:** 
+
+Shows how to determine whether a data point is a total in a waterfall chart.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a Waterfall chart.
+ Shape shape = builder.insertChart(ChartType.WATERFALL, 450.0, 450.0);
+ Chart chart = shape.getChart();
+ chart.getTitle().setText("New Zealand GDP");
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+
+ // Add a series where the start value, the subtotal and the final value are totals.
+ ChartSeries series = chart.getSeries().add(
+         "New Zealand GDP",
+         new String[] { "2018", "2019 growth", "2020 growth", "2020", "2021 growth", "2022 growth", "2022" },
+         new double[] { 100.0, 0.57, -0.25, 100.32, 20.22, -2.92, 117.62 },
+         new boolean[] { true, false, false, true, false, false, true });
+
+ // Print the type of each data point.
+ for (int i = 0; i < series.getYValues().getCount(); i++)
+ {
+     if (series.isTotal(i))
+         System.out.println("Data point {i} is Subtotal");
+     else if (series.getYValues().get(i).getDoubleValue() > 0)
+         System.out.println("Data point {i} is Increase");
+     else
+         System.out.println("Data point {i} is Decrease");
+ }
+
+ // The same flag is available on the data point itself.
+ System.out.println("Data point 3 is total: {series.DataPoints[3].IsTotal}");
+
+ doc.save(getArtifactsDir() + "Charts.ChartSeriesAndDataPointIsTotal.docx");
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the data point. |
+
+**Returns:**
+boolean - **true** if the data point is a total; otherwise, **false**.
 ### remove(int index) {#remove-int}
 ```
 public void remove(int index)

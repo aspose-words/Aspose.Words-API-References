@@ -4,7 +4,7 @@ linktitle: SignOptions
 second_title: Aspose.Words for Java
 description: Allows to specify options for document signing in Java.
 type: docs
-weight: 621
+weight: 623
 url: /java/com.aspose.words/signoptions/
 ---
 
@@ -683,16 +683,13 @@ Shows how to sign a document with timestamping using DigitalSignatureUtil.
  Assert.assertEquals("https://freetsa.org/tsr", signOptions.getTimestampSettings().getServerUrl());
  Assert.assertEquals("JohnDoe", signOptions.getTimestampSettings().getUserName());
  Assert.assertEquals("MyPassword", signOptions.getTimestampSettings().getPassword());
- Assert.assertEquals(100.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
 
  // Test with custom timeout.
  signOptions.setTimestampSettings(new DigitalSignatureTimestampSettings(
          "https://freetsa.org/tsr",
          "JohnDoe",
          "MyPassword",
-         Duration.ofMinutes(30)));
-
- Assert.assertEquals(1800.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
+         30));
  
 ```
 
@@ -1446,16 +1443,13 @@ Shows how to sign a document with timestamping using DigitalSignatureUtil.
  Assert.assertEquals("https://freetsa.org/tsr", signOptions.getTimestampSettings().getServerUrl());
  Assert.assertEquals("JohnDoe", signOptions.getTimestampSettings().getUserName());
  Assert.assertEquals("MyPassword", signOptions.getTimestampSettings().getPassword());
- Assert.assertEquals(100.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
 
  // Test with custom timeout.
  signOptions.setTimestampSettings(new DigitalSignatureTimestampSettings(
          "https://freetsa.org/tsr",
          "JohnDoe",
          "MyPassword",
-         Duration.ofMinutes(30)));
-
- Assert.assertEquals(1800.0d, signOptions.getTimestampSettings().getTimeout().getTotalSeconds());
+         30));
  
 ```
 

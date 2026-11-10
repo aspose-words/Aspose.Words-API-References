@@ -4,7 +4,7 @@ linktitle: ListCollection
 second_title: Aspose.Words for Java
 description: Stores and manages formatting of bulleted and numbered lists used in a document in Java.
 type: docs
-weight: 427
+weight: 429
 url: /java/com.aspose.words/listcollection/
 ---
 

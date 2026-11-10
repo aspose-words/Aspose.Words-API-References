@@ -4,7 +4,7 @@ linktitle: MultiplePagesType
 second_title: Aspose.Words for Java
 description: Specifies how document is printed out in Java.
 type: docs
-weight: 474
+weight: 476
 url: /java/com.aspose.words/multiplepagestype/
 ---
 
