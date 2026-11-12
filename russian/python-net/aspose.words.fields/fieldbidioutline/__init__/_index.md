@@ -1,0 +1,23 @@
+﻿---
+title: FieldBidiOutline constructor
+linktitle: FieldBidiOutline constructor
+articleTitle: FieldBidiOutline constructor
+second_title: Aspose.Words for Python
+description: "FieldBidiOutline constructor. "
+type: docs
+weight: 10
+url: /ru/python-net/aspose.words.fields/fieldbidioutline/__init__/
+---
+
+## FieldBidiOutline() {#default}
+
+```python
+def __init__(self):
+    ...
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [FieldBidiOutline](../)
+

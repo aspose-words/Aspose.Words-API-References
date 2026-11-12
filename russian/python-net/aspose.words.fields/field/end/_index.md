@@ -1,0 +1,28 @@
+﻿---
+title: Field.end property
+linktitle: end property
+articleTitle: end property
+second_title: Aspose.Words for Python
+description: "Field.end property. Gets the node that represents the field end."
+type: docs
+weight: 20
+url: /ru/python-net/aspose.words.fields/field/end/
+---
+
+## Field.end property
+
+Gets the node that represents the field end.
+
+
+```python
+@property
+def end(self) -> aspose.words.fields.FieldEnd:
+    ...
+
+```
+
+### See Also
+
+* module [aspose.words.fields](../../)
+* class [Field](../)
+

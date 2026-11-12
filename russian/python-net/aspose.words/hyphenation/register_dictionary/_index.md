@@ -1,0 +1,76 @@
+﻿---
+title: Hyphenation.register_dictionary method
+linktitle: register_dictionary method
+articleTitle: register_dictionary method
+second_title: Aspose.Words for Python
+description: "aspose.words.Hyphenation.register_dictionary method"
+type: docs
+weight: 40
+url: /ru/python-net/aspose.words/hyphenation/register_dictionary/
+---
+
+## register_dictionary(language, stream) {#str_bytesio}
+
+Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
+
+
+```python
+def register_dictionary(self, language: str, stream: io.BytesIO):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| language | str | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| stream | io.BytesIO | A stream for the dictionary file in OpenOffice format. |
+
+## register_dictionary(language, file_name) {#str_str}
+
+Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
+
+
+This method can also be used to register Null dictionary to prevent[Hyphenation.callback](../callback/) from being called repeatedly for the same language.
+
+
+
+```python
+def register_dictionary(self, language: str, file_name: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| language | str | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| file_name | str | A path to the dictionary file in Open Office format. |
+
+## Examples
+
+Shows how to register a hyphenation dictionary.
+
+```python
+# Словарь переносов содержит список строк, определяющих правила переноса для языка словаря.
+# Когда документ содержит строки текста, в которых слово может быть разбито и продолжено на следующей строке,
+# перенос будет просматривать список строк словаря в поисках подстрок этого слова.
+# Если словарь содержит подстроку, то перенос разделит слово на две строки
+# по подстроке и добавит дефис к первой части.
+# Зарегистрируйте файл словаря из локальной файловой системы для локали "de-CH".
+aw.Hyphenation.register_dictionary('de-CH', MY_DIR + 'hyph_de_CH.dic')
+self.assertTrue(aw.Hyphenation.is_dictionary_registered('de-CH'))
+# Откройте документ, содержащий текст с локалью, соответствующей нашей локали словаря,
+# и сохраните его в формат фиксированных страниц. Текст в этом документе будет перенесён.
+doc = aw.Document(MY_DIR + 'German text.docx')
+self.assertTrue(all((node for node in doc.first_section.body.first_paragraph.runs if node.as_run().font.locale_id == 2055)))
+doc.save(ARTIFACTS_DIR + 'Hyphenation.dictionary.registered.pdf')
+# Перезагрузите документ после отмены регистрации словаря,
+# и сохраните его в другой PDF, в котором не будет перенесённого текста.
+aw.Hyphenation.unregister_dictionary('de-CH')
+self.assertFalse(aw.Hyphenation.is_dictionary_registered('de-CH'))
+doc = aw.Document(MY_DIR + 'German text.docx')
+doc.save(ARTIFACTS_DIR + 'Hyphenation.dictionary.unregistered.pdf')
+```
+
+## See Also
+
+* module [aspose.words](../../)
+* class [Hyphenation](../)
+
