@@ -1,0 +1,81 @@
+﻿---
+title: AxisScaling.maximum property
+linktitle: maximum property
+articleTitle: maximum property
+second_title: Aspose.Words for Python
+description: "AxisScaling.maximum property. Gets or sets the maximum value of the axis."
+type: docs
+weight: 30
+url: /tr/python-net/aspose.words.drawing.charts/axisscaling/maximum/
+---
+
+## AxisScaling.maximum property
+
+Gets or sets the maximum value of the axis.
+
+
+```python
+@property
+def maximum(self) -> aspose.words.drawing.charts.AxisBound:
+    ...
+
+@maximum.setter
+def maximum(self, value: aspose.words.drawing.charts.AxisBound):
+    ...
+
+```
+
+### Remarks
+
+The default value is "auto".
+
+
+### Examples
+
+Shows how to insert chart with date/time values.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+shape = builder.insert_chart(chart_type=aw.drawing.charts.ChartType.LINE, width=500, height=300)
+chart = shape.chart
+# Temiz bir grafikle başlamak için grafiğin demo veri serilerini temizleyin.
+chart.series.clear()
+# X ekseni için tarih/saat değerleri ve Y ekseni için ilgili ondalık değerler içeren özel bir seri ekleyin.
+chart.series.add_date(series_name='Aspose Test Series', dates=[datetime.datetime(2017, 11, 6), datetime.datetime(2017, 11, 9), datetime.datetime(2017, 11, 15), datetime.datetime(2017, 11, 21), datetime.datetime(2017, 11, 25), datetime.datetime(2017, 11, 29)], values=[1.2, 0.3, 2.1, 2.9, 4.2, 5.3])
+# X ekseni için alt ve üst sınırları ayarlayın.
+x_axis = chart.axis_x
+# Tarih saat değerini OLE Automation tarihine dönüştürün (1899-12-30 tarihinden itibaren günler)
+
+def to_ole_autodate(dt):
+    # 0001-01-01'den 1899-12-30'a kadar olan gün sayısı 693594'tür
+    delta = dt - datetime.datetime(1899, 12, 30)
+    return delta.days + (dt.hour * 3600 + dt.minute * 60 + dt.second) / 86400.0
+x_axis.scaling.minimum = aw.drawing.charts.AxisBound(to_ole_autodate(datetime.datetime(2017, 11, 5)))
+x_axis.scaling.maximum = aw.drawing.charts.AxisBound(to_ole_autodate(datetime.datetime(2017, 12, 3)))
+# X ekseninin ana birimlerini bir hafta, alt birimlerini ise bir gün olarak ayarlayın.
+x_axis.base_time_unit = aw.drawing.charts.AxisTimeUnit.DAYS
+x_axis.major_unit = 7
+x_axis.major_tick_mark = aw.drawing.charts.AxisTickMark.CROSS
+x_axis.minor_unit = 1
+x_axis.minor_tick_mark = aw.drawing.charts.AxisTickMark.OUTSIDE
+x_axis.has_major_gridlines = True
+x_axis.has_minor_gridlines = True
+# Ondalık değerler için Y ekseni özelliklerini tanımlayın.
+y_axis = chart.axis_y
+y_axis.tick_labels.position = aw.drawing.charts.AxisTickLabelPosition.HIGH
+y_axis.major_unit = 100
+y_axis.minor_unit = 50
+y_axis.display_unit.unit = aw.drawing.charts.AxisBuiltInUnit.HUNDREDS
+y_axis.scaling.minimum = aw.drawing.charts.AxisBound(100)
+y_axis.scaling.maximum = aw.drawing.charts.AxisBound(700)
+y_axis.has_major_gridlines = True
+y_axis.has_minor_gridlines = True
+doc.save(file_name=ARTIFACTS_DIR + 'Charts.DateTimeValues.docx')
+```
+
+### See Also
+
+* module [aspose.words.drawing.charts](../../)
+* class [AxisScaling](../)
+

@@ -1,0 +1,39 @@
+﻿---
+title: Comment.date_time property
+linktitle: date_time property
+articleTitle: date_time property
+second_title: Aspose.Words for Python
+description: "Comment.date_time property. Gets the date and time that the comment was made."
+type: docs
+weight: 40
+url: /tr/python-net/aspose.words/comment/date_time/
+---
+
+## Comment.date_time property
+
+Gets the date and time that the comment was made.
+
+
+```python
+@property
+def date_time(self) -> datetime.datetime:
+    ...
+
+@date_time.setter
+def date_time(self, value: datetime.datetime):
+    ...
+
+```
+
+### Remarks
+
+Default is
+datetime.datetime.min
+
+
+
+### See Also
+
+* module [aspose.words](../../)
+* class [Comment](../)
+

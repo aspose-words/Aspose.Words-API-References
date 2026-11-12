@@ -1,0 +1,58 @@
+﻿---
+title: TxtSaveOptionsBase.encoding property
+linktitle: encoding property
+articleTitle: encoding property
+second_title: Aspose.Words for Python
+description: "TxtSaveOptionsBase.encoding property. Specifies the encoding to use when exporting in text formats"
+type: docs
+weight: 10
+url: /tr/python-net/aspose.words.saving/txtsaveoptionsbase/encoding/
+---
+
+## TxtSaveOptionsBase.encoding property
+
+Specifies the encoding to use when exporting in text formats. 
+Default value is **Encoding.UTF8**.
+
+
+
+```python
+@property
+def encoding(self) -> str:
+    ...
+
+@encoding.setter
+def encoding(self, value: str):
+    ...
+
+```
+
+### Examples
+
+Shows how to set encoding for a .txt output document.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+# ASCII karakter kümesinin dışındaki karakterler içeren bazı metinler ekleyin.
+builder.write('À È Ì Ò Ù.')
+# "TxtSaveOptions" nesnesi oluşturun, bunu belgenin "Save" metoduna geçirebiliriz
+# belgeyi düz metin olarak nasıl kaydedeceğimizi değiştirmek için.
+txt_save_options = aw.saving.TxtSaveOptions()
+# "Encoding" özelliğinin belge içeriğimiz için uygun kodlamayı içerdiğini doğrulayın.
+self.assertEqual(system_helper.text.Encoding.utf_8(), txt_save_options.encoding)
+doc.save(file_name=ARTIFACTS_DIR + 'TxtSaveOptions.Encoding.UTF8.txt', save_options=txt_save_options)
+doc_text = system_helper.text.Encoding.get_string(system_helper.io.File.read_all_bytes(ARTIFACTS_DIR + 'TxtSaveOptions.Encoding.UTF8.txt'), system_helper.text.Encoding.utf_8())
+self.assertEqual('\ufeffÀ È Ì Ò Ù.\r\n', doc_text)
+# Uygun olmayan bir kodlama kullanmak, belge içeriğinin kaybolmasına neden olabilir.
+txt_save_options.encoding = system_helper.text.Encoding.ascii()
+doc.save(file_name=ARTIFACTS_DIR + 'TxtSaveOptions.Encoding.ASCII.txt', save_options=txt_save_options)
+doc_text = system_helper.text.Encoding.get_string(system_helper.io.File.read_all_bytes(ARTIFACTS_DIR + 'TxtSaveOptions.Encoding.ASCII.txt'), system_helper.text.Encoding.ascii())
+self.assertEqual('? ? ? ? ?.\r\n', doc_text)
+```
+
+### See Also
+
+* module [aspose.words.saving](../../)
+* class [TxtSaveOptionsBase](../)
+

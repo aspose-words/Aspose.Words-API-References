@@ -1,0 +1,82 @@
+﻿---
+title: DocumentBuilder.end_column_bookmark method
+linktitle: end_column_bookmark method
+articleTitle: end_column_bookmark method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.end_column_bookmark method. Marks the current position in the document as a column bookmark end"
+type: docs
+weight: 220
+url: /tr/python-net/aspose.words/documentbuilder/end_column_bookmark/
+---
+
+## end_column_bookmark(bookmark_name) {#str}
+
+Marks the current position in the document as a column bookmark end. The position must be in a table cell.
+
+
+```python
+def end_column_bookmark(self, bookmark_name: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmark_name | str | Name of the bookmark. |
+
+### Remarks
+
+A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you
+need to call both [DocumentBuilder.start_column_bookmark()](../start_column_bookmark/#str) and [DocumentBuilder.end_column_bookmark()](./#str) with the same
+*bookmarkName* parameter.
+
+Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
+
+The actual position of the inserted [BookmarkEnd](../../bookmarkend/) node may differ from the current document
+builder position.
+
+
+
+
+### Returns
+
+The bookmark end node that was just created.
+
+
+### Examples
+
+Shows how to create a column bookmark.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+builder.start_table()
+builder.insert_cell()
+# Hücreler 1,2,4,5 yer işareti alacak.
+builder.start_column_bookmark('MyBookmark_1')
+# Kötü biçimlendirilmiş yer işaretleri veya yinelenen adlara sahip yer işaretleri, belge kaydedildiğinde yok sayılacak.
+builder.start_column_bookmark('MyBookmark_1')
+builder.start_column_bookmark('BadStartBookmark')
+builder.write('Cell 1')
+builder.insert_cell()
+builder.write('Cell 2')
+builder.insert_cell()
+builder.write('Cell 3')
+builder.end_row()
+builder.insert_cell()
+builder.write('Cell 4')
+builder.insert_cell()
+builder.write('Cell 5')
+builder.end_column_bookmark('MyBookmark_1')
+builder.end_column_bookmark('MyBookmark_1')
+builder.insert_cell()
+builder.write('Cell 6')
+builder.end_row()
+builder.end_table()
+doc.save(ARTIFACTS_DIR + 'Bookmarks.create_column_bookmark.docx')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [DocumentBuilder](../)
+

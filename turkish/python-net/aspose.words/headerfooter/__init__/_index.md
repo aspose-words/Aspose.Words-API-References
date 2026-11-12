@@ -1,0 +1,68 @@
+﻿---
+title: HeaderFooter constructor
+linktitle: HeaderFooter constructor
+articleTitle: HeaderFooter constructor
+second_title: Aspose.Words for Python
+description: "HeaderFooter constructor. Creates a new header or footer of the specified type."
+type: docs
+weight: 10
+url: /tr/python-net/aspose.words/headerfooter/__init__/
+---
+
+## HeaderFooter(doc, header_footer_type) {#documentbase_headerfootertype}
+
+Creates a new header or footer of the specified type.
+
+
+```python
+def __init__(self, doc: aspose.words.DocumentBase, header_footer_type: aspose.words.HeaderFooterType):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [DocumentBase](../../documentbase/) | The owner document. |
+| header_footer_type | [HeaderFooterType](../../headerfootertype/) | A [HeaderFooter.header_footer_type](../header_footer_type/) value that specifies the type of the header or footer. |
+
+### Remarks
+
+When [HeaderFooter](../) is created, it belongs to the specified document, but is not
+yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
+
+To append [HeaderFooter](../) to a [Section](../../section/) use [CompositeNode.insert_after()](../../compositenode/insert_after/#node_node), [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node),
+or [Section.headers_footers](../../section/headers_footers/) property and methods [NodeCollection.add()](../../nodecollection/add/#node), [NodeCollection.insert()](../../nodecollection/insert/#int_node).
+
+
+
+
+### Examples
+
+Shows how to create a header and a footer.
+
+```python
+doc = aw.Document()
+# Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
+# Bu bölümün her sayfasının üst kısmında, ana gövde metninin üzerinde görünecek.
+header = aw.HeaderFooter(doc, aw.HeaderFooterType.HEADER_PRIMARY)
+doc.first_section.headers_footers.add(header)
+para = header.append_paragraph('My header.')
+self.assertTrue(header.is_header)
+self.assertTrue(para.is_end_of_header_footer)
+# Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
+# Bu bölümün her sayfasının alt kısmında, ana gövde metninin altında görünecek.
+footer = aw.HeaderFooter(doc, aw.HeaderFooterType.FOOTER_PRIMARY)
+doc.first_section.headers_footers.add(footer)
+para = footer.append_paragraph('My footer.')
+self.assertFalse(footer.is_header)
+self.assertTrue(para.is_end_of_header_footer)
+self.assertEqual(footer, para.parent_story)
+self.assertEqual(footer.parent_section, para.parent_section)
+self.assertEqual(footer.parent_section, header.parent_section)
+doc.save(file_name=ARTIFACTS_DIR + 'HeaderFooter.Create.docx')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [HeaderFooter](../)
+

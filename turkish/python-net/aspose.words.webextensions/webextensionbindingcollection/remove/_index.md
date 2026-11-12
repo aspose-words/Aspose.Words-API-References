@@ -1,0 +1,27 @@
+﻿---
+title: WebExtensionBindingCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "WebExtensionBindingCollection.remove method. "
+type: docs
+weight: 50
+url: /tr/python-net/aspose.words.webextensions/webextensionbindingcollection/remove/
+---
+
+## remove(index) {#int}
+
+```python
+def remove(self, index: int):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int |  |
+
+### See Also
+
+* module [aspose.words.webextensions](../../)
+* class [WebExtensionBindingCollection](../)
+

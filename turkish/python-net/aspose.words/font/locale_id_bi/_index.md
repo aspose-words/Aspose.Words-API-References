@@ -1,0 +1,68 @@
+﻿---
+title: Font.locale_id_bi property
+linktitle: locale_id_bi property
+articleTitle: locale_id_bi property
+second_title: Aspose.Words for Python
+description: "Font.locale_id_bi property. Gets or sets the locale identifier (language) of the formatted right-to-left characters."
+type: docs
+weight: 210
+url: /tr/python-net/aspose.words/font/locale_id_bi/
+---
+
+## Font.locale_id_bi property
+
+Gets or sets the locale identifier (language) of the formatted right-to-left characters.
+
+
+```python
+@property
+def locale_id_bi(self) -> int:
+    ...
+
+@locale_id_bi.setter
+def locale_id_bi(self, value: int):
+    ...
+
+```
+
+### Remarks
+
+For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
+
+
+### Examples
+
+Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+# Soldan sağa metin için bir dizi yazı tipi ayarı tanımlayın.
+builder.font.name = 'Courier New'
+builder.font.size = 16
+builder.font.italic = False
+builder.font.bold = False
+builder.font.locale_id = 1033  # en-US
+# Sağdan sola metin için başka bir yazı tipi ayarı seti tanımlayın.
+builder.font.name_bi = 'Andalus'
+builder.font.size_bi = 24
+builder.font.italic_bi = True
+builder.font.bold_bi = True
+builder.font.locale_id_bi = 4096  # ar-AR
+# "bidi" bayrağını, ekleyeceğimiz metnin
+# belge oluşturucu ile sağdan sola olup olmadığını belirtmek için kullanabiliriz. Bu bayrak True olarak ayarlandığında metin eklediğimizde,
+# metin sağdan sola yazı tipi ayar seti kullanılarak biçimlendirilecektir.
+builder.font.bidi = True
+builder.write('مرحبًا')
+# Bayrağı "False" olarak ayarlayın ve ardından soldan sağa metin ekleyin.
+# Belge oluşturucu, bunları soldan sağa ayarlanmış yazı tipi ayarlarıyla biçimlendirecek.
+builder.font.bidi = False
+builder.write(' Hello world!')
+doc.save(ARTIFACTS_DIR + 'Font.bidi.docx')
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [Font](../)
+
