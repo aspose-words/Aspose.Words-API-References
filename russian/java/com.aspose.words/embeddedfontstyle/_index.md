@@ -1,55 +1,73 @@
 ---
-title: EmbeddedFontStyle
-second_title: Справочник по API Aspose.Words для Java
-description: Задает стиль встроенного шрифта внутри объекта.
+title: "EmbeddedFontStyle"
+linktitle: "EmbeddedFontStyle"
+second_title: "Aspose.Words для Java"
+description: "Указывает стиль встроенного шрифта внутри объекта FontInfo в Java."
 type: docs
-weight: 142
+weight: 185
 url: /ru/java/com.aspose.words/embeddedfontstyle/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class EmbeddedFontStyle
 ```
 
- Определяет стиль встроенного шрифта внутри[FontInfo](../../com.aspose.words/fontinfo) объект.
+Указывает стиль встроенного шрифта внутри объекта [FontInfo](../../com.aspose.words/fontinfo/).
+
+ **Examples:** 
+
+Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальную файловую систему.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfo embeddedFont = doc.getFontInfos().get("Alte DIN 1451 Mittelschrift");
+ byte[] embeddedFontBytes = embeddedFont.getEmbeddedFont(EmbeddedFontFormat.OPEN_TYPE, EmbeddedFontStyle.REGULAR);
+ FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.ttf"), embeddedFontBytes);
+
+ // Embedded font formats may be different in other formats such as .doc.
+ // We need to know the correct format before we can extract the font.
+ doc = new Document(getMyDir() + "Embedded font.doc");
+
+ Assert.assertNull(doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFont(EmbeddedFontFormat.OPEN_TYPE, EmbeddedFontStyle.REGULAR));
+ Assert.assertNotNull(doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFont(EmbeddedFontFormat.EMBEDDED_OPEN_TYPE, EmbeddedFontStyle.REGULAR));
+
+ // Also, we can convert embedded OpenType format, which comes from .doc documents, to OpenType.
+ embeddedFontBytes = doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFontAsOpenType(EmbeddedFontStyle.REGULAR);
+
+ FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.otf"), embeddedFontBytes);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOLD](#BOLD) | Указывает полужирный встроенный шрифт. |
-| [BOLD_ITALIC](#BOLD-ITALIC) | Определяет встроенный шрифт Bold-Italic. |
-| [ITALIC](#ITALIC) | Определяет встроенный шрифт Italic. |
-| [REGULAR](#REGULAR) | Определяет встроенный шрифт Regular. |
+| [BOLD](#BOLD) | Указывает встроенный полужирный шрифт. |
+| [BOLD_ITALIC](#BOLD-ITALIC) | Указывает встроенный полужирный курсивный шрифт. |
+| [ITALIC](#ITALIC) | Указывает встроенный курсивный шрифт. |
+| [REGULAR](#REGULAR) | Указывает обычный встроенный шрифт. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String embeddedFontStyleName)](#fromName-java.lang.String-) |  |
-| [fromNames(Set embeddedFontStyleNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int embeddedFontStyle)](#getName-int-) |  |
-| [getNames(int embeddedFontStyle)](#getNames-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int embeddedFontStyle)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String embeddedFontStyleName)](#fromName-java.lang.String) |  |
+| [fromNames(Set embeddedFontStyleNames)](#fromNames-java.util.Set) |  |
+| [getName(int embeddedFontStyle)](#getName-int) |  |
+| [getNames(int embeddedFontStyle)](#getNames-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int embeddedFontStyle)](#toString-int) |  |
+| [toStringSet(int attr)](#toStringSet-int) |  |
 ### BOLD {#BOLD}
 ```
 public static int BOLD
 ```
 
 
-Указывает полужирный встроенный шрифт.
+Указывает встроенный полужирный шрифт.
 
 ### BOLD_ITALIC {#BOLD-ITALIC}
 ```
@@ -57,7 +75,7 @@ public static int BOLD_ITALIC
 ```
 
 
-Определяет встроенный шрифт Bold-Italic.
+Указывает встроенный полужирный курсивный шрифт.
 
 ### ITALIC {#ITALIC}
 ```
@@ -65,7 +83,7 @@ public static int ITALIC
 ```
 
 
-Определяет встроенный шрифт Italic.
+Указывает встроенный курсивный шрифт.
 
 ### REGULAR {#REGULAR}
 ```
@@ -73,7 +91,7 @@ public static int REGULAR
 ```
 
 
-Определяет встроенный шрифт Regular.
+Указывает обычный встроенный шрифт.
 
 ### length {#length}
 ```
@@ -81,23 +99,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String embeddedFontStyleName) {#fromName-java.lang.String-}
+### fromName(String embeddedFontStyleName) {#fromName-java.lang.String}
 ```
 public static int fromName(String embeddedFontStyleName)
 ```
@@ -105,15 +107,14 @@ public static int fromName(String embeddedFontStyleName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | embeddedFontStyleName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### fromNames(Set embeddedFontStyleNames) {#fromNames-java.util.Set-}
+**Returns:**
+int
+### fromNames(Set embeddedFontStyleNames) {#fromNames-java.util.Set}
 ```
 public static int fromNames(Set embeddedFontStyleNames)
 ```
@@ -121,25 +122,14 @@ public static int fromNames(Set embeddedFontStyleNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | embeddedFontStyleNames | java.util.Set |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int embeddedFontStyle) {#getName-int-}
+**Returns:**
+int
+### getName(int embeddedFontStyle) {#getName-int}
 ```
 public static String getName(int embeddedFontStyle)
 ```
@@ -147,15 +137,14 @@ public static String getName(int embeddedFontStyle)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getNames(int embeddedFontStyle) {#getNames-int-}
+### getNames(int embeddedFontStyle) {#getNames-int}
 ```
 public static Set getNames(int embeddedFontStyle)
 ```
@@ -163,15 +152,14 @@ public static Set getNames(int embeddedFontStyle)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**Возвращает:**
+**Returns:**
 java.util.Set
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -179,45 +167,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int embeddedFontStyle) {#toString-int-}
+**Returns:**
+int[]
+### toString(int embeddedFontStyle) {#toString-int}
 ```
 public static String toString(int embeddedFontStyle)
 ```
@@ -225,15 +177,14 @@ public static String toString(int embeddedFontStyle)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
+### toStringSet(int attr) {#toStringSet-int}
 ```
 public static String toStringSet(int attr)
 ```
@@ -241,47 +192,10 @@ public static String toStringSet(int attr)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | attr | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

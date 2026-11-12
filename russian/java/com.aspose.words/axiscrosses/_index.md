@@ -1,52 +1,101 @@
 ---
-title: AxisCrosses
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет возможные точки пересечения оси.
+title: "AxisCrosses"
+linktitle: "AxisCrosses"
+second_title: "Aspose.Words для Java"
+description: "Указывает возможные точки пересечения оси в Java."
 type: docs
-weight: 19
+weight: 25
 url: /ru/java/com.aspose.words/axiscrosses/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class AxisCrosses
 ```
 
-Определяет возможные точки пересечения оси.
+Указывает возможные точки пересечения оси.
+
+ **Examples:** 
+
+Показывает, как вставить диаграмму и изменить внешний вид её осей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [AUTOMATIC](#AUTOMATIC) | Ось категорий пересекается в нулевой точке оси значений (если возможно), или в минимальном значении, если минимум больше нуля, или в максимуме, если максимум меньше нуля. |
-| [CUSTOM](#CUSTOM) | Перпендикулярная ось пересекает указанное значение оси. |
-| [MAXIMUM](#MAXIMUM) | Перпендикулярная ось пересекается при максимальном значении оси. |
-| [MINIMUM](#MINIMUM) | Перпендикулярная ось пересекается при минимальном значении оси. |
+| [AUTOMATIC](#AUTOMATIC) | Ось категорий пересекает ось значений в нулевой точке (если возможно), либо в минимальном значении, если минимум больше нуля, либо в максимальном, если максимум меньше нуля. |
+| [CUSTOM](#CUSTOM) | Перпендикулярная ось пересекает ось в указанном значении. |
+| [MAXIMUM](#MAXIMUM) | Перпендикулярная ось пересекает ось в максимальном значении. |
+| [MINIMUM](#MINIMUM) | Перпендикулярная ось пересекает ось в минимальном значении. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String axisCrossesName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int axisCrosses)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int axisCrosses)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String axisCrossesName)](#fromName-java.lang.String) |  |
+| [getName(int axisCrosses)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int axisCrosses)](#toString-int) |  |
 ### AUTOMATIC {#AUTOMATIC}
 ```
 public static int AUTOMATIC
 ```
 
 
-Ось категорий пересекается в нулевой точке оси значений (если возможно), или в минимальном значении, если минимум больше нуля, или в максимуме, если максимум меньше нуля.
+Ось категорий пересекает ось значений в нулевой точке (если возможно), либо в минимальном значении, если минимум больше нуля, либо в максимальном, если максимум меньше нуля.
 
 ### CUSTOM {#CUSTOM}
 ```
@@ -54,7 +103,7 @@ public static int CUSTOM
 ```
 
 
-Перпендикулярная ось пересекает указанное значение оси.
+Перпендикулярная ось пересекает ось в указанном значении.
 
 ### MAXIMUM {#MAXIMUM}
 ```
@@ -62,7 +111,7 @@ public static int MAXIMUM
 ```
 
 
-Перпендикулярная ось пересекается при максимальном значении оси.
+Перпендикулярная ось пересекает ось в максимальном значении.
 
 ### MINIMUM {#MINIMUM}
 ```
@@ -70,7 +119,7 @@ public static int MINIMUM
 ```
 
 
-Перпендикулярная ось пересекается при минимальном значении оси.
+Перпендикулярная ось пересекает ось в минимальном значении.
 
 ### length {#length}
 ```
@@ -78,23 +127,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String axisCrossesName) {#fromName-java.lang.String-}
+### fromName(String axisCrossesName) {#fromName-java.lang.String}
 ```
 public static int fromName(String axisCrossesName)
 ```
@@ -102,25 +135,14 @@ public static int fromName(String axisCrossesName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | axisCrossesName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int axisCrosses) {#getName-int-}
+**Returns:**
+int
+### getName(int axisCrosses) {#getName-int}
 ```
 public static String getName(int axisCrosses)
 ```
@@ -128,15 +150,14 @@ public static String getName(int axisCrosses)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | axisCrosses | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -144,45 +165,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int axisCrosses) {#toString-int-}
+**Returns:**
+int[]
+### toString(int axisCrosses) {#toString-int}
 ```
 public static String toString(int axisCrosses)
 ```
@@ -190,47 +175,10 @@ public static String toString(int axisCrosses)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | axisCrosses | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

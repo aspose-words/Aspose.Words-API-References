@@ -1,162 +1,180 @@
 ---
-title: StructuredDocumentTagCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Коллекция экземпляров, представляющих теги структурированного документа в указанном диапазоне.
+title: "StructuredDocumentTagCollection"
+linktitle: "StructuredDocumentTagCollection"
+second_title: "Aspose.Words для Java"
+description: "Коллекция экземпляров IStructuredDocumentTag, представляющих структурные теги документа в указанном диапазоне в Java."
 type: docs
-weight: 533
+weight: 638
 url: /ru/java/com.aspose.words/structureddocumenttagcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class StructuredDocumentTagCollection implements Iterable
 ```
 
- Коллекция[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) экземпляры, представляющие теги структурированного документа в указанном диапазоне.
+Коллекция экземпляров [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/), представляющих структурные теги документа в указанном диапазоне.
 
- Чтобы узнать больше, посетите**Structured Document Tags or Content Control** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control].
+
+ **Examples:** 
+
+Показывает, как получить структурированный тег документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isMultiSection());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+```
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Возвращает тег структурированного документа по указанному индексу. |
-| [getById(int id)](#getById-int-) | Возвращает тег структурированного документа по идентификатору. |
-| [getByTag(String tag)](#getByTag-java.lang.String-) | Возвращает первый тег структурированного документа, обнаруженный в коллекции с указанным тегом. |
-| [getByTitle(String title)](#getByTitle-java.lang.String-) | Возвращает первый найденный в коллекции тег структурированного документа с указанным заголовком. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Возвращает количество тегов структурированного документа в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Возвращает объект перечислителя. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(int id)](#remove-int-) | Удаляет тег структурированного документа с указанным идентификатором. |
-| [removeAt(int index)](#removeAt-int-) | Удаляет тег структурированного документа по указанному индексу. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+| [get(int index)](#get-int) | Возвращает структурный тег документа по указанному индексу. |
+| [getById(int id)](#getById-int) | Возвращает структурный тег документа по идентификатору. |
+| [getByTag(String tag)](#getByTag-java.lang.String) | Возвращает первый найденный в коллекции структурный тег документа с указанным тегом. |
+| [getByTitle(String title)](#getByTitle-java.lang.String) | Возвращает первый найденный в коллекции структурный тег документа с указанным заголовком. |
+| [getCount()](#getCount) | Возвращает количество структурных тегов документа в коллекции. |
+| [iterator()](#iterator) | Возвращает объект перечислителя. |
+| [remove(int id)](#remove-int) | Удаляет структурный тег документа с указанным идентификатором. |
+| [removeAt(int index)](#removeAt-int) | Удаляет структурный тег документа по указанному индексу. |
+### get(int index) {#get-int}
 ```
 public IStructuredDocumentTag get(int index)
 ```
 
 
-Возвращает тег структурированного документа по указанному индексу.
+Возвращает структурный тег документа по указанному индексу.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс в коллекции. |
+| индекс | int | Индекс в коллекции. |
 
-**Возвращает:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) - Тег структурированного документа по указанному индексу.
-### getById(int id) {#getById-int-}
+**Returns:**
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/) - The structured document tag at the specified index.
+### getById(int id) {#getById-int}
 ```
 public IStructuredDocumentTag getById(int id)
 ```
 
 
-Возвращает тег структурированного документа по идентификатору.
+Возвращает структурный тег документа по идентификатору.
 
-Возвращает null, если тег структурированного документа с указанным идентификатором не может быть найден.
+ **Remarks:** 
 
-**Параметры:**
+Возвращает null, если структурный тег документа с указанным идентификатором не найден.
 
+ **Examples:** 
+
+Показывает, как получить структурированный тег документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isMultiSection());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | int | Идентификатор тега структурированного документа. |
+| id | int | Идентификатор структурного тега документа. |
 
-**Возвращает:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
-### getByTag(String tag) {#getByTag-java.lang.String-}
+**Returns:**
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
+### getByTag(String tag) {#getByTag-java.lang.String}
 ```
 public IStructuredDocumentTag getByTag(String tag)
 ```
 
 
-Возвращает первый тег структурированного документа, обнаруженный в коллекции с указанным тегом.
+Возвращает первый найденный в коллекции структурный тег документа с указанным тегом.
 
-Возвращает null, если тег структурированного документа с указанным тегом не может быть найден.
+ **Remarks:** 
 
-**Параметры:**
+Возвращает null, если структурный тег документа с указанным тегом не найден.
 
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tag | java.lang.String | Тег тега структурированного документа. |
+| тег | java.lang.String | Тег структурированного тега документа. |
 
-**Возвращает:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
-### getByTitle(String title) {#getByTitle-java.lang.String-}
+**Returns:**
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
+### getByTitle(String title) {#getByTitle-java.lang.String}
 ```
 public IStructuredDocumentTag getByTitle(String title)
 ```
 
 
-Возвращает первый найденный в коллекции тег структурированного документа с указанным заголовком.
+Возвращает первый найденный в коллекции структурный тег документа с указанным заголовком.
 
-Возвращает значение null, если тег структурированного документа с указанным заголовком не найден.
+ **Remarks:** 
 
-**Параметры:**
+Возвращает null, если структурированный тег документа с указанным заголовком не найден.
 
+ **Examples:** 
+
+Показывает, как получить структурированный тег документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isMultiSection());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| title | java.lang.String | Тег заголовка структурированного документа. |
+| заголовок | java.lang.String | Заголовок структурированного тега документа. |
 
-**Возвращает:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
 
 
-Возвращает количество тегов структурированного документа в коллекции.
+Возвращает количество структурных тегов документа в коллекции.
 
-**Возвращает:**
-int — количество тегов структурированного документа в коллекции.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+int — количество структурированных тегов документа в коллекции.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -164,95 +182,87 @@ public Iterator iterator()
 
 Возвращает объект перечислителя.
 
-**Возвращает:**
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(int id) {#remove-int-}
+### remove(int id) {#remove-int}
 ```
 public void remove(int id)
 ```
 
 
-Удаляет тег структурированного документа с указанным идентификатором.
+Удаляет структурный тег документа с указанным идентификатором.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалить структурированный тег документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags.docx");
+
+ StructuredDocumentTagCollection structuredDocumentTags = doc.getRange().getStructuredDocumentTags();
+ IStructuredDocumentTag sdt;
+ for (int i = 0; i < structuredDocumentTags.getCount(); i++)
+ {
+     sdt = structuredDocumentTags.get(i);
+     System.out.println(sdt.getTitle());
+ }
+
+ sdt = structuredDocumentTags.getById(1691867797);
+ Assert.assertEquals(1691867797, sdt.getId());
+
+ Assert.assertEquals(5, structuredDocumentTags.getCount());
+ // Remove the structured document tag by Id.
+ structuredDocumentTags.remove(1691867797);
+ // Remove the structured document tag at position 0.
+ structuredDocumentTags.removeAt(0);
+ Assert.assertEquals(3, structuredDocumentTags.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | int | Идентификатор тега структурированного документа. |
+| id | int | Идентификатор структурного тега документа. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
 
 
-Удаляет тег структурированного документа по указанному индексу.
+Удаляет структурный тег документа по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалить структурированный тег документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags.docx");
+
+ StructuredDocumentTagCollection structuredDocumentTags = doc.getRange().getStructuredDocumentTags();
+ IStructuredDocumentTag sdt;
+ for (int i = 0; i < structuredDocumentTags.getCount(); i++)
+ {
+     sdt = structuredDocumentTags.get(i);
+     System.out.println(sdt.getTitle());
+ }
+
+ sdt = structuredDocumentTags.getById(1691867797);
+ Assert.assertEquals(1691867797, sdt.getId());
+
+ Assert.assertEquals(5, structuredDocumentTags.getCount());
+ // Remove the structured document tag by Id.
+ structuredDocumentTags.remove(1691867797);
+ // Remove the structured document tag at position 0.
+ structuredDocumentTags.removeAt(0);
+ Assert.assertEquals(3, structuredDocumentTags.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс в коллекции. |
+| индекс | int | Индекс в коллекции. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

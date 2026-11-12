@@ -1,16 +1,17 @@
 ---
-title: ChartLegendEntry
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет запись легенды диаграммы.
+title: "ChartLegendEntry"
+linktitle: "ChartLegendEntry"
+second_title: "Aspose.Words для Java"
+description: "Представляет запись легенды диаграммы в Java."
 type: docs
-weight: 64
+weight: 80
 url: /ru/java/com.aspose.words/chartlegendentry/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ChartLegendEntry implements Cloneable
@@ -18,230 +19,207 @@ public class ChartLegendEntry implements Cloneable
 
 Представляет запись легенды диаграммы.
 
- Чтобы узнать больше, посетите**Working with Charts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Charts ][Working with Charts].
 
-Запись легенды соответствует определенной серии диаграммы или линии тренда.
+ **Remarks:** 
 
-Текст записи представляет собой название серии или линии тренда. Текст нельзя изменить.
+Запись легенды соответствует конкретному ряду диаграммы или линии тренда.
+
+Текст записи является именем ряда или линии тренда. Текст нельзя изменить.
+
+ **Examples:** 
+
+Показывает, как работать со шрифтом легенды.
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series (Java).docx");
+ Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
+
+ ChartLegend chartLegend = chart.getLegend();
+ // Set default font size all legend entries.
+ chartLegend.getFont().setSize(14.0);
+ // Change font for specific legend entry.
+ chartLegend.getLegendEntries().get(1).getFont().setItalic(true);
+ chartLegend.getLegendEntries().get(1).getFont().setSize(12.0);
+ // Get legend entry for chart series.
+ ChartLegendEntry legendEntry = chart.getSeries().get(0).getLegendEntry();
+
+ doc.save(getArtifactsDir() + "Charts.LegendFont.docx");
+ 
+```
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [getClass()](#getClass--) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | Предоставляет доступ к форматированию шрифта этой записи легенды. |
-| [hashCode()](#hashCode--) |  |
-| [isHidden()](#isHidden--) | Получает значение, указывающее, скрыта ли эта запись в легенде диаграммы. |
-| [isHidden(boolean value)](#isHidden-boolean-) | Задает значение, указывающее, скрыта ли эта запись в легенде диаграммы. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearRunAttrs() {#clearRunAttrs--}
+| [fetchSpecialDefaultRunPropertyValue(int key)](#fetchSpecialDefaultRunPropertyValue-int) |  |
+| [generateItemText()](#generateItemText) |  |
+| [getFont()](#getFont) | Обеспечивает доступ к форматированию шрифта этой записи легенды. |
+| [getRelativePropertyValue(int key, Object value)](#getRelativePropertyValue-int-java.lang.Object) |  |
+| [isHidden()](#isHidden) | Возвращает значение, указывающее, скрыта ли эта запись в легенде диаграммы. |
+| [isHidden(boolean value)](#isHidden-boolean) | Устанавливает значение, указывающее, скрыта ли эта запись в легенде диаграммы. |
+### fetchSpecialDefaultRunPropertyValue(int key) {#fetchSpecialDefaultRunPropertyValue-int}
 ```
-public void clearRunAttrs()
+public Object fetchSpecialDefaultRunPropertyValue(int key)
 ```
 
 
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| ключ | int |  |
 
-**Возвращает:**
-логический
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+**Returns:**
+java.lang.Object
+### generateItemText() {#generateItemText}
 ```
-public Object fetchInheritedRunAttr(int key)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| key | int |  |
-
-**Возвращает:**
-java.lang.Объект
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
+public String generateItemText()
 ```
 
 
 
 
-**Возвращает:**
-java.lang.Класс<?>
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
-```
-public Object getDirectRunAttr(int key)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| key | int |  |
-
-**Возвращает:**
-java.lang.Объект
-### getFont() {#getFont--}
+**Returns:**
+java.lang.String
+### getFont() {#getFont}
 ```
 public Font getFont()
 ```
 
 
-Предоставляет доступ к форматированию шрифта этой записи легенды.
+Обеспечивает доступ к форматированию шрифта этой записи легенды.
 
-**Возвращает:**
-[Font](../../com.aspose.words/font) - соответствующий[Font](../../com.aspose.words/font) ценность.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как работать со шрифтом легенды.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - Chart series (Java).docx");
+ Chart chart = ((Shape)doc.getChild(NodeType.SHAPE, 0, true)).getChart();
+
+ ChartLegend chartLegend = chart.getLegend();
+ // Set default font size all legend entries.
+ chartLegend.getFont().setSize(14.0);
+ // Change font for specific legend entry.
+ chartLegend.getLegendEntries().get(1).getFont().setItalic(true);
+ chartLegend.getLegendEntries().get(1).getFont().setSize(12.0);
+ // Get legend entry for chart series.
+ ChartLegendEntry legendEntry = chart.getSeries().get(0).getLegendEntry();
+
+ doc.save(getArtifactsDir() + "Charts.LegendFont.docx");
+ 
+```
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
+### getRelativePropertyValue(int key, Object value) {#getRelativePropertyValue-int-java.lang.Object}
+```
+public Object getRelativePropertyValue(int key, Object value)
 ```
 
 
 
 
-**Возвращает:**
-инт
-### isHidden() {#isHidden--}
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| ключ | int |  |
+| значение | java.lang.Object |  |
+
+**Returns:**
+java.lang.Object
+### isHidden() {#isHidden}
 ```
 public boolean isHidden()
 ```
 
 
-Получает значение, указывающее, скрыта ли эта запись в легенде диаграммы. Значение по умолчанию**false**. Когда запись легенды диаграммы скрыта, это не влияет на соответствующий ряд диаграммы или линию тренда, которые все еще отображаются на диаграмме.
+Возвращает значение, указывающее, скрыта ли эта запись в легенде диаграммы. Значение по умолчанию — **false**.
 
-**Возвращает:**
-boolean — значение, указывающее, скрыта ли эта запись в легенде диаграммы.
-### isHidden(boolean value) {#isHidden-boolean-}
+ **Remarks:** 
+
+Когда запись легенды диаграммы скрыта, это не влияет на соответствующий ряд или линию тренда, которые продолжают отображаться на диаграмме.
+
+ **Examples:** 
+
+Показывает, как работать с элементом легенды для рядов диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+
+ Chart chart = shape.getChart();
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "AW Category 1", "AW Category 2" };
+
+ ChartSeries series1 = series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+ series.add("Series 3", categories, new double[] { 5.0, 6.0 });
+ series.add("Series 4", categories, new double[] { 0.0, 0.0 });
+
+ ChartLegendEntryCollection legendEntries = chart.getLegend().getLegendEntries();
+ legendEntries.get(3).isHidden(true);
+
+ doc.save(getArtifactsDir() + "Charts.LegendEntries.docx");
+ 
+```
+
+**Returns:**
+boolean — Значение, указывающее, скрыта ли эта запись в легенде диаграммы.
+### isHidden(boolean value) {#isHidden-boolean}
 ```
 public void isHidden(boolean value)
 ```
 
 
- Задает значение, указывающее, скрыта ли эта запись в легенде диаграммы. Значение по умолчанию**false**. Когда запись легенды диаграммы скрыта, это не влияет на соответствующий ряд диаграммы или линию тренда, которые все еще отображаются на диаграмме.
+Устанавливает значение, указывающее, скрыта ли эта запись в легенде диаграммы. Значение по умолчанию — **false**.
 
-**Параметры:**
+ **Remarks:** 
 
+Когда запись легенды диаграммы скрыта, это не влияет на соответствующий ряд или линию тренда, которые продолжают отображаться на диаграмме.
+
+ **Examples:** 
+
+Показывает, как работать с элементом легенды для рядов диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+
+ Chart chart = shape.getChart();
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "AW Category 1", "AW Category 2" };
+
+ ChartSeries series1 = series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+ series.add("Series 3", categories, new double[] { 5.0, 6.0 });
+ series.add("Series 4", categories, new double[] { 0.0, 0.0 });
+
+ ChartLegendEntryCollection legendEntries = chart.getLegend().getLegendEntries();
+ legendEntries.get(3).isHidden(true);
+
+ doc.save(getArtifactsDir() + "Charts.LegendEntries.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение, указывающее, скрыта ли эта запись в легенде диаграммы. |
+| значение | boolean | Значение, указывающее, скрыта ли эта запись в легенде диаграммы. |
 
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### removeRunAttr(int key) {#removeRunAttr-int-}
-```
-public void removeRunAttr(int key)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| key | int |  |
-
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
-```
-public void setRunAttr(int key, Object value)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

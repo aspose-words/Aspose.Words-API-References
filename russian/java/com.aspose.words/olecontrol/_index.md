@@ -1,13 +1,14 @@
 ---
-title: OleControl
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет элемент управления OLE ActiveX.
+title: "OleControl"
+linktitle: "OleControl"
+second_title: "Aspose.Words для Java"
+description: "Представляет OLE ActiveX‑контрол в Java."
 type: docs
-weight: 424
+weight: 500
 url: /ru/java/com.aspose.words/olecontrol/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class OleControl
@@ -15,137 +16,228 @@ public class OleControl
 
 Представляет элемент управления OLE ActiveX.
 
- Чтобы узнать больше, посетите**Working with Ole Objects** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Ole Objects ][Working with Ole Objects].
+
+ **Examples:** 
+
+Показывает, как проверить свойства ActiveX‑элемента управления.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "First");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
+
+[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Получает имя элемента управления ActiveX. |
-| [hashCode()](#hashCode--) |  |
-| [isForms2OleControl()](#isForms2OleControl--) |  Возвращает true, если элемент управления[Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [getClsidInternal()](#getClsidInternal) |  |
+| [getExtensionForUser(String progId)](#getExtensionForUser-java.lang.String) |  |
+| [getFileNameForUser()](#getFileNameForUser) |  |
+| [getId()](#getId) |  |
+| [getName()](#getName) | Получает имя ActiveX‑элемента управления. |
+| [isEmpty()](#isEmpty) |  |
+| [isForms2OleControl()](#isForms2OleControl) | Возвращает  true  если элемент управления является [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
+| [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
+| [setId(int value)](#setId-int) |  |
+| [setName(String value)](#setName-java.lang.String) | Устанавливает имя ActiveX‑элемента управления. |
+### getClsidInternal() {#getClsidInternal}
 ```
-public boolean equals(Object arg0)
+public String getClsidInternal()
 ```
 
 
 
 
-**Параметры:**
+**Returns:**
+java.lang.String
+### getExtensionForUser(String progId) {#getExtensionForUser-java.lang.String}
+```
+public String getExtensionForUser(String progId)
+```
 
+
+
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| progId | java.lang.String |  |
 
-**Возвращает:**
-логический
-### getClass() {#getClass--}
+**Returns:**
+java.lang.String
+### getFileNameForUser() {#getFileNameForUser}
 ```
-public final native Class<?> getClass()
+public String getFileNameForUser()
 ```
 
 
 
 
-**Возвращает:**
-java.lang.Класс<?>
-### getName() {#getName--}
+**Returns:**
+java.lang.String
+### getId() {#getId}
+```
+public int getId()
+```
+
+
+
+
+**Returns:**
+int
+### getName() {#getName}
 ```
 public String getName()
 ```
 
 
-Получает имя элемента управления ActiveX.
+Получает имя ActiveX‑элемента управления.
 
-**Возвращает:**
-java.lang.String — имя элемента управления ActiveX.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как проверить свойства ActiveX‑элемента управления.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "First");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
+**Returns:**
+java.lang.String — Имя ActiveX‑элемента управления.
+### isEmpty() {#isEmpty}
+```
+public boolean isEmpty()
 ```
 
 
 
 
-**Возвращает:**
-инт
-### isForms2OleControl() {#isForms2OleControl--}
+**Returns:**
+boolean
+### isForms2OleControl() {#isForms2OleControl}
 ```
 public boolean isForms2OleControl()
 ```
 
 
- Возвращает true, если элемент управления[Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+Возвращает  true  если элемент управления является [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
 
-**Возвращает:**
- boolean - Истинно, если элемент управления[Forms2OleControl](../../com.aspose.words/forms2olecontrol).
-### notify() {#notify--}
-```
-public final native void notify()
-```
+ **Examples:** 
 
+Показывает, как проверить свойства ActiveX‑элемента управления.
 
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
 ```
 
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
 
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
 
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
 
-### toString() {#toString--}
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "First");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
 ```
-public String toString()
+
+**Returns:**
+boolean —  true  если элемент управления является [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
+### isForms2OleControlInternal() {#isForms2OleControlInternal}
 ```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
+public boolean isForms2OleControlInternal()
 ```
 
 
 
 
-### wait(long arg0) {#wait-long-}
+**Returns:**
+boolean
+### setId(int value) {#setId-int}
 ```
-public final native void wait(long arg0)
+public void setId(int value)
 ```
 
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | long |  |
+| значение | int |  |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
+### setName(String value) {#setName-java.lang.String}
 ```
-public final void wait(long arg0, int arg1)
+public void setName(String value)
 ```
 
 
+Устанавливает имя ActiveX‑элемента управления.
 
+ **Examples:** 
 
-**Параметры:**
+Показывает, как проверить свойства ActiveX‑элемента управления.
 
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "First");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+| значение | java.lang.String | Имя ActiveX‑элемента управления. |
+

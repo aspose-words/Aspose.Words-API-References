@@ -1,13 +1,14 @@
 ---
-title: Chart
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет доступ к свойствам формы диаграммы.
+title: "Диаграмма"
+linktitle: "Диаграмма"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет доступ к свойствам формы диаграммы в Java."
 type: docs
-weight: 55
+weight: 66
 url: /ru/java/com.aspose.words/chart/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Chart
@@ -15,115 +16,603 @@ public class Chart
 
 Предоставляет доступ к свойствам формы диаграммы.
 
- Чтобы узнать больше, посетите**Working with Charts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Charts ][Working with Charts].
+
+ **Examples:** 
+
+Показывает, как вставить диаграмму и задать заголовок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
+
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAxisX()](#getAxisX--) | Предоставляет доступ к свойствам оси X диаграммы. |
-| [getAxisY()](#getAxisY--) | Предоставляет доступ к свойствам оси Y диаграммы. |
-| [getAxisZ()](#getAxisZ--) | Предоставляет доступ к свойствам оси Z диаграммы. |
-| [getClass()](#getClass--) |  |
-| [getLegend()](#getLegend--) | Предоставляет доступ к свойствам легенды диаграммы. |
-| [getSeries()](#getSeries--) | Предоставляет доступ к коллекции сериалов. |
-| [getSourceFullName()](#getSourceFullName--) | Получает путь и имя файла xls/xlsx, с которым связана эта диаграмма. |
-| [getTitle()](#getTitle--) | Предоставляет доступ к свойствам заголовка диаграммы. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Получает путь и имя файла xls/xlsx, с которым связана эта диаграмма. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [getAxes()](#getAxes) | Получает коллекцию всех осей этой диаграммы. |
+| [getAxisX()](#getAxisX) | Предоставляет доступ к свойствам основной оси X диаграммы. |
+| [getAxisY()](#getAxisY) | Обеспечивает доступ к свойствам основной оси Y диаграммы. |
+| [getAxisZ()](#getAxisZ) | Обеспечивает доступ к свойствам оси Z диаграммы. |
+| [getDataTable()](#getDataTable) | Обеспечивает доступ к свойствам таблицы данных этой диаграммы. |
+| [getFormat()](#getFormat) | Обеспечивает доступ к настройкам заливки и линий диаграммы. |
+| [getLegend()](#getLegend) | Обеспечивает доступ к свойствам легенды диаграммы. |
+| [getSeries()](#getSeries) | Обеспечивает доступ к коллекции серий. |
+| [getSeriesGroups()](#getSeriesGroups) | Обеспечивает доступ к коллекции групп серий этой диаграммы. |
+| [getShapeType()](#getShapeType) |  |
+| [getSourceFullName()](#getSourceFullName) | Получает путь и имя файла xls/xlsx, к которому привязана эта диаграмма. |
+| [getStyle()](#getStyle) | Получает стиль диаграммы. |
+| [getTitle()](#getTitle) | Предоставляет доступ к свойствам заголовка диаграммы. |
+| [isFillSupported()](#isFillSupported) |  |
+| [isFormatDefined()](#isFormatDefined) |  |
+| [materializeSpPr()](#materializeSpPr) |  |
+| [setShapeType(int value)](#setShapeType-int) |  |
+| [setSourceFullName(String value)](#setSourceFullName-java.lang.String) | Получает путь и имя файла xls/xlsx, к которому привязана эта диаграмма. |
+| [setStyle(int value)](#setStyle-int) | Устанавливает стиль диаграммы. |
+### getAxes() {#getAxes}
 ```
-public boolean equals(Object arg0)
+public ChartAxisCollection getAxes()
 ```
 
 
+Получает коллекцию всех осей этой диаграммы.
 
+ **Examples:** 
 
-**Параметры:**
+Показывает, как работать с коллекцией осей.
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
+```
 
-**Возвращает:**
-логический
-### getAxisX() {#getAxisX--}
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Hide the major grid lines on the primary and secondary Y axes.
+ for (ChartAxis axis : chart.getAxes())
+ {
+     if (axis.getType() == ChartAxisType.VALUE)
+         axis.hasMajorGridlines(false);
+ }
+
+ doc.save(getArtifactsDir() + "Charts.AxisCollection.docx");
+ 
+```
+
+**Returns:**
+[ChartAxisCollection](../../com.aspose.words/chartaxiscollection/) - A collection of all axes of this chart.
+### getAxisX() {#getAxisX}
 ```
 public ChartAxis getAxisX()
 ```
 
 
-Предоставляет доступ к свойствам оси X диаграммы.
+Предоставляет доступ к свойствам основной оси X диаграммы.
 
-**Возвращает:**
-[ChartAxis](../../com.aspose.words/chartaxis) - соответствующий[ChartAxis](../../com.aspose.words/chartaxis) ценность.
-### getAxisY() {#getAxisY--}
+ **Examples:** 
+
+Показывает, как вставить диаграмму и изменить внешний вид её осей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
+
+**Returns:**
+[ChartAxis](../../com.aspose.words/chartaxis/) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis/) value.
+### getAxisY() {#getAxisY}
 ```
 public ChartAxis getAxisY()
 ```
 
 
-Предоставляет доступ к свойствам оси Y диаграммы.
+Обеспечивает доступ к свойствам основной оси Y диаграммы.
 
-**Возвращает:**
-[ChartAxis](../../com.aspose.words/chartaxis) - соответствующий[ChartAxis](../../com.aspose.words/chartaxis) ценность.
-### getAxisZ() {#getAxisZ--}
+ **Examples:** 
+
+Показывает, как вставить диаграмму и изменить внешний вид её осей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
+
+**Returns:**
+[ChartAxis](../../com.aspose.words/chartaxis/) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis/) value.
+### getAxisZ() {#getAxisZ}
 ```
 public ChartAxis getAxisZ()
 ```
 
 
-Предоставляет доступ к свойствам оси Z диаграммы.
+Обеспечивает доступ к свойствам оси Z диаграммы.
 
-**Возвращает:**
-[ChartAxis](../../com.aspose.words/chartaxis) - соответствующий[ChartAxis](../../com.aspose.words/chartaxis) ценность.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как вставить диаграмму и изменить внешний вид её осей.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{640.0, 320.0, 280.0, 120.0, 150.0});
+
+ // Chart axes have various options that can change their appearance,
+ // such as their direction, major/minor unit ticks, and tick marks.
+ ChartAxis xAxis = chart.getAxisX();
+ xAxis.setCategoryType(AxisCategoryType.CATEGORY);
+ xAxis.setCrosses(AxisCrosses.MINIMUM);
+ xAxis.setReverseOrder(false);
+ xAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ xAxis.setMinorTickMark(AxisTickMark.CROSS);
+ xAxis.setMajorUnit(10.0d);
+ xAxis.setMinorUnit(15.0d);
+ xAxis.getTickLabels().setOffset(50);
+ xAxis.getTickLabels().setPosition(AxisTickLabelPosition.LOW);
+ xAxis.getTickLabels().isAutoSpacing(false);
+ xAxis.setTickMarkSpacing(1);
+
+ Assert.assertEquals(doc, xAxis.getDocument());
+
+ ChartAxis yAxis = chart.getAxisY();
+ yAxis.setCategoryType(AxisCategoryType.AUTOMATIC);
+ yAxis.setCrosses(AxisCrosses.MAXIMUM);
+ yAxis.setReverseOrder(true);
+ yAxis.setMajorTickMark(AxisTickMark.INSIDE);
+ yAxis.setMinorTickMark(AxisTickMark.CROSS);
+ yAxis.setMajorUnit(100.0d);
+ yAxis.setMinorUnit(20.0d);
+ yAxis.getTickLabels().setPosition(AxisTickLabelPosition.NEXT_TO_AXIS);
+ yAxis.getTickLabels().setAlignment(ParagraphAlignment.CENTER);
+ yAxis.getTickLabels().getFont().setColor(Color.RED);
+ yAxis.getTickLabels().setSpacing(1);
+
+ // Column charts do not have a Z-axis.
+ Assert.assertNull(chart.getAxisZ());
+
+ doc.save(getArtifactsDir() + "Charts.AxisProperties.docx");
+ 
+```
+
+**Returns:**
+[ChartAxis](../../com.aspose.words/chartaxis/) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis/) value.
+### getDataTable() {#getDataTable}
+```
+public ChartDataTable getDataTable()
 ```
 
 
+Обеспечивает доступ к свойствам таблицы данных этой диаграммы. Таблица данных может быть отображена с помощью свойства [ChartDataTable.getShow()](../../com.aspose.words/chartdatatable/\#getShow) / [ChartDataTable.setShow(boolean)](../../com.aspose.words/chartdatatable/\#setShow-boolean).
+
+ **Examples:** 
+
+Показывает, как отобразить таблицу данных вместе с данными серий диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+ double[] xValues = new double[] { 2020.0, 2021.0, 2022.0, 2023.0 };
+ series.add("Series1", xValues, new double[] { 5.0, 11.0, 2.0, 7.0 });
+ series.add("Series2", xValues, new double[] { 6.0, 5.5, 7.0, 7.8 });
+ series.add("Series3", xValues, new double[] { 10.0, 8.0, 7.0, 9.0 });
+
+ ChartDataTable dataTable = chart.getDataTable();
+ dataTable.setShow(true);
+
+ dataTable.hasLegendKeys(false);
+ dataTable.hasHorizontalBorder(false);
+ dataTable.hasVerticalBorder(false);
+ dataTable.hasOutlineBorder(false);
+
+ dataTable.getFont().setItalic(true);
+ dataTable.getFormat().getStroke().setWeight(1.0);
+ dataTable.getFormat().getStroke().setDashStyle(DashStyle.SHORT_DOT);
+ dataTable.getFormat().getStroke().setColor(Color.BLUE);
+
+ doc.save(getArtifactsDir() + "Charts.DataTable.docx");
+ 
+```
+
+**Returns:**
+[ChartDataTable](../../com.aspose.words/chartdatatable/) - The corresponding [ChartDataTable](../../com.aspose.words/chartdatatable/) value.
+### getFormat() {#getFormat}
+```
+public ChartFormat getFormat()
+```
 
 
-**Возвращает:**
-java.lang.Класс<?>
-### getLegend() {#getLegend--}
+Обеспечивает доступ к настройкам заливки и линий диаграммы.
+
+ **Examples:** 
+
+Показывает, как использовать форматирование диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete series generated by default.
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2" };
+ series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+
+ // Format chart background.
+ chart.getFormat().getFill().solid(Color.darkGray);
+
+ // Hide axis tick labels.
+ chart.getAxisX().getTickLabels().setPosition(AxisTickLabelPosition.NONE);
+ chart.getAxisY().getTickLabels().setPosition(AxisTickLabelPosition.NONE);
+
+ // Format chart title.
+ chart.getTitle().getFormat().getFill().solid(Color.yellow);
+
+ // Format axis title.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().getFormat().getFill().solid(Color.yellow);
+
+ // Format legend.
+ chart.getLegend().getFormat().getFill().solid(Color.yellow);
+
+ doc.save(getArtifactsDir() + "Charts.ChartFormat.docx");
+ 
+```
+
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
+### getLegend() {#getLegend}
 ```
 public ChartLegend getLegend()
 ```
 
 
-Предоставляет доступ к свойствам легенды диаграммы.
+Обеспечивает доступ к свойствам легенды диаграммы.
 
-**Возвращает:**
-[ChartLegend](../../com.aspose.words/chartlegend) - соответствующий[ChartLegend](../../com.aspose.words/chartlegend) ценность.
-### getSeries() {#getSeries--}
+ **Examples:** 
+
+Показывает, как изменить внешний вид легенды диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 300.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(3, chart.getSeries().getCount());
+ Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+ Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+ Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+ // Move the chart's legend to the top right corner.
+ ChartLegend legend = chart.getLegend();
+ legend.setPosition(LegendPosition.TOP_RIGHT);
+
+ // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+ legend.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartLegend.docx");
+ 
+```
+
+**Returns:**
+[ChartLegend](../../com.aspose.words/chartlegend/) - The corresponding [ChartLegend](../../com.aspose.words/chartlegend/) value.
+### getSeries() {#getSeries}
 ```
 public ChartSeriesCollection getSeries()
 ```
 
 
-Предоставляет доступ к коллекции сериалов.
+Обеспечивает доступ к коллекции серий.
 
-**Возвращает:**
-[ChartSeriesCollection](../../com.aspose.words/chartseriescollection) - соответствующий[ChartSeriesCollection](../../com.aspose.words/chartseriescollection) ценность.
-### getSourceFullName() {#getSourceFullName--}
+ **Examples:** 
+
+Показывает, как создать подходящий тип серии диаграммы для определённого типа графика.
+
+```
+
+ public void chartSeriesCollection() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // There are several ways of populating a chart's series collection.
+     // Different series schemas are intended for different chart types.
+     // 1 -  Column chart with columns grouped and banded along the X-axis by category:
+     Chart chart = appendChart(builder, ChartType.COLUMN, 500.0, 300.0);
+
+     String[] categories = {"Category 1", "Category 2", "Category 3"};
+
+     // Insert two series of decimal values containing a value for each respective category.
+     // This column chart will have three groups, each with two columns.
+     chart.getSeries().add("Series 1", categories, new double[]{76.6, 82.1, 91.6});
+     chart.getSeries().add("Series 2", categories, new double[]{64.2, 79.5, 94.0});
+
+     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
+     Assert.assertEquals(ChartAxisType.CATEGORY, chart.getAxisX().getType());
+     Assert.assertEquals(ChartAxisType.VALUE, chart.getAxisY().getType());
+
+     // 2 -  Area chart with dates distributed along the X-axis:
+     chart = appendChart(builder, ChartType.AREA, 500.0, 300.0);
+
+     Date[] dates = {DocumentHelper.createDate(2014, 3, 31),
+             DocumentHelper.createDate(2017, 1, 23),
+             DocumentHelper.createDate(2017, 6, 18),
+             DocumentHelper.createDate(2019, 11, 22),
+             DocumentHelper.createDate(2020, 9, 7)
+     };
+
+     // Insert a series with a decimal value for each respective date.
+     // The dates will be distributed along a linear X-axis,
+     // and the values added to this series will create data points.
+     chart.getSeries().add("Series 1", dates, new double[]{15.8, 21.5, 22.9, 28.7, 33.1});
+
+     Assert.assertEquals(ChartAxisType.CATEGORY, chart.getAxisX().getType());
+     Assert.assertEquals(ChartAxisType.VALUE, chart.getAxisY().getType());
+
+     // 3 -  2D scatter plot:
+     chart = appendChart(builder, ChartType.SCATTER, 500.0, 300.0);
+
+     // Each series will need two decimal arrays of equal length.
+     // The first array contains X-values, and the second contains corresponding Y-values
+     // of data points on the chart's graph.
+     chart.getSeries().add("Series 1",
+             new double[]{3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6},
+             new double[]{3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9});
+     chart.getSeries().add("Series 2",
+             new double[]{2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3},
+             new double[]{7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6});
+
+     Assert.assertEquals(ChartAxisType.VALUE, chart.getAxisX().getType());
+     Assert.assertEquals(ChartAxisType.VALUE, chart.getAxisY().getType());
+
+     // 4 -  Bubble chart:
+     chart = appendChart(builder, ChartType.BUBBLE, 500.0, 300.0);
+
+     // Each series will need three decimal arrays of equal length.
+     // The first array contains X-values, the second contains corresponding Y-values,
+     // and the third contains diameters for each of the graph's data points.
+     chart.getSeries().add("Series 1",
+             new double[]{1.1, 5.0, 9.8},
+             new double[]{1.2, 4.9, 9.9},
+             new double[]{2.0, 4.0, 8.0});
+
+     doc.save(getArtifactsDir() + "Charts.ChartSeriesCollection.docx");
+ }
+
+ /// 
+ /// Insert a chart using a document builder of a specified ChartType, width and height, and remove its demo data.
+ /// 
+ private static Chart appendChart(DocumentBuilder builder, int chartType, double width, double height) throws Exception {
+     Shape chartShape = builder.insertChart(chartType, width, height);
+     Chart chart = chartShape.getChart();
+     chart.getSeries().clear();
+     return chart;
+ }
+ 
+```
+
+**Returns:**
+[ChartSeriesCollection](../../com.aspose.words/chartseriescollection/) - The corresponding [ChartSeriesCollection](../../com.aspose.words/chartseriescollection/) value.
+### getSeriesGroups() {#getSeriesGroups}
+```
+public ChartSeriesGroupCollection getSeriesGroups()
+```
+
+
+Обеспечивает доступ к коллекции групп серий этой диаграммы.
+
+ **Examples:** 
+
+Показывает, как настроить ширину промежутка и перекрытие.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 450.0, 250.0);
+ ChartSeriesGroup seriesGroup = shape.getChart().getSeriesGroups().get(0);
+
+ // Set column gap width and overlap.
+ seriesGroup.setGapWidth(450);
+ seriesGroup.setOverlap(-75);
+
+ doc.save(getArtifactsDir() + "Charts.ConfigureGapOverlap.docx");
+ 
+```
+
+**Returns:**
+[ChartSeriesGroupCollection](../../com.aspose.words/chartseriesgroupcollection/) - The corresponding [ChartSeriesGroupCollection](../../com.aspose.words/chartseriesgroupcollection/) value.
+### getShapeType() {#getShapeType}
+```
+public int getShapeType()
+```
+
+
+
+
+**Returns:**
+int
+### getSourceFullName() {#getSourceFullName}
 ```
 public String getSourceFullName()
 ```
 
 
-Получает путь и имя файла xls/xlsx, с которым связана эта диаграмма.
+Получает путь и имя файла xls/xlsx, к которому привязана эта диаграмма.
 
-**Возвращает:**
-java.lang.String — путь и имя файла xls/xlsx, с которым связана эта диаграмма.
-### getTitle() {#getTitle--}
+ **Examples:** 
+
+Показывает, как получить/установить полное имя внешнего документа xls/xlsx, если диаграмма привязана.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape with linked chart.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ String sourceFullName = shape.getChart().getSourceFullName();
+ Assert.assertTrue(sourceFullName.contains("Examples\\Data\\Spreadsheet.xlsx"));
+ 
+```
+
+**Returns:**
+java.lang.String - Путь и имя файла xls/xlsx, к которому привязана эта диаграмма.
+### getStyle() {#getStyle}
+```
+public int getStyle()
+```
+
+
+Получает стиль диаграммы.
+
+**Returns:**
+int - Стиль диаграммы. Возвращаемое значение является одной из констант [ChartStyle](../../com.aspose.words/chartstyle/).
+### getTitle() {#getTitle}
 ```
 public ChartTitle getTitle()
 ```
@@ -131,91 +620,116 @@ public ChartTitle getTitle()
 
 Предоставляет доступ к свойствам заголовка диаграммы.
 
-**Возвращает:**
-[ChartTitle](../../com.aspose.words/charttitle) - соответствующий[ChartTitle](../../com.aspose.words/charttitle) ценность.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как вставить диаграмму и задать заголовок.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
 
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
-### notifyAll() {#notifyAll--}
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
 ```
-public final native void notifyAll()
+
+**Returns:**
+[ChartTitle](../../com.aspose.words/charttitle/) - The corresponding [ChartTitle](../../com.aspose.words/charttitle/) value.
+### isFillSupported() {#isFillSupported}
+```
+public boolean isFillSupported()
 ```
 
 
 
 
-### setSourceFullName(String value) {#setSourceFullName-java.lang.String-}
+**Returns:**
+boolean
+### isFormatDefined() {#isFormatDefined}
+```
+public boolean isFormatDefined()
+```
+
+
+
+
+**Returns:**
+boolean
+### materializeSpPr() {#materializeSpPr}
+```
+public void materializeSpPr()
+```
+
+
+
+
+### setShapeType(int value) {#setShapeType-int}
+```
+public void setShapeType(int value)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | int |  |
+
+### setSourceFullName(String value) {#setSourceFullName-java.lang.String}
 ```
 public void setSourceFullName(String value)
 ```
 
 
-Получает путь и имя файла xls/xlsx, с которым связана эта диаграмма.
+Получает путь и имя файла xls/xlsx, к которому привязана эта диаграмма.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить/установить полное имя внешнего документа xls/xlsx, если диаграмма привязана.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape with linked chart.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+
+ String sourceFullName = shape.getChart().getSourceFullName();
+ Assert.assertTrue(sourceFullName.contains("Examples\\Data\\Spreadsheet.xlsx"));
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Путь и имя файла xls/xlsx, с которым связана эта диаграмма. |
+| значение | java.lang.String | Путь и имя файла xls/xlsx, к которому привязана эта диаграмма. |
 
-### toString() {#toString--}
+### setStyle(int value) {#setStyle-int}
 ```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
+public void setStyle(int value)
 ```
 
 
+Устанавливает стиль диаграммы.
 
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | long |  |
+| value | int | Стиль диаграммы. Значение должно быть одной из констант [ChartStyle](../../com.aspose.words/chartstyle/). |
 
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

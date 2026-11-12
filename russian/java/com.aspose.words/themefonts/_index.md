@@ -1,70 +1,86 @@
 ---
-title: ThemeFonts
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет набор шрифтов в схеме шрифтов, позволяющей указывать разные шрифты для разных языков / / и / .
+title: "ThemeFonts"
+linktitle: "ThemeFonts"
+second_title: "Aspose.Words для Java"
+description: "Представляет коллекцию шрифтов в схеме шрифтов, позволяя задавать разные шрифты для разных языков getLatin / setLatinjava.lang.String getEastAsian / setEastAsianjava.lang.String и getComplexScript / setComplexScriptjava.lang.String в Java."
 type: docs
-weight: 577
+weight: 686
 url: /ru/java/com.aspose.words/themefonts/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ThemeFonts implements Cloneable
 ```
 
- Представляет набор шрифтов в схеме шрифтов, что позволяет указывать разные шрифты для разных языков.[getLatin()](../../com.aspose.words/themefonts\#getLatin--) / [setLatin(java.lang.String)](../../com.aspose.words/themefonts\#setLatin-java.lang.String-), [getEastAsian()](../../com.aspose.words/themefonts\#getEastAsian--) / [setEastAsian(java.lang.String)](../../com.aspose.words/themefonts\#setEastAsian-java.lang.String-) а также[getComplexScript()](../../com.aspose.words/themefonts\#getComplexScript--) / [setComplexScript(java.lang.String)](../../com.aspose.words/themefonts\#setComplexScript-java.lang.String-).
+Представляет коллекцию шрифтов в схеме шрифтов, позволяя задавать разные шрифты для разных языков [getLatin()](../../com.aspose.words/themefonts/\#getLatin) / [setLatin(java.lang.String)](../../com.aspose.words/themefonts/\#setLatin-java.lang.String), [getEastAsian()](../../com.aspose.words/themefonts/\#getEastAsian) / [setEastAsian(java.lang.String)](../../com.aspose.words/themefonts/\#setEastAsian-java.lang.String) и [getComplexScript()](../../com.aspose.words/themefonts/\#getComplexScript) / [setComplexScript(java.lang.String)](../../com.aspose.words/themefonts/\#setComplexScript-java.lang.String).
 
- Чтобы узнать больше, посетите**Working with Styles and Themes** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Styles and Themes ][Working with Styles and Themes] .
+
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+
+[Working with Styles and Themes]: https://docs.aspose.com/words/java/working-with-styles-and-themes/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getComplexScript()](#getComplexScript--) | Указывает имя шрифта для символов ComplexScript. |
-| [getEastAsian()](#getEastAsian--) | Указывает имя шрифта для восточноазиатских символов. |
-| [getLatin()](#getLatin--) | Указывает имя шрифта для латинских символов. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setComplexScript(String value)](#setComplexScript-java.lang.String-) | Указывает имя шрифта для символов ComplexScript. |
-| [setEastAsian(String value)](#setEastAsian-java.lang.String-) | Указывает имя шрифта для восточноазиатских символов. |
-| [setLatin(String value)](#setLatin-java.lang.String-) | Указывает имя шрифта для латинских символов. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getComplexScript() {#getComplexScript--}
+| [getComplexScript()](#getComplexScript) | Указывает имя шрифта для символов ComplexScript. |
+| [getEastAsian()](#getEastAsian) | Указывает имя шрифта для восточноазиатских символов. |
+| [getLatin()](#getLatin) | Указывает имя шрифта для латинских символов. |
+| [setComplexScript(String value)](#setComplexScript-java.lang.String) | Указывает имя шрифта для символов ComplexScript. |
+| [setEastAsian(String value)](#setEastAsian-java.lang.String) | Указывает имя шрифта для восточноазиатских символов. |
+| [setLatin(String value)](#setLatin-java.lang.String) | Указывает имя шрифта для латинских символов. |
+### getComplexScript() {#getComplexScript}
 ```
 public String getComplexScript()
 ```
@@ -72,9 +88,56 @@ public String getComplexScript()
 
 Указывает имя шрифта для символов ComplexScript.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getEastAsian() {#getEastAsian--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getEastAsian() {#getEastAsian}
 ```
 public String getEastAsian()
 ```
@@ -82,9 +145,56 @@ public String getEastAsian()
 
 Указывает имя шрифта для восточноазиатских символов.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getLatin() {#getLatin--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getLatin() {#getLatin}
 ```
 public String getLatin()
 ```
@@ -92,35 +202,56 @@ public String getLatin()
 
 Указывает имя шрифта для латинских символов.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
 
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
 
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
 
-### notifyAll() {#notifyAll--}
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setComplexScript(String value) {#setComplexScript-java.lang.String-}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### setComplexScript(String value) {#setComplexScript-java.lang.String}
 ```
 public void setComplexScript(String value)
 ```
@@ -128,13 +259,59 @@ public void setComplexScript(String value)
 
 Указывает имя шрифта для символов ComplexScript.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setEastAsian(String value) {#setEastAsian-java.lang.String-}
+### setEastAsian(String value) {#setEastAsian-java.lang.String}
 ```
 public void setEastAsian(String value)
 ```
@@ -142,13 +319,59 @@ public void setEastAsian(String value)
 
 Указывает имя шрифта для восточноазиатских символов.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setLatin(String value) {#setLatin-java.lang.String-}
+### setLatin(String value) {#setLatin-java.lang.String}
 ```
 public void setLatin(String value)
 ```
@@ -156,55 +379,55 @@ public void setLatin(String value)
 
 Указывает имя шрифта для латинских символов.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

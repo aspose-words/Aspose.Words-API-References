@@ -1,85 +1,93 @@
 ---
-title: RevisionGroupCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Коллекция объектов, представляющих группы редакций в документе.
+title: "RevisionGroupCollection"
+linktitle: "RevisionGroupCollection"
+second_title: "Aspose.Words для Java"
+description: "Коллекция объектов RevisionGroup, представляющих группы правок в документе на Java."
 type: docs
-weight: 487
+weight: 583
 url: /ru/java/com.aspose.words/revisiongroupcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class RevisionGroupCollection implements Iterable
 ```
 
- Коллекция[RevisionGroup](../../com.aspose.words/revisiongroup) объекты, которые представляют группы ревизий в документе.
+Коллекция объектов [RevisionGroup](../../com.aspose.words/revisiongroup/) объектов, представляющих группы правок в документе.
 
- Чтобы узнать больше, посетите**Track Changes in a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Track Changes in a Document ][Track Changes in a Document].
 
-Вы не создаете экземпляры этого класса напрямую. Использовать[RevisionCollection.getGroups()](../../com.aspose.words/revisioncollection\#getGroups--) свойство, чтобы группы ревизий присутствовали в документе.
+ **Remarks:** 
+
+Вы не создаёте экземпляры этого класса напрямую. Используйте свойство [RevisionCollection.getGroups()](../../com.aspose.words/revisioncollection/\#getGroups), чтобы получить группы правок, присутствующие в документе.
+
+ **Examples:** 
+
+Показывает, как вывести информацию о группе исправлений в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions.docx");
+
+ Assert.assertEquals(7, doc.getRevisions().getGroups().getCount());
+
+ for (RevisionGroup group : doc.getRevisions().getGroups()) {
+     System.out.println(MessageFormat.format("Revision author: {0}; Revision type: {1} \n\tRevision text: {2}", group.getAuthor(), group.getRevisionType(), group.getText()));
+ }
+ 
+```
+
+Показывает, как получить группу правок в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions.docx");
+
+ RevisionGroup revisionGroup = doc.getRevisions().getGroups().get(0);
+ 
+```
+
+
+[Track Changes in a Document]: https://docs.aspose.com/words/java/track-changes-in-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Возвращает группу ревизий по указанному индексу. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Возвращает количество групп ревизий в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Возвращает объект перечислителя. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+| [get(int index)](#get-int) | Возвращает группу правок по указанному индексу. |
+| [getCount()](#getCount) | Возвращает количество групп ревизий в коллекции. |
+| [iterator()](#iterator) | Возвращает объект перечислителя. |
+### get(int index) {#get-int}
 ```
 public RevisionGroup get(int index)
 ```
 
 
-Возвращает группу ревизий по указанному индексу.
+Возвращает группу правок по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить группу правок в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions.docx");
+
+ RevisionGroup revisionGroup = doc.getRevisions().getGroups().get(0);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-**Возвращает:**
-[RevisionGroup](../../com.aspose.words/revisiongroup) - Группа ревизий по указанному индексу.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[RevisionGroup](../../com.aspose.words/revisiongroup/) - A revision group at the specified index.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -87,19 +95,25 @@ public int getCount()
 
 Возвращает количество групп ревизий в коллекции.
 
-**Возвращает:**
-int — количество групп ревизий в коллекции.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как вывести информацию о группе исправлений в документе.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "Revisions.docx");
+
+ Assert.assertEquals(7, doc.getRevisions().getGroups().getCount());
+
+ for (RevisionGroup group : doc.getRevisions().getGroups()) {
+     System.out.println(MessageFormat.format("Revision author: {0}; Revision type: {1} \n\tRevision text: {2}", group.getAuthor(), group.getRevisionType(), group.getText()));
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+int - количество групп ревизий в коллекции.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -107,67 +121,57 @@ public Iterator iterator()
 
 Возвращает объект перечислителя.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как работать с коллекцией изменений документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions.docx");
+ RevisionCollection revisions = doc.getRevisions();
+
+ // This collection itself has a collection of revision groups.
+ // Each group is a sequence of adjacent revisions.
+ System.out.println(MessageFormat.format("{0} revision groups:", revisions.getGroups().getCount()));
+
+ // Iterate over the collection of groups and print the text that the revision concerns.
+ Iterator e = revisions.getGroups().iterator();
+
+ while (e.hasNext()) {
+     RevisionGroup revisionGroup = e.next();
+
+     System.out.println(MessageFormat.format("\tGroup type \"{0}\", ", revisionGroup.getRevisionType()) +
+             MessageFormat.format("author: {0}, contents: [{1}]", revisionGroup.getAuthor(), revisionGroup.getText().trim()));
+ }
+
+ // Each Run that a revision affects gets a corresponding Revision object.
+ // The revisions' collection is considerably larger than the condensed form we printed above,
+ // depending on how many Runs we have segmented the document into during Microsoft Word editing.
+ System.out.println("\n{revisions.Count} revisions:");
+
+ Iterator e1 = revisions.iterator();
+
+ while (e1.hasNext()) {
+     Revision revision = e1.next();
+
+     // A StyleDefinitionChange strictly affects styles and not document nodes. This means the "ParentStyle"
+     // property will always be in use, while the ParentNode will always be null.
+     // Since all other changes affect nodes, ParentNode will conversely be in use, and ParentStyle will be null.
+     if (revision.getRevisionType() == RevisionType.STYLE_DEFINITION_CHANGE) {
+         System.out.println(MessageFormat.format("\tRevision type \"{0}\", ", revision.getRevisionType()) +
+                 MessageFormat.format("author: {0}, style: [{1}]", revision.getAuthor(), revision.getParentStyle().getName()));
+     } else {
+         System.out.println(MessageFormat.format("\tRevision type \"{0}\", ", revision.getRevisionType()) +
+                 MessageFormat.format("author: {0}, contents: [{1}]", revision.getAuthor(), revision.getParentNode().getText().trim()));
+     }
+ }
+
+ // Reject all revisions via the collection, reverting the document to its original form.
+ revisions.rejectAll();
+
+ Assert.assertEquals(0, revisions.getCount());
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,26 +1,45 @@
 ---
-title: TextDmlEffect
-second_title: Справочник по API Aspose.Words для Java
-description: Текстовый эффект Dml для текстовых прогонов.
+title: "TextDmlEffect"
+linktitle: "TextDmlEffect"
+second_title: "Aspose.Words для Java"
+description: "Эффект Dml текста для текстовых фрагментов в Java."
 type: docs
-weight: 563
+weight: 672
 url: /ru/java/com.aspose.words/textdmleffect/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextDmlEffect
 ```
 
-Текстовый эффект Dml для текстовых прогонов.
+Эффект DML текста для последовательностей текста.
+
+ **Examples:** 
+
+Показывает, как проверить, отображает ли фрагмент эффект текста DrawingML.
+
+```
+
+ Document doc = new Document(getMyDir() + "DrawingML text effects.docx");
+
+ RunCollection runs = doc.getFirstSection().getBody().getFirstParagraph().getRuns();
+
+ Assert.assertTrue(runs.get(0).getFont().hasDmlEffect(TextDmlEffect.SHADOW));
+ Assert.assertTrue(runs.get(1).getFont().hasDmlEffect(TextDmlEffect.SHADOW));
+ Assert.assertTrue(runs.get(2).getFont().hasDmlEffect(TextDmlEffect.REFLECTION));
+ Assert.assertTrue(runs.get(3).getFont().hasDmlEffect(TextDmlEffect.EFFECT_3_D));
+ Assert.assertTrue(runs.get(4).getFont().hasDmlEffect(TextDmlEffect.FILL));
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [EFFECT_3_D](#EFFECT-3-D) | 3D эффект. |
-| [FILL](#FILL) | Эффект наложения заливки. |
-| [GLOW](#GLOW) | Эффект свечения, при котором за пределами краев объекта добавляется размытый цветной контур. |
+| [EFFECT_3_D](#EFFECT-3-D) | 3D-эффект. |
+| [FILL](#FILL) | Эффект наложения заполнения. |
+| [GLOW](#GLOW) | Эффект свечения, при котором цветная размазанная обводка добавляется за пределами краёв объекта. |
 | [OUTLINE](#OUTLINE) | Эффект контура. |
 | [REFLECTION](#REFLECTION) | Эффект отражения. |
 | [SHADOW](#SHADOW) | Эффект тени. |
@@ -29,26 +48,17 @@ public class TextDmlEffect
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textDmlEffectName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textDmlEffect)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textDmlEffect)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String textDmlEffectName)](#fromName-java.lang.String) |  |
+| [getName(int textDmlEffect)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int textDmlEffect)](#toString-int) |  |
 ### EFFECT_3_D {#EFFECT-3-D}
 ```
 public static int EFFECT_3_D
 ```
 
 
-3D эффект.
+3D-эффект.
 
 ### FILL {#FILL}
 ```
@@ -56,7 +66,7 @@ public static int FILL
 ```
 
 
-Эффект наложения заливки.
+Эффект наложения заполнения.
 
 ### GLOW {#GLOW}
 ```
@@ -64,7 +74,7 @@ public static int GLOW
 ```
 
 
-Эффект свечения, при котором за пределами краев объекта добавляется размытый цветной контур.
+Эффект свечения, при котором цветная размазанная обводка добавляется за пределами краёв объекта.
 
 ### OUTLINE {#OUTLINE}
 ```
@@ -96,23 +106,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String textDmlEffectName) {#fromName-java.lang.String-}
+### fromName(String textDmlEffectName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textDmlEffectName)
 ```
@@ -120,25 +114,14 @@ public static int fromName(String textDmlEffectName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textDmlEffectName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int textDmlEffect) {#getName-int-}
+**Returns:**
+int
+### getName(int textDmlEffect) {#getName-int}
 ```
 public static String getName(int textDmlEffect)
 ```
@@ -146,15 +129,14 @@ public static String getName(int textDmlEffect)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textDmlEffect | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +144,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int textDmlEffect) {#toString-int-}
+**Returns:**
+int[]
+### toString(int textDmlEffect) {#toString-int}
 ```
 public static String toString(int textDmlEffect)
 ```
@@ -208,47 +154,10 @@ public static String toString(int textDmlEffect)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textDmlEffect | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,52 +1,98 @@
 ---
-title: FootnoteNumberingRule
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет, когда автоматически возобновляется нумерация сносок или концевых сносок.
+title: "FootnoteNumberingRule"
+linktitle: "FootnoteNumberingRule"
+second_title: "Aspose.Words для Java"
+description: "Определяет, когда в Java автоматически перезапускается нумерация сносок или концевых сносок."
 type: docs
-weight: 292
+weight: 340
 url: /ru/java/com.aspose.words/footnotenumberingrule/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FootnoteNumberingRule
 ```
 
-Определяет, когда автоматически возобновляется нумерация сносок или концевых сносок.
+Определяет, когда автоматическая нумерация сносок или концевых сносок перезапускается.
+
+ **Examples:** 
+
+Показывает, как перезапустить нумерацию сносок/концевых сносок в определённых местах документа.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Footnotes and endnotes are a way to attach a reference or a side comment to text
+ // that does not interfere with the main body text's flow.
+ // Inserting a footnote/endnote adds a small superscript reference symbol
+ // at the main body text where we insert the footnote/endnote.
+ // Each footnote/endnote also creates an entry, which consists of a symbol that matches the reference
+ // symbol in the main body text. The reference text that we pass to the document builder's "InsertEndnote" method.
+ // Footnote entries, by default, show up at the bottom of each page that contains
+ // their reference symbols, and endnotes show up at the end of the document.
+ builder.write("Text 1. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 1.");
+ builder.write("Text 2. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.write("Text 3. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 3.");
+ builder.write("Text 4. ");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote 4.");
+
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ builder.write("Text 1. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 1.");
+ builder.write("Text 2. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 2.");
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+ builder.write("Text 3. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 3.");
+ builder.write("Text 4. ");
+ builder.insertFootnote(FootnoteType.ENDNOTE, "Endnote 4.");
+
+ // By default, the reference symbol for each footnote and endnote is its index
+ // among all the document's footnotes/endnotes. Each document maintains separate counts
+ // for footnotes and endnotes and does not restart these counts at any point.
+ Assert.assertEquals(doc.getFootnoteOptions().getRestartRule(), FootnoteNumberingRule.DEFAULT);
+ Assert.assertEquals(FootnoteNumberingRule.DEFAULT, FootnoteNumberingRule.CONTINUOUS);
+
+ // We can use the "RestartRule" property to get the document to restart
+ // the footnote/endnote counts at a new page or section.
+ doc.getFootnoteOptions().setRestartRule(FootnoteNumberingRule.RESTART_PAGE);
+ doc.getEndnoteOptions().setRestartRule(FootnoteNumberingRule.RESTART_SECTION);
+
+ doc.save(getArtifactsDir() + "InlineStory.NumberingRule.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [CONTINUOUS](#CONTINUOUS) | Сплошная нумерация по всему документу. |
-| [DEFAULT](#DEFAULT) |  Равно[CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS). |
-| [RESTART_PAGE](#RESTART-PAGE) | Нумерация начинается заново на каждой странице. |
-| [RESTART_SECTION](#RESTART-SECTION) | Нумерация возобновляется в каждом разделе. |
+| [CONTINUOUS](#CONTINUOUS) | Нумерация непрерывна по всему документу. |
+| [DEFAULT](#DEFAULT) | Равно [CONTINUOUS](../../com.aspose.words/footnotenumberingrule/\#CONTINUOUS). |
+| [RESTART_PAGE](#RESTART-PAGE) | Нумерация перезапускается на каждой странице. |
+| [RESTART_SECTION](#RESTART-SECTION) | Нумерация перезапускается в каждом разделе. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String footnoteNumberingRuleName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int footnoteNumberingRule)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int footnoteNumberingRule)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String footnoteNumberingRuleName)](#fromName-java.lang.String) |  |
+| [getName(int footnoteNumberingRule)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int footnoteNumberingRule)](#toString-int) |  |
 ### CONTINUOUS {#CONTINUOUS}
 ```
 public static int CONTINUOUS
 ```
 
 
-Сплошная нумерация по всему документу.
+Нумерация непрерывна по всему документу.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -54,7 +100,7 @@ public static int DEFAULT
 ```
 
 
- Равно[CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+Равно [CONTINUOUS](../../com.aspose.words/footnotenumberingrule/\#CONTINUOUS).
 
 ### RESTART_PAGE {#RESTART-PAGE}
 ```
@@ -62,7 +108,7 @@ public static int RESTART_PAGE
 ```
 
 
-Нумерация начинается заново на каждой странице. Действительно только для сносок.
+Нумерация перезапускается на каждой странице. Действительно только для сносок.
 
 ### RESTART_SECTION {#RESTART-SECTION}
 ```
@@ -70,7 +116,7 @@ public static int RESTART_SECTION
 ```
 
 
-Нумерация возобновляется в каждом разделе.
+Нумерация перезапускается в каждом разделе.
 
 ### length {#length}
 ```
@@ -78,23 +124,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String footnoteNumberingRuleName) {#fromName-java.lang.String-}
+### fromName(String footnoteNumberingRuleName) {#fromName-java.lang.String}
 ```
 public static int fromName(String footnoteNumberingRuleName)
 ```
@@ -102,25 +132,14 @@ public static int fromName(String footnoteNumberingRuleName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | footnoteNumberingRuleName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int footnoteNumberingRule) {#getName-int-}
+**Returns:**
+int
+### getName(int footnoteNumberingRule) {#getName-int}
 ```
 public static String getName(int footnoteNumberingRule)
 ```
@@ -128,15 +147,14 @@ public static String getName(int footnoteNumberingRule)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | footnoteNumberingRule | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -144,45 +162,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int footnoteNumberingRule) {#toString-int-}
+**Returns:**
+int[]
+### toString(int footnoteNumberingRule) {#toString-int}
 ```
 public static String toString(int footnoteNumberingRule)
 ```
@@ -190,47 +172,10 @@ public static String toString(int footnoteNumberingRule)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | footnoteNumberingRule | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

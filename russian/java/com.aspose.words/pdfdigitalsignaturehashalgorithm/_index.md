@@ -1,19 +1,52 @@
 ---
-title: PdfDigitalSignatureHashAlgorithm
-second_title: Справочник по API Aspose.Words для Java
-description: Задает алгоритм цифрового хеширования, используемый цифровой подписью.
+title: "PdfDigitalSignatureHashAlgorithm"
+linktitle: "PdfDigitalSignatureHashAlgorithm"
+second_title: "Aspose.Words для Java"
+description: "Указывает цифровой хеш‑алгоритм, используемый цифровой подписью в Java."
 type: docs
-weight: 452
+weight: 532
 url: /ru/java/com.aspose.words/pdfdigitalsignaturehashalgorithm/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfDigitalSignatureHashAlgorithm
 ```
 
-Задает алгоритм цифрового хеширования, используемый цифровой подписью.
+Указывает алгоритм цифрового хеша, используемый цифровой подписью.
+
+ **Examples:** 
+
+Показывает, как подписать сгенерированный PDF‑документ.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Contents of signed PDF.");
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions options = new PdfSaveOptions();
+
+ // Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+ // digitally sign the document as we render it with the "Save" method.
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2015, Calendar.JULY, 20);
+ Date signingTime = calendar.getTime();
+ options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime));
+ options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.RIPE_MD_160);
+
+ Assert.assertEquals(options.getDigitalSignatureDetails().getReason(), "Test Signing");
+ Assert.assertEquals(options.getDigitalSignatureDetails().getLocation(), "My Office");
+ Assert.assertEquals(DocumentHelper.getLocalDate(options.getDigitalSignatureDetails().getSignatureDate()), DocumentHelper.getLocalDate(signingTime));
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -27,19 +60,10 @@ public class PdfDigitalSignatureHashAlgorithm
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pdfDigitalSignatureHashAlgorithmName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pdfDigitalSignatureHashAlgorithm)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pdfDigitalSignatureHashAlgorithm)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pdfDigitalSignatureHashAlgorithmName)](#fromName-java.lang.String) |  |
+| [getName(int pdfDigitalSignatureHashAlgorithm)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pdfDigitalSignatureHashAlgorithm)](#toString-int) |  |
 ### RIPE_MD_160 {#RIPE-MD-160}
 ```
 public static int RIPE_MD_160
@@ -78,23 +102,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pdfDigitalSignatureHashAlgorithmName) {#fromName-java.lang.String-}
+### fromName(String pdfDigitalSignatureHashAlgorithmName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pdfDigitalSignatureHashAlgorithmName)
 ```
@@ -102,25 +110,14 @@ public static int fromName(String pdfDigitalSignatureHashAlgorithmName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfDigitalSignatureHashAlgorithmName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pdfDigitalSignatureHashAlgorithm) {#getName-int-}
+**Returns:**
+int
+### getName(int pdfDigitalSignatureHashAlgorithm) {#getName-int}
 ```
 public static String getName(int pdfDigitalSignatureHashAlgorithm)
 ```
@@ -128,15 +125,14 @@ public static String getName(int pdfDigitalSignatureHashAlgorithm)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfDigitalSignatureHashAlgorithm | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -144,45 +140,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pdfDigitalSignatureHashAlgorithm) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pdfDigitalSignatureHashAlgorithm) {#toString-int}
 ```
 public static String toString(int pdfDigitalSignatureHashAlgorithm)
 ```
@@ -190,47 +150,10 @@ public static String toString(int pdfDigitalSignatureHashAlgorithm)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfDigitalSignatureHashAlgorithm | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,19 +1,42 @@
 ---
-title: OdtSaveMeasureUnit
-second_title: Справочник по API Aspose.Words для Java
-description: Заданные единицы измерения для применения к измеримому содержимому документа, например ширине формы и прочему, во время сохранения.
+title: "OdtSaveMeasureUnit"
+linktitle: "OdtSaveMeasureUnit"
+second_title: "Aspose.Words для Java"
+description: "Указанные единицы измерения, применяемые к измеримому содержимому документа, такому как ширина фигур и другое, при сохранении в Java."
 type: docs
-weight: 418
+weight: 494
 url: /ru/java/com.aspose.words/odtsavemeasureunit/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class OdtSaveMeasureUnit
 ```
 
-Заданные единицы измерения для применения к измеримому содержимому документа, такому как форма, ширина и т. д., во время сохранения.
+Указанные единицы измерения, применяемые к измеримому содержимому документа, такому как формы, ширины и другое при сохранении.
+
+ **Examples:** 
+
+Показывает, как использовать разные единицы измерения для определения параметров стиля сохранённого документа ODT.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we export the document to .odt, we can use an OdtSaveOptions object to modify how we save the document.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Centimeters"
+ // to define content such as style parameters using the metric system, which Open Office uses.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Inches"
+ // to define content such as style parameters using the imperial system, which Microsoft Word uses.
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(odtSaveMeasureUnit);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -25,19 +48,10 @@ public class OdtSaveMeasureUnit
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String odtSaveMeasureUnitName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int odtSaveMeasureUnit)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int odtSaveMeasureUnit)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String odtSaveMeasureUnitName)](#fromName-java.lang.String) |  |
+| [getName(int odtSaveMeasureUnit)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int odtSaveMeasureUnit)](#toString-int) |  |
 ### CENTIMETERS {#CENTIMETERS}
 ```
 public static int CENTIMETERS
@@ -60,23 +74,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String odtSaveMeasureUnitName) {#fromName-java.lang.String-}
+### fromName(String odtSaveMeasureUnitName) {#fromName-java.lang.String}
 ```
 public static int fromName(String odtSaveMeasureUnitName)
 ```
@@ -84,25 +82,14 @@ public static int fromName(String odtSaveMeasureUnitName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | odtSaveMeasureUnitName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int odtSaveMeasureUnit) {#getName-int-}
+**Returns:**
+int
+### getName(int odtSaveMeasureUnit) {#getName-int}
 ```
 public static String getName(int odtSaveMeasureUnit)
 ```
@@ -110,15 +97,14 @@ public static String getName(int odtSaveMeasureUnit)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | odtSaveMeasureUnit | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +112,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int odtSaveMeasureUnit) {#toString-int-}
+**Returns:**
+int[]
+### toString(int odtSaveMeasureUnit) {#toString-int}
 ```
 public static String toString(int odtSaveMeasureUnit)
 ```
@@ -172,47 +122,10 @@ public static String toString(int odtSaveMeasureUnit)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | odtSaveMeasureUnit | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

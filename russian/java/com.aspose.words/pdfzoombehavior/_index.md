@@ -1,54 +1,72 @@
 ---
-title: PdfZoomBehavior
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип масштабирования, применяемый к документу PDF при его открытии в средстве просмотра PDF.
+title: "PdfZoomBehavior"
+linktitle: "PdfZoomBehavior"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип масштабирования, применяемый к PDF‑документу при его открытии в PDF‑просмотрщике на Java."
 type: docs
-weight: 463
+weight: 544
 url: /ru/java/com.aspose.words/pdfzoombehavior/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfZoomBehavior
 ```
 
-Указывает тип масштабирования, применяемый к документу PDF при его открытии в средстве просмотра PDF.
+Указывает тип масштабирования, применяемого к PDF‑документу при его открытии в PDF‑просмотрщике.
+
+ **Examples:** 
+
+Показывает, как установить масштаб по умолчанию, который применяется читателем при открытии отрисованного PDF‑документа.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ // Set the "ZoomBehavior" property to "PdfZoomBehavior.ZoomFactor" to get a PDF reader to
+ // apply a percentage-based zoom factor when we open the document with it.
+ // Set the "ZoomFactor" property to "25" to give the zoom factor a value of 25%.
+ PdfSaveOptions options = new PdfSaveOptions();
+ {
+     options.setZoomBehavior(PdfZoomBehavior.ZOOM_FACTOR);
+     options.setZoomFactor(25);
+ }
+
+ // When we open this document using a reader such as Adobe Acrobat, we will see the document scaled at 1/4 of its actual size.
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ZoomBehaviour.pdf", options);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FIT_BOX](#FIT-BOX) | Подходит для ограничивающей рамки (прямоугольник, содержащий все видимые элементы на странице). |
-| [FIT_HEIGHT](#FIT-HEIGHT) | Соответствует высоте страницы. |
-| [FIT_PAGE](#FIT-PAGE) | Отображает страницу так, чтобы она была видна целиком. |
-| [FIT_WIDTH](#FIT-WIDTH) | Соответствует ширине страницы. |
-| [NONE](#NONE) | Способ отображения документа остается на усмотрение средства просмотра PDF. |
-| [ZOOM_FACTOR](#ZOOM-FACTOR) | Отображает страницу с указанным коэффициентом масштабирования. |
+| [FIT_BOX](#FIT-BOX) | Подгоняет ограничивающий прямоугольник (прямоугольник, содержащий все видимые элементы на странице). |
+| [FIT_HEIGHT](#FIT-HEIGHT) | Подгоняет высоту страницы. |
+| [FIT_PAGE](#FIT-PAGE) | Отображает страницу так, чтобы она была полностью видна. |
+| [FIT_WIDTH](#FIT-WIDTH) | Подгоняет ширину страницы. |
+| [NONE](#NONE) | Отображение документа оставлено на усмотрение PDF‑просмотрщика. |
+| [ZOOM_FACTOR](#ZOOM-FACTOR) | Отображает страницу, используя указанный коэффициент масштабирования. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pdfZoomBehaviorName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pdfZoomBehavior)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pdfZoomBehavior)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pdfZoomBehaviorName)](#fromName-java.lang.String) |  |
+| [getName(int pdfZoomBehavior)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pdfZoomBehavior)](#toString-int) |  |
 ### FIT_BOX {#FIT-BOX}
 ```
 public static int FIT_BOX
 ```
 
 
-Подходит для ограничивающей рамки (прямоугольник, содержащий все видимые элементы на странице).
+Подгоняет ограничивающий прямоугольник (прямоугольник, содержащий все видимые элементы на странице).
 
 ### FIT_HEIGHT {#FIT-HEIGHT}
 ```
@@ -56,7 +74,7 @@ public static int FIT_HEIGHT
 ```
 
 
-Соответствует высоте страницы.
+Подгоняет высоту страницы.
 
 ### FIT_PAGE {#FIT-PAGE}
 ```
@@ -64,7 +82,7 @@ public static int FIT_PAGE
 ```
 
 
-Отображает страницу так, чтобы она была видна целиком.
+Отображает страницу так, чтобы она была полностью видна.
 
 ### FIT_WIDTH {#FIT-WIDTH}
 ```
@@ -72,7 +90,7 @@ public static int FIT_WIDTH
 ```
 
 
-Соответствует ширине страницы.
+Подгоняет ширину страницы.
 
 ### NONE {#NONE}
 ```
@@ -80,7 +98,7 @@ public static int NONE
 ```
 
 
-Способ отображения документа остается на усмотрение средства просмотра PDF. Обычно программа просмотра отображает документ по ширине страницы.
+Отображение документа оставлено на усмотрение PDF‑просмотрщика. Обычно просмотрщик отображает документ, подгоняя его под ширину страницы.
 
 ### ZOOM_FACTOR {#ZOOM-FACTOR}
 ```
@@ -88,7 +106,7 @@ public static int ZOOM_FACTOR
 ```
 
 
-Отображает страницу с указанным коэффициентом масштабирования.
+Отображает страницу, используя указанный коэффициент масштабирования.
 
 ### length {#length}
 ```
@@ -96,23 +114,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pdfZoomBehaviorName) {#fromName-java.lang.String-}
+### fromName(String pdfZoomBehaviorName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pdfZoomBehaviorName)
 ```
@@ -120,25 +122,14 @@ public static int fromName(String pdfZoomBehaviorName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfZoomBehaviorName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pdfZoomBehavior) {#getName-int-}
+**Returns:**
+int
+### getName(int pdfZoomBehavior) {#getName-int}
 ```
 public static String getName(int pdfZoomBehavior)
 ```
@@ -146,15 +137,14 @@ public static String getName(int pdfZoomBehavior)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfZoomBehavior | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +152,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pdfZoomBehavior) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pdfZoomBehavior) {#toString-int}
 ```
 public static String toString(int pdfZoomBehavior)
 ```
@@ -208,47 +162,10 @@ public static String toString(int pdfZoomBehavior)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfZoomBehavior | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

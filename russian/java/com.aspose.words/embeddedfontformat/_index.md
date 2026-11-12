@@ -1,56 +1,76 @@
 ---
-title: EmbeddedFontFormat
-second_title: Справочник по API Aspose.Words для Java
-description: Задает формат конкретного встроенного шрифта внутри объекта.
+title: "EmbeddedFontFormat"
+linktitle: "EmbeddedFontFormat"
+second_title: "Aspose.Words для Java"
+description: "Указывает формат конкретного встроенного шрифта внутри объекта FontInfo в Java."
 type: docs
-weight: 141
+weight: 184
 url: /ru/java/com.aspose.words/embeddedfontformat/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class EmbeddedFontFormat
 ```
 
- Определяет формат конкретного встроенного шрифта внутри[FontInfo](../../com.aspose.words/fontinfo) объект.
+Указывает формат конкретного встроенного шрифта внутри объекта [FontInfo](../../com.aspose.words/fontinfo/).
 
 При сохранении документа в файл записываются только встроенные шрифты соответствующего формата.
+
+ **Examples:** 
+
+Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальную файловую систему.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfo embeddedFont = doc.getFontInfos().get("Alte DIN 1451 Mittelschrift");
+ byte[] embeddedFontBytes = embeddedFont.getEmbeddedFont(EmbeddedFontFormat.OPEN_TYPE, EmbeddedFontStyle.REGULAR);
+ FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.ttf"), embeddedFontBytes);
+
+ // Embedded font formats may be different in other formats such as .doc.
+ // We need to know the correct format before we can extract the font.
+ doc = new Document(getMyDir() + "Embedded font.doc");
+
+ Assert.assertNull(doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFont(EmbeddedFontFormat.OPEN_TYPE, EmbeddedFontStyle.REGULAR));
+ Assert.assertNotNull(doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFont(EmbeddedFontFormat.EMBEDDED_OPEN_TYPE, EmbeddedFontStyle.REGULAR));
+
+ // Also, we can convert embedded OpenType format, which comes from .doc documents, to OpenType.
+ embeddedFontBytes = doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFontAsOpenType(EmbeddedFontStyle.REGULAR);
+
+ FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.otf"), embeddedFontBytes);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [EMBEDDED_OPEN_TYPE](#EMBEDDED-OPEN-TYPE) | Указывает встроенный формат файла OpenType (EOT). |
-| [OPEN_TYPE](#OPEN-TYPE) | Определяет шрифт, встроенный как обычная копия файла шрифта OpenType (TrueType). |
+| [EMBEDDED_OPEN_TYPE](#EMBEDDED-OPEN-TYPE) | Указывает формат файла Embedded OpenType (EOT). |
+| [OPEN_TYPE](#OPEN-TYPE) | Указывает шрифт, встроенный как простая копия файла шрифта OpenType (TrueType). |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String embeddedFontFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int embeddedFontFormat)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int embeddedFontFormat)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String embeddedFontFormatName)](#fromName-java.lang.String) |  |
+| [getName(int embeddedFontFormat)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int embeddedFontFormat)](#toString-int) |  |
 ### EMBEDDED_OPEN_TYPE {#EMBEDDED-OPEN-TYPE}
 ```
 public static int EMBEDDED_OPEN_TYPE
 ```
 
 
-Указывает встроенный формат файла OpenType (EOT).
+Указывает формат файла Embedded OpenType (EOT).
 
 Этот формат встроенных шрифтов используется в файлах DOC.
 
-См. http://www.w3.org/Submission/EOT для описания формата.
+ **Remarks:** 
+
+Смотрите http://www.w3.org/Submission/EOT для описания формата.
 
 ### OPEN_TYPE {#OPEN-TYPE}
 ```
@@ -58,7 +78,7 @@ public static int OPEN_TYPE
 ```
 
 
-Определяет шрифт, встроенный как обычная копия файла шрифта OpenType (TrueType).
+Указывает шрифт, встроенный как простая копия файла шрифта OpenType (TrueType).
 
 Этот формат встроенных шрифтов используется в формате Open Office XML, включая файлы DOCX.
 
@@ -68,23 +88,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String embeddedFontFormatName) {#fromName-java.lang.String-}
+### fromName(String embeddedFontFormatName) {#fromName-java.lang.String}
 ```
 public static int fromName(String embeddedFontFormatName)
 ```
@@ -92,25 +96,14 @@ public static int fromName(String embeddedFontFormatName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | embeddedFontFormatName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int embeddedFontFormat) {#getName-int-}
+**Returns:**
+int
+### getName(int embeddedFontFormat) {#getName-int}
 ```
 public static String getName(int embeddedFontFormat)
 ```
@@ -118,15 +111,14 @@ public static String getName(int embeddedFontFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | embeddedFontFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -134,45 +126,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int embeddedFontFormat) {#toString-int-}
+**Returns:**
+int[]
+### toString(int embeddedFontFormat) {#toString-int}
 ```
 public static String toString(int embeddedFontFormat)
 ```
@@ -180,47 +136,10 @@ public static String toString(int embeddedFontFormat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | embeddedFontFormat | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

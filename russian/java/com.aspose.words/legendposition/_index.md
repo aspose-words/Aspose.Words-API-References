@@ -1,54 +1,74 @@
 ---
-title: LegendPosition
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет возможные позиции легенды диаграммы.
+title: "LegendPosition"
+linktitle: "LegendPosition"
+second_title: "Aspose.Words для Java"
+description: "Указывает возможные положения легенды диаграммы в Java."
 type: docs
-weight: 363
+weight: 420
 url: /ru/java/com.aspose.words/legendposition/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class LegendPosition
 ```
 
-Определяет возможные позиции легенды диаграммы.
+Указывает возможные позиции для легенды диаграммы.
+
+ **Examples:** 
+
+Показывает, как изменить внешний вид легенды диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 300.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(3, chart.getSeries().getCount());
+ Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+ Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+ Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+ // Move the chart's legend to the top right corner.
+ ChartLegend legend = chart.getLegend();
+ legend.setPosition(LegendPosition.TOP_RIGHT);
+
+ // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+ legend.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartLegend.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | Указывает, что легенда должна отображаться внизу диаграммы. |
-| [LEFT](#LEFT) | Указывает, что легенда должна отображаться слева от диаграммы. |
-| [NONE](#NONE) | Легенда для диаграммы отображаться не будет. |
-| [RIGHT](#RIGHT) | Указывает, что легенда должна отображаться справа от диаграммы. |
-| [TOP](#TOP) | Указывает, что легенда должна отображаться в верхней части диаграммы. |
-| [TOP_RIGHT](#TOP-RIGHT) | Указывает, что легенда должна отображаться в правом верхнем углу диаграммы. |
+| [BOTTOM](#BOTTOM) | Указывает, что легенда должна быть нарисована внизу диаграммы. |
+| [LEFT](#LEFT) | Указывает, что легенда должна быть нарисована слева от диаграммы. |
+| [NONE](#NONE) | Легенда не будет отображаться на диаграмме. |
+| [RIGHT](#RIGHT) | Указывает, что легенда должна быть нарисована справа от диаграммы. |
+| [TOP](#TOP) | Указывает, что легенда должна быть нарисована вверху диаграммы. |
+| [TOP_RIGHT](#TOP-RIGHT) | Указывает, что легенда должна быть нарисована в правом верхнем углу диаграммы. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String legendPositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int legendPosition)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int legendPosition)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String legendPositionName)](#fromName-java.lang.String) |  |
+| [getName(int legendPosition)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int legendPosition)](#toString-int) |  |
 ### BOTTOM {#BOTTOM}
 ```
 public static int BOTTOM
 ```
 
 
-Указывает, что легенда должна отображаться внизу диаграммы.
+Указывает, что легенда должна быть нарисована внизу диаграммы.
 
 ### LEFT {#LEFT}
 ```
@@ -56,7 +76,7 @@ public static int LEFT
 ```
 
 
-Указывает, что легенда должна отображаться слева от диаграммы.
+Указывает, что легенда должна быть нарисована слева от диаграммы.
 
 ### NONE {#NONE}
 ```
@@ -64,7 +84,7 @@ public static int NONE
 ```
 
 
-Легенда для диаграммы отображаться не будет.
+Легенда не будет отображаться на диаграмме.
 
 ### RIGHT {#RIGHT}
 ```
@@ -72,7 +92,7 @@ public static int RIGHT
 ```
 
 
-Указывает, что легенда должна отображаться справа от диаграммы.
+Указывает, что легенда должна быть нарисована справа от диаграммы.
 
 ### TOP {#TOP}
 ```
@@ -80,7 +100,7 @@ public static int TOP
 ```
 
 
-Указывает, что легенда должна отображаться в верхней части диаграммы.
+Указывает, что легенда должна быть нарисована вверху диаграммы.
 
 ### TOP_RIGHT {#TOP-RIGHT}
 ```
@@ -88,7 +108,7 @@ public static int TOP_RIGHT
 ```
 
 
-Указывает, что легенда должна отображаться в правом верхнем углу диаграммы.
+Указывает, что легенда должна быть нарисована в правом верхнем углу диаграммы.
 
 ### length {#length}
 ```
@@ -96,23 +116,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String legendPositionName) {#fromName-java.lang.String-}
+### fromName(String legendPositionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String legendPositionName)
 ```
@@ -120,25 +124,14 @@ public static int fromName(String legendPositionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | legendPositionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int legendPosition) {#getName-int-}
+**Returns:**
+int
+### getName(int legendPosition) {#getName-int}
 ```
 public static String getName(int legendPosition)
 ```
@@ -146,15 +139,14 @@ public static String getName(int legendPosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | legendPosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +154,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int legendPosition) {#toString-int-}
+**Returns:**
+int[]
+### toString(int legendPosition) {#toString-int}
 ```
 public static String toString(int legendPosition)
 ```
@@ -208,47 +164,10 @@ public static String toString(int legendPosition)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | legendPosition | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

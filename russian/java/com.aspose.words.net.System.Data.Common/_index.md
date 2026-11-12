@@ -1,18 +1,19 @@
 ---
-title: com.aspose.words.net.System.Data.Common
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет типы, имитирующие типы .NET пространства имен System.Data.Common в Java.
+title: "com.aspose.words.net.System.Data.Common"
+linktitle: "com.aspose.words.net.System.Data.Common"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет типы, имитирующие типы .NET из пространства имен System.Data.Common в Java."
 type: docs
 weight: 13
 url: /ru/java/com.aspose.words.net.system.data.common/
 ---
 
 
- Предоставляет типы, имитирующие типы .NET`System.Data.Common` пространство имен в Java.
+Предоставляет типы, имитирующие типы .NET из пространства имён `System.Data.Common` в Java.
 
 
 ## Классы
 
-| Учебный класс | Описание |
+| Класс | Описание |
 | --- | --- |
-| [DbDataReader](../com.aspose.words.net.system.data.common/dbdatareader) | Считывает прямой поток строк из источника данных. |
+| [DbDataReader](../com.aspose.words.net.system.data.common/dbdatareader/) | Читает поток строк только для чтения из источника данных. |

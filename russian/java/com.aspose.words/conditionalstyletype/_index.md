@@ -1,60 +1,118 @@
 ---
-title: ConditionalStyleType
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет возможные области таблицы, для которых может быть определено условное форматирование в стиле таблицы.
+title: "ConditionalStyleType"
+linktitle: "ConditionalStyleType"
+second_title: "Aspose.Words для Java"
+description: "Представляет возможные области таблицы, к которым может быть применено условное форматирование в стиле таблицы в Java."
 type: docs
-weight: 91
+weight: 125
 url: /ru/java/com.aspose.words/conditionalstyletype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ConditionalStyleType
 ```
 
-Представляет возможные области таблицы, для которых может быть определено условное форматирование в стиле таблицы.
+Представляет возможные области таблицы, к которым может быть определено условное форматирование в стиле таблицы.
+
+ **Examples:** 
+
+Показывает, как работать с определёнными стилями областей таблицы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOTTOM_LEFT_CELL](#BOTTOM-LEFT-CELL) | Определяет форматирование нижней левой ячейки таблицы. |
-| [BOTTOM_RIGHT_CELL](#BOTTOM-RIGHT-CELL) | Определяет форматирование нижней правой ячейки таблицы. |
-| [EVEN_COLUMN_BANDING](#EVEN-COLUMN-BANDING) | Определяет форматирование полосы столбцов с четными номерами. |
-| [EVEN_ROW_BANDING](#EVEN-ROW-BANDING) | Определяет форматирование полосы строк с четными номерами. |
-| [FIRST_COLUMN](#FIRST-COLUMN) | Задает форматирование первого столбца таблицы. |
-| [FIRST_ROW](#FIRST-ROW) | Задает форматирование первой строки таблицы. |
-| [LAST_COLUMN](#LAST-COLUMN) | Определяет форматирование последнего столбца таблицы. |
-| [LAST_ROW](#LAST-ROW) | Определяет форматирование последней строки таблицы. |
-| [ODD_COLUMN_BANDING](#ODD-COLUMN-BANDING) | Определяет форматирование полосы столбцов с нечетными номерами. |
-| [ODD_ROW_BANDING](#ODD-ROW-BANDING) | Определяет форматирование полосы строк с нечетными номерами. |
-| [TOP_LEFT_CELL](#TOP-LEFT-CELL) | Определяет форматирование верхней левой ячейки таблицы. |
-| [TOP_RIGHT_CELL](#TOP-RIGHT-CELL) | Определяет форматирование верхней правой ячейки таблицы. |
+| [BOTTOM_LEFT_CELL](#BOTTOM-LEFT-CELL) | Указывает форматирование ячейки в нижнем левом углу таблицы. |
+| [BOTTOM_RIGHT_CELL](#BOTTOM-RIGHT-CELL) | Указывает форматирование ячейки в нижнем правом углу таблицы. |
+| [EVEN_COLUMN_BANDING](#EVEN-COLUMN-BANDING) | Указывает форматирование полосы чётных колонок. |
+| [EVEN_ROW_BANDING](#EVEN-ROW-BANDING) | Указывает форматирование полосы чётных строк. |
+| [FIRST_COLUMN](#FIRST-COLUMN) | Указывает форматирование первого столбца таблицы. |
+| [FIRST_ROW](#FIRST-ROW) | Указывает форматирование первой строки таблицы. |
+| [LAST_COLUMN](#LAST-COLUMN) | Указывает форматирование последнего столбца таблицы. |
+| [LAST_ROW](#LAST-ROW) | Указывает форматирование последней строки таблицы. |
+| [ODD_COLUMN_BANDING](#ODD-COLUMN-BANDING) | Указывает форматирование полосы нечетных столбцов. |
+| [ODD_ROW_BANDING](#ODD-ROW-BANDING) | Указывает форматирование полосы нечетных строк. |
+| [TOP_LEFT_CELL](#TOP-LEFT-CELL) | Указывает форматирование верхней левой ячейки таблицы. |
+| [TOP_RIGHT_CELL](#TOP-RIGHT-CELL) | Указывает форматирование верхней правой ячейки таблицы. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String conditionalStyleTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int conditionalStyleType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int conditionalStyleType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String conditionalStyleTypeName)](#fromName-java.lang.String) |  |
+| [getName(int conditionalStyleType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int conditionalStyleType)](#toString-int) |  |
 ### BOTTOM_LEFT_CELL {#BOTTOM-LEFT-CELL}
 ```
 public static int BOTTOM_LEFT_CELL
 ```
 
 
-Определяет форматирование нижней левой ячейки таблицы.
+Указывает форматирование ячейки в нижнем левом углу таблицы.
 
 ### BOTTOM_RIGHT_CELL {#BOTTOM-RIGHT-CELL}
 ```
@@ -62,7 +120,7 @@ public static int BOTTOM_RIGHT_CELL
 ```
 
 
-Определяет форматирование нижней правой ячейки таблицы.
+Указывает форматирование ячейки в нижнем правом углу таблицы.
 
 ### EVEN_COLUMN_BANDING {#EVEN-COLUMN-BANDING}
 ```
@@ -70,7 +128,7 @@ public static int EVEN_COLUMN_BANDING
 ```
 
 
-Определяет форматирование полосы столбцов с четными номерами.
+Указывает форматирование полосы чётных колонок.
 
 ### EVEN_ROW_BANDING {#EVEN-ROW-BANDING}
 ```
@@ -78,7 +136,7 @@ public static int EVEN_ROW_BANDING
 ```
 
 
-Определяет форматирование полосы строк с четными номерами.
+Указывает форматирование полосы чётных строк.
 
 ### FIRST_COLUMN {#FIRST-COLUMN}
 ```
@@ -86,7 +144,7 @@ public static int FIRST_COLUMN
 ```
 
 
-Задает форматирование первого столбца таблицы.
+Указывает форматирование первого столбца таблицы.
 
 ### FIRST_ROW {#FIRST-ROW}
 ```
@@ -94,7 +152,7 @@ public static int FIRST_ROW
 ```
 
 
-Задает форматирование первой строки таблицы.
+Указывает форматирование первой строки таблицы.
 
 ### LAST_COLUMN {#LAST-COLUMN}
 ```
@@ -102,7 +160,7 @@ public static int LAST_COLUMN
 ```
 
 
-Определяет форматирование последнего столбца таблицы.
+Указывает форматирование последнего столбца таблицы.
 
 ### LAST_ROW {#LAST-ROW}
 ```
@@ -110,7 +168,7 @@ public static int LAST_ROW
 ```
 
 
-Определяет форматирование последней строки таблицы.
+Указывает форматирование последней строки таблицы.
 
 ### ODD_COLUMN_BANDING {#ODD-COLUMN-BANDING}
 ```
@@ -118,7 +176,7 @@ public static int ODD_COLUMN_BANDING
 ```
 
 
-Определяет форматирование полосы столбцов с нечетными номерами.
+Указывает форматирование полосы нечетных столбцов.
 
 ### ODD_ROW_BANDING {#ODD-ROW-BANDING}
 ```
@@ -126,7 +184,7 @@ public static int ODD_ROW_BANDING
 ```
 
 
-Определяет форматирование полосы строк с нечетными номерами.
+Указывает форматирование полосы нечетных строк.
 
 ### TOP_LEFT_CELL {#TOP-LEFT-CELL}
 ```
@@ -134,7 +192,7 @@ public static int TOP_LEFT_CELL
 ```
 
 
-Определяет форматирование верхней левой ячейки таблицы.
+Указывает форматирование верхней левой ячейки таблицы.
 
 ### TOP_RIGHT_CELL {#TOP-RIGHT-CELL}
 ```
@@ -142,7 +200,7 @@ public static int TOP_RIGHT_CELL
 ```
 
 
-Определяет форматирование верхней правой ячейки таблицы.
+Указывает форматирование верхней правой ячейки таблицы.
 
 ### length {#length}
 ```
@@ -150,23 +208,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String conditionalStyleTypeName) {#fromName-java.lang.String-}
+### fromName(String conditionalStyleTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String conditionalStyleTypeName)
 ```
@@ -174,25 +216,14 @@ public static int fromName(String conditionalStyleTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | conditionalStyleTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int conditionalStyleType) {#getName-int-}
+**Returns:**
+int
+### getName(int conditionalStyleType) {#getName-int}
 ```
 public static String getName(int conditionalStyleType)
 ```
@@ -200,15 +231,14 @@ public static String getName(int conditionalStyleType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | conditionalStyleType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -216,45 +246,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int conditionalStyleType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int conditionalStyleType) {#toString-int}
 ```
 public static String toString(int conditionalStyleType)
 ```
@@ -262,47 +256,10 @@ public static String toString(int conditionalStyleType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | conditionalStyleType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

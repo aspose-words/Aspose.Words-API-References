@@ -1,49 +1,63 @@
 ---
-title: SvgTextOutputMode
-second_title: Справочник по API Aspose.Words для Java
-description: 
+title: "SvgTextOutputMode"
+linktitle: "SvgTextOutputMode"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать, как текст внутри документа должен отображаться при сохранении в формате SVG в Java."
 type: docs
-weight: 542
+weight: 650
 url: /ru/java/com.aspose.words/svgtextoutputmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SvgTextOutputMode
+```
+
+Позволяет указать, как текст внутри документа должен отображаться при сохранении в формате SVG.
+
+ **Examples:** 
+
+Показывает, как имитировать свойства изображений при конвертации документа .docx в .svg.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // Configure the SvgSaveOptions object to save with no page borders or selectable text.
+ SvgSaveOptions options = new SvgSaveOptions();
+ {
+     options.setFitToViewPort(true);
+     options.setShowPageBorder(false);
+     options.setTextOutputMode(SvgTextOutputMode.USE_PLACED_GLYPHS);
+ }
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.SaveLikeImage.svg", options);
+ 
 ```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [USE_PLACED_GLYPHS](#USE-PLACED-GLYPHS) | Текст визуализируется с помощью кривых. |
-| [USE_SVG_FONTS](#USE-SVG-FONTS) | Шрифты SVG используются для отображения текста. |
-| [USE_TARGET_MACHINE_FONTS](#USE-TARGET-MACHINE-FONTS) | Шрифты, установленные на целевой машине, используются для отображения текста. |
+| [USE_PLACED_GLYPHS](#USE-PLACED-GLYPHS) | Текст отрисовывается с использованием кривых. |
+| [USE_SVG_FONTS](#USE-SVG-FONTS) | Для отрисовки текста используются шрифты SVG. |
+| [USE_TARGET_MACHINE_FONTS](#USE-TARGET-MACHINE-FONTS) | Для отрисовки текста используются шрифты, установленные на целевой машине. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String svgTextOutputModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int svgTextOutputMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int svgTextOutputMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String svgTextOutputModeName)](#fromName-java.lang.String) |  |
+| [getName(int svgTextOutputMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int svgTextOutputMode)](#toString-int) |  |
 ### USE_PLACED_GLYPHS {#USE-PLACED-GLYPHS}
 ```
 public static int USE_PLACED_GLYPHS
 ```
 
 
-Текст визуализируется с помощью кривых. Обратите внимание, что выделение текста не будет работать, если вы используете эту опцию.
+Текст отрисовывается с использованием кривых. Обратите внимание, выделение текста не будет работать, если вы используете эту опцию.
 
 ### USE_SVG_FONTS {#USE-SVG-FONTS}
 ```
@@ -51,7 +65,7 @@ public static int USE_SVG_FONTS
 ```
 
 
-Шрифты SVG используются для отображения текста. Обратите внимание, что не все браузеры поддерживают шрифты SVG.
+Для отрисовки текста используются шрифты SVG. Обратите внимание, не все браузеры поддерживают шрифты SVG.
 
 ### USE_TARGET_MACHINE_FONTS {#USE-TARGET-MACHINE-FONTS}
 ```
@@ -59,7 +73,7 @@ public static int USE_TARGET_MACHINE_FONTS
 ```
 
 
-Шрифты, установленные на целевой машине, используются для отображения текста. Обратите внимание: если некоторые шрифты, используемые в документе, недоступны на целевой машине, документ может выглядеть иначе.
+Для отрисовки текста используются шрифты, установленные на целевой машине. Обратите внимание, если некоторые шрифты, использованные в документе, недоступны на целевой машине, документ может выглядеть иначе.
 
 ### length {#length}
 ```
@@ -67,23 +81,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String svgTextOutputModeName) {#fromName-java.lang.String-}
+### fromName(String svgTextOutputModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String svgTextOutputModeName)
 ```
@@ -91,25 +89,14 @@ public static int fromName(String svgTextOutputModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | svgTextOutputModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int svgTextOutputMode) {#getName-int-}
+**Returns:**
+int
+### getName(int svgTextOutputMode) {#getName-int}
 ```
 public static String getName(int svgTextOutputMode)
 ```
@@ -117,15 +104,14 @@ public static String getName(int svgTextOutputMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | svgTextOutputMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -133,45 +119,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int svgTextOutputMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int svgTextOutputMode) {#toString-int}
 ```
 public static String toString(int svgTextOutputMode)
 ```
@@ -179,47 +129,10 @@ public static String toString(int svgTextOutputMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | svgTextOutputMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

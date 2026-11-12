@@ -1,311 +1,1087 @@
 ---
-title: SignatureLineOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать параметры для вставляемой строки подписи.
+title: "SignatureLineOptions"
+linktitle: "SignatureLineOptions"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать параметры для вставляемой строки подписи в Java."
 type: docs
-weight: 525
+weight: 622
 url: /ru/java/com.aspose.words/signaturelineoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SignatureLineOptions
 ```
 
- Позволяет указать параметры для вставляемой строки подписи. Используется в[DocumentBuilder](../../com.aspose.words/documentbuilder).
+Позволяет указать параметры для вставляемой строки подписи. Используется в [DocumentBuilder](../../com.aspose.words/documentbuilder/).
 
- Чтобы узнать больше, посетите**Work with Digital Signatures** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Work with Digital Signatures ][Work with Digital Signatures].
+
+ **Examples:** 
+
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+
+[Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowComments()](#getAllowComments--) | Получает значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подписать». |
-| [getClass()](#getClass--) |  |
-| [getDefaultInstructions()](#getDefaultInstructions--) | Получает значение, указывающее, что инструкции по умолчанию отображаются в диалоговом окне Sign. |
-| [getEmail()](#getEmail--) | Получает предполагаемый адрес электронной почты подписывающей стороны. |
-| [getInstructions()](#getInstructions--) | Получает инструкции для подписывающей стороны, которые отображаются при подписании строки подписи. |
-| [getShowDate()](#getShowDate--) | Получает значение, указывающее, что дата подписи отображается в строке подписи. |
-| [getSigner()](#getSigner--) | Получает предполагаемого подписывающего в строке подписи. |
-| [getSignerTitle()](#getSignerTitle--) | Получает предложенный титул подписывающей стороны. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAllowComments(boolean value)](#setAllowComments-boolean-) | Задает значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подписать». |
-| [setDefaultInstructions(boolean value)](#setDefaultInstructions-boolean-) | Задает значение, указывающее, что в диалоговом окне «Подпись» отображаются инструкции по умолчанию. |
-| [setEmail(String value)](#setEmail-java.lang.String-) | Устанавливает предполагаемый адрес электронной почты подписывающей стороны. |
-| [setInstructions(String value)](#setInstructions-java.lang.String-) | Задает инструкции для подписывающей стороны, которые отображаются при подписании строки подписи. |
-| [setShowDate(boolean value)](#setShowDate-boolean-) | Задает значение, указывающее, что дата подписи отображается в строке подписи. |
-| [setSigner(String value)](#setSigner-java.lang.String-) | Устанавливает предполагаемого подписывающего в строке подписи. |
-| [setSignerTitle(String value)](#setSignerTitle-java.lang.String-) | Устанавливает предполагаемый титул подписавшего. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAllowComments() {#getAllowComments--}
+| [getAllowComments()](#getAllowComments) | Возвращает значение, указывающее, что подписант может добавлять комментарии в диалоговом окне Sign. |
+| [getDefaultInstructions()](#getDefaultInstructions) | Получает значение, указывающее, что стандартные инструкции отображаются в диалоговом окне Sign. |
+| [getEmail()](#getEmail) | Получает предложенный адрес электронной почты подписанта. |
+| [getInstructions()](#getInstructions) | Получает инструкции для подписанта, которые отображаются при подписании строки подписи. |
+| [getShowDate()](#getShowDate) | Получает значение, указывающее, что дата подписи отображается в строке подписи. |
+| [getSigner()](#getSigner) | Получает предложенного подписанта строки подписи. |
+| [getSignerTitle()](#getSignerTitle) | Получает предложенную должность подписанта. |
+| [setAllowComments(boolean value)](#setAllowComments-boolean) | Устанавливает значение, указывающее, что подписант может добавлять комментарии в диалоговом окне Sign. |
+| [setDefaultInstructions(boolean value)](#setDefaultInstructions-boolean) | Устанавливает значение, указывающее, что стандартные инструкции отображаются в диалоговом окне Sign. |
+| [setEmail(String value)](#setEmail-java.lang.String) | Устанавливает предложенный адрес электронной почты подписанта. |
+| [setInstructions(String value)](#setInstructions-java.lang.String) | Устанавливает инструкции для подписанта, которые отображаются при подписании строки подписи. |
+| [setShowDate(boolean value)](#setShowDate-boolean) | Устанавливает значение, указывающее, что дата подписи отображается в строке подписи. |
+| [setSigner(String value)](#setSigner-java.lang.String) | Устанавливает предложенного подписанта строки подписи. |
+| [setSignerTitle(String value)](#setSignerTitle-java.lang.String) | Устанавливает предложенную должность подписанта. |
+### getAllowComments() {#getAllowComments}
 ```
 public boolean getAllowComments()
 ```
 
 
- Получает значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подписать». Значение по умолчанию для этого свойства**false**.
+Получает значение, указывающее, что подписант может добавлять комментарии в диалоговом окне Sign.  Значение по умолчанию для этого свойства —  false .
 
-**Возвращает:**
-boolean — значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подписать».
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDefaultInstructions() {#getDefaultInstructions--}
+**Returns:**
+boolean — Значение, указывающее, что подписант может добавлять комментарии в диалоговом окне Sign.
+### getDefaultInstructions() {#getDefaultInstructions}
 ```
 public boolean getDefaultInstructions()
 ```
 
 
- Получает значение, указывающее, что инструкции по умолчанию отображаются в диалоговом окне Sign. Значение по умолчанию для этого свойства**true**.
+Получает значение, указывающее, что стандартные инструкции отображаются в диалоговом окне Sign.  Значение по умолчанию для этого свойства —  true .
 
-**Возвращает:**
-boolean — значение, указывающее, что в диалоговом окне «Подпись» отображаются инструкции по умолчанию.
-### getEmail() {#getEmail--}
+ **Examples:** 
+
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Returns:**
+boolean — Значение, указывающее, что стандартные инструкции отображаются в диалоговом окне Sign.
+### getEmail() {#getEmail}
 ```
 public String getEmail()
 ```
 
 
- Получает предполагаемый адрес электронной почты подписывающей стороны. Значение по умолчанию для этого свойства**empty string**.
+Получает предложенный адрес электронной почты подписанта. Значение по умолчанию для этого свойства — **empty string**.
 
-**Возвращает:**
-java.lang.String — Предлагаемый адрес электронной почты подписывающей стороны.
-### getInstructions() {#getInstructions--}
+ **Examples:** 
+
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Returns:**
+java.lang.String — Предложенный адрес электронной почты подписанта.
+### getInstructions() {#getInstructions}
 ```
 public String getInstructions()
 ```
 
 
- Получает инструкции для подписывающей стороны, которые отображаются при подписании строки подписи. Значение по умолчанию для этого свойства**empty string**.
+Получает инструкции для подписанта, которые отображаются при подписании строки подписи. Значение по умолчанию для этого свойства — **empty string**.
 
-**Возвращает:**
-java.lang.String — Инструкции для подписавшего, которые отображаются при подписании строки подписи.
-### getShowDate() {#getShowDate--}
+ **Examples:** 
+
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Returns:**
+java.lang.String — Инструкции для подписанта, которые отображаются при подписании строки подписи.
+### getShowDate() {#getShowDate}
 ```
 public boolean getShowDate()
 ```
 
 
- Получает значение, указывающее, что дата подписи отображается в строке подписи. Значение по умолчанию для этого свойства**true**.
+Получает значение, указывающее, что дата подписи отображается в строке подписи.  Значение по умолчанию для этого свойства —  true .
 
-**Возвращает:**
-boolean — значение, указывающее, что дата подписи отображается в строке подписи.
-### getSigner() {#getSigner--}
+ **Examples:** 
+
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Returns:**
+boolean — Значение, указывающее, что дата подписи отображается в строке подписи.
+### getSigner() {#getSigner}
 ```
 public String getSigner()
 ```
 
 
- Получает предполагаемого подписывающего в строке подписи. Значение по умолчанию для этого свойства**empty string**.
+Получает предложенного подписанта строки подписи. Значение по умолчанию для этого свойства — **empty string**.
 
-**Возвращает:**
-java.lang.String — предполагаемый подписывающий в строке подписи.
-### getSignerTitle() {#getSignerTitle--}
+ **Examples:** 
+
+Показывает, как добавить строку подписи в документ, а затем подписать его с помощью цифрового сертификата.
+
+```
+
+ public static void sign() throws Exception {
+     String signPersonName = "Ron Williams";
+     String srcDocumentPath = getMyDir() + "Document.docx";
+     String dstDocumentPath = getArtifactsDir() + "SignDocumentCustom.Sign.docx";
+     String certificatePath = getMyDir() + "morzal.pfx";
+     String certificatePassword = "aw";
+
+     // We need to create simple list with test signers for this example.
+     createSignPersonData();
+     System.out.println("Test data successfully added!");
+
+     // Get sign person object by name of the person who must sign a document.
+     // This an example, in real use case you would return an object from a database.
+     SignPersonTestClass signPersonInfo = gSignPersonList.stream().filter(x -> x.getName() == signPersonName).findFirst().get();
+
+     if (signPersonInfo != null) {
+         signDocument(srcDocumentPath, dstDocumentPath, signPersonInfo, certificatePath, certificatePassword);
+         System.out.println("Document successfully signed!");
+     } else {
+         System.out.println("Sign person does not exist, please check your parameters.");
+     }
+
+     // Now do something with a signed document, for example, save it to your database.
+     // Use 'new Document(dstDocumentPath)' for loading a signed document.
+ }
+
+ /// 
+ /// Signs the document obtained at the source location and saves it to the specified destination.
+ /// 
+ private static void signDocument(final String srcDocumentPath, final String dstDocumentPath,
+                                  final SignPersonTestClass signPersonInfo, final String certificatePath,
+                                  final String certificatePassword) throws Exception {
+     // Create new document instance based on a test file that we need to sign.
+     Document document = new Document(srcDocumentPath);
+     DocumentBuilder builder = new DocumentBuilder(document);
+
+     // Add info about responsible person who sign a document.
+     SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+     signatureLineOptions.setSigner(signPersonInfo.getName());
+     signatureLineOptions.setSignerTitle(signPersonInfo.getPosition());
+
+     // Add signature line for responsible person who sign a document.
+     SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+     signatureLine.setId(signPersonInfo.getPersonId());
+
+     // Save a document with line signatures into temporary file for future signing.
+     builder.getDocument().save(dstDocumentPath);
+
+     // Create holder of certificate instance based on your personal certificate.
+     // This is the test certificate generated for this example.
+     CertificateHolder certificateHolder = CertificateHolder.create(certificatePath, certificatePassword);
+
+     // Link our signature line with personal signature.
+     SignOptions signOptions = new SignOptions();
+     signOptions.setSignatureLineId(signPersonInfo.getPersonId());
+     signOptions.setSignatureLineImage(signPersonInfo.getImage());
+
+     // Sign a document which contains signature line with personal certificate.
+     DigitalSignatureUtil.sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
+ }
+
+ /// 
+ /// Create test data that contains info about sing persons.
+ /// 
+ private static void createSignPersonData() throws IOException {
+     InputStream inputStream = new FileInputStream(getImageDir() + "Logo.jpg");
+
+     gSignPersonList = new ArrayList<>();
+     gSignPersonList.add(new SignPersonTestClass(UUID.randomUUID(), "Ron Williams", "Chief Executive Officer",
+             DocumentHelper.getBytesFromStream(inputStream)));
+     gSignPersonList.add(new SignPersonTestClass(UUID.randomUUID(), "Stephen Morse", "Head of Compliance",
+             DocumentHelper.getBytesFromStream(inputStream)));
+ }
+
+ private static ArrayList gSignPersonList;
+ 
+```
+
+**Returns:**
+java.lang.String — Предложенный подписант строки подписи.
+### getSignerTitle() {#getSignerTitle}
 ```
 public String getSignerTitle()
 ```
 
 
- Получает предложенный титул подписывающей стороны. Значение по умолчанию для этого свойства**empty string**.
+Получает предложенный титул подписанта. Значение по умолчанию для этого свойства — **empty string**.
 
-**Возвращает:**
-java.lang.String — предлагаемая должность подписывающей стороны.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как добавить строку подписи в документ, а затем подписать его с помощью цифрового сертификата.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ public static void sign() throws Exception {
+     String signPersonName = "Ron Williams";
+     String srcDocumentPath = getMyDir() + "Document.docx";
+     String dstDocumentPath = getArtifactsDir() + "SignDocumentCustom.Sign.docx";
+     String certificatePath = getMyDir() + "morzal.pfx";
+     String certificatePassword = "aw";
 
+     // We need to create simple list with test signers for this example.
+     createSignPersonData();
+     System.out.println("Test data successfully added!");
 
+     // Get sign person object by name of the person who must sign a document.
+     // This an example, in real use case you would return an object from a database.
+     SignPersonTestClass signPersonInfo = gSignPersonList.stream().filter(x -> x.getName() == signPersonName).findFirst().get();
 
-### notifyAll() {#notifyAll--}
+     if (signPersonInfo != null) {
+         signDocument(srcDocumentPath, dstDocumentPath, signPersonInfo, certificatePath, certificatePassword);
+         System.out.println("Document successfully signed!");
+     } else {
+         System.out.println("Sign person does not exist, please check your parameters.");
+     }
+
+     // Now do something with a signed document, for example, save it to your database.
+     // Use 'new Document(dstDocumentPath)' for loading a signed document.
+ }
+
+ /// 
+ /// Signs the document obtained at the source location and saves it to the specified destination.
+ /// 
+ private static void signDocument(final String srcDocumentPath, final String dstDocumentPath,
+                                  final SignPersonTestClass signPersonInfo, final String certificatePath,
+                                  final String certificatePassword) throws Exception {
+     // Create new document instance based on a test file that we need to sign.
+     Document document = new Document(srcDocumentPath);
+     DocumentBuilder builder = new DocumentBuilder(document);
+
+     // Add info about responsible person who sign a document.
+     SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+     signatureLineOptions.setSigner(signPersonInfo.getName());
+     signatureLineOptions.setSignerTitle(signPersonInfo.getPosition());
+
+     // Add signature line for responsible person who sign a document.
+     SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+     signatureLine.setId(signPersonInfo.getPersonId());
+
+     // Save a document with line signatures into temporary file for future signing.
+     builder.getDocument().save(dstDocumentPath);
+
+     // Create holder of certificate instance based on your personal certificate.
+     // This is the test certificate generated for this example.
+     CertificateHolder certificateHolder = CertificateHolder.create(certificatePath, certificatePassword);
+
+     // Link our signature line with personal signature.
+     SignOptions signOptions = new SignOptions();
+     signOptions.setSignatureLineId(signPersonInfo.getPersonId());
+     signOptions.setSignatureLineImage(signPersonInfo.getImage());
+
+     // Sign a document which contains signature line with personal certificate.
+     DigitalSignatureUtil.sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
+ }
+
+ /// 
+ /// Create test data that contains info about sing persons.
+ /// 
+ private static void createSignPersonData() throws IOException {
+     InputStream inputStream = new FileInputStream(getImageDir() + "Logo.jpg");
+
+     gSignPersonList = new ArrayList<>();
+     gSignPersonList.add(new SignPersonTestClass(UUID.randomUUID(), "Ron Williams", "Chief Executive Officer",
+             DocumentHelper.getBytesFromStream(inputStream)));
+     gSignPersonList.add(new SignPersonTestClass(UUID.randomUUID(), "Stephen Morse", "Head of Compliance",
+             DocumentHelper.getBytesFromStream(inputStream)));
+ }
+
+ private static ArrayList gSignPersonList;
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setAllowComments(boolean value) {#setAllowComments-boolean-}
+**Returns:**
+java.lang.String — Предложенный титул подписанта.
+### setAllowComments(boolean value) {#setAllowComments-boolean}
 ```
 public void setAllowComments(boolean value)
 ```
 
 
- Задает значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подписать». Значение по умолчанию для этого свойства**false**.
+Устанавливает значение, указывающее, что подписант может добавлять комментарии в диалоговом окне Sign. Значение по умолчанию для этого свойства — false.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подписать». |
+| значение | boolean | Значение, указывающее, что подписант может добавлять комментарии в диалоговом окне Sign. |
 
-### setDefaultInstructions(boolean value) {#setDefaultInstructions-boolean-}
+### setDefaultInstructions(boolean value) {#setDefaultInstructions-boolean}
 ```
 public void setDefaultInstructions(boolean value)
 ```
 
 
- Задает значение, указывающее, что в диалоговом окне «Подпись» отображаются инструкции по умолчанию. Значение по умолчанию для этого свойства**true**.
+Устанавливает значение, указывающее, что стандартные инструкции отображаются в диалоговом окне Sign. Значение по умолчанию для этого свойства — true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение, указывающее, что инструкции по умолчанию отображаются в диалоговом окне «Подписать». |
+| значение | boolean | Значение, указывающее, что стандартные инструкции отображаются в диалоговом окне Sign. |
 
-### setEmail(String value) {#setEmail-java.lang.String-}
+### setEmail(String value) {#setEmail-java.lang.String}
 ```
 public void setEmail(String value)
 ```
 
 
- Устанавливает предполагаемый адрес электронной почты подписывающей стороны. Значение по умолчанию для этого свойства**empty string**.
+Устанавливает предложенный адрес электронной почты подписанта. Значение по умолчанию для этого свойства — **empty string**.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Предлагаемый адрес электронной почты подписывающей стороны. |
+| значение | java.lang.String | Предложенный адрес электронной почты подписанта. |
 
-### setInstructions(String value) {#setInstructions-java.lang.String-}
+### setInstructions(String value) {#setInstructions-java.lang.String}
 ```
 public void setInstructions(String value)
 ```
 
 
- Задает инструкции для подписывающей стороны, которые отображаются при подписании строки подписи. Значение по умолчанию для этого свойства**empty string**.
+Устанавливает инструкции для подписанта, которые отображаются при подписании строки подписи. Значение по умолчанию для этого свойства — **empty string**.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Инструкции для подписывающего, которые отображаются при подписании строки подписи. |
+| значение | java.lang.String | Инструкции для подписанта, которые отображаются при подписании строки подписи. |
 
-### setShowDate(boolean value) {#setShowDate-boolean-}
+### setShowDate(boolean value) {#setShowDate-boolean}
 ```
 public void setShowDate(boolean value)
 ```
 
 
- Задает значение, указывающее, что дата подписи отображается в строке подписи. Значение по умолчанию для этого свойства**true**.
+Устанавливает значение, указывающее, что дата подписи отображается в строке подписи. Значение по умолчанию для этого свойства — true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+ signatureLineOptions.setSigner("vderyushev");
+ signatureLineOptions.setSignerTitle("QA");
+ signatureLineOptions.setEmail("vderyushev@aspose.com");
+ signatureLineOptions.setShowDate(true);
+ signatureLineOptions.setDefaultInstructions(false);
+ signatureLineOptions.setInstructions("Please sign here.");
+ signatureLineOptions.setAllowComments(true);
+
+ SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+ signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
+
+ Assert.assertFalse(signatureLine.isSigned());
+ Assert.assertFalse(signatureLine.isValid());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
+
+ Date currentDate = new Date();
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignatureLineId(signatureLine.getId());
+ signOptions.setProviderId(signatureLine.getProviderId());
+ signOptions.setComments("Document was signed by vderyushev");
+ signOptions.setSignTime(currentDate);
+
+ CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
+         getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+ // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
+ // indicating that the signature line contains a signature.
+ doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ signatureLine = shape.getSignatureLine();
+
+ Assert.assertTrue(signatureLine.isSigned());
+ Assert.assertTrue(signatureLine.isValid());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Значение, указывающее, что дата подписания отображается в строке подписи. |
+| значение | boolean | Значение, указывающее, что дата подписи отображается в строке подписи. |
 
-### setSigner(String value) {#setSigner-java.lang.String-}
+### setSigner(String value) {#setSigner-java.lang.String}
 ```
 public void setSigner(String value)
 ```
 
 
- Устанавливает предполагаемого подписывающего в строке подписи. Значение по умолчанию для этого свойства**empty string**.
+Устанавливает предложенного подписанта строки подписи. Значение по умолчанию для этого свойства — **empty string**.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить строку подписи в документ, а затем подписать его с помощью цифрового сертификата.
+
+```
+
+ public static void sign() throws Exception {
+     String signPersonName = "Ron Williams";
+     String srcDocumentPath = getMyDir() + "Document.docx";
+     String dstDocumentPath = getArtifactsDir() + "SignDocumentCustom.Sign.docx";
+     String certificatePath = getMyDir() + "morzal.pfx";
+     String certificatePassword = "aw";
+
+     // We need to create simple list with test signers for this example.
+     createSignPersonData();
+     System.out.println("Test data successfully added!");
+
+     // Get sign person object by name of the person who must sign a document.
+     // This an example, in real use case you would return an object from a database.
+     SignPersonTestClass signPersonInfo = gSignPersonList.stream().filter(x -> x.getName() == signPersonName).findFirst().get();
+
+     if (signPersonInfo != null) {
+         signDocument(srcDocumentPath, dstDocumentPath, signPersonInfo, certificatePath, certificatePassword);
+         System.out.println("Document successfully signed!");
+     } else {
+         System.out.println("Sign person does not exist, please check your parameters.");
+     }
+
+     // Now do something with a signed document, for example, save it to your database.
+     // Use 'new Document(dstDocumentPath)' for loading a signed document.
+ }
+
+ /// 
+ /// Signs the document obtained at the source location and saves it to the specified destination.
+ /// 
+ private static void signDocument(final String srcDocumentPath, final String dstDocumentPath,
+                                  final SignPersonTestClass signPersonInfo, final String certificatePath,
+                                  final String certificatePassword) throws Exception {
+     // Create new document instance based on a test file that we need to sign.
+     Document document = new Document(srcDocumentPath);
+     DocumentBuilder builder = new DocumentBuilder(document);
+
+     // Add info about responsible person who sign a document.
+     SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+     signatureLineOptions.setSigner(signPersonInfo.getName());
+     signatureLineOptions.setSignerTitle(signPersonInfo.getPosition());
+
+     // Add signature line for responsible person who sign a document.
+     SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+     signatureLine.setId(signPersonInfo.getPersonId());
+
+     // Save a document with line signatures into temporary file for future signing.
+     builder.getDocument().save(dstDocumentPath);
+
+     // Create holder of certificate instance based on your personal certificate.
+     // This is the test certificate generated for this example.
+     CertificateHolder certificateHolder = CertificateHolder.create(certificatePath, certificatePassword);
+
+     // Link our signature line with personal signature.
+     SignOptions signOptions = new SignOptions();
+     signOptions.setSignatureLineId(signPersonInfo.getPersonId());
+     signOptions.setSignatureLineImage(signPersonInfo.getImage());
+
+     // Sign a document which contains signature line with personal certificate.
+     DigitalSignatureUtil.sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
+ }
+
+ /// 
+ /// Create test data that contains info about sing persons.
+ /// 
+ private static void createSignPersonData() throws IOException {
+     InputStream inputStream = new FileInputStream(getImageDir() + "Logo.jpg");
+
+     gSignPersonList = new ArrayList<>();
+     gSignPersonList.add(new SignPersonTestClass(UUID.randomUUID(), "Ron Williams", "Chief Executive Officer",
+             DocumentHelper.getBytesFromStream(inputStream)));
+     gSignPersonList.add(new SignPersonTestClass(UUID.randomUUID(), "Stephen Morse", "Head of Compliance",
+             DocumentHelper.getBytesFromStream(inputStream)));
+ }
+
+ private static ArrayList gSignPersonList;
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Предлагаемый подписывающий в строке подписи. |
+| значение | java.lang.String | Предложенный подписант строки подписи. |
 
-### setSignerTitle(String value) {#setSignerTitle-java.lang.String-}
+### setSignerTitle(String value) {#setSignerTitle-java.lang.String}
 ```
 public void setSignerTitle(String value)
 ```
 
 
- Устанавливает предполагаемый титул подписавшего. Значение по умолчанию для этого свойства**empty string**.
+Устанавливает предложенный титул подписанта. Значение по умолчанию для этого свойства — **empty string**.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить строку подписи в документ, а затем подписать его с помощью цифрового сертификата.
+
+```
+
+ public static void sign() throws Exception {
+     String signPersonName = "Ron Williams";
+     String srcDocumentPath = getMyDir() + "Document.docx";
+     String dstDocumentPath = getArtifactsDir() + "SignDocumentCustom.Sign.docx";
+     String certificatePath = getMyDir() + "morzal.pfx";
+     String certificatePassword = "aw";
+
+     // We need to create simple list with test signers for this example.
+     createSignPersonData();
+     System.out.println("Test data successfully added!");
+
+     // Get sign person object by name of the person who must sign a document.
+     // This an example, in real use case you would return an object from a database.
+     SignPersonTestClass signPersonInfo = gSignPersonList.stream().filter(x -> x.getName() == signPersonName).findFirst().get();
+
+     if (signPersonInfo != null) {
+         signDocument(srcDocumentPath, dstDocumentPath, signPersonInfo, certificatePath, certificatePassword);
+         System.out.println("Document successfully signed!");
+     } else {
+         System.out.println("Sign person does not exist, please check your parameters.");
+     }
+
+     // Now do something with a signed document, for example, save it to your database.
+     // Use 'new Document(dstDocumentPath)' for loading a signed document.
+ }
+
+ /// 
+ /// Signs the document obtained at the source location and saves it to the specified destination.
+ /// 
+ private static void signDocument(final String srcDocumentPath, final String dstDocumentPath,
+                                  final SignPersonTestClass signPersonInfo, final String certificatePath,
+                                  final String certificatePassword) throws Exception {
+     // Create new document instance based on a test file that we need to sign.
+     Document document = new Document(srcDocumentPath);
+     DocumentBuilder builder = new DocumentBuilder(document);
+
+     // Add info about responsible person who sign a document.
+     SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
+     signatureLineOptions.setSigner(signPersonInfo.getName());
+     signatureLineOptions.setSignerTitle(signPersonInfo.getPosition());
+
+     // Add signature line for responsible person who sign a document.
+     SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
+     signatureLine.setId(signPersonInfo.getPersonId());
+
+     // Save a document with line signatures into temporary file for future signing.
+     builder.getDocument().save(dstDocumentPath);
+
+     // Create holder of certificate instance based on your personal certificate.
+     // This is the test certificate generated for this example.
+     CertificateHolder certificateHolder = CertificateHolder.create(certificatePath, certificatePassword);
+
+     // Link our signature line with personal signature.
+     SignOptions signOptions = new SignOptions();
+     signOptions.setSignatureLineId(signPersonInfo.getPersonId());
+     signOptions.setSignatureLineImage(signPersonInfo.getImage());
+
+     // Sign a document which contains signature line with personal certificate.
+     DigitalSignatureUtil.sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
+ }
+
+ /// 
+ /// Create test data that contains info about sing persons.
+ /// 
+ private static void createSignPersonData() throws IOException {
+     InputStream inputStream = new FileInputStream(getImageDir() + "Logo.jpg");
+
+     gSignPersonList = new ArrayList<>();
+     gSignPersonList.add(new SignPersonTestClass(UUID.randomUUID(), "Ron Williams", "Chief Executive Officer",
+             DocumentHelper.getBytesFromStream(inputStream)));
+     gSignPersonList.add(new SignPersonTestClass(UUID.randomUUID(), "Stephen Morse", "Head of Compliance",
+             DocumentHelper.getBytesFromStream(inputStream)));
+ }
+
+ private static ArrayList gSignPersonList;
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Предлагаемая должность подписывающего лица. |
+| значение | java.lang.String | Предложенный титул подписанта. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

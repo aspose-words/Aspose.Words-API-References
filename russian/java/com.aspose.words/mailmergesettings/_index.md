@@ -1,588 +1,479 @@
 ---
-title: MailMergeSettings
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает всю информацию о слиянии для документа.
+title: "MailMergeSettings"
+linktitle: "MailMergeSettings"
+second_title: "Aspose.Words для Java"
+description: "Указывает всю информацию слияния почты для документа в Java."
 type: docs
-weight: 386
+weight: 445
 url: /ru/java/com.aspose.words/mailmergesettings/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class MailMergeSettings implements Cloneable
 ```
 
-Указывает всю информацию о слиянии для документа.
+Указывает всю информацию о слиянии почты для документа.
 
- Чтобы узнать больше, посетите**Mail Merge and Reporting** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Mail Merge and Reporting ][Mail Merge and Reporting].
 
-Вы можете использовать этот объект, чтобы указать источник данных слияния для документа, и эта информация (вместе с доступными полями данных) появится в Microsoft Word, когда пользователь откроет этот документ. Или вы можете использовать этот объект для запроса настроек слияния, которые пользователь указал в Microsoft Word для этого документа.
+ **Remarks:** 
 
- Обычно вам не нужно создавать объекты этого класса напрямую, потому что настройки слияния документов всегда доступны через[Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings--) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings-) имущество.
+Вы можете использовать этот объект для указания источника данных слияния почты для документа, и эта информация (вместе с доступными полями данных) будет отображаться в Microsoft Word, когда пользователь откроет документ. Либо вы можете использовать этот объект для запроса настроек слияния почты, которые пользователь указал в Microsoft Word для данного документа.
 
- Чтобы определить, является ли этот документ основным документом слияния, проверьте значение[getMainDocumentType()](../../com.aspose.words/mailmergesettings\#getMainDocumentType--) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings\#setMainDocumentType-int-) имущество.
+Обычно вам не требуется создавать объекты этого класса напрямую, поскольку настройки слияния почты документа всегда доступны через свойство [Document.getMailMergeSettings()](../../com.aspose.words/document/\#getMailMergeSettings) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document/\#setMailMergeSettings-com.aspose.words.MailMergeSettings).
 
- Чтобы удалить настройки слияния и информацию об источнике данных из документа, вы можете использовать[clear()](../../com.aspose.words/mailmergesettings\#clear--) метод. Aspose.Words не будет записывать настройки слияния в документ, если[getMainDocumentType()](../../com.aspose.words/mailmergesettings\#getMainDocumentType--) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings\#setMainDocumentType-int-) свойство установлено на[MailMergeMainDocumentType.NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT) или[getDataType()](../../com.aspose.words/mailmergesettings\#getDataType--) / [setDataType(int)](../../com.aspose.words/mailmergesettings\#setDataType-int-) свойство установлено на[MailMergeDataType.NONE](../../com.aspose.words/mailmergedatatype\#NONE).
+Чтобы определить, является ли данный документ основным документом слияния почты, проверьте значение свойства [getMainDocumentType()](../../com.aspose.words/mailmergesettings/\#getMainDocumentType) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings/\#setMainDocumentType-int).
 
- Лучший способ научиться использовать свойства этого объекта — создать документ с нужным источником данных вручную в Microsoft Word, а затем открыть этот документ с помощью Aspose.Words и изучить свойства объекта.[Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings--) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings-) а также[getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-)объекты. Это хороший подход, если вы хотите научиться, например, программно настраивать источник данных.
+Чтобы удалить настройки слияния почты и информацию об источнике данных из документа, вы можете использовать метод [clear()](../../com.aspose.words/mailmergesettings/\#clear). Aspose.Words не будет записывать настройки слияния почты в документ, если свойство [getMainDocumentType()](../../com.aspose.words/mailmergesettings/\#getMainDocumentType) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings/\#setMainDocumentType-int) установлено в значение [MailMergeMainDocumentType.NOT_A_MERGE_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype/\#NOT-A-MERGE-DOCUMENT) или свойство [getDataType()](../../com.aspose.words/mailmergesettings/\#getDataType) / [setDataType(int)](../../com.aspose.words/mailmergesettings/\#setDataType-int) установлено в значение [MailMergeDataType.NONE](../../com.aspose.words/mailmergedatatype/\#NONE).
 
- Aspose.Words сохраняет информацию о слиянии при загрузке, сохранении и преобразовании документов между различными форматами, но не использует эту информацию при выполнении собственного слияния с помощью[MailMerge](../../com.aspose.words/mailmerge) объект.
+Лучший способ изучить, как использовать свойства этого объекта, — создать документ с нужным источником данных вручную в Microsoft Word, затем открыть этот документ с помощью Aspose.Words и изучить свойства объектов [Document.getMailMergeSettings()](../../com.aspose.words/document/\#getMailMergeSettings) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document/\#setMailMergeSettings-com.aspose.words.MailMergeSettings) и [getOdso()](../../com.aspose.words/mailmergesettings/\#getOdso) / [setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings/\#setOdso-com.aspose.words.Odso). Это хороший подход, если вы хотите узнать, как программно настроить источник данных, например.
+
+Aspose.Words сохраняет информацию о слиянии почты при загрузке, сохранении и конвертации документов между различными форматами, но не использует эту информацию при выполнении собственного слияния почты с помощью объекта [MailMerge](../../com.aspose.words/mailmerge/).
+
+
+[Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clear()](#clear--) | Очищает настройки слияния таким образом, что при сохранении документа никакие настройки слияния не сохраняются, и он становится обычным документом. |
-| [deepClone()](#deepClone--) | Возвращает глубокий клон этого объекта. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getActiveRecord()](#getActiveRecord--) | Указывает индекс записи из источника данных, который должен отображаться в Microsoft Word. |
-| [getAddressFieldName()](#getAddressFieldName--) | Указывает столбец в источнике данных, который содержит адреса электронной почты. |
-| [getCheckErrors()](#getCheckErrors--) | Указывает тип отчетов об ошибках, которые должны создаваться Microsoft Word при выполнении слияния. |
-| [getClass()](#getClass--) |  |
-| [getConnectString()](#getConnectString--) | Указывает строку подключения, используемую для подключения к внешнему источнику данных. |
-| [getDataSource()](#getDataSource--) | Указывает путь к источнику данных для слияния. |
-| [getDataType()](#getDataType--) | Указывает тип источника данных для слияния и метод доступа к данным. |
-| [getDestination()](#getDestination--) | Указывает, как Microsoft Word будет выводить результаты слияния. |
-| [getDoNotSupressBlankLines()](#getDoNotSupressBlankLines--) | Указывает, как приложение, выполняющее слияние, должно обрабатывать пустые строки в объединенных документах, полученных в результате слияния. |
-| [getHeaderSource()](#getHeaderSource--) | Указывает путь к источнику заголовка слияния. |
-| [getLinkToQuery()](#getLinkToQuery--) | Не уверен насчет этого. |
-| [getMailAsAttachment()](#getMailAsAttachment--) | Указывает, что документы, созданные во время операции слияния, следует отправлять по электронной почте в виде вложений, а не в виде тела фактического сообщения электронной почты. |
-| [getMailSubject()](#getMailSubject--) | Определяет текст, который должен отображаться в строке темы сообщений электронной почты или факсов, созданных во время слияния. |
-| [getMainDocumentType()](#getMainDocumentType--) | Указывает тип основного документа для слияния. |
-| [getOdso()](#getOdso--) | Получает объект, указывающий параметры объекта источника данных Office (ODSO). |
-| [getQuery()](#getQuery--) | Содержит строку языка структурированных запросов, которая должна выполняться для указанного внешнего источника данных, чтобы вернуть набор записей, которые должны быть импортированы в документ при выполнении операции слияния. |
-| [getViewMergedData()](#getViewMergedData--) | Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных, в который были вставлены поля слияния (например, |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setActiveRecord(int value)](#setActiveRecord-int-) | Указывает индекс записи из источника данных, который должен отображаться в Microsoft Word. |
-| [setAddressFieldName(String value)](#setAddressFieldName-java.lang.String-) | Указывает столбец в источнике данных, который содержит адреса электронной почты. |
-| [setCheckErrors(int value)](#setCheckErrors-int-) | Указывает тип отчетов об ошибках, которые должны создаваться Microsoft Word при выполнении слияния. |
-| [setConnectString(String value)](#setConnectString-java.lang.String-) | Указывает строку подключения, используемую для подключения к внешнему источнику данных. |
-| [setDataSource(String value)](#setDataSource-java.lang.String-) | Указывает путь к источнику данных для слияния. |
-| [setDataType(int value)](#setDataType-int-) | Указывает тип источника данных для слияния и метод доступа к данным. |
-| [setDestination(int value)](#setDestination-int-) | Указывает, как Microsoft Word будет выводить результаты слияния. |
-| [setDoNotSupressBlankLines(boolean value)](#setDoNotSupressBlankLines-boolean-) | Указывает, как приложение, выполняющее слияние, должно обрабатывать пустые строки в объединенных документах, полученных в результате слияния. |
-| [setHeaderSource(String value)](#setHeaderSource-java.lang.String-) | Указывает путь к источнику заголовка слияния. |
-| [setLinkToQuery(boolean value)](#setLinkToQuery-boolean-) | Не уверен насчет этого. |
-| [setMailAsAttachment(boolean value)](#setMailAsAttachment-boolean-) | Указывает, что документы, созданные во время операции слияния, следует отправлять по электронной почте в виде вложений, а не в виде тела фактического сообщения электронной почты. |
-| [setMailSubject(String value)](#setMailSubject-java.lang.String-) | Определяет текст, который должен отображаться в строке темы сообщений электронной почты или факсов, созданных во время слияния. |
-| [setMainDocumentType(int value)](#setMainDocumentType-int-) | Указывает тип основного документа для слияния. |
-| [setOdso(Odso value)](#setOdso-com.aspose.words.Odso-) | Задает объект, указывающий параметры объекта источника данных Office (ODSO). |
-| [setQuery(String value)](#setQuery-java.lang.String-) | Содержит строку языка структурированных запросов, которая должна выполняться для указанного внешнего источника данных, чтобы вернуть набор записей, которые должны быть импортированы в документ при выполнении операции слияния. |
-| [setViewMergedData(boolean value)](#setViewMergedData-boolean-) | Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных, в который были вставлены поля слияния (например, |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clear() {#clear--}
+| [clear()](#clear) | Очищает настройки слияния почты таким образом, что при сохранении документа настройки слияния почты не сохраняются, и документ становится обычным. |
+| [deepClone()](#deepClone) | Возвращает глубокую копию этого объекта. |
+| [getActiveRecord()](#getActiveRecord) | Указывает одно‑базовый индекс записи из источника данных, который будет отображён в Microsoft Word. |
+| [getAddressFieldName()](#getAddressFieldName) | Указывает столбец в источнике данных, содержащий адреса электронной почты. |
+| [getCheckErrors()](#getCheckErrors) | Указывает тип отчёта об ошибках, который будет выполнен Microsoft Word при выполнении слияния почты. |
+| [getConnectString()](#getConnectString) | Указывает строку подключения, используемую для соединения с внешним источником данных. |
+| [getDataSource()](#getDataSource) | Указывает путь к источнику данных слияния почты. |
+| [getDataType()](#getDataType) | Указывает тип источника данных слияния почты и метод доступа к данным. |
+| [getDestination()](#getDestination) | Указывает, как Microsoft Word будет выводить результаты слияния почты. |
+| [getDoNotSupressBlankLines()](#getDoNotSupressBlankLines) | Указывает, как приложение, выполняющее слияние почты, должно обрабатывать пустые строки в объединённых документах, полученных в результате слияния почты. |
+| [getHeaderSource()](#getHeaderSource) | Указывает путь к источнику заголовка слияния почты. |
+| [getLinkToQuery()](#getLinkToQuery) | Не уверен в этом. |
+| [getMailAsAttachment()](#getMailAsAttachment) | Указывает, что документы, созданные во время операции слияния почты, должны отправляться по электронной почте в виде вложения, а не в теле самого письма. |
+| [getMailSubject()](#getMailSubject) | Указывает текст, который должен отображаться в строке темы электронных писем или факсов, созданных во время слияния почты. |
+| [getMainDocumentType()](#getMainDocumentType) | Указывает основной тип документа слияния почты. |
+| [getOdso()](#getOdso) | Получает объект, который задаёт параметры Office Data Source Object (ODSO). |
+| [getQuery()](#getQuery) | Содержит строку Structured Query Language, которая должна быть выполнена против указанного внешнего источника данных, чтобы вернуть набор записей, которые будут импортированы в документ при выполнении операции слияния почты. |
+| [getViewMergedData()](#getViewMergedData) | Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных там, где вставлены поля слияния (например, |
+| [setActiveRecord(int value)](#setActiveRecord-int) | Указывает одно‑базовый индекс записи из источника данных, который будет отображён в Microsoft Word. |
+| [setAddressFieldName(String value)](#setAddressFieldName-java.lang.String) | Указывает столбец в источнике данных, содержащий адреса электронной почты. |
+| [setCheckErrors(int value)](#setCheckErrors-int) | Указывает тип отчёта об ошибках, который будет выполнен Microsoft Word при выполнении слияния почты. |
+| [setConnectString(String value)](#setConnectString-java.lang.String) | Указывает строку подключения, используемую для соединения с внешним источником данных. |
+| [setDataSource(String value)](#setDataSource-java.lang.String) | Указывает путь к источнику данных слияния почты. |
+| [setDataType(int value)](#setDataType-int) | Указывает тип источника данных слияния почты и метод доступа к данным. |
+| [setDestination(int value)](#setDestination-int) | Указывает, как Microsoft Word будет выводить результаты слияния почты. |
+| [setDoNotSupressBlankLines(boolean value)](#setDoNotSupressBlankLines-boolean) | Указывает, как приложение, выполняющее слияние почты, должно обрабатывать пустые строки в объединённых документах, полученных в результате слияния почты. |
+| [setHeaderSource(String value)](#setHeaderSource-java.lang.String) | Указывает путь к источнику заголовка слияния почты. |
+| [setLinkToQuery(boolean value)](#setLinkToQuery-boolean) | Не уверен в этом. |
+| [setMailAsAttachment(boolean value)](#setMailAsAttachment-boolean) | Указывает, что документы, созданные во время операции слияния почты, должны отправляться по электронной почте в виде вложения, а не в теле самого письма. |
+| [setMailSubject(String value)](#setMailSubject-java.lang.String) | Указывает текст, который должен отображаться в строке темы электронных писем или факсов, созданных во время слияния почты. |
+| [setMainDocumentType(int value)](#setMainDocumentType-int) | Указывает основной тип документа слияния почты. |
+| [setOdso(Odso value)](#setOdso-com.aspose.words.Odso) | Устанавливает объект, который задаёт параметры Office Data Source Object (ODSO). |
+| [setQuery(String value)](#setQuery-java.lang.String) | Содержит строку Structured Query Language, которая должна быть выполнена против указанного внешнего источника данных, чтобы вернуть набор записей, которые будут импортированы в документ при выполнении операции слияния почты. |
+| [setViewMergedData(boolean value)](#setViewMergedData-boolean) | Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных там, где вставлены поля слияния (например, |
+### clear() {#clear}
 ```
 public void clear()
 ```
 
 
-Очищает настройки слияния таким образом, что при сохранении документа никакие настройки слияния не сохраняются, и он становится обычным документом.
+Очищает настройки слияния почты таким образом, что при сохранении документа настройки слияния почты не сохраняются, и документ становится обычным.
 
-### deepClone() {#deepClone--}
+### deepClone() {#deepClone}
 ```
 public MailMergeSettings deepClone()
 ```
 
 
-Возвращает глубокий клон этого объекта.
+Возвращает глубокую копию этого объекта.
 
-**Возвращает:**
-[MailMergeSettings](../../com.aspose.words/mailmergesettings)
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getActiveRecord() {#getActiveRecord--}
+**Returns:**
+[MailMergeSettings](../../com.aspose.words/mailmergesettings/)
+### getActiveRecord() {#getActiveRecord}
 ```
 public int getActiveRecord()
 ```
 
 
-Указывает индекс записи из источника данных, который должен отображаться в Microsoft Word. Значение по умолчанию — 1.
+Указывает индекс записи из источника данных, начинающийся с единицы, который должен отображаться в Microsoft Word. Значение по умолчанию — 1.
 
-**Возвращает:**
-int - соответствующее значение int.
-### getAddressFieldName() {#getAddressFieldName--}
+**Returns:**
+int — соответствующее значение  int .
+### getAddressFieldName() {#getAddressFieldName}
 ```
 public String getAddressFieldName()
 ```
 
 
-Указывает столбец в источнике данных, который содержит адреса электронной почты. Значение по умолчанию — пустая строка.
+Указывает столбец в источнике данных, содержащий адреса электронной почты. Значение по умолчанию — пустая строка.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getCheckErrors() {#getCheckErrors--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getCheckErrors() {#getCheckErrors}
 ```
 public int getCheckErrors()
 ```
 
 
- Указывает тип отчетов об ошибках, которые должны создаваться Microsoft Word при выполнении слияния. Значение по умолчанию[MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
+Указывает тип отчётов об ошибках, которые будет выполнять Microsoft Word при выполнении слияния почты. Значение по умолчанию — [MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors/\#DEFAULT).
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors) константы.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getConnectString() {#getConnectString--}
+**Returns:**
+int — соответствующее значение int. Возвращаемое значение является одной из констант [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors/).
+### getConnectString() {#getConnectString}
 ```
 public String getConnectString()
 ```
 
 
-Указывает строку подключения, используемую для подключения к внешнему источнику данных. Значение по умолчанию — пустая строка.
+Указывает строку подключения, используемую для соединения с внешним источником данных. Значение по умолчанию — пустая строка.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getDataSource() {#getDataSource--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getDataSource() {#getDataSource}
 ```
 public String getDataSource()
 ```
 
 
-Указывает путь к источнику данных для слияния. Значение по умолчанию — пустая строка.
+Указывает путь к источнику данных слияния почты. Значение по умолчанию — пустая строка.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getDataType() {#getDataType--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getDataType() {#getDataType}
 ```
 public int getDataType()
 ```
 
 
- Указывает тип источника данных для слияния и метод доступа к данным. Значение по умолчанию[MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
+Указывает тип источника данных слияния почты и метод доступа к данным. Значение по умолчанию — [MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype/\#DEFAULT).
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[MailMergeDataType](../../com.aspose.words/mailmergedatatype) константы.
-### getDestination() {#getDestination--}
+**Returns:**
+int — соответствующее значение int. Возвращаемое значение является одной из констант [MailMergeDataType](../../com.aspose.words/mailmergedatatype/).
+### getDestination() {#getDestination}
 ```
 public int getDestination()
 ```
 
 
-Указывает, как Microsoft Word будет выводить результаты слияния. Значение по умолчанию[MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
+Указывает, как Microsoft Word будет выводить результаты слияния почты. Значение по умолчанию — [MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination/\#DEFAULT).
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[MailMergeDestination](../../com.aspose.words/mailmergedestination) константы.
-### getDoNotSupressBlankLines() {#getDoNotSupressBlankLines--}
+**Returns:**
+int — соответствующее значение int. Возвращаемое значение является одной из констант [MailMergeDestination](../../com.aspose.words/mailmergedestination/).
+### getDoNotSupressBlankLines() {#getDoNotSupressBlankLines}
 ```
 public boolean getDoNotSupressBlankLines()
 ```
 
 
-Указывает, как приложение, выполняющее слияние, должно обрабатывать пустые строки в объединенных документах, полученных в результате слияния. Значение по умолчанию неверно .
+Указывает, как приложение, выполняющее слияние почты, должно обрабатывать пустые строки в объединённых документах, полученных в результате слияния почты. Значение по умолчанию — false.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getHeaderSource() {#getHeaderSource--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getHeaderSource() {#getHeaderSource}
 ```
 public String getHeaderSource()
 ```
 
 
-Указывает путь к источнику заголовка слияния. Значение по умолчанию — пустая строка.
+Указывает путь к источнику заголовка слияния почты. Значение по умолчанию — пустая строка.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getLinkToQuery() {#getLinkToQuery--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getLinkToQuery() {#getLinkToQuery}
 ```
 public boolean getLinkToQuery()
 ```
 
 
-Не уверен насчет этого. Справочник по автоматизации Microsoft Word предполагает, что это указывает, что запрос выполняется каждый раз, когда документ открывается в Microsoft Word. Но спецификация OOXML предполагает, что это указывает на то, что запрос содержит ссылку на внешний файл запроса, который содержит фактический запрос. Значение по умолчанию неверно .
+Не уверен в этом. Ссылка Microsoft Word Automation Reference подразумевает, что это указывает на то, что запрос выполняется каждый раз при открытии документа в Microsoft Word. Но спецификация OOXML подразумевает, что это указывает на то, что запрос содержит ссылку на внешний файл запроса, который содержит фактический запрос. Значение по умолчанию — false.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getMailAsAttachment() {#getMailAsAttachment--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getMailAsAttachment() {#getMailAsAttachment}
 ```
 public boolean getMailAsAttachment()
 ```
 
 
-Указывает, что документы, созданные во время операции слияния, следует отправлять по электронной почте в виде вложений, а не в виде тела фактического сообщения электронной почты. Значение по умолчанию неверно .
+Указывает, что документы, созданные во время операции слияния почты, должны отправляться по электронной почте в виде вложения, а не в теле самого письма. Значение по умолчанию — false.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getMailSubject() {#getMailSubject--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getMailSubject() {#getMailSubject}
 ```
 public String getMailSubject()
 ```
 
 
-Определяет текст, который должен отображаться в строке темы сообщений электронной почты или факсов, созданных во время слияния. Значение по умолчанию — пустая строка.
+Указывает текст, который будет отображаться в строке темы электронных писем или факсов, создаваемых при слиянии почты. Значение по умолчанию — пустая строка.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getMainDocumentType() {#getMainDocumentType--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getMainDocumentType() {#getMainDocumentType}
 ```
 public int getMainDocumentType()
 ```
 
 
- Указывает тип основного документа для слияния. Значение по умолчанию[MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
+Указывает тип основного документа слияния почты. Значение по умолчанию — [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype/\#DEFAULT).
 
-Основной документ — это документ, содержащий информацию, одинаковую для каждой версии объединенного документа.
+ **Remarks:** 
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype) константы.
-### getOdso() {#getOdso--}
+Основной документ — это документ, содержащий информацию, одинаковую для каждой версии объединённого документа.
+
+**Returns:**
+int — соответствующее значение  int . Возвращаемое значение является одной из констант [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype/).
+### getOdso() {#getOdso}
 ```
 public Odso getOdso()
 ```
 
 
-Получает объект, указывающий параметры объекта источника данных Office (ODSO).
+Получает объект, который задаёт параметры Office Data Source Object (ODSO).
 
-Этот объект никогда не бывает нулевым.
+ **Remarks:** 
 
-**Возвращает:**
-[Odso](../../com.aspose.words/odso) - Объект, указывающий параметры объекта источника данных Office (ODSO).
-### getQuery() {#getQuery--}
+Этот объект никогда не  null .
+
+**Returns:**
+[Odso](../../com.aspose.words/odso/) - The object that specifies the Office Data Source Object (ODSO) settings.
+### getQuery() {#getQuery}
 ```
 public String getQuery()
 ```
 
 
-Содержит строку языка структурированных запросов, которая должна выполняться для указанного внешнего источника данных, чтобы вернуть набор записей, которые должны быть импортированы в документ при выполнении операции слияния. Значение по умолчанию — пустая строка.
+Содержит строку Structured Query Language, которая будет выполнена против указанного внешнего источника данных для возврата набора записей, которые будут импортированы в документ при выполнении операции слияния почты. Значение по умолчанию — пустая строка.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getViewMergedData() {#getViewMergedData--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getViewMergedData() {#getViewMergedData}
 ```
 public boolean getViewMergedData()
 ```
 
 
-Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных, в который были вставлены поля слияния (например, предварительный просмотр объединенных данных). Значение по умолчанию неверно .
+Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных там, где вставлены поля слияния (например, предварительный просмотр объединённых данных). Значение по умолчанию —  false .
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setActiveRecord(int value) {#setActiveRecord-int-}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### setActiveRecord(int value) {#setActiveRecord-int}
 ```
 public void setActiveRecord(int value)
 ```
 
 
-Указывает индекс записи из источника данных, который должен отображаться в Microsoft Word. Значение по умолчанию — 1.
+Указывает индекс записи из источника данных, начинающийся с единицы, который должен отображаться в Microsoft Word. Значение по умолчанию — 1.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Соответствующее целочисленное значение. |
+| значение | int | Соответствующее  int  значение. |
 
-### setAddressFieldName(String value) {#setAddressFieldName-java.lang.String-}
+### setAddressFieldName(String value) {#setAddressFieldName-java.lang.String}
 ```
 public void setAddressFieldName(String value)
 ```
 
 
-Указывает столбец в источнике данных, который содержит адреса электронной почты. Значение по умолчанию — пустая строка.
+Указывает столбец в источнике данных, содержащий адреса электронной почты. Значение по умолчанию — пустая строка.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setCheckErrors(int value) {#setCheckErrors-int-}
+### setCheckErrors(int value) {#setCheckErrors-int}
 ```
 public void setCheckErrors(int value)
 ```
 
 
- Указывает тип отчетов об ошибках, которые должны создаваться Microsoft Word при выполнении слияния. Значение по умолчанию[MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
+Указывает тип отчётов об ошибках, которые будет выполнять Microsoft Word при выполнении слияния почты. Значение по умолчанию — [MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors/\#DEFAULT).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors) константы. |
+| value | int | Соответствующее значение  int . Значение должно быть одной из констант [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors/). |
 
-### setConnectString(String value) {#setConnectString-java.lang.String-}
+### setConnectString(String value) {#setConnectString-java.lang.String}
 ```
 public void setConnectString(String value)
 ```
 
 
-Указывает строку подключения, используемую для подключения к внешнему источнику данных. Значение по умолчанию — пустая строка.
+Указывает строку подключения, используемую для соединения с внешним источником данных. Значение по умолчанию — пустая строка.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setDataSource(String value) {#setDataSource-java.lang.String-}
+### setDataSource(String value) {#setDataSource-java.lang.String}
 ```
 public void setDataSource(String value)
 ```
 
 
-Указывает путь к источнику данных для слияния. Значение по умолчанию — пустая строка.
+Указывает путь к источнику данных слияния почты. Значение по умолчанию — пустая строка.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setDataType(int value) {#setDataType-int-}
+### setDataType(int value) {#setDataType-int}
 ```
 public void setDataType(int value)
 ```
 
 
- Указывает тип источника данных для слияния и метод доступа к данным. Значение по умолчанию[MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
+Указывает тип источника данных слияния почты и метод доступа к данным. Значение по умолчанию — [MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype/\#DEFAULT).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[MailMergeDataType](../../com.aspose.words/mailmergedatatype) константы. |
+| value | int | Соответствующее значение  int . Значение должно быть одной из констант [MailMergeDataType](../../com.aspose.words/mailmergedatatype/). |
 
-### setDestination(int value) {#setDestination-int-}
+### setDestination(int value) {#setDestination-int}
 ```
 public void setDestination(int value)
 ```
 
 
-Указывает, как Microsoft Word будет выводить результаты слияния. Значение по умолчанию[MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
+Указывает, как Microsoft Word будет выводить результаты слияния почты. Значение по умолчанию — [MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination/\#DEFAULT).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[MailMergeDestination](../../com.aspose.words/mailmergedestination) константы. |
+| value | int | Соответствующее значение  int . Значение должно быть одной из констант [MailMergeDestination](../../com.aspose.words/mailmergedestination/). |
 
-### setDoNotSupressBlankLines(boolean value) {#setDoNotSupressBlankLines-boolean-}
+### setDoNotSupressBlankLines(boolean value) {#setDoNotSupressBlankLines-boolean}
 ```
 public void setDoNotSupressBlankLines(boolean value)
 ```
 
 
-Указывает, как приложение, выполняющее слияние, должно обрабатывать пустые строки в объединенных документах, полученных в результате слияния. Значение по умолчанию неверно .
+Указывает, как приложение, выполняющее слияние почты, должно обрабатывать пустые строки в объединённых документах, полученных в результате слияния почты. Значение по умолчанию — false.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setHeaderSource(String value) {#setHeaderSource-java.lang.String-}
+### setHeaderSource(String value) {#setHeaderSource-java.lang.String}
 ```
 public void setHeaderSource(String value)
 ```
 
 
-Указывает путь к источнику заголовка слияния. Значение по умолчанию — пустая строка.
+Указывает путь к источнику заголовка слияния почты. Значение по умолчанию — пустая строка.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setLinkToQuery(boolean value) {#setLinkToQuery-boolean-}
+### setLinkToQuery(boolean value) {#setLinkToQuery-boolean}
 ```
 public void setLinkToQuery(boolean value)
 ```
 
 
-Не уверен насчет этого. Справочник по автоматизации Microsoft Word предполагает, что это указывает, что запрос выполняется каждый раз, когда документ открывается в Microsoft Word. Но спецификация OOXML предполагает, что это указывает на то, что запрос содержит ссылку на внешний файл запроса, который содержит фактический запрос. Значение по умолчанию неверно .
+Не уверен в этом. Ссылка Microsoft Word Automation Reference подразумевает, что это указывает на то, что запрос выполняется каждый раз при открытии документа в Microsoft Word. Но спецификация OOXML подразумевает, что это указывает на то, что запрос содержит ссылку на внешний файл запроса, который содержит фактический запрос. Значение по умолчанию — false.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setMailAsAttachment(boolean value) {#setMailAsAttachment-boolean-}
+### setMailAsAttachment(boolean value) {#setMailAsAttachment-boolean}
 ```
 public void setMailAsAttachment(boolean value)
 ```
 
 
-Указывает, что документы, созданные во время операции слияния, следует отправлять по электронной почте в виде вложений, а не в виде тела фактического сообщения электронной почты. Значение по умолчанию неверно .
+Указывает, что документы, созданные во время операции слияния почты, должны отправляться по электронной почте в виде вложения, а не в теле самого письма. Значение по умолчанию — false.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setMailSubject(String value) {#setMailSubject-java.lang.String-}
+### setMailSubject(String value) {#setMailSubject-java.lang.String}
 ```
 public void setMailSubject(String value)
 ```
 
 
-Определяет текст, который должен отображаться в строке темы сообщений электронной почты или факсов, созданных во время слияния. Значение по умолчанию — пустая строка.
+Указывает текст, который будет отображаться в строке темы электронных писем или факсов, создаваемых при слиянии почты. Значение по умолчанию — пустая строка.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setMainDocumentType(int value) {#setMainDocumentType-int-}
+### setMainDocumentType(int value) {#setMainDocumentType-int}
 ```
 public void setMainDocumentType(int value)
 ```
 
 
- Указывает тип основного документа для слияния. Значение по умолчанию[MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
+Указывает тип основного документа слияния почты. Значение по умолчанию — [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype/\#DEFAULT).
 
-Основной документ — это документ, содержащий информацию, одинаковую для каждой версии объединенного документа.
+ **Remarks:** 
 
-**Параметры:**
+Основной документ — это документ, содержащий информацию, одинаковую для каждой версии объединённого документа.
 
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype) константы. |
+| value | int | Соответствующее значение  int . Значение должно быть одной из констант [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype/). |
 
-### setOdso(Odso value) {#setOdso-com.aspose.words.Odso-}
+### setOdso(Odso value) {#setOdso-com.aspose.words.Odso}
 ```
 public void setOdso(Odso value)
 ```
 
 
-Задает объект, указывающий параметры объекта источника данных Office (ODSO).
+Устанавливает объект, который задаёт параметры Office Data Source Object (ODSO).
 
-Этот объект никогда не бывает нулевым.
+ **Remarks:** 
 
-**Параметры:**
+Этот объект никогда не  null .
 
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [Odso](../../com.aspose.words/odso) | Объект, указывающий параметры объекта источника данных Office (ODSO). |
+| value | [Odso](../../com.aspose.words/odso/) | Объект, который задает параметры Office Data Source Object (ODSO). |
 
-### setQuery(String value) {#setQuery-java.lang.String-}
+### setQuery(String value) {#setQuery-java.lang.String}
 ```
 public void setQuery(String value)
 ```
 
 
-Содержит строку языка структурированных запросов, которая должна выполняться для указанного внешнего источника данных, чтобы вернуть набор записей, которые должны быть импортированы в документ при выполнении операции слияния. Значение по умолчанию — пустая строка.
+Содержит строку Structured Query Language, которая будет выполнена против указанного внешнего источника данных для возврата набора записей, которые будут импортированы в документ при выполнении операции слияния почты. Значение по умолчанию — пустая строка.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setViewMergedData(boolean value) {#setViewMergedData-boolean-}
+### setViewMergedData(boolean value) {#setViewMergedData-boolean}
 ```
 public void setViewMergedData(boolean value)
 ```
 
 
-Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных, в который были вставлены поля слияния (например, предварительный просмотр объединенных данных). Значение по умолчанию неверно .
+Указывает, что Microsoft Word должен отображать данные из указанного внешнего источника данных там, где вставлены поля слияния (например, предварительный просмотр объединённых данных). Значение по умолчанию —  false .
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

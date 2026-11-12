@@ -1,52 +1,63 @@
 ---
-title: Metered
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет методы для установки измеренного ключа.
+title: "Metered"
+linktitle: "Metered"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет методы для установки метерного ключа в Java."
 type: docs
-weight: 398
+weight: 469
 url: /ru/java/com.aspose.words/metered/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Metered
 ```
 
-Предоставляет методы для установки измеренного ключа.
+Предоставляет методы для установки измеряемого ключа.
 
- Чтобы узнать больше, посетите**Licensing and Subscription** документальная статья.
+ **Examples:** 
 
-В этом примере будет предпринята попытка установить измеренный открытый и закрытый ключ для jar-файла компонента:
+Показывает, как активировать Metered‑лицензию и отслеживать кредит/потребление.
 
 ```
 
- Metered matered = new Metered();
- matered.setMeteredKey("PublicKey", "PrivateKey");
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
  
 ```
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [Metered()](#Metered--) | Инициализирует новый экземпляр этого класса. |
+| [Metered()](#Metered) | Инициализирует новый экземпляр этого класса. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getConsumptionCredit()](#getConsumptionCredit--) | Получает потребительский кредит |
-| [getConsumptionQuantity()](#getConsumptionQuantity--) | Получает размер файла потребления |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Устанавливает измеренный открытый и закрытый ключ. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Metered() {#Metered--}
+| [getConsumptionCredit()](#getConsumptionCredit) | Получает кредит потребления |
+| [getConsumptionQuantity()](#getConsumptionQuantity) | Получает размер файла потребления |
+| [getProductName()](#getProductName) | Возвращает название продукта |
+| [isMeteredLicensed()](#isMeteredLicensed) | Проверяет, лицензирована ли Metered |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String) | Устанавливает публичный и приватный ключ Metered. |
+### Metered() {#Metered}
 ```
 public Metered()
 ```
@@ -54,43 +65,73 @@ public Metered()
 
 Инициализирует новый экземпляр этого класса.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
+ **Examples:** 
 
+Показывает, как активировать Metered‑лицензию и отслеживать кредит/потребление.
 
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
 ```
 
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
 
-**Возвращает:**
-java.lang.Класс<?>
-### getConsumptionCredit() {#getConsumptionCredit--}
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
+
+### getConsumptionCredit() {#getConsumptionCredit}
 ```
 public static BigDecimal getConsumptionCredit()
 ```
 
 
-Получает потребительский кредит
+Получает кредит потребления
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как активировать Metered‑лицензию и отслеживать кредит/потребление.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
+
+**Returns:**
 java.math.BigDecimal - количество потребления
-### getConsumptionQuantity() {#getConsumptionQuantity--}
+### getConsumptionQuantity() {#getConsumptionQuantity}
 ```
 public static BigDecimal getConsumptionQuantity()
 ```
@@ -98,92 +139,151 @@ public static BigDecimal getConsumptionQuantity()
 
 Получает размер файла потребления
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как активировать Metered‑лицензию и отслеживать кредит/потребление.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
+
+**Returns:**
 java.math.BigDecimal - количество потребления
-### hashCode() {#hashCode--}
+### getProductName() {#getProductName}
 ```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
+public String getProductName()
 ```
 
 
+Возвращает название продукта
 
+ **Examples:** 
 
-### notifyAll() {#notifyAll--}
+Показывает, как активировать Metered‑лицензию и отслеживать кредит/потребление.
+
 ```
-public final native void notifyAll()
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
+
+**Returns:**
+java.lang.String - название продукта
+### isMeteredLicensed() {#isMeteredLicensed}
+```
+public static boolean isMeteredLicensed()
 ```
 
 
+Проверяет, лицензирована ли Metered
 
+ **Examples:** 
 
-### setMeteredKey(String publicKey, String privateKey) {#setMeteredKey-java.lang.String-java.lang.String-}
+Показывает, как активировать Metered‑лицензию и отслеживать кредит/потребление.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
+
+**Returns:**
+boolean - Истина или ложь
+### setMeteredKey(String publicKey, String privateKey) {#setMeteredKey-java.lang.String-java.lang.String}
 ```
 public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-Устанавливает измеренный открытый и закрытый ключ. Если вы покупаете лимитную лицензию, при запуске приложения должен вызываться этот API, обычно этого достаточно. Однако, если всегда не удается загрузить данные о потреблении и превышает 24 часа, лицензия будет установлена в статус оценки, чтобы избежать этого, вы должны регулярно проверять статус лицензии, если это статус оценки, снова вызывать этот API.
+Устанавливает измеряемый публичный и приватный ключ. Если вы приобретаете измеряемую лицензию, при запуске приложения этот API должен быть вызван, обычно этого достаточно. Однако, если постоянно не удаётся загрузить данные о потреблении и прошло более 24 часов, лицензия будет переведена в статус оценки; чтобы избежать этого, следует регулярно проверять статус лицензии, и если он находится в статусе оценки, вызвать этот API снова.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как активировать Metered‑лицензию и отслеживать кредит/потребление.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Is metered license accepted: {Metered.IsMeteredLicensed()}");
+ System.out.println("Product name: {metered.GetProductName()}");
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| publicKey | java.lang.String | открытый ключ |
-| privateKey | java.lang.String | закрытый ключ |
+| publicKey | java.lang.String | публичный ключ |
+| privateKey | java.lang.String | приватный ключ |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

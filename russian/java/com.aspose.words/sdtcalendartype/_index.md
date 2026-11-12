@@ -1,63 +1,93 @@
 ---
-title: SdtCalendarType
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает возможные типы календарей, которые можно использовать для указания / в документе Office Open XML.
+title: "SdtCalendarType"
+linktitle: "SdtCalendarType"
+second_title: "Aspose.Words для Java"
+description: "Указывает возможные типы календарей, которые могут использоваться для указания StructuredDocumentTag.getCalendarType / StructuredDocumentTag.setCalendarTypeint в документе Office Open XML на Java."
 type: docs
-weight: 504
+weight: 600
 url: /ru/java/com.aspose.words/sdtcalendartype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SdtCalendarType
 ```
 
- Определяет возможные типы календарей, которые можно использовать для указания[StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag\#getCalendarType--) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag\#setCalendarType-int-) в документе Office Open XML.
+Указывает возможные типы календарей, которые могут использоваться для указания [StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag/\#getCalendarType) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag/\#setCalendarType-int) в документе Office Open XML.
+
+ **Examples:** 
+
+Показывает, как запросить у пользователя ввод даты с помощью структурного тега документа.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a structured document tag that prompts the user to enter a date.
+ // In Microsoft Word, this element is known as a "Date picker content control".
+ // When we click on the arrow on the right end of this tag in Microsoft Word,
+ // we will see a pop up in the form of a clickable calendar.
+ // We can use that popup to select a date that the tag will display.
+ StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.DATE, MarkupLevel.INLINE);
+
+ // Display the date, according to the Saudi Arabian Arabic locale.
+ sdtDate.setDateDisplayLocale(1025);
+
+ // Set the format with which to display the date.
+ sdtDate.setDateDisplayFormat("dd MMMM, yyyy");
+ sdtDate.setDateStorageFormat(SdtDateStorageFormat.DATE_TIME);
+
+ // Display the date according to the Hijri calendar.
+ sdtDate.setCalendarType(SdtCalendarType.HIJRI);
+
+ // Before the user chooses a date in Microsoft Word, the tag will display the text "Click here to enter a date.".
+ // According to the tag's calendar, set the "FullDate" property to get the tag to display a default date.
+ Calendar cal = Calendar.getInstance();
+ cal.set(1440, 10, 20);
+ sdtDate.setFullDate(cal.getTime());
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(sdtDate);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.Date.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [DEFAULT](#DEFAULT) | Используется как значение по умолчанию в OOXML. |
-| [GREGORIAN](#GREGORIAN) | Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. |
-| [GREGORIAN_ARABIC](#GREGORIAN-ARABIC) | Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. |
-| [GREGORIAN_ME_FRENCH](#GREGORIAN-ME-FRENCH) | Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. |
-| [GREGORIAN_US](#GREGORIAN-US) | Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. |
-| [GREGORIAN_XLIT_ENGLISH](#GREGORIAN-XLIT-ENGLISH) | Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. |
-| [GREGORIAN_XLIT_FRENCH](#GREGORIAN-XLIT-FRENCH) | Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. |
-| [HEBREW](#HEBREW) |  Указывает, что еврейский лунный календарь, описанный формулой Гаусса для Песаха[ЦИТАТА] и «Полное изложение устного закона» (Мишне Тора). |
-| [HIJRI](#HIJRI) | Указывает, что лунный календарь хиджры, описанный Королевством Саудовская Аравия, Министерством по делам ислама, пожертвованиями, Да\\u2018wah и Guidance. |
-| [JAPAN](#JAPAN) | Указывает, что должен использоваться календарь эпохи японского императора, как описано в японском промышленном стандарте JIS X 0301. |
-| [KOREA](#KOREA) | Указывает, что корейский календарь эры Тангун, как описано в Законе Кореи №. |
-| [NONE](#NONE) | Указывает, что календарь не должен использоваться. |
-| [SAKA](#SAKA) | Указывает, что должен использоваться календарь эпохи саков, описанный Комитетом по реформе календаря Индии, как часть Индийских эфемерид и Морского альманаха. |
-| [TAIWAN](#TAIWAN) | Указывает, что должен использоваться тайваньский календарь, определенный китайским национальным стандартом CNS 7648. |
-| [THAI](#THAI) | Указывает, что тайский календарь, определенный Королевским указом Его Величества |
+| [GREGORIAN](#GREGORIAN) | Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. |
+| [GREGORIAN_ARABIC](#GREGORIAN-ARABIC) | Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. |
+| [GREGORIAN_ME_FRENCH](#GREGORIAN-ME-FRENCH) | Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. |
+| [GREGORIAN_US](#GREGORIAN-US) | Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. |
+| [GREGORIAN_XLIT_ENGLISH](#GREGORIAN-XLIT-ENGLISH) | Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. |
+| [GREGORIAN_XLIT_FRENCH](#GREGORIAN-XLIT-FRENCH) | Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. |
+| [HEBREW](#HEBREW) | Указывает, что следует использовать еврейский лунный календарь, описанный формулой Гаусса для Песаха [CITATION] и полным изложением устного закона (Мишне Тора). |
+| [HIJRI](#HIJRI) | Указывает, что следует использовать исламский лунный календарь, описанный Королевством Саудовская Аравия, Министерством исламских дел, имуществом, Da\u2018wah и руководством. |
+| [JAPAN](#JAPAN) | Указывает, что следует использовать календарь эпохи японского императора, описанный Японским промышленным стандартом JIS X 0301. |
+| [KOREA](#KOREA) | Указывает, что следует использовать календарь эпохи корейского Тангуна, описанный корейским законом №. |
+| [NONE](#NONE) | Указывает, что календарь использовать не следует. |
+| [SAKA](#SAKA) | Указывает, что следует использовать календарь эпохи Сака, описанный Комитетом реформы календаря Индии, как часть Индийского эфемеридного и морского альманаха. |
+| [TAIWAN](#TAIWAN) | Указывает, что следует использовать тайваньский календарь, определённый китайским национальным стандартом CNS 7648. |
+| [THAI](#THAI) | Указывает, что следует использовать тайский календарь, определённый Королевским указом Его Высочества. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String sdtCalendarTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int sdtCalendarType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int sdtCalendarType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String sdtCalendarTypeName)](#fromName-java.lang.String) |  |
+| [getName(int sdtCalendarType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int sdtCalendarType)](#toString-int) |  |
 ### DEFAULT {#DEFAULT}
 ```
 public static int DEFAULT
 ```
 
 
- Используется как значение по умолчанию в OOXML. Равно[GREGORIAN](../../com.aspose.words/sdtcalendartype\#GREGORIAN).
+Используется как значение по умолчанию в OOXML. Равно [GREGORIAN](../../com.aspose.words/sdtcalendartype/\#GREGORIAN).
 
 ### GREGORIAN {#GREGORIAN}
 ```
@@ -65,7 +95,7 @@ public static int GREGORIAN
 ```
 
 
-Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. Этот календарь должен быть переведен на соответствующий язык.
+Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. Этот календарь должен быть локализован на соответствующий язык.
 
 ### GREGORIAN_ARABIC {#GREGORIAN-ARABIC}
 ```
@@ -73,7 +103,7 @@ public static int GREGORIAN_ARABIC
 ```
 
 
-Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. Значения для этого календаря должны быть представлены на арабском языке.
+Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. Значения этого календаря должны быть представлены на арабском.
 
 ### GREGORIAN_ME_FRENCH {#GREGORIAN-ME-FRENCH}
 ```
@@ -81,7 +111,7 @@ public static int GREGORIAN_ME_FRENCH
 ```
 
 
-Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. Значения для этого календаря должны быть представлены на ближневосточном французском языке.
+Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. Значения этого календаря должны быть представлены на французском для Ближнего Востока.
 
 ### GREGORIAN_US {#GREGORIAN-US}
 ```
@@ -89,7 +119,7 @@ public static int GREGORIAN_US
 ```
 
 
-Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. Значения для этого календаря должны быть представлены на английском языке.
+Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. Значения этого календаря должны быть представлены на английском.
 
 ### GREGORIAN_XLIT_ENGLISH {#GREGORIAN-XLIT-ENGLISH}
 ```
@@ -97,7 +127,7 @@ public static int GREGORIAN_XLIT_ENGLISH
 ```
 
 
-Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. Значения для этого календаря должны быть представлением английских строк соответствующими арабскими символами (арабская транслитерация английского языка для григорианского календаря).
+Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. Значения этого календаря должны представлять английские строки соответствующими арабскими символами (арабская транслитерация английского названия григорианского календаря).
 
 ### GREGORIAN_XLIT_FRENCH {#GREGORIAN-XLIT-FRENCH}
 ```
@@ -105,7 +135,7 @@ public static int GREGORIAN_XLIT_FRENCH
 ```
 
 
-Указывает, что должен использоваться григорианский календарь, определенный в ISO 8601. Значения для этого календаря должны быть представлением французских строк соответствующими арабскими символами (арабская транслитерация французского языка для григорианского календаря).
+Указывает, что следует использовать григорианский календарь, определённый в ISO 8601. Значения этого календаря должны представлять французские строки соответствующими арабскими символами (арабская транслитерация французского названия григорианского календаря).
 
 ### HEBREW {#HEBREW}
 ```
@@ -113,7 +143,7 @@ public static int HEBREW
 ```
 
 
- Указывает, что еврейский лунный календарь, описанный формулой Гаусса для Песаха[ЦИТАТА] и «Полное изложение устного закона» (Мишне Тора).
+Указывает, что следует использовать еврейский лунный календарь, описанный формулой Гаусса для Песаха [CITATION] и полным изложением устного закона (Мишне Тора).
 
 ### HIJRI {#HIJRI}
 ```
@@ -121,7 +151,7 @@ public static int HIJRI
 ```
 
 
-Указывает, что лунный календарь хиджры, описанный Королевством Саудовская Аравия, Министерством по делам ислама, пожертвованиями, Да\\u2018wah и Guidance.
+Указывает, что следует использовать исламский лунный календарь, описанный Королевством Саудовская Аравия, Министерством исламских дел, имуществом, Da\u2018wah и руководством.
 
 ### JAPAN {#JAPAN}
 ```
@@ -129,7 +159,7 @@ public static int JAPAN
 ```
 
 
-Указывает, что должен использоваться календарь эпохи японского императора, как описано в японском промышленном стандарте JIS X 0301.
+Указывает, что следует использовать календарь эпохи японского императора, описанный Японским промышленным стандартом JIS X 0301.
 
 ### KOREA {#KOREA}
 ```
@@ -137,7 +167,7 @@ public static int KOREA
 ```
 
 
-Указывает, что должен использоваться корейский календарь эпохи Тангун, как описано в Законодательном акте Кореи № 4.
+Указывает, что следует использовать календарь эпохи корейского Тангуна, описанный корейским законом № 4.
 
 ### NONE {#NONE}
 ```
@@ -145,7 +175,11 @@ public static int NONE
 ```
 
 
- Указывает, что календарь не должен использоваться. Обычно в AW None является первым и значением по умолчанию для перечислений, но не в этом случае. None не является значением по умолчанию для OOXML, вместо этого[GREGORIAN](../../com.aspose.words/sdtcalendartype\#GREGORIAN) по умолчанию и является первым членом этого перечисления.
+Указывает, что календарь использовать не следует.
+
+ **Remarks:** 
+
+Обычно в AW значение None является первым и значением по умолчанию для перечислений, но в данном случае это не так. None не является значением по умолчанию для OOXML, вместо этого [GREGORIAN](../../com.aspose.words/sdtcalendartype/\#GREGORIAN) является значением по умолчанию и первым членом этого перечисления.
 
 ### SAKA {#SAKA}
 ```
@@ -153,7 +187,7 @@ public static int SAKA
 ```
 
 
-Указывает, что должен использоваться календарь эпохи саков, описанный Комитетом по реформе календаря Индии, как часть Индийских эфемерид и Морского альманаха.
+Указывает, что следует использовать календарь эпохи Сака, описанный Комитетом реформы календаря Индии, как часть Индийского эфемеридного и морского альманаха.
 
 ### TAIWAN {#TAIWAN}
 ```
@@ -161,7 +195,7 @@ public static int TAIWAN
 ```
 
 
-Указывает, что должен использоваться тайваньский календарь, определенный китайским национальным стандартом CNS 7648.
+Указывает, что следует использовать тайваньский календарь, определённый китайским национальным стандартом CNS 7648.
 
 ### THAI {#THAI}
 ```
@@ -169,7 +203,7 @@ public static int THAI
 ```
 
 
-Указывает, что тайский календарь, как это определено Королевским указом Его Величества короля Ваджиравуда (Рамы VI) в Королевской газете 2456 г. н.э. (1913 г. н.э.) и указом премьер-министра Фибунсонгхрама (1941 г. н.э.), начинать год по григорианскому календарю 1 января. и для сопоставления нулевого года с 543 годом до н.э. по григорианскому календарю.
+Указывает, что следует использовать тайский календарь, определённый Королевским указом Его Высочества короля Ваджиравуда (Рама VI) в Королевском вестнике B. E. 2456 (1913 г.) и указом премьер‑министра Пибунсонгкрам (1941 г.), который устанавливает начало года с 1 января по григорианскому календарю и сопоставляет нулевой год с григорианским 543 г. до н.э., следует использовать.
 
 ### length {#length}
 ```
@@ -177,23 +211,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String sdtCalendarTypeName) {#fromName-java.lang.String-}
+### fromName(String sdtCalendarTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String sdtCalendarTypeName)
 ```
@@ -201,25 +219,14 @@ public static int fromName(String sdtCalendarTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sdtCalendarTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int sdtCalendarType) {#getName-int-}
+**Returns:**
+int
+### getName(int sdtCalendarType) {#getName-int}
 ```
 public static String getName(int sdtCalendarType)
 ```
@@ -227,15 +234,14 @@ public static String getName(int sdtCalendarType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sdtCalendarType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -243,45 +249,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int sdtCalendarType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int sdtCalendarType) {#toString-int}
 ```
 public static String toString(int sdtCalendarType)
 ```
@@ -289,47 +259,10 @@ public static String toString(int sdtCalendarType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sdtCalendarType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

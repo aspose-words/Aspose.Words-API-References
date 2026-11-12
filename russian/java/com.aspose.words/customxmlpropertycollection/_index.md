@@ -1,50 +1,106 @@
 ---
-title: CustomXmlPropertyCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет набор настраиваемых XML-атрибутов или свойств смарт-тегов.
+title: "CustomXmlPropertyCollection"
+linktitle: "CustomXmlPropertyCollection"
+second_title: "Aspose.Words для Java"
+description: "Представляет коллекцию пользовательских XML‑атрибутов или свойств смарт‑тегов в Java."
 type: docs
-weight: 107
+weight: 146
 url: /ru/java/com.aspose.words/customxmlpropertycollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class CustomXmlPropertyCollection implements Iterable
 ```
 
-Представляет набор настраиваемых XML-атрибутов или свойств смарт-тегов.
+Представляет коллекцию пользовательских XML‑атрибутов или свойств смарт‑тегов.
 
- Чтобы узнать больше, посетите**Structured Document Tags or Content Control** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control].
 
- Предметы[CustomXmlProperty](../../com.aspose.words/customxmlproperty) объекты.
+ **Remarks:** 
+
+Элементы являются объектами [CustomXmlProperty](../../com.aspose.words/customxmlproperty/).
+
+ **Examples:** 
+
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(CustomXmlProperty property)](#add-com.aspose.words.CustomXmlProperty-) | Добавляет свойство в коллекцию. |
-| [clear()](#clear--) | Удаляет все элементы из коллекции. |
-| [contains(String name)](#contains-java.lang.String-) | Определяет, содержит ли коллекция свойство с заданным именем. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Получает свойство по указанному индексу. |
-| [get(String name)](#get-java.lang.String-) | Предоставляет доступ к элементам коллекции. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество элементов, содержащихся в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [indexOfKey(String name)](#indexOfKey-java.lang.String-) | Возвращает отсчитываемый от нуля индекс указанного свойства в коллекции. |
-| [iterator()](#iterator--) | Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Удаляет свойство с указанным именем из коллекции. |
-| [removeAt(int index)](#removeAt-int-) | Удаляет свойство по указанному индексу. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(CustomXmlProperty property) {#add-com.aspose.words.CustomXmlProperty-}
+| [add(CustomXmlProperty property)](#add-com.aspose.words.CustomXmlProperty) | Добавляет свойство в коллекцию. |
+| [clear()](#clear) | Удаляет все элементы из коллекции. |
+| [contains(String name)](#contains-java.lang.String) | Определяет, содержит ли коллекция свойство с указанным именем. |
+| [get(int index)](#get-int) | Получает свойство по указанному индексу. |
+| [get(String name)](#get-java.lang.String) | Обеспечивает доступ к элементам коллекции. |
+| [getCount()](#getCount) | Получает количество элементов, содержащихся в коллекции. |
+| [indexOfKey(String name)](#indexOfKey-java.lang.String) | Возвращает нулевой индекс указанного свойства в коллекции. |
+| [iterator()](#iterator) | Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции. |
+| [remove(String name)](#remove-java.lang.String) | Удаляет свойство с указанным именем из коллекции. |
+| [removeAt(int index)](#removeAt-int) | Удаляет свойство по указанному индексу. |
+### add(CustomXmlProperty property) {#add-com.aspose.words.CustomXmlProperty}
 ```
 public void add(CustomXmlProperty property)
 ```
@@ -52,13 +108,71 @@ public void add(CustomXmlProperty property)
 
 Добавляет свойство в коллекцию.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| property | [CustomXmlProperty](../../com.aspose.words/customxmlproperty) | Добавляемое свойство. |
+| property | [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) | Свойство для добавления. |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -66,39 +180,140 @@ public void clear()
 
 Удаляет все элементы из коллекции.
 
-### contains(String name) {#contains-java.lang.String-}
+ **Examples:** 
+
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
 
 
-Определяет, содержит ли коллекция свойство с заданным именем.
+Определяет, содержит ли коллекция свойство с указанным именем.
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| name | java.lang.String | С учетом регистра имя свойства, которое необходимо найти. |
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
-**Возвращает:**
-boolean — Истинно, если элемент найден в коллекции; в противном случае ложно.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
 
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
 
+ Assert.assertEquals(8, smartTags.size());
 
-**Параметры:**
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
 
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| name | java.lang.String | Регистрозависимое имя свойства для поиска. |
 
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+boolean -  true  если элемент найден в коллекции; иначе,  false .
+### get(int index) {#get-int}
 ```
 public CustomXmlProperty get(int index)
 ```
@@ -106,41 +321,147 @@ public CustomXmlProperty get(int index)
 
 Получает свойство по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс свойства. |
+| индекс | int | Нулевой индекс свойства. |
 
-**Возвращает:**
-[CustomXmlProperty](../../com.aspose.words/customxmlproperty) - Свойство по указанному индексу.
-### get(String name) {#get-java.lang.String-}
+**Returns:**
+[CustomXmlProperty](../../com.aspose.words/customxmlproperty/) - A property at the specified index.
+### get(String name) {#get-java.lang.String}
 ```
 public CustomXmlProperty get(String name)
 ```
 
 
-Предоставляет доступ к элементам коллекции. Получает свойство с указанным именем.
+Обеспечивает доступ к элементам коллекции.  Получает свойство с указанным именем.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | С учетом регистра имя свойства, которое необходимо найти. |
+| name | java.lang.String | Регистрозависимое имя свойства для поиска. |
 
-**Возвращает:**
-[CustomXmlProperty](../../com.aspose.words/customxmlproperty) - соответствующий[CustomXmlProperty](../../com.aspose.words/customxmlproperty) ценность.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[CustomXmlProperty](../../com.aspose.words/customxmlproperty/) - The corresponding [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) value.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -148,61 +469,211 @@ public int getCount()
 
 Получает количество элементов, содержащихся в коллекции.
 
-**Возвращает:**
-int - количество элементов, содержащихся в коллекции.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### indexOfKey(String name) {#indexOfKey-java.lang.String-}
+**Returns:**
+int — количество элементов, содержащихся в коллекции.
+### indexOfKey(String name) {#indexOfKey-java.lang.String}
 ```
 public int indexOfKey(String name)
 ```
 
 
-Возвращает отсчитываемый от нуля индекс указанного свойства в коллекции.
+Возвращает нулевой индекс указанного свойства в коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Имя свойства с учетом регистра. |
+| name | java.lang.String | Регистрозависимое имя свойства. |
 
-**Возвращает:**
-int - индекс, основанный на нуле. Отрицательное значение, если не найдено.
-### iterator() {#iterator--}
+**Returns:**
+int - Индекс, начинающийся с нуля. Отрицательное значение, если не найден.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
-Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(String name) {#remove-java.lang.String-}
+### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
 ```
@@ -210,13 +681,71 @@ public void remove(String name)
 
 Удаляет свойство с указанным именем из коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Имя свойства с учетом регистра. |
+| name | java.lang.String | Регистрозависимое имя свойства. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -224,55 +753,67 @@ public void removeAt(int index)
 
 Удаляет свойство по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+ // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+ // In Word 2003, we can enable smart tags via "Tools" -> "AutoCorrect options..." -> "SmartTags".
+ // In our input document, there are three objects that Microsoft Word registered as smart tags.
+ // Smart tags may be nested, so this collection contains more.
+ List smartTags = Arrays.stream(doc.getChildNodes(NodeType.SMART_TAG, true).toArray())
+         .filter(SmartTag.class::isInstance)
+         .map(SmartTag.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(8, smartTags.size());
+
+ // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
+ // The properties of a "date"-type smart tag contain its year, month, and day.
+ CustomXmlPropertyCollection properties = smartTags.get(7).getProperties();
+
+ Assert.assertEquals(4, properties.getCount());
+
+ Iterator enumerator = properties.iterator();
+
+ while (enumerator.hasNext()) {
+     CustomXmlProperty customXmlProperty = enumerator.next();
+
+     System.out.println(MessageFormat.format("Property name: {0}, value: {1}", customXmlProperty.getName(), customXmlProperty.getValue()));
+     Assert.assertEquals("", enumerator.next().getUri());
+ }
+
+ // We can also access the properties in various ways, such as a key-value pair.
+ Assert.assertTrue(properties.contains("Day"));
+ Assert.assertEquals("22", properties.get("Day").getValue());
+ Assert.assertEquals("2003", properties.get(2).getValue());
+ Assert.assertEquals(1, properties.indexOfKey("Month"));
+
+ // Below are three ways of removing elements from the properties collection.
+ // 1 -  Remove by index:
+ properties.removeAt(3);
+
+ Assert.assertEquals(3, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Year");
+
+ Assert.assertEquals(2, properties.getCount());
+
+ // 3 -  Clear the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс с отсчетом от нуля. |
+| индекс | int | Нулевой индекс. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

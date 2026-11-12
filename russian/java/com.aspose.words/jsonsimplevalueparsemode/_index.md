@@ -1,50 +1,62 @@
 ---
-title: JsonSimpleValueParseMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает режим анализа простых значений JSON null boolean number integer и string при загрузке JSON.
+title: "JsonSimpleValueParseMode"
+linktitle: "JsonSimpleValueParseMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает режим разбора простых значений JSON: null, boolean, number, integer и string при загрузке JSON в Java."
 type: docs
-weight: 355
+weight: 410
 url: /ru/java/com.aspose.words/jsonsimplevalueparsemode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class JsonSimpleValueParseMode
 ```
 
-Указывает режим анализа простых значений JSON (пустых, логических, числовых, целых и строковых) при загрузке JSON. Такой режим не влияет на синтаксический анализ значений даты и времени.
+Указывает режим разбора простых значений JSON (null, boolean, number, integer и string) при загрузке JSON. Такой режим не влияет на разбор значений даты и времени.
+
+ **Examples:** 
+
+Показывает, как использовать JSON в качестве источника данных (строка).
+
+```
+
+ Document doc = new Document(getMyDir() + "Reporting engine template - JSON data destination (Java).docx");
+
+ JsonDataLoadOptions options = new JsonDataLoadOptions();
+ {
+     options.setExactDateTimeParseFormats(Arrays.asList(new String[]{"MM/dd/yyyy", "MM.d.yy", "MM d yy"}));
+ }
+
+ JsonDataSource dataSource = new JsonDataSource(getMyDir() + "List of people.json", options);
+ buildReport(doc, dataSource, "persons");
+
+ doc.save(getArtifactsDir() + "ReportingEngine.JsonDataString.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [LOOSE](#LOOSE) | Указывает режим, в котором типы простых значений JSON определяются при разборе их строковых представлений. |
-| [STRICT](#STRICT) | Указывает режим, в котором типы простых значений JSON определяются из самой нотации JSON. |
+| [LOOSE](#LOOSE) | Указывает режим, при котором типы простых значений JSON определяются при разборе их строковых представлений. |
+| [STRICT](#STRICT) | Указывает режим, при котором типы простых значений JSON определяются непосредственно из нотации JSON. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String jsonSimpleValueParseModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int jsonSimpleValueParseMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int jsonSimpleValueParseMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String jsonSimpleValueParseModeName)](#fromName-java.lang.String) |  |
+| [getName(int jsonSimpleValueParseMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int jsonSimpleValueParseMode)](#toString-int) |  |
 ### LOOSE {#LOOSE}
 ```
 public static int LOOSE
 ```
 
 
-Указывает режим, в котором типы простых значений JSON определяются при разборе их строковых представлений. Например, тип «prop» из фрагмента JSON «\ { реквизит: "123"\}' в этом режиме определяется как целое число.
+Указывает режим, при котором типы простых значений JSON определяются при разборе их строковых представлений. Например, тип 'prop' из JSON‑фрагмента '\\{ prop: \"123\" \\}' определяется как integer в этом режиме.
 
 ### STRICT {#STRICT}
 ```
@@ -52,7 +64,7 @@ public static int STRICT
 ```
 
 
-Указывает режим, в котором типы простых значений JSON определяются из самой нотации JSON. Например, тип «prop» из фрагмента JSON «\ { реквизит: "123"\}' определяется как строка в этом режиме.
+Указывает режим, при котором типы простых значений JSON определяются непосредственно из нотации JSON. Например, тип 'prop' из JSON‑фрагмента '\\{ prop: \"123\" \\}' определяется как string в этом режиме.
 
 ### length {#length}
 ```
@@ -60,23 +72,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String jsonSimpleValueParseModeName) {#fromName-java.lang.String-}
+### fromName(String jsonSimpleValueParseModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String jsonSimpleValueParseModeName)
 ```
@@ -84,25 +80,14 @@ public static int fromName(String jsonSimpleValueParseModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | jsonSimpleValueParseModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int jsonSimpleValueParseMode) {#getName-int-}
+**Returns:**
+int
+### getName(int jsonSimpleValueParseMode) {#getName-int}
 ```
 public static String getName(int jsonSimpleValueParseMode)
 ```
@@ -110,15 +95,14 @@ public static String getName(int jsonSimpleValueParseMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | jsonSimpleValueParseMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +110,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int jsonSimpleValueParseMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int jsonSimpleValueParseMode) {#toString-int}
 ```
 public static String toString(int jsonSimpleValueParseMode)
 ```
@@ -172,47 +120,10 @@ public static String toString(int jsonSimpleValueParseMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | jsonSimpleValueParseMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

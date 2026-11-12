@@ -1,19 +1,47 @@
 ---
-title: DocumentDirection
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать направление потока текста в документе.
+title: "DocumentDirection"
+linktitle: "DocumentDirection"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать направление потока текста в документе в Java."
 type: docs
-weight: 123
+weight: 165
 url: /ru/java/com.aspose.words/documentdirection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentDirection
 ```
 
 Позволяет указать направление потока текста в документе.
+
+ **Examples:** 
+
+Показывает, как определить направление текста в простом документе.
+
+```
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
+ // the direction of every paragraph of text that Aspose.Words loads from plaintext.
+ // Each paragraph's "Bidi" property will store its direction.
+ loadOptions.setDocumentDirection(DocumentDirection.AUTO);
+
+ // Detect Hebrew text as right-to-left.
+ Document doc = new Document(getMyDir() + "Hebrew text.txt", loadOptions);
+
+ Assert.assertTrue(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
+
+ // Detect English text as right-to-left.
+ doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertFalse(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -26,26 +54,21 @@ public class DocumentDirection
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String documentDirectionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int documentDirection)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int documentDirection)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String documentDirectionName)](#fromName-java.lang.String) |  |
+| [getName(int documentDirection)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int documentDirection)](#toString-int) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
 ```
 
 
-Автоматическое определение направления. Если выбран этот параметр и текст содержит символы, принадлежащие скриптам RTL, направление документа будет автоматически установлено на RTL.
+Автоматическое определение направления.
+
+ **Remarks:** 
+
+Когда эта опция выбрана и текст содержит символы, принадлежащие RTL‑скриптам, направление документа будет автоматически установлено в RTL.
 
 ### LEFT_TO_RIGHT {#LEFT-TO-RIGHT}
 ```
@@ -69,23 +92,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String documentDirectionName) {#fromName-java.lang.String-}
+### fromName(String documentDirectionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String documentDirectionName)
 ```
@@ -93,25 +100,14 @@ public static int fromName(String documentDirectionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentDirectionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int documentDirection) {#getName-int-}
+**Returns:**
+int
+### getName(int documentDirection) {#getName-int}
 ```
 public static String getName(int documentDirection)
 ```
@@ -119,15 +115,14 @@ public static String getName(int documentDirection)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentDirection | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +130,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int documentDirection) {#toString-int-}
+**Returns:**
+int[]
+### toString(int documentDirection) {#toString-int}
 ```
 public static String toString(int documentDirection)
 ```
@@ -181,47 +140,10 @@ public static String toString(int documentDirection)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | documentDirection | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

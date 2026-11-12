@@ -1,95 +1,96 @@
 ---
-title: IDataReader
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет средство для чтения одного или нескольких потоков наборов результатов только для прямого доступа, полученных путем выполнения команды в источнике данных, и реализуется поставщиками данных .NET Framework, которые обращаются к реляционным базам данных.
+title: "IDataReader"
+linktitle: "IDataReader"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет возможность чтения одного или нескольких потоков только для чтения наборов результатов, полученных выполнением команды в источнике данных, и реализуется поставщиками данных .NET Framework, которые работают с реляционными базами данных в Java."
 type: docs
 weight: 34
 url: /ru/java/com.aspose.words.net.system.data/idatareader/
 ---
 
-**Все реализованные интерфейсы:**
-[com.aspose.words.net.System.Data.IDataRecord](../../com.aspose.words.net.system.data/idatarecord)
+**All Implemented Interfaces:**
+[com.aspose.words.net.System.Data.IDataRecord](../../com.aspose.words.net.system.data/idatarecord/)
 ```
 public interface IDataReader extends System.Data.IDataRecord
 ```
 
-Предоставляет средство для чтения одного или нескольких потоков наборов результатов, доступных только в прямом направлении, полученных путем выполнения команды в источнике данных, и реализуется поставщиками данных .NET Framework, которые обращаются к реляционным базам данных.
+Обеспечивает возможность чтения одного или нескольких потоков только для чтения наборов результатов, полученных выполнением команды в источнике данных, и реализуется поставщиками данных .NET Framework, которые работают с реляционными базами данных.
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [close()](#close--) |  Закрывает[IDataReader](../../com.aspose.words.net.system.data/idatareader) Объект. |
-| [getDepth()](#getDepth--) | Получает значение, указывающее глубину вложенности для текущей строки. |
-| [getRecordsAffected()](#getRecordsAffected--) | Получает количество строк, измененных, вставленных или удаленных при выполнении инструкции SQL. |
-| [getSchemaTable()](#getSchemaTable--) |  Возвращает[DataTable](../../com.aspose.words.net.system.data/datatable) который описывает метаданные столбца[IDataReader](../../com.aspose.words.net.system.data/idatareader). |
-| [isClosed()](#isClosed--) | Получает значение, указывающее, закрыто ли средство чтения данных. |
-| [nextResult()](#nextResult--) | Переводит средство чтения данных к следующему результату при чтении результатов пакетных операторов SQL. |
-| [read()](#read--) |  продвигает[IDataReader](../../com.aspose.words.net.system.data/idatareader) к следующей записи. |
-### close() {#close--}
+| [close()](#close) | Закрывает объект [IDataReader](../../com.aspose.words.net.system.data/idatareader/). |
+| [getDepth()](#getDepth) | Возвращает значение, указывающее глубину вложенности текущей строки. |
+| [getRecordsAffected()](#getRecordsAffected) | Возвращает количество строк, изменённых, вставленных или удалённых в результате выполнения SQL‑оператора. |
+| [getSchemaTable()](#getSchemaTable) | Возвращает [DataTable](../../com.aspose.words.net.system.data/datatable/), описывающий метаданные столбцов [IDataReader](../../com.aspose.words.net.system.data/idatareader/). |
+| [isClosed()](#isClosed) | Возвращает значение, указывающее, закрыт ли data reader. |
+| [nextResult()](#nextResult) | Перемещает data reader к следующему результату при чтении результатов пакетных SQL‑операторов. |
+| [read()](#read) | Перемещает [IDataReader](../../com.aspose.words.net.system.data/idatareader/) к следующей записи. |
+### close() {#close}
 ```
 public abstract void close()
 ```
 
 
- Закрывает[IDataReader](../../com.aspose.words.net.system.data/idatareader) Объект.
+Закрывает объект [IDataReader](../../com.aspose.words.net.system.data/idatareader/).
 
-### getDepth() {#getDepth--}
+### getDepth() {#getDepth}
 ```
 public abstract int getDepth()
 ```
 
 
-Получает значение, указывающее глубину вложенности для текущей строки.
+Возвращает значение, указывающее глубину вложенности текущей строки.
 
-**Возвращает:**
-int - Уровень вложенности.
-### getRecordsAffected() {#getRecordsAffected--}
+**Returns:**
+int — уровень вложенности.
+### getRecordsAffected() {#getRecordsAffected}
 ```
 public abstract int getRecordsAffected()
 ```
 
 
-Получает количество строк, измененных, вставленных или удаленных при выполнении инструкции SQL.
+Возвращает количество строк, изменённых, вставленных или удалённых в результате выполнения SQL‑оператора.
 
-**Возвращает:**
-int — количество измененных, вставленных или удаленных строк; 0, если ни одна строка не была затронута или оператор завершился ошибкой; и -1 для операторов SELECT.
-### getSchemaTable() {#getSchemaTable--}
+**Returns:**
+int — количество изменённых, вставленных или удалённых строк; 0, если строки не затронуты или оператор завершился с ошибкой; и -1 для операторов SELECT.
+### getSchemaTable() {#getSchemaTable}
 ```
 public abstract System.Data.DataTable getSchemaTable()
 ```
 
 
- Возвращает[DataTable](../../com.aspose.words.net.system.data/datatable) который описывает метаданные столбца[IDataReader](../../com.aspose.words.net.system.data/idatareader).
+Возвращает [DataTable](../../com.aspose.words.net.system.data/datatable/), описывающий метаданные столбцов [IDataReader](../../com.aspose.words.net.system.data/idatareader/).
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - А[DataTable](../../com.aspose.words.net.system.data/datatable)который описывает метаданные столбца.
-### isClosed() {#isClosed--}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - A [DataTable](../../com.aspose.words.net.system.data/datatable/) that describes the column metadata.
+### isClosed() {#isClosed}
 ```
 public abstract boolean isClosed()
 ```
 
 
-Получает значение, указывающее, закрыто ли средство чтения данных.
+Возвращает значение, указывающее, закрыт ли data reader.
 
-**Возвращает:**
-boolean - true, если считыватель данных закрыт; в противном случае ложно.
-### nextResult() {#nextResult--}
+**Returns:**
+boolean — true, если data reader закрыт; иначе false.
+### nextResult() {#nextResult}
 ```
 public abstract boolean nextResult()
 ```
 
 
-Переводит средство чтения данных к следующему результату при чтении результатов пакетных операторов SQL.
+Перемещает data reader к следующему результату при чтении результатов пакетных SQL‑операторов.
 
-**Возвращает:**
-boolean - true, если строк больше; в противном случае ложно.
-### read() {#read--}
+**Returns:**
+boolean — true, если есть дополнительные строки; иначе false.
+### read() {#read}
 ```
 public abstract boolean read()
 ```
 
 
- продвигает[IDataReader](../../com.aspose.words.net.system.data/idatareader) к следующей записи.
+Перемещает [IDataReader](../../com.aspose.words.net.system.data/idatareader/) к следующей записи.
 
-**Возвращает:**
-boolean - true, если строк больше; в противном случае ложно.
+**Returns:**
+boolean — true, если есть дополнительные строки; иначе false.

@@ -1,140 +1,81 @@
 ---
-title: SaveOutputParameters
-second_title: Справочник по API Aspose.Words для Java
-description: Этот объект возвращается вызывающей стороне после сохранения документа и содержит дополнительную информацию, которая была сгенерирована или рассчитана во время операции сохранения.
+title: "SaveOutputParameters"
+linktitle: "SaveOutputParameters"
+second_title: "Aspose.Words для Java"
+description: "Этот объект возвращается вызывающему после сохранения документа и содержит дополнительную информацию, которая была сгенерирована или вычислена во время операции сохранения в Java."
 type: docs
-weight: 501
+weight: 597
 url: /ru/java/com.aspose.words/saveoutputparameters/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SaveOutputParameters
 ```
 
-Этот объект возвращается вызывающей стороне после сохранения документа и содержит дополнительную информацию, которая была сгенерирована или рассчитана во время операции сохранения. Вызывающий может использовать или игнорировать этот объект.
+Этот объект возвращается вызывающему после сохранения документа и содержит дополнительную информацию, которая была сгенерирована или вычислена во время операции сохранения. Вызывающий может использовать этот объект или игнорировать его.
 
- Чтобы узнать больше, посетите**Save a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Save a Document ][Save a Document].
+
+ **Examples:** 
+
+Показывает, как получить доступ к параметрам вывода операции сохранения документа.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // After we save a document, we can access the Internet Media Type (MIME type) of the newly created output document.
+ SaveOutputParameters parameters = doc.save(getArtifactsDir() + "Document.SaveOutputParameters.doc");
+
+ Assert.assertEquals("application/msword", parameters.getContentType());
+
+ // This property changes depending on the save format.
+ parameters = doc.save(getArtifactsDir() + "Document.SaveOutputParameters.pdf");
+
+ Assert.assertEquals("application/pdf", parameters.getContentType());
+ 
+```
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getContentType()](#getContentType--) | Возвращает строку Content-Type (Internet Media Type), определяющую тип сохраненного документа. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getContentType() {#getContentType--}
+| [getContentType()](#getContentType) | Возвращает строку Content-Type (тип интернет‑медиа), которая определяет тип сохранённого документа. |
+### getContentType() {#getContentType}
 ```
 public String getContentType()
 ```
 
 
-Возвращает строку Content-Type (Internet Media Type), определяющую тип сохраненного документа.
+Возвращает строку Content-Type (тип интернет‑медиа), которая определяет тип сохранённого документа.
 
-**Возвращает:**
-java.lang.String — строка Content-Type (тип интернет-медиа), определяющая тип сохраненного документа.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как получить доступ к параметрам вывода операции сохранения документа.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
 
+ // After we save a document, we can access the Internet Media Type (MIME type) of the newly created output document.
+ SaveOutputParameters parameters = doc.save(getArtifactsDir() + "Document.SaveOutputParameters.doc");
 
+ Assert.assertEquals("application/msword", parameters.getContentType());
 
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
+ // This property changes depending on the save format.
+ parameters = doc.save(getArtifactsDir() + "Document.SaveOutputParameters.pdf");
 
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
+ Assert.assertEquals("application/pdf", parameters.getContentType());
+ 
 ```
 
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+java.lang.String — строка Content-Type (тип интернет‑медиа), которая определяет тип сохранённого документа.

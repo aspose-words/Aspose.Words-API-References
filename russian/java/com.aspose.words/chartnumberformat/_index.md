@@ -1,13 +1,14 @@
 ---
-title: ChartNumberFormat
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет числовое форматирование родительского элемента.
+title: "ChartNumberFormat"
+linktitle: "ChartNumberFormat"
+second_title: "Aspose.Words для Java"
+description: "Представляет форматирование чисел родительского элемента в Java."
 type: docs
-weight: 67
+weight: 84
 url: /ru/java/com.aspose.words/chartnumberformat/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ChartNumberFormat
@@ -15,207 +16,336 @@ public class ChartNumberFormat
 
 Представляет числовое форматирование родительского элемента.
 
- Чтобы узнать больше, посетите**Working with Charts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Charts ][Working with Charts].
+
+ **Examples:** 
+
+Показывает, как установить форматирование значений диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Add a custom series to the chart with categories for the X-axis,
+ // and large respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
+
+ // Set the number format of the Y-axis tick labels to not group digits with commas.
+ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
+
+ // This flag can override the above value and draw the number format from the source cell.
+ Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
+
+ doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
+ 
+```
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getFormatCode()](#getFormatCode--) | Получает код формата, применяемый к метке данных. |
-| [hashCode()](#hashCode--) |  |
-| [isLinkedToSource()](#isLinkedToSource--) | Указывает, связан ли код формата с исходной ячейкой. |
-| [isLinkedToSource(boolean value)](#isLinkedToSource-boolean-) | Указывает, связан ли код формата с исходной ячейкой. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setFormatCode(String value)](#setFormatCode-java.lang.String-) | Задает код формата, применяемый к метке данных. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getFormatCode() {#getFormatCode--}
+| [getFormatCode()](#getFormatCode) | Получает код формата, применяемый к подписи данных. |
+| [isLinkedToSource()](#isLinkedToSource) | Указывает, связан ли код формата с исходной ячейкой. |
+| [isLinkedToSource(boolean value)](#isLinkedToSource-boolean) | Указывает, связан ли код формата с исходной ячейкой. |
+| [setFormatCode(String value)](#setFormatCode-java.lang.String) | Устанавливает код формата, применяемый к подписи данных. |
+### getFormatCode() {#getFormatCode}
 ```
 public String getFormatCode()
 ```
 
 
-Получает код формата, применяемый к метке данных. Форматирование чисел используется для изменения способа отображения значения в метке данных и может использоваться очень творчески. Примеры числовых форматов:
+Получает код формата, применяемый к подписи данных.
 
-Число - "\#,\#\#0.00"
+ **Remarks:** 
 
-Валюта - "\\"$\\"\#,\#\#0.00"
+Форматирование чисел используется для изменения отображения значения в подписи данных и может применяться весьма креативно. Примеры числовых форматов:
 
-Время - "[$-x-systime]ч:мм:сс AM/PM"
+Number - "\#,\#\#0.00"
 
-Дата - "д/мм/гггг"
+Currency - "\\"$\\"\#,\#\#0.00"
 
-Процент - "0,00%"
+Time - "[$-x-systime]h:mm:ss AM/PM"
 
-Дробная часть - "\# ?/?"
+Date - "d/mm/yyyy"
+
+Percentage - "0.00%"
+
+Дробь - "\# ?/?"
 
 Научный - "0.00E+00"
 
-Текст - "@"
+Текст — "@"
 
-Бухгалтерия - "\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\"??\_-;\_-@\_-"
+Бухгалтерский - "\_-\\"$\\"\* \#,\#\#0.00\_-;-\\"$\\"\* \#,\#\#0.00\_-;\_-\\"$\\"\* \\"-\\"??\_-;\_-@\_-"
 
-На заказ с цветом - "[Красный]-\#,\#\#0.0"
+Пользовательский с цветом - "[Red]-\#,\#\#0.0"
 
-**Возвращает:**
-java.lang.String — код формата, применяемый к метке данных.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как включить и настроить метки данных для серии диаграммы.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Add a line chart, then clear its demo data series to start with a clean chart,
+ // and then set a title.
+ Shape shape = builder.insertChart(ChartType.LINE, 500.0, 300.0);
+ Chart chart = shape.getChart();
+ chart.getSeries().clear();
+ chart.getTitle().setText("Monthly sales report");
+
+ // Insert a custom chart series with months as categories for the X-axis,
+ // and respective decimal amounts for the Y-axis.
+ ChartSeries series = chart.getSeries().add("Revenue",
+         new String[]{"January", "February", "March"},
+         new double[]{25.611d, 21.439d, 33.750d});
+
+ // Enable data labels, and then apply a custom number format for values displayed in the data labels.
+ // This format will treat displayed decimal values as millions of US Dollars.
+ series.hasDataLabels(true);
+ ChartDataLabelCollection dataLabels = series.getDataLabels();
+ dataLabels.setShowValue(true);
+ dataLabels.getNumberFormat().setFormatCode("\"US$\" #,##0.000\"M\"");
+ dataLabels.getFont().setSize(12.0);
+
+ doc.save(getArtifactsDir() + "Charts.DataLabelNumberFormat.docx");
+ 
 ```
 
+Показывает, как установить форматирование значений диаграммы.
 
+```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
-**Возвращает:**
-инт
-### isLinkedToSource() {#isLinkedToSource--}
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Add a custom series to the chart with categories for the X-axis,
+ // and large respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
+
+ // Set the number format of the Y-axis tick labels to not group digits with commas.
+ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
+
+ // This flag can override the above value and draw the number format from the source cell.
+ Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
+
+ doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
+ 
+```
+
+**Returns:**
+java.lang.String — код формата, применяемый к подписи данных.
+### isLinkedToSource() {#isLinkedToSource}
 ```
 public boolean isLinkedToSource()
 ```
 
 
-Указывает, связан ли код формата с исходной ячейкой. Значение по умолчанию верно. NumberFormat будет сброшен на общий, если код формата связан с источником.
+Указывает, связан ли код формата с исходной ячейкой. По умолчанию — true.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### isLinkedToSource(boolean value) {#isLinkedToSource-boolean-}
+ **Remarks:** 
+
+NumberFormat будет сброшен к общему, если код формата связан с источником.
+
+ **Examples:** 
+
+Показывает, как установить форматирование значений диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Add a custom series to the chart with categories for the X-axis,
+ // and large respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
+
+ // Set the number format of the Y-axis tick labels to not group digits with commas.
+ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
+
+ // This flag can override the above value and draw the number format from the source cell.
+ Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
+
+ doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### isLinkedToSource(boolean value) {#isLinkedToSource-boolean}
 ```
 public void isLinkedToSource(boolean value)
 ```
 
 
-Указывает, связан ли код формата с исходной ячейкой. Значение по умолчанию верно. NumberFormat будет сброшен на общий, если код формата связан с источником.
+Указывает, связан ли код формата с исходной ячейкой. По умолчанию — true.
 
-**Параметры:**
+ **Remarks:** 
 
+NumberFormat будет сброшен к общему, если код формата связан с источником.
+
+ **Examples:** 
+
+Показывает, как установить форматирование значений диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Add a custom series to the chart with categories for the X-axis,
+ // and large respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
+
+ // Set the number format of the Y-axis tick labels to not group digits with commas.
+ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
+
+ // This flag can override the above value and draw the number format from the source cell.
+ Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
+
+ doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setFormatCode(String value) {#setFormatCode-java.lang.String-}
+### setFormatCode(String value) {#setFormatCode-java.lang.String}
 ```
 public void setFormatCode(String value)
 ```
 
 
-Задает код формата, применяемый к метке данных. Форматирование чисел используется для изменения способа отображения значения в метке данных и может использоваться очень творчески. Примеры числовых форматов:
+Устанавливает код формата, применяемый к подписи данных.
 
-Число - "\#,\#\#0.00"
+ **Remarks:** 
 
-Валюта - "\\"$\\"\#,\#\#0.00"
+Форматирование чисел используется для изменения отображения значения в подписи данных и может применяться весьма креативно. Примеры числовых форматов:
 
-Время - "[$-x-systime]ч:мм:сс AM/PM"
+Number - "\#,\#\#0.00"
 
-Дата - "д/мм/гггг"
+Currency - "\\"$\\"\#,\#\#0.00"
 
-Процент - "0,00%"
+Time - "[$-x-systime]h:mm:ss AM/PM"
 
-Дробная часть - "\# ?/?"
+Date - "d/mm/yyyy"
+
+Percentage - "0.00%"
+
+Дробь - "\# ?/?"
 
 Научный - "0.00E+00"
 
-Текст - "@"
+Текст — "@"
 
-Бухгалтерия - "\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\"??\_-;\_-@\_-"
+Бухгалтерский - "\_-\\"$\\"\* \#,\#\#0.00\_-;-\\"$\\"\* \#,\#\#0.00\_-;\_-\\"$\\"\* \\"-\\"??\_-;\_-@\_-"
 
-На заказ с цветом - "[Красный]-\#,\#\#0.0"
+Пользовательский с цветом - "[Red]-\#,\#\#0.0"
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как включить и настроить метки данных для серии диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Add a line chart, then clear its demo data series to start with a clean chart,
+ // and then set a title.
+ Shape shape = builder.insertChart(ChartType.LINE, 500.0, 300.0);
+ Chart chart = shape.getChart();
+ chart.getSeries().clear();
+ chart.getTitle().setText("Monthly sales report");
+
+ // Insert a custom chart series with months as categories for the X-axis,
+ // and respective decimal amounts for the Y-axis.
+ ChartSeries series = chart.getSeries().add("Revenue",
+         new String[]{"January", "February", "March"},
+         new double[]{25.611d, 21.439d, 33.750d});
+
+ // Enable data labels, and then apply a custom number format for values displayed in the data labels.
+ // This format will treat displayed decimal values as millions of US Dollars.
+ series.hasDataLabels(true);
+ ChartDataLabelCollection dataLabels = series.getDataLabels();
+ dataLabels.setShowValue(true);
+ dataLabels.getNumberFormat().setFormatCode("\"US$\" #,##0.000\"M\"");
+ dataLabels.getFont().setSize(12.0);
+
+ doc.save(getArtifactsDir() + "Charts.DataLabelNumberFormat.docx");
+ 
+```
+
+Показывает, как установить форматирование значений диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Clear the chart's demo data series to start with a clean chart.
+ chart.getSeries().clear();
+
+ // Add a custom series to the chart with categories for the X-axis,
+ // and large respective numeric values for the Y-axis.
+ chart.getSeries().add("Aspose Test Series",
+         new String[]{"Word", "PDF", "Excel", "GoogleDocs", "Note"},
+         new double[]{1900000.0, 850000.0, 2100000.0, 600000.0, 1500000.0});
+
+ // Set the number format of the Y-axis tick labels to not group digits with commas.
+ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
+
+ // This flag can override the above value and draw the number format from the source cell.
+ Assert.assertFalse(chart.getAxisY().getNumberFormat().isLinkedToSource());
+
+ doc.save(getArtifactsDir() + "Charts.SetNumberFormatToChartAxis.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Код формата, применяемый к метке данных. |
+| значение | java.lang.String | Код формата, применяемый к подписи данных. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

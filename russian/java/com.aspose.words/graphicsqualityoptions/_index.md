@@ -1,67 +1,59 @@
 ---
-title: GraphicsQualityOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать доп.
+title: "GraphicsQualityOptions"
+linktitle: "GraphicsQualityOptions"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать дополнительные java.awt.RenderingHints в Java."
 type: docs
-weight: 313
+weight: 367
 url: /ru/java/com.aspose.words/graphicsqualityoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class GraphicsQualityOptions
 ```
 
-Позволяет указать доп.
+Позволяет указать дополнительные **java.awt.RenderingHints**.
 
- Чтобы узнать больше, посетите**Save a Document** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Save a Document ][Save a Document].
 
-Получает текущий для просмотра или добавления новых подсказок. Перезаписывает текущий .
+Получает текущие **java.awt.RenderingHints** для просмотра или добавления новых подсказок. Перезаписывает текущие **java.awt.RenderingHints**.
+
+ **Examples:** 
+
+Показывает, как установить параметры качества рендеринга при конвертации документов в форматы изображений.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ GraphicsQualityOptions qualityOptions = new GraphicsQualityOptions();
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON); // SmoothingMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON); // TextRenderingHint
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_COLOR_RENDERING, RenderingHints.VALUE_COLOR_RENDER_QUALITY); // CompositingMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY); // CompositingQuality
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR); // InterpolationMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_FRACTIONALMETRICS, RenderingHints.VALUE_FRACTIONALMETRICS_ON); // StringFormat
+
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ saveOptions.setGraphicsQualityOptions(qualityOptions);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
+ 
+```
+
+
+[Save a Document]: https://docs.aspose.com/words/java/save-a-document/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getRenderingHints()](#getRenderingHints--) |  |
-| [getUseTileFlipMode()](#getUseTileFlipMode--) | Получает флаг, указывающий, является ли WrapMode TileFlipXY. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setRenderingHints(RenderingHints renderingHints)](#setRenderingHints-java.awt.RenderingHints-) |  |
-| [setUseTileFlipMode(boolean value)](#setUseTileFlipMode-boolean-) | Устанавливает флаг, указывающий, является ли WrapMode TileFlipXY. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getRenderingHints() {#getRenderingHints--}
+| [getRenderingHints()](#getRenderingHints) |  |
+| [getUseTileFlipMode()](#getUseTileFlipMode) | Получает флаг, указывающий, является ли WrapMode значением TileFlipXY. |
+| [setRenderingHints(RenderingHints renderingHints)](#setRenderingHints-java.awt.RenderingHints) |  |
+| [setUseTileFlipMode(boolean value)](#setUseTileFlipMode-boolean) | Устанавливает флаг, указывающий, является ли WrapMode значением TileFlipXY. |
+### getRenderingHints() {#getRenderingHints}
 ```
 public RenderingHints getRenderingHints()
 ```
@@ -69,51 +61,46 @@ public RenderingHints getRenderingHints()
 
 
 
-**Возвращает:**
+**Returns:**
 java.awt.RenderingHints
-### getUseTileFlipMode() {#getUseTileFlipMode--}
+### getUseTileFlipMode() {#getUseTileFlipMode}
 ```
 public boolean getUseTileFlipMode()
 ```
 
 
-Получает флаг, указывающий, является ли WrapMode TileFlipXY.
+Получает флаг, указывающий, является ли WrapMode значением TileFlipXY.
 
-WrapMode указывает, как текстура или градиент укладываются мозаикой, когда они меньше, чем заполняемая область.
+ **Remarks:** 
 
-По умолчанию использует WrapMode\#TILE.TILE (указывает мозаику без отражения). Это вызывает неточную визуализацию масштабированного изображения (с высоким разрешением).
+WrapMode определяет, как текстура или градиент заполняются плиткой, когда они меньше области заполнения.
 
-Это свойство позволяет переключить WrapMode на WrapMode.\#КАФЕЛЬНАЯ ПЛИТКА\_КУВЫРОК\_XY.TILE\_КУВЫРОК\_XY (указывает, что плитки переворачиваются по горизонтали при перемещении по строке и переворачиваются по вертикали при перемещении по столбцу).
+По умолчанию используется WrapMode\#TILE.TILE (указывающий на заполнение без отражения). Это приводит к неточному рендерингу масштабированного изображения (с высоким разрешением).
 
-**Возвращает:**
-boolean — Флаг, указывающий, является ли WrapMode TileFlipXY.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+Это свойство позволяет переключить WrapMode на WrapMode\#TILE\_FLIP\_XY.TILE\_FLIP\_XY (указывающий, что плитки отражаются по горизонтали при перемещении вдоль строки и по вертикали при перемещении вдоль столбца).
 
+ **Examples:** 
 
+Показывает, как предотвратить появление белой линии при рендеринге с высоким разрешением.
 
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document(getMyDir() + "Shape high dpi.docx");
 
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ShapeRenderer renderer = shape.getShapeRenderer();
 
-
-### notifyAll() {#notifyAll--}
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     saveOptions.setResolution(500f); saveOptions.setGraphicsQualityOptions(new GraphicsQualityOptions()); { saveOptions.getGraphicsQualityOptions().setUseTileFlipMode(true); }
+ }
+ renderer.save(getArtifactsDir() + "ImageSaveOptions.UseTileFlipMode.png", saveOptions);
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setRenderingHints(RenderingHints renderingHints) {#setRenderingHints-java.awt.RenderingHints-}
+**Returns:**
+boolean - Флаг, указывающий, является ли WrapMode значением TileFlipXY.
+### setRenderingHints(RenderingHints renderingHints) {#setRenderingHints-java.awt.RenderingHints}
 ```
 public void setRenderingHints(RenderingHints renderingHints)
 ```
@@ -121,75 +108,48 @@ public void setRenderingHints(RenderingHints renderingHints)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | renderingHints | java.awt.RenderingHints |  |
 
-### setUseTileFlipMode(boolean value) {#setUseTileFlipMode-boolean-}
+### setUseTileFlipMode(boolean value) {#setUseTileFlipMode-boolean}
 ```
 public void setUseTileFlipMode(boolean value)
 ```
 
 
-Устанавливает флаг, указывающий, является ли WrapMode TileFlipXY.
+Устанавливает флаг, указывающий, является ли WrapMode значением TileFlipXY.
 
-WrapMode указывает, как текстура или градиент укладываются мозаикой, когда они меньше, чем заполняемая область.
+ **Remarks:** 
 
-По умолчанию использует WrapMode\#TILE.TILE (указывает мозаику без отражения). Это вызывает неточную визуализацию масштабированного изображения (с высоким разрешением).
+WrapMode определяет, как текстура или градиент заполняются плиткой, когда они меньше области заполнения.
 
-Это свойство позволяет переключить WrapMode на WrapMode.\#КАФЕЛЬНАЯ ПЛИТКА\_КУВЫРОК\_XY.TILE\_КУВЫРОК\_XY (указывает, что плитки переворачиваются по горизонтали при перемещении по строке и переворачиваются по вертикали при перемещении по столбцу).
+По умолчанию используется WrapMode\#TILE.TILE (указывающий на заполнение без отражения). Это приводит к неточному рендерингу масштабированного изображения (с высоким разрешением).
 
-**Параметры:**
+Это свойство позволяет переключить WrapMode на WrapMode\#TILE\_FLIP\_XY.TILE\_FLIP\_XY (указывающий, что плитки отражаются по горизонтали при перемещении вдоль строки и по вертикали при перемещении вдоль столбца).
 
+ **Examples:** 
+
+Показывает, как предотвратить появление белой линии при рендеринге с высоким разрешением.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape high dpi.docx");
+
+ Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
+ ShapeRenderer renderer = shape.getShapeRenderer();
+
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     saveOptions.setResolution(500f); saveOptions.setGraphicsQualityOptions(new GraphicsQualityOptions()); { saveOptions.getGraphicsQualityOptions().setUseTileFlipMode(true); }
+ }
+ renderer.save(getArtifactsDir() + "ImageSaveOptions.UseTileFlipMode.png", saveOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Флаг, указывающий, является ли WrapMode TileFlipXY. |
+| значение | boolean | Флаг, указывающий, является ли WrapMode значением TileFlipXY. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

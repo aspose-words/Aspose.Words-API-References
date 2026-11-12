@@ -1,50 +1,68 @@
 ---
-title: ImageBinarizationMethod
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает метод, используемый для бинаризации изображения.
+title: "ImageBinarizationMethod"
+linktitle: "ImageBinarizationMethod"
+second_title: "Aspose.Words для Java"
+description: "Указывает метод, используемый для бинаризации изображения в Java."
 type: docs
-weight: 335
+weight: 389
 url: /ru/java/com.aspose.words/imagebinarizationmethod/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ImageBinarizationMethod
 ```
 
 Указывает метод, используемый для бинаризации изображения.
+
+ **Examples:** 
+
+Показывает, как установить порог ошибки бинаризации TIFF при использовании метода Флойда-Стейнберга для рендеринга изображения TIFF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as a TIFF, we can pass a SaveOptions object to
+ // adjust the dithering that Aspose.Words will apply when rendering this image.
+ // The default value of the "ThresholdForFloydSteinbergDithering" property is 128.
+ // Higher values tend to produce darker images.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+ options.setTiffCompression(TiffCompression.CCITT_3);
+ options.setTiffBinarizationMethod(ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING);
+ options.setThresholdForFloydSteinbergDithering((byte) 240);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.FloydSteinbergDithering.tiff", options);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | Задает дизеринг с использованием метода диффузии ошибок Флойда-Стейнберга. |
-| [THRESHOLD](#THRESHOLD) | Задает пороговый метод. |
+| [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | Указывает дизеринг с использованием метода диффузии ошибки Флойда-Стейнберга. |
+| [THRESHOLD](#THRESHOLD) | Указывает метод порога. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String imageBinarizationMethodName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int imageBinarizationMethod)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int imageBinarizationMethod)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String imageBinarizationMethodName)](#fromName-java.lang.String) |  |
+| [getName(int imageBinarizationMethod)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int imageBinarizationMethod)](#toString-int) |  |
 ### FLOYD_STEINBERG_DITHERING {#FLOYD-STEINBERG-DITHERING}
 ```
 public static int FLOYD_STEINBERG_DITHERING
 ```
 
 
-Задает дизеринг с использованием метода диффузии ошибок Флойда-Стейнберга.
+Указывает дизеринг с использованием метода диффузии ошибки Флойда-Стейнберга.
 
 ### THRESHOLD {#THRESHOLD}
 ```
@@ -52,7 +70,7 @@ public static int THRESHOLD
 ```
 
 
-Задает пороговый метод.
+Указывает метод порога.
 
 ### length {#length}
 ```
@@ -60,23 +78,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String imageBinarizationMethodName) {#fromName-java.lang.String-}
+### fromName(String imageBinarizationMethodName) {#fromName-java.lang.String}
 ```
 public static int fromName(String imageBinarizationMethodName)
 ```
@@ -84,25 +86,14 @@ public static int fromName(String imageBinarizationMethodName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageBinarizationMethodName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int imageBinarizationMethod) {#getName-int-}
+**Returns:**
+int
+### getName(int imageBinarizationMethod) {#getName-int}
 ```
 public static String getName(int imageBinarizationMethod)
 ```
@@ -110,15 +101,14 @@ public static String getName(int imageBinarizationMethod)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageBinarizationMethod | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +116,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int imageBinarizationMethod) {#toString-int-}
+**Returns:**
+int[]
+### toString(int imageBinarizationMethod) {#toString-int}
 ```
 public static String toString(int imageBinarizationMethod)
 ```
@@ -172,47 +126,10 @@ public static String toString(int imageBinarizationMethod)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageBinarizationMethod | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

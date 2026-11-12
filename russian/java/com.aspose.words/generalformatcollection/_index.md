@@ -1,16 +1,17 @@
 ---
-title: GeneralFormatCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет типизированную коллекцию общих форматов.
+title: "GeneralFormatCollection"
+linktitle: "GeneralFormatCollection"
+second_title: "Aspose.Words для Java"
+description: "Представляет типизированную коллекцию общих форматов в Java."
 type: docs
-weight: 305
+weight: 356
 url: /ru/java/com.aspose.words/generalformatcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class GeneralFormatCollection implements Iterable
@@ -18,27 +19,86 @@ public class GeneralFormatCollection implements Iterable
 
 Представляет типизированную коллекцию общих форматов.
 
- Чтобы узнать больше, посетите**Working with Fields** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fields ][Working with Fields].
+
+ **Examples:** 
+
+Показывает, как форматировать результаты полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a document builder to insert a field that displays a result with no format applied.
+ Field field = builder.insertField("= 2 + 3");
+
+ Assert.assertEquals("= 2 + 3", field.getFieldCode());
+ Assert.assertEquals("5", field.getResult());
+
+ // We can apply a format to a field's result using the field's properties.
+ // Below are three types of formats that we can apply to a field's result.
+ // 1 -  Numeric format:
+ FieldFormat format = field.getFormat();
+ format.setNumericFormat("$###.00");
+ field.update();
+
+ Assert.assertEquals("= 2 + 3 \\# $###.00", field.getFieldCode());
+ Assert.assertEquals("$  5.00", field.getResult());
+
+ // 2 -  Date/time format:
+ field = builder.insertField("DATE");
+ format = field.getFormat();
+ format.setDateTimeFormat("dddd, MMMM dd, yyyy");
+ field.update();
+
+ Assert.assertEquals("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.getFieldCode());
+ System.out.println("Today's date, in {format.DateTimeFormat} format:\n\t{field.Result}");
+
+ // 3 -  General format:
+ field = builder.insertField("= 25 + 33");
+ format = field.getFormat();
+ format.getGeneralFormats().add(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().add(GeneralFormat.UPPER);
+ field.update();
+
+ int index = 0;
+ Iterator generalFormatEnumerator = format.getGeneralFormats().iterator();
+ while (generalFormatEnumerator.hasNext()) {
+     int value = generalFormatEnumerator.next();
+     System.out.println(MessageFormat.format("General format index {0}: {1}", index++, value));
+ }
+
+ Assert.assertEquals("= 25 + 33 \\* roman \\* Upper", field.getFieldCode());
+ Assert.assertEquals("LVIII", field.getResult());
+ Assert.assertEquals(2, format.getGeneralFormats().getCount());
+ Assert.assertEquals(GeneralFormat.LOWERCASE_ROMAN, format.getGeneralFormats().get(0));
+
+ // We can remove our formats to revert the field's result to its original form.
+ format.getGeneralFormats().remove(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().removeAt(0);
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ field.update();
+
+ Assert.assertEquals("= 25 + 33  ", field.getFieldCode());
+ Assert.assertEquals("58", field.getResult());
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ 
+```
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(int item)](#add-int-) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Получает общий формат по указанному индексу. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает общее количество элементов в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Возвращает объект перечислителя. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(int item)](#remove-int-) |  |
-| [removeAt(int index)](#removeAt-int-) | Удаляет вхождение общего формата по указанному индексу. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(int item) {#add-int-}
+| [add(int item)](#add-int) |  |
+| [get(int index)](#get-int) | Получает общий формат по указанному индексу. |
+| [getCount()](#getCount) | Получает общее количество элементов в коллекции. |
+| [iterator()](#iterator) | Возвращает объект перечислителя. |
+| [remove(int item)](#remove-int) |  |
+| [removeAt(int index)](#removeAt-int) | Удаляет вхождение общего формата по указанному индексу. |
+### add(int item) {#add-int}
 ```
 public void add(int item)
 ```
@@ -46,29 +106,12 @@ public void add(int item)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | int |  |
+| элемент | int |  |
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public int get(int index)
 ```
@@ -76,25 +119,79 @@ public int get(int index)
 
 Получает общий формат по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как форматировать результаты полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a document builder to insert a field that displays a result with no format applied.
+ Field field = builder.insertField("= 2 + 3");
+
+ Assert.assertEquals("= 2 + 3", field.getFieldCode());
+ Assert.assertEquals("5", field.getResult());
+
+ // We can apply a format to a field's result using the field's properties.
+ // Below are three types of formats that we can apply to a field's result.
+ // 1 -  Numeric format:
+ FieldFormat format = field.getFormat();
+ format.setNumericFormat("$###.00");
+ field.update();
+
+ Assert.assertEquals("= 2 + 3 \\# $###.00", field.getFieldCode());
+ Assert.assertEquals("$  5.00", field.getResult());
+
+ // 2 -  Date/time format:
+ field = builder.insertField("DATE");
+ format = field.getFormat();
+ format.setDateTimeFormat("dddd, MMMM dd, yyyy");
+ field.update();
+
+ Assert.assertEquals("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.getFieldCode());
+ System.out.println("Today's date, in {format.DateTimeFormat} format:\n\t{field.Result}");
+
+ // 3 -  General format:
+ field = builder.insertField("= 25 + 33");
+ format = field.getFormat();
+ format.getGeneralFormats().add(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().add(GeneralFormat.UPPER);
+ field.update();
+
+ int index = 0;
+ Iterator generalFormatEnumerator = format.getGeneralFormats().iterator();
+ while (generalFormatEnumerator.hasNext()) {
+     int value = generalFormatEnumerator.next();
+     System.out.println(MessageFormat.format("General format index {0}: {1}", index++, value));
+ }
+
+ Assert.assertEquals("= 25 + 33 \\* roman \\* Upper", field.getFieldCode());
+ Assert.assertEquals("LVIII", field.getResult());
+ Assert.assertEquals(2, format.getGeneralFormats().getCount());
+ Assert.assertEquals(GeneralFormat.LOWERCASE_ROMAN, format.getGeneralFormats().get(0));
+
+ // We can remove our formats to revert the field's result to its original form.
+ format.getGeneralFormats().remove(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().removeAt(0);
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ field.update();
+
+ Assert.assertEquals("= 25 + 33  ", field.getFieldCode());
+ Assert.assertEquals("58", field.getResult());
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Указатель общего формата. |
+| индекс | int | Индекс общего формата. |
 
-**Возвращает:**
- int - общий формат. Возвращаемое значение является одним из[GeneralFormat](../../com.aspose.words/generalformat) константы.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+int - Общий формат. Возвращаемое значение является одной из констант [GeneralFormat](../../com.aspose.words/generalformat/) .
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -102,19 +199,74 @@ public int getCount()
 
 Получает общее количество элементов в коллекции.
 
-**Возвращает:**
-int — общее количество элементов в коллекции.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как форматировать результаты полей.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a document builder to insert a field that displays a result with no format applied.
+ Field field = builder.insertField("= 2 + 3");
+
+ Assert.assertEquals("= 2 + 3", field.getFieldCode());
+ Assert.assertEquals("5", field.getResult());
+
+ // We can apply a format to a field's result using the field's properties.
+ // Below are three types of formats that we can apply to a field's result.
+ // 1 -  Numeric format:
+ FieldFormat format = field.getFormat();
+ format.setNumericFormat("$###.00");
+ field.update();
+
+ Assert.assertEquals("= 2 + 3 \\# $###.00", field.getFieldCode());
+ Assert.assertEquals("$  5.00", field.getResult());
+
+ // 2 -  Date/time format:
+ field = builder.insertField("DATE");
+ format = field.getFormat();
+ format.setDateTimeFormat("dddd, MMMM dd, yyyy");
+ field.update();
+
+ Assert.assertEquals("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.getFieldCode());
+ System.out.println("Today's date, in {format.DateTimeFormat} format:\n\t{field.Result}");
+
+ // 3 -  General format:
+ field = builder.insertField("= 25 + 33");
+ format = field.getFormat();
+ format.getGeneralFormats().add(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().add(GeneralFormat.UPPER);
+ field.update();
+
+ int index = 0;
+ Iterator generalFormatEnumerator = format.getGeneralFormats().iterator();
+ while (generalFormatEnumerator.hasNext()) {
+     int value = generalFormatEnumerator.next();
+     System.out.println(MessageFormat.format("General format index {0}: {1}", index++, value));
+ }
+
+ Assert.assertEquals("= 25 + 33 \\* roman \\* Upper", field.getFieldCode());
+ Assert.assertEquals("LVIII", field.getResult());
+ Assert.assertEquals(2, format.getGeneralFormats().getCount());
+ Assert.assertEquals(GeneralFormat.LOWERCASE_ROMAN, format.getGeneralFormats().get(0));
+
+ // We can remove our formats to revert the field's result to its original form.
+ format.getGeneralFormats().remove(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().removeAt(0);
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ field.update();
+
+ Assert.assertEquals("= 25 + 33  ", field.getFieldCode());
+ Assert.assertEquals("58", field.getResult());
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+int - Общее количество элементов в коллекции.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -122,25 +274,74 @@ public Iterator iterator()
 
 Возвращает объект перечислителя.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как форматировать результаты полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a document builder to insert a field that displays a result with no format applied.
+ Field field = builder.insertField("= 2 + 3");
+
+ Assert.assertEquals("= 2 + 3", field.getFieldCode());
+ Assert.assertEquals("5", field.getResult());
+
+ // We can apply a format to a field's result using the field's properties.
+ // Below are three types of formats that we can apply to a field's result.
+ // 1 -  Numeric format:
+ FieldFormat format = field.getFormat();
+ format.setNumericFormat("$###.00");
+ field.update();
+
+ Assert.assertEquals("= 2 + 3 \\# $###.00", field.getFieldCode());
+ Assert.assertEquals("$  5.00", field.getResult());
+
+ // 2 -  Date/time format:
+ field = builder.insertField("DATE");
+ format = field.getFormat();
+ format.setDateTimeFormat("dddd, MMMM dd, yyyy");
+ field.update();
+
+ Assert.assertEquals("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.getFieldCode());
+ System.out.println("Today's date, in {format.DateTimeFormat} format:\n\t{field.Result}");
+
+ // 3 -  General format:
+ field = builder.insertField("= 25 + 33");
+ format = field.getFormat();
+ format.getGeneralFormats().add(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().add(GeneralFormat.UPPER);
+ field.update();
+
+ int index = 0;
+ Iterator generalFormatEnumerator = format.getGeneralFormats().iterator();
+ while (generalFormatEnumerator.hasNext()) {
+     int value = generalFormatEnumerator.next();
+     System.out.println(MessageFormat.format("General format index {0}: {1}", index++, value));
+ }
+
+ Assert.assertEquals("= 25 + 33 \\* roman \\* Upper", field.getFieldCode());
+ Assert.assertEquals("LVIII", field.getResult());
+ Assert.assertEquals(2, format.getGeneralFormats().getCount());
+ Assert.assertEquals(GeneralFormat.LOWERCASE_ROMAN, format.getGeneralFormats().get(0));
+
+ // We can remove our formats to revert the field's result to its original form.
+ format.getGeneralFormats().remove(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().removeAt(0);
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ field.update();
+
+ Assert.assertEquals("= 25 + 33  ", field.getFieldCode());
+ Assert.assertEquals("58", field.getResult());
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(int item) {#remove-int-}
+### remove(int item) {#remove-int}
 ```
 public void remove(int item)
 ```
@@ -148,13 +349,12 @@ public void remove(int item)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | int |  |
+| элемент | int |  |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -162,55 +362,73 @@ public void removeAt(int index)
 
 Удаляет вхождение общего формата по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как форматировать результаты полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a document builder to insert a field that displays a result with no format applied.
+ Field field = builder.insertField("= 2 + 3");
+
+ Assert.assertEquals("= 2 + 3", field.getFieldCode());
+ Assert.assertEquals("5", field.getResult());
+
+ // We can apply a format to a field's result using the field's properties.
+ // Below are three types of formats that we can apply to a field's result.
+ // 1 -  Numeric format:
+ FieldFormat format = field.getFormat();
+ format.setNumericFormat("$###.00");
+ field.update();
+
+ Assert.assertEquals("= 2 + 3 \\# $###.00", field.getFieldCode());
+ Assert.assertEquals("$  5.00", field.getResult());
+
+ // 2 -  Date/time format:
+ field = builder.insertField("DATE");
+ format = field.getFormat();
+ format.setDateTimeFormat("dddd, MMMM dd, yyyy");
+ field.update();
+
+ Assert.assertEquals("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.getFieldCode());
+ System.out.println("Today's date, in {format.DateTimeFormat} format:\n\t{field.Result}");
+
+ // 3 -  General format:
+ field = builder.insertField("= 25 + 33");
+ format = field.getFormat();
+ format.getGeneralFormats().add(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().add(GeneralFormat.UPPER);
+ field.update();
+
+ int index = 0;
+ Iterator generalFormatEnumerator = format.getGeneralFormats().iterator();
+ while (generalFormatEnumerator.hasNext()) {
+     int value = generalFormatEnumerator.next();
+     System.out.println(MessageFormat.format("General format index {0}: {1}", index++, value));
+ }
+
+ Assert.assertEquals("= 25 + 33 \\* roman \\* Upper", field.getFieldCode());
+ Assert.assertEquals("LVIII", field.getResult());
+ Assert.assertEquals(2, format.getGeneralFormats().getCount());
+ Assert.assertEquals(GeneralFormat.LOWERCASE_ROMAN, format.getGeneralFormats().get(0));
+
+ // We can remove our formats to revert the field's result to its original form.
+ format.getGeneralFormats().remove(GeneralFormat.LOWERCASE_ROMAN);
+ format.getGeneralFormats().removeAt(0);
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ field.update();
+
+ Assert.assertEquals("= 25 + 33  ", field.getFieldCode());
+ Assert.assertEquals("58", field.getResult());
+ Assert.assertEquals(0, format.getGeneralFormats().getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

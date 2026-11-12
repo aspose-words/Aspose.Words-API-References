@@ -1,73 +1,49 @@
 ---
-title: DateTimeFormatInfo
-second_title: Справочник по API Aspose.Words для Java
-description: Карта для .Nets System.Globalization.DateTimeFormatInfo.
+title: "DateTimeFormatInfo"
+linktitle: "DateTimeFormatInfo"
+second_title: "Aspose.Words для Java"
+description: "Отображение для .Nets System.Globalization.DateTimeFormatInfo в Java."
 type: docs
 weight: 12
 url: /ru/java/com.aspose.words.net.system.globalization/datetimeformatinfo/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DateTimeFormatInfo
 ```
 
-Карта для .Net System.Globalization.DateTimeFormatInfo.
+Отображение для System.Globalization.DateTimeFormatInfo из .Net.
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAMDesignator()](#getAMDesignator--) |  |
-| [getAbbreviatedDayNames()](#getAbbreviatedDayNames--) |  |
-| [getAbbreviatedMonthNames()](#getAbbreviatedMonthNames--) |  |
-| [getClass()](#getClass--) |  |
-| [getDayNames()](#getDayNames--) |  |
-| [getLongDatePattern()](#getLongDatePattern--) |  |
-| [getLongTimePattern()](#getLongTimePattern--) |  |
-| [getMonthNames()](#getMonthNames--) |  |
-| [getPMDesignator()](#getPMDesignator--) |  |
-| [getShortDatePattern()](#getShortDatePattern--) |  |
-| [getShortTimePattern()](#getShortTimePattern--) |  |
-| [getShortestDayNames()](#getShortestDayNames--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAMDesignator(String amDesignator)](#setAMDesignator-java.lang.String-) |  |
-| [setAbbreviatedDayNames(String[] abbreviatedDayNames)](#setAbbreviatedDayNames-java.lang.String---) |  |
-| [setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthGenitiveNames-java.lang.String---) |  |
-| [setAbbreviatedMonthNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthNames-java.lang.String---) |  |
-| [setDayNames(String[] dayNames)](#setDayNames-java.lang.String---) |  |
-| [setLongDatePattern(String longDatePat)](#setLongDatePattern-java.lang.String-) |  |
-| [setLongTimePattern(String longTimePattern)](#setLongTimePattern-java.lang.String-) |  |
-| [setMonthGenitiveNames(String[] monthNames)](#setMonthGenitiveNames-java.lang.String---) |  |
-| [setMonthNames(String[] monthNames)](#setMonthNames-java.lang.String---) |  |
-| [setPMDesignator(String pmDesignator)](#setPMDesignator-java.lang.String-) |  |
-| [setShortDatePattern(String shortDatePattern)](#setShortDatePattern-java.lang.String-) |  |
-| [setShortTimePattern(String shortTimePatt)](#setShortTimePattern-java.lang.String-) |  |
-| [setShortestDayNames(String[] shortestDayNames)](#setShortestDayNames-java.lang.String---) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAMDesignator() {#getAMDesignator--}
+| [getAMDesignator()](#getAMDesignator) |  |
+| [getAbbreviatedDayNames()](#getAbbreviatedDayNames) |  |
+| [getAbbreviatedMonthNames()](#getAbbreviatedMonthNames) |  |
+| [getDayNames()](#getDayNames) |  |
+| [getLongDatePattern()](#getLongDatePattern) |  |
+| [getLongTimePattern()](#getLongTimePattern) |  |
+| [getMonthNames()](#getMonthNames) |  |
+| [getPMDesignator()](#getPMDesignator) |  |
+| [getShortDatePattern()](#getShortDatePattern) |  |
+| [getShortTimePattern()](#getShortTimePattern) |  |
+| [getShortestDayNames()](#getShortestDayNames) |  |
+| [setAMDesignator(String amDesignator)](#setAMDesignator-java.lang.String) |  |
+| [setAbbreviatedDayNames(String[] abbreviatedDayNames)](#setAbbreviatedDayNames-java.lang.String) |  |
+| [setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthGenitiveNames-java.lang.String) |  |
+| [setAbbreviatedMonthNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthNames-java.lang.String) |  |
+| [setDayNames(String[] dayNames)](#setDayNames-java.lang.String) |  |
+| [setLongDatePattern(String longDatePat)](#setLongDatePattern-java.lang.String) |  |
+| [setLongTimePattern(String longTimePattern)](#setLongTimePattern-java.lang.String) |  |
+| [setMonthGenitiveNames(String[] monthNames)](#setMonthGenitiveNames-java.lang.String) |  |
+| [setMonthNames(String[] monthNames)](#setMonthNames-java.lang.String) |  |
+| [setPMDesignator(String pmDesignator)](#setPMDesignator-java.lang.String) |  |
+| [setShortDatePattern(String shortDatePattern)](#setShortDatePattern-java.lang.String) |  |
+| [setShortTimePattern(String shortTimePatt)](#setShortTimePattern-java.lang.String) |  |
+| [setShortestDayNames(String[] shortestDayNames)](#setShortestDayNames-java.lang.String) |  |
+### getAMDesignator() {#getAMDesignator}
 ```
 public String getAMDesignator()
 ```
@@ -75,9 +51,9 @@ public String getAMDesignator()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getAbbreviatedDayNames() {#getAbbreviatedDayNames--}
+### getAbbreviatedDayNames() {#getAbbreviatedDayNames}
 ```
 public String[] getAbbreviatedDayNames()
 ```
@@ -85,9 +61,9 @@ public String[] getAbbreviatedDayNames()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String[]
-### getAbbreviatedMonthNames() {#getAbbreviatedMonthNames--}
+### getAbbreviatedMonthNames() {#getAbbreviatedMonthNames}
 ```
 public String[] getAbbreviatedMonthNames()
 ```
@@ -95,19 +71,9 @@ public String[] getAbbreviatedMonthNames()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String[]
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDayNames() {#getDayNames--}
+### getDayNames() {#getDayNames}
 ```
 public String[] getDayNames()
 ```
@@ -115,9 +81,9 @@ public String[] getDayNames()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String[]
-### getLongDatePattern() {#getLongDatePattern--}
+### getLongDatePattern() {#getLongDatePattern}
 ```
 public String getLongDatePattern()
 ```
@@ -125,9 +91,9 @@ public String getLongDatePattern()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getLongTimePattern() {#getLongTimePattern--}
+### getLongTimePattern() {#getLongTimePattern}
 ```
 public String getLongTimePattern()
 ```
@@ -135,9 +101,9 @@ public String getLongTimePattern()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getMonthNames() {#getMonthNames--}
+### getMonthNames() {#getMonthNames}
 ```
 public String[] getMonthNames()
 ```
@@ -145,9 +111,9 @@ public String[] getMonthNames()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String[]
-### getPMDesignator() {#getPMDesignator--}
+### getPMDesignator() {#getPMDesignator}
 ```
 public String getPMDesignator()
 ```
@@ -155,9 +121,9 @@ public String getPMDesignator()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getShortDatePattern() {#getShortDatePattern--}
+### getShortDatePattern() {#getShortDatePattern}
 ```
 public String getShortDatePattern()
 ```
@@ -165,9 +131,9 @@ public String getShortDatePattern()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getShortTimePattern() {#getShortTimePattern--}
+### getShortTimePattern() {#getShortTimePattern}
 ```
 public String getShortTimePattern()
 ```
@@ -175,9 +141,9 @@ public String getShortTimePattern()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getShortestDayNames() {#getShortestDayNames--}
+### getShortestDayNames() {#getShortestDayNames}
 ```
 public String[] getShortestDayNames()
 ```
@@ -185,35 +151,9 @@ public String[] getShortestDayNames()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.String[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setAMDesignator(String amDesignator) {#setAMDesignator-java.lang.String-}
+### setAMDesignator(String amDesignator) {#setAMDesignator-java.lang.String}
 ```
 public void setAMDesignator(String amDesignator)
 ```
@@ -221,13 +161,12 @@ public void setAMDesignator(String amDesignator)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | amDesignator | java.lang.String |  |
 
-### setAbbreviatedDayNames(String[] abbreviatedDayNames) {#setAbbreviatedDayNames-java.lang.String---}
+### setAbbreviatedDayNames(String[] abbreviatedDayNames) {#setAbbreviatedDayNames-java.lang.String}
 ```
 public void setAbbreviatedDayNames(String[] abbreviatedDayNames)
 ```
@@ -235,13 +174,12 @@ public void setAbbreviatedDayNames(String[] abbreviatedDayNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | abbreviatedDayNames | java.lang.String[] |  |
 
-### setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames) {#setAbbreviatedMonthGenitiveNames-java.lang.String---}
+### setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames) {#setAbbreviatedMonthGenitiveNames-java.lang.String}
 ```
 public void setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)
 ```
@@ -249,13 +187,12 @@ public void setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | abbreviatedMonthNames | java.lang.String[] |  |
 
-### setAbbreviatedMonthNames(String[] abbreviatedMonthNames) {#setAbbreviatedMonthNames-java.lang.String---}
+### setAbbreviatedMonthNames(String[] abbreviatedMonthNames) {#setAbbreviatedMonthNames-java.lang.String}
 ```
 public void setAbbreviatedMonthNames(String[] abbreviatedMonthNames)
 ```
@@ -263,13 +200,12 @@ public void setAbbreviatedMonthNames(String[] abbreviatedMonthNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | abbreviatedMonthNames | java.lang.String[] |  |
 
-### setDayNames(String[] dayNames) {#setDayNames-java.lang.String---}
+### setDayNames(String[] dayNames) {#setDayNames-java.lang.String}
 ```
 public void setDayNames(String[] dayNames)
 ```
@@ -277,13 +213,12 @@ public void setDayNames(String[] dayNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dayNames | java.lang.String[] |  |
 
-### setLongDatePattern(String longDatePat) {#setLongDatePattern-java.lang.String-}
+### setLongDatePattern(String longDatePat) {#setLongDatePattern-java.lang.String}
 ```
 public void setLongDatePattern(String longDatePat)
 ```
@@ -291,13 +226,12 @@ public void setLongDatePattern(String longDatePat)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | longDatePat | java.lang.String |  |
 
-### setLongTimePattern(String longTimePattern) {#setLongTimePattern-java.lang.String-}
+### setLongTimePattern(String longTimePattern) {#setLongTimePattern-java.lang.String}
 ```
 public void setLongTimePattern(String longTimePattern)
 ```
@@ -305,13 +239,12 @@ public void setLongTimePattern(String longTimePattern)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | longTimePattern | java.lang.String |  |
 
-### setMonthGenitiveNames(String[] monthNames) {#setMonthGenitiveNames-java.lang.String---}
+### setMonthGenitiveNames(String[] monthNames) {#setMonthGenitiveNames-java.lang.String}
 ```
 public void setMonthGenitiveNames(String[] monthNames)
 ```
@@ -319,13 +252,12 @@ public void setMonthGenitiveNames(String[] monthNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | monthNames | java.lang.String[] |  |
 
-### setMonthNames(String[] monthNames) {#setMonthNames-java.lang.String---}
+### setMonthNames(String[] monthNames) {#setMonthNames-java.lang.String}
 ```
 public void setMonthNames(String[] monthNames)
 ```
@@ -333,13 +265,12 @@ public void setMonthNames(String[] monthNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | monthNames | java.lang.String[] |  |
 
-### setPMDesignator(String pmDesignator) {#setPMDesignator-java.lang.String-}
+### setPMDesignator(String pmDesignator) {#setPMDesignator-java.lang.String}
 ```
 public void setPMDesignator(String pmDesignator)
 ```
@@ -347,13 +278,12 @@ public void setPMDesignator(String pmDesignator)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pmDesignator | java.lang.String |  |
 
-### setShortDatePattern(String shortDatePattern) {#setShortDatePattern-java.lang.String-}
+### setShortDatePattern(String shortDatePattern) {#setShortDatePattern-java.lang.String}
 ```
 public void setShortDatePattern(String shortDatePattern)
 ```
@@ -361,13 +291,12 @@ public void setShortDatePattern(String shortDatePattern)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shortDatePattern | java.lang.String |  |
 
-### setShortTimePattern(String shortTimePatt) {#setShortTimePattern-java.lang.String-}
+### setShortTimePattern(String shortTimePatt) {#setShortTimePattern-java.lang.String}
 ```
 public void setShortTimePattern(String shortTimePatt)
 ```
@@ -375,13 +304,12 @@ public void setShortTimePattern(String shortTimePatt)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shortTimePatt | java.lang.String |  |
 
-### setShortestDayNames(String[] shortestDayNames) {#setShortestDayNames-java.lang.String---}
+### setShortestDayNames(String[] shortestDayNames) {#setShortestDayNames-java.lang.String}
 ```
 public void setShortestDayNames(String[] shortestDayNames)
 ```
@@ -389,55 +317,8 @@ public void setShortestDayNames(String[] shortestDayNames)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shortestDayNames | java.lang.String[] |  |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

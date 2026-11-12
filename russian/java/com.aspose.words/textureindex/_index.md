@@ -1,19 +1,73 @@
 ---
-title: TextureIndex
-second_title: Справочник по API Aspose.Words для Java
-description: Задает текстуру затенения.
+title: "TextureIndex"
+linktitle: "TextureIndex"
+second_title: "Aspose.Words для Java"
+description: "Указывает текстуру затенения в Java."
 type: docs
-weight: 572
+weight: 681
 url: /ru/java/com.aspose.words/textureindex/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextureIndex
 ```
 
-Задает текстуру затенения.
+Указывает текстуру затенения.
+
+ **Examples:** 
+
+Показывает, как оформить текст границами и затенением.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BorderCollection borders = builder.getParagraphFormat().getBorders();
+ borders.setDistanceFromText(20.0);
+ borders.getByBorderType(BorderType.LEFT).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.RIGHT).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.TOP).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.BOTTOM).setLineStyle(LineStyle.DOUBLE);
+
+ Shading shading = builder.getParagraphFormat().getShading();
+ shading.setTexture(TextureIndex.TEXTURE_DIAGONAL_CROSS);
+ shading.setBackgroundPatternColor(new Color(240, 128, 128));  // Light Coral
+ shading.setForegroundPatternColor(new Color(255, 160, 122));  // Light Salmon
+
+ builder.write("This paragraph is formatted with a double border and shading.");
+ doc.save(getArtifactsDir() + "DocumentBuilder.ApplyBordersAndShading.docx");
+ 
+```
+
+Показывает, как применить контурную границу к таблице.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Align the table to the center of the page.
+ table.setAlignment(TableAlignment.CENTER);
+
+ // Clear any existing borders and shading from the table.
+ table.clearBorders();
+ table.clearShading();
+
+ // Add green borders to the outline of the table.
+ table.setBorder(BorderType.LEFT, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.RIGHT, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.TOP, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.BOTTOM, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+
+ // Fill the cells with a light green solid color.
+ table.setShading(TextureIndex.TEXTURE_SOLID, Color.GREEN, Color.GREEN);
+
+ doc.save(getArtifactsDir() + "Table.SetOutlineBorders.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -68,7 +122,7 @@ public class TextureIndex
 | [TEXTURE_DIAGONAL_DOWN](#TEXTURE-DIAGONAL-DOWN) |  |
 | [TEXTURE_DIAGONAL_UP](#TEXTURE-DIAGONAL-UP) |  |
 | [TEXTURE_HORIZONTAL](#TEXTURE-HORIZONTAL) |  |
-| [TEXTURE_NIL](#TEXTURE-NIL) | Указывает, что в текущей заштрихованной области не должно использоваться шаблона (т.е. |
+| [TEXTURE_NIL](#TEXTURE-NIL) | Указывает, что в текущей затенённой области не должно использоваться никакой узор (т.е. |
 | [TEXTURE_NONE](#TEXTURE-NONE) |  |
 | [TEXTURE_SOLID](#TEXTURE-SOLID) |  |
 | [TEXTURE_VERTICAL](#TEXTURE-VERTICAL) |  |
@@ -77,19 +131,10 @@ public class TextureIndex
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textureIndexName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textureIndex)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textureIndex)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String textureIndexName)](#fromName-java.lang.String) |  |
+| [getName(int textureIndex)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int textureIndex)](#toString-int) |  |
 ### TEXTURE_10_PERCENT {#TEXTURE-10-PERCENT}
 ```
 public static int TEXTURE_10_PERCENT
@@ -496,7 +541,7 @@ public static int TEXTURE_NIL
 ```
 
 
-Указывает, что в текущей заштрихованной области не должно использоваться никакого узора (т. е. узор должен быть полностью заполнен фоновым цветом).
+Указывает, что в текущей затенённой области не должно использоваться никакой узор (т.е. узор должен полностью заполняться фоновым цветом).
 
 ### TEXTURE_NONE {#TEXTURE-NONE}
 ```
@@ -528,23 +573,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String textureIndexName) {#fromName-java.lang.String-}
+### fromName(String textureIndexName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textureIndexName)
 ```
@@ -552,25 +581,14 @@ public static int fromName(String textureIndexName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textureIndexName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int textureIndex) {#getName-int-}
+**Returns:**
+int
+### getName(int textureIndex) {#getName-int}
 ```
 public static String getName(int textureIndex)
 ```
@@ -578,15 +596,14 @@ public static String getName(int textureIndex)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textureIndex | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -594,45 +611,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int textureIndex) {#toString-int-}
+**Returns:**
+int[]
+### toString(int textureIndex) {#toString-int}
 ```
 public static String toString(int textureIndex)
 ```
@@ -640,47 +621,10 @@ public static String toString(int textureIndex)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textureIndex | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

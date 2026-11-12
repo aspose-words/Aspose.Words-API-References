@@ -1,54 +1,73 @@
 ---
-title: TextFormFieldType
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип поля текстовой формы.
+title: "TextFormFieldType"
+linktitle: "TextFormFieldType"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип текстового поля формы в Java."
 type: docs
-weight: 565
+weight: 674
 url: /ru/java/com.aspose.words/textformfieldtype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextFormFieldType
 ```
 
-Указывает тип поля текстовой формы.
+Указывает тип текстового поля формы.
+
+ **Examples:** 
+
+Показывает, как создавать поля формы.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ // Form fields are objects in the document that the user can interact with by being prompted to enter values.
+ // We can create them using a document builder, and below are two ways of doing so.
+ // 1 -  Basic text input:
+ builder.insertTextInput("My text input", TextFormFieldType.REGULAR,
+         "", "Enter your name here", 30);
+
+ // 2 -  Combo box with prompt text, and a range of possible values:
+ String[] items =
+         {
+                 "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"
+         };
+
+ builder.insertParagraph();
+ builder.insertComboBox("My combo box", items, 0);
+
+ builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.CreateForm.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [CALCULATED](#CALCULATED) |  Значение поля текстовой формы вычисляется из выражения, указанного в[FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) имущество. |
-| [CURRENT_DATE](#CURRENT-DATE) | Значением поля текстовой формы является текущая дата обновления поля. |
-| [CURRENT_TIME](#CURRENT-TIME) | Значением поля текстовой формы является текущее время, когда поле обновляется. |
-| [DATE](#DATE) | Поле текстовой формы может содержать только действительное значение даты. |
-| [NUMBER](#NUMBER) | Поле текстовой формы может содержать только числа. |
-| [REGULAR](#REGULAR) | Поле текстовой формы может содержать любой текст. |
+| [CALCULATED](#CALCULATED) | Значение текстового поля формы вычисляется из выражения, указанного в свойстве [FormField.getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String). |
+| [CURRENT_DATE](#CURRENT-DATE) | Значение текстового поля формы — текущая дата при обновлении поля. |
+| [CURRENT_TIME](#CURRENT-TIME) | Значение текстового поля формы — текущее время при обновлении поля. |
+| [DATE](#DATE) | Текстовое поле формы может содержать только корректное значение даты. |
+| [NUMBER](#NUMBER) | Текстовое поле формы может содержать только числа. |
+| [REGULAR](#REGULAR) | Текстовое поле формы может содержать любой текст. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textFormFieldTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int textFormFieldType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int textFormFieldType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String textFormFieldTypeName)](#fromName-java.lang.String) |  |
+| [getName(int textFormFieldType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int textFormFieldType)](#toString-int) |  |
 ### CALCULATED {#CALCULATED}
 ```
 public static int CALCULATED
 ```
 
 
- Значение поля текстовой формы вычисляется из выражения, указанного в[FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) имущество.
+Значение текстового поля формы вычисляется из выражения, указанного в свойстве [FormField.getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String).
 
 ### CURRENT_DATE {#CURRENT-DATE}
 ```
@@ -56,7 +75,7 @@ public static int CURRENT_DATE
 ```
 
 
-Значением поля текстовой формы является текущая дата обновления поля.
+Значение текстового поля формы — текущая дата при обновлении поля.
 
 ### CURRENT_TIME {#CURRENT-TIME}
 ```
@@ -64,7 +83,7 @@ public static int CURRENT_TIME
 ```
 
 
-Значением поля текстовой формы является текущее время, когда поле обновляется.
+Значение текстового поля формы — текущее время при обновлении поля.
 
 ### DATE {#DATE}
 ```
@@ -72,7 +91,7 @@ public static int DATE
 ```
 
 
-Поле текстовой формы может содержать только действительное значение даты.
+Текстовое поле формы может содержать только корректное значение даты.
 
 ### NUMBER {#NUMBER}
 ```
@@ -80,7 +99,7 @@ public static int NUMBER
 ```
 
 
-Поле текстовой формы может содержать только числа.
+Текстовое поле формы может содержать только числа.
 
 ### REGULAR {#REGULAR}
 ```
@@ -88,7 +107,7 @@ public static int REGULAR
 ```
 
 
-Поле текстовой формы может содержать любой текст.
+Текстовое поле формы может содержать любой текст.
 
 ### length {#length}
 ```
@@ -96,23 +115,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String textFormFieldTypeName) {#fromName-java.lang.String-}
+### fromName(String textFormFieldTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String textFormFieldTypeName)
 ```
@@ -120,25 +123,14 @@ public static int fromName(String textFormFieldTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textFormFieldTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int textFormFieldType) {#getName-int-}
+**Returns:**
+int
+### getName(int textFormFieldType) {#getName-int}
 ```
 public static String getName(int textFormFieldType)
 ```
@@ -146,15 +138,14 @@ public static String getName(int textFormFieldType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textFormFieldType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +153,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int textFormFieldType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int textFormFieldType) {#toString-int}
 ```
 public static String toString(int textFormFieldType)
 ```
@@ -208,47 +163,10 @@ public static String toString(int textFormFieldType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | textFormFieldType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

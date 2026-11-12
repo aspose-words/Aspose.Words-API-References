@@ -1,74 +1,229 @@
 ---
-title: FieldCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Коллекция объектов, представляющих поля в указанном диапазоне.
+title: "FieldCollection"
+linktitle: "FieldCollection"
+second_title: "Aspose.Words для Java"
+description: "Коллекция объектов Field, представляющая поля в указанном диапазоне в Java."
 type: docs
-weight: 169
+weight: 212
 url: /ru/java/com.aspose.words/fieldcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class FieldCollection implements Iterable
 ```
 
- Коллекция[Field](../../com.aspose.words/field) объекты, представляющие поля в указанном диапазоне.
+Коллекция объектов [Field](../../com.aspose.words/field/) представляет поля в указанном диапазоне.
 
- Чтобы узнать больше, посетите**Working with Fields** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fields ][Working with Fields].
 
-Экземпляр этой коллекции перебирает поля, которые начинают попадать в указанный диапазон.
+ **Remarks:** 
 
-[FieldCollection](../../com.aspose.words/fieldcollection) коллекция не владеет содержащимися в ней полями, а представляет собой просто набор полей.
+Экземпляр этой коллекции перебирает поля, начинающиеся в указанном диапазоне.
 
-[FieldCollection](../../com.aspose.words/fieldcollection) коллекция является «живой», т. е. изменения дочерних объектов узла, из которого она была создана, немедленно отражаются в полях, возвращаемых[FieldCollection](../../com.aspose.words/fieldcollection) свойства и методы.
+Коллекция [FieldCollection](../../com.aspose.words/fieldcollection/) не владеет содержащимися в ней полями, а представляет собой лишь выборку полей.
+
+Коллекция [FieldCollection](../../com.aspose.words/fieldcollection/) является "live", т.е. изменения дочерних элементов объекта узла, из которого она была создана, сразу отражаются в полях, возвращаемых свойствами и методами [FieldCollection](../../com.aspose.words/fieldcollection/).
+
+ **Examples:** 
+
+Показывает, как работать с коллекцией полей.
+
+```
+
+ public void fieldCollection() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+     builder.insertField(" TIME ");
+     builder.insertField(" REVNUM ");
+     builder.insertField(" AUTHOR  \"John Doe\" ");
+     builder.insertField(" SUBJECT \"My Subject\" ");
+     builder.insertField(" QUOTE \"Hello world!\" ");
+     doc.updateFields();
+
+     FieldCollection fields = doc.getRange().getFields();
+
+     Assert.assertEquals(6, fields.getCount());
+
+     // Iterate over the field collection, and print contents and type
+     // of every field using a custom visitor implementation.
+     FieldVisitor fieldVisitor = new FieldVisitor();
+
+     Iterator fieldEnumerator = fields.iterator();
+
+     while (fieldEnumerator.hasNext()) {
+         if (fieldEnumerator != null) {
+             Field currentField = fieldEnumerator.next();
+
+             currentField.getStart().accept(fieldVisitor);
+             if (currentField.getSeparator() != null) {
+                 currentField.getSeparator().accept(fieldVisitor);
+             }
+             currentField.getEnd().accept(fieldVisitor);
+         } else {
+             System.out.println("There are no fields in the document.");
+         }
+     }
+
+     System.out.println(fieldVisitor.getText());
+ }
+
+ /// 
+ /// Document visitor implementation that prints field info.
+ /// 
+ public static class FieldVisitor extends DocumentVisitor {
+     public FieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(final FieldStart fieldStart) {
+         mBuilder.append("Found field: " + fieldStart.getFieldType() + "\r\n");
+         mBuilder.append("\tField code: " + fieldStart.getField().getFieldCode() + "\r\n");
+         mBuilder.append("\tDisplayed as: " + fieldStart.getField().getResult() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(final FieldSeparator fieldSeparator) {
+         mBuilder.append("\tFound separator: " + fieldSeparator.getText() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(final FieldEnd fieldEnd) {
+         mBuilder.append("End of field: " + fieldEnd.getFieldType() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final  StringBuilder mBuilder;
+ }
+ 
+```
+
+Показывает, как удалять поля из коллекции полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+ builder.insertField(" TIME ");
+ builder.insertField(" REVNUM ");
+ builder.insertField(" AUTHOR  \"John Doe\" ");
+ builder.insertField(" SUBJECT \"My Subject\" ");
+ builder.insertField(" QUOTE \"Hello world!\" ");
+ doc.updateFields();
+
+ FieldCollection fields = doc.getRange().getFields();
+
+ Assert.assertEquals(6, fields.getCount());
+
+ // Below are four ways of removing fields from a field collection.
+ // 1 -  Get a field to remove itself:
+ fields.get(0).remove();
+ Assert.assertEquals(5, fields.getCount());
+
+ // 2 -  Get the collection to remove a field that we pass to its removal method:
+ Field lastField = fields.get(3);
+ fields.remove(lastField);
+ Assert.assertEquals(4, fields.getCount());
+
+ // 3 -  Remove a field from a collection at an index:
+ fields.removeAt(2);
+ Assert.assertEquals(3, fields.getCount());
+
+ // 4 -  Remove all the fields from the collection at once:
+ fields.clear();
+ Assert.assertEquals(0, fields.getCount());
+ 
+```
+
+
+[Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clear()](#clear--) | Удаляет все поля этой коллекции из документа и из самой этой коллекции. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Возвращает поле по указанному индексу. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Возвращает количество полей в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Возвращает объект перечислителя. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(Field field)](#remove-com.aspose.words.Field-) | Удаляет указанное поле из этой коллекции и из документа. |
-| [removeAt(int index)](#removeAt-int-) | Удаляет поле с указанным индексом из этой коллекции и из документа. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clear() {#clear--}
+| [clear()](#clear) | Удаляет все поля этой коллекции из документа и из самой коллекции. |
+| [get(int index)](#get-int) | Возвращает поле по указанному индексу. |
+| [getCount()](#getCount) | Возвращает количество полей в коллекции. |
+| [iterator()](#iterator) | Возвращает объект перечислителя. |
+| [remove(Field field)](#remove-com.aspose.words.Field) | Удаляет указанное поле из этой коллекции и из документа. |
+| [removeAt(int index)](#removeAt-int) | Удаляет поле по указанному индексу из этой коллекции и из документа. |
+### clear() {#clear}
 ```
 public void clear()
 ```
 
 
-Удаляет все поля этой коллекции из документа и из самой этой коллекции.
+Удаляет все поля этой коллекции из документа и из самой коллекции.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+ **Examples:** 
+
+Показывает, как удалять поля из коллекции полей.
+
 ```
-public boolean equals(Object arg0)
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+ builder.insertField(" TIME ");
+ builder.insertField(" REVNUM ");
+ builder.insertField(" AUTHOR  \"John Doe\" ");
+ builder.insertField(" SUBJECT \"My Subject\" ");
+ builder.insertField(" QUOTE \"Hello world!\" ");
+ doc.updateFields();
+
+ FieldCollection fields = doc.getRange().getFields();
+
+ Assert.assertEquals(6, fields.getCount());
+
+ // Below are four ways of removing fields from a field collection.
+ // 1 -  Get a field to remove itself:
+ fields.get(0).remove();
+ Assert.assertEquals(5, fields.getCount());
+
+ // 2 -  Get the collection to remove a field that we pass to its removal method:
+ Field lastField = fields.get(3);
+ fields.remove(lastField);
+ Assert.assertEquals(4, fields.getCount());
+
+ // 3 -  Remove a field from a collection at an index:
+ fields.removeAt(2);
+ Assert.assertEquals(3, fields.getCount());
+
+ // 4 -  Remove all the fields from the collection at once:
+ fields.clear();
+ Assert.assertEquals(0, fields.getCount());
+ 
 ```
 
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public Field get(int index)
 ```
@@ -76,33 +231,65 @@ public Field get(int index)
 
 Возвращает поле по указанному индексу.
 
-Индекс отсчитывается от нуля.
+ **Remarks:** 
 
-Отрицательные индексы разрешены и указывают на доступ из задней части коллекции. Например, -1 означает последний элемент, -2 означает предпоследний и так далее.
+Индекс начинается с нуля.
 
-Если индекс больше или равен количеству элементов в списке, возвращается пустая ссылка.
+Отрицательные индексы допускаются и указывают доступ с конца коллекции. Например, -1 означает последний элемент, -2 означает предпоследний и так далее.
 
-Если индекс отрицательный и его абсолютное значение больше, чем количество элементов в списке, возвращается пустая ссылка.
+Если индекс больше или равен количеству элементов в списке, возвращается null-ссылка.
 
-**Параметры:**
+Если индекс отрицательный и его абсолютное значение больше количества элементов в списке, возвращается null-ссылка.
 
+ **Examples:** 
+
+Показывает, как удалять поля из коллекции полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+ builder.insertField(" TIME ");
+ builder.insertField(" REVNUM ");
+ builder.insertField(" AUTHOR  \"John Doe\" ");
+ builder.insertField(" SUBJECT \"My Subject\" ");
+ builder.insertField(" QUOTE \"Hello world!\" ");
+ doc.updateFields();
+
+ FieldCollection fields = doc.getRange().getFields();
+
+ Assert.assertEquals(6, fields.getCount());
+
+ // Below are four ways of removing fields from a field collection.
+ // 1 -  Get a field to remove itself:
+ fields.get(0).remove();
+ Assert.assertEquals(5, fields.getCount());
+
+ // 2 -  Get the collection to remove a field that we pass to its removal method:
+ Field lastField = fields.get(3);
+ fields.remove(lastField);
+ Assert.assertEquals(4, fields.getCount());
+
+ // 3 -  Remove a field from a collection at an index:
+ fields.removeAt(2);
+ Assert.assertEquals(3, fields.getCount());
+
+ // 4 -  Remove all the fields from the collection at once:
+ fields.clear();
+ Assert.assertEquals(0, fields.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс в коллекции. |
+| индекс | int | Индекс в коллекции. |
 
-**Возвращает:**
-[Field](../../com.aspose.words/field) - Поле по указанному индексу.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[Field](../../com.aspose.words/field/) - A field at the specified index.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -110,19 +297,142 @@ public int getCount()
 
 Возвращает количество полей в коллекции.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как работать с коллекцией полей.
+
+```
+
+ public void fieldCollection() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+     builder.insertField(" TIME ");
+     builder.insertField(" REVNUM ");
+     builder.insertField(" AUTHOR  \"John Doe\" ");
+     builder.insertField(" SUBJECT \"My Subject\" ");
+     builder.insertField(" QUOTE \"Hello world!\" ");
+     doc.updateFields();
+
+     FieldCollection fields = doc.getRange().getFields();
+
+     Assert.assertEquals(6, fields.getCount());
+
+     // Iterate over the field collection, and print contents and type
+     // of every field using a custom visitor implementation.
+     FieldVisitor fieldVisitor = new FieldVisitor();
+
+     Iterator fieldEnumerator = fields.iterator();
+
+     while (fieldEnumerator.hasNext()) {
+         if (fieldEnumerator != null) {
+             Field currentField = fieldEnumerator.next();
+
+             currentField.getStart().accept(fieldVisitor);
+             if (currentField.getSeparator() != null) {
+                 currentField.getSeparator().accept(fieldVisitor);
+             }
+             currentField.getEnd().accept(fieldVisitor);
+         } else {
+             System.out.println("There are no fields in the document.");
+         }
+     }
+
+     System.out.println(fieldVisitor.getText());
+ }
+
+ /// 
+ /// Document visitor implementation that prints field info.
+ /// 
+ public static class FieldVisitor extends DocumentVisitor {
+     public FieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(final FieldStart fieldStart) {
+         mBuilder.append("Found field: " + fieldStart.getFieldType() + "\r\n");
+         mBuilder.append("\tField code: " + fieldStart.getField().getFieldCode() + "\r\n");
+         mBuilder.append("\tDisplayed as: " + fieldStart.getField().getResult() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(final FieldSeparator fieldSeparator) {
+         mBuilder.append("\tFound separator: " + fieldSeparator.getText() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(final FieldEnd fieldEnd) {
+         mBuilder.append("End of field: " + fieldEnd.getFieldType() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final  StringBuilder mBuilder;
+ }
+ 
+```
+
+Показывает, как удалять поля из коллекции полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+ builder.insertField(" TIME ");
+ builder.insertField(" REVNUM ");
+ builder.insertField(" AUTHOR  \"John Doe\" ");
+ builder.insertField(" SUBJECT \"My Subject\" ");
+ builder.insertField(" QUOTE \"Hello world!\" ");
+ doc.updateFields();
+
+ FieldCollection fields = doc.getRange().getFields();
+
+ Assert.assertEquals(6, fields.getCount());
+
+ // Below are four ways of removing fields from a field collection.
+ // 1 -  Get a field to remove itself:
+ fields.get(0).remove();
+ Assert.assertEquals(5, fields.getCount());
+
+ // 2 -  Get the collection to remove a field that we pass to its removal method:
+ Field lastField = fields.get(3);
+ fields.remove(lastField);
+ Assert.assertEquals(4, fields.getCount());
+
+ // 3 -  Remove a field from a collection at an index:
+ fields.removeAt(2);
+ Assert.assertEquals(3, fields.getCount());
+
+ // 4 -  Remove all the fields from the collection at once:
+ fields.clear();
+ Assert.assertEquals(0, fields.getCount());
+ 
+```
+
+**Returns:**
 int — количество полей в коллекции.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -130,25 +440,103 @@ public Iterator iterator()
 
 Возвращает объект перечислителя.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как работать с коллекцией полей.
+
+```
+
+ public void fieldCollection() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+     builder.insertField(" TIME ");
+     builder.insertField(" REVNUM ");
+     builder.insertField(" AUTHOR  \"John Doe\" ");
+     builder.insertField(" SUBJECT \"My Subject\" ");
+     builder.insertField(" QUOTE \"Hello world!\" ");
+     doc.updateFields();
+
+     FieldCollection fields = doc.getRange().getFields();
+
+     Assert.assertEquals(6, fields.getCount());
+
+     // Iterate over the field collection, and print contents and type
+     // of every field using a custom visitor implementation.
+     FieldVisitor fieldVisitor = new FieldVisitor();
+
+     Iterator fieldEnumerator = fields.iterator();
+
+     while (fieldEnumerator.hasNext()) {
+         if (fieldEnumerator != null) {
+             Field currentField = fieldEnumerator.next();
+
+             currentField.getStart().accept(fieldVisitor);
+             if (currentField.getSeparator() != null) {
+                 currentField.getSeparator().accept(fieldVisitor);
+             }
+             currentField.getEnd().accept(fieldVisitor);
+         } else {
+             System.out.println("There are no fields in the document.");
+         }
+     }
+
+     System.out.println(fieldVisitor.getText());
+ }
+
+ /// 
+ /// Document visitor implementation that prints field info.
+ /// 
+ public static class FieldVisitor extends DocumentVisitor {
+     public FieldVisitor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(final FieldStart fieldStart) {
+         mBuilder.append("Found field: " + fieldStart.getFieldType() + "\r\n");
+         mBuilder.append("\tField code: " + fieldStart.getField().getFieldCode() + "\r\n");
+         mBuilder.append("\tDisplayed as: " + fieldStart.getField().getResult() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(final FieldSeparator fieldSeparator) {
+         mBuilder.append("\tFound separator: " + fieldSeparator.getText() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(final FieldEnd fieldEnd) {
+         mBuilder.append("End of field: " + fieldEnd.getFieldType() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final  StringBuilder mBuilder;
+ }
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(Field field) {#remove-com.aspose.words.Field-}
+### remove(Field field) {#remove-com.aspose.words.Field}
 ```
 public void remove(Field field)
 ```
@@ -156,69 +544,103 @@ public void remove(Field field)
 
 Удаляет указанное поле из этой коллекции и из документа.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалять поля из коллекции полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+ builder.insertField(" TIME ");
+ builder.insertField(" REVNUM ");
+ builder.insertField(" AUTHOR  \"John Doe\" ");
+ builder.insertField(" SUBJECT \"My Subject\" ");
+ builder.insertField(" QUOTE \"Hello world!\" ");
+ doc.updateFields();
+
+ FieldCollection fields = doc.getRange().getFields();
+
+ Assert.assertEquals(6, fields.getCount());
+
+ // Below are four ways of removing fields from a field collection.
+ // 1 -  Get a field to remove itself:
+ fields.get(0).remove();
+ Assert.assertEquals(5, fields.getCount());
+
+ // 2 -  Get the collection to remove a field that we pass to its removal method:
+ Field lastField = fields.get(3);
+ fields.remove(lastField);
+ Assert.assertEquals(4, fields.getCount());
+
+ // 3 -  Remove a field from a collection at an index:
+ fields.removeAt(2);
+ Assert.assertEquals(3, fields.getCount());
+
+ // 4 -  Remove all the fields from the collection at once:
+ fields.clear();
+ Assert.assertEquals(0, fields.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) | Поле для удаления. |
+| field | [Field](../../com.aspose.words/field/) | Поле для удаления. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
 
 
-Удаляет поле с указанным индексом из этой коллекции и из документа.
+Удаляет поле по указанному индексу из этой коллекции и из документа.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалять поля из коллекции полей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+ builder.insertField(" TIME ");
+ builder.insertField(" REVNUM ");
+ builder.insertField(" AUTHOR  \"John Doe\" ");
+ builder.insertField(" SUBJECT \"My Subject\" ");
+ builder.insertField(" QUOTE \"Hello world!\" ");
+ doc.updateFields();
+
+ FieldCollection fields = doc.getRange().getFields();
+
+ Assert.assertEquals(6, fields.getCount());
+
+ // Below are four ways of removing fields from a field collection.
+ // 1 -  Get a field to remove itself:
+ fields.get(0).remove();
+ Assert.assertEquals(5, fields.getCount());
+
+ // 2 -  Get the collection to remove a field that we pass to its removal method:
+ Field lastField = fields.get(3);
+ fields.remove(lastField);
+ Assert.assertEquals(4, fields.getCount());
+
+ // 3 -  Remove a field from a collection at an index:
+ fields.removeAt(2);
+ Assert.assertEquals(3, fields.getCount());
+
+ // 4 -  Remove all the fields from the collection at once:
+ fields.clear();
+ Assert.assertEquals(0, fields.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс в коллекции. |
+| индекс | int | Индекс в коллекции. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

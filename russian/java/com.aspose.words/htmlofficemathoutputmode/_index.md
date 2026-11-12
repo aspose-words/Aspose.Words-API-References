@@ -1,54 +1,71 @@
 ---
-title: HtmlOfficeMathOutputMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как Aspose.Words экспортирует OfficeMath в HTML, MHTML и EPUB.
+title: "HtmlOfficeMathOutputMode"
+linktitle: "HtmlOfficeMathOutputMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как Aspose.Words экспортирует OfficeMath в HTML, MHTML и EPUB в Java."
 type: docs
-weight: 330
+weight: 384
 url: /ru/java/com.aspose.words/htmlofficemathoutputmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlOfficeMathOutputMode
 ```
 
 Указывает, как Aspose.Words экспортирует OfficeMath в HTML, MHTML и EPUB.
+
+ **Examples:** 
+
+Показывает, как указать способ экспорта объектов Microsoft OfficeMath в HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles OfficeMath objects.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.Image"
+ // will render each OfficeMath object into an image.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.MathML"
+ // will convert each OfficeMath object into MathML.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.Text"
+ // will represent each OfficeMath formula using plain HTML text.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setOfficeMathOutputMode(htmlOfficeMathOutputMode);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.OfficeMathOutputMode.html", options);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [IMAGE](#IMAGE) |  OfficeMath преобразуется в HTML как изображение, заданное параметром![Image 1][] ярлык.
+|  | [IMAGE](#IMAGE) | OfficeMath преобразуется в HTML как изображение, указанное тегом ![Image 1][]. |
 
 
 [Image 1]:  |
-| [MATH_ML](#MATH-ML) | OfficeMath is converted to HTML using MathML. |
-| [TEXT](#TEXT) | OfficeMath is converted to HTML as sequence of runs specified by  tags. |
+| [MATH_ML](#MATH-ML) | OfficeMath преобразуется в HTML с использованием MathML. |
+| [TEXT](#TEXT) | OfficeMath преобразуется в HTML как последовательность запусков, указанная тегами . |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlOfficeMathOutputModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int htmlOfficeMathOutputMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int htmlOfficeMathOutputMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String htmlOfficeMathOutputModeName)](#fromName-java.lang.String) |  |
+| [getName(int htmlOfficeMathOutputMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int htmlOfficeMathOutputMode)](#toString-int) |  |
 ### IMAGE {#IMAGE}
 ```
 public static int IMAGE
 ```
 
 
- OfficeMath преобразуется в HTML как изображение, заданное параметром![Image 1][] ярлык.
+OfficeMath преобразуется в HTML как изображение, указанное тегом ![Image 1][].
 
 
 [Image 1]: 
@@ -59,7 +76,7 @@ public static int MATH_ML
 ```
 
 
-OfficeMath преобразуется в HTML с помощью MathML.
+OfficeMath преобразуется в HTML с использованием MathML.
 
 ### TEXT {#TEXT}
 ```
@@ -67,7 +84,7 @@ public static int TEXT
 ```
 
 
-OfficeMath преобразуется в HTML как последовательность запусков, указанная тегами.
+OfficeMath преобразуется в HTML как последовательность запусков, указанная тегами .
 
 ### length {#length}
 ```
@@ -75,23 +92,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String htmlOfficeMathOutputModeName) {#fromName-java.lang.String-}
+### fromName(String htmlOfficeMathOutputModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String htmlOfficeMathOutputModeName)
 ```
@@ -99,25 +100,14 @@ public static int fromName(String htmlOfficeMathOutputModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlOfficeMathOutputModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int htmlOfficeMathOutputMode) {#getName-int-}
+**Returns:**
+int
+### getName(int htmlOfficeMathOutputMode) {#getName-int}
 ```
 public static String getName(int htmlOfficeMathOutputMode)
 ```
@@ -125,15 +115,14 @@ public static String getName(int htmlOfficeMathOutputMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlOfficeMathOutputMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -141,45 +130,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int htmlOfficeMathOutputMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int htmlOfficeMathOutputMode) {#toString-int}
 ```
 public static String toString(int htmlOfficeMathOutputMode)
 ```
@@ -187,47 +140,10 @@ public static String toString(int htmlOfficeMathOutputMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlOfficeMathOutputMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

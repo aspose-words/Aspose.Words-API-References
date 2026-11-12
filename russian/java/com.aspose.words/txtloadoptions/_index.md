@@ -1,79 +1,110 @@
 ---
-title: TxtLoadOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать дополнительные параметры при загрузке документа в объект.
+title: "TxtLoadOptions"
+linktitle: "TxtLoadOptions"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать дополнительные параметры при загрузке документа LoadFormat.TEXT в объект Document в Java."
 type: docs
-weight: 584
+weight: 693
 url: /ru/java/com.aspose.words/txtloadoptions/
 ---
 
-**Наследование:**
-java.lang.Object, [com.aspose.words.LoadOptions](../../com.aspose.words/loadoptions)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.LoadOptions](../../com.aspose.words/loadoptions/)
 ```
 public class TxtLoadOptions extends LoadOptions
 ```
 
- Позволяет указать дополнительные параметры при загрузке[LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT) документ в[Document](../../com.aspose.words/document) объект.
+Позволяет указать дополнительные параметры при загрузке документа [LoadFormat.TEXT](../../com.aspose.words/loadformat/\#TEXT) в объект [Document](../../com.aspose.words/document/).
 
- Чтобы узнать больше, посетите**Specify Load Options** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Specify Load Options ][Specify Load Options].
+
+ **Examples:** 
+
+Показывает, как читать и отображать гиперссылки.
+
+```
+
+ final String INPUT_TEXT = "Some links in TXT:\n" +
+         "https://www.aspose.com/\n" +
+         "https://docs.aspose.com/words/net/\n";
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream(INPUT_TEXT.getBytes(StandardCharsets.US_ASCII)))
+ {
+     // Load document with hyperlinks.
+     TxtLoadOptions loadOptions = new TxtLoadOptions();
+     loadOptions.setDetectHyperlinks(true);
+     Document doc = new Document(stream, loadOptions);
+
+     // Print hyperlinks text.
+     for (Field field : doc.getRange().getFields())
+         System.out.println(field.getResult());
+
+     Assert.assertEquals(doc.getRange().getFields().get(0).getResult().trim(), "https://www.aspose.com/");
+     Assert.assertEquals(doc.getRange().getFields().get(1).getResult().trim(), "https://docs.aspose.com/words/net/");
+ }
+ 
+```
+
+
+[Specify Load Options]: https://docs.aspose.com/words/java/specify-load-options/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [TxtLoadOptions()](#TxtLoadOptions--) | Инициализирует новый экземпляр этого класса со значениями по умолчанию. |
+| [TxtLoadOptions()](#TxtLoadOptions) | Инициализирует новый экземпляр этого класса со значениями по умолчанию. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAutoNumberingDetection()](#getAutoNumberingDetection--) | Получает логическое значение, указывающее, что при загрузке документа будет выполняться автоматическое определение нумерации. |
-| [getBaseUri()](#getBaseUri--) | Получает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI, когда это необходимо. |
-| [getClass()](#getClass--) |  |
-| [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) |  Получает, следует ли преобразовывать метафайл (**F:Aspose.FileFormat.Wmf** или же**F:Aspose.FileFormat.Emf** ) изображения в**F:Aspose.FileFormat.Png** формат изображения. |
-| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | Определяет, следует ли преобразовывать фигуры с помощью EquationXML в объекты Office Math. |
-| [getDetectNumberingWithWhitespaces()](#getDetectNumberingWithWhitespaces--) | Позволяет указать, как распознаются элементы нумерованного списка при импорте документа из обычного текстового формата. |
-| [getDocumentDirection()](#getDocumentDirection--) | Получает направление документа. |
-| [getEncoding()](#getEncoding--) | Получает кодировку, которая будет использоваться для загрузки документа HTML, TXT или CHM, если кодировка не указана внутри документа. |
-| [getFontSettings()](#getFontSettings--) | Позволяет указать настройки шрифта документа. |
-| [getLanguagePreferences()](#getLanguagePreferences--) | Получает языковые настройки, которые будут использоваться при загрузке документа. |
-| [getLeadingSpacesOptions()](#getLeadingSpacesOptions--) | Получает предпочтительный вариант обработки ведущего пространства. |
-| [getLoadFormat()](#getLoadFormat--) | Задает формат загружаемого документа. |
-| [getMswVersion()](#getMswVersion--) | Позволяет указать, что процесс загрузки документа должен соответствовать конкретной версии MS Word. |
-| [getPassword()](#getPassword--) | Получает пароль для открытия зашифрованного документа. |
-| [getPreserveIncludePictureField()](#getPreserveIncludePictureField--) | Определяет, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. |
-| [getProgressCallback()](#getProgressCallback--) | Вызывается во время загрузки документа и принимает данные о ходе загрузки. |
-| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | Позволяет управлять загрузкой внешних ресурсов (изображений, таблиц стилей) при импорте документа из HTML, MHTML. |
-| [getTempFolder()](#getTempFolder--) | Позволяет использовать временные файлы при чтении документа. |
-| [getTrailingSpacesOptions()](#getTrailingSpacesOptions--) | Получает предпочтительный вариант обработки завершающего пробела. |
-| [getUpdateDirtyFields()](#getUpdateDirtyFields--) | Указывает, следует ли обновлять поля с грязным атрибутом. |
-| [getWarningCallback()](#getWarningCallback--) | Вызывается во время операции загрузки при обнаружении проблемы, которая может привести к потере точности данных или форматирования. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAutoNumberingDetection(boolean value)](#setAutoNumberingDetection-boolean-) | Задает логическое значение, указывающее, что при загрузке документа будет выполняться автоматическое определение нумерации. |
-| [setBaseUri(String value)](#setBaseUri-java.lang.String-) | Задает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI, когда это необходимо. |
-| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) |  Устанавливает, следует ли преобразовывать метафайл (**F:Aspose.FileFormat.Wmf** или же**F:Aspose.FileFormat.Emf** ) изображения в**F:Aspose.FileFormat.Png** формат изображения. |
-| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | Устанавливает, следует ли преобразовывать фигуры с EquationXML в объекты Office Math. |
-| [setDetectNumberingWithWhitespaces(boolean value)](#setDetectNumberingWithWhitespaces-boolean-) | Позволяет указать, как распознаются элементы нумерованного списка при импорте документа из обычного текстового формата. |
-| [setDocumentDirection(int value)](#setDocumentDirection-int-) | Задает направление документа. |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Задает кодировку, которая будет использоваться для загрузки документа HTML, TXT или CHM, если кодировка не указана внутри документа. |
-| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | Позволяет указать настройки шрифта документа. |
-| [setLeadingSpacesOptions(int value)](#setLeadingSpacesOptions-int-) | Устанавливает предпочтительный вариант обработки ведущего пробела. |
-| [setLoadFormat(int value)](#setLoadFormat-int-) | Задает формат загружаемого документа. |
-| [setMswVersion(int value)](#setMswVersion-int-) | Позволяет указать, что процесс загрузки документа должен соответствовать конкретной версии MS Word. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Устанавливает пароль для открытия зашифрованного документа. |
-| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean-) | Устанавливает, сохранять ли поле INCLUDEPICTURE при чтении форматов Microsoft Word. |
-| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | Вызывается во время загрузки документа и принимает данные о ходе загрузки. |
-| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | Позволяет управлять загрузкой внешних ресурсов (изображений, таблиц стилей) при импорте документа из HTML, MHTML. |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Позволяет использовать временные файлы при чтении документа. |
-| [setTrailingSpacesOptions(int value)](#setTrailingSpacesOptions-int-) | Устанавливает предпочтительный вариант обработки завершающего пробела. |
-| [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean-) | Указывает, следует ли обновлять поля с грязным атрибутом. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Вызывается во время операции загрузки при обнаружении проблемы, которая может привести к потере точности данных или форматирования. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TxtLoadOptions() {#TxtLoadOptions--}
+| [equals(Object obj)](#equals-java.lang.Object) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| [getAutoNumberingDetection()](#getAutoNumberingDetection) | Возвращает логическое значение, указывающее, будет ли выполнено автоматическое обнаружение нумерации при загрузке документа. |
+| [getBaseUri()](#getBaseUri) | Получает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI при необходимости. |
+| [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Получает, следует ли конвертировать метафайлы ( **F:Aspose.FileFormat.Wmf** или **F:Aspose.FileFormat.Emf**) в формат изображения **F:Aspose.FileFormat.Png**. |
+| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath) | Получает, следует ли конвертировать фигуры с EquationXML в объекты Office Math. |
+| [getDetectHyperlinks()](#getDetectHyperlinks) | Указывает, следует ли обнаруживать гиперссылки в тексте. |
+| [getDetectNumberingWithWhitespaces()](#getDetectNumberingWithWhitespaces) | Позволяет указать, как распознавать элементы нумерованных списков при импорте документа из формата простого текста. |
+| [getDocumentDirection()](#getDocumentDirection) | Возвращает направление документа. |
+| [getEncoding()](#getEncoding) | Получает кодировку, которая будет использоваться для загрузки HTML, TXT или CHM‑документа, если кодировка не указана внутри документа. |
+| [getFontSettings()](#getFontSettings) | Позволяет задавать параметры шрифтов документа. |
+| [getIgnoreOleData()](#getIgnoreOleData) | Указывает, следует ли игнорировать данные OLE. |
+| [getLanguagePreferences()](#getLanguagePreferences) | Получает предпочтения языка, которые будут использоваться при загрузке документа. |
+| [getLeadingSpacesOptions()](#getLeadingSpacesOptions) | Возвращает предпочтительный вариант обработки начального пробела. |
+| [getLoadFormat()](#getLoadFormat) | Указывает формат загружаемого документа. |
+| [getMswVersion()](#getMswVersion) | Позволяет указать, что процесс загрузки документа должен соответствовать определённой версии MS Word. |
+| [getPassword()](#getPassword) | Получает пароль для открытия зашифрованного документа. |
+| [getPreserveIncludePictureField()](#getPreserveIncludePictureField) | Получает, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. |
+| [getProgressCallback()](#getProgressCallback) | Вызывается во время загрузки документа и принимает данные о прогрессе загрузки. |
+| [getRecoveryMode()](#getRecoveryMode) | Определяет, как документ должен обрабатываться, если при загрузке происходят ошибки. |
+| [getResourceLoadingCallback()](#getResourceLoadingCallback) | Позволяет контролировать, как внешние ресурсы (изображения, таблицы стилей) загружаются при импорте документа из HTML, MHTML. |
+| [getTempFolder()](#getTempFolder) | Позволяет использовать временные файлы при чтении документа. |
+| [getTrailingSpacesOptions()](#getTrailingSpacesOptions) | Возвращает предпочтительный вариант обработки конечного пробела. |
+| [getUpdateDirtyFields()](#getUpdateDirtyFields) | Указывает, обновлять ли поля с атрибутом  dirty . |
+| [getUseSystemLcid()](#getUseSystemLcid) | Возвращает, использовать ли значение LCID, полученное из реестра Windows, для определения полей по умолчанию в настройках страницы. |
+| [getWarningCallback()](#getWarningCallback) | Вызывается во время операции загрузки, когда обнаруживается проблема, которая может привести к потере точности данных или форматирования. |
+| [setAutoNumberingDetection(boolean value)](#setAutoNumberingDetection-boolean) | Устанавливает логическое значение, указывающее, будет ли выполнено автоматическое обнаружение нумерации при загрузке документа. |
+| [setBaseUri(String value)](#setBaseUri-java.lang.String) | Устанавливает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI при необходимости. |
+| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean) | Устанавливает, преобразовывать ли метафайлы( **F:Aspose.FileFormat.Wmf** или **F:Aspose.FileFormat.Emf**) в формат изображения **F:Aspose.FileFormat.Png**. |
+| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean) | Устанавливает, преобразовывать ли фигуры с EquationXML в объекты Office Math. |
+| [setDetectHyperlinks(boolean value)](#setDetectHyperlinks-boolean) | Указывает, следует ли обнаруживать гиперссылки в тексте. |
+| [setDetectNumberingWithWhitespaces(boolean value)](#setDetectNumberingWithWhitespaces-boolean) | Позволяет указать, как распознавать элементы нумерованных списков при импорте документа из формата простого текста. |
+| [setDocumentDirection(int value)](#setDocumentDirection-int) | Устанавливает направление документа. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) | Устанавливает кодировку, которая будет использоваться для загрузки HTML, TXT или CHM документа, если кодировка не указана в документе. |
+| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings) | Позволяет задавать параметры шрифтов документа. |
+| [setIgnoreOleData(boolean value)](#setIgnoreOleData-boolean) | Указывает, следует ли игнорировать данные OLE. |
+| [setLeadingSpacesOptions(int value)](#setLeadingSpacesOptions-int) | Устанавливает предпочтительный вариант обработки начального пробела. |
+| [setLoadFormat(int value)](#setLoadFormat-int) | Указывает формат загружаемого документа. |
+| [setMswVersion(int value)](#setMswVersion-int) | Позволяет указать, что процесс загрузки документа должен соответствовать определённой версии MS Word. |
+| [setPassword(String value)](#setPassword-java.lang.String) | Устанавливает пароль для открытия зашифрованного документа. |
+| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean) | Устанавливает, сохранять ли поле INCLUDEPICTURE при чтении форматов Microsoft Word. |
+| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback) | Вызывается во время загрузки документа и принимает данные о прогрессе загрузки. |
+| [setRecoveryMode(int value)](#setRecoveryMode-int) | Определяет, как документ должен обрабатываться, если при загрузке происходят ошибки. |
+| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Позволяет контролировать, как внешние ресурсы (изображения, таблицы стилей) загружаются при импорте документа из HTML, MHTML. |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String) | Позволяет использовать временные файлы при чтении документа. |
+| [setTrailingSpacesOptions(int value)](#setTrailingSpacesOptions-int) | Устанавливает предпочтительный вариант обработки конечного пробела. |
+| [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Указывает, обновлять ли поля с атрибутом  dirty . |
+| [setUseSystemLcid(boolean value)](#setUseSystemLcid-boolean) | Устанавливает, использовать ли значение LCID, полученное из реестра Windows, для определения полей по умолчанию в настройках страницы. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Вызывается во время операции загрузки, когда обнаруживается проблема, которая может привести к потере точности данных или форматирования. |
+### TxtLoadOptions() {#TxtLoadOptions}
 ```
 public TxtLoadOptions()
 ```
@@ -81,633 +112,2310 @@ public TxtLoadOptions()
 
 Инициализирует новый экземпляр этого класса со значениями по умолчанию.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+ **Examples:** 
+
+Показывает, как читать и отображать гиперссылки.
+
 ```
-public boolean equals(Object arg0)
+
+ final String INPUT_TEXT = "Some links in TXT:\n" +
+         "https://www.aspose.com/\n" +
+         "https://docs.aspose.com/words/net/\n";
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream(INPUT_TEXT.getBytes(StandardCharsets.US_ASCII)))
+ {
+     // Load document with hyperlinks.
+     TxtLoadOptions loadOptions = new TxtLoadOptions();
+     loadOptions.setDetectHyperlinks(true);
+     Document doc = new Document(stream, loadOptions);
+
+     // Print hyperlinks text.
+     for (Field field : doc.getRange().getFields())
+         System.out.println(field.getResult());
+
+     Assert.assertEquals(doc.getRange().getFields().get(0).getResult().trim(), "https://www.aspose.com/");
+     Assert.assertEquals(doc.getRange().getFields().get(1).getResult().trim(), "https://docs.aspose.com/words/net/");
+ }
+ 
+```
+
+### equals(Object obj) {#equals-java.lang.Object}
+```
+public boolean equals(Object obj)
 ```
 
 
+Определяет, равен ли указанный объект по значению текущему объекту.
 
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| obj | java.lang.Object |  |
 
-**Возвращает:**
-логический
-### getAutoNumberingDetection() {#getAutoNumberingDetection--}
+**Returns:**
+boolean
+### getAutoNumberingDetection() {#getAutoNumberingDetection}
 ```
 public boolean getAutoNumberingDetection()
 ```
 
 
-Получает логическое значение, указывающее, что при загрузке документа будет выполняться автоматическое определение нумерации. Значение по умолчанию верно .
+Возвращает логическое значение, указывающее, будет ли выполнено автоматическое обнаружение нумерации при загрузке документа. Значение по умолчанию — true.
 
-**Возвращает:**
-boolean — логическое значение, указывающее, что при загрузке документа будет выполняться автоматическое определение нумерации.
-### getBaseUri() {#getBaseUri--}
+ **Examples:** 
+
+Показывает, как отключить автоматическое определение нумерации.
+
+```
+
+ TxtLoadOptions options = new TxtLoadOptions(); { options.setAutoNumberingDetection(false); }
+ Document doc = new Document(getMyDir() + "Number detection.txt", options);
+ 
+```
+
+**Returns:**
+boolean - Булево значение, указывающее, будет ли выполнено автоматическое определение нумерации при загрузке документа.
+### getBaseUri() {#getBaseUri}
 ```
 public String getBaseUri()
 ```
 
 
-Получает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI, когда это необходимо. Может быть нулевой или пустой строкой. Значение по умолчанию равно нулю.
+Получает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI при необходимости. Может быть  null  или пустой строкой. По умолчанию —  null .
+
+ **Remarks:** 
 
 Это свойство используется для преобразования относительных URI в абсолютные в следующих случаях:
 
-1.  При загрузке HTML-документа из потока, когда документ содержит изображения с относительными URI и не имеет базового URI, указанного в элементе BASE HTML.
-2.  При сохранении документа в PDF и других форматах для извлечения изображений, связанных с использованием относительных URI, чтобы изображения можно было сохранить в выходной документ.
+1.  При загрузке HTML‑документа из потока, если документ содержит изображения с относительными URI и не имеет базового URI, указанного в элементе BASE HTML.
+2.  При сохранении документа в PDF и другие форматы, чтобы получить изображения, связанные с помощью относительных URI, чтобы их можно было сохранить в выходном документе.
 
-**Возвращает:**
-java.lang.String — строка, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI, когда это необходимо.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как открыть HTML‑документ с изображениями из потока, используя базовый URI.
+
 ```
-public final native Class<?> getClass()
+
+ InputStream stream = new FileInputStream(getMyDir() + "Document.html");
+ try  {
+     // Pass the URI of the base folder while loading it
+     // so that any images with relative URIs in the HTML document can be found.
+     LoadOptions loadOptions = new LoadOptions();
+     loadOptions.setBaseUri(getImageDir());
+
+     Document doc = new Document(stream, loadOptions);
+
+     // Verify that the first shape of the document contains a valid image.
+     Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+     Assert.assertTrue(shape.isImage());
+     Assert.assertNotNull(shape.getImageData().getImageBytes());
+     Assert.assertEquals(32.0, ConvertUtil.pointToPixel(shape.getWidth()), 0.01);
+     Assert.assertEquals(32.0, ConvertUtil.pointToPixel(shape.getHeight()), 0.01);
+ } finally {
+     if (stream != null) stream.close();
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getConvertMetafilesToPng() {#getConvertMetafilesToPng--}
+**Returns:**
+java.lang.String - Строка, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI при необходимости.
+### getConvertMetafilesToPng() {#getConvertMetafilesToPng}
 ```
 public boolean getConvertMetafilesToPng()
 ```
 
 
- Получает, следует ли преобразовывать метафайл (**F:Aspose.FileFormat.Wmf** или же**F:Aspose.FileFormat.Emf** ) изображения в**F:Aspose.FileFormat.Png** формат изображения. Метафайлы (**F:Aspose.FileFormat.Wmf** или же**F:Aspose.FileFormat.Emf** ) представляет собой несжатый формат изображения и иногда требует много оперативной памяти для хранения и обработки документа. Эта опция позволяет преобразовать все изображения метафайла в**F:Aspose.FileFormat.Png** при загрузке документа. Обратите внимание - преобразование векторной графики в растровую снижает качество изображений.
+Получает, следует ли конвертировать метафайлы ( **F:Aspose.FileFormat.Wmf** или **F:Aspose.FileFormat.Emf**) в формат изображения **F:Aspose.FileFormat.Png**.
 
-**Возвращает:**
- boolean — конвертировать ли метафайл (**F:Aspose.FileFormat.Wmf** или же**F:Aspose.FileFormat.Emf** ) изображения в**F:Aspose.FileFormat.Png** формат изображения.
-### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath--}
+ **Remarks:** 
+
+Метaфайлы ( **F:Aspose.FileFormat.Wmf** или **F:Aspose.FileFormat.Emf**) — это несжатый формат изображений, который иногда требует слишком много ОЗУ для хранения и обработки документа. Эта опция позволяет при загрузке документа преобразовать все изображения метафайлов в **F:Aspose.FileFormat.Png**. Обратите внимание — преобразование векторной графики в растровую уменьшает качество изображений.
+
+ **Examples:** 
+
+Показывает, как преобразовать WMF/EMF в PNG при загрузке документа.
+
+```
+
+ Document doc = new Document();
+
+ Shape shape = new Shape(doc, ShapeType.IMAGE);
+ shape.getImageData().setImage(getImageDir() + "Windows MetaFile.wmf");
+ shape.setWidth(100.0);
+ shape.setHeight(100.0);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(shape);
+
+ doc.save(getArtifactsDir() + "Image.CreateImageDirectly.docx");
+
+ shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+ TestUtil.verifyImageInShape(1600, 1600, ImageType.WMF, shape);
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setConvertMetafilesToPng(true);
+
+ doc = new Document(getArtifactsDir() + "Image.CreateImageDirectly.docx", loadOptions);
+ shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+ TestUtil.verifyImageInShape(1600, 1600, ImageType.PNG, shape);
+ 
+```
+
+**Returns:**
+boolean - Нужно ли преобразовывать изображения метафайлов ( **F:Aspose.FileFormat.Wmf** или **F:Aspose.FileFormat.Emf**) в формат изображения **F:Aspose.FileFormat.Png**.
+### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath}
 ```
 public boolean getConvertShapeToOfficeMath()
 ```
 
 
-Определяет, следует ли преобразовывать фигуры с помощью EquationXML в объекты Office Math.
+Получает, следует ли конвертировать фигуры с EquationXML в объекты Office Math.
 
-**Возвращает:**
-boolean — следует ли преобразовывать фигуры с помощью EquationXML в объекты Office Math.
-### getDetectNumberingWithWhitespaces() {#getDetectNumberingWithWhitespaces--}
+ **Examples:** 
+
+Показывает, как преобразовать фигуры EquationXML в объекты Office Math.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+
+ // Use this flag to specify whether to convert the shapes with EquationXML attributes
+ // to Office Math objects and then load the document.
+ loadOptions.setConvertShapeToOfficeMath(isConvertShapeToOfficeMath);
+
+ Document doc = new Document(getMyDir() + "Math shapes.docx", loadOptions);
+
+ if (isConvertShapeToOfficeMath) {
+     Assert.assertEquals(16, doc.getChildNodes(NodeType.SHAPE, true).getCount());
+     Assert.assertEquals(34, doc.getChildNodes(NodeType.OFFICE_MATH, true).getCount());
+ } else {
+     Assert.assertEquals(24, doc.getChildNodes(NodeType.SHAPE, true).getCount());
+     Assert.assertEquals(0, doc.getChildNodes(NodeType.OFFICE_MATH, true).getCount());
+ }
+ 
+```
+
+**Returns:**
+boolean - Нужно ли преобразовывать фигуры с EquationXML в объекты Office Math.
+### getDetectHyperlinks() {#getDetectHyperlinks}
+```
+public boolean getDetectHyperlinks()
+```
+
+
+Указывает, следует ли обнаруживать гиперссылки в тексте. Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как читать и отображать гиперссылки.
+
+```
+
+ final String INPUT_TEXT = "Some links in TXT:\n" +
+         "https://www.aspose.com/\n" +
+         "https://docs.aspose.com/words/net/\n";
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream(INPUT_TEXT.getBytes(StandardCharsets.US_ASCII)))
+ {
+     // Load document with hyperlinks.
+     TxtLoadOptions loadOptions = new TxtLoadOptions();
+     loadOptions.setDetectHyperlinks(true);
+     Document doc = new Document(stream, loadOptions);
+
+     // Print hyperlinks text.
+     for (Field field : doc.getRange().getFields())
+         System.out.println(field.getResult());
+
+     Assert.assertEquals(doc.getRange().getFields().get(0).getResult().trim(), "https://www.aspose.com/");
+     Assert.assertEquals(doc.getRange().getFields().get(1).getResult().trim(), "https://docs.aspose.com/words/net/");
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getDetectNumberingWithWhitespaces() {#getDetectNumberingWithWhitespaces}
 ```
 public boolean getDetectNumberingWithWhitespaces()
 ```
 
 
-Позволяет указать, как распознаются элементы нумерованного списка при импорте документа из обычного текстового формата. Значение по умолчанию верно .
+Позволяет указать, как распознаются элементы нумерованных списков при импорте документа из формата простого текста. Значение по умолчанию — true.
 
-Если для этого параметра установлено значение false, алгоритм распознавания списков обнаруживает абзацы списка, когда номера списка заканчиваются точкой, правой скобкой или символом маркера (например, "\\u2022", "\*", "-" или "о").
+ **Remarks:** 
 
-Если для этой опции установлено значение true, пробелы также используются в качестве разделителей номеров списка: алгоритм распознавания списка для нумерации в арабском стиле (1., 1.1.2.) использует как пробелы, так и символы точки ("".").
+Если эта опция установлена в false, алгоритм распознавания списков обнаруживает абзацы списков, когда номера списков заканчиваются точкой, правой скобкой или символами маркеров (например, "\u2022", "*", "-" или "o").
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getDocumentDirection() {#getDocumentDirection--}
+Если эта опция установлена в true, пробелы также используются в качестве разделителей номеров списка: алгоритм распознавания списков для арабской нумерации (1., 1.1.2.) использует как пробелы, так и точку (".") символы.
+
+ **Examples:** 
+
+Показывает, как обнаруживать списки при загрузке документов простого текста.
+
+```
+
+ // Create a plaintext document in a string with four separate parts that we may interpret as lists,
+ // with different delimiters. Upon loading the plaintext document into a "Document" object,
+ // Aspose.Words will always detect the first three lists and will add a "List" object
+ // for each to the document's "Lists" property.
+ final String TEXT_DOC = "Full stop delimiters:\n" +
+         "1. First list item 1\n" +
+         "2. First list item 2\n" +
+         "3. First list item 3\n\n" +
+         "Right bracket delimiters:\n" +
+         "1) Second list item 1\n" +
+         "2) Second list item 2\n" +
+         "3) Second list item 3\n\n" +
+         "Bullet delimiters:\n" +
+         "\u2022 Third list item 1\n" +
+         "\u2022 Third list item 2\n" +
+         "\u2022 Third list item 3\n\n" +
+         "Whitespace delimiters:\n" +
+         "1 Fourth list item 1\n" +
+         "2 Fourth list item 2\n" +
+         "3 Fourth list item 3";
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "DetectNumberingWithWhitespaces" property to "true" to detect numbered items
+ // with whitespace delimiters, such as the fourth list in our document, as lists.
+ // This may also falsely detect paragraphs that begin with numbers as lists.
+ // Set the "DetectNumberingWithWhitespaces" property to "false"
+ // to not create lists from numbered items with whitespace delimiters.
+ loadOptions.setDetectNumberingWithWhitespaces(detectNumberingWithWhitespaces);
+
+ Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
+
+ List paragraphList = Arrays.stream(doc.getFirstSection().getBody().getParagraphs().toArray())
+         .filter(Paragraph.class::isInstance)
+         .map(Paragraph.class::cast)
+         .collect(Collectors.toList());
+
+ if (detectNumberingWithWhitespaces) {
+     Assert.assertEquals(4, doc.getLists().getCount());
+     Assert.assertTrue(IterableUtils.matchesAny(paragraphList, s -> s.getText().contains("Fourth list") && s.isListItem()));
+ } else {
+     Assert.assertEquals(3, doc.getLists().getCount());
+     Assert.assertFalse(IterableUtils.matchesAny(paragraphList, s -> s.getText().contains("Fourth list") && s.isListItem()));
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getDocumentDirection() {#getDocumentDirection}
 ```
 public int getDocumentDirection()
 ```
 
 
- Получает направление документа. Значение по умолчанию[DocumentDirection.LEFT\_TO\_RIGHT](../../com.aspose.words/documentdirection\#LEFT-TO-RIGHT).
+Получает направление документа. Значение по умолчанию — [DocumentDirection.LEFT\_TO\_RIGHT](../../com.aspose.words/documentdirection/\#LEFT-TO-RIGHT).
 
-**Возвращает:**
- int - Направление документа. Возвращаемое значение является одним из[DocumentDirection](../../com.aspose.words/documentdirection) константы.
-### getEncoding() {#getEncoding--}
+ **Examples:** 
+
+Показывает, как определить направление текста в простом документе.
+
+```
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
+ // the direction of every paragraph of text that Aspose.Words loads from plaintext.
+ // Each paragraph's "Bidi" property will store its direction.
+ loadOptions.setDocumentDirection(DocumentDirection.AUTO);
+
+ // Detect Hebrew text as right-to-left.
+ Document doc = new Document(getMyDir() + "Hebrew text.txt", loadOptions);
+
+ Assert.assertTrue(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
+
+ // Detect English text as right-to-left.
+ doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertFalse(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
+ 
+```
+
+**Returns:**
+int - Направление документа. Возвращаемое значение является одной из констант [DocumentDirection](../../com.aspose.words/documentdirection/).
+### getEncoding() {#getEncoding}
 ```
 public Charset getEncoding()
 ```
 
 
-Получает кодировку, которая будет использоваться для загрузки документа HTML, TXT или CHM, если кодировка не указана внутри документа. Может быть нулевым. Значение по умолчанию равно нулю.
+Получает кодировку, которая будет использоваться для загрузки HTML, TXT или CHM‑документа, если кодировка не указана внутри документа. Может быть  null . По умолчанию —  null .
 
-Это свойство используется только при загрузке документов HTML, TXT или CHM.
+ **Remarks:** 
 
-Если кодировка внутри документа не указана и это свойство равно null , то система попытается автоматически определить кодировку.
+Это свойство используется только при загрузке HTML, TXT или CHM‑документов.
 
-**Возвращает:**
-java.nio.charset.Charset — кодировка, которая будет использоваться для загрузки документа HTML, TXT или CHM, если кодировка не указана внутри документа.
-### getFontSettings() {#getFontSettings--}
+Если кодировка не указана внутри документа и это свойство равно  null , система попытается автоматически определить кодировку.
+
+ **Examples:** 
+
+Показывает, как задать кодировку для открытия документа.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
+
+**Returns:**
+java.nio.charset.Charset - Кодировка, которая будет использоваться для загрузки HTML, TXT или CHM‑документа, если кодировка не указана внутри документа.
+### getFontSettings() {#getFontSettings}
 ```
 public FontSettings getFontSettings()
 ```
 
 
-Позволяет указать настройки шрифта документа.
+Позволяет задавать параметры шрифтов документа.
 
-При загрузке некоторых форматов Aspose.Words может потребовать разрешения шрифтов. Например, при загрузке HTML-документов Aspose.Words может разрешить шрифты для выполнения резервного шрифта.
+ **Remarks:** 
 
- Если установлено значение null, настройки статического шрифта по умолчанию[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) будет использован.
+При загрузке некоторых форматов Aspose.Words может потребоваться разрешить шрифты. Например, при загрузке HTML‑документов Aspose.Words может разрешать шрифты для выполнения резервирования шрифтов.
 
-Значение по умолчанию равно нулю.
+Если установлено в  null , будут использованы настройки статических шрифтов по умолчанию [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings/\#getDefaultInstance).
 
-**Возвращает:**
-[FontSettings](../../com.aspose.words/fontsettings) - соответствующий[FontSettings](../../com.aspose.words/fontsettings) ценность.
-### getLanguagePreferences() {#getLanguagePreferences--}
+Значение по умолчанию равно  null .
+
+ **Examples:** 
+
+Показывает, как назначать заменители шрифтов при загрузке.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setFontSettings(new FontSettings());
+
+ // Set a font substitution rule for a LoadOptions object.
+ // If the document we are loading uses a font which we do not have,
+ // this rule will substitute the unavailable font with one that does exist.
+ // In this case, all uses of the "MissingFont" will convert to "Comic Sans MS".
+ TableSubstitutionRule substitutionRule = loadOptions.getFontSettings().getSubstitutionSettings().getTableSubstitution();
+ substitutionRule.addSubstitutes("MissingFont", "Comic Sans MS");
+
+ Document doc = new Document(getMyDir() + "Missing font.html", loadOptions);
+
+ // At this point such text will still be in "MissingFont".
+ // Font substitution will take place when we render the document.
+ Assert.assertEquals("MissingFont", doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).getFont().getName());
+
+ doc.save(getArtifactsDir() + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
+ 
+```
+
+Показывает, как применять настройки замены шрифтов при загрузке документа.
+
+```
+
+ // Create a FontSettings object that will substitute the "Times New Roman" font
+ // with the font "Arvo" from our "MyFonts" folder.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.setFontsFolder(getFontsDir(), false);
+ fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Times New Roman", "Arvo");
+
+ // Set that FontSettings object as a property of a newly created LoadOptions object.
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setFontSettings(fontSettings);
+
+ // Load the document, then render it as a PDF with the font substitution.
+ Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+
+ doc.save(getArtifactsDir() + "LoadOptions.FontSettings.pdf");
+ 
+```
+
+**Returns:**
+[FontSettings](../../com.aspose.words/fontsettings/) - The corresponding [FontSettings](../../com.aspose.words/fontsettings/) value.
+### getIgnoreOleData() {#getIgnoreOleData}
+```
+public boolean getIgnoreOleData()
+```
+
+
+Указывает, следует ли игнорировать данные OLE.
+
+ **Remarks:** 
+
+Игнорирование данных OLE может снизить потребление памяти и повысить производительность без потери данных в случае, когда целевой формат не поддерживает объекты OLE.
+
+Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как игнорировать данные OLE при загрузке.
+
+```
+
+ // Ignoring OLE data may reduce memory consumption and increase performance
+ // without data lost in a case when destination format does not support OLE objects.
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setIgnoreOleData(true);
+ Document doc = new Document(getMyDir() + "OLE objects.docx", loadOptions);
+
+ doc.save(getArtifactsDir() + "LoadOptions.IgnoreOleData.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getLanguagePreferences() {#getLanguagePreferences}
 ```
 public LanguagePreferences getLanguagePreferences()
 ```
 
 
-Получает языковые настройки, которые будут использоваться при загрузке документа.
+Получает предпочтения языка, которые будут использоваться при загрузке документа.
 
-**Возвращает:**
-[LanguagePreferences](../../com.aspose.words/languagepreferences) - Языковые настройки, которые будут использоваться при загрузке документа.
-### getLeadingSpacesOptions() {#getLeadingSpacesOptions--}
+ **Examples:** 
+
+Показывает, как применить языковые предпочтения при загрузке документа.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.getLanguagePreferences().addEditingLanguage(EditingLanguage.JAPANESE);
+
+ Document doc = new Document(getMyDir() + "No default editing language.docx", loadOptions);
+
+ int localeIdFarEast = doc.getStyles().getDefaultFont().getLocaleIdFarEast();
+ System.out.println(localeIdFarEast == EditingLanguage.JAPANESE
+         ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
+         : "The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
+ 
+```
+
+**Returns:**
+[LanguagePreferences](../../com.aspose.words/languagepreferences/) - Language preferences that will be used when document is loading.
+### getLeadingSpacesOptions() {#getLeadingSpacesOptions}
 ```
 public int getLeadingSpacesOptions()
 ```
 
 
-Получает предпочтительный вариант обработки ведущего пространства. Значение по умолчанию[TxtLeadingSpacesOptions.CONVERT\_TO\_INDENT](../../com.aspose.words/txtleadingspacesoptions\#CONVERT-TO-INDENT).
+Получает предпочтительный вариант обработки начального пробела. Значение по умолчанию — [TxtLeadingSpacesOptions.CONVERT\_TO\_INDENT](../../com.aspose.words/txtleadingspacesoptions/\#CONVERT-TO-INDENT).
 
-**Возвращает:**
- int — предпочтительный вариант обработки начального пробела. Возвращаемое значение является одним из[TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions) константы.
-### getLoadFormat() {#getLoadFormat--}
+ **Examples:** 
+
+Показывает, как удалять пробелы при загрузке документов простого текста.
+
+```
+
+ String textDoc = "      Line 1 \n" +
+         "    Line 2   \n" +
+         " Line 3       ";
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the start of every line.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.ConvertToIndent"
+ // to remove all whitespace characters from the start of every line,
+ // and then apply a left first line indent to the paragraph to simulate the effect of the whitespaces.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Trim"
+ // to remove all whitespace characters from every line's start.
+ loadOptions.setLeadingSpacesOptions(txtLeadingSpacesOptions);
+
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the end of every line.
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Trim" to
+ // remove all whitespace characters from the end of every line.
+ loadOptions.setTrailingSpacesOptions(txtTrailingSpacesOptions);
+
+ Document doc = new Document(new ByteArrayInputStream(textDoc.getBytes()), loadOptions);
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ switch (txtLeadingSpacesOptions) {
+     case TxtLeadingSpacesOptions.CONVERT_TO_INDENT:
+         Assert.assertEquals(37.8d, paragraphs.get(0).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(25.2d, paragraphs.get(1).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(6.3d, paragraphs.get(2).getParagraphFormat().getFirstLineIndent());
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.PRESERVE:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("      Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("    Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith(" Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.TRIM:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+ }
+
+ switch (txtTrailingSpacesOptions) {
+     case TxtTrailingSpacesOptions.PRESERVE:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1 \r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2   \r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3       \f"));
+         break;
+     case TxtTrailingSpacesOptions.TRIM:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1\r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2\r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3\f"));
+         break;
+ }
+ 
+```
+
+**Returns:**
+int - Предпочтительный вариант обработки начального пробела. Возвращаемое значение является одной из констант [TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions/).
+### getLoadFormat() {#getLoadFormat}
 ```
 public int getLoadFormat()
 ```
 
 
- Задает формат загружаемого документа. По умолчанию[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
+Указывает формат загружаемого документа. По умолчанию — [LoadFormat.AUTO](../../com.aspose.words/loadformat/\#AUTO).
 
- Рекомендуется указать[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO)значение и позволить Aspose.Words автоматически определить формат файла. Если вы знаете формат документа, который собираетесь загрузить, вы можете явно указать формат, и это немного сократит время загрузки за счет накладных расходов, связанных с автоматическим определением формата. Если вы укажете явный формат загрузки, и он окажется неверным, сработает автоопределение и будет предпринята вторая попытка загрузить файл.
+ **Remarks:** 
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[LoadFormat](../../com.aspose.words/loadformat) константы.
-### getMswVersion() {#getMswVersion--}
+Рекомендуется указывать значение [LoadFormat.AUTO](../../com.aspose.words/loadformat/\#AUTO) и позволять Aspose.Words автоматически определять формат файла. Если вы знаете формат документа, который собираетесь загрузить, вы можете задать его явно, что слегка сократит время загрузки за счёт уменьшения накладных расходов на автоматическое определение формата. Если указанный явно формат окажется неверным, будет выполнено автоматическое определение и будет предпринята вторая попытка загрузить файл.
+
+ **Examples:** 
+
+Показывает, как указать базовый URI при открытии HTML‑документа.
+
+```
+
+ // Suppose we want to load an .html document that contains an image linked by a relative URI
+ // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
+ // We can provide a base URI using an HtmlLoadOptions object.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", getImageDir());
+
+ Assert.assertEquals(LoadFormat.HTML, loadOptions.getLoadFormat());
+
+ Document doc = new Document(getMyDir() + "Missing image.html", loadOptions);
+
+ // While the image was broken in the input .html, our custom base URI helped us repair the link.
+ Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+ Assert.assertTrue(imageShape.isImage());
+
+ // This output document will display the image that was missing.
+ doc.save(getArtifactsDir() + "HtmlLoadOptions.BaseUri.docx");
+ 
+```
+
+**Returns:**
+int — соответствующее  int  значение. Возвращаемое значение является одной из констант [LoadFormat](../../com.aspose.words/loadformat/).
+### getMswVersion() {#getMswVersion}
 ```
 public int getMswVersion()
 ```
 
 
- Позволяет указать, что процесс загрузки документа должен соответствовать конкретной версии MS Word. Значение по умолчанию[MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019) Различные версии Word могут немного по-разному обрабатывать некоторые аспекты содержимого и форматирования документа в процессе загрузки, что может привести к незначительным различиям в объектной модели документа.
+Позволяет указать, что процесс загрузки документа должен соответствовать определённой версии MS Word. Значение по умолчанию — [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion/\#WORD-2019).
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[MsWordVersion](../../com.aspose.words/mswordversion) константы.
-### getPassword() {#getPassword--}
+ **Remarks:** 
+
+Разные версии Word могут несколько по‑разному обрабатывать определённые аспекты содержимого и форматирования документа во время загрузки, что может привести к небольшим различиям в объектной модели документа (Document Object Model).
+
+ **Examples:** 
+
+Показывает, как эмулировать процесс загрузки документа, соответствующий конкретной версии Microsoft Word.
+
+```
+
+ // By default, Aspose.Words load documents according to Microsoft Word 2019 specification.
+ LoadOptions loadOptions = new LoadOptions();
+
+ Assert.assertEquals(MsWordVersion.WORD_2019, loadOptions.getMswVersion());
+
+ // This document is missing the default paragraph formatting style.
+ // This default style will be regenerated when we load the document either with Microsoft Word or Aspose.Words.
+ loadOptions.setMswVersion(MsWordVersion.WORD_2007);
+ Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+
+ // The style's line spacing will have this value when loaded by Microsoft Word 2007 specification.
+ Assert.assertEquals(12.95d, doc.getStyles().getDefaultParagraphFormat().getLineSpacing(), 0.01d);
+ 
+```
+
+**Returns:**
+int — соответствующее  int  значение. Возвращаемое значение является одной из констант [MsWordVersion](../../com.aspose.words/mswordversion/).
+### getPassword() {#getPassword}
 ```
 public String getPassword()
 ```
 
 
-Получает пароль для открытия зашифрованного документа. Может быть нулевой или пустой строкой. Значение по умолчанию равно нулю.
+Возвращает пароль для открытия зашифрованного документа. Может быть  null  или пустой строкой. По умолчанию —  null .
 
-Вам нужно знать пароль, чтобы открыть зашифрованный документ. Если документ не зашифрован, установите для этого параметра значение null или пустую строку.
+ **Remarks:** 
 
-**Возвращает:**
+Для открытия зашифрованного документа необходимо знать пароль. Если документ не зашифрован, установите значение  null  или пустую строку.
+
+ **Examples:** 
+
+Показывает, как подписать зашифрованный файл документа.
+
+```
+
+ // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a comment, date, and decryption password which will be applied with our new digital signature.
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setComments("Comment");
+     signOptions.setSignTime(new Date());
+     signOptions.setDecryptionPassword("docPassword");
+ }
+
+ // Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
+ String inputFileName = getMyDir() + "Encrypted.docx";
+ String outputFileName = getArtifactsDir() + "DigitalSignatureUtil.DecryptionPassword.docx";
+
+ DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+ 
+```
+
+**Returns:**
 java.lang.String — пароль для открытия зашифрованного документа.
-### getPreserveIncludePictureField() {#getPreserveIncludePictureField--}
+### getPreserveIncludePictureField() {#getPreserveIncludePictureField}
 ```
 public boolean getPreserveIncludePictureField()
 ```
 
 
-Определяет, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию неверно.
+Получает, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию — false.
 
-По умолчанию поле INCLUDEPICTURE преобразуется в объект формы. Вы можете переопределить это, если вам нужно сохранить поле, например, если вы хотите обновить его программно. Обратите внимание, однако, что этот подход не является общим для Aspose.Words. Используйте его на свой страх и риск.
+ **Remarks:** 
 
-Одним из возможных вариантов использования может быть использование MERGEFIELD в качестве дочернего поля для динамического изменения исходного пути изображения. В этом случае вам нужно сохранить INCLUDEPICTURE в модели.
+По умолчанию поле INCLUDEPICTURE преобразуется в объект фигуры. Вы можете переопределить это, если требуется сохранить поле, например, если хотите обновлять его программно. Однако обратите внимание, что такой подход не распространён в Aspose.Words. Используйте его на свой страх и риск.
 
-**Возвращает:**
-boolean — сохранять ли поле INCLUDEPICTURE при чтении форматов Microsoft Word.
-### getProgressCallback() {#getProgressCallback--}
+Одним из возможных сценариев использования может быть применение MERGEFIELD в качестве дочернего поля для динамического изменения пути к изображению. В этом случае необходимо сохранить INCLUDEPICTURE в модели.
+
+ **Examples:** 
+
+Показывает, как сохранять или отбрасывать поля INCLUDEPICTURE при загрузке документа.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ FieldIncludePicture includePicture = (FieldIncludePicture) builder.insertField(FieldType.FIELD_INCLUDE_PICTURE, true);
+ includePicture.setSourceFullName(getImageDir() + "Transparent background logo.png");
+ includePicture.update(true);
+
+ try (ByteArrayOutputStream docStream = new ByteArrayOutputStream()) {
+     doc.save(docStream, new OoxmlSaveOptions(SaveFormat.DOCX));
+
+     // We can set a flag in a LoadOptions object to decide whether to convert all INCLUDEPICTURE fields
+     // into image shapes when loading a document that contains them.
+     LoadOptions loadOptions = new LoadOptions();
+     {
+         loadOptions.setPreserveIncludePictureField(preserveIncludePictureField);
+     }
+
+     doc = new Document(new ByteArrayInputStream(docStream.toByteArray()), loadOptions);
+     FieldCollection fieldCollection = doc.getRange().getFields();
+
+     if (preserveIncludePictureField) {
+         Assert.assertTrue(IterableUtils.matchesAny(fieldCollection, f -> f.getType() == FieldType.FIELD_INCLUDE_PICTURE));
+
+         doc.updateFields();
+         doc.save(getArtifactsDir() + "Field.PreserveIncludePicture.docx");
+     } else {
+         Assert.assertFalse(IterableUtils.matchesAny(fieldCollection, f -> f.getType() == FieldType.FIELD_INCLUDE_PICTURE));
+     }
+ }
+ 
+```
+
+**Returns:**
+boolean — следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word.
+### getProgressCallback() {#getProgressCallback}
 ```
 public IDocumentLoadingCallback getProgressCallback()
 ```
 
 
-Вызывается во время загрузки документа и принимает данные о ходе загрузки.
+Вызывается во время загрузки документа и принимает данные о прогрессе загрузки.
 
-[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT) поддерживаемые форматы.
+ **Remarks:** 
 
-**Возвращает:**
-[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) - соответствующий[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) ценность.
-### getResourceLoadingCallback() {#getResourceLoadingCallback--}
+[LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat/\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat/\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat/\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat/\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat/\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT) formats supported.
+
+ **Examples:** 
+
+Показывает, как уведомить пользователя, если загрузка документа превысила ожидаемое время.
+
+```
+
+ public void progressCallback() throws Exception
+ {
+     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
+
+     LoadOptions loadOptions = new LoadOptions(); { loadOptions.setProgressCallback(progressCallback); }
+
+     try
+     {
+         new Document(getMyDir() + "Big document.docx", loadOptions);
+     }
+     catch (IllegalStateException exception)
+     {
+         System.out.println(exception.getMessage());
+         // Handle loading duration issue.
+     }
+ }
+
+ /// 
+ /// Cancel a document loading after the "MaxDuration" seconds.
+ /// 
+ public static class LoadingProgressCallback implements IDocumentLoadingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public LoadingProgressCallback()
+     {
+         mLoadingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document loading.
+     /// 
+     /// Loading arguments.
+     public void notify(DocumentLoadingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mLoadingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document loading is started.
+     /// 
+     private Date mLoadingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.5;
+ }
+ 
+```
+
+**Returns:**
+[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) value.
+### getRecoveryMode() {#getRecoveryMode}
+```
+public int getRecoveryMode()
+```
+
+
+Определяет, как документ должен обрабатываться при возникновении ошибок во время загрузки. Используйте это свойство, чтобы указать, должна ли система пытаться восстановить документ или следовать другому определённому поведению. Значение по умолчанию — [DocumentRecoveryMode.TRY\_RECOVER](../../com.aspose.words/documentrecoverymode/\#TRY-RECOVER).
+
+ **Examples:** 
+
+Показывает, как попытаться восстановить документ, если во время загрузки произошли ошибки.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setRecoveryMode(DocumentRecoveryMode.TRY_RECOVER);
+
+ Document doc = new Document(getMyDir() + "Corrupted footnotes.docx", loadOptions);
+ 
+```
+
+**Returns:**
+int — соответствующее значение int. Возвращаемое значение является одной из констант [DocumentRecoveryMode](../../com.aspose.words/documentrecoverymode/).
+### getResourceLoadingCallback() {#getResourceLoadingCallback}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
 ```
 
 
-Позволяет управлять загрузкой внешних ресурсов (изображений, таблиц стилей) при импорте документа из HTML, MHTML.
+Позволяет контролировать, как внешние ресурсы (изображения, таблицы стилей) загружаются при импорте документа из HTML, MHTML.
 
-**Возвращает:**
-[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - соответствующий[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) ценность.
-### getTempFolder() {#getTempFolder--}
+ **Examples:** 
+
+Показывает, как обрабатывать внешние ресурсы при загрузке HTML‑документов.
+
+```
+
+ public void loadOptionsCallback() throws Exception {
+     LoadOptions loadOptions = new LoadOptions();
+     loadOptions.setResourceLoadingCallback(new HtmlLinkedResourceLoadingCallback());
+
+     // When we load the document, our callback will handle linked resources such as CSS stylesheets and images.
+     Document doc = new Document(getMyDir() + "Images.html", loadOptions);
+     doc.save(getArtifactsDir() + "LoadOptions.LoadOptionsCallback.pdf");
+ }
+
+ /// 
+ /// Prints the filenames of all external stylesheets and substitutes all images of a loaded html document.
+ /// 
+ private static class HtmlLinkedResourceLoadingCallback implements IResourceLoadingCallback {
+     public int resourceLoading(ResourceLoadingArgs args) throws IOException {
+         switch (args.getResourceType()) {
+             case ResourceType.CSS_STYLE_SHEET:
+                 System.out.println(MessageFormat.format("External CSS Stylesheet found upon loading: {0}", args.getOriginalUri()));
+                 return ResourceLoadingAction.DEFAULT;
+             case ResourceType.IMAGE:
+                 System.out.println(MessageFormat.format("External Image found upon loading: {0}", args.getOriginalUri()));
+
+                 final String newImageFilename = "Logo.jpg";
+                 System.out.println(MessageFormat.format("\tImage will be substituted with: {0}", newImageFilename));
+
+                 byte[] imageBytes = FileUtils.readFileToByteArray(new File(getImageDir() + newImageFilename));
+                 args.setData(imageBytes);
+
+                 return ResourceLoadingAction.USER_PROVIDED;
+         }
+
+         return ResourceLoadingAction.DEFAULT;
+     }
+ }
+ 
+```
+
+**Returns:**
+[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value.
+### getTempFolder() {#getTempFolder}
 ```
 public String getTempFolder()
 ```
 
 
-Позволяет использовать временные файлы при чтении документа. По умолчанию это свойство имеет значение null, и временные файлы не используются.
+Позволяет использовать временные файлы при чтении документа. По умолчанию это свойство равно null, и временные файлы не используются.
 
-Папка должна существовать и быть доступной для записи, иначе будет выдано исключение.
+ **Remarks:** 
+
+Папка должна существовать и быть доступной для записи, иначе будет выброшено исключение.
 
 Aspose.Words автоматически удаляет все временные файлы после завершения чтения.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getTrailingSpacesOptions() {#getTrailingSpacesOptions--}
+ **Examples:** 
+
+Показывает, как загрузить документ, используя временные файлы.
+
+```
+
+ // Note that such an approach can reduce memory usage but degrades speed.
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setTempFolder("C:\\TempFolder\\");
+
+ // Ensure that the directory exists and load.
+ new File(loadOptions.getTempFolder()).mkdir();
+
+ Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+ 
+```
+
+Показывает, как использовать жёсткий диск вместо памяти при загрузке документа.
+
+```
+
+ // When we load a document, various elements are temporarily stored in memory as the save operation occurs.
+ // We can use this option to use a temporary folder in the local file system instead,
+ // which will reduce our application's memory overhead.
+ LoadOptions options = new LoadOptions();
+ options.setTempFolder(getArtifactsDir() + "TempFiles");
+
+ // The specified temporary folder must exist in the local file system before the load operation.
+ Files.createDirectory(Paths.get(options.getTempFolder()));
+
+ Document doc = new Document(getMyDir() + "Document.docx", options);
+
+ // The folder will persist with no residual contents from the load operation.
+ Assert.assertTrue(DocumentHelper.directoryGetFiles(options.getTempFolder(), "*.*").size() == 0);
+ 
+```
+
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getTrailingSpacesOptions() {#getTrailingSpacesOptions}
 ```
 public int getTrailingSpacesOptions()
 ```
 
 
- Получает предпочтительный вариант обработки завершающего пробела. Значение по умолчанию[TxtTrailingSpacesOptions.TRIM](../../com.aspose.words/txttrailingspacesoptions\#TRIM).
+Получает предпочтительный вариант обработки конечного пробела. Значение по умолчанию — [TxtTrailingSpacesOptions.TRIM](../../com.aspose.words/txttrailingspacesoptions/\#TRIM).
 
-**Возвращает:**
- int — предпочтительный вариант обработки завершающего пробела. Возвращаемое значение является одним из[TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions) константы.
-### getUpdateDirtyFields() {#getUpdateDirtyFields--}
+ **Examples:** 
+
+Показывает, как удалять пробелы при загрузке документов простого текста.
+
+```
+
+ String textDoc = "      Line 1 \n" +
+         "    Line 2   \n" +
+         " Line 3       ";
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the start of every line.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.ConvertToIndent"
+ // to remove all whitespace characters from the start of every line,
+ // and then apply a left first line indent to the paragraph to simulate the effect of the whitespaces.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Trim"
+ // to remove all whitespace characters from every line's start.
+ loadOptions.setLeadingSpacesOptions(txtLeadingSpacesOptions);
+
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the end of every line.
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Trim" to
+ // remove all whitespace characters from the end of every line.
+ loadOptions.setTrailingSpacesOptions(txtTrailingSpacesOptions);
+
+ Document doc = new Document(new ByteArrayInputStream(textDoc.getBytes()), loadOptions);
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ switch (txtLeadingSpacesOptions) {
+     case TxtLeadingSpacesOptions.CONVERT_TO_INDENT:
+         Assert.assertEquals(37.8d, paragraphs.get(0).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(25.2d, paragraphs.get(1).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(6.3d, paragraphs.get(2).getParagraphFormat().getFirstLineIndent());
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.PRESERVE:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("      Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("    Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith(" Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.TRIM:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+ }
+
+ switch (txtTrailingSpacesOptions) {
+     case TxtTrailingSpacesOptions.PRESERVE:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1 \r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2   \r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3       \f"));
+         break;
+     case TxtTrailingSpacesOptions.TRIM:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1\r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2\r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3\f"));
+         break;
+ }
+ 
+```
+
+**Returns:**
+int - Предпочтительный вариант обработки конечного пробела. Возвращаемое значение является одной из констант [TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions/).
+### getUpdateDirtyFields() {#getUpdateDirtyFields}
 ```
 public boolean getUpdateDirtyFields()
 ```
 
 
-Указывает, следует ли обновлять поля с грязным атрибутом.
+Указывает, обновлять ли поля с атрибутом  dirty .
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getWarningCallback() {#getWarningCallback--}
+ **Examples:** 
+
+Показывает, как использовать специальное свойство для обновления результата поля.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Give the document's built-in "Author" property value, and then display it with a field.
+ doc.getBuiltInDocumentProperties().setAuthor("John Doe");
+ FieldAuthor field = (FieldAuthor) builder.insertField(FieldType.FIELD_AUTHOR, true);
+
+ Assert.assertFalse(field.isDirty());
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // Update the property. The field still displays the old value.
+ doc.getBuiltInDocumentProperties().setAuthor("John & Jane Doe");
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // Since the field's value is out of date, we can mark it as "dirty".
+ // This value will stay out of date until we update the field manually with the Field.Update() method.
+ field.isDirty(true);
+
+ // If we save without calling an update method,
+ // the field will keep displaying the out of date value in the output document.
+ doc.save(getArtifactsDir() + "Filed.UpdateDirtyFields.docx");
+
+ // The LoadOptions object has an option to update all fields
+ // marked as "dirty" when loading the document.
+ LoadOptions options = new LoadOptions();
+ options.setUpdateDirtyFields(updateDirtyFields);
+
+ doc = new Document(getArtifactsDir() + "Filed.UpdateDirtyFields.docx", options);
+
+ Assert.assertEquals("John & Jane Doe", doc.getBuiltInDocumentProperties().getAuthor());
+
+ field = (FieldAuthor) doc.getRange().getFields().get(0);
+
+ // Updating dirty fields like this automatically set their "IsDirty" flag to false.
+ if (updateDirtyFields) {
+     Assert.assertEquals("John & Jane Doe", field.getResult());
+     Assert.assertFalse(field.isDirty());
+ } else {
+     Assert.assertEquals("John Doe", field.getResult());
+     Assert.assertTrue(field.isDirty());
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getUseSystemLcid() {#getUseSystemLcid}
+```
+public boolean getUseSystemLcid()
+```
+
+
+Возвращает, использовать ли значение LCID, полученное из реестра Windows, для определения полей по умолчанию в настройках страницы.
+
+ **Remarks:** 
+
+Если установить в true, то эмулируется поведение MS Word, которое берёт значение LCID из реестра Windows.
+
+Значение по умолчанию — false.
+
+**Returns:**
+boolean — следует ли использовать значение LCID, полученное из реестра Windows, для определения полей по умолчанию при настройке страницы.
+### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-Вызывается во время операции загрузки при обнаружении проблемы, которая может привести к потере точности данных или форматирования.
+Вызывается во время операции загрузки, когда обнаруживается проблема, которая может привести к потере точности данных или форматирования.
 
-**Возвращает:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - соответствующий[IWarningCallback](../../com.aspose.words/iwarningcallback) ценность.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как выводить и сохранять предупреждения, возникающие при загрузке документа.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ public void loadOptionsWarningCallback() throws Exception {
+     // Create a new LoadOptions object and set its WarningCallback attribute
+     // as an instance of our IWarningCallback implementation.
+     LoadOptions loadOptions = new LoadOptions();
+     loadOptions.setWarningCallback(new DocumentLoadingWarningCallback());
 
+     // Our callback will print all warnings that come up during the load operation.
+     Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
 
+     ArrayList warnings = ((DocumentLoadingWarningCallback)loadOptions.getWarningCallback()).getWarnings();
+     Assert.assertEquals(2, warnings.size());
+ }
 
-### notifyAll() {#notifyAll--}
+ /// 
+ /// IWarningCallback that prints warnings and their details as they arise during document loading.
+ /// 
+ private static class DocumentLoadingWarningCallback implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         System.out.println(MessageFormat.format("Warning: {0}", info.getWarningType()));
+         System.out.println(MessageFormat.format("\tSource: {0}", info.getSource()));
+         System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
+         mWarnings.add(info);
+     }
+
+     public ArrayList getWarnings() {
+         return mWarnings;
+     }
+
+     private final  ArrayList mWarnings = new ArrayList();
+ }
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setAutoNumberingDetection(boolean value) {#setAutoNumberingDetection-boolean-}
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
+### setAutoNumberingDetection(boolean value) {#setAutoNumberingDetection-boolean}
 ```
 public void setAutoNumberingDetection(boolean value)
 ```
 
 
-Задает логическое значение, указывающее, что при загрузке документа будет выполняться автоматическое определение нумерации. Значение по умолчанию верно .
+Устанавливает булево значение, указывающее, будет ли выполнено автоматическое определение нумерации при загрузке документа. Значение по умолчанию — true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как отключить автоматическое определение нумерации.
+
+```
+
+ TxtLoadOptions options = new TxtLoadOptions(); { options.setAutoNumberingDetection(false); }
+ Document doc = new Document(getMyDir() + "Number detection.txt", options);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Логическое значение, указывающее, что при загрузке документа будет выполняться автоматическое определение нумерации. |
+| значение | boolean | Булево значение, указывающее, будет ли выполнено автоматическое определение нумерации при загрузке документа. |
 
-### setBaseUri(String value) {#setBaseUri-java.lang.String-}
+### setBaseUri(String value) {#setBaseUri-java.lang.String}
 ```
 public void setBaseUri(String value)
 ```
 
 
-Задает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI, когда это необходимо. Может быть нулевой или пустой строкой. Значение по умолчанию равно нулю.
+Устанавливает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI при необходимости. Может быть null или пустой строкой. Значение по умолчанию — null.
+
+ **Remarks:** 
 
 Это свойство используется для преобразования относительных URI в абсолютные в следующих случаях:
 
-1.  При загрузке HTML-документа из потока, когда документ содержит изображения с относительными URI и не имеет базового URI, указанного в элементе BASE HTML.
-2.  При сохранении документа в PDF и других форматах для извлечения изображений, связанных с использованием относительных URI, чтобы изображения можно было сохранить в выходной документ.
+1.  При загрузке HTML‑документа из потока, если документ содержит изображения с относительными URI и не имеет базового URI, указанного в элементе BASE HTML.
+2.  При сохранении документа в PDF и другие форматы, чтобы получить изображения, связанные с помощью относительных URI, чтобы их можно было сохранить в выходном документе.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как открыть HTML‑документ с изображениями из потока, используя базовый URI.
+
+```
+
+ InputStream stream = new FileInputStream(getMyDir() + "Document.html");
+ try  {
+     // Pass the URI of the base folder while loading it
+     // so that any images with relative URIs in the HTML document can be found.
+     LoadOptions loadOptions = new LoadOptions();
+     loadOptions.setBaseUri(getImageDir());
+
+     Document doc = new Document(stream, loadOptions);
+
+     // Verify that the first shape of the document contains a valid image.
+     Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+     Assert.assertTrue(shape.isImage());
+     Assert.assertNotNull(shape.getImageData().getImageBytes());
+     Assert.assertEquals(32.0, ConvertUtil.pointToPixel(shape.getWidth()), 0.01);
+     Assert.assertEquals(32.0, ConvertUtil.pointToPixel(shape.getHeight()), 0.01);
+ } finally {
+     if (stream != null) stream.close();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Строка, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI, когда это необходимо. |
+| значение | java.lang.String | Строка, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI при необходимости. |
 
-### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean-}
+### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean}
 ```
 public void setConvertMetafilesToPng(boolean value)
 ```
 
 
- Устанавливает, следует ли преобразовывать метафайл (**F:Aspose.FileFormat.Wmf** или же**F:Aspose.FileFormat.Emf** ) изображения в**F:Aspose.FileFormat.Png** формат изображения. Метафайлы (**F:Aspose.FileFormat.Wmf** или же**F:Aspose.FileFormat.Emf** ) представляет собой несжатый формат изображения и иногда требует много оперативной памяти для хранения и обработки документа. Эта опция позволяет преобразовать все изображения метафайла в**F:Aspose.FileFormat.Png** при загрузке документа. Обратите внимание - преобразование векторной графики в растровую снижает качество изображений.
+Устанавливает, преобразовывать ли метафайлы( **F:Aspose.FileFormat.Wmf** или **F:Aspose.FileFormat.Emf**) в формат изображения **F:Aspose.FileFormat.Png**.
 
-**Параметры:**
+ **Remarks:** 
 
+Метaфайлы ( **F:Aspose.FileFormat.Wmf** или **F:Aspose.FileFormat.Emf**) — это несжатый формат изображений, который иногда требует слишком много ОЗУ для хранения и обработки документа. Эта опция позволяет при загрузке документа преобразовать все изображения метафайлов в **F:Aspose.FileFormat.Png**. Обратите внимание — преобразование векторной графики в растровую уменьшает качество изображений.
+
+ **Examples:** 
+
+Показывает, как преобразовать WMF/EMF в PNG при загрузке документа.
+
+```
+
+ Document doc = new Document();
+
+ Shape shape = new Shape(doc, ShapeType.IMAGE);
+ shape.getImageData().setImage(getImageDir() + "Windows MetaFile.wmf");
+ shape.setWidth(100.0);
+ shape.setHeight(100.0);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(shape);
+
+ doc.save(getArtifactsDir() + "Image.CreateImageDirectly.docx");
+
+ shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+ TestUtil.verifyImageInShape(1600, 1600, ImageType.WMF, shape);
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setConvertMetafilesToPng(true);
+
+ doc = new Document(getArtifactsDir() + "Image.CreateImageDirectly.docx", loadOptions);
+ shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+ TestUtil.verifyImageInShape(1600, 1600, ImageType.PNG, shape);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean |  Преобразовывать ли метафайл (**F:Aspose.FileFormat.Wmf** или же**F:Aspose.FileFormat.Emf** ) изображения в**F:Aspose.FileFormat.Png** формат изображения. |
+| значение | boolean | Определяет, следует ли конвертировать метафайлы ( **F:Aspose.FileFormat.Wmf** или **F:Aspose.FileFormat.Emf**) в формат изображения **F:Aspose.FileFormat.Png**. |
 
-### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean-}
+### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean}
 ```
 public void setConvertShapeToOfficeMath(boolean value)
 ```
 
 
-Устанавливает, следует ли преобразовывать фигуры с EquationXML в объекты Office Math.
+Устанавливает, преобразовывать ли фигуры с EquationXML в объекты Office Math.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как преобразовать фигуры EquationXML в объекты Office Math.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+
+ // Use this flag to specify whether to convert the shapes with EquationXML attributes
+ // to Office Math objects and then load the document.
+ loadOptions.setConvertShapeToOfficeMath(isConvertShapeToOfficeMath);
+
+ Document doc = new Document(getMyDir() + "Math shapes.docx", loadOptions);
+
+ if (isConvertShapeToOfficeMath) {
+     Assert.assertEquals(16, doc.getChildNodes(NodeType.SHAPE, true).getCount());
+     Assert.assertEquals(34, doc.getChildNodes(NodeType.OFFICE_MATH, true).getCount());
+ } else {
+     Assert.assertEquals(24, doc.getChildNodes(NodeType.SHAPE, true).getCount());
+     Assert.assertEquals(0, doc.getChildNodes(NodeType.OFFICE_MATH, true).getCount());
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Следует ли преобразовывать фигуры с помощью EquationXML в объекты Office Math. |
+| значение | boolean | Определяет, следует ли конвертировать фигуры с EquationXML в объекты Office Math. |
 
-### setDetectNumberingWithWhitespaces(boolean value) {#setDetectNumberingWithWhitespaces-boolean-}
+### setDetectHyperlinks(boolean value) {#setDetectHyperlinks-boolean}
+```
+public void setDetectHyperlinks(boolean value)
+```
+
+
+Указывает, следует ли обнаруживать гиперссылки в тексте. Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как читать и отображать гиперссылки.
+
+```
+
+ final String INPUT_TEXT = "Some links in TXT:\n" +
+         "https://www.aspose.com/\n" +
+         "https://docs.aspose.com/words/net/\n";
+
+ try (ByteArrayInputStream stream = new ByteArrayInputStream(INPUT_TEXT.getBytes(StandardCharsets.US_ASCII)))
+ {
+     // Load document with hyperlinks.
+     TxtLoadOptions loadOptions = new TxtLoadOptions();
+     loadOptions.setDetectHyperlinks(true);
+     Document doc = new Document(stream, loadOptions);
+
+     // Print hyperlinks text.
+     for (Field field : doc.getRange().getFields())
+         System.out.println(field.getResult());
+
+     Assert.assertEquals(doc.getRange().getFields().get(0).getResult().trim(), "https://www.aspose.com/");
+     Assert.assertEquals(doc.getRange().getFields().get(1).getResult().trim(), "https://docs.aspose.com/words/net/");
+ }
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Соответствующее  boolean  значение. |
+
+### setDetectNumberingWithWhitespaces(boolean value) {#setDetectNumberingWithWhitespaces-boolean}
 ```
 public void setDetectNumberingWithWhitespaces(boolean value)
 ```
 
 
-Позволяет указать, как распознаются элементы нумерованного списка при импорте документа из обычного текстового формата. Значение по умолчанию верно .
+Позволяет указать, как распознаются элементы нумерованных списков при импорте документа из формата простого текста. Значение по умолчанию — true.
 
-Если для этого параметра установлено значение false, алгоритм распознавания списков обнаруживает абзацы списка, когда номера списка заканчиваются точкой, правой скобкой или символом маркера (например, "\\u2022", "\*", "-" или "о").
+ **Remarks:** 
 
-Если для этой опции установлено значение true, пробелы также используются в качестве разделителей номеров списка: алгоритм распознавания списка для нумерации в арабском стиле (1., 1.1.2.) использует как пробелы, так и символы точки ("".").
+Если эта опция установлена в false, алгоритм распознавания списков обнаруживает абзацы списков, когда номера списков заканчиваются точкой, правой скобкой или символами маркеров (например, "\u2022", "*", "-" или "o").
 
-**Параметры:**
+Если эта опция установлена в true, пробелы также используются в качестве разделителей номеров списка: алгоритм распознавания списков для арабской нумерации (1., 1.1.2.) использует как пробелы, так и точку (".") символы.
 
+ **Examples:** 
+
+Показывает, как обнаруживать списки при загрузке документов простого текста.
+
+```
+
+ // Create a plaintext document in a string with four separate parts that we may interpret as lists,
+ // with different delimiters. Upon loading the plaintext document into a "Document" object,
+ // Aspose.Words will always detect the first three lists and will add a "List" object
+ // for each to the document's "Lists" property.
+ final String TEXT_DOC = "Full stop delimiters:\n" +
+         "1. First list item 1\n" +
+         "2. First list item 2\n" +
+         "3. First list item 3\n\n" +
+         "Right bracket delimiters:\n" +
+         "1) Second list item 1\n" +
+         "2) Second list item 2\n" +
+         "3) Second list item 3\n\n" +
+         "Bullet delimiters:\n" +
+         "\u2022 Third list item 1\n" +
+         "\u2022 Third list item 2\n" +
+         "\u2022 Third list item 3\n\n" +
+         "Whitespace delimiters:\n" +
+         "1 Fourth list item 1\n" +
+         "2 Fourth list item 2\n" +
+         "3 Fourth list item 3";
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "DetectNumberingWithWhitespaces" property to "true" to detect numbered items
+ // with whitespace delimiters, such as the fourth list in our document, as lists.
+ // This may also falsely detect paragraphs that begin with numbers as lists.
+ // Set the "DetectNumberingWithWhitespaces" property to "false"
+ // to not create lists from numbered items with whitespace delimiters.
+ loadOptions.setDetectNumberingWithWhitespaces(detectNumberingWithWhitespaces);
+
+ Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
+
+ List paragraphList = Arrays.stream(doc.getFirstSection().getBody().getParagraphs().toArray())
+         .filter(Paragraph.class::isInstance)
+         .map(Paragraph.class::cast)
+         .collect(Collectors.toList());
+
+ if (detectNumberingWithWhitespaces) {
+     Assert.assertEquals(4, doc.getLists().getCount());
+     Assert.assertTrue(IterableUtils.matchesAny(paragraphList, s -> s.getText().contains("Fourth list") && s.isListItem()));
+ } else {
+     Assert.assertEquals(3, doc.getLists().getCount());
+     Assert.assertFalse(IterableUtils.matchesAny(paragraphList, s -> s.getText().contains("Fourth list") && s.isListItem()));
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setDocumentDirection(int value) {#setDocumentDirection-int-}
+### setDocumentDirection(int value) {#setDocumentDirection-int}
 ```
 public void setDocumentDirection(int value)
 ```
 
 
- Задает направление документа. Значение по умолчанию[DocumentDirection.LEFT\_TO\_RIGHT](../../com.aspose.words/documentdirection\#LEFT-TO-RIGHT).
+Устанавливает направление документа. Значение по умолчанию — [DocumentDirection.LEFT\_TO\_RIGHT](../../com.aspose.words/documentdirection/\#LEFT-TO-RIGHT).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как определить направление текста в простом документе.
+
+```
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
+ // the direction of every paragraph of text that Aspose.Words loads from plaintext.
+ // Each paragraph's "Bidi" property will store its direction.
+ loadOptions.setDocumentDirection(DocumentDirection.AUTO);
+
+ // Detect Hebrew text as right-to-left.
+ Document doc = new Document(getMyDir() + "Hebrew text.txt", loadOptions);
+
+ Assert.assertTrue(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
+
+ // Detect English text as right-to-left.
+ doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertFalse(doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getBidi());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Направление документа. Значение должно быть одним из[DocumentDirection](../../com.aspose.words/documentdirection) константы. |
+| value | int | Направление документа. Значение должно быть одной из констант [DocumentDirection](../../com.aspose.words/documentdirection/). |
 
-### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
+### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset}
 ```
 public void setEncoding(Charset value)
 ```
 
 
-Задает кодировку, которая будет использоваться для загрузки документа HTML, TXT или CHM, если кодировка не указана внутри документа. Может быть нулевым. Значение по умолчанию равно нулю.
+Устанавливает кодировку, которая будет использоваться для загрузки HTML, TXT или CHM‑документа, если кодировка не указана внутри документа. Может быть  null . По умолчанию —  null .
 
-Это свойство используется только при загрузке документов HTML, TXT или CHM.
+ **Remarks:** 
 
-Если кодировка внутри документа не указана и это свойство равно null , то система попытается автоматически определить кодировку.
+Это свойство используется только при загрузке HTML, TXT или CHM‑документов.
 
-**Параметры:**
+Если кодировка не указана внутри документа и это свойство равно  null , система попытается автоматически определить кодировку.
 
+ **Examples:** 
+
+Показывает, как задать кодировку для открытия документа.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ {
+     loadOptions.setEncoding(StandardCharsets.US_ASCII);
+ }
+
+ // Load the document while passing the LoadOptions object, then verify the document's contents.
+ Document doc = new Document(getMyDir() + "English text.txt", loadOptions);
+
+ Assert.assertTrue(doc.toString(SaveFormat.TEXT).contains("This is a sample text in English."));
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.nio.charset.Charset | Кодировка, которая будет использоваться для загрузки документа HTML, TXT или CHM, если кодировка не указана внутри документа. |
+| значение | java.nio.charset.Charset | Кодировка, которая будет использоваться для загрузки HTML, TXT или CHM‑документа, если кодировка не указана внутри документа. |
 
-### setFontSettings(FontSettings value) {#setFontSettings-com.aspose.words.FontSettings-}
+### setFontSettings(FontSettings value) {#setFontSettings-com.aspose.words.FontSettings}
 ```
 public void setFontSettings(FontSettings value)
 ```
 
 
-Позволяет указать настройки шрифта документа.
+Позволяет задавать параметры шрифтов документа.
 
-При загрузке некоторых форматов Aspose.Words может потребовать разрешения шрифтов. Например, при загрузке HTML-документов Aspose.Words может разрешить шрифты для выполнения резервного шрифта.
+ **Remarks:** 
 
- Если установлено значение null, настройки статического шрифта по умолчанию[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) будет использован.
+При загрузке некоторых форматов Aspose.Words может потребоваться разрешить шрифты. Например, при загрузке HTML‑документов Aspose.Words может разрешать шрифты для выполнения резервирования шрифтов.
 
-Значение по умолчанию равно нулю.
+Если установлено в  null , будут использованы настройки статических шрифтов по умолчанию [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings/\#getDefaultInstance).
 
-**Параметры:**
+Значение по умолчанию равно  null .
 
+ **Examples:** 
+
+Показывает, как назначать заменители шрифтов при загрузке.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setFontSettings(new FontSettings());
+
+ // Set a font substitution rule for a LoadOptions object.
+ // If the document we are loading uses a font which we do not have,
+ // this rule will substitute the unavailable font with one that does exist.
+ // In this case, all uses of the "MissingFont" will convert to "Comic Sans MS".
+ TableSubstitutionRule substitutionRule = loadOptions.getFontSettings().getSubstitutionSettings().getTableSubstitution();
+ substitutionRule.addSubstitutes("MissingFont", "Comic Sans MS");
+
+ Document doc = new Document(getMyDir() + "Missing font.html", loadOptions);
+
+ // At this point such text will still be in "MissingFont".
+ // Font substitution will take place when we render the document.
+ Assert.assertEquals("MissingFont", doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).getFont().getName());
+
+ doc.save(getArtifactsDir() + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
+ 
+```
+
+Показывает, как применять настройки замены шрифтов при загрузке документа.
+
+```
+
+ // Create a FontSettings object that will substitute the "Times New Roman" font
+ // with the font "Arvo" from our "MyFonts" folder.
+ FontSettings fontSettings = new FontSettings();
+ fontSettings.setFontsFolder(getFontsDir(), false);
+ fontSettings.getSubstitutionSettings().getTableSubstitution().addSubstitutes("Times New Roman", "Arvo");
+
+ // Set that FontSettings object as a property of a newly created LoadOptions object.
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setFontSettings(fontSettings);
+
+ // Load the document, then render it as a PDF with the font substitution.
+ Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+
+ doc.save(getArtifactsDir() + "LoadOptions.FontSettings.pdf");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [FontSettings](../../com.aspose.words/fontsettings) |  Соответствующий[FontSettings](../../com.aspose.words/fontsettings) ценность. |
+| value | [FontSettings](../../com.aspose.words/fontsettings/) | Соответствующее значение [FontSettings](../../com.aspose.words/fontsettings/). |
 
-### setLeadingSpacesOptions(int value) {#setLeadingSpacesOptions-int-}
+### setIgnoreOleData(boolean value) {#setIgnoreOleData-boolean}
+```
+public void setIgnoreOleData(boolean value)
+```
+
+
+Указывает, следует ли игнорировать данные OLE.
+
+ **Remarks:** 
+
+Игнорирование данных OLE может снизить потребление памяти и повысить производительность без потери данных в случае, когда целевой формат не поддерживает объекты OLE.
+
+Значение по умолчанию — false.
+
+ **Examples:** 
+
+Показывает, как игнорировать данные OLE при загрузке.
+
+```
+
+ // Ignoring OLE data may reduce memory consumption and increase performance
+ // without data lost in a case when destination format does not support OLE objects.
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setIgnoreOleData(true);
+ Document doc = new Document(getMyDir() + "OLE objects.docx", loadOptions);
+
+ doc.save(getArtifactsDir() + "LoadOptions.IgnoreOleData.docx");
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Соответствующее  boolean  значение. |
+
+### setLeadingSpacesOptions(int value) {#setLeadingSpacesOptions-int}
 ```
 public void setLeadingSpacesOptions(int value)
 ```
 
 
- Устанавливает предпочтительный вариант обработки ведущего пробела. Значение по умолчанию[TxtLeadingSpacesOptions.CONVERT\_TO\_INDENT](../../com.aspose.words/txtleadingspacesoptions\#CONVERT-TO-INDENT).
+Устанавливает предпочтительный вариант обработки начального пробела. Значение по умолчанию — [TxtLeadingSpacesOptions.CONVERT\_TO\_INDENT](../../com.aspose.words/txtleadingspacesoptions/\#CONVERT-TO-INDENT).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалять пробелы при загрузке документов простого текста.
+
+```
+
+ String textDoc = "      Line 1 \n" +
+         "    Line 2   \n" +
+         " Line 3       ";
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the start of every line.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.ConvertToIndent"
+ // to remove all whitespace characters from the start of every line,
+ // and then apply a left first line indent to the paragraph to simulate the effect of the whitespaces.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Trim"
+ // to remove all whitespace characters from every line's start.
+ loadOptions.setLeadingSpacesOptions(txtLeadingSpacesOptions);
+
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the end of every line.
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Trim" to
+ // remove all whitespace characters from the end of every line.
+ loadOptions.setTrailingSpacesOptions(txtTrailingSpacesOptions);
+
+ Document doc = new Document(new ByteArrayInputStream(textDoc.getBytes()), loadOptions);
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ switch (txtLeadingSpacesOptions) {
+     case TxtLeadingSpacesOptions.CONVERT_TO_INDENT:
+         Assert.assertEquals(37.8d, paragraphs.get(0).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(25.2d, paragraphs.get(1).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(6.3d, paragraphs.get(2).getParagraphFormat().getFirstLineIndent());
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.PRESERVE:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("      Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("    Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith(" Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.TRIM:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+ }
+
+ switch (txtTrailingSpacesOptions) {
+     case TxtTrailingSpacesOptions.PRESERVE:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1 \r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2   \r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3       \f"));
+         break;
+     case TxtTrailingSpacesOptions.TRIM:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1\r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2\r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3\f"));
+         break;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Предпочтительный вариант ведущей космической обработки. Значение должно быть одним из[TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions) константы. |
+| value | int | Предпочтительный вариант обработки начального пробела. Значение должно быть одной из констант [TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions/). |
 
-### setLoadFormat(int value) {#setLoadFormat-int-}
+### setLoadFormat(int value) {#setLoadFormat-int}
 ```
 public void setLoadFormat(int value)
 ```
 
 
- Задает формат загружаемого документа. По умолчанию[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
+Указывает формат загружаемого документа. По умолчанию — [LoadFormat.AUTO](../../com.aspose.words/loadformat/\#AUTO).
 
- Рекомендуется указать[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO)значение и позволить Aspose.Words автоматически определить формат файла. Если вы знаете формат документа, который собираетесь загрузить, вы можете явно указать формат, и это немного сократит время загрузки за счет накладных расходов, связанных с автоматическим определением формата. Если вы укажете явный формат загрузки, и он окажется неверным, сработает автоопределение и будет предпринята вторая попытка загрузить файл.
+ **Remarks:** 
 
-**Параметры:**
+Рекомендуется указывать значение [LoadFormat.AUTO](../../com.aspose.words/loadformat/\#AUTO) и позволять Aspose.Words автоматически определять формат файла. Если вы знаете формат документа, который собираетесь загрузить, вы можете задать его явно, что слегка сократит время загрузки за счёт уменьшения накладных расходов на автоматическое определение формата. Если указанный явно формат окажется неверным, будет выполнено автоматическое определение и будет предпринята вторая попытка загрузить файл.
 
+ **Examples:** 
+
+Показывает, как указать базовый URI при открытии HTML‑документа.
+
+```
+
+ // Suppose we want to load an .html document that contains an image linked by a relative URI
+ // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
+ // We can provide a base URI using an HtmlLoadOptions object.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", getImageDir());
+
+ Assert.assertEquals(LoadFormat.HTML, loadOptions.getLoadFormat());
+
+ Document doc = new Document(getMyDir() + "Missing image.html", loadOptions);
+
+ // While the image was broken in the input .html, our custom base URI helped us repair the link.
+ Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+ Assert.assertTrue(imageShape.isImage());
+
+ // This output document will display the image that was missing.
+ doc.save(getArtifactsDir() + "HtmlLoadOptions.BaseUri.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[LoadFormat](../../com.aspose.words/loadformat) константы. |
+| value | int | Соответствующее  int  значение. Значение должно быть одной из констант [LoadFormat](../../com.aspose.words/loadformat/). |
 
-### setMswVersion(int value) {#setMswVersion-int-}
+### setMswVersion(int value) {#setMswVersion-int}
 ```
 public void setMswVersion(int value)
 ```
 
 
- Позволяет указать, что процесс загрузки документа должен соответствовать конкретной версии MS Word. Значение по умолчанию[MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019) Различные версии Word могут немного по-разному обрабатывать некоторые аспекты содержимого и форматирования документа в процессе загрузки, что может привести к незначительным различиям в объектной модели документа.
+Позволяет указать, что процесс загрузки документа должен соответствовать определённой версии MS Word. Значение по умолчанию — [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion/\#WORD-2019).
 
-**Параметры:**
+ **Remarks:** 
 
+Разные версии Word могут несколько по‑разному обрабатывать определённые аспекты содержимого и форматирования документа во время загрузки, что может привести к небольшим различиям в объектной модели документа (Document Object Model).
+
+ **Examples:** 
+
+Показывает, как эмулировать процесс загрузки документа, соответствующий конкретной версии Microsoft Word.
+
+```
+
+ // By default, Aspose.Words load documents according to Microsoft Word 2019 specification.
+ LoadOptions loadOptions = new LoadOptions();
+
+ Assert.assertEquals(MsWordVersion.WORD_2019, loadOptions.getMswVersion());
+
+ // This document is missing the default paragraph formatting style.
+ // This default style will be regenerated when we load the document either with Microsoft Word or Aspose.Words.
+ loadOptions.setMswVersion(MsWordVersion.WORD_2007);
+ Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+
+ // The style's line spacing will have this value when loaded by Microsoft Word 2007 specification.
+ Assert.assertEquals(12.95d, doc.getStyles().getDefaultParagraphFormat().getLineSpacing(), 0.01d);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[MsWordVersion](../../com.aspose.words/mswordversion) константы. |
+| value | int | Соответствующее  int  значение. Значение должно быть одной из констант [MsWordVersion](../../com.aspose.words/mswordversion/). |
 
-### setPassword(String value) {#setPassword-java.lang.String-}
+### setPassword(String value) {#setPassword-java.lang.String}
 ```
 public void setPassword(String value)
 ```
 
 
-Устанавливает пароль для открытия зашифрованного документа. Может быть нулевой или пустой строкой. Значение по умолчанию равно нулю.
+Устанавливает пароль для открытия зашифрованного документа. Может быть  null  или пустой строкой. По умолчанию —  null .
 
-Вам нужно знать пароль, чтобы открыть зашифрованный документ. Если документ не зашифрован, установите для этого параметра значение null или пустую строку.
+ **Remarks:** 
 
-**Параметры:**
+Для открытия зашифрованного документа необходимо знать пароль. Если документ не зашифрован, установите значение  null  или пустую строку.
 
+ **Examples:** 
+
+Показывает, как подписать зашифрованный файл документа.
+
+```
+
+ // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
+
+ // Create a comment, date, and decryption password which will be applied with our new digital signature.
+ SignOptions signOptions = new SignOptions();
+ {
+     signOptions.setComments("Comment");
+     signOptions.setSignTime(new Date());
+     signOptions.setDecryptionPassword("docPassword");
+ }
+
+ // Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
+ String inputFileName = getMyDir() + "Encrypted.docx";
+ String outputFileName = getArtifactsDir() + "DigitalSignatureUtil.DecryptionPassword.docx";
+
+ DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Пароль для открытия зашифрованного документа. |
+| значение | java.lang.String | Пароль для открытия зашифрованного документа. |
 
-### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean-}
+### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean}
 ```
 public void setPreserveIncludePictureField(boolean value)
 ```
 
 
-Устанавливает, сохранять ли поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию неверно.
+Устанавливает, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию —  false .
 
-По умолчанию поле INCLUDEPICTURE преобразуется в объект формы. Вы можете переопределить это, если вам нужно сохранить поле, например, если вы хотите обновить его программно. Обратите внимание, однако, что этот подход не является общим для Aspose.Words. Используйте его на свой страх и риск.
+ **Remarks:** 
 
-Одним из возможных вариантов использования может быть использование MERGEFIELD в качестве дочернего поля для динамического изменения исходного пути изображения. В этом случае вам нужно сохранить INCLUDEPICTURE в модели.
+По умолчанию поле INCLUDEPICTURE преобразуется в объект фигуры. Вы можете переопределить это, если требуется сохранить поле, например, если хотите обновлять его программно. Однако обратите внимание, что такой подход не распространён в Aspose.Words. Используйте его на свой страх и риск.
 
-**Параметры:**
+Одним из возможных сценариев использования может быть применение MERGEFIELD в качестве дочернего поля для динамического изменения пути к изображению. В этом случае необходимо сохранить INCLUDEPICTURE в модели.
 
+ **Examples:** 
+
+Показывает, как сохранять или отбрасывать поля INCLUDEPICTURE при загрузке документа.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ FieldIncludePicture includePicture = (FieldIncludePicture) builder.insertField(FieldType.FIELD_INCLUDE_PICTURE, true);
+ includePicture.setSourceFullName(getImageDir() + "Transparent background logo.png");
+ includePicture.update(true);
+
+ try (ByteArrayOutputStream docStream = new ByteArrayOutputStream()) {
+     doc.save(docStream, new OoxmlSaveOptions(SaveFormat.DOCX));
+
+     // We can set a flag in a LoadOptions object to decide whether to convert all INCLUDEPICTURE fields
+     // into image shapes when loading a document that contains them.
+     LoadOptions loadOptions = new LoadOptions();
+     {
+         loadOptions.setPreserveIncludePictureField(preserveIncludePictureField);
+     }
+
+     doc = new Document(new ByteArrayInputStream(docStream.toByteArray()), loadOptions);
+     FieldCollection fieldCollection = doc.getRange().getFields();
+
+     if (preserveIncludePictureField) {
+         Assert.assertTrue(IterableUtils.matchesAny(fieldCollection, f -> f.getType() == FieldType.FIELD_INCLUDE_PICTURE));
+
+         doc.updateFields();
+         doc.save(getArtifactsDir() + "Field.PreserveIncludePicture.docx");
+     } else {
+         Assert.assertFalse(IterableUtils.matchesAny(fieldCollection, f -> f.getType() == FieldType.FIELD_INCLUDE_PICTURE));
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Сохранять ли поле INCLUDEPICTURE при чтении форматов Microsoft Word. |
+| значение | boolean | Определяет, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. |
 
-### setProgressCallback(IDocumentLoadingCallback value) {#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-}
+### setProgressCallback(IDocumentLoadingCallback value) {#setProgressCallback-com.aspose.words.IDocumentLoadingCallback}
 ```
 public void setProgressCallback(IDocumentLoadingCallback value)
 ```
 
 
-Вызывается во время загрузки документа и принимает данные о ходе загрузки.
+Вызывается во время загрузки документа и принимает данные о прогрессе загрузки.
 
-[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT) поддерживаемые форматы.
+ **Remarks:** 
 
-**Параметры:**
+[LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat/\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat/\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat/\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat/\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat/\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT) formats supported.
 
+ **Examples:** 
+
+Показывает, как уведомить пользователя, если загрузка документа превысила ожидаемое время.
+
+```
+
+ public void progressCallback() throws Exception
+ {
+     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
+
+     LoadOptions loadOptions = new LoadOptions(); { loadOptions.setProgressCallback(progressCallback); }
+
+     try
+     {
+         new Document(getMyDir() + "Big document.docx", loadOptions);
+     }
+     catch (IllegalStateException exception)
+     {
+         System.out.println(exception.getMessage());
+         // Handle loading duration issue.
+     }
+ }
+
+ /// 
+ /// Cancel a document loading after the "MaxDuration" seconds.
+ /// 
+ public static class LoadingProgressCallback implements IDocumentLoadingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public LoadingProgressCallback()
+     {
+         mLoadingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document loading.
+     /// 
+     /// Loading arguments.
+     public void notify(DocumentLoadingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mLoadingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document loading is started.
+     /// 
+     private Date mLoadingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.5;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) |  Соответствующий[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) ценность. |
+| value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) | Соответствующее значение [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/). |
 
-### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-}
+### setRecoveryMode(int value) {#setRecoveryMode-int}
+```
+public void setRecoveryMode(int value)
+```
+
+
+Определяет, как документ должен обрабатываться при возникновении ошибок во время загрузки. Используйте это свойство, чтобы указать, должна ли система пытаться восстановить документ или следовать другому определённому поведению. Значение по умолчанию — [DocumentRecoveryMode.TRY\_RECOVER](../../com.aspose.words/documentrecoverymode/\#TRY-RECOVER).
+
+ **Examples:** 
+
+Показывает, как попытаться восстановить документ, если во время загрузки произошли ошибки.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setRecoveryMode(DocumentRecoveryMode.TRY_RECOVER);
+
+ Document doc = new Document(getMyDir() + "Corrupted footnotes.docx", loadOptions);
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| value | int | Соответствующее  int  значение. Значение должно быть одной из констант [DocumentRecoveryMode](../../com.aspose.words/documentrecoverymode/). |
+
+### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback}
 ```
 public void setResourceLoadingCallback(IResourceLoadingCallback value)
 ```
 
 
-Позволяет управлять загрузкой внешних ресурсов (изображений, таблиц стилей) при импорте документа из HTML, MHTML.
+Позволяет контролировать, как внешние ресурсы (изображения, таблицы стилей) загружаются при импорте документа из HTML, MHTML.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как обрабатывать внешние ресурсы при загрузке HTML‑документов.
+
+```
+
+ public void loadOptionsCallback() throws Exception {
+     LoadOptions loadOptions = new LoadOptions();
+     loadOptions.setResourceLoadingCallback(new HtmlLinkedResourceLoadingCallback());
+
+     // When we load the document, our callback will handle linked resources such as CSS stylesheets and images.
+     Document doc = new Document(getMyDir() + "Images.html", loadOptions);
+     doc.save(getArtifactsDir() + "LoadOptions.LoadOptionsCallback.pdf");
+ }
+
+ /// 
+ /// Prints the filenames of all external stylesheets and substitutes all images of a loaded html document.
+ /// 
+ private static class HtmlLinkedResourceLoadingCallback implements IResourceLoadingCallback {
+     public int resourceLoading(ResourceLoadingArgs args) throws IOException {
+         switch (args.getResourceType()) {
+             case ResourceType.CSS_STYLE_SHEET:
+                 System.out.println(MessageFormat.format("External CSS Stylesheet found upon loading: {0}", args.getOriginalUri()));
+                 return ResourceLoadingAction.DEFAULT;
+             case ResourceType.IMAGE:
+                 System.out.println(MessageFormat.format("External Image found upon loading: {0}", args.getOriginalUri()));
+
+                 final String newImageFilename = "Logo.jpg";
+                 System.out.println(MessageFormat.format("\tImage will be substituted with: {0}", newImageFilename));
+
+                 byte[] imageBytes = FileUtils.readFileToByteArray(new File(getImageDir() + newImageFilename));
+                 args.setData(imageBytes);
+
+                 return ResourceLoadingAction.USER_PROVIDED;
+         }
+
+         return ResourceLoadingAction.DEFAULT;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) |  Соответствующий[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) ценность. |
+| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) | Соответствующее значение [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/). |
 
-### setTempFolder(String value) {#setTempFolder-java.lang.String-}
+### setTempFolder(String value) {#setTempFolder-java.lang.String}
 ```
 public void setTempFolder(String value)
 ```
 
 
-Позволяет использовать временные файлы при чтении документа. По умолчанию это свойство имеет значение null, и временные файлы не используются.
+Позволяет использовать временные файлы при чтении документа. По умолчанию это свойство равно null, и временные файлы не используются.
 
-Папка должна существовать и быть доступной для записи, иначе будет выдано исключение.
+ **Remarks:** 
+
+Папка должна существовать и быть доступной для записи, иначе будет выброшено исключение.
 
 Aspose.Words автоматически удаляет все временные файлы после завершения чтения.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как загрузить документ, используя временные файлы.
+
+```
+
+ // Note that such an approach can reduce memory usage but degrades speed.
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setTempFolder("C:\\TempFolder\\");
+
+ // Ensure that the directory exists and load.
+ new File(loadOptions.getTempFolder()).mkdir();
+
+ Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+ 
+```
+
+Показывает, как использовать жёсткий диск вместо памяти при загрузке документа.
+
+```
+
+ // When we load a document, various elements are temporarily stored in memory as the save operation occurs.
+ // We can use this option to use a temporary folder in the local file system instead,
+ // which will reduce our application's memory overhead.
+ LoadOptions options = new LoadOptions();
+ options.setTempFolder(getArtifactsDir() + "TempFiles");
+
+ // The specified temporary folder must exist in the local file system before the load operation.
+ Files.createDirectory(Paths.get(options.getTempFolder()));
+
+ Document doc = new Document(getMyDir() + "Document.docx", options);
+
+ // The folder will persist with no residual contents from the load operation.
+ Assert.assertTrue(DocumentHelper.directoryGetFiles(options.getTempFolder(), "*.*").size() == 0);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Соответствующее значение java.lang.String. |
+| значение | java.lang.String | Соответствующее значение java.lang.String. |
 
-### setTrailingSpacesOptions(int value) {#setTrailingSpacesOptions-int-}
+### setTrailingSpacesOptions(int value) {#setTrailingSpacesOptions-int}
 ```
 public void setTrailingSpacesOptions(int value)
 ```
 
 
- Устанавливает предпочтительный вариант обработки завершающего пробела. Значение по умолчанию[TxtTrailingSpacesOptions.TRIM](../../com.aspose.words/txttrailingspacesoptions\#TRIM).
+Устанавливает предпочтительный вариант обработки конечного пробела. Значение по умолчанию — [TxtTrailingSpacesOptions.TRIM](../../com.aspose.words/txttrailingspacesoptions/\#TRIM).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как удалять пробелы при загрузке документов простого текста.
+
+```
+
+ String textDoc = "      Line 1 \n" +
+         "    Line 2   \n" +
+         " Line 3       ";
+
+ // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+ // to modify how we load a plaintext document.
+ TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the start of every line.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.ConvertToIndent"
+ // to remove all whitespace characters from the start of every line,
+ // and then apply a left first line indent to the paragraph to simulate the effect of the whitespaces.
+ // Set the "LeadingSpacesOptions" property to "TxtLeadingSpacesOptions.Trim"
+ // to remove all whitespace characters from every line's start.
+ loadOptions.setLeadingSpacesOptions(txtLeadingSpacesOptions);
+
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Preserve"
+ // to preserve all whitespace characters at the end of every line.
+ // Set the "TrailingSpacesOptions" property to "TxtTrailingSpacesOptions.Trim" to
+ // remove all whitespace characters from the end of every line.
+ loadOptions.setTrailingSpacesOptions(txtTrailingSpacesOptions);
+
+ Document doc = new Document(new ByteArrayInputStream(textDoc.getBytes()), loadOptions);
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ switch (txtLeadingSpacesOptions) {
+     case TxtLeadingSpacesOptions.CONVERT_TO_INDENT:
+         Assert.assertEquals(37.8d, paragraphs.get(0).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(25.2d, paragraphs.get(1).getParagraphFormat().getFirstLineIndent());
+         Assert.assertEquals(6.3d, paragraphs.get(2).getParagraphFormat().getFirstLineIndent());
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.PRESERVE:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("      Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("    Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith(" Line 3"));
+         break;
+     case TxtLeadingSpacesOptions.TRIM:
+         Assert.assertTrue(IterableUtils.matchesAll(paragraphs, s -> s.getParagraphFormat().getFirstLineIndent() == 0.0d));
+
+         Assert.assertTrue(paragraphs.get(0).getText().startsWith("Line 1"));
+         Assert.assertTrue(paragraphs.get(1).getText().startsWith("Line 2"));
+         Assert.assertTrue(paragraphs.get(2).getText().startsWith("Line 3"));
+         break;
+ }
+
+ switch (txtTrailingSpacesOptions) {
+     case TxtTrailingSpacesOptions.PRESERVE:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1 \r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2   \r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3       \f"));
+         break;
+     case TxtTrailingSpacesOptions.TRIM:
+         Assert.assertTrue(paragraphs.get(0).getText().endsWith("Line 1\r"));
+         Assert.assertTrue(paragraphs.get(1).getText().endsWith("Line 2\r"));
+         Assert.assertTrue(paragraphs.get(2).getText().endsWith("Line 3\f"));
+         break;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Предпочтительный вариант обработки завершающего пробела. Значение должно быть одним из[TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions) константы. |
+| value | int | Предпочтительный вариант обработки конечного пробела. Значение должно быть одной из констант [TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions/). |
 
-### setUpdateDirtyFields(boolean value) {#setUpdateDirtyFields-boolean-}
+### setUpdateDirtyFields(boolean value) {#setUpdateDirtyFields-boolean}
 ```
 public void setUpdateDirtyFields(boolean value)
 ```
 
 
-Указывает, следует ли обновлять поля с грязным атрибутом.
+Указывает, обновлять ли поля с атрибутом  dirty .
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать специальное свойство для обновления результата поля.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Give the document's built-in "Author" property value, and then display it with a field.
+ doc.getBuiltInDocumentProperties().setAuthor("John Doe");
+ FieldAuthor field = (FieldAuthor) builder.insertField(FieldType.FIELD_AUTHOR, true);
+
+ Assert.assertFalse(field.isDirty());
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // Update the property. The field still displays the old value.
+ doc.getBuiltInDocumentProperties().setAuthor("John & Jane Doe");
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // Since the field's value is out of date, we can mark it as "dirty".
+ // This value will stay out of date until we update the field manually with the Field.Update() method.
+ field.isDirty(true);
+
+ // If we save without calling an update method,
+ // the field will keep displaying the out of date value in the output document.
+ doc.save(getArtifactsDir() + "Filed.UpdateDirtyFields.docx");
+
+ // The LoadOptions object has an option to update all fields
+ // marked as "dirty" when loading the document.
+ LoadOptions options = new LoadOptions();
+ options.setUpdateDirtyFields(updateDirtyFields);
+
+ doc = new Document(getArtifactsDir() + "Filed.UpdateDirtyFields.docx", options);
+
+ Assert.assertEquals("John & Jane Doe", doc.getBuiltInDocumentProperties().getAuthor());
+
+ field = (FieldAuthor) doc.getRange().getFields().get(0);
+
+ // Updating dirty fields like this automatically set their "IsDirty" flag to false.
+ if (updateDirtyFields) {
+     Assert.assertEquals("John & Jane Doe", field.getResult());
+     Assert.assertFalse(field.isDirty());
+ } else {
+     Assert.assertEquals("John Doe", field.getResult());
+     Assert.assertTrue(field.isDirty());
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
+### setUseSystemLcid(boolean value) {#setUseSystemLcid-boolean}
+```
+public void setUseSystemLcid(boolean value)
+```
+
+
+Устанавливает, использовать ли значение LCID, полученное из реестра Windows, для определения полей по умолчанию в настройках страницы.
+
+ **Remarks:** 
+
+Если установить в true, то эмулируется поведение MS Word, которое берёт значение LCID из реестра Windows.
+
+Значение по умолчанию — false.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | boolean | Определяет, использовать ли значение LCID, полученное из реестра Windows, для определения полей по умолчанию при настройке страницы. |
+
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)
 ```
 
 
-Вызывается во время операции загрузки при обнаружении проблемы, которая может привести к потере точности данных или форматирования.
+Вызывается во время операции загрузки, когда обнаруживается проблема, которая может привести к потере точности данных или форматирования.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как выводить и сохранять предупреждения, возникающие при загрузке документа.
+
+```
+
+ public void loadOptionsWarningCallback() throws Exception {
+     // Create a new LoadOptions object and set its WarningCallback attribute
+     // as an instance of our IWarningCallback implementation.
+     LoadOptions loadOptions = new LoadOptions();
+     loadOptions.setWarningCallback(new DocumentLoadingWarningCallback());
+
+     // Our callback will print all warnings that come up during the load operation.
+     Document doc = new Document(getMyDir() + "Document.docx", loadOptions);
+
+     ArrayList warnings = ((DocumentLoadingWarningCallback)loadOptions.getWarningCallback()).getWarnings();
+     Assert.assertEquals(2, warnings.size());
+ }
+
+ /// 
+ /// IWarningCallback that prints warnings and their details as they arise during document loading.
+ /// 
+ private static class DocumentLoadingWarningCallback implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         System.out.println(MessageFormat.format("Warning: {0}", info.getWarningType()));
+         System.out.println(MessageFormat.format("\tSource: {0}", info.getSource()));
+         System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
+         mWarnings.add(info);
+     }
+
+     public ArrayList getWarnings() {
+         return mWarnings;
+     }
+
+     private final  ArrayList mWarnings = new ArrayList();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) |  Соответствующий[IWarningCallback](../../com.aspose.words/iwarningcallback) ценность. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | Соответствующее значение [IWarningCallback](../../com.aspose.words/iwarningcallback/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

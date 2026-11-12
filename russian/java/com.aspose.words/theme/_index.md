@@ -1,69 +1,85 @@
 ---
-title: Theme
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет тему документа и обеспечивает доступ к основным частям темы, включая и
+title: "Theme"
+linktitle: "Theme"
+second_title: "Aspose.Words для Java"
+description: "Представляет тему документа и предоставляет доступ к основным частям темы, включая getMajorFonts, getMinorFonts и getColors в Java."
 type: docs
-weight: 573
+weight: 682
 url: /ru/java/com.aspose.words/theme/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class Theme implements Cloneable
 ```
 
- Представляет тему документа и обеспечивает доступ к основным частям темы, включая[getMajorFonts()](../../com.aspose.words/theme\#getMajorFonts--), [getMinorFonts()](../../com.aspose.words/theme\#getMinorFonts--) а также[getColors()](../../com.aspose.words/theme\#getColors--)
+Представляет тему документа и предоставляет доступ к основным частям темы, включая [getMajorFonts()](../../com.aspose.words/theme/\#getMajorFonts), [getMinorFonts()](../../com.aspose.words/theme/\#getMinorFonts) и [getColors()](../../com.aspose.words/theme/\#getColors)
 
- Чтобы узнать больше, посетите**Working with Styles and Themes** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Styles and Themes ][Working with Styles and Themes] .
+
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+
+[Working with Styles and Themes]: https://docs.aspose.com/words/java/working-with-styles-and-themes/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getColors()](#getColors--) | Позволяет указать набор цветов темы для документа. |
-| [getFontName(int themeFont)](#getFontName-int-) |  |
-| [getMajorFonts()](#getMajorFonts--) | Позволяет указать набор основных шрифтов для разных языков. |
-| [getMinorFonts()](#getMinorFonts--) | Позволяет указать набор минорных шрифтов для разных языков. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [onChange()](#onChange--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColors() {#getColors--}
+| [getColors()](#getColors) | Позволяет указать набор цветов темы для документа. |
+| [getFontName(int themeFont)](#getFontName-int) |  |
+| [getMajorFonts()](#getMajorFonts) | Позволяет указать набор основных шрифтов для разных языков. |
+| [getMinorFonts()](#getMinorFonts) | Позволяет указать набор вспомогательных шрифтов для разных языков. |
+| [onChange()](#onChange) |  |
+### getColors() {#getColors}
 ```
 public ThemeColors getColors()
 ```
@@ -71,9 +87,56 @@ public ThemeColors getColors()
 
 Позволяет указать набор цветов темы для документа.
 
-**Возвращает:**
-[ThemeColors](../../com.aspose.words/themecolors) - соответствующий[ThemeColors](../../com.aspose.words/themecolors) ценность.
-### getFontName(int themeFont) {#getFontName-int-}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+[ThemeColors](../../com.aspose.words/themecolors/) - The corresponding [ThemeColors](../../com.aspose.words/themecolors/) value.
+### getFontName(int themeFont) {#getFontName-int}
 ```
 public String getFontName(int themeFont)
 ```
@@ -81,15 +144,14 @@ public String getFontName(int themeFont)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | themeFont | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getMajorFonts() {#getMajorFonts--}
+### getMajorFonts() {#getMajorFonts}
 ```
 public ThemeFonts getMajorFonts()
 ```
@@ -97,45 +159,113 @@ public ThemeFonts getMajorFonts()
 
 Позволяет указать набор основных шрифтов для разных языков.
 
-**Возвращает:**
-[ThemeFonts](../../com.aspose.words/themefonts) - соответствующий[ThemeFonts](../../com.aspose.words/themefonts) ценность.
-### getMinorFonts() {#getMinorFonts--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+[ThemeFonts](../../com.aspose.words/themefonts/) - The corresponding [ThemeFonts](../../com.aspose.words/themefonts/) value.
+### getMinorFonts() {#getMinorFonts}
 ```
 public ThemeFonts getMinorFonts()
 ```
 
 
-Позволяет указать набор минорных шрифтов для разных языков.
+Позволяет указать набор вспомогательных шрифтов для разных языков.
 
-**Возвращает:**
-[ThemeFonts](../../com.aspose.words/themefonts) - соответствующий[ThemeFonts](../../com.aspose.words/themefonts) ценность.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
 
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
 
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
 
-### notifyAll() {#notifyAll--}
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### onChange() {#onChange--}
+**Returns:**
+[ThemeFonts](../../com.aspose.words/themefonts/) - The corresponding [ThemeFonts](../../com.aspose.words/themefonts/) value.
+### onChange() {#onChange}
 ```
 public void onChange()
 ```
@@ -143,49 +273,3 @@ public void onChange()
 
 
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

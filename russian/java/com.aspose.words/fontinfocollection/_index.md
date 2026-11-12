@@ -1,85 +1,117 @@
 ---
-title: FontInfoCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет набор шрифтов, используемых в документе.
+title: "FontInfoCollection"
+linktitle: "FontInfoCollection"
+second_title: "Aspose.Words для Java"
+description: "Представляет собой коллекцию шрифтов, используемых в документе на Java."
 type: docs
-weight: 281
+weight: 327
 url: /ru/java/com.aspose.words/fontinfocollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class FontInfoCollection implements Iterable
 ```
 
-Представляет набор шрифтов, используемых в документе.
+Представляет коллекцию шрифтов, используемых в документе.
 
- Чтобы узнать больше, посетите**Working with Fonts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fonts ][Working with Fonts].
 
- Предметы[FontInfo](../../com.aspose.words/fontinfo) объекты.
+ **Remarks:** 
 
-Вы не создаете экземпляры этого класса напрямую. Использовать[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) свойство для доступа к коллекции шрифтов, определенных в документе.
+Элементы являются объектами [FontInfo](../../com.aspose.words/fontinfo/).
+
+Вы не создаёте экземпляры этого класса напрямую. Используйте свойство [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) для доступа к коллекции шрифтов, определённых в документе.
+
+ **Examples:** 
+
+Показывает, как вывести детали о шрифтах, присутствующих в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
+
+Показывает, как сохранить документ со встроенными TrueType‑шрифтами.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
+```
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [contains(String name)](#contains-java.lang.String-) | Определяет, содержит ли коллекция шрифт с заданным именем. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Получает шрифт по указанному индексу. |
-| [get(String name)](#get-java.lang.String-) | Предоставляет доступ к элементам коллекции. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество элементов, содержащихся в коллекции. |
-| [getEmbedSystemFonts()](#getEmbedSystemFonts--) | Указывает, следует ли внедрять системные шрифты в документ. |
-| [getEmbedTrueTypeFonts()](#getEmbedTrueTypeFonts--) | Указывает, следует ли встраивать шрифты TrueType в документ при его сохранении. |
-| [getSaveSubsetFonts()](#getSaveSubsetFonts--) | Указывает, следует ли сохранять вместе с документом подмножество встроенных шрифтов TrueType. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setEmbedSystemFonts(boolean value)](#setEmbedSystemFonts-boolean-) | Указывает, следует ли внедрять системные шрифты в документ. |
-| [setEmbedTrueTypeFonts(boolean value)](#setEmbedTrueTypeFonts-boolean-) | Указывает, следует ли встраивать шрифты TrueType в документ при его сохранении. |
-| [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean-) | Указывает, следует ли сохранять вместе с документом подмножество встроенных шрифтов TrueType. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### contains(String name) {#contains-java.lang.String-}
+| [contains(String name)](#contains-java.lang.String) | Определяет, содержит ли коллекция шрифт с указанным именем. |
+| [get(int index)](#get-int) | Получает шрифт по указанному индексу. |
+| [get(String name)](#get-java.lang.String) | Обеспечивает доступ к элементам коллекции. |
+| [getCount()](#getCount) | Получает количество элементов, содержащихся в коллекции. |
+| [getEmbedSystemFonts()](#getEmbedSystemFonts) | Указывает, следует ли встраивать системные шрифты в документ. |
+| [getEmbedTrueTypeFonts()](#getEmbedTrueTypeFonts) | Указывает, следует ли встраивать TrueType‑шрифты в документ при его сохранении. |
+| [getSaveSubsetFonts()](#getSaveSubsetFonts) | Указывает, следует ли сохранять подмножество встроенных TrueType‑шрифтов вместе с документом. |
+| [iterator()](#iterator) | Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции. |
+| [setEmbedSystemFonts(boolean value)](#setEmbedSystemFonts-boolean) | Указывает, следует ли встраивать системные шрифты в документ. |
+| [setEmbedTrueTypeFonts(boolean value)](#setEmbedTrueTypeFonts-boolean) | Указывает, следует ли встраивать TrueType‑шрифты в документ при его сохранении. |
+| [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean) | Указывает, следует ли сохранять подмножество встроенных TrueType‑шрифтов вместе с документом. |
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
 
 
-Определяет, содержит ли коллекция шрифт с заданным именем.
+Определяет, содержит ли коллекция шрифт с указанным именем.
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя шрифта для поиска. |
+Показывает информацию о шрифтах, присутствующих в пустом документе.
 
-**Возвращает:**
-boolean — Истинно, если элемент найден в коллекции; в противном случае ложно.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ Document doc = new Document();
 
+ // A blank document contains 3 default fonts. Each font in the document
+ // will have a corresponding FontInfo object which contains details about that font.
+ Assert.assertEquals(3, doc.getFontInfos().getCount());
 
+ Assert.assertTrue(doc.getFontInfos().contains("Times New Roman"));
+ Assert.assertEquals(204, doc.getFontInfos().get("Times New Roman").getCharset());
 
-**Параметры:**
+ Assert.assertTrue(doc.getFontInfos().contains("Symbol"));
+ Assert.assertTrue(doc.getFontInfos().contains("Arial"));
+ 
+```
 
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| name | java.lang.String | Регистронезависимое имя шрифта для поиска. |
 
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+boolean -  true  если элемент найден в коллекции; иначе,  false .
+### get(int index) {#get-int}
 ```
 public FontInfo get(int index)
 ```
@@ -87,41 +119,81 @@ public FontInfo get(int index)
 
 Получает шрифт по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальную файловую систему.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfo embeddedFont = doc.getFontInfos().get("Alte DIN 1451 Mittelschrift");
+ byte[] embeddedFontBytes = embeddedFont.getEmbeddedFont(EmbeddedFontFormat.OPEN_TYPE, EmbeddedFontStyle.REGULAR);
+ FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.ttf"), embeddedFontBytes);
+
+ // Embedded font formats may be different in other formats such as .doc.
+ // We need to know the correct format before we can extract the font.
+ doc = new Document(getMyDir() + "Embedded font.doc");
+
+ Assert.assertNull(doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFont(EmbeddedFontFormat.OPEN_TYPE, EmbeddedFontStyle.REGULAR));
+ Assert.assertNotNull(doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFont(EmbeddedFontFormat.EMBEDDED_OPEN_TYPE, EmbeddedFontStyle.REGULAR));
+
+ // Also, we can convert embedded OpenType format, which comes from .doc documents, to OpenType.
+ embeddedFontBytes = doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFontAsOpenType(EmbeddedFontStyle.REGULAR);
+
+ FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.otf"), embeddedFontBytes);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс шрифта. |
+| индекс | int | Нулевой индекс шрифта. |
 
-**Возвращает:**
-[FontInfo](../../com.aspose.words/fontinfo) - Шрифт по указанному индексу.
-### get(String name) {#get-java.lang.String-}
+**Returns:**
+[FontInfo](../../com.aspose.words/fontinfo/) - A font at the specified index.
+### get(String name) {#get-java.lang.String}
 ```
 public FontInfo get(String name)
 ```
 
 
-Предоставляет доступ к элементам коллекции. Получает шрифт с указанным именем.
+Обеспечивает доступ к элементам коллекции.  Получает шрифт с указанным именем.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальную файловую систему.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfo embeddedFont = doc.getFontInfos().get("Alte DIN 1451 Mittelschrift");
+ byte[] embeddedFontBytes = embeddedFont.getEmbeddedFont(EmbeddedFontFormat.OPEN_TYPE, EmbeddedFontStyle.REGULAR);
+ FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.ttf"), embeddedFontBytes);
+
+ // Embedded font formats may be different in other formats such as .doc.
+ // We need to know the correct format before we can extract the font.
+ doc = new Document(getMyDir() + "Embedded font.doc");
+
+ Assert.assertNull(doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFont(EmbeddedFontFormat.OPEN_TYPE, EmbeddedFontStyle.REGULAR));
+ Assert.assertNotNull(doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFont(EmbeddedFontFormat.EMBEDDED_OPEN_TYPE, EmbeddedFontStyle.REGULAR));
+
+ // Also, we can convert embedded OpenType format, which comes from .doc documents, to OpenType.
+ embeddedFontBytes = doc.getFontInfos().get("Alte DIN 1451 Mittelschrift").getEmbeddedFontAsOpenType(EmbeddedFontStyle.REGULAR);
+
+ FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.otf"), embeddedFontBytes);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя шрифта для поиска. |
+| name | java.lang.String | Регистронезависимое имя шрифта для поиска. |
 
-**Возвращает:**
-[FontInfo](../../com.aspose.words/fontinfo) - соответствующий[FontInfo](../../com.aspose.words/fontinfo) ценность.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[FontInfo](../../com.aspose.words/fontinfo/) - The corresponding [FontInfo](../../com.aspose.words/fontinfo/) value.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -129,187 +201,282 @@ public int getCount()
 
 Получает количество элементов, содержащихся в коллекции.
 
-**Возвращает:**
-int - количество элементов, содержащихся в коллекции.
-### getEmbedSystemFonts() {#getEmbedSystemFonts--}
+ **Examples:** 
+
+Показывает информацию о шрифтах, присутствующих в пустом документе.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains 3 default fonts. Each font in the document
+ // will have a corresponding FontInfo object which contains details about that font.
+ Assert.assertEquals(3, doc.getFontInfos().getCount());
+
+ Assert.assertTrue(doc.getFontInfos().contains("Times New Roman"));
+ Assert.assertEquals(204, doc.getFontInfos().get("Times New Roman").getCharset());
+
+ Assert.assertTrue(doc.getFontInfos().contains("Symbol"));
+ Assert.assertTrue(doc.getFontInfos().contains("Arial"));
+ 
+```
+
+**Returns:**
+int — количество элементов, содержащихся в коллекции.
+### getEmbedSystemFonts() {#getEmbedSystemFonts}
 ```
 public boolean getEmbedSystemFonts()
 ```
 
 
- Указывает, следует ли внедрять системные шрифты в документ. Значение по умолчанию для этого свойства**false**.
+Указывает, следует ли встраивать системные шрифты в документ. Значение свойства по умолчанию — false.
 
- Этот вариант работает только тогда, когда[getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) опция установлена на**true**.
+Эта опция работает только когда параметр [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) установлен в true.
 
-Установка этого свойства в значение True полезна, если пользователь работает в восточноазиатской системе и хочет создать документ, который смогут прочитать другие пользователи, у которых нет шрифтов для этого языка в их системе. Например, пользователь японской системы может выбрать встраивание шрифтов в документ, чтобы японский документ можно было прочитать во всех системах.
+ **Remarks:** 
 
-Эта опция работает только для форматов DOC, DOCX и RTF.
+Установка этого свойства в true полезна, если пользователь работает на системе Восточной Азии и хочет создать документ, читаемый другими, у кого на системе нет шрифтов для этого языка. Например, пользователь японской системы может выбрать встраивание шрифтов в документ, чтобы японский документ был читаем на всех системах.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getEmbedTrueTypeFonts() {#getEmbedTrueTypeFonts--}
+Эта опция работает только с форматами DOC, DOCX и RTF.
+
+ **Examples:** 
+
+Показывает, как сохранить документ со встроенными TrueType‑шрифтами.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getEmbedTrueTypeFonts() {#getEmbedTrueTypeFonts}
 ```
 public boolean getEmbedTrueTypeFonts()
 ```
 
 
-Указывает, следует ли встраивать шрифты TrueType в документ при его сохранении. Значение по умолчанию для этого свойства**false**.
+Указывает, следует ли встраивать TrueType‑шрифты в документ при его сохранении. Значение свойства по умолчанию — false.
 
-Внедрение шрифтов TrueType позволяет другим пользователям просматривать документ с теми же шрифтами, которые использовались при его создании, но может существенно увеличить размер документа.
+ **Remarks:** 
 
-Эта опция работает только для форматов DOC, DOCX и RTF.
+Встраивание TrueType‑шрифтов позволяет другим просматривать документ теми же шрифтами, которые использовались при его создании, но может существенно увеличить размер документа.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getSaveSubsetFonts() {#getSaveSubsetFonts--}
+Эта опция работает только с форматами DOC, DOCX и RTF.
+
+ **Examples:** 
+
+Показывает, как сохранить документ со встроенными TrueType‑шрифтами.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getSaveSubsetFonts() {#getSaveSubsetFonts}
 ```
 public boolean getSaveSubsetFonts()
 ```
 
 
- Указывает, следует ли сохранять вместе с документом подмножество встроенных шрифтов TrueType. Значение по умолчанию для этого свойства**false**.
+Указывает, следует ли сохранять подмножество встроенных TrueType‑шрифтов вместе с документом. Значение свойства по умолчанию — false.
 
- Этот вариант работает только тогда, когда[getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) свойство установлено на**true**.
+Эта опция работает только когда свойство [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) установлено в true.
 
-Эта опция работает только для форматов DOC, DOCX и RTF.
+ **Remarks:** 
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### hashCode() {#hashCode--}
+Эта опция работает только с форматами DOC, DOCX и RTF.
+
+ **Examples:** 
+
+Показывает, как сохранить документ со встроенными TrueType‑шрифтами.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
-Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setEmbedSystemFonts(boolean value) {#setEmbedSystemFonts-boolean-}
+### setEmbedSystemFonts(boolean value) {#setEmbedSystemFonts-boolean}
 ```
 public void setEmbedSystemFonts(boolean value)
 ```
 
 
- Указывает, следует ли внедрять системные шрифты в документ. Значение по умолчанию для этого свойства**false**.
+Указывает, следует ли встраивать системные шрифты в документ. Значение свойства по умолчанию — false.
 
- Этот вариант работает только тогда, когда[getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) опция установлена на**true**.
+Эта опция работает только когда параметр [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) установлен в true.
 
-Установка этого свойства в значение True полезна, если пользователь работает в восточноазиатской системе и хочет создать документ, который смогут прочитать другие пользователи, у которых нет шрифтов для этого языка в их системе. Например, пользователь японской системы может выбрать встраивание шрифтов в документ, чтобы японский документ можно было прочитать во всех системах.
+ **Remarks:** 
 
-Эта опция работает только для форматов DOC, DOCX и RTF.
+Установка этого свойства в true полезна, если пользователь работает на системе Восточной Азии и хочет создать документ, читаемый другими, у кого на системе нет шрифтов для этого языка. Например, пользователь японской системы может выбрать встраивание шрифтов в документ, чтобы японский документ был читаем на всех системах.
 
-**Параметры:**
+Эта опция работает только с форматами DOC, DOCX и RTF.
 
+ **Examples:** 
+
+Показывает, как сохранить документ со встроенными TrueType‑шрифтами.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setEmbedTrueTypeFonts(boolean value) {#setEmbedTrueTypeFonts-boolean-}
+### setEmbedTrueTypeFonts(boolean value) {#setEmbedTrueTypeFonts-boolean}
 ```
 public void setEmbedTrueTypeFonts(boolean value)
 ```
 
 
-Указывает, следует ли встраивать шрифты TrueType в документ при его сохранении. Значение по умолчанию для этого свойства**false**.
+Указывает, следует ли встраивать TrueType‑шрифты в документ при его сохранении. Значение свойства по умолчанию — false.
 
-Внедрение шрифтов TrueType позволяет другим пользователям просматривать документ с теми же шрифтами, которые использовались при его создании, но может существенно увеличить размер документа.
+ **Remarks:** 
 
-Эта опция работает только для форматов DOC, DOCX и RTF.
+Встраивание TrueType‑шрифтов позволяет другим просматривать документ теми же шрифтами, которые использовались при его создании, но может существенно увеличить размер документа.
 
-**Параметры:**
+Эта опция работает только с форматами DOC, DOCX и RTF.
 
+ **Examples:** 
+
+Показывает, как сохранить документ со встроенными TrueType‑шрифтами.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setSaveSubsetFonts(boolean value) {#setSaveSubsetFonts-boolean-}
+### setSaveSubsetFonts(boolean value) {#setSaveSubsetFonts-boolean}
 ```
 public void setSaveSubsetFonts(boolean value)
 ```
 
 
- Указывает, следует ли сохранять вместе с документом подмножество встроенных шрифтов TrueType. Значение по умолчанию для этого свойства**false**.
+Указывает, следует ли сохранять подмножество встроенных TrueType‑шрифтов вместе с документом. Значение свойства по умолчанию — false.
 
- Этот вариант работает только тогда, когда[getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) свойство установлено на**true**.
+Эта опция работает только когда свойство [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) установлено в true.
 
-Эта опция работает только для форматов DOC, DOCX и RTF.
+ **Remarks:** 
 
-**Параметры:**
+Эта опция работает только с форматами DOC, DOCX и RTF.
 
+ **Examples:** 
+
+Показывает, как сохранить документ со встроенными TrueType‑шрифтами.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ fontInfos.setEmbedTrueTypeFonts(embedAllFonts);
+ fontInfos.setEmbedSystemFonts(embedAllFonts);
+ fontInfos.setSaveSubsetFonts(embedAllFonts);
+
+ doc.save(getArtifactsDir() + "Font.FontInfoCollection.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

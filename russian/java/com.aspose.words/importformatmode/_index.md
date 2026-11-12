@@ -1,13 +1,14 @@
 ---
-title: ImportFormatMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как форматирование объединяется при импорте содержимого из другого документа.
+title: "ImportFormatMode"
+linktitle: "ImportFormatMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как объединяется форматирование при импорте содержимого из другого документа в Java."
 type: docs
-weight: 346
+weight: 400
 url: /ru/java/com.aspose.words/importformatmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ImportFormatMode
@@ -15,57 +16,69 @@ public class ImportFormatMode
 
 Указывает, как форматирование объединяется при импорте содержимого из другого документа.
 
-При копировании узлов из одного документа в другой этот параметр указывает, как разрешается форматирование, когда оба документа имеют стиль с одинаковым именем, но разным форматированием.
+ **Remarks:** 
 
-Форматирование решается следующим образом:
+При копировании узлов из одного документа в другой эта опция указывает, как разрешается форматирование, когда оба документа имеют стиль с одинаковым именем, но разным форматированием.
 
-1.  Встроенные стили сопоставляются с использованием идентификатора стиля, независимого от языкового стандарта. Определенные пользователем стили сопоставляются с использованием имени стиля с учетом регистра.
-2.  Если соответствующий стиль не найден в целевом документе, стиль (и все стили, на которые он ссылается) копируется в целевой документ, а импортированные узлы обновляются для ссылки на новый стиль.
-3.   Если соответствующий стиль уже существует в целевом документе, то, что происходит, зависит от параметра importFormatMode, переданного в**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** как описано ниже.
+Форматирование разрешается следующим образом:
 
- При использовании**UseDestinationStyles** вариант, если соответствующий стиль уже существует в целевом документе, стиль не копируется, а импортированные узлы обновляются для ссылки на существующий стиль.
+1. Встроенные стили сопоставляются по их независимому от локали идентификатору стиля. Пользовательские стили сопоставляются по регистрозависимому имени стиля.
+2. Если соответствующий стиль не найден в целевом документе, стиль (и все стили, на которые он ссылается) копируются в целевой документ, и импортированные узлы обновляются, чтобы ссылаться на новый стиль.
+3. Если соответствующий стиль уже существует в целевом документе, то то, что происходит, зависит от параметра  importFormatMode , переданного в **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**, как описано ниже.
 
- Недостаток использования**UseDestinationStyles**заключается в том, что импортированный текст может выглядеть в целевом документе иначе, чем в исходном документе. Например, стиль «Заголовок 1» в исходном документе использует шрифт Arial 16pt, а стиль «Заголовок 1» в целевом документе использует шрифт Times New Roman 14pt. При импорте текста в стиле «Заголовок 1» без другого прямого форматирования он будет отображаться в целевом документе как шрифт Times New Roman 14pt.
+При использовании опции [USE\_DESTINATION\_STYLES](../../com.aspose.words/importformatmode/\#USE-DESTINATION-STYLES) если соответствующий стиль уже существует в целевом документе, стиль не копируется, и импортированные узлы обновляются, чтобы ссылаться на существующий стиль.
 
-**KeepSourceFormatting**Параметр позволяет убедиться, что импортированное содержимое выглядит в целевом документе так же, как и в исходном документе. Если соответствующий стиль уже существует в целевом документе, форматирование исходного стиля расширяется до непосредственных атрибутов узла, а стиль изменяется на Обычный. Если стиль не существует в целевом документе, исходный стиль импортируется в целевой документ и применяется к импортированному узлу. Обратите внимание, что не всегда возможно сохранить исходный стиль, даже если он не существует в целевом документе. В этом случае форматирование такого стиля будет расширено на непосредственные атрибуты узла в пользу сохранения исходного форматирования узла.
+Недостаток использования [USE\_DESTINATION\_STYLES](../../com.aspose.words/importformatmode/\#USE-DESTINATION-STYLES) заключается в том, что импортированный текст может выглядеть иначе в целевом документе по сравнению с исходным документом. Например, стиль "Heading 1" в исходном документе использует шрифт Arial 16pt, а стиль "Heading 1" в целевом документе использует шрифт Times New Roman 14pt. При импорте текста стиля "Heading 1" без другого прямого форматирования он будет отображаться шрифтом Times New Roman 14pt в целевом документе.
 
- Недостаток использования**KeepSourceFormatting** заключается в том, что если вы выполните несколько импортов, вы можете получить много стилей в целевом документе, и это может затруднить использование согласованного форматирования стилей в Microsoft Word для этого документа.
+[KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) option allows to make sure the imported content looks the same in the destination document like it looks in the source document. If a matching style already exists in the destination document, the source style formatting is expanded into direct Node attributes and the style is changed to Normal. If the style does not exist in the destination document, then the source style is imported into the destination document and applied to the imported node. Note, that it is not always possible to preserve the source style even if it does not exist in the destination document. In this case formatting of such style will be expanded into direct Node attributes in favor of preserving original Node formatting.
 
- С использованием**KeepDifferentStyles**Опция позволяет повторно использовать конечные стили, если предоставляемое ими форматирование идентично стилям в исходном документе. Если стиль в целевом документе отличается от исходного, он импортируется.
+Недостаток использования [KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) состоит в том, что при выполнении нескольких импортов вы можете получить множество стилей в целевом документе, что может затруднить использование согласованного форматирования стилей в Microsoft Word для этого документа.
+
+Использование опции [KEEP\_DIFFERENT\_STYLES](../../com.aspose.words/importformatmode/\#KEEP-DIFFERENT-STYLES) позволяет повторно использовать стили целевого документа, если предоставляемое ими форматирование идентично стилям в исходном документе. Если стиль в целевом документе отличается от исходного, он импортируется.
+
+ **Examples:** 
+
+Показывает, как вставить документ в другой документ.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ Document docToInsert = new Document(getMyDir() + "Formatted elements.docx");
+
+ builder.insertDocument(docToInsert, ImportFormatMode.KEEP_SOURCE_FORMATTING);
+ builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.InsertDocument.docx");
+ 
+```
 
 **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [KEEP_DIFFERENT_STYLES](#KEEP-DIFFERENT-STYLES) | Копируйте только те стили, которые отличаются от тех, что в исходном документе. |
-| [KEEP_SOURCE_FORMATTING](#KEEP-SOURCE-FORMATTING) | Скопируйте все необходимые стили в конечный документ, при необходимости создайте уникальные имена стилей. |
-| [USE_DESTINATION_STYLES](#USE-DESTINATION-STYLES) | Используйте стили целевого документа и скопируйте новые стили. |
+| [KEEP_DIFFERENT_STYLES](#KEEP-DIFFERENT-STYLES) | Копировать только стили, отличные от тех, что находятся в исходном документе. |
+| [KEEP_SOURCE_FORMATTING](#KEEP-SOURCE-FORMATTING) | Скопировать все необходимые стили в целевой документ, при необходимости сгенерировать уникальные имена стилей. |
+| [USE_DESTINATION_STYLES](#USE-DESTINATION-STYLES) | Использовать стили целевого документа и копировать новые стили. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String importFormatModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int importFormatMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int importFormatMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String importFormatModeName)](#fromName-java.lang.String) |  |
+| [getName(int importFormatMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int importFormatMode)](#toString-int) |  |
 ### KEEP_DIFFERENT_STYLES {#KEEP-DIFFERENT-STYLES}
 ```
 public static int KEEP_DIFFERENT_STYLES
 ```
 
 
-Копируйте только те стили, которые отличаются от тех, что в исходном документе.
+Копировать только стили, отличные от тех, что находятся в исходном документе.
 
 ### KEEP_SOURCE_FORMATTING {#KEEP-SOURCE-FORMATTING}
 ```
@@ -73,7 +86,7 @@ public static int KEEP_SOURCE_FORMATTING
 ```
 
 
-Скопируйте все необходимые стили в конечный документ, при необходимости создайте уникальные имена стилей.
+Скопировать все необходимые стили в целевой документ, при необходимости сгенерировать уникальные имена стилей.
 
 ### USE_DESTINATION_STYLES {#USE-DESTINATION-STYLES}
 ```
@@ -81,7 +94,7 @@ public static int USE_DESTINATION_STYLES
 ```
 
 
-Используйте стили целевого документа и скопируйте новые стили. Это опция по умолчанию.
+Использовать стили целевого документа и копировать новые стили. Это вариант по умолчанию.
 
 ### length {#length}
 ```
@@ -89,23 +102,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String importFormatModeName) {#fromName-java.lang.String-}
+### fromName(String importFormatModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String importFormatModeName)
 ```
@@ -113,25 +110,14 @@ public static int fromName(String importFormatModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | importFormatModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int importFormatMode) {#getName-int-}
+**Returns:**
+int
+### getName(int importFormatMode) {#getName-int}
 ```
 public static String getName(int importFormatMode)
 ```
@@ -139,15 +125,14 @@ public static String getName(int importFormatMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | importFormatMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -155,45 +140,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int importFormatMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int importFormatMode) {#toString-int}
 ```
 public static String toString(int importFormatMode)
 ```
@@ -201,47 +150,10 @@ public static String toString(int importFormatMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | importFormatMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,19 +1,81 @@
 ---
-title: NodeChangingAction
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает тип изменения узла.
+title: "NodeChangingAction"
+linktitle: "NodeChangingAction"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип изменения узла в Java."
 type: docs
-weight: 402
+weight: 477
 url: /ru/java/com.aspose.words/nodechangingaction/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class NodeChangingAction
 ```
 
 Указывает тип изменения узла.
+
+ **Examples:** 
+
+Показывает, как использовать NodeChangingCallback для мониторинга изменений дерева документа в реальном времени во время редактирования.
+
+```
+
+ public void nodeChangingCallback() throws Exception {
+     Document doc = new Document();
+     doc.setNodeChangingCallback(new NodeChangingPrinter());
+
+     DocumentBuilder builder = new DocumentBuilder(doc);
+     builder.writeln("Hello world!");
+     builder.startTable();
+     builder.insertCell();
+     builder.write("Cell 1");
+     builder.insertCell();
+     builder.write("Cell 2");
+     builder.endTable();
+
+     builder.insertImage(getImageDir() + "Logo.jpg");
+     builder.getCurrentParagraph().getParentNode().removeAllChildren();
+ }
+
+ /// 
+ /// Prints every node insertion/removal as it takes place in the document.
+ /// 
+ private static class NodeChangingPrinter implements INodeChangingCallback {
+     public void nodeInserting(NodeChangingArgs args) {
+         Assert.assertEquals(args.getAction(), NodeChangingAction.INSERT);
+         Assert.assertEquals(args.getOldParent(), null);
+     }
+
+     public void nodeInserted(NodeChangingArgs args) {
+         Assert.assertEquals(args.getAction(), NodeChangingAction.INSERT);
+         Assert.assertNotNull(args.getNewParent());
+
+         System.out.println("Inserted node:");
+         System.out.println(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+
+         if (!"".equals(args.getNode().getText().trim())) {
+             System.out.println(MessageFormat.format("\tText:\t\"{0}\"", args.getNode().getText().trim()));
+         }
+
+         System.out.println(MessageFormat.format("\tHash:\t{0}", args.getNode().hashCode()));
+         System.out.println(MessageFormat.format("\tParent:\t{0} ({1})", args.getNewParent().getNodeType(), args.getNewParent().hashCode()));
+     }
+
+     public void nodeRemoving(NodeChangingArgs args) {
+         Assert.assertEquals(args.getAction(), NodeChangingAction.REMOVE);
+     }
+
+     public void nodeRemoved(NodeChangingArgs args) {
+         Assert.assertEquals(args.getAction(), NodeChangingAction.REMOVE);
+         Assert.assertNull(args.getNewParent());
+
+         System.out.println(MessageFormat.format("Removed node: {0} ({1})", args.getNode().getNodeType(), args.getNode().hashCode()));
+     }
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -25,19 +87,10 @@ public class NodeChangingAction
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String nodeChangingActionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int nodeChangingAction)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int nodeChangingAction)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String nodeChangingActionName)](#fromName-java.lang.String) |  |
+| [getName(int nodeChangingAction)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int nodeChangingAction)](#toString-int) |  |
 ### INSERT {#INSERT}
 ```
 public static int INSERT
@@ -60,23 +113,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String nodeChangingActionName) {#fromName-java.lang.String-}
+### fromName(String nodeChangingActionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String nodeChangingActionName)
 ```
@@ -84,25 +121,14 @@ public static int fromName(String nodeChangingActionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | nodeChangingActionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int nodeChangingAction) {#getName-int-}
+**Returns:**
+int
+### getName(int nodeChangingAction) {#getName-int}
 ```
 public static String getName(int nodeChangingAction)
 ```
@@ -110,15 +136,14 @@ public static String getName(int nodeChangingAction)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | nodeChangingAction | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -126,45 +151,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int nodeChangingAction) {#toString-int-}
+**Returns:**
+int[]
+### toString(int nodeChangingAction) {#toString-int}
 ```
 public static String toString(int nodeChangingAction)
 ```
@@ -172,47 +161,10 @@ public static String toString(int nodeChangingAction)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | nodeChangingAction | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

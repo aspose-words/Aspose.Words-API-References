@@ -1,56 +1,70 @@
 ---
-title: VerticalAlignment
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет вертикальное выравнивание текстового фрейма с плавающей фигурой или плавающей таблицы.
+title: "VerticalAlignment"
+linktitle: "VerticalAlignment"
+second_title: "Aspose.Words для Java"
+description: "Указывает вертикальное выравнивание плавающей формы текстового фрейма или плавающей таблицы в Java."
 type: docs
-weight: 600
+weight: 713
 url: /ru/java/com.aspose.words/verticalalignment/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class VerticalAlignment
 ```
 
-Задает вертикальное выравнивание плавающей фигуры, текстового фрейма или плавающей таблицы.
+Указывает вертикальное выравнивание плавающей фигуры, текстового фрейма или плавающей таблицы.
+
+ **Examples:** 
+
+Показывает, как вставить плавающее изображение в центр страницы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | Указывает, что объект должен находиться внизу базы вертикального выравнивания. |
-| [CENTER](#CENTER) | Указывает, что объект должен центрироваться относительно базы вертикального выравнивания. |
-| [DEFAULT](#DEFAULT) |  Такой же как[NONE](../../com.aspose.words/verticalalignment\#NONE). |
-| [INLINE](#INLINE) | Не задокументировано. |
-| [INSIDE](#INSIDE) | Указывает, что объект должен находиться внутри базы горизонтального выравнивания. |
-| [NONE](#NONE) |  Объект явно позиционируется, обычно с помощью его**Top** имущество. |
-| [OUTSIDE](#OUTSIDE) | Указывает, что объект должен находиться за пределами базы вертикального выравнивания. |
-| [TOP](#TOP) | Указывает, что объект должен находиться в верхней части базы вертикального выравнивания. |
+| [BOTTOM](#BOTTOM) | Указывает, что объект должен находиться в нижней части базового вертикального выравнивания. |
+| [CENTER](#CENTER) | Указывает, что объект должен быть центрирован относительно базового вертикального выравнивания. |
+| [DEFAULT](#DEFAULT) | То же, что [NONE](../../com.aspose.words/verticalalignment/\#NONE). |
+| [INLINE](#INLINE) | Не документировано. |
+| [INSIDE](#INSIDE) | Указывает, что объект должен быть внутри базовой горизонтальной выравнивающей линии. |
+| [NONE](#NONE) | Объект явно позиционируется, обычно с использованием его свойства **Top**. |
+| [OUTSIDE](#OUTSIDE) | Указывает, что объект должен находиться за пределами базовой вертикальной выравнивающей линии. |
+| [TOP](#TOP) | Указывает, что объект должен находиться в верхней части базовой вертикальной выравнивающей линии. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String verticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int verticalAlignment)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int verticalAlignment)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String verticalAlignmentName)](#fromName-java.lang.String) |  |
+| [getName(int verticalAlignment)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int verticalAlignment)](#toString-int) |  |
 ### BOTTOM {#BOTTOM}
 ```
 public static int BOTTOM
 ```
 
 
-Указывает, что объект должен находиться внизу базы вертикального выравнивания.
+Указывает, что объект должен находиться в нижней части базового вертикального выравнивания.
 
 ### CENTER {#CENTER}
 ```
@@ -58,7 +72,7 @@ public static int CENTER
 ```
 
 
-Указывает, что объект должен центрироваться относительно базы вертикального выравнивания.
+Указывает, что объект должен быть центрирован относительно базового вертикального выравнивания.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -66,7 +80,7 @@ public static int DEFAULT
 ```
 
 
- Такой же как[NONE](../../com.aspose.words/verticalalignment\#NONE).
+То же, что [NONE](../../com.aspose.words/verticalalignment/\#NONE).
 
 ### INLINE {#INLINE}
 ```
@@ -74,7 +88,7 @@ public static int INLINE
 ```
 
 
-Не задокументировано. Кажется, это возможное значение для плавающих абзацев и таблиц.
+Не документировано. Похоже, это возможное значение для плавающих абзацев и таблиц.
 
 ### INSIDE {#INSIDE}
 ```
@@ -82,7 +96,7 @@ public static int INSIDE
 ```
 
 
-Указывает, что объект должен находиться внутри базы горизонтального выравнивания.
+Указывает, что объект должен быть внутри базовой горизонтальной выравнивающей линии.
 
 ### NONE {#NONE}
 ```
@@ -90,7 +104,7 @@ public static int NONE
 ```
 
 
- Объект явно позиционируется, обычно с помощью его**Top** имущество.
+Объект явно позиционируется, обычно с использованием его свойства **Top**.
 
 ### OUTSIDE {#OUTSIDE}
 ```
@@ -98,7 +112,7 @@ public static int OUTSIDE
 ```
 
 
-Указывает, что объект должен находиться за пределами базы вертикального выравнивания.
+Указывает, что объект должен находиться за пределами базовой вертикальной выравнивающей линии.
 
 ### TOP {#TOP}
 ```
@@ -106,7 +120,7 @@ public static int TOP
 ```
 
 
-Указывает, что объект должен находиться в верхней части базы вертикального выравнивания.
+Указывает, что объект должен находиться в верхней части базовой вертикальной выравнивающей линии.
 
 ### length {#length}
 ```
@@ -114,23 +128,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String verticalAlignmentName) {#fromName-java.lang.String-}
+### fromName(String verticalAlignmentName) {#fromName-java.lang.String}
 ```
 public static int fromName(String verticalAlignmentName)
 ```
@@ -138,25 +136,14 @@ public static int fromName(String verticalAlignmentName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | verticalAlignmentName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int verticalAlignment) {#getName-int-}
+**Returns:**
+int
+### getName(int verticalAlignment) {#getName-int}
 ```
 public static String getName(int verticalAlignment)
 ```
@@ -164,15 +151,14 @@ public static String getName(int verticalAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | verticalAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -180,45 +166,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int verticalAlignment) {#toString-int-}
+**Returns:**
+int[]
+### toString(int verticalAlignment) {#toString-int}
 ```
 public static String toString(int verticalAlignment)
 ```
@@ -226,47 +176,10 @@ public static String toString(int verticalAlignment)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | verticalAlignment | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

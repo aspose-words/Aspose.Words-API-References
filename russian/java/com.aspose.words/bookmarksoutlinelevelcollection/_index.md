@@ -1,54 +1,108 @@
 ---
-title: BookmarksOutlineLevelCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Набор уровней контура отдельных закладок.
+title: "BookmarksOutlineLevelCollection"
+linktitle: "BookmarksOutlineLevelCollection"
+second_title: "Aspose.Words для Java"
+description: "Коллекция отдельных уровней оглавления закладок в Java."
 type: docs
-weight: 35
+weight: 45
 url: /ru/java/com.aspose.words/bookmarksoutlinelevelcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class BookmarksOutlineLevelCollection implements Iterable
 ```
 
-Набор уровней контура отдельных закладок.
+Коллекция отдельных уровней структуры закладок.
 
- Чтобы узнать больше, посетите**Working with Bookmarks** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Bookmarks ][Working with Bookmarks].
 
-Ключ — это строковое имя закладки без учета регистра. Значение представляет собой уровень структуры закладки int.
+ **Remarks:** 
 
-Уровень структуры закладки может быть значением от 0 до 9. Укажите 0, и закладка Word не будет отображаться в структуре документа. Укажите 1, и закладка Word будет отображаться в структуре документа на уровне 1; 2 для уровня 2 и так далее.
+Ключ — имя закладки в виде строки без учёта регистра. Значение — целочисленный уровень оглавления закладки.
+
+Уровень оглавления закладки может принимать значение от 0 до 9. Укажите 0, и закладка Word не будет отображаться в оглавлении документа. Укажите 1, и закладка Word будет отображаться в оглавлении документа на уровне 1; 2 — на уровне 2 и так далее.
+
+ **Examples:** 
+
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+
+[Working with Bookmarks]: https://docs.aspose.com/words/java/working-with-bookmarks/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(String name, int outlineLevel)](#add-java.lang.String-int-) | Добавляет закладку в коллекцию. |
-| [clear()](#clear--) | Удаляет все элементы из коллекции. |
-| [contains(String name)](#contains-java.lang.String-) | Определяет, содержит ли коллекция закладку с заданным именем. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Получает уровень структуры закладки по указанному индексу. |
-| [get(String name)](#get-java.lang.String-) | Предоставляет доступ к элементам коллекции. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество элементов, содержащихся в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [indexOfKey(String name)](#indexOfKey-java.lang.String-) | Возвращает отсчитываемый от нуля индекс указанной закладки в коллекции. |
-| [iterator()](#iterator--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Удаляет закладку с указанным именем из коллекции. |
-| [removeAt(int index)](#removeAt-int-) | Удаляет закладку по указанному индексу. |
-| [set(int index, int value)](#set-int-int-) | Устанавливает уровень структуры закладки по указанному индексу. |
-| [set(String name, int value)](#set-java.lang.String-int-) | Предоставляет доступ к элементам коллекции. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(String name, int outlineLevel) {#add-java.lang.String-int-}
+| [add(String name, int outlineLevel)](#add-java.lang.String-int) | Добавляет закладку в коллекцию. |
+| [clear()](#clear) | Удаляет все элементы из коллекции. |
+| [contains(String name)](#contains-java.lang.String) | Определяет, содержит ли коллекция закладку с указанным именем. |
+| [get(int index)](#get-int) | Получает уровень оглавления закладки по указанному индексу. |
+| [get(String name)](#get-java.lang.String) | Обеспечивает доступ к элементам коллекции. |
+| [getCount()](#getCount) | Получает количество элементов, содержащихся в коллекции. |
+| [indexOfKey(String name)](#indexOfKey-java.lang.String) | Возвращает нулевой индекс указанной закладки в коллекции. |
+| [iterator()](#iterator) | Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции. |
+| [remove(String name)](#remove-java.lang.String) | Удаляет закладку с указанным именем из коллекции. |
+| [removeAt(int index)](#removeAt-int) | Удаляет закладку по указанному индексу. |
+| [set(int index, int value)](#set-int-int) | Устанавливает уровень структуры закладки по указанному индексу. |
+| [set(String name, int value)](#set-java.lang.String-int) | Обеспечивает доступ к элементам коллекции. |
+### add(String name, int outlineLevel) {#add-java.lang.String-int}
 ```
 public void add(String name, int outlineLevel)
 ```
@@ -56,14 +110,70 @@ public void add(String name, int outlineLevel)
 
 Добавляет закладку в коллекцию.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя добавляемой закладки. |
-| outlineLevel | int | Уровень контура закладки. Допустимый диапазон от 0 до 9. |
+| name | java.lang.String | Имя закладки без учёта регистра для добавления. |
+| outlineLevel | int | Уровень структуры закладки. Допустимый диапазон от 0 до 9. |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
@@ -71,81 +181,280 @@ public void clear()
 
 Удаляет все элементы из коллекции.
 
-### contains(String name) {#contains-java.lang.String-}
+ **Examples:** 
+
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
 ```
 
 
-Определяет, содержит ли коллекция закладку с заданным именем.
+Определяет, содержит ли коллекция закладку с указанным именем.
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя закладки, которую необходимо найти. |
+Показывает, как установить уровни оглавления для закладок.
 
-**Возвращает:**
-boolean - Истинно, если элемент найден в коллекции; в противном случае ложно.
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
 
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
 
-**Параметры:**
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
 
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| name | java.lang.String | Имя закладки без учёта регистра для поиска. |
 
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+boolean -  true  если элемент найден в коллекции; иначе,  false .
+### get(int index) {#get-int}
 ```
 public int get(int index)
 ```
 
 
-Получает уровень структуры закладки по указанному индексу.
+Получает уровень оглавления закладки по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс закладки. |
+| индекс | int | Нулевой индекс закладки. |
 
-**Возвращает:**
-int — уровень структуры закладки. Допустимый диапазон от 0 до 9.
-### get(String name) {#get-java.lang.String-}
+**Returns:**
+int — Уровень структуры закладки. Допустимый диапазон от 0 до 9.
+### get(String name) {#get-java.lang.String}
 ```
 public int get(String name)
 ```
 
 
-Предоставляет доступ к элементам коллекции. Получает или задает уровень структуры закладки по имени закладки.
+Обеспечивает доступ к элементам коллекции. Получает или задаёт уровень структуры закладки по имени закладки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя закладки. |
+| name | java.lang.String | Имя закладки без учёта регистра. |
 
-**Возвращает:**
-int — уровень структуры закладки. Допустимый диапазон от 0 до 9.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+int — Уровень структуры закладки. Допустимый диапазон от 0 до 9.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -153,61 +462,148 @@ public int getCount()
 
 Получает количество элементов, содержащихся в коллекции.
 
-**Возвращает:**
-int - количество элементов, содержащихся в коллекции.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как установить уровни оглавления для закладок.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### indexOfKey(String name) {#indexOfKey-java.lang.String-}
+**Returns:**
+int — количество элементов, содержащихся в коллекции.
+### indexOfKey(String name) {#indexOfKey-java.lang.String}
 ```
 public int indexOfKey(String name)
 ```
 
 
-Возвращает отсчитываемый от нуля индекс указанной закладки в коллекции.
+Возвращает нулевой индекс указанной закладки в коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя закладки. |
+| name | java.lang.String | Имя закладки без учёта регистра. |
 
-**Возвращает:**
-int - индекс, основанный на нуле. Отрицательное значение, если не найдено.
-### iterator() {#iterator--}
+**Returns:**
+int - Индекс, начинающийся с нуля. Отрицательное значение, если не найден.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
+Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции.
 
-
-**Возвращает:**
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(String name) {#remove-java.lang.String-}
+### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
 ```
@@ -215,13 +611,69 @@ public void remove(String name)
 
 Удаляет закладку с указанным именем из коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя закладки. |
+| name | java.lang.String | Имя закладки без учёта регистра. |
 
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -229,13 +681,69 @@ public void removeAt(int index)
 
 Удаляет закладку по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Индекс с отсчетом от нуля. |
+| индекс | int | Нулевой индекс. |
 
-### set(int index, int value) {#set-int-int-}
+### set(int index, int value) {#set-int-int}
 ```
 public void set(int index, int value)
 ```
@@ -243,71 +751,137 @@ public void set(int index, int value)
 
 Устанавливает уровень структуры закладки по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс закладки. |
-| value | int | Уровень контура закладки. Допустимый диапазон от 0 до 9. |
+| индекс | int | Нулевой индекс закладки. |
+| значение | int | Уровень структуры закладки. Допустимый диапазон от 0 до 9. |
 
-### set(String name, int value) {#set-java.lang.String-int-}
+### set(String name, int value) {#set-java.lang.String-int}
 ```
 public void set(String name, int value)
 ```
 
 
-Предоставляет доступ к элементам коллекции. Получает или задает уровень структуры закладки по имени закладки.
+Обеспечивает доступ к элементам коллекции. Получает или задаёт уровень структуры закладки по имени закладки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как установить уровни оглавления для закладок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a bookmark with another bookmark nested inside it.
+ builder.startBookmark("Bookmark 1");
+ builder.writeln("Text inside Bookmark 1.");
+
+ builder.startBookmark("Bookmark 2");
+ builder.writeln("Text inside Bookmark 1 and 2.");
+ builder.endBookmark("Bookmark 2");
+
+ builder.writeln("Text inside Bookmark 1.");
+ builder.endBookmark("Bookmark 1");
+
+ // Insert another bookmark.
+ builder.startBookmark("Bookmark 3");
+ builder.writeln("Text inside Bookmark 3.");
+ builder.endBookmark("Bookmark 3");
+
+ // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
+ // Bookmarks can also have numeric values for outline levels,
+ // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+ BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
+
+ outlineLevels.add("Bookmark 1", 1);
+ outlineLevels.add("Bookmark 2", 2);
+ outlineLevels.add("Bookmark 3", 3);
+
+ Assert.assertEquals(outlineLevels.getCount(), 3);
+ Assert.assertTrue(outlineLevels.contains("Bookmark 1"));
+ Assert.assertEquals(outlineLevels.get(0), 1);
+ Assert.assertEquals(outlineLevels.get("Bookmark 2"), 2);
+ Assert.assertEquals(outlineLevels.indexOfKey("Bookmark 3"), 2);
+
+ // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
+ outlineLevels.removeAt(2);
+ outlineLevels.remove("Bookmark 2");
+
+ // There are nine outline levels. Their numbering will be optimized during the save operation.
+ // In this case, levels "5" and "9" will become "2" and "3".
+ outlineLevels.add("Bookmark 2", 5);
+ outlineLevels.add("Bookmark 3", 9);
+
+ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+
+ // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
+ outlineLevels.clear();
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | java.lang.String | Нечувствительное к регистру имя закладки. |
-| value | int | Уровень контура закладки. Допустимый диапазон от 0 до 9. |
+| name | java.lang.String | Имя закладки без учёта регистра. |
+| значение | int | Уровень структуры закладки. Допустимый диапазон от 0 до 9. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

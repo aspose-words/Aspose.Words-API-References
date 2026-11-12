@@ -1,273 +1,465 @@
 ---
-title: TextColumnCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Коллекция объектов, представляющих все столбцы текста в разделе документа.
+title: "TextColumnCollection"
+linktitle: "TextColumnCollection"
+second_title: "Aspose.Words для Java"
+description: "Коллекция объектов TextColumn, представляющих все столбцы текста в разделе документа в Java."
 type: docs
-weight: 562
+weight: 671
 url: /ru/java/com.aspose.words/textcolumncollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextColumnCollection
 ```
 
- Коллекция[TextColumn](../../com.aspose.words/textcolumn) объекты, представляющие все столбцы текста в разделе документа.
+Коллекция объектов [TextColumn](../../com.aspose.words/textcolumn/), представляющих все столбцы текста в разделе документа.
 
- Чтобы узнать больше, посетите**Working with Sections** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Sections ][Working with Sections].
 
- Использовать[setCount(int)](../../com.aspose.words/textcolumncollection\#setCount-int-) установить количество текстовых столбцов.
+ **Remarks:** 
 
- Чтобы все столбцы были одинаковой ширины и располагались равномерно, установите[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) к**true** и укажите расстояние между столбцами в[getSpacing()](../../com.aspose.words/textcolumncollection\#getSpacing--) / [setSpacing(double)](../../com.aspose.words/textcolumncollection\#setSpacing-double-). MS Word автоматически рассчитает ширину столбцов.
+Используйте [setCount(int)](../../com.aspose.words/textcolumncollection/\#setCount-int) чтобы задать количество текстовых колонок.
 
- Если у вас есть**EvenlySpaced** установлен в**false** , необходимо указать ширину и интервал для каждого столбца отдельно. Используйте индексатор для доступа к отдельным[TextColumn](../../com.aspose.words/textcolumn) объекты.
+Чтобы сделать все колонки одинаковой ширины и равномерно распределёнными, установите [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) в  true  и укажите величину промежутка между колонками в [getSpacing()](../../com.aspose.words/textcolumncollection/\#getSpacing) / [setSpacing(double)](../../com.aspose.words/textcolumncollection/\#setSpacing-double). MS Word автоматически вычислит ширину колонок.
 
-При использовании нестандартной ширины столбцов убедитесь, что сумма ширины всех столбцов и промежутков между ними равна ширине страницы за вычетом левого и правого полей страницы.
+Если у вас [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) установлен в  false , вам необходимо указать ширину и промежуток для каждой колонки отдельно. Используйте индексатор для доступа к отдельным объектам [TextColumn](../../com.aspose.words/textcolumn/).
+
+При использовании пользовательских ширин колонок убедитесь, что сумма всех ширин колонок и промежутков между ними равна ширине страницы за вычетом левых и правых полей страницы.
+
+ **Examples:** 
+
+Показывает, как создать несколько колонок с равномерным расстоянием в разделе.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setSpacing(100.0);
+ columns.setCount(2);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
+ 
+```
+
+
+[Working with Sections]: https://docs.aspose.com/words/java/working-with-sections/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Возвращает текстовый столбец по указанному индексу. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество столбцов в разделе документа. |
-| [getEvenlySpaced()](#getEvenlySpaced--) | **True**если текстовые столбцы имеют одинаковую ширину и равномерно распределены. |
-| [getLineBetween()](#getLineBetween--) |  Когда**true**, добавляет вертикальную линию между столбцами. |
-| [getSpacing()](#getSpacing--) | Когда столбцы расположены равномерно, получает или задает расстояние между каждым столбцом в пунктах. |
-| [getWidth()](#getWidth--) | Когда столбцы расположены равномерно, получает ширину столбцов. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setCount(int newCount)](#setCount-int-) | Располагает текст в указанное количество текстовых столбцов. |
-| [setEvenlySpaced(boolean value)](#setEvenlySpaced-boolean-) | **True**если текстовые столбцы имеют одинаковую ширину и равномерно распределены. |
-| [setLineBetween(boolean value)](#setLineBetween-boolean-) |  Когда**true**, добавляет вертикальную линию между столбцами. |
-| [setSpacing(double value)](#setSpacing-double-) | Когда столбцы расположены равномерно, получает или задает расстояние между каждым столбцом в пунктах. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+| [get(int index)](#get-int) | Возвращает текстовую колонку по указанному индексу. |
+| [getCount()](#getCount) | Получает количество колонок в разделе документа. |
+| [getEvenlySpaced()](#getEvenlySpaced) | True, если текстовые колонки имеют одинаковую ширину и равномерно распределены. |
+| [getLineBetween()](#getLineBetween) | Когда  true , добавляет вертикальную линию между колонками. |
+| [getSpacing()](#getSpacing) | Когда колонки равномерно распределены, получает или задает величину промежутка между каждой колонкой в пунктах. |
+| [getWidth()](#getWidth) | Когда колонки равномерно распределены, получает ширину колонок. |
+| [setCount(int newCount)](#setCount-int) | Размещает текст в указанном количестве текстовых колонок. |
+| [setEvenlySpaced(boolean value)](#setEvenlySpaced-boolean) | True, если текстовые колонки имеют одинаковую ширину и равномерно распределены. |
+| [setLineBetween(boolean value)](#setLineBetween-boolean) | Когда  true , добавляет вертикальную линию между колонками. |
+| [setSpacing(double value)](#setSpacing-double) | Когда колонки равномерно распределены, получает или задает величину промежутка между каждой колонкой в пунктах. |
+### get(int index) {#get-int}
 ```
 public TextColumn get(int index)
 ```
 
 
-Возвращает текстовый столбец по указанному индексу.
+Возвращает текстовую колонку по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать колонки с неравномерным расстоянием.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ PageSetup pageSetup = builder.getPageSetup();
+
+ TextColumnCollection columns = pageSetup.getTextColumns();
+ columns.setEvenlySpaced(false);
+ columns.setCount(2);
+
+ // Determine the amount of room that we have available for arranging columns.
+ double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
+
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
+
+ // Set the first column to be narrow.
+ TextColumn column = columns.get(0);
+ column.setWidth(100.0);
+ column.setSpaceAfter(20.0);
+
+ // Set the second column to take the rest of the space available within the margins of the page.
+ column = columns.get(1);
+ column.setWidth(contentWidth - column.getWidth() - column.getSpaceAfter());
+
+ builder.writeln("Narrow column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Wide column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CustomColumnWidth.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-**Возвращает:**
-[TextColumn](../../com.aspose.words/textcolumn) - Текстовый столбец по указанному индексу.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[TextColumn](../../com.aspose.words/textcolumn/) - A text column at the specified index.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
 
 
-Получает количество столбцов в разделе документа.
+Получает количество колонок в разделе документа.
 
-**Возвращает:**
-int - количество столбцов в разделе документа.
-### getEvenlySpaced() {#getEvenlySpaced--}
+ **Examples:** 
+
+Показывает, как создать несколько колонок с равномерным расстоянием в разделе.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setSpacing(100.0);
+ columns.setCount(2);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
+ 
+```
+
+**Returns:**
+int — количество колонок в разделе документа.
+### getEvenlySpaced() {#getEvenlySpaced}
 ```
 public boolean getEvenlySpaced()
 ```
 
 
-**True**если текстовые столбцы имеют одинаковую ширину и равномерно распределены.
+True, если текстовые колонки имеют одинаковую ширину и равномерно распределены.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getLineBetween() {#getLineBetween--}
+ **Examples:** 
+
+Показывает, как создать колонки с неравномерным расстоянием.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ PageSetup pageSetup = builder.getPageSetup();
+
+ TextColumnCollection columns = pageSetup.getTextColumns();
+ columns.setEvenlySpaced(false);
+ columns.setCount(2);
+
+ // Determine the amount of room that we have available for arranging columns.
+ double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
+
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
+
+ // Set the first column to be narrow.
+ TextColumn column = columns.get(0);
+ column.setWidth(100.0);
+ column.setSpaceAfter(20.0);
+
+ // Set the second column to take the rest of the space available within the margins of the page.
+ column = columns.get(1);
+ column.setWidth(contentWidth - column.getWidth() - column.getSpaceAfter());
+
+ builder.writeln("Narrow column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Wide column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CustomColumnWidth.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getLineBetween() {#getLineBetween}
 ```
 public boolean getLineBetween()
 ```
 
 
- Когда**true**, добавляет вертикальную линию между столбцами.
+Когда  true , добавляет вертикальную линию между колонками.
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getSpacing() {#getSpacing--}
+ **Examples:** 
+
+Показывает, как разделить колонки вертикальной линией.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Configure the current section's PageSetup object to divide the text into several columns.
+ // Set the "LineBetween" property to "true" to put a dividing line between columns.
+ // Set the "LineBetween" property to "false" to leave the space between columns blank.
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setLineBetween(lineBetween);
+ columns.setCount(3);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 3.");
+
+ doc.save(getArtifactsDir() + "PageSetup.VerticalLineBetweenColumns.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getSpacing() {#getSpacing}
 ```
 public double getSpacing()
 ```
 
 
- Когда столбцы расположены равномерно, получает или задает расстояние между каждым столбцом в пунктах. Имеет эффект только тогда, когда[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) установлен на**true**.
+Когда колонки равномерно распределены, получает или задает величину промежутка между каждой колонкой в пунктах.
 
-**Возвращает:**
-double - соответствующее двойное значение.
-### getWidth() {#getWidth--}
+ **Remarks:** 
+
+Имеет эффект только когда [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) установлен в  true .
+
+ **Examples:** 
+
+Показывает, как создать несколько колонок с равномерным расстоянием в разделе.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setSpacing(100.0);
+ columns.setCount(2);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
+ 
+```
+
+**Returns:**
+double - Соответствующее  double  значение.
+### getWidth() {#getWidth}
 ```
 public double getWidth()
 ```
 
 
-Когда столбцы расположены равномерно, получает ширину столбцов.
+Когда колонки равномерно распределены, получает ширину колонок.
 
- Имеет эффект только тогда, когда[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) установлен на**true**.
+ **Remarks:** 
 
-**Возвращает:**
-double - соответствующее двойное значение.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+Имеет эффект только когда [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) установлен в  true .
 
+ **Examples:** 
 
+Показывает, как создать несколько колонок с равномерным расстоянием в разделе.
 
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setSpacing(100.0);
+ columns.setCount(2);
 
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
 
-### notifyAll() {#notifyAll--}
+ doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setCount(int newCount) {#setCount-int-}
+**Returns:**
+double - Соответствующее  double  значение.
+### setCount(int newCount) {#setCount-int}
 ```
 public void setCount(int newCount)
 ```
 
 
-Располагает текст в указанное количество текстовых столбцов.
+Размещает текст в указанном количестве текстовых колонок.
 
- Когда[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) является**false** а вы увеличиваете количество столбцов, новые[TextColumn](../../com.aspose.words/textcolumn) объекты создаются с нулевой шириной и интервалом. Вам нужно установить ширину и интервал для новых столбцов.
+ **Remarks:** 
 
-**Параметры:**
+Когда [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) имеет значение  false  и вы увеличиваете количество колонок, новые объекты [TextColumn](../../com.aspose.words/textcolumn/) создаются с нулевой шириной и промежутком. Необходимо задать ширину и промежуток для новых колонок.
 
+ **Examples:** 
+
+Показывает, как создать несколько колонок с равномерным расстоянием в разделе.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setSpacing(100.0);
+ columns.setCount(2);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newCount | int | Количество колонок, в которые должен быть помещен текст. |
+| newCount | int | Количество колонок, в которые будет размещён текст. |
 
-### setEvenlySpaced(boolean value) {#setEvenlySpaced-boolean-}
+### setEvenlySpaced(boolean value) {#setEvenlySpaced-boolean}
 ```
 public void setEvenlySpaced(boolean value)
 ```
 
 
-**True**если текстовые столбцы имеют одинаковую ширину и равномерно распределены.
+True, если текстовые колонки имеют одинаковую ширину и равномерно распределены.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать колонки с неравномерным расстоянием.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ PageSetup pageSetup = builder.getPageSetup();
+
+ TextColumnCollection columns = pageSetup.getTextColumns();
+ columns.setEvenlySpaced(false);
+ columns.setCount(2);
+
+ // Determine the amount of room that we have available for arranging columns.
+ double contentWidth = pageSetup.getPageWidth() - pageSetup.getLeftMargin() - pageSetup.getRightMargin();
+
+ Assert.assertEquals(468.0d, contentWidth, 0.01d);
+
+ // Set the first column to be narrow.
+ TextColumn column = columns.get(0);
+ column.setWidth(100.0);
+ column.setSpaceAfter(20.0);
+
+ // Set the second column to take the rest of the space available within the margins of the page.
+ column = columns.get(1);
+ column.setWidth(contentWidth - column.getWidth() - column.getSpaceAfter());
+
+ builder.writeln("Narrow column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Wide column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.CustomColumnWidth.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setLineBetween(boolean value) {#setLineBetween-boolean-}
+### setLineBetween(boolean value) {#setLineBetween-boolean}
 ```
 public void setLineBetween(boolean value)
 ```
 
 
- Когда**true**, добавляет вертикальную линию между столбцами.
+Когда  true , добавляет вертикальную линию между колонками.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как разделить колонки вертикальной линией.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Configure the current section's PageSetup object to divide the text into several columns.
+ // Set the "LineBetween" property to "true" to put a dividing line between columns.
+ // Set the "LineBetween" property to "false" to leave the space between columns blank.
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setLineBetween(lineBetween);
+ columns.setCount(3);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 3.");
+
+ doc.save(getArtifactsDir() + "PageSetup.VerticalLineBetweenColumns.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setSpacing(double value) {#setSpacing-double-}
+### setSpacing(double value) {#setSpacing-double}
 ```
 public void setSpacing(double value)
 ```
 
 
- Когда столбцы расположены равномерно, получает или задает расстояние между каждым столбцом в пунктах. Имеет эффект только тогда, когда[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) установлен на**true**.
+Когда колонки равномерно распределены, получает или задает величину промежутка между каждой колонкой в пунктах.
 
-**Параметры:**
+ **Remarks:** 
 
+Имеет эффект только когда [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) установлен в  true .
+
+ **Examples:** 
+
+Показывает, как создать несколько колонок с равномерным расстоянием в разделе.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ TextColumnCollection columns = builder.getPageSetup().getTextColumns();
+ columns.setSpacing(100.0);
+ columns.setCount(2);
+
+ builder.writeln("Column 1.");
+ builder.insertBreak(BreakType.COLUMN_BREAK);
+ builder.writeln("Column 2.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Соответствующее двойное значение. |
+| значение | double | Соответствующее  double  значение. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

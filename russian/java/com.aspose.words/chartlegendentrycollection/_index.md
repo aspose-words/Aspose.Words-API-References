@@ -1,16 +1,17 @@
 ---
-title: ChartLegendEntryCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет коллекцию записей легенды диаграммы.
+title: "ChartLegendEntryCollection"
+linktitle: "ChartLegendEntryCollection"
+second_title: "Aspose.Words для Java"
+description: "Представляет коллекцию элементов легенды диаграммы в Java."
 type: docs
-weight: 65
+weight: 81
 url: /ru/java/com.aspose.words/chartlegendentrycollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class ChartLegendEntryCollection implements Iterable
@@ -18,86 +19,72 @@ public class ChartLegendEntryCollection implements Iterable
 
 Представляет коллекцию записей легенды диаграммы.
 
- Чтобы узнать больше, посетите**Working with Charts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Charts ][Working with Charts].
+
+ **Examples:** 
+
+Показывает, как работать с элементом легенды для рядов диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+
+ Chart chart = shape.getChart();
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "AW Category 1", "AW Category 2" };
+
+ ChartSeries series1 = series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+ series.add("Series 3", categories, new double[] { 5.0, 6.0 });
+ series.add("Series 4", categories, new double[] { 0.0, 0.0 });
+
+ ChartLegendEntryCollection legendEntries = chart.getLegend().getLegendEntries();
+ legendEntries.get(3).isHidden(true);
+
+ doc.save(getArtifactsDir() + "Charts.LegendEntries.docx");
+ 
+```
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) |  Возвращает[ChartLegendEntry](../../com.aspose.words/chartlegendentry) для указанного индекса. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  Возвращает количество[ChartLegendEntry](../../com.aspose.words/chartlegendentry) в этой коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Возвращает объект перечислителя. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+| [get(int index)](#get-int) | Возвращает [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) для указанного индекса. |
+| [getCount()](#getCount) | Возвращает количество [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) в этой коллекции. |
+| [iterator()](#iterator) | Возвращает объект перечислителя. |
+### get(int index) {#get-int}
 ```
 public ChartLegendEntry get(int index)
 ```
 
 
- Возвращает[ChartLegendEntry](../../com.aspose.words/chartlegendentry) для указанного индекса.
+Возвращает [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) для указанного индекса.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-**Возвращает:**
-[ChartLegendEntry](../../com.aspose.words/chartlegendentry) -\{[ChartLegendEntry](../../com.aspose.words/chartlegendentry) для указанного индекса.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[ChartLegendEntry](../../com.aspose.words/chartlegendentry/) - [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) for the specified index.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
 
 
- Возвращает количество[ChartLegendEntry](../../com.aspose.words/chartlegendentry) в этой коллекции.
+Возвращает количество [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) в этой коллекции.
 
-**Возвращает:**
- int - количество[ChartLegendEntry](../../com.aspose.words/chartlegendentry) в этой коллекции.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+int - количество [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) в этой коллекции.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
@@ -105,67 +92,5 @@ public Iterator iterator()
 
 Возвращает объект перечислителя.
 
-**Возвращает:**
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

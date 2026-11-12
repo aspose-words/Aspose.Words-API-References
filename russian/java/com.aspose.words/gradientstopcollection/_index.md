@@ -1,258 +1,567 @@
 ---
-title: GradientStopCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Содержит коллекцию объектов.
+title: "GradientStopCollection"
+linktitle: "GradientStopCollection"
+second_title: "Aspose.Words для Java"
+description: "Содержит коллекцию объектов GradientStop в Java."
 type: docs
-weight: 309
+weight: 363
 url: /ru/java/com.aspose.words/gradientstopcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class GradientStopCollection implements Iterable
 ```
 
- Содержит коллекцию[GradientStop](../../com.aspose.words/gradientstop) объекты.
+Содержит коллекцию объектов [GradientStop](../../com.aspose.words/gradientstop/).
 
- Чтобы узнать больше, посетите**Working with Graphic Elements** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Graphic Elements ][Working with Graphic Elements].
 
-Вы не создаете экземпляры этого класса напрямую. Использовать[Fill.getGradientStops()](../../com.aspose.words/fill\#getGradientStops--)свойство для доступа к точкам градиента объектов заливки.
+ **Remarks:** 
+
+Вы не создаёте экземпляры этого класса напрямую. Используйте свойство [Fill.getGradientStops()](../../com.aspose.words/fill/\#getGradientStops) для доступа к градиентным остановкам объектов заливки.
+
+ **Examples:** 
+
+Показывает, как добавить градиентные остановки к градиентной заливке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(new Color((255), (255), (0)), gradientStops.get(0).getBaseColor());
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
+
+[Working with Graphic Elements]: https://docs.aspose.com/words/java/working-with-graphic-elements/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(GradientStop gradientStop)](#add-com.aspose.words.GradientStop-) |  Добавляет указанный[GradientStop](../../com.aspose.words/gradientstop) к градиенту. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Получает[GradientStop](../../com.aspose.words/gradientstop) объект в коллекции. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает целочисленное значение, указывающее количество элементов в коллекции. |
-| [hashCode()](#hashCode--) |  |
-| [insert(int index, GradientStop gradientStop)](#insert-int-com.aspose.words.GradientStop-) |  Вставляет[GradientStop](../../com.aspose.words/gradientstop) в коллекцию по указанному индексу. |
-| [iterator()](#iterator--) | Возвращает перечислитель, который выполняет итерацию по коллекции. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [remove(GradientStop gradientStop)](#remove-com.aspose.words.GradientStop-) |  Удаляет указанный[GradientStop](../../com.aspose.words/gradientstop) из коллекции. |
-| [removeAt(int index)](#removeAt-int-) |  Удаляет[GradientStop](../../com.aspose.words/gradientstop) из коллекции по указанному индексу. |
-| [set(int index, GradientStop value)](#set-int-com.aspose.words.GradientStop-) |  Устанавливает[GradientStop](../../com.aspose.words/gradientstop) объект в коллекции. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(GradientStop gradientStop) {#add-com.aspose.words.GradientStop-}
+| [add(GradientStop gradientStop)](#add-com.aspose.words.GradientStop) | Добавляет указанный [GradientStop](../../com.aspose.words/gradientstop/) к градиенту. |
+| [get(int index)](#get-int) | Получает объект [GradientStop](../../com.aspose.words/gradientstop/) из коллекции. |
+| [getCount()](#getCount) | Возвращает целочисленное значение, указывающее количество элементов в коллекции. |
+| [insert(int index, GradientStop gradientStop)](#insert-int-com.aspose.words.GradientStop) | Вставляет [GradientStop](../../com.aspose.words/gradientstop/) в коллекцию по указанному индексу. |
+| [iterator()](#iterator) | Возвращает перечислитель, который перебирает элементы коллекции. |
+| [remove(GradientStop gradientStop)](#remove-com.aspose.words.GradientStop) | Удаляет указанный [GradientStop](../../com.aspose.words/gradientstop/) из коллекции. |
+| [removeAt(int index)](#removeAt-int) | Удаляет [GradientStop](../../com.aspose.words/gradientstop/) из коллекции по указанному индексу. |
+| [set(int index, GradientStop value)](#set-int-com.aspose.words.GradientStop) | Устанавливает объект [GradientStop](../../com.aspose.words/gradientstop/) в коллекции. |
+### add(GradientStop gradientStop) {#add-com.aspose.words.GradientStop}
 ```
 public GradientStop add(GradientStop gradientStop)
 ```
 
 
- Добавляет указанный[GradientStop](../../com.aspose.words/gradientstop) к градиенту.
+Добавляет указанный [GradientStop](../../com.aspose.words/gradientstop/) к градиенту.
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| gradientStop | [GradientStop](../../com.aspose.words/gradientstop) |  |
+Показывает, как добавить градиентные остановки к градиентной заливке.
 
-**Возвращает:**
-[GradientStop](../../com.aspose.words/gradientstop)
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
 
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
 
-**Параметры:**
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
 
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(new Color((255), (255), (0)), gradientStops.get(0).getBaseColor());
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| gradientStop | [GradientStop](../../com.aspose.words/gradientstop/) |  |
 
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+**Returns:**
+[GradientStop](../../com.aspose.words/gradientstop/)
+### get(int index) {#get-int}
 ```
 public GradientStop get(int index)
 ```
 
 
-Получает[GradientStop](../../com.aspose.words/gradientstop) объект в коллекции.
+Получает объект [GradientStop](../../com.aspose.words/gradientstop/) из коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить градиентные остановки к градиентной заливке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(new Color((255), (255), (0)), gradientStops.get(0).getBaseColor());
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-**Возвращает:**
-[GradientStop](../../com.aspose.words/gradientstop) - А[GradientStop](../../com.aspose.words/gradientstop) объект в коллекции.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[GradientStop](../../com.aspose.words/gradientstop/) - A [GradientStop](../../com.aspose.words/gradientstop/) object in the collection.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
 
 
-Получает целочисленное значение, указывающее количество элементов в коллекции.
+Возвращает целочисленное значение, указывающее количество элементов в коллекции.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как добавить градиентные остановки к градиентной заливке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(new Color((255), (255), (0)), gradientStops.get(0).getBaseColor());
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
+**Returns:**
 int — целочисленное значение, указывающее количество элементов в коллекции.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### insert(int index, GradientStop gradientStop) {#insert-int-com.aspose.words.GradientStop-}
+### insert(int index, GradientStop gradientStop) {#insert-int-com.aspose.words.GradientStop}
 ```
 public GradientStop insert(int index, GradientStop gradientStop)
 ```
 
 
- Вставляет[GradientStop](../../com.aspose.words/gradientstop) в коллекцию по указанному индексу.
+Вставляет [GradientStop](../../com.aspose.words/gradientstop/) в коллекцию по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить градиентные остановки к градиентной заливке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(new Color((255), (255), (0)), gradientStops.get(0).getBaseColor());
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
-| gradientStop | [GradientStop](../../com.aspose.words/gradientstop) |  |
+| индекс | int |  |
+| gradientStop | [GradientStop](../../com.aspose.words/gradientstop/) |  |
 
-**Возвращает:**
-[GradientStop](../../com.aspose.words/gradientstop)
-### iterator() {#iterator--}
+**Returns:**
+[GradientStop](../../com.aspose.words/gradientstop/)
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
-Возвращает перечислитель, который выполняет итерацию по коллекции.
+Возвращает перечислитель, который перебирает элементы коллекции.
 
-**Возвращает:**
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### remove(GradientStop gradientStop) {#remove-com.aspose.words.GradientStop-}
+### remove(GradientStop gradientStop) {#remove-com.aspose.words.GradientStop}
 ```
 public boolean remove(GradientStop gradientStop)
 ```
 
 
- Удаляет указанный[GradientStop](../../com.aspose.words/gradientstop) из коллекции.
+Удаляет указанный [GradientStop](../../com.aspose.words/gradientstop/) из коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить градиентные остановки к градиентной заливке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(new Color((255), (255), (0)), gradientStops.get(0).getBaseColor());
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| gradientStop | [GradientStop](../../com.aspose.words/gradientstop) |  |
+| gradientStop | [GradientStop](../../com.aspose.words/gradientstop/) |  |
 
-**Возвращает:**
-boolean — Истина, если остановка градиента была успешно удалена, в противном случае — Ложь.
-### removeAt(int index) {#removeAt-int-}
+**Returns:**
+boolean —  true  если градиентная остановка была успешно удалена, иначе  false .
+### removeAt(int index) {#removeAt-int}
 ```
 public GradientStop removeAt(int index)
 ```
 
 
- Удаляет[GradientStop](../../com.aspose.words/gradientstop) из коллекции по указанному индексу.
+Удаляет [GradientStop](../../com.aspose.words/gradientstop/) из коллекции по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить градиентные остановки к градиентной заливке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(new Color((255), (255), (0)), gradientStops.get(0).getBaseColor());
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-**Возвращает:**
-[GradientStop](../../com.aspose.words/gradientstop) - Удаленный[GradientStop](../../com.aspose.words/gradientstop).
-### set(int index, GradientStop value) {#set-int-com.aspose.words.GradientStop-}
+**Returns:**
+[GradientStop](../../com.aspose.words/gradientstop/) - Removed [GradientStop](../../com.aspose.words/gradientstop/).
+### set(int index, GradientStop value) {#set-int-com.aspose.words.GradientStop}
 ```
 public void set(int index, GradientStop value)
 ```
 
 
- Устанавливает[GradientStop](../../com.aspose.words/gradientstop) объект в коллекции.
+Устанавливает объект [GradientStop](../../com.aspose.words/gradientstop/) в коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить градиентные остановки к градиентной заливке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(new Color((255), (255), (0)), gradientStops.get(0).getBaseColor());
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
-| value | [GradientStop](../../com.aspose.words/gradientstop) |  А[GradientStop](../../com.aspose.words/gradientstop) объект в коллекции. |
+| индекс | int |  |
+| value | [GradientStop](../../com.aspose.words/gradientstop/) | Объект [GradientStop](../../com.aspose.words/gradientstop/) в коллекции. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

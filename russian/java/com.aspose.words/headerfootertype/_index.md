@@ -1,54 +1,78 @@
 ---
-title: HeaderFooterType
-second_title: Справочник по API Aspose.Words для Java
-description: Определяет тип верхнего или нижнего колонтитула в файле Word.
+title: "HeaderFooterType"
+linktitle: "HeaderFooterType"
+second_title: "Aspose.Words для Java"
+description: "Определяет тип верхнего или нижнего колонтитула, найденного в файле Word на Java."
 type: docs
-weight: 318
+weight: 372
 url: /ru/java/com.aspose.words/headerfootertype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HeaderFooterType
 ```
 
-Определяет тип верхнего или нижнего колонтитула в файле Word. Это заголовок/нижний колонтитул для каждого раздела. Не перенумеровывайте значение перечисления, используемого в качестве индекса, в plcfhdd.
+Определяет тип верхнего или нижнего колонтитула, найденного в файле Word. Это верхний/нижний колонтитул конкретного раздела. Не переименовывайте, так как значение перечисления используется как индекс в plcfhdd.
+
+ **Examples:** 
+
+Показывает, как создавать колонтитулы в документе с помощью DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify that we want different headers and footers for first, even and odd pages.
+ builder.getPageSetup().setDifferentFirstPageHeaderFooter(true);
+ builder.getPageSetup().setOddAndEvenPagesHeaderFooter(true);
+
+ // Create the headers, then add three pages to the document to display each header type.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
+ builder.write("Header for the first page");
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_EVEN);
+ builder.write("Header for even pages");
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ builder.write("Header for all other pages");
+
+ builder.moveToSection(0);
+ builder.writeln("Page1");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page2");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page3");
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.HeadersAndFooters.docx");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FOOTER_EVEN](#FOOTER-EVEN) | Нижний колонтитул для четных страниц. |
+| [FOOTER_EVEN](#FOOTER-EVEN) | Нижний колонтитул для чётных страниц. |
 | [FOOTER_FIRST](#FOOTER-FIRST) | Нижний колонтитул для первой страницы раздела. |
-| [FOOTER_PRIMARY](#FOOTER-PRIMARY) | Основной нижний колонтитул, также используемый для страниц с нечетными номерами. |
-| [HEADER_EVEN](#HEADER-EVEN) | Заголовок для четных страниц. |
-| [HEADER_FIRST](#HEADER-FIRST) | Заголовок первой страницы раздела. |
-| [HEADER_PRIMARY](#HEADER-PRIMARY) | Основной заголовок, также используемый для страниц с нечетными номерами. |
+| [FOOTER_PRIMARY](#FOOTER-PRIMARY) | Основной нижний колонтитул, также используется для нечётных страниц. |
+| [HEADER_EVEN](#HEADER-EVEN) | Верхний колонтитул для чётных страниц. |
+| [HEADER_FIRST](#HEADER-FIRST) | Верхний колонтитул для первой страницы раздела. |
+| [HEADER_PRIMARY](#HEADER-PRIMARY) | Основной верхний колонтитул, также используется для нечётных страниц. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String headerFooterTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int headerFooterType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int headerFooterType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String headerFooterTypeName)](#fromName-java.lang.String) |  |
+| [getName(int headerFooterType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int headerFooterType)](#toString-int) |  |
 ### FOOTER_EVEN {#FOOTER-EVEN}
 ```
 public static int FOOTER_EVEN
 ```
 
 
-Нижний колонтитул для четных страниц.
+Нижний колонтитул для чётных страниц.
 
 ### FOOTER_FIRST {#FOOTER-FIRST}
 ```
@@ -64,7 +88,7 @@ public static int FOOTER_PRIMARY
 ```
 
 
-Основной нижний колонтитул, также используемый для страниц с нечетными номерами.
+Основной нижний колонтитул, также используется для нечётных страниц.
 
 ### HEADER_EVEN {#HEADER-EVEN}
 ```
@@ -72,7 +96,7 @@ public static int HEADER_EVEN
 ```
 
 
-Заголовок для четных страниц.
+Верхний колонтитул для чётных страниц.
 
 ### HEADER_FIRST {#HEADER-FIRST}
 ```
@@ -80,7 +104,7 @@ public static int HEADER_FIRST
 ```
 
 
-Заголовок первой страницы раздела.
+Верхний колонтитул для первой страницы раздела.
 
 ### HEADER_PRIMARY {#HEADER-PRIMARY}
 ```
@@ -88,7 +112,7 @@ public static int HEADER_PRIMARY
 ```
 
 
-Основной заголовок, также используемый для страниц с нечетными номерами.
+Основной верхний колонтитул, также используется для нечётных страниц.
 
 ### length {#length}
 ```
@@ -96,23 +120,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String headerFooterTypeName) {#fromName-java.lang.String-}
+### fromName(String headerFooterTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String headerFooterTypeName)
 ```
@@ -120,25 +128,14 @@ public static int fromName(String headerFooterTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | headerFooterTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int headerFooterType) {#getName-int-}
+**Returns:**
+int
+### getName(int headerFooterType) {#getName-int}
 ```
 public static String getName(int headerFooterType)
 ```
@@ -146,15 +143,14 @@ public static String getName(int headerFooterType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | headerFooterType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -162,45 +158,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int headerFooterType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int headerFooterType) {#toString-int}
 ```
 public static String toString(int headerFooterType)
 ```
@@ -208,47 +168,10 @@ public static String toString(int headerFooterType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | headerFooterType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

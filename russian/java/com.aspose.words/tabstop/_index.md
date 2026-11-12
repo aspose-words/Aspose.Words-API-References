@@ -1,55 +1,78 @@
 ---
-title: TabStop
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет одну настраиваемую позицию табуляции.
+title: "TabStop"
+linktitle: "TabStop"
+second_title: "Aspose.Words для Java"
+description: "Представляет одну пользовательскую табуляцию в Java."
 type: docs
-weight: 546
+weight: 654
 url: /ru/java/com.aspose.words/tabstop/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class TabStop implements Cloneable
 ```
 
- Представляет одну настраиваемую позицию табуляции.**TabStop** объект является членом[TabStopCollection](../../com.aspose.words/tabstopcollection) коллекция.
+Представляет одну пользовательскую табуляцию. Объект [TabStop](../../com.aspose.words/tabstop/) является членом коллекции [TabStopCollection](../../com.aspose.words/tabstopcollection/).
 
- Чтобы узнать больше, посетите**Aspose.Words Document Object Model (DOM)** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_].
 
- Обычно табуляция определяет позицию, в которой существует табуляция. Но поскольку позиции табуляции могут быть унаследованы от родительских стилей, может потребоваться, чтобы дочерний объект явно определял отсутствие позиции табуляции в заданной позиции. Чтобы очистить унаследованную позицию табуляции в заданной позиции, создайте**TabStop** объект и набор[getAlignment()](../../com.aspose.words/tabstop\#getAlignment--) / [setAlignment(int)](../../com.aspose.words/tabstop\#setAlignment-int-) в TabAlignment.Clear .
+ **Remarks:** 
 
- Для получения дополнительной информации см.[TabStopCollection](../../com.aspose.words/tabstopcollection).
+Обычно табуляция задаёт позицию, где она существует. Но поскольку табуляции могут наследоваться от стилей‑родителей, может потребоваться явно указать для дочернего объекта, что в заданной позиции нет табуляции. Чтобы очистить унаследованную табуляцию в заданной позиции, создайте объект [TabStop](../../com.aspose.words/tabstop/) и установите [getAlignment()](../../com.aspose.words/tabstop/\#getAlignment) / [setAlignment(int)](../../com.aspose.words/tabstop/\#setAlignment-int) в значение [TabAlignment.CLEAR](../../com.aspose.words/tabalignment/\#CLEAR).
+
+Для получения дополнительной информации см. [TabStopCollection](../../com.aspose.words/tabstopcollection/).
+
+ **Examples:** 
+
+Показывает, как изменить позицию правой табуляции в абзацах, связанных с оглавлением (TOC).
+
+```
+
+ Document doc = new Document(getMyDir() + "Table of contents.docx");
+
+ // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+ for (Paragraph para : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1
+             && para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9) {
+         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
+
+         // Replace the first default tab, stop with a custom tab stop.
+         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
+         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
+ 
+```
+
+
+[Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [TabStop(double position)](#TabStop-double-) | Инициализирует новый экземпляр этого класса. |
-| [TabStop(double position, int alignment, int leader)](#TabStop-double-int-int-) | Инициализирует новый экземпляр этого класса. |
+| [TabStop(double position)](#TabStop-double) | Инициализирует новый экземпляр этого класса. |
+| [TabStop(double position, int alignment, int leader)](#TabStop-double-int-int) | Инициализирует новый экземпляр этого класса. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(TabStop rhs)](#equals-com.aspose.words.TabStop-) | Сравнивается с указанным TabStop. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlignment()](#getAlignment--) | Получает выравнивание текста на этой позиции табуляции. |
-| [getClass()](#getClass--) |  |
-| [getLeader()](#getLeader--) | Получает тип линии выноски, отображаемой под символом табуляции. |
-| [getPosition()](#getPosition--) | Получает позицию табуляции в пунктах. |
-| [hashCode()](#hashCode--) |  |
-| [isClear()](#isClear--) | Возвращает true, если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAlignment(int value)](#setAlignment-int-) | Устанавливает выравнивание текста на этой позиции табуляции. |
-| [setLeader(int value)](#setLeader-int-) | Задает тип линии выноски, отображаемой под символом табуляции. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### TabStop(double position) {#TabStop-double-}
+| [equals(TabStop rhs)](#equals-com.aspose.words.TabStop) | Сравнивает с указанным [TabStop](../../com.aspose.words/tabstop/). |
+| [getAlignment()](#getAlignment) | Получает выравнивание текста в этой табуляции. |
+| [getLeader()](#getLeader) | Получает тип линии‑заполнителя, отображаемой под символом табуляции. |
+| [getPosition()](#getPosition) | Получает позицию табуляции в пунктах. |
+| [hashCode()](#hashCode) |  |
+| [isClear()](#isClear) | Возвращает  true  если эта табуляция очищает любые существующие табуляции в этой позиции. |
+| [setAlignment(int value)](#setAlignment-int) | Устанавливает выравнивание текста в этой табуляции. |
+| [setLeader(int value)](#setLeader-int) | Устанавливает тип линии‑заполнителя, отображаемой под символом табуляции. |
+### TabStop(double position) {#TabStop-double}
 ```
 public TabStop(double position)
 ```
@@ -57,13 +80,54 @@ public TabStop(double position)
 
 Инициализирует новый экземпляр этого класса.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать с коллекцией табуляций документа.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ TabStopCollection tabStops = builder.getParagraphFormat().getTabStops();
+
+ // 72 points is one "inch" on the Microsoft Word tab stop ruler.
+ tabStops.add(new TabStop(72.0));
+ tabStops.add(new TabStop(432, TabAlignment.RIGHT, TabLeader.DASHES));
+
+ Assert.assertEquals(2, tabStops.getCount());
+ Assert.assertFalse(tabStops.get(0).isClear());
+ Assert.assertFalse(tabStops.get(0).equals(tabStops.get(1)));
+
+ // Every "tab" character takes the builder's cursor to the location of the next tab stop.
+ builder.writeln("Start\tTab 1\tTab 2");
+
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ Assert.assertEquals(2, paragraphs.getCount());
+
+ // Each paragraph gets its tab stop collection, which clones its values from the document builder's tab stop collection.
+ Assert.assertEquals(paragraphs.get(0).getParagraphFormat().getTabStops(), paragraphs.get(1).getParagraphFormat().getTabStops());
+
+ // A tab stop collection can point us to TabStops before and after certain positions.
+ Assert.assertEquals(72.0, tabStops.before(100.0).getPosition());
+ Assert.assertEquals(432.0, tabStops.after(100.0).getPosition());
+
+ // We can clear a paragraph's tab stop collection to revert to the default tabbing behavior.
+ paragraphs.get(1).getParagraphFormat().getTabStops().clear();
+
+ Assert.assertEquals(0, paragraphs.get(1).getParagraphFormat().getTabStops().getCount());
+
+ doc.save(getArtifactsDir() + "TabStopCollection.TabStopCollection.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | double |  |
+| позиция | double |  |
 
-### TabStop(double position, int alignment, int leader) {#TabStop-double-int-int-}
+### TabStop(double position, int alignment, int leader) {#TabStop-double-int-int}
 ```
 public TabStop(double position, int alignment, int leader)
 ```
@@ -71,77 +135,141 @@ public TabStop(double position, int alignment, int leader)
 
 Инициализирует новый экземпляр этого класса.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | double |  |
-| alignment | int |  |
-| leader | int |  |
+| позиция | double |  |
+| выравнивание | int |  |
+| заполнитель | int |  |
 
-### equals(TabStop rhs) {#equals-com.aspose.words.TabStop-}
+### equals(TabStop rhs) {#equals-com.aspose.words.TabStop}
 ```
 public boolean equals(TabStop rhs)
 ```
 
 
-Сравнивается с указанным TabStop.
+Сравнивает с указанным [TabStop](../../com.aspose.words/tabstop/).
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| rhs | [TabStop](../../com.aspose.words/tabstop) |  |
+Показывает, как работать с коллекцией табуляций документа.
 
-**Возвращает:**
-логический
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ TabStopCollection tabStops = builder.getParagraphFormat().getTabStops();
 
+ // 72 points is one "inch" on the Microsoft Word tab stop ruler.
+ tabStops.add(new TabStop(72.0));
+ tabStops.add(new TabStop(432, TabAlignment.RIGHT, TabLeader.DASHES));
 
-**Параметры:**
+ Assert.assertEquals(2, tabStops.getCount());
+ Assert.assertFalse(tabStops.get(0).isClear());
+ Assert.assertFalse(tabStops.get(0).equals(tabStops.get(1)));
 
+ // Every "tab" character takes the builder's cursor to the location of the next tab stop.
+ builder.writeln("Start\tTab 1\tTab 2");
+
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ Assert.assertEquals(2, paragraphs.getCount());
+
+ // Each paragraph gets its tab stop collection, which clones its values from the document builder's tab stop collection.
+ Assert.assertEquals(paragraphs.get(0).getParagraphFormat().getTabStops(), paragraphs.get(1).getParagraphFormat().getTabStops());
+
+ // A tab stop collection can point us to TabStops before and after certain positions.
+ Assert.assertEquals(72.0, tabStops.before(100.0).getPosition());
+ Assert.assertEquals(432.0, tabStops.after(100.0).getPosition());
+
+ // We can clear a paragraph's tab stop collection to revert to the default tabbing behavior.
+ paragraphs.get(1).getParagraphFormat().getTabStops().clear();
+
+ Assert.assertEquals(0, paragraphs.get(1).getParagraphFormat().getTabStops().getCount());
+
+ doc.save(getArtifactsDir() + "TabStopCollection.TabStopCollection.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| rhs | [TabStop](../../com.aspose.words/tabstop/) |  |
 
-**Возвращает:**
-логический
-### getAlignment() {#getAlignment--}
+**Returns:**
+boolean
+### getAlignment() {#getAlignment}
 ```
 public int getAlignment()
 ```
 
 
-Получает выравнивание текста на этой позиции табуляции.
+Получает выравнивание текста в этой табуляции.
 
-**Возвращает:**
-int — выравнивание текста на этой позиции табуляции. Возвращаемое значение является одним из[TabAlignment](../../com.aspose.words/tabalignment) константы.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как изменить позицию правой табуляции в абзацах, связанных с оглавлением (TOC).
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document(getMyDir() + "Table of contents.docx");
+
+ // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+ for (Paragraph para : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1
+             && para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9) {
+         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
+
+         // Replace the first default tab, stop with a custom tab stop.
+         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
+         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getLeader() {#getLeader--}
+**Returns:**
+int - Выравнивание текста в этой табуляции. Возвращаемое значение является одной из констант [TabAlignment](../../com.aspose.words/tabalignment/).
+### getLeader() {#getLeader}
 ```
 public int getLeader()
 ```
 
 
-Получает тип линии выноски, отображаемой под символом табуляции.
+Получает тип линии‑заполнителя, отображаемой под символом табуляции.
 
-**Возвращает:**
- int — тип линии выноски, отображаемой под символом табуляции. Возвращаемое значение является одним из[TabLeader](../../com.aspose.words/tableader) константы.
-### getPosition() {#getPosition--}
+ **Examples:** 
+
+Показывает, как изменить позицию правой табуляции в абзацах, связанных с оглавлением (TOC).
+
+```
+
+ Document doc = new Document(getMyDir() + "Table of contents.docx");
+
+ // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+ for (Paragraph para : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1
+             && para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9) {
+         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
+
+         // Replace the first default tab, stop with a custom tab stop.
+         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
+         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
+ 
+```
+
+**Returns:**
+int - Тип линии‑заполнителя, отображаемой под символом табуляции. Возвращаемое значение является одной из констант [TabLeader](../../com.aspose.words/tableader/).
+### getPosition() {#getPosition}
 ```
 public double getPosition()
 ```
@@ -149,9 +277,34 @@ public double getPosition()
 
 Получает позицию табуляции в пунктах.
 
-**Возвращает:**
-double - Положение табулятора в пунктах.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как изменить позицию правой табуляции в абзацах, связанных с оглавлением (TOC).
+
+```
+
+ Document doc = new Document(getMyDir() + "Table of contents.docx");
+
+ // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+ for (Paragraph para : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1
+             && para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9) {
+         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
+
+         // Replace the first default tab, stop with a custom tab stop.
+         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
+         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
+ 
+```
+
+**Returns:**
+double - Позиция табуляции в пунктах.
+### hashCode() {#hashCode}
 ```
 public int hashCode()
 ```
@@ -159,105 +312,133 @@ public int hashCode()
 
 
 
-**Возвращает:**
-инт
-### isClear() {#isClear--}
+**Returns:**
+int
+### isClear() {#isClear}
 ```
 public boolean isClear()
 ```
 
 
-Возвращает true, если эта позиция табуляции очищает все существующие позиции табуляции в этой позиции.
+Возвращает  true  если эта табуляция очищает любые существующие табуляции в этой позиции.
 
-**Возвращает:**
-boolean — Истинно, если эта табуляция очищает все существующие позиции табуляции в этой позиции.
-### notify() {#notify--}
-```
-public final native void notify()
-```
+ **Examples:** 
 
+Показывает, как работать с коллекцией табуляций документа.
 
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ TabStopCollection tabStops = builder.getParagraphFormat().getTabStops();
 
+ // 72 points is one "inch" on the Microsoft Word tab stop ruler.
+ tabStops.add(new TabStop(72.0));
+ tabStops.add(new TabStop(432, TabAlignment.RIGHT, TabLeader.DASHES));
 
-### setAlignment(int value) {#setAlignment-int-}
+ Assert.assertEquals(2, tabStops.getCount());
+ Assert.assertFalse(tabStops.get(0).isClear());
+ Assert.assertFalse(tabStops.get(0).equals(tabStops.get(1)));
+
+ // Every "tab" character takes the builder's cursor to the location of the next tab stop.
+ builder.writeln("Start\tTab 1\tTab 2");
+
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+
+ Assert.assertEquals(2, paragraphs.getCount());
+
+ // Each paragraph gets its tab stop collection, which clones its values from the document builder's tab stop collection.
+ Assert.assertEquals(paragraphs.get(0).getParagraphFormat().getTabStops(), paragraphs.get(1).getParagraphFormat().getTabStops());
+
+ // A tab stop collection can point us to TabStops before and after certain positions.
+ Assert.assertEquals(72.0, tabStops.before(100.0).getPosition());
+ Assert.assertEquals(432.0, tabStops.after(100.0).getPosition());
+
+ // We can clear a paragraph's tab stop collection to revert to the default tabbing behavior.
+ paragraphs.get(1).getParagraphFormat().getTabStops().clear();
+
+ Assert.assertEquals(0, paragraphs.get(1).getParagraphFormat().getTabStops().getCount());
+
+ doc.save(getArtifactsDir() + "TabStopCollection.TabStopCollection.docx");
+ 
+```
+
+**Returns:**
+boolean -  true  если эта табуляция удаляет любые существующие табуляции в этой позиции.
+### setAlignment(int value) {#setAlignment-int}
 ```
 public void setAlignment(int value)
 ```
 
 
-Устанавливает выравнивание текста на этой позиции табуляции.
+Устанавливает выравнивание текста в этой табуляции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как изменить позицию правой табуляции в абзацах, связанных с оглавлением (TOC).
+
+```
+
+ Document doc = new Document(getMyDir() + "Table of contents.docx");
+
+ // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+ for (Paragraph para : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1
+             && para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9) {
+         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
+
+         // Replace the first default tab, stop with a custom tab stop.
+         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
+         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Выравнивание текста на этой позиции табуляции. Значение должно быть одним из[TabAlignment](../../com.aspose.words/tabalignment) константы. |
+| value | int | Выравнивание текста в этой табуляции. Значение должно быть одной из констант [TabAlignment](../../com.aspose.words/tabalignment/). |
 
-### setLeader(int value) {#setLeader-int-}
+### setLeader(int value) {#setLeader-int}
 ```
 public void setLeader(int value)
 ```
 
 
-Задает тип линии выноски, отображаемой под символом табуляции.
+Устанавливает тип линии‑заполнителя, отображаемой под символом табуляции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как изменить позицию правой табуляции в абзацах, связанных с оглавлением (TOC).
+
+```
+
+ Document doc = new Document(getMyDir() + "Table of contents.docx");
+
+ // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+ for (Paragraph para : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1
+             && para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9) {
+         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
+
+         // Replace the first default tab, stop with a custom tab stop.
+         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
+         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Тип линии выноски, отображаемой под символом табуляции. Значение должно быть одним из[TabLeader](../../com.aspose.words/tableader) константы. |
+| value | int | Тип линии‑заполнителя, отображаемой под символом табуляции. Значение должно быть одной из констант [TabLeader](../../com.aspose.words/tableader/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

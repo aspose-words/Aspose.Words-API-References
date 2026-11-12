@@ -1,209 +1,740 @@
 ---
-title: DocumentVisitor
-second_title: Справочник по API Aspose.Words для Java
-description: Базовый класс для пользовательских посетителей документов.
+title: "DocumentVisitor"
+linktitle: "DocumentVisitor"
+second_title: "Aspose.Words для Java"
+description: "Базовый класс для пользовательских посетителей документов в Java."
 type: docs
-weight: 132
+weight: 175
 url: /ru/java/com.aspose.words/documentvisitor/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public abstract class DocumentVisitor
 ```
 
-Базовый класс для пользовательских посетителей документов.
+Базовый класс для пользовательских посетителей документа.
 
- Чтобы узнать больше, посетите**Aspose.Words Document Object Model (DOM)** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_].
 
- С**DocumentVisitor** вы можете определять и выполнять пользовательские операции, требующие перечисления по дереву документов.
+ **Remarks:** 
 
- Например, Aspose.Words использует**DocumentVisitor** внутри для экономии**Document** в различных форматах и для других операций, таких как поиск полей или закладок над фрагментом документа.
+С помощью [DocumentVisitor](../../com.aspose.words/documentvisitor/) вы можете определять и выполнять пользовательские операции, требующие перечисления дерева документа.
 
-Использовать**DocumentVisitor**:
+Например, Aspose.Words использует [DocumentVisitor](../../com.aspose.words/documentvisitor/) внутри для сохранения [Document](../../com.aspose.words/document/) в различных форматах и для других операций, таких как поиск полей или закладок в фрагменте документа.
 
-1.   Создайте класс, производный от**DocumentVisitor**.
-2.  Переопределите и предоставьте реализации для некоторых или всех методов VisitXXX для выполнения некоторых пользовательских операций.
-3.   Вызов[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-) на**Node** с которого вы хотите начать перечисление.
+Чтобы использовать [DocumentVisitor](../../com.aspose.words/documentvisitor/):
 
-**DocumentVisitor** предоставляет реализации по умолчанию для всех методов VisitXXX, чтобы упростить создание новых посетителей документа, поскольку необходимо переопределить только методы, необходимые для конкретного посетителя. Нет необходимости переопределять все методы посетителя.
+1.  Создайте класс, производный от [DocumentVisitor](../../com.aspose.words/documentvisitor/).
+2.  Переопределите и предоставьте реализации некоторых или всех методов VisitXXX для выполнения пользовательских операций.
+3.  Вызовите [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\\#accept-com.aspose.words.DocumentVisitor) на [Node](../../com.aspose.words/node/), с которого вы хотите начать перечисление.
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+[DocumentVisitor](../../com.aspose.words/documentvisitor/) provides default implementations for all of the VisitXXX methods to make it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
+
+Для получения дополнительной информации см. шаблон проектирования Visitor.
+
+ **Examples:** 
+
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+
+[Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [visitAbsolutePositionTab(AbsolutePositionTab tab)](#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab-) |  Вызывается, когда[AbsolutePositionTab](../../com.aspose.words/absolutepositiontab) узел встречается в документе. |
-| [visitBodyEnd(Body body)](#visitBodyEnd-com.aspose.words.Body-) | Вызывается, когда закончился перечисление основной текстовой истории в разделе. |
-| [visitBodyStart(Body body)](#visitBodyStart-com.aspose.words.Body-) | Вызывается, когда начался перебор основной текстовой истории в разделе. |
-| [visitBookmarkEnd(BookmarkEnd bookmarkEnd)](#visitBookmarkEnd-com.aspose.words.BookmarkEnd-) | Вызывается, когда в документе встречается конец закладки. |
-| [visitBookmarkStart(BookmarkStart bookmarkStart)](#visitBookmarkStart-com.aspose.words.BookmarkStart-) | Вызывается, когда в документе встречается начало закладки. |
-| [visitBuildingBlockEnd(BuildingBlock block)](#visitBuildingBlockEnd-com.aspose.words.BuildingBlock-) | Вызывается после окончания перечисления стандартного блока. |
-| [visitBuildingBlockStart(BuildingBlock block)](#visitBuildingBlockStart-com.aspose.words.BuildingBlock-) | Вызывается, когда начинается перечисление стандартного блока. |
-| [visitCellEnd(Cell cell)](#visitCellEnd-com.aspose.words.Cell-) | Вызывается, когда закончилось перечисление ячейки таблицы. |
-| [visitCellStart(Cell cell)](#visitCellStart-com.aspose.words.Cell-) | Вызывается, когда начинается перечисление ячейки таблицы. |
-| [visitCommentEnd(Comment comment)](#visitCommentEnd-com.aspose.words.Comment-) | Вызывается, когда закончилось перечисление текста комментария. |
-| [visitCommentRangeEnd(CommentRangeEnd commentRangeEnd)](#visitCommentRangeEnd-com.aspose.words.CommentRangeEnd-) | Вызывается, когда встречается конец закомментированного диапазона текста. |
-| [visitCommentRangeStart(CommentRangeStart commentRangeStart)](#visitCommentRangeStart-com.aspose.words.CommentRangeStart-) | Вызывается, когда встречается начало закомментированного диапазона текста. |
-| [visitCommentStart(Comment comment)](#visitCommentStart-com.aspose.words.Comment-) | Вызывается, когда начинается перечисление текста комментария. |
-| [visitDocumentEnd(Document doc)](#visitDocumentEnd-com.aspose.words.Document-) | Вызывается после завершения перечисления документа. |
-| [visitDocumentStart(Document doc)](#visitDocumentStart-com.aspose.words.Document-) | Вызывается, когда начинается перечисление документа. |
-| [visitEditableRangeEnd(EditableRangeEnd editableRangeEnd)](#visitEditableRangeEnd-com.aspose.words.EditableRangeEnd-) | Вызывается, когда в документе встречается конец редактируемого диапазона. |
-| [visitEditableRangeStart(EditableRangeStart editableRangeStart)](#visitEditableRangeStart-com.aspose.words.EditableRangeStart-) | Вызывается, когда в документе встречается начало редактируемого диапазона. |
-| [visitFieldEnd(FieldEnd fieldEnd)](#visitFieldEnd-com.aspose.words.FieldEnd-) | Вызывается, когда поле заканчивается в документе. |
-| [visitFieldSeparator(FieldSeparator fieldSeparator)](#visitFieldSeparator-com.aspose.words.FieldSeparator-) | Вызывается, когда в документе встречается разделитель полей. |
-| [visitFieldStart(FieldStart fieldStart)](#visitFieldStart-com.aspose.words.FieldStart-) | Вызывается, когда в документе начинается поле. |
-| [visitFootnoteEnd(Footnote footnote)](#visitFootnoteEnd-com.aspose.words.Footnote-) | Вызывается, когда закончилось перечисление текста сноски или концевой сноски. |
-| [visitFootnoteStart(Footnote footnote)](#visitFootnoteStart-com.aspose.words.Footnote-) | Вызывается, когда начинается перечисление текста сноски или концевой сноски. |
-| [visitFormField(FormField formField)](#visitFormField-com.aspose.words.FormField-) | Вызывается, когда в документе встречается поле формы. |
-| [visitGlossaryDocumentEnd(GlossaryDocument glossary)](#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument-) | Вызывается, когда закончилось перечисление документа глоссария. |
-| [visitGlossaryDocumentStart(GlossaryDocument glossary)](#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument-) | Вызывается, когда начинается перечисление документа глоссария. |
-| [visitGroupShapeEnd(GroupShape groupShape)](#visitGroupShapeEnd-com.aspose.words.GroupShape-) | Вызывается, когда закончилось перечисление формы группы. |
-| [visitGroupShapeStart(GroupShape groupShape)](#visitGroupShapeStart-com.aspose.words.GroupShape-) | Вызывается, когда начинается перечисление формы группы. |
-| [visitHeaderFooterEnd(HeaderFooter headerFooter)](#visitHeaderFooterEnd-com.aspose.words.HeaderFooter-) | Вызывается, когда закончилось перечисление верхнего или нижнего колонтитула в разделе. |
-| [visitHeaderFooterStart(HeaderFooter headerFooter)](#visitHeaderFooterStart-com.aspose.words.HeaderFooter-) | Вызывается, когда начинается перечисление верхнего или нижнего колонтитула в разделе. |
-| [visitOfficeMathEnd(OfficeMath officeMath)](#visitOfficeMathEnd-com.aspose.words.OfficeMath-) | Вызывается после завершения перечисления объекта Office Math. |
-| [visitOfficeMathStart(OfficeMath officeMath)](#visitOfficeMathStart-com.aspose.words.OfficeMath-) | Вызывается при запуске перечисления объекта Office Math. |
-| [visitParagraphEnd(Paragraph paragraph)](#visitParagraphEnd-com.aspose.words.Paragraph-) | Вызывается, когда закончилось перечисление абзаца. |
-| [visitParagraphStart(Paragraph paragraph)](#visitParagraphStart-com.aspose.words.Paragraph-) | Вызывается, когда начинается перечисление абзаца. |
-| [visitRowEnd(Row row)](#visitRowEnd-com.aspose.words.Row-) | Вызывается, когда закончилось перечисление строки таблицы. |
-| [visitRowStart(Row row)](#visitRowStart-com.aspose.words.Row-) | Вызывается, когда начинается перечисление строки таблицы. |
-| [visitRun(Run run)](#visitRun-com.aspose.words.Run-) | Вызывается при обнаружении фрагмента текста в . |
-| [visitSectionEnd(Section section)](#visitSectionEnd-com.aspose.words.Section-) | Вызывается, когда закончилось перечисление секции. |
-| [visitSectionStart(Section section)](#visitSectionStart-com.aspose.words.Section-) | Вызывается, когда началось перечисление раздела. |
-| [visitShapeEnd(Shape shape)](#visitShapeEnd-com.aspose.words.Shape-) | Вызывается, когда перечисление формы закончилось. |
-| [visitShapeStart(Shape shape)](#visitShapeStart-com.aspose.words.Shape-) | Вызывается, когда начинается перечисление фигуры. |
-| [visitSmartTagEnd(SmartTag smartTag)](#visitSmartTagEnd-com.aspose.words.SmartTag-) | Вызывается, когда закончилось перечисление смарт-тега. |
-| [visitSmartTagStart(SmartTag smartTag)](#visitSmartTagStart-com.aspose.words.SmartTag-) | Вызывается, когда начинается перечисление смарт-тега. |
-| [visitSpecialChar(SpecialChar specialChar)](#visitSpecialChar-com.aspose.words.SpecialChar-) |  Вызывается, когда[SpecialChar](../../com.aspose.words/specialchar) узел встречается в документе. |
-| [visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)](#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag-) | Вызывается, когда закончилось перечисление тега структурированного документа. |
-| [visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)](#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd-) |  |
-| [visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)](#visitStructuredDocumentTagRangeStart-com.aspose.words.StructuredDocumentTagRangeStart-) |  |
-| [visitStructuredDocumentTagStart(StructuredDocumentTag sdt)](#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag-) | Вызывается, когда начинается перечисление тега структурированного документа. |
-| [visitSubDocument(SubDocument subDocument)](#visitSubDocument-com.aspose.words.SubDocument-) | Вызывается при обнаружении вложенного документа. |
-| [visitTableEnd(Table table)](#visitTableEnd-com.aspose.words.Table-) | Вызывается, когда закончилось перечисление таблицы. |
-| [visitTableStart(Table table)](#visitTableStart-com.aspose.words.Table-) | Вызывается, когда начинается перечисление таблицы. |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### visitAbsolutePositionTab(AbsolutePositionTab tab) {#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab-}
+| [visitAbsolutePositionTab(AbsolutePositionTab tab)](#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab) | Вызывается, когда в документе встречается узел [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab/). |
+| [visitBodyEnd(Body body)](#visitBodyEnd-com.aspose.words.Body) | Вызывается, когда перечисление основной текстовой истории в разделе завершилось. |
+| [visitBodyStart(Body body)](#visitBodyStart-com.aspose.words.Body) | Вызывается, когда перечисление основной текстовой истории в разделе началось. |
+| [visitBookmarkEnd(BookmarkEnd bookmarkEnd)](#visitBookmarkEnd-com.aspose.words.BookmarkEnd) | Вызывается, когда в документе встречается конец закладки. |
+| [visitBookmarkStart(BookmarkStart bookmarkStart)](#visitBookmarkStart-com.aspose.words.BookmarkStart) | Вызывается, когда в документе встречается начало закладки. |
+| [visitBuildingBlockEnd(BuildingBlock block)](#visitBuildingBlockEnd-com.aspose.words.BuildingBlock) | Вызывается, когда перечисление строительного блока завершилось. |
+| [visitBuildingBlockStart(BuildingBlock block)](#visitBuildingBlockStart-com.aspose.words.BuildingBlock) | Вызывается, когда перечисление строительного блока началось. |
+| [visitCellEnd(Cell cell)](#visitCellEnd-com.aspose.words.Cell) | Вызывается, когда перечисление ячейки таблицы завершилось. |
+| [visitCellStart(Cell cell)](#visitCellStart-com.aspose.words.Cell) | Вызывается, когда перечисление ячейки таблицы началось. |
+| [visitCommentEnd(Comment comment)](#visitCommentEnd-com.aspose.words.Comment) | Вызывается, когда перечисление текста комментария завершилось. |
+| [visitCommentRangeEnd(CommentRangeEnd commentRangeEnd)](#visitCommentRangeEnd-com.aspose.words.CommentRangeEnd) | Вызывается, когда встречается конец комментируемого диапазона текста. |
+| [visitCommentRangeStart(CommentRangeStart commentRangeStart)](#visitCommentRangeStart-com.aspose.words.CommentRangeStart) | Вызывается, когда встречается начало комментируемого диапазона текста. |
+| [visitCommentStart(Comment comment)](#visitCommentStart-com.aspose.words.Comment) | Вызывается, когда перечисление текста комментария началось. |
+| [visitDocumentEnd(Document doc)](#visitDocumentEnd-com.aspose.words.Document) | Вызывается, когда перечисление документа завершилось. |
+| [visitDocumentStart(Document doc)](#visitDocumentStart-com.aspose.words.Document) | Вызывается, когда перечисление документа началось. |
+| [visitEditableRangeEnd(EditableRangeEnd editableRangeEnd)](#visitEditableRangeEnd-com.aspose.words.EditableRangeEnd) | Вызывается, когда в документе обнаруживается конец редактируемого диапазона. |
+| [visitEditableRangeStart(EditableRangeStart editableRangeStart)](#visitEditableRangeStart-com.aspose.words.EditableRangeStart) | Вызывается, когда в документе обнаруживается начало редактируемого диапазона. |
+| [visitFieldEnd(FieldEnd fieldEnd)](#visitFieldEnd-com.aspose.words.FieldEnd) | Вызывается, когда в документе заканчивается поле. |
+| [visitFieldSeparator(FieldSeparator fieldSeparator)](#visitFieldSeparator-com.aspose.words.FieldSeparator) | Вызывается, когда в документе обнаруживается разделитель поля. |
+| [visitFieldStart(FieldStart fieldStart)](#visitFieldStart-com.aspose.words.FieldStart) | Вызывается, когда в документе начинается поле. |
+| [visitFootnoteEnd(Footnote footnote)](#visitFootnoteEnd-com.aspose.words.Footnote) | Вызывается, когда перечисление текста сноски или концевой сноски завершилось. |
+| [visitFootnoteStart(Footnote footnote)](#visitFootnoteStart-com.aspose.words.Footnote) | Вызывается, когда началось перечисление текста сноски или концевой сноски. |
+| [visitFormField(FormField formField)](#visitFormField-com.aspose.words.FormField) | Вызывается, когда в документе обнаруживается поле формы. |
+| [visitGlossaryDocumentEnd(GlossaryDocument glossary)](#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument) | Вызывается, когда перечисление документа глоссария завершилось. |
+| [visitGlossaryDocumentStart(GlossaryDocument glossary)](#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument) | Вызывается, когда началось перечисление документа глоссария. |
+| [visitGroupShapeEnd(GroupShape groupShape)](#visitGroupShapeEnd-com.aspose.words.GroupShape) | Вызывается, когда перечисление групповой фигуры завершилось. |
+| [visitGroupShapeStart(GroupShape groupShape)](#visitGroupShapeStart-com.aspose.words.GroupShape) | Вызывается, когда началось перечисление групповой фигуры. |
+| [visitHeaderFooterEnd(HeaderFooter headerFooter)](#visitHeaderFooterEnd-com.aspose.words.HeaderFooter) | Вызывается, когда перечисление заголовка или нижнего колонтитула в разделе завершилось. |
+| [visitHeaderFooterStart(HeaderFooter headerFooter)](#visitHeaderFooterStart-com.aspose.words.HeaderFooter) | Вызывается, когда началось перечисление заголовка или нижнего колонтитула в разделе. |
+| [visitOfficeMathEnd(OfficeMath officeMath)](#visitOfficeMathEnd-com.aspose.words.OfficeMath) | Вызывается, когда перечисление объекта Office Math завершилось. |
+| [visitOfficeMathStart(OfficeMath officeMath)](#visitOfficeMathStart-com.aspose.words.OfficeMath) | Вызывается, когда началось перечисление объекта Office Math. |
+| [visitParagraphEnd(Paragraph paragraph)](#visitParagraphEnd-com.aspose.words.Paragraph) | Вызывается, когда перечисление абзаца завершилось. |
+| [visitParagraphStart(Paragraph paragraph)](#visitParagraphStart-com.aspose.words.Paragraph) | Вызывается, когда началось перечисление абзаца. |
+| [visitRowEnd(Row row)](#visitRowEnd-com.aspose.words.Row) | Вызывается, когда перечисление строки таблицы завершилось. |
+| [visitRowStart(Row row)](#visitRowStart-com.aspose.words.Row) | Вызывается, когда началось перечисление строки таблицы. |
+| [visitRun(Run run)](#visitRun-com.aspose.words.Run) | Вызывается, когда в документе обнаруживается фрагмент текста. |
+| [visitSectionEnd(Section section)](#visitSectionEnd-com.aspose.words.Section) | Вызывается, когда перечисление раздела завершилось. |
+| [visitSectionStart(Section section)](#visitSectionStart-com.aspose.words.Section) | Вызывается, когда началось перечисление раздела. |
+| [visitShapeEnd(Shape shape)](#visitShapeEnd-com.aspose.words.Shape) | Вызывается, когда перечисление фигуры завершилось. |
+| [visitShapeStart(Shape shape)](#visitShapeStart-com.aspose.words.Shape) | Вызывается, когда началось перечисление фигуры. |
+| [visitSmartTagEnd(SmartTag smartTag)](#visitSmartTagEnd-com.aspose.words.SmartTag) | Вызывается, когда перечисление смарт-тега завершено. |
+| [visitSmartTagStart(SmartTag smartTag)](#visitSmartTagStart-com.aspose.words.SmartTag) | Вызывается, когда перечисление смарт-тега началось. |
+| [visitSpecialChar(SpecialChar specialChar)](#visitSpecialChar-com.aspose.words.SpecialChar) | Вызывается, когда в документе встречается узел [SpecialChar](../../com.aspose.words/specialchar/). |
+| [visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)](#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag) | Вызывается, когда перечисление структурированного тега документа завершено. |
+| [visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)](#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd) | Вызывается, когда встречается StructuredDocumentTagRangeEnd. |
+| [visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)](#visitStructuredDocumentTagRangeStart-com.aspose.words.StructuredDocumentTagRangeStart) | Вызывается, когда встречается StructuredDocumentTagRangeStart. |
+| [visitStructuredDocumentTagStart(StructuredDocumentTag sdt)](#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag) | Вызывается, когда перечисление структурированного тега документа началось. |
+| [visitSubDocument(SubDocument subDocument)](#visitSubDocument-com.aspose.words.SubDocument) | Вызывается, когда встречается поддокумент. |
+| [visitTableEnd(Table table)](#visitTableEnd-com.aspose.words.Table) | Вызывается, когда перечисление таблицы завершено. |
+| [visitTableStart(Table table)](#visitTableStart-com.aspose.words.Table) | Вызывается, когда перечисление таблицы началось. |
+### visitAbsolutePositionTab(AbsolutePositionTab tab) {#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab}
 ```
 public int visitAbsolutePositionTab(AbsolutePositionTab tab)
 ```
 
 
- Вызывается, когда[AbsolutePositionTab](../../com.aspose.words/absolutepositiontab) узел встречается в документе.
+Вызывается, когда в документе встречается узел [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab/).
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как обрабатывать символы табуляции с абсолютной позицией с помощью посетителя документа.
+
+```
+
+ public void documentToTxt() throws Exception {
+     Document doc = new Document(getMyDir() + "Absolute position tab.docx");
+
+     // Extract the text contents of our document by accepting this custom document visitor.
+     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
+     Section fisrtSection = doc.getFirstSection();
+     fisrtSection.getBody().accept(myDocTextExtractor);
+     // Visit only start of the document body.
+     fisrtSection.getBody().acceptStart(myDocTextExtractor);
+     // Visit only end of the document body.
+     fisrtSection.getBody().acceptEnd(myDocTextExtractor);
+
+     // The absolute position tab, which has no equivalent in string form, has been explicitly converted to a tab character.
+     Assert.assertEquals("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.getText());
+
+     // An AbsolutePositionTab can accept a DocumentVisitor by itself too.
+     AbsolutePositionTab absPositionTab = (AbsolutePositionTab) doc.getFirstSection().getBody().getFirstParagraph().getChild(NodeType.SPECIAL_CHAR, 0, true);
+
+     myDocTextExtractor = new DocTextExtractor();
+     absPositionTab.accept(myDocTextExtractor);
+
+     Assert.assertEquals("\t", myDocTextExtractor.getText());
+ }
+
+ /// 
+ /// Collects the text contents of all runs in the visited document. Replaces all absolute tab characters with ordinary tabs.
+ /// 
+ public static class DocTextExtractor extends DocumentVisitor {
+     public DocTextExtractor() {
+         mBuilder = new StringBuilder();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         appendText(run.getText());
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when an AbsolutePositionTab node is encountered in the document.
+     /// 
+     public int visitAbsolutePositionTab(final AbsolutePositionTab tab) {
+         mBuilder.append("\t");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Adds text to the current output. Honors the enabled/disabled output flag.
+     /// 
+     public void appendText(final String text) {
+         mBuilder.append(text);
+     }
+
+     /// 
+     /// Plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tab | [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab) | Объект, который посещается. |
+| tab | [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitBodyEnd(Body body) {#visitBodyEnd-com.aspose.words.Body-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitBodyEnd(Body body) {#visitBodyEnd-com.aspose.words.Body}
 ```
 public int visitBodyEnd(Body body)
 ```
 
 
-Вызывается, когда закончился перечисление основной текстовой истории в разделе.
+Вызывается, когда перечисление основной текстовой истории в разделе завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| body | [Body](../../com.aspose.words/body) | Объект, который посещается. |
+| body | [Body](../../com.aspose.words/body/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitBodyStart(Body body) {#visitBodyStart-com.aspose.words.Body-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitBodyStart(Body body) {#visitBodyStart-com.aspose.words.Body}
 ```
 public int visitBodyStart(Body body)
 ```
 
 
-Вызывается, когда начался перебор основной текстовой истории в разделе.
+Вызывается, когда перечисление основной текстовой истории в разделе началось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| body | [Body](../../com.aspose.words/body) | Объект, который посещается. |
+| body | [Body](../../com.aspose.words/body/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitBookmarkEnd(BookmarkEnd bookmarkEnd) {#visitBookmarkEnd-com.aspose.words.BookmarkEnd-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitBookmarkEnd(BookmarkEnd bookmarkEnd) {#visitBookmarkEnd-com.aspose.words.BookmarkEnd}
 ```
 public int visitBookmarkEnd(BookmarkEnd bookmarkEnd)
 ```
@@ -211,15 +742,93 @@ public int visitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 Вызывается, когда в документе встречается конец закладки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить закладки и обновить их содержимое.
+
+```
+
+ public void createUpdateAndPrintBookmarks() throws Exception {
+     // Create a document with three bookmarks, then use a custom document visitor implementation to print their contents.
+     Document doc = createDocumentWithBookmarks(3);
+     BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+     printAllBookmarkInfo(bookmarks);
+
+     // Bookmarks can be accessed in the bookmark collection by index or name, and their names can be updated.
+     bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
+     bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
+
+     // Print all bookmarks again to see updated values.
+     printAllBookmarkInfo(bookmarks);
+ }
+
+ /// 
+ /// Create a document with a given number of bookmarks.
+ /// 
+ private static Document createDocumentWithBookmarks(int numberOfBookmarks) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     for (int i = 1; i <= numberOfBookmarks; i++) {
+         String bookmarkName = "MyBookmark_" + i;
+
+         builder.write("Text before bookmark.");
+         builder.startBookmark(bookmarkName);
+         builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+         builder.endBookmark(bookmarkName);
+         builder.writeln("Text after bookmark.");
+     }
+
+     return doc;
+ }
+
+ /// 
+ /// Use an iterator and a visitor to print info of every bookmark in the collection.
+ /// 
+ private static void printAllBookmarkInfo(BookmarkCollection bookmarks) throws Exception {
+     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
+
+     // Get each bookmark in the collection to accept a visitor that will print its contents.
+     Iterator enumerator = bookmarks.iterator();
+
+     while (enumerator.hasNext()) {
+         Bookmark currentBookmark = enumerator.next();
+
+         if (currentBookmark != null) {
+             currentBookmark.getBookmarkStart().accept(bookmarkVisitor);
+             currentBookmark.getBookmarkEnd().accept(bookmarkVisitor);
+
+             System.out.println(currentBookmark.getBookmarkStart().getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints contents of every visited bookmark to the console.
+ /// 
+ public static class BookmarkInfoPrinter extends DocumentVisitor {
+     public int visitBookmarkStart(BookmarkStart bookmarkStart) throws Exception {
+         System.out.println(MessageFormat.format("BookmarkStart name: \"{0}\", Content: \"{1}\"", bookmarkStart.getName(),
+                 bookmarkStart.getBookmark().getText()));
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBookmarkEnd(BookmarkEnd bookmarkEnd) {
+         System.out.println(MessageFormat.format("BookmarkEnd name: \"{0}\"", bookmarkEnd.getName()));
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bookmarkEnd | [BookmarkEnd](../../com.aspose.words/bookmarkend) | Объект, который посещается. |
+| bookmarkEnd | [BookmarkEnd](../../com.aspose.words/bookmarkend/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitBookmarkStart(BookmarkStart bookmarkStart) {#visitBookmarkStart-com.aspose.words.BookmarkStart-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitBookmarkStart(BookmarkStart bookmarkStart) {#visitBookmarkStart-com.aspose.words.BookmarkStart}
 ```
 public int visitBookmarkStart(BookmarkStart bookmarkStart)
 ```
@@ -227,249 +836,2331 @@ public int visitBookmarkStart(BookmarkStart bookmarkStart)
 
 Вызывается, когда в документе встречается начало закладки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как добавить закладки и обновить их содержимое.
+
+```
+
+ public void createUpdateAndPrintBookmarks() throws Exception {
+     // Create a document with three bookmarks, then use a custom document visitor implementation to print their contents.
+     Document doc = createDocumentWithBookmarks(3);
+     BookmarkCollection bookmarks = doc.getRange().getBookmarks();
+     printAllBookmarkInfo(bookmarks);
+
+     // Bookmarks can be accessed in the bookmark collection by index or name, and their names can be updated.
+     bookmarks.get(0).setName("{bookmarks[0].Name}_NewName");
+     bookmarks.get("MyBookmark_2").setText("Updated text contents of {bookmarks[1].Name}");
+
+     // Print all bookmarks again to see updated values.
+     printAllBookmarkInfo(bookmarks);
+ }
+
+ /// 
+ /// Create a document with a given number of bookmarks.
+ /// 
+ private static Document createDocumentWithBookmarks(int numberOfBookmarks) throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     for (int i = 1; i <= numberOfBookmarks; i++) {
+         String bookmarkName = "MyBookmark_" + i;
+
+         builder.write("Text before bookmark.");
+         builder.startBookmark(bookmarkName);
+         builder.write(MessageFormat.format("Text inside {0}.", bookmarkName));
+         builder.endBookmark(bookmarkName);
+         builder.writeln("Text after bookmark.");
+     }
+
+     return doc;
+ }
+
+ /// 
+ /// Use an iterator and a visitor to print info of every bookmark in the collection.
+ /// 
+ private static void printAllBookmarkInfo(BookmarkCollection bookmarks) throws Exception {
+     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
+
+     // Get each bookmark in the collection to accept a visitor that will print its contents.
+     Iterator enumerator = bookmarks.iterator();
+
+     while (enumerator.hasNext()) {
+         Bookmark currentBookmark = enumerator.next();
+
+         if (currentBookmark != null) {
+             currentBookmark.getBookmarkStart().accept(bookmarkVisitor);
+             currentBookmark.getBookmarkEnd().accept(bookmarkVisitor);
+
+             System.out.println(currentBookmark.getBookmarkStart().getText());
+         }
+     }
+ }
+
+ /// 
+ /// Prints contents of every visited bookmark to the console.
+ /// 
+ public static class BookmarkInfoPrinter extends DocumentVisitor {
+     public int visitBookmarkStart(BookmarkStart bookmarkStart) throws Exception {
+         System.out.println(MessageFormat.format("BookmarkStart name: \"{0}\", Content: \"{1}\"", bookmarkStart.getName(),
+                 bookmarkStart.getBookmark().getText()));
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBookmarkEnd(BookmarkEnd bookmarkEnd) {
+         System.out.println(MessageFormat.format("BookmarkEnd name: \"{0}\"", bookmarkEnd.getName()));
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bookmarkStart | [BookmarkStart](../../com.aspose.words/bookmarkstart) | Объект, который посещается. |
+| bookmarkStart | [BookmarkStart](../../com.aspose.words/bookmarkstart/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitBuildingBlockEnd(BuildingBlock block) {#visitBuildingBlockEnd-com.aspose.words.BuildingBlock-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitBuildingBlockEnd(BuildingBlock block) {#visitBuildingBlockEnd-com.aspose.words.BuildingBlock}
 ```
 public int visitBuildingBlockEnd(BuildingBlock block)
 ```
 
 
-Вызывается после окончания перечисления стандартного блока.
+Вызывается, когда перечисление строительного блока завершилось.
 
-Примечание. Узел стандартного блока и его дочерние элементы не посещаются, когда вы выполняете посетителя над узлом.[Document](../../com.aspose.words/document) . Если вы хотите выполнить посетителя над строительным блоком, вам нужно выполнить посетителя над[GlossaryDocument](../../com.aspose.words/glossarydocument) или позвоните по телефону[BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock\#accept-com.aspose.words.DocumentVisitor-).
+ **Remarks:** 
 
-**Параметры:**
+Примечание: Узел строительного блока и его дочерние элементы не посещаются, когда вы выполняете Visitor над [Document](../../com.aspose.words/document/). Если вы хотите выполнить Visitor над строительным блоком, вам необходимо выполнить посетитель над [GlossaryDocument](../../com.aspose.words/glossarydocument/) или вызвать [BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock/\#accept-com.aspose.words.DocumentVisitor).
 
+ **Examples:** 
+
+Показывает способы доступа к строительным блокам в глоссарном документе.
+
+```
+
+ public void glossaryDocument() throws Exception {
+     Document doc = new Document();
+     GlossaryDocument glossaryDoc = new GlossaryDocument();
+
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 1"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 2"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 3"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 4"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 5"));
+
+     Assert.assertEquals(glossaryDoc.getBuildingBlocks().getCount(), 5);
+
+     doc.setGlossaryDocument(glossaryDoc);
+
+     // There are various ways of accessing building blocks.
+     // 1 -  Get the first/last building blocks in the collection:
+     Assert.assertEquals("Block 1", glossaryDoc.getFirstBuildingBlock().getName());
+     Assert.assertEquals("Block 5", glossaryDoc.getLastBuildingBlock().getName());
+
+     // 2 -  Get a building block by index:
+     Assert.assertEquals("Block 2", glossaryDoc.getBuildingBlocks().get(1).getName());
+     Assert.assertEquals("Block 3", glossaryDoc.getBuildingBlocks().toArray()[2].getName());
+
+     // 3 -  Get the first building block that matches a gallery, name and category:
+     Assert.assertEquals("Block 4",
+             glossaryDoc.getBuildingBlock(BuildingBlockGallery.ALL, "(Empty Category)", "Block 4").getName());
+
+     // We will do that using a custom visitor,
+     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
+     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
+     glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
+     System.out.println(visitor.getText());
+
+     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+     doc.save(getArtifactsDir() + "BuildingBlocks.GlossaryDocument.dotx");
+ }
+
+ public static BuildingBlock createNewBuildingBlock(final GlossaryDocument glossaryDoc, final String buildingBlockName) {
+     BuildingBlock buildingBlock = new BuildingBlock(glossaryDoc);
+     buildingBlock.setName(buildingBlockName);
+
+     return buildingBlock;
+ }
+
+ /// 
+ /// Gives each building block in a visited glossary document a unique GUID.
+ /// Stores the GUID-building block pairs in a dictionary.
+ /// 
+ public static class GlossaryDocVisitor extends DocumentVisitor {
+     public GlossaryDocVisitor() {
+         mBlocksByGuid = new HashMap<>();
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public HashMap getDictionary() {
+         return mBlocksByGuid;
+     }
+
+     public int visitGlossaryDocumentStart(final GlossaryDocument glossary) {
+         mBuilder.append("Glossary document found!\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGlossaryDocumentEnd(final GlossaryDocument glossary) {
+         mBuilder.append("Reached end of glossary!\n");
+         mBuilder.append("BuildingBlocks found: " + mBlocksByGuid.size() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockStart(final BuildingBlock block) {
+         block.setGuid(UUID.randomUUID());
+         mBlocksByGuid.put(block.getGuid(), block);
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockEnd(final BuildingBlock block) {
+         mBuilder.append("\tVisited block \"" + block.getName() + "\"" + "\r\n");
+         mBuilder.append("\t Type: " + block.getType() + "\r\n");
+         mBuilder.append("\t Gallery: " + block.getGallery() + "\r\n");
+         mBuilder.append("\t Behavior: " + block.getBehavior() + "\r\n");
+         mBuilder.append("\t Description: " + block.getDescription() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final HashMap mBlocksByGuid;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| block | [BuildingBlock](../../com.aspose.words/buildingblock) | Объект, который посещается. |
+| block | [BuildingBlock](../../com.aspose.words/buildingblock/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitBuildingBlockStart(BuildingBlock block) {#visitBuildingBlockStart-com.aspose.words.BuildingBlock-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitBuildingBlockStart(BuildingBlock block) {#visitBuildingBlockStart-com.aspose.words.BuildingBlock}
 ```
 public int visitBuildingBlockStart(BuildingBlock block)
 ```
 
 
-Вызывается, когда начинается перечисление стандартного блока.
+Вызывается, когда перечисление строительного блока началось.
 
-Примечание. Узел стандартного блока и его дочерние элементы не посещаются, когда вы выполняете посетителя над узлом.[Document](../../com.aspose.words/document) . Если вы хотите выполнить посетителя над строительным блоком, вам нужно выполнить посетителя над[GlossaryDocument](../../com.aspose.words/glossarydocument) или позвоните по телефону[BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock\#accept-com.aspose.words.DocumentVisitor-).
+ **Remarks:** 
 
-**Параметры:**
+Примечание: Узел строительного блока и его дочерние элементы не посещаются, когда вы выполняете Visitor над [Document](../../com.aspose.words/document/). Если вы хотите выполнить Visitor над строительным блоком, вам необходимо выполнить посетитель над [GlossaryDocument](../../com.aspose.words/glossarydocument/) или вызвать [BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock/\#accept-com.aspose.words.DocumentVisitor).
 
+ **Examples:** 
+
+Показывает способы доступа к строительным блокам в глоссарном документе.
+
+```
+
+ public void glossaryDocument() throws Exception {
+     Document doc = new Document();
+     GlossaryDocument glossaryDoc = new GlossaryDocument();
+
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 1"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 2"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 3"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 4"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 5"));
+
+     Assert.assertEquals(glossaryDoc.getBuildingBlocks().getCount(), 5);
+
+     doc.setGlossaryDocument(glossaryDoc);
+
+     // There are various ways of accessing building blocks.
+     // 1 -  Get the first/last building blocks in the collection:
+     Assert.assertEquals("Block 1", glossaryDoc.getFirstBuildingBlock().getName());
+     Assert.assertEquals("Block 5", glossaryDoc.getLastBuildingBlock().getName());
+
+     // 2 -  Get a building block by index:
+     Assert.assertEquals("Block 2", glossaryDoc.getBuildingBlocks().get(1).getName());
+     Assert.assertEquals("Block 3", glossaryDoc.getBuildingBlocks().toArray()[2].getName());
+
+     // 3 -  Get the first building block that matches a gallery, name and category:
+     Assert.assertEquals("Block 4",
+             glossaryDoc.getBuildingBlock(BuildingBlockGallery.ALL, "(Empty Category)", "Block 4").getName());
+
+     // We will do that using a custom visitor,
+     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
+     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
+     glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
+     System.out.println(visitor.getText());
+
+     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+     doc.save(getArtifactsDir() + "BuildingBlocks.GlossaryDocument.dotx");
+ }
+
+ public static BuildingBlock createNewBuildingBlock(final GlossaryDocument glossaryDoc, final String buildingBlockName) {
+     BuildingBlock buildingBlock = new BuildingBlock(glossaryDoc);
+     buildingBlock.setName(buildingBlockName);
+
+     return buildingBlock;
+ }
+
+ /// 
+ /// Gives each building block in a visited glossary document a unique GUID.
+ /// Stores the GUID-building block pairs in a dictionary.
+ /// 
+ public static class GlossaryDocVisitor extends DocumentVisitor {
+     public GlossaryDocVisitor() {
+         mBlocksByGuid = new HashMap<>();
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public HashMap getDictionary() {
+         return mBlocksByGuid;
+     }
+
+     public int visitGlossaryDocumentStart(final GlossaryDocument glossary) {
+         mBuilder.append("Glossary document found!\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGlossaryDocumentEnd(final GlossaryDocument glossary) {
+         mBuilder.append("Reached end of glossary!\n");
+         mBuilder.append("BuildingBlocks found: " + mBlocksByGuid.size() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockStart(final BuildingBlock block) {
+         block.setGuid(UUID.randomUUID());
+         mBlocksByGuid.put(block.getGuid(), block);
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockEnd(final BuildingBlock block) {
+         mBuilder.append("\tVisited block \"" + block.getName() + "\"" + "\r\n");
+         mBuilder.append("\t Type: " + block.getType() + "\r\n");
+         mBuilder.append("\t Gallery: " + block.getGallery() + "\r\n");
+         mBuilder.append("\t Behavior: " + block.getBehavior() + "\r\n");
+         mBuilder.append("\t Description: " + block.getDescription() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final HashMap mBlocksByGuid;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| block | [BuildingBlock](../../com.aspose.words/buildingblock) | Объект, который посещается. |
+| block | [BuildingBlock](../../com.aspose.words/buildingblock/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitCellEnd(Cell cell) {#visitCellEnd-com.aspose.words.Cell-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitCellEnd(Cell cell) {#visitCellEnd-com.aspose.words.Cell}
 ```
 public int visitCellEnd(Cell cell)
 ```
 
 
-Вызывается, когда закончилось перечисление ячейки таблицы.
+Вызывается, когда перечисление ячейки таблицы завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой таблицы в документе.
+
+```
+
+ public void tableToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     TableStructurePrinter visitor = new TableStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Table nodes and their children.
+ /// 
+ public static class TableStructurePrinter extends DocumentVisitor {
+     public TableStructurePrinter() {
+         mVisitedTables = new StringBuilder();
+         mVisitorIsInsideTable = false;
+     }
+
+     public String getText() {
+         return mVisitedTables.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// Runs that are not within tables are not recorded.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideTable) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Table is encountered in the document.
+     /// 
+     public int visitTableStart(final Table table) {
+         int rows = 0;
+         int columns = 0;
+
+         if (table.getRows().getCount() > 0) {
+             rows = table.getRows().getCount();
+             columns = table.getFirstRow().getCount();
+         }
+
+         indentAndAppendLine("[Table start] Size: " + rows + "x" + columns);
+         mDocTraversalDepth++;
+         mVisitorIsInsideTable = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Table node have been visited.
+     /// 
+     public int visitTableEnd(final Table table) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Table end]");
+         mVisitorIsInsideTable = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Row node is encountered in the document.
+     /// 
+     public int visitRowStart(final Row row) {
+         String rowContents = row.getText().replaceAll("\\u0007", ", ").replaceAll(", , ", "");
+         int rowWidth = row.indexOf(row.getLastCell()) + 1;
+         int rowIndex = row.getParentTable().indexOf(row);
+         String rowStatusInTable = row.isFirstRow() && row.isLastRow() ? "only" : row.isFirstRow() ? "first" : row.isLastRow() ? "last" : "";
+         if (!"".equals(rowStatusInTable)) {
+             rowStatusInTable = MessageFormat.format(", the {0} row in this table,", rowStatusInTable);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Row start] Row #{0}{1} width {2}, \"{3}\"", ++rowIndex, rowStatusInTable, rowWidth, rowContents));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Row node have been visited.
+     /// 
+     public int visitRowEnd(final Row row) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Row end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Cell node is encountered in the document.
+     /// 
+     public int visitCellStart(final Cell cell) {
+         Row row = cell.getParentRow();
+         Table table = row.getParentTable();
+         String cellStatusInRow = cell.isFirstCell() && cell.isLastCell() ? "only" : cell.isFirstCell() ? "first" : cell.isLastCell() ? "last" : "";
+         if (!"".equals(cellStatusInRow)) {
+             cellStatusInRow = MessageFormat.format(", the {0} cell in this row", cellStatusInRow);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Cell start] Row {0}, Col {1}{2}", table.indexOf(row) + 1, row.indexOf(cell) + 1, cellStatusInRow));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Cell node have been visited.
+     /// 
+     public int visitCellEnd(final Cell cell) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Cell end]");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the current table's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mVisitedTables.append("|  ");
+         }
+
+         mVisitedTables.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideTable;
+     private int mDocTraversalDepth;
+     private final  StringBuilder mVisitedTables;
+ }
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cell | [Cell](../../com.aspose.words/cell) | Объект, который посещается. |
+| cell | [Cell](../../com.aspose.words/cell/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitCellStart(Cell cell) {#visitCellStart-com.aspose.words.Cell-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitCellStart(Cell cell) {#visitCellStart-com.aspose.words.Cell}
 ```
 public int visitCellStart(Cell cell)
 ```
 
 
-Вызывается, когда начинается перечисление ячейки таблицы.
+Вызывается, когда перечисление ячейки таблицы началось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой таблицы в документе.
+
+```
+
+ public void tableToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     TableStructurePrinter visitor = new TableStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Table nodes and their children.
+ /// 
+ public static class TableStructurePrinter extends DocumentVisitor {
+     public TableStructurePrinter() {
+         mVisitedTables = new StringBuilder();
+         mVisitorIsInsideTable = false;
+     }
+
+     public String getText() {
+         return mVisitedTables.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// Runs that are not within tables are not recorded.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideTable) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Table is encountered in the document.
+     /// 
+     public int visitTableStart(final Table table) {
+         int rows = 0;
+         int columns = 0;
+
+         if (table.getRows().getCount() > 0) {
+             rows = table.getRows().getCount();
+             columns = table.getFirstRow().getCount();
+         }
+
+         indentAndAppendLine("[Table start] Size: " + rows + "x" + columns);
+         mDocTraversalDepth++;
+         mVisitorIsInsideTable = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Table node have been visited.
+     /// 
+     public int visitTableEnd(final Table table) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Table end]");
+         mVisitorIsInsideTable = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Row node is encountered in the document.
+     /// 
+     public int visitRowStart(final Row row) {
+         String rowContents = row.getText().replaceAll("\\u0007", ", ").replaceAll(", , ", "");
+         int rowWidth = row.indexOf(row.getLastCell()) + 1;
+         int rowIndex = row.getParentTable().indexOf(row);
+         String rowStatusInTable = row.isFirstRow() && row.isLastRow() ? "only" : row.isFirstRow() ? "first" : row.isLastRow() ? "last" : "";
+         if (!"".equals(rowStatusInTable)) {
+             rowStatusInTable = MessageFormat.format(", the {0} row in this table,", rowStatusInTable);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Row start] Row #{0}{1} width {2}, \"{3}\"", ++rowIndex, rowStatusInTable, rowWidth, rowContents));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Row node have been visited.
+     /// 
+     public int visitRowEnd(final Row row) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Row end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Cell node is encountered in the document.
+     /// 
+     public int visitCellStart(final Cell cell) {
+         Row row = cell.getParentRow();
+         Table table = row.getParentTable();
+         String cellStatusInRow = cell.isFirstCell() && cell.isLastCell() ? "only" : cell.isFirstCell() ? "first" : cell.isLastCell() ? "last" : "";
+         if (!"".equals(cellStatusInRow)) {
+             cellStatusInRow = MessageFormat.format(", the {0} cell in this row", cellStatusInRow);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Cell start] Row {0}, Col {1}{2}", table.indexOf(row) + 1, row.indexOf(cell) + 1, cellStatusInRow));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Cell node have been visited.
+     /// 
+     public int visitCellEnd(final Cell cell) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Cell end]");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the current table's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mVisitedTables.append("|  ");
+         }
+
+         mVisitedTables.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideTable;
+     private int mDocTraversalDepth;
+     private final  StringBuilder mVisitedTables;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cell | [Cell](../../com.aspose.words/cell) | Объект, который посещается. |
+| cell | [Cell](../../com.aspose.words/cell/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitCommentEnd(Comment comment) {#visitCommentEnd-com.aspose.words.Comment-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitCommentEnd(Comment comment) {#visitCommentEnd-com.aspose.words.Comment}
 ```
 public int visitCommentEnd(Comment comment)
 ```
 
 
-Вызывается, когда закончилось перечисление текста комментария.
+Вызывается, когда перечисление текста комментария завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого комментария и диапазона комментариев в документе.
+
+```
+
+ public void commentsToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     CommentStructurePrinter visitor = new CommentStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Comment/CommentRange nodes and their children.
+ /// 
+ public static class CommentStructurePrinter extends DocumentVisitor {
+     public CommentStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideComment = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// A Run is only recorded if it is a child of a Comment or CommentRange node.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideComment) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeStart node is encountered in the document.
+     /// 
+     public int visitCommentRangeStart(final CommentRangeStart commentRangeStart) {
+         indentAndAppendLine("[Comment range start] ID: " + commentRangeStart.getId());
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeEnd node is encountered in the document.
+     /// 
+     public int visitCommentRangeEnd(final CommentRangeEnd commentRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment range end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment node is encountered in the document.
+     /// 
+     public int visitCommentStart(final Comment comment) {
+         indentAndAppendLine(MessageFormat.format("[Comment start] For comment range ID {0}, By {1} on {2}", comment.getId(),
+                 comment.getAuthor(), comment.getDateTime()));
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Comment node have been visited.
+     /// 
+     public int visitCommentEnd(final Comment comment) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into a comment/comment range's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideComment;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| comment | [Comment](../../com.aspose.words/comment) | Объект, который посещается. |
+| comment | [Comment](../../com.aspose.words/comment/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitCommentRangeEnd(CommentRangeEnd commentRangeEnd) {#visitCommentRangeEnd-com.aspose.words.CommentRangeEnd-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitCommentRangeEnd(CommentRangeEnd commentRangeEnd) {#visitCommentRangeEnd-com.aspose.words.CommentRangeEnd}
 ```
 public int visitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
 ```
 
 
-Вызывается, когда встречается конец закомментированного диапазона текста.
+Вызывается, когда встречается конец комментируемого диапазона текста.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого комментария и диапазона комментариев в документе.
+
+```
+
+ public void commentsToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     CommentStructurePrinter visitor = new CommentStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Comment/CommentRange nodes and their children.
+ /// 
+ public static class CommentStructurePrinter extends DocumentVisitor {
+     public CommentStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideComment = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// A Run is only recorded if it is a child of a Comment or CommentRange node.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideComment) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeStart node is encountered in the document.
+     /// 
+     public int visitCommentRangeStart(final CommentRangeStart commentRangeStart) {
+         indentAndAppendLine("[Comment range start] ID: " + commentRangeStart.getId());
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeEnd node is encountered in the document.
+     /// 
+     public int visitCommentRangeEnd(final CommentRangeEnd commentRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment range end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment node is encountered in the document.
+     /// 
+     public int visitCommentStart(final Comment comment) {
+         indentAndAppendLine(MessageFormat.format("[Comment start] For comment range ID {0}, By {1} on {2}", comment.getId(),
+                 comment.getAuthor(), comment.getDateTime()));
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Comment node have been visited.
+     /// 
+     public int visitCommentEnd(final Comment comment) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into a comment/comment range's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideComment;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| commentRangeEnd | [CommentRangeEnd](../../com.aspose.words/commentrangeend) | Объект, который посещается. |
+| commentRangeEnd | [CommentRangeEnd](../../com.aspose.words/commentrangeend/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitCommentRangeStart(CommentRangeStart commentRangeStart) {#visitCommentRangeStart-com.aspose.words.CommentRangeStart-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitCommentRangeStart(CommentRangeStart commentRangeStart) {#visitCommentRangeStart-com.aspose.words.CommentRangeStart}
 ```
 public int visitCommentRangeStart(CommentRangeStart commentRangeStart)
 ```
 
 
-Вызывается, когда встречается начало закомментированного диапазона текста.
+Вызывается, когда встречается начало комментируемого диапазона текста.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого комментария и диапазона комментариев в документе.
+
+```
+
+ public void commentsToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     CommentStructurePrinter visitor = new CommentStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Comment/CommentRange nodes and their children.
+ /// 
+ public static class CommentStructurePrinter extends DocumentVisitor {
+     public CommentStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideComment = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// A Run is only recorded if it is a child of a Comment or CommentRange node.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideComment) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeStart node is encountered in the document.
+     /// 
+     public int visitCommentRangeStart(final CommentRangeStart commentRangeStart) {
+         indentAndAppendLine("[Comment range start] ID: " + commentRangeStart.getId());
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeEnd node is encountered in the document.
+     /// 
+     public int visitCommentRangeEnd(final CommentRangeEnd commentRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment range end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment node is encountered in the document.
+     /// 
+     public int visitCommentStart(final Comment comment) {
+         indentAndAppendLine(MessageFormat.format("[Comment start] For comment range ID {0}, By {1} on {2}", comment.getId(),
+                 comment.getAuthor(), comment.getDateTime()));
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Comment node have been visited.
+     /// 
+     public int visitCommentEnd(final Comment comment) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into a comment/comment range's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideComment;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| commentRangeStart | [CommentRangeStart](../../com.aspose.words/commentrangestart) | Объект, который посещается. |
+| commentRangeStart | [CommentRangeStart](../../com.aspose.words/commentrangestart/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitCommentStart(Comment comment) {#visitCommentStart-com.aspose.words.Comment-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitCommentStart(Comment comment) {#visitCommentStart-com.aspose.words.Comment}
 ```
 public int visitCommentStart(Comment comment)
 ```
 
 
-Вызывается, когда начинается перечисление текста комментария.
+Вызывается, когда перечисление текста комментария началось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого комментария и диапазона комментариев в документе.
+
+```
+
+ public void commentsToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     CommentStructurePrinter visitor = new CommentStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Comment/CommentRange nodes and their children.
+ /// 
+ public static class CommentStructurePrinter extends DocumentVisitor {
+     public CommentStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideComment = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// A Run is only recorded if it is a child of a Comment or CommentRange node.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideComment) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeStart node is encountered in the document.
+     /// 
+     public int visitCommentRangeStart(final CommentRangeStart commentRangeStart) {
+         indentAndAppendLine("[Comment range start] ID: " + commentRangeStart.getId());
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a CommentRangeEnd node is encountered in the document.
+     /// 
+     public int visitCommentRangeEnd(final CommentRangeEnd commentRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment range end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment node is encountered in the document.
+     /// 
+     public int visitCommentStart(final Comment comment) {
+         indentAndAppendLine(MessageFormat.format("[Comment start] For comment range ID {0}, By {1} on {2}", comment.getId(),
+                 comment.getAuthor(), comment.getDateTime()));
+         mDocTraversalDepth++;
+         mVisitorIsInsideComment = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Comment node have been visited.
+     /// 
+     public int visitCommentEnd(final Comment comment) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Comment end]");
+         mVisitorIsInsideComment = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into a comment/comment range's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideComment;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| comment | [Comment](../../com.aspose.words/comment) | Объект, который посещается. |
+| comment | [Comment](../../com.aspose.words/comment/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitDocumentEnd(Document doc) {#visitDocumentEnd-com.aspose.words.Document-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitDocumentEnd(Document doc) {#visitDocumentEnd-com.aspose.words.Document}
 ```
 public int visitDocumentEnd(Document doc)
 ```
 
 
-Вызывается после завершения перечисления документа.
+Вызывается, когда перечисление документа завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document) | Объект, который посещается. |
+| doc | [Document](../../com.aspose.words/document/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitDocumentStart(Document doc) {#visitDocumentStart-com.aspose.words.Document-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitDocumentStart(Document doc) {#visitDocumentStart-com.aspose.words.Document}
 ```
 public int visitDocumentStart(Document doc)
 ```
 
 
-Вызывается, когда начинается перечисление документа.
+Вызывается, когда перечисление документа началось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document) | Объект, который посещается. |
+| doc | [Document](../../com.aspose.words/document/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitEditableRangeEnd(EditableRangeEnd editableRangeEnd) {#visitEditableRangeEnd-com.aspose.words.EditableRangeEnd-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitEditableRangeEnd(EditableRangeEnd editableRangeEnd) {#visitEditableRangeEnd-com.aspose.words.EditableRangeEnd}
 ```
 public int visitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
 ```
 
 
-Вызывается, когда в документе встречается конец редактируемого диапазона.
+Вызывается, когда в документе обнаруживается конец редактируемого диапазона.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого редактируемого диапазона в документе.
+
+```
+
+ public void editableRangeToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered EditableRange nodes and their children.
+ /// 
+ public static class EditableRangeStructurePrinter extends DocumentVisitor {
+     public EditableRangeStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideEditableRange = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         // We want to print the contents of runs, but only if they are inside shapes, as they would be in the case of text boxes.
+         if (mVisitorIsInsideEditableRange) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when an EditableRange node is encountered in the document.
+     /// 
+     public int visitEditableRangeStart(final EditableRangeStart editableRangeStart) {
+         indentAndAppendLine("[EditableRange start] ID: " + editableRangeStart.getId() + " Owner: "
+                 + editableRangeStart.getEditableRange().getSingleUser());
+         mDocTraversalDepth++;
+         mVisitorIsInsideEditableRange = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when the visiting of a EditableRange node is ended.
+     /// 
+     public int visitEditableRangeEnd(final EditableRangeEnd editableRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[EditableRange end]");
+         mVisitorIsInsideEditableRange = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideEditableRange;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| editableRangeEnd | [EditableRangeEnd](../../com.aspose.words/editablerangeend) | Объект, который посещается. |
+| editableRangeEnd | [EditableRangeEnd](../../com.aspose.words/editablerangeend/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitEditableRangeStart(EditableRangeStart editableRangeStart) {#visitEditableRangeStart-com.aspose.words.EditableRangeStart-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitEditableRangeStart(EditableRangeStart editableRangeStart) {#visitEditableRangeStart-com.aspose.words.EditableRangeStart}
 ```
 public int visitEditableRangeStart(EditableRangeStart editableRangeStart)
 ```
 
 
-Вызывается, когда в документе встречается начало редактируемого диапазона.
+Вызывается, когда в документе обнаруживается начало редактируемого диапазона.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого редактируемого диапазона в документе.
+
+```
+
+ public void editableRangeToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered EditableRange nodes and their children.
+ /// 
+ public static class EditableRangeStructurePrinter extends DocumentVisitor {
+     public EditableRangeStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideEditableRange = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         // We want to print the contents of runs, but only if they are inside shapes, as they would be in the case of text boxes.
+         if (mVisitorIsInsideEditableRange) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when an EditableRange node is encountered in the document.
+     /// 
+     public int visitEditableRangeStart(final EditableRangeStart editableRangeStart) {
+         indentAndAppendLine("[EditableRange start] ID: " + editableRangeStart.getId() + " Owner: "
+                 + editableRangeStart.getEditableRange().getSingleUser());
+         mDocTraversalDepth++;
+         mVisitorIsInsideEditableRange = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when the visiting of a EditableRange node is ended.
+     /// 
+     public int visitEditableRangeEnd(final EditableRangeEnd editableRangeEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[EditableRange end]");
+         mVisitorIsInsideEditableRange = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideEditableRange;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| editableRangeStart | [EditableRangeStart](../../com.aspose.words/editablerangestart) | Объект, который посещается. |
+| editableRangeStart | [EditableRangeStart](../../com.aspose.words/editablerangestart/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitFieldEnd(FieldEnd fieldEnd) {#visitFieldEnd-com.aspose.words.FieldEnd-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitFieldEnd(FieldEnd fieldEnd) {#visitFieldEnd-com.aspose.words.FieldEnd}
 ```
 public int visitFieldEnd(FieldEnd fieldEnd)
 ```
 
 
-Вызывается, когда поле заканчивается в документе.
+Вызывается, когда в документе заканчивается поле.
 
- Для получения дополнительной информации см.[visitFieldStart(com.aspose.words.FieldStart)](../../com.aspose.words/documentvisitor\#visitFieldStart-com.aspose.words.FieldStart-)
+ **Remarks:** 
 
-**Параметры:**
+Для получения дополнительной информации см. [visitFieldStart(com.aspose.words.FieldStart)](../../com.aspose.words/documentvisitor/\#visitFieldStart-com.aspose.words.FieldStart).
 
+ **Examples:** 
+
+Показывает, как вывести структуру узлов каждого поля в документе.
+
+```
+
+ public void fieldToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     FieldStructurePrinter visitor = new FieldStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Field nodes and their children.
+ /// 
+ public static class FieldStructurePrinter extends DocumentVisitor {
+     public FieldStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideField = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideField) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(final FieldStart fieldStart) {
+         indentAndAppendLine("[Field start] FieldType: " + fieldStart.getFieldType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideField = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(final FieldEnd fieldEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Field end]");
+         mVisitorIsInsideField = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(final FieldSeparator fieldSeparator) {
+         indentAndAppendLine("[FieldSeparator]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the field's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideField;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldEnd | [FieldEnd](../../com.aspose.words/fieldend) | Объект, который посещается. |
+| fieldEnd | [FieldEnd](../../com.aspose.words/fieldend/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitFieldSeparator(FieldSeparator fieldSeparator) {#visitFieldSeparator-com.aspose.words.FieldSeparator-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitFieldSeparator(FieldSeparator fieldSeparator) {#visitFieldSeparator-com.aspose.words.FieldSeparator}
 ```
 public int visitFieldSeparator(FieldSeparator fieldSeparator)
 ```
 
 
-Вызывается, когда в документе встречается разделитель полей.
+Вызывается, когда в документе обнаруживается разделитель поля.
 
-Разделитель полей отделяет код поля от значения поля в документе. Обратите внимание, что некоторые поля имеют только код поля и не имеют разделителя полей и значения поля.
+ **Remarks:** 
 
- Для получения дополнительной информации см.[visitFieldStart(com.aspose.words.FieldStart)](../../com.aspose.words/documentvisitor\#visitFieldStart-com.aspose.words.FieldStart-)
+Разделитель полей отделяет код поля от его значения в документе. Обратите внимание, что некоторые поля содержат только код поля и не имеют разделителя и значения.
 
-**Параметры:**
+Для получения дополнительной информации см. [visitFieldStart(com.aspose.words.FieldStart)](../../com.aspose.words/documentvisitor/\#visitFieldStart-com.aspose.words.FieldStart).
 
+ **Examples:** 
+
+Показывает, как вывести структуру узлов каждого поля в документе.
+
+```
+
+ public void fieldToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     FieldStructurePrinter visitor = new FieldStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Field nodes and their children.
+ /// 
+ public static class FieldStructurePrinter extends DocumentVisitor {
+     public FieldStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideField = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideField) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(final FieldStart fieldStart) {
+         indentAndAppendLine("[Field start] FieldType: " + fieldStart.getFieldType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideField = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(final FieldEnd fieldEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Field end]");
+         mVisitorIsInsideField = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(final FieldSeparator fieldSeparator) {
+         indentAndAppendLine("[FieldSeparator]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the field's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideField;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldSeparator | [FieldSeparator](../../com.aspose.words/fieldseparator) | Объект, который посещается. |
+| fieldSeparator | [FieldSeparator](../../com.aspose.words/fieldseparator/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitFieldStart(FieldStart fieldStart) {#visitFieldStart-com.aspose.words.FieldStart-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitFieldStart(FieldStart fieldStart) {#visitFieldStart-com.aspose.words.FieldStart}
 ```
 public int visitFieldStart(FieldStart fieldStart)
 ```
@@ -477,301 +3168,3148 @@ public int visitFieldStart(FieldStart fieldStart)
 
 Вызывается, когда в документе начинается поле.
 
-Поле в документе Word состоит из кода поля и значения поля.
+ **Remarks:** 
 
-Например, поле, отображающее номер страницы, можно представить следующим образом:
+Поле в документе Word состоит из кода поля и его значения.
 
-[Начало поля] СТРАНИЦА[Разделитель полей]98[FieldEnd]
+Например, поле, отображающее номер страницы, может быть представлено следующим образом:
 
-Разделитель полей отделяет код поля от значения поля в документе. Обратите внимание, что некоторые поля имеют только код поля и не имеют разделителя полей и значения поля.
+[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+
+Разделитель полей отделяет код поля от его значения в документе. Обратите внимание, что некоторые поля содержат только код поля и не имеют разделителя и значения.
 
 Поля могут быть вложенными.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого поля в документе.
+
+```
+
+ public void fieldToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     FieldStructurePrinter visitor = new FieldStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Field nodes and their children.
+ /// 
+ public static class FieldStructurePrinter extends DocumentVisitor {
+     public FieldStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideField = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideField) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(final FieldStart fieldStart) {
+         indentAndAppendLine("[Field start] FieldType: " + fieldStart.getFieldType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideField = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(final FieldEnd fieldEnd) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Field end]");
+         mVisitorIsInsideField = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(final FieldSeparator fieldSeparator) {
+         indentAndAppendLine("[FieldSeparator]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the field's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideField;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldStart | [FieldStart](../../com.aspose.words/fieldstart) | Объект, который посещается. |
+| fieldStart | [FieldStart](../../com.aspose.words/fieldstart/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitFootnoteEnd(Footnote footnote) {#visitFootnoteEnd-com.aspose.words.Footnote-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitFootnoteEnd(Footnote footnote) {#visitFootnoteEnd-com.aspose.words.Footnote}
 ```
 public int visitFootnoteEnd(Footnote footnote)
 ```
 
 
-Вызывается, когда закончилось перечисление текста сноски или концевой сноски.
+Вызывается, когда перечисление текста сноски или концевой сноски завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой сноски в документе.
+
+```
+
+ public void footnoteToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Footnote nodes and their children.
+ /// 
+ public static class FootnoteStructurePrinter extends DocumentVisitor {
+     public FootnoteStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideFootnote = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Footnote node is encountered in the document.
+     /// 
+     public int visitFootnoteStart(final Footnote footnote) {
+         indentAndAppendLine("[Footnote start] Type: " + footnote.getFootnoteType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideFootnote = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Footnote node have been visited.
+     /// 
+     public int visitFootnoteEnd(final Footnote footnote) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Footnote end]");
+         mVisitorIsInsideFootnote = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideFootnote) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideFootnote;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| footnote | [Footnote](../../com.aspose.words/footnote) | Объект, который посещается. |
+| footnote | [Footnote](../../com.aspose.words/footnote/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitFootnoteStart(Footnote footnote) {#visitFootnoteStart-com.aspose.words.Footnote-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitFootnoteStart(Footnote footnote) {#visitFootnoteStart-com.aspose.words.Footnote}
 ```
 public int visitFootnoteStart(Footnote footnote)
 ```
 
 
-Вызывается, когда начинается перечисление текста сноски или концевой сноски.
+Вызывается, когда началось перечисление текста сноски или концевой сноски.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой сноски в документе.
+
+```
+
+ public void footnoteToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Footnote nodes and their children.
+ /// 
+ public static class FootnoteStructurePrinter extends DocumentVisitor {
+     public FootnoteStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideFootnote = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Footnote node is encountered in the document.
+     /// 
+     public int visitFootnoteStart(final Footnote footnote) {
+         indentAndAppendLine("[Footnote start] Type: " + footnote.getFootnoteType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideFootnote = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Footnote node have been visited.
+     /// 
+     public int visitFootnoteEnd(final Footnote footnote) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Footnote end]");
+         mVisitorIsInsideFootnote = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideFootnote) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideFootnote;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| footnote | [Footnote](../../com.aspose.words/footnote) | Объект, который посещается. |
+| footnote | [Footnote](../../com.aspose.words/footnote/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitFormField(FormField formField) {#visitFormField-com.aspose.words.FormField-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitFormField(FormField formField) {#visitFormField-com.aspose.words.FormField}
 ```
 public int visitFormField(FormField formField)
 ```
 
 
-Вызывается, когда в документе встречается поле формы.
+Вызывается, когда в документе обнаруживается поле формы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formField | [FormField](../../com.aspose.words/formfield) | Объект, который посещается. |
+| formField | [FormField](../../com.aspose.words/formfield/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitGlossaryDocumentEnd(GlossaryDocument glossary) {#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitGlossaryDocumentEnd(GlossaryDocument glossary) {#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument}
 ```
 public int visitGlossaryDocumentEnd(GlossaryDocument glossary)
 ```
 
 
-Вызывается, когда закончилось перечисление документа глоссария.
+Вызывается, когда перечисление документа глоссария завершилось.
 
- Примечание. Узел документа глоссария и его дочерние элементы не посещаются, когда вы выполняете посетителя над[Document](../../com.aspose.words/document) . Если вы хотите выполнить посетителя над документом глоссария, вам нужно вызвать[GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor-).
+ **Remarks:** 
 
-**Параметры:**
+Примечание: Узел глоссарного документа и его дочерние элементы не посещаются, когда вы выполняете Visitor над [Document](../../com.aspose.words/document/). Если вы хотите выполнить Visitor над глоссарным документом, вам нужно вызвать [GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument/\#accept-com.aspose.words.DocumentVisitor).
 
+ **Examples:** 
+
+Показывает способы доступа к строительным блокам в глоссарном документе.
+
+```
+
+ public void glossaryDocument() throws Exception {
+     Document doc = new Document();
+     GlossaryDocument glossaryDoc = new GlossaryDocument();
+
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 1"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 2"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 3"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 4"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 5"));
+
+     Assert.assertEquals(glossaryDoc.getBuildingBlocks().getCount(), 5);
+
+     doc.setGlossaryDocument(glossaryDoc);
+
+     // There are various ways of accessing building blocks.
+     // 1 -  Get the first/last building blocks in the collection:
+     Assert.assertEquals("Block 1", glossaryDoc.getFirstBuildingBlock().getName());
+     Assert.assertEquals("Block 5", glossaryDoc.getLastBuildingBlock().getName());
+
+     // 2 -  Get a building block by index:
+     Assert.assertEquals("Block 2", glossaryDoc.getBuildingBlocks().get(1).getName());
+     Assert.assertEquals("Block 3", glossaryDoc.getBuildingBlocks().toArray()[2].getName());
+
+     // 3 -  Get the first building block that matches a gallery, name and category:
+     Assert.assertEquals("Block 4",
+             glossaryDoc.getBuildingBlock(BuildingBlockGallery.ALL, "(Empty Category)", "Block 4").getName());
+
+     // We will do that using a custom visitor,
+     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
+     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
+     glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
+     System.out.println(visitor.getText());
+
+     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+     doc.save(getArtifactsDir() + "BuildingBlocks.GlossaryDocument.dotx");
+ }
+
+ public static BuildingBlock createNewBuildingBlock(final GlossaryDocument glossaryDoc, final String buildingBlockName) {
+     BuildingBlock buildingBlock = new BuildingBlock(glossaryDoc);
+     buildingBlock.setName(buildingBlockName);
+
+     return buildingBlock;
+ }
+
+ /// 
+ /// Gives each building block in a visited glossary document a unique GUID.
+ /// Stores the GUID-building block pairs in a dictionary.
+ /// 
+ public static class GlossaryDocVisitor extends DocumentVisitor {
+     public GlossaryDocVisitor() {
+         mBlocksByGuid = new HashMap<>();
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public HashMap getDictionary() {
+         return mBlocksByGuid;
+     }
+
+     public int visitGlossaryDocumentStart(final GlossaryDocument glossary) {
+         mBuilder.append("Glossary document found!\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGlossaryDocumentEnd(final GlossaryDocument glossary) {
+         mBuilder.append("Reached end of glossary!\n");
+         mBuilder.append("BuildingBlocks found: " + mBlocksByGuid.size() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockStart(final BuildingBlock block) {
+         block.setGuid(UUID.randomUUID());
+         mBlocksByGuid.put(block.getGuid(), block);
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockEnd(final BuildingBlock block) {
+         mBuilder.append("\tVisited block \"" + block.getName() + "\"" + "\r\n");
+         mBuilder.append("\t Type: " + block.getType() + "\r\n");
+         mBuilder.append("\t Gallery: " + block.getGallery() + "\r\n");
+         mBuilder.append("\t Behavior: " + block.getBehavior() + "\r\n");
+         mBuilder.append("\t Description: " + block.getDescription() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final HashMap mBlocksByGuid;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument) | Объект, который посещается. |
+| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitGlossaryDocumentStart(GlossaryDocument glossary) {#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitGlossaryDocumentStart(GlossaryDocument glossary) {#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument}
 ```
 public int visitGlossaryDocumentStart(GlossaryDocument glossary)
 ```
 
 
-Вызывается, когда начинается перечисление документа глоссария.
+Вызывается, когда началось перечисление документа глоссария.
 
- Примечание. Узел документа глоссария и его дочерние элементы не посещаются, когда вы выполняете посетителя над[Document](../../com.aspose.words/document) . Если вы хотите выполнить посетителя над документом глоссария, вам нужно вызвать[GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor-).
+ **Remarks:** 
 
-**Параметры:**
+Примечание: Узел глоссарного документа и его дочерние элементы не посещаются, когда вы выполняете Visitor над [Document](../../com.aspose.words/document/). Если вы хотите выполнить Visitor над глоссарным документом, вам нужно вызвать [GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument/\#accept-com.aspose.words.DocumentVisitor).
 
+ **Examples:** 
+
+Показывает способы доступа к строительным блокам в глоссарном документе.
+
+```
+
+ public void glossaryDocument() throws Exception {
+     Document doc = new Document();
+     GlossaryDocument glossaryDoc = new GlossaryDocument();
+
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 1"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 2"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 3"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 4"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 5"));
+
+     Assert.assertEquals(glossaryDoc.getBuildingBlocks().getCount(), 5);
+
+     doc.setGlossaryDocument(glossaryDoc);
+
+     // There are various ways of accessing building blocks.
+     // 1 -  Get the first/last building blocks in the collection:
+     Assert.assertEquals("Block 1", glossaryDoc.getFirstBuildingBlock().getName());
+     Assert.assertEquals("Block 5", glossaryDoc.getLastBuildingBlock().getName());
+
+     // 2 -  Get a building block by index:
+     Assert.assertEquals("Block 2", glossaryDoc.getBuildingBlocks().get(1).getName());
+     Assert.assertEquals("Block 3", glossaryDoc.getBuildingBlocks().toArray()[2].getName());
+
+     // 3 -  Get the first building block that matches a gallery, name and category:
+     Assert.assertEquals("Block 4",
+             glossaryDoc.getBuildingBlock(BuildingBlockGallery.ALL, "(Empty Category)", "Block 4").getName());
+
+     // We will do that using a custom visitor,
+     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
+     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     // Visit start/end of the Glossary document.
+     glossaryDoc.accept(visitor);
+     // Visit only start of the Glossary document.
+     glossaryDoc.acceptStart(visitor);
+     // Visit only end of the Glossary document.
+     glossaryDoc.acceptEnd(visitor);
+     System.out.println(visitor.getText());
+
+     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+     doc.save(getArtifactsDir() + "BuildingBlocks.GlossaryDocument.dotx");
+ }
+
+ public static BuildingBlock createNewBuildingBlock(final GlossaryDocument glossaryDoc, final String buildingBlockName) {
+     BuildingBlock buildingBlock = new BuildingBlock(glossaryDoc);
+     buildingBlock.setName(buildingBlockName);
+
+     return buildingBlock;
+ }
+
+ /// 
+ /// Gives each building block in a visited glossary document a unique GUID.
+ /// Stores the GUID-building block pairs in a dictionary.
+ /// 
+ public static class GlossaryDocVisitor extends DocumentVisitor {
+     public GlossaryDocVisitor() {
+         mBlocksByGuid = new HashMap<>();
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public HashMap getDictionary() {
+         return mBlocksByGuid;
+     }
+
+     public int visitGlossaryDocumentStart(final GlossaryDocument glossary) {
+         mBuilder.append("Glossary document found!\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGlossaryDocumentEnd(final GlossaryDocument glossary) {
+         mBuilder.append("Reached end of glossary!\n");
+         mBuilder.append("BuildingBlocks found: " + mBlocksByGuid.size() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockStart(final BuildingBlock block) {
+         block.setGuid(UUID.randomUUID());
+         mBlocksByGuid.put(block.getGuid(), block);
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockEnd(final BuildingBlock block) {
+         mBuilder.append("\tVisited block \"" + block.getName() + "\"" + "\r\n");
+         mBuilder.append("\t Type: " + block.getType() + "\r\n");
+         mBuilder.append("\t Gallery: " + block.getGallery() + "\r\n");
+         mBuilder.append("\t Behavior: " + block.getBehavior() + "\r\n");
+         mBuilder.append("\t Description: " + block.getDescription() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final HashMap mBlocksByGuid;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument) | Объект, который посещается. |
+| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitGroupShapeEnd(GroupShape groupShape) {#visitGroupShapeEnd-com.aspose.words.GroupShape-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitGroupShapeEnd(GroupShape groupShape) {#visitGroupShapeEnd-com.aspose.words.GroupShape}
 ```
 public int visitGroupShapeEnd(GroupShape groupShape)
 ```
 
 
-Вызывается, когда закончилось перечисление формы группы.
+Вызывается, когда перечисление групповой фигуры завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать группу фигур и вывести её содержимое с помощью посетителя документа.
+
+```
+
+ public void groupOfShapes() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+     // please use DocumentBuilder.InsertShape methods.
+     Shape balloon = new Shape(doc, ShapeType.BALLOON);
+     balloon.setWidth(200.0);
+     balloon.setHeight(200.0);
+     balloon.setStrokeColor(Color.RED);
+
+     Shape cube = new Shape(doc, ShapeType.CUBE);
+     cube.setWidth(100.0);
+     cube.setHeight(100.0);
+     cube.setStrokeColor(Color.BLUE);
+
+     GroupShape group = new GroupShape(doc);
+     group.appendChild(balloon);
+     group.appendChild(cube);
+
+     Assert.assertTrue(group.isGroup());
+     builder.insertNode(group);
+
+     ShapeInfoPrinter printer = new ShapeInfoPrinter();
+     group.accept(printer);
+
+     System.out.println(printer.getText());
+ }
+
+ /// 
+ /// Prints the contents of a visited shape group to the console.
+ /// 
+ public static class ShapeInfoPrinter extends DocumentVisitor {
+     public ShapeInfoPrinter() {
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public int visitGroupShapeStart(final GroupShape groupShape) {
+         mBuilder.append("Shape group started:\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGroupShapeEnd(final GroupShape groupShape) {
+         mBuilder.append("End of shape group\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeStart(final Shape shape) {
+         mBuilder.append("\tShape - " + shape.getShapeType() + ":\r\n");
+         mBuilder.append("\t\tWidth: " + shape.getWidth() + "\r\n");
+         mBuilder.append("\t\tHeight: " + shape.getHeight() + "\r\n");
+         mBuilder.append("\t\tStroke color: " + shape.getStroke().getColor() + "\r\n");
+         mBuilder.append("\t\tFill color: " + shape.getFill().getForeColor() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeEnd(final Shape shape) {
+         mBuilder.append("\tEnd of shape\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| groupShape | [GroupShape](../../com.aspose.words/groupshape) | Объект, который посещается. |
+| groupShape | [GroupShape](../../com.aspose.words/groupshape/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitGroupShapeStart(GroupShape groupShape) {#visitGroupShapeStart-com.aspose.words.GroupShape-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitGroupShapeStart(GroupShape groupShape) {#visitGroupShapeStart-com.aspose.words.GroupShape}
 ```
 public int visitGroupShapeStart(GroupShape groupShape)
 ```
 
 
-Вызывается, когда начинается перечисление формы группы.
+Вызывается, когда началось перечисление групповой фигуры.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать группу фигур и вывести её содержимое с помощью посетителя документа.
+
+```
+
+ public void groupOfShapes() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+     // please use DocumentBuilder.InsertShape methods.
+     Shape balloon = new Shape(doc, ShapeType.BALLOON);
+     balloon.setWidth(200.0);
+     balloon.setHeight(200.0);
+     balloon.setStrokeColor(Color.RED);
+
+     Shape cube = new Shape(doc, ShapeType.CUBE);
+     cube.setWidth(100.0);
+     cube.setHeight(100.0);
+     cube.setStrokeColor(Color.BLUE);
+
+     GroupShape group = new GroupShape(doc);
+     group.appendChild(balloon);
+     group.appendChild(cube);
+
+     Assert.assertTrue(group.isGroup());
+     builder.insertNode(group);
+
+     ShapeInfoPrinter printer = new ShapeInfoPrinter();
+     group.accept(printer);
+
+     System.out.println(printer.getText());
+ }
+
+ /// 
+ /// Prints the contents of a visited shape group to the console.
+ /// 
+ public static class ShapeInfoPrinter extends DocumentVisitor {
+     public ShapeInfoPrinter() {
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public int visitGroupShapeStart(final GroupShape groupShape) {
+         mBuilder.append("Shape group started:\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGroupShapeEnd(final GroupShape groupShape) {
+         mBuilder.append("End of shape group\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeStart(final Shape shape) {
+         mBuilder.append("\tShape - " + shape.getShapeType() + ":\r\n");
+         mBuilder.append("\t\tWidth: " + shape.getWidth() + "\r\n");
+         mBuilder.append("\t\tHeight: " + shape.getHeight() + "\r\n");
+         mBuilder.append("\t\tStroke color: " + shape.getStroke().getColor() + "\r\n");
+         mBuilder.append("\t\tFill color: " + shape.getFill().getForeColor() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeEnd(final Shape shape) {
+         mBuilder.append("\tEnd of shape\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| groupShape | [GroupShape](../../com.aspose.words/groupshape) | Объект, который посещается. |
+| groupShape | [GroupShape](../../com.aspose.words/groupshape/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitHeaderFooterEnd(HeaderFooter headerFooter) {#visitHeaderFooterEnd-com.aspose.words.HeaderFooter-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitHeaderFooterEnd(HeaderFooter headerFooter) {#visitHeaderFooterEnd-com.aspose.words.HeaderFooter}
 ```
 public int visitHeaderFooterEnd(HeaderFooter headerFooter)
 ```
 
 
-Вызывается, когда закончилось перечисление верхнего или нижнего колонтитула в разделе.
+Вызывается, когда перечисление заголовка или нижнего колонтитула в разделе завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого заголовка и нижнего колонтитула в документе.
+
+```
+
+ public void headerFooterToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+
+     // An alternative way of accessing a document's header/footers section-by-section is by accessing the collection.
+     HeaderFooter[] headerFooters = doc.getFirstSection().getHeadersFooters().toArray();
+     Assert.assertEquals(3, headerFooters.length);
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered HeaderFooter nodes and their children.
+ /// 
+ public static class HeaderFooterStructurePrinter extends DocumentVisitor {
+     public HeaderFooterStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideHeaderFooter = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideHeaderFooter) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a HeaderFooter node is encountered in the document.
+     /// 
+     public int visitHeaderFooterStart(final HeaderFooter headerFooter) {
+         indentAndAppendLine("[HeaderFooter start] HeaderFooterType: " + headerFooter.getHeaderFooterType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideHeaderFooter = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a HeaderFooter node have been visited.
+     /// 
+     public int visitHeaderFooterEnd(final HeaderFooter headerFooter) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[HeaderFooter end]");
+         mVisitorIsInsideHeaderFooter = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideHeaderFooter;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter) | Объект, который посещается. |
+| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitHeaderFooterStart(HeaderFooter headerFooter) {#visitHeaderFooterStart-com.aspose.words.HeaderFooter-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitHeaderFooterStart(HeaderFooter headerFooter) {#visitHeaderFooterStart-com.aspose.words.HeaderFooter}
 ```
 public int visitHeaderFooterStart(HeaderFooter headerFooter)
 ```
 
 
-Вызывается, когда начинается перечисление верхнего или нижнего колонтитула в разделе.
+Вызывается, когда началось перечисление заголовка или нижнего колонтитула в разделе.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого заголовка и нижнего колонтитула в документе.
+
+```
+
+ public void headerFooterToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+
+     // An alternative way of accessing a document's header/footers section-by-section is by accessing the collection.
+     HeaderFooter[] headerFooters = doc.getFirstSection().getHeadersFooters().toArray();
+     Assert.assertEquals(3, headerFooters.length);
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered HeaderFooter nodes and their children.
+ /// 
+ public static class HeaderFooterStructurePrinter extends DocumentVisitor {
+     public HeaderFooterStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideHeaderFooter = false;
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideHeaderFooter) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a HeaderFooter node is encountered in the document.
+     /// 
+     public int visitHeaderFooterStart(final HeaderFooter headerFooter) {
+         indentAndAppendLine("[HeaderFooter start] HeaderFooterType: " + headerFooter.getHeaderFooterType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideHeaderFooter = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a HeaderFooter node have been visited.
+     /// 
+     public int visitHeaderFooterEnd(final HeaderFooter headerFooter) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[HeaderFooter end]");
+         mVisitorIsInsideHeaderFooter = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideHeaderFooter;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter) | Объект, который посещается. |
+| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitOfficeMathEnd(OfficeMath officeMath) {#visitOfficeMathEnd-com.aspose.words.OfficeMath-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitOfficeMathEnd(OfficeMath officeMath) {#visitOfficeMathEnd-com.aspose.words.OfficeMath}
 ```
 public int visitOfficeMathEnd(OfficeMath officeMath)
 ```
 
 
-Вызывается после завершения перечисления объекта Office Math.
+Вызывается, когда перечисление объекта Office Math завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого узла Office Math в документе.
+
+```
+
+ public void officeMathToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered OfficeMath nodes and their children.
+ /// 
+ public static class OfficeMathStructurePrinter extends DocumentVisitor {
+     public OfficeMathStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideOfficeMath = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideOfficeMath) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when an OfficeMath node is encountered in the document.
+     /// 
+     public int visitOfficeMathStart(final OfficeMath officeMath) {
+         indentAndAppendLine("[OfficeMath start] Math object type: " + officeMath.getMathObjectType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideOfficeMath = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of an OfficeMath node have been visited.
+     /// 
+     public int visitOfficeMathEnd(final OfficeMath officeMath) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[OfficeMath end]");
+         mVisitorIsInsideOfficeMath = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideOfficeMath;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| officeMath | [OfficeMath](../../com.aspose.words/officemath) | Объект, который посещается. |
+| officeMath | [OfficeMath](../../com.aspose.words/officemath/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitOfficeMathStart(OfficeMath officeMath) {#visitOfficeMathStart-com.aspose.words.OfficeMath-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitOfficeMathStart(OfficeMath officeMath) {#visitOfficeMathStart-com.aspose.words.OfficeMath}
 ```
 public int visitOfficeMathStart(OfficeMath officeMath)
 ```
 
 
-Вызывается при запуске перечисления объекта Office Math.
+Вызывается, когда началось перечисление объекта Office Math.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждого узла Office Math в документе.
+
+```
+
+ public void officeMathToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered OfficeMath nodes and their children.
+ /// 
+ public static class OfficeMathStructurePrinter extends DocumentVisitor {
+     public OfficeMathStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideOfficeMath = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideOfficeMath) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when an OfficeMath node is encountered in the document.
+     /// 
+     public int visitOfficeMathStart(final OfficeMath officeMath) {
+         indentAndAppendLine("[OfficeMath start] Math object type: " + officeMath.getMathObjectType());
+         mDocTraversalDepth++;
+         mVisitorIsInsideOfficeMath = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of an OfficeMath node have been visited.
+     /// 
+     public int visitOfficeMathEnd(final OfficeMath officeMath) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[OfficeMath end]");
+         mVisitorIsInsideOfficeMath = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideOfficeMath;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| officeMath | [OfficeMath](../../com.aspose.words/officemath) | Объект, который посещается. |
+| officeMath | [OfficeMath](../../com.aspose.words/officemath/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitParagraphEnd(Paragraph paragraph) {#visitParagraphEnd-com.aspose.words.Paragraph-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitParagraphEnd(Paragraph paragraph) {#visitParagraphEnd-com.aspose.words.Paragraph}
 ```
 public int visitParagraphEnd(Paragraph paragraph)
 ```
 
 
-Вызывается, когда закончилось перечисление абзаца.
+Вызывается, когда перечисление абзаца завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| paragraph | [Paragraph](../../com.aspose.words/paragraph) | Объект, который посещается. |
+| paragraph | [Paragraph](../../com.aspose.words/paragraph/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitParagraphStart(Paragraph paragraph) {#visitParagraphStart-com.aspose.words.Paragraph-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitParagraphStart(Paragraph paragraph) {#visitParagraphStart-com.aspose.words.Paragraph}
 ```
 public int visitParagraphStart(Paragraph paragraph)
 ```
 
 
-Вызывается, когда начинается перечисление абзаца.
+Вызывается, когда началось перечисление абзаца.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| paragraph | [Paragraph](../../com.aspose.words/paragraph) | Объект, который посещается. |
+| paragraph | [Paragraph](../../com.aspose.words/paragraph/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitRowEnd(Row row) {#visitRowEnd-com.aspose.words.Row-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitRowEnd(Row row) {#visitRowEnd-com.aspose.words.Row}
 ```
 public int visitRowEnd(Row row)
 ```
 
 
-Вызывается, когда закончилось перечисление строки таблицы.
+Вызывается, когда перечисление строки таблицы завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой таблицы в документе.
+
+```
+
+ public void tableToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     TableStructurePrinter visitor = new TableStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Table nodes and their children.
+ /// 
+ public static class TableStructurePrinter extends DocumentVisitor {
+     public TableStructurePrinter() {
+         mVisitedTables = new StringBuilder();
+         mVisitorIsInsideTable = false;
+     }
+
+     public String getText() {
+         return mVisitedTables.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// Runs that are not within tables are not recorded.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideTable) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Table is encountered in the document.
+     /// 
+     public int visitTableStart(final Table table) {
+         int rows = 0;
+         int columns = 0;
+
+         if (table.getRows().getCount() > 0) {
+             rows = table.getRows().getCount();
+             columns = table.getFirstRow().getCount();
+         }
+
+         indentAndAppendLine("[Table start] Size: " + rows + "x" + columns);
+         mDocTraversalDepth++;
+         mVisitorIsInsideTable = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Table node have been visited.
+     /// 
+     public int visitTableEnd(final Table table) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Table end]");
+         mVisitorIsInsideTable = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Row node is encountered in the document.
+     /// 
+     public int visitRowStart(final Row row) {
+         String rowContents = row.getText().replaceAll("\\u0007", ", ").replaceAll(", , ", "");
+         int rowWidth = row.indexOf(row.getLastCell()) + 1;
+         int rowIndex = row.getParentTable().indexOf(row);
+         String rowStatusInTable = row.isFirstRow() && row.isLastRow() ? "only" : row.isFirstRow() ? "first" : row.isLastRow() ? "last" : "";
+         if (!"".equals(rowStatusInTable)) {
+             rowStatusInTable = MessageFormat.format(", the {0} row in this table,", rowStatusInTable);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Row start] Row #{0}{1} width {2}, \"{3}\"", ++rowIndex, rowStatusInTable, rowWidth, rowContents));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Row node have been visited.
+     /// 
+     public int visitRowEnd(final Row row) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Row end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Cell node is encountered in the document.
+     /// 
+     public int visitCellStart(final Cell cell) {
+         Row row = cell.getParentRow();
+         Table table = row.getParentTable();
+         String cellStatusInRow = cell.isFirstCell() && cell.isLastCell() ? "only" : cell.isFirstCell() ? "first" : cell.isLastCell() ? "last" : "";
+         if (!"".equals(cellStatusInRow)) {
+             cellStatusInRow = MessageFormat.format(", the {0} cell in this row", cellStatusInRow);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Cell start] Row {0}, Col {1}{2}", table.indexOf(row) + 1, row.indexOf(cell) + 1, cellStatusInRow));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Cell node have been visited.
+     /// 
+     public int visitCellEnd(final Cell cell) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Cell end]");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the current table's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mVisitedTables.append("|  ");
+         }
+
+         mVisitedTables.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideTable;
+     private int mDocTraversalDepth;
+     private final  StringBuilder mVisitedTables;
+ }
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | [Row](../../com.aspose.words/row) | Объект, который посещается. |
+| row | [Row](../../com.aspose.words/row/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitRowStart(Row row) {#visitRowStart-com.aspose.words.Row-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitRowStart(Row row) {#visitRowStart-com.aspose.words.Row}
 ```
 public int visitRowStart(Row row)
 ```
 
 
-Вызывается, когда начинается перечисление строки таблицы.
+Вызывается, когда началось перечисление строки таблицы.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой таблицы в документе.
+
+```
+
+ public void tableToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     TableStructurePrinter visitor = new TableStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Table nodes and their children.
+ /// 
+ public static class TableStructurePrinter extends DocumentVisitor {
+     public TableStructurePrinter() {
+         mVisitedTables = new StringBuilder();
+         mVisitorIsInsideTable = false;
+     }
+
+     public String getText() {
+         return mVisitedTables.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// Runs that are not within tables are not recorded.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideTable) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Table is encountered in the document.
+     /// 
+     public int visitTableStart(final Table table) {
+         int rows = 0;
+         int columns = 0;
+
+         if (table.getRows().getCount() > 0) {
+             rows = table.getRows().getCount();
+             columns = table.getFirstRow().getCount();
+         }
+
+         indentAndAppendLine("[Table start] Size: " + rows + "x" + columns);
+         mDocTraversalDepth++;
+         mVisitorIsInsideTable = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Table node have been visited.
+     /// 
+     public int visitTableEnd(final Table table) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Table end]");
+         mVisitorIsInsideTable = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Row node is encountered in the document.
+     /// 
+     public int visitRowStart(final Row row) {
+         String rowContents = row.getText().replaceAll("\\u0007", ", ").replaceAll(", , ", "");
+         int rowWidth = row.indexOf(row.getLastCell()) + 1;
+         int rowIndex = row.getParentTable().indexOf(row);
+         String rowStatusInTable = row.isFirstRow() && row.isLastRow() ? "only" : row.isFirstRow() ? "first" : row.isLastRow() ? "last" : "";
+         if (!"".equals(rowStatusInTable)) {
+             rowStatusInTable = MessageFormat.format(", the {0} row in this table,", rowStatusInTable);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Row start] Row #{0}{1} width {2}, \"{3}\"", ++rowIndex, rowStatusInTable, rowWidth, rowContents));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Row node have been visited.
+     /// 
+     public int visitRowEnd(final Row row) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Row end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Cell node is encountered in the document.
+     /// 
+     public int visitCellStart(final Cell cell) {
+         Row row = cell.getParentRow();
+         Table table = row.getParentTable();
+         String cellStatusInRow = cell.isFirstCell() && cell.isLastCell() ? "only" : cell.isFirstCell() ? "first" : cell.isLastCell() ? "last" : "";
+         if (!"".equals(cellStatusInRow)) {
+             cellStatusInRow = MessageFormat.format(", the {0} cell in this row", cellStatusInRow);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Cell start] Row {0}, Col {1}{2}", table.indexOf(row) + 1, row.indexOf(cell) + 1, cellStatusInRow));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Cell node have been visited.
+     /// 
+     public int visitCellEnd(final Cell cell) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Cell end]");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the current table's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mVisitedTables.append("|  ");
+         }
+
+         mVisitedTables.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideTable;
+     private int mDocTraversalDepth;
+     private final  StringBuilder mVisitedTables;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | [Row](../../com.aspose.words/row) | Объект, который посещается. |
+| row | [Row](../../com.aspose.words/row/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitRun(Run run) {#visitRun-com.aspose.words.Run-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitRun(Run run) {#visitRun-com.aspose.words.Run}
 ```
 public int visitRun(Run run)
 ```
 
 
-Вызывается при обнаружении фрагмента текста в .
+Вызывается, когда в документе обнаруживается фрагмент текста.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| run | [Run](../../com.aspose.words/run) | Объект, который посещается. |
+| run | [Run](../../com.aspose.words/run/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitSectionEnd(Section section) {#visitSectionEnd-com.aspose.words.Section-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitSectionEnd(Section section) {#visitSectionEnd-com.aspose.words.Section}
 ```
 public int visitSectionEnd(Section section)
 ```
 
 
-Вызывается, когда закончилось перечисление секции.
+Вызывается, когда перечисление раздела завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | [Section](../../com.aspose.words/section) | Объект, который посещается. |
+| section | [Section](../../com.aspose.words/section/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitSectionStart(Section section) {#visitSectionStart-com.aspose.words.Section-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitSectionStart(Section section) {#visitSectionStart-com.aspose.words.Section}
 ```
 public int visitSectionStart(Section section)
 ```
@@ -779,239 +6317,2217 @@ public int visitSectionStart(Section section)
 
 Вызывается, когда началось перечисление раздела.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | [Section](../../com.aspose.words/section) | Объект, который посещается. |
+| section | [Section](../../com.aspose.words/section/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitShapeEnd(Shape shape) {#visitShapeEnd-com.aspose.words.Shape-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitShapeEnd(Shape shape) {#visitShapeEnd-com.aspose.words.Shape}
 ```
 public int visitShapeEnd(Shape shape)
 ```
 
 
-Вызывается, когда перечисление формы закончилось.
+Вызывается, когда перечисление фигуры завершилось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать группу фигур и вывести её содержимое с помощью посетителя документа.
+
+```
+
+ public void groupOfShapes() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+     // please use DocumentBuilder.InsertShape methods.
+     Shape balloon = new Shape(doc, ShapeType.BALLOON);
+     balloon.setWidth(200.0);
+     balloon.setHeight(200.0);
+     balloon.setStrokeColor(Color.RED);
+
+     Shape cube = new Shape(doc, ShapeType.CUBE);
+     cube.setWidth(100.0);
+     cube.setHeight(100.0);
+     cube.setStrokeColor(Color.BLUE);
+
+     GroupShape group = new GroupShape(doc);
+     group.appendChild(balloon);
+     group.appendChild(cube);
+
+     Assert.assertTrue(group.isGroup());
+     builder.insertNode(group);
+
+     ShapeInfoPrinter printer = new ShapeInfoPrinter();
+     group.accept(printer);
+
+     System.out.println(printer.getText());
+ }
+
+ /// 
+ /// Prints the contents of a visited shape group to the console.
+ /// 
+ public static class ShapeInfoPrinter extends DocumentVisitor {
+     public ShapeInfoPrinter() {
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public int visitGroupShapeStart(final GroupShape groupShape) {
+         mBuilder.append("Shape group started:\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGroupShapeEnd(final GroupShape groupShape) {
+         mBuilder.append("End of shape group\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeStart(final Shape shape) {
+         mBuilder.append("\tShape - " + shape.getShapeType() + ":\r\n");
+         mBuilder.append("\t\tWidth: " + shape.getWidth() + "\r\n");
+         mBuilder.append("\t\tHeight: " + shape.getHeight() + "\r\n");
+         mBuilder.append("\t\tStroke color: " + shape.getStroke().getColor() + "\r\n");
+         mBuilder.append("\t\tFill color: " + shape.getFill().getForeColor() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeEnd(final Shape shape) {
+         mBuilder.append("\tEnd of shape\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | [Shape](../../com.aspose.words/shape) | Объект, который посещается. |
+| shape | [Shape](../../com.aspose.words/shape/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitShapeStart(Shape shape) {#visitShapeStart-com.aspose.words.Shape-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitShapeStart(Shape shape) {#visitShapeStart-com.aspose.words.Shape}
 ```
 public int visitShapeStart(Shape shape)
 ```
 
 
-Вызывается, когда начинается перечисление фигуры.
+Вызывается, когда началось перечисление фигуры.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать группу фигур и вывести её содержимое с помощью посетителя документа.
+
+```
+
+ public void groupOfShapes() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+     // please use DocumentBuilder.InsertShape methods.
+     Shape balloon = new Shape(doc, ShapeType.BALLOON);
+     balloon.setWidth(200.0);
+     balloon.setHeight(200.0);
+     balloon.setStrokeColor(Color.RED);
+
+     Shape cube = new Shape(doc, ShapeType.CUBE);
+     cube.setWidth(100.0);
+     cube.setHeight(100.0);
+     cube.setStrokeColor(Color.BLUE);
+
+     GroupShape group = new GroupShape(doc);
+     group.appendChild(balloon);
+     group.appendChild(cube);
+
+     Assert.assertTrue(group.isGroup());
+     builder.insertNode(group);
+
+     ShapeInfoPrinter printer = new ShapeInfoPrinter();
+     group.accept(printer);
+
+     System.out.println(printer.getText());
+ }
+
+ /// 
+ /// Prints the contents of a visited shape group to the console.
+ /// 
+ public static class ShapeInfoPrinter extends DocumentVisitor {
+     public ShapeInfoPrinter() {
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public int visitGroupShapeStart(final GroupShape groupShape) {
+         mBuilder.append("Shape group started:\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGroupShapeEnd(final GroupShape groupShape) {
+         mBuilder.append("End of shape group\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeStart(final Shape shape) {
+         mBuilder.append("\tShape - " + shape.getShapeType() + ":\r\n");
+         mBuilder.append("\t\tWidth: " + shape.getWidth() + "\r\n");
+         mBuilder.append("\t\tHeight: " + shape.getHeight() + "\r\n");
+         mBuilder.append("\t\tStroke color: " + shape.getStroke().getColor() + "\r\n");
+         mBuilder.append("\t\tFill color: " + shape.getFill().getForeColor() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeEnd(final Shape shape) {
+         mBuilder.append("\tEnd of shape\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | [Shape](../../com.aspose.words/shape) | Объект, который посещается. |
+| shape | [Shape](../../com.aspose.words/shape/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitSmartTagEnd(SmartTag smartTag) {#visitSmartTagEnd-com.aspose.words.SmartTag-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitSmartTagEnd(SmartTag smartTag) {#visitSmartTagEnd-com.aspose.words.SmartTag}
 ```
 public int visitSmartTagEnd(SmartTag smartTag)
 ```
 
 
-Вызывается, когда закончилось перечисление смарт-тега.
+Вызывается, когда перечисление смарт-тега завершено.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой смарт‑метки в документе.
+
+```
+
+ public void smartTagToText() throws Exception {
+     Document doc = new Document(getMyDir() + "Smart tags.doc");
+     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered SmartTag nodes and their children.
+ /// 
+ public static class SmartTagStructurePrinter extends DocumentVisitor {
+     public SmartTagStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideSmartTag = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideSmartTag) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SmartTag node is encountered in the document.
+     /// 
+     public int visitSmartTagStart(final SmartTag smartTag) {
+         indentAndAppendLine("[SmartTag start] Name: " + smartTag.getElement());
+         mDocTraversalDepth++;
+         mVisitorIsInsideSmartTag = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a SmartTag node have been visited.
+     /// 
+     public int visitSmartTagEnd(final SmartTag smartTag) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[SmartTag end]");
+         mVisitorIsInsideSmartTag = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideSmartTag;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| smartTag | [SmartTag](../../com.aspose.words/smarttag) | Объект, который посещается. |
+| smartTag | [SmartTag](../../com.aspose.words/smarttag/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitSmartTagStart(SmartTag smartTag) {#visitSmartTagStart-com.aspose.words.SmartTag-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitSmartTagStart(SmartTag smartTag) {#visitSmartTagStart-com.aspose.words.SmartTag}
 ```
 public int visitSmartTagStart(SmartTag smartTag)
 ```
 
 
-Вызывается, когда начинается перечисление смарт-тега.
+Вызывается, когда перечисление смарт-тега началось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой смарт‑метки в документе.
+
+```
+
+ public void smartTagToText() throws Exception {
+     Document doc = new Document(getMyDir() + "Smart tags.doc");
+     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered SmartTag nodes and their children.
+ /// 
+ public static class SmartTagStructurePrinter extends DocumentVisitor {
+     public SmartTagStructurePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideSmartTag = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideSmartTag) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SmartTag node is encountered in the document.
+     /// 
+     public int visitSmartTagStart(final SmartTag smartTag) {
+         indentAndAppendLine("[SmartTag start] Name: " + smartTag.getElement());
+         mDocTraversalDepth++;
+         mVisitorIsInsideSmartTag = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a SmartTag node have been visited.
+     /// 
+     public int visitSmartTagEnd(final SmartTag smartTag) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[SmartTag end]");
+         mVisitorIsInsideSmartTag = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideSmartTag;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| smartTag | [SmartTag](../../com.aspose.words/smarttag) | Объект, который посещается. |
+| smartTag | [SmartTag](../../com.aspose.words/smarttag/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitSpecialChar(SpecialChar specialChar) {#visitSpecialChar-com.aspose.words.SpecialChar-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitSpecialChar(SpecialChar specialChar) {#visitSpecialChar-com.aspose.words.SpecialChar}
 ```
 public int visitSpecialChar(SpecialChar specialChar)
 ```
 
 
- Вызывается, когда[SpecialChar](../../com.aspose.words/specialchar) узел встречается в документе.
+Вызывается, когда в документе встречается узел [SpecialChar](../../com.aspose.words/specialchar/).
 
-**Параметры:**
+ **Remarks:** 
 
+Этот метод не должен вызываться для общих управляющих символов (см. [ControlChar](../../com.aspose.words/controlchar/)), которые могут присутствовать в документе.
+
+ **Examples:** 
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| specialChar | [SpecialChar](../../com.aspose.words/specialchar) | Объект, который посещается. |
+| specialChar | [SpecialChar](../../com.aspose.words/specialchar/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы. Этот метод не вызывается для общих управляющих символов (см.[ControlChar](../../com.aspose.words/controlchar)), которые могут присутствовать в документе.
-### visitStructuredDocumentTagEnd(StructuredDocumentTag sdt) {#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitStructuredDocumentTagEnd(StructuredDocumentTag sdt) {#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag}
 ```
 public int visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
 ```
 
 
-Вызывается, когда закончилось перечисление тега структурированного документа.
+Вызывается, когда перечисление структурированного тега документа завершено.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой структурированной метки документа в документе.
+
+```
+
+ public void structuredDocumentTagToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered StructuredDocumentTag nodes and their children.
+ /// 
+ public static class StructuredDocumentTagNodePrinter extends DocumentVisitor {
+     public StructuredDocumentTagNodePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideStructuredDocumentTag = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideStructuredDocumentTag) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a StructuredDocumentTag node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagStart(final StructuredDocumentTag sdt) {
+         indentAndAppendLine("[StructuredDocumentTag start] Title: " + sdt.getTitle());
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a StructuredDocumentTag node have been visited.
+     /// 
+     public int visitStructuredDocumentTagEnd(final StructuredDocumentTag sdt) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[StructuredDocumentTag end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private final boolean mVisitorIsInsideStructuredDocumentTag;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | Объект, который посещается. |
+| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd) {#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd) {#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd}
 ```
 public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
 ```
 
 
+Вызывается, когда встречается StructuredDocumentTagRangeEnd.
 
+ **Examples:** 
 
-**Параметры:**
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
 
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sdtRangeEnd | [StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend) |  |
+| sdtRangeEnd | [StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend/) |  |
 
-**Возвращает:**
-инт
-### visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart) {#visitStructuredDocumentTagRangeStart-com.aspose.words.StructuredDocumentTagRangeStart-}
+**Returns:**
+int
+### visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart) {#visitStructuredDocumentTagRangeStart-com.aspose.words.StructuredDocumentTagRangeStart}
 ```
 public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
 ```
 
 
+Вызывается, когда встречается StructuredDocumentTagRangeStart.
 
+ **Examples:** 
 
-**Параметры:**
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
 
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sdtRangeStart | [StructuredDocumentTagRangeStart](../../com.aspose.words/structureddocumenttagrangestart) |  |
+| sdtRangeStart | [StructuredDocumentTagRangeStart](../../com.aspose.words/structureddocumenttagrangestart/) |  |
 
-**Возвращает:**
-инт
-### visitStructuredDocumentTagStart(StructuredDocumentTag sdt) {#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag-}
+**Returns:**
+int
+### visitStructuredDocumentTagStart(StructuredDocumentTag sdt) {#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag}
 ```
 public int visitStructuredDocumentTagStart(StructuredDocumentTag sdt)
 ```
 
 
-Вызывается, когда начинается перечисление тега структурированного документа.
+Вызывается, когда перечисление структурированного тега документа началось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой структурированной метки документа в документе.
+
+```
+
+ public void structuredDocumentTagToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered StructuredDocumentTag nodes and their children.
+ /// 
+ public static class StructuredDocumentTagNodePrinter extends DocumentVisitor {
+     public StructuredDocumentTagNodePrinter() {
+         mBuilder = new StringBuilder();
+         mVisitorIsInsideStructuredDocumentTag = false;
+     }
+
+     /// 
+     /// Gets the plain text of the document that was accumulated by the visitor.
+     /// 
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         if (mVisitorIsInsideStructuredDocumentTag) {
+             indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a StructuredDocumentTag node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagStart(final StructuredDocumentTag sdt) {
+         indentAndAppendLine("[StructuredDocumentTag start] Title: " + sdt.getTitle());
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a StructuredDocumentTag node have been visited.
+     /// 
+     public int visitStructuredDocumentTagEnd(final StructuredDocumentTag sdt) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[StructuredDocumentTag end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mBuilder.append("|  ");
+         }
+
+         mBuilder.append(text + "\r\n");
+     }
+
+     private final boolean mVisitorIsInsideStructuredDocumentTag;
+     private int mDocTraversalDepth;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | Объект, который посещается. |
+| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitSubDocument(SubDocument subDocument) {#visitSubDocument-com.aspose.words.SubDocument-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitSubDocument(SubDocument subDocument) {#visitSubDocument-com.aspose.words.SubDocument}
 ```
 public int visitSubDocument(SubDocument subDocument)
 ```
 
 
-Вызывается при обнаружении вложенного документа.
+Вызывается, когда встречается поддокумент.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать посетителя документа для вывода структуры узлов документа.
+
+```
+
+ public void docStructureToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     DocStructurePrinter visitor = new DocStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's tree of child nodes.
+ /// Creates a map of this tree in the form of a string.
+ /// 
+ public static class DocStructurePrinter extends DocumentVisitor {
+     public DocStructurePrinter() {
+         mAcceptingNodeChildTree = new StringBuilder();
+     }
+
+     public String getText() {
+         return mAcceptingNodeChildTree.toString();
+     }
+
+     /// 
+     /// Called when a Document node is encountered.
+     /// 
+     public int visitDocumentStart(Document doc) {
+         int childNodeCount = doc.getChildNodes(NodeType.ANY, true).getCount();
+
+         indentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+         mDocTraversalDepth++;
+
+         // Allow the visitor to continue visiting other nodes.
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Document node have been visited.
+     /// 
+     public int visitDocumentEnd(Document doc) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Document end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Section node is encountered in the document.
+     /// 
+     public int visitSectionStart(final Section section) {
+         // Get the index of our section within the document
+         NodeCollection docSections = section.getDocument().getChildNodes(NodeType.SECTION, false);
+         int sectionIndex = docSections.indexOf(section);
+
+         indentAndAppendLine("[Section start] Section index: " + sectionIndex);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Section node have been visited.
+     /// 
+     public int visitSectionEnd(final Section section) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Section end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Body node is encountered in the document.
+     /// 
+     public int visitBodyStart(final Body body) {
+         int paragraphCount = body.getParagraphs().getCount();
+         indentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Body node have been visited.
+     /// 
+     public int visitBodyEnd(final Body body) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Body end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(final Paragraph paragraph) {
+         indentAndAppendLine("[Paragraph start]");
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Paragraph node have been visited.
+     /// 
+     public int visitParagraphEnd(final Paragraph paragraph) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Paragraph end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(final Run run) {
+         indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitSubDocument(final SubDocument subDocument) {
+         indentAndAppendLine("[SubDocument]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+     {
+         indentAndAppendLine("[SdtRangeStart]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SubDocument node is encountered in the document.
+     /// 
+     public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+     {
+         indentAndAppendLine("[SdtRangeEnd]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder and indent it depending on how deep the visitor is into the document tree.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mAcceptingNodeChildTree.append("|  ");
+         }
+
+         mAcceptingNodeChildTree.append(text + "\r\n");
+     }
+
+     private int mDocTraversalDepth;
+     private final StringBuilder mAcceptingNodeChildTree;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| subDocument | [SubDocument](../../com.aspose.words/subdocument) | Объект, который посещается. |
+| subDocument | [SubDocument](../../com.aspose.words/subdocument/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitTableEnd(Table table) {#visitTableEnd-com.aspose.words.Table-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitTableEnd(Table table) {#visitTableEnd-com.aspose.words.Table}
 ```
 public int visitTableEnd(Table table)
 ```
 
 
-Вызывается, когда закончилось перечисление таблицы.
+Вызывается, когда перечисление таблицы завершено.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой таблицы в документе.
+
+```
+
+ public void tableToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     TableStructurePrinter visitor = new TableStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Table nodes and their children.
+ /// 
+ public static class TableStructurePrinter extends DocumentVisitor {
+     public TableStructurePrinter() {
+         mVisitedTables = new StringBuilder();
+         mVisitorIsInsideTable = false;
+     }
+
+     public String getText() {
+         return mVisitedTables.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// Runs that are not within tables are not recorded.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideTable) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Table is encountered in the document.
+     /// 
+     public int visitTableStart(final Table table) {
+         int rows = 0;
+         int columns = 0;
+
+         if (table.getRows().getCount() > 0) {
+             rows = table.getRows().getCount();
+             columns = table.getFirstRow().getCount();
+         }
+
+         indentAndAppendLine("[Table start] Size: " + rows + "x" + columns);
+         mDocTraversalDepth++;
+         mVisitorIsInsideTable = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Table node have been visited.
+     /// 
+     public int visitTableEnd(final Table table) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Table end]");
+         mVisitorIsInsideTable = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Row node is encountered in the document.
+     /// 
+     public int visitRowStart(final Row row) {
+         String rowContents = row.getText().replaceAll("\\u0007", ", ").replaceAll(", , ", "");
+         int rowWidth = row.indexOf(row.getLastCell()) + 1;
+         int rowIndex = row.getParentTable().indexOf(row);
+         String rowStatusInTable = row.isFirstRow() && row.isLastRow() ? "only" : row.isFirstRow() ? "first" : row.isLastRow() ? "last" : "";
+         if (!"".equals(rowStatusInTable)) {
+             rowStatusInTable = MessageFormat.format(", the {0} row in this table,", rowStatusInTable);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Row start] Row #{0}{1} width {2}, \"{3}\"", ++rowIndex, rowStatusInTable, rowWidth, rowContents));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Row node have been visited.
+     /// 
+     public int visitRowEnd(final Row row) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Row end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Cell node is encountered in the document.
+     /// 
+     public int visitCellStart(final Cell cell) {
+         Row row = cell.getParentRow();
+         Table table = row.getParentTable();
+         String cellStatusInRow = cell.isFirstCell() && cell.isLastCell() ? "only" : cell.isFirstCell() ? "first" : cell.isLastCell() ? "last" : "";
+         if (!"".equals(cellStatusInRow)) {
+             cellStatusInRow = MessageFormat.format(", the {0} cell in this row", cellStatusInRow);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Cell start] Row {0}, Col {1}{2}", table.indexOf(row) + 1, row.indexOf(cell) + 1, cellStatusInRow));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Cell node have been visited.
+     /// 
+     public int visitCellEnd(final Cell cell) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Cell end]");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the current table's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mVisitedTables.append("|  ");
+         }
+
+         mVisitedTables.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideTable;
+     private int mDocTraversalDepth;
+     private final  StringBuilder mVisitedTables;
+ }
+ 
+```
+
+Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | [Table](../../com.aspose.words/table) | Объект, который посещается. |
+| table | [Table](../../com.aspose.words/table/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### visitTableStart(Table table) {#visitTableStart-com.aspose.words.Table-}
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).
+### visitTableStart(Table table) {#visitTableStart-com.aspose.words.Table}
 ```
 public int visitTableStart(Table table)
 ```
 
 
-Вызывается, когда начинается перечисление таблицы.
+Вызывается, когда перечисление таблицы началось.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести структуру узлов каждой таблицы в документе.
+
+```
+
+ public void tableToText() throws Exception {
+     Document doc = new Document(getMyDir() + "DocumentVisitor-compatible features.docx");
+     TableStructurePrinter visitor = new TableStructurePrinter();
+
+     // When we get a composite node to accept a document visitor, the visitor visits the accepting node,
+     // and then traverses all the node's children in a depth-first manner.
+     // The visitor can read and modify each visited node.
+     doc.accept(visitor);
+
+     System.out.println(visitor.getText());
+ }
+
+ /// 
+ /// Traverses a node's non-binary tree of child nodes.
+ /// Creates a map in the form of a string of all encountered Table nodes and their children.
+ /// 
+ public static class TableStructurePrinter extends DocumentVisitor {
+     public TableStructurePrinter() {
+         mVisitedTables = new StringBuilder();
+         mVisitorIsInsideTable = false;
+     }
+
+     public String getText() {
+         return mVisitedTables.toString();
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// Runs that are not within tables are not recorded.
+     /// 
+     public int visitRun(Run run) {
+         if (mVisitorIsInsideTable) indentAndAppendLine("[Run] \"" + run.getText() + "\"");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Table is encountered in the document.
+     /// 
+     public int visitTableStart(final Table table) {
+         int rows = 0;
+         int columns = 0;
+
+         if (table.getRows().getCount() > 0) {
+             rows = table.getRows().getCount();
+             columns = table.getFirstRow().getCount();
+         }
+
+         indentAndAppendLine("[Table start] Size: " + rows + "x" + columns);
+         mDocTraversalDepth++;
+         mVisitorIsInsideTable = true;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Table node have been visited.
+     /// 
+     public int visitTableEnd(final Table table) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Table end]");
+         mVisitorIsInsideTable = false;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Row node is encountered in the document.
+     /// 
+     public int visitRowStart(final Row row) {
+         String rowContents = row.getText().replaceAll("\\u0007", ", ").replaceAll(", , ", "");
+         int rowWidth = row.indexOf(row.getLastCell()) + 1;
+         int rowIndex = row.getParentTable().indexOf(row);
+         String rowStatusInTable = row.isFirstRow() && row.isLastRow() ? "only" : row.isFirstRow() ? "first" : row.isLastRow() ? "last" : "";
+         if (!"".equals(rowStatusInTable)) {
+             rowStatusInTable = MessageFormat.format(", the {0} row in this table,", rowStatusInTable);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Row start] Row #{0}{1} width {2}, \"{3}\"", ++rowIndex, rowStatusInTable, rowWidth, rowContents));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Row node have been visited.
+     /// 
+     public int visitRowEnd(final Row row) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Row end]");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Cell node is encountered in the document.
+     /// 
+     public int visitCellStart(final Cell cell) {
+         Row row = cell.getParentRow();
+         Table table = row.getParentTable();
+         String cellStatusInRow = cell.isFirstCell() && cell.isLastCell() ? "only" : cell.isFirstCell() ? "first" : cell.isLastCell() ? "last" : "";
+         if (!"".equals(cellStatusInRow)) {
+             cellStatusInRow = MessageFormat.format(", the {0} cell in this row", cellStatusInRow);
+         }
+
+         indentAndAppendLine(MessageFormat.format("[Cell start] Row {0}, Col {1}{2}", table.indexOf(row) + 1, row.indexOf(cell) + 1, cellStatusInRow));
+         mDocTraversalDepth++;
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called after all the child nodes of a Cell node have been visited.
+     /// 
+     public int visitCellEnd(final Cell cell) {
+         mDocTraversalDepth--;
+         indentAndAppendLine("[Cell end]");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Append a line to the StringBuilder, and indent it depending on how deep the visitor is
+     /// into the current table's tree of child nodes.
+     /// 
+     /// 
+     private void indentAndAppendLine(final String text) {
+         for (int i = 0; i < mDocTraversalDepth; i++) {
+             mVisitedTables.append("|  ");
+         }
+
+         mVisitedTables.append(text + "\r\n");
+     }
+
+     private boolean mVisitorIsInsideTable;
+     private int mDocTraversalDepth;
+     private final  StringBuilder mVisitedTables;
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | [Table](../../com.aspose.words/table) | Объект, который посещается. |
+| table | [Table](../../com.aspose.words/table/) | Объект, который посещается. |
 
-**Возвращает:**
- интервал - А[VisitorAction](../../com.aspose.words/visitoraction) значение, указывающее, как продолжить перечисление. Возвращаемое значение является одним из[VisitorAction](../../com.aspose.words/visitoraction) константы.
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+int — значение [VisitorAction](../../com.aspose.words/visitoraction/), которое указывает, как продолжить перечисление. Возвращаемое значение является одной из констант [VisitorAction](../../com.aspose.words/visitoraction/).

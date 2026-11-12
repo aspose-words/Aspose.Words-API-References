@@ -1,13 +1,14 @@
 ---
-title: ImageWatermarkOptions
-second_title: Справочник по API Aspose.Words для Java
-description: Содержит параметры, которые можно указать при добавлении водяного знака с изображением.
+title: "ImageWatermarkOptions"
+linktitle: "ImageWatermarkOptions"
+second_title: "Aspose.Words для Java"
+description: "Содержит параметры, которые можно указать при добавлении водяного знака с изображением в Java."
 type: docs
-weight: 344
+weight: 398
 url: /ru/java/com.aspose.words/imagewatermarkoptions/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ImageWatermarkOptions
@@ -15,175 +16,136 @@ public class ImageWatermarkOptions
 
 Содержит параметры, которые можно указать при добавлении водяного знака с изображением.
 
- Чтобы узнать больше, посетите**Working with Watermark** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Watermark ][Working with Watermark].
+
+ **Examples:** 
+
+Показывает, как создать водяной знак из изображения в локальной файловой системе.
+
+```
+
+ Document doc = new Document();
+
+ // Modify the image watermark's appearance with an ImageWatermarkOptions object,
+ // then pass it while creating a watermark from an image file.
+ ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+ imageWatermarkOptions.setScale(5.0);
+ imageWatermarkOptions.isWashout(false);
+
+ // We have a different options to insert image:
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")));
+
+ doc.getWatermark().setImage(getImageDir() + "Logo.jpg", imageWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
+ 
+```
+
+
+[Working with Watermark]: https://docs.aspose.com/words/java/working-with-watermark/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getScale()](#getScale--) | Получает коэффициент масштабирования, выраженный в виде доли изображения. |
-| [hashCode()](#hashCode--) |  |
-| [isWashout()](#isWashout--) | Получает логическое значение, отвечающее за эффект размытия водяного знака. |
-| [isWashout(boolean value)](#isWashout-boolean-) | Устанавливает логическое значение, отвечающее за эффект размытия водяного знака. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setScale(double value)](#setScale-double-) | Задает коэффициент масштабирования, выраженный в виде доли изображения. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getScale() {#getScale--}
+| [getScale()](#getScale) | Получает коэффициент масштабирования, выраженный в виде доли изображения. |
+| [isWashout()](#isWashout) | Получает булево значение, отвечающее за эффект выцветания водяного знака. |
+| [isWashout(boolean value)](#isWashout-boolean) | Устанавливает булево значение, отвечающее за эффект выцветания водяного знака. |
+| [setScale(double value)](#setScale-double) | Устанавливает коэффициент масштабирования, выраженный в виде доли изображения. |
+### getScale() {#getScale}
 ```
 public double getScale()
 ```
 
 
-Получает коэффициент масштабирования, выраженный в виде доли изображения. Значение по умолчанию: 0 — автоматически.
+Получает коэффициент масштабирования, выраженный в виде доли изображения. Значение по умолчанию — 0 — авто.
 
-Допустимые значения находятся в диапазоне от 0 до 65,5 включительно.
-
-Автоматическое масштабирование означает, что водяной знак будет масштабироваться до максимальной ширины и максимальной высоты относительно полей страницы.
-
-**Возвращает:**
-double - Масштабный коэффициент, выраженный в виде доли изображения.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### isWashout() {#isWashout--}
+**Returns:**
+double - Коэффициент масштабирования, выраженный в виде доли изображения.
+### isWashout() {#isWashout}
 ```
 public boolean isWashout()
 ```
 
 
-Получает логическое значение, отвечающее за эффект размытия водяного знака. Значение по умолчанию верно.
+Получает булево значение, отвечающее за эффект выцветания водяного знака. Значение по умолчанию — true.
 
-**Возвращает:**
-boolean — логическое значение, отвечающее за размытие водяного знака.
-### isWashout(boolean value) {#isWashout-boolean-}
+ **Examples:** 
+
+Показывает, как создать водяной знак из изображения в локальной файловой системе.
+
+```
+
+ Document doc = new Document();
+
+ // Modify the image watermark's appearance with an ImageWatermarkOptions object,
+ // then pass it while creating a watermark from an image file.
+ ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+ imageWatermarkOptions.setScale(5.0);
+ imageWatermarkOptions.isWashout(false);
+
+ // We have a different options to insert image:
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")));
+
+ doc.getWatermark().setImage(getImageDir() + "Logo.jpg", imageWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
+ 
+```
+
+**Returns:**
+boolean - Булево значение, отвечающее за эффект выцветания водяного знака.
+### isWashout(boolean value) {#isWashout-boolean}
 ```
 public void isWashout(boolean value)
 ```
 
 
-Устанавливает логическое значение, отвечающее за эффект размытия водяного знака. Значение по умолчанию верно.
+Устанавливает булево значение, отвечающее за эффект выцветания водяного знака. Значение по умолчанию — true.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как создать водяной знак из изображения в локальной файловой системе.
+
+```
+
+ Document doc = new Document();
+
+ // Modify the image watermark's appearance with an ImageWatermarkOptions object,
+ // then pass it while creating a watermark from an image file.
+ ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+ imageWatermarkOptions.setScale(5.0);
+ imageWatermarkOptions.isWashout(false);
+
+ // We have a different options to insert image:
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")));
+
+ doc.getWatermark().setImage(getImageDir() + "Logo.jpg", imageWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Логическое значение, отвечающее за размытие водяного знака. |
+| значение | boolean | Булево значение, отвечающее за эффект выцветания водяного знака. |
 
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setScale(double value) {#setScale-double-}
+### setScale(double value) {#setScale-double}
 ```
 public void setScale(double value)
 ```
 
 
-Задает коэффициент масштабирования, выраженный в виде доли изображения. Значение по умолчанию: 0 — автоматически.
+Устанавливает коэффициент масштабирования, выраженный в виде доли изображения. Значение по умолчанию — 0 — авто.
 
-Допустимые значения находятся в диапазоне от 0 до 65,5 включительно.
-
-Автоматическое масштабирование означает, что водяной знак будет масштабироваться до максимальной ширины и максимальной высоты относительно полей страницы.
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | double | Масштабный коэффициент, выраженный в виде доли изображения. |
+| значение | double | Коэффициент масштабирования, выраженный в виде доли изображения. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

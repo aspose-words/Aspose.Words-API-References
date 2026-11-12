@@ -1,13 +1,14 @@
 ---
-title: License
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет методы для лицензирования компонента.
+title: "Лицензия"
+linktitle: "Лицензия"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет методы для лицензирования компонента в Java."
 type: docs
-weight: 364
+weight: 421
 url: /ru/java/com.aspose.words/license/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class License
@@ -15,28 +16,45 @@ public class License
 
 Предоставляет методы для лицензирования компонента.
 
- Чтобы узнать больше, посетите**Licensing and Subscription** документальная статья.
+Чтобы узнать больше, посетите [ Licensing and Subscription ][Licensing and Subscription] статью документации.
+
+ **Examples:** 
+
+Показывает, как инициализировать лицензию для Aspose.Words, используя файл лицензии в локальной файловой системе.
+
+```
+
+ // Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
+ Path licenseFileName = Paths.get(getLicenseDir(), "Aspose.Words.Java.lic");
+
+ License license = new License();
+ license.setLicense(licenseFileName.toString());
+
+ // Create a copy of our license file in the binaries folder of our application.
+ Path licenseCopyFileName = Paths.get(System.getProperty("user.dir"), "Aspose.Words.Java.lic");
+ FileUtils.copyFile(new File(licenseFileName.toString()), new File(licenseCopyFileName.toString()));
+
+ // If we pass a file's name without a path,
+ // the SetLicense will search several local file system locations for this file.
+ // One of those locations will be the "bin" folder, which contains a copy of our license file.
+ license.setLicense("Aspose.Words.Java.lic");
+ 
+```
+
+
+[Licensing and Subscription]: https://docs.aspose.com/words/java/licensing/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [License()](#License--) | Инициализирует новый экземпляр этого класса. |
+| [License()](#License) | Инициализирует новый экземпляр этого класса. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) |  |
-| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Лицензирует компонент. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### License() {#License--}
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream) |  |
+| [setLicense(String licenseName)](#setLicense-java.lang.String) | Лицензирует компонент. |
+### License() {#License}
 ```
 public License()
 ```
@@ -44,59 +62,30 @@ public License()
 
 Инициализирует новый экземпляр этого класса.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
+ **Examples:** 
 
+Показывает, как инициализировать лицензию для Aspose.Words, используя файл лицензии в локальной файловой системе.
 
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
 ```
 
+ // Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
+ Path licenseFileName = Paths.get(getLicenseDir(), "Aspose.Words.Java.lic");
 
+ License license = new License();
+ license.setLicense(licenseFileName.toString());
 
+ // Create a copy of our license file in the binaries folder of our application.
+ Path licenseCopyFileName = Paths.get(System.getProperty("user.dir"), "Aspose.Words.Java.lic");
+ FileUtils.copyFile(new File(licenseFileName.toString()), new File(licenseCopyFileName.toString()));
 
-**Возвращает:**
-java.lang.Класс<?>
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
+ // If we pass a file's name without a path,
+ // the SetLicense will search several local file system locations for this file.
+ // One of those locations will be the "bin" folder, which contains a copy of our license file.
+ license.setLicense("Aspose.Words.Java.lic");
+ 
 ```
 
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
+### setLicense(InputStream stream) {#setLicense-java.io.InputStream}
 ```
 public void setLicense(InputStream stream)
 ```
@@ -104,13 +93,12 @@ public void setLicense(InputStream stream)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
-### setLicense(String licenseName) {#setLicense-java.lang.String-}
+### setLicense(String licenseName) {#setLicense-java.lang.String}
 ```
 public void setLicense(String licenseName)
 ```
@@ -118,63 +106,41 @@ public void setLicense(String licenseName)
 
 Лицензирует компонент.
 
+ **Remarks:** 
+
 Пытается найти лицензию в следующих местах:
 
 1. Явный путь.
 
-2. Папка, содержащая JAR-файл компонента Aspose.
+2. Папка, содержащая JAR‑файл компонента Aspose.
 
-3. Папка, содержащая JAR-файл вызова клиента.
+3. Папка, содержащая JAR‑файл, вызываемый клиентом.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как инициализировать лицензию для Aspose.Words, используя файл лицензии в локальной файловой системе.
+
+```
+
+ // Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
+ Path licenseFileName = Paths.get(getLicenseDir(), "Aspose.Words.Java.lic");
+
+ License license = new License();
+ license.setLicense(licenseFileName.toString());
+
+ // Create a copy of our license file in the binaries folder of our application.
+ Path licenseCopyFileName = Paths.get(System.getProperty("user.dir"), "Aspose.Words.Java.lic");
+ FileUtils.copyFile(new File(licenseFileName.toString()), new File(licenseCopyFileName.toString()));
+
+ // If we pass a file's name without a path,
+ // the SetLicense will search several local file system locations for this file.
+ // One of those locations will be the "bin" folder, which contains a copy of our license file.
+ license.setLicense("Aspose.Words.Java.lic");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| licenseName | java.lang.String | Может быть полным или коротким именем файла. Используйте пустую строку для переключения в режим оценки. |
+| licenseName | java.lang.String | Может быть полным или коротким именем файла. Используйте пустую строку, чтобы переключиться в режим оценки. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

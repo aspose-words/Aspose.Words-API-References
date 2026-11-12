@@ -1,48 +1,42 @@
 ---
-title: HtmlControlType
-second_title: Справочник по API Aspose.Words для Java
-description: Тип узлов документа, представляющих и элементы, импортированные из HTML.
+title: "HtmlControlType"
+linktitle: "HtmlControlType"
+second_title: "Aspose.Words для Java"
+description: "Тип узлов документа, представляющих  и  элементы, импортированные из HTML в Java."
 type: docs
-weight: 323
+weight: 377
 url: /ru/java/com.aspose.words/htmlcontroltype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlControlType
 ```
 
-Тип узлов документа, представляющих и элементы, импортированные из HTML.
+Тип узлов документа, представляющих  и  элементы, импортированные из HTML. Примеры:Показано, как установить предпочтительный тип узлов документа, который будет представлять импортированные  и  элементы.   final String html = "\\r\\n\\r\\n\\r\\n" + "item1\\r\\n\\r\\n\\r\\n\\r\\n"; HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions(); htmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED\_DOCUMENT\_TAG); Document doc = new Document(new ByteArrayInputStream(html.getBytes(StandardCharsets.UTF\_8)), htmlLoadOptions); NodeCollection nodes = doc.getChildNodes(NodeType.STRUCTURED\_DOCUMENT\_TAG, true); StructuredDocumentTag tag = (StructuredDocumentTag) nodes.get(0);
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [FORM_FIELD](#FORM-FIELD) |  |
-| [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) |  |
+| [FORM_FIELD](#FORM-FIELD) | Поле формы. |
+| [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) | Тег структурированного документа |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlControlTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int htmlControlType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int htmlControlType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String htmlControlTypeName)](#fromName-java.lang.String) |  |
+| [getName(int htmlControlType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int htmlControlType)](#toString-int) |  |
 ### FORM_FIELD {#FORM-FIELD}
 ```
 public static int FORM_FIELD
 ```
 
+
+Поле формы.
 
 ### STRUCTURED_DOCUMENT_TAG {#STRUCTURED-DOCUMENT-TAG}
 ```
@@ -50,29 +44,15 @@ public static int STRUCTURED_DOCUMENT_TAG
 ```
 
 
+Тег структурированного документа
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String htmlControlTypeName) {#fromName-java.lang.String-}
+### fromName(String htmlControlTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String htmlControlTypeName)
 ```
@@ -80,25 +60,14 @@ public static int fromName(String htmlControlTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlControlTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int htmlControlType) {#getName-int-}
+**Returns:**
+int
+### getName(int htmlControlType) {#getName-int}
 ```
 public static String getName(int htmlControlType)
 ```
@@ -106,15 +75,14 @@ public static String getName(int htmlControlType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlControlType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -122,45 +90,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int htmlControlType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int htmlControlType) {#toString-int}
 ```
 public static String toString(int htmlControlType)
 ```
@@ -168,47 +100,10 @@ public static String toString(int htmlControlType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlControlType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

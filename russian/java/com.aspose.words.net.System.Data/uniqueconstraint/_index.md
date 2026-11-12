@@ -1,161 +1,140 @@
 ---
-title: UniqueConstraint
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет ограничение на набор столбцов, в котором все значения должны быть уникальными.
+title: "UniqueConstraint"
+linktitle: "UniqueConstraint"
+second_title: "Aspose.Words для Java"
+description: "Представляет ограничение набора столбцов, в котором все значения должны быть уникальными в Java."
 type: docs
 weight: 32
 url: /ru/java/com.aspose.words.net.system.data/uniqueconstraint/
 ---
 
-**Наследование:**
-java.lang.Object, [com.aspose.words.net.System.Data.Constraint](../../com.aspose.words.net.system.data/constraint)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.net.System.Data.Constraint](../../com.aspose.words.net.system.data/constraint/)
 ```
 public class UniqueConstraint extends System.Data.Constraint
 ```
 
-Представляет ограничение на набор столбцов, в котором все значения должны быть уникальными.
+Представляет ограничение набора столбцов, в котором все значения должны быть уникальными.
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean-) |  Инициализирует новый экземпляр[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) класс с указанным именем, массив[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты для ограничения и значение, указывающее, является ли ограничение первичным ключом. |
-| [UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-) |  Инициализирует новый экземпляр[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) класс с массивом[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты для ограничения и значение, указывающее, является ли ограничение первичным ключом. |
-| [UniqueConstraint(System.Data.DataColumn[] columns)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---) |  Инициализирует новый экземпляр[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) класс с заданным массивом[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты. |
-| [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-) |  Инициализирует новый экземпляр[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) класс с указанным[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean) | Инициализирует новый экземпляр класса [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) с указанным именем, массивом объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для ограничения и значением, указывающим, является ли ограничение первичным ключом. |
+| [UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean) | Инициализирует новый экземпляр класса [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) с массивом объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для ограничения и значением, указывающим, является ли ограничение первичным ключом. |
+| [UniqueConstraint(System.Data.DataColumn[] columns)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn) | Инициализирует новый экземпляр класса [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) с указанным массивом объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
+| [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn) | Инициализирует новый экземпляр класса [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) с указанным [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object key2)](#equals-java.lang.Object-) | Сравнивает это ограничение со вторым, чтобы определить, идентичны ли они оба. |
-| [getClass()](#getClass--) |  |
-| [getColumns()](#getColumns--) | Получает массив столбцов, на которые влияет это ограничение. |
-| [getConstraintName()](#getConstraintName--) |  Имя ограничения в[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
-| [getTable()](#getTable--) | Получает таблицу, которой принадлежит это ограничение. |
-| [hashCode()](#hashCode--) |  |
-| [isPrimaryKey()](#isPrimaryKey--) | Получает значение, указывающее, относится ли ограничение к первичному ключу. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setConstraintName(String value)](#setConstraintName-java.lang.String-) |  Имя ограничения в[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean-}
+| [equals(Object key2)](#equals-java.lang.Object) | Сравнивает это ограничение со вторым, чтобы определить, идентичны ли они. |
+| [getColumns()](#getColumns) | Возвращает массив столбцов, на которые влияет это ограничение. |
+| [getConstraintName()](#getConstraintName) | Имя ограничения в [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/). |
+| [getTable()](#getTable) | Возвращает таблицу, к которой относится это ограничение. |
+| [hashCode()](#hashCode) |  |
+| [isPrimaryKey()](#isPrimaryKey) | Возвращает значение, указывающее, является ли ограничение первичным ключом. |
+| [setConstraintName(String value)](#setConstraintName-java.lang.String) | Имя ограничения в [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/). |
+### UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean}
 ```
 public UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)
 ```
 
 
- Инициализирует новый экземпляр[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) класс с указанным именем, массив[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты для ограничения и значение, указывающее, является ли ограничение первичным ключом.
+Инициализирует новый экземпляр класса [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) с указанным именем, массивом объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для ограничения и значением, указывающим, является ли ограничение первичным ключом.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | java.lang.String | Имя ограничения. |
-| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) |  Массив[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты для ограничения. |
-| isPrimaryKey | boolean | Значение true указывает, что ограничение является первичным ключом; в противном случае ложно. |
+| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn/) | Массив объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для ограничения. |
+| isPrimaryKey | boolean | true, чтобы указать, что ограничение является первичным ключом; иначе false. |
 
-### UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-}
+### UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean}
 ```
 public UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)
 ```
 
 
- Инициализирует новый экземпляр[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) класс с массивом[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты для ограничения и значение, указывающее, является ли ограничение первичным ключом.
+Инициализирует новый экземпляр класса [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) с массивом объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для ограничения и значением, указывающим, является ли ограничение первичным ключом.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) |  Массив[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты для ограничения. |
-| isPrimaryKey | boolean | Значение true указывает, что ограничение является первичным ключом; в противном случае ложно. |
+| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn/) | Массив объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для ограничения. |
+| isPrimaryKey | boolean | true, чтобы указать, что ограничение является первичным ключом; иначе false. |
 
-### UniqueConstraint(System.Data.DataColumn[] columns) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---}
+### UniqueConstraint(System.Data.DataColumn[] columns) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn}
 ```
 public UniqueConstraint(System.Data.DataColumn[] columns)
 ```
 
 
- Инициализирует новый экземпляр[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) класс с заданным массивом[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты.
+Инициализирует новый экземпляр класса [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) с указанным массивом объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) |  Массив[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты для ограничения. |
+| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn/) | Массив объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для ограничения. |
 
-### UniqueConstraint(System.Data.DataColumn column) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-}
+### UniqueConstraint(System.Data.DataColumn column) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn}
 ```
 public UniqueConstraint(System.Data.DataColumn column)
 ```
 
 
- Инициализирует новый экземпляр[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) класс с указанным[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+Инициализирует новый экземпляр класса [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) с указанным [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) сдерживать. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | Объект [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) для ограничения. |
 
-### equals(Object key2) {#equals-java.lang.Object-}
+### equals(Object key2) {#equals-java.lang.Object}
 ```
 public boolean equals(Object key2)
 ```
 
 
-Сравнивает это ограничение со вторым, чтобы определить, идентичны ли они оба.
+Сравнивает это ограничение со вторым, чтобы определить, идентичны ли они.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key2 | java.lang.Object |  Объект, к которому это[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) сравнивается. |
+| key2 | java.lang.Object | Объект, с которым сравнивается данный [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/). |
 
-**Возвращает:**
-boolean - true, если ограничения равны; в противном случае ложно.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getColumns() {#getColumns--}
+**Returns:**
+boolean - true, если ограничения равны; иначе false.
+### getColumns() {#getColumns}
 ```
 public System.Data.DataColumn[] getColumns()
 ```
 
 
-Получает массив столбцов, на которые влияет это ограничение.
+Возвращает массив столбцов, на которые влияет это ограничение.
 
-**Возвращает:**
-com.aspose.words.net.System.Data.DataColumn[ ] - Массив[DataColumn](../../com.aspose.words.net.system.data/datacolumn) объекты.
-### getConstraintName() {#getConstraintName--}
+**Returns:**
+com.aspose.words.net.System.Data.DataColumn[] - Массив объектов [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
+### getConstraintName() {#getConstraintName}
 ```
 public String getConstraintName()
 ```
 
 
- Имя ограничения в[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+Имя ограничения в [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/).
 
-**Возвращает:**
- java.lang.String — Имя[Constraint](../../com.aspose.words.net.system.data/constraint).
-### getTable() {#getTable--}
+**Returns:**
+java.lang.String — Имя [Constraint](../../com.aspose.words.net.system.data/constraint/).
+### getTable() {#getTable}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
-Получает таблицу, которой принадлежит это ограничение.
+Возвращает таблицу, к которой относится это ограничение.
 
-**Возвращает:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) -[DataTable](../../com.aspose.words.net.system.data/datatable) которому принадлежит ограничение.
-### hashCode() {#hashCode--}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - The [DataTable](../../com.aspose.words.net.system.data/datatable/) to which the constraint belongs.
+### hashCode() {#hashCode}
 ```
 public int hashCode()
 ```
@@ -163,91 +142,28 @@ public int hashCode()
 
 
 
-**Возвращает:**
-инт
-### isPrimaryKey() {#isPrimaryKey--}
+**Returns:**
+int
+### isPrimaryKey() {#isPrimaryKey}
 ```
 public boolean isPrimaryKey()
 ```
 
 
-Получает значение, указывающее, относится ли ограничение к первичному ключу.
+Возвращает значение, указывающее, является ли ограничение первичным ключом.
 
-**Возвращает:**
-boolean - true, если ограничение относится к первичному ключу; в противном случае ложно.
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setConstraintName(String value) {#setConstraintName-java.lang.String-}
+**Returns:**
+boolean - true, если ограничение находится на первичном ключе; иначе false.
+### setConstraintName(String value) {#setConstraintName-java.lang.String}
 ```
 public void setConstraintName(String value)
 ```
 
 
- Имя ограничения в[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+Имя ограничения в [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/).
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String |  Имя[Constraint](../../com.aspose.words.net.system.data/constraint). |
+| value | java.lang.String | Имя [Constraint](../../com.aspose.words.net.system.data/constraint/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

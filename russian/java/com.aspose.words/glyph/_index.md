@@ -1,43 +1,37 @@
 ---
-title: Glyph
-second_title: Справочник по API Aspose.Words для Java
-description: 
+title: "Глиф"
+linktitle: "Глиф"
+second_title: "Aspose.Words для Java"
+description: "Представляет глиф в Java."
 type: docs
-weight: 307
+weight: 359
 url: /ru/java/com.aspose.words/glyph/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Glyph
 ```
+
+Представляет глиф
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)](#Glyph-int-short-short-short-) | Инициализирует новый экземпляр этого класса. |
+| [Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)](#Glyph-int-short-short-short) | Инициализирует новый экземпляр этого класса. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [deepClone()](#deepClone--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdvance()](#getAdvance--) |  |
-| [getAdvanceOffset()](#getAdvanceOffset--) |  |
-| [getAscenderOffset()](#getAscenderOffset--) |  |
-| [getClass()](#getClass--) |  |
-| [getGlyphIndex()](#getGlyphIndex--) |  |
-| [getWidth(int em, float fontSize)](#getWidth-int-float-) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAdvance(short value)](#setAdvance-short-) |  |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset) {#Glyph-int-short-short-short-}
+| [deepClone()](#deepClone) | Возвращает клон этого экземпляра. |
+| [getAdditionalAdvance()](#getAdditionalAdvance) |  |
+| [getAdvance()](#getAdvance) | Ширина продвижения, указывающая позицию для последующего глифа. |
+| [getAdvanceOffset()](#getAdvanceOffset) | Горизонтальное (x) смещение относительно позиции глифа. |
+| [getAscenderOffset()](#getAscenderOffset) | Вертикальное (y) смещение относительно позиции глифа. |
+| [getGlyphIndex()](#getGlyphIndex) | Индекс глифа (GID) в физическом шрифте. |
+| [getWidth(int em, float fontSize)](#getWidth-int-float) | Возвращает ширину (продвижение) глифа в пунктах. |
+### Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset) {#Glyph-int-short-short-short}
 ```
 public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)
 ```
@@ -45,191 +39,87 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 
 Инициализирует новый экземпляр этого класса.
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| glyphIndex | int |  |
-| advance | short |  |
-| advanceOffset | short |  |
-| ascenderOffset | short |  |
+| glyphIndex | int | Индекс глифа. |
+| advance | short | Продвинутая метрика глифа. |
+| advanceOffset | short | Горизонтальное (x) смещение. |
+| ascenderOffset | short | Вертикальное (y) смещение. |
 
-### deepClone() {#deepClone--}
+### deepClone() {#deepClone}
 ```
 public Glyph deepClone()
 ```
 
 
+Возвращает клон этого экземпляра.
 
-
-**Возвращает:**
-[Glyph](../../com.aspose.words/glyph)
-### equals(Object arg0) {#equals-java.lang.Object-}
+**Returns:**
+[Glyph](../../com.aspose.words/glyph/)
+### getAdditionalAdvance() {#getAdditionalAdvance}
 ```
-public boolean equals(Object arg0)
+public short getAdditionalAdvance()
 ```
 
 
 
 
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAdvance() {#getAdvance--}
+**Returns:**
+short
+### getAdvance() {#getAdvance}
 ```
 public short getAdvance()
 ```
 
 
+Ширина продвижения, указывающая позицию для последующего глифа.
 
-
-**Возвращает:**
-короткая
-### getAdvanceOffset() {#getAdvanceOffset--}
+**Returns:**
+short - Соответствующее значение short.
+### getAdvanceOffset() {#getAdvanceOffset}
 ```
 public short getAdvanceOffset()
 ```
 
 
+Горизонтальное (x) смещение относительно позиции глифа. В основном используется для присоединения знаков (например, диакритических знаков) к базовым символам.
 
-
-**Возвращает:**
-короткая
-### getAscenderOffset() {#getAscenderOffset--}
+**Returns:**
+short - Соответствующее значение short.
+### getAscenderOffset() {#getAscenderOffset}
 ```
 public short getAscenderOffset()
 ```
 
 
+Вертикальное (y) смещение относительно позиции глифа. В основном используется для присоединения знаков (например, диакритических знаков) к базовым символам.
 
-
-**Возвращает:**
-короткая
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getGlyphIndex() {#getGlyphIndex--}
+**Returns:**
+short - Соответствующее значение short.
+### getGlyphIndex() {#getGlyphIndex}
 ```
 public int getGlyphIndex()
 ```
 
 
+Индекс глифа (GID) в физическом шрифте.
 
-
-**Возвращает:**
-инт
-### getWidth(int em, float fontSize) {#getWidth-int-float-}
+**Returns:**
+int — соответствующее значение  int .
+### getWidth(int em, float fontSize) {#getWidth-int-float}
 ```
 public float getWidth(int em, float fontSize)
 ```
 
 
+Возвращает ширину (продвижение) глифа в пунктах.
 
-
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | em | int |  |
 | fontSize | float |  |
 
-**Возвращает:**
-плавать
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setAdvance(short value) {#setAdvance-short-}
-```
-public void setAdvance(short value)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| value | short |  |
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
+**Returns:**
+float

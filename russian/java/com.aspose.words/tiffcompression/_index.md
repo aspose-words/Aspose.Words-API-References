@@ -1,19 +1,47 @@
 ---
-title: TiffCompression
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, какой тип сжатия следует применять при сохранении изображений страниц в файл TIFF.
+title: "TiffCompression"
+linktitle: "TiffCompression"
+second_title: "Aspose.Words для Java"
+description: "Указывает тип сжатия, применяемый при сохранении изображений страниц в файл TIFF в Java."
 type: docs
-weight: 579
+weight: 688
 url: /ru/java/com.aspose.words/tiffcompression/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TiffCompression
 ```
 
-Указывает, какой тип сжатия следует применять при сохранении изображений страниц в файл TIFF.
+Указывает тип сжатия, применяемый при сохранении изображений страниц в файл TIFF.
+
+ **Examples:** 
+
+Показывает, как выбрать схему сжатия, применяемую к документу, который мы преобразуем в изображение TIFF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "Tagged Image File Format.tiff");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+
+ // Set the "TiffCompression" property to "TiffCompression.None" to apply no compression while saving,
+ // which may result in a very large output file.
+ // Set the "TiffCompression" property to "TiffCompression.Rle" to apply RLE compression
+ // Set the "TiffCompression" property to "TiffCompression.Lzw" to apply LZW compression.
+ // Set the "TiffCompression" property to "TiffCompression.Ccitt3" to apply CCITT3 compression.
+ // Set the "TiffCompression" property to "TiffCompression.Ccitt4" to apply CCITT4 compression.
+ options.setTiffCompression(tiffCompression);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.TiffImageCompression.tiff", options);
+ 
+```
 ## Поля
 
 | Поле | Описание |
@@ -28,19 +56,10 @@ public class TiffCompression
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String tiffCompressionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int tiffCompression)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int tiffCompression)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String tiffCompressionName)](#fromName-java.lang.String) |  |
+| [getName(int tiffCompression)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int tiffCompression)](#toString-int) |  |
 ### CCITT_3 {#CCITT-3}
 ```
 public static int CCITT_3
@@ -63,7 +82,7 @@ public static int LZW
 ```
 
 
-Указывает схему сжатия LZW. В Java эмулируется сжатие Deflate (Zip).
+Указывает схему сжатия LZW. В Java эмулируется сжатием Deflate (Zip).
 
 ### NONE {#NONE}
 ```
@@ -87,23 +106,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String tiffCompressionName) {#fromName-java.lang.String-}
+### fromName(String tiffCompressionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String tiffCompressionName)
 ```
@@ -111,25 +114,14 @@ public static int fromName(String tiffCompressionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tiffCompressionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int tiffCompression) {#getName-int-}
+**Returns:**
+int
+### getName(int tiffCompression) {#getName-int}
 ```
 public static String getName(int tiffCompression)
 ```
@@ -137,15 +129,14 @@ public static String getName(int tiffCompression)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tiffCompression | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -153,45 +144,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int tiffCompression) {#toString-int-}
+**Returns:**
+int[]
+### toString(int tiffCompression) {#toString-int}
 ```
 public static String toString(int tiffCompression)
 ```
@@ -199,47 +154,10 @@ public static String toString(int tiffCompression)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tiffCompression | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

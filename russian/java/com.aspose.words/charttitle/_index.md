@@ -1,284 +1,570 @@
 ---
-title: ChartTitle
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет доступ к свойствам заголовка диаграммы.
+title: "ChartTitle"
+linktitle: "ChartTitle"
+second_title: "Aspose.Words для Java"
+description: "Обеспечивает доступ к свойствам заголовка диаграммы в Java."
 type: docs
-weight: 70
+weight: 92
 url: /ru/java/com.aspose.words/charttitle/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
-
-**Все реализованные интерфейсы:**
-java.lang.Cloneable
 ```
-public class ChartTitle implements Cloneable
+public class ChartTitle
 ```
 
 Предоставляет доступ к свойствам заголовка диаграммы.
 
- Чтобы узнать больше, посетите**Working with Charts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Charts ][Working with Charts].
+
+ **Examples:** 
+
+Показывает, как вставить диаграмму и задать заголовок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
+
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+
+[Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [getClass()](#getClass--) |  |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getOverlay()](#getOverlay--) | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. |
-| [getShow()](#getShow--) | Определяет, будет ли отображаться заголовок для этой диаграммы. |
-| [getText()](#getText--) | Получает текст заголовка диаграммы. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setOverlay(boolean value)](#setOverlay-boolean-) | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setShow(boolean value)](#setShow-boolean-) | Определяет, будет ли отображаться заголовок для этой диаграммы. |
-| [setText(String value)](#setText-java.lang.String-) | Устанавливает текст заголовка диаграммы. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### clearRunAttrs() {#clearRunAttrs--}
+| [getFont()](#getFont) | Обеспечивает доступ к форматированию шрифта заголовка диаграммы. |
+| [getFormat()](#getFormat) | Обеспечивает доступ к настройкам заливки и линий заголовка диаграммы. |
+| [getOrientation()](#getOrientation) | Получает ориентацию текста заголовка диаграммы. |
+| [getOverlay()](#getOverlay) | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. |
+| [getRotation()](#getRotation) | Получает вращение заголовка диаграммы в градусах. |
+| [getShow()](#getShow) | Определяет, будет ли заголовок отображаться для этой диаграммы. |
+| [getText()](#getText) | Получает текст заголовка диаграммы. |
+| [setOrientation(int value)](#setOrientation-int) | Устанавливает ориентацию текста заголовка диаграммы. |
+| [setOverlay(boolean value)](#setOverlay-boolean) | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. |
+| [setRotation(int value)](#setRotation-int) | Устанавливает вращение заголовка диаграммы в градусах. |
+| [setShow(boolean value)](#setShow-boolean) | Определяет, будет ли заголовок отображаться для этой диаграммы. |
+| [setText(String value)](#setText-java.lang.String) | Устанавливает текст заголовка диаграммы. |
+### getFont() {#getFont}
 ```
-public void clearRunAttrs()
+public Font getFont()
 ```
 
 
+Обеспечивает доступ к форматированию шрифта заголовка диаграммы.
 
+ **Examples:** 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
+Показывает, как вставить диаграмму и задать заголовок.
 
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
-```
-public Object fetchInheritedRunAttr(int key)
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
 
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
-**Параметры:**
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| key | int |  |
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
 
-**Возвращает:**
-java.lang.Объект
-### getClass() {#getClass--}
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
 ```
-public final native Class<?> getClass()
+
+**Returns:**
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
+### getFormat() {#getFormat}
 ```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
-```
-public Object getDirectRunAttr(int key)
+public ChartFormat getFormat()
 ```
 
 
+Обеспечивает доступ к настройкам заливки и линий заголовка диаграммы.
+
+ **Examples:** 
+
+Показывает, как использовать форматирование диаграммы.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete series generated by default.
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "Category 1", "Category 2" };
+ series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+
+ // Format chart background.
+ chart.getFormat().getFill().solid(Color.darkGray);
+
+ // Hide axis tick labels.
+ chart.getAxisX().getTickLabels().setPosition(AxisTickLabelPosition.NONE);
+ chart.getAxisY().getTickLabels().setPosition(AxisTickLabelPosition.NONE);
+
+ // Format chart title.
+ chart.getTitle().getFormat().getFill().solid(Color.yellow);
+
+ // Format axis title.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().getFormat().getFill().solid(Color.yellow);
+
+ // Format legend.
+ chart.getLegend().getFormat().getFill().solid(Color.yellow);
+
+ doc.save(getArtifactsDir() + "Charts.ChartFormat.docx");
+ 
+```
+
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
+### getOrientation() {#getOrientation}
+```
+public int getOrientation()
+```
 
 
-**Параметры:**
+Получает ориентацию текста заголовка диаграммы.
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| key | int |  |
+ **Remarks:** 
 
-**Возвращает:**
-java.lang.Объект
-### getOverlay() {#getOverlay--}
+Значение по умолчанию — [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL).
+
+ **Examples:** 
+
+Показывает, как задать ориентацию и вращение заголовков диаграммы и осей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape chartShape = builder.insertChart(ChartType.COLUMN, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ chart.getTitle().setText("Sample Chart");
+ chart.getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getTitle().setRotation(90);
+
+ // Before setting title properties, make sure that this title will be displayed.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().setText("X Axis");
+ chart.getAxisX().getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getAxisX().getTitle().setRotation(-90);
+
+ doc.save(getArtifactsDir() + "Charts.TitleOrientation.docx");
+ 
+```
+
+**Returns:**
+int - Ориентация текста заголовка диаграммы. Возвращаемое значение является одним из констант [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/).
+### getOverlay() {#getOverlay}
 ```
 public boolean getOverlay()
 ```
 
 
-Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию оверлей имеет значение false.
+Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию overlay is  false .
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getShow() {#getShow--}
+ **Examples:** 
+
+Показывает, как вставить диаграмму и задать заголовок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
+
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getRotation() {#getRotation}
+```
+public int getRotation()
+```
+
+
+Получает вращение заголовка диаграммы в градусах.
+
+ **Remarks:** 
+
+Диапазон допустимых значений от -180 до 180 включительно. Значение по умолчанию — 0.
+
+ **Examples:** 
+
+Показывает, как задать ориентацию и вращение заголовков диаграммы и осей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape chartShape = builder.insertChart(ChartType.COLUMN, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ chart.getTitle().setText("Sample Chart");
+ chart.getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getTitle().setRotation(90);
+
+ // Before setting title properties, make sure that this title will be displayed.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().setText("X Axis");
+ chart.getAxisX().getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getAxisX().getTitle().setRotation(-90);
+
+ doc.save(getArtifactsDir() + "Charts.TitleOrientation.docx");
+ 
+```
+
+**Returns:**
+int - Вращение заголовка диаграммы в градусах.
+### getShow() {#getShow}
 ```
 public boolean getShow()
 ```
 
 
-Определяет, будет ли отображаться заголовок для этой диаграммы. Значение по умолчанию — истина.
+Определяет, будет ли заголовок отображаться для этой диаграммы. Значение по умолчанию —  true .
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### getText() {#getText--}
+ **Examples:** 
+
+Показывает, как вставить диаграмму и задать заголовок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
+
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### getText() {#getText}
 ```
 public String getText()
 ```
 
 
- Получает текст заголовка диаграммы. Если указано нулевое или пустое значение, будет показан автоматически сгенерированный заголовок. Использовать[getShow()](../../com.aspose.words/charttitle\#getShow--) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean-) вариант, если вам нужно скрыть заголовок.
+Получает текст заголовка диаграммы. Если указано  null  или пустое значение, будет показан автоматически сгенерированный заголовок.
 
-**Возвращает:**
+ **Remarks:** 
+
+Используйте параметр [getShow()](../../com.aspose.words/charttitle/\#getShow) / [setShow(boolean)](../../com.aspose.words/charttitle/\#setShow-boolean), если необходимо скрыть заголовок.
+
+ **Examples:** 
+
+Показывает, как вставить диаграмму и задать заголовок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
+
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+**Returns:**
 java.lang.String - Текст заголовка диаграммы.
-### hashCode() {#hashCode--}
+### setOrientation(int value) {#setOrientation-int}
 ```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
+public void setOrientation(int value)
 ```
 
 
+Устанавливает ориентацию текста заголовка диаграммы.
 
+ **Remarks:** 
 
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
+Значение по умолчанию — [ShapeTextOrientation.HORIZONTAL](../../com.aspose.words/shapetextorientation/\#HORIZONTAL).
 
+ **Examples:** 
 
+Показывает, как задать ориентацию и вращение заголовков диаграммы и осей.
 
-
-### removeRunAttr(int key) {#removeRunAttr-int-}
-```
-public void removeRunAttr(int key)
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape chartShape = builder.insertChart(ChartType.COLUMN, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
 
+ chart.getTitle().setText("Sample Chart");
+ chart.getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getTitle().setRotation(90);
 
+ // Before setting title properties, make sure that this title will be displayed.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().setText("X Axis");
+ chart.getAxisX().getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getAxisX().getTitle().setRotation(-90);
 
-**Параметры:**
+ doc.save(getArtifactsDir() + "Charts.TitleOrientation.docx");
+ 
+```
 
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
+| value | int | Ориентация текста заголовка диаграммы. Значение должно быть одной из констант [ShapeTextOrientation](../../com.aspose.words/shapetextorientation/). |
 
-### setOverlay(boolean value) {#setOverlay-boolean-}
+### setOverlay(boolean value) {#setOverlay-boolean}
 ```
 public void setOverlay(boolean value)
 ```
 
 
-Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию оверлей имеет значение false.
+Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию overlay is  false .
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+Показывает, как вставить диаграмму и задать заголовок.
 
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
-```
-public void setRunAttr(int key, Object value)
 ```
 
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
 
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
 
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
 
-**Параметры:**
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
 
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setShow(boolean value) {#setShow-boolean-}
+### setRotation(int value) {#setRotation-int}
+```
+public void setRotation(int value)
+```
+
+
+Устанавливает вращение заголовка диаграммы в градусах.
+
+ **Remarks:** 
+
+Диапазон допустимых значений от -180 до 180 включительно. Значение по умолчанию — 0.
+
+ **Examples:** 
+
+Показывает, как задать ориентацию и вращение заголовков диаграммы и осей.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape chartShape = builder.insertChart(ChartType.COLUMN, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ chart.getTitle().setText("Sample Chart");
+ chart.getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getTitle().setRotation(90);
+
+ // Before setting title properties, make sure that this title will be displayed.
+ chart.getAxisX().getTitle().setShow(true);
+ chart.getAxisX().getTitle().setText("X Axis");
+ chart.getAxisX().getTitle().setOrientation(ShapeTextOrientation.HORIZONTAL);
+ chart.getAxisX().getTitle().setRotation(-90);
+
+ doc.save(getArtifactsDir() + "Charts.TitleOrientation.docx");
+ 
+```
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| значение | int | Вращение заголовка диаграммы в градусах. |
+
+### setShow(boolean value) {#setShow-boolean}
 ```
 public void setShow(boolean value)
 ```
 
 
-Определяет, будет ли отображаться заголовок для этой диаграммы. Значение по умолчанию — истина.
+Определяет, будет ли заголовок отображаться для этой диаграммы. Значение по умолчанию —  true .
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вставить диаграмму и задать заголовок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
+
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### setText(String value) {#setText-java.lang.String-}
+### setText(String value) {#setText-java.lang.String}
 ```
 public void setText(String value)
 ```
 
 
- Устанавливает текст заголовка диаграммы. Если указано нулевое или пустое значение, будет показан автоматически сгенерированный заголовок. Использовать[getShow()](../../com.aspose.words/charttitle\#getShow--) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean-) вариант, если вам нужно скрыть заголовок.
+Устанавливает текст заголовка диаграммы. Если указано  null  или пустое значение, будет показан автоматически сгенерированный заголовок.
 
-**Параметры:**
+ **Remarks:** 
 
+Используйте параметр [getShow()](../../com.aspose.words/charttitle/\#getShow) / [setShow(boolean)](../../com.aspose.words/charttitle/\#setShow-boolean), если необходимо скрыть заголовок.
+
+ **Examples:** 
+
+Показывает, как вставить диаграмму и задать заголовок.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a chart shape with a document builder and get its chart.
+ Shape chartShape = builder.insertChart(ChartType.BAR, 400.0, 300.0);
+ Chart chart = chartShape.getChart();
+
+ // Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ ChartTitle title = chart.getTitle();
+ title.setText("My Chart");
+ title.getFont().setSize(15.0);
+ title.getFont().setColor(Color.BLUE);
+
+ // Set the "Show" property to "true" to make the title visible.
+ title.setShow(true);
+
+ // Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+ title.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartTitle.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Текст заголовка диаграммы. |
+| значение | java.lang.String | Текст заголовка диаграммы. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

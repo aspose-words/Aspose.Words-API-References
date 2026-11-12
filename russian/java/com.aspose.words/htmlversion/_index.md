@@ -1,50 +1,104 @@
 ---
-title: HtmlVersion
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает версию HTML, используемую при сохранении документа в форматы и .
+title: "HtmlVersion"
+linktitle: "HtmlVersion"
+second_title: "Aspose.Words для Java"
+description: "Указывает, какая версия HTML используется при сохранении документа в форматы SaveFormat.HTML и SaveFormat.MHTML в Java."
 type: docs
-weight: 332
+weight: 386
 url: /ru/java/com.aspose.words/htmlversion/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlVersion
 ```
 
- Указывает версию HTML, используемую при сохранении документа в[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML) а также[SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML) форматы.
-## Поля
+Указывает, какая версия HTML используется при сохранении документа в форматы [SaveFormat.HTML](../../com.aspose.words/saveformat/\\#HTML) и [SaveFormat.MHTML](../../com.aspose.words/saveformat/\\#MHTML).
 
-| Поле | Описание |
+ **Examples:** 
+
+Показывает, как сохранить документ в определённую версию HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(htmlVersion);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.HtmlVersions.html", options);
+
+ // Our HTML documents will have minor differences to be compatible with different HTML versions.
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.HtmlVersions.html"), StandardCharsets.UTF_8);
+
+ switch (htmlVersion) {
+     case HtmlVersion.HTML_5:
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(" "));
+         Assert.assertTrue(outDocContents.contains(" "));
+         break;
+     case HtmlVersion.XHTML:
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(" 
+ Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+ 
+ 
+ 
+ ```
+
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.writeln(\"Hello world!\");
+
+HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+{
+options.setHtmlVersion(HtmlVersion.XHTML);
+options.setExportXhtmlTransitional(showDoctypeDeclaration);
+options.setPrettyFormat(true);
+}
+
+doc.save(getArtifactsDir() + \"HtmlSaveOptions.ExportXhtmlTransitional.html\", options);
+
+// Наш документ будет содержать только заголовок объявления DOCTYPE, если мы установили флаг \"ExportXhtmlTransitional\" в значение \"true\".
+String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + \"HtmlSaveOptions.ExportXhtmlTransitional.html\"), StandardCharsets.UTF_8);
+
+if (showDoctypeDeclaration)
+Assert.assertTrue(outDocContents.contains(
+\"\\r\\n\" +
+\"\\r\\n\" +
+\"\"\);
+else
+Assert.assertTrue(outDocContents.contains(""));
+ 
+```
+## Fields
+
+| Field | Description |
 | --- | --- |
-| [HTML_5](#HTML-5) | Сохраняет документ в соответствии со стандартом HTML 5. |
-| [XHTML](#XHTML) | Сохраняет документ в соответствии со стандартом XHTML 1.0 Transitional. |
+| [HTML_5](#HTML-5) | Saves the document in compliance with the HTML 5 standard. |
+| [XHTML](#XHTML) | Saves the document in compliance with the XHTML 1.0 Transitional standard. |
 | [length](#length) |  |
-## Методы
+## Methods
 
-| Метод | Описание |
+| Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlVersionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int htmlVersion)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int htmlVersion)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String htmlVersionName)](#fromName-java.lang.String) |  |
+| [getName(int htmlVersion)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int htmlVersion)](#toString-int) |  |
 ### HTML_5 {#HTML-5}
 ```
 public static int HTML_5
 ```
 
 
-Сохраняет документ в соответствии со стандартом HTML 5.
+Saves the document in compliance with the HTML 5 standard.
 
 ### XHTML {#XHTML}
 ```
@@ -52,9 +106,11 @@ public static int XHTML
 ```
 
 
-Сохраняет документ в соответствии со стандартом XHTML 1.0 Transitional.
+Saves the document in compliance with the XHTML 1.0 Transitional standard.
 
-Aspose.Words стремится выводить XHTML в соответствии со стандартом XHTML 1.0 Transitional, но вывод не всегда будет проверяться на соответствие DTD. Некоторые структуры внутри документа Microsoft Word трудно или невозможно сопоставить с документом, который будет проверяться на соответствие схеме XHTML. Например, XHTML не допускает вложенных списков (UL не может быть вложен в другой элемент UL), но в документах Microsoft Word довольно часто встречаются многоуровневые списки.
+ **Remarks:** 
+
+Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional standard, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 
 ### length {#length}
 ```
@@ -62,23 +118,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String htmlVersionName) {#fromName-java.lang.String-}
+### fromName(String htmlVersionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String htmlVersionName)
 ```
@@ -86,25 +126,14 @@ public static int fromName(String htmlVersionName)
 
 
 
-**Параметры:**
-
-| Параметр | Тип | Описание |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlVersionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int htmlVersion) {#getName-int-}
+**Returns:**
+int
+### getName(int htmlVersion) {#getName-int}
 ```
 public static String getName(int htmlVersion)
 ```
@@ -112,15 +141,14 @@ public static String getName(int htmlVersion)
 
 
 
-**Параметры:**
-
-| Параметр | Тип | Описание |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlVersion | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -128,45 +156,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int htmlVersion) {#toString-int-}
+**Returns:**
+int[]
+### toString(int htmlVersion) {#toString-int}
 ```
 public static String toString(int htmlVersion)
 ```
@@ -174,47 +166,10 @@ public static String toString(int htmlVersion)
 
 
 
-**Параметры:**
-
-| Параметр | Тип | Описание |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlVersion | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

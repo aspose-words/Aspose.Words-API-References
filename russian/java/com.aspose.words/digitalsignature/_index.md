@@ -1,108 +1,289 @@
 ---
-title: DigitalSignature
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет цифровую подпись на документе и результат ее проверки.
+title: "DigitalSignature"
+linktitle: "DigitalSignature"
+second_title: "Aspose.Words для Java"
+description: "Представляет цифровую подпись документа и результат её проверки в Java."
 type: docs
-weight: 111
+weight: 150
 url: /ru/java/com.aspose.words/digitalsignature/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DigitalSignature
 ```
 
-Представляет цифровую подпись на документе и результат ее проверки.
+Представляет цифровую подпись документа и результат её проверки.
 
- Чтобы узнать больше, посетите**Work with Digital Signatures** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Work with Digital Signatures ][Work with Digital Signatures].
+
+ **Examples:** 
+
+Показывает, как проверять и отображать информацию о каждой подписи в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Digitally signed.docx");
+
+ for (DigitalSignature signature : doc.getDigitalSignatures()) {
+     System.out.println("*** Signature Found ***");
+     System.out.println("Is valid: " + signature.isValid());
+     // This property is available in MS Word documents only
+     System.out.println("Reason for signing: " + signature.getComments());
+     System.out.println("Signature type: " + signature.getSignatureType());
+     System.out.println("Time of signing: " + signature.getSignTime());
+     System.out.println("Subject name: " + signature.getSubjectName());
+     System.out.println("Issuer name: " + signature.getIssuerName());
+     System.out.println();
+ }
+ 
+```
+
+
+[Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCertificateHolder()](#getCertificateHolder--) | Возвращает объект держателя сертификата, содержащий сертификат, который использовался для подписи документа. |
-| [getClass()](#getClass--) |  |
-| [getComments()](#getComments--) | Получает комментарий о цели подписания. |
-| [getIssuerName()](#getIssuerName--) | Возвращает отличительное имя субъекта издателя сертификата. |
-| [getSignTime()](#getSignTime--) | Получает время подписания документа. |
-| [getSignatureType()](#getSignatureType--) | Получает тип цифровой подписи. |
-| [getSubjectName()](#getSubjectName--) | Возвращает различающееся имя субъекта сертификата, который использовался для подписи документа. |
-| [hashCode()](#hashCode--) |  |
-| [isValid()](#isValid--) | Возвращает true, если эта цифровая подпись действительна и документ не был подделан. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Возвращает удобную для пользователя строку, отображающую значение этого объекта. |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
+| [getApplicationVersion()](#getApplicationVersion) | Получает версию приложения для цифровой подписи. |
+| [getCertificateHolder()](#getCertificateHolder) | Возвращает объект держателя сертификата, содержащий сертификат, использованный для подписи документа. |
+| [getColorDepth()](#getColorDepth) | Получает глубину цвета для цифровой подписи. |
+| [getComments()](#getComments) | Получает комментарий о цели подписи. |
+| [getHorizontalResolution()](#getHorizontalResolution) | Получает горизонтальное разрешение цифровой подписи. |
+| [getIssuerName()](#getIssuerName) | Возвращает отличительное имя субъекта сертификата издателя. |
+| [getOfficeVersion()](#getOfficeVersion) | Получает версию Office для цифровой подписи. |
+| [getSignTime()](#getSignTime) | Получает время подписи документа. |
+| [getSignatureType()](#getSignatureType) | Получает тип цифровой подписи. |
+| [getSignatureValue()](#getSignatureValue) | Получает массив байтов, представляющих значение подписи. |
+| [getSubjectName()](#getSubjectName) | Возвращает отличительное имя субъекта сертификата, который использовался для подписи документа. |
+| [getVerticalResolution()](#getVerticalResolution) | Получает вертикальное разрешение цифровой подписи. |
+| [getWindowsVersion()](#getWindowsVersion) | Получает версию Windows для цифровой подписи. |
+| [isValid()](#isValid) | Возвращает  true  если эта цифровая подпись действительна и документ не был изменён. |
+| [toString()](#toString) | Возвращает удобочитаемую строку, отображающую значение этого объекта. |
+### getApplicationVersion() {#getApplicationVersion}
 ```
-public boolean equals(Object arg0)
+public String getApplicationVersion()
 ```
 
 
+Получает версию приложения для цифровой подписи.
 
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getCertificateHolder() {#getCertificateHolder--}
+**Returns:**
+java.lang.String — версия приложения для цифровой подписи.
+### getCertificateHolder() {#getCertificateHolder}
 ```
 public CertificateHolder getCertificateHolder()
 ```
 
 
-Возвращает объект держателя сертификата, содержащий сертификат, который использовался для подписи документа.
+Возвращает объект держателя сертификата, содержащий сертификат, использованный для подписи документа.
 
-**Возвращает:**
-[CertificateHolder](../../com.aspose.words/certificateholder) - Объект держателя сертификата, содержащий сертификат, использовался для подписи документа.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как подписывать документы с помощью сертификатов X.509.
+
 ```
-public final native Class<?> getClass()
+
+ // Verify that a document is not signed.
+ Assert.assertFalse(FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx").hasDigitalSignature());
+
+ // Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignTime(new Date());
+
+ // There are two ways of saving a signed copy of a document to the local file system:
+ // 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
+ DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "Document.DigitalSignature.docx",
+         certificateHolder, signOptions);
+
+ Assert.assertTrue(FileFormatUtil.detectFileFormat(getArtifactsDir() + "Document.DigitalSignature.docx").hasDigitalSignature());
+
+ // 2 - Take a document from a stream, and save a signed copy to another stream.
+ InputStream inDoc = new FileInputStream(getMyDir() + "Document.docx");
+ try {
+     OutputStream outDoc = new FileOutputStream(getArtifactsDir() + "Document.DigitalSignature.docx");
+     try {
+         DigitalSignatureUtil.sign(inDoc, outDoc, certificateHolder);
+     } finally {
+         if (outDoc != null) outDoc.close();
+     }
+ } finally {
+     if (inDoc != null) inDoc.close();
+ }
+
+ Assert.assertTrue(FileFormatUtil.detectFileFormat(getArtifactsDir() + "Document.DigitalSignature.docx").hasDigitalSignature());
+
+ // Please verify that all of the document's digital signatures are valid and check their details.
+ Document signedDoc = new Document(getArtifactsDir() + "Document.DigitalSignature.docx");
+ DigitalSignatureCollection digitalSignatureCollection = signedDoc.getDigitalSignatures();
+
+ Assert.assertTrue(digitalSignatureCollection.isValid());
+ Assert.assertEquals(1, digitalSignatureCollection.getCount());
+ Assert.assertEquals(DigitalSignatureType.XML_DSIG, digitalSignatureCollection.get(0).getSignatureType());
+ Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getIssuerName());
+ Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getSubjectName());
+ 
+```
+
+**Returns:**
+[CertificateHolder](../../com.aspose.words/certificateholder/) - The certificate holder object that contains the certificate was used to sign the document.
+### getColorDepth() {#getColorDepth}
+```
+public int getColorDepth()
 ```
 
 
+Получает глубину цвета для цифровой подписи.
 
-
-**Возвращает:**
-java.lang.Класс<?>
-### getComments() {#getComments--}
+**Returns:**
+int — глубина цвета для цифровой подписи.
+### getComments() {#getComments}
 ```
 public String getComments()
 ```
 
 
-Получает комментарий о цели подписания.
+Получает комментарий о цели подписи.
 
-**Возвращает:**
-java.lang.String — Комментарий к цели подписи.
-### getIssuerName() {#getIssuerName--}
+ **Examples:** 
+
+Показывает, как проверять и отображать информацию о каждой подписи в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Digitally signed.docx");
+
+ for (DigitalSignature signature : doc.getDigitalSignatures()) {
+     System.out.println("*** Signature Found ***");
+     System.out.println("Is valid: " + signature.isValid());
+     // This property is available in MS Word documents only
+     System.out.println("Reason for signing: " + signature.getComments());
+     System.out.println("Signature type: " + signature.getSignatureType());
+     System.out.println("Time of signing: " + signature.getSignTime());
+     System.out.println("Subject name: " + signature.getSubjectName());
+     System.out.println("Issuer name: " + signature.getIssuerName());
+     System.out.println();
+ }
+ 
+```
+
+**Returns:**
+java.lang.String - Комментарий цели подписи.
+### getHorizontalResolution() {#getHorizontalResolution}
+```
+public int getHorizontalResolution()
+```
+
+
+Получает горизонтальное разрешение цифровой подписи.
+
+**Returns:**
+int — горизонтальное разрешение цифровой подписи.
+### getIssuerName() {#getIssuerName}
 ```
 public String getIssuerName()
 ```
 
 
-Возвращает отличительное имя субъекта издателя сертификата.
+Возвращает отличительное имя субъекта сертификата издателя.
 
-**Возвращает:**
-java.lang.String — различающееся имя субъекта сертификата, выдавшего сертификат.
-### getSignTime() {#getSignTime--}
+ **Examples:** 
+
+Показывает, как подписывать документы с помощью сертификатов X.509.
+
+```
+
+ // Verify that a document is not signed.
+ Assert.assertFalse(FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx").hasDigitalSignature());
+
+ // Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignTime(new Date());
+
+ // There are two ways of saving a signed copy of a document to the local file system:
+ // 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
+ DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "Document.DigitalSignature.docx",
+         certificateHolder, signOptions);
+
+ Assert.assertTrue(FileFormatUtil.detectFileFormat(getArtifactsDir() + "Document.DigitalSignature.docx").hasDigitalSignature());
+
+ // 2 - Take a document from a stream, and save a signed copy to another stream.
+ InputStream inDoc = new FileInputStream(getMyDir() + "Document.docx");
+ try {
+     OutputStream outDoc = new FileOutputStream(getArtifactsDir() + "Document.DigitalSignature.docx");
+     try {
+         DigitalSignatureUtil.sign(inDoc, outDoc, certificateHolder);
+     } finally {
+         if (outDoc != null) outDoc.close();
+     }
+ } finally {
+     if (inDoc != null) inDoc.close();
+ }
+
+ Assert.assertTrue(FileFormatUtil.detectFileFormat(getArtifactsDir() + "Document.DigitalSignature.docx").hasDigitalSignature());
+
+ // Please verify that all of the document's digital signatures are valid and check their details.
+ Document signedDoc = new Document(getArtifactsDir() + "Document.DigitalSignature.docx");
+ DigitalSignatureCollection digitalSignatureCollection = signedDoc.getDigitalSignatures();
+
+ Assert.assertTrue(digitalSignatureCollection.isValid());
+ Assert.assertEquals(1, digitalSignatureCollection.getCount());
+ Assert.assertEquals(DigitalSignatureType.XML_DSIG, digitalSignatureCollection.get(0).getSignatureType());
+ Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getIssuerName());
+ Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getSubjectName());
+ 
+```
+
+**Returns:**
+java.lang.String - Отличительное имя субъекта сертификата-издателя.
+### getOfficeVersion() {#getOfficeVersion}
+```
+public String getOfficeVersion()
+```
+
+
+Получает версию Office для цифровой подписи.
+
+**Returns:**
+java.lang.String — версия Office для цифровой подписи.
+### getSignTime() {#getSignTime}
 ```
 public Date getSignTime()
 ```
 
 
-Получает время подписания документа.
+Получает время подписи документа.
 
-**Возвращает:**
-java.util.Date — время подписания документа.
-### getSignatureType() {#getSignatureType--}
+ **Examples:** 
+
+Показывает, как проверять и отображать информацию о каждой подписи в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Digitally signed.docx");
+
+ for (DigitalSignature signature : doc.getDigitalSignatures()) {
+     System.out.println("*** Signature Found ***");
+     System.out.println("Is valid: " + signature.isValid());
+     // This property is available in MS Word documents only
+     System.out.println("Reason for signing: " + signature.getComments());
+     System.out.println("Signature type: " + signature.getSignatureType());
+     System.out.println("Time of signing: " + signature.getSignTime());
+     System.out.println("Subject name: " + signature.getSubjectName());
+     System.out.println("Issuer name: " + signature.getIssuerName());
+     System.out.println();
+ }
+ 
+```
+
+**Returns:**
+java.util.Date - Время подписи документа.
+### getSignatureType() {#getSignatureType}
 ```
 public int getSignatureType()
 ```
@@ -110,97 +291,176 @@ public int getSignatureType()
 
 Получает тип цифровой подписи.
 
-**Возвращает:**
- int — тип цифровой подписи. Возвращаемое значение является одним из[DigitalSignatureType](../../com.aspose.words/digitalsignaturetype) константы.
-### getSubjectName() {#getSubjectName--}
+ **Examples:** 
+
+Показывает, как проверять и отображать информацию о каждой подписи в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Digitally signed.docx");
+
+ for (DigitalSignature signature : doc.getDigitalSignatures()) {
+     System.out.println("*** Signature Found ***");
+     System.out.println("Is valid: " + signature.isValid());
+     // This property is available in MS Word documents only
+     System.out.println("Reason for signing: " + signature.getComments());
+     System.out.println("Signature type: " + signature.getSignatureType());
+     System.out.println("Time of signing: " + signature.getSignTime());
+     System.out.println("Subject name: " + signature.getSubjectName());
+     System.out.println("Issuer name: " + signature.getIssuerName());
+     System.out.println();
+ }
+ 
+```
+
+**Returns:**
+int - Тип цифровой подписи. Возвращаемое значение является одной из констант [DigitalSignatureType](../../com.aspose.words/digitalsignaturetype/).
+### getSignatureValue() {#getSignatureValue}
+```
+public byte[] getSignatureValue()
+```
+
+
+Получает массив байтов, представляющих значение подписи.
+
+ **Examples:** 
+
+Показывает, как получить значение цифровой подписи из цифрово подписанного документа.
+
+```
+
+ Document doc = new Document(getMyDir() + "Digitally signed.docx");
+
+ for (DigitalSignature digitalSignature : doc.getDigitalSignatures())
+ {
+     String signatureValue = Base64.getEncoder().encodeToString(digitalSignature.getSignatureValue());
+     Assert.assertEquals("K1cVLLg2kbJRAzT5WK+m++G8eEO+l7S+5ENdjMxxTXkFzGUfvwxREuJdSFj9AbD" +
+             "MhnGvDURv9KEhC25DDF1al8NRVR71TF3CjHVZXpYu7edQS5/yLw/k5CiFZzCp1+MmhOdYPcVO+Fm" +
+             "+9fKr2iNLeyYB+fgEeZHfTqTFM2WwAqo=", signatureValue);
+ }
+ 
+```
+
+**Returns:**
+byte[] - Массив байтов, представляющих значение подписи.
+### getSubjectName() {#getSubjectName}
 ```
 public String getSubjectName()
 ```
 
 
-Возвращает различающееся имя субъекта сертификата, который использовался для подписи документа.
+Возвращает отличительное имя субъекта сертификата, который использовался для подписи документа.
 
-**Возвращает:**
-java.lang.String — различающееся имя субъекта сертификата, который использовался для подписи документа.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как подписывать документы с помощью сертификатов X.509.
+
 ```
-public native int hashCode()
+
+ // Verify that a document is not signed.
+ Assert.assertFalse(FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx").hasDigitalSignature());
+
+ // Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignTime(new Date());
+
+ // There are two ways of saving a signed copy of a document to the local file system:
+ // 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
+ DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "Document.DigitalSignature.docx",
+         certificateHolder, signOptions);
+
+ Assert.assertTrue(FileFormatUtil.detectFileFormat(getArtifactsDir() + "Document.DigitalSignature.docx").hasDigitalSignature());
+
+ // 2 - Take a document from a stream, and save a signed copy to another stream.
+ InputStream inDoc = new FileInputStream(getMyDir() + "Document.docx");
+ try {
+     OutputStream outDoc = new FileOutputStream(getArtifactsDir() + "Document.DigitalSignature.docx");
+     try {
+         DigitalSignatureUtil.sign(inDoc, outDoc, certificateHolder);
+     } finally {
+         if (outDoc != null) outDoc.close();
+     }
+ } finally {
+     if (inDoc != null) inDoc.close();
+ }
+
+ Assert.assertTrue(FileFormatUtil.detectFileFormat(getArtifactsDir() + "Document.DigitalSignature.docx").hasDigitalSignature());
+
+ // Please verify that all of the document's digital signatures are valid and check their details.
+ Document signedDoc = new Document(getArtifactsDir() + "Document.DigitalSignature.docx");
+ DigitalSignatureCollection digitalSignatureCollection = signedDoc.getDigitalSignatures();
+
+ Assert.assertTrue(digitalSignatureCollection.isValid());
+ Assert.assertEquals(1, digitalSignatureCollection.getCount());
+ Assert.assertEquals(DigitalSignatureType.XML_DSIG, digitalSignatureCollection.get(0).getSignatureType());
+ Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getIssuerName());
+ Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getSubjectName());
+ 
+```
+
+**Returns:**
+java.lang.String - Отличительное имя субъекта сертификата, который использовался для подписи документа.
+### getVerticalResolution() {#getVerticalResolution}
+```
+public int getVerticalResolution()
 ```
 
 
+Получает вертикальное разрешение цифровой подписи.
+
+**Returns:**
+int — вертикальное разрешение для цифровой подписи.
+### getWindowsVersion() {#getWindowsVersion}
+```
+public String getWindowsVersion()
+```
 
 
-**Возвращает:**
-инт
-### isValid() {#isValid--}
+Получает версию Windows для цифровой подписи.
+
+**Returns:**
+java.lang.String — версия Windows для цифровой подписи.
+### isValid() {#isValid}
 ```
 public boolean isValid()
 ```
 
 
-Возвращает true, если эта цифровая подпись действительна и документ не был подделан.
+Возвращает  true  если эта цифровая подпись действительна и документ не был изменён.
 
-**Возвращает:**
-boolean — Истинно, если эта цифровая подпись действительна и документ не был подделан.
-### notify() {#notify--}
-```
-public final native void notify()
-```
+ **Examples:** 
 
+Показывает, как проверять и отображать информацию о каждой подписи в документе.
 
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
 ```
 
+ Document doc = new Document(getMyDir() + "Digitally signed.docx");
 
+ for (DigitalSignature signature : doc.getDigitalSignatures()) {
+     System.out.println("*** Signature Found ***");
+     System.out.println("Is valid: " + signature.isValid());
+     // This property is available in MS Word documents only
+     System.out.println("Reason for signing: " + signature.getComments());
+     System.out.println("Signature type: " + signature.getSignatureType());
+     System.out.println("Time of signing: " + signature.getSignTime());
+     System.out.println("Subject name: " + signature.getSubjectName());
+     System.out.println("Issuer name: " + signature.getIssuerName());
+     System.out.println();
+ }
+ 
+```
 
-
-### toString() {#toString--}
+**Returns:**
+boolean -  true  если эта цифровая подпись действительна и документ не был изменён.
+### toString() {#toString}
 ```
 public String toString()
 ```
 
 
-Возвращает удобную для пользователя строку, отображающую значение этого объекта.
+Возвращает удобочитаемую строку, отображающую значение этого объекта.
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

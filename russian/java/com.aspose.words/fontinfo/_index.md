@@ -1,71 +1,70 @@
 ---
-title: FontInfo
-second_title: Справочник по API Aspose.Words для Java
-description: Задает информацию о шрифте, используемом в документе.
+title: "FontInfo"
+linktitle: "FontInfo"
+second_title: "Aspose.Words для Java"
+description: "Указывает информацию о шрифте, используемом в документе на Java."
 type: docs
-weight: 280
+weight: 326
 url: /ru/java/com.aspose.words/fontinfo/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class FontInfo implements Cloneable
 ```
 
-Задает информацию о шрифте, используемом в документе.
+Указывает информацию о шрифте, используемом в документе.
 
- Чтобы узнать больше, посетите**Working with Fonts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fonts ][Working with Fonts].
 
-Вы не создаете экземпляры этого класса напрямую. Использовать[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) для доступа к коллекции шрифтов, определенных в документе.
+ **Remarks:** 
+
+Вы не создаете экземпляры этого класса напрямую. Используйте свойство [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) для доступа к коллекции шрифтов, определенных в документе.
+
+ **Examples:** 
+
+Показывает, как вывести детали о шрифтах, присутствующих в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAltName()](#getAltName--) | Получает альтернативное имя шрифта. |
-| [getCharset()](#getCharset--) | Получает набор символов для шрифта. |
-| [getClass()](#getClass--) |  |
-| [getEmbeddedFont(int format, int style)](#getEmbeddedFont-int-int-) |  |
-| [getEmbeddedFontAsOpenType(int style)](#getEmbeddedFontAsOpenType-int-) |  |
-| [getFamily()](#getFamily--) | Получает семейство шрифтов, к которому принадлежит этот шрифт. |
-| [getName()](#getName--) | Получает имя шрифта. |
-| [getPanose()](#getPanose--) | Получает классификационный номер шрифта PANOSE. |
-| [getPitch()](#getPitch--) | Шаг указывает, является ли шрифт фиксированным шагом, пропорционально расположенным или зависит от настройки по умолчанию. |
-| [hashCode()](#hashCode--) |  |
-| [isTrueType()](#isTrueType--) | Указывает, что этот шрифт является шрифтом TrueType или OpenType, а не растровым или векторным шрифтом. |
-| [isTrueType(boolean value)](#isTrueType-boolean-) | Указывает, что этот шрифт является шрифтом TrueType или OpenType, а не растровым или векторным шрифтом. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAltName(String value)](#setAltName-java.lang.String-) | Устанавливает альтернативное имя для шрифта. |
-| [setCharset(int value)](#setCharset-int-) | Устанавливает набор символов для шрифта. |
-| [setFamily(int value)](#setFamily-int-) | Устанавливает семейство шрифтов, к которому принадлежит этот шрифт. |
-| [setPanose(byte[] value)](#setPanose-byte---) | Устанавливает классификационный номер шрифта PANOSE. |
-| [setPitch(int value)](#setPitch-int-) | Шаг указывает, является ли шрифт фиксированным шагом, пропорционально расположенным или зависит от настройки по умолчанию. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAltName() {#getAltName--}
+| [getAltName()](#getAltName) | Получает альтернативное имя шрифта. |
+| [getCharset()](#getCharset) | Получает набор символов шрифта. |
+| [getEmbeddedFont(int format, int style)](#getEmbeddedFont-int-int) |  |
+| [getEmbeddedFontAsOpenType(int style)](#getEmbeddedFontAsOpenType-int) |  |
+| [getEmbeddingLicensingRights()](#getEmbeddingLicensingRights) | Получает права лицензии встроенного шрифта. |
+| [getFamily()](#getFamily) | Получает семейство шрифтов, к которому относится данный шрифт. |
+| [getName()](#getName) | Получает название шрифта. |
+| [getPanose()](#getPanose) | Получает номер классификации гарнитуры PANOSE. |
+| [getPitch()](#getPitch) | Шаг указывает, фиксирован ли шрифт, пропорционально распределён или использует настройку по умолчанию. |
+| [isTrueType()](#isTrueType) | Указывает, что данный шрифт является TrueType или OpenType, а не растровым или векторным шрифтом. |
+| [isTrueType(boolean value)](#isTrueType-boolean) | Указывает, что данный шрифт является TrueType или OpenType, а не растровым или векторным шрифтом. |
+| [setAltName(String value)](#setAltName-java.lang.String) | Устанавливает альтернативное имя шрифта. |
+| [setCharset(int value)](#setCharset-int) | Устанавливает набор символов шрифта. |
+| [setFamily(int value)](#setFamily-int) | Устанавливает семейство шрифтов, к которому относится данный шрифт. |
+| [setPanose(byte[] value)](#setPanose-byte) | Устанавливает номер классификации шрифта PANOSE. |
+| [setPitch(int value)](#setPitch-int) | Шаг указывает, фиксирован ли шрифт, пропорционально распределён или использует настройку по умолчанию. |
+### getAltName() {#getAltName}
 ```
 public String getAltName()
 ```
@@ -73,31 +72,95 @@ public String getAltName()
 
 Получает альтернативное имя шрифта.
 
-Не может быть нулевым. Может быть пустой строкой.
+ **Remarks:** 
 
-**Возвращает:**
-java.lang.String — альтернативное имя шрифта.
-### getCharset() {#getCharset--}
+Не может быть  null . Может быть пустой строкой.
+
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Returns:**
+java.lang.String - Альтернативное название шрифта.
+### getCharset() {#getCharset}
 ```
 public int getCharset()
 ```
 
 
-Получает набор символов для шрифта.
+Получает набор символов шрифта.
 
-**Возвращает:**
-int — набор символов для шрифта.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getEmbeddedFont(int format, int style) {#getEmbeddedFont-int-int-}
+**Returns:**
+int - Набор символов для шрифта.
+### getEmbeddedFont(int format, int style) {#getEmbeddedFont-int-int}
 ```
 public byte[] getEmbeddedFont(int format, int style)
 ```
@@ -105,16 +168,15 @@ public byte[] getEmbeddedFont(int format, int style)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| format | int |  |
-| style | int |  |
+| формат | int |  |
+| стиль | int |  |
 
-**Возвращает:**
-байт[]
-### getEmbeddedFontAsOpenType(int style) {#getEmbeddedFontAsOpenType-int-}
+**Returns:**
+byte[]
+### getEmbeddedFontAsOpenType(int style) {#getEmbeddedFontAsOpenType-int}
 ```
 public byte[] getEmbeddedFontAsOpenType(int style)
 ```
@@ -122,229 +184,533 @@ public byte[] getEmbeddedFontAsOpenType(int style)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | int |  |
+| стиль | int |  |
 
-**Возвращает:**
-байт[]
-### getFamily() {#getFamily--}
+**Returns:**
+byte[]
+### getEmbeddingLicensingRights() {#getEmbeddingLicensingRights}
+```
+public FontEmbeddingLicensingRights getEmbeddingLicensingRights()
+```
+
+
+Получает права лицензии встроенного шрифта.
+
+ **Remarks:** 
+
+Значение может быть null, если шрифт не внедрён.
+
+ **Examples:** 
+
+Показывает, как получить информацию о правах лицензии для внедрённых шрифтов (FontInfo).
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font rights.docx");
+
+ // Get the list of document fonts.
+ FontInfoCollection fontInfos = doc.getFontInfos();
+ for (FontInfo fontInfo : fontInfos)
+ {
+     if (fontInfo.getEmbeddingLicensingRights() != null)
+     {
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getEmbeddingUsagePermissions());
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getBitmapEmbeddingOnly());
+         System.out.println(fontInfo.getEmbeddingLicensingRights().getNoSubsetting());
+     }
+ }
+ 
+```
+
+**Returns:**
+[FontEmbeddingLicensingRights](../../com.aspose.words/fontembeddinglicensingrights/) - The embedded font licensing rights.
+### getFamily() {#getFamily}
 ```
 public int getFamily()
 ```
 
 
-Получает семейство шрифтов, к которому принадлежит этот шрифт.
+Получает семейство шрифтов, к которому относится данный шрифт.
 
-**Возвращает:**
- int — семейство шрифтов, к которому принадлежит этот шрифт. Возвращаемое значение является одним из[FontFamily](../../com.aspose.words/fontfamily) константы.
-### getName() {#getName--}
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Returns:**
+int - Семейство шрифтов, к которому принадлежит данный шрифт. Возвращаемое значение является одной из констант [FontFamily](../../com.aspose.words/fontfamily/).
+### getName() {#getName}
 ```
 public String getName()
 ```
 
 
-Получает имя шрифта.
+Получает название шрифта.
 
-Не может быть нулевым. Может быть пустой строкой.
+ **Remarks:** 
 
-**Возвращает:**
-java.lang.String — Имя шрифта.
-### getPanose() {#getPanose--}
+Не может быть  null . Может быть пустой строкой.
+
+ **Examples:** 
+
+Показывает, как вывести детали о шрифтах, присутствующих в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
+
+**Returns:**
+java.lang.String - Название шрифта.
+### getPanose() {#getPanose}
 ```
 public byte[] getPanose()
 ```
 
 
-Получает классификационный номер шрифта PANOSE.
+Получает номер классификации гарнитуры PANOSE.
 
-PANOSE — это компактное 10-байтовое описание важнейших визуальных характеристик шрифта, таких как контрастность, насыщенность и стиль с засечками. Цифры обозначают вид семейства, стиль засечек, толщину, пропорцию, контраст, вариацию штриха, стиль руки, форму буквы, среднюю линию и высоту по оси X.
+ **Remarks:** 
 
-Может быть нулевым.
+PANOSE — это компактное 10‑байтовое описание критических визуальных характеристик шрифта, таких как контраст, толщина и стиль засечек. Цифры представляют тип семейства, стиль засечек, толщину, пропорцию, контраст, вариацию штриха, стиль рукоятки, форму букв, среднюю линию и высоту x.
 
-**Возвращает:**
-байт[] - Классификационный номер шрифта PANOSE.
-### getPitch() {#getPitch--}
+Может быть  null .
+
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Returns:**
+byte[] - Номер классификации шрифта PANOSE.
+### getPitch() {#getPitch}
 ```
 public int getPitch()
 ```
 
 
-Шаг указывает, является ли шрифт фиксированным шагом, пропорционально расположенным или зависит от настройки по умолчанию.
+Шаг указывает, фиксирован ли шрифт, пропорционально распределён или использует настройку по умолчанию.
 
-**Возвращает:**
- int - соответствующее значение int. Возвращаемое значение является одним из[FontPitch](../../com.aspose.words/fontpitch) константы.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### isTrueType() {#isTrueType--}
+**Returns:**
+int - Соответствующее значение  int . Возвращаемое значение является одной из констант [FontPitch](../../com.aspose.words/fontpitch/).
+### isTrueType() {#isTrueType}
 ```
 public boolean isTrueType()
 ```
 
 
-Указывает, что этот шрифт является шрифтом TrueType или OpenType, а не растровым или векторным шрифтом. Значение по умолчанию верно.
+Указывает, что этот шрифт является TrueType или OpenType, а не растровым или векторным шрифтом. По умолчанию —  true .
 
-**Возвращает:**
-boolean - соответствующее логическое значение.
-### isTrueType(boolean value) {#isTrueType-boolean-}
+ **Examples:** 
+
+Показывает, как вывести детали о шрифтах, присутствующих в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
+
+**Returns:**
+boolean - Соответствующее  boolean  значение.
+### isTrueType(boolean value) {#isTrueType-boolean}
 ```
 public void isTrueType(boolean value)
 ```
 
 
-Указывает, что этот шрифт является шрифтом TrueType или OpenType, а не растровым или векторным шрифтом. Значение по умолчанию верно.
+Указывает, что этот шрифт является TrueType или OpenType, а не растровым или векторным шрифтом. По умолчанию —  true .
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вывести детали о шрифтах, присутствующих в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | boolean | Соответствующее логическое значение. |
+| значение | boolean | Соответствующее  boolean  значение. |
 
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### setAltName(String value) {#setAltName-java.lang.String-}
+### setAltName(String value) {#setAltName-java.lang.String}
 ```
 public void setAltName(String value)
 ```
 
 
-Устанавливает альтернативное имя для шрифта.
+Устанавливает альтернативное имя шрифта.
 
-Не может быть нулевым. Может быть пустой строкой.
+ **Remarks:** 
 
-**Параметры:**
+Не может быть  null . Может быть пустой строкой.
 
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.lang.String | Альтернативное имя шрифта. |
+| значение | java.lang.String | Альтернативное название шрифта. |
 
-### setCharset(int value) {#setCharset-int-}
+### setCharset(int value) {#setCharset-int}
 ```
 public void setCharset(int value)
 ```
 
 
-Устанавливает набор символов для шрифта.
+Устанавливает набор символов шрифта.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int | Набор символов для шрифта. |
+| значение | int | Набор символов для шрифта. |
 
-### setFamily(int value) {#setFamily-int-}
+### setFamily(int value) {#setFamily-int}
 ```
 public void setFamily(int value)
 ```
 
 
-Устанавливает семейство шрифтов, к которому принадлежит этот шрифт.
+Устанавливает семейство шрифтов, к которому относится данный шрифт.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Семейство шрифтов, к которому принадлежит этот шрифт. Значение должно быть одним из[FontFamily](../../com.aspose.words/fontfamily) константы. |
+| value | int | Семейство шрифтов, к которому принадлежит данный шрифт. Значение должно быть одной из констант [FontFamily](../../com.aspose.words/fontfamily/). |
 
-### setPanose(byte[] value) {#setPanose-byte---}
+### setPanose(byte[] value) {#setPanose-byte}
 ```
 public void setPanose(byte[] value)
 ```
 
 
-Устанавливает классификационный номер шрифта PANOSE.
+Устанавливает номер классификации шрифта PANOSE.
 
-PANOSE — это компактное 10-байтовое описание важнейших визуальных характеристик шрифта, таких как контрастность, насыщенность и стиль с засечками. Цифры обозначают вид семейства, стиль засечек, толщину, пропорцию, контраст, вариацию штриха, стиль руки, форму буквы, среднюю линию и высоту по оси X.
+ **Remarks:** 
 
-Может быть нулевым.
+PANOSE — это компактное 10‑байтовое описание критических визуальных характеристик шрифта, таких как контраст, толщина и стиль засечек. Цифры представляют тип семейства, стиль засечек, толщину, пропорцию, контраст, вариацию штриха, стиль рукоятки, форму букв, среднюю линию и высоту x.
 
-**Параметры:**
+Может быть  null .
 
+ **Examples:** 
+
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | byte[] | Классификационный номер шрифта PANOSE. |
+| значение | byte[] | Номер классификации шрифта PANOSE. |
 
-### setPitch(int value) {#setPitch-int-}
+### setPitch(int value) {#setPitch-int}
 ```
 public void setPitch(int value)
 ```
 
 
-Шаг указывает, является ли шрифт фиксированным шагом, пропорционально расположенным или зависит от настройки по умолчанию.
+Шаг указывает, фиксирован ли шрифт, пропорционально распределён или использует настройку по умолчанию.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как получить доступ и вывести детали каждого шрифта в документе.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | int |  Соответствующее целочисленное значение. Значение должно быть одним из[FontPitch](../../com.aspose.words/fontpitch) константы. |
+| value | int | Соответствующее значение  int . Значение должно быть одной из констант [FontPitch](../../com.aspose.words/fontpitch/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

@@ -1,46 +1,96 @@
 ---
-title: SdtListItemCollection
-second_title: Справочник по API Aspose.Words для Java
-description: Предоставляет доступ к элементам тега структурированного документа.
+title: "SdtListItemCollection"
+linktitle: "SdtListItemCollection"
+second_title: "Aspose.Words для Java"
+description: "Предоставляет доступ к элементам SdtListItem структурированного тега документа в Java."
 type: docs
-weight: 507
+weight: 603
 url: /ru/java/com.aspose.words/sdtlistitemcollection/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class SdtListItemCollection implements Cloneable, Iterable
 ```
 
- Обеспечивает доступ к[SdtListItem](../../com.aspose.words/sdtlistitem) элементы тега структурированного документа.
+Предоставляет доступ к элементам [SdtListItem](../../com.aspose.words/sdtlistitem/) структурированного тега документа.
 
- Чтобы узнать больше, посетите**Structured Document Tags or Content Control** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control].
+
+ **Examples:** 
+
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
+```
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
+```
+
+
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [add(SdtListItem item)](#add-com.aspose.words.SdtListItem-) | Добавляет элемент в эту коллекцию. |
-| [clear()](#clear--) | Удаляет все элементы из этой коллекции. |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) |  Возвращает[SdtListItem](../../com.aspose.words/sdtlistitem) объект с отсчитываемым от нуля индексом в коллекции. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Получает количество элементов в коллекции. |
-| [getSelectedValue()](#getSelectedValue--) | Определяет текущее выбранное значение в этом списке. |
-| [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции. |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Удаляет элемент списка по указанному индексу. |
-| [setSelectedValue(SdtListItem value)](#setSelectedValue-com.aspose.words.SdtListItem-) | Определяет текущее выбранное значение в этом списке. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(SdtListItem item) {#add-com.aspose.words.SdtListItem-}
+| [add(SdtListItem item)](#add-com.aspose.words.SdtListItem) | Добавляет элемент в эту коллекцию. |
+| [clear()](#clear) | Очищает все элементы из этой коллекции. |
+| [get(int index)](#get-int) | Возвращает объект [SdtListItem](../../com.aspose.words/sdtlistitem/), заданный его нулевым индексом в коллекции. |
+| [getCount()](#getCount) | Получает количество элементов в коллекции. |
+| [getSelectedValue()](#getSelectedValue) | Указывает текущо выбранное значение в этом списке. |
+| [iterator()](#iterator) | Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции. |
+| [removeAt(int index)](#removeAt-int) | Удаляет элемент списка по указанному индексу. |
+| [setSelectedValue(SdtListItem value)](#setSelectedValue-com.aspose.words.SdtListItem) | Указывает текущо выбранное значение в этом списке. |
+### add(SdtListItem item) {#add-com.aspose.words.SdtListItem}
 ```
 public void add(SdtListItem item)
 ```
@@ -48,63 +98,200 @@ public void add(SdtListItem item)
 
 Добавляет элемент в эту коллекцию.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
+```
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | [SdtListItem](../../com.aspose.words/sdtlistitem) |  |
+| item | [SdtListItem](../../com.aspose.words/sdtlistitem/) |  |
 
-### clear() {#clear--}
+### clear() {#clear}
 ```
 public void clear()
 ```
 
 
-Удаляет все элементы из этой коллекции.
+Очищает все элементы из этой коллекции.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
+ **Examples:** 
+
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
 ```
-public boolean equals(Object arg0)
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
 ```
 
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### get(int index) {#get-int-}
+### get(int index) {#get-int}
 ```
 public SdtListItem get(int index)
 ```
 
 
- Возвращает[SdtListItem](../../com.aspose.words/sdtlistitem) объект с отсчитываемым от нуля индексом в коллекции.
+Возвращает объект [SdtListItem](../../com.aspose.words/sdtlistitem/), заданный его нулевым индексом в коллекции.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
+```
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int |  |
+| индекс | int |  |
 
-**Возвращает:**
-[SdtListItem](../../com.aspose.words/sdtlistitem) - А[SdtListItem](../../com.aspose.words/sdtlistitem) объект с отсчитываемым от нуля индексом в коллекции.
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getCount() {#getCount--}
+**Returns:**
+[SdtListItem](../../com.aspose.words/sdtlistitem/) - A [SdtListItem](../../com.aspose.words/sdtlistitem/) object given its zero-based index in the collection.
+### getCount() {#getCount}
 ```
 public int getCount()
 ```
@@ -112,55 +299,194 @@ public int getCount()
 
 Получает количество элементов в коллекции.
 
-**Возвращает:**
-int - количество элементов в коллекции.
-### getSelectedValue() {#getSelectedValue--}
+ **Examples:** 
+
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
+```
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
+```
+
+**Returns:**
+int - Количество элементов в коллекции.
+### getSelectedValue() {#getSelectedValue}
 ```
 public SdtListItem getSelectedValue()
 ```
 
 
-Определяет текущее выбранное значение в этом списке. Допускается нулевое значение, означающее, что ни одна выбранная в данный момент запись не связана с этой коллекцией элементов списка.
+Указывает текущо выбранное значение в этом списке. Допустимо значение null, что означает отсутствие текущего выбранного элемента, связанного с этой коллекцией элементов списка.
 
-**Возвращает:**
-[SdtListItem](../../com.aspose.words/sdtlistitem) - соответствующий[SdtListItem](../../com.aspose.words/sdtlistitem) ценность.
-### hashCode() {#hashCode--}
+ **Examples:** 
+
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
 ```
-public native int hashCode()
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
 ```
 
-
-
-
-**Возвращает:**
-инт
-### iterator() {#iterator--}
+**Returns:**
+[SdtListItem](../../com.aspose.words/sdtlistitem/) - The corresponding [SdtListItem](../../com.aspose.words/sdtlistitem/) value.
+### iterator() {#iterator}
 ```
 public Iterator iterator()
 ```
 
 
-Возвращает объект итератора, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект-итератор, который можно использовать для перебора всех элементов в коллекции.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
+```
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
+```
+
+**Returns:**
 java.util.Iterator
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### removeAt(int index) {#removeAt-int-}
+### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
 ```
@@ -168,69 +494,131 @@ public void removeAt(int index)
 
 Удаляет элемент списка по указанному индексу.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
+```
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | int | Отсчитываемый от нуля индекс удаляемого элемента. |
+| индекс | int | Нулевой индекс элемента, который следует удалить. |
 
-### setSelectedValue(SdtListItem value) {#setSelectedValue-com.aspose.words.SdtListItem-}
+### setSelectedValue(SdtListItem value) {#setSelectedValue-com.aspose.words.SdtListItem}
 ```
 public void setSelectedValue(SdtListItem value)
 ```
 
 
-Определяет текущее выбранное значение в этом списке. Допускается нулевое значение, означающее, что ни одна выбранная в данный момент запись не связана с этой коллекцией элементов списка.
+Указывает текущо выбранное значение в этом списке. Допустимо значение null, что означает отсутствие текущего выбранного элемента, связанного с этой коллекцией элементов списка.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как работать со структурированными тегами документа типа выпадающий список.
+
+```
+
+ Document doc = new Document();
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ // A drop-down list structured document tag is a form that allows the user to
+ // select an option from a list by left-clicking and opening the form in Microsoft Word.
+ // The "ListItems" property contains all list items, and each list item is an "SdtListItem".
+ SdtListItemCollection listItems = tag.getListItems();
+ listItems.add(new SdtListItem("Value 1"));
+
+ Assert.assertEquals(listItems.get(0).getDisplayText(), listItems.get(0).getValue());
+
+ // Add 3 more list items. Initialize these items using a different constructor to the first item
+ // to display strings that are different from their values.
+ listItems.add(new SdtListItem("Item 2", "Value 2"));
+ listItems.add(new SdtListItem("Item 3", "Value 3"));
+ listItems.add(new SdtListItem("Item 4", "Value 4"));
+
+ Assert.assertEquals(4, listItems.getCount());
+
+ // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
+ listItems.setSelectedValue(listItems.get(3));
+
+ Assert.assertEquals(listItems.getSelectedValue().getValue(), "Value 4");
+
+ // Enumerate over the collection and print each element.
+ Iterator enumerator = listItems.iterator();
+ while (enumerator.hasNext()) {
+     SdtListItem sdtListItem = enumerator.next();
+     System.out.println(MessageFormat.format("List item: {0}, value: {1}", sdtListItem.getDisplayText(), sdtListItem.getValue()));
+ }
+
+ // Remove the last list item.
+ listItems.removeAt(3);
+
+ Assert.assertEquals(3, listItems.getCount());
+
+ // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
+ listItems.setSelectedValue(listItems.get(1));
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.ListItemCollection.docx");
+
+ // Use the "Clear" method to empty the entire drop-down item collection at once.
+ listItems.clear();
+
+ Assert.assertEquals(0, listItems.getCount());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [SdtListItem](../../com.aspose.words/sdtlistitem) |  Соответствующий[SdtListItem](../../com.aspose.words/sdtlistitem) ценность. |
+| value | [SdtListItem](../../com.aspose.words/sdtlistitem/) | Соответствующее значение [SdtListItem](../../com.aspose.words/sdtlistitem/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

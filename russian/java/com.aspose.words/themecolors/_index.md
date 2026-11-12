@@ -1,444 +1,1501 @@
 ---
-title: ThemeColors
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет цветовую схему темы документа, которая содержит двенадцать цветов.
+title: "ThemeColors"
+linktitle: "ThemeColors"
+second_title: "Aspose.Words для Java"
+description: "Представляет цветовую схему темы документа, содержащую двенадцать цветов в Java."
 type: docs
-weight: 575
+weight: 684
 url: /ru/java/com.aspose.words/themecolors/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 
-**Все реализованные интерфейсы:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ThemeColors implements Cloneable
 ```
 
-Представляет цветовую схему темы документа, которая содержит двенадцать цветов.
+Представляет цветовую схему темы документа, содержащую двенадцать цветов.
 
-Объект ThemeColors содержит шесть акцентных цветов, два темных цвета, два светлых цвета и цвет для каждой гиперссылки и последующей гиперссылки.
+[ThemeColors](../../com.aspose.words/themecolors/) object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink.
+
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAccent1()](#getAccent1--) | Определяет акцент цвета 1. |
-| [getAccent2()](#getAccent2--) | Определяет цветовой акцент 2. |
-| [getAccent3()](#getAccent3--) | Определяет цветовой акцент 3. |
-| [getAccent4()](#getAccent4--) | Определяет цветовой акцент 4. |
-| [getAccent5()](#getAccent5--) | Определяет цветовой акцент 5. |
-| [getAccent6()](#getAccent6--) | Определяет цвет Акцент 6. |
-| [getClass()](#getClass--) |  |
-| [getDark1()](#getDark1--) | Определяет цвет Темный 1. |
-| [getDark2()](#getDark2--) | Определяет цвет Темный 2. |
-| [getFollowedHyperlink()](#getFollowedHyperlink--) | Определяет цвет гиперссылки, по которой щелкнули. |
-| [getHyperlink()](#getHyperlink--) | Задает цвет для гиперссылки. |
-| [getLight1()](#getLight1--) | Определяет цвет Light 1. |
-| [getLight2()](#getLight2--) | Определяет цвет Light 2. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setAccent1(Color value)](#setAccent1-java.awt.Color-) | Определяет акцент цвета 1. |
-| [setAccent2(Color value)](#setAccent2-java.awt.Color-) | Определяет цветовой акцент 2. |
-| [setAccent3(Color value)](#setAccent3-java.awt.Color-) | Определяет цветовой акцент 3. |
-| [setAccent4(Color value)](#setAccent4-java.awt.Color-) | Определяет цветовой акцент 4. |
-| [setAccent5(Color value)](#setAccent5-java.awt.Color-) | Определяет цветовой акцент 5. |
-| [setAccent6(Color value)](#setAccent6-java.awt.Color-) | Определяет цвет Акцент 6. |
-| [setDark1(Color value)](#setDark1-java.awt.Color-) | Определяет цвет Темный 1. |
-| [setDark2(Color value)](#setDark2-java.awt.Color-) | Определяет цвет Темный 2. |
-| [setFollowedHyperlink(Color value)](#setFollowedHyperlink-java.awt.Color-) | Определяет цвет гиперссылки, по которой щелкнули. |
-| [setHyperlink(Color value)](#setHyperlink-java.awt.Color-) | Задает цвет для гиперссылки. |
-| [setLight1(Color value)](#setLight1-java.awt.Color-) | Определяет цвет Light 1. |
-| [setLight2(Color value)](#setLight2-java.awt.Color-) | Определяет цвет Light 2. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### getAccent1() {#getAccent1--}
+| [getAccent1()](#getAccent1) | Указывает цвет Accent 1. |
+| [getAccent2()](#getAccent2) | Указывает цвет Accent 2. |
+| [getAccent3()](#getAccent3) | Указывает цвет Accent 3. |
+| [getAccent4()](#getAccent4) | Указывает цвет Accent 4. |
+| [getAccent5()](#getAccent5) | Указывает цвет Accent 5. |
+| [getAccent6()](#getAccent6) | Указывает цвет Accent 6. |
+| [getDark1()](#getDark1) | Указывает цвет Dark 1. |
+| [getDark2()](#getDark2) | Указывает цвет Dark 2. |
+| [getFollowedHyperlink()](#getFollowedHyperlink) | Указывает цвет для щелкнутой гиперссылки. |
+| [getHyperlink()](#getHyperlink) | Указывает цвет для гиперссылки. |
+| [getLight1()](#getLight1) | Указывает цвет Light 1. |
+| [getLight2()](#getLight2) | Указывает цвет Light 2. |
+| [setAccent1(Color value)](#setAccent1-java.awt.Color) | Указывает цвет Accent 1. |
+| [setAccent2(Color value)](#setAccent2-java.awt.Color) | Указывает цвет Accent 2. |
+| [setAccent3(Color value)](#setAccent3-java.awt.Color) | Указывает цвет Accent 3. |
+| [setAccent4(Color value)](#setAccent4-java.awt.Color) | Указывает цвет Accent 4. |
+| [setAccent5(Color value)](#setAccent5-java.awt.Color) | Указывает цвет Accent 5. |
+| [setAccent6(Color value)](#setAccent6-java.awt.Color) | Указывает цвет Accent 6. |
+| [setDark1(Color value)](#setDark1-java.awt.Color) | Указывает цвет Dark 1. |
+| [setDark2(Color value)](#setDark2-java.awt.Color) | Указывает цвет Dark 2. |
+| [setFollowedHyperlink(Color value)](#setFollowedHyperlink-java.awt.Color) | Указывает цвет для щелкнутой гиперссылки. |
+| [setHyperlink(Color value)](#setHyperlink-java.awt.Color) | Указывает цвет для гиперссылки. |
+| [setLight1(Color value)](#setLight1-java.awt.Color) | Указывает цвет Light 1. |
+| [setLight2(Color value)](#setLight2-java.awt.Color) | Указывает цвет Light 2. |
+### getAccent1() {#getAccent1}
 ```
 public Color getAccent1()
 ```
 
 
-Определяет акцент цвета 1.
+Указывает цвет Accent 1.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getAccent2() {#getAccent2--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getAccent2() {#getAccent2}
 ```
 public Color getAccent2()
 ```
 
 
-Определяет цветовой акцент 2.
+Указывает цвет Accent 2.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getAccent3() {#getAccent3--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getAccent3() {#getAccent3}
 ```
 public Color getAccent3()
 ```
 
 
-Определяет цветовой акцент 3.
+Указывает цвет Accent 3.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getAccent4() {#getAccent4--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getAccent4() {#getAccent4}
 ```
 public Color getAccent4()
 ```
 
 
-Определяет цветовой акцент 4.
+Указывает цвет Accent 4.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getAccent5() {#getAccent5--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getAccent5() {#getAccent5}
 ```
 public Color getAccent5()
 ```
 
 
-Определяет цветовой акцент 5.
+Указывает цвет Accent 5.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getAccent6() {#getAccent6--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getAccent6() {#getAccent6}
 ```
 public Color getAccent6()
 ```
 
 
-Определяет цвет Акцент 6.
+Указывает цвет Accent 6.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getClass() {#getClass--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
 ```
-public final native Class<?> getClass()
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getDark1() {#getDark1--}
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getDark1() {#getDark1}
 ```
 public Color getDark1()
 ```
 
 
-Определяет цвет Темный 1.
+Указывает цвет Dark 1.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getDark2() {#getDark2--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getDark2() {#getDark2}
 ```
 public Color getDark2()
 ```
 
 
-Определяет цвет Темный 2.
+Указывает цвет Dark 2.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getFollowedHyperlink() {#getFollowedHyperlink--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getFollowedHyperlink() {#getFollowedHyperlink}
 ```
 public Color getFollowedHyperlink()
 ```
 
 
-Определяет цвет гиперссылки, по которой щелкнули.
+Указывает цвет для щелкнутой гиперссылки.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getHyperlink() {#getHyperlink--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getHyperlink() {#getHyperlink}
 ```
 public Color getHyperlink()
 ```
 
 
-Задает цвет для гиперссылки.
+Указывает цвет для гиперссылки.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getLight1() {#getLight1--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getLight1() {#getLight1}
 ```
 public Color getLight1()
 ```
 
 
-Определяет цвет Light 1.
+Указывает цвет Light 1.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### getLight2() {#getLight2--}
+ **Examples:** 
+
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### getLight2() {#getLight2}
 ```
 public Color getLight2()
 ```
 
 
-Определяет цвет Light 2.
+Указывает цвет Light 2.
 
-**Возвращает:**
-java.awt.Color — соответствующее значение java.awt.Color.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
 
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
 
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
 
-### notifyAll() {#notifyAll--}
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setAccent1(Color value) {#setAccent1-java.awt.Color-}
+**Returns:**
+java.awt.Color - соответствующее значение java.awt.Color.
+### setAccent1(Color value) {#setAccent1-java.awt.Color}
 ```
 public void setAccent1(Color value)
 ```
 
 
-Определяет акцент цвета 1.
+Указывает цвет Accent 1.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setAccent2(Color value) {#setAccent2-java.awt.Color-}
+### setAccent2(Color value) {#setAccent2-java.awt.Color}
 ```
 public void setAccent2(Color value)
 ```
 
 
-Определяет цветовой акцент 2.
+Указывает цвет Accent 2.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setAccent3(Color value) {#setAccent3-java.awt.Color-}
+### setAccent3(Color value) {#setAccent3-java.awt.Color}
 ```
 public void setAccent3(Color value)
 ```
 
 
-Определяет цветовой акцент 3.
+Указывает цвет Accent 3.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setAccent4(Color value) {#setAccent4-java.awt.Color-}
+### setAccent4(Color value) {#setAccent4-java.awt.Color}
 ```
 public void setAccent4(Color value)
 ```
 
 
-Определяет цветовой акцент 4.
+Указывает цвет Accent 4.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setAccent5(Color value) {#setAccent5-java.awt.Color-}
+### setAccent5(Color value) {#setAccent5-java.awt.Color}
 ```
 public void setAccent5(Color value)
 ```
 
 
-Определяет цветовой акцент 5.
+Указывает цвет Accent 5.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setAccent6(Color value) {#setAccent6-java.awt.Color-}
+### setAccent6(Color value) {#setAccent6-java.awt.Color}
 ```
 public void setAccent6(Color value)
 ```
 
 
-Определяет цвет Акцент 6.
+Указывает цвет Accent 6.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setDark1(Color value) {#setDark1-java.awt.Color-}
+### setDark1(Color value) {#setDark1-java.awt.Color}
 ```
 public void setDark1(Color value)
 ```
 
 
-Определяет цвет Темный 1.
+Указывает цвет Dark 1.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setDark2(Color value) {#setDark2-java.awt.Color-}
+### setDark2(Color value) {#setDark2-java.awt.Color}
 ```
 public void setDark2(Color value)
 ```
 
 
-Определяет цвет Темный 2.
+Указывает цвет Dark 2.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setFollowedHyperlink(Color value) {#setFollowedHyperlink-java.awt.Color-}
+### setFollowedHyperlink(Color value) {#setFollowedHyperlink-java.awt.Color}
 ```
 public void setFollowedHyperlink(Color value)
 ```
 
 
-Определяет цвет гиперссылки, по которой щелкнули.
+Указывает цвет для щелкнутой гиперссылки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setHyperlink(Color value) {#setHyperlink-java.awt.Color-}
+### setHyperlink(Color value) {#setHyperlink-java.awt.Color}
 ```
 public void setHyperlink(Color value)
 ```
 
 
-Задает цвет для гиперссылки.
+Указывает цвет для гиперссылки.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setLight1(Color value) {#setLight1-java.awt.Color-}
+### setLight1(Color value) {#setLight1-java.awt.Color}
 ```
 public void setLight1(Color value)
 ```
 
 
-Определяет цвет Light 1.
+Указывает цвет Light 1.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### setLight2(Color value) {#setLight2-java.awt.Color-}
+### setLight2(Color value) {#setLight2-java.awt.Color}
 ```
 public void setLight2(Color value)
 ```
 
 
-Определяет цвет Light 2.
+Указывает цвет Light 2.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как задать пользовательские цвета и шрифты для тем.
+
+```
+
+ Document doc = new Document(getMyDir() + "Theme colors.docx");
+
+ // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
+ Theme theme = doc.getTheme();
+
+ // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
+ theme.getMajorFonts().setLatin("Courier New");
+ theme.getMinorFonts().setLatin("Agency FB");
+
+ // Other languages may also have their custom fonts in this theme.
+ Assert.assertEquals(theme.getMajorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMajorFonts().getEastAsian(), "");
+ Assert.assertEquals(theme.getMinorFonts().getComplexScript(), "");
+ Assert.assertEquals(theme.getMinorFonts().getEastAsian(), "");
+
+ // The "Colors" property contains the color palette from Microsoft Word,
+ // which appears when changing shading or font color.
+ // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
+ // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
+ // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
+ ThemeColors colors = theme.getColors();
+ colors.setDark1(Color.BLUE);
+ colors.setLight1(Color.GREEN);
+ colors.setDark2(Color.MAGENTA);
+ colors.setLight2(Color.BLACK);
+
+ colors.setAccent1(Color.RED);
+ colors.setAccent2(Color.PINK);
+ colors.setAccent3(Color.YELLOW);
+ colors.setAccent4(Color.orange);
+ colors.setAccent5(Color.cyan);
+ colors.setAccent6(Color.darkGray);
+
+ // Apply custom colors to hyperlinks in their clicked and un-clicked states.
+ colors.setHyperlink(Color.WHITE);
+ colors.setFollowedHyperlink(Color.lightGray);
+
+ doc.save(getArtifactsDir() + "Themes.CustomColorsAndFonts.docx");
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | java.awt.Color | Соответствующее значение java.awt.Color. |
+| значение | java.awt.Color | Соответствующее значение java.awt.Color. |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

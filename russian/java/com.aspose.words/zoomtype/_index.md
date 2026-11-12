@@ -1,53 +1,65 @@
 ---
-title: ZoomType
-second_title: Справочник по API Aspose.Words для Java
-description: Возможные значения размера документа, отображаемого на экране в Microsoft Word.
+title: "ZoomType"
+linktitle: "ZoomType"
+second_title: "Aspose.Words для Java"
+description: "Возможные значения того, насколько большой или маленький документ отображается на экране в Microsoft Word на Java."
 type: docs
-weight: 631
+weight: 751
 url: /ru/java/com.aspose.words/zoomtype/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ZoomType
 ```
 
-Возможные значения размера документа, отображаемого на экране в Microsoft Word.
+Возможные значения того, насколько большой или маленький документ отображается на экране в Microsoft Word.
+
+ **Examples:** 
+
+Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word применяют к документу при загрузке.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [CUSTOM](#CUSTOM) | Процент увеличения задается явно. |
-| [FULL_PAGE](#FULL-PAGE) | Процент увеличения автоматически пересчитывается, чтобы уместиться на одной полной странице. |
-| [NONE](#NONE) | Указывает на использование явного процента масштабирования. |
-| [PAGE_WIDTH](#PAGE-WIDTH) | Процент увеличения автоматически пересчитывается в соответствии с шириной страницы. |
-| [TEXT_FIT](#TEXT-FIT) | Процент увеличения автоматически пересчитывается, чтобы соответствовать тексту. |
+| [CUSTOM](#CUSTOM) | Процент масштабирования задаётся явно. |
+| [FULL_PAGE](#FULL-PAGE) | Процент масштабирования автоматически пересчитывается, чтобы поместить одну полную страницу. |
+| [NONE](#NONE) | Указывает использовать явный процент масштабирования. |
+| [PAGE_WIDTH](#PAGE-WIDTH) | Процент масштабирования автоматически пересчитывается, чтобы соответствовать ширине страницы. |
+| [TEXT_FIT](#TEXT-FIT) | Процент масштабирования автоматически пересчитывается, чтобы соответствовать тексту. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String zoomTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int zoomType)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int zoomType)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String zoomTypeName)](#fromName-java.lang.String) |  |
+| [getName(int zoomType)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int zoomType)](#toString-int) |  |
 ### CUSTOM {#CUSTOM}
 ```
 public static int CUSTOM
 ```
 
 
-Процент увеличения задается явно. Он не пересчитывается автоматически при изменении размера элемента управления.
+Процент масштабирования задаётся явно. Он не пересчитывается автоматически при изменении размера элемента управления.
 
 ### FULL_PAGE {#FULL-PAGE}
 ```
@@ -55,7 +67,7 @@ public static int FULL_PAGE
 ```
 
 
-Процент увеличения автоматически пересчитывается, чтобы уместиться на одной полной странице.
+Процент масштабирования автоматически пересчитывается, чтобы поместить одну полную страницу.
 
 ### NONE {#NONE}
 ```
@@ -63,7 +75,7 @@ public static int NONE
 ```
 
 
- Указывает на использование явного процента масштабирования. Такой же как[CUSTOM](../../com.aspose.words/zoomtype\#CUSTOM).
+Указывает использовать явный процент масштабирования. То же, что и [CUSTOM](../../com.aspose.words/zoomtype/\\#CUSTOM).
 
 ### PAGE_WIDTH {#PAGE-WIDTH}
 ```
@@ -71,7 +83,7 @@ public static int PAGE_WIDTH
 ```
 
 
-Процент увеличения автоматически пересчитывается в соответствии с шириной страницы.
+Процент масштабирования автоматически пересчитывается, чтобы соответствовать ширине страницы.
 
 ### TEXT_FIT {#TEXT-FIT}
 ```
@@ -79,7 +91,7 @@ public static int TEXT_FIT
 ```
 
 
-Процент увеличения автоматически пересчитывается, чтобы соответствовать тексту.
+Процент масштабирования автоматически пересчитывается, чтобы соответствовать тексту.
 
 ### length {#length}
 ```
@@ -87,23 +99,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String zoomTypeName) {#fromName-java.lang.String-}
+### fromName(String zoomTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String zoomTypeName)
 ```
@@ -111,25 +107,14 @@ public static int fromName(String zoomTypeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | zoomTypeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int zoomType) {#getName-int-}
+**Returns:**
+int
+### getName(int zoomType) {#getName-int}
 ```
 public static String getName(int zoomType)
 ```
@@ -137,15 +122,14 @@ public static String getName(int zoomType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | zoomType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -153,45 +137,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int zoomType) {#toString-int-}
+**Returns:**
+int[]
+### toString(int zoomType) {#toString-int}
 ```
 public static String toString(int zoomType)
 ```
@@ -199,47 +147,10 @@ public static String toString(int zoomType)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | zoomType | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

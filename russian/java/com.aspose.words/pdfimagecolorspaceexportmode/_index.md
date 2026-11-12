@@ -1,43 +1,66 @@
 ---
-title: PdfImageColorSpaceExportMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как цветовое пространство будет выбрано для изображений в документе PDF.
+title: "PdfImageColorSpaceExportMode"
+linktitle: "PdfImageColorSpaceExportMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как будет выбираться цветовое пространство для изображений в PDF‑документе на Java."
 type: docs
-weight: 456
+weight: 536
 url: /ru/java/com.aspose.words/pdfimagecolorspaceexportmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfImageColorSpaceExportMode
 ```
 
-Указывает, как цветовое пространство будет выбрано для изображений в документе PDF.
+Указывает, как будет выбран цветовое пространство для изображений в PDF‑документе.
+
+ **Examples:** 
+
+Показывает, как установить другое цветовое пространство для изображений в документе при экспорте в PDF.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Jpeg image:");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertParagraph();
+ builder.writeln("Png image:");
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+ // to modify how that method converts the document to .PDF.
+ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+
+ // Set the "ImageColorSpaceExportMode" property to "PdfImageColorSpaceExportMode.Auto" to get Aspose.Words to
+ // automatically select the color space for images in the document that it converts to PDF.
+ // In most cases, the color space will be RGB.
+ // Set the "ImageColorSpaceExportMode" property to "PdfImageColorSpaceExportMode.SimpleCmyk"
+ // to use the CMYK color space for all images in the saved PDF.
+ // Aspose.Words will also apply Flate compression to all images and ignore the "ImageCompression" property's value.
+ pdfSaveOptions.setImageColorSpaceExportMode(pdfImageColorSpaceExportMode);
+
+ doc.save(getArtifactsDir() + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveOptions);
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
 | [AUTO](#AUTO) | Aspose.Words автоматически выбирает наиболее подходящее цветовое пространство для каждого изображения. |
-| [SIMPLE_CMYK](#SIMPLE-CMYK) | Aspose.Words преобразует изображения RGB в цветовое пространство CMYK, используя простую формулу. |
+| [SIMPLE_CMYK](#SIMPLE-CMYK) | Aspose.Words преобразует RGB‑изображения в цветовое пространство CMYK, используя простую формулу. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String pdfImageColorSpaceExportModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int pdfImageColorSpaceExportMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int pdfImageColorSpaceExportMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String pdfImageColorSpaceExportModeName)](#fromName-java.lang.String) |  |
+| [getName(int pdfImageColorSpaceExportMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int pdfImageColorSpaceExportMode)](#toString-int) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
@@ -46,7 +69,9 @@ public static int AUTO
 
 Aspose.Words автоматически выбирает наиболее подходящее цветовое пространство для каждого изображения.
 
-Большинство изображений сохраняются в цветовом пространстве RGB. Также могут использоваться индексированные и оттенки серого цветовые пространства. Цветовое пространство CMYK никогда не используется.
+ **Remarks:** 
+
+Большинство изображений сохраняются в цветовом пространстве RGB. Также могут использоваться Indexed и Grayscale. Цветовое пространство CMYK никогда не используется.
 
 Для некоторых изображений цветовое пространство может отличаться на разных платформах.
 
@@ -56,9 +81,11 @@ public static int SIMPLE_CMYK
 ```
 
 
-Aspose.Words преобразует изображения RGB в цветовое пространство CMYK, используя простую формулу.
+Aspose.Words преобразует RGB‑изображения в цветовое пространство CMYK, используя простую формулу.
 
-Изображения в цветовом пространстве RGB преобразуются в CMYK по формуле: черный = минимум (1-красный, 1-зеленый, 1-синий). Голубой = (1-красный-черный)/(1-черный). Пурпурный = (1-зеленый-черный)/(1-черный). Желтый = (1-синий-черный)/(1-черный). Значения RGB нормализованы — они находятся в диапазоне от 0 до 1,0.
+ **Remarks:** 
+
+Изображения в цветовом пространстве RGB преобразуются в CMYK по формуле: Black = minimum(1-Red,1-Green,1-Blue). Cyan = (1-Red-Black)/(1-Black). Magenta = (1-Green-Black)/(1-Black). Yellow = (1-Blue-Black)/(1-Black). Значения RGB нормализованы — они находятся в диапазоне от 0 до 1.0.
 
 ### length {#length}
 ```
@@ -66,23 +93,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String pdfImageColorSpaceExportModeName) {#fromName-java.lang.String-}
+### fromName(String pdfImageColorSpaceExportModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String pdfImageColorSpaceExportModeName)
 ```
@@ -90,25 +101,14 @@ public static int fromName(String pdfImageColorSpaceExportModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfImageColorSpaceExportModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int pdfImageColorSpaceExportMode) {#getName-int-}
+**Returns:**
+int
+### getName(int pdfImageColorSpaceExportMode) {#getName-int}
 ```
 public static String getName(int pdfImageColorSpaceExportMode)
 ```
@@ -116,15 +116,14 @@ public static String getName(int pdfImageColorSpaceExportMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfImageColorSpaceExportMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -132,45 +131,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int pdfImageColorSpaceExportMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int pdfImageColorSpaceExportMode) {#toString-int}
 ```
 public static String toString(int pdfImageColorSpaceExportMode)
 ```
@@ -178,47 +141,10 @@ public static String toString(int pdfImageColorSpaceExportMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pdfImageColorSpaceExportMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

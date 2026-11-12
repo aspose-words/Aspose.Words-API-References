@@ -1,51 +1,93 @@
 ---
-title: MetafileRenderingMode
-second_title: Справочник по API Aspose.Words для Java
-description: Указывает, как Aspose.Words должен отображать метафайлы WMF и EMF.
+title: "MetafileRenderingMode"
+linktitle: "MetafileRenderingMode"
+second_title: "Aspose.Words для Java"
+description: "Указывает, как Aspose.Words должен рендерить метафайлы WMF и EMF в Java."
 type: docs
-weight: 396
+weight: 467
 url: /ru/java/com.aspose.words/metafilerenderingmode/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class MetafileRenderingMode
 ```
 
 Указывает, как Aspose.Words должен отображать метафайлы WMF и EMF.
+
+ **Examples:** 
+
+Показывает, что добавлен резервный режим рендеринга в bitmap и изменён тип предупреждений о неподдерживаемых записях метафайла.
+
+```
+
+ public void handleBinaryRasterWarnings() throws Exception {
+     Document doc = new Document(getMyDir() + "WMF with image.docx");
+
+     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+     // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+     // it encounters a metafile, which will require raster operations to render in the output PDF.
+     metafileRenderingOptions.setEmulateRasterOperations(false);
+
+     // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+     metafileRenderingOptions.setRenderingMode(MetafileRenderingMode.VECTOR_WITH_FALLBACK);
+
+     // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+     // to modify how that method converts the document to .PDF and applies the configuration
+     // in our MetafileRenderingOptions object to the saving operation.
+     PdfSaveOptions saveOptions = new PdfSaveOptions();
+     saveOptions.setMetafileRenderingOptions(metafileRenderingOptions);
+
+     HandleDocumentWarnings callback = new HandleDocumentWarnings();
+     doc.setWarningCallback(callback);
+
+     doc.save(getArtifactsDir() + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+     Assert.assertEquals(1, callback.mWarnings.getCount());
+     Assert.assertEquals("'R2_XORPEN' binary raster operation is not supported.",
+             callback.mWarnings.get(0).getDescription());
+ }
+
+ /// 
+ /// Prints and collects formatting loss-related warnings that occur upon saving a document.
+ /// 
+ public static class HandleDocumentWarnings implements IWarningCallback {
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.MINOR_FORMATTING_LOSS) {
+             System.out.println("Unsupported operation: " + info.getDescription());
+             this.mWarnings.warning(info);
+         }
+     }
+
+     public WarningInfoCollection mWarnings = new WarningInfoCollection();
+ }
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BITMAP](#BITMAP) | Aspose.Words вызывает GDI+ для преобразования метафайла в растровое изображение, а затем сохраняет растровое изображение в выходной документ. |
-| [VECTOR](#VECTOR) | Aspose.Words отображает метафайл как векторную графику. |
-| [VECTOR_WITH_FALLBACK](#VECTOR-WITH-FALLBACK) | Aspose.Words пытается отобразить метафайл как векторную графику. |
+| [BITMAP](#BITMAP) | Aspose.Words вызывает GDI+ для рендеринга метафайла в bitmap, а затем сохраняет bitmap в выходной документ. |
+| [VECTOR](#VECTOR) | Aspose.Words рендерит метафайл как векторную графику. |
+| [VECTOR_WITH_FALLBACK](#VECTOR-WITH-FALLBACK) | Aspose.Words пытается рендерить метафайл как векторную графику. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String metafileRenderingModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int metafileRenderingMode)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int metafileRenderingMode)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String metafileRenderingModeName)](#fromName-java.lang.String) |  |
+| [getName(int metafileRenderingMode)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int metafileRenderingMode)](#toString-int) |  |
 ### BITMAP {#BITMAP}
 ```
 public static int BITMAP
 ```
 
 
-Aspose.Words вызывает GDI+ для преобразования метафайла в растровое изображение, а затем сохраняет растровое изображение в выходной документ.
+Aspose.Words вызывает GDI+ для рендеринга метафайла в bitmap, а затем сохраняет bitmap в выходной документ.
 
 ### VECTOR {#VECTOR}
 ```
@@ -53,7 +95,7 @@ public static int VECTOR
 ```
 
 
-Aspose.Words отображает метафайл как векторную графику.
+Aspose.Words рендерит метафайл как векторную графику.
 
 ### VECTOR_WITH_FALLBACK {#VECTOR-WITH-FALLBACK}
 ```
@@ -61,7 +103,7 @@ public static int VECTOR_WITH_FALLBACK
 ```
 
 
-Aspose.Words пытается отобразить метафайл как векторную графику. Если Aspose.Words не может правильно преобразовать некоторые записи метафайла в векторную графику, Aspose.Words преобразует этот метафайл в растровое изображение.
+Aspose.Words пытается рендерить метафайл как векторную графику. Если Aspose.Words не может корректно отрендерить некоторые записи метафайла в векторную графику, то Aspose.Words рендерит этот метафайл в bitmap.
 
 ### length {#length}
 ```
@@ -69,23 +111,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String metafileRenderingModeName) {#fromName-java.lang.String-}
+### fromName(String metafileRenderingModeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String metafileRenderingModeName)
 ```
@@ -93,25 +119,14 @@ public static int fromName(String metafileRenderingModeName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | metafileRenderingModeName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int metafileRenderingMode) {#getName-int-}
+**Returns:**
+int
+### getName(int metafileRenderingMode) {#getName-int}
 ```
 public static String getName(int metafileRenderingMode)
 ```
@@ -119,15 +134,14 @@ public static String getName(int metafileRenderingMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | metafileRenderingMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -135,45 +149,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int metafileRenderingMode) {#toString-int-}
+**Returns:**
+int[]
+### toString(int metafileRenderingMode) {#toString-int}
 ```
 public static String toString(int metafileRenderingMode)
 ```
@@ -181,47 +159,10 @@ public static String toString(int metafileRenderingMode)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | metafileRenderingMode | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

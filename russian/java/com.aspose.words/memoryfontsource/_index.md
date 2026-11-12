@@ -1,112 +1,195 @@
 ---
-title: MemoryFontSource
-second_title: Справочник по API Aspose.Words для Java
-description: Представляет один файл шрифта TrueType, хранящийся в памяти.
+title: "MemoryFontSource"
+linktitle: "MemoryFontSource"
+second_title: "Aspose.Words для Java"
+description: "Представляет один файл шрифта TrueType, хранящийся в памяти в Java."
 type: docs
-weight: 393
+weight: 461
 url: /ru/java/com.aspose.words/memoryfontsource/
 ---
 
-**Наследование:**
-java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase/)
 ```
 public class MemoryFontSource extends FontSourceBase
 ```
 
-Представляет один файл шрифта TrueType, хранящийся в памяти.
+Представляет отдельный файл шрифта TrueType, хранящийся в памяти.
 
- Чтобы узнать больше, посетите**Working with Fonts** документальная статья.
+Чтобы узнать больше, посетите статью документации [ Working with Fonts ][Working with Fonts].
+
+ **Examples:** 
+
+Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
+
+```
+
+ byte[] fontBytes = DocumentHelper.getBytesFromStream(new FileInputStream(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf"));
+ MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{memoryFontSource});
+
+ Assert.assertEquals(FontSourceType.MEMORY_FONT, memoryFontSource.getType());
+ Assert.assertEquals(0, memoryFontSource.getPriority());
+ 
+```
+
+
+[Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
 ## Конструкторы
 
 | Конструктор | Описание |
 | --- | --- |
-| [MemoryFontSource(byte[] fontData)](#MemoryFontSource-byte---) | Стор. |
-| [MemoryFontSource(byte[] fontData, int priority)](#MemoryFontSource-byte---int-) | Стор. |
-| [MemoryFontSource(byte[] fontData, int priority, String cacheKey)](#MemoryFontSource-byte---int-java.lang.String-) | Стор. |
+| [MemoryFontSource(byte[] fontData)](#MemoryFontSource-byte) | Конструктор. |
+| [MemoryFontSource(byte[] fontData, int priority)](#MemoryFontSource-byte---int) | Конструктор. |
+| [MemoryFontSource(byte[] fontData, int priority, String cacheKey)](#MemoryFontSource-byte---int-java.lang.String) | Конструктор. |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAvailableFonts()](#getAvailableFonts--) | Возвращает список шрифтов, доступных через этот источник. |
-| [getCacheKey()](#getCacheKey--) | Ключ этого источника в кеше. |
-| [getClass()](#getClass--) |  |
-| [getFontData()](#getFontData--) | Данные двоичного шрифта. |
-| [getFontDataInternal()](#getFontDataInternal--) |  |
-| [getPriority()](#getPriority--) | Возвращает приоритет источника шрифта. |
-| [getPriorityInternal()](#getPriorityInternal--) |  |
-| [getType()](#getType--) | Возвращает тип источника шрифта. |
-| [getWarningCallback()](#getWarningCallback--) | Вызывается во время обработки источника шрифта при обнаружении проблемы, которая может привести к потере точности форматирования. |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Вызывается во время обработки источника шрифта при обнаружении проблемы, которая может привести к потере точности форматирования. |
-| [toString()](#toString--) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### MemoryFontSource(byte[] fontData) {#MemoryFontSource-byte---}
+| [getAvailableFonts()](#getAvailableFonts) | Возвращает список шрифтов, доступных через этот источник. |
+| [getCacheKey()](#getCacheKey) | Ключ этого источника в кэше. |
+| [getFontData()](#getFontData) | Бинарные данные шрифта. |
+| [getFontDataInternal()](#getFontDataInternal) |  |
+| [getPriority()](#getPriority) | Возвращает приоритет источника шрифтов. |
+| [getPriorityInternal()](#getPriorityInternal) |  |
+| [getType()](#getType) | Возвращает тип источника шрифтов. |
+| [getWarningCallback()](#getWarningCallback) | Вызывается при обработке источника шрифтов, когда обнаруживается проблема, которая может привести к потере точности форматирования. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Вызывается при обработке источника шрифтов, когда обнаруживается проблема, которая может привести к потере точности форматирования. |
+### MemoryFontSource(byte[] fontData) {#MemoryFontSource-byte}
 ```
 public MemoryFontSource(byte[] fontData)
 ```
 
 
-Стор.
+Конструктор.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
+
+```
+
+ byte[] fontBytes = DocumentHelper.getBytesFromStream(new FileInputStream(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf"));
+ MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{memoryFontSource});
+
+ Assert.assertEquals(FontSourceType.MEMORY_FONT, memoryFontSource.getType());
+ Assert.assertEquals(0, memoryFontSource.getPriority());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontData | byte[] | Данные двоичного шрифта. |
+| fontData | byte[] | Бинарные данные шрифта. |
 
-### MemoryFontSource(byte[] fontData, int priority) {#MemoryFontSource-byte---int-}
+### MemoryFontSource(byte[] fontData, int priority) {#MemoryFontSource-byte---int}
 ```
 public MemoryFontSource(byte[] fontData, int priority)
 ```
 
 
-Стор.
+Конструктор.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
+
+```
+
+ byte[] fontBytes = DocumentHelper.getBytesFromStream(new FileInputStream(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf"));
+ MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{memoryFontSource});
+
+ Assert.assertEquals(FontSourceType.MEMORY_FONT, memoryFontSource.getType());
+ Assert.assertEquals(0, memoryFontSource.getPriority());
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontData | byte[] | Данные двоичного шрифта. |
-| priority | int |  Приоритет источника шрифта. См.[FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority--) описание свойства для получения дополнительной информации. |
+| fontData | byte[] | Бинарные данные шрифта. |
+| priority | int | Приоритет источника шрифтов. Смотрите описание свойства [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) для получения дополнительной информации. |
 
-### MemoryFontSource(byte[] fontData, int priority, String cacheKey) {#MemoryFontSource-byte---int-java.lang.String-}
+### MemoryFontSource(byte[] fontData, int priority, String cacheKey) {#MemoryFontSource-byte---int-java.lang.String}
 ```
 public MemoryFontSource(byte[] fontData, int priority, String cacheKey)
 ```
 
 
-Стор.
+Конструктор.
 
-**Параметры:**
+ **Examples:** 
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| fontData | byte[] | Данные двоичного шрифта. |
-| priority | int |  Приоритет источника шрифта. См.[FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority--) описание свойства для получения дополнительной информации. |
-| cacheKey | java.lang.String |  Ключ этого источника в кеше. Видеть[getCacheKey()](../../com.aspose.words/memoryfontsource\#getCacheKey--) описание свойства для получения дополнительной информации. |
+Показывает, как ускорить процесс инициализации кэша шрифтов.
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
 ```
 
+ public void loadFontSearchCache() throws Exception
+ {
+     final String CACHE_KEY_1 = "Arvo";
+     final String CACHE_KEY_2 = "Arvo-Bold";
+     FontSettings parsedFonts = new FontSettings();
+     FontSettings loadedCache = new FontSettings();
 
+     parsedFonts.setFontsSources(new FontSourceBase[]
+             {
+                     new FileFontSource(getFontsDir() + "Arvo-Regular.ttf", 0, CACHE_KEY_1),
+                     new FileFontSource(getFontsDir() + "Arvo-Bold.ttf", 0, CACHE_KEY_2)
+             });
 
+     try (ByteArrayOutputStream cacheStream = new ByteArrayOutputStream())
+     {
+         parsedFonts.saveSearchCache(cacheStream);
+         ByteArrayInputStream inputStream = new ByteArrayInputStream(cacheStream.toByteArray());
+         loadedCache.setFontsSources(new FontSourceBase[]
+                 {
+                         new SearchCacheStream(CACHE_KEY_1),
+                         new MemoryFontSource(Files.readAllBytes(Paths.get(getFontsDir() + "Arvo-Bold.ttf")), 0, CACHE_KEY_2)
+                 }, inputStream);
+     }
 
-**Параметры:**
+     Assert.assertEquals(parsedFonts.getFontsSources().length, loadedCache.getFontsSources().length);
+ }
 
+ /// 
+ /// Load the font data only when required instead of storing it in the memory
+ /// for the entire lifetime of the "FontSettings" object.
+ /// 
+ private static class SearchCacheStream extends StreamFontSource
+ {
+     public SearchCacheStream(String cacheKey)
+     {
+         super(0, cacheKey);
+
+     }
+
+     public FileInputStream openFontDataStream() throws Exception
+     {
+         return new FileInputStream(getFontsDir() + "Arvo-Regular.ttf");
+     }
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| arg0 | java.lang.Object |  |
+| fontData | byte[] | Бинарные данные шрифта. |
+| priority | int | Приоритет источника шрифтов. Смотрите описание свойства [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) для получения дополнительной информации. |
+| cacheKey | java.lang.String | Ключ этого источника в кэше. См. описание свойства [getCacheKey()](../../com.aspose.words/memoryfontsource/\#getCacheKey) для получения дополнительной информации. |
 
-**Возвращает:**
-логический
-### getAvailableFonts() {#getAvailableFonts--}
+### getAvailableFonts() {#getAvailableFonts}
 ```
 public ArrayList getAvailableFonts()
 ```
@@ -114,39 +197,122 @@ public ArrayList getAvailableFonts()
 
 Возвращает список шрифтов, доступных через этот источник.
 
-**Возвращает:**
+ **Examples:** 
+
+Показывает, как вывести список доступных шрифтов.
+
+```
+
+ // Configure Aspose.Words to source fonts from a custom folder, and then print every available font.
+ FontSourceBase[] folderFontSource = {new FolderFontSource(getFontsDir(), true)};
+
+ for (PhysicalFontInfo fontInfo : folderFontSource[0].getAvailableFonts()) {
+     System.out.println(MessageFormat.format("FontFamilyName : {0}", fontInfo.getFontFamilyName()));
+     System.out.println(MessageFormat.format("FullFontName  : {0}", fontInfo.getFullFontName()));
+     System.out.println(MessageFormat.format("Version  : {0}", fontInfo.getVersion()));
+     System.out.println(MessageFormat.format("FilePath : {0}\n", fontInfo.getFilePath()));
+ }
+ 
+```
+
+**Returns:**
 java.util.ArrayList
-### getCacheKey() {#getCacheKey--}
+### getCacheKey() {#getCacheKey}
 ```
 public String getCacheKey()
 ```
 
 
-Ключ этого источника в кеше. Этот ключ используется для идентификации элемента кеша при сохранении/загрузке кеша поиска шрифтов с помощью методов и .
+Ключ этого источника в кэше.
 
-**Возвращает:**
-java.lang.String — соответствующее значение java.lang.String.
-### getClass() {#getClass--}
+ **Remarks:** 
+
+Этот ключ используется для идентификации элемента кэша при сохранении/загрузке кэша поиска шрифтов с помощью методов  и .
+
+ **Examples:** 
+
+Показывает, как ускорить процесс инициализации кэша шрифтов.
+
 ```
-public final native Class<?> getClass()
+
+ public void loadFontSearchCache() throws Exception
+ {
+     final String CACHE_KEY_1 = "Arvo";
+     final String CACHE_KEY_2 = "Arvo-Bold";
+     FontSettings parsedFonts = new FontSettings();
+     FontSettings loadedCache = new FontSettings();
+
+     parsedFonts.setFontsSources(new FontSourceBase[]
+             {
+                     new FileFontSource(getFontsDir() + "Arvo-Regular.ttf", 0, CACHE_KEY_1),
+                     new FileFontSource(getFontsDir() + "Arvo-Bold.ttf", 0, CACHE_KEY_2)
+             });
+
+     try (ByteArrayOutputStream cacheStream = new ByteArrayOutputStream())
+     {
+         parsedFonts.saveSearchCache(cacheStream);
+         ByteArrayInputStream inputStream = new ByteArrayInputStream(cacheStream.toByteArray());
+         loadedCache.setFontsSources(new FontSourceBase[]
+                 {
+                         new SearchCacheStream(CACHE_KEY_1),
+                         new MemoryFontSource(Files.readAllBytes(Paths.get(getFontsDir() + "Arvo-Bold.ttf")), 0, CACHE_KEY_2)
+                 }, inputStream);
+     }
+
+     Assert.assertEquals(parsedFonts.getFontsSources().length, loadedCache.getFontsSources().length);
+ }
+
+ /// 
+ /// Load the font data only when required instead of storing it in the memory
+ /// for the entire lifetime of the "FontSettings" object.
+ /// 
+ private static class SearchCacheStream extends StreamFontSource
+ {
+     public SearchCacheStream(String cacheKey)
+     {
+         super(0, cacheKey);
+
+     }
+
+     public FileInputStream openFontDataStream() throws Exception
+     {
+         return new FileInputStream(getFontsDir() + "Arvo-Regular.ttf");
+     }
+ }
+ 
 ```
 
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getFontData() {#getFontData--}
+**Returns:**
+java.lang.String - Соответствующее значение java.lang.String.
+### getFontData() {#getFontData}
 ```
 public byte[] getFontData()
 ```
 
 
-Данные двоичного шрифта.
+Бинарные данные шрифта.
 
-**Возвращает:**
-байт[] - соответствующий байт[] ценность.
-### getFontDataInternal() {#getFontDataInternal--}
+ **Examples:** 
+
+Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
+
+```
+
+ byte[] fontBytes = DocumentHelper.getBytesFromStream(new FileInputStream(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf"));
+ MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{memoryFontSource});
+
+ Assert.assertEquals(FontSourceType.MEMORY_FONT, memoryFontSource.getType());
+ Assert.assertEquals(0, memoryFontSource.getPriority());
+ 
+```
+
+**Returns:**
+byte[] — соответствующее значение byte[].
+### getFontDataInternal() {#getFontDataInternal}
 ```
 public Iterable getFontDataInternal()
 ```
@@ -154,23 +320,43 @@ public Iterable getFontDataInternal()
 
 
 
-**Возвращает:**
+**Returns:**
 java.lang.Iterable
-### getPriority() {#getPriority--}
+### getPriority() {#getPriority}
 ```
 public int getPriority()
 ```
 
 
-Возвращает приоритет источника шрифта.
+Возвращает приоритет источника шрифтов.
 
-Это значение используется при наличии шрифтов с одинаковым именем семейства и стилем в разных источниках шрифтов. В этом случае Aspose.Words выбирает шрифт из источника с более высоким значением приоритета.
+ **Remarks:** 
+
+Это значение используется, когда в разных источниках шрифтов есть шрифты с одинаковым названием семейства и стилем. В этом случае Aspose.Words выбирает шрифт из источника с более высоким значением приоритета.
 
 Значение по умолчанию — 0.
 
-**Возвращает:**
-int - приоритет источника шрифта.
-### getPriorityInternal() {#getPriorityInternal--}
+ **Examples:** 
+
+Показывает, как использовать файл шрифта в локальной файловой системе в качестве источника шрифтов.
+
+```
+
+ FileFontSource fileFontSource = new FileFontSource(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf", 0);
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{fileFontSource});
+
+ Assert.assertEquals(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.getFilePath());
+ Assert.assertEquals(FontSourceType.FONT_FILE, fileFontSource.getType());
+ Assert.assertEquals(0, fileFontSource.getPriority());
+ 
+```
+
+**Returns:**
+int - Приоритет источника шрифтов.
+### getPriorityInternal() {#getPriorityInternal}
 ```
 public int getPriorityInternal()
 ```
@@ -178,111 +364,130 @@ public int getPriorityInternal()
 
 
 
-**Возвращает:**
-инт
-### getType() {#getType--}
+**Returns:**
+int
+### getType() {#getType}
 ```
 public int getType()
 ```
 
 
-Возвращает тип источника шрифта.
+Возвращает тип источника шрифтов.
 
-**Возвращает:**
- int - Тип источника шрифта. Возвращаемое значение является одним из[FontSourceType](../../com.aspose.words/fontsourcetype) константы.
-### getWarningCallback() {#getWarningCallback--}
+ **Examples:** 
+
+Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
+
+```
+
+ byte[] fontBytes = DocumentHelper.getBytesFromStream(new FileInputStream(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf"));
+ MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{memoryFontSource});
+
+ Assert.assertEquals(FontSourceType.MEMORY_FONT, memoryFontSource.getType());
+ Assert.assertEquals(0, memoryFontSource.getPriority());
+ 
+```
+
+**Returns:**
+int - Тип источника шрифтов. Возвращаемое значение является одной из констант [FontSourceType](../../com.aspose.words/fontsourcetype/).
+### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-Вызывается во время обработки источника шрифта при обнаружении проблемы, которая может привести к потере точности форматирования.
+Вызывается при обработке источника шрифтов, когда обнаруживается проблема, которая может привести к потере точности форматирования.
 
-**Возвращает:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - соответствующий[IWarningCallback](../../com.aspose.words/iwarningcallback) ценность.
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
+ **Examples:** 
 
+Показывает, как вызвать обратный вызов предупреждения при работе с источниками шрифтов.
 
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
 ```
 
+ public void fontSourceWarning()
+ {
+     FontSettings settings = new FontSettings();
+     settings.setFontsFolder("bad folder?", false);
 
+     FontSourceBase source = settings.getFontsSources()[0];
+     FontSourceWarningCollector callback = new FontSourceWarningCollector();
+     source.setWarningCallback(callback);
 
+     // Get the list of fonts to call warning callback.
+     ArrayList fontInfos = source.getAvailableFonts();
 
-### notifyAll() {#notifyAll--}
+     Assert.assertEquals("Error loading font from the folder \"bad folder?\": ",
+         callback.FontSubstitutionWarnings.get(0).getDescription());
+ }
+
+ private static class FontSourceWarningCollector implements IWarningCallback
+ {
+     /// 
+     /// Called every time a warning occurs during processing of font source.
+     /// 
+     public void warning(WarningInfo info)
+     {
+         FontSubstitutionWarnings.warning(info);
+     }
+
+     public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+ }
+ 
 ```
-public final native void notifyAll()
-```
 
-
-
-
-### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)
 ```
 
 
-Вызывается во время обработки источника шрифта при обнаружении проблемы, которая может привести к потере точности форматирования.
+Вызывается при обработке источника шрифтов, когда обнаруживается проблема, которая может привести к потере точности форматирования.
 
-**Параметры:**
+ **Examples:** 
 
+Показывает, как вызвать обратный вызов предупреждения при работе с источниками шрифтов.
+
+```
+
+ public void fontSourceWarning()
+ {
+     FontSettings settings = new FontSettings();
+     settings.setFontsFolder("bad folder?", false);
+
+     FontSourceBase source = settings.getFontsSources()[0];
+     FontSourceWarningCollector callback = new FontSourceWarningCollector();
+     source.setWarningCallback(callback);
+
+     // Get the list of fonts to call warning callback.
+     ArrayList fontInfos = source.getAvailableFonts();
+
+     Assert.assertEquals("Error loading font from the folder \"bad folder?\": ",
+         callback.FontSubstitutionWarnings.get(0).getDescription());
+ }
+
+ private static class FontSourceWarningCollector implements IWarningCallback
+ {
+     /// 
+     /// Called every time a warning occurs during processing of font source.
+     /// 
+     public void warning(WarningInfo info)
+     {
+         FontSubstitutionWarnings.warning(info);
+     }
+
+     public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
+ }
+ 
+```
+
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) |  Соответствующий[IWarningCallback](../../com.aspose.words/iwarningcallback) ценность. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | Соответствующее значение [IWarningCallback](../../com.aspose.words/iwarningcallback/). |
 
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

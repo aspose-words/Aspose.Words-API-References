@@ -1,49 +1,45 @@
 ---
-title: Direction
-second_title: Справочник по API Aspose.Words для Java
-description: 
+title: "Direction"
+linktitle: "Direction"
+second_title: "Aspose.Words для Java"
+description: "Направление текста в Java."
 type: docs
-weight: 115
+weight: 155
 url: /ru/java/com.aspose.words/direction/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Direction
 ```
+
+Направление текста.
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BTT](#BTT) |  |
-| [DEFAULT](#DEFAULT) |  |
-| [LTR](#LTR) |  |
-| [RTL](#RTL) |  |
-| [TTB](#TTB) |  |
+| [BTT](#BTT) | Направление письма снизу вверх. |
+| [DEFAULT](#DEFAULT) | Значение по умолчанию, то же, что и [LTR](../../com.aspose.words/direction/\#LTR). |
+| [LTR](#LTR) | Направление письма слева направо. |
+| [RTL](#RTL) | Направление письма справа налево. |
+| [TTB](#TTB) | Направление письма сверху вниз. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String directionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int direction)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int direction)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String directionName)](#fromName-java.lang.String) |  |
+| [getName(int direction)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int direction)](#toString-int) |  |
 ### BTT {#BTT}
 ```
 public static int BTT
 ```
 
+
+Направление письма снизу вверх.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -51,11 +47,15 @@ public static int DEFAULT
 ```
 
 
+Значение по умолчанию, то же, что и [LTR](../../com.aspose.words/direction/\#LTR).
+
 ### LTR {#LTR}
 ```
 public static int LTR
 ```
 
+
+Направление письма слева направо.
 
 ### RTL {#RTL}
 ```
@@ -63,11 +63,15 @@ public static int RTL
 ```
 
 
+Направление письма справа налево.
+
 ### TTB {#TTB}
 ```
 public static int TTB
 ```
 
+
+Направление письма сверху вниз.
 
 ### length {#length}
 ```
@@ -75,23 +79,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String directionName) {#fromName-java.lang.String-}
+### fromName(String directionName) {#fromName-java.lang.String}
 ```
 public static int fromName(String directionName)
 ```
@@ -99,25 +87,14 @@ public static int fromName(String directionName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | directionName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int direction) {#getName-int-}
+**Returns:**
+int
+### getName(int direction) {#getName-int}
 ```
 public static String getName(int direction)
 ```
@@ -125,15 +102,14 @@ public static String getName(int direction)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | direction | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -141,45 +117,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int direction) {#toString-int-}
+**Returns:**
+int[]
+### toString(int direction) {#toString-int}
 ```
 public static String toString(int direction)
 ```
@@ -187,47 +127,10 @@ public static String toString(int direction)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | direction | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |

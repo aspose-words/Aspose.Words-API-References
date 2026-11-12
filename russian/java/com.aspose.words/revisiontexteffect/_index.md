@@ -1,57 +1,99 @@
 ---
-title: RevisionTextEffect
-second_title: Справочник по API Aspose.Words для Java
-description: Позволяет указать эффект оформления для редакций текста документа.
+title: "RevisionTextEffect"
+linktitle: "RevisionTextEffect"
+second_title: "Aspose.Words для Java"
+description: "Позволяет указать эффект декорирования для исправлений текста документа в Java."
 type: docs
-weight: 489
+weight: 585
 url: /ru/java/com.aspose.words/revisiontexteffect/
 ---
 
-**Наследование:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RevisionTextEffect
 ```
 
-Позволяет указать эффект оформления для редакций текста документа.
+Позволяет указать эффект декорирования для ревизий текста документа.
+
+ **Examples:** 
+
+Показывает, как изменить внешний вид исправлений.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions.docx");
+
+ // Get the RevisionOptions object that controls the appearance of revisions.
+ RevisionOptions revisionOptions = doc.getLayoutOptions().getRevisionOptions();
+
+ // Render insertion revisions in green and italic.
+ revisionOptions.setInsertedTextColor(RevisionColor.GREEN);
+ revisionOptions.setInsertedTextEffect(RevisionTextEffect.ITALIC);
+
+ // Render deletion revisions in red and bold.
+ revisionOptions.setDeletedTextColor(RevisionColor.RED);
+ revisionOptions.setDeletedTextEffect(RevisionTextEffect.BOLD);
+
+ // The same text will appear twice in a movement revision:
+ // once at the departure point and once at the arrival destination.
+ // Render the text at the moved-from revision yellow with a double strike through
+ // and double-underlined blue at the moved-to revision.
+ revisionOptions.setMovedFromTextColor(RevisionColor.YELLOW);
+ revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_STRIKE_THROUGH);
+ revisionOptions.setMovedToTextColor(RevisionColor.CLASSIC_BLUE);
+ revisionOptions.setMovedFromTextEffect(RevisionTextEffect.DOUBLE_UNDERLINE);
+
+ // Render format revisions in dark red and bold.
+ revisionOptions.setRevisedPropertiesColor(RevisionColor.DARK_RED);
+ revisionOptions.setRevisedPropertiesEffect(RevisionTextEffect.BOLD);
+
+ // Place a thick dark blue bar on the left side of the page next to lines affected by revisions.
+ revisionOptions.setRevisionBarsColor(RevisionColor.DARK_BLUE);
+ revisionOptions.setRevisionBarsWidth(15.0f);
+
+ // Show revision marks and original text.
+ revisionOptions.setShowOriginalRevision(true);
+ revisionOptions.setShowRevisionMarks(true);
+
+ // Get movement, deletion, formatting revisions, and comments to show up in green balloons
+ // on the right side of the page.
+ revisionOptions.setShowInBalloons(ShowInBalloons.FORMAT);
+ revisionOptions.setCommentColor(RevisionColor.BRIGHT_GREEN);
+
+ // These features are only applicable to formats such as .pdf or .jpg.
+ doc.save(getArtifactsDir() + "Revision.RevisionOptions.pdf");
+ 
+```
 ## Поля
 
 | Поле | Описание |
 | --- | --- |
-| [BOLD](#BOLD) | Пересмотренное содержимое выделено жирным шрифтом и окрашено. |
-| [COLOR](#COLOR) | Измененный контент выделяется только цветом. |
-| [DOUBLE_STRIKE_THROUGH](#DOUBLE-STRIKE-THROUGH) | Отредактированный контент зачеркнут двойным штрихом и окрашен. |
-| [DOUBLE_UNDERLINE](#DOUBLE-UNDERLINE) | Отредактированное содержимое подчеркнуто двойным подчеркиванием и окрашено. |
-| [HIDDEN](#HIDDEN) | Измененный контент скрыт. |
-| [ITALIC](#ITALIC) | Исправленное содержание выделено курсивом и окрашено. |
-| [NONE](#NONE) | К переработанному контенту не применяются специальные эффекты. |
-| [STRIKE_THROUGH](#STRIKE-THROUGH) | Отредактированный контент зачеркнут и окрашен. |
-| [UNDERLINE](#UNDERLINE) | Измененное содержимое подчеркнуто и окрашено. |
+| [BOLD](#BOLD) | Изменённый контент делается полужирным и окрашивается. |
+| [COLOR](#COLOR) | Изменённый контент выделяется только цветом. |
+| [DOUBLE_STRIKE_THROUGH](#DOUBLE-STRIKE-THROUGH) | Изменённый контент имеет двойное зачеркивание и окрашен. |
+| [DOUBLE_UNDERLINE](#DOUBLE-UNDERLINE) | Изменённый контент имеет двойное подчёркивание и окрашен. |
+| [HIDDEN](#HIDDEN) | Изменённый контент скрыт. |
+| [ITALIC](#ITALIC) | Изменённый контент делается курсивом и окрашен. |
+| [NONE](#NONE) | К изменённому контенту не применяются специальные эффекты. |
+| [STRIKE_THROUGH](#STRIKE-THROUGH) | Изменённый контент зачеркивается и окрашен. |
+| [UNDERLINE](#UNDERLINE) | Изменённый контент подчёркнут и окрашен. |
 | [length](#length) |  |
 ## Методы
 
 | Метод | Описание |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String revisionTextEffectName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int revisionTextEffect)](#getName-int-) |  |
-| [getValues()](#getValues--) |  |
-| [hashCode()](#hashCode--) |  |
-| [notify()](#notify--) |  |
-| [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) |  |
-| [toString(int revisionTextEffect)](#toString-int-) |  |
-| [wait()](#wait--) |  |
-| [wait(long arg0)](#wait-long-) |  |
-| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+| [fromName(String revisionTextEffectName)](#fromName-java.lang.String) |  |
+| [getName(int revisionTextEffect)](#getName-int) |  |
+| [getValues()](#getValues) |  |
+| [toString(int revisionTextEffect)](#toString-int) |  |
 ### BOLD {#BOLD}
 ```
 public static int BOLD
 ```
 
 
-Пересмотренное содержимое выделено жирным шрифтом и окрашено.
+Изменённый контент делается полужирным и окрашивается.
 
 ### COLOR {#COLOR}
 ```
@@ -59,7 +101,7 @@ public static int COLOR
 ```
 
 
-Измененный контент выделяется только цветом.
+Изменённый контент выделяется только цветом.
 
 ### DOUBLE_STRIKE_THROUGH {#DOUBLE-STRIKE-THROUGH}
 ```
@@ -67,7 +109,11 @@ public static int DOUBLE_STRIKE_THROUGH
 ```
 
 
- Отредактированный контент зачеркнут двойным штрихом и окрашен. Работает только для[RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION), [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) а также[RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING) (тип «перейти от»).
+Изменённый контент имеет двойное зачеркивание и окрашен.
+
+ **Remarks:** 
+
+Работает только для [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION), [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) и [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING) (тип «перемещение из»).
 
 ### DOUBLE_UNDERLINE {#DOUBLE-UNDERLINE}
 ```
@@ -75,7 +121,7 @@ public static int DOUBLE_UNDERLINE
 ```
 
 
-Отредактированное содержимое подчеркнуто двойным подчеркиванием и окрашено.
+Изменённый контент имеет двойное подчёркивание и окрашен.
 
 ### HIDDEN {#HIDDEN}
 ```
@@ -83,7 +129,11 @@ public static int HIDDEN
 ```
 
 
-Измененный контент скрыт. Работает только для[RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION) а также[RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING) (тип «перейти от»).
+Изменённый контент скрыт.
+
+ **Remarks:** 
+
+Работает только для [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION) и [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING) (тип «перемещение из»).
 
 ### ITALIC {#ITALIC}
 ```
@@ -91,7 +141,7 @@ public static int ITALIC
 ```
 
 
-Исправленное содержание выделено курсивом и окрашено.
+Изменённый контент делается курсивом и окрашен.
 
 ### NONE {#NONE}
 ```
@@ -99,7 +149,7 @@ public static int NONE
 ```
 
 
- К переработанному контенту не применяются специальные эффекты. Это соответствует[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT).
+К изменённому контенту не применяются специальные эффекты. Это соответствует [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT).
 
 ### STRIKE_THROUGH {#STRIKE-THROUGH}
 ```
@@ -107,7 +157,7 @@ public static int STRIKE_THROUGH
 ```
 
 
-Отредактированный контент зачеркнут и окрашен.
+Изменённый контент зачеркивается и окрашен.
 
 ### UNDERLINE {#UNDERLINE}
 ```
@@ -115,7 +165,7 @@ public static int UNDERLINE
 ```
 
 
-Измененное содержимое подчеркнуто и окрашено.
+Изменённый контент подчёркнут и окрашен.
 
 ### length {#length}
 ```
@@ -123,23 +173,7 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object-}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Возвращает:**
-логический
-### fromName(String revisionTextEffectName) {#fromName-java.lang.String-}
+### fromName(String revisionTextEffectName) {#fromName-java.lang.String}
 ```
 public static int fromName(String revisionTextEffectName)
 ```
@@ -147,25 +181,14 @@ public static int fromName(String revisionTextEffectName)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionTextEffectName | java.lang.String |  |
 
-**Возвращает:**
-инт
-### getClass() {#getClass--}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Возвращает:**
-java.lang.Класс<?>
-### getName(int revisionTextEffect) {#getName-int-}
+**Returns:**
+int
+### getName(int revisionTextEffect) {#getName-int}
 ```
 public static String getName(int revisionTextEffect)
 ```
@@ -173,15 +196,14 @@ public static String getName(int revisionTextEffect)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionTextEffect | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### getValues() {#getValues--}
+### getValues() {#getValues}
 ```
 public static int[] getValues()
 ```
@@ -189,45 +211,9 @@ public static int[] getValues()
 
 
 
-**Возвращает:**
-инт[]
-### hashCode() {#hashCode--}
-```
-public native int hashCode()
-```
-
-
-
-
-**Возвращает:**
-инт
-### notify() {#notify--}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll--}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString--}
-```
-public String toString()
-```
-
-
-
-
-**Возвращает:**
-java.lang.String
-### toString(int revisionTextEffect) {#toString-int-}
+**Returns:**
+int[]
+### toString(int revisionTextEffect) {#toString-int}
 ```
 public static String toString(int revisionTextEffect)
 ```
@@ -235,47 +221,10 @@ public static String toString(int revisionTextEffect)
 
 
 
-**Параметры:**
-
+**Parameters:**
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | revisionTextEffect | int |  |
 
-**Возвращает:**
+**Returns:**
 java.lang.String
-### wait() {#wait--}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long-}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int-}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Параметры:**
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
