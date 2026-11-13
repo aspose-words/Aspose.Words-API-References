@@ -5,7 +5,7 @@ articleTitle: parent_section property
 second_title: Aspose.Words for Python
 description: "Body.parent_section property. Gets the parent section of this story."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/body/parent_section/
 ---
 

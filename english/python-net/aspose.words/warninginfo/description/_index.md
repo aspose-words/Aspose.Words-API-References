@@ -5,7 +5,7 @@ articleTitle: description property
 second_title: Aspose.Words for Python
 description: "WarningInfo.description property. Returns the description of the warning."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/warninginfo/description/
 ---
 

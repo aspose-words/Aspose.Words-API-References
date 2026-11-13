@@ -5,7 +5,7 @@ articleTitle: emboss property
 second_title: Aspose.Words for Python
 description: "Font.emboss property. True if the font is formatted as embossed."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/font/emboss/
 ---
 

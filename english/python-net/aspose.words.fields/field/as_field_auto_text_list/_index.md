@@ -5,7 +5,7 @@ articleTitle: as_field_auto_text_list method
 second_title: Aspose.Words for Python
 description: "Field.as_field_auto_text_list method. Cast Field to [FieldAutoTextList](../../fieldautotextlist/)."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.fields/field/as_field_auto_text_list/
 ---
 

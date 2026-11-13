@@ -5,7 +5,7 @@ articleTitle: last_child property
 second_title: Aspose.Words for Python
 description: "CompositeNode.last_child property. Gets the last child of the node."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/compositenode/last_child/
 ---
 

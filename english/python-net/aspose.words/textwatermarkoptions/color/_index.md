@@ -5,7 +5,7 @@ articleTitle: color property
 second_title: Aspose.Words for Python
 description: "TextWatermarkOptions.color property. Gets or sets font color"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/textwatermarkoptions/color/
 ---
 

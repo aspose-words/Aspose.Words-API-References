@@ -5,7 +5,7 @@ articleTitle: Direction enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.Direction enumeration. Text direction."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.shaping/direction/
 ---
 

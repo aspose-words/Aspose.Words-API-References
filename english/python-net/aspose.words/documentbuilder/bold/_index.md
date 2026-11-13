@@ -5,7 +5,7 @@ articleTitle: bold property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.bold property. True if the font is formatted as bold."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/documentbuilder/bold/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: GradientStop constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.GradientStop constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/gradientstop/__init__/
 ---
 

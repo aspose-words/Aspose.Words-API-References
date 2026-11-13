@@ -5,7 +5,7 @@ articleTitle: FileFontSource constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FileFontSource constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/filefontsource/__init__/
 ---
 

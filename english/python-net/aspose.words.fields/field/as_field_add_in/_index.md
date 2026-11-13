@@ -5,7 +5,7 @@ articleTitle: as_field_add_in method
 second_title: Aspose.Words for Python
 description: "Field.as_field_add_in method. Cast Field to [FieldAddIn](../../fieldaddin/)."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.fields/field/as_field_add_in/
 ---
 

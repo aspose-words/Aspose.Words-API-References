@@ -5,7 +5,7 @@ articleTitle: frame_format property
 second_title: Aspose.Words for Python
 description: "Paragraph.frame_format property. Provides access to the frame formatting properties."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/paragraph/frame_format/
 ---
 

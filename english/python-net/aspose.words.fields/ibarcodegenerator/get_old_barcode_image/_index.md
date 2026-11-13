@@ -5,7 +5,7 @@ articleTitle: get_old_barcode_image method
 second_title: Aspose.Words for Python
 description: "IBarcodeGenerator.get_old_barcode_image method. Generate barcode image using the set of parameters (for old-fashioned Barcode field)."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/ibarcodegenerator/get_old_barcode_image/
 ---
 

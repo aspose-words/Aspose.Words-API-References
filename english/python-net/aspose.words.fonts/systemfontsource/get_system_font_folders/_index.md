@@ -5,7 +5,7 @@ articleTitle: get_system_font_folders method
 second_title: Aspose.Words for Python
 description: "SystemFontSource.get_system_font_folders method. Returns system font folders or empty array if folders are not accessible."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/systemfontsource/get_system_font_folders/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: insert_cell_color property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.insert_cell_color property. Allows to specify the color to be used for inserted cells [RevisionType.INSERTION](../../../aspose.words/revisiontype/#INSERTION)"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.layout/revisionoptions/insert_cell_color/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: from_double method
 second_title: Aspose.Words for Python
 description: "ChartXValue.from_double method. Creates a [ChartXValue](../) instance of the [ChartXValueType.DOUBLE](../../chartxvaluetype/#DOUBLE) type."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.drawing.charts/chartxvalue/from_double/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: remove_by_position method
 second_title: Aspose.Words for Python
 description: "TabStopCollection.remove_by_position method. Removes a tab stop at the specified position from the collection."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/tabstopcollection/remove_by_position/
 ---
 

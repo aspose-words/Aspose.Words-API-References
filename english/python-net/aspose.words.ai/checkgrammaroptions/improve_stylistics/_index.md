@@ -5,7 +5,7 @@ articleTitle: improve_stylistics property
 second_title: Aspose.Words for Python
 description: "CheckGrammarOptions.improve_stylistics property. Allows to specify either AI will try to improve stylistics of the text being proofed"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.ai/checkgrammaroptions/improve_stylistics/
 ---
 

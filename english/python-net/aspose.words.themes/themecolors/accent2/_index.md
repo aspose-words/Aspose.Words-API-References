@@ -5,7 +5,7 @@ articleTitle: accent2 property
 second_title: Aspose.Words for Python
 description: "ThemeColors.accent2 property. Specifies color Accent 2."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.themes/themecolors/accent2/
 ---
 

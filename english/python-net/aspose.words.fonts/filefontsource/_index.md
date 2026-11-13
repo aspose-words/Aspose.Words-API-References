@@ -5,7 +5,7 @@ articleTitle: FileFontSource class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FileFontSource class. Represents the single TrueType font file stored in the file system"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.fonts/filefontsource/
 ---
 

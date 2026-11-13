@@ -5,7 +5,7 @@ articleTitle: NumeralFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.NumeralFormat enumeration. Indicates the symbol set that is used to represent numbers while rendering to fixed page formats."
 type: docs
-weight: 520
+weight: 10400
 url: /python-net/aspose.words.saving/numeralformat/
 ---
 

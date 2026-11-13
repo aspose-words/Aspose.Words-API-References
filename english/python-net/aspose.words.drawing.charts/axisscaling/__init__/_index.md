@@ -5,7 +5,7 @@ articleTitle: AxisScaling constructor
 second_title: Aspose.Words for Python
 description: "AxisScaling constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/axisscaling/__init__/
 ---
 

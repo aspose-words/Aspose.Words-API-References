@@ -5,7 +5,7 @@ articleTitle: AdjustmentCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.AdjustmentCollection class. Represents a read-only collection of [Adjustment](../adjustment/) adjust values that are applied to the specified shape."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.drawing/adjustmentcollection/
 ---
 

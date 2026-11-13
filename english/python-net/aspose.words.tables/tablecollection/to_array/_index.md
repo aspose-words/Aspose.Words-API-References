@@ -5,7 +5,7 @@ articleTitle: to_array method
 second_title: Aspose.Words for Python
 description: "TableCollection.to_array method. Copies all tables from the collection to a new array of tables."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.tables/tablecollection/to_array/
 ---
 

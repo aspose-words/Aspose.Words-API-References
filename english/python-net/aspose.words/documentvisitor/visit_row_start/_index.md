@@ -5,7 +5,7 @@ articleTitle: visit_row_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_row_start method. Called when enumeration of a table row has started."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words/documentvisitor/visit_row_start/
 ---
 

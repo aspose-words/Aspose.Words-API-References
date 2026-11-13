@@ -5,7 +5,7 @@ articleTitle: evaluate method
 second_title: Aspose.Words for Python
 description: "IComparisonExpressionEvaluator.evaluate method. Evaluates comparison expression."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 ---
 

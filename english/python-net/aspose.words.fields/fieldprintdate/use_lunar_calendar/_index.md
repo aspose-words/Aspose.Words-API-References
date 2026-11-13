@@ -5,7 +5,7 @@ articleTitle: use_lunar_calendar property
 second_title: Aspose.Words for Python
 description: "FieldPrintDate.use_lunar_calendar property. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldprintdate/use_lunar_calendar/
 ---
 

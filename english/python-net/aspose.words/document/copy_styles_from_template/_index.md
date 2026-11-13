@@ -5,7 +5,7 @@ articleTitle: copy_styles_from_template method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.copy_styles_from_template method"
 type: docs
-weight: 620
+weight: 18600
 url: /python-net/aspose.words/document/copy_styles_from_template/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.clear method. Clears the mail merge settings in such a way that when the document is saved,  no mail merge settings will be saved and it will become a normal document."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.settings/mailmergesettings/clear/
 ---
 

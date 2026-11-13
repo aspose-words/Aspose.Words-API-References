@@ -5,7 +5,7 @@ articleTitle: text_wrapping property
 second_title: Aspose.Words for Python
 description: "Table.text_wrapping property. Gets or sets [Table.text_wrapping](./) for table."
 type: docs
-weight: 310
+weight: 9300
 url: /python-net/aspose.words.tables/table/text_wrapping/
 ---
 

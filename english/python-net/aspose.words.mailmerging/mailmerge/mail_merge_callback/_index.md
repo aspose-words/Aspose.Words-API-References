@@ -5,7 +5,7 @@ articleTitle: mail_merge_callback property
 second_title: Aspose.Words for Python
 description: "MailMerge.mail_merge_callback property. Allows to handle particular events during mail merge."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.mailmerging/mailmerge/mail_merge_callback/
 ---
 

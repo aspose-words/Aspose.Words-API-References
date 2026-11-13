@@ -5,7 +5,7 @@ articleTitle: rows property
 second_title: Aspose.Words for Python
 description: "FieldDatabaseDataTable.rows property. Gets rows that belong to this table."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fielddatabasedatatable/rows/
 ---
 

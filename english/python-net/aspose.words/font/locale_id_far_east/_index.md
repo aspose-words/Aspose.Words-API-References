@@ -5,7 +5,7 @@ articleTitle: locale_id_far_east property
 second_title: Aspose.Words for Python
 description: "Font.locale_id_far_east property. Gets or sets the locale identifier (language) of the formatted Asian characters."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words/font/locale_id_far_east/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: city property
 second_title: Aspose.Words for Python
 description: "Source.city property. Gets or sets the city of a source."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.bibliography/source/city/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: writer property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.writer property. Gets or sets the writer of a source."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.bibliography/contributorcollection/writer/
 ---
 

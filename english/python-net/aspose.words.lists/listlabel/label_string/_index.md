@@ -5,7 +5,7 @@ articleTitle: label_string property
 second_title: Aspose.Words for Python
 description: "ListLabel.label_string property. Gets a string representation of list label."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lists/listlabel/label_string/
 ---
 

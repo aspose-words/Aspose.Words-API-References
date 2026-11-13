@@ -5,7 +5,7 @@ articleTitle: convert_metafiles_to_png property
 second_title: Aspose.Words for Python
 description: "LoadOptions.convert_metafiles_to_png property. Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.loading/loadoptions/convert_metafiles_to_png/
 ---
 

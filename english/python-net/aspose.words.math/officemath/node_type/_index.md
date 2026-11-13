@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "OfficeMath.node_type property. Returns [NodeType.OFFICE_MATH](../../../aspose.words/nodetype/#OFFICE_MATH)."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.math/officemath/node_type/
 ---
 

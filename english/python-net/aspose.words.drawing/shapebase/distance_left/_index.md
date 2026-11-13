@@ -5,7 +5,7 @@ articleTitle: distance_left property
 second_title: Aspose.Words for Python
 description: "ShapeBase.distance_left property. Returns or sets the distance (in points) between the document text and the left edge of the shape."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.drawing/shapebase/distance_left/
 ---
 

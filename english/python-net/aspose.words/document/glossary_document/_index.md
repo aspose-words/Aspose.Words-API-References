@@ -5,7 +5,7 @@ articleTitle: glossary_document property
 second_title: Aspose.Words for Python
 description: "Document.glossary_document property. Gets or sets the glossary document within this document or template"
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words/document/glossary_document/
 ---
 

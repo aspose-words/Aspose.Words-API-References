@@ -5,7 +5,7 @@ articleTitle: append_content method
 second_title: Aspose.Words for Python
 description: "Section.append_content method. Inserts a copy of content of the source section at the end of this section."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/section/append_content/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: has_sequence_name property
 second_title: Aspose.Words for Python
 description: "FieldIndex.has_sequence_name property. Gets a value indicating whether a sequence should be used while the field's result building."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldindex/has_sequence_name/
 ---
 

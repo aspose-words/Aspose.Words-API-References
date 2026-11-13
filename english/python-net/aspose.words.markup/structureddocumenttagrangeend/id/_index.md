@@ -5,7 +5,7 @@ articleTitle: id property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeEnd.id property. Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: block_import_mode property
 second_title: Aspose.Words for Python
 description: "HtmlLoadOptions.block_import_mode property. Gets or sets a value that specifies how properties of block-level elements are imported"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.loading/htmlloadoptions/block_import_mode/
 ---
 

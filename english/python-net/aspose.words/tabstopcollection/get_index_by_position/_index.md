@@ -5,7 +5,7 @@ articleTitle: get_index_by_position method
 second_title: Aspose.Words for Python
 description: "TabStopCollection.get_index_by_position method. Gets the index of a tab stop with the specified position in points."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/tabstopcollection/get_index_by_position/
 ---
 

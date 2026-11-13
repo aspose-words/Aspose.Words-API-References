@@ -5,7 +5,7 @@ articleTitle: CleanupOptions constructor
 second_title: Aspose.Words for Python
 description: "CleanupOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/cleanupoptions/__init__/
 ---
 

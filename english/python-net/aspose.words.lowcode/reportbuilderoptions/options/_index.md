@@ -5,7 +5,7 @@ articleTitle: options property
 second_title: Aspose.Words for Python
 description: "ReportBuilderOptions.options property. Gets or sets a set of flags controlling behavior of this [ReportingEngine](../../../aspose.words.reporting/reportingengine/) instance  while building a report."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.lowcode/reportbuilderoptions/options/
 ---
 

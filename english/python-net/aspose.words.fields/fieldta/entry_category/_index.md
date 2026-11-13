@@ -5,7 +5,7 @@ articleTitle: entry_category property
 second_title: Aspose.Words for Python
 description: "FieldTA.entry_category property. Gets or sets the integral entry category, which is a number that corresponds to the order of categories."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldta/entry_category/
 ---
 

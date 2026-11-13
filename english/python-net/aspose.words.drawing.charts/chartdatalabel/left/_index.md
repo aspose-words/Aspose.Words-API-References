@@ -5,7 +5,7 @@ articleTitle: left property
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.left property. Gets or sets the distance of the data label in points from the left edge of the chart or from the position specified by its [ChartDataLabel.position](../position/) property, depending on the value of the [ChartDataLabel.left_mode](../left_mode/) property."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/left/
 ---
 

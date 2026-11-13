@@ -5,7 +5,7 @@ articleTitle: phonetic_guide property
 second_title: Aspose.Words for Python
 description: "Run.phonetic_guide property. Gets a [Run.phonetic_guide](./) object."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/run/phonetic_guide/
 ---
 

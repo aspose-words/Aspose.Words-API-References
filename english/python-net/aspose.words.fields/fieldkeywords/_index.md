@@ -5,7 +5,7 @@ articleTitle: FieldKeywords class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldKeywords class. Implements the KEYWORDS field"
 type: docs
-weight: 630
+weight: 12600
 url: /python-net/aspose.words.fields/fieldkeywords/
 ---
 

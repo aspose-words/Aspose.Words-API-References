@@ -5,7 +5,7 @@ articleTitle: retain_first_section_start property
 second_title: Aspose.Words for Python
 description: "MailMergeOptions.retain_first_section_start property. Gets or sets a value indicating whether the section start of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to MS Word behaviour."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.lowcode/mailmergeoptions/retain_first_section_start/
 ---
 

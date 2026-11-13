@@ -5,7 +5,7 @@ articleTitle: MergerContext class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.MergerContext class. Document merger context."
 type: docs
-weight: 110
+weight: 2200
 url: /python-net/aspose.words.lowcode/mergercontext/
 ---
 

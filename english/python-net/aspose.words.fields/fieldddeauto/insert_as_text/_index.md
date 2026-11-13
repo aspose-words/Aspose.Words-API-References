@@ -5,7 +5,7 @@ articleTitle: insert_as_text property
 second_title: Aspose.Words for Python
 description: "FieldDdeAuto.insert_as_text property. Gets or sets whether to insert the linked object in text-only format."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldddeauto/insert_as_text/
 ---
 

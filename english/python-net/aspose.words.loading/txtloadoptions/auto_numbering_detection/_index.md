@@ -5,7 +5,7 @@ articleTitle: auto_numbering_detection property
 second_title: Aspose.Words for Python
 description: "TxtLoadOptions.auto_numbering_detection property. Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/
 ---
 

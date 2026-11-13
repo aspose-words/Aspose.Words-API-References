@@ -5,7 +5,7 @@ articleTitle: major_tick_mark property
 second_title: Aspose.Words for Python
 description: "ChartAxis.major_tick_mark property. Returns or sets the major tick marks."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.drawing.charts/chartaxis/major_tick_mark/
 ---
 

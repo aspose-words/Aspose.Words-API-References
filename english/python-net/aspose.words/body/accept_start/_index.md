@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "Body.accept_start method. Accepts a visitor for visiting the start of the document's body."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/body/accept_start/
 ---
 

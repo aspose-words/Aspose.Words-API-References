@@ -5,7 +5,7 @@ articleTitle: cell_format property
 second_title: Aspose.Words for Python
 description: "Cell.cell_format property. Provides access to the formatting properties of the cell."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.tables/cell/cell_format/
 ---
 

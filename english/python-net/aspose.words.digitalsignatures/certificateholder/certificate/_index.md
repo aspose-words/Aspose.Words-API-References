@@ -5,7 +5,7 @@ articleTitle: certificate property
 second_title: Aspose.Words for Python
 description: "CertificateHolder.certificate property. Returns the instance of X509Certificate2 which holds private, public keys and certificate chain."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 

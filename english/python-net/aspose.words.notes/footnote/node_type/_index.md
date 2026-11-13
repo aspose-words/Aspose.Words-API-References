@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "Footnote.node_type property. Returns [NodeType.FOOTNOTE](../../../aspose.words/nodetype/#FOOTNOTE)."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.notes/footnote/node_type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: message property
 second_title: Aspose.Words for Python
 description: "BillingHealthCheckResult.message property. Gets or sets a descriptive message providing additional details  about the health check status or any encountered errors."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/billinghealthcheckresult/message/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: IStructuredDocumentTag class
 second_title: Aspose.Words for Python
 description: "aspose.words.markup.IStructuredDocumentTag class. Interface to define a common data for [StructuredDocumentTag](../structureddocumenttag/) and [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/)."
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.markup/istructureddocumenttag/
 ---
 

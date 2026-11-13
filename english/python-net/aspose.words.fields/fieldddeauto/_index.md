@@ -5,7 +5,7 @@ articleTitle: FieldDdeAuto class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldDdeAuto class. Implements the DDEAUTO field"
 type: docs
-weight: 330
+weight: 6600
 url: /python-net/aspose.words.fields/fieldddeauto/
 ---
 

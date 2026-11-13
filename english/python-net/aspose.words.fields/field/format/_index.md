@@ -5,7 +5,7 @@ articleTitle: format property
 second_title: Aspose.Words for Python
 description: "Field.format property. Gets a [FieldFormat](../../fieldformat/) object that provides typed access to field's formatting."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/field/format/
 ---
 

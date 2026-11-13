@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "Node.remove method. Removes itself from the parent."
 type: docs
-weight: 490
+weight: 14700
 url: /python-net/aspose.words/node/remove/
 ---
 

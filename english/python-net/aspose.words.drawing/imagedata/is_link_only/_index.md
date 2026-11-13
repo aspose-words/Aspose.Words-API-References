@@ -5,7 +5,7 @@ articleTitle: is_link_only property
 second_title: Aspose.Words for Python
 description: "ImageData.is_link_only property. Returns ``True`` if the image is linked and not stored in the document."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.drawing/imagedata/is_link_only/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: colors property
 second_title: Aspose.Words for Python
 description: "Theme.colors property. Allows to specify the set of theme colors for the document."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.themes/theme/colors/
 ---
 

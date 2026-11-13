@@ -5,7 +5,7 @@ articleTitle: open_font_data_stream method
 second_title: Aspose.Words for Python
 description: "StreamFontSource.open_font_data_stream method. This method should open the stream with font data on demand."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fonts/streamfontsource/open_font_data_stream/
 ---
 

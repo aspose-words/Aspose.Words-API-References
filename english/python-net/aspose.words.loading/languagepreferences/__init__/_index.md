@@ -5,7 +5,7 @@ articleTitle: LanguagePreferences constructor
 second_title: Aspose.Words for Python
 description: "LanguagePreferences constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.loading/languagepreferences/__init__/
 ---
 

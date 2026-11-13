@@ -5,7 +5,7 @@ articleTitle: list_indent method
 second_title: Aspose.Words for Python
 description: "ListFormat.list_indent method. Increases the list level of the current paragraph by one level."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.lists/listformat/list_indent/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: director property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.director property. Gets or sets the director of a source."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.bibliography/contributorcollection/director/
 ---
 

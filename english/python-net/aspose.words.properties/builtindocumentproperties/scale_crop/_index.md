@@ -5,7 +5,7 @@ articleTitle: scale_crop property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.scale_crop property. Indicates whether document thumbnail is cropped or scaled to fit the display."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words.properties/builtindocumentproperties/scale_crop/
 ---
 

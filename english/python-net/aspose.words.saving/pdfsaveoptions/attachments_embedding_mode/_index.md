@@ -5,7 +5,7 @@ articleTitle: attachments_embedding_mode property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.attachments_embedding_mode property. Gets or sets a value determining how attachments are embedded to the PDF document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/
 ---
 

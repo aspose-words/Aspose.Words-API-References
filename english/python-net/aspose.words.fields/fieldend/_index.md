@@ -5,7 +5,7 @@ articleTitle: FieldEnd class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldEnd class. Represents an end of a Word field in a document"
 type: docs
-weight: 400
+weight: 8000
 url: /python-net/aspose.words.fields/fieldend/
 ---
 

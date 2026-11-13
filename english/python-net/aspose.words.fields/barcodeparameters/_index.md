@@ -5,7 +5,7 @@ articleTitle: BarcodeParameters class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.BarcodeParameters class. Container class for barcode parameters to pass-through to BarcodeGenerator"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.fields/barcodeparameters/
 ---
 

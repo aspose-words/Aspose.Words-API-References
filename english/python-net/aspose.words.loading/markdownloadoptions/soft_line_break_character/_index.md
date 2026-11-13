@@ -5,7 +5,7 @@ articleTitle: soft_line_break_character property
 second_title: Aspose.Words for Python
 description: "MarkdownLoadOptions.soft_line_break_character property. Gets or sets a character value representing `soft line break`"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.loading/markdownloadoptions/soft_line_break_character/
 ---
 

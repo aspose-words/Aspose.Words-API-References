@@ -5,7 +5,7 @@ articleTitle: position property
 second_title: Aspose.Words for Python
 description: "AxisTickLabels.position property. Gets or sets the position of the tick labels on the axis."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing.charts/axisticklabels/position/
 ---
 

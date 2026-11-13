@@ -5,7 +5,7 @@ articleTitle: delete method
 second_title: Aspose.Words for Python
 description: "XmlMapping.delete method. Deletes mapping of the parent structured document to XML data."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.markup/xmlmapping/delete/
 ---
 

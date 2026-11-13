@@ -5,7 +5,7 @@ articleTitle: as_shape method
 second_title: Aspose.Words for Python
 description: "Node.as_shape method. Cast Node to [Shape](../../../aspose.words.drawing/shape/)."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words/node/as_shape/
 ---
 

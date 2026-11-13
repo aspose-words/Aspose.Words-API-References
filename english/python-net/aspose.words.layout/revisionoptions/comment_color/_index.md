@@ -5,7 +5,7 @@ articleTitle: comment_color property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.comment_color property. Allows to specify the color to be used for comments"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.layout/revisionoptions/comment_color/
 ---
 
@@ -29,8 +29,8 @@ def comment_color(self, value: aspose.words.layout.RevisionColor):
 
 ### Remarks
 
-If set this property  to [RevisionColor.BY_AUTHOR](../../revisioncolor/#BY_AUTHOR) or [RevisionColor.NO_HIGHLIGHT](../../revisioncolor/#NO_HIGHLIGHT) values,
-as the result this property will be set to default color.
+If this property is set to [RevisionColor.NO_HIGHLIGHT](../../revisioncolor/#NO_HIGHLIGHT),
+the default color will be used for comments.
 
 
 ### Examples
@@ -70,6 +70,27 @@ revision_options.show_in_balloons = aw.layout.ShowInBalloons.FORMAT
 revision_options.comment_color = aw.layout.RevisionColor.BRIGHT_GREEN
 # These features are only applicable to formats such as .pdf or .jpg.
 doc.save(file_name=ARTIFACTS_DIR + 'Revision.RevisionOptions.pdf')
+```
+
+Shows how to render comments of each author in a different color.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.write("Hello world!")
+comment = aw.Comment(doc=doc, author="John Doe", initial="J.D.", date_time=datetime.datetime.now())
+comment.set_text("Comment from John.")
+builder.current_paragraph.append_child(comment)
+builder.writeln()
+builder.write("Hello again!")
+comment = aw.Comment(doc=doc, author="Jane Doe", initial="J.D.", date_time=datetime.datetime.now())
+comment.set_text("Comment from Jane.")
+builder.current_paragraph.append_child(comment)
+# Similar to Microsoft Word, the "ByAuthor" color affects regular comments as well as revision comments.
+# Comment balloons of different authors are rendered in different colors.
+doc.layout_options.revision_options.comment_color = aw.layout.RevisionColor.BY_AUTHOR
+# This option is only applicable to formats such as .pdf or .jpg.
+doc.save(file_name=ARTIFACTS_DIR + "Revision.CommentColorByAuthor.pdf")
 ```
 
 ### See Also

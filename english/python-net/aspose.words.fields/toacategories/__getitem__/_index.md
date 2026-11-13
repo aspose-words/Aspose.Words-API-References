@@ -5,7 +5,7 @@ articleTitle: ToaCategories indexer
 second_title: Aspose.Words for Python
 description: "ToaCategories indexer. Gets or sets the category heading by category number."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/toacategories/__getitem__/
 ---
 

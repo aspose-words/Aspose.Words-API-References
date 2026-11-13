@@ -5,7 +5,7 @@ articleTitle: FieldNumWords class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldNumWords class. Implements the NUMWORDS field"
 type: docs
-weight: 770
+weight: 15400
 url: /python-net/aspose.words.fields/fieldnumwords/
 ---
 

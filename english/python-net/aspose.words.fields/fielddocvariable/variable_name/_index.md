@@ -5,7 +5,7 @@ articleTitle: variable_name property
 second_title: Aspose.Words for Python
 description: "FieldDocVariable.variable_name property. Gets or sets the name of the document variable to retrieve."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fielddocvariable/variable_name/
 ---
 

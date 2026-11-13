@@ -5,7 +5,7 @@ articleTitle: visit_editable_range_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_editable_range_start method. Called when a start of an editable range is encountered in the document."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words/documentvisitor/visit_editable_range_start/
 ---
 

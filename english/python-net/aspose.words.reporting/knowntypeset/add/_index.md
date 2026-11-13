@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "KnownTypeSet.add method. Adds the specified  object to the set."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.reporting/knowntypeset/add/
 ---
 

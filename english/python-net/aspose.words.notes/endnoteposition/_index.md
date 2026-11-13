@@ -5,7 +5,7 @@ articleTitle: EndnotePosition enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.notes.EndnotePosition enumeration. Defines the endnote position."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.notes/endnoteposition/
 ---
 

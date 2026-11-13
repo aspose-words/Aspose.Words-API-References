@@ -5,7 +5,7 @@ articleTitle: translator property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.translator property. Gets or sets the translator of a source."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.bibliography/contributorcollection/translator/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: horizontal_resolution property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.horizontal_resolution property. Gets or sets the horizontal resolution for the generated images, in dots per inch."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/imagesaveoptions/horizontal_resolution/
 ---
 

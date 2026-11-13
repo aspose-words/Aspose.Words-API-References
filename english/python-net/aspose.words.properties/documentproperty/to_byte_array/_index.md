@@ -5,7 +5,7 @@ articleTitle: to_byte_array method
 second_title: Aspose.Words for Python
 description: "DocumentProperty.to_byte_array method. Returns the property value as byte array."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.properties/documentproperty/to_byte_array/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "MemoryFontSource.type property. Returns the type of the font source."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fonts/memoryfontsource/type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: use_ansi_kerning_pairs property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.use_ansi_kerning_pairs property. Use ANSI Kerning Pairs from Fonts."
 type: docs
-weight: 610
+weight: 18300
 url: /python-net/aspose.words.settings/compatibilityoptions/use_ansi_kerning_pairs/
 ---
 

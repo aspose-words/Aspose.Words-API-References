@@ -5,7 +5,7 @@ articleTitle: is_unicode property
 second_title: Aspose.Words for Python
 description: "FieldSymbol.is_unicode property. Gets or sets whether the character code is interpreted as the value of a Unicode character."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.fields/fieldsymbol/is_unicode/
 ---
 

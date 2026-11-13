@@ -5,7 +5,7 @@ articleTitle: first_slice_angle property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.first_slice_angle property. Gets or sets the angle, in degrees, of the first slice of the parent pie chart."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/first_slice_angle/
 ---
 

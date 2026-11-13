@@ -5,7 +5,7 @@ articleTitle: set_fonts_sources method
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontSettings.set_fonts_sources method"
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.fonts/fontsettings/set_fonts_sources/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: date_time property
 second_title: Aspose.Words for Python
 description: "ComparerContext.date_time property. The date and time assigned to revisions created during document comparison."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.lowcode/comparercontext/date_time/
 ---
 

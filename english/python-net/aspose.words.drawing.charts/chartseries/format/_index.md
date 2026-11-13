@@ -5,7 +5,7 @@ articleTitle: format property
 second_title: Aspose.Words for Python
 description: "ChartSeries.format property. Provides access to fill and line formatting of the series."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing.charts/chartseries/format/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ComparerContext constructor
 second_title: Aspose.Words for Python
 description: "ComparerContext constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lowcode/comparercontext/__init__/
 ---
 

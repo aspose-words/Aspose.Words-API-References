@@ -5,7 +5,7 @@ articleTitle: KnownTypeSet class
 second_title: Aspose.Words for Python
 description: "aspose.words.reporting.KnownTypeSet class. Represents an unordered set (i.e"
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.reporting/knowntypeset/
 ---
 

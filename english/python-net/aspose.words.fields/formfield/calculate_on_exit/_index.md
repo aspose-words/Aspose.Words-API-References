@@ -5,7 +5,7 @@ articleTitle: calculate_on_exit property
 second_title: Aspose.Words for Python
 description: "FormField.calculate_on_exit property. True if references to the specified form field are automatically updated whenever the field is exited."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/formfield/calculate_on_exit/
 ---
 

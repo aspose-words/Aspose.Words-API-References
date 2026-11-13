@@ -5,7 +5,7 @@ articleTitle: last_building_block property
 second_title: Aspose.Words for Python
 description: "GlossaryDocument.last_building_block property. Gets the last building block in the glossary document."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.buildingblocks/glossarydocument/last_building_block/
 ---
 

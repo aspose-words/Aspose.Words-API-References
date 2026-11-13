@@ -5,7 +5,7 @@ articleTitle: numeral_format property
 second_title: Aspose.Words for Python
 description: "FixedPageSaveOptions.numeral_format property. Gets or sets [NumeralFormat](../../numeralformat/) used for rendering of numerals"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/numeral_format/
 ---
 

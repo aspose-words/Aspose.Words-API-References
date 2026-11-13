@@ -5,7 +5,7 @@ articleTitle: visit_run method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_run method. Called when a run of text in the is encountered."
 type: docs
-weight: 360
+weight: 10800
 url: /python-net/aspose.words/documentvisitor/visit_run/
 ---
 

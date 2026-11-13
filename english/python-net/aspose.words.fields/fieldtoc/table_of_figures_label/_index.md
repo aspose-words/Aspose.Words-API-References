@@ -5,7 +5,7 @@ articleTitle: table_of_figures_label property
 second_title: Aspose.Words for Python
 description: "FieldToc.table_of_figures_label property. Gets or sets the name of the sequence identifier used when building a table of figures."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.fields/fieldtoc/table_of_figures_label/
 ---
 

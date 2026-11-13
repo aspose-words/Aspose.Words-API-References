@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "GroupShape.accept_end method. Accepts a visitor for visiting the end of the GroupShape."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing/groupshape/accept_end/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "NodeList.count property. Gets the number of nodes in the list."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/nodelist/count/
 ---
 

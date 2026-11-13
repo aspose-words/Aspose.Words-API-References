@@ -5,7 +5,7 @@ articleTitle: as_field_ocx method
 second_title: Aspose.Words for Python
 description: "Field.as_field_ocx method. Cast Field to [FieldOcx](../../fieldocx/)."
 type: docs
-weight: 740
+weight: 22200
 url: /python-net/aspose.words.fields/field/as_field_ocx/
 ---
 

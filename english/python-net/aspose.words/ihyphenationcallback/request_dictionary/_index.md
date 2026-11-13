@@ -5,7 +5,7 @@ articleTitle: request_dictionary method
 second_title: Aspose.Words for Python
 description: "IHyphenationCallback.request_dictionary method. Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/ihyphenationcallback/request_dictionary/
 ---
 

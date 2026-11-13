@@ -5,7 +5,7 @@ articleTitle: description property
 second_title: Aspose.Words for Python
 description: "Table.description property. Gets or sets description of this table"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.tables/table/description/
 ---
 

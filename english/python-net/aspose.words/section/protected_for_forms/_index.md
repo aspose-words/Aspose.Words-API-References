@@ -5,7 +5,7 @@ articleTitle: protected_for_forms property
 second_title: Aspose.Words for Python
 description: "Section.protected_for_forms property. True if the section is protected for forms"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/section/protected_for_forms/
 ---
 

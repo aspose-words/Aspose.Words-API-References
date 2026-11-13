@@ -5,7 +5,7 @@ articleTitle: as_field_user_initials method
 second_title: Aspose.Words for Python
 description: "Field.as_field_user_initials method. Cast Field to [FieldUserInitials](../../fielduserinitials/)."
 type: docs
-weight: 1030
+weight: 30900
 url: /python-net/aspose.words.fields/field/as_field_user_initials/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: next_sibling property
 second_title: Aspose.Words for Python
 description: "Node.next_sibling property. Gets the node immediately following this node."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/node/next_sibling/
 ---
 

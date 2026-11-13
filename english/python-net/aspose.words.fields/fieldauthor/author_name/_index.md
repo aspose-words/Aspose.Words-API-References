@@ -5,7 +5,7 @@ articleTitle: author_name property
 second_title: Aspose.Words for Python
 description: "FieldAuthor.author_name property. Gets or sets the document author's name."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldauthor/author_name/
 ---
 

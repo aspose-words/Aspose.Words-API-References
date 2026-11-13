@@ -5,7 +5,7 @@ articleTitle: list_format property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.list_format property. Returns an object that represents current list formatting properties."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/documentbuilder/list_format/
 ---
 

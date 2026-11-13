@@ -5,7 +5,7 @@ articleTitle: insert_once_on_mail_merge property
 second_title: Aspose.Words for Python
 description: "FieldDatabase.insert_once_on_mail_merge property. Gets or sets whether to insert data at the beginning of a merge."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fielddatabase/insert_once_on_mail_merge/
 ---
 

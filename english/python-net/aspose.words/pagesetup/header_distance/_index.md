@@ -5,7 +5,7 @@ articleTitle: header_distance property
 second_title: Aspose.Words for Python
 description: "PageSetup.header_distance property. Returns or sets the distance (in points) between the header and the top of the page."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words/pagesetup/header_distance/
 ---
 

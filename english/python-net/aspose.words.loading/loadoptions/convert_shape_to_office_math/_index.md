@@ -5,7 +5,7 @@ articleTitle: convert_shape_to_office_math property
 second_title: Aspose.Words for Python
 description: "LoadOptions.convert_shape_to_office_math property. Gets or sets whether to convert shapes with EquationXML to Office Math objects."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/
 ---
 

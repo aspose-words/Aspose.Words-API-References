@@ -5,7 +5,7 @@ articleTitle: set_count method
 second_title: Aspose.Words for Python
 description: "TextColumnCollection.set_count method. Arranges text into the specified number of text columns."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/textcolumncollection/set_count/
 ---
 

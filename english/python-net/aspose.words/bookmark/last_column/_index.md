@@ -5,7 +5,7 @@ articleTitle: last_column property
 second_title: Aspose.Words for Python
 description: "Bookmark.last_column property. Gets the zero-based index of the last column of the table column range associated with the bookmark."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/bookmark/last_column/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: is_semitrasparent property
 second_title: Aspose.Words for Python
 description: "TextWatermarkOptions.is_semitrasparent property. Gets or sets a boolean value which is responsible for opacity of the watermark"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/textwatermarkoptions/is_semitrasparent/
 ---
 

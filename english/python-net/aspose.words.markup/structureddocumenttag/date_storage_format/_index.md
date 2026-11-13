@@ -5,7 +5,7 @@ articleTitle: date_storage_format property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.date_storage_format property. Gets/sets format in which the date for a date SDT is stored when the SDT is bound to an XML node in the document's data store"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.markup/structureddocumenttag/date_storage_format/
 ---
 

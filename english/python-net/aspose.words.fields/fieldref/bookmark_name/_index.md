@@ -5,7 +5,7 @@ articleTitle: bookmark_name property
 second_title: Aspose.Words for Python
 description: "FieldRef.bookmark_name property. Gets or sets the referenced bookmark's name."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldref/bookmark_name/
 ---
 

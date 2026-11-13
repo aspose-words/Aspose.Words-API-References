@@ -5,7 +5,7 @@ articleTitle: manager property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.manager property. Gets or sets the manager property."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.properties/builtindocumentproperties/manager/
 ---
 

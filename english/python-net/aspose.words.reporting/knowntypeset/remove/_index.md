@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "KnownTypeSet.remove method. Removes the specified  object from the set."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.reporting/knowntypeset/remove/
 ---
 

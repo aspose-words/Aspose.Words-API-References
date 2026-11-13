@@ -5,7 +5,7 @@ articleTitle: empty_paragraph_export_mode property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.empty_paragraph_export_mode property. Specifies how to export empty paragraphs to Markdown"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/markdownsaveoptions/empty_paragraph_export_mode/
 ---
 

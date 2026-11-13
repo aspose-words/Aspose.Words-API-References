@@ -5,7 +5,7 @@ articleTitle: sources property
 second_title: Aspose.Words for Python
 description: "Bibliography.sources property. Gets a collection that represents all the sources contained in a bibliography."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.bibliography/bibliography/sources/
 ---
 

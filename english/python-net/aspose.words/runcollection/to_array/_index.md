@@ -5,7 +5,7 @@ articleTitle: to_array method
 second_title: Aspose.Words for Python
 description: "RunCollection.to_array method. Copies all runs from the collection to a new array of runs."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/runcollection/to_array/
 ---
 

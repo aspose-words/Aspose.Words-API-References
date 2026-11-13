@@ -5,7 +5,7 @@ articleTitle: no_shade property
 second_title: Aspose.Words for Python
 description: "HorizontalRuleFormat.no_shade property. Indicates the presence of 3D shading for the horizontal rule"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing/horizontalruleformat/no_shade/
 ---
 

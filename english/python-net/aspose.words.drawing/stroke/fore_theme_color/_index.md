@@ -5,7 +5,7 @@ articleTitle: fore_theme_color property
 second_title: Aspose.Words for Python
 description: "Stroke.fore_theme_color property. Gets or sets a ThemeColor object that represents the stroke foreground color."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.drawing/stroke/fore_theme_color/
 ---
 

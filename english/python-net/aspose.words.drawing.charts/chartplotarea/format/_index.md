@@ -5,7 +5,7 @@ articleTitle: format property
 second_title: Aspose.Words for Python
 description: "ChartPlotArea.format property. Provides access to fill and line formatting of the plot area."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartplotarea/format/
 ---
 

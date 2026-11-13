@@ -5,7 +5,7 @@ articleTitle: entry_separator property
 second_title: Aspose.Words for Python
 description: "FieldToa.entry_separator property. Gets or sets the character sequence that is used to separate a table of authorities entry and its page number."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldtoa/entry_separator/
 ---
 

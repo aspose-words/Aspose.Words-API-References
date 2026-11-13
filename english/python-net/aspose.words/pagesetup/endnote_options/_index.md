@@ -5,7 +5,7 @@ articleTitle: endnote_options property
 second_title: Aspose.Words for Python
 description: "PageSetup.endnote_options property. Provides options that control numbering and positioning of endnotes in this section."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/pagesetup/endnote_options/
 ---
 

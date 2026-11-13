@@ -5,7 +5,7 @@ articleTitle: insert_as_text property
 second_title: Aspose.Words for Python
 description: "FieldLink.insert_as_text property. Gets or sets whether to insert the linked object in text-only format."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.fields/fieldlink/insert_as_text/
 ---
 

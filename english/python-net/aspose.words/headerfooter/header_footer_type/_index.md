@@ -5,7 +5,7 @@ articleTitle: header_footer_type property
 second_title: Aspose.Words for Python
 description: "HeaderFooter.header_footer_type property. Gets the type of this header/footer."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/headerfooter/header_footer_type/
 ---
 

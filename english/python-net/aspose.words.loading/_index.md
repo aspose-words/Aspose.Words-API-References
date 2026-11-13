@@ -5,7 +5,7 @@ articleTitle: aspose.words.loading module
 second_title: Aspose.Words for Python
 description: "The aspose.words.loading module provides classes and enumerations that allow to specify additional options when loading documents."
 type: docs
-weight: 150
+weight: 1500
 url: /python-net/aspose.words.loading/
 ---
 

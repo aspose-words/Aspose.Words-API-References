@@ -5,7 +5,7 @@ articleTitle: TableSubstitutionRule class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.TableSubstitutionRule class. Table font substitution rule"
 type: docs
-weight: 250
+weight: 5000
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/
 ---
 

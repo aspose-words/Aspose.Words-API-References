@@ -5,7 +5,7 @@ articleTitle: as_bookmark_end method
 second_title: Aspose.Words for Python
 description: "Node.as_bookmark_end method. Cast Node to [BookmarkEnd](../../bookmarkend/)."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/node/as_bookmark_end/
 ---
 

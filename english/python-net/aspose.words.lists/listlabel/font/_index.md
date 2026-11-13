@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "ListLabel.font property. Gets the list label font."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lists/listlabel/font/
 ---
 

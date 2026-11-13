@@ -5,7 +5,7 @@ articleTitle: paragraphs property
 second_title: Aspose.Words for Python
 description: "Cell.paragraphs property. Gets a collection of paragraphs that are immediate children of the cell."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.tables/cell/paragraphs/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ChartAxisCollection indexer
 second_title: Aspose.Words for Python
 description: "ChartAxisCollection indexer. Gets the axis at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartaxiscollection/__getitem__/
 ---
 

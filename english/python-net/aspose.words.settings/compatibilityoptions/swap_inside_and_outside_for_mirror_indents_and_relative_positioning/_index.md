@@ -5,7 +5,7 @@ articleTitle: swap_inside_and_outside_for_mirror_indents_and_relative_positionin
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.swap_inside_and_outside_for_mirror_indents_and_relative_positioning property. Specifies to swap inside and outside for mirror indents and relative positioning."
 type: docs
-weight: 540
+weight: 16200
 url: /python-net/aspose.words.settings/compatibilityoptions/swap_inside_and_outside_for_mirror_indents_and_relative_positioning/
 ---
 

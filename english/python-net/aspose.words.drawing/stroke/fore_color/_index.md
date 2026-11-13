@@ -5,7 +5,7 @@ articleTitle: fore_color property
 second_title: Aspose.Words for Python
 description: "Stroke.fore_color property. Gets or sets the foreground color of the stroke."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.drawing/stroke/fore_color/
 ---
 

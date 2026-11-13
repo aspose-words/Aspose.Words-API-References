@@ -5,7 +5,7 @@ articleTitle: Field class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.Field class. Represents a Microsoft Word document field"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.fields/field/
 ---
 

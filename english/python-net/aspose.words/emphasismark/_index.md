@@ -5,7 +5,7 @@ articleTitle: EmphasisMark enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.EmphasisMark enumeration. Specifies possible types of emphasis mark."
 type: docs
-weight: 400
+weight: 8000
 url: /python-net/aspose.words/emphasismark/
 ---
 

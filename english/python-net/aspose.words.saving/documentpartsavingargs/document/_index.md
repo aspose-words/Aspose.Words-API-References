@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "DocumentPartSavingArgs.document property. Gets the document object that is being saved."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/documentpartsavingargs/document/
 ---
 

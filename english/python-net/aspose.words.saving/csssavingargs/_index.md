@@ -5,7 +5,7 @@ articleTitle: CssSavingArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.CssSavingArgs class. Provides data for the [ICssSavingCallback.css_saving()](../icsssavingcallback/css_saving/#csssavingargs) event"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.saving/csssavingargs/
 ---
 

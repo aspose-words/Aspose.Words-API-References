@@ -5,7 +5,7 @@ articleTitle: borders property
 second_title: Aspose.Words for Python
 description: "ConditionalStyle.borders property. Gets the collection of default cell borders for the conditional style."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/conditionalstyle/borders/
 ---
 

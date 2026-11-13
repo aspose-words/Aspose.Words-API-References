@@ -5,7 +5,7 @@ articleTitle: style_name property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.style_name property. Gets or sets the name of the style applied to the structured document tag."
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words.markup/structureddocumenttag/style_name/
 ---
 

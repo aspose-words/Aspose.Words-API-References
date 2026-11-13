@@ -5,7 +5,7 @@ articleTitle: EndCap enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.EndCap enumeration. Specifies line cap style."
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.drawing/endcap/
 ---
 

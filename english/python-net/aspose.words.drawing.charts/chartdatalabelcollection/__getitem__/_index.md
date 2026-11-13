@@ -5,7 +5,7 @@ articleTitle: ChartDataLabelCollection indexer
 second_title: Aspose.Words for Python
 description: "ChartDataLabelCollection indexer. Returns [ChartDataLabel](../../chartdatalabel/) for the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/__getitem__/
 ---
 

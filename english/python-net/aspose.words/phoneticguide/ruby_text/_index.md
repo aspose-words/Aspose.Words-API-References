@@ -5,7 +5,7 @@ articleTitle: ruby_text property
 second_title: Aspose.Words for Python
 description: "PhoneticGuide.ruby_text property. Gets ruby text of the phonetic guide."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/phoneticguide/ruby_text/
 ---
 

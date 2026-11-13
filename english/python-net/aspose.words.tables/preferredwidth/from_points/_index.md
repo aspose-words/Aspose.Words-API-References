@@ -5,7 +5,7 @@ articleTitle: from_points method
 second_title: Aspose.Words for Python
 description: "PreferredWidth.from_points method. A creation method that returns a new instance that represents a preferred width specified using a number of points."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.tables/preferredwidth/from_points/
 ---
 

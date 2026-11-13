@@ -5,7 +5,7 @@ articleTitle: is_frozen property
 second_title: Aspose.Words for Python
 description: "WebExtension.is_frozen property. Specifies whether the user can interact with the web extension or not."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.webextensions/webextension/is_frozen/
 ---
 

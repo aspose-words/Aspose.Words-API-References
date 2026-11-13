@@ -5,7 +5,7 @@ articleTitle: build_report method
 second_title: Aspose.Words for Python
 description: "aspose.words.reporting.ReportingEngine.build_report method"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.reporting/reportingengine/build_report/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: is_defined property
 second_title: Aspose.Words for Python
 description: "ChartFormat.is_defined property. Gets a flag indicating whether any format is defined."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartformat/is_defined/
 ---
 

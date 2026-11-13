@@ -5,7 +5,7 @@ articleTitle: as_field_greeting_line method
 second_title: Aspose.Words for Python
 description: "Field.as_field_greeting_line method. Cast Field to [FieldGreetingLine](../../fieldgreetingline/)."
 type: docs
-weight: 500
+weight: 15000
 url: /python-net/aspose.words.fields/field/as_field_greeting_line/
 ---
 

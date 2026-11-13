@@ -5,7 +5,7 @@ articleTitle: as_field_private method
 second_title: Aspose.Words for Python
 description: "Field.as_field_private method. Cast Field to [FieldPrivate](../../fieldprivate/)."
 type: docs
-weight: 790
+weight: 23700
 url: /python-net/aspose.words.fields/field/as_field_private/
 ---
 

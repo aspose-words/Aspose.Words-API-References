@@ -5,7 +5,7 @@ articleTitle: remove_customizations method
 second_title: Aspose.Words for Python
 description: "Document.remove_customizations method. Removes toolbar and keyboard command customizations from the document."
 type: docs
-weight: 710
+weight: 21300
 url: /python-net/aspose.words/document/remove_customizations/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureDetails class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DigitalSignatureDetails class. Contains details for signing a document with a digital signature."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.saving/digitalsignaturedetails/
 ---
 

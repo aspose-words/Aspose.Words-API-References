@@ -5,7 +5,7 @@ articleTitle: id property
 second_title: Aspose.Words for Python
 description: "CommentRangeEnd.id property. Specifies the identifier of the comment to which this region is linked to."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/commentrangeend/id/
 ---
 

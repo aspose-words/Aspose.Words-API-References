@@ -5,7 +5,7 @@ articleTitle: title property
 second_title: Aspose.Words for Python
 description: "Source.title property. Gets or sets the title of a source."
 type: docs
-weight: 480
+weight: 14400
 url: /python-net/aspose.words.bibliography/source/title/
 ---
 

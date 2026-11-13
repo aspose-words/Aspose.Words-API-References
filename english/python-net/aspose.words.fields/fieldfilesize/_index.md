@@ -5,7 +5,7 @@ articleTitle: FieldFileSize class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldFileSize class. Implements the FILESIZE field"
 type: docs
-weight: 420
+weight: 8400
 url: /python-net/aspose.words.fields/fieldfilesize/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ChartFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartFormat class. Represents the formatting of a chart element"
 type: docs
-weight: 260
+weight: 5200
 url: /python-net/aspose.words.drawing.charts/chartformat/
 ---
 

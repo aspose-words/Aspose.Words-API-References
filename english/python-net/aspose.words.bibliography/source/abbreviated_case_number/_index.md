@@ -5,7 +5,7 @@ articleTitle: abbreviated_case_number property
 second_title: Aspose.Words for Python
 description: "Source.abbreviated_case_number property. Gets or sets the abbreviated case number of a source."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.bibliography/source/abbreviated_case_number/
 ---
 

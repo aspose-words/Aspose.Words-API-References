@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "OfficeMath.accept method. Accepts a visitor."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.math/officemath/accept/
 ---
 

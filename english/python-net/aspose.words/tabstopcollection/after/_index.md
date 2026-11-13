@@ -5,7 +5,7 @@ articleTitle: after method
 second_title: Aspose.Words for Python
 description: "TabStopCollection.after method. Gets a first tab stop to the right of the specified position."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/tabstopcollection/after/
 ---
 

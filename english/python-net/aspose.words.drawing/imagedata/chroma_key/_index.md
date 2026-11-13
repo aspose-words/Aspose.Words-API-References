@@ -5,7 +5,7 @@ articleTitle: chroma_key property
 second_title: Aspose.Words for Python
 description: "ImageData.chroma_key property. Defines the color value of the image that will be treated as transparent."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing/imagedata/chroma_key/
 ---
 

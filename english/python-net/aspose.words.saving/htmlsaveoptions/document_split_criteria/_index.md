@@ -5,7 +5,7 @@ articleTitle: document_split_criteria property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.document_split_criteria property. Specifies how the document should be split when saving to [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) format"
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/
 ---
 

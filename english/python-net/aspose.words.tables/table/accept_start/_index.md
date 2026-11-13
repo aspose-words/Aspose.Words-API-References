@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "Table.accept_start method. Accepts a visitor for visiting the start of the table."
 type: docs
-weight: 370
+weight: 11100
 url: /python-net/aspose.words.tables/table/accept_start/
 ---
 

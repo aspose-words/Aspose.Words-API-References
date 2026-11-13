@@ -5,7 +5,7 @@ articleTitle: is_linked property
 second_title: Aspose.Words for Python
 description: "FieldDde.is_linked property. Gets or sets whether to reduce the file size by not storing graphics data with the document."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/fielddde/is_linked/
 ---
 

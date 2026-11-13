@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "Bookmark.name property. Gets or sets the name of the bookmark."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/bookmark/name/
 ---
 

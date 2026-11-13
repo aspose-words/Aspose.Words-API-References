@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.font property. Returns an object that represents current font formatting properties."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/documentbuilder/font/
 ---
 

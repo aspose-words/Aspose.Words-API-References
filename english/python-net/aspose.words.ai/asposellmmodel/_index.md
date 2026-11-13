@@ -5,7 +5,7 @@ articleTitle: AsposeLlmModel class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.AsposeLlmModel class. Provides AI-powered document processing backed by Aspose.LLM - an on-premise LLM inference engine that runs entirely inside the current process, so document content never leaves the machine."
 type: docs
-weight: 40
+weight: 601
 url: /python-net/aspose.words.ai/asposellmmodel/
 ---
 
@@ -26,9 +26,13 @@ Aspose.LLM is not a dependency of Aspose.Words. To use this class, install the A
 If it cannot be loaded, the first call to the model throws System.InvalidOperationException.
 
 
-Aspose.LLM is a separate package with its own license. You should set it directly,
-the same way as for any other Aspose product.
+Aspose.LLM has its own license, separate from the Aspose.Words license. You should set it directly,
+the same way as for any other Aspose product, for example:
+```
 
+new Aspose.LLM.License().SetLicense("Aspose.Total.lic");
+
+```
 
 This class does not manage that license itself.
 

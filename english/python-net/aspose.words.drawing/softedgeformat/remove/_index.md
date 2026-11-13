@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "SoftEdgeFormat.remove method. Removes [SoftEdgeFormat](../) from the parent object."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/softedgeformat/remove/
 ---
 

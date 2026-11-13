@@ -5,7 +5,7 @@ articleTitle: WebExtensionReferenceCollection indexer
 second_title: Aspose.Words for Python
 description: "WebExtensionReferenceCollection indexer. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.webextensions/webextensionreferencecollection/__getitem__/
 ---
 

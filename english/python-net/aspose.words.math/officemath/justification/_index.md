@@ -5,7 +5,7 @@ articleTitle: justification property
 second_title: Aspose.Words for Python
 description: "OfficeMath.justification property. Gets/sets Office Math justification."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.math/officemath/justification/
 ---
 

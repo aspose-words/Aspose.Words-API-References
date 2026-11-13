@@ -5,7 +5,7 @@ articleTitle: image_watermark property
 second_title: Aspose.Words for Python
 description: "WatermarkerContext.image_watermark property. Image bytes to be used as a watermark."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/watermarkercontext/image_watermark/
 ---
 

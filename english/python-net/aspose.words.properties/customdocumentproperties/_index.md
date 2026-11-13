@@ -5,7 +5,7 @@ articleTitle: CustomDocumentProperties class
 second_title: Aspose.Words for Python
 description: "aspose.words.properties.CustomDocumentProperties class. A collection of custom document properties"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.properties/customdocumentproperties/
 ---
 

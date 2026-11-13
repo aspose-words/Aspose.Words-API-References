@@ -5,7 +5,7 @@ articleTitle: get_by_header_footer_type method
 second_title: Aspose.Words for Python
 description: "HeaderFooterCollection.get_by_header_footer_type method. Retrieves a HeaderFooter of the specified type."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/headerfootercollection/get_by_header_footer_type/
 ---
 

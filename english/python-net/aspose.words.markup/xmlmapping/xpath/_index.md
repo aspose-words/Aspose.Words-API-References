@@ -5,7 +5,7 @@ articleTitle: xpath property
 second_title: Aspose.Words for Python
 description: "XmlMapping.xpath property. Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.markup/xmlmapping/xpath/
 ---
 

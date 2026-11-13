@@ -5,7 +5,7 @@ articleTitle: DocSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DocSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.DOC](../../aspose.words/saveformat/#DOC) or [SaveFormat.DOT](../../aspose.words/saveformat/#DOT) format"
 type: docs
-weight: 100
+weight: 2000
 url: /python-net/aspose.words.saving/docsaveoptions/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: excluded_country_or_region_name property
 second_title: Aspose.Words for Python
 description: "FieldAddressBlock.excluded_country_or_region_name property. Gets or sets the excluded country/region name."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldaddressblock/excluded_country_or_region_name/
 ---
 

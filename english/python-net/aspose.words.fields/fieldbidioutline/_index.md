@@ -5,7 +5,7 @@ articleTitle: FieldBidiOutline class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldBidiOutline class. Implements the BIDIOUTLINE field"
 type: docs
-weight: 190
+weight: 3800
 url: /python-net/aspose.words.fields/fieldbidioutline/
 ---
 

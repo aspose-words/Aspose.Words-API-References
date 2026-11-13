@@ -5,7 +5,7 @@ articleTitle: top_margin property
 second_title: Aspose.Words for Python
 description: "PageSetup.top_margin property. Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text."
 type: docs
-weight: 440
+weight: 13200
 url: /python-net/aspose.words/pagesetup/top_margin/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: password property
 second_title: Aspose.Words for Python
 description: "PdfDigitalSignatureTimestampSettings.password property. Timestamp server password."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
 ---
 

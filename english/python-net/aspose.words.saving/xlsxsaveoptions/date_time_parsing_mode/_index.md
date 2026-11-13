@@ -5,7 +5,7 @@ articleTitle: date_time_parsing_mode property
 second_title: Aspose.Words for Python
 description: "XlsxSaveOptions.date_time_parsing_mode property. Gets or sets the mode that specifies how document text is parsed to identify date and time values"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/xlsxsaveoptions/date_time_parsing_mode/
 ---
 

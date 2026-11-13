@@ -5,7 +5,7 @@ articleTitle: get_by_name method
 second_title: Aspose.Words for Python
 description: "VbaModuleCollection.get_by_name method. Retrieves a [VbaModule](../../vbamodule/) object by name, or Null if not found."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.vba/vbamodulecollection/get_by_name/
 ---
 

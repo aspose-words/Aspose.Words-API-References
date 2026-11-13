@@ -5,7 +5,7 @@ articleTitle: minimum property
 second_title: Aspose.Words for Python
 description: "AxisScaling.minimum property. Gets or sets minimum value of the axis."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing.charts/axisscaling/minimum/
 ---
 

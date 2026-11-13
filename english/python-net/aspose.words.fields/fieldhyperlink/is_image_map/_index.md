@@ -5,7 +5,7 @@ articleTitle: is_image_map property
 second_title: Aspose.Words for Python
 description: "FieldHyperlink.is_image_map property. Gets or sets whether to append coordinates to the hyperlink for a server-side image map."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldhyperlink/is_image_map/
 ---
 

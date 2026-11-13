@@ -5,7 +5,7 @@ articleTitle: is_auto property
 second_title: Aspose.Words for Python
 description: "AxisBound.is_auto property. Returns a flag indicating that axis bound should be determined automatically."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/axisbound/is_auto/
 ---
 

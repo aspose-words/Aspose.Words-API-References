@@ -5,7 +5,7 @@ articleTitle: WebExtensionStoreType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.webextensions.WebExtensionStoreType enumeration. Enumerates available types of a web extension store."
 type: docs
-weight: 120
+weight: 2400
 url: /python-net/aspose.words.webextensions/webextensionstoretype/
 ---
 

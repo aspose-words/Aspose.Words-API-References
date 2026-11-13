@@ -5,7 +5,7 @@ articleTitle: wp_justification property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.wp_justification property. Emulate WordPerfect 6.x Paragraph Justification."
 type: docs
-weight: 690
+weight: 20700
 url: /python-net/aspose.words.settings/compatibilityoptions/wp_justification/
 ---
 

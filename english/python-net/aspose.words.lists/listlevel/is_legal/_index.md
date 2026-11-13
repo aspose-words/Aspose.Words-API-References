@@ -5,7 +5,7 @@ articleTitle: is_legal property
 second_title: Aspose.Words for Python
 description: "ListLevel.is_legal property. True if the level turns all inherited numbers to Arabic, false if it preserves their number style."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.lists/listlevel/is_legal/
 ---
 

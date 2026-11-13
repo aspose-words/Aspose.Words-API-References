@@ -5,7 +5,7 @@ articleTitle: visit_section_end method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_section_end method. Called when enumeration of a section has ended."
 type: docs
-weight: 370
+weight: 11100
 url: /python-net/aspose.words/documentvisitor/visit_section_end/
 ---
 

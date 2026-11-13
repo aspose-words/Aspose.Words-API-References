@@ -5,7 +5,7 @@ articleTitle: first_column property
 second_title: Aspose.Words for Python
 description: "Bookmark.first_column property. Gets the zero-based index of the first column of the table column range associated with the bookmark."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/bookmark/first_column/
 ---
 

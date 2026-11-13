@@ -5,7 +5,7 @@ articleTitle: estimated_progress property
 second_title: Aspose.Words for Python
 description: "DocumentSavingArgs.estimated_progress property. Overall estimated percentage progress."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/documentsavingargs/estimated_progress/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: display_text property
 second_title: Aspose.Words for Python
 description: "FieldGoToButton.display_text property. Gets or sets the text of the button that appears in the document, such that it can be selected to activate the jump."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldgotobutton/display_text/
 ---
 

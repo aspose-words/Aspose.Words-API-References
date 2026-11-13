@@ -5,7 +5,7 @@ articleTitle: CustomPartCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.markup.CustomPartCollection class. Represents a collection of [CustomPart](../custompart/) objects"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.markup/custompartcollection/
 ---
 

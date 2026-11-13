@@ -5,7 +5,7 @@ articleTitle: visit_special_char method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_special_char method. Called when a [SpecialChar](../../specialchar/) node is encountered in the document."
 type: docs
-weight: 430
+weight: 12900
 url: /python-net/aspose.words/documentvisitor/visit_special_char/
 ---
 

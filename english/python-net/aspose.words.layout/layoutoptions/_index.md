@@ -5,7 +5,7 @@ articleTitle: LayoutOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.LayoutOptions class. Holds the options that allow controlling the document layout process"
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.layout/layoutoptions/
 ---
 

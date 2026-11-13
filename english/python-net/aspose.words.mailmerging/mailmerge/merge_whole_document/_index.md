@@ -5,7 +5,7 @@ articleTitle: merge_whole_document property
 second_title: Aspose.Words for Python
 description: "MailMerge.merge_whole_document property. Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.mailmerging/mailmerge/merge_whole_document/
 ---
 

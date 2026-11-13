@@ -5,7 +5,7 @@ articleTitle: FieldNextIf constructor
 second_title: Aspose.Words for Python
 description: "FieldNextIf constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldnextif/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: suppress_sp_bf_after_pg_brk property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.suppress_sp_bf_after_pg_brk property. Do Not Use Space Before On First Line After a Page Break."
 type: docs
-weight: 490
+weight: 14700
 url: /python-net/aspose.words.settings/compatibilityoptions/suppress_sp_bf_after_pg_brk/
 ---
 

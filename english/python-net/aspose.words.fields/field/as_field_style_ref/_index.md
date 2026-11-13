@@ -5,7 +5,7 @@ articleTitle: as_field_style_ref method
 second_title: Aspose.Words for Python
 description: "Field.as_field_style_ref method. Cast Field to [FieldStyleRef](../../fieldstyleref/)."
 type: docs
-weight: 910
+weight: 27300
 url: /python-net/aspose.words.fields/field/as_field_style_ref/
 ---
 

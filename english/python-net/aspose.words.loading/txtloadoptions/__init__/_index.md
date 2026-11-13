@@ -5,7 +5,7 @@ articleTitle: TxtLoadOptions constructor
 second_title: Aspose.Words for Python
 description: "TxtLoadOptions constructor. Initializes a new instance of this class with default values."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.loading/txtloadoptions/__init__/
 ---
 

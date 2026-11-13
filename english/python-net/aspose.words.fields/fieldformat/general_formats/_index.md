@@ -5,7 +5,7 @@ articleTitle: general_formats property
 second_title: Aspose.Words for Python
 description: "FieldFormat.general_formats property. Gets a collection of general formats that are applied to a numeric, text or any field result"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldformat/general_formats/
 ---
 

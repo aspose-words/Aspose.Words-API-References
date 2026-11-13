@@ -5,7 +5,7 @@ articleTitle: Forms2OleControlCollection indexer
 second_title: Aspose.Words for Python
 description: "Forms2OleControlCollection indexer. Gets [Forms2OleControl](../../forms2olecontrol/) object at a specified index."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/__getitem__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: DocumentPropertyCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.properties.DocumentPropertyCollection class. Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.properties/documentpropertycollection/
 ---
 

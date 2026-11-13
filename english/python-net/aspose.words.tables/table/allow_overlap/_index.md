@@ -5,7 +5,7 @@ articleTitle: allow_overlap property
 second_title: Aspose.Words for Python
 description: "Table.allow_overlap property. Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.tables/table/allow_overlap/
 ---
 

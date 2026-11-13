@@ -5,7 +5,7 @@ articleTitle: add_link_to_content method
 second_title: Aspose.Words for Python
 description: "CustomDocumentProperties.add_link_to_content method. Creates a new linked to content custom document property."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.properties/customdocumentproperties/add_link_to_content/
 ---
 

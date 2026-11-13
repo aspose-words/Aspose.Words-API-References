@@ -5,7 +5,7 @@ articleTitle: width_points property
 second_title: Aspose.Words for Python
 description: "ImageSize.width_points property. Gets the width of the image in points"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing/imagesize/width_points/
 ---
 

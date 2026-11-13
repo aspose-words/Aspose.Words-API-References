@@ -5,7 +5,7 @@ articleTitle: shared_document property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.shared_document property. Indicates whether the document is a shared document."
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words.properties/builtindocumentproperties/shared_document/
 ---
 

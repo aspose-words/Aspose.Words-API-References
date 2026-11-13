@@ -5,7 +5,7 @@ articleTitle: is_signed property
 second_title: Aspose.Words for Python
 description: "SignatureLine.is_signed property. Indicates that signature line is signed by digital signature."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing/signatureline/is_signed/
 ---
 

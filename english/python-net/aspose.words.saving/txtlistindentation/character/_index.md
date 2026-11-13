@@ -5,7 +5,7 @@ articleTitle: character property
 second_title: Aspose.Words for Python
 description: "TxtListIndentation.character property. Gets or sets which character to use for indenting list levels"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/txtlistindentation/character/
 ---
 

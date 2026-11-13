@@ -5,7 +5,7 @@ articleTitle: insert_check_box method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_check_box method"
 type: docs
-weight: 290
+weight: 8700
 url: /python-net/aspose.words/documentbuilder/insert_check_box/
 ---
 

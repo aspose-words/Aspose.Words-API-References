@@ -5,7 +5,7 @@ articleTitle: Watermarker class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Watermarker class. Provides methods intended to insert watermarks into the documents."
 type: docs
-weight: 240
+weight: 4800
 url: /python-net/aspose.words.lowcode/watermarker/
 ---
 

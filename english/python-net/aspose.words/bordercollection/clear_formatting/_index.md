@@ -5,7 +5,7 @@ articleTitle: clear_formatting method
 second_title: Aspose.Words for Python
 description: "BorderCollection.clear_formatting method. Removes all borders of an object."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words/bordercollection/clear_formatting/
 ---
 

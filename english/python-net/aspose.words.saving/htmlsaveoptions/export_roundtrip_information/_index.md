@@ -5,7 +5,7 @@ articleTitle: export_roundtrip_information property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_roundtrip_information property. Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB"
 type: docs
-weight: 240
+weight: 7200
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_roundtrip_information/
 ---
 

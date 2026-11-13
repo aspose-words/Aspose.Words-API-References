@@ -5,7 +5,7 @@ articleTitle: build_automatic method
 second_title: Aspose.Words for Python
 description: "FontFallbackSettings.build_automatic method. Automatically builds the fallback settings by scanning available fonts."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/fontfallbacksettings/build_automatic/
 ---
 

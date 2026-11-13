@@ -5,7 +5,7 @@ articleTitle: image_saving_callback property
 second_title: Aspose.Words for Python
 description: "XamlFlowSaveOptions.image_saving_callback property. Allows to control how images are saved when a document is saved to XAML."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/xamlflowsaveoptions/image_saving_callback/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: TextColumnCollection indexer
 second_title: Aspose.Words for Python
 description: "TextColumnCollection indexer. Returns a text column at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/textcolumncollection/__getitem__/
 ---
 

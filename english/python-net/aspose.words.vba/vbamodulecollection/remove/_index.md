@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "VbaModuleCollection.remove method. Removes the specified module from the collection."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.vba/vbamodulecollection/remove/
 ---
 

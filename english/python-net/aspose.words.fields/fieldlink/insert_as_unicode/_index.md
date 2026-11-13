@@ -5,7 +5,7 @@ articleTitle: insert_as_unicode property
 second_title: Aspose.Words for Python
 description: "FieldLink.insert_as_unicode property. Gets or sets whether to insert the linked object as Unicode text."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/fieldlink/insert_as_unicode/
 ---
 

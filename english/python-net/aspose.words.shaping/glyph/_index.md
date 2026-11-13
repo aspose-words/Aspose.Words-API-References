@@ -5,7 +5,7 @@ articleTitle: Glyph class
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.Glyph class. Represents a glyph"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.shaping/glyph/
 ---
 

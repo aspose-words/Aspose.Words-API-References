@@ -5,7 +5,7 @@ articleTitle: use_whole_paragraph_as_region property
 second_title: Aspose.Words for Python
 description: "MailMergeOptions.use_whole_paragraph_as_region property. Gets or sets a value indicating whether whole paragraph with TableStart or TableEnd field or particular range between TableStart and TableEnd fields should be included into mail merge region."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.lowcode/mailmergeoptions/use_whole_paragraph_as_region/
 ---
 

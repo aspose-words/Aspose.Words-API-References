@@ -5,7 +5,7 @@ articleTitle: page_index property
 second_title: Aspose.Words for Python
 description: "PageLayoutCallbackArgs.page_index property. Gets 0-based index of the page in the document this event relates to"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.layout/pagelayoutcallbackargs/page_index/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: texture property
 second_title: Aspose.Words for Python
 description: "Shading.texture property. Gets or sets the shading texture."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/shading/texture/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: to_array method
 second_title: Aspose.Words for Python
 description: "ParagraphCollection.to_array method. Copies all paragraphs from the collection to a new array of paragraphs."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/paragraphcollection/to_array/
 ---
 

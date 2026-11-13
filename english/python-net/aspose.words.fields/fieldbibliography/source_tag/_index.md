@@ -5,7 +5,7 @@ articleTitle: source_tag property
 second_title: Aspose.Words for Python
 description: "FieldBibliography.source_tag property. Gets or sets a value so that only the sources with matching Tag element value are displayed in the bibliography."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldbibliography/source_tag/
 ---
 

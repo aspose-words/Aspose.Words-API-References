@@ -5,7 +5,7 @@ articleTitle: MultiPageLayout class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MultiPageLayout class. Defines a layout for rendering multiple pages into a single output."
 type: docs
-weight: 510
+weight: 10200
 url: /python-net/aspose.words.saving/multipagelayout/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: group_index property
 second_title: Aspose.Words for Python
 description: "ReplacingArgs.group_index property. Identifies, by index, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](../replacement/) string."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.replacing/replacingargs/group_index/
 ---
 

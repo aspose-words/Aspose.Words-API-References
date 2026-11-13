@@ -5,7 +5,7 @@ articleTitle: horizontal_resolution property
 second_title: Aspose.Words for Python
 description: "SignOptions.horizontal_resolution property. Gets or sets the horizontal resolution for the digital signature"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.digitalsignatures/signoptions/horizontal_resolution/
 ---
 

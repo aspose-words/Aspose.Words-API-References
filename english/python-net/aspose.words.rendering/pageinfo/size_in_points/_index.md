@@ -5,7 +5,7 @@ articleTitle: size_in_points property
 second_title: Aspose.Words for Python
 description: "PageInfo.size_in_points property. Gets the page size in points."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.rendering/pageinfo/size_in_points/
 ---
 

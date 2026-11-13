@@ -5,7 +5,7 @@ articleTitle: data_points property
 second_title: Aspose.Words for Python
 description: "ChartSeries.data_points property. Returns a collection of formatting objects for all data points in this series."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing.charts/chartseries/data_points/
 ---
 

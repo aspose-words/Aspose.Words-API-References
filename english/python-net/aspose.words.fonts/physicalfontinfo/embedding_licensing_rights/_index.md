@@ -5,7 +5,7 @@ articleTitle: embedding_licensing_rights property
 second_title: Aspose.Words for Python
 description: "PhysicalFontInfo.embedding_licensing_rights property. Embedding licensing rights for the font."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/physicalfontinfo/embedding_licensing_rights/
 ---
 

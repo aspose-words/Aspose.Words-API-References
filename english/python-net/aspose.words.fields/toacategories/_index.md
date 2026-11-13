@@ -5,7 +5,7 @@ articleTitle: ToaCategories class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.ToaCategories class. Represents a table of authorities categories"
 type: docs
-weight: 1320
+weight: 26400
 url: /python-net/aspose.words.fields/toacategories/
 ---
 

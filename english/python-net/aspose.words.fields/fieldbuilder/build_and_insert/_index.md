@@ -5,7 +5,7 @@ articleTitle: build_and_insert method
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldBuilder.build_and_insert method"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldbuilder/build_and_insert/
 ---
 

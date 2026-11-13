@@ -5,7 +5,7 @@ articleTitle: add_field method
 second_title: Aspose.Words for Python
 description: "FieldArgumentBuilder.add_field method. Adds a field represented by a [FieldBuilder](../../fieldbuilder/) to the argument."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldargumentbuilder/add_field/
 ---
 

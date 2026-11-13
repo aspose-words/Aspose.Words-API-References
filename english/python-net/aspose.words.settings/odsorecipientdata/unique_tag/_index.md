@@ -5,7 +5,7 @@ articleTitle: unique_tag property
 second_title: Aspose.Words for Python
 description: "OdsoRecipientData.unique_tag property. Specifies the contents of a given record in the column containing unique data"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.settings/odsorecipientdata/unique_tag/
 ---
 

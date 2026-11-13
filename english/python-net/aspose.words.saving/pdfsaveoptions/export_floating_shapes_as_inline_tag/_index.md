@@ -5,7 +5,7 @@ articleTitle: export_floating_shapes_as_inline_tag property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.export_floating_shapes_as_inline_tag property. Gets or sets a value determining whether floating shapes are exported as inline tags in the document structure."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.saving/pdfsaveoptions/export_floating_shapes_as_inline_tag/
 ---
 

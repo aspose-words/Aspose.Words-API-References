@@ -5,7 +5,7 @@ articleTitle: ChartDataLabelLocationMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartDataLabelLocationMode enumeration. Specifies how the values ​​that specify the location of a data label - the [ChartDataLabel.left](../chartdatalabel/left/) and [ChartDataLabel.top](../chartdatalabel/top/) properties - are interpreted."
 type: docs
-weight: 210
+weight: 4200
 url: /python-net/aspose.words.drawing.charts/chartdatalabellocationmode/
 ---
 

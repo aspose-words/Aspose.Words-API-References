@@ -5,7 +5,7 @@ articleTitle: emf_plus_dual_rendering_mode property
 second_title: Aspose.Words for Python
 description: "MetafileRenderingOptions.emf_plus_dual_rendering_mode property. Gets or sets a value determining how EMF+ Dual metafiles should be rendered."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/metafilerenderingoptions/emf_plus_dual_rendering_mode/
 ---
 

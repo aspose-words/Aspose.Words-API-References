@@ -5,7 +5,7 @@ articleTitle: department property
 second_title: Aspose.Words for Python
 description: "Source.department property. Gets or sets the department of a source."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.bibliography/source/department/
 ---
 

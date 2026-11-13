@@ -5,7 +5,7 @@ articleTitle: FieldGoToButton class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldGoToButton class. Implements the GOTOBUTTON field"
 type: docs
-weight: 510
+weight: 10200
 url: /python-net/aspose.words.fields/fieldgotobutton/
 ---
 

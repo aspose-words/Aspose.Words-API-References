@@ -5,7 +5,7 @@ articleTitle: second_section_size property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.second_section_size property. Gets or sets the size of the pie chart secondary section as a percentage."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/second_section_size/
 ---
 

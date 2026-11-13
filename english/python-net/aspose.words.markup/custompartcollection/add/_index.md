@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "CustomPartCollection.add method. Adds an item to the collection."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.markup/custompartcollection/add/
 ---
 

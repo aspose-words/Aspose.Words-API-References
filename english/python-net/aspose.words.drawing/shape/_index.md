@@ -5,7 +5,7 @@ articleTitle: Shape class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Shape class. Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture"
 type: docs
-weight: 360
+weight: 7200
 url: /python-net/aspose.words.drawing/shape/
 ---
 

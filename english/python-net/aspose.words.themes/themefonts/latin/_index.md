@@ -5,7 +5,7 @@ articleTitle: latin property
 second_title: Aspose.Words for Python
 description: "ThemeFonts.latin property. Specifies font name for Latin characters."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.themes/themefonts/latin/
 ---
 

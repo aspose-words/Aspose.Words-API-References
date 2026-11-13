@@ -5,7 +5,7 @@ articleTitle: FieldNextIf class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldNextIf class. Implements the NEXTIF field"
 type: docs
-weight: 730
+weight: 14600
 url: /python-net/aspose.words.fields/fieldnextif/
 ---
 

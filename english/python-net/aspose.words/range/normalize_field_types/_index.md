@@ -5,7 +5,7 @@ articleTitle: normalize_field_types method
 second_title: Aspose.Words for Python
 description: "Range.normalize_field_types method. Changes field type values [FieldChar.field_type](../../../aspose.words.fields/fieldchar/field_type/) of [FieldStart](../../../aspose.words.fields/fieldstart/), [FieldSeparator](../../../aspose.words.fields/fieldseparator/), [FieldEnd](../../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/range/normalize_field_types/
 ---
 

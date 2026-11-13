@@ -5,7 +5,7 @@ articleTitle: import_node method
 second_title: Aspose.Words for Python
 description: "NodeImporter.import_node method. Imports a node from one document into another."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/nodeimporter/import_node/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: user_name property
 second_title: Aspose.Words for Python
 description: "DigitalSignatureTimestampSettings.user_name property. Gets or sets a string value representing timestamp server user name"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/user_name/
 ---
 

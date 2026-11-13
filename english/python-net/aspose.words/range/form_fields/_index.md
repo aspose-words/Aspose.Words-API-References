@@ -5,7 +5,7 @@ articleTitle: form_fields property
 second_title: Aspose.Words for Python
 description: "Range.form_fields property. Returns a [Range.form_fields](./) collection that represents all form fields in the range."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/range/form_fields/
 ---
 

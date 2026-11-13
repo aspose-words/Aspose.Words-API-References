@@ -5,7 +5,7 @@ articleTitle: visit_body_end method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_body_end method. Called when enumeration of the main text story in a section has ended."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/documentvisitor/visit_body_end/
 ---
 

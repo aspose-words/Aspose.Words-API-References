@@ -5,7 +5,7 @@ articleTitle: wrap_text property
 second_title: Aspose.Words for Python
 description: "CellFormat.wrap_text property. If ``True``, wrap text for the cell."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.tables/cellformat/wrap_text/
 ---
 

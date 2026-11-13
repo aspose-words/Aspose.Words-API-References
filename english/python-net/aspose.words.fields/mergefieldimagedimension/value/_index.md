@@ -5,7 +5,7 @@ articleTitle: value property
 second_title: Aspose.Words for Python
 description: "MergeFieldImageDimension.value property. The value."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/mergefieldimagedimension/value/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: foreground_color property
 second_title: Aspose.Words for Python
 description: "BarcodeParameters.foreground_color property. Bar code foreground color (0x000000 - 0xFFFFFF)"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.fields/barcodeparameters/foreground_color/
 ---
 

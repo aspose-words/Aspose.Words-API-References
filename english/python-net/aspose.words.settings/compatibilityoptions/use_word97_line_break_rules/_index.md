@@ -5,7 +5,7 @@ articleTitle: use_word97_line_break_rules property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.use_word97_line_break_rules property. Emulate Word 97 East Asian Line Breaking."
 type: docs
-weight: 680
+weight: 20400
 url: /python-net/aspose.words.settings/compatibilityoptions/use_word97_line_break_rules/
 ---
 

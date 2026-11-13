@@ -5,7 +5,7 @@ articleTitle: insert_break method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_break method. Inserts a break of the specified type into the document."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words/documentbuilder/insert_break/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: fields property
 second_title: Aspose.Words for Python
 description: "Range.fields property. Returns a [Range.fields](./) collection that represents all fields in the range."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/range/fields/
 ---
 

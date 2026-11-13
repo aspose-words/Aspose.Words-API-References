@@ -5,7 +5,7 @@ articleTitle: author property
 second_title: Aspose.Words for Python
 description: "RevisionGroup.author property. Gets the author of this revision group."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/revisiongroup/author/
 ---
 

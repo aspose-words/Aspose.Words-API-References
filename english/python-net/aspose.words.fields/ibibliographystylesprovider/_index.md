@@ -5,7 +5,7 @@ articleTitle: IBibliographyStylesProvider class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.IBibliographyStylesProvider class. Implement this interface to provide bibliography style for the  [FieldBibliography](../fieldbibliography/) and [FieldCitation](../fieldcitation/) fields when they're updated."
 type: docs
-weight: 1210
+weight: 24200
 url: /python-net/aspose.words.fields/ibibliographystylesprovider/
 ---
 

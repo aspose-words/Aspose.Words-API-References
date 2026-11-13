@@ -5,7 +5,7 @@ articleTitle: display_name property
 second_title: Aspose.Words for Python
 description: "OlePackage.display_name property. Gets or sets OLE Package display name."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/olepackage/display_name/
 ---
 

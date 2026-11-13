@@ -5,7 +5,7 @@ articleTitle: is_at_end_of_structured_document_tag property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.is_at_end_of_structured_document_tag property. Returns true if the cursor is at the end of a structured document tag."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/documentbuilder/is_at_end_of_structured_document_tag/
 ---
 

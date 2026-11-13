@@ -5,7 +5,7 @@ articleTitle: GoogleAiModel class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.GoogleAiModel class. Class representing Google AI Models (Gemini) integration within Aspose.Words."
 type: docs
-weight: 60
+weight: 1000
 url: /python-net/aspose.words.ai/googleaimodel/
 ---
 

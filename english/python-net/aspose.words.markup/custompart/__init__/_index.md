@@ -5,7 +5,7 @@ articleTitle: CustomPart constructor
 second_title: Aspose.Words for Python
 description: "CustomPart constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.markup/custompart/__init__/
 ---
 

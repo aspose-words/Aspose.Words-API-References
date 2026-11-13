@@ -5,7 +5,7 @@ articleTitle: name_other property
 second_title: Aspose.Words for Python
 description: "Font.name_other property. Returns or sets the font used for characters with character codes from 128 through 255."
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words/font/name_other/
 ---
 

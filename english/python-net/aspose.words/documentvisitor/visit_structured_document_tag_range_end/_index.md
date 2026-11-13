@@ -5,7 +5,7 @@ articleTitle: visit_structured_document_tag_range_end method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_structured_document_tag_range_end method. Called when a StructuredDocumentTagRangeEnd is encountered."
 type: docs
-weight: 450
+weight: 13500
 url: /python-net/aspose.words/documentvisitor/visit_structured_document_tag_range_end/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: jpeg_quality property
 second_title: Aspose.Words for Python
 description: "FixedPageSaveOptions.jpeg_quality property. Gets or sets a value determining the quality of the JPEG images inside Html document."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/jpeg_quality/
 ---
 

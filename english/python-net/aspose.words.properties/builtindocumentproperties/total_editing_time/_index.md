@@ -5,7 +5,7 @@ articleTitle: total_editing_time property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.total_editing_time property. Gets or sets the total editing time in minutes."
 type: docs
-weight: 340
+weight: 10200
 url: /python-net/aspose.words.properties/builtindocumentproperties/total_editing_time/
 ---
 

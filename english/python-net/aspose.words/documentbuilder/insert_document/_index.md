@@ -5,7 +5,7 @@ articleTitle: insert_document method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_document method"
 type: docs
-weight: 310
+weight: 9300
 url: /python-net/aspose.words/documentbuilder/insert_document/
 ---
 

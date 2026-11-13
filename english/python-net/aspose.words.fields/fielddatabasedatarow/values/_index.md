@@ -5,7 +5,7 @@ articleTitle: values property
 second_title: Aspose.Words for Python
 description: "FieldDatabaseDataRow.values property. Gets values that belong to this row."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fielddatabasedatarow/values/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: orientation property
 second_title: Aspose.Words for Python
 description: "ChartDataLabelCollection.orientation property. Gets or sets the text orientation of the data labels of the entire series."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/orientation/
 ---
 

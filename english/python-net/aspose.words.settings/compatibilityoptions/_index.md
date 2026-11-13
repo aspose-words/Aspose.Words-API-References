@@ -5,7 +5,7 @@ articleTitle: CompatibilityOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.settings.CompatibilityOptions class. Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.settings/compatibilityoptions/
 ---
 

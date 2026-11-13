@@ -5,7 +5,7 @@ articleTitle: detect_hyperlinks property
 second_title: Aspose.Words for Python
 description: "TxtLoadOptions.detect_hyperlinks property. Specifies either to detect hyperlinks in text"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.loading/txtloadoptions/detect_hyperlinks/
 ---
 

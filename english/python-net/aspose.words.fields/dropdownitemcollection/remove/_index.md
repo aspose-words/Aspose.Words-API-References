@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "DropDownItemCollection.remove method. Removes the specified value from the collection."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.fields/dropdownitemcollection/remove/
 ---
 

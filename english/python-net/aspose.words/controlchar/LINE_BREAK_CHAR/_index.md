@@ -5,7 +5,7 @@ articleTitle: LINE_BREAK_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.LINE_BREAK_CHAR property. Line break character: (char)11 or \\v."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words/controlchar/LINE_BREAK_CHAR/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FieldComments class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldComments class. Implements the COMMENTS field"
 type: docs
-weight: 240
+weight: 4800
 url: /python-net/aspose.words.fields/fieldcomments/
 ---
 

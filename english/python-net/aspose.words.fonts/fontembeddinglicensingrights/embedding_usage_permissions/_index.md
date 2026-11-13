@@ -5,7 +5,7 @@ articleTitle: embedding_usage_permissions property
 second_title: Aspose.Words for Python
 description: "FontEmbeddingLicensingRights.embedding_usage_permissions property. Usage permissions."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fonts/fontembeddinglicensingrights/embedding_usage_permissions/
 ---
 

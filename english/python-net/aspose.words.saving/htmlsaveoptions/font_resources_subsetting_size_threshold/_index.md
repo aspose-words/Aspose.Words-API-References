@@ -5,7 +5,7 @@ articleTitle: font_resources_subsetting_size_threshold property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.font_resources_subsetting_size_threshold property. Controls which font resources need subsetting when saving to HTML, MHTML or EPUB"
 type: docs
-weight: 290
+weight: 8700
 url: /python-net/aspose.words.saving/htmlsaveoptions/font_resources_subsetting_size_threshold/
 ---
 

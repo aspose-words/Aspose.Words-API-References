@@ -5,7 +5,7 @@ articleTitle: create method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Comparer.create method"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/comparer/create/
 ---
 

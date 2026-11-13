@@ -5,7 +5,7 @@ articleTitle: built_in_document_properties property
 second_title: Aspose.Words for Python
 description: "PlainTextDocument.built_in_document_properties property. Gets [PlainTextDocument.built_in_document_properties](./) of the document."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/plaintextdocument/built_in_document_properties/
 ---
 

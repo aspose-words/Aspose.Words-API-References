@@ -5,7 +5,7 @@ articleTitle: remove_at method
 second_title: Aspose.Words for Python
 description: "SdtListItemCollection.remove_at method. Removes a list item at the specified index."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.markup/sdtlistitemcollection/remove_at/
 ---
 

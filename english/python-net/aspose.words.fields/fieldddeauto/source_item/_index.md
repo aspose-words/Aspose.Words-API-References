@@ -5,7 +5,7 @@ articleTitle: source_item property
 second_title: Aspose.Words for Python
 description: "FieldDdeAuto.source_item property. Gets or sets the portion of the source file that's being linked."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.fields/fieldddeauto/source_item/
 ---
 

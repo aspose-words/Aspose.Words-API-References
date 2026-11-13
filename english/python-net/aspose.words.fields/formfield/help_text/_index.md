@@ -5,7 +5,7 @@ articleTitle: help_text property
 second_title: Aspose.Words for Python
 description: "FormField.help_text property. Returns or sets the text that's displayed in a message box when the form field has the focus and the user presses F1."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.fields/formfield/help_text/
 ---
 

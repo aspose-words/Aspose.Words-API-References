@@ -5,7 +5,7 @@ articleTitle: FieldGreetingLine class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldGreetingLine class. Implements the GREETINGLINE field"
 type: docs
-weight: 520
+weight: 10400
 url: /python-net/aspose.words.fields/fieldgreetingline/
 ---
 

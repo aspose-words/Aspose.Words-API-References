@@ -5,7 +5,7 @@ articleTitle: back_color property
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.back_color property. Gets or sets a background color of the control"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/back_color/
 ---
 

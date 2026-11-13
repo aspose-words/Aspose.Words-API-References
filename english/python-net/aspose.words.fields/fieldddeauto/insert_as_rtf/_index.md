@@ -5,7 +5,7 @@ articleTitle: insert_as_rtf property
 second_title: Aspose.Words for Python
 description: "FieldDdeAuto.insert_as_rtf property. Gets or sets whether to insert the linked object in rich-text format (RTF)."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldddeauto/insert_as_rtf/
 ---
 

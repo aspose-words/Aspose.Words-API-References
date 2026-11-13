@@ -5,7 +5,7 @@ articleTitle: connection property
 second_title: Aspose.Words for Python
 description: "FieldDatabase.connection property. Gets or sets a connection to the data."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fielddatabase/connection/
 ---
 

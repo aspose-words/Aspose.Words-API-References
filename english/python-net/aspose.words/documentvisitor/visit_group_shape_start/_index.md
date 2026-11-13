@@ -5,7 +5,7 @@ articleTitle: visit_group_shape_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_group_shape_start method. Called when enumeration of a group shape has started."
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words/documentvisitor/visit_group_shape_start/
 ---
 

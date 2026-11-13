@@ -5,7 +5,7 @@ articleTitle: get_field method
 second_title: Aspose.Words for Python
 description: "FieldChar.get_field method. Returns a field for the field char."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldchar/get_field/
 ---
 

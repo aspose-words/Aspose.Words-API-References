@@ -5,7 +5,7 @@ articleTitle: mapped_data_fields property
 second_title: Aspose.Words for Python
 description: "MailMerge.mapped_data_fields property. Returns a collection that represents mapped data fields for the mail merge operation."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.mailmerging/mailmerge/mapped_data_fields/
 ---
 

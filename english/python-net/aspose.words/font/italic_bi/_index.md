@@ -5,7 +5,7 @@ articleTitle: italic_bi property
 second_title: Aspose.Words for Python
 description: "Font.italic_bi property. True if the right-to-left text is formatted as italic."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words/font/italic_bi/
 ---
 

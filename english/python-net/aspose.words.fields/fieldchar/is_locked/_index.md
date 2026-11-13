@@ -5,7 +5,7 @@ articleTitle: is_locked property
 second_title: Aspose.Words for Python
 description: "FieldChar.is_locked property. Gets or sets whether the parent field is locked (should not recalculate its result)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldchar/is_locked/
 ---
 

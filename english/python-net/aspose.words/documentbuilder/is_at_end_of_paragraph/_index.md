@@ -5,7 +5,7 @@ articleTitle: is_at_end_of_paragraph property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.is_at_end_of_paragraph property. Returns ``True`` if the cursor is at the end of the current paragraph."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/documentbuilder/is_at_end_of_paragraph/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ProcessorContext class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.ProcessorContext class. Base class for processor contexts"
 type: docs
-weight: 130
+weight: 2600
 url: /python-net/aspose.words.lowcode/processorcontext/
 ---
 

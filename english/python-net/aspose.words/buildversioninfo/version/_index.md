@@ -5,7 +5,7 @@ articleTitle: version property
 second_title: Aspose.Words for Python
 description: "BuildVersionInfo.version property. Gets the product version."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/buildversioninfo/version/
 ---
 

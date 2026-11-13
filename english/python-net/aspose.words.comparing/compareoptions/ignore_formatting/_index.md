@@ -5,7 +5,7 @@ articleTitle: ignore_formatting property
 second_title: Aspose.Words for Python
 description: "CompareOptions.ignore_formatting property. True indicates that formatting is ignored."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.comparing/compareoptions/ignore_formatting/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: size property
 second_title: Aspose.Words for Python
 description: "ChartMarker.size property. Gets or sets chart marker size"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartmarker/size/
 ---
 

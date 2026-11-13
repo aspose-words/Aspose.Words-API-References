@@ -5,7 +5,7 @@ articleTitle: highlight_color property
 second_title: Aspose.Words for Python
 description: "Font.highlight_color property. Gets or sets the highlight (marker) color."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/font/highlight_color/
 ---
 

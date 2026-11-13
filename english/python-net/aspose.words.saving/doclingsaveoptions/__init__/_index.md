@@ -5,7 +5,7 @@ articleTitle: DoclingSaveOptions constructor
 second_title: Aspose.Words for Python
 description: "DoclingSaveOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/doclingsaveoptions/__init__/
 ---
 

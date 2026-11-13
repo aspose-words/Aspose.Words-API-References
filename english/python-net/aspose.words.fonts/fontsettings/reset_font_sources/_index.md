@@ -5,7 +5,7 @@ articleTitle: reset_font_sources method
 second_title: Aspose.Words for Python
 description: "FontSettings.reset_font_sources method. Resets the fonts sources to the system default."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fonts/fontsettings/reset_font_sources/
 ---
 

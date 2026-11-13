@@ -5,7 +5,7 @@ articleTitle: add_printer_font method
 second_title: Aspose.Words for Python
 description: "PclSaveOptions.add_printer_font method. Adds information about font that is uploaded to the printer by manufacturer."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.saving/pclsaveoptions/add_printer_font/
 ---
 

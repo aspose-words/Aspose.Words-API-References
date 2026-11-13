@@ -5,7 +5,7 @@ articleTitle: error_correction_level property
 second_title: Aspose.Words for Python
 description: "FieldDisplayBarcode.error_correction_level property. Gets or sets an error correction level of QR Code"
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.fields/fielddisplaybarcode/error_correction_level/
 ---
 

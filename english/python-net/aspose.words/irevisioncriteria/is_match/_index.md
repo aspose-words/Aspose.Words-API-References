@@ -5,7 +5,7 @@ articleTitle: is_match method
 second_title: Aspose.Words for Python
 description: "IRevisionCriteria.is_match method. Checks whether or not specified *revision* matches criteria."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/irevisioncriteria/is_match/
 ---
 

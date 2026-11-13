@@ -5,7 +5,7 @@ articleTitle: as_field_hyperlink method
 second_title: Aspose.Words for Python
 description: "Field.as_field_hyperlink method. Cast Field to [FieldHyperlink](../../fieldhyperlink/)."
 type: docs
-weight: 510
+weight: 15300
 url: /python-net/aspose.words.fields/field/as_field_hyperlink/
 ---
 

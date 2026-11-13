@@ -5,7 +5,7 @@ articleTitle: ole_package property
 second_title: Aspose.Words for Python
 description: "OleFormat.ole_package property. Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Package"
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.drawing/oleformat/ole_package/
 ---
 

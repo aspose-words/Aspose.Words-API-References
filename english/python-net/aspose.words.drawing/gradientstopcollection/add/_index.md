@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "GradientStopCollection.add method. Adds a specified [GradientStop](../../gradientstop/) to a gradient."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing/gradientstopcollection/add/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: data property
 second_title: Aspose.Words for Python
 description: "CustomPart.data property. Contains the data of this custom part."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.markup/custompart/data/
 ---
 

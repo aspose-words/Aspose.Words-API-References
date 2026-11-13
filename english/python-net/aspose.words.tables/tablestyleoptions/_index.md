@@ -5,7 +5,7 @@ articleTitle: TableStyleOptions enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.TableStyleOptions enumeration. Specifies how table style is applied to a table."
 type: docs
-weight: 150
+weight: 3000
 url: /python-net/aspose.words.tables/tablestyleoptions/
 ---
 

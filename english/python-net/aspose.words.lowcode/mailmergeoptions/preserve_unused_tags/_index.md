@@ -5,7 +5,7 @@ articleTitle: preserve_unused_tags property
 second_title: Aspose.Words for Python
 description: "MailMergeOptions.preserve_unused_tags property. Gets or sets a value indicating whether the unused mustache tags should be preserved."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.lowcode/mailmergeoptions/preserve_unused_tags/
 ---
 

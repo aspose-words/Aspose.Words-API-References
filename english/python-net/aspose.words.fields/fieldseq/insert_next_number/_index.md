@@ -5,7 +5,7 @@ articleTitle: insert_next_number property
 second_title: Aspose.Words for Python
 description: "FieldSeq.insert_next_number property. Gets or sets whether to insert the next sequence number for the specified item."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldseq/insert_next_number/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FieldFormula class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldFormula class. Implements the = (formula) field"
 type: docs
-weight: 490
+weight: 9800
 url: /python-net/aspose.words.fields/fieldformula/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: requested_italic property
 second_title: Aspose.Words for Python
 description: "FontSubstitutionWarningInfo.requested_italic property. Indicates whether italic style was requested."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/fontsubstitutionwarninginfo/requested_italic/
 ---
 

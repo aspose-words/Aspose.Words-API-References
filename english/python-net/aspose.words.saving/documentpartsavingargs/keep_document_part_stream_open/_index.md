@@ -5,7 +5,7 @@ articleTitle: keep_document_part_stream_open property
 second_title: Aspose.Words for Python
 description: "DocumentPartSavingArgs.keep_document_part_stream_open property. Specifies whether Aspose.Words should keep the stream open or close it after saving a document part."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/documentpartsavingargs/keep_document_part_stream_open/
 ---
 

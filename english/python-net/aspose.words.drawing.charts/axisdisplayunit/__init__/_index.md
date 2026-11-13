@@ -5,7 +5,7 @@ articleTitle: AxisDisplayUnit constructor
 second_title: Aspose.Words for Python
 description: "AxisDisplayUnit constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/axisdisplayunit/__init__/
 ---
 

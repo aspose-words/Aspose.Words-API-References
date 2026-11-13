@@ -5,7 +5,7 @@ articleTitle: preserve_spaces property
 second_title: Aspose.Words for Python
 description: "JsonDataLoadOptions.preserve_spaces property. Gets or sets a flag indicating whether leading and trailing spaces should be preserved when loading string values of JSON data."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.reporting/jsondataloadoptions/preserve_spaces/
 ---
 

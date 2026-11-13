@@ -5,7 +5,7 @@ articleTitle: WriteProtection class
 second_title: Aspose.Words for Python
 description: "aspose.words.settings.WriteProtection class. Specifies write protection settings for a document"
 type: docs
-weight: 210
+weight: 4200
 url: /python-net/aspose.words.settings/writeprotection/
 ---
 

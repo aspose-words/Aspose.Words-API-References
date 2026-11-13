@@ -5,7 +5,7 @@ articleTitle: selected property
 second_title: Aspose.Words for Python
 description: "OptionButtonControl.selected property. Gets or sets a boolean value indicating either this [OptionButtonControl](../) is selected or not."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.ole/optionbuttoncontrol/selected/
 ---
 

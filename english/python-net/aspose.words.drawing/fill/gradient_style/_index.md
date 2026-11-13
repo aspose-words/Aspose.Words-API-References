@@ -5,7 +5,7 @@ articleTitle: gradient_style property
 second_title: Aspose.Words for Python
 description: "Fill.gradient_style property. Gets the gradient style [GradientStyle](../../gradientstyle/) for the fill."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.drawing/fill/gradient_style/
 ---
 

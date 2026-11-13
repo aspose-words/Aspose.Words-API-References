@@ -5,7 +5,7 @@ articleTitle: parent_paragraph property
 second_title: Aspose.Words for Python
 description: "Inline.parent_paragraph property. Retrieves the parent [Paragraph](../../paragraph/) of this node."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/inline/parent_paragraph/
 ---
 

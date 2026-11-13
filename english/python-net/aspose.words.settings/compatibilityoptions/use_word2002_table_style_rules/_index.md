@@ -5,7 +5,7 @@ articleTitle: use_word2002_table_style_rules property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.use_word2002_table_style_rules property. Emulate Word 2002 Table Style Rules."
 type: docs
-weight: 660
+weight: 19800
 url: /python-net/aspose.words.settings/compatibilityoptions/use_word2002_table_style_rules/
 ---
 

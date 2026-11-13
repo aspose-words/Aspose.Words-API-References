@@ -5,7 +5,7 @@ articleTitle: delimiter property
 second_title: Aspose.Words for Python
 description: "CsvDataLoadOptions.delimiter property. Gets or sets the character to be used as a column delimiter."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.reporting/csvdataloadoptions/delimiter/
 ---
 

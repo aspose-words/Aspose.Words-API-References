@@ -5,7 +5,7 @@ articleTitle: password property
 second_title: Aspose.Words for Python
 description: "DigitalSignatureTimestampSettings.password property. Gets or sets a string value representing timestamp server password"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/password/
 ---
 

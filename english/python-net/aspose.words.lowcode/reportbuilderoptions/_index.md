@@ -5,7 +5,7 @@ articleTitle: ReportBuilderOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.ReportBuilderOptions class. Represents options for the LINQ Reporting Engine functionality."
 type: docs
-weight: 180
+weight: 3600
 url: /python-net/aspose.words.lowcode/reportbuilderoptions/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ListLevelAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.lists.ListLevelAlignment enumeration. Specifies alignment for the list number or bullet."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.lists/listlevelalignment/
 ---
 

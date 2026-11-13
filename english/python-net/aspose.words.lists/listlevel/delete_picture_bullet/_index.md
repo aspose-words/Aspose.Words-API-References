@@ -5,7 +5,7 @@ articleTitle: delete_picture_bullet method
 second_title: Aspose.Words for Python
 description: "ListLevel.delete_picture_bullet method. Deletes picture bullet for the current list level."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.lists/listlevel/delete_picture_bullet/
 ---
 

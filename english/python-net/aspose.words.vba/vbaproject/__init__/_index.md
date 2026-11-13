@@ -5,7 +5,7 @@ articleTitle: VbaProject constructor
 second_title: Aspose.Words for Python
 description: "VbaProject constructor. Creates a blank [VbaProject](../)."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.vba/vbaproject/__init__/
 ---
 

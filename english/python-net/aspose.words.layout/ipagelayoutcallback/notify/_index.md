@@ -5,7 +5,7 @@ articleTitle: notify method
 second_title: Aspose.Words for Python
 description: "IPageLayoutCallback.notify method. This is called to notify of layout build and rendering progress."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 

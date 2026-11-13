@@ -5,7 +5,7 @@ articleTitle: name_and_address_format property
 second_title: Aspose.Words for Python
 description: "FieldAddressBlock.name_and_address_format property. Gets or sets the name and address format."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldaddressblock/name_and_address_format/
 ---
 

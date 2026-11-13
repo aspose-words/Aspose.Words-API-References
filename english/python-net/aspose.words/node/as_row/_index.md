@@ -5,7 +5,7 @@ articleTitle: as_row method
 second_title: Aspose.Words for Python
 description: "Node.as_row method. Cast Node to [Row](../../../aspose.words.tables/row/)."
 type: docs
-weight: 320
+weight: 9600
 url: /python-net/aspose.words/node/as_row/
 ---
 

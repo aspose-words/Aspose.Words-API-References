@@ -5,7 +5,7 @@ articleTitle: original_file_size property
 second_title: Aspose.Words for Python
 description: "FontSavingArgs.original_file_size property. Gets the original font file size."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.saving/fontsavingargs/original_file_size/
 ---
 

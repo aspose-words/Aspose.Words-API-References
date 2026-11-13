@@ -5,7 +5,7 @@ articleTitle: from_multilevel_value method
 second_title: Aspose.Words for Python
 description: "ChartXValue.from_multilevel_value method. Creates a [ChartXValue](../) instance of the [ChartXValueType.MULTILEVEL](../../chartxvaluetype/#MULTILEVEL) type."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.drawing.charts/chartxvalue/from_multilevel_value/
 ---
 

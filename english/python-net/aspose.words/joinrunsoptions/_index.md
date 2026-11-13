@@ -5,7 +5,7 @@ articleTitle: JoinRunsOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.JoinRunsOptions class. Provides configuration flags for the join runs operation."
 type: docs
-weight: 700
+weight: 14000
 url: /python-net/aspose.words/joinrunsoptions/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: do_not_supress_blank_lines property
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.do_not_supress_blank_lines property. Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge"
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.settings/mailmergesettings/do_not_supress_blank_lines/
 ---
 

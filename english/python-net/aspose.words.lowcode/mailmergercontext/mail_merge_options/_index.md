@@ -5,7 +5,7 @@ articleTitle: mail_merge_options property
 second_title: Aspose.Words for Python
 description: "MailMergerContext.mail_merge_options property. Mail merge options."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/mailmergercontext/mail_merge_options/
 ---
 

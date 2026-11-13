@@ -5,7 +5,7 @@ articleTitle: export_toc_page_numbers property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_toc_page_numbers property. Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB"
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_toc_page_numbers/
 ---
 

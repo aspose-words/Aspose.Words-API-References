@@ -5,7 +5,7 @@ articleTitle: FieldCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldCollection class. A collection of [Field](../field/) objects that represents the fields in the specified range"
 type: docs
-weight: 230
+weight: 4600
 url: /python-net/aspose.words.fields/fieldcollection/
 ---
 

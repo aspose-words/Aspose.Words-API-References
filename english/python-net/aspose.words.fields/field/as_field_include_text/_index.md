@@ -5,7 +5,7 @@ articleTitle: as_field_include_text method
 second_title: Aspose.Words for Python
 description: "Field.as_field_include_text method. Cast Field to [FieldIncludeText](../../fieldincludetext/)."
 type: docs
-weight: 560
+weight: 16800
 url: /python-net/aspose.words.fields/field/as_field_include_text/
 ---
 

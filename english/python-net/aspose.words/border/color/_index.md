@@ -5,7 +5,7 @@ articleTitle: color property
 second_title: Aspose.Words for Python
 description: "Border.color property. Gets or sets the border color."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/border/color/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: description property
 second_title: Aspose.Words for Python
 description: "BuildingBlock.description property. Gets or sets the description associated with this building block."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.buildingblocks/buildingblock/description/
 ---
 

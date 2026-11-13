@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "TaskPaneCollection.add method. "
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.webextensions/taskpanecollection/add/
 ---
 

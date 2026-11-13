@@ -5,7 +5,7 @@ articleTitle: FieldData class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldData class. Implements the DATA field"
 type: docs
-weight: 270
+weight: 5400
 url: /python-net/aspose.words.fields/fielddata/
 ---
 

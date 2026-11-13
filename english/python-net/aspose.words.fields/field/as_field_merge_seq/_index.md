@@ -5,7 +5,7 @@ articleTitle: as_field_merge_seq method
 second_title: Aspose.Words for Python
 description: "Field.as_field_merge_seq method. Cast Field to [FieldMergeSeq](../../fieldmergeseq/)."
 type: docs
-weight: 670
+weight: 20100
 url: /python-net/aspose.words.fields/field/as_field_merge_seq/
 ---
 

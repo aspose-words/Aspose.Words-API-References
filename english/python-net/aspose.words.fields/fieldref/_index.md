@@ -5,7 +5,7 @@ articleTitle: FieldRef class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldRef class. Implements the REF field"
 type: docs
-weight: 870
+weight: 17400
 url: /python-net/aspose.words.fields/fieldref/
 ---
 

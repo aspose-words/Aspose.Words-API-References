@@ -5,7 +5,7 @@ articleTitle: date_display_format property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.date_display_format property. String that represents the format in which dates are displayed."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.markup/structureddocumenttag/date_display_format/
 ---
 

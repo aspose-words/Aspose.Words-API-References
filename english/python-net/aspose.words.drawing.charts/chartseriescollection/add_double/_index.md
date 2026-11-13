@@ -5,7 +5,7 @@ articleTitle: add_double method
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeriesCollection.add_double method"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/add_double/
 ---
 

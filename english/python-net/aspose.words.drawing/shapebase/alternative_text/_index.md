@@ -5,7 +5,7 @@ articleTitle: alternative_text property
 second_title: Aspose.Words for Python
 description: "ShapeBase.alternative_text property. Defines alternative text to be displayed instead of a graphic."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/shapebase/alternative_text/
 ---
 

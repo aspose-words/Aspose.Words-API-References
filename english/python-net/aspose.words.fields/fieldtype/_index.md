@@ -5,7 +5,7 @@ articleTitle: FieldType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldType enumeration. Specifies Microsoft Word field types."
 type: docs
-weight: 1080
+weight: 21600
 url: /python-net/aspose.words.fields/fieldtype/
 ---
 

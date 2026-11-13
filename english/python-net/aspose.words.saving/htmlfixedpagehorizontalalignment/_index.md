@@ -5,7 +5,7 @@ articleTitle: HtmlFixedPageHorizontalAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.HtmlFixedPageHorizontalAlignment enumeration. Specifies the horizontal alignment for pages in output HTML document."
 type: docs
-weight: 240
+weight: 4800
 url: /python-net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 

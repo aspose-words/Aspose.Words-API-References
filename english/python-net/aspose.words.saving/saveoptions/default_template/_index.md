@@ -5,7 +5,7 @@ articleTitle: default_template property
 second_title: Aspose.Words for Python
 description: "SaveOptions.default_template property. Gets or sets path to default template (including filename)"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/saveoptions/default_template/
 ---
 

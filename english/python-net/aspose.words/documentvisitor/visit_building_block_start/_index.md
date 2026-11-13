@@ -5,7 +5,7 @@ articleTitle: visit_building_block_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_building_block_start method. Called when enumeration of a building block has started."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/documentvisitor/visit_building_block_start/
 ---
 

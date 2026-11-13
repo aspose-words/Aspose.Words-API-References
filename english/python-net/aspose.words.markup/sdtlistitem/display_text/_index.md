@@ -5,7 +5,7 @@ articleTitle: display_text property
 second_title: Aspose.Words for Python
 description: "SdtListItem.display_text property. Gets the text to display in the run content in place of the [SdtListItem.value](../value/) attribute contents for this list item."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.markup/sdtlistitem/display_text/
 ---
 

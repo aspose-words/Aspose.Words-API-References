@@ -5,7 +5,7 @@ articleTitle: BuildingBlock class
 second_title: Aspose.Words for Python
 description: "aspose.words.buildingblocks.BuildingBlock class. Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.buildingblocks/buildingblock/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ArrowWidth enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ArrowWidth enumeration. Width of the arrow at the end of a line."
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.drawing/arrowwidth/
 ---
 

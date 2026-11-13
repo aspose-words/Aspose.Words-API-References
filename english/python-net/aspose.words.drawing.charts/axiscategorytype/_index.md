@@ -5,7 +5,7 @@ articleTitle: AxisCategoryType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisCategoryType enumeration. Specifies type of a category axis."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.drawing.charts/axiscategorytype/
 ---
 

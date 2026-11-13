@@ -5,7 +5,7 @@ articleTitle: address_field_name property
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.address_field_name property. Specifies the column within the data source that contains e-mail addresses"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.settings/mailmergesettings/address_field_name/
 ---
 

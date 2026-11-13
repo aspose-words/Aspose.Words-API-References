@@ -5,7 +5,7 @@ articleTitle: leader property
 second_title: Aspose.Words for Python
 description: "TabStop.leader property. Gets or sets the type of the leader line displayed under the tab character."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/tabstop/leader/
 ---
 

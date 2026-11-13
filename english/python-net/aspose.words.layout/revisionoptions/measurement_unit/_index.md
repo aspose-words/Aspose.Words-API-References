@@ -5,7 +5,7 @@ articleTitle: measurement_unit property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.measurement_unit property. Allows to specify the measurement units for revision comments"
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.layout/revisionoptions/measurement_unit/
 ---
 

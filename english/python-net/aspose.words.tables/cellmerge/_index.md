@@ -5,7 +5,7 @@ articleTitle: CellMerge enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.CellMerge enumeration. Specifies how a cell in a table is merged with other cells."
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.tables/cellmerge/
 ---
 

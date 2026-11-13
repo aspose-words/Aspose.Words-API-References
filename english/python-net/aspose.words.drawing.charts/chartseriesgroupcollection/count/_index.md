@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroupCollection.count property. Returns the number of series groups in this collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartseriesgroupcollection/count/
 ---
 

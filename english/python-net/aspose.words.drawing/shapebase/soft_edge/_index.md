@@ -5,7 +5,7 @@ articleTitle: soft_edge property
 second_title: Aspose.Words for Python
 description: "ShapeBase.soft_edge property. Gets soft edge formatting for the shape."
 type: docs
-weight: 550
+weight: 16500
 url: /python-net/aspose.words.drawing/shapebase/soft_edge/
 ---
 

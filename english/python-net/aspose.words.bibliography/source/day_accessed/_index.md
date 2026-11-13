@@ -5,7 +5,7 @@ articleTitle: day_accessed property
 second_title: Aspose.Words for Python
 description: "Source.day_accessed property. Gets or sets the day accessed of a source."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.bibliography/source/day_accessed/
 ---
 

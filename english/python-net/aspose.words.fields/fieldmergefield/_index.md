@@ -5,7 +5,7 @@ articleTitle: FieldMergeField class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldMergeField class. Implements the MERGEFIELD field"
 type: docs
-weight: 690
+weight: 13800
 url: /python-net/aspose.words.fields/fieldmergefield/
 ---
 

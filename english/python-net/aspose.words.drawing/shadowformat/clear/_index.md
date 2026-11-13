@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "ShadowFormat.clear method. Clears shadow format."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing/shadowformat/clear/
 ---
 

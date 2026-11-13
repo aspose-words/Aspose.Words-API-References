@@ -5,7 +5,7 @@ articleTitle: StructuredDocumentTagRangeEnd class
 second_title: Aspose.Words for Python
 description: "aspose.words.markup.StructuredDocumentTagRangeEnd class. Represents an end of ranged structured document tag which accepts multi-sections content"
 type: docs
-weight: 190
+weight: 3800
 url: /python-net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 

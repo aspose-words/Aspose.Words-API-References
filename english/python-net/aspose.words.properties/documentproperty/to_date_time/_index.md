@@ -5,7 +5,7 @@ articleTitle: to_date_time method
 second_title: Aspose.Words for Python
 description: "DocumentProperty.to_date_time method. Returns the property value as DateTime in UTC."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.properties/documentproperty/to_date_time/
 ---
 

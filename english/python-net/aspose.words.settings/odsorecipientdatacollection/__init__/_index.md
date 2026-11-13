@@ -5,7 +5,7 @@ articleTitle: OdsoRecipientDataCollection constructor
 second_title: Aspose.Words for Python
 description: "OdsoRecipientDataCollection constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.settings/odsorecipientdatacollection/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: OfficeMathDisplayType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.math.OfficeMathDisplayType enumeration. Specifies the display format type of the equation."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.math/officemathdisplaytype/
 ---
 

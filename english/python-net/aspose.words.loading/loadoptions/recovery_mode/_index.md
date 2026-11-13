@@ -5,7 +5,7 @@ articleTitle: recovery_mode property
 second_title: Aspose.Words for Python
 description: "LoadOptions.recovery_mode property. Defines how the document should be handled if errors occur during loading"
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.loading/loadoptions/recovery_mode/
 ---
 

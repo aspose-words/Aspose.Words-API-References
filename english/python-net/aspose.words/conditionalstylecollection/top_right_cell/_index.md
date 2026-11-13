@@ -5,7 +5,7 @@ articleTitle: top_right_cell property
 second_title: Aspose.Words for Python
 description: "ConditionalStyleCollection.top_right_cell property. Gets the top right cell style."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words/conditionalstylecollection/top_right_cell/
 ---
 

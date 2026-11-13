@@ -5,7 +5,7 @@ articleTitle: distributor property
 second_title: Aspose.Words for Python
 description: "Source.distributor property. Gets or sets the distributor of a source."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.bibliography/source/distributor/
 ---
 

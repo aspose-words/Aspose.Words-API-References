@@ -5,7 +5,7 @@ articleTitle: versions_count property
 second_title: Aspose.Words for Python
 description: "Document.versions_count property. Gets the number of document versions that was stored in the DOC document."
 type: docs
-weight: 490
+weight: 14700
 url: /python-net/aspose.words/document/versions_count/
 ---
 

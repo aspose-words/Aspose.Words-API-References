@@ -5,7 +5,7 @@ articleTitle: encoding property
 second_title: Aspose.Words for Python
 description: "LoadOptions.encoding property. Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.loading/loadoptions/encoding/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: enable_text_shaping property
 second_title: Aspose.Words for Python
 description: "LayoutOptions.enable_text_shaping property. Flag indicating whether to enable support for OpenType features using the HarfBuzz text shaping engine."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.layout/layoutoptions/enable_text_shaping/
 ---
 

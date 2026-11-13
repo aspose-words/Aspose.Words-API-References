@@ -5,7 +5,7 @@ articleTitle: custom_xml_part property
 second_title: Aspose.Words for Python
 description: "XmlMapping.custom_xml_part property. Returns the custom XML data part to which the parent structured document tag is mapped."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.markup/xmlmapping/custom_xml_part/
 ---
 

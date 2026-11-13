@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "ChartLegendEntryCollection.count property. Returns the number of [ChartLegendEntry](../../chartlegendentry/) in this collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartlegendentrycollection/count/
 ---
 

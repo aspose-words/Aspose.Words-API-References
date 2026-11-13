@@ -5,7 +5,7 @@ articleTitle: height_rule property
 second_title: Aspose.Words for Python
 description: "FrameFormat.height_rule property. Gets the rule for determining the height of the specified frame."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/frameformat/height_rule/
 ---
 

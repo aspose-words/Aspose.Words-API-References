@@ -5,7 +5,7 @@ articleTitle: copy_format method
 second_title: Aspose.Words for Python
 description: "ChartDataPointCollection.copy_format method. Copies format from the source data point to the destination data point."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing.charts/chartdatapointcollection/copy_format/
 ---
 

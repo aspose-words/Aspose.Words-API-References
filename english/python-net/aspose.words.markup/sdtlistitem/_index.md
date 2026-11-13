@@ -5,7 +5,7 @@ articleTitle: SdtListItem class
 second_title: Aspose.Words for Python
 description: "aspose.words.markup.SdtListItem class. This element specifies a single list item within a parent [SdtType.COMBO_BOX](../sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](../sdttype/#DROP_DOWN_LIST) structured document tag"
 type: docs
-weight: 130
+weight: 2600
 url: /python-net/aspose.words.markup/sdtlistitem/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ListLevel class
 second_title: Aspose.Words for Python
 description: "aspose.words.lists.ListLevel class. Defines formatting for a list level"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.lists/listlevel/
 ---
 

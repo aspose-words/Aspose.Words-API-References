@@ -5,7 +5,7 @@ articleTitle: is_external property
 second_title: Aspose.Words for Python
 description: "CustomPart.is_external property. False if this custom part is stored inside the OOXML package"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.markup/custompart/is_external/
 ---
 

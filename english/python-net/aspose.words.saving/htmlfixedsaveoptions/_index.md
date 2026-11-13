@@ -5,7 +5,7 @@ articleTitle: HtmlFixedSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.HtmlFixedSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.HTML_FIXED](../../aspose.words/saveformat/#HTML_FIXED) format"
 type: docs
-weight: 250
+weight: 5000
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 

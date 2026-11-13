@@ -5,7 +5,7 @@ articleTitle: field_type property
 second_title: Aspose.Words for Python
 description: "FieldChar.field_type property. Returns the type of the field."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldchar/field_type/
 ---
 

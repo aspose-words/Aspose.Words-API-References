@@ -5,7 +5,7 @@ articleTitle: get_by_name method
 second_title: Aspose.Words for Python
 description: "StyleCollection.get_by_name method. Gets a style by name or alias."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/stylecollection/get_by_name/
 ---
 

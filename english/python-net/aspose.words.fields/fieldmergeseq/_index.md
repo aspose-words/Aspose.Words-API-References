@@ -5,7 +5,7 @@ articleTitle: FieldMergeSeq class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldMergeSeq class. Implements the MERGESEQ field"
 type: docs
-weight: 710
+weight: 14200
 url: /python-net/aspose.words.fields/fieldmergeseq/
 ---
 

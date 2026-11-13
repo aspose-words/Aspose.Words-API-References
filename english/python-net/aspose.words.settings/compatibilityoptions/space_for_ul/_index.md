@@ -5,7 +5,7 @@ articleTitle: space_for_ul property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.space_for_ul property. Add Additional Space Below Baseline For Underlined East Asian Text."
 type: docs
-weight: 440
+weight: 13200
 url: /python-net/aspose.words.settings/compatibilityoptions/space_for_ul/
 ---
 

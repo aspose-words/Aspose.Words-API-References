@@ -5,7 +5,7 @@ articleTitle: single_user property
 second_title: Aspose.Words for Python
 description: "EditableRange.single_user property. Returns or sets the single user for editable range."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/editablerange/single_user/
 ---
 

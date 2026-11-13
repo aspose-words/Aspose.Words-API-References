@@ -5,7 +5,7 @@ articleTitle: AdjustmentCollection indexer
 second_title: Aspose.Words for Python
 description: "AdjustmentCollection indexer. Returns an adjustment at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/adjustmentcollection/__getitem__/
 ---
 

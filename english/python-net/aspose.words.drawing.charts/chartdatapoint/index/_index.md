@@ -5,7 +5,7 @@ articleTitle: index property
 second_title: Aspose.Words for Python
 description: "ChartDataPoint.index property. Index of the data point this object applies formatting to."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/index/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "DocumentProperty.name property. Returns the name of the property."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.properties/documentproperty/name/
 ---
 

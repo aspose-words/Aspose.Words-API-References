@@ -5,7 +5,7 @@ articleTitle: get_regions_hierarchy method
 second_title: Aspose.Words for Python
 description: "MailMerge.get_regions_hierarchy method. Returns a full hierarchy of regions (with fields) available in the document."
 type: docs
-weight: 230
+weight: 6900
 url: /python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/
 ---
 

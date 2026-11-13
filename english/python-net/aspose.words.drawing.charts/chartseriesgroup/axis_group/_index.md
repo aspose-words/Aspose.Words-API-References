@@ -5,7 +5,7 @@ articleTitle: axis_group property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.axis_group property. Gets or sets the axis group to which this series group belongs."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/axis_group/
 ---
 

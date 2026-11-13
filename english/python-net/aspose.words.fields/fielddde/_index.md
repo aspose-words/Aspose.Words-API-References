@@ -5,7 +5,7 @@ articleTitle: FieldDde class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldDde class. Implements the DDE field"
 type: docs
-weight: 320
+weight: 6400
 url: /python-net/aspose.words.fields/fielddde/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FieldUpdatingProgressArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldUpdatingProgressArgs class. Provides data for the field updating progress event."
 type: docs
-weight: 1110
+weight: 22200
 url: /python-net/aspose.words.fields/fieldupdatingprogressargs/
 ---
 

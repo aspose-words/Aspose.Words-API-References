@@ -5,7 +5,7 @@ articleTitle: date_time_value property
 second_title: Aspose.Words for Python
 description: "ChartXValue.date_time_value property. Gets the stored datetime value."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartxvalue/date_time_value/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: EmbeddedFontStyle enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.EmbeddedFontStyle enumeration. Specifies the style of an embedded font inside a [FontInfo](../fontinfo/) object."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.fonts/embeddedfontstyle/
 ---
 

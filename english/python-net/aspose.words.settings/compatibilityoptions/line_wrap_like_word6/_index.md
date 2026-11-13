@@ -5,7 +5,7 @@ articleTitle: line_wrap_like_word6 property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.line_wrap_like_word6 property. Emulate Word 6.0 Line Wrapping for East Asian Text."
 type: docs
-weight: 310
+weight: 9300
 url: /python-net/aspose.words.settings/compatibilityoptions/line_wrap_like_word6/
 ---
 

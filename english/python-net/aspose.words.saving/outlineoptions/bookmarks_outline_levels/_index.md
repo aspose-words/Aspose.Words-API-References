@@ -5,7 +5,7 @@ articleTitle: bookmarks_outline_levels property
 second_title: Aspose.Words for Python
 description: "OutlineOptions.bookmarks_outline_levels property. Allows to specify individual bookmarks outline level."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/outlineoptions/bookmarks_outline_levels/
 ---
 

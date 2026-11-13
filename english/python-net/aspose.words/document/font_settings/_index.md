@@ -5,7 +5,7 @@ articleTitle: font_settings property
 second_title: Aspose.Words for Python
 description: "Document.font_settings property. Gets or sets document font settings."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/document/font_settings/
 ---
 

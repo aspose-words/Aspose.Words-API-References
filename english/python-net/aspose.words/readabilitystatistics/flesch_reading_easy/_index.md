@@ -5,7 +5,7 @@ articleTitle: flesch_reading_easy property
 second_title: Aspose.Words for Python
 description: "ReadabilityStatistics.flesch_reading_easy property. Flesch Reading Easy score."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/readabilitystatistics/flesch_reading_easy/
 ---
 

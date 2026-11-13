@@ -5,7 +5,7 @@ articleTitle: CellCollection indexer
 second_title: Aspose.Words for Python
 description: "CellCollection indexer. Retrieves a [Cell](../../cell/) at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.tables/cellcollection/__getitem__/
 ---
 

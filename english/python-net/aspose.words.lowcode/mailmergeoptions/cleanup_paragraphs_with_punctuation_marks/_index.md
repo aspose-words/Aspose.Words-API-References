@@ -5,7 +5,7 @@ articleTitle: cleanup_paragraphs_with_punctuation_marks property
 second_title: Aspose.Words for Python
 description: "MailMergeOptions.cleanup_paragraphs_with_punctuation_marks property. Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the [MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS](../../../aspose.words.mailmerging/mailmergecleanupoptions/#REMOVE_EMPTY_PARAGRAPHS) option is specified."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/mailmergeoptions/cleanup_paragraphs_with_punctuation_marks/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: spelling_checked property
 second_title: Aspose.Words for Python
 description: "Document.spelling_checked property. Returns ``True`` if the document has been checked for spelling."
 type: docs
-weight: 440
+weight: 13200
 url: /python-net/aspose.words/document/spelling_checked/
 ---
 

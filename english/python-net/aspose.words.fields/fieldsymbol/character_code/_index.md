@@ -5,7 +5,7 @@ articleTitle: character_code property
 second_title: Aspose.Words for Python
 description: "FieldSymbol.character_code property. Gets or sets the character's code point value in decimal or hexadecimal."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldsymbol/character_code/
 ---
 

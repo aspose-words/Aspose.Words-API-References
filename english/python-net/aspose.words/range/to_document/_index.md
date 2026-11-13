@@ -5,7 +5,7 @@ articleTitle: to_document method
 second_title: Aspose.Words for Python
 description: "Range.to_document method. Constructs a new fully formed document that contains the range."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/range/to_document/
 ---
 

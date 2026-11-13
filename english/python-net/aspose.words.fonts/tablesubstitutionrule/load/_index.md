@@ -5,7 +5,7 @@ articleTitle: load method
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.TableSubstitutionRule.load method"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
 

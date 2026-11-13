@@ -5,7 +5,7 @@ articleTitle: borders property
 second_title: Aspose.Words for Python
 description: "RowFormat.borders property. Gets the collection of default cell borders for the row."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.tables/rowformat/borders/
 ---
 

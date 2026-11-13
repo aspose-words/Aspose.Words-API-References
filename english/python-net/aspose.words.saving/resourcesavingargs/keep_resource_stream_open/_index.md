@@ -5,7 +5,7 @@ articleTitle: keep_resource_stream_open property
 second_title: Aspose.Words for Python
 description: "ResourceSavingArgs.keep_resource_stream_open property. Specifies whether Aspose.Words should keep the stream open or close it after saving a resource."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/resourcesavingargs/keep_resource_stream_open/
 ---
 

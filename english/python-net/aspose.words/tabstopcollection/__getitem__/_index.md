@@ -5,7 +5,7 @@ articleTitle: TabStopCollection indexer
 second_title: Aspose.Words for Python
 description: "TabStopCollection indexer. Gets a tab stop at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/tabstopcollection/__getitem__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: remove_numbers method
 second_title: Aspose.Words for Python
 description: "ListFormat.remove_numbers method. Removes numbers or bullets from the current paragraph and sets list level to zero."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.lists/listformat/remove_numbers/
 ---
 

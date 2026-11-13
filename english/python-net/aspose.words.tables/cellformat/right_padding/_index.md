@@ -5,7 +5,7 @@ articleTitle: right_padding property
 second_title: Aspose.Words for Python
 description: "CellFormat.right_padding property. Returns or sets the amount of space (in points) to add to the right of the contents of cell."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.tables/cellformat/right_padding/
 ---
 

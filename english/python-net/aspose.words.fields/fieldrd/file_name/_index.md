@@ -5,7 +5,7 @@ articleTitle: file_name property
 second_title: Aspose.Words for Python
 description: "FieldRD.file_name property. Gets or sets the name of the file to include when generating a table of contents, table of authorities, or index."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldrd/file_name/
 ---
 

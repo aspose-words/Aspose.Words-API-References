@@ -5,7 +5,7 @@ articleTitle: is_list_item property
 second_title: Aspose.Words for Python
 description: "ListFormat.is_list_item property. True when the paragraph has bulleted or numbered formatting applied to it."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lists/listformat/is_list_item/
 ---
 

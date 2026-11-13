@@ -5,7 +5,7 @@ articleTitle: no_extra_line_spacing property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.no_extra_line_spacing property. Do Not Center Content on Lines With Exact Line Height."
 type: docs
-weight: 340
+weight: 10200
 url: /python-net/aspose.words.settings/compatibilityoptions/no_extra_line_spacing/
 ---
 

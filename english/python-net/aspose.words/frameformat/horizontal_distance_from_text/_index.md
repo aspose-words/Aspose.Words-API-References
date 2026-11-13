@@ -5,7 +5,7 @@ articleTitle: horizontal_distance_from_text property
 second_title: Aspose.Words for Python
 description: "FrameFormat.horizontal_distance_from_text property. Gets horizontal distance between a frame and the surrounding text, in points."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/frameformat/horizontal_distance_from_text/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FieldTemplate class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldTemplate class. Implements the TEMPLATE field"
 type: docs
-weight: 1030
+weight: 20600
 url: /python-net/aspose.words.fields/fieldtemplate/
 ---
 

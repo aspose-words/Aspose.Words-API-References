@@ -5,7 +5,7 @@ articleTitle: light2 property
 second_title: Aspose.Words for Python
 description: "ThemeColors.light2 property. Specifies color Light 2."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.themes/themecolors/light2/
 ---
 

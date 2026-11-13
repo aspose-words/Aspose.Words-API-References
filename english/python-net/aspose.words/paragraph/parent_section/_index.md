@@ -5,7 +5,7 @@ articleTitle: parent_section property
 second_title: Aspose.Words for Python
 description: "Paragraph.parent_section property. Retrieves the parent [Section](../../section/) of the paragraph."
 type: docs
-weight: 200
+weight: 6000
 url: /python-net/aspose.words/paragraph/parent_section/
 ---
 

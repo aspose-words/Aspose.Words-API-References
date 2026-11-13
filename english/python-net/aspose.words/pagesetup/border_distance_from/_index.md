@@ -5,7 +5,7 @@ articleTitle: border_distance_from property
 second_title: Aspose.Words for Python
 description: "PageSetup.border_distance_from property. Gets or sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/pagesetup/border_distance_from/
 ---
 

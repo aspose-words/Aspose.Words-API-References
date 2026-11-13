@@ -5,7 +5,7 @@ articleTitle: year property
 second_title: Aspose.Words for Python
 description: "Source.year property. Gets or sets the year of a source."
 type: docs
-weight: 530
+weight: 15900
 url: /python-net/aspose.words.bibliography/source/year/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: LoadFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.LoadFormat enumeration. Indicates the format of the document that is to be loaded."
 type: docs
-weight: 750
+weight: 15000
 url: /python-net/aspose.words/loadformat/
 ---
 
@@ -45,6 +45,8 @@ Indicates the format of the document that is to be loaded.
 | MARKDOWN | Markdown text document. |
 | PDF | Pdf document. |
 | XML | XML document. |
+| HWP | Hancom Hangul (HWP 5.0) binary document. Load only. |
+| WORD_PERFECT | WordPerfect 6.x or later document. |
 | UNKNOWN | Unrecognized format, cannot be loaded by Aspose.Words. |
 
 ### Examples
@@ -83,6 +85,28 @@ image_shape = doc.get_child_nodes(aw.NodeType.SHAPE, True)[0].as_shape()
 self.assertTrue(image_shape.is_image)
 # This output document will display the image that was missing.
 doc.save(file_name=ARTIFACTS_DIR + 'HtmlLoadOptions.BaseUri.docx')
+```
+
+Shows how to load a Hancom Hangul document.
+
+```python
+info = aw.FileFormatUtil.detect_file_format(file_name=MY_DIR + "HWP document.hwp")
+self.assertEqual(aw.LoadFormat.HWP, info.load_format)
+load_options = aw.loading.LoadOptions()
+load_options.load_format = aw.LoadFormat.HWP
+doc = aw.Document(file_name=MY_DIR + "HWP document.hwp", load_options=load_options)
+doc.save(file_name=ARTIFACTS_DIR + "LoadOptions.LoadHwp.docx")
+```
+
+Shows how to load a WordPerfect document.
+
+```python
+info = aw.FileFormatUtil.detect_file_format(file_name=MY_DIR + "WordPerfect document.wpd")
+self.assertEqual(aw.LoadFormat.WORD_PERFECT, info.load_format)
+load_options = aw.loading.LoadOptions()
+load_options.load_format = aw.LoadFormat.WORD_PERFECT
+doc = aw.Document(file_name=MY_DIR + "WordPerfect document.wpd", load_options=load_options)
+doc.save(file_name=ARTIFACTS_DIR + "LoadOptions.LoadWordPerfect.docx")
 ```
 
 ### See Also

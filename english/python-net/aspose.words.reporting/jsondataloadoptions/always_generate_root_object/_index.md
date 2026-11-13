@@ -5,7 +5,7 @@ articleTitle: always_generate_root_object property
 second_title: Aspose.Words for Python
 description: "JsonDataLoadOptions.always_generate_root_object property. Gets or sets a flag indicating whether a generated data source will always contain an object for a JSON root element"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.reporting/jsondataloadoptions/always_generate_root_object/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: element property
 second_title: Aspose.Words for Python
 description: "SmartTag.element property. Specifies the name of the smart tag within the document."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.markup/smarttag/element/
 ---
 

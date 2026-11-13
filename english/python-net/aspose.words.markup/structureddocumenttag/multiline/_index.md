@@ -5,7 +5,7 @@ articleTitle: multiline property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.multiline property. Specifies whether this SDT allows multiple lines of text."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "Paragraph.accept_end method. Accepts a visitor for visiting the end of the document's paragraph."
 type: docs
-weight: 240
+weight: 7200
 url: /python-net/aspose.words/paragraph/accept_end/
 ---
 

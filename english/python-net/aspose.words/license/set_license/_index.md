@@ -5,7 +5,7 @@ articleTitle: set_license method
 second_title: Aspose.Words for Python
 description: "aspose.words.License.set_license method"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/license/set_license/
 ---
 

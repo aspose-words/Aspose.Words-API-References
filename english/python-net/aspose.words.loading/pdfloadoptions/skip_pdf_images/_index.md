@@ -5,7 +5,7 @@ articleTitle: skip_pdf_images property
 second_title: Aspose.Words for Python
 description: "PdfLoadOptions.skip_pdf_images property. Gets or sets the flag indicating whether images must be skipped while loading PDF document"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.loading/pdfloadoptions/skip_pdf_images/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: font_file_name property
 second_title: Aspose.Words for Python
 description: "FontSavingArgs.font_file_name property. Gets or sets the file name (without path) where the font will be saved to."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/fontsavingargs/font_file_name/
 ---
 

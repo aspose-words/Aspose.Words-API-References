@@ -5,7 +5,7 @@ articleTitle: ReplacementFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.replacing.ReplacementFormat enumeration. Specifies the replacement format."
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.replacing/replacementformat/
 ---
 

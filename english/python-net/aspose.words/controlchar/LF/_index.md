@@ -5,7 +5,7 @@ articleTitle: LF property
 second_title: Aspose.Words for Python
 description: "ControlChar.LF property. Line feed character: \\x000a or \\n"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/controlchar/LF/
 ---
 

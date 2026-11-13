@@ -5,7 +5,7 @@ articleTitle: OPTIONAL_HYPHEN_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.OPTIONAL_HYPHEN_CHAR property. Optional Hyphen in Microsoft Word is (char)31."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words/controlchar/OPTIONAL_HYPHEN_CHAR/
 ---
 

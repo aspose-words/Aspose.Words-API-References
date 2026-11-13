@@ -5,7 +5,7 @@ articleTitle: layout_flow property
 second_title: Aspose.Words for Python
 description: "TextBox.layout_flow property. Determines the flow of the text layout in a shape."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing/textbox/layout_flow/
 ---
 

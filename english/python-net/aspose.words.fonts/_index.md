@@ -5,7 +5,7 @@ articleTitle: aspose.words.fonts module
 second_title: Aspose.Words for Python
 description: "The aspose.words.fonts module provides classes and enumerations to access information about fonts used in a document."
 type: docs
-weight: 110
+weight: 1100
 url: /python-net/aspose.words.fonts/
 ---
 

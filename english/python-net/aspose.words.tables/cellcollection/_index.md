@@ -5,7 +5,7 @@ articleTitle: CellCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.CellCollection class. Provides typed access to a collection of [Cell](../cell/) nodes"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.tables/cellcollection/
 ---
 

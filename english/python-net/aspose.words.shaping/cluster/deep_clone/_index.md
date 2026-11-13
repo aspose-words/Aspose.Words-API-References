@@ -5,7 +5,7 @@ articleTitle: deep_clone method
 second_title: Aspose.Words for Python
 description: "Cluster.deep_clone method. Returns a deep clone of this instance."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.shaping/cluster/deep_clone/
 ---
 

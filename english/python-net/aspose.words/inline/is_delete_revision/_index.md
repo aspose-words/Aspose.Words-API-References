@@ -5,7 +5,7 @@ articleTitle: is_delete_revision property
 second_title: Aspose.Words for Python
 description: "Inline.is_delete_revision property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/inline/is_delete_revision/
 ---
 

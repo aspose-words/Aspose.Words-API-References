@@ -5,7 +5,7 @@ articleTitle: FontEmbeddingUsagePermissions enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontEmbeddingUsagePermissions enumeration. Represents the font embedding usage permissions."
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.fonts/fontembeddingusagepermissions/
 ---
 

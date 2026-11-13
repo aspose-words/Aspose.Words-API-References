@@ -5,7 +5,7 @@ articleTitle: adjust_line_height_in_table property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.adjust_line_height_in_table property. Add Document Grid Line Pitch To Lines in Table Cells."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.settings/compatibilityoptions/adjust_line_height_in_table/
 ---
 

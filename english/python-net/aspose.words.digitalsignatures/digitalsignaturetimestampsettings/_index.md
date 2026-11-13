@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureTimestampSettings class
 second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.DigitalSignatureTimestampSettings class. Contains settings of the digital signature timestamp."
 type: docs
-weight: 40
+weight: 601
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/
 ---
 

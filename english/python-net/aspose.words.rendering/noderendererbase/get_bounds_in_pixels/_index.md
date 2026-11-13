@@ -5,7 +5,7 @@ articleTitle: get_bounds_in_pixels method
 second_title: Aspose.Words for Python
 description: "aspose.words.rendering.NodeRendererBase.get_bounds_in_pixels method"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.rendering/noderendererbase/get_bounds_in_pixels/
 ---
 

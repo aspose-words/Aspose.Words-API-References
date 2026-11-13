@@ -5,7 +5,7 @@ articleTitle: split_style property
 second_title: Aspose.Words for Python
 description: "SplitOptions.split_style property. Specifies the paragraph style for splitting the document into parts when [SplitCriteria.STYLE](../../splitcriteria/#STYLE) is used."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/splitoptions/split_style/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: auto_hyphenation property
 second_title: Aspose.Words for Python
 description: "HyphenationOptions.auto_hyphenation property. Gets or sets value determining whether automatic hyphenation is turned on for the document"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.settings/hyphenationoptions/auto_hyphenation/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: single_page method
 second_title: Aspose.Words for Python
 description: "MultiPageLayout.single_page method. Creates a layout that renders only the first of specified pages."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/multipagelayout/single_page/
 ---
 

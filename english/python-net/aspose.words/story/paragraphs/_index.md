@@ -5,7 +5,7 @@ articleTitle: paragraphs property
 second_title: Aspose.Words for Python
 description: "Story.paragraphs property. Gets a collection of paragraphs that are immediate children of the story."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/story/paragraphs/
 ---
 

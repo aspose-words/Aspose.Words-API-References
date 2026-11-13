@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "DocumentBase.document property. Gets this instance."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/documentbase/document/
 ---
 

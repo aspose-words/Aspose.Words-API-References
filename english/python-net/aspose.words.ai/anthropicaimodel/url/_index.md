@@ -5,7 +5,7 @@ articleTitle: url property
 second_title: Aspose.Words for Python
 description: "AnthropicAiModel.url property. Gets or sets a URL of the model"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.ai/anthropicaimodel/url/
 ---
 

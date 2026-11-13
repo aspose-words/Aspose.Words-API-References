@@ -5,7 +5,7 @@ articleTitle: as_field_section_pages method
 second_title: Aspose.Words for Python
 description: "Field.as_field_section_pages method. Cast Field to [FieldSectionPages](../../fieldsectionpages/)."
 type: docs
-weight: 860
+weight: 25800
 url: /python-net/aspose.words.fields/field/as_field_section_pages/
 ---
 

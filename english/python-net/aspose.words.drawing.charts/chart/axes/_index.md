@@ -5,7 +5,7 @@ articleTitle: axes property
 second_title: Aspose.Words for Python
 description: "Chart.axes property. Gets a collection of all axes of this chart."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chart/axes/
 ---
 

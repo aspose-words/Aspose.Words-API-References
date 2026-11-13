@@ -5,7 +5,7 @@ articleTitle: panose property
 second_title: Aspose.Words for Python
 description: "FontInfo.panose property. Gets or sets the PANOSE typeface classification number."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fonts/fontinfo/panose/
 ---
 

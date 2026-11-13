@@ -5,7 +5,7 @@ articleTitle: build_report_to_images method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.ReportBuilder.build_report_to_images method"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/reportbuilder/build_report_to_images/
 ---
 

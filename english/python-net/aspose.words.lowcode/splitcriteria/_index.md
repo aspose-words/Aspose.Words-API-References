@@ -5,7 +5,7 @@ articleTitle: SplitCriteria enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.SplitCriteria enumeration. Specifies how the document is split into parts."
 type: docs
-weight: 200
+weight: 4000
 url: /python-net/aspose.words.lowcode/splitcriteria/
 ---
 

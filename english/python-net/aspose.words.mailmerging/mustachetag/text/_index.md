@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "MustacheTag.text property. Gets the text of the tag."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.mailmerging/mustachetag/text/
 ---
 

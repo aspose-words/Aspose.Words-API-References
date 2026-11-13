@@ -5,7 +5,7 @@ articleTitle: index_of method
 second_title: Aspose.Words for Python
 description: "DocumentPropertyCollection.index_of method. Gets the index of a property by name."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.properties/documentpropertycollection/index_of/
 ---
 
