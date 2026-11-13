@@ -1,0 +1,30 @@
+﻿---
+title: CustomPartCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "CustomPartCollection.remove_at method. Removes an item at the specified index."
+type: docs
+weight: 70
+url: /es/python-net/aspose.words.markup/custompartcollection/remove_at/
+---
+
+## remove_at(index) {#int}
+
+Removes an item at the specified index.
+
+
+```python
+def remove_at(self, index: int):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
+
+### See Also
+
+* module [aspose.words.markup](../../)
+* class [CustomPartCollection](../)
+

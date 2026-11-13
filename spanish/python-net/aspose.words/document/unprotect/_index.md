@@ -1,0 +1,95 @@
+﻿---
+title: Document.unprotect method
+linktitle: unprotect method
+articleTitle: unprotect method
+second_title: Aspose.Words for Python
+description: "aspose.words.Document.unprotect method"
+type: docs
+weight: 780
+url: /es/python-net/aspose.words/document/unprotect/
+---
+
+## unprotect() {#default}
+
+Removes protection from the document regardless of the password.
+
+
+```python
+def unprotect(self):
+    ...
+```
+
+### Remarks
+
+This method unprotects the document even if it has a protection password.
+
+Note that document protection is different from write protection.
+Write protection is specified using the [Document.write_protection](../write_protection/).
+
+
+
+
+## unprotect(password) {#str}
+
+Removes protection from the document if a correct password is specified.
+
+
+```python
+def unprotect(self, password: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | str | The password to unprotect the document with. |
+
+### Remarks
+
+This method unprotects the document only if a correct password is specified.
+
+Note that document protection is different from write protection.
+Write protection is specified using the [Document.write_protection](../write_protection/).
+
+
+
+
+### Returns
+
+``True`` if a correct password was specified and the document was unprotected.
+
+
+## Examples
+
+Shows how to protect and unprotect a document.
+
+```python
+doc = aw.Document()
+doc.protect(type=aw.ProtectionType.READ_ONLY, password='password')
+self.assertEqual(aw.ProtectionType.READ_ONLY, doc.protection_type)
+# Si abrimos este documento con Microsoft Word con la intención de editarlo,
+# necesitaremos aplicar la contraseña para superar la protección.
+doc.save(file_name=ARTIFACTS_DIR + 'Document.Protect.docx')
+# Tenga en cuenta que la protección solo se aplica a los usuarios de Microsoft Word que abren nuestro documento.
+# No hemos cifrado el documento de ninguna manera, y no necesitamos la contraseña para abrirlo y editarlo programáticamente.
+protected_doc = aw.Document(file_name=ARTIFACTS_DIR + 'Document.Protect.docx')
+self.assertEqual(aw.ProtectionType.READ_ONLY, protected_doc.protection_type)
+builder = aw.DocumentBuilder(doc=protected_doc)
+builder.writeln('Text added to a protected document.')
+# Hay dos formas de eliminar la protección de un documento.
+# 1 - Sin contraseña:
+doc.unprotect()
+self.assertEqual(aw.ProtectionType.NO_PROTECTION, doc.protection_type)
+doc.protect(type=aw.ProtectionType.READ_ONLY, password='NewPassword')
+self.assertEqual(aw.ProtectionType.READ_ONLY, doc.protection_type)
+doc.unprotect('WrongPassword')
+self.assertEqual(aw.ProtectionType.READ_ONLY, doc.protection_type)
+# 2 - Con la contraseña correcta:
+doc.unprotect('NewPassword')
+self.assertEqual(aw.ProtectionType.NO_PROTECTION, doc.protection_type)
+```
+
+## See Also
+
+* module [aspose.words](../../)
+* class [Document](../)
+

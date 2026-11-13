@@ -1,0 +1,86 @@
+﻿---
+title: RowCollection class
+linktitle: RowCollection class
+articleTitle: RowCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.RowCollection class. Provides typed access to a collection of [Row](../row/) nodes"
+type: docs
+weight: 100
+url: /es/python-net/aspose.words.tables/rowcollection/
+---
+
+## RowCollection class
+
+Provides typed access to a collection of [Row](../row/) nodes.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/python-net/working-with-tables/) documentation article.
+
+
+
+
+**Inheritance:** [RowCollection](./) → [NodeCollection](../../aspose.words/nodecollection/)
+
+### Indexers
+
+| Name | Description |
+| --- | --- |
+| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a [Row](../row/) at the given index. |
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [count](../../aspose.words/nodecollection/count/) | Gets the number of nodes in the collection.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ add(node)](../../aspose.words/nodecollection/add/#node) | Adds a node to the end of the collection.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ clear()](../../aspose.words/nodecollection/clear/#default) | Removes all nodes from this collection and from the document.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ contains(node)](../../aspose.words/nodecollection/contains/#node) | Determines whether a node is in the collection.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ index_of(node)](../../aspose.words/nodecollection/index_of/#node) | Returns the zero-based index of the specified node.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ insert(index, node)](../../aspose.words/nodecollection/insert/#int_node) | Inserts a node into the collection at the specified index.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ remove(node)](../../aspose.words/nodecollection/remove/#node) | Removes the node from the collection and from the document.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ remove_at(index)](../../aspose.words/nodecollection/remove_at/#int) | Removes the node at the specified index from the collection and from the document.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ to_array()](./to_array/#default) | Copies all rows from the collection to a new array of rows. |
+
+### Examples
+
+Shows how to iterate through all tables in the document and print the contents of each cell.
+
+```python
+from api_example_base import ApiExampleBase, MY_DIR, ARTIFACTS_DIR, GOLDS_DIR, TEMP_DIR, IMAGE_DIR, FONTS_DIR
+import aspose.words as aw
+doc = aw.Document(file_name=MY_DIR + 'Tables.docx')
+tables = doc.first_section.body.tables
+self.assertEqual(2, len(list(tables)))
+i = 0
+while i < tables.count:
+    print(f'Start of Table {i}')
+    rows = tables[i].rows
+    # Podemos usar el método "ToArray" en una colección de filas para clonarla en una matriz.
+    assert rows == rows.to_array()
+    self.assertNotEqual(rows, list(rows))
+    j = 0
+    while j < rows.count:
+        print(f'\tStart of Row {j}')
+        cells = rows[j].cells
+        # Podemos usar el método "ToArray" en una colección de celdas para clonarla en una matriz.
+        assert cells == cells.to_array()
+        self.assertNotEqual(cells, list(cells))
+        k = 0
+        while k < cells.count:
+            cell_text = cells[k].to_string(save_format=aw.SaveFormat.TEXT).strip()
+            print(f'\t\tContents of Cell:{k} = "{cell_text}"')
+            k += 1
+        print(f'\tEnd of Row {j}')
+        j += 1
+    print(f'End of Table {i}\n')
+    i += 1
+```
+
+### See Also
+
+* module [aspose.words.tables](../)
+* class [NodeCollection](../../aspose.words/nodecollection/)
+

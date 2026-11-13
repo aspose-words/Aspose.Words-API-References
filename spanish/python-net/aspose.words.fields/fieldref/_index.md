@@ -1,0 +1,158 @@
+﻿---
+title: FieldRef class
+linktitle: FieldRef class
+articleTitle: FieldRef class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldRef class. Implements the REF field"
+type: docs
+weight: 870
+url: /es/python-net/aspose.words.fields/fieldref/
+---
+
+## FieldRef class
+
+Implements the REF field.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
+
+
+
+
+### Remarks
+
+Inserts the text or graphics represented by the specified bookmark.
+
+
+**Inheritance:** [FieldRef](./) → [Field](../field/)
+
+### Constructors
+| Name | Description |
+| --- | --- |
+| [FieldRef()](./__init__/#default) | The default constructor. |
+
+### Properties
+
+| Name | Description |
+| --- | --- |
+| [bookmark_name](./bookmark_name/) | Gets or sets the referenced bookmark's name. |
+| [display_result](../field/display_result/) | Gets the text that represents the displayed field result.<br>(Inherited from [Field](../field/)) |
+| [end](../field/end/) | Gets the node that represents the field end.<br>(Inherited from [Field](../field/)) |
+| [format](../field/format/) | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting.<br>(Inherited from [Field](../field/)) |
+| [include_note_or_comment](./include_note_or_comment/) | Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
+| [insert_hyperlink](./insert_hyperlink/) | Gets or sets whether to create a hyperlink to the bookmarked paragraph. |
+| [insert_paragraph_number](./insert_paragraph_number/) | Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
+| [insert_paragraph_number_in_full_context](./insert_paragraph_number_in_full_context/) | Gets or sets whether to insert the paragraph number of the referenced paragraph in full context. |
+| [insert_paragraph_number_in_relative_context](./insert_paragraph_number_in_relative_context/) | Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context. |
+| [insert_relative_position](./insert_relative_position/) | Gets or sets whether to insert the relative position of the referenced paragraph. |
+| [is_dirty](../field/is_dirty/) | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.<br>(Inherited from [Field](../field/)) |
+| [is_locked](../field/is_locked/) | Gets or sets whether the field is locked (should not recalculate its result).<br>(Inherited from [Field](../field/)) |
+| [locale_id](../field/locale_id/) | Gets or sets the LCID of the field.<br>(Inherited from [Field](../field/)) |
+| [number_separator](./number_separator/) | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [result](../field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../field/)) |
+| [separator](../field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../field/)) |
+| [start](../field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../field/)) |
+| [suppress_non_delimiters](./suppress_non_delimiters/) | Gets or sets whether to suppress non-delimiter characters. |
+| [type](../field/type/) | Gets the Microsoft Word field type.<br>(Inherited from [Field](../field/)) |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ get_field_code()](../field/get_field_code/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.<br>(Inherited from [Field](../field/)) |
+|[ get_field_code(include_child_field_codes)](../field/get_field_code/#bool) | Returns text between field start and field separator (or field end if there is no separator).<br>(Inherited from [Field](../field/)) |
+|[ remove()](../field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``None``.<br>(Inherited from [Field](../field/)) |
+|[ unlink()](../field/unlink/#default) | Performs the field unlink.<br>(Inherited from [Field](../field/)) |
+|[ update()](../field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
+|[ update(ignore_merge_format)](../field/update/#bool) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
+
+### Examples
+
+Shows how to insert REF fields to reference bookmarks.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+builder.start_bookmark('MyBookmark')
+builder.insert_footnote(footnote_type=aw.notes.FootnoteType.FOOTNOTE, footnote_text='MyBookmark footnote #1')
+builder.write('Text that will appear in REF field')
+builder.insert_footnote(footnote_type=aw.notes.FootnoteType.FOOTNOTE, footnote_text='MyBookmark footnote #2')
+builder.end_bookmark('MyBookmark')
+builder.move_to_document_start()
+# Aplicaremos un formato de lista personalizado, donde la cantidad de corchetes angulares indica el nivel de lista en el que nos encontramos.
+builder.list_format.apply_number_default()
+builder.list_format.list_level.number_format = '> \x00'
+# Inserte un campo REF que contendrá el texto dentro de nuestro marcador, actuará como un hipervínculo y clonará las notas al pie del marcador.
+field = ExField._insert_field_ref(builder, 'MyBookmark', '', '\n')
+field.include_note_or_comment = True
+field.insert_hyperlink = True
+self.assertEqual(' REF  MyBookmark \\f \\h', field.get_field_code())
+# Inserte un campo REF y muestre si el marcador referenciado está por encima o por debajo de él.
+field = ExField._insert_field_ref(builder, 'MyBookmark', 'The referenced paragraph is ', ' this field.\n')
+field.insert_relative_position = True
+self.assertEqual(' REF  MyBookmark \\p', field.get_field_code())
+# Muestre el número de lista del marcador tal como aparece en el documento.
+field = ExField._insert_field_ref(builder, 'MyBookmark', "The bookmark's paragraph number is ", '\n')
+field.insert_paragraph_number = True
+self.assertEqual(' REF  MyBookmark \\n', field.get_field_code())
+# Muestre el número de lista del marcador, pero omitiendo los caracteres que no son delimitadores, como los corchetes angulares.
+field = ExField._insert_field_ref(builder, 'MyBookmark', "The bookmark's paragraph number, non-delimiters suppressed, is ", '\n')
+field.insert_paragraph_number = True
+field.suppress_non_delimiters = True
+self.assertEqual(' REF  MyBookmark \\n \\t', field.get_field_code())
+# Baje un nivel de lista.
+builder.list_format.list_level_number += 1
+builder.list_format.list_level.number_format = '>> \x01'
+# Muestre el número de lista del marcador y los números de todos los niveles de lista superiores.
+field = ExField._insert_field_ref(builder, 'MyBookmark', "The bookmark's full context paragraph number is ", '\n')
+field.insert_paragraph_number_in_full_context = True
+self.assertEqual(' REF  MyBookmark \\w', field.get_field_code())
+builder.insert_break(aw.BreakType.PAGE_BREAK)
+# Muestre los números de nivel de lista entre este campo REF y el marcador al que hace referencia.
+field = ExField._insert_field_ref(builder, 'MyBookmark', "The bookmark's relative paragraph number is ", '\n')
+field.insert_paragraph_number_in_relative_context = True
+self.assertEqual(' REF  MyBookmark \\r', field.get_field_code())
+# Al final del documento, el marcador aparecerá aquí como un elemento de lista.
+builder.writeln('List level above bookmark')
+builder.list_format.list_level_number += 1
+builder.list_format.list_level.number_format = '>>> \x02'
+doc.update_fields()
+doc.save(file_name=ARTIFACTS_DIR + 'Field.REF.docx')
+```
+
+Shows how to insert REF fields to reference bookmarks (InsertFieldRef).
+
+```python
+@staticmethod
+def _insert_field_ref(builder, bookmark_name, text_before, text_after):
+    builder.write(text_before)
+    field = builder.insert_field(field_type=aw.fields.FieldType.FIELD_REF, update_field=True).as_field_ref()
+    field.bookmark_name = bookmark_name
+    builder.write(text_after)
+    return field
+```
+
+Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+# Nombre el texto marcado con un campo SET.
+# Este campo se refiere al "bookmark", no a una estructura de marcador que aparece dentro del texto, sino a una variable con nombre.
+field_set = builder.insert_field(field_type=aw.fields.FieldType.FIELD_SET, update_field=False).as_field_set()
+field_set.bookmark_name = 'MyBookmark'
+field_set.bookmark_text = 'Hello world!'
+field_set.update()
+self.assertEqual(' SET  MyBookmark "Hello world!"', field_set.get_field_code())
+# Refiérase al marcador por su nombre en un campo REF y muestre su contenido.
+field_ref = builder.insert_field(field_type=aw.fields.FieldType.FIELD_REF, update_field=True).as_field_ref()
+field_ref.bookmark_name = 'MyBookmark'
+field_ref.update()
+self.assertEqual(' REF  MyBookmark', field_ref.get_field_code())
+self.assertEqual('Hello world!', field_ref.result)
+doc.save(file_name=ARTIFACTS_DIR + 'Field.SET.REF.docx')
+```
+
+### See Also
+
+* module [aspose.words.fields](../)
+* class [Field](../field/)
+
