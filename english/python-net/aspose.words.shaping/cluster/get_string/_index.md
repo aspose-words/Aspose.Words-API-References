@@ -5,7 +5,7 @@ articleTitle: get_string method
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.Cluster.get_string method"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.shaping/cluster/get_string/
 ---
 

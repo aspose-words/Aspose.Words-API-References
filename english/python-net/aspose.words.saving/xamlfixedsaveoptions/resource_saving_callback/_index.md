@@ -5,7 +5,7 @@ articleTitle: resource_saving_callback property
 second_title: Aspose.Words for Python
 description: "XamlFixedSaveOptions.resource_saving_callback property. Allows to control how resources (images and fonts) are saved when a document is exported to fixed page Xaml format."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/xamlfixedsaveoptions/resource_saving_callback/
 ---
 

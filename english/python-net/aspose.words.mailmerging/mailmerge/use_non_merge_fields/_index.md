@@ -5,7 +5,7 @@ articleTitle: use_non_merge_fields property
 second_title: Aspose.Words for Python
 description: "MailMerge.use_non_merge_fields property. When ``True``, specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into {{fieldName}} tags."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/
 ---
 

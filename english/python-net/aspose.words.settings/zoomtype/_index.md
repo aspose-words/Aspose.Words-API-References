@@ -5,7 +5,7 @@ articleTitle: ZoomType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.settings.ZoomType enumeration. Possible values for how large or small the document appears on the screen in Microsoft Word."
 type: docs
-weight: 220
+weight: 4400
 url: /python-net/aspose.words.settings/zoomtype/
 ---
 

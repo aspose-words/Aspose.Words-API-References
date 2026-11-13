@@ -5,7 +5,7 @@ articleTitle: Fill class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Fill class. Represents fill formatting for an object"
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.drawing/fill/
 ---
 
@@ -48,6 +48,9 @@ You do not create instances of the [Fill](./) class directly.
 | [preset_texture](./preset_texture/) | Gets a [PresetTexture](../presettexture/) for the fill. |
 | [rotate_with_object](./rotate_with_object/) | Gets or sets whether the fill rotates with the specified object. |
 | [texture_alignment](./texture_alignment/) | Gets or sets the alignment for tile texture fill. |
+| [texture_horizontal_scale](./texture_horizontal_scale/) | Gets or sets the horizontal scale for tile texture fill. |
+| [texture_tile](./texture_tile/) | Returns True if the current fill is a tile texture fill. |
+| [texture_vertical_scale](./texture_vertical_scale/) | Gets or sets the vertical scale for tile texture fill. |
 | [transparency](./transparency/) | Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
 | [visible](./visible/) | Gets or sets value that is ``True`` if the formatting applied to this instance, is visible. |
 

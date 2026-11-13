@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Python
 description: "OdsoFieldMapData.clone method. Returns a deep clone of this object."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.settings/odsofieldmapdata/clone/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_document method
 second_title: Aspose.Words for Python
 description: "Node.as_document method. Cast Node to [Node.document](../document/)."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words/node/as_document/
 ---
 

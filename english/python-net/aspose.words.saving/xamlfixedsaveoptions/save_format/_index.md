@@ -5,7 +5,7 @@ articleTitle: save_format property
 second_title: Aspose.Words for Python
 description: "XamlFixedSaveOptions.save_format property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.saving/xamlfixedsaveoptions/save_format/
 ---
 

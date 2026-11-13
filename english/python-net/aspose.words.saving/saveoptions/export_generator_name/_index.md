@@ -5,7 +5,7 @@ articleTitle: export_generator_name property
 second_title: Aspose.Words for Python
 description: "SaveOptions.export_generator_name property. When ``True``, causes the name and version of Aspose.Words to be embedded into produced files"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/saveoptions/export_generator_name/
 ---
 

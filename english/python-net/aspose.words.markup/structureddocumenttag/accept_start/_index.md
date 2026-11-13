@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.accept_start method. Accepts a visitor for visiting the start of the StructuredDocumentTag."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words.markup/structureddocumenttag/accept_start/
 ---
 

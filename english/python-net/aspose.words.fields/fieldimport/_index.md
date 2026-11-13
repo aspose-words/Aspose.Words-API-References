@@ -5,7 +5,7 @@ articleTitle: FieldImport class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldImport class. Implements the IMPORT field"
 type: docs
-weight: 560
+weight: 11200
 url: /python-net/aspose.words.fields/fieldimport/
 ---
 

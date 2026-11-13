@@ -5,7 +5,7 @@ articleTitle: barcode_type property
 second_title: Aspose.Words for Python
 description: "BarcodeParameters.barcode_type property. Bar code type."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/barcodeparameters/barcode_type/
 ---
 

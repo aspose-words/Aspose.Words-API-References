@@ -5,7 +5,7 @@ articleTitle: NodeRendererBase class
 second_title: Aspose.Words for Python
 description: "aspose.words.rendering.NodeRendererBase class. Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/)"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.rendering/noderendererbase/
 ---
 

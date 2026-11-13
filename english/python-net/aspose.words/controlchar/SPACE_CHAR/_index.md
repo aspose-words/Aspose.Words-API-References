@@ -5,7 +5,7 @@ articleTitle: SPACE_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.SPACE_CHAR property. Space character: (char)32."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words/controlchar/SPACE_CHAR/
 ---
 

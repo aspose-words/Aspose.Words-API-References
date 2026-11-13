@@ -5,7 +5,7 @@ articleTitle: fallback_font_name property
 second_title: Aspose.Words for Python
 description: "PclSaveOptions.fallback_font_name property. Name of the font that will be used if no expected font is found in printer and built-in fonts collections."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/pclsaveoptions/fallback_font_name/
 ---
 

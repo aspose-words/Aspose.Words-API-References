@@ -5,7 +5,7 @@ articleTitle: grammar_checked property
 second_title: Aspose.Words for Python
 description: "Document.grammar_checked property. Returns ``True`` if the document has been checked for grammar."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words/document/grammar_checked/
 ---
 

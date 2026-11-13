@@ -5,7 +5,7 @@ articleTitle: source_tag property
 second_title: Aspose.Words for Python
 description: "FieldCitation.source_tag property. Gets or sets a value that matches the Tag element's value of the source to insert."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldcitation/source_tag/
 ---
 

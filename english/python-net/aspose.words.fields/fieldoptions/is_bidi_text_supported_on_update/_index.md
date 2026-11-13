@@ -5,7 +5,7 @@ articleTitle: is_bidi_text_supported_on_update property
 second_title: Aspose.Words for Python
 description: "FieldOptions.is_bidi_text_supported_on_update property. Gets or sets the value indicating whether bidirectional text is fully supported during field update or not."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.fields/fieldoptions/is_bidi_text_supported_on_update/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: tint_and_shade property
 second_title: Aspose.Words for Python
 description: "Border.tint_and_shade property. Gets or sets a double value that lightens or darkens a color."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/border/tint_and_shade/
 ---
 

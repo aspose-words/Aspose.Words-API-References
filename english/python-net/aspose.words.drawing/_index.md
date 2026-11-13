@@ -5,7 +5,7 @@ articleTitle: aspose.words.drawing module
 second_title: Aspose.Words for Python
 description: "The aspose.words.drawing module provides classes that allow to create and modify drawing objects."
 type: docs
-weight: 70
+weight: 700
 url: /python-net/aspose.words.drawing/
 ---
 
@@ -64,7 +64,7 @@ The classes in this module support the latest (Word 2007 - 2013 DrawingML) and t
 | [HorizontalRuleAlignment](./horizontalrulealignment/) | Represents the alignment for the specified horizontal rule. |
 | [ImageType](./imagetype/) | Specifies the type (format) of an image in a Microsoft Word document. |
 | [JoinStyle](./joinstyle/) | Line join style. |
-| [LayoutFlow](./layoutflow/) | Determines the flow of the text layout in a textbox. |
+| [LayoutFlow](./layoutflow/) | Determines the flow of the text layout in a text box. |
 | [PatternType](./patterntype/) | Specifies the fill pattern to be used to fill a shape. |
 | [PresetTexture](./presettexture/) | Specifies texture to be used to fill a shape. |
 | [RelativeHorizontalPosition](./relativehorizontalposition/) | Specifies to what the horizontal position of a shape or text frame is relative. |

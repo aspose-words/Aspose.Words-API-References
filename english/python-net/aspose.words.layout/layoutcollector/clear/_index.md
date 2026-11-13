@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "LayoutCollector.clear method. Clears all collected layout data"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.layout/layoutcollector/clear/
 ---
 

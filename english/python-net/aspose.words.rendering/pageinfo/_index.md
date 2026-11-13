@@ -5,7 +5,7 @@ articleTitle: PageInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.rendering.PageInfo class. Represents information about a particular document page"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.rendering/pageinfo/
 ---
 

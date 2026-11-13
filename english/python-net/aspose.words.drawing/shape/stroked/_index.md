@@ -5,7 +5,7 @@ articleTitle: stroked property
 second_title: Aspose.Words for Python
 description: "Shape.stroked property. Defines whether the path will be stroked."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words.drawing/shape/stroked/
 ---
 

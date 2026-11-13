@@ -5,7 +5,7 @@ articleTitle: IMailMergeDataSource class
 second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.IMailMergeDataSource class. Implement this interface to allow mail merge from a custom data source, such as a list of objects"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.mailmerging/imailmergedatasource/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: inventor property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.inventor property. Gets or sets the inventor of a source."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.bibliography/contributorcollection/inventor/
 ---
 

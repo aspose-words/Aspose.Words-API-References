@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "LayoutEnumerator.type property. Gets the type of the current entity."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.layout/layoutenumerator/type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "ChartDataLabelCollection.font property. Provides access to the font formatting of the data labels of the entire series."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/font/
 ---
 

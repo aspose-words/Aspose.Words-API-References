@@ -5,7 +5,7 @@ articleTitle: fix_check_digit property
 second_title: Aspose.Words for Python
 description: "FieldDisplayBarcode.fix_check_digit property. Gets or sets whether to fix the check digit if it’s invalid."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/fielddisplaybarcode/fix_check_digit/
 ---
 

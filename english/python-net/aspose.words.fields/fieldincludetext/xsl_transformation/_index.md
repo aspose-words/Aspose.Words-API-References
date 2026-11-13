@@ -5,7 +5,7 @@ articleTitle: xsl_transformation property
 second_title: Aspose.Words for Python
 description: "FieldIncludeText.xsl_transformation property. Gets or sets the location of XSL Transformation to format XML data."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.fields/fieldincludetext/xsl_transformation/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: AdvancedCompareOptions constructor
 second_title: Aspose.Words for Python
 description: "AdvancedCompareOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.comparing/advancedcompareoptions/__init__/
 ---
 

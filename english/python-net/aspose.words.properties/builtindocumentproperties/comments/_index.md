@@ -5,7 +5,7 @@ articleTitle: comments property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.comments property. Gets or sets the document comments."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.properties/builtindocumentproperties/comments/
 ---
 

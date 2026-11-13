@@ -5,7 +5,7 @@ articleTitle: unhide_when_used property
 second_title: Aspose.Words for Python
 description: "Style.unhide_when_used property. Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane"
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words/style/unhide_when_used/
 ---
 

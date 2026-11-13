@@ -5,7 +5,7 @@ articleTitle: reporter property
 second_title: Aspose.Words for Python
 description: "Source.reporter property. Gets or sets the reporter of a source."
 type: docs
-weight: 390
+weight: 11700
 url: /python-net/aspose.words.bibliography/source/reporter/
 ---
 

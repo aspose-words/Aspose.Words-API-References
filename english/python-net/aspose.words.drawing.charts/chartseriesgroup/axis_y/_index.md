@@ -5,7 +5,7 @@ articleTitle: axis_y property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.axis_y property. Provides access to properties of the Y axis of this series group."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/axis_y/
 ---
 

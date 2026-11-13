@@ -5,7 +5,7 @@ articleTitle: VbaExecutableAttribute class
 second_title: Aspose.Words for Python
 description: "aspose.words.vba.VbaExecutableAttribute class. "
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.vba/vbaexecutableattribute/
 ---
 

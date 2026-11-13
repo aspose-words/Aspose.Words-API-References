@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "BuildingBlock.accept method. Accepts a visitor."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.buildingblocks/buildingblock/accept/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Theme constructor
 second_title: Aspose.Words for Python
 description: "Theme constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.themes/theme/__init__/
 ---
 

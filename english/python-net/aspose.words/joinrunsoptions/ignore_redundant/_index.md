@@ -5,7 +5,7 @@ articleTitle: ignore_redundant property
 second_title: Aspose.Words for Python
 description: "JoinRunsOptions.ignore_redundant property. True indicates that the redundant attributes of all runs will be ignored when joining runs with same formatting."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/joinrunsoptions/ignore_redundant/
 ---
 

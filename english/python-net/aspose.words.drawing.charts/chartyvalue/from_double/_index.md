@@ -5,7 +5,7 @@ articleTitle: from_double method
 second_title: Aspose.Words for Python
 description: "ChartYValue.from_double method. Creates a [ChartYValue](../) instance of the [ChartYValueType.DOUBLE](../../chartyvaluetype/#DOUBLE) type."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing.charts/chartyvalue/from_double/
 ---
 

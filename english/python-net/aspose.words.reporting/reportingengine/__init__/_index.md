@@ -5,7 +5,7 @@ articleTitle: ReportingEngine constructor
 second_title: Aspose.Words for Python
 description: "ReportingEngine constructor. Initializes a new instance of this class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.reporting/reportingengine/__init__/
 ---
 

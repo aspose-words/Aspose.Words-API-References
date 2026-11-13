@@ -5,7 +5,7 @@ articleTitle: generate_from_first_page property
 second_title: Aspose.Words for Python
 description: "ThumbnailGeneratingOptions.generate_from_first_page property. Specifies whether to generate thumbnail from first page of the document or first image."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.rendering/thumbnailgeneratingoptions/generate_from_first_page/
 ---
 

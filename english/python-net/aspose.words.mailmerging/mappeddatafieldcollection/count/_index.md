@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "MappedDataFieldCollection.count property. Gets the number of elements contained in the collection."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.mailmerging/mappeddatafieldcollection/count/
 ---
 

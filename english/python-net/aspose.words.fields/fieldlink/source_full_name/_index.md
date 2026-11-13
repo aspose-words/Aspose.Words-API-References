@@ -5,7 +5,7 @@ articleTitle: source_full_name property
 second_title: Aspose.Words for Python
 description: "FieldLink.source_full_name property. Gets or sets the name and location of the source file."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.fields/fieldlink/source_full_name/
 ---
 

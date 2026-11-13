@@ -5,7 +5,7 @@ articleTitle: sequence_identifier property
 second_title: Aspose.Words for Python
 description: "FieldSeq.sequence_identifier property. Gets or sets the name assigned to the series of items that are to be numbered."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldseq/sequence_identifier/
 ---
 

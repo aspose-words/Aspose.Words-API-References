@@ -5,7 +5,7 @@ articleTitle: visit_header_footer_end method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_header_footer_end method. Called when enumeration of a header or footer in a section has ended."
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words/documentvisitor/visit_header_footer_end/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: value property
 second_title: Aspose.Words for Python
 description: "SdtListItem.value property. Gets the value of this list item."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.markup/sdtlistitem/value/
 ---
 

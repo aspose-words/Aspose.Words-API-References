@@ -5,7 +5,7 @@ articleTitle: MailMergerContext constructor
 second_title: Aspose.Words for Python
 description: "MailMergerContext constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lowcode/mailmergercontext/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ignore_noscript_elements property
 second_title: Aspose.Words for Python
 description: "HtmlLoadOptions.ignore_noscript_elements property. Gets or sets a value indicating whether to ignore <noscript> HTML elements"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.loading/htmlloadoptions/ignore_noscript_elements/
 ---
 

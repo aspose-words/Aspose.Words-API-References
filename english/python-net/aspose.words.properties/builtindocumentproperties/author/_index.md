@@ -5,7 +5,7 @@ articleTitle: author property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.author property. Gets or sets the name of the document's author."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.properties/builtindocumentproperties/author/
 ---
 

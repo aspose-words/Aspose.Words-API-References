@@ -5,7 +5,7 @@ articleTitle: MailMergerContext class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.MailMergerContext class. Mail merge context."
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.lowcode/mailmergercontext/
 ---
 

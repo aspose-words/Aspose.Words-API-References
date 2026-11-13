@@ -5,7 +5,7 @@ articleTitle: ListLevelCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.lists.ListLevelCollection class. A collection of list formatting for each level in a list"
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.lists/listlevelcollection/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "List.document property. Gets the owner document."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lists/list/document/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: default_categories property
 second_title: Aspose.Words for Python
 description: "ToaCategories.default_categories property. Gets the default table of authorities categories."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/toacategories/default_categories/
 ---
 

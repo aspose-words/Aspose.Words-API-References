@@ -5,7 +5,7 @@ articleTitle: comment_display_mode property
 second_title: Aspose.Words for Python
 description: "LayoutOptions.comment_display_mode property. Gets or sets the way comments are rendered"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.layout/layoutoptions/comment_display_mode/
 ---
 

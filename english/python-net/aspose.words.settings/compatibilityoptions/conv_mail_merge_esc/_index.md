@@ -5,7 +5,7 @@ articleTitle: conv_mail_merge_esc property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.conv_mail_merge_esc property. Treat Backslash Quotation Delimiter as Two Quotation Marks."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.settings/compatibilityoptions/conv_mail_merge_esc/
 ---
 

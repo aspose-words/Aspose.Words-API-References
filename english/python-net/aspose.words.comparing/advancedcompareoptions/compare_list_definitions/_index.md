@@ -5,7 +5,7 @@ articleTitle: compare_list_definitions property
 second_title: Aspose.Words for Python
 description: "AdvancedCompareOptions.compare_list_definitions property. Specifies whether list definition contents are compared instead of list definition Ids."
 type: docs
-weight: 20
+weight: 301
 url: /python-net/aspose.words.comparing/advancedcompareoptions/compare_list_definitions/
 ---
 

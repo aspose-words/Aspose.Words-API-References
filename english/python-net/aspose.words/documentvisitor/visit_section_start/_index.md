@@ -5,7 +5,7 @@ articleTitle: visit_section_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_section_start method. Called when enumeration of a section has started."
 type: docs
-weight: 380
+weight: 11400
 url: /python-net/aspose.words/documentvisitor/visit_section_start/
 ---
 

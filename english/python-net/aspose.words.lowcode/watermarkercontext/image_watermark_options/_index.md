@@ -5,7 +5,7 @@ articleTitle: image_watermark_options property
 second_title: Aspose.Words for Python
 description: "WatermarkerContext.image_watermark_options property. Options for the text watermark."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/watermarkercontext/image_watermark_options/
 ---
 

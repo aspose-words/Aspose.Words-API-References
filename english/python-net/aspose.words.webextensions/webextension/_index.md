@@ -5,7 +5,7 @@ articleTitle: WebExtension class
 second_title: Aspose.Words for Python
 description: "aspose.words.webextensions.WebExtension class. Represents a web extension object"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.webextensions/webextension/
 ---
 

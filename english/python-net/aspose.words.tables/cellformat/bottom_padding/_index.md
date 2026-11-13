@@ -5,7 +5,7 @@ articleTitle: bottom_padding property
 second_title: Aspose.Words for Python
 description: "CellFormat.bottom_padding property. Returns or sets the amount of space (in points) to add below the contents of cell."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.tables/cellformat/bottom_padding/
 ---
 

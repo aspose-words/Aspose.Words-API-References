@@ -5,7 +5,7 @@ articleTitle: pixel_to_point method
 second_title: Aspose.Words for Python
 description: "aspose.words.ConvertUtil.pixel_to_point method"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/convertutil/pixel_to_point/
 ---
 

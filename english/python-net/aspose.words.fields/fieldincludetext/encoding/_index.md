@@ -5,7 +5,7 @@ articleTitle: encoding property
 second_title: Aspose.Words for Python
 description: "FieldIncludeText.encoding property. Gets or sets the encoding applied to the data within the referenced file."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldincludetext/encoding/
 ---
 

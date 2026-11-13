@@ -5,7 +5,7 @@ articleTitle: emulate_rendering_to_size_on_page_resolution property
 second_title: Aspose.Words for Python
 description: "MetafileRenderingOptions.emulate_rendering_to_size_on_page_resolution property. Gets or sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/
 ---
 

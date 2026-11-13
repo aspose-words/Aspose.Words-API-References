@@ -5,7 +5,7 @@ articleTitle: counsel property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.counsel property. Gets or sets the counsel of a source."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.bibliography/contributorcollection/counsel/
 ---
 

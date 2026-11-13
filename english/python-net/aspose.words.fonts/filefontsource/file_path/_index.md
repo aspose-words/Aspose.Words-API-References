@@ -5,7 +5,7 @@ articleTitle: file_path property
 second_title: Aspose.Words for Python
 description: "FileFontSource.file_path property. Path to the font file."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/filefontsource/file_path/
 ---
 

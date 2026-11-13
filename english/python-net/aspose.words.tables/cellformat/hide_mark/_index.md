@@ -5,7 +5,7 @@ articleTitle: hide_mark property
 second_title: Aspose.Words for Python
 description: "CellFormat.hide_mark property. Returns or sets visibility of cell mark."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.tables/cellformat/hide_mark/
 ---
 

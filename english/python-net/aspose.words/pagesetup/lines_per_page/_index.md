@@ -5,7 +5,7 @@ articleTitle: lines_per_page property
 second_title: Aspose.Words for Python
 description: "PageSetup.lines_per_page property. Gets or sets the number of lines per page in the document grid."
 type: docs
-weight: 250
+weight: 7500
 url: /python-net/aspose.words/pagesetup/lines_per_page/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Forms2OleControl class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.Forms2OleControl class. Represents Microsoft Forms 2.0 OLE control"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/
 ---
 

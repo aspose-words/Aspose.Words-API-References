@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "GlossaryDocument.node_type property. Returns the [NodeType.GLOSSARY_DOCUMENT](../../../aspose.words/nodetype/#GLOSSARY_DOCUMENT) value."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.buildingblocks/glossarydocument/node_type/
 ---
 

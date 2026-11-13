@@ -5,7 +5,7 @@ articleTitle: FieldArgumentBuilder constructor
 second_title: Aspose.Words for Python
 description: "FieldArgumentBuilder constructor. Initializes an instance of the [FieldArgumentBuilder](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldargumentbuilder/__init__/
 ---
 

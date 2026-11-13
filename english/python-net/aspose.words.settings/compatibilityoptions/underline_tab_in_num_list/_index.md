@@ -5,7 +5,7 @@ articleTitle: underline_tab_in_num_list property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.underline_tab_in_num_list property. Underline Following Character Following Numbering."
 type: docs
-weight: 590
+weight: 17700
 url: /python-net/aspose.words.settings/compatibilityoptions/underline_tab_in_num_list/
 ---
 

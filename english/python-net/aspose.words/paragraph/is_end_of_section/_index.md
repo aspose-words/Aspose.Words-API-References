@@ -5,7 +5,7 @@ articleTitle: is_end_of_section property
 second_title: Aspose.Words for Python
 description: "Paragraph.is_end_of_section property. True if this paragraph is the last paragraph in the [Body](../../body/) (main text story) of a [Section](../../section/); false otherwise."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/paragraph/is_end_of_section/
 ---
 

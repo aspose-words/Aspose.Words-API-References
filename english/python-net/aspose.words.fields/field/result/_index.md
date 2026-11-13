@@ -5,7 +5,7 @@ articleTitle: result property
 second_title: Aspose.Words for Python
 description: "Field.result property. Gets or sets text that is between the field separator and field end."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/field/result/
 ---
 

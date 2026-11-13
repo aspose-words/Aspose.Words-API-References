@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "StyleCollection.count property. Gets the number of styles in the collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/stylecollection/count/
 ---
 

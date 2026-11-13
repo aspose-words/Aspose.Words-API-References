@@ -5,7 +5,7 @@ articleTitle: auto_color property
 second_title: Aspose.Words for Python
 description: "Font.auto_color property. Returns the present calculated color of the text (black or white) to be used for 'auto color'"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/font/auto_color/
 ---
 

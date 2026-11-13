@@ -5,7 +5,7 @@ articleTitle: move_previous method
 second_title: Aspose.Words for Python
 description: "LayoutEnumerator.move_previous method. Moves to the previous sibling entity."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.layout/layoutenumerator/move_previous/
 ---
 

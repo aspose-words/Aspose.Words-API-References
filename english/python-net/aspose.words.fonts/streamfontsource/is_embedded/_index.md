@@ -5,7 +5,7 @@ articleTitle: is_embedded property
 second_title: Aspose.Words for Python
 description: "StreamFontSource.is_embedded property. "
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fonts/streamfontsource/is_embedded/
 ---
 

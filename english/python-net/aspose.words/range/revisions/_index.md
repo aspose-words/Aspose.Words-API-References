@@ -5,7 +5,7 @@ articleTitle: revisions property
 second_title: Aspose.Words for Python
 description: "Range.revisions property. Gets a collection of revisions (tracked changes) that exist in this range."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/range/revisions/
 ---
 

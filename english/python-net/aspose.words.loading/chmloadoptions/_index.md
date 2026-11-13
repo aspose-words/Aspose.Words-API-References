@@ -5,7 +5,7 @@ articleTitle: ChmLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.ChmLoadOptions class. Allows to specify additional options when loading CHM document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.loading/chmloadoptions/
 ---
 

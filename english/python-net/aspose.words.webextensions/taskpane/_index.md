@@ -5,7 +5,7 @@ articleTitle: TaskPane class
 second_title: Aspose.Words for Python
 description: "aspose.words.webextensions.TaskPane class. Represents an add-in task pane object"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.webextensions/taskpane/
 ---
 

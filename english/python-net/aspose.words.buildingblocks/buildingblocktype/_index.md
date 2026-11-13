@@ -5,7 +5,7 @@ articleTitle: BuildingBlockType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.buildingblocks.BuildingBlockType enumeration. Specifies a building block type"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.buildingblocks/buildingblocktype/
 ---
 

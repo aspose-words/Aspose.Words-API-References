@@ -5,7 +5,7 @@ articleTitle: PhysicalFontInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.PhysicalFontInfo class. Specifies information about physical font available to Aspose.Words font engine"
 type: docs
-weight: 220
+weight: 4400
 url: /python-net/aspose.words.fonts/physicalfontinfo/
 ---
 

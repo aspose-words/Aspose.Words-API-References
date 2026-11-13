@@ -5,7 +5,7 @@ articleTitle: entry_level property
 second_title: Aspose.Words for Python
 description: "FieldTC.entry_level property. Gets or sets the level of the entry."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldtc/entry_level/
 ---
 

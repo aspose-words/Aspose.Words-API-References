@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "CustomPartCollection.clear method. Removes all elements from the collection."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.markup/custompartcollection/clear/
 ---
 

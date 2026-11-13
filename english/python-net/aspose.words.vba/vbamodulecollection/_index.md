@@ -5,7 +5,7 @@ articleTitle: VbaModuleCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.vba.VbaModuleCollection class. Represents a collection of [VbaModule](../vbamodule/) objects"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.vba/vbamodulecollection/
 ---
 

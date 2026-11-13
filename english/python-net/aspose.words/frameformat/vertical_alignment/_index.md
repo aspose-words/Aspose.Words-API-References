@@ -5,7 +5,7 @@ articleTitle: vertical_alignment property
 second_title: Aspose.Words for Python
 description: "FrameFormat.vertical_alignment property. Gets vertical alignment of the specified frame."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/frameformat/vertical_alignment/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: to_document method
 second_title: Aspose.Words for Python
 description: "IDocumentProcessorPlugin.to_document method. Parses the document loaded by [IDocumentProcessorPlugin.load()](../load/#bytesio_loadoptions) method into [Document](../../document/) object."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/idocumentprocessorplugin/to_document/
 ---
 

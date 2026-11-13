@@ -5,7 +5,7 @@ articleTitle: application_version property
 second_title: Aspose.Words for Python
 description: "SignOptions.application_version property. Gets or sets the application version for the digital signature"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.digitalsignatures/signoptions/application_version/
 ---
 

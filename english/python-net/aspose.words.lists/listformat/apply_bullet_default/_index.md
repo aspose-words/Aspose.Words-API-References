@@ -5,7 +5,7 @@ articleTitle: apply_bullet_default method
 second_title: Aspose.Words for Python
 description: "ListFormat.apply_bullet_default method. Starts a new default bulleted list and applies it to the paragraph."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.lists/listformat/apply_bullet_default/
 ---
 

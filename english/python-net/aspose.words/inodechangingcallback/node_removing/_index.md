@@ -5,7 +5,7 @@ articleTitle: node_removing method
 second_title: Aspose.Words for Python
 description: "INodeChangingCallback.node_removing method. Called just before a node belonging to this document is about to be removed from the document."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/inodechangingcallback/node_removing/
 ---
 

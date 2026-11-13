@@ -5,7 +5,7 @@ articleTitle: target property
 second_title: Aspose.Words for Python
 description: "CompareOptions.target property. Specifies which document shall be used as a target during comparison."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.comparing/compareoptions/target/
 ---
 

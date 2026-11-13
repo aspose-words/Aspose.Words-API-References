@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "OdsoFieldMapDataCollection.count property. Gets the number of elements contained in the collection."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.settings/odsofieldmapdatacollection/count/
 ---
 

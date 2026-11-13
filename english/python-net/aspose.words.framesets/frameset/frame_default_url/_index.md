@@ -5,7 +5,7 @@ articleTitle: frame_default_url property
 second_title: Aspose.Words for Python
 description: "Frameset.frame_default_url property. Gets or sets the web page URL or document file name to display in this frame."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.framesets/frameset/frame_default_url/
 ---
 

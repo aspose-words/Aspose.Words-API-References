@@ -5,7 +5,7 @@ articleTitle: cache_key property
 second_title: Aspose.Words for Python
 description: "FileFontSource.cache_key property. The key of this source in the cache."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fonts/filefontsource/cache_key/
 ---
 

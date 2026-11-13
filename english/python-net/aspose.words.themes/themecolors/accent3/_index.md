@@ -5,7 +5,7 @@ articleTitle: accent3 property
 second_title: Aspose.Words for Python
 description: "ThemeColors.accent3 property. Specifies color Accent 3."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.themes/themecolors/accent3/
 ---
 

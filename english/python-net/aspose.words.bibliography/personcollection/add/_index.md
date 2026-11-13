@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "PersonCollection.add method. Adds a [Person](../../person/) to the collection."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.bibliography/personcollection/add/
 ---
 

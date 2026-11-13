@@ -5,7 +5,7 @@ articleTitle: quote_char property
 second_title: Aspose.Words for Python
 description: "CsvDataLoadOptions.quote_char property. Gets or sets the character that is used to quote field values."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.reporting/csvdataloadoptions/quote_char/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FramesetCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.framesets.FramesetCollection class. Represents a collection of instances of the [Frameset](../frameset/) class"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.framesets/framesetcollection/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: report_builder_options property
 second_title: Aspose.Words for Python
 description: "ReportBuilderContext.report_builder_options property. Report build options."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/reportbuildercontext/report_builder_options/
 ---
 

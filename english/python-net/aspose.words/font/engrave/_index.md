@@ -5,7 +5,7 @@ articleTitle: engrave property
 second_title: Aspose.Words for Python
 description: "Font.engrave property. True if the font is formatted as engraved."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/font/engrave/
 ---
 

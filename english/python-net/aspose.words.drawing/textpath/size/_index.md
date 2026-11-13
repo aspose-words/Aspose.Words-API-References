@@ -5,7 +5,7 @@ articleTitle: size property
 second_title: Aspose.Words for Python
 description: "TextPath.size property. Defines the size of the font in points."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.drawing/textpath/size/
 ---
 

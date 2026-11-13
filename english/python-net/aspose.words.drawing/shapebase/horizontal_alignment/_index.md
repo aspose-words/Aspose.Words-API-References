@@ -5,7 +5,7 @@ articleTitle: horizontal_alignment property
 second_title: Aspose.Words for Python
 description: "ShapeBase.horizontal_alignment property. Specifies how the shape is positioned horizontally."
 type: docs
-weight: 240
+weight: 7200
 url: /python-net/aspose.words.drawing/shapebase/horizontal_alignment/
 ---
 

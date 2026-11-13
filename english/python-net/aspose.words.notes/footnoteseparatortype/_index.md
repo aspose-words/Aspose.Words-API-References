@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparatorType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.notes.FootnoteSeparatorType enumeration. Specifies the type of the footnote/endnote separator."
 type: docs
-weight: 90
+weight: 1800
 url: /python-net/aspose.words.notes/footnoteseparatortype/
 ---
 

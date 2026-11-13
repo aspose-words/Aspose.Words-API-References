@@ -5,7 +5,7 @@ articleTitle: autofit_to_first_fixed_width_cell property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.autofit_to_first_fixed_width_cell property. Allow Table Columns To Exceed Preferred Widths of Constituent Cells."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.settings/compatibilityoptions/autofit_to_first_fixed_width_cell/
 ---
 

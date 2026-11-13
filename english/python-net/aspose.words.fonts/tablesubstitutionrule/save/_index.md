@@ -5,7 +5,7 @@ articleTitle: save method
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.TableSubstitutionRule.save method"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 

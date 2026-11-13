@@ -5,7 +5,7 @@ articleTitle: priority property
 second_title: Aspose.Words for Python
 description: "FontSourceBase.priority property. Returns the font source priority."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/fontsourcebase/priority/
 ---
 

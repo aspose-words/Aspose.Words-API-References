@@ -5,7 +5,7 @@ articleTitle: lcid property
 second_title: Aspose.Words for Python
 description: "Source.lcid property. Gets or sets the locale ID of a source."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words.bibliography/source/lcid/
 ---
 

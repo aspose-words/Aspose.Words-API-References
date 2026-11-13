@@ -5,7 +5,7 @@ articleTitle: compression_level property
 second_title: Aspose.Words for Python
 description: "XpsSaveOptions.compression_level property. Specifies the compression level used to save document"
 type: docs
-weight: 20
+weight: 301
 url: /python-net/aspose.words.saving/xpssaveoptions/compression_level/
 ---
 

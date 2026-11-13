@@ -5,7 +5,7 @@ articleTitle: ignore_spacing property
 second_title: Aspose.Words for Python
 description: "JoinRunsOptions.ignore_spacing property. True indicates that the spacing attributes of all runs will be ignored when joining runs with same formatting."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/joinrunsoptions/ignore_spacing/
 ---
 

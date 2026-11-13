@@ -5,7 +5,7 @@ articleTitle: separator_character property
 second_title: Aspose.Words for Python
 description: "FieldAutoNumLgl.separator_character property. Gets or sets the separator character to be used."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldautonumlgl/separator_character/
 ---
 

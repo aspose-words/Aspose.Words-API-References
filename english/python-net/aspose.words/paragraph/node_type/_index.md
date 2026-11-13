@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "Paragraph.node_type property. Returns [NodeType.PARAGRAPH](../../nodetype/#PARAGRAPH)."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words/paragraph/node_type/
 ---
 

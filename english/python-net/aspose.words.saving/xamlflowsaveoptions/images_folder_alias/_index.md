@@ -5,7 +5,7 @@ articleTitle: images_folder_alias property
 second_title: Aspose.Words for Python
 description: "XamlFlowSaveOptions.images_folder_alias property. Specifies the name of the folder used to construct image URIs written into an XAML document"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/xamlflowsaveoptions/images_folder_alias/
 ---
 

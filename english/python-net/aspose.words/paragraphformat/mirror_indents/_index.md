@@ -5,7 +5,7 @@ articleTitle: mirror_indents property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.mirror_indents property. Gets or sets a flag indicating whether the left and right indents are of the same width."
 type: docs
-weight: 240
+weight: 7200
 url: /python-net/aspose.words/paragraphformat/mirror_indents/
 ---
 

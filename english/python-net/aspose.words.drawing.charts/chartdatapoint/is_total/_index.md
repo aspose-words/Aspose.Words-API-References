@@ -5,7 +5,7 @@ articleTitle: is_total property
 second_title: Aspose.Words for Python
 description: "ChartDataPoint.is_total property. Gets a flag indicating whether the data point is a total"
 type: docs
-weight: 60
+weight: 1501
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/is_total/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: use_saka_era_calendar property
 second_title: Aspose.Words for Python
 description: "FieldDate.use_saka_era_calendar property. Gets or sets whether to use the Saka Era calendar."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fielddate/use_saka_era_calendar/
 ---
 

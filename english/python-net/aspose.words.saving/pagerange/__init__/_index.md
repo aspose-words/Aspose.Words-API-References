@@ -5,7 +5,7 @@ articleTitle: PageRange constructor
 second_title: Aspose.Words for Python
 description: "PageRange constructor. Creates a new page range object."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/pagerange/__init__/
 ---
 

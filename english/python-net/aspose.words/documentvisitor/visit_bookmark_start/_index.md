@@ -5,7 +5,7 @@ articleTitle: visit_bookmark_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_bookmark_start method. Called when a start of a bookmark is encountered in the document."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/documentvisitor/visit_bookmark_start/
 ---
 

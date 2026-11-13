@@ -5,7 +5,7 @@ articleTitle: clear_formatting method
 second_title: Aspose.Words for Python
 description: "Border.clear_formatting method. Resets border properties to default values."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/border/clear_formatting/
 ---
 

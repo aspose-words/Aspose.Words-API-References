@@ -5,7 +5,7 @@ articleTitle: signer_title property
 second_title: Aspose.Words for Python
 description: "SignatureLine.signer_title property. Gets or sets suggested signer's title (for example, Manager)"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.drawing/signatureline/signer_title/
 ---
 

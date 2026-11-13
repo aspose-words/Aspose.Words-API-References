@@ -5,7 +5,7 @@ articleTitle: ascender_offset property
 second_title: Aspose.Words for Python
 description: "Glyph.ascender_offset property. Vertical (y) offset relative to glyph position"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.shaping/glyph/ascender_offset/
 ---
 

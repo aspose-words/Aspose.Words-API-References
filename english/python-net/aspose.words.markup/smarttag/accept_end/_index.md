@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "SmartTag.accept_end method. Accepts a visitor for visiting the end of the SmartTag."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.markup/smarttag/accept_end/
 ---
 

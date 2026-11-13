@@ -5,7 +5,7 @@ articleTitle: FontFeature enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.FontFeature enumeration. Features provide information about how glyphs are used in a font to render a script"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.shaping/fontfeature/
 ---
 

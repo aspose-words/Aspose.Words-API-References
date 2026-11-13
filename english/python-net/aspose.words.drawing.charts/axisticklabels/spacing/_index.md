@@ -5,7 +5,7 @@ articleTitle: spacing property
 second_title: Aspose.Words for Python
 description: "AxisTickLabels.spacing property. Gets or sets the interval at which the tick labels are drawn."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.drawing.charts/axisticklabels/spacing/
 ---
 

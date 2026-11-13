@@ -5,7 +5,7 @@ articleTitle: data_type property
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.data_type property. Specifies the type of the mail-merge data source and the method of data access"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.settings/mailmergesettings/data_type/
 ---
 

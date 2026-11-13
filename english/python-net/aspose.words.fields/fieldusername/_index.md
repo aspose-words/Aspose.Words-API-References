@@ -5,7 +5,7 @@ articleTitle: FieldUserName class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldUserName class. Implements the USERNAME field"
 type: docs
-weight: 1140
+weight: 22800
 url: /python-net/aspose.words.fields/fieldusername/
 ---
 

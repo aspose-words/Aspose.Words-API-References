@@ -5,7 +5,7 @@ articleTitle: x_scale property
 second_title: Aspose.Words for Python
 description: "TextPath.x_scale property. Determines whether a straight textpath will be used instead of the shape path."
 type: docs
-weight: 200
+weight: 6000
 url: /python-net/aspose.words.drawing/textpath/x_scale/
 ---
 

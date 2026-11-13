@@ -5,7 +5,7 @@ articleTitle: max_length property
 second_title: Aspose.Words for Python
 description: "FormField.max_length property. Maximum length for the text field"
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.fields/formfield/max_length/
 ---
 

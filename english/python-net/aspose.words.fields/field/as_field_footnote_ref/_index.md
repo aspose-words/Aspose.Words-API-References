@@ -5,7 +5,7 @@ articleTitle: as_field_footnote_ref method
 second_title: Aspose.Words for Python
 description: "Field.as_field_footnote_ref method. Cast Field to [FieldFootnoteRef](../../fieldfootnoteref/)."
 type: docs
-weight: 430
+weight: 12900
 url: /python-net/aspose.words.fields/field/as_field_footnote_ref/
 ---
 

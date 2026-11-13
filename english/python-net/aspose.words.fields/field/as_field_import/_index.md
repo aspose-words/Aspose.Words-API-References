@@ -5,7 +5,7 @@ articleTitle: as_field_import method
 second_title: Aspose.Words for Python
 description: "Field.as_field_import method. Cast Field to [FieldImport](../../fieldimport/)."
 type: docs
-weight: 530
+weight: 15900
 url: /python-net/aspose.words.fields/field/as_field_import/
 ---
 

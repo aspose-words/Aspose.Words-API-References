@@ -5,7 +5,7 @@ articleTitle: show property
 second_title: Aspose.Words for Python
 description: "ChartDataTable.show property. Gets or sets a flag indicating whether the data table will be shown for the chart"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing.charts/chartdatatable/show/
 ---
 

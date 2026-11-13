@@ -5,7 +5,7 @@ articleTitle: AdvancedCompareOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.comparing.AdvancedCompareOptions class. Allows to set advanced compare options."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.comparing/advancedcompareoptions/
 ---
 

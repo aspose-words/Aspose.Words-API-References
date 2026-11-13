@@ -5,7 +5,7 @@ articleTitle: CommentRangeEnd constructor
 second_title: Aspose.Words for Python
 description: "CommentRangeEnd constructor. Initializes a new instance of this class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/commentrangeend/__init__/
 ---
 

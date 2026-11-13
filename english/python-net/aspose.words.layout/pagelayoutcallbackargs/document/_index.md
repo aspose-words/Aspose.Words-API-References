@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "PageLayoutCallbackArgs.document property. Gets document."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.layout/pagelayoutcallbackargs/document/
 ---
 

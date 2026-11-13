@@ -5,7 +5,7 @@ articleTitle: ShapeTextOrientation enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ShapeTextOrientation enumeration. Specifies orientation of text in shapes."
 type: docs
-weight: 400
+weight: 8000
 url: /python-net/aspose.words.drawing/shapetextorientation/
 ---
 

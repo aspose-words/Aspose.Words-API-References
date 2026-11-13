@@ -5,7 +5,7 @@ articleTitle: margins property
 second_title: Aspose.Words for Python
 description: "PageSetup.margins property. Returns or sets preset [Margins](../../margins/) of the page."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words/pagesetup/margins/
 ---
 

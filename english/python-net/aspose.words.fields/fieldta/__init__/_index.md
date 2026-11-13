@@ -5,7 +5,7 @@ articleTitle: FieldTA constructor
 second_title: Aspose.Words for Python
 description: "FieldTA constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldta/__init__/
 ---
 

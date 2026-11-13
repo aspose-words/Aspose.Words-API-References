@@ -5,7 +5,7 @@ articleTitle: ancestor property
 second_title: Aspose.Words for Python
 description: "Comment.ancestor property. Returns the parent [Comment](../) object"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/comment/ancestor/
 ---
 

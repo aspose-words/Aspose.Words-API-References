@@ -5,7 +5,7 @@ articleTitle: CR property
 second_title: Aspose.Words for Python
 description: "ControlChar.CR property. Carriage return character: \\x000d or \\r"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/controlchar/CR/
 ---
 

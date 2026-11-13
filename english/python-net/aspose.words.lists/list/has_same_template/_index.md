@@ -5,7 +5,7 @@ articleTitle: has_same_template method
 second_title: Aspose.Words for Python
 description: "List.has_same_template method. Returns true if the current list and the given list are created from the same template."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.lists/list/has_same_template/
 ---
 

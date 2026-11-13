@@ -5,7 +5,7 @@ articleTitle: source_full_name property
 second_title: Aspose.Words for Python
 description: "FieldDde.source_full_name property. Gets or sets the name and location of the source file."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.fields/fielddde/source_full_name/
 ---
 

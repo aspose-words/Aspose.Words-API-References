@@ -5,7 +5,7 @@ articleTitle: index_of_key method
 second_title: Aspose.Words for Python
 description: "BookmarksOutlineLevelCollection.index_of_key method. Returns the zero-based index of the specified bookmark in the collection."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/index_of_key/
 ---
 

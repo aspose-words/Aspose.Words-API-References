@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "GeneralFormatCollection.count property. Gets the total number of the items in the collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/generalformatcollection/count/
 ---
 

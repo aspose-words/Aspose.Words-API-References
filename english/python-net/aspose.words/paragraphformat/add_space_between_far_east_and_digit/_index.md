@@ -5,7 +5,7 @@ articleTitle: add_space_between_far_east_and_digit property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.add_space_between_far_east_and_digit property. Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/paragraphformat/add_space_between_far_east_and_digit/
 ---
 

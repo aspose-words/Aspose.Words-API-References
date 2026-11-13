@@ -5,7 +5,7 @@ articleTitle: FieldCreateDate class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldCreateDate class. Implements the CREATEDATE field"
 type: docs
-weight: 260
+weight: 5200
 url: /python-net/aspose.words.fields/fieldcreatedate/
 ---
 

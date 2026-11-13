@@ -5,7 +5,7 @@ articleTitle: Person constructor
 second_title: Aspose.Words for Python
 description: "Person constructor. Initialize a new instance of the [Person](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.bibliography/person/__init__/
 ---
 

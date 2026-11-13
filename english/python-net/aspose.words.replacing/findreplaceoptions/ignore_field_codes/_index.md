@@ -5,7 +5,7 @@ articleTitle: ignore_field_codes property
 second_title: Aspose.Words for Python
 description: "FindReplaceOptions.ignore_field_codes property. Gets or sets a boolean value indicating either to ignore text inside field codes"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_field_codes/
 ---
 

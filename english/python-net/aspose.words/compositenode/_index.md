@@ -5,7 +5,7 @@ articleTitle: CompositeNode class
 second_title: Aspose.Words for Python
 description: "aspose.words.CompositeNode class. Base class for nodes that can contain other nodes"
 type: docs
-weight: 220
+weight: 4400
 url: /python-net/aspose.words/compositenode/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: set_default_fill method
 second_title: Aspose.Words for Python
 description: "ChartFormat.set_default_fill method. Resets the fill of the chart element to have the default value."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.charts/chartformat/set_default_fill/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_field_rd method
 second_title: Aspose.Words for Python
 description: "Field.as_field_rd method. Cast Field to [FieldRD](../../fieldrd/)."
 type: docs
-weight: 810
+weight: 24300
 url: /python-net/aspose.words.fields/field/as_field_rd/
 ---
 

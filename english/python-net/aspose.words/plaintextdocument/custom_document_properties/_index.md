@@ -5,7 +5,7 @@ articleTitle: custom_document_properties property
 second_title: Aspose.Words for Python
 description: "PlainTextDocument.custom_document_properties property. Gets [PlainTextDocument.custom_document_properties](./) of the document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/plaintextdocument/custom_document_properties/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: start_mustache_tag property
 second_title: Aspose.Words for Python
 description: "MailMergeRegionInfo.start_mustache_tag property. Returns a start mustache tag for the region."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/start_mustache_tag/
 ---
 

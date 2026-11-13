@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "Watermark.remove method. Removes the watermark."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/watermark/remove/
 ---
 

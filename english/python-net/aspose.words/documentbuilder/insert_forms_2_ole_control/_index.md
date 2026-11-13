@@ -5,7 +5,7 @@ articleTitle: insert_forms_2_ole_control method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_forms_2_ole_control method. Inserts [Forms2OleControl](../../../aspose.words.drawing.ole/forms2olecontrol/) object into current position."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: DocumentSecurity enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.properties.DocumentSecurity enumeration. Used as a value for the [BuiltInDocumentProperties.security](../builtindocumentproperties/security/) property"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.properties/documentsecurity/
 ---
 

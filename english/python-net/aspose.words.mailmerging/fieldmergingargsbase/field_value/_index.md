@@ -5,7 +5,7 @@ articleTitle: field_value property
 second_title: Aspose.Words for Python
 description: "FieldMergingArgsBase.field_value property. Gets or sets the value of the field from the data source."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/field_value/
 ---
 

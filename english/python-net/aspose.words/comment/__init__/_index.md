@@ -5,7 +5,7 @@ articleTitle: Comment constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.Comment constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/comment/__init__/
 ---
 

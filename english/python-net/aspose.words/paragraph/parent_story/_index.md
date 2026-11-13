@@ -5,7 +5,7 @@ articleTitle: parent_story property
 second_title: Aspose.Words for Python
 description: "Paragraph.parent_story property. Retrieves the parent section-level story that can be [Body](../../body/) or [HeaderFooter](../../headerfooter/)."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words/paragraph/parent_story/
 ---
 

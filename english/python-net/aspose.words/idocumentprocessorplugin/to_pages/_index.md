@@ -5,7 +5,7 @@ articleTitle: to_pages method
 second_title: Aspose.Words for Python
 description: "IDocumentProcessorPlugin.to_pages method. Saves each page of the document loaded by [IDocumentProcessorPlugin.load()](../load/#bytesio_loadoptions) method using the specified fixed page save options."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/idocumentprocessorplugin/to_pages/
 ---
 

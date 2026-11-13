@@ -5,7 +5,7 @@ articleTitle: content_type_to_load_format method
 second_title: Aspose.Words for Python
 description: "FileFormatUtil.content_type_to_load_format method. Converts IANA content type into a load format enumerated value."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/fileformatutil/content_type_to_load_format/
 ---
 

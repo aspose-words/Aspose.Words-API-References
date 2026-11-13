@@ -5,7 +5,7 @@ articleTitle: add_substitutes method
 second_title: Aspose.Words for Python
 description: "TableSubstitutionRule.add_substitutes method. Adds substitute font names for given original font name."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/add_substitutes/
 ---
 

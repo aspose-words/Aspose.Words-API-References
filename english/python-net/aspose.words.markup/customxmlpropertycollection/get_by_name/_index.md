@@ -5,7 +5,7 @@ articleTitle: get_by_name method
 second_title: Aspose.Words for Python
 description: "CustomXmlPropertyCollection.get_by_name method. Gets a property with the specified name."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.markup/customxmlpropertycollection/get_by_name/
 ---
 

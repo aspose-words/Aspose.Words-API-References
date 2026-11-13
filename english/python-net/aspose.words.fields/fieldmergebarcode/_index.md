@@ -5,7 +5,7 @@ articleTitle: FieldMergeBarcode class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldMergeBarcode class. Implements the MERGEBARCODE field"
 type: docs
-weight: 680
+weight: 13600
 url: /python-net/aspose.words.fields/fieldmergebarcode/
 ---
 

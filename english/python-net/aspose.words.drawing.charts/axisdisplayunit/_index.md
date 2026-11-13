@@ -5,7 +5,7 @@ articleTitle: AxisDisplayUnit class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisDisplayUnit class. Provides access to the scaling options of the display units for the value axis"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 

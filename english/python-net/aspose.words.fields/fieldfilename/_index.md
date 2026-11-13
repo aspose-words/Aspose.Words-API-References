@@ -5,7 +5,7 @@ articleTitle: FieldFileName class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldFileName class. Implements the FILENAME field"
 type: docs
-weight: 410
+weight: 8200
 url: /python-net/aspose.words.fields/fieldfilename/
 ---
 

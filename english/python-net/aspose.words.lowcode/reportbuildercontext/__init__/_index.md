@@ -5,7 +5,7 @@ articleTitle: ReportBuilderContext constructor
 second_title: Aspose.Words for Python
 description: "ReportBuilderContext constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lowcode/reportbuildercontext/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: paragraph_format property
 second_title: Aspose.Words for Python
 description: "Style.paragraph_format property. Gets the paragraph formatting of the style."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/style/paragraph_format/
 ---
 

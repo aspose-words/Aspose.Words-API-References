@@ -5,7 +5,7 @@ articleTitle: prefix_mappings property
 second_title: Aspose.Words for Python
 description: "XmlMapping.prefix_mappings property. Returns XML namespace prefix mappings to evaluate the [XmlMapping.xpath](../xpath/)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.markup/xmlmapping/prefix_mappings/
 ---
 

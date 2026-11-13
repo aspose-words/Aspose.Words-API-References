@@ -5,7 +5,7 @@ articleTitle: as_field_next method
 second_title: Aspose.Words for Python
 description: "Field.as_field_next method. Cast Field to [FieldNext](../../fieldnext/)."
 type: docs
-weight: 680
+weight: 20400
 url: /python-net/aspose.words.fields/field/as_field_next/
 ---
 

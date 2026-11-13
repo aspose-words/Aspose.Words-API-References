@@ -5,7 +5,7 @@ articleTitle: extract_pages method
 second_title: Aspose.Words for Python
 description: "aspose.words.Document.extract_pages method"
 type: docs
-weight: 650
+weight: 19500
 url: /python-net/aspose.words/document/extract_pages/
 ---
 

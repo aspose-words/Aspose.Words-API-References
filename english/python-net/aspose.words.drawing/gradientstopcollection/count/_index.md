@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "GradientStopCollection.count property. Gets an integer value indicating the number of items in the collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/gradientstopcollection/count/
 ---
 

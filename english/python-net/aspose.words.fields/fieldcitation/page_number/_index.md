@@ -5,7 +5,7 @@ articleTitle: page_number property
 second_title: Aspose.Words for Python
 description: "FieldCitation.page_number property. Gets or sets a page number associated with the citation."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldcitation/page_number/
 ---
 

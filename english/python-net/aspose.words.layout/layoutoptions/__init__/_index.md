@@ -5,7 +5,7 @@ articleTitle: LayoutOptions constructor
 second_title: Aspose.Words for Python
 description: "LayoutOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.layout/layoutoptions/__init__/
 ---
 

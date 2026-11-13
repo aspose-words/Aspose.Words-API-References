@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroupCollection.add method. Adds a new series group of the specified series type to this collection."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartseriesgroupcollection/add/
 ---
 

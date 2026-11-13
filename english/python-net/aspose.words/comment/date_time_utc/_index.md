@@ -5,7 +5,7 @@ articleTitle: date_time_utc property
 second_title: Aspose.Words for Python
 description: "Comment.date_time_utc property. Gets the UTC date and time that the comment was made."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/comment/date_time_utc/
 ---
 

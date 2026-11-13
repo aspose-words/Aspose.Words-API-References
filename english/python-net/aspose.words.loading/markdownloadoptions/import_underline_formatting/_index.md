@@ -5,7 +5,7 @@ articleTitle: import_underline_formatting property
 second_title: Aspose.Words for Python
 description: "MarkdownLoadOptions.import_underline_formatting property. Gets or sets a boolean value indicating either to recognize a sequence of two plus characters ++ as underline text formatting"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/
 ---
 

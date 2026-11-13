@@ -5,7 +5,7 @@ articleTitle: crop_right property
 second_title: Aspose.Words for Python
 description: "ImageData.crop_right property. Defines the fraction of picture removal from the right side."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.drawing/imagedata/crop_right/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: granularity property
 second_title: Aspose.Words for Python
 description: "CompareOptions.granularity property. Specifies whether changes are tracked by character or by word."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.comparing/compareoptions/granularity/
 ---
 

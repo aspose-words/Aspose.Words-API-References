@@ -5,7 +5,7 @@ articleTitle: reset_cache method
 second_title: Aspose.Words for Python
 description: "FontConfigSubstitutionRule.reset_cache method. Resets the cache of fontconfig calling results."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/fontconfigsubstitutionrule/reset_cache/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: clear_borders method
 second_title: Aspose.Words for Python
 description: "Table.clear_borders method. Removes all table and cell borders on this table."
 type: docs
-weight: 390
+weight: 11700
 url: /python-net/aspose.words.tables/table/clear_borders/
 ---
 

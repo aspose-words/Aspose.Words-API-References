@@ -5,7 +5,7 @@ articleTitle: source_item property
 second_title: Aspose.Words for Python
 description: "FieldLink.source_item property. Gets or sets the portion of the source file that's being linked."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.fields/fieldlink/source_item/
 ---
 

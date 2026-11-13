@@ -5,7 +5,7 @@ articleTitle: caption property
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.caption property. Gets or sets a Caption property of the control"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/caption/
 ---
 

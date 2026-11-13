@@ -5,7 +5,7 @@ articleTitle: visit_paragraph_end method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_paragraph_end method. Called when enumeration of a paragraph has ended."
 type: docs
-weight: 320
+weight: 9600
 url: /python-net/aspose.words/documentvisitor/visit_paragraph_end/
 ---
 

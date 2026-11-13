@@ -5,7 +5,7 @@ articleTitle: revision_type property
 second_title: Aspose.Words for Python
 description: "Revision.revision_type property. Gets the type of this revision."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/revision/revision_type/
 ---
 

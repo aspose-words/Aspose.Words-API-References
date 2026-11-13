@@ -5,7 +5,7 @@ articleTitle: Cluster constructor
 second_title: Aspose.Words for Python
 description: "Cluster constructor. Initializes new instance of this class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.shaping/cluster/__init__/
 ---
 

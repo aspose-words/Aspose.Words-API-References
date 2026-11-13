@@ -5,7 +5,7 @@ articleTitle: include_full_path property
 second_title: Aspose.Words for Python
 description: "FieldFileName.include_full_path property. Gets or sets whether to include the full file path name."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldfilename/include_full_path/
 ---
 

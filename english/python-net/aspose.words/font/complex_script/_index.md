@@ -5,7 +5,7 @@ articleTitle: complex_script property
 second_title: Aspose.Words for Python
 description: "Font.complex_script property. Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/font/complex_script/
 ---
 

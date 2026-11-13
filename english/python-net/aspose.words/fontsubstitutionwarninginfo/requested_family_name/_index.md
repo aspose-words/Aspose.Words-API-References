@@ -5,7 +5,7 @@ articleTitle: requested_family_name property
 second_title: Aspose.Words for Python
 description: "FontSubstitutionWarningInfo.requested_family_name property. Requested font family name."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/fontsubstitutionwarninginfo/requested_family_name/
 ---
 

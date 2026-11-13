@@ -5,7 +5,7 @@ articleTitle: last_section property
 second_title: Aspose.Words for Python
 description: "Document.last_section property. Gets the last section in the document."
 type: docs
-weight: 250
+weight: 7500
 url: /python-net/aspose.words/document/last_section/
 ---
 

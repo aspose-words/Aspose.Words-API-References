@@ -5,7 +5,7 @@ articleTitle: check_grammar method
 second_title: Aspose.Words for Python
 description: "AiModel.check_grammar method. Checks grammar of the provided document"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.ai/aimodel/check_grammar/
 ---
 

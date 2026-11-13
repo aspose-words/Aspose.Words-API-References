@@ -5,7 +5,7 @@ articleTitle: bi_level property
 second_title: Aspose.Words for Python
 description: "ImageData.bi_level property. Determines whether an image will be displayed in black and white."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/imagedata/bi_level/
 ---
 

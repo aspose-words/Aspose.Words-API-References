@@ -5,7 +5,7 @@ articleTitle: Source class
 second_title: Aspose.Words for Python
 description: "aspose.words.bibliography.Source class. Represents an individual source, such as a book, journal article, or interview."
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.bibliography/source/
 ---
 

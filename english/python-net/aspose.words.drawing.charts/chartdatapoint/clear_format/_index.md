@@ -5,7 +5,7 @@ articleTitle: clear_format method
 second_title: Aspose.Words for Python
 description: "ChartDataPoint.clear_format method. Clears format of this data point"
 type: docs
-weight: 80
+weight: 2100
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/clear_format/
 ---
 

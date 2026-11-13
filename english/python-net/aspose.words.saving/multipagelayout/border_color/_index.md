@@ -5,7 +5,7 @@ articleTitle: border_color property
 second_title: Aspose.Words for Python
 description: "MultiPageLayout.border_color property. Gets or sets the color of the pages border"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/multipagelayout/border_color/
 ---
 

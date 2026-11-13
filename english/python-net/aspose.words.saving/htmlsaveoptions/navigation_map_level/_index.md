@@ -5,7 +5,7 @@ articleTitle: navigation_map_level property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.navigation_map_level property. Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats"
 type: docs
-weight: 390
+weight: 11700
 url: /python-net/aspose.words.saving/htmlsaveoptions/navigation_map_level/
 ---
 

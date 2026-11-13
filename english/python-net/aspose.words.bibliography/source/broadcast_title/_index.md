@@ -5,7 +5,7 @@ articleTitle: broadcast_title property
 second_title: Aspose.Words for Python
 description: "Source.broadcast_title property. Gets or sets the broadcast title of a source."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.bibliography/source/broadcast_title/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: resolve_theme_colors property
 second_title: Aspose.Words for Python
 description: "ImportFormatOptions.resolve_theme_colors property. Gets or sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly"
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/importformatoptions/resolve_theme_colors/
 ---
 

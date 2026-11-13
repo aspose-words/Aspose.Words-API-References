@@ -5,7 +5,7 @@ articleTitle: load method
 second_title: Aspose.Words for Python
 description: "IDocumentProcessorPlugin.load method. Load the document using the specified load options."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/idocumentprocessorplugin/load/
 ---
 

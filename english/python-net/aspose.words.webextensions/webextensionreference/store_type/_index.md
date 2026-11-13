@@ -5,7 +5,7 @@ articleTitle: store_type property
 second_title: Aspose.Words for Python
 description: "WebExtensionReference.store_type property. Specifies the type of marketplace."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.webextensions/webextensionreference/store_type/
 ---
 

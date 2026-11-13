@@ -5,7 +5,7 @@ articleTitle: east_asian property
 second_title: Aspose.Words for Python
 description: "ThemeFonts.east_asian property. Specifies font name for EastAsian characters."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.themes/themefonts/east_asian/
 ---
 

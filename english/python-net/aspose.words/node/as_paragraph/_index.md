@@ -5,7 +5,7 @@ articleTitle: as_paragraph method
 second_title: Aspose.Words for Python
 description: "Node.as_paragraph method. Cast Node to [Paragraph](../../paragraph/)."
 type: docs
-weight: 310
+weight: 9300
 url: /python-net/aspose.words/node/as_paragraph/
 ---
 

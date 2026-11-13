@@ -5,7 +5,7 @@ articleTitle: title property
 second_title: Aspose.Words for Python
 description: "Table.title property. Gets or sets title of this table"
 type: docs
-weight: 320
+weight: 9600
 url: /python-net/aspose.words.tables/table/title/
 ---
 

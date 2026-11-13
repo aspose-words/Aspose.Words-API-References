@@ -5,7 +5,7 @@ articleTitle: content_type property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.content_type property. Gets or sets the content type of the document."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.properties/builtindocumentproperties/content_type/
 ---
 

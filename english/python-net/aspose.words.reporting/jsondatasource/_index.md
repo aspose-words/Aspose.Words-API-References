@@ -5,7 +5,7 @@ articleTitle: JsonDataSource class
 second_title: Aspose.Words for Python
 description: "aspose.words.reporting.JsonDataSource class. Provides access to data of a JSON file or stream to be used within a report"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.reporting/jsondatasource/
 ---
 

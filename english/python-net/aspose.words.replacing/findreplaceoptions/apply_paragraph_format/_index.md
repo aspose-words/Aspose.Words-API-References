@@ -5,7 +5,7 @@ articleTitle: apply_paragraph_format property
 second_title: Aspose.Words for Python
 description: "FindReplaceOptions.apply_paragraph_format property. Paragraph formatting applied to new content."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.replacing/findreplaceoptions/apply_paragraph_format/
 ---
 

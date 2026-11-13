@@ -5,7 +5,7 @@ articleTitle: auto_update property
 second_title: Aspose.Words for Python
 description: "FieldLink.auto_update property. Gets or sets whether to update this field automatically."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldlink/auto_update/
 ---
 

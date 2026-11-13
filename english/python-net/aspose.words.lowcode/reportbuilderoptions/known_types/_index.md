@@ -5,7 +5,7 @@ articleTitle: known_types property
 second_title: Aspose.Words for Python
 description: "ReportBuilderOptions.known_types property. Gets an unordered set (i.e"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/reportbuilderoptions/known_types/
 ---
 

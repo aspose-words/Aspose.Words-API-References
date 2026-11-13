@@ -5,7 +5,7 @@ articleTitle: as_field_start method
 second_title: Aspose.Words for Python
 description: "Node.as_field_start method. Cast Node to [FieldStart](../../../aspose.words.fields/fieldstart/)."
 type: docs
-weight: 240
+weight: 7200
 url: /python-net/aspose.words/node/as_field_start/
 ---
 

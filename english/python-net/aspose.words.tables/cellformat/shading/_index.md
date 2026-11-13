@@ -5,7 +5,7 @@ articleTitle: shading property
 second_title: Aspose.Words for Python
 description: "CellFormat.shading property. Returns a [Shading](../../../aspose.words/shading/) object that refers to the shading formatting for the cell."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.tables/cellformat/shading/
 ---
 

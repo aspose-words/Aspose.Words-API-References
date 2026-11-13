@@ -5,7 +5,7 @@ articleTitle: to_streams method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Processor.to_streams method"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.lowcode/processor/to_streams/
 ---
 

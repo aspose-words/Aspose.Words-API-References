@@ -5,7 +5,7 @@ articleTitle: insert method
 second_title: Aspose.Words for Python
 description: "NodeCollection.insert method. Inserts a node into the collection at the specified index."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/nodecollection/insert/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: has_page_number_separator property
 second_title: Aspose.Words for Python
 description: "FieldIndex.has_page_number_separator property. Gets a value indicating whether a page number separator is overridden through the field's code."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldindex/has_page_number_separator/
 ---
 

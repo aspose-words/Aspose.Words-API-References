@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "CompositeNode.accept_start method. When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/compositenode/accept_start/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: MailMergeCleanupOptions enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.MailMergeCleanupOptions enumeration. Specifies options that determine what items are removed during mail merge."
 type: docs
-weight: 90
+weight: 1800
 url: /python-net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 

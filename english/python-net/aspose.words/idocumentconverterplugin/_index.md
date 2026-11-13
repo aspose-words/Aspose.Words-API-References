@@ -5,7 +5,7 @@ articleTitle: IDocumentConverterPlugin class
 second_title: Aspose.Words for Python
 description: "aspose.words.IDocumentConverterPlugin class. Defines an interface for external converter plugin."
 type: docs
-weight: 540
+weight: 10800
 url: /python-net/aspose.words/idocumentconverterplugin/
 ---
 

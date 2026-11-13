@@ -5,7 +5,7 @@ articleTitle: css_saving_callback property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.css_saving_callback property. Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/htmlsaveoptions/css_saving_callback/
 ---
 

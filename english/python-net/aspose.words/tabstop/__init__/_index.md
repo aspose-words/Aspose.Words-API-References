@@ -5,7 +5,7 @@ articleTitle: TabStop constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.TabStop constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/tabstop/__init__/
 ---
 

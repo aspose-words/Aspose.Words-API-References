@@ -5,7 +5,7 @@ articleTitle: additional_advance property
 second_title: Aspose.Words for Python
 description: "Glyph.additional_advance property. Additional advance width which may be used to adjust placement for the subsequent glyph."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.shaping/glyph/additional_advance/
 ---
 

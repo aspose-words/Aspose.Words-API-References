@@ -5,7 +5,7 @@ articleTitle: set_simple_data_source method
 second_title: Aspose.Words for Python
 description: "MailMergerContext.set_simple_data_source method. Sets data source used to execute simple mail merge."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/mailmergercontext/set_simple_data_source/
 ---
 

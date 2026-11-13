@@ -5,7 +5,7 @@ articleTitle: status_text property
 second_title: Aspose.Words for Python
 description: "FormField.status_text property. Returns or sets the text that's displayed in the status bar when a form field has the focus."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.fields/formfield/status_text/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: text_orientation property
 second_title: Aspose.Words for Python
 description: "PageSetup.text_orientation property. Allows to specify [PageSetup.text_orientation](./) for the whole page"
 type: docs
-weight: 430
+weight: 12900
 url: /python-net/aspose.words/pagesetup/text_orientation/
 ---
 

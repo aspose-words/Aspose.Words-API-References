@@ -5,7 +5,7 @@ articleTitle: PersonCollection indexer
 second_title: Aspose.Words for Python
 description: "PersonCollection indexer. Gets or sets a person at the specified index."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.bibliography/personcollection/__getitem__/
 ---
 

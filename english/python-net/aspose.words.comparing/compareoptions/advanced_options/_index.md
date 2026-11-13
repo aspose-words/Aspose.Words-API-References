@@ -5,7 +5,7 @@ articleTitle: advanced_options property
 second_title: Aspose.Words for Python
 description: "CompareOptions.advanced_options property. Specifies advanced compare options that might help to produce more precise comparison output."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.comparing/compareoptions/advanced_options/
 ---
 

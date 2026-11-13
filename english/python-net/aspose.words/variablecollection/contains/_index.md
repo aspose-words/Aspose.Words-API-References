@@ -5,7 +5,7 @@ articleTitle: contains method
 second_title: Aspose.Words for Python
 description: "VariableCollection.contains method. Determines whether the collection contains a document variable with the given name."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/variablecollection/contains/
 ---
 

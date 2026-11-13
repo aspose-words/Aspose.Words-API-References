@@ -5,7 +5,7 @@ articleTitle: load_format_to_save_format method
 second_title: Aspose.Words for Python
 description: "FileFormatUtil.load_format_to_save_format method. Converts a [LoadFormat](../../loadformat/) value to a [SaveFormat](../../saveformat/) value if possible."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/fileformatutil/load_format_to_save_format/
 ---
 

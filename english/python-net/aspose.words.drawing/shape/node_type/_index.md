@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "Shape.node_type property. Returns [NodeType.SHAPE](../../../aspose.words/nodetype/#SHAPE)."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.drawing/shape/node_type/
 ---
 

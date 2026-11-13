@@ -5,7 +5,7 @@ articleTitle: compression_level property
 second_title: Aspose.Words for Python
 description: "OoxmlSaveOptions.compression_level property. Specifies the compression level used to save document"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/compression_level/
 ---
 

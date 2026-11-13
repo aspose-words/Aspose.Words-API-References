@@ -5,7 +5,7 @@ articleTitle: PropertyType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.properties.PropertyType enumeration. Specifies data type of a document property."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.properties/propertytype/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: symbol_height property
 second_title: Aspose.Words for Python
 description: "FieldDisplayBarcode.symbol_height property. Gets or sets the height of the symbol"
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.fields/fielddisplaybarcode/symbol_height/
 ---
 

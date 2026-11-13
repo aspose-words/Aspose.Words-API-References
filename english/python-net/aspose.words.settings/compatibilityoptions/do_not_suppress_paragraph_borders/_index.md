@@ -5,7 +5,7 @@ articleTitle: do_not_suppress_paragraph_borders property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.do_not_suppress_paragraph_borders property. Do Not Suppress Paragraph Borders Next To Frames."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words.settings/compatibilityoptions/do_not_suppress_paragraph_borders/
 ---
 

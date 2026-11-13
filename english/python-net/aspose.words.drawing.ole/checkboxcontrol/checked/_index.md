@@ -5,7 +5,7 @@ articleTitle: checked property
 second_title: Aspose.Words for Python
 description: "CheckBoxControl.checked property. Gets or sets a boolean value indicating either this [CheckBoxControl](../) is checked or not"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.ole/checkboxcontrol/checked/
 ---
 

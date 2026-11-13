@@ -5,7 +5,7 @@ articleTitle: row_format property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.row_format property. Returns an object that represents current table row formatting properties."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words/documentbuilder/row_format/
 ---
 

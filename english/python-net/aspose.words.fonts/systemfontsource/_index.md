@@ -5,7 +5,7 @@ articleTitle: SystemFontSource class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.SystemFontSource class. Represents all TrueType fonts installed to the system"
 type: docs
-weight: 240
+weight: 4800
 url: /python-net/aspose.words.fonts/systemfontsource/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: is_forms2_ole_control property
 second_title: Aspose.Words for Python
 description: "OleControl.is_forms2_ole_control property. Returns ``True`` if the control is a [Forms2OleControl](../../forms2olecontrol/)."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.ole/olecontrol/is_forms2_ole_control/
 ---
 

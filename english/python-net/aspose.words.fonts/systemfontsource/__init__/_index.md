@@ -5,7 +5,7 @@ articleTitle: SystemFontSource constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.SystemFontSource constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/systemfontsource/__init__/
 ---
 

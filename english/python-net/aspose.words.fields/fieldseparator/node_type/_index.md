@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "FieldSeparator.node_type property. Returns [NodeType.FIELD_SEPARATOR](../../../aspose.words/nodetype/#FIELD_SEPARATOR)."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldseparator/node_type/
 ---
 

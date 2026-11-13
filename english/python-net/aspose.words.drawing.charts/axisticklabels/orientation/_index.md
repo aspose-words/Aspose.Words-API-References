@@ -5,7 +5,7 @@ articleTitle: orientation property
 second_title: Aspose.Words for Python
 description: "AxisTickLabels.orientation property. Gets or sets the orientation of the tick label text."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.charts/axisticklabels/orientation/
 ---
 

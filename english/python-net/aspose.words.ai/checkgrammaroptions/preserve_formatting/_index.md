@@ -5,7 +5,7 @@ articleTitle: preserve_formatting property
 second_title: Aspose.Words for Python
 description: "CheckGrammarOptions.preserve_formatting property. Allows to specify either [AiModel.check_grammar()](../../aimodel/check_grammar/#document_checkgrammaroptions) will try to preserve layout and formatting of the original document, or not"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.ai/checkgrammaroptions/preserve_formatting/
 ---
 

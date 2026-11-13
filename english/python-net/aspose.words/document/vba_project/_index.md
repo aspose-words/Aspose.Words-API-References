@@ -5,7 +5,7 @@ articleTitle: vba_project property
 second_title: Aspose.Words for Python
 description: "Document.vba_project property. Gets or sets a [Document.vba_project](./)."
 type: docs
-weight: 480
+weight: 14400
 url: /python-net/aspose.words/document/vba_project/
 ---
 

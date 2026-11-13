@@ -5,7 +5,7 @@ articleTitle: query property
 second_title: Aspose.Words for Python
 description: "FieldDatabase.query property. Gets or sets a set of SQL instructions that query the database."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/fielddatabase/query/
 ---
 

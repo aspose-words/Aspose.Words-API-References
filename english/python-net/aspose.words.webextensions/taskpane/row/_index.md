@@ -5,7 +5,7 @@ articleTitle: row property
 second_title: Aspose.Words for Python
 description: "TaskPane.row property. Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.webextensions/taskpane/row/
 ---
 

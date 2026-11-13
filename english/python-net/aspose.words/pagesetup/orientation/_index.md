@@ -5,7 +5,7 @@ articleTitle: orientation property
 second_title: Aspose.Words for Python
 description: "PageSetup.orientation property. Returns or sets the orientation of the page."
 type: docs
-weight: 290
+weight: 8700
 url: /python-net/aspose.words/pagesetup/orientation/
 ---
 

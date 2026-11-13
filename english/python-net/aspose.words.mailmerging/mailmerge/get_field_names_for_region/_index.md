@@ -5,7 +5,7 @@ articleTitle: get_field_names_for_region method
 second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.MailMerge.get_field_names_for_region method"
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/
 ---
 

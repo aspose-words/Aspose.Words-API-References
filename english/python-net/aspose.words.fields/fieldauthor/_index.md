@@ -5,7 +5,7 @@ articleTitle: FieldAuthor class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldAuthor class. Implements the AUTHOR field"
 type: docs
-weight: 110
+weight: 2200
 url: /python-net/aspose.words.fields/fieldauthor/
 ---
 

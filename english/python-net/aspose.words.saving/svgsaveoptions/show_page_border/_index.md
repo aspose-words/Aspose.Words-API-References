@@ -5,7 +5,7 @@ articleTitle: show_page_border property
 second_title: Aspose.Words for Python
 description: "SvgSaveOptions.show_page_border property. Controls whether a border is added to the outline of the page"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.saving/svgsaveoptions/show_page_border/
 ---
 

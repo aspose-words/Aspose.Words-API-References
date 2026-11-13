@@ -5,7 +5,7 @@ articleTitle: CommentCollection indexer
 second_title: Aspose.Words for Python
 description: "CommentCollection indexer. Retrieves a [Comment](../../comment/) at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/commentcollection/__getitem__/
 ---
 

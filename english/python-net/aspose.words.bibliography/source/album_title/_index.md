@@ -5,7 +5,7 @@ articleTitle: album_title property
 second_title: Aspose.Words for Python
 description: "Source.album_title property. Gets or sets the album title of a source."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.bibliography/source/album_title/
 ---
 

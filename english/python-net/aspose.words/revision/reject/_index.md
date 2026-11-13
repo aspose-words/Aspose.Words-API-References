@@ -5,7 +5,7 @@ articleTitle: reject method
 second_title: Aspose.Words for Python
 description: "Revision.reject method. Reject this revision."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/revision/reject/
 ---
 

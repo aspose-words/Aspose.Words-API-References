@@ -5,7 +5,7 @@ articleTitle: zoom_percent property
 second_title: Aspose.Words for Python
 description: "ViewOptions.zoom_percent property. Gets or sets the percentage at which you want to view your document."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.settings/viewoptions/zoom_percent/
 ---
 

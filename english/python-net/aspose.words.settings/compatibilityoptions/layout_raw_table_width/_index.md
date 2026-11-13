@@ -5,7 +5,7 @@ articleTitle: layout_raw_table_width property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.layout_raw_table_width property. Ignore Space Before Table When Deciding If Table Should Wrap Floating Object."
 type: docs
-weight: 290
+weight: 8700
 url: /python-net/aspose.words.settings/compatibilityoptions/layout_raw_table_width/
 ---
 

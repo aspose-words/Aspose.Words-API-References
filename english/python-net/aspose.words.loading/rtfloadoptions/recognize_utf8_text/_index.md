@@ -5,7 +5,7 @@ articleTitle: recognize_utf8_text property
 second_title: Aspose.Words for Python
 description: "RtfLoadOptions.recognize_utf8_text property. When set to ``True``,  will try to detect UTF8 characters,  they will be preserved during import."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.loading/rtfloadoptions/recognize_utf8_text/
 ---
 

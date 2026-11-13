@@ -5,7 +5,7 @@ articleTitle: symbol_rotation property
 second_title: Aspose.Words for Python
 description: "BarcodeParameters.symbol_rotation property. Rotation of the barcode symbol"
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.fields/barcodeparameters/symbol_rotation/
 ---
 

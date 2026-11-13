@@ -5,7 +5,7 @@ articleTitle: bindings property
 second_title: Aspose.Words for Python
 description: "WebExtension.bindings property. Specifies a list of web extension bindings."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.webextensions/webextension/bindings/
 ---
 

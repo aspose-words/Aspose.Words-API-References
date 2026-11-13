@@ -5,7 +5,7 @@ articleTitle: remove_at method
 second_title: Aspose.Words for Python
 description: "FieldCollection.remove_at method. Removes a field at the specified index from this collection and from the document."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldcollection/remove_at/
 ---
 

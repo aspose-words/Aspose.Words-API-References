@@ -5,7 +5,7 @@ articleTitle: disable_open_type_font_formatting_features property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.disable_open_type_font_formatting_features property. Specifies to disable OpenType font formatting features."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.settings/compatibilityoptions/disable_open_type_font_formatting_features/
 ---
 

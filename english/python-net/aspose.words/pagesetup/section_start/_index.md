@@ -5,7 +5,7 @@ articleTitle: section_start property
 second_title: Aspose.Words for Python
 description: "PageSetup.section_start property. Returns or sets the type of section break for the specified object."
 type: docs
-weight: 390
+weight: 11700
 url: /python-net/aspose.words/pagesetup/section_start/
 ---
 

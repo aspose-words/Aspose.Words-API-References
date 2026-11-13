@@ -5,7 +5,7 @@ articleTitle: aliases property
 second_title: Aspose.Words for Python
 description: "Style.aliases property. Gets all aliases of this style"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/style/aliases/
 ---
 

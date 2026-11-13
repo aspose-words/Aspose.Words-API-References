@@ -5,7 +5,7 @@ articleTitle: sequence_separator property
 second_title: Aspose.Words for Python
 description: "FieldToc.sequence_separator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.fields/fieldtoc/sequence_separator/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: insert_as_picture property
 second_title: Aspose.Words for Python
 description: "FieldDdeAuto.insert_as_picture property. Gets or sets whether to insert the linked object as a picture."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldddeauto/insert_as_picture/
 ---
 

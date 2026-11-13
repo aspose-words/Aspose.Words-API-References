@@ -5,7 +5,7 @@ articleTitle: FootnotePosition enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.notes.FootnotePosition enumeration. Defines the footnote position."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.notes/footnoteposition/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: alignment property
 second_title: Aspose.Words for Python
 description: "AxisTickLabels.alignment property. Gets or sets text alignment of the axis tick labels."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/axisticklabels/alignment/
 ---
 

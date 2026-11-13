@@ -5,7 +5,7 @@ articleTitle: end_column_bookmark method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.end_column_bookmark method. Marks the current position in the document as a column bookmark end"
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words/documentbuilder/end_column_bookmark/
 ---
 

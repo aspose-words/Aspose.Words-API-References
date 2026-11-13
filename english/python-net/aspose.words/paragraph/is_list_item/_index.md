@@ -5,7 +5,7 @@ articleTitle: is_list_item property
 second_title: Aspose.Words for Python
 description: "Paragraph.is_list_item property. True when the paragraph is an item in a bulleted or numbered list in original revision."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/paragraph/is_list_item/
 ---
 

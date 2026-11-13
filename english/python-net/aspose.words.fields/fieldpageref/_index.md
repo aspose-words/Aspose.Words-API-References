@@ -5,7 +5,7 @@ articleTitle: FieldPageRef class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldPageRef class. Implements the PAGEREF field"
 type: docs
-weight: 810
+weight: 16200
 url: /python-net/aspose.words.fields/fieldpageref/
 ---
 

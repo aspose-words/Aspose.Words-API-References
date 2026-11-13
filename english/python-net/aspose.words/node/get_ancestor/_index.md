@@ -5,7 +5,7 @@ articleTitle: get_ancestor method
 second_title: Aspose.Words for Python
 description: "aspose.words.Node.get_ancestor method"
 type: docs
-weight: 440
+weight: 13200
 url: /python-net/aspose.words/node/get_ancestor/
 ---
 

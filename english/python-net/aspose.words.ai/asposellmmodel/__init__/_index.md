@@ -5,7 +5,7 @@ articleTitle: AsposeLlmModel constructor
 second_title: Aspose.Words for Python
 description: "AsposeLlmModel constructor. Initializes a new instance of the [AsposeLlmModel](../) class for a specified Aspose.LLM preset."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.ai/asposellmmodel/__init__/
 ---
 

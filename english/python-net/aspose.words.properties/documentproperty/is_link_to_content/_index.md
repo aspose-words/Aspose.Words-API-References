@@ -5,7 +5,7 @@ articleTitle: is_link_to_content property
 second_title: Aspose.Words for Python
 description: "DocumentProperty.is_link_to_content property. Shows whether this property is linked to content or not."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.properties/documentproperty/is_link_to_content/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: value property
 second_title: Aspose.Words for Python
 description: "PreferredWidth.value property. Gets the preferred width value"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.tables/preferredwidth/value/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: is_check_box_exact_size property
 second_title: Aspose.Words for Python
 description: "FormField.is_check_box_exact_size property. Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.fields/formfield/is_check_box_exact_size/
 ---
 

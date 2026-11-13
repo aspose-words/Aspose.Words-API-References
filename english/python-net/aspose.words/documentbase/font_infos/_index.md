@@ -5,7 +5,7 @@ articleTitle: font_infos property
 second_title: Aspose.Words for Python
 description: "DocumentBase.font_infos property. Provides access to properties of fonts used in this document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/documentbase/font_infos/
 ---
 

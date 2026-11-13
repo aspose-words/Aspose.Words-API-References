@@ -5,7 +5,7 @@ articleTitle: FieldDdeAuto constructor
 second_title: Aspose.Words for Python
 description: "FieldDdeAuto constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldddeauto/__init__/
 ---
 

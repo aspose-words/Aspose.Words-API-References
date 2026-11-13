@@ -5,7 +5,7 @@ articleTitle: DoclingSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DoclingSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.DOCLING](../../aspose.words/saveformat/#DOCLING) format"
 type: docs
-weight: 110
+weight: 2200
 url: /python-net/aspose.words.saving/doclingsaveoptions/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: get_style method
 second_title: Aspose.Words for Python
 description: "IBibliographyStylesProvider.get_style method. Returns bibliography style."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/ibibliographystylesprovider/get_style/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: CompareOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.comparing.CompareOptions class. Allows to choose additional options for document comparison operation"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.comparing/compareoptions/
 ---
 

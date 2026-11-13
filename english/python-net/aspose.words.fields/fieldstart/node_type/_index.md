@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "FieldStart.node_type property. Returns [NodeType.FIELD_START](../../../aspose.words/nodetype/#FIELD_START)."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldstart/node_type/
 ---
 

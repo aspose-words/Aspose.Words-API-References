@@ -5,7 +5,7 @@ articleTitle: odd_row_banding property
 second_title: Aspose.Words for Python
 description: "ConditionalStyleCollection.odd_row_banding property. Gets the odd row banding style."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/conditionalstylecollection/odd_row_banding/
 ---
 

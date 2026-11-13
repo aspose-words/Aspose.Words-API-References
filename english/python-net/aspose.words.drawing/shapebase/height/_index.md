@@ -5,7 +5,7 @@ articleTitle: height property
 second_title: Aspose.Words for Python
 description: "ShapeBase.height property. Gets or sets the height of the containing block of the shape."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.drawing/shapebase/height/
 ---
 

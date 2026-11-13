@@ -5,7 +5,7 @@ articleTitle: udl_connect_string property
 second_title: Aspose.Words for Python
 description: "Odso.udl_connect_string property. Specifies the Universal Data Link (UDL) connection string used to connect to an external data source"
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.settings/odso/udl_connect_string/
 ---
 

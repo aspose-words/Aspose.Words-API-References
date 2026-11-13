@@ -5,7 +5,7 @@ articleTitle: symbol_rotation property
 second_title: Aspose.Words for Python
 description: "FieldDisplayBarcode.symbol_rotation property. Gets or sets the rotation of the barcode symbol"
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.fields/fielddisplaybarcode/symbol_rotation/
 ---
 

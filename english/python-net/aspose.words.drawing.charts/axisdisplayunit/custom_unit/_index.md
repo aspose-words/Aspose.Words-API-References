@@ -5,7 +5,7 @@ articleTitle: custom_unit property
 second_title: Aspose.Words for Python
 description: "AxisDisplayUnit.custom_unit property. Gets or sets a user-defined divisor to scale display units on the value axis."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/axisdisplayunit/custom_unit/
 ---
 

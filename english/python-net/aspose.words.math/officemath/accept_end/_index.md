@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "OfficeMath.accept_end method. Accepts a visitor for visiting the end of the office math."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.math/officemath/accept_end/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FontSubstitutionRule class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontSubstitutionRule class. This is an abstract base class for the font substitution rule"
 type: docs
-weight: 190
+weight: 3800
 url: /python-net/aspose.words.fonts/fontsubstitutionrule/
 ---
 

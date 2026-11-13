@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "FieldKeywords.text property. Gets or sets the text of the keywords."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldkeywords/text/
 ---
 

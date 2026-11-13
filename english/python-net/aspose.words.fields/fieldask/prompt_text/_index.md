@@ -5,7 +5,7 @@ articleTitle: prompt_text property
 second_title: Aspose.Words for Python
 description: "FieldAsk.prompt_text property. Gets or sets the prompt text (the title of the prompt window)."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldask/prompt_text/
 ---
 

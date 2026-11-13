@@ -5,7 +5,7 @@ articleTitle: minor_unit property
 second_title: Aspose.Words for Python
 description: "ChartAxis.minor_unit property. Returns or sets the distance between minor tick marks."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.drawing.charts/chartaxis/minor_unit/
 ---
 

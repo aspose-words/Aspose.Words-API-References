@@ -5,7 +5,7 @@ articleTitle: station property
 second_title: Aspose.Words for Python
 description: "Source.station property. Gets or sets the station of a source."
 type: docs
-weight: 440
+weight: 13200
 url: /python-net/aspose.words.bibliography/source/station/
 ---
 

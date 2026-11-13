@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureCollection indexer
 second_title: Aspose.Words for Python
 description: "DigitalSignatureCollection indexer. Gets a document signature at the specified index."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/__getitem__/
 ---
 

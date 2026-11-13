@@ -5,7 +5,7 @@ articleTitle: facing_identification_mark property
 second_title: Aspose.Words for Python
 description: "FieldBarcode.facing_identification_mark property. Gets or sets the type of a Facing Identification Mark (FIM) to insert."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldbarcode/facing_identification_mark/
 ---
 

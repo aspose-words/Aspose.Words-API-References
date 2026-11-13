@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "ChartLegend.font property. Provides access to the default font formatting of legend entries"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartlegend/font/
 ---
 

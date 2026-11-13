@@ -5,7 +5,7 @@ articleTitle: as_structured_document_tag method
 second_title: Aspose.Words for Python
 description: "Node.as_structured_document_tag method. Cast Node to [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)."
 type: docs
-weight: 380
+weight: 11400
 url: /python-net/aspose.words/node/as_structured_document_tag/
 ---
 

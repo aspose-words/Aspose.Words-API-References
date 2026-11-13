@@ -5,7 +5,7 @@ articleTitle: FieldFormText class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldFormText class. Implements the FORMTEXT field"
 type: docs
-weight: 470
+weight: 9400
 url: /python-net/aspose.words.fields/fieldformtext/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: export_embedded_images property
 second_title: Aspose.Words for Python
 description: "SvgSaveOptions.export_embedded_images property. Specifies whether images should be embedded into the SVG document as base64"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/svgsaveoptions/export_embedded_images/
 ---
 

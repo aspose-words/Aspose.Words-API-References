@@ -5,7 +5,7 @@ articleTitle: XmlDsigLevel enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.XmlDsigLevel enumeration. Specifies the level of a digital signature based on XML-DSig standard."
 type: docs
-weight: 80
+weight: 1400
 url: /python-net/aspose.words.digitalsignatures/xmldsiglevel/
 ---
 

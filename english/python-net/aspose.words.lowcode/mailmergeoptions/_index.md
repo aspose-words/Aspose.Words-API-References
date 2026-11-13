@@ -5,7 +5,7 @@ articleTitle: MailMergeOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.MailMergeOptions class. Represents options for the mail merge functionality."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.lowcode/mailmergeoptions/
 ---
 

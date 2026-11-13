@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "ChartSeries.name property. Gets or sets the name of the series, if name is not set explicitly it is generated using index"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.drawing.charts/chartseries/name/
 ---
 

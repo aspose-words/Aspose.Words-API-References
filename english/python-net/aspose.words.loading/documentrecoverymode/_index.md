@@ -5,7 +5,7 @@ articleTitle: DocumentRecoveryMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.DocumentRecoveryMode enumeration. Specifies the available recovery options when a document encounters errors during loading."
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.loading/documentrecoverymode/
 ---
 

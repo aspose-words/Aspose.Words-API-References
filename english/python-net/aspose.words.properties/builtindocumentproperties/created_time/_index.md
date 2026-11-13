@@ -5,7 +5,7 @@ articleTitle: created_time property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.created_time property. Gets or sets date of the document creation in UTC."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.properties/builtindocumentproperties/created_time/
 ---
 

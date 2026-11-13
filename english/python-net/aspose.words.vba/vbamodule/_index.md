@@ -5,7 +5,7 @@ articleTitle: VbaModule class
 second_title: Aspose.Words for Python
 description: "aspose.words.vba.VbaModule class. Provides access to VBA project module"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.vba/vbamodule/
 ---
 

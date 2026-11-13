@@ -5,7 +5,7 @@ articleTitle: resources_folder_alias property
 second_title: Aspose.Words for Python
 description: "XamlFixedSaveOptions.resources_folder_alias property. Specifies the name of the folder used to construct image URIs written into an fixed page Xaml document"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/xamlfixedsaveoptions/resources_folder_alias/
 ---
 

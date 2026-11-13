@@ -5,7 +5,7 @@ articleTitle: optimize_output property
 second_title: Aspose.Words for Python
 description: "FixedPageSaveOptions.optimize_output property. Flag indicates whether it is required to optimize output"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/
 ---
 

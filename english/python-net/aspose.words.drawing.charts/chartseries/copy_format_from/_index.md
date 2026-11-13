@@ -5,7 +5,7 @@ articleTitle: copy_format_from method
 second_title: Aspose.Words for Python
 description: "ChartSeries.copy_format_from method. Copies default data point format from the data point with the specified index."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words.drawing.charts/chartseries/copy_format_from/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: decryption_password property
 second_title: Aspose.Words for Python
 description: "SignOptions.decryption_password property. The password to decrypt source document"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.digitalsignatures/signoptions/decryption_password/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_office_math method
 second_title: Aspose.Words for Python
 description: "FieldEQ.as_office_math method. Returns Office Math object corresponded to the EQ field."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldeq/as_office_math/
 ---
 

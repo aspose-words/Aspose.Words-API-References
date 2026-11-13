@@ -5,7 +5,7 @@ articleTitle: url property
 second_title: Aspose.Words for Python
 description: "AsposeLlmModel.url property. Not used: [AsposeLlmModel](../) runs inference in-process against a local model, so there is no remote endpoint to address"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.ai/asposellmmodel/url/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: math_object_type property
 second_title: Aspose.Words for Python
 description: "OfficeMath.math_object_type property. Gets type [OfficeMath.math_object_type](./) of this Office Math object."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.math/officemath/math_object_type/
 ---
 

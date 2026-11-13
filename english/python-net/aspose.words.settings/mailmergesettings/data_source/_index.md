@@ -5,7 +5,7 @@ articleTitle: data_source property
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.data_source property. Specifies the path to the mail-merge data source"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.settings/mailmergesettings/data_source/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: equals method
 second_title: Aspose.Words for Python
 description: "TabStopCollection.equals method. Determines whether the specified [TabStopCollection](../) is equal in value to the current [TabStopCollection](../)."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/tabstopcollection/equals/
 ---
 

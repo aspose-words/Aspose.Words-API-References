@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagCollection.count property. Returns the number of structured document tags in the collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.markup/structureddocumenttagcollection/count/
 ---
 

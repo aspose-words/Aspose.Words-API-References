@@ -5,7 +5,7 @@ articleTitle: as_field_file_size method
 second_title: Aspose.Words for Python
 description: "Field.as_field_file_size method. Cast Field to [FieldFileSize](../../fieldfilesize/)."
 type: docs
-weight: 410
+weight: 12300
 url: /python-net/aspose.words.fields/field/as_field_file_size/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: has_image property
 second_title: Aspose.Words for Python
 description: "Shape.has_image property. Returns ``True`` if the shape has image bytes or links an image."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.drawing/shape/has_image/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: WatermarkerContext class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.WatermarkerContext class. Document watermarker context."
 type: docs
-weight: 250
+weight: 5000
 url: /python-net/aspose.words.lowcode/watermarkercontext/
 ---
 

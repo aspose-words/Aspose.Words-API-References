@@ -5,7 +5,7 @@ articleTitle: position property
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.position property. Gets or sets the position of the data label."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/position/
 ---
 

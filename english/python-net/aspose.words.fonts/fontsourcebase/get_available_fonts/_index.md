@@ -5,7 +5,7 @@ articleTitle: get_available_fonts method
 second_title: Aspose.Words for Python
 description: "FontSourceBase.get_available_fonts method. Returns list of fonts available via this source."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fonts/fontsourcebase/get_available_fonts/
 ---
 

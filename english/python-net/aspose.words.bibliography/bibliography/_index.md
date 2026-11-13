@@ -5,7 +5,7 @@ articleTitle: Bibliography class
 second_title: Aspose.Words for Python
 description: "aspose.words.bibliography.Bibliography class. Represents the list of bibliography sources available in the document."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.bibliography/bibliography/
 ---
 

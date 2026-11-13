@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "ChartXValueCollection.count property. Gets the number of items in this collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartxvaluecollection/count/
 ---
 

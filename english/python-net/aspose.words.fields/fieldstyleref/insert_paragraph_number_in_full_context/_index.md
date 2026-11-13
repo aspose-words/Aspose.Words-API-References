@@ -5,7 +5,7 @@ articleTitle: insert_paragraph_number_in_full_context property
 second_title: Aspose.Words for Python
 description: "FieldStyleRef.insert_paragraph_number_in_full_context property. Gets or sets whether to insert the paragraph number of the referenced paragraph in full context."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldstyleref/insert_paragraph_number_in_full_context/
 ---
 

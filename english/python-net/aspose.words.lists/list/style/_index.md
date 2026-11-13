@@ -5,7 +5,7 @@ articleTitle: style property
 second_title: Aspose.Words for Python
 description: "List.style property. Gets the list style that this list references or defines."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.lists/list/style/
 ---
 

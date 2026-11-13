@@ -5,7 +5,7 @@ articleTitle: Shape constructor
 second_title: Aspose.Words for Python
 description: "Shape constructor. Creates a new shape object."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/shape/__init__/
 ---
 

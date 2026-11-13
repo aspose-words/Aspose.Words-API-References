@@ -5,7 +5,7 @@ articleTitle: column property
 second_title: Aspose.Words for Python
 description: "OdsoRecipientData.column property. Specifies the column within the data source that contains unique data for the current record"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.settings/odsorecipientdata/column/
 ---
 

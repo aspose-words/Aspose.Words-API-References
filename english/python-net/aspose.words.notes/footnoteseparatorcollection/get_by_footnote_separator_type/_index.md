@@ -5,7 +5,7 @@ articleTitle: get_by_footnote_separator_type method
 second_title: Aspose.Words for Python
 description: "FootnoteSeparatorCollection.get_by_footnote_separator_type method. Retrieves a [FootnoteSeparator](../../footnoteseparator/) of the specified type."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.notes/footnoteseparatorcollection/get_by_footnote_separator_type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ImportFormatOptions constructor
 second_title: Aspose.Words for Python
 description: "ImportFormatOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/importformatoptions/__init__/
 ---
 

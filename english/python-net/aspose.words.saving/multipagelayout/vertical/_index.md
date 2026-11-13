@@ -5,7 +5,7 @@ articleTitle: vertical method
 second_title: Aspose.Words for Python
 description: "MultiPageLayout.vertical method. Creates a layout where all specified pages are rendered vertically one below the other in a single output."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.saving/multipagelayout/vertical/
 ---
 

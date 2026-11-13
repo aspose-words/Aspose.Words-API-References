@@ -5,7 +5,7 @@ articleTitle: embed_system_fonts property
 second_title: Aspose.Words for Python
 description: "FontInfoCollection.embed_system_fonts property. Specifies whether or not to embed System fonts into the document"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/fontinfocollection/embed_system_fonts/
 ---
 

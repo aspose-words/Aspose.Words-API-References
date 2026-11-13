@@ -5,7 +5,7 @@ articleTitle: prompt_text property
 second_title: Aspose.Words for Python
 description: "FieldFillIn.prompt_text property. Gets or sets the prompt text (the title of the prompt window)."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldfillin/prompt_text/
 ---
 

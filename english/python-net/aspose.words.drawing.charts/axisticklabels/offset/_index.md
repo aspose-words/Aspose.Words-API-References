@@ -5,7 +5,7 @@ articleTitle: offset property
 second_title: Aspose.Words for Python
 description: "AxisTickLabels.offset property. Gets or sets the distance of the tick labels from the axis."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing.charts/axisticklabels/offset/
 ---
 

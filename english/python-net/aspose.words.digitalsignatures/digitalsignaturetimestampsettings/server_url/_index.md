@@ -5,7 +5,7 @@ articleTitle: server_url property
 second_title: Aspose.Words for Python
 description: "DigitalSignatureTimestampSettings.server_url property. Gets or sets a string value representing timestamp server URL"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturetimestampsettings/server_url/
 ---
 

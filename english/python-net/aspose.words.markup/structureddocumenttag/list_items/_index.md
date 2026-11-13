@@ -5,7 +5,7 @@ articleTitle: list_items property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.list_items property. Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this SDT."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.markup/structureddocumenttag/list_items/
 ---
 

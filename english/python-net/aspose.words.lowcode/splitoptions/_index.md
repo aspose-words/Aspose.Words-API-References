@@ -5,7 +5,7 @@ articleTitle: SplitOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.SplitOptions class. Specifies options how the document is split into parts."
 type: docs
-weight: 210
+weight: 4200
 url: /python-net/aspose.words.lowcode/splitoptions/
 ---
 

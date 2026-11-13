@@ -5,7 +5,7 @@ articleTitle: number_style property
 second_title: Aspose.Words for Python
 description: "FootnoteOptions.number_style property. Specifies the number format for automatically numbered footnotes."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.notes/footnoteoptions/number_style/
 ---
 

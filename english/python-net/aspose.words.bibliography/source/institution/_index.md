@@ -5,7 +5,7 @@ articleTitle: institution property
 second_title: Aspose.Words for Python
 description: "Source.institution property. Gets or sets the institution of a source."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words.bibliography/source/institution/
 ---
 

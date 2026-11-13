@@ -5,7 +5,7 @@ articleTitle: insert_as_html property
 second_title: Aspose.Words for Python
 description: "FieldDdeAuto.insert_as_html property. Gets or sets whether to insert the linked object as HTML format text."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldddeauto/insert_as_html/
 ---
 

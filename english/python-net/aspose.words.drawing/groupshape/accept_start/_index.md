@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "GroupShape.accept_start method. Accepts a visitor for visiting the start of the GroupShape."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing/groupshape/accept_start/
 ---
 

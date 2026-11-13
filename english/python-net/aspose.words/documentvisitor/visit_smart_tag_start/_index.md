@@ -5,7 +5,7 @@ articleTitle: visit_smart_tag_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_smart_tag_start method. Called when enumeration of a smart tag has started."
 type: docs
-weight: 420
+weight: 12600
 url: /python-net/aspose.words/documentvisitor/visit_smart_tag_start/
 ---
 

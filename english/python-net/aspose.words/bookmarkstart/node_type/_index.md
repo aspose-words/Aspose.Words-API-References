@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "BookmarkStart.node_type property. Returns [NodeType.BOOKMARK_START](../../nodetype/#BOOKMARK_START)."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/bookmarkstart/node_type/
 ---
 

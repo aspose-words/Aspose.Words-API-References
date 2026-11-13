@@ -5,7 +5,7 @@ articleTitle: clear_formatting method
 second_title: Aspose.Words for Python
 description: "RowFormat.clear_formatting method. Resets to default row formatting."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.tables/rowformat/clear_formatting/
 ---
 

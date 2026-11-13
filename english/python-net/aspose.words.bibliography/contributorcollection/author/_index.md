@@ -5,7 +5,7 @@ articleTitle: author property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.author property. Gets or sets the author of a source."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.bibliography/contributorcollection/author/
 ---
 

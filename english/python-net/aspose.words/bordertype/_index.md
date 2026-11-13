@@ -5,7 +5,7 @@ articleTitle: BorderType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.BorderType enumeration. Specifies sides of a border"
 type: docs
-weight: 110
+weight: 2200
 url: /python-net/aspose.words/bordertype/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: shape_type property
 second_title: Aspose.Words for Python
 description: "ChartFormat.shape_type property. Gets or sets the shape type of the parent chart element."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartformat/shape_type/
 ---
 

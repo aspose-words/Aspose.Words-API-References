@@ -5,7 +5,7 @@ articleTitle: FieldAutoNumLgl class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldAutoNumLgl class. Implements the AUTONUMLGL field"
 type: docs
-weight: 130
+weight: 2600
 url: /python-net/aspose.words.fields/fieldautonumlgl/
 ---
 

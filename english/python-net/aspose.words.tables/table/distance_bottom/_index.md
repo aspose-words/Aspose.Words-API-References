@@ -5,7 +5,7 @@ articleTitle: distance_bottom property
 second_title: Aspose.Words for Python
 description: "Table.distance_bottom property. Gets or sets distance between table bottom and the surrounding text, in points."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.tables/table/distance_bottom/
 ---
 

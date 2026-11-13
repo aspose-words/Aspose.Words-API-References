@@ -5,7 +5,7 @@ articleTitle: text_watermark property
 second_title: Aspose.Words for Python
 description: "WatermarkerContext.text_watermark property. Text to be used as a watermark."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.lowcode/watermarkercontext/text_watermark/
 ---
 

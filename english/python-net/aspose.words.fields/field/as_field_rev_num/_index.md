@@ -5,7 +5,7 @@ articleTitle: as_field_rev_num method
 second_title: Aspose.Words for Python
 description: "Field.as_field_rev_num method. Cast Field to [FieldRevNum](../../fieldrevnum/)."
 type: docs
-weight: 830
+weight: 24900
 url: /python-net/aspose.words.fields/field/as_field_rev_num/
 ---
 

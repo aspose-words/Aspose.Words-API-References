@@ -5,7 +5,7 @@ articleTitle: merge method
 second_title: Aspose.Words for Python
 description: "IDocumentMergerPlugin.merge method. Merges the given input PDF documents into a single output PDF document using specified input and output streams."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/idocumentmergerplugin/merge/
 ---
 

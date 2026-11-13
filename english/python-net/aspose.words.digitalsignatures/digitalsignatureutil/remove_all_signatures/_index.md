@@ -5,7 +5,7 @@ articleTitle: remove_all_signatures method
 second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.DigitalSignatureUtil.remove_all_signatures method"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/
 ---
 

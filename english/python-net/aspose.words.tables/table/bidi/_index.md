@@ -5,7 +5,7 @@ articleTitle: bidi property
 second_title: Aspose.Words for Python
 description: "Table.bidi property. Gets or sets whether this is a right-to-left table."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.tables/table/bidi/
 ---
 

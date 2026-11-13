@@ -5,7 +5,7 @@ articleTitle: top property
 second_title: Aspose.Words for Python
 description: "BorderCollection.top property. Gets the top border."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/bordercollection/top/
 ---
 

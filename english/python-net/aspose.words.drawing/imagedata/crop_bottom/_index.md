@@ -5,7 +5,7 @@ articleTitle: crop_bottom property
 second_title: Aspose.Words for Python
 description: "ImageData.crop_bottom property. Defines the fraction of picture removal from the bottom side."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing/imagedata/crop_bottom/
 ---
 

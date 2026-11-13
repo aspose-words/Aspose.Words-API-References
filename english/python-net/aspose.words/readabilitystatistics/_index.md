@@ -5,7 +5,7 @@ articleTitle: ReadabilityStatistics class
 second_title: Aspose.Words for Python
 description: "aspose.words.ReadabilityStatistics class. Provides information about document readability score."
 type: docs
-weight: 1040
+weight: 20800
 url: /python-net/aspose.words/readabilitystatistics/
 ---
 

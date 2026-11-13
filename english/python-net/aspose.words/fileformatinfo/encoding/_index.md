@@ -5,7 +5,7 @@ articleTitle: encoding property
 second_title: Aspose.Words for Python
 description: "FileFormatInfo.encoding property. Gets the detected encoding if applicable to the current document format"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/fileformatinfo/encoding/
 ---
 

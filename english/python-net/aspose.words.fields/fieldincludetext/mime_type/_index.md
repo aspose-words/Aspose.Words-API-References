@@ -5,7 +5,7 @@ articleTitle: mime_type property
 second_title: Aspose.Words for Python
 description: "FieldIncludeText.mime_type property. Gets or sets the MIME type of the referenced file."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldincludetext/mime_type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: no_proofing property
 second_title: Aspose.Words for Python
 description: "Font.no_proofing property. True when the formatted characters are not to be spell checked."
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words/font/no_proofing/
 ---
 

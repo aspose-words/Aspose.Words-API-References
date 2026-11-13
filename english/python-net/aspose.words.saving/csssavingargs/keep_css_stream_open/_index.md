@@ -5,7 +5,7 @@ articleTitle: keep_css_stream_open property
 second_title: Aspose.Words for Python
 description: "CssSavingArgs.keep_css_stream_open property. Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/csssavingargs/keep_css_stream_open/
 ---
 

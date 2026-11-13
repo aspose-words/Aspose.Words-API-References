@@ -5,7 +5,7 @@ articleTitle: CommandButtonControl class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.CommandButtonControl class. The CommandButton control runs a macro that performs an action when a user clicks it."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.drawing.ole/commandbuttoncontrol/
 ---
 

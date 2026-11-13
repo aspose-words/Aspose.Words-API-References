@@ -5,7 +5,7 @@ articleTitle: FieldDocProperty class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldDocProperty class. Implements the DOCPROPERTY field"
 type: docs
-weight: 350
+weight: 7000
 url: /python-net/aspose.words.fields/fielddocproperty/
 ---
 

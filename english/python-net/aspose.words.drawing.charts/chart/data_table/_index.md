@@ -5,7 +5,7 @@ articleTitle: data_table property
 second_title: Aspose.Words for Python
 description: "Chart.data_table property. Provides access to properties of a data table of this chart"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.charts/chart/data_table/
 ---
 

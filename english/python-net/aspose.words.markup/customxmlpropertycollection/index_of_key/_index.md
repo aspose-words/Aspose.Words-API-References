@@ -5,7 +5,7 @@ articleTitle: index_of_key method
 second_title: Aspose.Words for Python
 description: "CustomXmlPropertyCollection.index_of_key method. Returns the zero-based index of the specified property in the collection."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.markup/customxmlpropertycollection/index_of_key/
 ---
 

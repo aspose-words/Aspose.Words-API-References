@@ -5,7 +5,7 @@ articleTitle: get_text_shaper method
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.ITextShaperFactory.get_text_shaper method"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.shaping/itextshaperfactory/get_text_shaper/
 ---
 

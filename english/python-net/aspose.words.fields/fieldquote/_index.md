@@ -5,7 +5,7 @@ articleTitle: FieldQuote class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldQuote class. Implements the QUOTE field"
 type: docs
-weight: 850
+weight: 17000
 url: /python-net/aspose.words.fields/fieldquote/
 ---
 

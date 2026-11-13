@@ -5,7 +5,7 @@ articleTitle: shadow property
 second_title: Aspose.Words for Python
 description: "Border.shadow property. Gets or sets a value indicating whether the border has a shadow."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/border/shadow/
 ---
 

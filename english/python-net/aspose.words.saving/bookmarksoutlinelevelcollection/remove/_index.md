@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "BookmarksOutlineLevelCollection.remove method. Removes a bookmark with the specified name from the collection."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
 ---
 

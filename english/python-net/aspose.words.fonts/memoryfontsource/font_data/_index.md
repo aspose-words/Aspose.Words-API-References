@@ -5,7 +5,7 @@ articleTitle: font_data property
 second_title: Aspose.Words for Python
 description: "MemoryFontSource.font_data property. Binary font data."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/memoryfontsource/font_data/
 ---
 

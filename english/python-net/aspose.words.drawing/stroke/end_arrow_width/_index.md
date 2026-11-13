@@ -5,7 +5,7 @@ articleTitle: end_arrow_width property
 second_title: Aspose.Words for Python
 description: "Stroke.end_arrow_width property. Defines the arrowhead width for the end of a stroke."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.drawing/stroke/end_arrow_width/
 ---
 

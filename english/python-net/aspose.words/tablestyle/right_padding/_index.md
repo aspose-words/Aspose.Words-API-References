@@ -5,7 +5,7 @@ articleTitle: right_padding property
 second_title: Aspose.Words for Python
 description: "TableStyle.right_padding property. Gets or sets the amount of space (in points) to add to the right of the contents of table cells."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/tablestyle/right_padding/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: set_substitutes method
 second_title: Aspose.Words for Python
 description: "TableSubstitutionRule.set_substitutes method. Override substitute font names for given original font name."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/set_substitutes/
 ---
 

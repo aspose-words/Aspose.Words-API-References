@@ -5,7 +5,7 @@ articleTitle: absolute_horizontal_distance property
 second_title: Aspose.Words for Python
 description: "Table.absolute_horizontal_distance property. Gets or sets absolute horizontal floating table position specified by the table properties, in points"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.tables/table/absolute_horizontal_distance/
 ---
 

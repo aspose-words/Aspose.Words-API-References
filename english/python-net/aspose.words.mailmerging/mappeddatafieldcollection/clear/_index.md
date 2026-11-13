@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "MappedDataFieldCollection.clear method. Removes all elements from the collection."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.mailmerging/mappeddatafieldcollection/clear/
 ---
 

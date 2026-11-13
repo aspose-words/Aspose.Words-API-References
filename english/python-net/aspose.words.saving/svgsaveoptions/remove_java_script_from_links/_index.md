@@ -5,7 +5,7 @@ articleTitle: remove_java_script_from_links property
 second_title: Aspose.Words for Python
 description: "SvgSaveOptions.remove_java_script_from_links property. Specifies whether JavaScript will be removed from links"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/svgsaveoptions/remove_java_script_from_links/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: IBarcodeGenerator class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.IBarcodeGenerator class. Public interface for barcode custom generator"
 type: docs
-weight: 1200
+weight: 24000
 url: /python-net/aspose.words.fields/ibarcodegenerator/
 ---
 

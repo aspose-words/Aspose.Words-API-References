@@ -5,7 +5,7 @@ articleTitle: list_format property
 second_title: Aspose.Words for Python
 description: "Paragraph.list_format property. Provides access to the list formatting properties of the paragraph."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/paragraph/list_format/
 ---
 

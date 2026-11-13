@@ -5,7 +5,7 @@ articleTitle: as_file_font_source method
 second_title: Aspose.Words for Python
 description: "FontSourceBase.as_file_font_source method. Cast FontSourceBase to [FileFontSource](../../filefontsource/)."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fonts/fontsourcebase/as_file_font_source/
 ---
 

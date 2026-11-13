@@ -5,7 +5,7 @@ articleTitle: is_valid property
 second_title: Aspose.Words for Python
 description: "DigitalSignature.is_valid property. Returns ``True`` if this digital signature is valid and the document has not been tampered with."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/is_valid/
 ---
 

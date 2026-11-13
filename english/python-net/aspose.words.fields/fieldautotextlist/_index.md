@@ -5,7 +5,7 @@ articleTitle: FieldAutoTextList class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldAutoTextList class. Implements the AUTOTEXTLIST field"
 type: docs
-weight: 160
+weight: 3200
 url: /python-net/aspose.words.fields/fieldautotextlist/
 ---
 

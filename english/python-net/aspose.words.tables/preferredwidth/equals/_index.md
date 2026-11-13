@@ -5,7 +5,7 @@ articleTitle: equals method
 second_title: Aspose.Words for Python
 description: "PreferredWidth.equals method. Determines whether the specified [PreferredWidth](../) is equal in value to the current [PreferredWidth](../)."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.tables/preferredwidth/equals/
 ---
 

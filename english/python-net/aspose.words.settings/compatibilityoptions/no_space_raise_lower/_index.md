@@ -5,7 +5,7 @@ articleTitle: no_space_raise_lower property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.no_space_raise_lower property. Do Not Increase Line Height for Raised/Lowered Text."
 type: docs
-weight: 360
+weight: 10800
 url: /python-net/aspose.words.settings/compatibilityoptions/no_space_raise_lower/
 ---
 

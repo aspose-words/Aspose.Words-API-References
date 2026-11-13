@@ -5,7 +5,7 @@ articleTitle: as_field_if method
 second_title: Aspose.Words for Python
 description: "Field.as_field_if method. Cast Field to [FieldIf](../../fieldif/)."
 type: docs
-weight: 520
+weight: 15600
 url: /python-net/aspose.words.fields/field/as_field_if/
 ---
 

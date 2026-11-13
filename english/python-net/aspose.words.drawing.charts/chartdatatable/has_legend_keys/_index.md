@@ -5,7 +5,7 @@ articleTitle: has_legend_keys property
 second_title: Aspose.Words for Python
 description: "ChartDataTable.has_legend_keys property. Gets or sets a flag indicating whether legend keys are displayed in the data table"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing.charts/chartdatatable/has_legend_keys/
 ---
 

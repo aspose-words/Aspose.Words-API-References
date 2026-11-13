@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "EditableRange.remove method. Removes the editable range from the document"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/editablerange/remove/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: image_size property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.image_size property. Gets or sets the size of a generated image in pixels."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/imagesaveoptions/image_size/
 ---
 

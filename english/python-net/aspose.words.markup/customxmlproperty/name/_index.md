@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "CustomXmlProperty.name property. Specifies the name of the custom XML attribute or smart tag property."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.markup/customxmlproperty/name/
 ---
 

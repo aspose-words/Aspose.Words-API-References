@@ -3,15 +3,16 @@ title: CleanupOptions.unused_builtin_styles property
 linktitle: unused_builtin_styles property
 articleTitle: unused_builtin_styles property
 second_title: Aspose.Words for Python
-description: "CleanupOptions.unused_builtin_styles property. Specifies that unused [Style.built_in](../../style/built_in/) styles should be removed from document."
+description: "CleanupOptions.unused_builtin_styles property. Specifies that unused [Style.built_in](../../style/built_in/) styles should be removed from document"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/cleanupoptions/unused_builtin_styles/
 ---
 
 ## CleanupOptions.unused_builtin_styles property
 
 Specifies that unused [Style.built_in](../../style/built_in/) styles should be removed from document.
+Default value is ``False``.
 
 
 

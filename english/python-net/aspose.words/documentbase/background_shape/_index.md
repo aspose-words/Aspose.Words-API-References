@@ -5,7 +5,7 @@ articleTitle: background_shape property
 second_title: Aspose.Words for Python
 description: "DocumentBase.background_shape property. Gets or sets the background shape of the document"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/documentbase/background_shape/
 ---
 

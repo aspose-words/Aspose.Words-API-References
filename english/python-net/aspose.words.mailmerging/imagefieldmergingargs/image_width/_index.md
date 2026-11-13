@@ -5,7 +5,7 @@ articleTitle: image_width property
 second_title: Aspose.Words for Python
 description: "ImageFieldMergingArgs.image_width property. Specifies the image width for the image to insert into the document."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/image_width/
 ---
 

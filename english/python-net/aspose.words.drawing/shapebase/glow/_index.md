@@ -5,7 +5,7 @@ articleTitle: glow property
 second_title: Aspose.Words for Python
 description: "ShapeBase.glow property. Gets glow formatting for the shape."
 type: docs
-weight: 200
+weight: 6000
 url: /python-net/aspose.words.drawing/shapebase/glow/
 ---
 

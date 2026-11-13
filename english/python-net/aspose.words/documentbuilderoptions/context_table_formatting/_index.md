@@ -5,7 +5,7 @@ articleTitle: context_table_formatting property
 second_title: Aspose.Words for Python
 description: "DocumentBuilderOptions.context_table_formatting property. True if the formatting applied to table content does not affect the formatting of the content that follows it"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/documentbuilderoptions/context_table_formatting/
 ---
 

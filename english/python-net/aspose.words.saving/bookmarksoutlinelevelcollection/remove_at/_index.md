@@ -5,7 +5,7 @@ articleTitle: remove_at method
 second_title: Aspose.Words for Python
 description: "BookmarksOutlineLevelCollection.remove_at method. Removes a bookmark at the specified index."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/remove_at/
 ---
 

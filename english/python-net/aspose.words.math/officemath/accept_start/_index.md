@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "OfficeMath.accept_start method. Accepts a visitor for visiting the start of the office math."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.math/officemath/accept_start/
 ---
 

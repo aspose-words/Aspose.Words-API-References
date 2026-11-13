@@ -5,7 +5,7 @@ articleTitle: get_field_names method
 second_title: Aspose.Words for Python
 description: "MailMerge.get_field_names method. Returns a collection of mail merge field names available in the document."
 type: docs
-weight: 200
+weight: 6000
 url: /python-net/aspose.words.mailmerging/mailmerge/get_field_names/
 ---
 

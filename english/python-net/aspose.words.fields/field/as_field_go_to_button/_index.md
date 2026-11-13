@@ -5,7 +5,7 @@ articleTitle: as_field_go_to_button method
 second_title: Aspose.Words for Python
 description: "Field.as_field_go_to_button method. Cast Field to [FieldGoToButton](../../fieldgotobutton/)."
 type: docs
-weight: 490
+weight: 14700
 url: /python-net/aspose.words.fields/field/as_field_go_to_button/
 ---
 

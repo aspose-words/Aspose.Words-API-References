@@ -5,7 +5,7 @@ articleTitle: list_level_number property
 second_title: Aspose.Words for Python
 description: "ListFormat.list_level_number property. Gets or sets the list level number (0 to 8) for the paragraph."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.lists/listformat/list_level_number/
 ---
 

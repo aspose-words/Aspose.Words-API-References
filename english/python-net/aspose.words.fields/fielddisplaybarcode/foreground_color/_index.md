@@ -5,7 +5,7 @@ articleTitle: foreground_color property
 second_title: Aspose.Words for Python
 description: "FieldDisplayBarcode.foreground_color property. Gets or sets the foreground color of the barcode symbol"
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.fields/fielddisplaybarcode/foreground_color/
 ---
 

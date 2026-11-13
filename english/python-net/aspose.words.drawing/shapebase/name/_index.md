@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "ShapeBase.name property. Gets or sets the optional shape name."
 type: docs
-weight: 420
+weight: 12600
 url: /python-net/aspose.words.drawing/shapebase/name/
 ---
 

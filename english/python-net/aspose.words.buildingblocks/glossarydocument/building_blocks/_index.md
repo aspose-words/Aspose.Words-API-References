@@ -5,7 +5,7 @@ articleTitle: building_blocks property
 second_title: Aspose.Words for Python
 description: "GlossaryDocument.building_blocks property. Returns a typed collection that represents all building blocks in the glossary document."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.buildingblocks/glossarydocument/building_blocks/
 ---
 

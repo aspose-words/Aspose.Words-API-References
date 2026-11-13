@@ -5,7 +5,7 @@ articleTitle: export_cid_urls_for_mhtml_resources property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_cid_urls_for_mhtml_resources property. Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_cid_urls_for_mhtml_resources/
 ---
 

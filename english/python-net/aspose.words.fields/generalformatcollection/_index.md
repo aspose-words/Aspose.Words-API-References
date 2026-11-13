@@ -5,7 +5,7 @@ articleTitle: GeneralFormatCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.GeneralFormatCollection class. Represents a typed collection of general formats"
 type: docs
-weight: 1190
+weight: 23800
 url: /python-net/aspose.words.fields/generalformatcollection/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: visit_office_math_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_office_math_start method. Called when enumeration of a Office Math object has started."
 type: docs
-weight: 310
+weight: 9300
 url: /python-net/aspose.words/documentvisitor/visit_office_math_start/
 ---
 

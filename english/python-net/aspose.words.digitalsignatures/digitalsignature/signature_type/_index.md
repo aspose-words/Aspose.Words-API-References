@@ -5,7 +5,7 @@ articleTitle: signature_type property
 second_title: Aspose.Words for Python
 description: "DigitalSignature.signature_type property. Gets the type of the digital signature."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/signature_type/
 ---
 

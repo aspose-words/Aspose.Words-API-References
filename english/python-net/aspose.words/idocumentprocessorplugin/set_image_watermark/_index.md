@@ -5,7 +5,7 @@ articleTitle: set_image_watermark method
 second_title: Aspose.Words for Python
 description: "IDocumentProcessorPlugin.set_image_watermark method. Adds image watermark on each page of the document loaded by [IDocumentProcessorPlugin.load()](../load/#bytesio_loadoptions) method."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/idocumentprocessorplugin/set_image_watermark/
 ---
 

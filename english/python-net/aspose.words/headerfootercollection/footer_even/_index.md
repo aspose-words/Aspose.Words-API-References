@@ -5,7 +5,7 @@ articleTitle: footer_even property
 second_title: Aspose.Words for Python
 description: "HeaderFooterCollection.footer_even property. Retrieves a footer for even numbered pages."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/headerfootercollection/footer_even/
 ---
 

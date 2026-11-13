@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "FormField.node_type property. Returns [NodeType.FORM_FIELD](../../../aspose.words/nodetype/#FORM_FIELD)."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.fields/formfield/node_type/
 ---
 

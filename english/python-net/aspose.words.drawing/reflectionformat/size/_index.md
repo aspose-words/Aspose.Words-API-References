@@ -5,7 +5,7 @@ articleTitle: size property
 second_title: Aspose.Words for Python
 description: "ReflectionFormat.size property. Gets or sets a double value between 0.0 and 1.0 representing the size of the reflection as a percentage of the reflected object"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing/reflectionformat/size/
 ---
 

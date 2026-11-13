@@ -5,7 +5,7 @@ articleTitle: locked property
 second_title: Aspose.Words for Python
 description: "Style.locked property. Specifies whether this style is locked."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/style/locked/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: default_font property
 second_title: Aspose.Words for Python
 description: "StyleCollection.default_font property. Gets document default text formatting."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/stylecollection/default_font/
 ---
 

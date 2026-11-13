@@ -5,7 +5,7 @@ articleTitle: value property
 second_title: Aspose.Words for Python
 description: "Adjustment.value property. Gets or sets the raw value of the adjustment."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/adjustment/value/
 ---
 

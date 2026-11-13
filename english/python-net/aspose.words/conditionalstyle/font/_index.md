@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "ConditionalStyle.font property. Gets the character formatting of the conditional style."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/conditionalstyle/font/
 ---
 

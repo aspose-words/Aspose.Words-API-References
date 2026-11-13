@@ -5,7 +5,7 @@ articleTitle: Contributor class
 second_title: Aspose.Words for Python
 description: "aspose.words.bibliography.Contributor class. Represents a bibliography source contributor"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.bibliography/contributor/
 ---
 

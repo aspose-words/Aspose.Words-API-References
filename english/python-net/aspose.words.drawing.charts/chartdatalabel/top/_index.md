@@ -5,7 +5,7 @@ articleTitle: top property
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.top property. Gets or sets the distance of the data label in points from the top edge of the chart or from the position specified by its [ChartDataLabel.position](../position/) property, depending on the value of the [ChartDataLabel.top_mode](../top_mode/) property."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/top/
 ---
 

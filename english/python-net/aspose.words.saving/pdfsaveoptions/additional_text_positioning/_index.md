@@ -5,7 +5,7 @@ articleTitle: additional_text_positioning property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.additional_text_positioning property. A flag specifying whether to write additional text positioning operators or not."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/pdfsaveoptions/additional_text_positioning/
 ---
 

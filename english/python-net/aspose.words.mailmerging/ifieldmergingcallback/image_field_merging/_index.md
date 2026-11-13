@@ -5,7 +5,7 @@ articleTitle: image_field_merging method
 second_title: Aspose.Words for Python
 description: "IFieldMergingCallback.image_field_merging method. Called when the Aspose.Words mail merge engine is about to insert an image into a merge field."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.mailmerging/ifieldmergingcallback/image_field_merging/
 ---
 

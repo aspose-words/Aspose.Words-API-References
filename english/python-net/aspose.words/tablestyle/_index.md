@@ -5,7 +5,7 @@ articleTitle: TableStyle class
 second_title: Aspose.Words for Python
 description: "aspose.words.TableStyle class. Represents a table style"
 type: docs
-weight: 1320
+weight: 26400
 url: /python-net/aspose.words/tablestyle/
 ---
 

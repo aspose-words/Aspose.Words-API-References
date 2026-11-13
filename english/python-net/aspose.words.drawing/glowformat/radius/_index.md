@@ -5,7 +5,7 @@ articleTitle: radius property
 second_title: Aspose.Words for Python
 description: "GlowFormat.radius property. Gets or sets a double value that represents the length of the radius for a glow effect in points (pt)"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/glowformat/radius/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: RevisionCollection indexer
 second_title: Aspose.Words for Python
 description: "RevisionCollection indexer. Returns a [Revision](../../revision/) at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/revisioncollection/__getitem__/
 ---
 

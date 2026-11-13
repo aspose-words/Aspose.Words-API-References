@@ -5,7 +5,7 @@ articleTitle: as_field_create_date method
 second_title: Aspose.Words for Python
 description: "Field.as_field_create_date method. Cast Field to [FieldCreateDate](../../fieldcreatedate/)."
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words.fields/field/as_field_create_date/
 ---
 

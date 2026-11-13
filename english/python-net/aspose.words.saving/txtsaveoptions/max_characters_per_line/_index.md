@@ -5,7 +5,7 @@ articleTitle: max_characters_per_line property
 second_title: Aspose.Words for Python
 description: "TxtSaveOptions.max_characters_per_line property. Gets or sets an integer value that specifies the maximum number of characters per one line"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/txtsaveoptions/max_characters_per_line/
 ---
 

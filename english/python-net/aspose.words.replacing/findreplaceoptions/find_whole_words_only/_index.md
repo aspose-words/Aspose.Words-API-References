@@ -5,7 +5,7 @@ articleTitle: find_whole_words_only property
 second_title: Aspose.Words for Python
 description: "FindReplaceOptions.find_whole_words_only property. True indicates the oldValue must be a standalone word."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.replacing/findreplaceoptions/find_whole_words_only/
 ---
 

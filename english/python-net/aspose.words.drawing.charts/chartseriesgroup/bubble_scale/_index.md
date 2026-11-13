@@ -5,7 +5,7 @@ articleTitle: bubble_scale property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.bubble_scale property. Gets or sets the size of the bubbles as a percentage of their default size."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/bubble_scale/
 ---
 

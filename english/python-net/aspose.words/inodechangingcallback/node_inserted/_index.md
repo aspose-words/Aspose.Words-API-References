@@ -5,7 +5,7 @@ articleTitle: node_inserted method
 second_title: Aspose.Words for Python
 description: "INodeChangingCallback.node_inserted method. Called when a node belonging to this document has been inserted into another node."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/inodechangingcallback/node_inserted/
 ---
 

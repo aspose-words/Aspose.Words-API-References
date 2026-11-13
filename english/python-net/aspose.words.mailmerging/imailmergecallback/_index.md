@@ -5,7 +5,7 @@ articleTitle: IMailMergeCallback class
 second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.IMailMergeCallback class. Implement this interface if you want to receive notifications while mail merge is performed."
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.mailmerging/imailmergecallback/
 ---
 

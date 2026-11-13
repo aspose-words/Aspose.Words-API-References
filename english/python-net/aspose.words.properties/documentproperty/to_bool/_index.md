@@ -5,7 +5,7 @@ articleTitle: to_bool method
 second_title: Aspose.Words for Python
 description: "DocumentProperty.to_bool method. Returns the property value as bool."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.properties/documentproperty/to_bool/
 ---
 

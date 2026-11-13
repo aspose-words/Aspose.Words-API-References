@@ -5,7 +5,7 @@ articleTitle: insert_document_inline method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_document_inline method. Inserts a document inline at the cursor position."
 type: docs
-weight: 320
+weight: 9600
 url: /python-net/aspose.words/documentbuilder/insert_document_inline/
 ---
 

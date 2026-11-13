@@ -5,7 +5,7 @@ articleTitle: visit_header_footer_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_header_footer_start method. Called when enumeration of a header or footer in a section has started."
 type: docs
-weight: 290
+weight: 8700
 url: /python-net/aspose.words/documentvisitor/visit_header_footer_start/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: HtmlElementSizeOutputMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.HtmlElementSizeOutputMode enumeration. Specifies how Aspose.Words exports element widths and heights to HTML, MHTML and EPUB."
 type: docs
-weight: 230
+weight: 4600
 url: /python-net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 

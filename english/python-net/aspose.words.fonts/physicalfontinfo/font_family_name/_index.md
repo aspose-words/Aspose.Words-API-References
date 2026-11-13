@@ -5,7 +5,7 @@ articleTitle: font_family_name property
 second_title: Aspose.Words for Python
 description: "PhysicalFontInfo.font_family_name property. Family name of the font."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/physicalfontinfo/font_family_name/
 ---
 

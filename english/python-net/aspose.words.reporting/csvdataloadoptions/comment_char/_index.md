@@ -5,7 +5,7 @@ articleTitle: comment_char property
 second_title: Aspose.Words for Python
 description: "CsvDataLoadOptions.comment_char property. Gets or sets the character that is used to comment lines of CSV data."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.reporting/csvdataloadoptions/comment_char/
 ---
 

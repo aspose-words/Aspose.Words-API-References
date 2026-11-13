@@ -5,7 +5,7 @@ articleTitle: ColorMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.ColorMode enumeration. Specifies how colors are rendered."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.saving/colormode/
 ---
 

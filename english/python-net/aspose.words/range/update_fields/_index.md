@@ -5,7 +5,7 @@ articleTitle: update_fields method
 second_title: Aspose.Words for Python
 description: "Range.update_fields method. Updates the values of document fields in this range."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words/range/update_fields/
 ---
 

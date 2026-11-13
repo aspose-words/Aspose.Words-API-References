@@ -5,7 +5,7 @@ articleTitle: comments property
 second_title: Aspose.Words for Python
 description: "Source.comments property. Gets or sets the comments of a source."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.bibliography/source/comments/
 ---
 

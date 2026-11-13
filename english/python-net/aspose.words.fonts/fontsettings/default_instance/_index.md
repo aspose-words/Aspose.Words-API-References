@@ -5,7 +5,7 @@ articleTitle: default_instance property
 second_title: Aspose.Words for Python
 description: "FontSettings.default_instance property. Static default font settings."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fonts/fontsettings/default_instance/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: value property
 second_title: Aspose.Words for Python
 description: "CustomXmlProperty.value property. Gets or sets the value of the custom XML attribute or smart tag property."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.markup/customxmlproperty/value/
 ---
 

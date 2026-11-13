@@ -5,7 +5,7 @@ articleTitle: false_text property
 second_title: Aspose.Words for Python
 description: "FieldIf.false_text property. Gets or sets the text displayed if the comparison expression is ``False``."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldif/false_text/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: set_password method
 second_title: Aspose.Words for Python
 description: "WriteProtection.set_password method. Sets the write protection password for the document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.settings/writeprotection/set_password/
 ---
 

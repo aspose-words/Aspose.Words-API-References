@@ -5,7 +5,7 @@ articleTitle: doi property
 second_title: Aspose.Words for Python
 description: "Source.doi property. Gets or sets the digital object identifier."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words.bibliography/source/doi/
 ---
 

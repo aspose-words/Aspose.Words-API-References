@@ -5,7 +5,7 @@ articleTitle: forms_design property
 second_title: Aspose.Words for Python
 description: "ViewOptions.forms_design property. Specifies whether the document is in forms design mode."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.settings/viewoptions/forms_design/
 ---
 

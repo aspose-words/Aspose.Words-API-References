@@ -5,7 +5,7 @@ articleTitle: image_type property
 second_title: Aspose.Words for Python
 description: "ImageData.image_type property. Gets the type of the image."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.drawing/imagedata/image_type/
 ---
 

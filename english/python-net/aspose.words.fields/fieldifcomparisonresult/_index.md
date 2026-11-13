@@ -5,7 +5,7 @@ articleTitle: FieldIfComparisonResult enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldIfComparisonResult enumeration. Specifies the result of the IF field condition evaluation."
 type: docs
-weight: 550
+weight: 11000
 url: /python-net/aspose.words.fields/fieldifcomparisonresult/
 ---
 

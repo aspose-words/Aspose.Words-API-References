@@ -5,7 +5,7 @@ articleTitle: list property
 second_title: Aspose.Words for Python
 description: "ListFormat.list property. Gets or sets the list this paragraph is a member of."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lists/listformat/list/
 ---
 

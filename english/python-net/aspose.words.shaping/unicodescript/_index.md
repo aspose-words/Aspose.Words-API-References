@@ -5,7 +5,7 @@ articleTitle: UnicodeScript enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.UnicodeScript enumeration. Unicode Character Database property: Script (sc)."
 type: docs
-weight: 100
+weight: 2000
 url: /python-net/aspose.words.shaping/unicodescript/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: DefaultFontSubstitutionRule class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.DefaultFontSubstitutionRule class. Default font substitution rule"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 

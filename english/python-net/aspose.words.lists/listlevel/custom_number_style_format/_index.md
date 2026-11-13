@@ -5,7 +5,7 @@ articleTitle: custom_number_style_format property
 second_title: Aspose.Words for Python
 description: "ListLevel.custom_number_style_format property. Gets or sets the custom number style format for this list level"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lists/listlevel/custom_number_style_format/
 ---
 

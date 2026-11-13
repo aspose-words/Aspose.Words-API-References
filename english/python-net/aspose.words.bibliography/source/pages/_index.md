@@ -5,7 +5,7 @@ articleTitle: pages property
 second_title: Aspose.Words for Python
 description: "Source.pages property. Gets or sets the pages of a source."
 type: docs
-weight: 310
+weight: 9300
 url: /python-net/aspose.words.bibliography/source/pages/
 ---
 

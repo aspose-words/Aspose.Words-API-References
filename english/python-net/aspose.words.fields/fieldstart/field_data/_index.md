@@ -5,7 +5,7 @@ articleTitle: field_data property
 second_title: Aspose.Words for Python
 description: "FieldStart.field_data property. Gets custom field data which is associated with the field."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldstart/field_data/
 ---
 

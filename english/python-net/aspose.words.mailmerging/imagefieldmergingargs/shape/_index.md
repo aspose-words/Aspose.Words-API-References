@@ -5,7 +5,7 @@ articleTitle: shape property
 second_title: Aspose.Words for Python
 description: "ImageFieldMergingArgs.shape property. Specifies the shape that the mail merge engine must insert into the document."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/shape/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: page_range_separator property
 second_title: Aspose.Words for Python
 description: "FieldToa.page_range_separator property. Gets or sets the character sequence that is used to separate the start and end of a page range."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldtoa/page_range_separator/
 ---
 

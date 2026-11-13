@@ -5,7 +5,7 @@ articleTitle: hyphenation_zone property
 second_title: Aspose.Words for Python
 description: "HyphenationOptions.hyphenation_zone property. Gets or sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.settings/hyphenationoptions/hyphenation_zone/
 ---
 

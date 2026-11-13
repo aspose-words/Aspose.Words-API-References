@@ -5,7 +5,7 @@ articleTitle: as_field_ta method
 second_title: Aspose.Words for Python
 description: "Field.as_field_ta method. Cast Field to [FieldTA](../../fieldta/)."
 type: docs
-weight: 940
+weight: 28200
 url: /python-net/aspose.words.fields/field/as_field_ta/
 ---
 

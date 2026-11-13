@@ -5,7 +5,7 @@ articleTitle: replace_regex method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Replacer.replace_regex method"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/replacer/replace_regex/
 ---
 

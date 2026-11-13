@@ -5,7 +5,7 @@ articleTitle: last_paragraph property
 second_title: Aspose.Words for Python
 description: "Cell.last_paragraph property. Gets the last paragraph among the immediate children."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.tables/cell/last_paragraph/
 ---
 

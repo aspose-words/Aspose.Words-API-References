@@ -5,7 +5,7 @@ articleTitle: css_stream property
 second_title: Aspose.Words for Python
 description: "CssSavingArgs.css_stream property. Allows to specify the stream where the CSS information will be saved to."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/csssavingargs/css_stream/
 ---
 

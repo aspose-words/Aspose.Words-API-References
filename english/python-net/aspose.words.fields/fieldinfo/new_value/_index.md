@@ -5,7 +5,7 @@ articleTitle: new_value property
 second_title: Aspose.Words for Python
 description: "FieldInfo.new_value property. Gets or sets an optional value that updates the property."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldinfo/new_value/
 ---
 

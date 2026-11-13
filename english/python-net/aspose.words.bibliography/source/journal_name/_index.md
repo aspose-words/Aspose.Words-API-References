@@ -5,7 +5,7 @@ articleTitle: journal_name property
 second_title: Aspose.Words for Python
 description: "Source.journal_name property. Gets or sets the journal name of a source."
 type: docs
-weight: 250
+weight: 7500
 url: /python-net/aspose.words.bibliography/source/journal_name/
 ---
 

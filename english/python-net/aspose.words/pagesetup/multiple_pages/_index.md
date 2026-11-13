@@ -5,7 +5,7 @@ articleTitle: multiple_pages property
 second_title: Aspose.Words for Python
 description: "PageSetup.multiple_pages property. For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet."
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words/pagesetup/multiple_pages/
 ---
 

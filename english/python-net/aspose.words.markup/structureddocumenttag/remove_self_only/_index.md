@@ -5,7 +5,7 @@ articleTitle: remove_self_only method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.remove_self_only method. Removes just this SDT node itself, but keeps the content of it inside the document tree."
 type: docs
-weight: 370
+weight: 11100
 url: /python-net/aspose.words.markup/structureddocumenttag/remove_self_only/
 ---
 

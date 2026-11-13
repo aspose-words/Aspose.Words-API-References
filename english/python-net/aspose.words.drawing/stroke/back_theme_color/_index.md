@@ -5,7 +5,7 @@ articleTitle: back_theme_color property
 second_title: Aspose.Words for Python
 description: "Stroke.back_theme_color property. Gets or sets a ThemeColor object that represents the stroke background color."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/stroke/back_theme_color/
 ---
 

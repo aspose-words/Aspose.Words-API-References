@@ -5,7 +5,7 @@ articleTitle: LINE_BREAK property
 second_title: Aspose.Words for Python
 description: "ControlChar.LINE_BREAK property. Line break character: \\x000b or \\v."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/controlchar/LINE_BREAK/
 ---
 

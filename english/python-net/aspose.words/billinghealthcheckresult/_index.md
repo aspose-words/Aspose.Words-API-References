@@ -5,7 +5,7 @@ articleTitle: BillingHealthCheckResult class
 second_title: Aspose.Words for Python
 description: "aspose.words.BillingHealthCheckResult class. Represents the result of a billing system health check, indicating whether the billing service is operational."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words/billinghealthcheckresult/
 ---
 

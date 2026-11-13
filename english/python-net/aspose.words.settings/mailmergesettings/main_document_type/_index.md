@@ -5,7 +5,7 @@ articleTitle: main_document_type property
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.main_document_type property. Specifies the mail-merge main document type"
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.settings/mailmergesettings/main_document_type/
 ---
 

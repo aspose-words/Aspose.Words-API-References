@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "GlossaryDocument.accept_end method. Accepts a visitor for visiting the end of the Glossary document."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.buildingblocks/glossarydocument/accept_end/
 ---
 

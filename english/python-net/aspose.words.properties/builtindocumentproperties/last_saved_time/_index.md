@@ -5,7 +5,7 @@ articleTitle: last_saved_time property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.last_saved_time property. Gets or sets the time of the last save in UTC."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/
 ---
 

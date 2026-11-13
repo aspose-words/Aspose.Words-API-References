@@ -5,7 +5,7 @@ articleTitle: reflection property
 second_title: Aspose.Words for Python
 description: "ShapeBase.reflection property. Gets reflection formatting for the shape."
 type: docs
-weight: 440
+weight: 13200
 url: /python-net/aspose.words.drawing/shapebase/reflection/
 ---
 

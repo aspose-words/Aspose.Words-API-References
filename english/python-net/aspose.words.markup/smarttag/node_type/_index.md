@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "SmartTag.node_type property. Returns [NodeType.SMART_TAG](../../../aspose.words/nodetype/#SMART_TAG)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.markup/smarttag/node_type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: last property
 second_title: Aspose.Words for Python
 description: "Person.last property. Gets or sets the last name of a person."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.bibliography/person/last/
 ---
 

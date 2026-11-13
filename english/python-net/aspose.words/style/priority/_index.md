@@ -5,7 +5,7 @@ articleTitle: priority property
 second_title: Aspose.Words for Python
 description: "Style.priority property. Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words/style/priority/
 ---
 

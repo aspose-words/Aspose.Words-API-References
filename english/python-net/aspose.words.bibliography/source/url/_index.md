@@ -5,7 +5,7 @@ articleTitle: url property
 second_title: Aspose.Words for Python
 description: "Source.url property. Gets or sets the url of a source."
 type: docs
-weight: 500
+weight: 15000
 url: /python-net/aspose.words.bibliography/source/url/
 ---
 

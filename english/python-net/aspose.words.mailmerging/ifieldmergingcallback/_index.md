@@ -5,7 +5,7 @@ articleTitle: IFieldMergingCallback class
 second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.IFieldMergingCallback class. Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 

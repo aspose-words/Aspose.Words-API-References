@@ -5,7 +5,7 @@ articleTitle: top_padding property
 second_title: Aspose.Words for Python
 description: "Table.top_padding property. Gets or sets the amount of space (in points) to add above the contents of cells."
 type: docs
-weight: 330
+weight: 9900
 url: /python-net/aspose.words.tables/table/top_padding/
 ---
 

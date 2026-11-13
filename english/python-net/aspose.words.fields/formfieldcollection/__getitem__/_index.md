@@ -5,7 +5,7 @@ articleTitle: FormFieldCollection indexer
 second_title: Aspose.Words for Python
 description: "FormFieldCollection indexer. Returns a form field at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/formfieldcollection/__getitem__/
 ---
 

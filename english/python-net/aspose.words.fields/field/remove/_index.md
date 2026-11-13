@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "Field.remove method. Removes the field from the document"
 type: docs
-weight: 1070
+weight: 32100
 url: /python-net/aspose.words.fields/field/remove/
 ---
 

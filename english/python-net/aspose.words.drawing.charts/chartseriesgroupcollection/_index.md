@@ -5,7 +5,7 @@ articleTitle: ChartSeriesGroupCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeriesGroupCollection class. Represents a collection of [ChartSeriesGroup](../chartseriesgroup/) objects."
 type: docs
-weight: 370
+weight: 7200
 url: /python-net/aspose.words.drawing.charts/chartseriesgroupcollection/
 ---
 

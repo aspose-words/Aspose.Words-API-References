@@ -5,7 +5,7 @@ articleTitle: visit_body_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_body_start method. Called when enumeration of the main text story in a section has started."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/documentvisitor/visit_body_start/
 ---
 

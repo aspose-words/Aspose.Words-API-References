@@ -5,7 +5,7 @@ articleTitle: data_source_type property
 second_title: Aspose.Words for Python
 description: "Odso.data_source_type property. Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.settings/odso/data_source_type/
 ---
 

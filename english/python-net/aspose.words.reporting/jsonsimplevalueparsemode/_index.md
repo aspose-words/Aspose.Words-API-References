@@ -5,7 +5,7 @@ articleTitle: JsonSimpleValueParseMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.reporting.JsonSimpleValueParseMode enumeration. Specifies a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.reporting/jsonsimplevalueparsemode/
 ---
 

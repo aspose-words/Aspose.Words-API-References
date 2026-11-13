@@ -5,7 +5,7 @@ articleTitle: consecutive_hyphen_limit property
 second_title: Aspose.Words for Python
 description: "HyphenationOptions.consecutive_hyphen_limit property. Gets or sets the maximum number of consecutive lines that can end with hyphens"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.settings/hyphenationoptions/consecutive_hyphen_limit/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_comment_range_end method
 second_title: Aspose.Words for Python
 description: "Node.as_comment_range_end method. Cast Node to [CommentRangeEnd](../../commentrangeend/)."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words/node/as_comment_range_end/
 ---
 

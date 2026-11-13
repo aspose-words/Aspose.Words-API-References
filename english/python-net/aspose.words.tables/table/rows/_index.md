@@ -5,7 +5,7 @@ articleTitle: rows property
 second_title: Aspose.Words for Python
 description: "Table.rows property. Provides typed access to the rows of the table."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words.tables/table/rows/
 ---
 

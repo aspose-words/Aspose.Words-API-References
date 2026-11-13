@@ -5,7 +5,7 @@ articleTitle: orientation property
 second_title: Aspose.Words for Python
 description: "ChartTitle.orientation property. Gets or sets the orientation of the chart title text."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/charttitle/orientation/
 ---
 

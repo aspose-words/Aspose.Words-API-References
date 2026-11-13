@@ -5,7 +5,7 @@ articleTitle: border_width property
 second_title: Aspose.Words for Python
 description: "MultiPageLayout.border_width property. Gets or sets the width of the pages border"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/multipagelayout/border_width/
 ---
 

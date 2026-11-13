@@ -5,7 +5,7 @@ articleTitle: FieldUserName constructor
 second_title: Aspose.Words for Python
 description: "FieldUserName constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldusername/__init__/
 ---
 

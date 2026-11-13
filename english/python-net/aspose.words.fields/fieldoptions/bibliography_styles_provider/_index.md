@@ -5,7 +5,7 @@ articleTitle: bibliography_styles_provider property
 second_title: Aspose.Words for Python
 description: "FieldOptions.bibliography_styles_provider property. Gets or sets a provider that returns a bibliography style for the [FieldBibliography](../../fieldbibliography/) and [FieldCitation](../../fieldcitation/) fields."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldoptions/bibliography_styles_provider/
 ---
 

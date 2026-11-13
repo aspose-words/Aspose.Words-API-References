@@ -5,7 +5,7 @@ articleTitle: name_of_application property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.name_of_application property. Gets or sets the name of the application."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words.properties/builtindocumentproperties/name_of_application/
 ---
 

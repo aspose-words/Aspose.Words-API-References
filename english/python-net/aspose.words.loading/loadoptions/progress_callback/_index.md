@@ -5,7 +5,7 @@ articleTitle: progress_callback property
 second_title: Aspose.Words for Python
 description: "LoadOptions.progress_callback property. Called during loading a document and accepts data about loading progress."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.loading/loadoptions/progress_callback/
 ---
 

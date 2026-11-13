@@ -5,7 +5,7 @@ articleTitle: footnote_separators property
 second_title: Aspose.Words for Python
 description: "DocumentBase.footnote_separators property. Provides access to the footnote/endnote separators defined in the document."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/documentbase/footnote_separators/
 ---
 

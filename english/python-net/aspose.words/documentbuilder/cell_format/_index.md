@@ -5,7 +5,7 @@ articleTitle: cell_format property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.cell_format property. Returns an object that represents current table cell formatting properties."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/documentbuilder/cell_format/
 ---
 

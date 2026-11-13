@@ -5,7 +5,7 @@ articleTitle: original_uri property
 second_title: Aspose.Words for Python
 description: "ResourceLoadingArgs.original_uri property. Original URI of the resource as specified in imported document."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.loading/resourceloadingargs/original_uri/
 ---
 

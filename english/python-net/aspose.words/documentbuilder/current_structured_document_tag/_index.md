@@ -5,7 +5,7 @@ articleTitle: current_structured_document_tag property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.current_structured_document_tag property. Gets the structured document tag that is currently selected in this [DocumentBuilder](../)."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/documentbuilder/current_structured_document_tag/
 ---
 

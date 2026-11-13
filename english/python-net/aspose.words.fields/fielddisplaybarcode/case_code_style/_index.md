@@ -5,7 +5,7 @@ articleTitle: case_code_style property
 second_title: Aspose.Words for Python
 description: "FieldDisplayBarcode.case_code_style property. Gets or sets the style of a Case Code for barcode type ITF14"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fielddisplaybarcode/case_code_style/
 ---
 

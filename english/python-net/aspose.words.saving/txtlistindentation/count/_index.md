@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "TxtListIndentation.count property. Gets or sets how many [TxtListIndentation.character](../character/) to use as indentation per one list level"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/txtlistindentation/count/
 ---
 

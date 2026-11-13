@@ -5,7 +5,7 @@ articleTitle: BookmarkStart constructor
 second_title: Aspose.Words for Python
 description: "BookmarkStart constructor. Initializes a new instance of the [BookmarkStart](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/bookmarkstart/__init__/
 ---
 

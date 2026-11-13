@@ -5,7 +5,7 @@ articleTitle: short_citation property
 second_title: Aspose.Words for Python
 description: "FieldTA.short_citation property. Gets or sets the short citation for the entry."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fieldta/short_citation/
 ---
 

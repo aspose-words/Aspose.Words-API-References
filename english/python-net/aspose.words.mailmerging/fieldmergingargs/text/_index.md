@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "FieldMergingArgs.text property. Gets or sets the text that will be inserted into the document for the current merge field."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.mailmerging/fieldmergingargs/text/
 ---
 

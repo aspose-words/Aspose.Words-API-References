@@ -5,7 +5,7 @@ articleTitle: font_settings property
 second_title: Aspose.Words for Python
 description: "ProcessorContext.font_settings property. Font settings used by the processor."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lowcode/processorcontext/font_settings/
 ---
 

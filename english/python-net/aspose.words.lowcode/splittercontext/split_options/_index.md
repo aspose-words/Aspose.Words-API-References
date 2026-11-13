@@ -5,7 +5,7 @@ articleTitle: split_options property
 second_title: Aspose.Words for Python
 description: "SplitterContext.split_options property. Document split options."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/splittercontext/split_options/
 ---
 

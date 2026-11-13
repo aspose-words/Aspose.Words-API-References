@@ -5,7 +5,7 @@ articleTitle: parent_node property
 second_title: Aspose.Words for Python
 description: "Revision.parent_node property. Gets the immediate parent node (owner) of this revision"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/revision/parent_node/
 ---
 

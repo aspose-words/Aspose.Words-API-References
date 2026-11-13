@@ -5,7 +5,7 @@ articleTitle: CustomXmlSchemaCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.markup.CustomXmlSchemaCollection class. A collection of strings that represent XML schemas that are associated with a custom XML part"
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.markup/customxmlschemacollection/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FieldCitation class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldCitation class. Implements the CITATION field"
 type: docs
-weight: 220
+weight: 4400
 url: /python-net/aspose.words.fields/fieldcitation/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: allow_embedding_post_script_fonts property
 second_title: Aspose.Words for Python
 description: "SaveOptions.allow_embedding_post_script_fonts property. Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/saveoptions/allow_embedding_post_script_fonts/
 ---
 

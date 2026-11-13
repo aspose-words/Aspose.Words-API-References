@@ -5,7 +5,7 @@ articleTitle: visit_structured_document_tag_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_structured_document_tag_start method. Called when enumeration of a structured document tag has started."
 type: docs
-weight: 470
+weight: 14100
 url: /python-net/aspose.words/documentvisitor/visit_structured_document_tag_start/
 ---
 

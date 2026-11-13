@@ -5,7 +5,7 @@ articleTitle: tiff_frames method
 second_title: Aspose.Words for Python
 description: "MultiPageLayout.tiff_frames method. Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.saving/multipagelayout/tiff_frames/
 ---
 

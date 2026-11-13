@@ -5,7 +5,7 @@ articleTitle: horizontal_anchor property
 second_title: Aspose.Words for Python
 description: "Table.horizontal_anchor property. Gets the base object from which the horizontal positioning of floating table should be calculated"
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.tables/table/horizontal_anchor/
 ---
 

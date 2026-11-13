@@ -5,7 +5,7 @@ articleTitle: remove_tab_stop method
 second_title: Aspose.Words for Python
 description: "ListLevel.remove_tab_stop method. Removes tab stop from the list level."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words.lists/listlevel/remove_tab_stop/
 ---
 

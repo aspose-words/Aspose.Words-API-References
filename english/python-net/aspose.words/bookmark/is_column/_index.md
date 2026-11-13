@@ -5,7 +5,7 @@ articleTitle: is_column property
 second_title: Aspose.Words for Python
 description: "Bookmark.is_column property. Returns ``True`` if this bookmark is a table column bookmark."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/bookmark/is_column/
 ---
 

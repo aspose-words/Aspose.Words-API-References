@@ -5,7 +5,7 @@ articleTitle: region_start_tag property
 second_title: Aspose.Words for Python
 description: "MailMerge.region_start_tag property. Gets or sets a mail merge region start tag."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.mailmerging/mailmerge/region_start_tag/
 ---
 

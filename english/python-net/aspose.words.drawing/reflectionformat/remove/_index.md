@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "ReflectionFormat.remove method. Removes [ReflectionFormat](../) from the parent object."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing/reflectionformat/remove/
 ---
 

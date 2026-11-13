@@ -5,7 +5,7 @@ articleTitle: cells property
 second_title: Aspose.Words for Python
 description: "Row.cells property. Provides typed access to the [Cell](../../cell/) child nodes of the row."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.tables/row/cells/
 ---
 

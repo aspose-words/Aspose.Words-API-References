@@ -5,7 +5,7 @@ articleTitle: insert_group_shape method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_group_shape method"
 type: docs
-weight: 360
+weight: 10800
 url: /python-net/aspose.words/documentbuilder/insert_group_shape/
 ---
 
