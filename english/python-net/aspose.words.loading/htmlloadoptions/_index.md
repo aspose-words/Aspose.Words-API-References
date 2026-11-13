@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.loading/htmlloadoptions/
 ---
 

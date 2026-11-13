@@ -5,7 +5,7 @@ articleTitle: as_field_comments method
 second_title: Aspose.Words for Python
 description: "Field.as_field_comments method. Cast Field to [FieldComments](../../fieldcomments/)."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words.fields/field/as_field_comments/
 ---
 

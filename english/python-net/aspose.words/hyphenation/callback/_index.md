@@ -5,7 +5,7 @@ articleTitle: callback property
 second_title: Aspose.Words for Python
 description: "Hyphenation.callback property. Gets or sets callback interface used to request dictionaries when page layout of the document is built"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/hyphenation/callback/
 ---
 

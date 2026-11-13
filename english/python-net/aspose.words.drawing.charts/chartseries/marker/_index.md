@@ -5,7 +5,7 @@ articleTitle: marker property
 second_title: Aspose.Words for Python
 description: "ChartSeries.marker property. Specifies a data marker"
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.drawing.charts/chartseries/marker/
 ---
 

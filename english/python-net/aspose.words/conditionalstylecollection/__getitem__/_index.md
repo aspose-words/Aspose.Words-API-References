@@ -5,7 +5,7 @@ articleTitle: ConditionalStyleCollection indexer
 second_title: Aspose.Words for Python
 description: "ConditionalStyleCollection indexer. Retrieves a [ConditionalStyle](../../conditionalstyle/) object by index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/conditionalstylecollection/__getitem__/
 ---
 

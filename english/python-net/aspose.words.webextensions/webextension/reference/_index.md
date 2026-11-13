@@ -5,7 +5,7 @@ articleTitle: reference property
 second_title: Aspose.Words for Python
 description: "WebExtension.reference property. Specifies the primary reference to an web extension."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.webextensions/webextension/reference/
 ---
 

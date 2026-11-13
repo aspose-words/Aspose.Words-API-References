@@ -5,7 +5,7 @@ articleTitle: performer property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.performer property. Gets or sets the performer of a source."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.bibliography/contributorcollection/performer/
 ---
 

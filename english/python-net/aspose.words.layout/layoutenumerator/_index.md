@@ -5,7 +5,7 @@ articleTitle: LayoutEnumerator class
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.LayoutEnumerator class. Enumerates page layout entities of a document."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.layout/layoutenumerator/
 ---
 

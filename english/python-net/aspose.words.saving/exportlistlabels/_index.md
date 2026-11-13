@@ -5,7 +5,7 @@ articleTitle: ExportListLabels enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.ExportListLabels enumeration. Specifies how list labels are exported to HTML, MHTML and EPUB."
 type: docs
-weight: 190
+weight: 3800
 url: /python-net/aspose.words.saving/exportlistlabels/
 ---
 

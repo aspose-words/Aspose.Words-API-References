@@ -5,7 +5,7 @@ articleTitle: as_field_index method
 second_title: Aspose.Words for Python
 description: "Field.as_field_index method. Cast Field to [FieldIndex](../../fieldindex/)."
 type: docs
-weight: 570
+weight: 17100
 url: /python-net/aspose.words.fields/field/as_field_index/
 ---
 

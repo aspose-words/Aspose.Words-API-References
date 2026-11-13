@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "LayoutCollector.document property. Gets or sets the document this collector instance is attached to."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.layout/layoutcollector/document/
 ---
 

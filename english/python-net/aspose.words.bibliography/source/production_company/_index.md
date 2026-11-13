@@ -5,7 +5,7 @@ articleTitle: production_company property
 second_title: Aspose.Words for Python
 description: "Source.production_company property. Gets or sets the production company of a source."
 type: docs
-weight: 340
+weight: 10200
 url: /python-net/aspose.words.bibliography/source/production_company/
 ---
 

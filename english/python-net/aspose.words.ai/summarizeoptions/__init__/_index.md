@@ -5,7 +5,7 @@ articleTitle: SummarizeOptions constructor
 second_title: Aspose.Words for Python
 description: "SummarizeOptions constructor. Initializes a new instances of [SummarizeOptions](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.ai/summarizeoptions/__init__/
 ---
 

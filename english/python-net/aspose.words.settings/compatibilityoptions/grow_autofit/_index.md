@@ -5,7 +5,7 @@ articleTitle: grow_autofit property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.grow_autofit property. Allow Tables to AutoFit Into Page Margins."
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words.settings/compatibilityoptions/grow_autofit/
 ---
 

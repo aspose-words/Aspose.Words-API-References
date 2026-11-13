@@ -5,7 +5,7 @@ articleTitle: FieldBibliography class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldBibliography class. Implements the BIBLIOGRAPHY field"
 type: docs
-weight: 180
+weight: 3600
 url: /python-net/aspose.words.fields/fieldbibliography/
 ---
 

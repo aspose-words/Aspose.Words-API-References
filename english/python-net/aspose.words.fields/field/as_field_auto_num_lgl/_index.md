@@ -5,7 +5,7 @@ articleTitle: as_field_auto_num_lgl method
 second_title: Aspose.Words for Python
 description: "Field.as_field_auto_num_lgl method. Cast Field to [FieldAutoNumLgl](../../fieldautonumlgl/)."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.fields/field/as_field_auto_num_lgl/
 ---
 

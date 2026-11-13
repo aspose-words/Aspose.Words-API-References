@@ -5,7 +5,7 @@ articleTitle: as_group_shape method
 second_title: Aspose.Words for Python
 description: "Node.as_group_shape method. Cast Node to [GroupShape](../../../aspose.words.drawing/groupshape/)."
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words/node/as_group_shape/
 ---
 

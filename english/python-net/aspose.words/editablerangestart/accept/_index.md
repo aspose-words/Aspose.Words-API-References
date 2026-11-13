@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "EditableRangeStart.accept method. Accepts a visitor."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/editablerangestart/accept/
 ---
 

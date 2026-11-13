@@ -5,7 +5,7 @@ articleTitle: set_image method
 second_title: Aspose.Words for Python
 description: "aspose.words.Watermark.set_image method"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/watermark/set_image/
 ---
 

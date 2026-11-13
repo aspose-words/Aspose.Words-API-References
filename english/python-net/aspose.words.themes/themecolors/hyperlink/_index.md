@@ -5,7 +5,7 @@ articleTitle: hyperlink property
 second_title: Aspose.Words for Python
 description: "ThemeColors.hyperlink property. Specifies color for a hyperlink."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.themes/themecolors/hyperlink/
 ---
 

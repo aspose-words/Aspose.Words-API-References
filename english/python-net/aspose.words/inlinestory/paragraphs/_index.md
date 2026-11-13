@@ -5,7 +5,7 @@ articleTitle: paragraphs property
 second_title: Aspose.Words for Python
 description: "InlineStory.paragraphs property. Gets a collection of paragraphs that are immediate children of the story."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/inlinestory/paragraphs/
 ---
 

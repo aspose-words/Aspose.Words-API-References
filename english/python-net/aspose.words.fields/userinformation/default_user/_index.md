@@ -5,7 +5,7 @@ articleTitle: default_user property
 second_title: Aspose.Words for Python
 description: "UserInformation.default_user property. Default user information."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/userinformation/default_user/
 ---
 

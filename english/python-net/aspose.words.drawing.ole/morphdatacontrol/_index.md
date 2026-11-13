@@ -5,7 +5,7 @@ articleTitle: MorphDataControl class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.MorphDataControl class. The MorphDataControl structure is an aggregate of six controls: CheckBox, ComboBox, ListBox, OptionButton, TextBox, and ToggleButton."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.drawing.ole/morphdatacontrol/
 ---
 

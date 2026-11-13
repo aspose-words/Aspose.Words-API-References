@@ -5,7 +5,7 @@ articleTitle: is_frame_link_to_file property
 second_title: Aspose.Words for Python
 description: "Frameset.is_frame_link_to_file property. Gets or sets a value indicating whether the web page or document file name specified in the [Frameset.frame_default_url](../frame_default_url/) property is an external resource the frame is linked with."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.framesets/frameset/is_frame_link_to_file/
 ---
 

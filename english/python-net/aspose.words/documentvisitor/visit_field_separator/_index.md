@@ -5,7 +5,7 @@ articleTitle: visit_field_separator method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_field_separator method. Called when a field separator is encountered in the document."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words/documentvisitor/visit_field_separator/
 ---
 

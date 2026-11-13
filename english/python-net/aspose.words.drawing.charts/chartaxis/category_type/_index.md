@@ -5,7 +5,7 @@ articleTitle: category_type property
 second_title: Aspose.Words for Python
 description: "ChartAxis.category_type property. Gets or sets type of the category axis."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartaxis/category_type/
 ---
 

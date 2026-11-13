@@ -5,7 +5,7 @@ articleTitle: HeaderFooter constructor
 second_title: Aspose.Words for Python
 description: "HeaderFooter constructor. Creates a new header or footer of the specified type."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/headerfooter/__init__/
 ---
 

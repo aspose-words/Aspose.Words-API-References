@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "OleControl.name property. Gets or sets name of the ActiveX control."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.ole/olecontrol/name/
 ---
 

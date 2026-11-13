@@ -5,7 +5,7 @@ articleTitle: space_after property
 second_title: Aspose.Words for Python
 description: "TextColumn.space_after property. Gets or sets the space between this column and the next column in points"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/textcolumn/space_after/
 ---
 

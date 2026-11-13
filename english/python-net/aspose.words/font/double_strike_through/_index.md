@@ -5,7 +5,7 @@ articleTitle: double_strike_through property
 second_title: Aspose.Words for Python
 description: "Font.double_strike_through property. True if the font is formatted as double strikethrough text."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/font/double_strike_through/
 ---
 

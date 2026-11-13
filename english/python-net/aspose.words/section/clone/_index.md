@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Python
 description: "aspose.words.Section.clone method"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/section/clone/
 ---
 

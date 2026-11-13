@@ -5,7 +5,7 @@ articleTitle: permissions property
 second_title: Aspose.Words for Python
 description: "PdfEncryptionDetails.permissions property. Specifies the operations that are allowed to a user on an encrypted PDF document"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
 

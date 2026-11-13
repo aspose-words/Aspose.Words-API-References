@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "SpecialChar.node_type property. Returns [NodeType.SPECIAL_CHAR](../../nodetype/#SPECIAL_CHAR)."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/specialchar/node_type/
 ---
 

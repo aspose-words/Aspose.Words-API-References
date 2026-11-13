@@ -5,7 +5,7 @@ articleTitle: bytes property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.bytes property. Represents an estimate of the number of bytes in the document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.properties/builtindocumentproperties/bytes/
 ---
 

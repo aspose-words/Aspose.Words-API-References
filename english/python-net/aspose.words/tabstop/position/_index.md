@@ -5,7 +5,7 @@ articleTitle: position property
 second_title: Aspose.Words for Python
 description: "TabStop.position property. Gets the position of the tab stop in points."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/tabstop/position/
 ---
 

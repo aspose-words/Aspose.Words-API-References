@@ -5,7 +5,7 @@ articleTitle: content_type_to_save_format method
 second_title: Aspose.Words for Python
 description: "FileFormatUtil.content_type_to_save_format method. Converts IANA content type into a save format enumerated value."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/fileformatutil/content_type_to_save_format/
 ---
 

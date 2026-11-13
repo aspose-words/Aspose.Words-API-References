@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "TextPath.text property. Defines the text of the text path."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.drawing/textpath/text/
 ---
 

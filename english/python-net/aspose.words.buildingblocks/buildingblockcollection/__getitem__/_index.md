@@ -5,7 +5,7 @@ articleTitle: BuildingBlockCollection indexer
 second_title: Aspose.Words for Python
 description: "BuildingBlockCollection indexer. Retrieves a building block at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.buildingblocks/buildingblockcollection/__getitem__/
 ---
 

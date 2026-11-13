@@ -5,7 +5,7 @@ articleTitle: entry_separator property
 second_title: Aspose.Words for Python
 description: "FieldToc.entry_separator property. Gets or sets a sequence of characters that separate an entry and its page number."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fieldtoc/entry_separator/
 ---
 

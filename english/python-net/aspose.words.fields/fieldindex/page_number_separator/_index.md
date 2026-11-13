@@ -5,7 +5,7 @@ articleTitle: page_number_separator property
 second_title: Aspose.Words for Python
 description: "FieldIndex.page_number_separator property. Gets or sets the character sequence that is used to separate an index entry and its page number."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.fields/fieldindex/page_number_separator/
 ---
 

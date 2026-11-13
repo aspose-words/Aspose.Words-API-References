@@ -5,7 +5,7 @@ articleTitle: exit_macro property
 second_title: Aspose.Words for Python
 description: "FormField.exit_macro property. Returns or sets an exit macro name for the form field."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/formfield/exit_macro/
 ---
 

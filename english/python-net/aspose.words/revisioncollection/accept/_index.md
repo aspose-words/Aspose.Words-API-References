@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "RevisionCollection.accept method. Accepts revisions that match specified criteria."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/revisioncollection/accept/
 ---
 

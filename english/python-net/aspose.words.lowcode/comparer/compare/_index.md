@@ -5,7 +5,7 @@ articleTitle: compare method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Comparer.compare method"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lowcode/comparer/compare/
 ---
 

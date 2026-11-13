@@ -5,7 +5,7 @@ articleTitle: uri property
 second_title: Aspose.Words for Python
 description: "SmartTag.uri property. Specifies the namespace URI of the smart tag."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.markup/smarttag/uri/
 ---
 

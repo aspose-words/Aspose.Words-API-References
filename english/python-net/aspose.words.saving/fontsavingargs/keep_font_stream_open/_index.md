@@ -5,7 +5,7 @@ articleTitle: keep_font_stream_open property
 second_title: Aspose.Words for Python
 description: "FontSavingArgs.keep_font_stream_open property. Specifies whether Aspose.Words should keep the stream open or close it after saving a font."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.saving/fontsavingargs/keep_font_stream_open/
 ---
 

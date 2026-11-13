@@ -5,7 +5,7 @@ articleTitle: SplitterContext class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.SplitterContext class. Document splitter context."
 type: docs
-weight: 230
+weight: 4600
 url: /python-net/aspose.words.lowcode/splittercontext/
 ---
 

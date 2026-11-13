@@ -5,7 +5,7 @@ articleTitle: as_structured_document_tag_range_start method
 second_title: Aspose.Words for Python
 description: "Node.as_structured_document_tag_range_start method. Cast Node to [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/)."
 type: docs
-weight: 400
+weight: 12000
 url: /python-net/aspose.words/node/as_structured_document_tag_range_start/
 ---
 

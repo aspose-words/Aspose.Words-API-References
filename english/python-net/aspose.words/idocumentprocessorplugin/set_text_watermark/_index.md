@@ -5,7 +5,7 @@ articleTitle: set_text_watermark method
 second_title: Aspose.Words for Python
 description: "IDocumentProcessorPlugin.set_text_watermark method. Adds text watermark on each page of the document loaded by [IDocumentProcessorPlugin.load()](../load/#bytesio_loadoptions) method."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/idocumentprocessorplugin/set_text_watermark/
 ---
 

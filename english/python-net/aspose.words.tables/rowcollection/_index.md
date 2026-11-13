@@ -5,7 +5,7 @@ articleTitle: RowCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.RowCollection class. Provides typed access to a collection of [Row](../row/) nodes"
 type: docs
-weight: 100
+weight: 2000
 url: /python-net/aspose.words.tables/rowcollection/
 ---
 

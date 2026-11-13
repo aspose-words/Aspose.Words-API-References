@@ -5,7 +5,7 @@ articleTitle: NON_BREAKING_HYPHEN_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.NON_BREAKING_HYPHEN_CHAR property. Non-breaking Hyphen in Microsoft Word is (char)30."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words/controlchar/NON_BREAKING_HYPHEN_CHAR/
 ---
 

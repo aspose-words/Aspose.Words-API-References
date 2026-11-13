@@ -5,7 +5,7 @@ articleTitle: format property
 second_title: Aspose.Words for Python
 description: "ChartAxisTitle.format property. Provides access to fill and line formatting of the axis title."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartaxistitle/format/
 ---
 

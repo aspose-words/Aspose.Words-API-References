@@ -5,7 +5,7 @@ articleTitle: CleanupOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.CleanupOptions class. Allows to specify options for document cleaning"
 type: docs
-weight: 160
+weight: 3200
 url: /python-net/aspose.words/cleanupoptions/
 ---
 
@@ -27,7 +27,8 @@ To learn more, visit the [Clean Up a Document](https://docs.aspose.com/words/pyt
 | Name | Description |
 | --- | --- |
 | [duplicate_style](./duplicate_style/) | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is ``False``. |
-| [unused_builtin_styles](./unused_builtin_styles/) | Specifies that unused [Style.built_in](../style/built_in/) styles should be removed from document. |
+| [symbolic_fonts](./symbolic_fonts/) | Specifies that symbolic fonts (Symbol, Wingdings, etc...) should be replaced using appropriate Unicode fonts. Default value is ``False``. |
+| [unused_builtin_styles](./unused_builtin_styles/) | Specifies that unused [Style.built_in](../style/built_in/) styles should be removed from document. Default value is ``False``. |
 | [unused_lists](./unused_lists/) | Specifies whether unused list and list definitions should be removed from document. Default value is ``True``. |
 | [unused_styles](./unused_styles/) | Specifies whether unused styles should be removed from document. Default value is ``True``. |
 

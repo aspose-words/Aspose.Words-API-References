@@ -5,7 +5,7 @@ articleTitle: outline_options property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.outline_options property. Allows to specify outline options."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words.saving/pdfsaveoptions/outline_options/
 ---
 

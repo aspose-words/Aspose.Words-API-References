@@ -5,7 +5,7 @@ articleTitle: image_size property
 second_title: Aspose.Words for Python
 description: "ImageData.image_size property. Gets the information about image size and resolution."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.drawing/imagedata/image_size/
 ---
 

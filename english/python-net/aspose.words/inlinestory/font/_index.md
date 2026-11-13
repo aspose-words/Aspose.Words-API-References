@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "InlineStory.font property. Provides access to the font formatting of the anchor character of this object."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/inlinestory/font/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_check_box_control method
 second_title: Aspose.Words for Python
 description: "OleControl.as_check_box_control method. Cast OleControl to [CheckBoxControl](../../checkboxcontrol/)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.ole/olecontrol/as_check_box_control/
 ---
 

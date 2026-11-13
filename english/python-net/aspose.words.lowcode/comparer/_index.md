@@ -5,7 +5,7 @@ articleTitle: Comparer class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Comparer class. Provides methods intended to compare documents."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.lowcode/comparer/
 ---
 

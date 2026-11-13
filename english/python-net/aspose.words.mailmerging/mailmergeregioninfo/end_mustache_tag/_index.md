@@ -5,7 +5,7 @@ articleTitle: end_mustache_tag property
 second_title: Aspose.Words for Python
 description: "MailMergeRegionInfo.end_mustache_tag property. Returns an end mustache tag for the region."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/end_mustache_tag/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: is_bold property
 second_title: Aspose.Words for Python
 description: "FieldXE.is_bold property. Gets or sets whether to apply bold formatting to the entry's page number."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldxe/is_bold/
 ---
 

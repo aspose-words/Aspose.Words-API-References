@@ -5,7 +5,7 @@ articleTitle: rotate_letters property
 second_title: Aspose.Words for Python
 description: "TextPath.rotate_letters property. Determines whether the letters of the text are rotated."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.drawing/textpath/rotate_letters/
 ---
 

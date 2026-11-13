@@ -5,7 +5,7 @@ articleTitle: measure_unit property
 second_title: Aspose.Words for Python
 description: "OdtSaveOptions.measure_unit property. Allows to specify units of measure to apply to document content"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/odtsaveoptions/measure_unit/
 ---
 

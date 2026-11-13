@@ -5,7 +5,7 @@ articleTitle: auto_update property
 second_title: Aspose.Words for Python
 description: "OleFormat.auto_update property. Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/oleformat/auto_update/
 ---
 

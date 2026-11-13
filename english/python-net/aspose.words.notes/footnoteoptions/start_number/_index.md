@@ -5,7 +5,7 @@ articleTitle: start_number property
 second_title: Aspose.Words for Python
 description: "FootnoteOptions.start_number property. Specifies the starting number or character for the first automatically numbered footnotes."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.notes/footnoteoptions/start_number/
 ---
 

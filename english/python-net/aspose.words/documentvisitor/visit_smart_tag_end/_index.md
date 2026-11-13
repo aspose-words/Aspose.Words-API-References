@@ -5,7 +5,7 @@ articleTitle: visit_smart_tag_end method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_smart_tag_end method. Called when enumeration of a smart tag has ended."
 type: docs
-weight: 410
+weight: 12300
 url: /python-net/aspose.words/documentvisitor/visit_smart_tag_end/
 ---
 

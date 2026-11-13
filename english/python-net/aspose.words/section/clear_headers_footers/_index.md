@@ -5,7 +5,7 @@ articleTitle: clear_headers_footers method
 second_title: Aspose.Words for Python
 description: "aspose.words.Section.clear_headers_footers method"
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/section/clear_headers_footers/
 ---
 

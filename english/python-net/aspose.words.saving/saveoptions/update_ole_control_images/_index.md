@@ -5,7 +5,7 @@ articleTitle: update_ole_control_images property
 second_title: Aspose.Words for Python
 description: "SaveOptions.update_ole_control_images property. Gets or sets a value determining whether OLE controls presentation image will be updated."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.saving/saveoptions/update_ole_control_images/
 ---
 

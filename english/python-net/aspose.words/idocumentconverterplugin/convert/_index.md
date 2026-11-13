@@ -5,7 +5,7 @@ articleTitle: convert method
 second_title: Aspose.Words for Python
 description: "IDocumentConverterPlugin.convert method. Converts document using specified input output streams and save options."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/idocumentconverterplugin/convert/
 ---
 

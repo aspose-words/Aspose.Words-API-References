@@ -5,7 +5,7 @@ articleTitle: use_word2010_table_style_rules property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.use_word2010_table_style_rules property. Specifies to use Word2010 table style rules."
 type: docs
-weight: 670
+weight: 20100
 url: /python-net/aspose.words.settings/compatibilityoptions/use_word2010_table_style_rules/
 ---
 

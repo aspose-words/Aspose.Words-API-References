@@ -5,7 +5,7 @@ articleTitle: foreground_pattern_theme_color property
 second_title: Aspose.Words for Python
 description: "Shading.foreground_pattern_theme_color property. Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../) object."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/shading/foreground_pattern_theme_color/
 ---
 

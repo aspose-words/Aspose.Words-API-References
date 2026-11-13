@@ -5,7 +5,7 @@ articleTitle: display_text property
 second_title: Aspose.Words for Python
 description: "FieldMergeBarcode.display_text property. Gets or sets whether to display barcode data (text) along with image."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fieldmergebarcode/display_text/
 ---
 

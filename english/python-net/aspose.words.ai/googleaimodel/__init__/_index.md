@@ -5,7 +5,7 @@ articleTitle: GoogleAiModel constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.GoogleAiModel constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.ai/googleaimodel/__init__/
 ---
 

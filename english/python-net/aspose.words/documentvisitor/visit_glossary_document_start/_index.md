@@ -5,7 +5,7 @@ articleTitle: visit_glossary_document_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_glossary_document_start method. Called when enumeration of a glossary document has started."
 type: docs
-weight: 250
+weight: 7500
 url: /python-net/aspose.words/documentvisitor/visit_glossary_document_start/
 ---
 

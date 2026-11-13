@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "ResourceSavingArgs.document property. Gets the document object that is currently being saved."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/resourcesavingargs/document/
 ---
 

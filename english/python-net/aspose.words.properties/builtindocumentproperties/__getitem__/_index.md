@@ -5,7 +5,7 @@ articleTitle: BuiltInDocumentProperties indexer
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties indexer. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.properties/builtindocumentproperties/__getitem__/
 ---
 

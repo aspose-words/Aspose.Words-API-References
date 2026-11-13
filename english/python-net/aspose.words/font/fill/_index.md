@@ -5,7 +5,7 @@ articleTitle: fill property
 second_title: Aspose.Words for Python
 description: "Font.fill property. Gets fill formatting for the [Font](../)."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words/font/fill/
 ---
 

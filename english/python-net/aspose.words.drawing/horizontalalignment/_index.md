@@ -5,7 +5,7 @@ articleTitle: HorizontalAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.HorizontalAlignment enumeration. Specifies horizontal alignment of a floating shape, text frame or floating table."
 type: docs
-weight: 170
+weight: 3400
 url: /python-net/aspose.words.drawing/horizontalalignment/
 ---
 

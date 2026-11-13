@@ -5,7 +5,7 @@ articleTitle: equals method
 second_title: Aspose.Words for Python
 description: "BorderCollection.equals method. Compares collections of borders."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/bordercollection/equals/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: result property
 second_title: Aspose.Words for Python
 description: "ComparisonEvaluationResult.result property. Gets the comparison evaluation result."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/comparisonevaluationresult/result/
 ---
 

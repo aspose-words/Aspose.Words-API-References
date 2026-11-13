@@ -5,7 +5,7 @@ articleTitle: default_font_substitution property
 second_title: Aspose.Words for Python
 description: "FontSubstitutionSettings.default_font_substitution property. Settings related to default font substitution rule."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/fontsubstitutionsettings/default_font_substitution/
 ---
 

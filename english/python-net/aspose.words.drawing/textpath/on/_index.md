@@ -5,7 +5,7 @@ articleTitle: on property
 second_title: Aspose.Words for Python
 description: "TextPath.on property. Defines whether the text is displayed."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing/textpath/on/
 ---
 

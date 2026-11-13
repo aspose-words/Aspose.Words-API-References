@@ -5,7 +5,7 @@ articleTitle: as_option_button_control method
 second_title: Aspose.Words for Python
 description: "OleControl.as_option_button_control method. Cast OleControl to [OptionButtonControl](../../optionbuttoncontrol/)."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.ole/olecontrol/as_option_button_control/
 ---
 

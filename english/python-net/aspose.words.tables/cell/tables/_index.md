@@ -5,7 +5,7 @@ articleTitle: tables property
 second_title: Aspose.Words for Python
 description: "Cell.tables property. Gets a collection of tables that are immediate children of the cell."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.tables/cell/tables/
 ---
 

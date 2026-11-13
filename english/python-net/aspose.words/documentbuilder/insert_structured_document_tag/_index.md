@@ -5,7 +5,7 @@ articleTitle: insert_structured_document_tag method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_structured_document_tag method. Inserts a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) into the document."
 type: docs
-weight: 480
+weight: 14400
 url: /python-net/aspose.words/documentbuilder/insert_structured_document_tag/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: RevisionColor enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.RevisionColor enumeration. Allows to specify color of document revisions."
 type: docs
-weight: 100
+weight: 2000
 url: /python-net/aspose.words.layout/revisioncolor/
 ---
 

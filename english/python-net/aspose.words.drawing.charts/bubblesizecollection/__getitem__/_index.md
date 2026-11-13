@@ -5,7 +5,7 @@ articleTitle: BubbleSizeCollection indexer
 second_title: Aspose.Words for Python
 description: "BubbleSizeCollection indexer. Gets or sets the bubble size value at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/bubblesizecollection/__getitem__/
 ---
 

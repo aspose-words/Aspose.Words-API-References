@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "CustomXmlSchemaCollection.remove method. Removes the specified value from the collection."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.markup/customxmlschemacollection/remove/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: notify method
 second_title: Aspose.Words for Python
 description: "IDocumentLoadingCallback.notify method. This is called to notify of document loading progress."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 

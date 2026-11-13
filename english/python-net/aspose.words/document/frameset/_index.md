@@ -5,7 +5,7 @@ articleTitle: frameset property
 second_title: Aspose.Words for Python
 description: "Document.frameset property. Returns a [Document.frameset](./) instance if this document represents a frames page."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words/document/frameset/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: use_paragraph_outline_level property
 second_title: Aspose.Words for Python
 description: "FieldToc.use_paragraph_outline_level property. Gets or sets whether to use the applied paragraph outline level."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.fields/fieldtoc/use_paragraph_outline_level/
 ---
 

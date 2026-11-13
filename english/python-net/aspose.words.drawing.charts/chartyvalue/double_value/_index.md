@@ -5,7 +5,7 @@ articleTitle: double_value property
 second_title: Aspose.Words for Python
 description: "ChartYValue.double_value property. Gets the stored numeric value."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartyvalue/double_value/
 ---
 

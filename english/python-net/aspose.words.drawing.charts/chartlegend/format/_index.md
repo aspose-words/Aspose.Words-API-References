@@ -5,7 +5,7 @@ articleTitle: format property
 second_title: Aspose.Words for Python
 description: "ChartLegend.format property. Provides access to fill and line formatting of the legend."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartlegend/format/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FieldSeq class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldSeq class. Implements the SEQ field"
 type: docs
-weight: 930
+weight: 18600
 url: /python-net/aspose.words.fields/fieldseq/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: restart_lists_at_each_section property
 second_title: Aspose.Words for Python
 description: "MailMerge.restart_lists_at_each_section property. Gets or sets a value indicating whether lists are restarted at each section after executing of a mail merge."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.mailmerging/mailmerge/restart_lists_at_each_section/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: base_color property
 second_title: Aspose.Words for Python
 description: "GradientStop.base_color property. Gets a value representing the color of the gradient stop without any modifiers."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/gradientstop/base_color/
 ---
 

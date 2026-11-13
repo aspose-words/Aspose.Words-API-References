@@ -5,7 +5,7 @@ articleTitle: add_single_level_list method
 second_title: Aspose.Words for Python
 description: "ListCollection.add_single_level_list method. Creates a new single level list based on the predefined template and adds it to the list collection in the document."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.lists/listcollection/add_single_level_list/
 ---
 

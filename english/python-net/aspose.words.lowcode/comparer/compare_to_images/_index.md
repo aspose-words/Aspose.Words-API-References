@@ -5,7 +5,7 @@ articleTitle: compare_to_images method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Comparer.compare_to_images method"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/comparer/compare_to_images/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ignore_textboxes property
 second_title: Aspose.Words for Python
 description: "CompareOptions.ignore_textboxes property. Specifies whether to compare differences in the data contained within text boxes."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.comparing/compareoptions/ignore_textboxes/
 ---
 

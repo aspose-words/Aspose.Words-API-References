@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "FormField.type property. Returns the form field type."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words.fields/formfield/type/
 ---
 

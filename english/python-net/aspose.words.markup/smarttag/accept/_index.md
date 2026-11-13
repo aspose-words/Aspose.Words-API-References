@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "SmartTag.accept method. Accepts a visitor."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.markup/smarttag/accept/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "BookmarkStart.accept method. Accepts a visitor."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/bookmarkstart/accept/
 ---
 

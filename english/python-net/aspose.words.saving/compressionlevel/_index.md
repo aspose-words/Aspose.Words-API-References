@@ -5,7 +5,7 @@ articleTitle: CompressionLevel enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.CompressionLevel enumeration. Compression level for OOXML and XPS files"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.saving/compressionlevel/
 ---
 

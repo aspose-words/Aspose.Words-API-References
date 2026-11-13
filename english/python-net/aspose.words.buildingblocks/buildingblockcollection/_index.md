@@ -5,7 +5,7 @@ articleTitle: BuildingBlockCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.buildingblocks.BuildingBlockCollection class. A collection of [BuildingBlock](../buildingblock/) objects in the document"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 

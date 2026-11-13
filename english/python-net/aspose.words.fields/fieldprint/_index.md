@@ -5,7 +5,7 @@ articleTitle: FieldPrint class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldPrint class. Implements the PRINT field"
 type: docs
-weight: 820
+weight: 16400
 url: /python-net/aspose.words.fields/fieldprint/
 ---
 

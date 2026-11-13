@@ -5,7 +5,7 @@ articleTitle: get_by_border_type method
 second_title: Aspose.Words for Python
 description: "BorderCollection.get_by_border_type method. Retrieves a [Border](../../border/) object by border type."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words/bordercollection/get_by_border_type/
 ---
 

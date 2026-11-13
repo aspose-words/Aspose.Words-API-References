@@ -5,7 +5,7 @@ articleTitle: inch_to_point method
 second_title: Aspose.Words for Python
 description: "ConvertUtil.inch_to_point method. Converts inches to points."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/convertutil/inch_to_point/
 ---
 

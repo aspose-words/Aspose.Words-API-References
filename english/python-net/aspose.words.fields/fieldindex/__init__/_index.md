@@ -5,7 +5,7 @@ articleTitle: FieldIndex constructor
 second_title: Aspose.Words for Python
 description: "FieldIndex constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldindex/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: first property
 second_title: Aspose.Words for Python
 description: "Person.first property. Gets or sets the first name of a person."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.bibliography/person/first/
 ---
 

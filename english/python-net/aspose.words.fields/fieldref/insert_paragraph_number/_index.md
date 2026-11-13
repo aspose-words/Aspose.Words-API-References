@@ -5,7 +5,7 @@ articleTitle: insert_paragraph_number property
 second_title: Aspose.Words for Python
 description: "FieldRef.insert_paragraph_number property. Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldref/insert_paragraph_number/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Compatibility enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.settings.Compatibility enumeration. Specifies names of compatibility options."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.settings/compatibility/
 ---
 

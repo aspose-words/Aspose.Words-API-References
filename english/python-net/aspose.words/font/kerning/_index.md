@@ -5,7 +5,7 @@ articleTitle: kerning property
 second_title: Aspose.Words for Python
 description: "Font.kerning property. Gets or sets the font size at which kerning starts."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words/font/kerning/
 ---
 

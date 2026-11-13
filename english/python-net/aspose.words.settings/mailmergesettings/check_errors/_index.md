@@ -5,7 +5,7 @@ articleTitle: check_errors property
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.check_errors property. Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.settings/mailmergesettings/check_errors/
 ---
 

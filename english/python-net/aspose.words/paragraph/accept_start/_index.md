@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "Paragraph.accept_start method. Accepts a visitor for visiting the start of the document's paragraph."
 type: docs
-weight: 250
+weight: 7500
 url: /python-net/aspose.words/paragraph/accept_start/
 ---
 

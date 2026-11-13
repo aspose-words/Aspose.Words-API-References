@@ -5,7 +5,7 @@ articleTitle: SectionCollection indexer
 second_title: Aspose.Words for Python
 description: "SectionCollection indexer. Retrieves a section at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/sectioncollection/__getitem__/
 ---
 

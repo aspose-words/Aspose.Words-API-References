@@ -5,7 +5,7 @@ articleTitle: insert_image method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_image method"
 type: docs
-weight: 400
+weight: 12000
 url: /python-net/aspose.words/documentbuilder/insert_image/
 ---
 

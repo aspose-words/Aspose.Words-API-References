@@ -5,7 +5,7 @@ articleTitle: metafile_format property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.metafile_format property. Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB"
 type: docs
-weight: 380
+weight: 11400
 url: /python-net/aspose.words.saving/htmlsaveoptions/metafile_format/
 ---
 

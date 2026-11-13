@@ -5,7 +5,7 @@ articleTitle: distance_bottom property
 second_title: Aspose.Words for Python
 description: "ShapeBase.distance_bottom property. Returns or sets the distance (in points) between the document text and the bottom edge of the shape."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.drawing/shapebase/distance_bottom/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: previous property
 second_title: Aspose.Words for Python
 description: "TextBox.previous property. Returns a [TextBox](../) that represents the previous [TextBox](../) in a sequence of shapes."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.drawing/textbox/previous/
 ---
 

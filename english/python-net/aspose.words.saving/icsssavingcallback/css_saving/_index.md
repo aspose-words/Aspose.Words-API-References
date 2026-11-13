@@ -5,7 +5,7 @@ articleTitle: css_saving method
 second_title: Aspose.Words for Python
 description: "ICssSavingCallback.css_saving method. Called when Aspose.Words saves an CSS (Cascading Style Sheet)."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/icsssavingcallback/css_saving/
 ---
 

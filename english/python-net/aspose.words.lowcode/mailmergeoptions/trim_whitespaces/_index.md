@@ -5,7 +5,7 @@ articleTitle: trim_whitespaces property
 second_title: Aspose.Words for Python
 description: "MailMergeOptions.trim_whitespaces property. Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.lowcode/mailmergeoptions/trim_whitespaces/
 ---
 

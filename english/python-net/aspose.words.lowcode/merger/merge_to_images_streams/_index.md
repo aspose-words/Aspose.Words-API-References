@@ -5,7 +5,7 @@ articleTitle: merge_to_images_streams method
 second_title: Aspose.Words for Python
 description: "Merger.merge_to_images_streams method. Merges the given input document streams into a single output document using specified image save options"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.lowcode/merger/merge_to_images_streams/
 ---
 

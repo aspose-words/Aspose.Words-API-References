@@ -5,7 +5,7 @@ articleTitle: bitmap_embedding_only property
 second_title: Aspose.Words for Python
 description: "FontEmbeddingLicensingRights.bitmap_embedding_only property. Indicates the Bitmap embedding only restriction."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/fontembeddinglicensingrights/bitmap_embedding_only/
 ---
 

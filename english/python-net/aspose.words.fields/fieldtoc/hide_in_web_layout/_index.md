@@ -5,7 +5,7 @@ articleTitle: hide_in_web_layout property
 second_title: Aspose.Words for Python
 description: "FieldToc.hide_in_web_layout property. Gets or sets whether to hide tab leader and page numbers in Web layout view."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/fieldtoc/hide_in_web_layout/
 ---
 

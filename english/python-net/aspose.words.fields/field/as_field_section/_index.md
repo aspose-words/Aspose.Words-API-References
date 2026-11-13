@@ -5,7 +5,7 @@ articleTitle: as_field_section method
 second_title: Aspose.Words for Python
 description: "Field.as_field_section method. Cast Field to [FieldSection](../../fieldsection/)."
 type: docs
-weight: 850
+weight: 25500
 url: /python-net/aspose.words.fields/field/as_field_section/
 ---
 

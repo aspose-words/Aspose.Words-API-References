@@ -5,7 +5,7 @@ articleTitle: ShowInBalloons enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.ShowInBalloons enumeration. Specifies which revisions are rendered in balloons."
 type: docs
-weight: 130
+weight: 2600
 url: /python-net/aspose.words.layout/showinballoons/
 ---
 

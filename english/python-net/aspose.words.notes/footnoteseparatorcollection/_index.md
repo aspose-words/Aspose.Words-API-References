@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparatorCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.notes.FootnoteSeparatorCollection class. Provides typed access to [FootnoteSeparator](../footnoteseparator/) nodes of a document."
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.notes/footnoteseparatorcollection/
 ---
 

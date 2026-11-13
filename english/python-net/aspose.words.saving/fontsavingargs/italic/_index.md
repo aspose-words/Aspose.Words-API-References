@@ -5,7 +5,7 @@ articleTitle: italic property
 second_title: Aspose.Words for Python
 description: "FontSavingArgs.italic property. Indicates whether the current font is italic."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.saving/fontsavingargs/italic/
 ---
 

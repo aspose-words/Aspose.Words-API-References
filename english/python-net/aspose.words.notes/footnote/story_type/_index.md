@@ -5,7 +5,7 @@ articleTitle: story_type property
 second_title: Aspose.Words for Python
 description: "Footnote.story_type property. Returns [StoryType.FOOTNOTES](../../../aspose.words/storytype/#FOOTNOTES) or [StoryType.ENDNOTES](../../../aspose.words/storytype/#ENDNOTES)."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.notes/footnote/story_type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: body property
 second_title: Aspose.Words for Python
 description: "Section.body property. Returns the [Body](../../body/) child node of the section."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/section/body/
 ---
 

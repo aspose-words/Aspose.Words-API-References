@@ -5,7 +5,7 @@ articleTitle: to_array method
 second_title: Aspose.Words for Python
 description: "CellCollection.to_array method. Copies all cells from the collection to a new array of cells."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.tables/cellcollection/to_array/
 ---
 

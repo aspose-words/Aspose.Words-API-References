@@ -5,7 +5,7 @@ articleTitle: source_type property
 second_title: Aspose.Words for Python
 description: "Source.source_type property. Gets or sets the source type of a source."
 type: docs
-weight: 410
+weight: 12300
 url: /python-net/aspose.words.bibliography/source/source_type/
 ---
 

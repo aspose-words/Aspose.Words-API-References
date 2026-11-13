@@ -5,7 +5,7 @@ articleTitle: AutoFitBehavior enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.AutoFitBehavior enumeration. Determines how Aspose.Words resizes the table when you invoke the [Table.auto_fit()](../table/auto_fit/#autofitbehavior) method."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.tables/autofitbehavior/
 ---
 

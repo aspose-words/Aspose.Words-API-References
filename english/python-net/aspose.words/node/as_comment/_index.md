@@ -5,7 +5,7 @@ articleTitle: as_comment method
 second_title: Aspose.Words for Python
 description: "Node.as_comment method. Cast Node to [Comment](../../comment/)."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/node/as_comment/
 ---
 

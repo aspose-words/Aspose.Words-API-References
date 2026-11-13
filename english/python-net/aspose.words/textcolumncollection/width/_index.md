@@ -5,7 +5,7 @@ articleTitle: width property
 second_title: Aspose.Words for Python
 description: "TextColumnCollection.width property. When columns are evenly spaced, gets the width of the columns."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/textcolumncollection/width/
 ---
 

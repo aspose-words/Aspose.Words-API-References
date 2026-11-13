@@ -5,7 +5,7 @@ articleTitle: as_office_math method
 second_title: Aspose.Words for Python
 description: "Node.as_office_math method. Cast Node to [OfficeMath](../../../aspose.words.math/officemath/)."
 type: docs
-weight: 300
+weight: 9000
 url: /python-net/aspose.words/node/as_office_math/
 ---
 

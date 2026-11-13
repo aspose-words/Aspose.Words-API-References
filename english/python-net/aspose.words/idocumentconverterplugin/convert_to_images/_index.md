@@ -5,7 +5,7 @@ articleTitle: convert_to_images method
 second_title: Aspose.Words for Python
 description: "IDocumentConverterPlugin.convert_to_images method. Converts pages from document from input stream to array of images."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/idocumentconverterplugin/convert_to_images/
 ---
 

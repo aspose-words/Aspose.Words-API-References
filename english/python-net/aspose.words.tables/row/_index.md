@@ -5,7 +5,7 @@ articleTitle: Row class
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.Row class. Represents a table row"
 type: docs
-weight: 90
+weight: 1800
 url: /python-net/aspose.words.tables/row/
 ---
 

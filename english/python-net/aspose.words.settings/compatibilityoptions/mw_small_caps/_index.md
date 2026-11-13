@@ -5,7 +5,7 @@ articleTitle: mw_small_caps property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.mw_small_caps property. Emulate Word 5.x for the Macintosh Small Caps Formatting."
 type: docs
-weight: 320
+weight: 9600
 url: /python-net/aspose.words.settings/compatibilityoptions/mw_small_caps/
 ---
 

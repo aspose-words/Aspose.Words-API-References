@@ -5,7 +5,7 @@ articleTitle: CheckGrammarOptions constructor
 second_title: Aspose.Words for Python
 description: "CheckGrammarOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.ai/checkgrammaroptions/__init__/
 ---
 

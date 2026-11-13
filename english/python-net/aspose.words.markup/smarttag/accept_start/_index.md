@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "SmartTag.accept_start method. Accepts a visitor for visiting the start of the SmartTag."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.markup/smarttag/accept_start/
 ---
 

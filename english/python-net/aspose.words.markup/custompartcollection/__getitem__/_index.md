@@ -5,7 +5,7 @@ articleTitle: CustomPartCollection indexer
 second_title: Aspose.Words for Python
 description: "CustomPartCollection indexer. Gets or sets an item at the specified index."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.markup/custompartcollection/__getitem__/
 ---
 

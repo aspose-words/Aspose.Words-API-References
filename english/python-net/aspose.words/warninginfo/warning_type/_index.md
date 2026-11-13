@@ -5,7 +5,7 @@ articleTitle: warning_type property
 second_title: Aspose.Words for Python
 description: "WarningInfo.warning_type property. Returns the type of the warning."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/warninginfo/warning_type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: page_width property
 second_title: Aspose.Words for Python
 description: "PageSetup.page_width property. Returns or sets the width of the page in points."
 type: docs
-weight: 340
+weight: 10200
 url: /python-net/aspose.words/pagesetup/page_width/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Python
 description: "Node.clone method. Creates a duplicate of the node."
 type: docs
-weight: 430
+weight: 12900
 url: /python-net/aspose.words/node/clone/
 ---
 

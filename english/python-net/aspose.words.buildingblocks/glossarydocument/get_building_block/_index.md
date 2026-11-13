@@ -5,7 +5,7 @@ articleTitle: get_building_block method
 second_title: Aspose.Words for Python
 description: "GlossaryDocument.get_building_block method. Finds a building block using the specified gallery, category and name."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.buildingblocks/glossarydocument/get_building_block/
 ---
 

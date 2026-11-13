@@ -5,7 +5,7 @@ articleTitle: layout property
 second_title: Aspose.Words for Python
 description: "TextWatermarkOptions.layout property. Gets or sets layout of the watermark"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/textwatermarkoptions/layout/
 ---
 

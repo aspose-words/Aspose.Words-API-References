@@ -5,7 +5,7 @@ articleTitle: password property
 second_title: Aspose.Words for Python
 description: "OoxmlSaveOptions.password property. Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/password/
 ---
 

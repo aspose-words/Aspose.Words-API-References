@@ -5,7 +5,7 @@ articleTitle: export_embedded_images property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.export_embedded_images property. Specifies whether images should be embedded into Html document in Base64 format"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/export_embedded_images/
 ---
 

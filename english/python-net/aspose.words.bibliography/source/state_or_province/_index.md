@@ -5,7 +5,7 @@ articleTitle: state_or_province property
 second_title: Aspose.Words for Python
 description: "Source.state_or_province property. Gets or sets the state or province of a source."
 type: docs
-weight: 430
+weight: 12900
 url: /python-net/aspose.words.bibliography/source/state_or_province/
 ---
 

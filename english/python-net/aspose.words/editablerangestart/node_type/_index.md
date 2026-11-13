@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "EditableRangeStart.node_type property. Returns [NodeType.EDITABLE_RANGE_START](../../nodetype/#EDITABLE_RANGE_START)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/editablerangestart/node_type/
 ---
 

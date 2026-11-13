@@ -5,7 +5,7 @@ articleTitle: BlockImportMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.BlockImportMode enumeration. Specifies how properties of block-level elements are imported from HTML-based documents."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.loading/blockimportmode/
 ---
 

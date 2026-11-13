@@ -5,7 +5,7 @@ articleTitle: as_body method
 second_title: Aspose.Words for Python
 description: "Node.as_body method. Cast Node to [Body](../../body/)."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/node/as_body/
 ---
 

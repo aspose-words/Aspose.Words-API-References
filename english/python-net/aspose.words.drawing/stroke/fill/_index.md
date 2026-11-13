@@ -5,7 +5,7 @@ articleTitle: fill property
 second_title: Aspose.Words for Python
 description: "Stroke.fill property. Gets fill formatting for the [Stroke](../)."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.drawing/stroke/fill/
 ---
 

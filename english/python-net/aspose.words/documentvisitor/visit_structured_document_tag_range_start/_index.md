@@ -5,7 +5,7 @@ articleTitle: visit_structured_document_tag_range_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_structured_document_tag_range_start method. Called when a StructuredDocumentTagRangeStart is encountered."
 type: docs
-weight: 460
+weight: 13800
 url: /python-net/aspose.words/documentvisitor/visit_structured_document_tag_range_start/
 ---
 

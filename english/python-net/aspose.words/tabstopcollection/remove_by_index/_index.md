@@ -5,7 +5,7 @@ articleTitle: remove_by_index method
 second_title: Aspose.Words for Python
 description: "TabStopCollection.remove_by_index method. Removes a tab stop at the specified index from the collection."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/tabstopcollection/remove_by_index/
 ---
 

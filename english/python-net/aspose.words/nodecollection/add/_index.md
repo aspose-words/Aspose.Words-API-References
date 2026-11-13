@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "NodeCollection.add method. Adds a node to the end of the collection."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/nodecollection/add/
 ---
 

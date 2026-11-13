@@ -5,7 +5,7 @@ articleTitle: get_embedded_font method
 second_title: Aspose.Words for Python
 description: "FontInfo.get_embedded_font method. Gets a specific embedded font file."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fonts/fontinfo/get_embedded_font/
 ---
 

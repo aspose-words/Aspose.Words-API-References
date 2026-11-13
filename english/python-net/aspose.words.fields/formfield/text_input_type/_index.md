@@ -5,7 +5,7 @@ articleTitle: text_input_type property
 second_title: Aspose.Words for Python
 description: "FormField.text_input_type property. Gets or sets the type of a text form field."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.fields/formfield/text_input_type/
 ---
 

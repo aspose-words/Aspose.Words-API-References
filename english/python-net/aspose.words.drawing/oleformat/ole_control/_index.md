@@ -5,7 +5,7 @@ articleTitle: ole_control property
 second_title: Aspose.Words for Python
 description: "OleFormat.ole_control property. Gets [OleFormat.ole_control](./) objects if this OLE object is an ActiveX control"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing/oleformat/ole_control/
 ---
 

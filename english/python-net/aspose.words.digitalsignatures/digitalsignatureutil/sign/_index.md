@@ -5,7 +5,7 @@ articleTitle: sign method
 second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.DigitalSignatureUtil.sign method"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 

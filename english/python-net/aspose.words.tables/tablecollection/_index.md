@@ -5,7 +5,7 @@ articleTitle: TableCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.TableCollection class. Provides typed access to a collection of [Table](../table/) nodes"
 type: docs
-weight: 140
+weight: 2800
 url: /python-net/aspose.words.tables/tablecollection/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: CommentDisplayMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.CommentDisplayMode enumeration. Specifies the rendering mode for document comments."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.layout/commentdisplaymode/
 ---
 

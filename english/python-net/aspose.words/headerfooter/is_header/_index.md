@@ -5,7 +5,7 @@ articleTitle: is_header property
 second_title: Aspose.Words for Python
 description: "HeaderFooter.is_header property. True if this [HeaderFooter](../) object is a header."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/headerfooter/is_header/
 ---
 

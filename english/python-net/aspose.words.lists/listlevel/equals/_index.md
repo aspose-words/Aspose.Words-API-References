@@ -5,7 +5,7 @@ articleTitle: equals method
 second_title: Aspose.Words for Python
 description: "ListLevel.equals method. Compares with the specified ListLevel."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.lists/listlevel/equals/
 ---
 

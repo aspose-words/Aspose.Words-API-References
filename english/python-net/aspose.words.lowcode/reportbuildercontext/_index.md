@@ -5,7 +5,7 @@ articleTitle: ReportBuilderContext class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.ReportBuilderContext class. LINQ Reporting Engine context."
 type: docs
-weight: 170
+weight: 3400
 url: /python-net/aspose.words.lowcode/reportbuildercontext/
 ---
 

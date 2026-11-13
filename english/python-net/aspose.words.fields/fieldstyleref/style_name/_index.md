@@ -5,7 +5,7 @@ articleTitle: style_name property
 second_title: Aspose.Words for Python
 description: "FieldStyleRef.style_name property. Gets or sets the name of the style by which the text to search for is formatted."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fieldstyleref/style_name/
 ---
 

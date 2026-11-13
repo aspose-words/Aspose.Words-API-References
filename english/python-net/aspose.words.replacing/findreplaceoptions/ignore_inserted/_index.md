@@ -5,7 +5,7 @@ articleTitle: ignore_inserted property
 second_title: Aspose.Words for Python
 description: "FindReplaceOptions.ignore_inserted property. Gets or sets a boolean value indicating either to ignore text inside insert revisions"
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_inserted/
 ---
 

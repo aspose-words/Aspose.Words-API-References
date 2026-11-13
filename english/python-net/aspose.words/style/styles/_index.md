@@ -5,7 +5,7 @@ articleTitle: styles property
 second_title: Aspose.Words for Python
 description: "Style.styles property. Gets the collection of styles this style belongs to."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words/style/styles/
 ---
 

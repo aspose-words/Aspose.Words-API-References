@@ -5,7 +5,7 @@ articleTitle: FieldRef constructor
 second_title: Aspose.Words for Python
 description: "FieldRef constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldref/__init__/
 ---
 

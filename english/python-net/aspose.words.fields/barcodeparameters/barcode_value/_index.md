@@ -5,7 +5,7 @@ articleTitle: barcode_value property
 second_title: Aspose.Words for Python
 description: "BarcodeParameters.barcode_value property. Data to be encoded."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/barcodeparameters/barcode_value/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "Body.node_type property. Returns [NodeType.BODY](../../nodetype/#BODY)."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/body/node_type/
 ---
 

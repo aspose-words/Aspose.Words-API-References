@@ -5,7 +5,7 @@ articleTitle: is_auto_spacing property
 second_title: Aspose.Words for Python
 description: "AxisTickLabels.is_auto_spacing property. Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/axisticklabels/is_auto_spacing/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: HeaderFooterType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.HeaderFooterType enumeration. Identifies the type of header or footer found in a Word file."
 type: docs
-weight: 500
+weight: 10000
 url: /python-net/aspose.words/headerfootertype/
 ---
 

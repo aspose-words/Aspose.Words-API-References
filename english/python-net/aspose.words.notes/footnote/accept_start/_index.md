@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "Footnote.accept_start method. Accepts a visitor for visiting the start of the footnote."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.notes/footnote/accept_start/
 ---
 

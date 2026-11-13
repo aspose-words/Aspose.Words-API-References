@@ -5,7 +5,7 @@ articleTitle: short_title property
 second_title: Aspose.Words for Python
 description: "Source.short_title property. Gets or sets the short title of a source."
 type: docs
-weight: 400
+weight: 12000
 url: /python-net/aspose.words.bibliography/source/short_title/
 ---
 

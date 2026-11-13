@@ -5,7 +5,7 @@ articleTitle: OoxmlSaveOptions constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.OoxmlSaveOptions constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/__init__/
 ---
 

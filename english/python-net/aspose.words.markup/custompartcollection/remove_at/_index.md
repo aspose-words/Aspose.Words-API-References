@@ -5,7 +5,7 @@ articleTitle: remove_at method
 second_title: Aspose.Words for Python
 description: "CustomPartCollection.remove_at method. Removes an item at the specified index."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.markup/custompartcollection/remove_at/
 ---
 

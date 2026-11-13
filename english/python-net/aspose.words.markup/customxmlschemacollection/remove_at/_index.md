@@ -5,7 +5,7 @@ articleTitle: remove_at method
 second_title: Aspose.Words for Python
 description: "CustomXmlSchemaCollection.remove_at method. Removes a value at the specified index."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.markup/customxmlschemacollection/remove_at/
 ---
 

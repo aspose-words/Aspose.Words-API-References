@@ -5,7 +5,7 @@ articleTitle: rotation property
 second_title: Aspose.Words for Python
 description: "ChartDataLabelCollection.rotation property. Gets or sets the rotation of the data labels of the entire series in degrees."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/rotation/
 ---
 

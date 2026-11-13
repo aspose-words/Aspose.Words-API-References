@@ -5,7 +5,7 @@ articleTitle: export_form_fields property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.export_form_fields property. Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/export_form_fields/
 ---
 

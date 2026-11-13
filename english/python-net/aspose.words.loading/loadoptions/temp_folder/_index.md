@@ -5,7 +5,7 @@ articleTitle: temp_folder property
 second_title: Aspose.Words for Python
 description: "LoadOptions.temp_folder property. Allows to use temporary files when reading document"
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.loading/loadoptions/temp_folder/
 ---
 

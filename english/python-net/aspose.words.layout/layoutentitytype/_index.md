@@ -5,7 +5,7 @@ articleTitle: LayoutEntityType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.LayoutEntityType enumeration. Types of the layout entities."
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.layout/layoutentitytype/
 ---
 

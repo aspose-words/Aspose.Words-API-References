@@ -5,7 +5,7 @@ articleTitle: broadcaster property
 second_title: Aspose.Words for Python
 description: "Source.broadcaster property. Gets or sets the broadcaster of a source."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.bibliography/source/broadcaster/
 ---
 

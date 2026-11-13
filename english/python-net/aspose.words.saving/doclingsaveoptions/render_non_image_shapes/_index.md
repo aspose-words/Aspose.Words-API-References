@@ -5,7 +5,7 @@ articleTitle: render_non_image_shapes property
 second_title: Aspose.Words for Python
 description: "DoclingSaveOptions.render_non_image_shapes property. Gets or sets a value indicating whether non-image shapes should be rendered and written to the output Docling JSON document."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/doclingsaveoptions/render_non_image_shapes/
 ---
 

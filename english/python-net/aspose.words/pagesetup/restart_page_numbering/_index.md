@@ -5,7 +5,7 @@ articleTitle: restart_page_numbering property
 second_title: Aspose.Words for Python
 description: "PageSetup.restart_page_numbering property. True if page numbering restarts at the beginning of the section."
 type: docs
-weight: 360
+weight: 10800
 url: /python-net/aspose.words/pagesetup/restart_page_numbering/
 ---
 

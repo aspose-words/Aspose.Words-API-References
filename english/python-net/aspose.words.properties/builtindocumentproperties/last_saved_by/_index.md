@@ -5,7 +5,7 @@ articleTitle: last_saved_by property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.last_saved_by property. Gets or sets the name of the last author."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.properties/builtindocumentproperties/last_saved_by/
 ---
 

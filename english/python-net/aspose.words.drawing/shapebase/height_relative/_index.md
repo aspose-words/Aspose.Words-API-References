@@ -5,7 +5,7 @@ articleTitle: height_relative property
 second_title: Aspose.Words for Python
 description: "ShapeBase.height_relative property. Gets or sets the value that represents the percentage of shape's relative height."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words.drawing/shapebase/height_relative/
 ---
 

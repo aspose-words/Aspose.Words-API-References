@@ -5,7 +5,7 @@ articleTitle: aspose.words module
 second_title: Aspose.Words for Python
 description: "The aspose.words module provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word."
 type: docs
-weight: 10
+weight: 100
 url: /python-net/aspose.words/
 ---
 

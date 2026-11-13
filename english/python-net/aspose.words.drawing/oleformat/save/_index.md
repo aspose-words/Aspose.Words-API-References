@@ -5,7 +5,7 @@ articleTitle: save method
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.OleFormat.save method"
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.drawing/oleformat/save/
 ---
 

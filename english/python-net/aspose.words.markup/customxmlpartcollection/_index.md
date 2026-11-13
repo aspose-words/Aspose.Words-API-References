@@ -5,7 +5,7 @@ articleTitle: CustomXmlPartCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.markup.CustomXmlPartCollection class. Represents a collection of Custom XML Parts"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.markup/customxmlpartcollection/
 ---
 

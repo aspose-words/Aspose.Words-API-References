@@ -5,7 +5,7 @@ articleTitle: unconditional_merge_fields_and_regions property
 second_title: Aspose.Words for Python
 description: "MailMergeOptions.unconditional_merge_fields_and_regions property. Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.lowcode/mailmergeoptions/unconditional_merge_fields_and_regions/
 ---
 

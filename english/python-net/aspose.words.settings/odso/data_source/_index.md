@@ -5,7 +5,7 @@ articleTitle: data_source property
 second_title: Aspose.Words for Python
 description: "Odso.data_source property. Specifies the location of the external data source to be connected to a document to perform the mail merge"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.settings/odso/data_source/
 ---
 

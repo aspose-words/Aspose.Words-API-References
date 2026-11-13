@@ -5,7 +5,7 @@ articleTitle: as_composite_node method
 second_title: Aspose.Words for Python
 description: "Node.as_composite_node method. Cast Node to [CompositeNode](../../compositenode/)."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words/node/as_composite_node/
 ---
 

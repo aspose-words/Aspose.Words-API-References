@@ -5,7 +5,7 @@ articleTitle: allow_overlap property
 second_title: Aspose.Words for Python
 description: "ShapeBase.allow_overlap property. Gets or sets a value that specifies whether this shape can overlap other shapes."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/shapebase/allow_overlap/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Cell constructor
 second_title: Aspose.Words for Python
 description: "Cell constructor. Initializes a new instance of the [Cell](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.tables/cell/__init__/
 ---
 

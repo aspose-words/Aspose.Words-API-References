@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "TextBoxControl.text property. Gets or sets a text of the control."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.ole/textboxcontrol/text/
 ---
 

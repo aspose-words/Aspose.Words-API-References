@@ -5,7 +5,7 @@ articleTitle: NON_BREAKING_SPACE_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.NON_BREAKING_SPACE_CHAR property. Non-breaking space character: (char)160."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words/controlchar/NON_BREAKING_SPACE_CHAR/
 ---
 

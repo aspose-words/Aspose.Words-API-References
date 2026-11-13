@@ -5,7 +5,7 @@ articleTitle: story_type property
 second_title: Aspose.Words for Python
 description: "Story.story_type property. Gets the type of this story."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/story/story_type/
 ---
 

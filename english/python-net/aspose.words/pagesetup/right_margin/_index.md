@@ -5,7 +5,7 @@ articleTitle: right_margin property
 second_title: Aspose.Words for Python
 description: "PageSetup.right_margin property. Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text."
 type: docs
-weight: 370
+weight: 11100
 url: /python-net/aspose.words/pagesetup/right_margin/
 ---
 

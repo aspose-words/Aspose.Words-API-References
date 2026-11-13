@@ -5,7 +5,7 @@ articleTitle: placeholder_name property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.placeholder_name property. Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text."
 type: docs
-weight: 240
+weight: 7200
 url: /python-net/aspose.words.markup/structureddocumenttag/placeholder_name/
 ---
 

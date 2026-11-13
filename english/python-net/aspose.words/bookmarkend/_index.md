@@ -5,7 +5,7 @@ articleTitle: BookmarkEnd class
 second_title: Aspose.Words for Python
 description: "aspose.words.BookmarkEnd class. Represents an end of a bookmark in a Word document"
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words/bookmarkend/
 ---
 

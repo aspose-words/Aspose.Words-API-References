@@ -5,7 +5,7 @@ articleTitle: node_inserting method
 second_title: Aspose.Words for Python
 description: "INodeChangingCallback.node_inserting method. Called just before a node belonging to this document is about to be inserted into another node."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/inodechangingcallback/node_inserting/
 ---
 

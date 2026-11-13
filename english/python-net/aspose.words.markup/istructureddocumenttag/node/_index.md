@@ -5,7 +5,7 @@ articleTitle: node property
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.node property. Returns Node object that implements this interface."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.markup/istructureddocumenttag/node/
 ---
 

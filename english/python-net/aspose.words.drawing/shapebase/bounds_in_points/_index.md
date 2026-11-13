@@ -5,7 +5,7 @@ articleTitle: bounds_in_points property
 second_title: Aspose.Words for Python
 description: "ShapeBase.bounds_in_points property. Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.drawing/shapebase/bounds_in_points/
 ---
 

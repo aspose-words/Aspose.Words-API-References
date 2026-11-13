@@ -5,7 +5,7 @@ articleTitle: GroupShape class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.GroupShape class. Represents a group of shapes in a document"
 type: docs
-weight: 160
+weight: 3200
 url: /python-net/aspose.words.drawing/groupshape/
 ---
 

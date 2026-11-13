@@ -5,7 +5,7 @@ articleTitle: add_multilevel_value method
 second_title: Aspose.Words for Python
 description: "ChartSeriesCollection.add_multilevel_value method. Adds new [ChartSeries](../../chartseries/) to this collection"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/add_multilevel_value/
 ---
 

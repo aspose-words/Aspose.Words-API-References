@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "Range.text property. Gets the text of the range."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/range/text/
 ---
 

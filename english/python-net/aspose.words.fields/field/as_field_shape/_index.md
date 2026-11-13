@@ -5,7 +5,7 @@ articleTitle: as_field_shape method
 second_title: Aspose.Words for Python
 description: "Field.as_field_shape method. Cast Field to [FieldShape](../../fieldshape/)."
 type: docs
-weight: 890
+weight: 26700
 url: /python-net/aspose.words.fields/field/as_field_shape/
 ---
 

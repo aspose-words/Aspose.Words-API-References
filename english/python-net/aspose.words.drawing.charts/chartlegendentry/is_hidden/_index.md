@@ -5,7 +5,7 @@ articleTitle: is_hidden property
 second_title: Aspose.Words for Python
 description: "ChartLegendEntry.is_hidden property. Gets or sets a value indicating whether this entry is hidden in the chart legend"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartlegendentry/is_hidden/
 ---
 

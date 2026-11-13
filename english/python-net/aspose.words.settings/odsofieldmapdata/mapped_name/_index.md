@@ -5,7 +5,7 @@ articleTitle: mapped_name property
 second_title: Aspose.Words for Python
 description: "OdsoFieldMapData.mapped_name property. Specifies the predefined merge field name which shall be mapped to the column number  specified by the [OdsoFieldMapData.column](../column/) property within this field mapping"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.settings/odsofieldmapdata/mapped_name/
 ---
 

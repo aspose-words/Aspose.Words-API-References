@@ -5,7 +5,7 @@ articleTitle: DashStyle enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.DashStyle enumeration. Dashed line style."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.drawing/dashstyle/
 ---
 

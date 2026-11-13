@@ -5,7 +5,7 @@ articleTitle: resolution_threshold property
 second_title: Aspose.Words for Python
 description: "DownsampleOptions.resolution_threshold property. Specifies the threshold resolution in pixels per inch"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/downsampleoptions/resolution_threshold/
 ---
 

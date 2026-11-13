@@ -5,7 +5,7 @@ articleTitle: view_merged_data property
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.view_merged_data property. Specifies that Microsoft Word shall display the data from the specified external data source where merge fields  have been inserted (e.g"
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.settings/mailmergesettings/view_merged_data/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: odd_and_even_pages_header_footer property
 second_title: Aspose.Words for Python
 description: "PageSetup.odd_and_even_pages_header_footer property. True if the document has different headers and footers for odd-numbered and even-numbered pages."
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words/pagesetup/odd_and_even_pages_header_footer/
 ---
 

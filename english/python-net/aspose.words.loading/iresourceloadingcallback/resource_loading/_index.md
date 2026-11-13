@@ -5,7 +5,7 @@ articleTitle: resource_loading method
 second_title: Aspose.Words for Python
 description: "IResourceLoadingCallback.resource_loading method. Called when Aspose.Words loads any external resource."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.loading/iresourceloadingcallback/resource_loading/
 ---
 

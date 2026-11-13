@@ -5,7 +5,7 @@ articleTitle: thumbnail property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.thumbnail property. Gets or sets the thumbnail of the document."
 type: docs
-weight: 310
+weight: 9300
 url: /python-net/aspose.words.properties/builtindocumentproperties/thumbnail/
 ---
 

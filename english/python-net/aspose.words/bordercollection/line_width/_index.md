@@ -5,7 +5,7 @@ articleTitle: line_width property
 second_title: Aspose.Words for Python
 description: "BorderCollection.line_width property. Gets or sets the border width in points."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/bordercollection/line_width/
 ---
 

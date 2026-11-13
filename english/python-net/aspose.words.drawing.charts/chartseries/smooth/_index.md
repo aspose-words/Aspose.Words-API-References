@@ -5,7 +5,7 @@ articleTitle: smooth property
 second_title: Aspose.Words for Python
 description: "ChartSeries.smooth property. Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.drawing.charts/chartseries/smooth/
 ---
 

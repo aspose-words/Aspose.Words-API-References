@@ -5,7 +5,7 @@ articleTitle: restart_rule property
 second_title: Aspose.Words for Python
 description: "EndnoteOptions.restart_rule property. Determines when automatic numbering restarts."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.notes/endnoteoptions/restart_rule/
 ---
 

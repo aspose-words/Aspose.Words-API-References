@@ -5,7 +5,7 @@ articleTitle: OdsoRecipientDataCollection indexer
 second_title: Aspose.Words for Python
 description: "OdsoRecipientDataCollection indexer. Gets or sets an item in this collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.settings/odsorecipientdatacollection/__getitem__/
 ---
 

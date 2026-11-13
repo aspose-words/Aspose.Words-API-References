@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "HeaderFooter.accept_end method. Accepts a visitor for visiting the end of the header."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/headerfooter/accept_end/
 ---
 

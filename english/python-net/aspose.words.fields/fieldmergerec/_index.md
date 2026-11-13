@@ -5,7 +5,7 @@ articleTitle: FieldMergeRec class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldMergeRec class. Implements the MERGEREC field"
 type: docs
-weight: 700
+weight: 14000
 url: /python-net/aspose.words.fields/fieldmergerec/
 ---
 

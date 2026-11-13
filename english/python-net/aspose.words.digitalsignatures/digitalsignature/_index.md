@@ -5,7 +5,7 @@ articleTitle: DigitalSignature class
 second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.DigitalSignature class. Represents a digital signature on a document and the result of its verification"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: editor_group property
 second_title: Aspose.Words for Python
 description: "EditableRange.editor_group property. Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/editablerange/editor_group/
 ---
 

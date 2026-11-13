@@ -5,7 +5,7 @@ articleTitle: get_field_names method
 second_title: Aspose.Words for Python
 description: "FieldAddressBlock.get_field_names method. Returns a collection of mail merge field names used by the field."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fieldaddressblock/get_field_names/
 ---
 

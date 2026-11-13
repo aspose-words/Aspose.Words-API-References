@@ -5,7 +5,7 @@ articleTitle: total_fields_count property
 second_title: Aspose.Words for Python
 description: "FieldUpdatingProgressArgs.total_fields_count property. Gets the total fields count to be updated."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldupdatingprogressargs/total_fields_count/
 ---
 

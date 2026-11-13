@@ -5,7 +5,7 @@ articleTitle: do_not_display_page_boundaries property
 second_title: Aspose.Words for Python
 description: "ViewOptions.do_not_display_page_boundaries property. Turns off display of the space between the top of the text and the top edge of the page."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.settings/viewoptions/do_not_display_page_boundaries/
 ---
 

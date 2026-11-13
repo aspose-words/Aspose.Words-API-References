@@ -5,7 +5,7 @@ articleTitle: end_character_font property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.end_character_font property. Font formatting that will be applied to the last character of text entered into SDT."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.markup/structureddocumenttag/end_character_font/
 ---
 

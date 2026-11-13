@@ -5,7 +5,7 @@ articleTitle: unlink_pages_number_fields property
 second_title: Aspose.Words for Python
 description: "PageExtractOptions.unlink_pages_number_fields property. Specifies whether NUMPAGES fields in the resulting document will be replaced with their actual resulting values"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/pageextractoptions/unlink_pages_number_fields/
 ---
 

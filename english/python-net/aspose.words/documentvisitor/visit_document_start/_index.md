@@ -5,7 +5,7 @@ articleTitle: visit_document_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_document_start method. Called when enumeration of the document has started."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/documentvisitor/visit_document_start/
 ---
 

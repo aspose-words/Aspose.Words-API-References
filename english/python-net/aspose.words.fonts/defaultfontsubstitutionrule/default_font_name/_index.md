@@ -5,7 +5,7 @@ articleTitle: default_font_name property
 second_title: Aspose.Words for Python
 description: "DefaultFontSubstitutionRule.default_font_name property. Gets or sets the default font name."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/defaultfontsubstitutionrule/default_font_name/
 ---
 

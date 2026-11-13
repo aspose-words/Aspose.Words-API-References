@@ -5,7 +5,7 @@ articleTitle: field property
 second_title: Aspose.Words for Python
 description: "FieldMergingArgsBase.field property. Gets the object that represents the current merge field."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/field/
 ---
 

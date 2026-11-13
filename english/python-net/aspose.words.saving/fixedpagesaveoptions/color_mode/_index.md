@@ -5,7 +5,7 @@ articleTitle: color_mode property
 second_title: Aspose.Words for Python
 description: "FixedPageSaveOptions.color_mode property. Gets or sets a value determining how colors are rendered."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/color_mode/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "CustomXmlPropertyCollection.remove method. Removes a property with the specified name from the collection."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.markup/customxmlpropertycollection/remove/
 ---
 

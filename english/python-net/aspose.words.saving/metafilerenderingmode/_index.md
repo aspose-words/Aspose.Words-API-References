@@ -5,7 +5,7 @@ articleTitle: MetafileRenderingMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MetafileRenderingMode enumeration. Specifies how Aspose.Words should render WMF and EMF metafiles."
 type: docs
-weight: 490
+weight: 9800
 url: /python-net/aspose.words.saving/metafilerenderingmode/
 ---
 

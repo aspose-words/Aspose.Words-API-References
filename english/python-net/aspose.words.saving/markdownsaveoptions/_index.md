@@ -5,7 +5,7 @@ articleTitle: MarkdownSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format"
 type: docs
-weight: 480
+weight: 9600
 url: /python-net/aspose.words.saving/markdownsaveoptions/
 ---
 

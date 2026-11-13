@@ -5,7 +5,7 @@ articleTitle: value property
 second_title: Aspose.Words for Python
 description: "AxisBound.value property. Returns numeric value of axis bound."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/axisbound/value/
 ---
 

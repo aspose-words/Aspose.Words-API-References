@@ -5,7 +5,7 @@ articleTitle: entry_category property
 second_title: Aspose.Words for Python
 description: "FieldToa.entry_category property. Gets or sets the integral category for entries included in the table."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldtoa/entry_category/
 ---
 

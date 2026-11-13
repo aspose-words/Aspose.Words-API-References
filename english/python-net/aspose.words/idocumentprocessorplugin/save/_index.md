@@ -5,7 +5,7 @@ articleTitle: save method
 second_title: Aspose.Words for Python
 description: "IDocumentProcessorPlugin.save method. Save the document loaded by [IDocumentProcessorPlugin.load()](../load/#bytesio_loadoptions) method to the output stream using the specified save options."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/idocumentprocessorplugin/save/
 ---
 

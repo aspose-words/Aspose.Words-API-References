@@ -5,7 +5,7 @@ articleTitle: page_set property
 second_title: Aspose.Words for Python
 description: "FixedPageSaveOptions.page_set property. Gets or sets the pages to render"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/page_set/
 ---
 

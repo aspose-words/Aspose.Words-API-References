@@ -5,7 +5,7 @@ articleTitle: get_by_style_identifier method
 second_title: Aspose.Words for Python
 description: "StyleCollection.get_by_style_identifier method. Gets a built-in style by its locale independent identifier."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/stylecollection/get_by_style_identifier/
 ---
 

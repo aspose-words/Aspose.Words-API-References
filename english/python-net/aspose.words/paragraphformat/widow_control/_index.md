@@ -5,7 +5,7 @@ articleTitle: widow_control property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.widow_control property. True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph."
 type: docs
-weight: 410
+weight: 12300
 url: /python-net/aspose.words/paragraphformat/widow_control/
 ---
 

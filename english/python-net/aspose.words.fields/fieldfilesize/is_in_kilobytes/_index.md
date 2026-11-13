@@ -5,7 +5,7 @@ articleTitle: is_in_kilobytes property
 second_title: Aspose.Words for Python
 description: "FieldFileSize.is_in_kilobytes property. Gets or sets whether to display the file size in kilobytes."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldfilesize/is_in_kilobytes/
 ---
 

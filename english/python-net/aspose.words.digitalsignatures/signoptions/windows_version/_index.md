@@ -5,7 +5,7 @@ articleTitle: windows_version property
 second_title: Aspose.Words for Python
 description: "SignOptions.windows_version property. Gets or sets the Windows version for the digital signature"
 type: docs
-weight: 140
+weight: 3900
 url: /python-net/aspose.words.digitalsignatures/signoptions/windows_version/
 ---
 

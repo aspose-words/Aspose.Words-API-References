@@ -5,7 +5,7 @@ articleTitle: gray_scale property
 second_title: Aspose.Words for Python
 description: "ImageData.gray_scale property. Determines whether a picture will display in grayscale mode."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.drawing/imagedata/gray_scale/
 ---
 

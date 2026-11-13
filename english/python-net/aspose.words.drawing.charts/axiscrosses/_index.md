@@ -5,7 +5,7 @@ articleTitle: AxisCrosses enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisCrosses enumeration. Specifies the possible crossing points for an axis."
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.drawing.charts/axiscrosses/
 ---
 

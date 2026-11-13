@@ -5,7 +5,7 @@ articleTitle: all_caps property
 second_title: Aspose.Words for Python
 description: "Font.all_caps property. True if the font is formatted as all capital letters."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/font/all_caps/
 ---
 

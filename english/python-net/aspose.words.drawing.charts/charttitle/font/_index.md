@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "ChartTitle.font property. Provides access to the font formatting of the chart title."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/charttitle/font/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: cleanup_options property
 second_title: Aspose.Words for Python
 description: "MailMergeOptions.cleanup_options property. Gets or sets a set of flags that specify what items should be removed during mail merge."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/mailmergeoptions/cleanup_options/
 ---
 

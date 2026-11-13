@@ -5,7 +5,7 @@ articleTitle: check_box_size property
 second_title: Aspose.Words for Python
 description: "FormField.check_box_size property. Gets or sets the size of the checkbox in points"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/formfield/check_box_size/
 ---
 

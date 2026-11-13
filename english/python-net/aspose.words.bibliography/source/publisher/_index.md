@@ -5,7 +5,7 @@ articleTitle: publisher property
 second_title: Aspose.Words for Python
 description: "Source.publisher property. Gets or sets the publisher of a source."
 type: docs
-weight: 360
+weight: 10800
 url: /python-net/aspose.words.bibliography/source/publisher/
 ---
 

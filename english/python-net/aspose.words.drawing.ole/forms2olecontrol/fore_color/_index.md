@@ -5,7 +5,7 @@ articleTitle: fore_color property
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.fore_color property. Gets or sets a foreground color of the control"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/fore_color/
 ---
 

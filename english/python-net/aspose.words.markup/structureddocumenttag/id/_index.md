@@ -5,7 +5,7 @@ articleTitle: id property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.id property. Specifies a unique read-only persistent numerical Id for this SDT."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.markup/structureddocumenttag/id/
 ---
 

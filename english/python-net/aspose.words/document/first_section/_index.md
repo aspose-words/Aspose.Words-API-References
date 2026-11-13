@@ -5,7 +5,7 @@ articleTitle: first_section property
 second_title: Aspose.Words for Python
 description: "Document.first_section property. Gets the first section in the document."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words/document/first_section/
 ---
 

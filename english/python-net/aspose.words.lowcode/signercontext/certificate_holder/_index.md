@@ -5,7 +5,7 @@ articleTitle: certificate_holder property
 second_title: Aspose.Words for Python
 description: "SignerContext.certificate_holder property. CertificateHolder object with certificate that used to sign file."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/signercontext/certificate_holder/
 ---
 

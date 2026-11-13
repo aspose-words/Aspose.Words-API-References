@@ -5,7 +5,7 @@ articleTitle: fallback_settings property
 second_title: Aspose.Words for Python
 description: "FontSettings.fallback_settings property. Settings related to font fallback mechanism."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/fontsettings/fallback_settings/
 ---
 

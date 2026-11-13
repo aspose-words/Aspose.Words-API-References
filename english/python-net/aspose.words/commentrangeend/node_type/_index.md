@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "CommentRangeEnd.node_type property. Returns [NodeType.COMMENT_RANGE_END](../../nodetype/#COMMENT_RANGE_END)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/commentrangeend/node_type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: MailMergeDataSource class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.MailMergeDataSource class. Mail merge data source used for using in [MailMergerContext](../mailmergercontext/)."
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.lowcode/mailmergedatasource/
 ---
 

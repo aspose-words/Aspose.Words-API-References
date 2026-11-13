@@ -5,7 +5,7 @@ articleTitle: visit_comment_range_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_comment_range_start method. Called when the start of a commented range of text is encountered."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/documentvisitor/visit_comment_range_start/
 ---
 

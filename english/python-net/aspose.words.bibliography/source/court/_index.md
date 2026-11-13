@@ -5,7 +5,7 @@ articleTitle: court property
 second_title: Aspose.Words for Python
 description: "Source.court property. Gets or sets the court of a source."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.bibliography/source/court/
 ---
 

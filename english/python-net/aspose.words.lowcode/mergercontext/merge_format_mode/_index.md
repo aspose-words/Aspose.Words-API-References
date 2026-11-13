@@ -5,7 +5,7 @@ articleTitle: merge_format_mode property
 second_title: Aspose.Words for Python
 description: "MergerContext.merge_format_mode property. Specifies how to merge formatting that clashes."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/mergercontext/merge_format_mode/
 ---
 

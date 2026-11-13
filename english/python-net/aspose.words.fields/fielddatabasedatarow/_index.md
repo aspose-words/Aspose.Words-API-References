@@ -5,7 +5,7 @@ articleTitle: FieldDatabaseDataRow class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldDatabaseDataRow class. Provides data for the [FieldDatabase](../fielddatabase/) field result"
 type: docs
-weight: 290
+weight: 5800
 url: /python-net/aspose.words.fields/fielddatabasedatarow/
 ---
 

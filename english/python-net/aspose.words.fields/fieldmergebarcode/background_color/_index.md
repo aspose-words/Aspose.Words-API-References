@@ -5,7 +5,7 @@ articleTitle: background_color property
 second_title: Aspose.Words for Python
 description: "FieldMergeBarcode.background_color property. Gets or sets the background color of the barcode symbol"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldmergebarcode/background_color/
 ---
 

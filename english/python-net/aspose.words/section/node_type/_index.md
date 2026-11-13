@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "Section.node_type property. Returns [NodeType.SECTION](../../nodetype/#SECTION)."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/section/node_type/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: BuildingBlockGallery enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.buildingblocks.BuildingBlockGallery enumeration. Specifies the predefined gallery into which a building block is classified."
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.buildingblocks/buildingblockgallery/
 ---
 

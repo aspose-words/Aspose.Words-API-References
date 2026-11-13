@@ -5,7 +5,7 @@ articleTitle: visit_footnote_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_footnote_start method. Called when enumeration of a footnote or endnote text has started."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words/documentvisitor/visit_footnote_start/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_field_xe method
 second_title: Aspose.Words for Python
 description: "Field.as_field_xe method. Cast Field to [FieldXE](../../fieldxe/)."
 type: docs
-weight: 1050
+weight: 31500
 url: /python-net/aspose.words.fields/field/as_field_xe/
 ---
 

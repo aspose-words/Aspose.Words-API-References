@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.type property. Gets type of Forms 2.0 control."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/type/
 ---
 

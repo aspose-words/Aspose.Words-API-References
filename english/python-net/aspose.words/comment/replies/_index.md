@@ -5,7 +5,7 @@ articleTitle: replies property
 second_title: Aspose.Words for Python
 description: "Comment.replies property. Returns a collection of [Comment](../) objects that are immediate children of the specified comment."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/comment/replies/
 ---
 

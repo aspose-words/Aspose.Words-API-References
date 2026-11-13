@@ -5,7 +5,7 @@ articleTitle: is_dirty property
 second_title: Aspose.Words for Python
 description: "Field.is_dirty property. Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/field/is_dirty/
 ---
 

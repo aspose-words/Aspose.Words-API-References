@@ -5,7 +5,7 @@ articleTitle: y_values property
 second_title: Aspose.Words for Python
 description: "ChartSeries.y_values property. Gets a collection of Y values for this chart series."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.drawing.charts/chartseries/y_values/
 ---
 

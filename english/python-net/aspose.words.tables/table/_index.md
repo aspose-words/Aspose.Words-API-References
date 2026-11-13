@@ -5,7 +5,7 @@ articleTitle: Table class
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.Table class. Represents a table in a Word document"
 type: docs
-weight: 120
+weight: 2400
 url: /python-net/aspose.words.tables/table/
 ---
 

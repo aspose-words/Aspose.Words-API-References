@@ -5,7 +5,7 @@ articleTitle: old_parent property
 second_title: Aspose.Words for Python
 description: "NodeChangingArgs.old_parent property. Gets the node's parent before the operation began."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/nodechangingargs/old_parent/
 ---
 

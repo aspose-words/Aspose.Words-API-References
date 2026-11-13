@@ -5,7 +5,7 @@ articleTitle: TAB property
 second_title: Aspose.Words for Python
 description: "ControlChar.TAB property. Tab character: \\x0009 or \\t."
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words/controlchar/TAB/
 ---
 

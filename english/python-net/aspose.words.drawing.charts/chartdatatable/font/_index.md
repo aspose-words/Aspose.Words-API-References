@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "ChartDataTable.font property. Provides access to font formatting of the data table."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartdatatable/font/
 ---
 

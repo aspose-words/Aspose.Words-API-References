@@ -5,7 +5,7 @@ articleTitle: year_accessed property
 second_title: Aspose.Words for Python
 description: "Source.year_accessed property. Gets or sets the year accessed of a source."
 type: docs
-weight: 540
+weight: 16200
 url: /python-net/aspose.words.bibliography/source/year_accessed/
 ---
 

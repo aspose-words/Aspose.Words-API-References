@@ -5,7 +5,7 @@ articleTitle: id property
 second_title: Aspose.Words for Python
 description: "WebExtensionReference.id property. Identifier associated with the web extension within a catalog provider."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.webextensions/webextensionreference/id/
 ---
 

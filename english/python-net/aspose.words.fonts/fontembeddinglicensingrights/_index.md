@@ -5,7 +5,7 @@ articleTitle: FontEmbeddingLicensingRights class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontEmbeddingLicensingRights class. Represents embedding licensing rights for the font."
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.fonts/fontembeddinglicensingrights/
 ---
 

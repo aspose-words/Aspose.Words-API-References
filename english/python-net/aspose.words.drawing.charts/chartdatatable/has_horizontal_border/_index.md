@@ -5,7 +5,7 @@ articleTitle: has_horizontal_border property
 second_title: Aspose.Words for Python
 description: "ChartDataTable.has_horizontal_border property. Gets or sets a flag indicating whether a horizontal border of the data table is displayed"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartdatatable/has_horizontal_border/
 ---
 

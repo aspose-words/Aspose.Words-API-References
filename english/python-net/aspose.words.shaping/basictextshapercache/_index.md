@@ -5,7 +5,7 @@ articleTitle: BasicTextShaperCache class
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.BasicTextShaperCache class. Implements basic cache for [ITextShaper](../itextshaper/) instances"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.shaping/basictextshapercache/
 ---
 

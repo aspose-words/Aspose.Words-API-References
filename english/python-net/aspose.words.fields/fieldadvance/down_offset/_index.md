@@ -5,7 +5,7 @@ articleTitle: down_offset property
 second_title: Aspose.Words for Python
 description: "FieldAdvance.down_offset property. Gets or sets the number of points by which the text that follows the field should be moved down."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldadvance/down_offset/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: allow_auto_fit property
 second_title: Aspose.Words for Python
 description: "Table.allow_auto_fit property. Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.tables/table/allow_auto_fit/
 ---
 

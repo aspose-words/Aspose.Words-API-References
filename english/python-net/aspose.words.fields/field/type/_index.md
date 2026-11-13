@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "Field.type property. Gets the Microsoft Word field type."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.fields/field/type/
 ---
 

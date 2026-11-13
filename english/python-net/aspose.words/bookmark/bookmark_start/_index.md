@@ -5,7 +5,7 @@ articleTitle: bookmark_start property
 second_title: Aspose.Words for Python
 description: "Bookmark.bookmark_start property. Gets the node that represents the start of the bookmark."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/bookmark/bookmark_start/
 ---
 

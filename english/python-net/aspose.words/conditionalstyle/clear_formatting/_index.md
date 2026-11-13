@@ -5,7 +5,7 @@ articleTitle: clear_formatting method
 second_title: Aspose.Words for Python
 description: "ConditionalStyle.clear_formatting method. Clears formatting of this conditional style."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/conditionalstyle/clear_formatting/
 ---
 

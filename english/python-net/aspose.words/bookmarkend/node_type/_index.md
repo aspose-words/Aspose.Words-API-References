@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "BookmarkEnd.node_type property. Returns [NodeType.BOOKMARK_END](../../nodetype/#BOOKMARK_END)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/bookmarkend/node_type/
 ---
 
