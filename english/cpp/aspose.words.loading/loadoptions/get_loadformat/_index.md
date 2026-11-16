@@ -31,7 +31,7 @@ Shows how to specify a base URI when opening an html document.
 // We can provide a base URI using an HtmlLoadOptions object.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>(LoadFormat::Html, u"", get_ImageDir());
 
-ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
+ASSERT_EQ(loadOptions->get_LoadFormat(), LoadFormat::Html);
 
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing image.html", loadOptions);
 

@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Hello world!");
 
-ASSERT_EQ(u"Hello world!", doc->get_Range()->get_Text().Trim());
+ASSERT_EQ(doc->get_Range()->get_Text().Trim(), u"Hello world!");
 ```
 ## See Also
 

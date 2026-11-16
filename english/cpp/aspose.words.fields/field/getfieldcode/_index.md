@@ -27,8 +27,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-ASSERT_EQ(FieldType::FieldDate, field->get_Type());
-ASSERT_EQ((u"DATE \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
+ASSERT_EQ(field->get_Type(), FieldType::FieldDate);
+ASSERT_EQ(field->GetFieldCode(), (u"DATE \\@ \"dddd, MMMM dd, yyyy\""));
 
 // This overload of the InsertField method automatically updates inserted fields.
 ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);
@@ -43,13 +43,13 @@ auto fieldIf = System::ExplicitCast<Aspose::Words::Fields::FieldIf>(doc->get_Ran
 
 // There are two ways of getting a field's field code:
 // 1 -  Omit its inner fields:
-ASSERT_EQ(u" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf->GetFieldCode(false));
+ASSERT_EQ(fieldIf->GetFieldCode(false), u" IF  > 0 \" (surplus of ) \" \"\" ");
 
 // 2 -  Include its inner fields:
-ASSERT_EQ(System::String::Format(u" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ", System::MakeObject<System::Array<System::SharedPtr<System::Object>>>(0)), fieldIf->GetFieldCode(true));
+ASSERT_EQ(fieldIf->GetFieldCode(true), System::String::Format(u" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ", System::MakeObject<System::Array<System::SharedPtr<System::Object>>>(0)));
 
 // By default, the GetFieldCode method displays inner fields.
-ASSERT_EQ(fieldIf->GetFieldCode(), fieldIf->GetFieldCode(true));
+ASSERT_EQ(fieldIf->GetFieldCode(true), fieldIf->GetFieldCode());
 ```
 ## See Also
 
@@ -81,13 +81,13 @@ auto fieldIf = System::ExplicitCast<Aspose::Words::Fields::FieldIf>(doc->get_Ran
 
 // There are two ways of getting a field's field code:
 // 1 -  Omit its inner fields:
-ASSERT_EQ(u" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf->GetFieldCode(false));
+ASSERT_EQ(fieldIf->GetFieldCode(false), u" IF  > 0 \" (surplus of ) \" \"\" ");
 
 // 2 -  Include its inner fields:
-ASSERT_EQ(System::String::Format(u" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ", System::MakeObject<System::Array<System::SharedPtr<System::Object>>>(0)), fieldIf->GetFieldCode(true));
+ASSERT_EQ(fieldIf->GetFieldCode(true), System::String::Format(u" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ", System::MakeObject<System::Array<System::SharedPtr<System::Object>>>(0)));
 
 // By default, the GetFieldCode method displays inner fields.
-ASSERT_EQ(fieldIf->GetFieldCode(), fieldIf->GetFieldCode(true));
+ASSERT_EQ(fieldIf->GetFieldCode(true), fieldIf->GetFieldCode());
 ```
 ## See Also
 

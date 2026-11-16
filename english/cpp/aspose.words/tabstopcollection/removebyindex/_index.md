@@ -32,12 +32,12 @@ System::SharedPtr<Aspose::Words::TabStopCollection> tabStops = doc->get_FirstSec
 tabStops->Add(ConvertUtil::MillimeterToPoint(30), TabAlignment::Left, TabLeader::Dashes);
 tabStops->Add(ConvertUtil::MillimeterToPoint(60), TabAlignment::Left, TabLeader::Dashes);
 
-ASSERT_EQ(2, tabStops->get_Count());
+ASSERT_EQ(tabStops->get_Count(), 2);
 
 // Remove the first tab stop.
 tabStops->RemoveByIndex(0);
 
-ASSERT_EQ(1, tabStops->get_Count());
+ASSERT_EQ(tabStops->get_Count(), 1);
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.RemoveByIndex.docx");
 ```

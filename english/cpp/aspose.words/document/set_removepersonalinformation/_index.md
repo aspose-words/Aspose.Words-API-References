@@ -42,10 +42,10 @@ doc->set_RemovePersonalInformation(saveWithoutPersonalInfo);
 doc->Save(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx");
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx"));
 
-ASPOSE_ASSERT_EQ(saveWithoutPersonalInfo, doc->get_RemovePersonalInformation());
-ASSERT_EQ(u"John Doe", doc->get_BuiltInDocumentProperties()->get_Author());
-ASSERT_EQ(u"Placeholder Inc.", doc->get_BuiltInDocumentProperties()->get_Company());
-ASSERT_EQ(u"John Doe", doc->get_Revisions()->idx_get(0)->get_Author());
+ASPOSE_ASSERT_EQ(doc->get_RemovePersonalInformation(), saveWithoutPersonalInfo);
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Author(), u"John Doe");
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Company(), u"Placeholder Inc.");
+ASSERT_EQ(doc->get_Revisions()->idx_get(0)->get_Author(), u"John Doe");
 ```
 ## See Also
 

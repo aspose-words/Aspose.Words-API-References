@@ -31,8 +31,8 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldInfo>(builder->Ins
 field->set_InfoType(u"Comments");
 field->Update();
 
-ASSERT_EQ(u" INFO  Comments", field->GetFieldCode());
-ASSERT_EQ(u"My comment", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" INFO  Comments");
+ASSERT_EQ(field->get_Result(), u"My comment");
 
 builder->Writeln();
 
@@ -43,9 +43,9 @@ field->set_InfoType(u"Comments");
 field->set_NewValue(u"New comment");
 field->Update();
 
-ASSERT_EQ(u" INFO  Comments \"New comment\"", field->GetFieldCode());
-ASSERT_EQ(u"New comment", field->get_Result());
-ASSERT_EQ(u"New comment", doc->get_BuiltInDocumentProperties()->get_Comments());
+ASSERT_EQ(field->GetFieldCode(), u" INFO  Comments \"New comment\"");
+ASSERT_EQ(field->get_Result(), u"New comment");
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Comments(), u"New comment");
 
 doc->Save(get_ArtifactsDir() + u"Field.INFO.docx");
 ```

@@ -28,8 +28,8 @@ Shows how to retrieve details of a document's load operation.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
-ASSERT_EQ(get_MyDir() + u"Document.docx", doc->get_OriginalFileName());
-ASSERT_EQ(LoadFormat::Docx, doc->get_OriginalLoadFormat());
+ASSERT_EQ(doc->get_OriginalFileName(), get_MyDir() + u"Document.docx");
+ASSERT_EQ(doc->get_OriginalLoadFormat(), LoadFormat::Docx);
 ```
 ## See Also
 

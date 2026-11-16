@@ -27,7 +27,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // Structured document tags have IDs in the form of GUIDs.
 auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(doc->GetChild(NodeType::StructuredDocumentTag, 0, true));
 
-ASSERT_EQ(u"{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag->get_XmlMapping()->get_StoreItemId());
+ASSERT_EQ(tag->get_XmlMapping()->get_StoreItemId(), u"{F3029283-4FF8-4DD2-9F31-395F19ACEE85}");
 ```
 ## See Also
 

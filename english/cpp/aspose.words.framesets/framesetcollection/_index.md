@@ -29,11 +29,11 @@ class FramesetCollection : public System::Collections::Generic::IEnumerable<Syst
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Examples
 
 
@@ -43,12 +43,12 @@ Shows how to access frames on-page.
 // Document contains several frames with links to other documents.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Frameset.docx"));
 
-ASSERT_EQ(3, doc->get_Frameset()->get_ChildFramesets()->get_Count());
+ASSERT_EQ(doc->get_Frameset()->get_ChildFramesets()->get_Count(), 3);
 // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
-ASSERT_EQ(u"https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx", doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->get_FrameDefaultUrl());
+ASSERT_EQ(doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->get_FrameDefaultUrl(), u"https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx");
 ASSERT_TRUE(doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx_get(0)->get_IsFrameLinkToFile());
 
-ASSERT_EQ(u"Document.docx", doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_FrameDefaultUrl());
+ASSERT_EQ(doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_FrameDefaultUrl(), u"Document.docx");
 ASSERT_FALSE(doc->get_Frameset()->get_ChildFramesets()->idx_get(1)->get_IsFrameLinkToFile());
 
 // Change properties for one of our frames.

@@ -50,13 +50,13 @@ dstDoc->InsertNode(System::MakeObject<Aspose::Words::BookmarkStart>(dstDoc->get_
 dstDoc->InsertNode(System::MakeObject<Aspose::Words::BookmarkEnd>(dstDoc->get_Document(), u"src_place"));
 dstDoc->Write(u" after");
 
-ASSERT_EQ(u"Before  after", dstDoc->get_Document()->GetText().TrimEnd(System::MakeObject<System::Array<char16_t>>(0)));
+ASSERT_EQ(dstDoc->get_Document()->GetText().TrimEnd(System::MakeObject<System::Array<char16_t>>(0)), u"Before  after");
 
 // Insert source document into destination inline.
 dstDoc->MoveToBookmark(u"src_place");
 dstDoc->InsertDocumentInline(srcDoc->get_Document(), ImportFormatMode::UseDestinationStyles, System::MakeObject<Aspose::Words::ImportFormatOptions>());
 
-ASSERT_EQ(u"Before [src content] after", dstDoc->get_Document()->GetText().TrimEnd(System::MakeObject<System::Array<char16_t>>(0)));
+ASSERT_EQ(dstDoc->get_Document()->GetText().TrimEnd(System::MakeObject<System::Array<char16_t>>(0)), u"Before [src content] after");
 ```
 ## See Also
 

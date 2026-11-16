@@ -54,13 +54,13 @@ builder->InsertCell();
 builder->Write(u"Row 2, cell 2.");
 builder->EndTable();
 
-ASSERT_EQ(2, table->get_Rows()->get_Count());
+ASSERT_EQ(table->get_Rows()->get_Count(), 2);
 
 // Delete the first row of the first table in the document.
 builder->DeleteRow(0, 0);
 
-ASSERT_EQ(1, table->get_Rows()->get_Count());
-ASSERT_EQ((u"Row 2, cell 1.\aRow 2, cell 2.\a\a"), table->GetText().Trim());
+ASSERT_EQ(table->get_Rows()->get_Count(), 1);
+ASSERT_EQ(table->GetText().Trim(), (u"Row 2, cell 1.\aRow 2, cell 2.\a\a"));
 ```
 ## See Also
 

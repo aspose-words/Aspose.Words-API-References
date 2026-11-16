@@ -36,8 +36,8 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
-    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
-    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
+    ASSERT_NEAR(ConvertUtil::PointToPixel(shape->get_Width()), 32.0, 0.01);
+    ASSERT_NEAR(ConvertUtil::PointToPixel(shape->get_Height()), 32.0, 0.01);
 }
 ```
 ## See Also
@@ -71,7 +71,7 @@ Shows how to specify a base URI when opening an html document.
 // We can provide a base URI using an HtmlLoadOptions object.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>(LoadFormat::Html, u"", get_ImageDir());
 
-ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
+ASSERT_EQ(loadOptions->get_LoadFormat(), LoadFormat::Html);
 
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing image.html", loadOptions);
 
@@ -109,10 +109,10 @@ Shows how to load an encrypted Microsoft Word document.
 System::SharedPtr<Aspose::Words::Document> doc;
 
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
-ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
-})(), Aspose::Words::IncorrectPasswordException);
+}))(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
 auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword");

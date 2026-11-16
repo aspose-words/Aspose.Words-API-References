@@ -31,13 +31,13 @@ Shows how to get bibliography sources available in the document.
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
 System::SharedPtr<Aspose::Words::Bibliography::Bibliography> bibliography = document->get_Bibliography();
-ASSERT_EQ(12, bibliography->get_Sources()->get_Count());
+ASSERT_EQ(bibliography->get_Sources()->get_Count(), 12);
 
 // Get default data from bibliography sources.
 System::SharedPtr<Aspose::Words::Bibliography::Source> source = bibliography->get_Sources()->LINQ_FirstOrDefault();
-ASSERT_EQ(u"Book 0 (No LCID)", source->get_Title());
-ASSERT_EQ(SourceType::Book, source->get_SourceType());
-ASSERT_EQ(3, source->get_Contributors()->LINQ_Count());
+ASSERT_EQ(source->get_Title(), u"Book 0 (No LCID)");
+ASSERT_EQ(source->get_SourceType(), SourceType::Book);
+ASSERT_EQ(source->get_Contributors()->LINQ_Count(), 3);
 ASSERT_TRUE(System::TestTools::IsNull(source->get_AbbreviatedCaseNumber()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_AlbumTitle()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_BookTitle()));
@@ -78,7 +78,7 @@ ASSERT_TRUE(System::TestTools::IsNull(source->get_ShortTitle()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_StandardNumber()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_StateOrProvince()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Station()));
-ASSERT_EQ(u"BookNoLCID", source->get_Tag());
+ASSERT_EQ(source->get_Tag(), u"BookNoLCID");
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Theater()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_ThesisType()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Type()));
@@ -109,15 +109,15 @@ ASSERT_FALSE(System::TestTools::IsNull(contributors->get_Translator()));
 ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Writer()));
 
 System::SharedPtr<Aspose::Words::Bibliography::Contributor> editor = contributors->get_Editor();
-ASSERT_EQ(2, (System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(editor))->LINQ_Count());
+ASSERT_EQ((System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(editor))->LINQ_Count(), 2);
 
 auto authors = System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(contributors->get_Author());
-ASSERT_EQ(2, authors->LINQ_Count());
+ASSERT_EQ(authors->LINQ_Count(), 2);
 
 System::SharedPtr<Aspose::Words::Bibliography::Person> person = authors->idx_get(0);
-ASSERT_EQ(u"Roxanne", person->get_First());
-ASSERT_EQ(u"Brielle", person->get_Middle());
-ASSERT_EQ(u"Tejeda", person->get_Last());
+ASSERT_EQ(person->get_First(), u"Roxanne");
+ASSERT_EQ(person->get_Middle(), u"Brielle");
+ASSERT_EQ(person->get_Last(), u"Tejeda");
 ```
 
 Shows how to work with person collection.
@@ -128,23 +128,23 @@ auto persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>
 auto person = System::MakeObject<Aspose::Words::Bibliography::Person>(u"Roxanne", u"Brielle", u"Tejeda_updated");
 // Add new person to the collection.
 persons->Add(person);
-ASSERT_EQ(1, persons->get_Count());
+ASSERT_EQ(persons->get_Count(), 1);
 // Remove person from the collection if it exists.
 if (persons->Contains(person))
 {
     persons->Remove(person);
 }
-ASSERT_EQ(0, persons->get_Count());
+ASSERT_EQ(persons->get_Count(), 0);
 
 // Create person collection with two persons.
 persons = System::MakeObject<Aspose::Words::Bibliography::PersonCollection>(System::MakeArray<System::SharedPtr<Aspose::Words::Bibliography::Person>>({System::MakeObject<Aspose::Words::Bibliography::Person>(u"Roxanne_1", u"Brielle_1", u"Tejeda_1"), System::MakeObject<Aspose::Words::Bibliography::Person>(u"Roxanne_2", u"Brielle_2", u"Tejeda_2")}));
-ASSERT_EQ(2, persons->get_Count());
+ASSERT_EQ(persons->get_Count(), 2);
 // Remove person from the collection by the index.
 persons->RemoveAt(0);
-ASSERT_EQ(1, persons->get_Count());
+ASSERT_EQ(persons->get_Count(), 1);
 // Remove all persons from the collection.
 persons->Clear();
-ASSERT_EQ(0, persons->get_Count());
+ASSERT_EQ(persons->get_Count(), 0);
 ```
 ## See Also
 

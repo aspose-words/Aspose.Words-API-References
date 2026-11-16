@@ -34,9 +34,9 @@ auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->Get
 
 // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
 // The node we are working with is the base node to change its location and display type.
-ASSERT_EQ(MathObjectType::OMathPara, officeMath->get_MathObjectType());
-ASSERT_EQ(NodeType::OfficeMath, officeMath->get_NodeType());
-ASPOSE_ASSERT_EQ(officeMath->get_ParentNode(), officeMath->get_ParentParagraph());
+ASSERT_EQ(officeMath->get_MathObjectType(), MathObjectType::OMathPara);
+ASSERT_EQ(officeMath->get_NodeType(), NodeType::OfficeMath);
+ASPOSE_ASSERT_EQ(officeMath->get_ParentParagraph(), officeMath->get_ParentNode());
 
 // Change the location and display type of the OfficeMath node.
 officeMath->set_DisplayType(OfficeMathDisplayType::Display);

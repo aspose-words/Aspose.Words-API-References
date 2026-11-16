@@ -50,7 +50,7 @@ style = template_->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle3");
 style->get_Font()->set_Name(u"Courier New");
 style->get_Font()->set_Color(System::Drawing::Color::get_RoyalBlue());
 
-ASSERT_EQ(7, template_->get_Styles()->get_Count());
+ASSERT_EQ(template_->get_Styles()->get_Count(), 7);
 
 // Create a document which we will copy the styles to.
 auto target = System::MakeObject<Aspose::Words::Document>();
@@ -60,7 +60,7 @@ style = target->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle3");
 style->get_Font()->set_Name(u"Calibri");
 style->get_Font()->set_Color(System::Drawing::Color::get_Orange());
 
-ASSERT_EQ(5, target->get_Styles()->get_Count());
+ASSERT_EQ(target->get_Styles()->get_Count(), 5);
 
 // There are two ways of calling the method to copy all the styles from one document to another.
 // 1 -  Passing the template document object:
@@ -68,15 +68,15 @@ target->CopyStylesFromTemplate(template_);
 
 // Copying styles adds all styles from the template document to the target
 // and overwrites existing styles with the same name.
-ASSERT_EQ(7, target->get_Styles()->get_Count());
+ASSERT_EQ(target->get_Styles()->get_Count(), 7);
 
-ASSERT_EQ(u"Courier New", target->get_Styles()->idx_get(u"TemplateStyle3")->get_Font()->get_Name());
-ASSERT_EQ(System::Drawing::Color::get_RoyalBlue().ToArgb(), target->get_Styles()->idx_get(u"TemplateStyle3")->get_Font()->get_Color().ToArgb());
+ASSERT_EQ(target->get_Styles()->idx_get(u"TemplateStyle3")->get_Font()->get_Name(), u"Courier New");
+ASSERT_EQ(target->get_Styles()->idx_get(u"TemplateStyle3")->get_Font()->get_Color().ToArgb(), System::Drawing::Color::get_RoyalBlue().ToArgb());
 
 // 2 -  Passing the local system filename of a template document:
 target->CopyStylesFromTemplate(get_MyDir() + u"Rendering.docx");
 
-ASSERT_EQ(21, target->get_Styles()->get_Count());
+ASSERT_EQ(target->get_Styles()->get_Count(), 21);
 ```
 ## See Also
 
@@ -116,7 +116,7 @@ style = template_->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle3");
 style->get_Font()->set_Name(u"Courier New");
 style->get_Font()->set_Color(System::Drawing::Color::get_RoyalBlue());
 
-ASSERT_EQ(7, template_->get_Styles()->get_Count());
+ASSERT_EQ(template_->get_Styles()->get_Count(), 7);
 
 // Create a document which we will copy the styles to.
 auto target = System::MakeObject<Aspose::Words::Document>();
@@ -126,7 +126,7 @@ style = target->get_Styles()->Add(StyleType::Paragraph, u"TemplateStyle3");
 style->get_Font()->set_Name(u"Calibri");
 style->get_Font()->set_Color(System::Drawing::Color::get_Orange());
 
-ASSERT_EQ(5, target->get_Styles()->get_Count());
+ASSERT_EQ(target->get_Styles()->get_Count(), 5);
 
 // There are two ways of calling the method to copy all the styles from one document to another.
 // 1 -  Passing the template document object:
@@ -134,15 +134,15 @@ target->CopyStylesFromTemplate(template_);
 
 // Copying styles adds all styles from the template document to the target
 // and overwrites existing styles with the same name.
-ASSERT_EQ(7, target->get_Styles()->get_Count());
+ASSERT_EQ(target->get_Styles()->get_Count(), 7);
 
-ASSERT_EQ(u"Courier New", target->get_Styles()->idx_get(u"TemplateStyle3")->get_Font()->get_Name());
-ASSERT_EQ(System::Drawing::Color::get_RoyalBlue().ToArgb(), target->get_Styles()->idx_get(u"TemplateStyle3")->get_Font()->get_Color().ToArgb());
+ASSERT_EQ(target->get_Styles()->idx_get(u"TemplateStyle3")->get_Font()->get_Name(), u"Courier New");
+ASSERT_EQ(target->get_Styles()->idx_get(u"TemplateStyle3")->get_Font()->get_Color().ToArgb(), System::Drawing::Color::get_RoyalBlue().ToArgb());
 
 // 2 -  Passing the local system filename of a template document:
 target->CopyStylesFromTemplate(get_MyDir() + u"Rendering.docx");
 
-ASSERT_EQ(21, target->get_Styles()->get_Count());
+ASSERT_EQ(target->get_Styles()->get_Count(), 21);
 ```
 ## See Also
 

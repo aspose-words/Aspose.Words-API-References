@@ -73,14 +73,14 @@ builder->PushFont();
 builder->get_Font()->set_StyleIdentifier(StyleIdentifier::Hyperlink);
 builder->InsertHyperlink(u"here", u"http://www.google.com", false);
 
-ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), builder->get_Font()->get_Color().ToArgb());
-ASSERT_EQ(Underline::Single, builder->get_Font()->get_Underline());
+ASSERT_EQ(builder->get_Font()->get_Color().ToArgb(), System::Drawing::Color::get_Blue().ToArgb());
+ASSERT_EQ(builder->get_Font()->get_Underline(), Underline::Single);
 
 // Restore the font formatting that we saved earlier and remove the element from the stack.
 builder->PopFont();
 
-ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), builder->get_Font()->get_Color().ToArgb());
-ASSERT_EQ(Underline::None, builder->get_Font()->get_Underline());
+ASSERT_EQ(builder->get_Font()->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
+ASSERT_EQ(builder->get_Font()->get_Underline(), Underline::None);
 
 builder->Write(u". We hope you enjoyed the example.");
 

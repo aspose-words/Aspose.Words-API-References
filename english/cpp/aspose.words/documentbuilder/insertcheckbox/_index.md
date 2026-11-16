@@ -53,7 +53,7 @@ builder->InsertParagraph();
 builder->Write(u"Very large checked check box: ");
 builder->InsertCheckBox(u"CheckBox_OnlyCheckedValue", true, 100);
 
-ASSERT_EQ(u"CheckBox_OnlyChecked", doc->get_Range()->get_FormFields()->idx_get(2)->get_Name());
+ASSERT_EQ(doc->get_Range()->get_FormFields()->idx_get(2)->get_Name(), u"CheckBox_OnlyChecked");
 
 // We can interact with these check boxes in Microsoft Word by double clicking them.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCheckBox.docx");
@@ -108,7 +108,7 @@ builder->InsertParagraph();
 builder->Write(u"Very large checked check box: ");
 builder->InsertCheckBox(u"CheckBox_OnlyCheckedValue", true, 100);
 
-ASSERT_EQ(u"CheckBox_OnlyChecked", doc->get_Range()->get_FormFields()->idx_get(2)->get_Name());
+ASSERT_EQ(doc->get_Range()->get_FormFields()->idx_get(2)->get_Name(), u"CheckBox_OnlyChecked");
 
 // We can interact with these check boxes in Microsoft Word by double clicking them.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCheckBox.docx");

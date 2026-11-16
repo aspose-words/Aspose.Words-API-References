@@ -60,10 +60,10 @@ auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatureCollection = signedDoc->get_DigitalSignatures();
 
 ASSERT_TRUE(digitalSignatureCollection->get_IsValid());
-ASSERT_EQ(1, digitalSignatureCollection->get_Count());
-ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)->get_SignatureType());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
+ASSERT_EQ(digitalSignatureCollection->get_Count(), 1);
+ASSERT_EQ(digitalSignatureCollection->idx_get(0)->get_SignatureType(), DigitalSignatureType::XmlDsig);
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName(), u"CN=Morzal.Me");
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"CN=Morzal.Me");
 ```
 ## See Also
 

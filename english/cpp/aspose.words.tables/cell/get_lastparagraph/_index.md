@@ -52,9 +52,9 @@ for (int32_t i = 0; i < 3; i++)
 // A row format, and a cell's inner paragraph use different border settings.
 System::SharedPtr<Aspose::Words::Border> border = table->get_FirstRow()->get_FirstCell()->get_LastParagraph()->get_ParagraphFormat()->get_Borders()->get_Vertical();
 
-ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), border->get_Color().ToArgb());
-ASPOSE_ASSERT_EQ(0.0, border->get_LineWidth());
-ASSERT_EQ(LineStyle::None, border->get_LineStyle());
+ASSERT_EQ(border->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
+ASPOSE_ASSERT_EQ(border->get_LineWidth(), 0.0);
+ASSERT_EQ(border->get_LineStyle(), LineStyle::None);
 
 doc->Save(get_ArtifactsDir() + u"Border.VerticalBorders.docx");
 ```

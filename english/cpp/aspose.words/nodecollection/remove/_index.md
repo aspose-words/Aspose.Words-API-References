@@ -37,20 +37,20 @@ builder->Write(u"Run 2. ");
 // which then appears in the parent Paragraph's RunCollection.
 System::SharedPtr<Aspose::Words::RunCollection> runs = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs();
 
-ASSERT_EQ(2, runs->get_Count());
+ASSERT_EQ(runs->get_Count(), 2);
 
 // We can also insert a node into the RunCollection manually.
 auto newRun = System::MakeObject<Aspose::Words::Run>(doc, u"Run 3. ");
 runs->Insert(3, newRun);
 
 ASSERT_TRUE(runs->Contains(newRun));
-ASSERT_EQ(u"Run 1. Run 2. Run 3.", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Run 1. Run 2. Run 3.");
 
 // Access individual runs and remove them to remove their text from the document.
 System::SharedPtr<Aspose::Words::Run> run = runs->idx_get(1);
 runs->Remove(run);
 
-ASSERT_EQ(u"Run 1. Run 3.", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Run 1. Run 3.");
 ASSERT_FALSE(System::TestTools::IsNull(run));
 ASSERT_FALSE(runs->Contains(run));
 ```

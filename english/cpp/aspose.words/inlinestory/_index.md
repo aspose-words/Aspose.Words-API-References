@@ -107,7 +107,7 @@ builder->MoveTo(footnote->get_FirstParagraph());
 builder->Write(u" More text added by a DocumentBuilder.");
 builder->MoveToDocumentEnd();
 
-ASSERT_EQ(u"\u0002 Footnote text. More text added by a DocumentBuilder.", footnote->GetText().Trim());
+ASSERT_EQ(footnote->GetText().Trim(), u"\u0002 Footnote text. More text added by a DocumentBuilder.");
 
 builder->Write(u" More main body text.");
 footnote = builder->InsertFootnote(FootnoteType::Footnote, u"Footnote text.");
@@ -139,7 +139,7 @@ builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Co
 builder->MoveTo(comment->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc)));
 builder->Write(u"Comment text.");
 
-ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
+ASSERT_EQ(comment->get_DateTime(), System::DateTime::get_Today());
 
 // In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it.
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddComment.docx");

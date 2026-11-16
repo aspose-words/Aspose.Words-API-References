@@ -52,7 +52,7 @@ doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt", saveOptions);
 // the "Document" object will use them to split the body into pages.
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt"));
 
-ASSERT_EQ(forcePageBreaks ? 3 : 1, doc->get_PageCount());
+ASSERT_EQ(doc->get_PageCount(), forcePageBreaks ? 3 : 1);
 ```
 ## See Also
 

@@ -33,7 +33,7 @@ Shows how to protect and unprotect a document.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"password");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::ReadOnly);
 
 // If we open this document with Microsoft Word intending to edit it,
 // we will need to apply the password to get through the protection.
@@ -43,7 +43,7 @@ doc->Save(get_ArtifactsDir() + u"Document.Protect.docx");
 // We have not encrypted the document in any way, and we do not need the password to open and edit it programmatically.
 auto protectedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.Protect.docx"));
 
-ASSERT_EQ(ProtectionType::ReadOnly, protectedDoc->get_ProtectionType());
+ASSERT_EQ(protectedDoc->get_ProtectionType(), ProtectionType::ReadOnly);
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(protectedDoc);
 builder->Writeln(u"Text added to a protected document.");
@@ -52,20 +52,20 @@ builder->Writeln(u"Text added to a protected document.");
 // 1 - With no password:
 doc->Unprotect();
 
-ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::NoProtection);
 
 doc->Protect(ProtectionType::ReadOnly, u"NewPassword");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::ReadOnly);
 
 doc->Unprotect(u"WrongPassword");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::ReadOnly);
 
 // 2 - With the correct password:
 doc->Unprotect(u"NewPassword");
 
-ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::NoProtection);
 ```
 ## See Also
 

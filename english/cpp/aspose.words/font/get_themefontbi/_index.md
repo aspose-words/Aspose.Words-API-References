@@ -36,68 +36,68 @@ std::cout << System::String::Format(u"Originally the Normal style theme color is
 font->set_ThemeFont(ThemeFont::Minor);
 font->set_ThemeColor(ThemeColor::Accent2);
 
-ASSERT_EQ(ThemeFont::Minor, font->get_ThemeFont());
-ASSERT_EQ(u"Algerian", font->get_Name());
+ASSERT_EQ(font->get_ThemeFont(), ThemeFont::Minor);
+ASSERT_EQ(font->get_Name(), u"Algerian");
 
-ASSERT_EQ(ThemeFont::Minor, font->get_ThemeFontAscii());
-ASSERT_EQ(u"Algerian", font->get_NameAscii());
+ASSERT_EQ(font->get_ThemeFontAscii(), ThemeFont::Minor);
+ASSERT_EQ(font->get_NameAscii(), u"Algerian");
 
-ASSERT_EQ(ThemeFont::Minor, font->get_ThemeFontBi());
-ASSERT_EQ(u"Andalus", font->get_NameBi());
+ASSERT_EQ(font->get_ThemeFontBi(), ThemeFont::Minor);
+ASSERT_EQ(font->get_NameBi(), u"Andalus");
 
-ASSERT_EQ(ThemeFont::Minor, font->get_ThemeFontFarEast());
-ASSERT_EQ(u"Aharoni", font->get_NameFarEast());
+ASSERT_EQ(font->get_ThemeFontFarEast(), ThemeFont::Minor);
+ASSERT_EQ(font->get_NameFarEast(), u"Aharoni");
 
-ASSERT_EQ(ThemeFont::Minor, font->get_ThemeFontOther());
-ASSERT_EQ(u"Algerian", font->get_NameOther());
+ASSERT_EQ(font->get_ThemeFontOther(), ThemeFont::Minor);
+ASSERT_EQ(font->get_NameOther(), u"Algerian");
 
-ASSERT_EQ(ThemeColor::Accent2, font->get_ThemeColor());
-ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, font->get_Color());
+ASSERT_EQ(font->get_ThemeColor(), ThemeColor::Accent2);
+ASPOSE_ASSERT_EQ(font->get_Color(), System::Drawing::Color::Empty);
 
 // There are several ways of reset them font and color.
 // 1 -  By setting ThemeFont.None/ThemeColor.None:
 font->set_ThemeFont(ThemeFont::None);
 font->set_ThemeColor(ThemeColor::None);
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFont());
-ASSERT_EQ(u"Algerian", font->get_Name());
+ASSERT_EQ(font->get_ThemeFont(), ThemeFont::None);
+ASSERT_EQ(font->get_Name(), u"Algerian");
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFontAscii());
-ASSERT_EQ(u"Algerian", font->get_NameAscii());
+ASSERT_EQ(font->get_ThemeFontAscii(), ThemeFont::None);
+ASSERT_EQ(font->get_NameAscii(), u"Algerian");
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFontBi());
-ASSERT_EQ(u"Andalus", font->get_NameBi());
+ASSERT_EQ(font->get_ThemeFontBi(), ThemeFont::None);
+ASSERT_EQ(font->get_NameBi(), u"Andalus");
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFontFarEast());
-ASSERT_EQ(u"Aharoni", font->get_NameFarEast());
+ASSERT_EQ(font->get_ThemeFontFarEast(), ThemeFont::None);
+ASSERT_EQ(font->get_NameFarEast(), u"Aharoni");
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFontOther());
-ASSERT_EQ(u"Algerian", font->get_NameOther());
+ASSERT_EQ(font->get_ThemeFontOther(), ThemeFont::None);
+ASSERT_EQ(font->get_NameOther(), u"Algerian");
 
-ASSERT_EQ(ThemeColor::None, font->get_ThemeColor());
-ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, font->get_Color());
+ASSERT_EQ(font->get_ThemeColor(), ThemeColor::None);
+ASPOSE_ASSERT_EQ(font->get_Color(), System::Drawing::Color::Empty);
 
 // 2 -  By setting non-theme font/color names:
 font->set_Name(u"Arial");
 font->set_Color(System::Drawing::Color::get_Blue());
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFont());
-ASSERT_EQ(u"Arial", font->get_Name());
+ASSERT_EQ(font->get_ThemeFont(), ThemeFont::None);
+ASSERT_EQ(font->get_Name(), u"Arial");
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFontAscii());
-ASSERT_EQ(u"Arial", font->get_NameAscii());
+ASSERT_EQ(font->get_ThemeFontAscii(), ThemeFont::None);
+ASSERT_EQ(font->get_NameAscii(), u"Arial");
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFontBi());
-ASSERT_EQ(u"Arial", font->get_NameBi());
+ASSERT_EQ(font->get_ThemeFontBi(), ThemeFont::None);
+ASSERT_EQ(font->get_NameBi(), u"Arial");
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFontFarEast());
-ASSERT_EQ(u"Arial", font->get_NameFarEast());
+ASSERT_EQ(font->get_ThemeFontFarEast(), ThemeFont::None);
+ASSERT_EQ(font->get_NameFarEast(), u"Arial");
 
-ASSERT_EQ(ThemeFont::None, font->get_ThemeFontOther());
-ASSERT_EQ(u"Arial", font->get_NameOther());
+ASSERT_EQ(font->get_ThemeFontOther(), ThemeFont::None);
+ASSERT_EQ(font->get_NameOther(), u"Arial");
 
-ASSERT_EQ(ThemeColor::None, font->get_ThemeColor());
-ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), font->get_Color().ToArgb());
+ASSERT_EQ(font->get_ThemeColor(), ThemeColor::None);
+ASSERT_EQ(font->get_Color().ToArgb(), System::Drawing::Color::get_Blue().ToArgb());
 ```
 ## See Also
 

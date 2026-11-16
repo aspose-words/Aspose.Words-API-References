@@ -38,7 +38,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 index->set_BookmarkName(u"MainBookmark");
 index->set_EntryType(u"A");
 
-ASSERT_EQ(u" INDEX  \\b MainBookmark \\f A", index->GetFieldCode());
+ASSERT_EQ(index->GetFieldCode(), u" INDEX  \\b MainBookmark \\f A");
 
 // On a new page, start the bookmark with a name that matches the value
 // of the INDEX field's "BookmarkName" property.
@@ -51,7 +51,7 @@ auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->
 indexEntry->set_Text(u"Index entry 1");
 indexEntry->set_EntryType(u"A");
 
-ASSERT_EQ(u" XE  \"Index entry 1\" \\f A", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  \"Index entry 1\" \\f A");
 
 // Insert an XE field that will not appear in the INDEX because the entry types do not match.
 builder->InsertBreak(BreakType::PageBreak);

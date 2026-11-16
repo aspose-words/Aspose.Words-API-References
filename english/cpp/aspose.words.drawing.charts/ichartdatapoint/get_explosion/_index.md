@@ -28,8 +28,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Pie, static_cast<double>(500), static_cast<double>(350));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
-ASSERT_EQ(1, chart->get_Series()->get_Count());
-ASSERT_EQ(u"Sales", chart->get_Series()->idx_get(0)->get_Name());
+ASSERT_EQ(chart->get_Series()->get_Count(), 1);
+ASSERT_EQ(chart->get_Series()->idx_get(0)->get_Name(), u"Sales");
 
 // "Slices" of a pie chart may be moved away from the center by a distance via the respective data point's Explosion attribute.
 // Add a data point to the first portion of the pie chart and move it away from the center by 10 points.

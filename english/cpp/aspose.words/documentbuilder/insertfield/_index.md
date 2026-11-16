@@ -48,27 +48,27 @@ builder->InsertParagraph();
 builder->Write(u"\nThis is page ");
 builder->InsertField(FieldType::FieldPage, updateInsertedFieldsImmediately);
 
-ASSERT_EQ(u" AUTHOR ", doc->get_Range()->get_Fields()->idx_get(0)->GetFieldCode());
-ASSERT_EQ(u" PAGE ", doc->get_Range()->get_Fields()->idx_get(1)->GetFieldCode());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->GetFieldCode(), u" AUTHOR ");
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->GetFieldCode(), u" PAGE ");
 
 if (updateInsertedFieldsImmediately)
 {
-    ASSERT_EQ(u"John Doe", doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
-    ASSERT_EQ(u"1", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+    ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), u"John Doe");
+    ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), u"1");
 }
 else
 {
-    ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
-    ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+    ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), System::String::Empty);
+    ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), System::String::Empty);
 
     // We will need to update these fields using the update methods manually.
     doc->get_Range()->get_Fields()->idx_get(0)->Update();
 
-    ASSERT_EQ(u"John Doe", doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
+    ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), u"John Doe");
 
     doc->UpdateFields();
 
-    ASSERT_EQ(u"1", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+    ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), u"1");
 }
 ```
 ## See Also
@@ -112,8 +112,8 @@ builder->InsertField(u"MERGEFIELD MyMergeField2 \\* MERGEFORMAT");
 builder->MoveToMergeField(u"MyMergeField1", true, false);
 
 // Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
-ASPOSE_ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Start(), builder->get_CurrentNode());
-ASPOSE_ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_End(), builder->get_CurrentNode()->get_PreviousSibling());
+ASPOSE_ASSERT_EQ(builder->get_CurrentNode(), doc->get_Range()->get_Fields()->idx_get(1)->get_Start());
+ASPOSE_ASSERT_EQ(builder->get_CurrentNode()->get_PreviousSibling(), doc->get_Range()->get_Fields()->idx_get(0)->get_End());
 
 // If we wish to edit the field's field code or contents using the builder,
 // its cursor would need to be inside a field.
@@ -132,8 +132,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-ASSERT_EQ(FieldType::FieldDate, field->get_Type());
-ASSERT_EQ((u"DATE \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
+ASSERT_EQ(field->get_Type(), FieldType::FieldDate);
+ASSERT_EQ(field->GetFieldCode(), (u"DATE \\@ \"dddd, MMMM dd, yyyy\""));
 
 // This overload of the InsertField method automatically updates inserted fields.
 ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);

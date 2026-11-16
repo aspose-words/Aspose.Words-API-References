@@ -69,13 +69,13 @@ para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspo
 System::SharedPtr<Aspose::Words::Node> cloneWithChildren = System::ExplicitCast<Aspose::Words::Node>(para)->Clone(true);
 
 ASSERT_TRUE((System::ExplicitCast<Aspose::Words::CompositeNode>(cloneWithChildren))->get_HasChildNodes());
-ASSERT_EQ(u"Hello world!", cloneWithChildren->GetText().Trim());
+ASSERT_EQ(cloneWithChildren->GetText().Trim(), u"Hello world!");
 
 // 2 -  Create a clone of a node just by itself without any children.
 System::SharedPtr<Aspose::Words::Node> cloneWithoutChildren = System::ExplicitCast<Aspose::Words::Node>(para)->Clone(false);
 
 ASSERT_FALSE((System::ExplicitCast<Aspose::Words::CompositeNode>(cloneWithoutChildren))->get_HasChildNodes());
-ASSERT_EQ(System::String::Empty, cloneWithoutChildren->GetText().Trim());
+ASSERT_EQ(cloneWithoutChildren->GetText().Trim(), System::String::Empty);
 ```
 
 Shows how to traverse through a composite node's collection of child nodes.
@@ -101,7 +101,7 @@ paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject
 // and print any runs or shapes that we find within.
 System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(NodeType::Any, false);
 
-ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, false)->get_Count());
+ASSERT_EQ(paragraph->GetChildNodes(NodeType::Any, false)->get_Count(), 3);
 
 for (auto&& child : System::IterateOver(children))
 {
@@ -116,7 +116,7 @@ for (auto&& child : System::IterateOver(children))
             auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
             std::cout << "Shape:" << std::endl;
             std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
-            ASSERT_EQ(100, shape->get_CustomNodeId());
+            ASSERT_EQ(shape->get_CustomNodeId(), 100);
             break;
         }
         default:
@@ -130,7 +130,7 @@ Shows how to remove all child nodes of a specific type from a composite node.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
-ASSERT_EQ(2, doc->GetChildNodes(NodeType::Table, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 2);
 
 System::SharedPtr<Aspose::Words::Node> curNode = doc->get_FirstSection()->get_Body()->get_FirstChild();
 
@@ -149,7 +149,7 @@ while (curNode != nullptr)
     curNode = nextNode;
 }
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 0);
 ```
 ## See Also
 

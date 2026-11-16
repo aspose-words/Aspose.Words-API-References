@@ -31,7 +31,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // but until we accept or reject the move revision, there will be two instances of that shape.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
-ASSERT_EQ(2, shapes->get_Length());
+ASSERT_EQ(shapes->get_Length(), 2);
 
 // This is the "Move to" revision, which is the shape at its arrival destination.
 // If we accept the revision, this "Move to" revision shape will disappear,

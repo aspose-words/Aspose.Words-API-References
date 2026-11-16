@@ -42,11 +42,11 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 if (isUpdateLastPrintedProperty)
 {
-    ASSERT_NE(lastPrinted, doc->get_BuiltInDocumentProperties()->get_LastPrinted());
+    ASSERT_NE(doc->get_BuiltInDocumentProperties()->get_LastPrinted(), lastPrinted);
 }
 else
 {
-    ASSERT_EQ(lastPrinted, doc->get_BuiltInDocumentProperties()->get_LastPrinted());
+    ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_LastPrinted(), lastPrinted);
 }
 ```
 ## See Also

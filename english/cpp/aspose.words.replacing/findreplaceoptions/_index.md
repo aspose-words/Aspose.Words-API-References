@@ -89,7 +89,7 @@ options->set_MatchCase(matchCase);
 
 doc->get_Range()->Replace(u"Ruby", u"Jade", options);
 
-ASSERT_EQ(matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."));
 ```
 
 Shows how to toggle standalone word-only find-and-replace operations.
@@ -109,7 +109,7 @@ options->set_FindWholeWordsOnly(findWholeWordsOnly);
 
 doc->get_Range()->Replace(u"Jackson", u"Louis", options);
 
-ASSERT_EQ(findWholeWordsOnly ? System::String(u"Louis will meet you in Jacksonville.") : System::String(u"Louis will meet you in Louisville."), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), findWholeWordsOnly ? System::String(u"Louis will meet you in Jacksonville.") : System::String(u"Louis will meet you in Louisville."));
 ```
 ## See Also
 

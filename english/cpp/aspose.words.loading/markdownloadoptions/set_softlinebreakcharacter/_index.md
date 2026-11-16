@@ -31,7 +31,7 @@ Shows how to set soft line break character.
     loadOptions->set_SoftLineBreakCharacter(ControlChar::LineBreakChar);
     auto doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
 
-    ASSERT_EQ(u"line1\u000bline2", doc->GetText().Trim());
+    ASSERT_EQ(doc->GetText().Trim(), u"line1\u000bline2");
 }
 ```
 ## See Also

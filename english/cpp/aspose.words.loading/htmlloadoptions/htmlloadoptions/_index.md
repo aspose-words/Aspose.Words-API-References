@@ -35,11 +35,11 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VML condi
 
 if (supportVml)
 {
-    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType(), ImageType::Jpeg);
 }
 else
 {
-    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType(), ImageType::Png);
 }
 ```
 ## See Also
@@ -73,7 +73,7 @@ Shows how to specify a base URI when opening an html document.
 // We can provide a base URI using an HtmlLoadOptions object.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>(LoadFormat::Html, u"", get_ImageDir());
 
-ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
+ASSERT_EQ(loadOptions->get_LoadFormat(), LoadFormat::Html);
 
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing image.html", loadOptions);
 
@@ -124,11 +124,11 @@ DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, sig
 // password using a HtmlLoadOptions object.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>(u"docPassword");
 
-ASSERT_EQ(signOptions->get_DecryptionPassword(), loadOptions->get_Password());
+ASSERT_EQ(loadOptions->get_Password(), signOptions->get_DecryptionPassword());
 
 auto doc = System::MakeObject<Aspose::Words::Document>(outputFileName, loadOptions);
 
-ASSERT_EQ(u"Test encrypted document.", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Test encrypted document.");
 ```
 ## See Also
 

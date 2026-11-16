@@ -28,9 +28,9 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()-
 
 if (table->get_TextWrapping() == TextWrapping::Around)
 {
-    ASSERT_EQ(RelativeHorizontalPosition::Margin, table->get_HorizontalAnchor());
-    ASSERT_EQ(RelativeVerticalPosition::Paragraph, table->get_VerticalAnchor());
-    ASPOSE_ASSERT_EQ(false, table->get_AllowOverlap());
+    ASSERT_EQ(table->get_HorizontalAnchor(), RelativeHorizontalPosition::Margin);
+    ASSERT_EQ(table->get_VerticalAnchor(), RelativeVerticalPosition::Paragraph);
+    ASPOSE_ASSERT_EQ(table->get_AllowOverlap(), false);
 
     // Only Margin, Page, Column available in RelativeHorizontalPosition for HorizontalAnchor setter.
     // The ArgumentException will be thrown for any other values.

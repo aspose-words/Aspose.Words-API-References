@@ -46,7 +46,7 @@ tableStyle->get_ConditionalStyles()->get_LastRow()->get_Borders()->set_Color(Sys
 // 1 -  Clear the conditional styles for a specific part of a table:
 tableStyle->get_ConditionalStyles()->idx_get(0)->ClearFormatting();
 
-ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, tableStyle->get_ConditionalStyles()->get_FirstRow()->get_Borders()->get_Color());
+ASPOSE_ASSERT_EQ(tableStyle->get_ConditionalStyles()->get_FirstRow()->get_Borders()->get_Color(), System::Drawing::Color::Empty);
 
 // 2 -  Clear the conditional styles for the entire table:
 tableStyle->get_ConditionalStyles()->ClearFormatting();

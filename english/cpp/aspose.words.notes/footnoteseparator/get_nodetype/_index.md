@@ -24,7 +24,7 @@ Shows how to remove all child nodes of a specific type from a composite node.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
-ASSERT_EQ(2, doc->GetChildNodes(NodeType::Table, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 2);
 
 System::SharedPtr<Aspose::Words::Node> curNode = doc->get_FirstSection()->get_Body()->get_FirstChild();
 
@@ -43,7 +43,7 @@ while (curNode != nullptr)
     curNode = nextNode;
 }
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 0);
 ```
 
 Shows how to use a node's NextSibling property to enumerate through its immediate children.

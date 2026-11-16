@@ -56,8 +56,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.TextureFill.docx", saveOptions);
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.TextureFill.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
-ASSERT_EQ(TextureAlignment::TopRight, shape->get_Fill()->get_TextureAlignment());
-ASSERT_EQ(PresetTexture::Canvas, shape->get_Fill()->get_PresetTexture());
+ASSERT_EQ(shape->get_Fill()->get_TextureAlignment(), TextureAlignment::TopRight);
+ASSERT_EQ(shape->get_Fill()->get_PresetTexture(), PresetTexture::Canvas);
 ```
 ## See Also
 

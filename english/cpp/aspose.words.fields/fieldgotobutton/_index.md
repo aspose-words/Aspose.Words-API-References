@@ -63,7 +63,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldGoToButton>(builde
 field->set_DisplayText(u"My Button");
 field->set_Location(u"MyBookmark");
 
-ASSERT_EQ(u" GOTOBUTTON  MyBookmark My Button", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" GOTOBUTTON  MyBookmark My Button");
 
 // Insert a valid bookmark for the field to reference.
 builder->InsertBreak(BreakType::PageBreak);

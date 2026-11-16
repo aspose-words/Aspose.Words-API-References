@@ -30,12 +30,12 @@ builder->InsertFootnote(FootnoteType::Footnote, u"sit amet");
 // By default option is set to 'false'.
 doc->UpdateWordCount();
 // Words count without textboxes, footnotes and endnotes.
-ASSERT_EQ(2, doc->get_BuiltInDocumentProperties()->get_Words());
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Words(), 2);
 
 doc->set_IncludeTextboxesFootnotesEndnotesInStat(true);
 doc->UpdateWordCount();
 // Words count with textboxes, footnotes and endnotes.
-ASSERT_EQ(4, doc->get_BuiltInDocumentProperties()->get_Words());
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Words(), 4);
 ```
 ## See Also
 

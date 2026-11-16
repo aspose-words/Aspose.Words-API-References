@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->get_Font()->set_NameAscii(u"Calibri");
 
 // With no other font specified, the builder will also apply this font to all characters that it inserts.
-ASSERT_EQ(u"Calibri", builder->get_Font()->get_Name());
+ASSERT_EQ(builder->get_Font()->get_Name(), u"Calibri");
 
 // Specify a font to use for all characters outside of the ASCII range.
 // Ideally, this font should have a glyph for each required non-ASCII character code.

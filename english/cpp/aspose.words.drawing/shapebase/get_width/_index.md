@@ -50,11 +50,11 @@ shape->set_Top(80);
 // Set the shape's height, which will automatically scale the width to preserve dimensions.
 shape->set_Height(125);
 
-ASPOSE_ASSERT_EQ(125.0, shape->get_Width());
+ASPOSE_ASSERT_EQ(shape->get_Width(), 125.0);
 
 // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
-ASPOSE_ASSERT_EQ(shape->get_Top() + shape->get_Height(), shape->get_Bottom());
-ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
+ASPOSE_ASSERT_EQ(shape->get_Bottom(), shape->get_Top() + shape->get_Height());
+ASPOSE_ASSERT_EQ(shape->get_Right(), shape->get_Left() + shape->get_Width());
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPositionSize.docx");
 ```
@@ -71,30 +71,30 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(ge
 // A 400x400 image will create an ImageData object with an image size of 300x300pt.
 System::SharedPtr<Aspose::Words::Drawing::ImageSize> imageSize = shape->get_ImageData()->get_ImageSize();
 
-ASPOSE_ASSERT_EQ(300.0, imageSize->get_WidthPoints());
-ASPOSE_ASSERT_EQ(300.0, imageSize->get_HeightPoints());
+ASPOSE_ASSERT_EQ(imageSize->get_WidthPoints(), 300.0);
+ASPOSE_ASSERT_EQ(imageSize->get_HeightPoints(), 300.0);
 
 // If a shape's dimensions match the image data's dimensions,
 // then the shape is displaying the image in its original size.
-ASPOSE_ASSERT_EQ(300.0, shape->get_Width());
-ASPOSE_ASSERT_EQ(300.0, shape->get_Height());
+ASPOSE_ASSERT_EQ(shape->get_Width(), 300.0);
+ASPOSE_ASSERT_EQ(shape->get_Height(), 300.0);
 
 // Reduce the overall size of the shape by 50%.
 System::WithLambda::setter_mul_wrap(GETTER_SETTER_LAMBDA_ARGS(shape, Width), 0.5);
 
 // Scaling factors apply to both the width and the height at the same time to preserve the shape's proportions.
-ASPOSE_ASSERT_EQ(150.0, shape->get_Width());
-ASPOSE_ASSERT_EQ(150.0, shape->get_Height());
+ASPOSE_ASSERT_EQ(shape->get_Width(), 150.0);
+ASPOSE_ASSERT_EQ(shape->get_Height(), 150.0);
 
 // When we resize the shape, the size of the image data remains the same.
-ASPOSE_ASSERT_EQ(300.0, imageSize->get_WidthPoints());
-ASPOSE_ASSERT_EQ(300.0, imageSize->get_HeightPoints());
+ASPOSE_ASSERT_EQ(imageSize->get_WidthPoints(), 300.0);
+ASPOSE_ASSERT_EQ(imageSize->get_HeightPoints(), 300.0);
 
 // We can reference the image data dimensions to apply a scaling based on the size of the image.
 shape->set_Width(imageSize->get_WidthPoints() * 1.1);
 
-ASPOSE_ASSERT_EQ(330.0, shape->get_Width());
-ASPOSE_ASSERT_EQ(330.0, shape->get_Height());
+ASPOSE_ASSERT_EQ(shape->get_Width(), 330.0);
+ASPOSE_ASSERT_EQ(shape->get_Height(), 330.0);
 
 doc->Save(get_ArtifactsDir() + u"Image.ScaleImage.docx");
 ```

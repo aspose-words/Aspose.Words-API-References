@@ -81,7 +81,7 @@ System::String mdText = System::String::Format(u"{0}Line1{1}{2}Line2{3}{4}", Sys
     loadOptions->set_PreserveEmptyLines(true);
     auto doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
 
-    ASSERT_EQ(u"\rLine1\r\rLine2\r\f", doc->GetText());
+    ASSERT_EQ(doc->GetText(), u"\rLine1\r\rLine2\r\f");
 }
 ```
 ## See Also

@@ -63,19 +63,19 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels.html", options);
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels.html"));
 
-ASSERT_EQ(u"Heading #1", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Heading #1");
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-01.html"));
 
-ASSERT_EQ(System::String(u"Heading #2\r") + u"Heading #3", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), System::String(u"Heading #2\r") + u"Heading #3");
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-02.html"));
 
-ASSERT_EQ(u"Heading #4", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Heading #4");
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-03.html"));
 
-ASSERT_EQ(System::String(u"Heading #5\r") + u"Heading #6", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), System::String(u"Heading #5\r") + u"Heading #6");
 ```
 ## See Also
 

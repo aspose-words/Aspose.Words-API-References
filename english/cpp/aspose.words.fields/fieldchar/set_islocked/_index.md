@@ -31,15 +31,15 @@ field->Update();
 
 System::SharedPtr<Aspose::Words::Fields::FieldChar> fieldStart = field->get_Start();
 
-ASSERT_EQ(FieldType::FieldDate, fieldStart->get_FieldType());
-ASPOSE_ASSERT_EQ(false, fieldStart->get_IsDirty());
-ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
+ASSERT_EQ(fieldStart->get_FieldType(), FieldType::FieldDate);
+ASPOSE_ASSERT_EQ(fieldStart->get_IsDirty(), false);
+ASPOSE_ASSERT_EQ(fieldStart->get_IsLocked(), false);
 
 // Retrieve the facade object which represents the field in the document.
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(fieldStart->GetField());
 
-ASPOSE_ASSERT_EQ(false, field->get_IsLocked());
-ASSERT_EQ((u" DATE  \\@ \"dddd, MMMM dd, yyyy\""), field->GetFieldCode());
+ASPOSE_ASSERT_EQ(field->get_IsLocked(), false);
+ASSERT_EQ(field->GetFieldCode(), (u" DATE  \\@ \"dddd, MMMM dd, yyyy\""));
 
 // Update the field to show the current date.
 field->Update();

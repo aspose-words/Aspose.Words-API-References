@@ -67,7 +67,7 @@ builder->Write(u"Cell 5");
 builder->EndColumnBookmark(u"MyBookmark_1");
 builder->EndColumnBookmark(u"MyBookmark_1");
 
-ASSERT_THROW(static_cast<std::function<void()>>([&builder]() -> void
+ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&builder]() -> void
 {
     builder->EndColumnBookmark(u"BadEndBookmark");
 

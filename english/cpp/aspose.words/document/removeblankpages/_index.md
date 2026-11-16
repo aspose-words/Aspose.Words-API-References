@@ -30,10 +30,10 @@ Shows how to remove blank pages from the document.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Blank pages.docx"));
-ASSERT_EQ(2, doc->get_PageCount());
+ASSERT_EQ(doc->get_PageCount(), 2);
 doc->RemoveBlankPages();
 doc->UpdatePageLayout();
-ASSERT_EQ(1, doc->get_PageCount());
+ASSERT_EQ(doc->get_PageCount(), 1);
 ```
 ## See Also
 

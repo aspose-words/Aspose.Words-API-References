@@ -28,8 +28,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Bubble3D, static_cast<double>(500), static_cast<double>(350));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
-ASSERT_EQ(1, chart->get_Series()->get_Count());
-ASSERT_EQ(u"Y-Values", chart->get_Series()->idx_get(0)->get_Name());
+ASSERT_EQ(chart->get_Series()->get_Count(), 1);
+ASSERT_EQ(chart->get_Series()->idx_get(0)->get_Name(), u"Y-Values");
 ASSERT_TRUE(chart->get_Series()->idx_get(0)->get_Bubble3D());
 
 // Apply a data label to each bubble that displays its diameter.

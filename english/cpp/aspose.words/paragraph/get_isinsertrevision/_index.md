@@ -41,7 +41,7 @@ ASSERT_TRUE(para->get_IsInsertRevision());
 // Paragraphs that we remove after starting revision tracking will register as "Delete" revisions.
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = body->get_Paragraphs();
 
-ASSERT_EQ(4, paragraphs->get_Count());
+ASSERT_EQ(paragraphs->get_Count(), 4);
 
 para = paragraphs->idx_get(2);
 para->Remove();
@@ -49,15 +49,15 @@ para->Remove();
 // Such paragraphs will remain until we either accept or reject the delete revision.
 // Accepting the revision will remove the paragraph for good,
 // and rejecting the revision will leave it in the document as if we never deleted it.
-ASSERT_EQ(4, paragraphs->get_Count());
+ASSERT_EQ(paragraphs->get_Count(), 4);
 ASSERT_TRUE(para->get_IsDeleteRevision());
 
 // Accept the revision, and then verify that the paragraph is gone.
 doc->AcceptAllRevisions();
 
-ASSERT_EQ(3, paragraphs->get_Count());
-ASSERT_EQ(0, para->get_Count());
-ASSERT_EQ(System::String(u"Paragraph 1. \r") + u"Paragraph 2. \r" + u"Paragraph 4.", doc->GetText().Trim());
+ASSERT_EQ(paragraphs->get_Count(), 3);
+ASSERT_EQ(para->get_Count(), 0);
+ASSERT_EQ(doc->GetText().Trim(), System::String(u"Paragraph 1. \r") + u"Paragraph 2. \r" + u"Paragraph 4.");
 ```
 ## See Also
 

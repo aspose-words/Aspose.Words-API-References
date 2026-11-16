@@ -32,7 +32,7 @@ System::String xmlPartId = System::Guid::NewGuid().ToString(u"B");
 System::String xmlPartContent = u"<root><text>Text element #1</text><text>Text element #2</text></root>";
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> xmlPart = doc->get_CustomXmlParts()->Add(xmlPartId, xmlPartContent);
 
-ASSERT_EQ(u"<root><text>Text element #1</text><text>Text element #2</text></root>", System::Text::Encoding::get_UTF8()->GetString(xmlPart->get_Data()));
+ASSERT_EQ(System::Text::Encoding::get_UTF8()->GetString(xmlPart->get_Data()), u"<root><text>Text element #1</text><text>Text element #2</text></root>");
 
 // Create a structured document tag that will display the contents of our CustomXmlPart in the document.
 auto sdtRangeStart = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, true));

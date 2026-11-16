@@ -33,8 +33,8 @@ builder->Writeln(u"Hello world!");
 doc->get_ViewOptions()->set_ViewType(ViewType::PageLayout);
 doc->get_ViewOptions()->set_ZoomPercent(50);
 
-ASSERT_EQ(ZoomType::Custom, doc->get_ViewOptions()->get_ZoomType());
-ASSERT_EQ(ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
+ASSERT_EQ(doc->get_ViewOptions()->get_ZoomType(), ZoomType::Custom);
+ASSERT_EQ(doc->get_ViewOptions()->get_ZoomType(), ZoomType::None);
 
 doc->Save(get_ArtifactsDir() + u"ViewOptions.SetZoomPercentage.doc");
 ```

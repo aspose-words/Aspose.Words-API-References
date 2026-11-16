@@ -46,7 +46,7 @@ doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle2");
 // Combined with the built-in styles, the document now has eight styles.
 // A custom style is marked as "used" while there is any text within the document
 // formatted in that style. This means that the 4 styles we added are currently unused.
-ASSERT_EQ(8, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 8);
 
 // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,14 +67,14 @@ cleanupOptions->set_UnusedBuiltinStyles(true);
 
 doc->Cleanup(cleanupOptions);
 
-ASSERT_EQ(4, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
 
 // Removing every node that a custom style is applied to marks it as "unused" again.
 // Rerun the Cleanup method to remove them.
 doc->get_FirstSection()->get_Body()->RemoveAllChildren();
 doc->Cleanup(cleanupOptions);
 
-ASSERT_EQ(2, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 2);
 ```
 ## See Also
 

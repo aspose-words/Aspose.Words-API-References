@@ -40,11 +40,11 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 if (isUpdateCreatedTimeProperty)
 {
-    ASSERT_NE(createdTime, doc->get_BuiltInDocumentProperties()->get_CreatedTime());
+    ASSERT_NE(doc->get_BuiltInDocumentProperties()->get_CreatedTime(), createdTime);
 }
 else
 {
-    ASSERT_EQ(createdTime, doc->get_BuiltInDocumentProperties()->get_CreatedTime());
+    ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_CreatedTime(), createdTime);
 }
 ```
 ## See Also

@@ -36,7 +36,7 @@ options->set_MatchCase(matchCase);
 
 doc->get_Range()->Replace(u"Ruby", u"Jade", options);
 
-ASSERT_EQ(matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."));
 ```
 ## See Also
 

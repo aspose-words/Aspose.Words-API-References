@@ -25,15 +25,15 @@ Shows how to remove all sections from a document.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // This document has one section with a few child nodes containing and displaying all the document's contents.
-ASSERT_EQ(1, doc->get_Sections()->get_Count());
-ASSERT_EQ(17, doc->get_Sections()->idx_get(0)->GetChildNodes(NodeType::Any, true)->get_Count());
-ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", doc->GetText().Trim());
+ASSERT_EQ(doc->get_Sections()->get_Count(), 1);
+ASSERT_EQ(doc->get_Sections()->idx_get(0)->GetChildNodes(NodeType::Any, true)->get_Count(), 17);
+ASSERT_EQ(doc->GetText().Trim(), u"Hello World!\r\rHello Word!\r\r\rHello World!");
 
 // Clear the collection of sections, which will remove all of the document's children.
 doc->get_Sections()->Clear();
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Any, true)->get_Count());
-ASSERT_EQ(System::String::Empty, doc->GetText().Trim());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Any, true)->get_Count(), 0);
+ASSERT_EQ(doc->GetText().Trim(), System::String::Empty);
 ```
 ## See Also
 

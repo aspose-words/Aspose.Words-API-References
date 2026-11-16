@@ -42,7 +42,7 @@ pageSetup->set_LeftMargin(ConvertUtil::MillimeterToPoint(80));
 pageSetup->set_RightMargin(ConvertUtil::MillimeterToPoint(40));
 
 // A centimeter is approximately 28.3 points.
-ASSERT_NEAR(28.34, ConvertUtil::MillimeterToPoint(10), 0.01);
+ASSERT_NEAR(ConvertUtil::MillimeterToPoint(10), 28.34, 0.01);
 
 // Add content to demonstrate the new margins.
 builder->Writeln(System::String::Format(u"This Text is {0} points from the left, ", pageSetup->get_LeftMargin()) + System::String::Format(u"{0} points from the right, ", pageSetup->get_RightMargin()) + System::String::Format(u"{0} points from the top, ", pageSetup->get_TopMargin()) + System::String::Format(u"and {0} points from the bottom of the page.", pageSetup->get_BottomMargin()));

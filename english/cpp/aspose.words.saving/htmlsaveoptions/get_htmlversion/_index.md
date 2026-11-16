@@ -65,7 +65,7 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportXhtmlTransitional.html", 
 
 // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
 System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.ExportXhtmlTransitional.html");
-System::String newLine = System::Environment::get_NewLine();
+System::String newLine = ControlChar::CrLf();
 
 if (showDoctypeDeclaration)
 {

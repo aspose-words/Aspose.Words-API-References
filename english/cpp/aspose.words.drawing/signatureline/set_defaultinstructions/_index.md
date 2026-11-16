@@ -45,10 +45,10 @@ ASSERT_TRUE(shape->get_IsSignatureLine());
 // Verify the properties of our signature line via its Shape object.
 System::SharedPtr<Aspose::Words::Drawing::SignatureLine> signatureLine = shape->get_SignatureLine();
 
-ASSERT_EQ(u"john.doe@management.com", signatureLine->get_Email());
-ASSERT_EQ(u"John Doe", signatureLine->get_Signer());
-ASSERT_EQ(u"Senior Manager", signatureLine->get_SignerTitle());
-ASSERT_EQ(u"Please sign here", signatureLine->get_Instructions());
+ASSERT_EQ(signatureLine->get_Email(), u"john.doe@management.com");
+ASSERT_EQ(signatureLine->get_Signer(), u"John Doe");
+ASSERT_EQ(signatureLine->get_SignerTitle(), u"Senior Manager");
+ASSERT_EQ(signatureLine->get_Instructions(), u"Please sign here");
 ASSERT_TRUE(signatureLine->get_ShowDate());
 ASSERT_TRUE(signatureLine->get_AllowComments());
 ASSERT_TRUE(signatureLine->get_DefaultInstructions());

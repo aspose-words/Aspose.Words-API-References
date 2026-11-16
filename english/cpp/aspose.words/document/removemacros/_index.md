@@ -29,7 +29,7 @@ Shows how to remove all macros from a document.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Macro.docm"));
 
 ASSERT_TRUE(doc->get_HasMacros());
-ASSERT_EQ(u"Project", doc->get_VbaProject()->get_Name());
+ASSERT_EQ(doc->get_VbaProject()->get_Name(), u"Project");
 
 // Remove the document's VBA project, along with all its macros.
 doc->RemoveMacros();

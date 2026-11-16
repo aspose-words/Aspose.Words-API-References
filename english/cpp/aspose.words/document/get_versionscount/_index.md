@@ -31,12 +31,12 @@ Shows how to work with the versions count feature of older Microsoft Word docume
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Versions.doc"));
 
 // We can read this property of a document, but we cannot preserve it while saving.
-ASSERT_EQ(4, doc->get_VersionsCount());
+ASSERT_EQ(doc->get_VersionsCount(), 4);
 
 doc->Save(get_ArtifactsDir() + u"Document.VersionsCount.doc");
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.VersionsCount.doc"));
 
-ASSERT_EQ(0, doc->get_VersionsCount());
+ASSERT_EQ(doc->get_VersionsCount(), 0);
 ```
 ## See Also
 

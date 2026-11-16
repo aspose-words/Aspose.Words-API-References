@@ -61,22 +61,22 @@ doc->get_BuiltInDocumentProperties()->set_Category(u"My category");
 auto fieldDocProperty = System::ExplicitCast<Aspose::Words::Fields::FieldDocProperty>(builder->InsertField(u" DOCPROPERTY Category "));
 fieldDocProperty->Update();
 
-ASSERT_EQ(u" DOCPROPERTY Category ", fieldDocProperty->GetFieldCode());
-ASSERT_EQ(u"My category", fieldDocProperty->get_Result());
+ASSERT_EQ(fieldDocProperty->GetFieldCode(), u" DOCPROPERTY Category ");
+ASSERT_EQ(fieldDocProperty->get_Result(), u"My category");
 
 builder->InsertParagraph();
 
 // 2 -  Display a custom document variable:
 // Define a custom variable, then reference that variable with a DOCPROPERTY field.
-ASSERT_EQ(0, doc->get_Variables()->get_Count());
+ASSERT_EQ(doc->get_Variables()->get_Count(), 0);
 doc->get_Variables()->Add(u"My variable", u"My variable's value");
 
 auto fieldDocVariable = System::ExplicitCast<Aspose::Words::Fields::FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 fieldDocVariable->set_VariableName(u"My Variable");
 fieldDocVariable->Update();
 
-ASSERT_EQ(u" DOCVARIABLE  \"My Variable\"", fieldDocVariable->GetFieldCode());
-ASSERT_EQ(u"My variable's value", fieldDocVariable->get_Result());
+ASSERT_EQ(fieldDocVariable->GetFieldCode(), u" DOCVARIABLE  \"My Variable\"");
+ASSERT_EQ(fieldDocVariable->get_Result(), u"My variable's value");
 
 doc->Save(get_ArtifactsDir() + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
 ```

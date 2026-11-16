@@ -69,10 +69,10 @@ Shows how to load an encrypted Microsoft Word document.
 System::SharedPtr<Aspose::Words::Document> doc;
 
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
-ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
-})(), Aspose::Words::IncorrectPasswordException);
+}))(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
 auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword");

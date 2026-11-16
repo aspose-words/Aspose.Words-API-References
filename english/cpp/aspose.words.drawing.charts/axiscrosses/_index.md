@@ -59,7 +59,7 @@ xAxis->get_TickLabels()->set_Position(AxisTickLabelPosition::Low);
 xAxis->get_TickLabels()->set_IsAutoSpacing(false);
 xAxis->set_TickMarkSpacing(1);
 
-ASPOSE_ASSERT_EQ(doc, xAxis->get_Document());
+ASPOSE_ASSERT_EQ(xAxis->get_Document(), doc);
 
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> yAxis = chart->get_AxisY();
 yAxis->set_CategoryType(AxisCategoryType::Automatic);

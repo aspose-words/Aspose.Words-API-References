@@ -45,14 +45,14 @@ builder->InsertField(u" DOCPROPERTY Category");
 doc->get_BuiltInDocumentProperties()->set_Category(u"MyCategory");
 
 // If we update the value of a document property, we will need to update all the DOCPROPERTY fields to display it.
-ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
-ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), System::String::Empty);
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), System::String::Empty);
 
 // Update all the fields that are in the range of the first section.
 doc->get_FirstSection()->get_Range()->UpdateFields();
 
-ASSERT_EQ(u"MyCategory", doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
-ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), u"MyCategory");
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), System::String::Empty);
 ```
 ## See Also
 

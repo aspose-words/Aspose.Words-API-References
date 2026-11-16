@@ -47,7 +47,7 @@ fieldToc->set_PrefixedSequenceIdentifier(u"PrefixSequence");
 // We can specify a custom separator that will appear between these two numbers.
 fieldToc->set_SequenceSeparator(u">");
 
-ASSERT_EQ(u" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc->GetFieldCode());
+ASSERT_EQ(fieldToc->GetFieldCode(), u" TOC  \\c MySequence \\s PrefixSequence \\d >");
 
 builder->InsertBreak(BreakType::PageBreak);
 
@@ -60,7 +60,7 @@ auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->I
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
 
-ASSERT_EQ(u" SEQ  PrefixSequence", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  PrefixSequence");
 
 // 2 -  Inserting a SEQ field that belongs to the TOC's main sequence:
 // This SEQ field will create an entry in the TOC.
@@ -73,7 +73,7 @@ builder->Write(u"First TOC entry, MySequence #");
 fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
-ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence");
 
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,

@@ -62,8 +62,8 @@ fieldBuilder->AddArgument(5);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldFormula>(fieldBuilder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParagraph()));
 field->Update();
 
-ASSERT_EQ(u" = 2 * 5 ", field->GetFieldCode());
-ASSERT_EQ(u"10", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" = 2 * 5 ");
+ASSERT_EQ(field->get_Result(), u"10");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.FORMULA.docx");

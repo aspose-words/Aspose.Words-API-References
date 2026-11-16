@@ -41,8 +41,8 @@ System::SharedPtr<Aspose::Words::Notes::Footnote> endnote = builder->InsertFootn
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(FootnoteType::Footnote, footnote->get_FootnoteType());
-ASSERT_EQ(FootnoteType::Endnote, endnote->get_FootnoteType());
+ASSERT_EQ(footnote->get_FootnoteType(), FootnoteType::Footnote);
+ASSERT_EQ(endnote->get_FootnoteType(), FootnoteType::Endnote);
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.FootnoteEndnote.docx");
 ```

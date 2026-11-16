@@ -27,10 +27,10 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set different fonts for the DocumentBuilder and verify their line spacing.
 builder->get_Font()->set_Name(u"Calibri");
-ASPOSE_ASSERT_EQ(14.6484375, builder->get_Font()->get_LineSpacing());
+ASPOSE_ASSERT_EQ(builder->get_Font()->get_LineSpacing(), 14.6484375);
 
 builder->get_Font()->set_Name(u"Times New Roman");
-ASPOSE_ASSERT_EQ(13.798828125, builder->get_Font()->get_LineSpacing());
+ASPOSE_ASSERT_EQ(builder->get_Font()->get_LineSpacing(), 13.798828125);
 ```
 ## See Also
 

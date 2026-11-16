@@ -31,6 +31,7 @@ class ChartSeries : public IChartDataPoint,
 | [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&) | Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes, they will be empty for the X value. |
 | [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\> \&) | Inserts the specified X and Y values into the chart series at the specified index. |
 | [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\> \&, double) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |
+| [IsTotal](./istotal/)(int32_t) | Determines whether the data point at the specified index is a total. Applies only to Waterfall charts. |
 | [Remove](./remove/)(int32_t) | Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index. The corresponding data point and data label are also removed. |
 | [get_Bubble3D](./get_bubble3d/)() override | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [get_BubbleSizes](./get_bubblesizes/)() | Gets a collection of bubble sizes for this chart series. |

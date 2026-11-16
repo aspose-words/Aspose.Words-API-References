@@ -47,21 +47,25 @@ tableSubstitutionRule->Load(get_MyDir() + u"Font substitution rules.xml");
 
 // Since we no longer have access to "Arial", our font table will first try substitute it with "Nonexistent Font".
 // We do not have this font so that it will move onto the next substitute, "Kreon", found in the "MyFonts" folder.
-ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Missing Font", u"Kreon"}), tableSubstitutionRule->GetSubstitutes(u"Arial")->LINQ_ToArray());
+ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Arial")->LINQ_ToArray(), System::MakeArray<System::String>({
+    u"Missing Font", u"Kreon"}));
 
 // We can expand this table programmatically. We will add an entry that substitutes "Times New Roman" with "Arvo"
 ASSERT_TRUE(System::TestTools::IsNull(tableSubstitutionRule->GetSubstitutes(u"Times New Roman")));
 tableSubstitutionRule->AddSubstitutes(u"Times New Roman", System::MakeArray<System::String>({u"Arvo"}));
-ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Arvo"}), tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray());
+ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray(), System::MakeArray<System::String>({
+    u"Arvo"}));
 
 // We can add a secondary fallback substitute for an existing font entry with AddSubstitutes().
 // In case "Arvo" is unavailable, our table will look for "M+ 2m" as a second substitute option.
 tableSubstitutionRule->AddSubstitutes(u"Times New Roman", System::MakeArray<System::String>({u"M+ 2m"}));
-ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Arvo", u"M+ 2m"}), tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray());
+ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray(), System::MakeArray<System::String>({
+    u"Arvo", u"M+ 2m"}));
 
 // SetSubstitutes() can set a new list of substitute fonts for a font.
 tableSubstitutionRule->SetSubstitutes(u"Times New Roman", System::MakeArray<System::String>({u"Squarish Sans CT", u"M+ 2m"}));
-ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Squarish Sans CT", u"M+ 2m"}), tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray());
+ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray(), System::MakeArray<System::String>({
+    u"Squarish Sans CT", u"M+ 2m"}));
 
 // Writing text in fonts that we do not have access to will invoke our substitution rules.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);

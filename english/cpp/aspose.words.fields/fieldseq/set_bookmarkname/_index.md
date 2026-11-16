@@ -38,7 +38,7 @@ fieldToc->set_TableOfFiguresLabel(u"MySequence");
 fieldToc->set_BookmarkName(u"TOCBookmark");
 builder->InsertBreak(BreakType::PageBreak);
 
-ASSERT_EQ(u" TOC  \\c MySequence \\b TOCBookmark", fieldToc->GetFieldCode());
+ASSERT_EQ(fieldToc->GetFieldCode(), u" TOC  \\c MySequence \\b TOCBookmark");
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -73,7 +73,7 @@ builder->Writeln(u", will not show up in the TOC because it's from a different s
 fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_BookmarkName(u"SEQBookmark");
-ASSERT_EQ(u" SEQ  MySequence SEQBookmark", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence SEQBookmark");
 
 // Create a bookmark with contents that will show up in the TOC entry due to the above SEQ field referencing it.
 builder->InsertBreak(BreakType::PageBreak);

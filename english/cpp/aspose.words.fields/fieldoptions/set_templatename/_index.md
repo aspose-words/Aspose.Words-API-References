@@ -36,13 +36,13 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 doc->get_FieldOptions()->set_TemplateName(System::String::Empty);
 
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
-ASSERT_EQ(u" TEMPLATE ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" TEMPLATE ");
 
 builder->Writeln();
 field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
 field->set_IncludeFullPath(true);
 
-ASSERT_EQ(u" TEMPLATE  \\p", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" TEMPLATE  \\p");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TEMPLATE.docx");

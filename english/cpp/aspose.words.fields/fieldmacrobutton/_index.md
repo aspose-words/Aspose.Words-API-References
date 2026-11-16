@@ -71,7 +71,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(build
 field->set_MacroName(u"MyMacro");
 field->set_DisplayText(System::String(u"Double click to run macro: ") + field->get_MacroName());
 
-ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" MACROBUTTON  MyMacro Double click to run macro: MyMacro");
 
 // Use the property to reference "ViewZoom200", a macro that ships with Microsoft Word.
 // We can find all other macros via View -> Macros (dropdown) -> View Macros.
@@ -83,7 +83,7 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->I
 field->set_MacroName(u"ViewZoom200");
 field->set_DisplayText(System::String(u"Run ") + field->get_MacroName());
 
-ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" MACROBUTTON  ViewZoom200 Run ViewZoom200");
 
 // Save the document as a macro-enabled document type.
 doc->Save(get_ArtifactsDir() + u"Field.MACROBUTTON.docm");

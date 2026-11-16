@@ -37,7 +37,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> fontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
 // The font sources that the document uses contain the font "Arial", but not "Arvo".
-ASSERT_EQ(1, fontSources->get_Length());
+ASSERT_EQ(fontSources->get_Length(), 1);
 ASSERT_TRUE(fontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -71,7 +71,7 @@ doc->set_FontSettings(fontSettings);
 // This rule will substitute all missing fonts with "Times New Roman".
 System::SharedPtr<Aspose::Words::Fonts::DefaultFontSubstitutionRule> defaultFontSubstitutionRule = fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution();
 ASSERT_TRUE(defaultFontSubstitutionRule->get_Enabled());
-ASSERT_EQ(u"Times New Roman", defaultFontSubstitutionRule->get_DefaultFontName());
+ASSERT_EQ(defaultFontSubstitutionRule->get_DefaultFontName(), u"Times New Roman");
 
 // Set the default font substitute to "Courier New".
 defaultFontSubstitutionRule->set_DefaultFontName(u"Courier New");

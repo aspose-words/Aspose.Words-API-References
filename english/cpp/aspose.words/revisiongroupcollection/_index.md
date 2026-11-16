@@ -28,11 +28,11 @@ class RevisionGroupCollection : public System::Collections::Generic::IEnumerable
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Remarks
 
 
@@ -45,7 +45,7 @@ Shows how to print info about a group of revisions in a document.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
-ASSERT_EQ(7, doc->get_Revisions()->get_Groups()->get_Count());
+ASSERT_EQ(doc->get_Revisions()->get_Groups()->get_Count(), 7);
 
 for (auto&& group : doc->get_Revisions()->get_Groups())
 {

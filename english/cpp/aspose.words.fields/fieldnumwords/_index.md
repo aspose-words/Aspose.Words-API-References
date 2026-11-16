@@ -73,10 +73,10 @@ auto fieldPage = System::ExplicitCast<Aspose::Words::Fields::FieldPage>(builder-
 builder->Write(u" of ");
 auto fieldNumPages = System::ExplicitCast<Aspose::Words::Fields::FieldNumPages>(builder->InsertField(FieldType::FieldNumPages, true));
 
-ASSERT_EQ(u" NUMCHARS ", fieldNumChars->GetFieldCode());
-ASSERT_EQ(u" NUMWORDS ", fieldNumWords->GetFieldCode());
-ASSERT_EQ(u" NUMPAGES ", fieldNumPages->GetFieldCode());
-ASSERT_EQ(u" PAGE ", fieldPage->GetFieldCode());
+ASSERT_EQ(fieldNumChars->GetFieldCode(), u" NUMCHARS ");
+ASSERT_EQ(fieldNumWords->GetFieldCode(), u" NUMWORDS ");
+ASSERT_EQ(fieldNumPages->GetFieldCode(), u" NUMPAGES ");
+ASSERT_EQ(fieldPage->GetFieldCode(), u" PAGE ");
 
 // These fields will not maintain accurate values in real time
 // while we edit the document programmatically using Aspose.Words, or in Microsoft Word.

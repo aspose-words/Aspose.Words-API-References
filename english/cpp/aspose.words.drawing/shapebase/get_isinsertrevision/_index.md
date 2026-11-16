@@ -44,20 +44,20 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
-ASSERT_EQ(2, shapes->get_Length());
+ASSERT_EQ(shapes->get_Length(), 2);
 
 shapes[0]->Remove();
 
 // Since we removed that shape while we were tracking changes,
 // the shape persists in the document and counts as a delete revision.
 // Accepting this revision will remove the shape permanently, and rejecting it will keep it in the document.
-ASSERT_EQ(ShapeType::Cube, shapes[0]->get_ShapeType());
+ASSERT_EQ(shapes[0]->get_ShapeType(), ShapeType::Cube);
 ASSERT_TRUE(shapes[0]->get_IsDeleteRevision());
 
 // And we inserted another shape while tracking changes, so that shape will count as an insert revision.
 // Accepting this revision will assimilate this shape into the document as a non-revision,
 // and rejecting the revision will remove this shape permanently.
-ASSERT_EQ(ShapeType::Sun, shapes[1]->get_ShapeType());
+ASSERT_EQ(shapes[1]->get_ShapeType(), ShapeType::Sun);
 ASSERT_TRUE(shapes[1]->get_IsInsertRevision());
 ```
 ## See Also

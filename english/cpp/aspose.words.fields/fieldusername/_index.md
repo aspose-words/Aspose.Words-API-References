@@ -64,20 +64,20 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // Create a USERNAME field to display the current user's name,
 // taken from the UserInformation object we created above.
 auto fieldUserName = System::ExplicitCast<Aspose::Words::Fields::FieldUserName>(builder->InsertField(FieldType::FieldUserName, true));
-ASSERT_EQ(userInformation->get_Name(), fieldUserName->get_Result());
+ASSERT_EQ(fieldUserName->get_Result(), userInformation->get_Name());
 
-ASSERT_EQ(u" USERNAME ", fieldUserName->GetFieldCode());
-ASSERT_EQ(u"John Doe", fieldUserName->get_Result());
+ASSERT_EQ(fieldUserName->GetFieldCode(), u" USERNAME ");
+ASSERT_EQ(fieldUserName->get_Result(), u"John Doe");
 
 // We can set this property to get our field to override the value currently stored in the UserInformation object.
 fieldUserName->set_UserName(u"Jane Doe");
 fieldUserName->Update();
 
-ASSERT_EQ(u" USERNAME  \"Jane Doe\"", fieldUserName->GetFieldCode());
-ASSERT_EQ(u"Jane Doe", fieldUserName->get_Result());
+ASSERT_EQ(fieldUserName->GetFieldCode(), u" USERNAME  \"Jane Doe\"");
+ASSERT_EQ(fieldUserName->get_Result(), u"Jane Doe");
 
 // This does not affect the value in the UserInformation object.
-ASSERT_EQ(u"John Doe", doc->get_FieldOptions()->get_CurrentUser()->get_Name());
+ASSERT_EQ(doc->get_FieldOptions()->get_CurrentUser()->get_Name(), u"John Doe");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.USERNAME.docx");

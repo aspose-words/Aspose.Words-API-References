@@ -28,6 +28,7 @@ class Chart : public Core::IChartFormatSource
 | [get_DataTable](./get_datatable/)() | Provides access to properties of a data table of this chart. The data table can be shown using the [Show](../chartdatatable/get_show/) property. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the chart. |
 | [get_Legend](./get_legend/)() | Provides access to the chart legend properties. |
+| [get_PlotArea](./get_plotarea/)() | Provides access to the plot area properties. |
 | [get_Series](./get_series/)() | Provides access to series collection. |
 | [get_SeriesGroups](./get_seriesgroups/)() | Provides access to a series group collection of this chart. |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets the path and name of an xls/xlsx file this chart is linked to. |

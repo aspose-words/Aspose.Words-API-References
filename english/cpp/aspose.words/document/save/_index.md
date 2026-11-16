@@ -51,7 +51,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
     doc->Save(dstStream, SaveFormat::Docx);
 
     // Verify that the stream contains the document.
-    ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", System::MakeObject<Aspose::Words::Document>(dstStream)->GetText().Trim());
+    ASSERT_EQ(System::MakeObject<Aspose::Words::Document>(dstStream)->GetText().Trim(), u"Hello World!\r\rHello Word!\r\r\rHello World!");
 }
 ```
 ## See Also
@@ -312,7 +312,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
     doc->Save(dstStream, SaveFormat::Docx);
 
     // Verify that the stream contains the document.
-    ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", System::MakeObject<Aspose::Words::Document>(dstStream)->GetText().Trim());
+    ASSERT_EQ(System::MakeObject<Aspose::Words::Document>(dstStream)->GetText().Trim(), u"Hello World!\r\rHello Word!\r\r\rHello World!");
 }
 ```
 ## See Also

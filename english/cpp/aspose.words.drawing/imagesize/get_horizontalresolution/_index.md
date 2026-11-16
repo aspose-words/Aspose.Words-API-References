@@ -33,12 +33,12 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(ge
 System::SharedPtr<Aspose::Words::Drawing::ImageSize> imageSize = shape->get_ImageData()->get_ImageSize();
 
 // The ImageSize object contains read-only information about the image within the shape.
-ASSERT_EQ(400, imageSize->get_HeightPixels());
-ASSERT_EQ(400, imageSize->get_WidthPixels());
+ASSERT_EQ(imageSize->get_HeightPixels(), 400);
+ASSERT_EQ(imageSize->get_WidthPixels(), 400);
 
 const double delta = 0.05;
-ASSERT_NEAR(95.98, imageSize->get_HorizontalResolution(), delta);
-ASSERT_NEAR(95.98, imageSize->get_VerticalResolution(), delta);
+ASSERT_NEAR(imageSize->get_HorizontalResolution(), 95.98, delta);
+ASSERT_NEAR(imageSize->get_VerticalResolution(), 95.98, delta);
 
 // We can base the size of the shape on the size of its image to avoid stretching the image.
 shape->set_Width(imageSize->get_WidthPoints() * 2);

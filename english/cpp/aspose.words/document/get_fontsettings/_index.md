@@ -39,7 +39,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> fontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
 // The default font sources contain the first font that the document uses.
-ASSERT_EQ(1, fontSources->get_Length());
+ASSERT_EQ(fontSources->get_Length(), 1);
 ASSERT_TRUE(fontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";

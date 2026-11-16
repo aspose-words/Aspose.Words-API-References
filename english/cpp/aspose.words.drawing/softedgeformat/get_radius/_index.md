@@ -36,13 +36,13 @@ shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeTy
 System::SharedPtr<Aspose::Words::Drawing::SoftEdgeFormat> softEdgeFormat = shape->get_SoftEdge();
 
 // Check soft edge radius.
-ASPOSE_ASSERT_EQ(30, softEdgeFormat->get_Radius());
+ASPOSE_ASSERT_EQ(softEdgeFormat->get_Radius(), 30);
 
 // Remove soft edge from the shape.
 softEdgeFormat->Remove();
 
 // Check radius of the removed soft edge.
-ASPOSE_ASSERT_EQ(0, softEdgeFormat->get_Radius());
+ASPOSE_ASSERT_EQ(softEdgeFormat->get_Radius(), 0);
 ```
 
 Shows how to set limit for image resolution.

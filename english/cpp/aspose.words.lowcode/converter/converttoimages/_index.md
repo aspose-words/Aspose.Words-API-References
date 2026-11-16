@@ -162,6 +162,10 @@ static void Aspose::Words::LowCode::Converter::ConvertToImages(const System::Str
 | loadOptions | const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \& | The input document load options. |
 | outputFile | const System::String \& | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
 | saveOptions | const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \& | Image save options. |
+## Deprecated
+
+
+Use Converter.Convert method instead.
 ## See Also
 
 * Class [Converter](../)
@@ -204,6 +208,10 @@ static void Aspose::Words::LowCode::Converter::ConvertToImages(const System::Str
 | --- | --- | --- |
 | inputFile | const System::String \& | The input file name. |
 | outputFile | const System::String \& | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
+## Deprecated
+
+
+Use Converter.Convert method instead.
 ## See Also
 
 * Class [Converter](../)
@@ -224,6 +232,10 @@ static void Aspose::Words::LowCode::Converter::ConvertToImages(const System::Str
 | inputFile | const System::String \& | The input file name. |
 | outputFile | const System::String \& | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
 | saveFormat | Aspose::Words::SaveFormat | Save format. Only image save formats are allowed. |
+## Deprecated
+
+
+Use Converter.Convert method instead.
 ## See Also
 
 * Class [Converter](../)
@@ -244,6 +256,10 @@ static void Aspose::Words::LowCode::Converter::ConvertToImages(const System::Str
 | inputFile | const System::String \& | The input file name. |
 | outputFile | const System::String \& | The output file name used to generate file name for page images using rule "outputFile_pageIndex.extension" |
 | saveOptions | const System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\> \& | Image save options. |
+## Deprecated
+
+
+Use Converter.Convert method instead.
 ## See Also
 
 * Class [Converter](../)

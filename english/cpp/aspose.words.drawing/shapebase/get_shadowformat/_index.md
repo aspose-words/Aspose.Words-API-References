@@ -26,8 +26,8 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 System::SharedPtr<Aspose::Words::Drawing::ShadowFormat> shadowFormat = shape->get_ShadowFormat();
 
-ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), shadowFormat->get_Color().ToArgb());
-ASSERT_EQ(ShadowType::ShadowMixed, shadowFormat->get_Type());
+ASSERT_EQ(shadowFormat->get_Color().ToArgb(), System::Drawing::Color::get_Red().ToArgb());
+ASSERT_EQ(shadowFormat->get_Type(), ShadowType::ShadowMixed);
 ```
 ## See Also
 

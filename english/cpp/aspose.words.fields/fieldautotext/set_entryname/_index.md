@@ -53,13 +53,13 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto fieldAutoText = System::ExplicitCast<Aspose::Words::Fields::FieldAutoText>(builder->InsertField(FieldType::FieldAutoText, true));
 fieldAutoText->set_EntryName(u"MyBlock");
 
-ASSERT_EQ(u" AUTOTEXT  MyBlock", fieldAutoText->GetFieldCode());
+ASSERT_EQ(fieldAutoText->GetFieldCode(), u" AUTOTEXT  MyBlock");
 
 // 2 -  Using a GLOSSARY field:
 auto fieldGlossary = System::ExplicitCast<Aspose::Words::Fields::FieldGlossary>(builder->InsertField(FieldType::FieldGlossary, true));
 fieldGlossary->set_EntryName(u"MyBlock");
 
-ASSERT_EQ(u" GLOSSARY  MyBlock", fieldGlossary->GetFieldCode());
+ASSERT_EQ(fieldGlossary->GetFieldCode(), u" GLOSSARY  MyBlock");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.AUTOTEXT.GLOSSARY.dotx");

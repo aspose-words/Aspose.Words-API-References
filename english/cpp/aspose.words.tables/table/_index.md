@@ -161,8 +161,8 @@ builder->EndRow();
 
 // While building the table, the document builder will apply its current RowFormat/CellFormat property values
 // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-ASSERT_EQ(CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(0)->get_CellFormat()->get_VerticalAlignment());
-ASSERT_EQ(CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(1)->get_CellFormat()->get_VerticalAlignment());
+ASSERT_EQ(table->get_Rows()->idx_get(0)->get_Cells()->idx_get(0)->get_CellFormat()->get_VerticalAlignment(), CellVerticalAlignment::Center);
+ASSERT_EQ(table->get_Rows()->idx_get(0)->get_Cells()->idx_get(1)->get_CellFormat()->get_VerticalAlignment(), CellVerticalAlignment::Center);
 
 builder->InsertCell();
 builder->get_RowFormat()->set_Height(100);
@@ -176,12 +176,12 @@ builder->EndRow();
 builder->EndTable();
 
 // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-ASPOSE_ASSERT_EQ(0, table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height());
-ASSERT_EQ(HeightRule::Auto, table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule());
-ASPOSE_ASSERT_EQ(100, table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height());
-ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule());
-ASSERT_EQ(TextOrientation::Upward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(0)->get_CellFormat()->get_Orientation());
-ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(1)->get_CellFormat()->get_Orientation());
+ASPOSE_ASSERT_EQ(table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height(), 0);
+ASSERT_EQ(table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule(), HeightRule::Auto);
+ASPOSE_ASSERT_EQ(table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height(), 100);
+ASSERT_EQ(table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule(), HeightRule::Exactly);
+ASSERT_EQ(table->get_Rows()->idx_get(1)->get_Cells()->idx_get(0)->get_CellFormat()->get_Orientation(), TextOrientation::Upward);
+ASSERT_EQ(table->get_Rows()->idx_get(1)->get_Cells()->idx_get(1)->get_CellFormat()->get_Orientation(), TextOrientation::Downward);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
@@ -219,7 +219,7 @@ Shows how to iterate through all tables in the document and print the contents o
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
 
-ASSERT_EQ(2, tables->ToArray()->get_Length());
+ASSERT_EQ(tables->ToArray()->get_Length(), 2);
 
 for (int32_t i = 0; i < tables->get_Count(); i++)
 {
@@ -228,8 +228,8 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
     System::SharedPtr<Aspose::Words::Tables::RowCollection> rows = tables->idx_get(i)->get_Rows();
 
     // We can use the "ToArray" method on a row collection to clone it into an array.
-    ASPOSE_ASSERT_EQ(rows, rows->ToArray());
-    ASPOSE_ASSERT_NS(rows, rows->ToArray());
+    ASPOSE_ASSERT_EQ(rows->ToArray(), rows);
+    ASSERT_FALSE(System::Object::ReferenceEquals(rows->ToArray(), rows));
 
     for (int32_t j = 0; j < rows->get_Count(); j++)
     {
@@ -238,8 +238,8 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
         System::SharedPtr<Aspose::Words::Tables::CellCollection> cells = rows->idx_get(j)->get_Cells();
 
         // We can use the "ToArray" method on a cell collection to clone it into an array.
-        ASPOSE_ASSERT_EQ(cells, cells->ToArray());
-        ASPOSE_ASSERT_NS(cells, cells->ToArray());
+        ASPOSE_ASSERT_EQ(cells->ToArray(), cells);
+        ASSERT_FALSE(System::Object::ReferenceEquals(cells->ToArray(), cells));
 
         for (int32_t k = 0; k < cells->get_Count(); k++)
         {

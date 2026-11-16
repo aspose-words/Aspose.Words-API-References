@@ -74,8 +74,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // by using the "PaperSize" property of this section's PageSetup object.
 builder->get_PageSetup()->set_PaperSize(PaperSize::Tabloid);
 
-ASPOSE_ASSERT_EQ(792.0, builder->get_PageSetup()->get_PageWidth());
-ASPOSE_ASSERT_EQ(1224.0, builder->get_PageSetup()->get_PageHeight());
+ASPOSE_ASSERT_EQ(builder->get_PageSetup()->get_PageWidth(), 792.0);
+ASPOSE_ASSERT_EQ(builder->get_PageSetup()->get_PageHeight(), 1224.0);
 
 builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
 
@@ -83,13 +83,13 @@ builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_P
 // that section's PageSetup object inherits all the previous section's PageSetup object's values.
 builder->InsertBreak(BreakType::SectionBreakEvenPage);
 
-ASSERT_EQ(PaperSize::Tabloid, builder->get_PageSetup()->get_PaperSize());
+ASSERT_EQ(builder->get_PageSetup()->get_PaperSize(), PaperSize::Tabloid);
 
 builder->get_PageSetup()->set_PaperSize(PaperSize::A5);
 builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
 
-ASPOSE_ASSERT_EQ(419.55, builder->get_PageSetup()->get_PageWidth());
-ASPOSE_ASSERT_EQ(595.30, builder->get_PageSetup()->get_PageHeight());
+ASPOSE_ASSERT_EQ(builder->get_PageSetup()->get_PageWidth(), 419.55);
+ASPOSE_ASSERT_EQ(builder->get_PageSetup()->get_PageHeight(), 595.30);
 
 builder->InsertBreak(BreakType::SectionBreakEvenPage);
 
@@ -97,7 +97,7 @@ builder->InsertBreak(BreakType::SectionBreakEvenPage);
 builder->get_PageSetup()->set_PageWidth(620);
 builder->get_PageSetup()->set_PageHeight(480);
 
-ASSERT_EQ(PaperSize::Custom, builder->get_PageSetup()->get_PaperSize());
+ASSERT_EQ(builder->get_PageSetup()->get_PaperSize(), PaperSize::Custom);
 
 builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
 
@@ -144,7 +144,7 @@ run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello World!");
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```

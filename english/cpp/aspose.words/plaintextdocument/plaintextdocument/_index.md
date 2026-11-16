@@ -40,7 +40,7 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx");
     auto stream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx", System::IO::FileMode::Open);
     auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(stream);
 
-    ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
+    ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
 }
 ```
 ## Exceptions
@@ -100,7 +100,7 @@ loadOptions->set_Password(u"MyPassword");
     auto stream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStreamWithOptions.docx", System::IO::FileMode::Open);
     auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(stream, loadOptions);
 
-    ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
+    ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
 }
 ```
 ## Exceptions
@@ -146,7 +146,7 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.Load.docx");
 
 auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.Load.docx");
 
-ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
+ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
 ```
 ## Exceptions
 
@@ -198,7 +198,7 @@ loadOptions->set_Password(u"MyPassword");
 
 auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.LoadEncrypted.docx", loadOptions);
 
-ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
+ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
 ```
 ## Exceptions
 
@@ -247,7 +247,7 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx");
     auto stream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx", System::IO::FileMode::Open);
     auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(stream);
 
-    ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
+    ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
 }
 ```
 ## Exceptions
@@ -307,7 +307,7 @@ loadOptions->set_Password(u"MyPassword");
     auto stream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStreamWithOptions.docx", System::IO::FileMode::Open);
     auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(stream, loadOptions);
 
-    ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
+    ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
 }
 ```
 ## Exceptions

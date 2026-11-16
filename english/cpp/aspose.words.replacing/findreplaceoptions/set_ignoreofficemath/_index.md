@@ -24,7 +24,7 @@ Shows how to find and replace text within OfficeMath.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
-ASSERT_EQ(u"i+b-c≥iM+bM-cM", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"i+b-c≥iM+bM-cM");
 
 auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 options->set_IgnoreOfficeMath(isIgnoreOfficeMath);
@@ -32,11 +32,11 @@ doc->get_Range()->Replace(u"b", u"x", options);
 
 if (isIgnoreOfficeMath)
 {
-    ASSERT_EQ(u"i+b-c≥iM+bM-cM", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+    ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"i+b-c≥iM+bM-cM");
 }
 else
 {
-    ASSERT_EQ(u"i+x-c≥iM+xM-cM", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+    ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"i+x-c≥iM+xM-cM");
 }
 ```
 ## See Also

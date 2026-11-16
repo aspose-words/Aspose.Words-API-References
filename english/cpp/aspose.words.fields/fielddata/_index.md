@@ -51,7 +51,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldData>(builder->InsertField(FieldType::FieldData, true));
-ASSERT_EQ(u" DATA ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" DATA ");
 ```
 ## See Also
 

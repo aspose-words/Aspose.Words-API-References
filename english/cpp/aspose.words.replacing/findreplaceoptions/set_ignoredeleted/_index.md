@@ -47,7 +47,7 @@ options->set_IgnoreDeleted(ignoreTextInsideDeleteRevisions);
 
 doc->get_Range()->Replace(u"Hello", u"Greetings", options);
 
-ASSERT_EQ(ignoreTextInsideDeleteRevisions ? System::String(u"Greetings world!\rHello again!") : System::String(u"Greetings world!\rGreetings again!"), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), ignoreTextInsideDeleteRevisions ? System::String(u"Greetings world!\rHello again!") : System::String(u"Greetings world!\rGreetings again!"));
 ```
 ## See Also
 

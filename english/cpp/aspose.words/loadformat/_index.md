@@ -42,6 +42,7 @@ enum class LoadFormat : int
 | MsWorks | 8 | Microsoft Works 8 Document. |
 | Odt | 60 | ODF Text Document. |
 | Ott | 61 | ODF Text Document Template. |
+| Pdf | 64 | Pdf document. |
 | Rtf | 30 | RTF format. |
 | Text | 62 | Plain Text. |
 | Unknown | 255 | Unrecognized format, cannot be loaded by Aspose.Words. |
@@ -60,7 +61,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(docStream);
     Aspose::Words::LoadFormat loadFormat = info->get_LoadFormat();
 
-    ASSERT_EQ(LoadFormat::Doc, loadFormat);
+    ASSERT_EQ(loadFormat, LoadFormat::Doc);
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -73,7 +74,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     // Load a document from the stream, and then save it to the automatically detected file extension.
     auto doc = System::MakeObject<Aspose::Words::Document>(docStream);
 
-    ASSERT_EQ(u".doc", FileFormatUtil::SaveFormatToExtension(saveFormat));
+    ASSERT_EQ(FileFormatUtil::SaveFormatToExtension(saveFormat), u".doc");
 
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
@@ -87,7 +88,7 @@ Shows how to specify a base URI when opening an html document.
 // We can provide a base URI using an HtmlLoadOptions object.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>(LoadFormat::Html, u"", get_ImageDir());
 
-ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
+ASSERT_EQ(loadOptions->get_LoadFormat(), LoadFormat::Html);
 
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing image.html", loadOptions);
 

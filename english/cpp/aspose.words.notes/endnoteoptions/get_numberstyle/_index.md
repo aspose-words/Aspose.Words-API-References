@@ -57,8 +57,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.", u"Custom endnote r
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes. By default, footnotes display their numbers using Arabic numerals,
 // and endnotes display their numbers in lowercase Roman numerals.
-ASSERT_EQ(NumberStyle::Arabic, doc->get_FootnoteOptions()->get_NumberStyle());
-ASSERT_EQ(NumberStyle::LowercaseRoman, doc->get_EndnoteOptions()->get_NumberStyle());
+ASSERT_EQ(doc->get_FootnoteOptions()->get_NumberStyle(), NumberStyle::Arabic);
+ASSERT_EQ(doc->get_EndnoteOptions()->get_NumberStyle(), NumberStyle::LowercaseRoman);
 
 // We can use the "NumberStyle" property to apply custom numbering styles to footnotes and endnotes.
 // This will not affect footnotes/endnotes with custom reference marks.

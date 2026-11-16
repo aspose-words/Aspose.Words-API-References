@@ -26,7 +26,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Microsoft Word documents by default come with an attached template called "Normal.dotm".
 // There is no default template for blank Aspose.Words documents.
-ASSERT_EQ(System::String::Empty, doc->get_AttachedTemplate());
+ASSERT_EQ(doc->get_AttachedTemplate(), System::String::Empty);
 
 // Attach a template, then set the flag to apply style changes
 // within the template to styles in our document.
@@ -44,7 +44,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // Enable automatic style updating, but do not attach a template document.
 doc->set_AutomaticallyUpdateStyles(true);
 
-ASSERT_EQ(System::String::Empty, doc->get_AttachedTemplate());
+ASSERT_EQ(doc->get_AttachedTemplate(), System::String::Empty);
 
 // Since there is no template document, the document had nowhere to track style changes.
 // Use a SaveOptions object to automatically set a template

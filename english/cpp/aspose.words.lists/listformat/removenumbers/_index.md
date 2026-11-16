@@ -58,13 +58,13 @@ builder->get_ListFormat()->ApplyNumberDefault();
 // This paragraph is the first item. The first item of a numbered list will have a "1." as its list item symbol.
 builder->Writeln(u"Opening documents from different formats:");
 
-ASSERT_EQ(0, builder->get_ListFormat()->get_ListLevelNumber());
+ASSERT_EQ(builder->get_ListFormat()->get_ListLevelNumber(), 0);
 
 // Call the "ListIndent" method to increase the current list level,
 // which will start a new self-contained list, with a deeper indent, at the current item of the first list level.
 builder->get_ListFormat()->ListIndent();
 
-ASSERT_EQ(1, builder->get_ListFormat()->get_ListLevelNumber());
+ASSERT_EQ(builder->get_ListFormat()->get_ListLevelNumber(), 1);
 
 // These are the first three list items of the second list level, which will maintain a count
 // independent of the count of the first list level. According to the current list format,
@@ -76,7 +76,7 @@ builder->Writeln(u"HTML");
 // Call the "ListOutdent" method to return to the previous list level.
 builder->get_ListFormat()->ListOutdent();
 
-ASSERT_EQ(0, builder->get_ListFormat()->get_ListLevelNumber());
+ASSERT_EQ(builder->get_ListFormat()->get_ListLevelNumber(), 0);
 
 // These two paragraphs will continue the count of the first list level.
 // These items will have symbols of "2.", and "3."
@@ -116,20 +116,20 @@ builder->Writeln(u"Numbered list item 3");
 builder->get_ListFormat()->RemoveNumbers();
 
 System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
-ASSERT_EQ(3, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+ASSERT_EQ(paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
-}))));
+}))), 3);
 
 for (auto&& paragraph : System::IterateOver<Aspose::Words::Paragraph>(paras))
 {
     paragraph->get_ListFormat()->RemoveNumbers();
 }
 
-ASSERT_EQ(0, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+ASSERT_EQ(paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
-}))));
+}))), 0);
 ```
 ## See Also
 

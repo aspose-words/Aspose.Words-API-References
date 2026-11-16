@@ -35,7 +35,7 @@ auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_AppendDocumentWithNewPage(false);
 dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 
-ASSERT_EQ(SectionStart::Continuous, dstDoc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(dstDoc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart(), SectionStart::Continuous);
 ```
 ## See Also
 

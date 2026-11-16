@@ -58,11 +58,11 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u" NOTAREALFIELD //a");
 
 // The "FieldNone" field type is reserved for fields such as these.
-ASSERT_EQ(FieldType::FieldNone, field->get_Type());
+ASSERT_EQ(field->get_Type(), FieldType::FieldNone);
 
 // We can also still work with these fields and assign them as instances of the FieldUnknown class.
 auto fieldUnknown = System::ExplicitCast<Aspose::Words::Fields::FieldUnknown>(field);
-ASSERT_EQ(u" NOTAREALFIELD //a", fieldUnknown->GetFieldCode());
+ASSERT_EQ(fieldUnknown->GetFieldCode(), u" NOTAREALFIELD //a");
 ```
 ## See Also
 

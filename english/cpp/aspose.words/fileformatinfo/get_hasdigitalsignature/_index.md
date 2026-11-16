@@ -29,7 +29,7 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
 System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx");
 
-ASSERT_EQ(u".docx", FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()));
+ASSERT_EQ(FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()), u".docx");
 ASSERT_FALSE(info->get_HasDigitalSignature());
 
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw", nullptr);
@@ -43,7 +43,7 @@ info = FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"File.DetectDigita
 ASSERT_TRUE(info->get_HasDigitalSignature());
 
 // We can load and access the signatures of a signed document in a collection like this.
-ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count());
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count(), 1);
 ```
 ## See Also
 

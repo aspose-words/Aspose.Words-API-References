@@ -29,14 +29,14 @@ Shows how to recognize plus characters "++" as underline text formatting.
     auto doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
 
     auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
-    ASSERT_EQ(Underline::Single, para->get_Runs()->idx_get(0)->get_Font()->get_Underline());
+    ASSERT_EQ(para->get_Runs()->idx_get(0)->get_Font()->get_Underline(), Underline::Single);
 
     loadOptions = System::MakeObject<Aspose::Words::Loading::MarkdownLoadOptions>();
     loadOptions->set_ImportUnderlineFormatting(false);
     doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
 
     para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
-    ASSERT_EQ(Underline::None, para->get_Runs()->idx_get(0)->get_Font()->get_Underline());
+    ASSERT_EQ(para->get_Runs()->idx_get(0)->get_Font()->get_Underline(), Underline::None);
 }
 ```
 ## See Also

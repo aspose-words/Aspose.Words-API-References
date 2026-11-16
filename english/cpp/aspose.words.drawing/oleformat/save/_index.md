@@ -36,15 +36,15 @@ auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(N
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();
 
-ASSERT_EQ(u"Excel.Sheet.12", oleFormat->get_ProgId());
+ASSERT_EQ(oleFormat->get_ProgId(), u"Excel.Sheet.12");
 
 // Our object is neither auto updating nor locked from updates.
 ASSERT_FALSE(oleFormat->get_AutoUpdate());
-ASPOSE_ASSERT_EQ(false, oleFormat->get_IsLocked());
+ASPOSE_ASSERT_EQ(oleFormat->get_IsLocked(), false);
 
 // If we plan on saving the OLE object to a file in the local file system,
 // we can use the "SuggestedExtension" property to determine which file extension to apply to the file.
-ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
+ASSERT_EQ(oleFormat->get_SuggestedExtension(), u".xlsx");
 
 // Below are two ways of saving an OLE object to a file in the local file system.
 // 1 -  Save it via a stream:
@@ -90,15 +90,15 @@ auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(N
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();
 
-ASSERT_EQ(u"Excel.Sheet.12", oleFormat->get_ProgId());
+ASSERT_EQ(oleFormat->get_ProgId(), u"Excel.Sheet.12");
 
 // Our object is neither auto updating nor locked from updates.
 ASSERT_FALSE(oleFormat->get_AutoUpdate());
-ASPOSE_ASSERT_EQ(false, oleFormat->get_IsLocked());
+ASPOSE_ASSERT_EQ(oleFormat->get_IsLocked(), false);
 
 // If we plan on saving the OLE object to a file in the local file system,
 // we can use the "SuggestedExtension" property to determine which file extension to apply to the file.
-ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
+ASSERT_EQ(oleFormat->get_SuggestedExtension(), u".xlsx");
 
 // Below are two ways of saving an OLE object to a file in the local file system.
 // 1 -  Save it via a stream:
@@ -148,15 +148,15 @@ auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(N
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();
 
-ASSERT_EQ(u"Excel.Sheet.12", oleFormat->get_ProgId());
+ASSERT_EQ(oleFormat->get_ProgId(), u"Excel.Sheet.12");
 
 // Our object is neither auto updating nor locked from updates.
 ASSERT_FALSE(oleFormat->get_AutoUpdate());
-ASPOSE_ASSERT_EQ(false, oleFormat->get_IsLocked());
+ASPOSE_ASSERT_EQ(oleFormat->get_IsLocked(), false);
 
 // If we plan on saving the OLE object to a file in the local file system,
 // we can use the "SuggestedExtension" property to determine which file extension to apply to the file.
-ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
+ASSERT_EQ(oleFormat->get_SuggestedExtension(), u".xlsx");
 
 // Below are two ways of saving an OLE object to a file in the local file system.
 // 1 -  Save it via a stream:

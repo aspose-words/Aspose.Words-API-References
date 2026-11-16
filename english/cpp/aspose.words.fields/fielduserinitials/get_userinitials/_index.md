@@ -33,20 +33,20 @@ doc->get_FieldOptions()->set_CurrentUser(userInformation);
 // taken from the UserInformation object we created above.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto fieldUserInitials = System::ExplicitCast<Aspose::Words::Fields::FieldUserInitials>(builder->InsertField(FieldType::FieldUserInitials, true));
-ASSERT_EQ(userInformation->get_Initials(), fieldUserInitials->get_Result());
+ASSERT_EQ(fieldUserInitials->get_Result(), userInformation->get_Initials());
 
-ASSERT_EQ(u" USERINITIALS ", fieldUserInitials->GetFieldCode());
-ASSERT_EQ(u"J. D.", fieldUserInitials->get_Result());
+ASSERT_EQ(fieldUserInitials->GetFieldCode(), u" USERINITIALS ");
+ASSERT_EQ(fieldUserInitials->get_Result(), u"J. D.");
 
 // We can set this property to get our field to override the value currently stored in the UserInformation object.
 fieldUserInitials->set_UserInitials(u"J. C.");
 fieldUserInitials->Update();
 
-ASSERT_EQ(u" USERINITIALS  \"J. C.\"", fieldUserInitials->GetFieldCode());
-ASSERT_EQ(u"J. C.", fieldUserInitials->get_Result());
+ASSERT_EQ(fieldUserInitials->GetFieldCode(), u" USERINITIALS  \"J. C.\"");
+ASSERT_EQ(fieldUserInitials->get_Result(), u"J. C.");
 
 // This does not affect the value in the UserInformation object.
-ASSERT_EQ(u"J. D.", doc->get_FieldOptions()->get_CurrentUser()->get_Initials());
+ASSERT_EQ(doc->get_FieldOptions()->get_CurrentUser()->get_Initials(), u"J. D.");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.USERINITIALS.docx");

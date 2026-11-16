@@ -37,15 +37,15 @@ doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.Password.docx", saveOptions);
 
 // We will not be able to open this document with Microsoft Word or
 // Aspose.Words without providing the correct password.
-ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.Password.docx"));
-})(), Aspose::Words::IncorrectPasswordException);
+}))(), Aspose::Words::IncorrectPasswordException);
 
 // Open the encrypted document by passing the correct password in a LoadOptions object.
 doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OoxmlSaveOptions.Password.docx", System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"MyPassword"));
 
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
 ## See Also
 

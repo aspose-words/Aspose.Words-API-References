@@ -34,14 +34,14 @@ fieldAuthor->set_AuthorName(u"John Doe");
 
 // We can use the DisplayResult property to verify what exact text
 // a field would display in its place in the document.
-ASSERT_EQ(System::String::Empty, fieldAuthor->get_DisplayResult());
+ASSERT_EQ(fieldAuthor->get_DisplayResult(), System::String::Empty);
 
 // Fields do not maintain accurate result values in real-time.
 // To make sure our fields display accurate results at any given time,
 // such as right before a save operation, we need to update them manually.
 fieldAuthor->Update();
 
-ASSERT_EQ(u"John Doe", fieldAuthor->get_DisplayResult());
+ASSERT_EQ(fieldAuthor->get_DisplayResult(), u"John Doe");
 
 doc->Save(get_ArtifactsDir() + u"Field.DisplayResult.docx");
 ```

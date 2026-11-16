@@ -41,7 +41,7 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 System::SharedPtr<Aspose::Words::Markup::SdtListItemCollection> listItems = tag->get_ListItems();
 listItems->Add(System::MakeObject<Aspose::Words::Markup::SdtListItem>(u"Value 1"));
 
-ASSERT_EQ(listItems->idx_get(0)->get_DisplayText(), listItems->idx_get(0)->get_Value());
+ASSERT_EQ(listItems->idx_get(0)->get_Value(), listItems->idx_get(0)->get_DisplayText());
 
 // Add 3 more list items. Initialize these items using a different constructor to the first item
 // to display strings that are different from their values.
@@ -49,12 +49,12 @@ listItems->Add(System::MakeObject<Aspose::Words::Markup::SdtListItem>(u"Item 2",
 listItems->Add(System::MakeObject<Aspose::Words::Markup::SdtListItem>(u"Item 3", u"Value 3"));
 listItems->Add(System::MakeObject<Aspose::Words::Markup::SdtListItem>(u"Item 4", u"Value 4"));
 
-ASSERT_EQ(4, listItems->get_Count());
+ASSERT_EQ(listItems->get_Count(), 4);
 
 // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
 listItems->set_SelectedValue(listItems->idx_get(3));
 
-ASSERT_EQ(u"Value 4", listItems->get_SelectedValue()->get_Value());
+ASSERT_EQ(listItems->get_SelectedValue()->get_Value(), u"Value 4");
 
 // Enumerate over the collection and print each element.
 {
@@ -71,7 +71,7 @@ ASSERT_EQ(u"Value 4", listItems->get_SelectedValue()->get_Value());
 // Remove the last list item.
 listItems->RemoveAt(3);
 
-ASSERT_EQ(3, listItems->get_Count());
+ASSERT_EQ(listItems->get_Count(), 3);
 
 // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
 listItems->set_SelectedValue(listItems->idx_get(1));
@@ -81,7 +81,7 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.ListItemCollection.docx")
 // Use the "Clear" method to empty the entire drop-down item collection at once.
 listItems->Clear();
 
-ASSERT_EQ(0, listItems->get_Count());
+ASSERT_EQ(listItems->get_Count(), 0);
 ```
 ## See Also
 

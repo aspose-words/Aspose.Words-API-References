@@ -32,10 +32,10 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->InsertField(u"MERGEFIELD Field");
 
 // GetText will retrieve the visible text as well as field codes and special characters.
-ASSERT_EQ(u"\u0013MERGEFIELD Field\u0014«Field»\u0015", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"\u0013MERGEFIELD Field\u0014«Field»\u0015");
 
 // ToString will give us the document's appearance if saved to a passed save format.
-ASSERT_EQ(u"«Field»", doc->ToString(SaveFormat::Text).Trim());
+ASSERT_EQ(doc->ToString(SaveFormat::Text).Trim(), u"«Field»");
 ```
 
 Shows how to extract the list labels of all paragraphs that are list items.
@@ -80,13 +80,13 @@ System::SharedPtr<Aspose::Words::Node> node = doc->get_LastSection()->get_Body()
 
 // When we call the ToString method using the html SaveFormat overload,
 // it converts the node's contents to their raw html representation.
-ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(SaveFormat::Html));
+ASSERT_EQ(node->ToString(SaveFormat::Html), System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>");
 
 // We can also modify the result of this conversion using a SaveOptions object.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 saveOptions->set_ExportRelativeFontSize(true);
 
-ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(saveOptions));
+ASSERT_EQ(node->ToString(saveOptions), System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>");
 ```
 ## See Also
 
@@ -122,13 +122,13 @@ System::SharedPtr<Aspose::Words::Node> node = doc->get_LastSection()->get_Body()
 
 // When we call the ToString method using the html SaveFormat overload,
 // it converts the node's contents to their raw html representation.
-ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(SaveFormat::Html));
+ASSERT_EQ(node->ToString(SaveFormat::Html), System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>");
 
 // We can also modify the result of this conversion using a SaveOptions object.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 saveOptions->set_ExportRelativeFontSize(true);
 
-ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(saveOptions));
+ASSERT_EQ(node->ToString(saveOptions), System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>");
 ```
 ## See Also
 

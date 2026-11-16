@@ -60,8 +60,8 @@ doc->get_BuiltInDocumentProperties()->set_LastSavedBy(u"John Doe");
 // We can use the LASTSAVEDBY field to display the value of this property in the document.
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldLastSavedBy>(builder->InsertField(FieldType::FieldLastSavedBy, true));
 
-ASSERT_EQ(u" LASTSAVEDBY ", field->GetFieldCode());
-ASSERT_EQ(u"John Doe", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" LASTSAVEDBY ");
+ASSERT_EQ(field->get_Result(), u"John Doe");
 
 doc->Save(get_ArtifactsDir() + u"Field.LASTSAVEDBY.docx");
 ```

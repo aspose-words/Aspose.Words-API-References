@@ -45,7 +45,7 @@ options->set_IgnoreFields(ignoreTextInsideFields);
 
 doc->get_Range()->Replace(u"Hello", u"Greetings", options);
 
-ASSERT_EQ(ignoreTextInsideFields ? System::String(u"Greetings world!\r\u0013QUOTE\u0014Hello again!\u0015") : System::String(u"Greetings world!\r\u0013QUOTE\u0014Greetings again!\u0015"), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), ignoreTextInsideFields ? System::String(u"Greetings world!\r\u0013QUOTE\u0014Hello again!\u0015") : System::String(u"Greetings world!\r\u0013QUOTE\u0014Greetings again!\u0015"));
 ```
 ## See Also
 

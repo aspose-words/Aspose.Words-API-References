@@ -39,7 +39,7 @@ int64_t updatedChecksum = richText->get_XmlMapping()->get_CustomXmlPart()->get_D
 std::cout << updatedChecksum << std::endl;
 
 // We changed the XmlPart of the tag, and the checksum was updated at runtime.
-ASSERT_NE(checksum, updatedChecksum);
+ASSERT_NE(updatedChecksum, checksum);
 ```
 ## See Also
 

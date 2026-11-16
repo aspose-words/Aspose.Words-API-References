@@ -110,7 +110,7 @@ paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject
 // and print any runs or shapes that we find within.
 System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(NodeType::Any, false);
 
-ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, false)->get_Count());
+ASSERT_EQ(paragraph->GetChildNodes(NodeType::Any, false)->get_Count(), 3);
 
 for (auto&& child : System::IterateOver(children))
 {
@@ -125,7 +125,7 @@ for (auto&& child : System::IterateOver(children))
             auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
             std::cout << "Shape:" << std::endl;
             std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
-            ASSERT_EQ(100, shape->get_CustomNodeId());
+            ASSERT_EQ(shape->get_CustomNodeId(), 100);
             break;
         }
         default:

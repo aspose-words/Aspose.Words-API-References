@@ -86,7 +86,7 @@ fieldToc->set_PrefixedSequenceIdentifier(u"PrefixSequence");
 // We can specify a custom separator that will appear between these two numbers.
 fieldToc->set_SequenceSeparator(u">");
 
-ASSERT_EQ(u" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc->GetFieldCode());
+ASSERT_EQ(fieldToc->GetFieldCode(), u" TOC  \\c MySequence \\s PrefixSequence \\d >");
 
 builder->InsertBreak(BreakType::PageBreak);
 
@@ -99,7 +99,7 @@ auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->I
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
 
-ASSERT_EQ(u" SEQ  PrefixSequence", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  PrefixSequence");
 
 // 2 -  Inserting a SEQ field that belongs to the TOC's main sequence:
 // This SEQ field will create an entry in the TOC.
@@ -112,7 +112,7 @@ builder->Write(u"First TOC entry, MySequence #");
 fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
-ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence");
 
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
@@ -146,8 +146,8 @@ fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetNumber(u"100");
 fieldSeq->Update();
 
-ASSERT_EQ(u" SEQ  MySequence \\r 100", fieldSeq->GetFieldCode());
-ASSERT_EQ(u"100", fieldSeq->get_Result());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\r 100");
+ASSERT_EQ(fieldSeq->get_Result(), u"100");
 
 // Display the next number in this sequence with another SEQ field.
 builder->Write(u", #");
@@ -155,7 +155,7 @@ fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->Insert
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->Update();
 
-ASSERT_EQ(u"101", fieldSeq->get_Result());
+ASSERT_EQ(fieldSeq->get_Result(), u"101");
 
 // Insert a level 1 heading.
 builder->InsertBreak(BreakType::ParagraphBreak);
@@ -171,8 +171,8 @@ fieldSeq->set_ResetHeadingLevel(u"1");
 fieldSeq->Update();
 
 // The above heading is a level 1 heading, so the count for this sequence is reset to 1.
-ASSERT_EQ(u" SEQ  MySequence \\s 1", fieldSeq->GetFieldCode());
-ASSERT_EQ(u"1", fieldSeq->get_Result());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\s 1");
+ASSERT_EQ(fieldSeq->get_Result(), u"1");
 
 // Move to the next number of this sequence.
 builder->Write(u", #");
@@ -181,8 +181,8 @@ fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_InsertNextNumber(true);
 fieldSeq->Update();
 
-ASSERT_EQ(u" SEQ  MySequence \\n", fieldSeq->GetFieldCode());
-ASSERT_EQ(u"2", fieldSeq->get_Result());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\n");
+ASSERT_EQ(fieldSeq->get_Result(), u"2");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SEQ.ResetNumbering.docx");
@@ -207,7 +207,7 @@ fieldToc->set_TableOfFiguresLabel(u"MySequence");
 fieldToc->set_BookmarkName(u"TOCBookmark");
 builder->InsertBreak(BreakType::PageBreak);
 
-ASSERT_EQ(u" TOC  \\c MySequence \\b TOCBookmark", fieldToc->GetFieldCode());
+ASSERT_EQ(fieldToc->GetFieldCode(), u" TOC  \\c MySequence \\b TOCBookmark");
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -242,7 +242,7 @@ builder->Writeln(u", will not show up in the TOC because it's from a different s
 fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_BookmarkName(u"SEQBookmark");
-ASSERT_EQ(u" SEQ  MySequence SEQBookmark", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence SEQBookmark");
 
 // Create a bookmark with contents that will show up in the TOC entry due to the above SEQ field referencing it.
 builder->InsertBreak(BreakType::PageBreak);

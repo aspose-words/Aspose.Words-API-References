@@ -64,7 +64,7 @@ std::cout << System::String::Format(u"\n{0} revisions:", revisions->get_Count())
 // Reject all revisions via the collection, reverting the document to its original form.
 revisions->RejectAll();
 
-ASSERT_EQ(0, revisions->get_Count());
+ASSERT_EQ(revisions->get_Count(), 0);
 ```
 ## See Also
 

@@ -40,8 +40,8 @@ DigitalSignatureUtil::RemoveAllSignatures(get_MyDir() + u"Digitally signed.docx"
 }
 
 // Verify that both our output documents have no digital signatures.
-ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromString.docx")->get_Count());
-ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count());
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromString.docx")->get_Count(), 0);
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count(), 0);
 ```
 ## See Also
 
@@ -79,8 +79,8 @@ DigitalSignatureUtil::RemoveAllSignatures(get_MyDir() + u"Digitally signed.docx"
 }
 
 // Verify that both our output documents have no digital signatures.
-ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromString.docx")->get_Count());
-ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count());
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromString.docx")->get_Count(), 0);
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count(), 0);
 ```
 ## See Also
 
@@ -120,8 +120,8 @@ DigitalSignatureUtil::RemoveAllSignatures(get_MyDir() + u"Digitally signed.docx"
 }
 
 // Verify that both our output documents have no digital signatures.
-ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromString.docx")->get_Count());
-ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count());
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromString.docx")->get_Count(), 0);
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSignatureUtil.LoadAndRemove.FromStream.docx")->get_Count(), 0);
 ```
 ## See Also
 

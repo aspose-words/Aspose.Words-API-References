@@ -27,8 +27,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
 
-ASSERT_EQ(ShapeMarkupLanguage::Dml, shape->get_MarkupLanguage());
-ASPOSE_ASSERT_EQ(System::Drawing::SizeF(static_cast<float>(300.0f), static_cast<float>(300.0f)), shape->get_SizeInPoints());
+ASSERT_EQ(shape->get_MarkupLanguage(), ShapeMarkupLanguage::Dml);
+ASPOSE_ASSERT_EQ(shape->get_SizeInPoints(), System::Drawing::SizeF(static_cast<float>(300.0f), static_cast<float>(300.0f)));
 ```
 ## See Also
 

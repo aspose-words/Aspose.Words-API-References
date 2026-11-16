@@ -40,13 +40,13 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_Firs
 
 if (pageBreakBefore)
 {
-    ASSERT_EQ(1, layoutCollector->GetStartPageIndex(paragraphs->idx_get(0)));
-    ASSERT_EQ(2, layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)));
+    ASSERT_EQ(layoutCollector->GetStartPageIndex(paragraphs->idx_get(0)), 1);
+    ASSERT_EQ(layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)), 2);
 }
 else
 {
-    ASSERT_EQ(1, layoutCollector->GetStartPageIndex(paragraphs->idx_get(0)));
-    ASSERT_EQ(1, layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)));
+    ASSERT_EQ(layoutCollector->GetStartPageIndex(paragraphs->idx_get(0)), 1);
+    ASSERT_EQ(layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)), 1);
 }
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.PageBreakBefore.docx");

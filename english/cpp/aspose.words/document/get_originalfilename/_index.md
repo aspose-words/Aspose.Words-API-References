@@ -28,8 +28,8 @@ Shows how to retrieve details of a document's load operation.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
-ASSERT_EQ(get_MyDir() + u"Document.docx", doc->get_OriginalFileName());
-ASSERT_EQ(LoadFormat::Docx, doc->get_OriginalLoadFormat());
+ASSERT_EQ(doc->get_OriginalFileName(), get_MyDir() + u"Document.docx");
+ASSERT_EQ(doc->get_OriginalLoadFormat(), LoadFormat::Docx);
 ```
 
 Shows how to use the FileFormatUtil methods to detect the format of a document.
@@ -41,7 +41,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(docStream);
     Aspose::Words::LoadFormat loadFormat = info->get_LoadFormat();
 
-    ASSERT_EQ(LoadFormat::Doc, loadFormat);
+    ASSERT_EQ(loadFormat, LoadFormat::Doc);
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -54,7 +54,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     // Load a document from the stream, and then save it to the automatically detected file extension.
     auto doc = System::MakeObject<Aspose::Words::Document>(docStream);
 
-    ASSERT_EQ(u".doc", FileFormatUtil::SaveFormatToExtension(saveFormat));
+    ASSERT_EQ(FileFormatUtil::SaveFormatToExtension(saveFormat), u".doc");
 
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }

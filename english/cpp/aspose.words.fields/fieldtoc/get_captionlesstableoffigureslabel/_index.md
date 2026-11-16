@@ -28,7 +28,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 fieldToc->set_CaptionlessTableOfFiguresLabel(u"Test");
 
-ASSERT_EQ(u" TOC  \\a Test", fieldToc->GetFieldCode());
+ASSERT_EQ(fieldToc->GetFieldCode(), u" TOC  \\a Test");
 ```
 ## See Also
 

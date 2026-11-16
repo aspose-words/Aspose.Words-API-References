@@ -86,7 +86,7 @@ System::SharedPtr<Aspose::Words::BorderCollection> secondParagraphBorders = buil
 for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 {
     ASSERT_TRUE(System::ObjectExt::Equals(firstParagraphBorders->idx_get(i), secondParagraphBorders->idx_get(i)));
-    ASSERT_EQ(System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)));
+    ASSERT_EQ(System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)));
     ASSERT_FALSE(firstParagraphBorders->idx_get(i)->get_IsVisible());
 }
 
@@ -100,7 +100,7 @@ for (auto&& border : System::IterateOver(secondParagraphBorders))
 for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 {
     ASSERT_FALSE(System::ObjectExt::Equals(firstParagraphBorders->idx_get(i), secondParagraphBorders->idx_get(i)));
-    ASSERT_NE(System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)));
+    ASSERT_NE(System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)));
 
     // Changing the appearance of an empty border makes it visible.
     ASSERT_TRUE(secondParagraphBorders->idx_get(i)->get_IsVisible());

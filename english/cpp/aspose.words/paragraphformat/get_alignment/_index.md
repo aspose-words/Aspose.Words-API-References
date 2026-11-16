@@ -86,7 +86,7 @@ run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello World!");
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```

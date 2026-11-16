@@ -38,7 +38,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 index->set_PageNumberSeparator(u", on page(s) ");
 index->set_PageNumberListSeparator(u" & ");
 
-ASSERT_EQ((u" INDEX  \\e \", on page(s) \" \\l \" & \""), index->GetFieldCode());
+ASSERT_EQ(index->GetFieldCode(), (u" INDEX  \\e \", on page(s) \" \\l \" & \""));
 ASSERT_TRUE(index->get_HasPageNumberSeparator());
 
 // After we insert these XE fields, the INDEX field will display "First entry, on page(s) 2 & 3 & 4".
@@ -46,7 +46,7 @@ builder->InsertBreak(BreakType::PageBreak);
 auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"First entry");
 
-ASSERT_EQ(u" XE  \"First entry\"", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  \"First entry\"");
 
 builder->InsertBreak(BreakType::PageBreak);
 indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));

@@ -35,11 +35,11 @@ class CustomXmlSchemaCollection : public System::Collections::Generic::IEnumerab
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Remarks
 
 
@@ -65,8 +65,8 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlSchemaCollection> schemas = xm
 schemas->Add(u"http://www.w3.org/2001/XMLSchema-instance");
 schemas->Add(u"http://schemas.microsoft.com/office/2006/metadata/contentType");
 
-ASSERT_EQ(3, schemas->get_Count());
-ASSERT_EQ(2, schemas->IndexOf(u"http://schemas.microsoft.com/office/2006/metadata/contentType"));
+ASSERT_EQ(schemas->get_Count(), 3);
+ASSERT_EQ(schemas->IndexOf(u"http://schemas.microsoft.com/office/2006/metadata/contentType"), 2);
 
 // Enumerate the schemas and print each element.
 {
@@ -87,7 +87,7 @@ schemas->Remove(u"http://www.w3.org/2001/XMLSchema");
 // 3 -  Use the "Clear" method to empty the collection at once.
 schemas->Clear();
 
-ASSERT_EQ(0, schemas->get_Count());
+ASSERT_EQ(schemas->get_Count(), 0);
 ```
 ## See Also
 

@@ -60,7 +60,7 @@ sdtRichText->set_StyleName(u"Quote");
 builder->InsertNode(sdtPlainText);
 builder->InsertNode(sdtRichText);
 
-ASSERT_EQ(NodeType::StructuredDocumentTag, sdtPlainText->get_NodeType());
+ASSERT_EQ(sdtPlainText->get_NodeType(), NodeType::StructuredDocumentTag);
 
 System::SharedPtr<Aspose::Words::NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocumentTag, true);
 
@@ -70,8 +70,8 @@ for (auto&& node : System::IterateOver(tags))
 
     std::cout << sdt->get_WordOpenXMLMinimal() << std::endl;
 
-    ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
-    ASSERT_EQ(u"Quote", sdt->get_StyleName());
+    ASSERT_EQ(sdt->get_Style()->get_StyleIdentifier(), StyleIdentifier::Quote);
+    ASSERT_EQ(sdt->get_StyleName(), u"Quote");
 }
 ```
 

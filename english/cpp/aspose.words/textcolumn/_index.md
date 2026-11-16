@@ -48,7 +48,7 @@ columns->SetCount(2);
 // Determine the amount of room that we have available for arranging columns.
 double contentWidth = pageSetup->get_PageWidth() - pageSetup->get_LeftMargin() - pageSetup->get_RightMargin();
 
-ASSERT_NEAR(470.30, contentWidth, 0.01);
+ASSERT_NEAR(contentWidth, 470.30, 0.01);
 
 // Set the first column to be narrow.
 System::SharedPtr<Aspose::Words::TextColumn> column = columns->idx_get(0);

@@ -32,11 +32,11 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 System::SharedPtr<Aspose::Words::Drawing::AdjustmentCollection> adjustments = shape->get_Adjustments();
-ASSERT_EQ(1, adjustments->get_Count());
+ASSERT_EQ(adjustments->get_Count(), 1);
 
 System::SharedPtr<Aspose::Words::Drawing::Adjustment> adjustment = adjustments->idx_get(0);
-ASSERT_EQ(u"adj", adjustment->get_Name());
-ASSERT_EQ(16667, adjustment->get_Value());
+ASSERT_EQ(adjustment->get_Name(), u"adj");
+ASSERT_EQ(adjustment->get_Value(), 16667);
 
 adjustment->set_Value(30000);
 

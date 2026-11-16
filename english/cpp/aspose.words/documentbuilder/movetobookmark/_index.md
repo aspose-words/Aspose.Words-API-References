@@ -51,10 +51,10 @@ builder->EndBookmark(u"MyBookmark");
 
 System::SharedPtr<Aspose::Words::NodeCollection> firstParagraphNodes = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(NodeType::Any, false);
 
-ASSERT_EQ(NodeType::BookmarkStart, firstParagraphNodes->idx_get(0)->get_NodeType());
-ASSERT_EQ(NodeType::Run, firstParagraphNodes->idx_get(1)->get_NodeType());
-ASSERT_EQ(u"Bookmark contents.", firstParagraphNodes->idx_get(1)->GetText().Trim());
-ASSERT_EQ(NodeType::BookmarkEnd, firstParagraphNodes->idx_get(2)->get_NodeType());
+ASSERT_EQ(firstParagraphNodes->idx_get(0)->get_NodeType(), NodeType::BookmarkStart);
+ASSERT_EQ(firstParagraphNodes->idx_get(1)->get_NodeType(), NodeType::Run);
+ASSERT_EQ(firstParagraphNodes->idx_get(1)->GetText().Trim(), u"Bookmark contents.");
+ASSERT_EQ(firstParagraphNodes->idx_get(2)->get_NodeType(), NodeType::BookmarkEnd);
 
 // The document builder's cursor is always ahead of the node that we last added with it.
 // If the builder's cursor is at the end of the document, its current node will be null.
@@ -67,13 +67,13 @@ ASSERT_TRUE(System::TestTools::IsNull(builder->get_CurrentNode()));
 builder->MoveToBookmark(u"MyBookmark");
 
 // Moving it to a bookmark will move it to the first node within the bookmark start and end nodes, the enclosed run.
-ASPOSE_ASSERT_EQ(firstParagraphNodes->idx_get(1), builder->get_CurrentNode());
+ASPOSE_ASSERT_EQ(builder->get_CurrentNode(), firstParagraphNodes->idx_get(1));
 
 // We can also move the cursor to an individual node like this.
 builder->MoveTo(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(NodeType::Any, false)->idx_get(0));
 
-ASSERT_EQ(NodeType::BookmarkStart, builder->get_CurrentNode()->get_NodeType());
-ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph(), builder->get_CurrentParagraph());
+ASSERT_EQ(builder->get_CurrentNode()->get_NodeType(), NodeType::BookmarkStart);
+ASPOSE_ASSERT_EQ(builder->get_CurrentParagraph(), doc->get_FirstSection()->get_Body()->get_FirstParagraph());
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 
 // We can use specific methods to move to the start/end of a document.
@@ -139,29 +139,29 @@ builder->EndBookmark(u"MyBookmark");
 ASSERT_TRUE(builder->MoveToBookmark(u"MyBookmark", true, false));
 builder->Write(u"1. ");
 
-ASSERT_EQ(u"Hello world! ", doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text());
-ASSERT_EQ(u"1. Hello world!", doc->GetText().Trim());
+ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text(), u"Hello world! ");
+ASSERT_EQ(doc->GetText().Trim(), u"1. Hello world!");
 
 // 2 -  Inside the bookmark, right after the BookmarkStart node:
 ASSERT_TRUE(builder->MoveToBookmark(u"MyBookmark", true, true));
 builder->Write(u"2. ");
 
-ASSERT_EQ(u"2. Hello world! ", doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text());
-ASSERT_EQ(u"1. 2. Hello world!", doc->GetText().Trim());
+ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text(), u"2. Hello world! ");
+ASSERT_EQ(doc->GetText().Trim(), u"1. 2. Hello world!");
 
 // 2 -  Inside the bookmark, right in front of the BookmarkEnd node:
 ASSERT_TRUE(builder->MoveToBookmark(u"MyBookmark", false, false));
 builder->Write(u"3. ");
 
-ASSERT_EQ(u"2. Hello world! 3. ", doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text());
-ASSERT_EQ(u"1. 2. Hello world! 3.", doc->GetText().Trim());
+ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text(), u"2. Hello world! 3. ");
+ASSERT_EQ(doc->GetText().Trim(), u"1. 2. Hello world! 3.");
 
 // 4 -  Outside of the bookmark, after the BookmarkEnd node:
 ASSERT_TRUE(builder->MoveToBookmark(u"MyBookmark", false, true));
 builder->Write(u"4.");
 
-ASSERT_EQ(u"2. Hello world! 3. ", doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text());
-ASSERT_EQ(u"1. 2. Hello world! 3. 4.", doc->GetText().Trim());
+ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(u"MyBookmark")->get_Text(), u"2. Hello world! 3. ");
+ASSERT_EQ(doc->GetText().Trim(), u"1. 2. Hello world! 3. 4.");
 ```
 ## See Also
 

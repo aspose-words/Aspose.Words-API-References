@@ -33,7 +33,7 @@ auto imgShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc
 ASSERT_TRUE(imgShape->get_HasImage());
 
 // ToByteArray() returns the array stored in the ImageBytes property.
-ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_ImageData()->ToByteArray());
+ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->ToByteArray(), imgShape->get_ImageData()->get_ImageBytes());
 
 // Save the shape's image data to an image file in the local file system.
 {

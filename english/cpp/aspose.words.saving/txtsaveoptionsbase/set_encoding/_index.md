@@ -33,20 +33,20 @@ builder->Write(u"À È Ì Ò Ù.");
 auto txtSaveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
 
 // Verify that the "Encoding" property contains the appropriate encoding for our document's contents.
-ASPOSE_ASSERT_EQ(System::Text::Encoding::get_UTF8(), txtSaveOptions->get_Encoding());
+ASPOSE_ASSERT_EQ(txtSaveOptions->get_Encoding(), System::Text::Encoding::get_UTF8());
 
 doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);
 
 System::String docText = System::Text::Encoding::get_UTF8()->GetString(System::IO::File::ReadAllBytes(get_ArtifactsDir() + u"TxtSaveOptions.Encoding.UTF8.txt"));
 
-ASSERT_EQ(u"\ufeffÀ È Ì Ò Ù.\r\n", docText);
+ASSERT_EQ(docText, u"\ufeffÀ È Ì Ò Ù.\r\n");
 
 // Using an unsuitable encoding may result in a loss of document contents.
 txtSaveOptions->set_Encoding(System::Text::Encoding::get_ASCII());
 doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.Encoding.ASCII.txt", txtSaveOptions);
 docText = System::Text::Encoding::get_ASCII()->GetString(System::IO::File::ReadAllBytes(get_ArtifactsDir() + u"TxtSaveOptions.Encoding.ASCII.txt"));
 
-ASSERT_EQ(u"? ? ? ? ?.\r\n", docText);
+ASSERT_EQ(docText, u"? ? ? ? ?.\r\n");
 ```
 ## See Also
 

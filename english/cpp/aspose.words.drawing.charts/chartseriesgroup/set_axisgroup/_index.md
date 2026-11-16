@@ -46,7 +46,7 @@ newSeriesGroup->get_AxisX()->set_Hidden(true);
 newSeriesGroup->get_AxisY()->get_Title()->set_Show(true);
 newSeriesGroup->get_AxisY()->get_Title()->set_Text(u"Secondary Y axis");
 
-ASSERT_EQ(ChartSeriesType::Line, newSeriesGroup->get_SeriesType());
+ASSERT_EQ(newSeriesGroup->get_SeriesType(), ChartSeriesType::Line);
 
 // Add a series to the new series group.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series3 = newSeriesGroup->get_Series()->Add(u"Series of secondary series group", categories, System::MakeArray<double>({13, 11, 16}));

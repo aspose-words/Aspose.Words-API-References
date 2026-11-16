@@ -32,7 +32,7 @@ builder->Writeln(u"Hello World!");
 auto htmlFixedSaveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
 htmlFixedSaveOptions->set_Encoding(System::Text::Encoding::get_ASCII());
 
-ASSERT_EQ(u"US-ASCII", htmlFixedSaveOptions->get_Encoding()->get_EncodingName());
+ASSERT_EQ(htmlFixedSaveOptions->get_Encoding()->get_EncodingName(), u"US-ASCII");
 
 doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOptions);
 ```

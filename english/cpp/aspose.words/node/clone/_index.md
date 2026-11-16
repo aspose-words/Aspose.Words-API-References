@@ -45,13 +45,13 @@ para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspo
 System::SharedPtr<Aspose::Words::Node> cloneWithChildren = System::ExplicitCast<Aspose::Words::Node>(para)->Clone(true);
 
 ASSERT_TRUE((System::ExplicitCast<Aspose::Words::CompositeNode>(cloneWithChildren))->get_HasChildNodes());
-ASSERT_EQ(u"Hello world!", cloneWithChildren->GetText().Trim());
+ASSERT_EQ(cloneWithChildren->GetText().Trim(), u"Hello world!");
 
 // 2 -  Create a clone of a node just by itself without any children.
 System::SharedPtr<Aspose::Words::Node> cloneWithoutChildren = System::ExplicitCast<Aspose::Words::Node>(para)->Clone(false);
 
 ASSERT_FALSE((System::ExplicitCast<Aspose::Words::CompositeNode>(cloneWithoutChildren))->get_HasChildNodes());
-ASSERT_EQ(System::String::Empty, cloneWithoutChildren->GetText().Trim());
+ASSERT_EQ(cloneWithoutChildren->GetText().Trim(), System::String::Empty);
 ```
 ## See Also
 

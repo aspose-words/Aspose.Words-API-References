@@ -30,7 +30,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 System::SharedPtr<Aspose::Words::Body> body = doc->get_FirstSection()->get_Body();
 
 // Retrieve the index of the last paragraph in the body of the first section.
-ASSERT_EQ(24, body->GetChildNodes(NodeType::Any, false)->IndexOf(body->get_LastParagraph()));
+ASSERT_EQ(body->GetChildNodes(NodeType::Any, false)->IndexOf(body->get_LastParagraph()), 24);
 ```
 ## See Also
 

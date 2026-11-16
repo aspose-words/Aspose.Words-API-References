@@ -34,7 +34,7 @@ ASSERT_TRUE(doc->get_HasRevisions());
 
 System::SharedPtr<System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Notes::Footnote>>> footnotes = doc->GetChildNodes(NodeType::Footnote, true)->LINQ_Cast<System::SharedPtr<Aspose::Words::Notes::Footnote>>()->LINQ_ToList();
 
-ASSERT_EQ(5, footnotes->get_Count());
+ASSERT_EQ(footnotes->get_Count(), 5);
 
 // Below are five types of revisions that can flag an InlineStory node.
 // 1 -  An "insert" revision:

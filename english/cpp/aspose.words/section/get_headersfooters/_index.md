@@ -30,32 +30,20 @@ for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Asp
     // There are three kinds of footer and header types.
     // 1 -  The "First" header/footer, which only appears on the first page of a section.
     System::SharedPtr<Aspose::Words::HeaderFooter> footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterFirst);
-    System::SharedPtr<Aspose::Words::HeaderFooter> condExpression = footer;
-    if (condExpression != nullptr)
-    {
-        condExpression->Remove();
-    }
+    System::SafeInvoke(footer, [&](auto&& expr){return expr->Remove();});
 
     // 2 -  The "Primary" header/footer, which appears on odd pages.
     footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary);
-    System::SharedPtr<Aspose::Words::HeaderFooter> condExpression2 = footer;
-    if (condExpression2 != nullptr)
-    {
-        condExpression2->Remove();
-    }
+    System::SafeInvoke(footer, [&](auto&& expr){return expr->Remove();});
 
     // 3 -  The "Even" header/footer, which appears on even pages.
     footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterEven);
-    System::SharedPtr<Aspose::Words::HeaderFooter> condExpression3 = footer;
-    if (condExpression3 != nullptr)
-    {
-        condExpression3->Remove();
-    }
+    System::SafeInvoke(footer, [&](auto&& expr){return expr->Remove();});
 
-    ASSERT_EQ(0, section->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
+    ASSERT_EQ(section->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
     {
         return !(System::ExplicitCast<Aspose::Words::HeaderFooter>(hf))->get_IsHeader();
-    }))));
+    }))), 0);
 }
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.RemoveFooters.docx");

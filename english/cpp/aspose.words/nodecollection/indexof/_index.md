@@ -39,15 +39,15 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 System::SharedPtr<Aspose::Words::NodeCollection> allTables = doc->GetChildNodes(NodeType::Table, true);
 
-ASSERT_EQ(0, allTables->IndexOf(table));
+ASSERT_EQ(allTables->IndexOf(table), 0);
 
 System::SharedPtr<Aspose::Words::Tables::Row> row = table->get_Rows()->idx_get(2);
 
-ASSERT_EQ(2, table->IndexOf(row));
+ASSERT_EQ(table->IndexOf(row), 2);
 
 System::SharedPtr<Aspose::Words::Tables::Cell> cell = row->get_LastCell();
 
-ASSERT_EQ(4, row->IndexOf(cell));
+ASSERT_EQ(row->IndexOf(cell), 4);
 ```
 ## See Also
 

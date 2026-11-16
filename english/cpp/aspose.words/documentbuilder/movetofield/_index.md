@@ -48,14 +48,14 @@ if (moveCursorToAfterTheField)
     ASSERT_TRUE(System::TestTools::IsNull(builder->get_CurrentNode()));
     builder->Write(u" Text immediately after the field.");
 
-    ASSERT_EQ(u"\u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015 Text immediately after the field.", doc->GetText().Trim());
+    ASSERT_EQ(doc->GetText().Trim(), u"\u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015 Text immediately after the field.");
 }
 else
 {
-    ASPOSE_ASSERT_EQ(field->get_Start(), builder->get_CurrentNode());
+    ASPOSE_ASSERT_EQ(builder->get_CurrentNode(), field->get_Start());
     builder->Write(u"Text immediately before the field. ");
 
-    ASSERT_EQ(u"Text immediately before the field. \u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015", doc->GetText().Trim());
+    ASSERT_EQ(doc->GetText().Trim(), u"Text immediately before the field. \u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015");
 }
 ```
 ## See Also

@@ -61,7 +61,7 @@ builder->Writeln(u"I decided to get the curtains in gray, ideal for the grey-acc
 
 doc->get_Range()->Replace(System::MakeObject<System::Text::RegularExpressions::Regex>(u"gr(a|e)y"), u"lavender");
 
-ASSERT_EQ((u"I decided to get the curtains in lavender, ideal for the lavender-accented room."), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), (u"I decided to get the curtains in lavender, ideal for the lavender-accented room."));
 ```
 ## See Also
 
@@ -174,8 +174,8 @@ builder->Writeln(u"Greetings, _FullName_!");
 // Perform a find-and-replace operation on our document's contents and verify the number of replacements that took place.
 int32_t replacementCount = doc->get_Range()->Replace(u"_FullName_", u"John Doe");
 
-ASSERT_EQ(1, replacementCount);
-ASSERT_EQ((u"Greetings, John Doe!"), doc->GetText().Trim());
+ASSERT_EQ(replacementCount, 1);
+ASSERT_EQ(doc->GetText().Trim(), (u"Greetings, John Doe!"));
 ```
 
 Shows how to add formatting to paragraphs in which a find-and-replace operation has found matches.
@@ -190,9 +190,9 @@ builder->Write(u"This one also will.");
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
 
-ASSERT_EQ(ParagraphAlignment::Left, paragraphs->idx_get(0)->get_ParagraphFormat()->get_Alignment());
-ASSERT_EQ(ParagraphAlignment::Left, paragraphs->idx_get(1)->get_ParagraphFormat()->get_Alignment());
-ASSERT_EQ(ParagraphAlignment::Left, paragraphs->idx_get(2)->get_ParagraphFormat()->get_Alignment());
+ASSERT_EQ(paragraphs->idx_get(0)->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Left);
+ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Left);
+ASSERT_EQ(paragraphs->idx_get(2)->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Left);
 
 // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
@@ -204,11 +204,11 @@ options->get_ApplyParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 // Replace every full stop that is right before a paragraph break with an exclamation point.
 int32_t count = doc->get_Range()->Replace(u".&p", u"!&p", options);
 
-ASSERT_EQ(2, count);
-ASSERT_EQ(ParagraphAlignment::Right, paragraphs->idx_get(0)->get_ParagraphFormat()->get_Alignment());
-ASSERT_EQ(ParagraphAlignment::Left, paragraphs->idx_get(1)->get_ParagraphFormat()->get_Alignment());
-ASSERT_EQ(ParagraphAlignment::Right, paragraphs->idx_get(2)->get_ParagraphFormat()->get_Alignment());
-ASSERT_EQ(System::String(u"Every paragraph that ends with a full stop like this one will be right aligned!\r") + u"This one will not!\r" + u"This one also will!", doc->GetText().Trim());
+ASSERT_EQ(count, 2);
+ASSERT_EQ(paragraphs->idx_get(0)->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Right);
+ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Left);
+ASSERT_EQ(paragraphs->idx_get(2)->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Right);
+ASSERT_EQ(doc->GetText().Trim(), System::String(u"Every paragraph that ends with a full stop like this one will be right aligned!\r") + u"This one will not!\r" + u"This one also will!");
 ```
 ## See Also
 
@@ -295,7 +295,7 @@ options->set_MatchCase(matchCase);
 
 doc->get_Range()->Replace(u"Ruby", u"Jade", options);
 
-ASSERT_EQ(matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."));
 ```
 
 Shows how to toggle standalone word-only find-and-replace operations.
@@ -315,7 +315,7 @@ options->set_FindWholeWordsOnly(findWholeWordsOnly);
 
 doc->get_Range()->Replace(u"Jackson", u"Louis", options);
 
-ASSERT_EQ(findWholeWordsOnly ? System::String(u"Louis will meet you in Jacksonville.") : System::String(u"Louis will meet you in Louisville."), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), findWholeWordsOnly ? System::String(u"Louis will meet you in Jacksonville.") : System::String(u"Louis will meet you in Louisville."));
 ```
 
 Shows how to replace all instances of String of text in a table and cell.
@@ -346,7 +346,7 @@ table->get_Range()->Replace(u"Carrots", u"Eggs", options);
 // Perform a find-and-replace operation on the last cell of the last row of the table.
 table->get_LastRow()->get_LastCell()->get_Range()->Replace(u"50", u"20", options);
 
-ASSERT_EQ(System::String(u"Eggs\a50\a\a") + u"Potatoes\a20\a\a", table->GetText().Trim());
+ASSERT_EQ(table->GetText().Trim(), System::String(u"Eggs\a50\a\a") + u"Potatoes\a20\a\a");
 ```
 ## See Also
 

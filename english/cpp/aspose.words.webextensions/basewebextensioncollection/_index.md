@@ -36,11 +36,11 @@ template<typename T>class BaseWebExtensionCollection : public System::Collection
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Examples
 
 
@@ -49,7 +49,7 @@ Shows how to work with a document's collection of web extensions.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Web extension.docx"));
 
-ASSERT_EQ(1, doc->get_WebExtensionTaskPanes()->get_Count());
+ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 1);
 
 // Print all properties of the document's web extension.
 System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> webExtensionPropertyCollection = doc->get_WebExtensionTaskPanes()->idx_get(0)->get_WebExtension()->get_Properties();
@@ -65,7 +65,7 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> 
 // Remove the web extension.
 doc->get_WebExtensionTaskPanes()->Remove(0);
 
-ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
+ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 0);
 ```
 ## See Also
 

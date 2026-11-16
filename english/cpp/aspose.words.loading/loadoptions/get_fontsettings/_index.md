@@ -44,7 +44,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing f
 
 // At this point such text will still be in "MissingFont".
 // Font substitution will take place when we render the document.
-ASSERT_EQ(u"MissingFont", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name(), u"MissingFont");
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 ```

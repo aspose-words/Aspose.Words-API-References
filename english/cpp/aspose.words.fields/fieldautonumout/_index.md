@@ -71,7 +71,7 @@ for (auto&& field : System::IterateOver<Aspose::Words::Fields::FieldAutoNumOut>(
     return f->get_Type() == FieldType::FieldAutoNumOutline;
 })))->LINQ_ToList()))
 {
-    ASSERT_EQ(u" AUTONUMOUT ", field->GetFieldCode());
+    ASSERT_EQ(field->GetFieldCode(), u" AUTONUMOUT ");
 }
 
 doc->Save(get_ArtifactsDir() + u"Field.AUTONUMOUT.docx");

@@ -27,11 +27,11 @@ Removes all smart tags from descendant nodes of a composite node.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
-ASSERT_EQ(8, doc->GetChildNodes(NodeType::SmartTag, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::SmartTag, true)->get_Count(), 8);
 
 doc->RemoveSmartTags();
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::SmartTag, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::SmartTag, true)->get_Count(), 0);
 ```
 ## See Also
 

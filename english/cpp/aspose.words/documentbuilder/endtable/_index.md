@@ -104,8 +104,8 @@ builder->EndRow();
 
 // While building the table, the document builder will apply its current RowFormat/CellFormat property values
 // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-ASSERT_EQ(CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(0)->get_CellFormat()->get_VerticalAlignment());
-ASSERT_EQ(CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(1)->get_CellFormat()->get_VerticalAlignment());
+ASSERT_EQ(table->get_Rows()->idx_get(0)->get_Cells()->idx_get(0)->get_CellFormat()->get_VerticalAlignment(), CellVerticalAlignment::Center);
+ASSERT_EQ(table->get_Rows()->idx_get(0)->get_Cells()->idx_get(1)->get_CellFormat()->get_VerticalAlignment(), CellVerticalAlignment::Center);
 
 builder->InsertCell();
 builder->get_RowFormat()->set_Height(100);
@@ -119,12 +119,12 @@ builder->EndRow();
 builder->EndTable();
 
 // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-ASPOSE_ASSERT_EQ(0, table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height());
-ASSERT_EQ(HeightRule::Auto, table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule());
-ASPOSE_ASSERT_EQ(100, table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height());
-ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule());
-ASSERT_EQ(TextOrientation::Upward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(0)->get_CellFormat()->get_Orientation());
-ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(1)->get_CellFormat()->get_Orientation());
+ASPOSE_ASSERT_EQ(table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height(), 0);
+ASSERT_EQ(table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule(), HeightRule::Auto);
+ASPOSE_ASSERT_EQ(table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height(), 100);
+ASSERT_EQ(table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule(), HeightRule::Exactly);
+ASSERT_EQ(table->get_Rows()->idx_get(1)->get_Cells()->idx_get(0)->get_CellFormat()->get_Orientation(), TextOrientation::Upward);
+ASSERT_EQ(table->get_Rows()->idx_get(1)->get_Cells()->idx_get(1)->get_CellFormat()->get_Orientation(), TextOrientation::Downward);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
@@ -155,17 +155,17 @@ builder->EndRow();
 builder->EndTable();
 
 // The first cell was unaffected by the padding reconfiguration, and still holds the default values.
-ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_Width());
-ASPOSE_ASSERT_EQ(5.4, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_LeftPadding());
-ASPOSE_ASSERT_EQ(5.4, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_RightPadding());
-ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_TopPadding());
-ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_BottomPadding());
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_Width(), 0.0);
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_LeftPadding(), 5.4);
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_RightPadding(), 5.4);
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_TopPadding(), 0.0);
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_BottomPadding(), 0.0);
 
-ASPOSE_ASSERT_EQ(250.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_Width());
-ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_LeftPadding());
-ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_RightPadding());
-ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_TopPadding());
-ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_BottomPadding());
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_Width(), 250.0);
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_LeftPadding(), 30.0);
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_RightPadding(), 30.0);
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_TopPadding(), 30.0);
+ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_BottomPadding(), 30.0);
 
 // The first cell will still grow in the output document to match the size of its neighboring cell.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetCellFormatting.docx");

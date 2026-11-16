@@ -38,13 +38,13 @@ System::String result = System::IO::File::ReadAllText(get_ArtifactsDir() + u"Mar
 switch (exportMode)
 {
     case MarkdownEmptyParagraphExportMode::None:
-        ASSERT_EQ(u"First\r\n\r\nLast\r\n", result);
+        ASSERT_EQ(result, u"First\r\n\r\nLast\r\n");
         break;
     case MarkdownEmptyParagraphExportMode::EmptyLine:
-        ASSERT_EQ(u"First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n", result);
+        ASSERT_EQ(result, u"First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n");
         break;
     case MarkdownEmptyParagraphExportMode::MarkdownHardLineBreak:
-        ASSERT_EQ(u"First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n", result);
+        ASSERT_EQ(result, u"First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n");
         break;
 }
 ```

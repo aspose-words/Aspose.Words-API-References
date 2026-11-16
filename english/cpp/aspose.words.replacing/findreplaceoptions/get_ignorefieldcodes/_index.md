@@ -40,7 +40,7 @@ options->set_IgnoreFieldCodes(ignoreFieldCodes);
 doc->get_Range()->Replace(System::MakeObject<System::Text::RegularExpressions::Regex>(u"T"), u"*", options);
 std::cout << doc->GetText() << std::endl;
 
-ASSERT_EQ(ignoreFieldCodes ? System::String(u"\u0013INCLUDETEXT\u0014*est I*!\u0015") : System::String(u"\u0013INCLUDE*EX*\u0014*est I*!\u0015"), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), ignoreFieldCodes ? System::String(u"\u0013INCLUDETEXT\u0014*est I*!\u0015") : System::String(u"\u0013INCLUDE*EX*\u0014*est I*!\u0015"));
 ```
 ## See Also
 

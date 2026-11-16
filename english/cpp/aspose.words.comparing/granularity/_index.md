@@ -46,7 +46,7 @@ docA->Compare(docB, u"author", System::DateTime::get_Now(), compareOptions);
 
 // The first document's collection of revision groups contains all the differences between documents.
 System::SharedPtr<Aspose::Words::RevisionGroupCollection> groups = docA->get_Revisions()->get_Groups();
-ASSERT_EQ(5, groups->get_Count());
+ASSERT_EQ(groups->get_Count(), 5);
 ```
 ## See Also
 

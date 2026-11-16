@@ -32,7 +32,7 @@ builder->InsertBreak(BreakType::PageBreak);
 builder->Write(u"Page 3");
 
 // Verify the expected page count of the document.
-ASSERT_EQ(3, doc->get_PageCount());
+ASSERT_EQ(doc->get_PageCount(), 3);
 
 // Getting the PageCount property invoked the document's page layout to calculate the value.
 // This operation will not need to be re-done when rendering the document to a fixed page save format,

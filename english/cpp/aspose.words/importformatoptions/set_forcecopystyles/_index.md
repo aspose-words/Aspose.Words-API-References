@@ -40,9 +40,9 @@ dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paras = dstDoc->get_Sections()->idx_get(1)->get_Body()->get_Paragraphs();
 
-ASSERT_EQ(paras->idx_get(0)->get_ParagraphFormat()->get_Style()->get_Name(), u"MyStyle1_0");
-ASSERT_EQ(paras->idx_get(1)->get_ParagraphFormat()->get_Style()->get_Name(), u"MyStyle2_0");
-ASSERT_EQ(paras->idx_get(2)->get_ParagraphFormat()->get_Style()->get_Name(), u"MyStyle3");
+ASSERT_EQ(u"MyStyle1_0", paras->idx_get(0)->get_ParagraphFormat()->get_Style()->get_Name());
+ASSERT_EQ(u"MyStyle2_0", paras->idx_get(1)->get_ParagraphFormat()->get_Style()->get_Name());
+ASSERT_EQ(u"MyStyle3", paras->idx_get(2)->get_ParagraphFormat()->get_Style()->get_Name());
 ```
 ## See Also
 

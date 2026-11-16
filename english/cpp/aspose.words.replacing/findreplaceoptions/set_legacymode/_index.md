@@ -40,7 +40,7 @@ options->set_LegacyMode(false);
 
 doc->get_Range()->Replace(regex, u"$2 took money from $1", options);
 
-ASSERT_EQ(doc->GetText(), u"Paul took money from Jason.\f");
+ASSERT_EQ(u"Paul took money from Jason.\f", doc->GetText());
 ```
 ## See Also
 

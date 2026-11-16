@@ -31,13 +31,13 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Jpeg image:");
 System::SharedPtr<Aspose::Words::Drawing::Shape> imageShape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
-ASSERT_EQ(ImageType::Jpeg, imageShape->get_ImageData()->get_ImageType());
+ASSERT_EQ(imageShape->get_ImageData()->get_ImageType(), ImageType::Jpeg);
 
 builder->InsertParagraph();
 builder->Writeln(u"Png image:");
 imageShape = builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
 
-ASSERT_EQ(ImageType::Png, imageShape->get_ImageData()->get_ImageType());
+ASSERT_EQ(imageShape->get_ImageData()->get_ImageType(), ImageType::Png);
 
 // Create an "RtfSaveOptions" object to pass to the document's "Save" method to modify how we save it to an RTF.
 auto rtfSaveOptions = System::MakeObject<Aspose::Words::Saving::RtfSaveOptions>();
@@ -56,13 +56,13 @@ System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Nod
 
 if (saveImagesAsWmf)
 {
-    ASSERT_EQ(ImageType::Wmf, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType());
-    ASSERT_EQ(ImageType::Wmf, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType(), ImageType::Wmf);
+    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType(), ImageType::Wmf);
 }
 else
 {
-    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType());
-    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType(), ImageType::Jpeg);
+    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType(), ImageType::Png);
 }
 ```
 ## See Also

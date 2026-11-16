@@ -47,7 +47,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = chartShape->get
 // Four clusters of three columns will represent this data.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> chartData = chart->get_Series();
 
-ASSERT_EQ(3, chartData->get_Count());
+ASSERT_EQ(chartData->get_Count(), 3);
 
 // Print the name of every series in the chart.
 {

@@ -27,7 +27,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // Create an "RtfSaveOptions" object to pass to the document's "Save" method to modify how we save it to an RTF.
 auto options = System::MakeObject<Aspose::Words::Saving::RtfSaveOptions>();
 
-ASSERT_EQ(SaveFormat::Rtf, options->get_SaveFormat());
+ASSERT_EQ(options->get_SaveFormat(), SaveFormat::Rtf);
 
 // Set the "ExportCompactSize" property to "true" to
 // reduce the saved document's size at the cost of right-to-left text compatibility.

@@ -45,8 +45,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Scatter, static_cast<double>(450), static_cast<double>(250));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
-ASSERT_EQ(1, chart->get_Series()->get_Count());
-ASSERT_EQ(u"Y-Values", chart->get_Series()->idx_get(0)->get_Name());
+ASSERT_EQ(chart->get_Series()->get_Count(), 1);
+ASSERT_EQ(chart->get_Series()->idx_get(0)->get_Name(), u"Y-Values");
 
 // Set the minor tick marks of the Y-axis to point away from the plot area,
 // and the major tick marks to cross the axis.
@@ -78,8 +78,8 @@ axis->get_Scaling()->set_Minimum(System::MakeObject<Aspose::Words::Drawing::Char
 axis->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(30)));
 axis->get_TickLabels()->set_Alignment(ParagraphAlignment::Right);
 
-ASSERT_EQ(1, axis->get_TickLabels()->get_Spacing());
-ASPOSE_ASSERT_EQ(doc, axis->get_DisplayUnit()->get_Document());
+ASSERT_EQ(axis->get_TickLabels()->get_Spacing(), 1);
+ASPOSE_ASSERT_EQ(axis->get_DisplayUnit()->get_Document(), doc);
 
 // Set the tick labels to display their value in millions.
 axis->get_DisplayUnit()->set_Unit(AxisBuiltInUnit::Millions);

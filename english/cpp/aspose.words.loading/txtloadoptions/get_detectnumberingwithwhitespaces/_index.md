@@ -49,7 +49,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::MakeObject<System
 
 if (detectNumberingWithWhitespaces)
 {
-    ASSERT_EQ(4, doc->get_Lists()->get_Count());
+    ASSERT_EQ(doc->get_Lists()->get_Count(), 4);
     ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> p)>>([](System::SharedPtr<Aspose::Words::Node> p) -> bool
     {
         return p->GetText().Contains(u"Fourth list") && (System::ExplicitCast<Aspose::Words::Paragraph>(p))->get_IsListItem();
@@ -57,7 +57,7 @@ if (detectNumberingWithWhitespaces)
 }
 else
 {
-    ASSERT_EQ(3, doc->get_Lists()->get_Count());
+    ASSERT_EQ(doc->get_Lists()->get_Count(), 3);
     ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> p)>>([](System::SharedPtr<Aspose::Words::Node> p) -> bool
     {
         return p->GetText().Contains(u"Fourth list") && (System::ExplicitCast<Aspose::Words::Paragraph>(p))->get_IsListItem();

@@ -29,11 +29,11 @@ class ChartSeriesGroupCollection : public System::Collections::Generic::IEnumera
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Remarks
 
  To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. 
@@ -67,7 +67,7 @@ newSeriesGroup->get_AxisX()->set_Hidden(true);
 newSeriesGroup->get_AxisY()->get_Title()->set_Show(true);
 newSeriesGroup->get_AxisY()->get_Title()->set_Text(u"Secondary Y axis");
 
-ASSERT_EQ(ChartSeriesType::Line, newSeriesGroup->get_SeriesType());
+ASSERT_EQ(newSeriesGroup->get_SeriesType(), ChartSeriesType::Line);
 
 // Add a series to the new series group.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series3 = newSeriesGroup->get_Series()->Add(u"Series of secondary series group", categories, System::MakeArray<double>({13, 11, 16}));

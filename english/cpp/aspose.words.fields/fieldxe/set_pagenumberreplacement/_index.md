@@ -37,7 +37,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 // specify a custom separator between the XE field's Text property value and the string.
 index->set_CrossReferenceSeparator(u", see: ");
 
-ASSERT_EQ((u" INDEX  \\k \", see: \""), index->GetFieldCode());
+ASSERT_EQ(index->GetFieldCode(), (u" INDEX  \\k \", see: \""));
 
 // Insert an XE field, which creates a regular INDEX entry which displays this field's page number,
 // and does not invoke the CrossReferenceSeparator value.
@@ -46,7 +46,7 @@ builder->InsertBreak(BreakType::PageBreak);
 auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Apple");
 
-ASSERT_EQ(u" XE  Apple", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  Apple");
 
 // Insert another XE field on page 3 and set a value for the PageNumberReplacement property.
 // This value will show up instead of the number of the page that this field is on,
@@ -57,7 +57,7 @@ indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->Inser
 indexEntry->set_Text(u"Banana");
 indexEntry->set_PageNumberReplacement(u"Tropical fruit");
 
-ASSERT_EQ(u" XE  Banana \\t \"Tropical fruit\"", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  Banana \\t \"Tropical fruit\"");
 
 doc->UpdatePageLayout();
 doc->UpdateFields();

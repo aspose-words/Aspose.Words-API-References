@@ -73,21 +73,21 @@ builder->Write(u"According to the Lunar Calendar - ");
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
 field->set_UseLunarCalendar(true);
 
-ASSERT_EQ(u" SAVEDATE  \\h", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" SAVEDATE  \\h");
 
 // 2 -  Umm al-Qura calendar:
 builder->Write(u"\nAccording to the Umm al-Qura calendar - ");
 field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
 field->set_UseUmAlQuraCalendar(true);
 
-ASSERT_EQ(u" SAVEDATE  \\u", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" SAVEDATE  \\u");
 
 // 3 -  Indian National calendar:
 builder->Write(u"\nAccording to the Indian National calendar - ");
 field = System::ExplicitCast<Aspose::Words::Fields::FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
 field->set_UseSakaEraCalendar(true);
 
-ASSERT_EQ(u" SAVEDATE  \\s", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" SAVEDATE  \\s");
 
 // The SAVEDATE fields draw their date/time values from the LastSavedTime built-in property.
 // The document's Save method will not update this value, but we can still update it manually.

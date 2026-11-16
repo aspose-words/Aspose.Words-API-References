@@ -31,7 +31,7 @@ auto footnote = System::ExplicitCast<Aspose::Words::Notes::Footnote>(doc->GetChi
 doc->UpdateFields();
 doc->UpdateActualReferenceMarks();
 
-ASSERT_EQ(u"1", footnote->get_ActualReferenceMark());
+ASSERT_EQ(footnote->get_ActualReferenceMark(), u"1");
 ```
 ## See Also
 

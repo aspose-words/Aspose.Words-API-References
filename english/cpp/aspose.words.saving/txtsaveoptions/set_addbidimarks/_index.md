@@ -49,12 +49,12 @@ System::String docText = System::Text::Encoding::get_Unicode()->GetString(System
 
 if (addBidiMarks)
 {
-    ASSERT_EQ(u"\ufeffHello world!‎\r\nשלום עולם!‏\r\nمرحبا بالعالم!‏\r\n\r\n", docText);
+    ASSERT_EQ(docText, u"\ufeffHello world!‎\r\nשלום עולם!‏\r\nمرحبا بالعالم!‏\r\n\r\n");
     ASSERT_TRUE(docText.Contains(u"\u200f"));
 }
 else
 {
-    ASSERT_EQ(u"\ufeffHello world!\r\nשלום עולם!\r\nمرحبا بالعالم!\r\n\r\n", docText);
+    ASSERT_EQ(docText, u"\ufeffHello world!\r\nשלום עולם!\r\nمرحبا بالعالم!\r\n\r\n");
     ASSERT_FALSE(docText.Contains(u"\u200f"));
 }
 ```

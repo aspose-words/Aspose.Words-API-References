@@ -63,11 +63,11 @@ shape->set_Top(80);
 // Set the shape's height, which will automatically scale the width to preserve dimensions.
 shape->set_Height(125);
 
-ASPOSE_ASSERT_EQ(125.0, shape->get_Width());
+ASPOSE_ASSERT_EQ(shape->get_Width(), 125.0);
 
 // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
-ASPOSE_ASSERT_EQ(shape->get_Top() + shape->get_Height(), shape->get_Bottom());
-ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
+ASPOSE_ASSERT_EQ(shape->get_Bottom(), shape->get_Top() + shape->get_Height());
+ASPOSE_ASSERT_EQ(shape->get_Right(), shape->get_Left() + shape->get_Width());
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPositionSize.docx");
 ```

@@ -54,25 +54,25 @@ doc->UpdateFields();
 
 System::SharedPtr<Aspose::Words::Fields::FieldCollection> fields = doc->get_Range()->get_Fields();
 
-ASSERT_EQ(6, fields->get_Count());
+ASSERT_EQ(fields->get_Count(), 6);
 
 // Below are four ways of removing fields from a field collection.
 // 1 -  Get a field to remove itself:
 fields->idx_get(0)->Remove();
-ASSERT_EQ(5, fields->get_Count());
+ASSERT_EQ(fields->get_Count(), 5);
 
 // 2 -  Get the collection to remove a field that we pass to its removal method:
 System::SharedPtr<Aspose::Words::Fields::Field> lastField = fields->idx_get(3);
 fields->Remove(lastField);
-ASSERT_EQ(4, fields->get_Count());
+ASSERT_EQ(fields->get_Count(), 4);
 
 // 3 -  Remove a field from a collection at an index:
 fields->RemoveAt(2);
-ASSERT_EQ(3, fields->get_Count());
+ASSERT_EQ(fields->get_Count(), 3);
 
 // 4 -  Remove all the fields from the collection at once:
 fields->Clear();
-ASSERT_EQ(0, fields->get_Count());
+ASSERT_EQ(fields->get_Count(), 0);
 ```
 ## See Also
 

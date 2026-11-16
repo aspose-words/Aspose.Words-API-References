@@ -71,7 +71,7 @@ System::ArrayPtr<System::String> fontFileNames = System::IO::Directory::GetFiles
     return s.EndsWith(u".ttf");
 })))->LINQ_ToArray();
 
-ASSERT_EQ(3, fontFileNames->get_Length());
+ASSERT_EQ(fontFileNames->get_Length(), 3);
 
 for (System::String filename : fontFileNames)
 {

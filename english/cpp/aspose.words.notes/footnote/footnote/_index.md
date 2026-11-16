@@ -53,7 +53,7 @@ builder->MoveTo(footnote->get_FirstParagraph());
 builder->Write(u" More text added by a DocumentBuilder.");
 builder->MoveToDocumentEnd();
 
-ASSERT_EQ(u"\u0002 Footnote text. More text added by a DocumentBuilder.", footnote->GetText().Trim());
+ASSERT_EQ(footnote->GetText().Trim(), u"\u0002 Footnote text. More text added by a DocumentBuilder.");
 
 builder->Write(u" More main body text.");
 footnote = builder->InsertFootnote(FootnoteType::Footnote, u"Footnote text.");

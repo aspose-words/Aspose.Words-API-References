@@ -32,8 +32,8 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.BuiltInProperties.docx");
 
 auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.BuiltInProperties.docx");
 
-ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
-ASSERT_EQ(u"John Doe", plaintext->get_BuiltInDocumentProperties()->get_Author());
+ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
+ASSERT_EQ(plaintext->get_BuiltInDocumentProperties()->get_Author(), u"John Doe");
 ```
 ## See Also
 

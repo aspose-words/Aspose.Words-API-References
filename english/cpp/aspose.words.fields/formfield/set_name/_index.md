@@ -34,9 +34,9 @@ builder->Write(u"Please select a fruit: ");
 System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({
     u"Apple", u"Banana", u"Cherry"}), 0);
 
-ASSERT_EQ(u"MyComboBox", comboBox->get_Name());
-ASSERT_EQ(FieldType::FieldFormDropDown, comboBox->get_Type());
-ASSERT_EQ(u"Apple", comboBox->get_Result());
+ASSERT_EQ(comboBox->get_Name(), u"MyComboBox");
+ASSERT_EQ(comboBox->get_Type(), FieldType::FieldFormDropDown);
+ASSERT_EQ(comboBox->get_Result(), u"Apple");
 
 // The form field will appear in the form of a "select" html tag.
 doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");

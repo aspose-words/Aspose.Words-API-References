@@ -24,7 +24,7 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
-ASSERT_EQ(System::DateTime(2021, 5, 11, 6, 32, 0), doc->get_BuiltInDocumentProperties()->get_LastSavedTime());
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_LastSavedTime(), System::DateTime(2021, 5, 11, 6, 32, 0));
 
 // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
 // and then pass it to the document's saving method to modify how we save the document.
@@ -46,7 +46,7 @@ if (updateLastSavedTimeProperty)
 }
 else
 {
-    ASSERT_EQ(System::DateTime(2021, 5, 11, 6, 32, 0), lastSavedTimeNew);
+    ASSERT_EQ(lastSavedTimeNew, System::DateTime(2021, 5, 11, 6, 32, 0));
 }
 ```
 ## See Also

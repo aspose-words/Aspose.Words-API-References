@@ -30,11 +30,11 @@ class VbaModuleCollection : public System::Collections::Generic::IEnumerable<Sys
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Examples
 
 
@@ -49,7 +49,7 @@ std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name
 
 System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
 
-ASSERT_EQ(vbaModules->LINQ_Count(), 3);
+ASSERT_EQ(3, vbaModules->LINQ_Count());
 
 for (auto&& module_ : vbaModules)
 {

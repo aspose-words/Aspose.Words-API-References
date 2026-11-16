@@ -46,7 +46,7 @@ System::IO::Directory::CreateDirectory_(options->get_TempFolder());
 doc->Save(get_ArtifactsDir() + u"DocSaveOptions.TempFolder.doc", options);
 
 // The folder will persist with no residual contents from the load operation.
-ASSERT_EQ(0, System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length());
+ASSERT_EQ(System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length(), 0);
 ```
 ## Exceptions
 

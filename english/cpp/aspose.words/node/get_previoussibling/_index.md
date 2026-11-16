@@ -43,7 +43,7 @@ if (lastSection->get_PreviousSibling() != nullptr)
 }
 
 // The section we removed was the first one, leaving the document with only the second.
-ASSERT_EQ(u"Section 2 text.", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Section 2 text.");
 ```
 ## See Also
 

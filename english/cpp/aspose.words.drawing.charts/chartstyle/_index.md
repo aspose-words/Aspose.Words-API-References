@@ -58,7 +58,7 @@ auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(N
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 // Get the chart style.
-ASSERT_EQ(ChartStyle::Black, chart->get_Style());
+ASSERT_EQ(chart->get_Style(), ChartStyle::Black);
 ```
 ## See Also
 

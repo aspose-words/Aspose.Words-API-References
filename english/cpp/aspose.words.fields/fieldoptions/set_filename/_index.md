@@ -36,8 +36,8 @@ builder->Writeln();
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
 field->Update();
 
-ASSERT_EQ(u" FILENAME ", field->GetFieldCode());
-ASSERT_EQ(u"Document.docx", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" FILENAME ");
+ASSERT_EQ(field->get_Result(), u"Document.docx");
 
 builder->Writeln();
 
@@ -47,15 +47,15 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldFileName>(builder->Inse
 field->set_IncludeFullPath(true);
 field->Update();
 
-ASSERT_EQ(get_MyDir() + u"Document.docx", field->get_Result());
+ASSERT_EQ(field->get_Result(), get_MyDir() + u"Document.docx");
 
 // We can also set a value for this property to
 // override the value that the FILENAME field displays.
 doc->get_FieldOptions()->set_FileName(u"FieldOptions.FILENAME.docx");
 field->Update();
 
-ASSERT_EQ(u" FILENAME  \\p", field->GetFieldCode());
-ASSERT_EQ(u"FieldOptions.FILENAME.docx", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" FILENAME  \\p");
+ASSERT_EQ(field->get_Result(), u"FieldOptions.FILENAME.docx");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + doc->get_FieldOptions()->get_FileName());

@@ -60,7 +60,7 @@ tableStyle->get_ConditionalStyles()->idx_get(ConditionalStyleType::EvenColumnBan
 table->set_Style(tableStyle);
 
 // The "StyleOptions" property enables row banding by default.
-ASSERT_EQ(TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands, table->get_StyleOptions());
+ASSERT_EQ(table->get_StyleOptions(), TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands);
 
 // Use the "StyleOptions" property also to enable column banding.
 table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::ColumnBands);

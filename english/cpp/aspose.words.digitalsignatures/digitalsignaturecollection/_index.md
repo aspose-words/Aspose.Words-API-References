@@ -30,11 +30,11 @@ class DigitalSignatureCollection : public System::Collections::Generic::IEnumera
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Remarks
 
 [DigitalSignatures](../../aspose.words/document/get_digitalsignatures/)
@@ -91,10 +91,10 @@ auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatureCollection = signedDoc->get_DigitalSignatures();
 
 ASSERT_TRUE(digitalSignatureCollection->get_IsValid());
-ASSERT_EQ(1, digitalSignatureCollection->get_Count());
-ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)->get_SignatureType());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
+ASSERT_EQ(digitalSignatureCollection->get_Count(), 1);
+ASSERT_EQ(digitalSignatureCollection->idx_get(0)->get_SignatureType(), DigitalSignatureType::XmlDsig);
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName(), u"CN=Morzal.Me");
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"CN=Morzal.Me");
 ```
 ## See Also
 

@@ -53,7 +53,7 @@ System::IO::Directory::CreateDirectory_(options->get_TempFolder());
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx", options);
 
 // The folder will persist with no residual contents from the load operation.
-ASSERT_EQ(0, System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length());
+ASSERT_EQ(System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length(), 0);
 ```
 ## See Also
 

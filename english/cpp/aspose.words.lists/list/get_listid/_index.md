@@ -59,10 +59,10 @@ Shows how to verify owner document properties of lists.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
 System::SharedPtr<Aspose::Words::Lists::ListCollection> lists = doc->get_Lists();
-ASPOSE_ASSERT_EQ(doc, lists->get_Document());
+ASPOSE_ASSERT_EQ(lists->get_Document(), doc);
 
 System::SharedPtr<Aspose::Words::Lists::List> list = lists->Add(ListTemplate::BulletDefault);
-ASPOSE_ASSERT_EQ(doc, list->get_Document());
+ASPOSE_ASSERT_EQ(list->get_Document(), doc);
 
 std::cout << (System::String(u"Current list count: ") + lists->get_Count()) << std::endl;
 std::cout << (System::String(u"Is the first document list: ") + (System::ObjectExt::Equals(lists->idx_get(0), list))) << std::endl;

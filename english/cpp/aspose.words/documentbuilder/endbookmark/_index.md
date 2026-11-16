@@ -45,9 +45,9 @@ builder->StartBookmark(u"MyBookmark");
 builder->Writeln(u"Hello world!");
 builder->EndBookmark(u"MyBookmark");
 
-ASSERT_EQ(1, doc->get_Range()->get_Bookmarks()->get_Count());
-ASSERT_EQ(u"MyBookmark", doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Name());
-ASSERT_EQ(u"Hello world!", doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Text().Trim());
+ASSERT_EQ(doc->get_Range()->get_Bookmarks()->get_Count(), 1);
+ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Name(), u"MyBookmark");
+ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Text().Trim(), u"Hello world!");
 ```
 
 Shows how to insert a hyperlink which references a local bookmark.

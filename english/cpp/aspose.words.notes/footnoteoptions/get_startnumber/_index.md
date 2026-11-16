@@ -57,8 +57,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes, which both begin at 1.
-ASSERT_EQ(1, doc->get_FootnoteOptions()->get_StartNumber());
-ASSERT_EQ(1, doc->get_EndnoteOptions()->get_StartNumber());
+ASSERT_EQ(doc->get_FootnoteOptions()->get_StartNumber(), 1);
+ASSERT_EQ(doc->get_EndnoteOptions()->get_StartNumber(), 1);
 
 // We can use the "StartNumber" property to get the document to
 // begin a footnote or endnote count at a different number.

@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldBidiOutline>(builder->InsertField(FieldType::FieldBidiOutline, true));
 builder->Writeln(u"שלום");
 
-ASSERT_EQ(u" BIDIOUTLINE ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" BIDIOUTLINE ");
 
 // Add two more BIDIOUTLINE fields, which will display ".2" and ".3".
 builder->InsertField(FieldType::FieldBidiOutline, true);
@@ -61,26 +61,26 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // An EMBED field has the same function, but for an embedded object,
 // such as a spreadsheet from an external Excel document.
 // However, these fields will not appear in the document's Fields collection.
-ASSERT_EQ(0, doc->get_Range()->get_Fields()->get_Count());
+ASSERT_EQ(doc->get_Range()->get_Fields()->get_Count(), 0);
 
 // These fields are supported only by old versions of Microsoft Word.
 // The document loading process will convert these fields into Shape objects,
 // which we can access in the document's node collection.
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
-ASSERT_EQ(3, shapes->get_Count());
+ASSERT_EQ(shapes->get_Count(), 3);
 
 // The first Shape node corresponds to the SHAPE field in the input document,
 // which is the inline canvas for the AutoShape.
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0));
-ASSERT_EQ(ShapeType::Image, shape->get_ShapeType());
+ASSERT_EQ(shape->get_ShapeType(), ShapeType::Image);
 
 // The second Shape node is the AutoShape itself.
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1));
-ASSERT_EQ(ShapeType::Can, shape->get_ShapeType());
+ASSERT_EQ(shape->get_ShapeType(), ShapeType::Can);
 
 // The third Shape is what was the EMBED field that contained the external spreadsheet.
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(2));
-ASSERT_EQ(ShapeType::OleObject, shape->get_ShapeType());
+ASSERT_EQ(shape->get_ShapeType(), ShapeType::OleObject);
 ```
 ## See Also
 

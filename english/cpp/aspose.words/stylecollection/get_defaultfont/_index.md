@@ -37,8 +37,8 @@ styles->get_DefaultParagraphFormat()->set_FirstLineIndent(15.0);
 // Add a style, and then verify that it has the default settings.
 styles->Add(StyleType::Paragraph, u"MyStyle");
 
-ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
-ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
+ASSERT_EQ(styles->idx_get(4)->get_Font()->get_Name(), u"Courier New");
+ASPOSE_ASSERT_EQ(styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent(), 15.0);
 ```
 ## See Also
 

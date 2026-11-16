@@ -38,11 +38,11 @@ class BookmarksOutlineLevelCollection : public System::Collections::Generic::IEn
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Remarks
 
 
@@ -84,11 +84,11 @@ outlineLevels->Add(u"Bookmark 1", 1);
 outlineLevels->Add(u"Bookmark 2", 2);
 outlineLevels->Add(u"Bookmark 3", 3);
 
-ASSERT_EQ(3, outlineLevels->get_Count());
+ASSERT_EQ(outlineLevels->get_Count(), 3);
 ASSERT_TRUE(outlineLevels->Contains(u"Bookmark 1"));
-ASSERT_EQ(1, outlineLevels->idx_get(0));
-ASSERT_EQ(2, outlineLevels->idx_get(u"Bookmark 2"));
-ASSERT_EQ(2, outlineLevels->IndexOfKey(u"Bookmark 3"));
+ASSERT_EQ(outlineLevels->idx_get(0), 1);
+ASSERT_EQ(outlineLevels->idx_get(u"Bookmark 2"), 2);
+ASSERT_EQ(outlineLevels->IndexOfKey(u"Bookmark 3"), 2);
 
 // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
 outlineLevels->RemoveAt(2);

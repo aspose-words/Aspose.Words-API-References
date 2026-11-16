@@ -93,12 +93,12 @@ Shows how to initialize the subclasses of DocumentBase.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-ASPOSE_ASSERT_EQ(System::ObjectExt::GetType<Aspose::Words::DocumentBase>(), System::ObjectExt::GetType(doc).get_BaseType());
+ASPOSE_ASSERT_EQ(System::ObjectExt::GetType(doc).get_BaseType(), System::ObjectExt::GetType<Aspose::Words::DocumentBase>());
 
 auto glossaryDoc = System::MakeObject<Aspose::Words::BuildingBlocks::GlossaryDocument>();
 doc->set_GlossaryDocument(glossaryDoc);
 
-ASPOSE_ASSERT_EQ(System::ObjectExt::GetType<Aspose::Words::DocumentBase>(), System::ObjectExt::GetType(glossaryDoc).get_BaseType());
+ASPOSE_ASSERT_EQ(System::ObjectExt::GetType(glossaryDoc).get_BaseType(), System::ObjectExt::GetType<Aspose::Words::DocumentBase>());
 ```
 ## See Also
 

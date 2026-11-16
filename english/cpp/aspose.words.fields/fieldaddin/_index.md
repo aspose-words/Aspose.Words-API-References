@@ -54,7 +54,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // Aspose.Words does not support inserting ADDIN fields, but we can still load and read them.
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAddIn>(doc->get_Range()->get_Fields()->idx_get(0));
 
-ASSERT_EQ(u" ADDIN \"My value\" ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" ADDIN \"My value\" ");
 ```
 ## See Also
 

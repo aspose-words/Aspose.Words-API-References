@@ -32,10 +32,10 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->InsertField(u"MERGEFIELD Field");
 
 // GetText will retrieve the visible text as well as field codes and special characters.
-ASSERT_EQ(u"\u0013MERGEFIELD Field\u0014«Field»\u0015", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"\u0013MERGEFIELD Field\u0014«Field»\u0015");
 
 // ToString will give us the document's appearance if saved to a passed save format.
-ASSERT_EQ(u"«Field»", doc->ToString(SaveFormat::Text).Trim());
+ASSERT_EQ(doc->ToString(SaveFormat::Text).Trim(), u"«Field»");
 ```
 
 Shows how to output all paragraphs in a document that are list items.

@@ -34,9 +34,9 @@ builder->EndBookmark(u"MyBookmark");
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> customProperties = doc->get_CustomDocumentProperties();
 System::SharedPtr<Aspose::Words::Properties::DocumentProperty> customProperty = customProperties->AddLinkToContent(u"Bookmark", u"MyBookmark");
 
-ASPOSE_ASSERT_EQ(true, customProperty->get_IsLinkToContent());
-ASSERT_EQ(u"MyBookmark", customProperty->get_LinkSource());
-ASPOSE_ASSERT_EQ(u"Hello world!", customProperty->get_Value());
+ASPOSE_ASSERT_EQ(customProperty->get_IsLinkToContent(), true);
+ASSERT_EQ(customProperty->get_LinkSource(), u"MyBookmark");
+ASPOSE_ASSERT_EQ(customProperty->get_Value(), u"Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```

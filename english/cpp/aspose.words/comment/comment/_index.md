@@ -64,7 +64,7 @@ builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Co
 builder->MoveTo(comment->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc)));
 builder->Write(u"Comment text.");
 
-ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
+ASSERT_EQ(comment->get_DateTime(), System::DateTime::get_Today());
 
 // In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it.
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddComment.docx");

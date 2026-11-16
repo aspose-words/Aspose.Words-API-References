@@ -48,11 +48,11 @@ index->set_RunSubentriesOnSameLine(runSubentriesOnTheSameLine);
 
 if (runSubentriesOnTheSameLine)
 {
-    ASSERT_EQ((u" INDEX  \\e \", see page \" \\h A \\r"), index->GetFieldCode());
+    ASSERT_EQ(index->GetFieldCode(), (u" INDEX  \\e \", see page \" \\h A \\r"));
 }
 else
 {
-    ASSERT_EQ((u" INDEX  \\e \", see page \" \\h A"), index->GetFieldCode());
+    ASSERT_EQ(index->GetFieldCode(), (u" INDEX  \\e \", see page \" \\h A"));
 }
 
 // Insert two XE fields, each on a new page, and with the same heading named "Heading 1",
@@ -65,7 +65,7 @@ builder->InsertBreak(BreakType::PageBreak);
 auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Heading 1:Subheading 1");
 
-ASSERT_EQ(u" XE  \"Heading 1:Subheading 1\"", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  \"Heading 1:Subheading 1\"");
 
 builder->InsertBreak(BreakType::PageBreak);
 indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));

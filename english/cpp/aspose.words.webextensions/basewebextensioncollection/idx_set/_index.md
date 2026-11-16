@@ -29,7 +29,7 @@ Shows how to work with a document's collection of web extensions.
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Web extension.docx"));
 
-ASSERT_EQ(1, doc->get_WebExtensionTaskPanes()->get_Count());
+ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 1);
 
 // Print all properties of the document's web extension.
 System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> webExtensionPropertyCollection = doc->get_WebExtensionTaskPanes()->idx_get(0)->get_WebExtension()->get_Properties();
@@ -45,7 +45,7 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> 
 // Remove the web extension.
 doc->get_WebExtensionTaskPanes()->Remove(0);
 
-ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
+ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 0);
 ```
 ## See Also
 

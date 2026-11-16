@@ -31,30 +31,30 @@ group->set_Bounds(System::Drawing::RectangleF(static_cast<float>(100.0f), static
 
 // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
 // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
-ASPOSE_ASSERT_EQ(System::Drawing::PointF(static_cast<float>(100.0f), static_cast<float>(100.0f)), group->LocalToParent(System::Drawing::PointF(static_cast<float>(0.0f), static_cast<float>(0.0f))));
+ASPOSE_ASSERT_EQ(group->LocalToParent(System::Drawing::PointF(static_cast<float>(0.0f), static_cast<float>(0.0f))), System::Drawing::PointF(static_cast<float>(100.0f), static_cast<float>(100.0f)));
 
 // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
 // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
 // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
 // to a movement of 2pts on the group shape's coordinate plane.
-ASPOSE_ASSERT_EQ(System::Drawing::PointF(static_cast<float>(150.0f), static_cast<float>(150.0f)), group->LocalToParent(System::Drawing::PointF(static_cast<float>(100.0f), static_cast<float>(100.0f))));
-ASPOSE_ASSERT_EQ(System::Drawing::PointF(static_cast<float>(200.0f), static_cast<float>(200.0f)), group->LocalToParent(System::Drawing::PointF(static_cast<float>(200.0f), static_cast<float>(200.0f))));
-ASPOSE_ASSERT_EQ(System::Drawing::PointF(static_cast<float>(250.0f), static_cast<float>(250.0f)), group->LocalToParent(System::Drawing::PointF(static_cast<float>(300.0f), static_cast<float>(300.0f))));
+ASPOSE_ASSERT_EQ(group->LocalToParent(System::Drawing::PointF(static_cast<float>(100.0f), static_cast<float>(100.0f))), System::Drawing::PointF(static_cast<float>(150.0f), static_cast<float>(150.0f)));
+ASPOSE_ASSERT_EQ(group->LocalToParent(System::Drawing::PointF(static_cast<float>(200.0f), static_cast<float>(200.0f))), System::Drawing::PointF(static_cast<float>(200.0f), static_cast<float>(200.0f)));
+ASPOSE_ASSERT_EQ(group->LocalToParent(System::Drawing::PointF(static_cast<float>(300.0f), static_cast<float>(300.0f))), System::Drawing::PointF(static_cast<float>(250.0f), static_cast<float>(250.0f)));
 
 // Move the group shape's x and y axis origin from the top left corner to the center.
 // This will offset the group's internal coordinates relative to the document's coordinates even further.
 group->set_CoordOrigin(System::Drawing::Point(-250, -250));
 
-ASPOSE_ASSERT_EQ(System::Drawing::PointF(static_cast<float>(375.0f), static_cast<float>(375.0f)), group->LocalToParent(System::Drawing::PointF(static_cast<float>(300.0f), static_cast<float>(300.0f))));
+ASPOSE_ASSERT_EQ(group->LocalToParent(System::Drawing::PointF(static_cast<float>(300.0f), static_cast<float>(300.0f))), System::Drawing::PointF(static_cast<float>(375.0f), static_cast<float>(375.0f)));
 
 // Changing the scale of the coordinate plane will also affect relative locations.
 group->set_CoordSize(System::Drawing::Size(500, 500));
 
-ASPOSE_ASSERT_EQ(System::Drawing::PointF(static_cast<float>(650.0f), static_cast<float>(650.0f)), group->LocalToParent(System::Drawing::PointF(static_cast<float>(300.0f), static_cast<float>(300.0f))));
+ASPOSE_ASSERT_EQ(group->LocalToParent(System::Drawing::PointF(static_cast<float>(300.0f), static_cast<float>(300.0f))), System::Drawing::PointF(static_cast<float>(650.0f), static_cast<float>(650.0f)));
 
 // If we wish to add a shape to this group while defining its location based on a location in the document,
 // we will need to first confirm a location in the group shape that will match the document's location.
-ASPOSE_ASSERT_EQ(System::Drawing::PointF(static_cast<float>(700.0f), static_cast<float>(700.0f)), group->LocalToParent(System::Drawing::PointF(static_cast<float>(350.0f), static_cast<float>(350.0f))));
+ASPOSE_ASSERT_EQ(group->LocalToParent(System::Drawing::PointF(static_cast<float>(350.0f), static_cast<float>(350.0f))), System::Drawing::PointF(static_cast<float>(700.0f), static_cast<float>(700.0f)));
 
 auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, ShapeType::Rectangle);
 shape->set_Width(100);

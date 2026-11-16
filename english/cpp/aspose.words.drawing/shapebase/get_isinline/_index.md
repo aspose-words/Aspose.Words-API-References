@@ -40,7 +40,7 @@ builder->Write(u" Hello again.");
 // In Microsoft Word, we may click and drag the shape to any paragraph as if it is a character.
 // If the shape is large, it will affect vertical paragraph spacing.
 // We cannot move this shape to a place with no paragraph.
-ASSERT_EQ(WrapType::Inline, shape->get_WrapType());
+ASSERT_EQ(shape->get_WrapType(), WrapType::Inline);
 ASSERT_TRUE(shape->get_IsInline());
 
 // 2 -  Floating:
@@ -52,7 +52,7 @@ shape->set_FillColor(System::Drawing::Color::get_Orange());
 // If the shape does not have a visible anchor symbol to its left,
 // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
 // In Microsoft Word, we may left click and drag this shape freely to any location.
-ASSERT_EQ(WrapType::None, shape->get_WrapType());
+ASSERT_EQ(shape->get_WrapType(), WrapType::None);
 ASSERT_FALSE(shape->get_IsInline());
 
 doc->Save(get_ArtifactsDir() + u"Shape.IsInline.docx");

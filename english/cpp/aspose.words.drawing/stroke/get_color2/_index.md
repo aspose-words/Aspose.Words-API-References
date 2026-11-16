@@ -32,8 +32,8 @@ System::SharedPtr<Aspose::Words::Drawing::Stroke> stroke = shape->get_Stroke();
 
 // Strokes can have two colors, which are used to create a pattern defined by two-tone image data.
 // Strokes with a single color do not use the Color2 property.
-ASPOSE_ASSERT_EQ(System::Drawing::Color::FromArgb(255, 128, 0, 0), stroke->get_Color());
-ASPOSE_ASSERT_EQ(System::Drawing::Color::FromArgb(255, 255, 255, 0), stroke->get_Color2());
+ASPOSE_ASSERT_EQ(stroke->get_Color(), System::Drawing::Color::FromArgb(255, 128, 0, 0));
+ASPOSE_ASSERT_EQ(stroke->get_Color2(), System::Drawing::Color::FromArgb(255, 255, 255, 0));
 
 ASSERT_FALSE(System::TestTools::IsNull(stroke->get_ImageBytes()));
 System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"Drawing.StrokePattern.png", stroke->get_ImageBytes());

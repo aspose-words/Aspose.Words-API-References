@@ -64,7 +64,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 
 // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
 // The document has a fixed list of built-in properties. The user creates all of the custom properties.
-ASSERT_EQ(u"Value of custom document property", System::ObjectExt::ToString(doc->get_CustomDocumentProperties()->idx_get(u"CustomProperty")));
+ASSERT_EQ(System::ObjectExt::ToString(doc->get_CustomDocumentProperties()->idx_get(u"CustomProperty")), u"Value of custom document property");
 
 doc->get_CustomDocumentProperties()->Add(u"CustomProperty2", System::String(u"Value of custom document property #2"));
 

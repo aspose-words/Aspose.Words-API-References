@@ -68,10 +68,10 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // and save the image data of every shape with an image as a file to the local file system.
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
+ASSERT_EQ(shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Drawing::Shape>(s))->get_HasImage();
-}))));
+}))), 9);
 
 int32_t imageIndex = 0;
 for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()))
@@ -110,7 +110,7 @@ paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject
 // and print any runs or shapes that we find within.
 System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(NodeType::Any, false);
 
-ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, false)->get_Count());
+ASSERT_EQ(paragraph->GetChildNodes(NodeType::Any, false)->get_Count(), 3);
 
 for (auto&& child : System::IterateOver(children))
 {
@@ -125,7 +125,7 @@ for (auto&& child : System::IterateOver(children))
             auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
             std::cout << "Shape:" << std::endl;
             std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
-            ASSERT_EQ(100, shape->get_CustomNodeId());
+            ASSERT_EQ(shape->get_CustomNodeId(), 100);
             break;
         }
         default:
@@ -140,7 +140,7 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // An empty document, by default, has one paragraph.
-ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count(), 1);
 
 // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
 System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -156,30 +156,30 @@ auto run3 = System::MakeObject<Aspose::Words::Run>(doc, u"Run 3. ");
 // that itself is a part of the document's node tree, as we did with the first run.
 // We can determine where the text contents of nodes that we insert
 // appears in the document by specifying an insertion location relative to another node in the paragraph.
-ASSERT_EQ(u"Initial text.", paragraph->GetText().Trim());
+ASSERT_EQ(paragraph->GetText().Trim(), u"Initial text.");
 
 // Insert the second run into the paragraph in front of the initial run.
 paragraph->InsertBefore<System::SharedPtr<Aspose::Words::Run>>(run2, paragraphText);
 
-ASSERT_EQ(u"Run 2. Initial text.", paragraph->GetText().Trim());
+ASSERT_EQ(paragraph->GetText().Trim(), u"Run 2. Initial text.");
 
 // Insert the third run after the initial run.
 paragraph->InsertAfter<System::SharedPtr<Aspose::Words::Run>>(run3, paragraphText);
 
-ASSERT_EQ(u"Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
+ASSERT_EQ(paragraph->GetText().Trim(), u"Run 2. Initial text. Run 3.");
 
 // Insert the first run to the start of the paragraph's child nodes collection.
 paragraph->PrependChild<System::SharedPtr<Aspose::Words::Run>>(run1);
 
-ASSERT_EQ(u"Run 1. Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
-ASSERT_EQ(4, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
+ASSERT_EQ(paragraph->GetText().Trim(), u"Run 1. Run 2. Initial text. Run 3.");
+ASSERT_EQ(paragraph->GetChildNodes(NodeType::Any, true)->get_Count(), 4);
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
 (System::ExplicitCast<Aspose::Words::Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
 paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 
-ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
-ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
+ASSERT_EQ(paragraph->GetText().Trim(), u"Run 1. Updated run 2. Run 3.");
+ASSERT_EQ(paragraph->GetChildNodes(NodeType::Any, true)->get_Count(), 3);
 ```
 ## See Also
 

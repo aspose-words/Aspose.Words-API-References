@@ -43,7 +43,7 @@ builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->Writeln(u"Writing text in a protected document.");
 
-ASSERT_EQ(System::String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), System::String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.");
 ```
 ## See Also
 

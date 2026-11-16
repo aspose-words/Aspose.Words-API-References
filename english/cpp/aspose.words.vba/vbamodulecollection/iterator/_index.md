@@ -2,7 +2,7 @@
 title: Aspose::Words::Vba::VbaModuleCollection::iterator typedef
 linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use Aspose::Words::Vba::VbaModuleCollection::iterator typedef of Aspose::Words::Vba::VbaModuleCollection class in C++.'
+description: 'Aspose::Words::Vba::VbaModuleCollection::iterator typedef. Iterator type in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words.vba/vbamodulecollection/iterator/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.vba/vbamodulecollection/iterator/
 ## iterator typedef
 
 
-
+Iterator type.
 
 ```cpp
 using Aspose::Words::Vba::VbaModuleCollection::iterator = typename iterator_holder_type::iterator

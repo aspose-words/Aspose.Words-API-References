@@ -46,7 +46,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(docStream);
     Aspose::Words::LoadFormat loadFormat = info->get_LoadFormat();
 
-    ASSERT_EQ(LoadFormat::Doc, loadFormat);
+    ASSERT_EQ(loadFormat, LoadFormat::Doc);
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -59,7 +59,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     // Load a document from the stream, and then save it to the automatically detected file extension.
     auto doc = System::MakeObject<Aspose::Words::Document>(docStream);
 
-    ASSERT_EQ(u".doc", FileFormatUtil::SaveFormatToExtension(saveFormat));
+    ASSERT_EQ(FileFormatUtil::SaveFormatToExtension(saveFormat), u".doc");
 
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
@@ -110,7 +110,7 @@ doc->Save(get_ArtifactsDir() + u"File.DetectDocumentEncryption.odt", saveOptions
 // Verify the file type of our document, and its encryption status.
 System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"File.DetectDocumentEncryption.odt");
 
-ASSERT_EQ(u".odt", FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()));
+ASSERT_EQ(FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()), u".odt");
 ASSERT_TRUE(info->get_IsEncrypted());
 ```
 
@@ -120,7 +120,7 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
 System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx");
 
-ASSERT_EQ(u".docx", FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()));
+ASSERT_EQ(FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()), u".docx");
 ASSERT_FALSE(info->get_HasDigitalSignature());
 
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw", nullptr);
@@ -134,7 +134,7 @@ info = FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"File.DetectDigita
 ASSERT_TRUE(info->get_HasDigitalSignature());
 
 // We can load and access the signatures of a signed document in a collection like this.
-ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count());
+ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count(), 1);
 ```
 ## See Also
 
@@ -180,7 +180,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(docStream);
     Aspose::Words::LoadFormat loadFormat = info->get_LoadFormat();
 
-    ASSERT_EQ(LoadFormat::Doc, loadFormat);
+    ASSERT_EQ(loadFormat, LoadFormat::Doc);
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -193,7 +193,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     // Load a document from the stream, and then save it to the automatically detected file extension.
     auto doc = System::MakeObject<Aspose::Words::Document>(docStream);
 
-    ASSERT_EQ(u".doc", FileFormatUtil::SaveFormatToExtension(saveFormat));
+    ASSERT_EQ(FileFormatUtil::SaveFormatToExtension(saveFormat), u".doc");
 
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }

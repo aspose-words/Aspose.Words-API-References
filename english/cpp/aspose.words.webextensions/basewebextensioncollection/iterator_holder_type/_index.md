@@ -2,7 +2,7 @@
 title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::iterator_holder_type typedef
 linktitle: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use Aspose::Words::WebExtensions::BaseWebExtensionCollection::iterator_holder_type typedef of Aspose::Words::WebExtensions::BaseWebExtensionCollection<T> class in C++.'
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::iterator_holder_type typedef. A collection type whose iterator types is used as iterator types in the current collection in C++.'
 type: docs
 weight: 20000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/iterator_holder_type/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/iterator_holder_
 ## iterator_holder_type typedef
 
 
-
+A collection type whose iterator types is used as iterator types in the current collection.
 
 ```cpp
 using Aspose::Words::WebExtensions::BaseWebExtensionCollection::iterator_holder_type = System::Collections::Generic::List<T>

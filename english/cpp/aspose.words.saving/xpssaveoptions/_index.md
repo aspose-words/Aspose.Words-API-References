@@ -121,7 +121,7 @@ builder->Writeln(u"Heading 1.2.2");
 // to modify how that method converts the document to .XPS.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::XpsSaveOptions>();
 
-ASSERT_EQ(SaveFormat::Xps, saveOptions->get_SaveFormat());
+ASSERT_EQ(saveOptions->get_SaveFormat(), SaveFormat::Xps);
 
 // The output XPS document will contain an outline, a table of contents that lists headings in the document body.
 // Clicking on an entry in this outline will take us to the location of its respective heading.

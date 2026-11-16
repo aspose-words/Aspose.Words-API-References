@@ -39,7 +39,7 @@ auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(do
 builder->MoveToStructuredDocumentTag(tag, 1);
 builder->Write(u" New text.");
 
-ASSERT_EQ(u"R New text.ichText", tag->GetText().Trim());
+ASSERT_EQ(tag->GetText().Trim(), u"R New text.ichText");
 
 // 3 -  Move to the end of the second structured document tag.
 builder->MoveToStructuredDocumentTag(1, -1);
@@ -93,7 +93,7 @@ auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(do
 builder->MoveToStructuredDocumentTag(tag, 1);
 builder->Write(u" New text.");
 
-ASSERT_EQ(u"R New text.ichText", tag->GetText().Trim());
+ASSERT_EQ(tag->GetText().Trim(), u"R New text.ichText");
 
 // 3 -  Move to the end of the second structured document tag.
 builder->MoveToStructuredDocumentTag(1, -1);

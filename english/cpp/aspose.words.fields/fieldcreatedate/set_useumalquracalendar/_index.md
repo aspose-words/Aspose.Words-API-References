@@ -34,21 +34,21 @@ builder->Write(u"According to the Lunar Calendar - ");
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(FieldType::FieldCreateDate, true));
 field->set_UseLunarCalendar(true);
 
-ASSERT_EQ(u" CREATEDATE  \\h", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" CREATEDATE  \\h");
 
 // 2 -  Umm al-Qura calendar:
 builder->Write(u"\nAccording to the Umm al-Qura Calendar - ");
 field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(FieldType::FieldCreateDate, true));
 field->set_UseUmAlQuraCalendar(true);
 
-ASSERT_EQ(u" CREATEDATE  \\u", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" CREATEDATE  \\u");
 
 // 3 -  Indian National Calendar:
 builder->Write(u"\nAccording to the Indian National Calendar - ");
 field = System::ExplicitCast<Aspose::Words::Fields::FieldCreateDate>(builder->InsertField(FieldType::FieldCreateDate, true));
 field->set_UseSakaEraCalendar(true);
 
-ASSERT_EQ(u" CREATEDATE  \\s", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" CREATEDATE  \\s");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.CREATEDATE.docx");

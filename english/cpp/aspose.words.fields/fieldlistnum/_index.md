@@ -68,7 +68,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldListNum>(builder->
 field->set_StartingNumber(u"0");
 builder->Writeln(u"Paragraph 1");
 
-ASSERT_EQ(u" LISTNUM  \\s 0", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" LISTNUM  \\s 0");
 
 // LISTNUM fields maintain separate counts for each list level.
 // Inserting a LISTNUM field in the same paragraph as another LISTNUM field
@@ -94,7 +94,7 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldListNum>(builder->Inser
 field->set_ListLevel(u"2");
 builder->Writeln(u"Paragraph 3");
 
-ASSERT_EQ(u" LISTNUM  \\l 2", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" LISTNUM  \\l 2");
 
 // We can set the ListName property to get the field to emulate a different AUTONUM field type.
 // "NumberDefault" emulates AUTONUM, "OutlineDefault" emulates AUTONUMOUT,
@@ -106,7 +106,7 @@ field->set_ListName(u"OutlineDefault");
 builder->Writeln(u"Paragraph 4");
 
 ASSERT_TRUE(field->get_HasListName());
-ASSERT_EQ(u" LISTNUM  OutlineDefault \\s 1", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" LISTNUM  OutlineDefault \\s 1");
 
 // The ListName does not carry over from the previous field, so we will need to set it for each new field.
 // This field continues the count with the different list name and displays "II.".

@@ -47,7 +47,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // A blank document contains one section by default,
 // which contains child nodes that we can edit.
-ASSERT_EQ(1, doc->get_Sections()->get_Count());
+ASSERT_EQ(doc->get_Sections()->get_Count(), 1);
 
 // Use a document builder to add text to the first section.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,7 +56,7 @@ builder->Writeln(u"Hello world!");
 // Create a second section by inserting a section break.
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(2, doc->get_Sections()->get_Count());
+ASSERT_EQ(doc->get_Sections()->get_Count(), 2);
 
 // Each section has its own page setup settings.
 // We can split the text in the second section into two columns.
@@ -66,8 +66,8 @@ builder->Writeln(u"Column 1.");
 builder->InsertBreak(BreakType::ColumnBreak);
 builder->Writeln(u"Column 2.");
 
-ASSERT_EQ(1, doc->get_FirstSection()->get_PageSetup()->get_TextColumns()->get_Count());
-ASSERT_EQ(2, doc->get_LastSection()->get_PageSetup()->get_TextColumns()->get_Count());
+ASSERT_EQ(doc->get_FirstSection()->get_PageSetup()->get_TextColumns()->get_Count(), 1);
+ASSERT_EQ(doc->get_LastSection()->get_PageSetup()->get_TextColumns()->get_Count(), 2);
 
 doc->Save(get_ArtifactsDir() + u"Section.Create.docx");
 ```

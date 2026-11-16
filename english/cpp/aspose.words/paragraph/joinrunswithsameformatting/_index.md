@@ -40,7 +40,7 @@ builder->Write(u"Run 4. ");
 // may occur when we manually edit parts of one paragraph many times in Microsoft Word.
 System::SharedPtr<Aspose::Words::Paragraph> para = builder->get_CurrentParagraph();
 
-ASSERT_EQ(4, para->get_Runs()->get_Count());
+ASSERT_EQ(para->get_Runs()->get_Count(), 4);
 
 // Change the style of the last run to set it apart from the first three.
 para->get_Runs()->idx_get(3)->get_Font()->set_StyleIdentifier(StyleIdentifier::Emphasis);
@@ -50,13 +50,13 @@ para->get_Runs()->idx_get(3)->get_Font()->set_StyleIdentifier(StyleIdentifier::E
 // This method also returns the number of runs that this method merged.
 // These two merges occurred to combine Runs #1, #2, and #3,
 // while leaving out Run #4 because it has an incompatible style.
-ASSERT_EQ(2, para->JoinRunsWithSameFormatting());
+ASSERT_EQ(para->JoinRunsWithSameFormatting(), 2);
 
 // The number of runs left will equal the original count
 // minus the number of run merges that the "JoinRunsWithSameFormatting" method carried out.
-ASSERT_EQ(2, para->get_Runs()->get_Count());
-ASSERT_EQ(u"Run 1. Run 2. Run 3. ", para->get_Runs()->idx_get(0)->get_Text());
-ASSERT_EQ(u"Run 4. ", para->get_Runs()->idx_get(1)->get_Text());
+ASSERT_EQ(para->get_Runs()->get_Count(), 2);
+ASSERT_EQ(para->get_Runs()->idx_get(0)->get_Text(), u"Run 1. Run 2. Run 3. ");
+ASSERT_EQ(para->get_Runs()->idx_get(1)->get_Text(), u"Run 4. ");
 ```
 ## See Also
 
@@ -96,9 +96,9 @@ builder->Write(u"Hello ");
 builder->Write(u"world");
 
 // Verify runs before join.
-ASSERT_EQ(2, doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->get_Count());
-ASSERT_EQ(u"Hello ", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Text());
-ASSERT_EQ(u"world", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(1)->get_Text());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->get_Count(), 2);
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Text(), u"Hello ");
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(1)->get_Text(), u"world");
 
 // Configure options to ignore redundant and insignificant attributes during join.
 auto options = System::MakeObject<Aspose::Words::JoinRunsOptions>();
@@ -111,8 +111,8 @@ options->set_IgnoreInsignificant(true);
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->JoinRunsWithSameFormatting(options);
 
 // Verify that runs were successfully joined.
-ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->get_Count());
-ASSERT_EQ(u"Hello world", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Text());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->get_Count(), 1);
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Text(), u"Hello world");
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.JoinRunsWithSameFormattingWithOptions.docx");
 ```

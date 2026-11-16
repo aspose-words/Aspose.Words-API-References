@@ -35,12 +35,12 @@ builder->Writeln(u"Hello world!");
 // After we save a document, we can access the Internet Media Type (MIME type) of the newly created output document.
 System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> parameters = doc->Save(get_ArtifactsDir() + u"Document.SaveOutputParameters.doc");
 
-ASSERT_EQ(u"application/msword", parameters->get_ContentType());
+ASSERT_EQ(parameters->get_ContentType(), u"application/msword");
 
 // This property changes depending on the save format.
 parameters = doc->Save(get_ArtifactsDir() + u"Document.SaveOutputParameters.pdf");
 
-ASSERT_EQ(u"application/pdf", parameters->get_ContentType());
+ASSERT_EQ(parameters->get_ContentType(), u"application/pdf");
 ```
 ## See Also
 

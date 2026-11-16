@@ -727,8 +727,8 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> imageShape = builder->InsertIma
 
 // Passing negative values as the intended dimensions will automatically define
 // the shape's dimensions based on the dimensions of its image.
-ASPOSE_ASSERT_EQ(300.0, imageShape->get_Width());
-ASPOSE_ASSERT_EQ(300.0, imageShape->get_Height());
+ASPOSE_ASSERT_EQ(imageShape->get_Width(), 300.0);
+ASPOSE_ASSERT_EQ(imageShape->get_Height(), 300.0);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertImageOriginalSize.docx");
 ```

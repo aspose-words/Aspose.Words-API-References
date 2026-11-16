@@ -32,7 +32,7 @@ for (auto&& shape : System::IterateOver<Aspose::Words::Drawing::Shape>(doc->GetC
         std::cout << System::String::Format(u"This is {0} object", oleFormat->get_IsLink() ? System::String(u"a linked") : System::String(u"an embedded")) << std::endl;
         System::ArrayPtr<uint8_t> oleRawData = oleFormat->GetRawData();
 
-        ASSERT_EQ(24576, oleRawData->get_Length());
+        ASSERT_EQ(oleRawData->get_Length(), 24576);
     }
 }
 ```

@@ -35,12 +35,12 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"= 2 + 3 \\# $##");
 
-ASSERT_EQ(u"$ 5", field->get_Result());
+ASSERT_EQ(field->get_Result(), u"$ 5");
 
 doc->get_FieldOptions()->set_LegacyNumberFormat(true);
 field->Update();
 
-ASSERT_EQ(u"$5", field->get_Result());
+ASSERT_EQ(field->get_Result(), u"$5");
 ```
 ## See Also
 

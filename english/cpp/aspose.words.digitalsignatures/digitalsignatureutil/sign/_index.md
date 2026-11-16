@@ -61,10 +61,10 @@ auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatureCollection = signedDoc->get_DigitalSignatures();
 
 ASSERT_TRUE(digitalSignatureCollection->get_IsValid());
-ASSERT_EQ(1, digitalSignatureCollection->get_Count());
-ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)->get_SignatureType());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
+ASSERT_EQ(digitalSignatureCollection->get_Count(), 1);
+ASSERT_EQ(digitalSignatureCollection->idx_get(0)->get_SignatureType(), DigitalSignatureType::XmlDsig);
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName(), u"CN=Morzal.Me");
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"CN=Morzal.Me");
 ```
 ## See Also
 
@@ -171,10 +171,10 @@ auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatureCollection = signedDoc->get_DigitalSignatures();
 
 ASSERT_TRUE(digitalSignatureCollection->get_IsValid());
-ASSERT_EQ(1, digitalSignatureCollection->get_Count());
-ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)->get_SignatureType());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
+ASSERT_EQ(digitalSignatureCollection->get_Count(), 1);
+ASSERT_EQ(digitalSignatureCollection->idx_get(0)->get_SignatureType(), DigitalSignatureType::XmlDsig);
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName(), u"CN=Morzal.Me");
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"CN=Morzal.Me");
 ```
 ## See Also
 
@@ -219,14 +219,14 @@ DigitalSignatureUtil::Sign(get_MyDir() + u"Digitally signed.docx", get_Artifacts
 auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DigitalSignatureUtil.docx"));
 
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> signature = signedDoc->get_DigitalSignatures()->idx_get(0);
-ASSERT_EQ(1, signedDoc->get_DigitalSignatures()->get_Count());
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->get_Count(), 1);
 ASSERT_TRUE(signature->get_IsValid());
-ASSERT_EQ(u"10.0", signature->get_WindowsVersion());
-ASSERT_EQ(u"16.0.19127", signature->get_ApplicationVersion());
-ASSERT_EQ(u"16.0.19127/27", signature->get_OfficeVersion());
-ASSERT_EQ(1024, signature->get_HorizontalResolution());
-ASSERT_EQ(768, signature->get_VerticalResolution());
-ASSERT_EQ(24, signature->get_ColorDepth());
+ASSERT_EQ(signature->get_WindowsVersion(), u"10.0");
+ASSERT_EQ(signature->get_ApplicationVersion(), u"16.0.19127");
+ASSERT_EQ(signature->get_OfficeVersion(), u"16.0.19127/27");
+ASSERT_EQ(signature->get_HorizontalResolution(), 1024);
+ASSERT_EQ(signature->get_VerticalResolution(), 768);
+ASSERT_EQ(signature->get_ColorDepth(), 24);
 ```
 
 Shows how to sign a document with timestamping using DigitalSignatureUtil.
@@ -242,19 +242,19 @@ DigitalSignatureUtil::Sign(get_MyDir() + u"Digitally signed.docx", get_Artifacts
 
 auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DigitalSignatureUtil.Timestamped.docx"));
 
-ASSERT_EQ(1, signedDoc->get_DigitalSignatures()->get_Count());
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->get_Count(), 1);
 ASSERT_TRUE(signedDoc->get_DigitalSignatures()->idx_get(0)->get_IsValid());
 
 // Verify timestamp settings are applied.
-ASSERT_EQ(u"https://freetsa.org/tsr", signOptions->get_TimestampSettings()->get_ServerUrl());
-ASSERT_EQ(u"JohnDoe", signOptions->get_TimestampSettings()->get_UserName());
-ASSERT_EQ(u"MyPassword", signOptions->get_TimestampSettings()->get_Password());
-ASPOSE_ASSERT_EQ(100.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
+ASSERT_EQ(signOptions->get_TimestampSettings()->get_ServerUrl(), u"https://freetsa.org/tsr");
+ASSERT_EQ(signOptions->get_TimestampSettings()->get_UserName(), u"JohnDoe");
+ASSERT_EQ(signOptions->get_TimestampSettings()->get_Password(), u"MyPassword");
+ASPOSE_ASSERT_EQ(signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds(), 100.0);
 
 // Test with custom timeout.
 signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings>(u"https://freetsa.org/tsr", u"JohnDoe", u"MyPassword", System::TimeSpan::FromMinutes(30)));
 
-ASPOSE_ASSERT_EQ(1800.0, signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds());
+ASPOSE_ASSERT_EQ(signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds(), 1800.0);
 ```
 ## See Also
 
@@ -315,10 +315,10 @@ auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatureCollection = signedDoc->get_DigitalSignatures();
 
 ASSERT_TRUE(digitalSignatureCollection->get_IsValid());
-ASSERT_EQ(1, digitalSignatureCollection->get_Count());
-ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)->get_SignatureType());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
+ASSERT_EQ(digitalSignatureCollection->get_Count(), 1);
+ASSERT_EQ(digitalSignatureCollection->idx_get(0)->get_SignatureType(), DigitalSignatureType::XmlDsig);
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName(), u"CN=Morzal.Me");
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"CN=Morzal.Me");
 ```
 ## See Also
 

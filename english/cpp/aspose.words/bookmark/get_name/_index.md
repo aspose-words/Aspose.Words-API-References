@@ -37,7 +37,7 @@ builder->Write(u"Contents of MyBookmark.");
 builder->EndBookmark(u"My Bookmark");
 
 // Bookmarks are stored in this collection.
-ASSERT_EQ(u"My Bookmark", doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Name());
+ASSERT_EQ(doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Name(), u"My Bookmark");
 
 doc->Save(get_ArtifactsDir() + u"Bookmarks.Insert.docx");
 ```

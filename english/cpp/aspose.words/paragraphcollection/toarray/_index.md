@@ -30,7 +30,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Paragraph>> paras = doc->get_FirstSection()->get_Body()->get_Paragraphs()->ToArray();
 
-ASSERT_EQ(22, paras->get_Length());
+ASSERT_EQ(paras->get_Length(), 22);
 ```
 
 Shows how to use "hot remove" to remove a node during enumeration.

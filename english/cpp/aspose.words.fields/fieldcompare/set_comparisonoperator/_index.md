@@ -33,8 +33,8 @@ field->Update();
 
 // The COMPARE field displays a "0" or a "1", depending on its statement's truth.
 // The result of this statement is false so that this field will display a "0".
-ASSERT_EQ(u" COMPARE  3 < 2", field->GetFieldCode());
-ASSERT_EQ(u"0", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" COMPARE  3 < 2");
+ASSERT_EQ(field->get_Result(), u"0");
 
 builder->Writeln();
 
@@ -45,8 +45,8 @@ field->set_RightExpression(u"2 + 3");
 field->Update();
 
 // This field displays a "1" since the statement is true.
-ASSERT_EQ(u" COMPARE  5 = \"2 + 3\"", field->GetFieldCode());
-ASSERT_EQ(u"1", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" COMPARE  5 = \"2 + 3\"");
+ASSERT_EQ(field->get_Result(), u"1");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.COMPARE.docx");

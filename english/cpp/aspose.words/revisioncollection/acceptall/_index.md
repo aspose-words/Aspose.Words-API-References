@@ -47,7 +47,7 @@ for (auto&& r : System::IterateOver(docOriginal->get_Revisions()))
 // Accepting these revisions will transform the original document into the edited document.
 docOriginal->get_Revisions()->AcceptAll();
 
-ASSERT_EQ(docOriginal->GetText(), docEdited->GetText());
+ASSERT_EQ(docEdited->GetText(), docOriginal->GetText());
 ```
 ## See Also
 

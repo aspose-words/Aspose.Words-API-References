@@ -44,10 +44,6 @@ std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << 
 
 doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
-## Deprecated
-
-
-This property is obsolete. Please, use ForeColor property instead.
 ## See Also
 
 * Class [Fill](../)

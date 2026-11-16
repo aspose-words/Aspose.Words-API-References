@@ -30,7 +30,7 @@ auto oleShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->get_Fir
 // which we can use when saving the object's contents into a file in the local file system.
 System::String suggestedFileName = oleShape->get_OleFormat()->get_SuggestedFileName();
 
-ASSERT_EQ(u"CSV.csv", suggestedFileName);
+ASSERT_EQ(suggestedFileName, u"CSV.csv");
 
 {
     auto fileStream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + suggestedFileName, System::IO::FileMode::Create);

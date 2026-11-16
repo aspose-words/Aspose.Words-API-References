@@ -64,15 +64,15 @@ fieldSet->set_BookmarkName(u"MyBookmark");
 fieldSet->set_BookmarkText(u"Hello world!");
 fieldSet->Update();
 
-ASSERT_EQ(u" SET  MyBookmark \"Hello world!\"", fieldSet->GetFieldCode());
+ASSERT_EQ(fieldSet->GetFieldCode(), u" SET  MyBookmark \"Hello world!\"");
 
 // Refer to the bookmark by name in a REF field and display its contents.
 auto fieldRef = System::ExplicitCast<Aspose::Words::Fields::FieldRef>(builder->InsertField(FieldType::FieldRef, true));
 fieldRef->set_BookmarkName(u"MyBookmark");
 fieldRef->Update();
 
-ASSERT_EQ(u" REF  MyBookmark", fieldRef->GetFieldCode());
-ASSERT_EQ(u"Hello world!", fieldRef->get_Result());
+ASSERT_EQ(fieldRef->GetFieldCode(), u" REF  MyBookmark");
+ASSERT_EQ(fieldRef->get_Result(), u"Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"Field.SET.REF.docx");
 ```

@@ -65,8 +65,8 @@ builder->Writeln(u" minutes.");
 doc->get_BuiltInDocumentProperties()->set_TotalEditingTime(10);
 field->Update();
 
-ASSERT_EQ(u" EDITTIME ", field->GetFieldCode());
-ASSERT_EQ(u"10", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" EDITTIME ");
+ASSERT_EQ(field->get_Result(), u"10");
 
 // The field does not update itself in real-time, and will also have to be
 // manually updated in Microsoft Word anytime we need an accurate value.

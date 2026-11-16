@@ -71,7 +71,7 @@ field->set_PostScriptGroup(u"para");
 // this command will turn the entire area that we specified in "field.PostScriptGroup" white.
 field->set_PrinterInstructions(u"erasepage");
 
-ASSERT_EQ(u" PRINT  erasepage \\p para", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" PRINT  erasepage \\p para");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.PRINT.docx");

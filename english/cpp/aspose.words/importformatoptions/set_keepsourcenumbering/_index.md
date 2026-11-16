@@ -25,7 +25,7 @@ Shows how to import a document with numbered lists.
 auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List source.docx"));
 auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List destination.docx"));
 
-ASSERT_EQ(4, dstDoc->get_Lists()->get_Count());
+ASSERT_EQ(dstDoc->get_Lists()->get_Count(), 4);
 
 auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 
@@ -38,7 +38,7 @@ options->set_KeepSourceNumbering(isKeepSourceNumbering);
 dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 dstDoc->UpdateListLabels();
 
-ASSERT_EQ(isKeepSourceNumbering ? 5 : 4, dstDoc->get_Lists()->get_Count());
+ASSERT_EQ(dstDoc->get_Lists()->get_Count(), isKeepSourceNumbering ? 5 : 4);
 ```
 
 Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
@@ -85,11 +85,11 @@ dstDoc->UpdateListLabels();
 
 if (keepSourceNumbering)
 {
-    ASSERT_EQ(System::String(u"6. Item 1\r\n") + u"7. Item 2 \r\n" + u"8. Item 3\r\n" + u"9. Item 4\r\n" + u"6. Item 1\r\n" + u"7. Item 2 \r\n" + u"8. Item 3\r\n" + u"9. Item 4", dstDoc->get_FirstSection()->get_Body()->ToString(SaveFormat::Text).Trim());
+    ASSERT_EQ(dstDoc->get_FirstSection()->get_Body()->ToString(SaveFormat::Text).Trim(), System::String(u"6. Item 1\r\n") + u"7. Item 2 \r\n" + u"8. Item 3\r\n" + u"9. Item 4\r\n" + u"6. Item 1\r\n" + u"7. Item 2 \r\n" + u"8. Item 3\r\n" + u"9. Item 4");
 }
 else
 {
-    ASSERT_EQ(System::String(u"6. Item 1\r\n") + u"7. Item 2 \r\n" + u"8. Item 3\r\n" + u"9. Item 4\r\n" + u"10. Item 1\r\n" + u"11. Item 2 \r\n" + u"12. Item 3\r\n" + u"13. Item 4", dstDoc->get_FirstSection()->get_Body()->ToString(SaveFormat::Text).Trim());
+    ASSERT_EQ(dstDoc->get_FirstSection()->get_Body()->ToString(SaveFormat::Text).Trim(), System::String(u"6. Item 1\r\n") + u"7. Item 2 \r\n" + u"8. Item 3\r\n" + u"9. Item 4\r\n" + u"10. Item 1\r\n" + u"11. Item 2 \r\n" + u"12. Item 3\r\n" + u"13. Item 4");
 }
 ```
 ## See Also

@@ -33,14 +33,14 @@ builder->InsertShape(ShapeType::Rectangle, static_cast<double>(100), static_cast
 builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
 builder->InsertImage(get_ImageDir() + u"Logo icon.ico");
 
-ASSERT_EQ(1, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
-ASSERT_EQ(1, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count(), 1);
+ASSERT_EQ(doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count(), 1);
 
 // Remove all shapes from the headers and footers in the first section.
 doc->get_FirstSection()->DeleteHeaderFooterShapes();
 
-ASSERT_EQ(0, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
-ASSERT_EQ(0, doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count(), 0);
+ASSERT_EQ(doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count(), 0);
 ```
 ## See Also
 

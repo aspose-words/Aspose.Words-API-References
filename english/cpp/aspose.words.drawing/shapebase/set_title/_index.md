@@ -46,8 +46,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.Title.docx");
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Title.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
-ASSERT_EQ(System::String::Empty, shape->get_Title());
-ASSERT_EQ(u"Title: My cube", shape->get_AlternativeText());
+ASSERT_EQ(shape->get_Title(), System::String::Empty);
+ASSERT_EQ(shape->get_AlternativeText(), u"Title: My cube");
 ```
 ## See Also
 

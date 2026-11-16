@@ -37,7 +37,7 @@ for (int32_t i = 0; i < 6; i++)
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
 
 // Determine how much space our pages have for text within the margins and then add an amount to pad a margin.
-ASSERT_NEAR(470.30, pageSetup->get_PageWidth() - pageSetup->get_LeftMargin() - pageSetup->get_RightMargin(), 0.01);
+ASSERT_NEAR(pageSetup->get_PageWidth() - pageSetup->get_LeftMargin() - pageSetup->get_RightMargin(), 470.30, 0.01);
 
 pageSetup->set_Gutter(100.0);
 

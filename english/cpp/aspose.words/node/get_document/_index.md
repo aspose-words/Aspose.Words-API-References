@@ -37,8 +37,8 @@ ASSERT_TRUE(System::TestTools::IsNull(para->get_ParentNode()));
 // we can attach it as a child only if both nodes have the same owner document.
 // The owner document is the document we passed to the node's constructor.
 // We have not attached this paragraph to the document, so the document does not contain its text.
-ASPOSE_ASSERT_EQ(para->get_Document(), doc);
-ASSERT_EQ(System::String::Empty, doc->GetText().Trim());
+ASPOSE_ASSERT_EQ(doc, para->get_Document());
+ASSERT_EQ(doc->GetText().Trim(), System::String::Empty);
 
 // Since the document owns this paragraph, we can apply one of its styles to the paragraph's contents.
 para->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Heading 1"));
@@ -46,8 +46,8 @@ para->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Heading 1"))
 // Add this node to the document, and then verify its contents.
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 
-ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body(), para->get_ParentNode());
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+ASPOSE_ASSERT_EQ(para->get_ParentNode(), doc->get_FirstSection()->get_Body());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
 ## See Also
 

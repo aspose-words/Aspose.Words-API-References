@@ -55,13 +55,13 @@ Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Form fields.docx"));
 
 auto fieldFormCheckBox = System::ExplicitCast<Aspose::Words::Fields::FieldFormCheckBox>(doc->get_Range()->get_Fields()->idx_get(1));
-ASSERT_EQ(u" FORMCHECKBOX \u0001", fieldFormCheckBox->GetFieldCode());
+ASSERT_EQ(fieldFormCheckBox->GetFieldCode(), u" FORMCHECKBOX \u0001");
 
 auto fieldFormDropDown = System::ExplicitCast<Aspose::Words::Fields::FieldFormDropDown>(doc->get_Range()->get_Fields()->idx_get(2));
-ASSERT_EQ(u" FORMDROPDOWN \u0001", fieldFormDropDown->GetFieldCode());
+ASSERT_EQ(fieldFormDropDown->GetFieldCode(), u" FORMDROPDOWN \u0001");
 
 auto fieldFormText = System::ExplicitCast<Aspose::Words::Fields::FieldFormText>(doc->get_Range()->get_Fields()->idx_get(0));
-ASSERT_EQ(u" FORMTEXT \u0001", fieldFormText->GetFieldCode());
+ASSERT_EQ(fieldFormText->GetFieldCode(), u" FORMTEXT \u0001");
 ```
 ## See Also
 

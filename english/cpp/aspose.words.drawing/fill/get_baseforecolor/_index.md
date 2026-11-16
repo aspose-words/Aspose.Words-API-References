@@ -31,14 +31,14 @@ shape->get_Fill()->set_ForeTintAndShade(0.5);
 shape->get_Stroke()->get_Fill()->set_ForeColor(System::Drawing::Color::get_Green());
 shape->get_Stroke()->get_Fill()->set_Transparency(0.5);
 
-ASSERT_EQ(System::Drawing::Color::FromArgb(255, 255, 188, 188).ToArgb(), shape->get_Fill()->get_ForeColor().ToArgb());
-ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), shape->get_Fill()->get_BaseForeColor().ToArgb());
+ASSERT_EQ(shape->get_Fill()->get_ForeColor().ToArgb(), System::Drawing::Color::FromArgb(255, 255, 188, 188).ToArgb());
+ASSERT_EQ(shape->get_Fill()->get_BaseForeColor().ToArgb(), System::Drawing::Color::get_Red().ToArgb());
 
-ASSERT_EQ(System::Drawing::Color::FromArgb(128, 0, 128, 0).ToArgb(), shape->get_Stroke()->get_ForeColor().ToArgb());
-ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get_BaseForeColor().ToArgb());
+ASSERT_EQ(shape->get_Stroke()->get_ForeColor().ToArgb(), System::Drawing::Color::FromArgb(128, 0, 128, 0).ToArgb());
+ASSERT_EQ(shape->get_Stroke()->get_BaseForeColor().ToArgb(), System::Drawing::Color::get_Green().ToArgb());
 
-ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get_Fill()->get_ForeColor().ToArgb());
-ASSERT_EQ(System::Drawing::Color::get_Green().ToArgb(), shape->get_Stroke()->get_Fill()->get_BaseForeColor().ToArgb());
+ASSERT_EQ(shape->get_Stroke()->get_Fill()->get_ForeColor().ToArgb(), System::Drawing::Color::get_Green().ToArgb());
+ASSERT_EQ(shape->get_Stroke()->get_Fill()->get_BaseForeColor().ToArgb(), System::Drawing::Color::get_Green().ToArgb());
 ```
 ## See Also
 

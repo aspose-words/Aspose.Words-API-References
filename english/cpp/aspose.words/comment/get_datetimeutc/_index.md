@@ -39,7 +39,7 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 comment = System::ExplicitCast<Aspose::Words::Comment>(doc->GetChild(NodeType::Comment, 0, true));
 // DateTimeUtc return data without milliseconds.
-ASSERT_EQ(dateTime.ToUniversalTime().ToString(u"yyyy-MM-dd hh:mm:ss"), comment->get_DateTimeUtc().ToString(u"yyyy-MM-dd hh:mm:ss"));
+ASSERT_EQ(comment->get_DateTimeUtc().ToString(u"yyyy-MM-dd hh:mm:ss"), dateTime.ToUniversalTime().ToString(u"yyyy-MM-dd hh:mm:ss"));
 ```
 ## See Also
 

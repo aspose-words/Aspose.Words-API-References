@@ -53,13 +53,13 @@ newStyle->set_Name(u"My Heading 1");
 // Changing settings of one of the styles do not affect the other.
 newStyle->get_Font()->set_Color(System::Drawing::Color::get_Red());
 
-ASSERT_EQ(u"My Heading 1", newStyle->get_Name());
-ASSERT_EQ(u"Heading 1", doc->get_Styles()->idx_get(u"Heading 1")->get_Name());
+ASSERT_EQ(newStyle->get_Name(), u"My Heading 1");
+ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Name(), u"Heading 1");
 
-ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Type(), newStyle->get_Type());
-ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Name(), newStyle->get_Font()->get_Name());
-ASPOSE_ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Size(), newStyle->get_Font()->get_Size());
-ASPOSE_ASSERT_NE(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Color(), newStyle->get_Font()->get_Color());
+ASSERT_EQ(newStyle->get_Type(), doc->get_Styles()->idx_get(u"Heading 1")->get_Type());
+ASSERT_EQ(newStyle->get_Font()->get_Name(), doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Name());
+ASPOSE_ASSERT_EQ(newStyle->get_Font()->get_Size(), doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Size());
+ASPOSE_ASSERT_NE(newStyle->get_Font()->get_Color(), doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Color());
 ```
 
 Shows how to import a style from one document into a different document.
@@ -76,8 +76,8 @@ auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Style> newStyle = dstDoc->get_Styles()->AddCopy(srcStyle);
 
 // The imported style has an appearance identical to its source style.
-ASSERT_EQ(u"MyStyle", newStyle->get_Name());
-ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), newStyle->get_Font()->get_Color().ToArgb());
+ASSERT_EQ(newStyle->get_Name(), u"MyStyle");
+ASSERT_EQ(newStyle->get_Font()->get_Color().ToArgb(), System::Drawing::Color::get_Red().ToArgb());
 ```
 ## See Also
 

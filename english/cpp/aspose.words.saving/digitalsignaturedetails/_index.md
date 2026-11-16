@@ -42,8 +42,8 @@ auto digitalSignatureDetails = System::MakeObject<Aspose::Words::Saving::Digital
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
 saveOptions->set_DigitalSignatureDetails(digitalSignatureDetails);
 
-ASPOSE_ASSERT_EQ(certificateHolder, digitalSignatureDetails->get_CertificateHolder());
-ASSERT_EQ(u"Some comments", digitalSignatureDetails->get_SignOptions()->get_Comments());
+ASPOSE_ASSERT_EQ(digitalSignatureDetails->get_CertificateHolder(), certificateHolder);
+ASSERT_EQ(digitalSignatureDetails->get_SignOptions()->get_Comments(), u"Some comments");
 
 doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
 ```

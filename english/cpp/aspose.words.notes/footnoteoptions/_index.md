@@ -103,8 +103,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.", u"Custom endnote r
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes. By default, footnotes display their numbers using Arabic numerals,
 // and endnotes display their numbers in lowercase Roman numerals.
-ASSERT_EQ(NumberStyle::Arabic, doc->get_FootnoteOptions()->get_NumberStyle());
-ASSERT_EQ(NumberStyle::LowercaseRoman, doc->get_EndnoteOptions()->get_NumberStyle());
+ASSERT_EQ(doc->get_FootnoteOptions()->get_NumberStyle(), NumberStyle::Arabic);
+ASSERT_EQ(doc->get_EndnoteOptions()->get_NumberStyle(), NumberStyle::LowercaseRoman);
 
 // We can use the "NumberStyle" property to apply custom numbering styles to footnotes and endnotes.
 // This will not affect footnotes/endnotes with custom reference marks.
@@ -153,8 +153,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 4.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and endnotes and does not restart these counts at any point.
-ASSERT_EQ(doc->get_FootnoteOptions()->get_RestartRule(), FootnoteNumberingRule::Default);
-ASSERT_EQ(FootnoteNumberingRule::Default, FootnoteNumberingRule::Continuous);
+ASSERT_EQ(FootnoteNumberingRule::Default, doc->get_FootnoteOptions()->get_RestartRule());
+ASSERT_EQ(FootnoteNumberingRule::Continuous, FootnoteNumberingRule::Default);
 
 // We can use the "RestartRule" property to get the document to restart
 // the footnote/endnote counts at a new page or section.
@@ -198,8 +198,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes, which both begin at 1.
-ASSERT_EQ(1, doc->get_FootnoteOptions()->get_StartNumber());
-ASSERT_EQ(1, doc->get_EndnoteOptions()->get_StartNumber());
+ASSERT_EQ(doc->get_FootnoteOptions()->get_StartNumber(), 1);
+ASSERT_EQ(doc->get_EndnoteOptions()->get_StartNumber(), 1);
 
 // We can use the "StartNumber" property to get the document to
 // begin a footnote or endnote count at a different number.

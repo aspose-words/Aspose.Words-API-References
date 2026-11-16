@@ -33,14 +33,14 @@ for (int32_t i = 0; i < structuredDocumentTags->get_Count(); i++)
 }
 
 sdt = structuredDocumentTags->GetById(1691867797);
-ASSERT_EQ(1691867797, sdt->get_Id());
+ASSERT_EQ(sdt->get_Id(), 1691867797);
 
-ASSERT_EQ(5, structuredDocumentTags->get_Count());
+ASSERT_EQ(structuredDocumentTags->get_Count(), 5);
 // Remove the structured document tag by Id.
 structuredDocumentTags->Remove(1691867797);
 // Remove the structured document tag at position 0.
 structuredDocumentTags->RemoveAt(0);
-ASSERT_EQ(3, structuredDocumentTags->get_Count());
+ASSERT_EQ(structuredDocumentTags->get_Count(), 3);
 ```
 ## See Also
 

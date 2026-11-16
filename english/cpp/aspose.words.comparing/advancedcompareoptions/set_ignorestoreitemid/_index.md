@@ -33,13 +33,13 @@ auto compareOptions = System::MakeObject<Aspose::Words::Comparing::CompareOption
 compareOptions->get_AdvancedOptions()->set_IgnoreStoreItemId(false);
 
 docA->Compare(docB, u"user", System::DateTime::get_Now(), compareOptions);
-ASSERT_EQ(8, docA->get_Revisions()->get_Count());
+ASSERT_EQ(docA->get_Revisions()->get_Count(), 8);
 
 compareOptions->get_AdvancedOptions()->set_IgnoreStoreItemId(true);
 
 docA->get_Revisions()->RejectAll();
 docA->Compare(docB, u"user", System::DateTime::get_Now(), compareOptions);
-ASSERT_EQ(0, docA->get_Revisions()->get_Count());
+ASSERT_EQ(docA->get_Revisions()->get_Count(), 0);
 ```
 ## See Also
 

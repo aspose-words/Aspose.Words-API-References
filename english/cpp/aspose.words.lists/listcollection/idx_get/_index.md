@@ -31,10 +31,10 @@ builder->Write(u"Paragraph 3");
 
 System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
-ASSERT_EQ(0, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+ASSERT_EQ(paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
-}))));
+}))), 0);
 
 doc->get_Lists()->Add(ListTemplate::NumberDefault);
 System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->idx_get(0);
@@ -45,10 +45,10 @@ for (auto&& paragraph : System::IterateOver(paras->LINQ_OfType<System::SharedPtr
     paragraph->get_ListFormat()->set_ListLevelNumber(2);
 }
 
-ASSERT_EQ(3, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+ASSERT_EQ(paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
-}))));
+}))), 3);
 ```
 
 Shows how to verify owner document properties of lists.
@@ -57,10 +57,10 @@ Shows how to verify owner document properties of lists.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
 System::SharedPtr<Aspose::Words::Lists::ListCollection> lists = doc->get_Lists();
-ASPOSE_ASSERT_EQ(doc, lists->get_Document());
+ASPOSE_ASSERT_EQ(lists->get_Document(), doc);
 
 System::SharedPtr<Aspose::Words::Lists::List> list = lists->Add(ListTemplate::BulletDefault);
-ASPOSE_ASSERT_EQ(doc, list->get_Document());
+ASPOSE_ASSERT_EQ(list->get_Document(), doc);
 
 std::cout << (System::String(u"Current list count: ") + lists->get_Count()) << std::endl;
 std::cout << (System::String(u"Is the first document list: ") + (System::ObjectExt::Equals(lists->idx_get(0), list))) << std::endl;

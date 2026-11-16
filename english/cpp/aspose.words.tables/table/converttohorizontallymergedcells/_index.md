@@ -38,7 +38,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 System::SharedPtr<Aspose::Words::Tables::Row> row = table->get_Rows()->idx_get(0);
 
-ASSERT_EQ(5, row->get_Cells()->get_Count());
+ASSERT_EQ(row->get_Cells()->get_Count(), 5);
 ASSERT_TRUE(row->get_Cells()->LINQ_All(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> c)>>([](System::SharedPtr<Aspose::Words::Node> c) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Tables::Cell>(c))->get_CellFormat()->get_HorizontalMerge() == CellMerge::None;
@@ -50,15 +50,15 @@ ASSERT_TRUE(row->get_Cells()->LINQ_All(static_cast<System::Func<System::SharedPt
 table->ConvertToHorizontallyMergedCells();
 row = table->get_Rows()->idx_get(0);
 
-ASSERT_EQ(7, row->get_Cells()->get_Count());
+ASSERT_EQ(row->get_Cells()->get_Count(), 7);
 
-ASSERT_EQ(CellMerge::None, row->get_Cells()->idx_get(0)->get_CellFormat()->get_HorizontalMerge());
-ASSERT_EQ(CellMerge::First, row->get_Cells()->idx_get(1)->get_CellFormat()->get_HorizontalMerge());
-ASSERT_EQ(CellMerge::Previous, row->get_Cells()->idx_get(2)->get_CellFormat()->get_HorizontalMerge());
-ASSERT_EQ(CellMerge::None, row->get_Cells()->idx_get(3)->get_CellFormat()->get_HorizontalMerge());
-ASSERT_EQ(CellMerge::First, row->get_Cells()->idx_get(4)->get_CellFormat()->get_HorizontalMerge());
-ASSERT_EQ(CellMerge::Previous, row->get_Cells()->idx_get(5)->get_CellFormat()->get_HorizontalMerge());
-ASSERT_EQ(CellMerge::None, row->get_Cells()->idx_get(6)->get_CellFormat()->get_HorizontalMerge());
+ASSERT_EQ(row->get_Cells()->idx_get(0)->get_CellFormat()->get_HorizontalMerge(), CellMerge::None);
+ASSERT_EQ(row->get_Cells()->idx_get(1)->get_CellFormat()->get_HorizontalMerge(), CellMerge::First);
+ASSERT_EQ(row->get_Cells()->idx_get(2)->get_CellFormat()->get_HorizontalMerge(), CellMerge::Previous);
+ASSERT_EQ(row->get_Cells()->idx_get(3)->get_CellFormat()->get_HorizontalMerge(), CellMerge::None);
+ASSERT_EQ(row->get_Cells()->idx_get(4)->get_CellFormat()->get_HorizontalMerge(), CellMerge::First);
+ASSERT_EQ(row->get_Cells()->idx_get(5)->get_CellFormat()->get_HorizontalMerge(), CellMerge::Previous);
+ASSERT_EQ(row->get_Cells()->idx_get(6)->get_CellFormat()->get_HorizontalMerge(), CellMerge::None);
 ```
 ## See Also
 

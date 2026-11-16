@@ -30,7 +30,7 @@ std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name
 
 System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
 
-ASSERT_EQ(vbaModules->LINQ_Count(), 3);
+ASSERT_EQ(3, vbaModules->LINQ_Count());
 
 for (auto&& module_ : vbaModules)
 {

@@ -42,7 +42,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(1, originalFontSources->get_Length());
+ASSERT_EQ(originalFontSources->get_Length(), 1);
 
 ASSERT_TRUE(originalFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {

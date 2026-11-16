@@ -35,7 +35,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldBidiOutline>(builder->InsertField(FieldType::FieldBidiOutline, true));
 builder->Writeln(u"שלום");
 
-ASSERT_EQ(u" BIDIOUTLINE ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" BIDIOUTLINE ");
 
 // Add two more BIDIOUTLINE fields, which will display ".2" and ".3".
 builder->InsertField(FieldType::FieldBidiOutline, true);

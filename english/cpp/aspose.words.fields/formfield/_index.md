@@ -119,9 +119,9 @@ builder->Write(u"Please select a fruit: ");
 System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({
     u"Apple", u"Banana", u"Cherry"}), 0);
 
-ASSERT_EQ(u"MyComboBox", comboBox->get_Name());
-ASSERT_EQ(FieldType::FieldFormDropDown, comboBox->get_Type());
-ASSERT_EQ(u"Apple", comboBox->get_Result());
+ASSERT_EQ(comboBox->get_Name(), u"MyComboBox");
+ASSERT_EQ(comboBox->get_Type(), FieldType::FieldFormDropDown);
+ASSERT_EQ(comboBox->get_Result(), u"Apple");
 
 // The form field will appear in the form of a "select" html tag.
 doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
@@ -143,10 +143,10 @@ doc = DocumentHelper::SaveOpen(doc);
 
 System::SharedPtr<Aspose::Words::Run> formFieldRun = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(1);
 
-ASSERT_EQ(u"Aspose.FormField", formFieldRun->get_Text());
-ASPOSE_ASSERT_EQ(true, formFieldRun->get_Font()->get_Bold());
-ASPOSE_ASSERT_EQ(24, formFieldRun->get_Font()->get_Size());
-ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), formFieldRun->get_Font()->get_Color().ToArgb());
+ASSERT_EQ(formFieldRun->get_Text(), u"Aspose.FormField");
+ASPOSE_ASSERT_EQ(formFieldRun->get_Font()->get_Bold(), true);
+ASPOSE_ASSERT_EQ(formFieldRun->get_Font()->get_Size(), 24);
+ASSERT_EQ(formFieldRun->get_Font()->get_Color().ToArgb(), System::Drawing::Color::get_Red().ToArgb());
 ```
 ## See Also
 

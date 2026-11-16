@@ -96,8 +96,8 @@ builder->InsertField(u"MERGEFIELD MyMergeField2 \\* MERGEFORMAT");
 builder->MoveToMergeField(u"MyMergeField1", true, false);
 
 // Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
-ASPOSE_ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Start(), builder->get_CurrentNode());
-ASPOSE_ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_End(), builder->get_CurrentNode()->get_PreviousSibling());
+ASPOSE_ASSERT_EQ(builder->get_CurrentNode(), doc->get_Range()->get_Fields()->idx_get(1)->get_Start());
+ASPOSE_ASSERT_EQ(builder->get_CurrentNode()->get_PreviousSibling(), doc->get_Range()->get_Fields()->idx_get(0)->get_End());
 
 // If we wish to edit the field's field code or contents using the builder,
 // its cursor would need to be inside a field.

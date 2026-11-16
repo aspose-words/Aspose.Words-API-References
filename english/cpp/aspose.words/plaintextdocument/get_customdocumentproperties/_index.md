@@ -32,8 +32,8 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.CustomDocumentProperties.docx
 
 auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.CustomDocumentProperties.docx");
 
-ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
-ASPOSE_ASSERT_EQ((u"123 Main St, London, UK"), plaintext->get_CustomDocumentProperties()->idx_get(u"Location of writing")->get_Value());
+ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
+ASPOSE_ASSERT_EQ(plaintext->get_CustomDocumentProperties()->idx_get(u"Location of writing")->get_Value(), (u"123 Main St, London, UK"));
 ```
 ## See Also
 

@@ -60,7 +60,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // it will have our username in that property.
 // However, if we create a document programmatically using Aspose.Words,
 // the "Author" property, by default, will be an empty string.
-ASSERT_EQ(System::String::Empty, doc->get_BuiltInDocumentProperties()->get_Author());
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Author(), System::String::Empty);
 
 // Set a backup author name for AUTHOR fields to use
 // if the "Author" property contains an empty string.
@@ -70,31 +70,31 @@ builder->Write(u"This document was created by ");
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
 field->Update();
 
-ASSERT_EQ(u" AUTHOR ", field->GetFieldCode());
-ASSERT_EQ(u"Joe Bloggs", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" AUTHOR ");
+ASSERT_EQ(field->get_Result(), u"Joe Bloggs");
 
 // Updating an AUTHOR field that contains a value
 // will apply that value to the "Author" built-in property.
-ASSERT_EQ(u"Joe Bloggs", doc->get_BuiltInDocumentProperties()->get_Author());
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Author(), u"Joe Bloggs");
 
 // Changing this property, then updating the AUTHOR field will apply this value to the field.
 doc->get_BuiltInDocumentProperties()->set_Author(u"John Doe");
 field->Update();
 
-ASSERT_EQ(u" AUTHOR ", field->GetFieldCode());
-ASSERT_EQ(u"John Doe", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" AUTHOR ");
+ASSERT_EQ(field->get_Result(), u"John Doe");
 
 // If we update an AUTHOR field after changing its "Name" property,
 // then the field will display the new name and apply the new name to the built-in property.
 field->set_AuthorName(u"Jane Doe");
 field->Update();
 
-ASSERT_EQ(u" AUTHOR  \"Jane Doe\"", field->GetFieldCode());
-ASSERT_EQ(u"Jane Doe", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" AUTHOR  \"Jane Doe\"");
+ASSERT_EQ(field->get_Result(), u"Jane Doe");
 
 // AUTHOR fields do not affect the DefaultDocumentAuthor property.
-ASSERT_EQ(u"Jane Doe", doc->get_BuiltInDocumentProperties()->get_Author());
-ASSERT_EQ(u"Joe Bloggs", doc->get_FieldOptions()->get_DefaultDocumentAuthor());
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Author(), u"Jane Doe");
+ASSERT_EQ(doc->get_FieldOptions()->get_DefaultDocumentAuthor(), u"Joe Bloggs");
 
 doc->Save(get_ArtifactsDir() + u"Field.AUTHOR.docx");
 ```

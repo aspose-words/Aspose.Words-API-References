@@ -60,19 +60,19 @@ builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 builder->Write(u"Section ");
 auto fieldSection = System::ExplicitCast<Aspose::Words::Fields::FieldSection>(builder->InsertField(FieldType::FieldSection, true));
 
-ASSERT_EQ(u" SECTION ", fieldSection->GetFieldCode());
+ASSERT_EQ(fieldSection->GetFieldCode(), u" SECTION ");
 
 // A PAGE field displays the number of the page it is in.
 builder->Write(u"\nPage ");
 auto fieldPage = System::ExplicitCast<Aspose::Words::Fields::FieldPage>(builder->InsertField(FieldType::FieldPage, true));
 
-ASSERT_EQ(u" PAGE ", fieldPage->GetFieldCode());
+ASSERT_EQ(fieldPage->GetFieldCode(), u" PAGE ");
 
 // A SECTIONPAGES field displays the number of pages that the section it is in spans across.
 builder->Write(u" of ");
 auto fieldSectionPages = System::ExplicitCast<Aspose::Words::Fields::FieldSectionPages>(builder->InsertField(FieldType::FieldSectionPages, true));
 
-ASSERT_EQ(u" SECTIONPAGES ", fieldSectionPages->GetFieldCode());
+ASSERT_EQ(fieldSectionPages->GetFieldCode(), u" SECTIONPAGES ");
 
 // Move out of the header back into the main document and insert two pages.
 // All these pages will be in the first section. Our fields, which appear once every header,

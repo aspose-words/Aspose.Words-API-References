@@ -56,12 +56,12 @@ System::SharedPtr<Aspose::Words::Fields::Field> field = para->InsertField(u" QUO
 // and get it to display a placeholder value:
 para->InsertField(u" QUOTE \" Real value.\"", u" Placeholder value.", field->get_Start(), false);
 
-ASSERT_EQ(u" Placeholder value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), u" Placeholder value.");
 
 // This field will display its placeholder value until we update it.
 doc->UpdateFields();
 
-ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), u" Real value.");
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```
@@ -118,12 +118,12 @@ System::SharedPtr<Aspose::Words::Fields::Field> field = para->InsertField(u" QUO
 // and get it to display a placeholder value:
 para->InsertField(u" QUOTE \" Real value.\"", u" Placeholder value.", field->get_Start(), false);
 
-ASSERT_EQ(u" Placeholder value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), u" Placeholder value.");
 
 // This field will display its placeholder value until we update it.
 doc->UpdateFields();
 
-ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), u" Real value.");
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```
@@ -181,12 +181,12 @@ System::SharedPtr<Aspose::Words::Fields::Field> field = para->InsertField(u" QUO
 // and get it to display a placeholder value:
 para->InsertField(u" QUOTE \" Real value.\"", u" Placeholder value.", field->get_Start(), false);
 
-ASSERT_EQ(u" Placeholder value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), u" Placeholder value.");
 
 // This field will display its placeholder value until we update it.
 doc->UpdateFields();
 
-ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), u" Real value.");
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```

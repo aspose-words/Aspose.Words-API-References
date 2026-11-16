@@ -62,8 +62,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 4.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and endnotes and does not restart these counts at any point.
-ASSERT_EQ(doc->get_FootnoteOptions()->get_RestartRule(), FootnoteNumberingRule::Default);
-ASSERT_EQ(FootnoteNumberingRule::Default, FootnoteNumberingRule::Continuous);
+ASSERT_EQ(FootnoteNumberingRule::Default, doc->get_FootnoteOptions()->get_RestartRule());
+ASSERT_EQ(FootnoteNumberingRule::Continuous, FootnoteNumberingRule::Default);
 
 // We can use the "RestartRule" property to get the document to restart
 // the footnote/endnote counts at a new page or section.

@@ -33,16 +33,16 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 doc->UpdateListLabels();
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
-ASSERT_EQ(u"1.", paragraphs->idx_get(0)->get_ListLabel()->get_LabelString());
-ASSERT_EQ(u"a.", paragraphs->idx_get(1)->get_ListLabel()->get_LabelString());
-ASSERT_EQ(System::String::Empty, paragraphs->idx_get(2)->get_ListLabel()->get_LabelString());
+ASSERT_EQ(paragraphs->idx_get(0)->get_ListLabel()->get_LabelString(), u"1.");
+ASSERT_EQ(paragraphs->idx_get(1)->get_ListLabel()->get_LabelString(), u"a.");
+ASSERT_EQ(paragraphs->idx_get(2)->get_ListLabel()->get_LabelString(), System::String::Empty);
 
 // View the document object as if all the revisions are accepted. Currently supports list labels.
 doc->set_RevisionsView(RevisionsView::Final);
 
-ASSERT_EQ(System::String::Empty, paragraphs->idx_get(0)->get_ListLabel()->get_LabelString());
-ASSERT_EQ(u"1.", paragraphs->idx_get(1)->get_ListLabel()->get_LabelString());
-ASSERT_EQ(u"a.", paragraphs->idx_get(2)->get_ListLabel()->get_LabelString());
+ASSERT_EQ(paragraphs->idx_get(0)->get_ListLabel()->get_LabelString(), System::String::Empty);
+ASSERT_EQ(paragraphs->idx_get(1)->get_ListLabel()->get_LabelString(), u"1.");
+ASSERT_EQ(paragraphs->idx_get(2)->get_ListLabel()->get_LabelString(), u"a.");
 ```
 ## See Also
 

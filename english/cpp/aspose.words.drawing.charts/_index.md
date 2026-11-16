@@ -53,6 +53,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp
 | [ChartMultilevelValue](./chartmultilevelvalue/) | Represents a value for charts that display multilevel data. |
 | [ChartNumberFormat](./chartnumberformat/) | Represents number formatting of the parent element. 
 To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |
+| [ChartPlotArea](./chartplotarea/) | Provides access to the plot area properties of a chart. 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |
 | [ChartSeries](./chartseries/) | Represents chart series properties. 
 To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |
 | [ChartSeriesCollection](./chartseriescollection/) | Represents collection of a [ChartSeries](./chartseries/). 

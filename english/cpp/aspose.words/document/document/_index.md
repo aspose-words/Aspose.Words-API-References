@@ -54,13 +54,13 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // Loaded documents will have contents that we can access and edit.
-ASSERT_EQ(u"Hello World!", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"Hello World!");
 
 // Some operations that need to occur during loading, such as using a password to decrypt a document,
 // can be done by passing a LoadOptions object when loading the document.
 doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx", System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword"));
 
-ASSERT_EQ(u"Test encrypted document.", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"Test encrypted document.");
 ```
 
 Shows how to format a run of text using its font property.
@@ -109,7 +109,7 @@ Shows how to load a document using a stream.
     System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.docx");
     auto doc = System::MakeObject<Aspose::Words::Document>(stream);
 
-    ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", doc->GetText().Trim());
+    ASSERT_EQ(doc->GetText().Trim(), u"Hello World!\r\rHello Word!\r\r\rHello World!");
 }
 ```
 ## Exceptions
@@ -166,8 +166,8 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
-    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
-    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
+    ASSERT_NEAR(ConvertUtil::PointToPixel(shape->get_Width()), 32.0, 0.01);
+    ASSERT_NEAR(ConvertUtil::PointToPixel(shape->get_Height()), 32.0, 0.01);
 }
 ```
 
@@ -177,10 +177,10 @@ Shows how to load an encrypted Microsoft Word document.
 System::SharedPtr<Aspose::Words::Document> doc;
 
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
-ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
-})(), Aspose::Words::IncorrectPasswordException);
+}))(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
 auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword");
@@ -280,13 +280,13 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
 // Loaded documents will have contents that we can access and edit.
-ASSERT_EQ(u"Hello World!", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"Hello World!");
 
 // Some operations that need to occur during loading, such as using a password to decrypt a document,
 // can be done by passing a LoadOptions object when loading the document.
 doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx", System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword"));
 
-ASSERT_EQ(u"Test encrypted document.", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"Test encrypted document.");
 ```
 
 Shows how to load an encrypted Microsoft Word document.
@@ -295,10 +295,10 @@ Shows how to load an encrypted Microsoft Word document.
 System::SharedPtr<Aspose::Words::Document> doc;
 
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
-ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
-})(), Aspose::Words::IncorrectPasswordException);
+}))(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
 auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword");
@@ -354,7 +354,7 @@ Shows how to load a document using a stream.
     System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.docx");
     auto doc = System::MakeObject<Aspose::Words::Document>(stream);
 
-    ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", doc->GetText().Trim());
+    ASSERT_EQ(doc->GetText().Trim(), u"Hello World!\r\rHello Word!\r\r\rHello World!");
 }
 ```
 ## Exceptions
@@ -411,8 +411,8 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
-    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
-    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
+    ASSERT_NEAR(ConvertUtil::PointToPixel(shape->get_Width()), 32.0, 0.01);
+    ASSERT_NEAR(ConvertUtil::PointToPixel(shape->get_Height()), 32.0, 0.01);
 }
 ```
 
@@ -422,10 +422,10 @@ Shows how to load an encrypted Microsoft Word document.
 System::SharedPtr<Aspose::Words::Document> doc;
 
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
-ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Encrypted.docx"));
-})(), Aspose::Words::IncorrectPasswordException);
+}))(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
 auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword");

@@ -33,11 +33,11 @@ if (listLevel->get_NumberStyle() == NumberStyle::Custom)
     customNumberStyleFormat = listLevel->get_CustomNumberStyleFormat();
 }
 
-ASSERT_EQ((u"001, 002, 003, ..."), customNumberStyleFormat);
+ASSERT_EQ(customNumberStyleFormat, (u"001, 002, 003, ..."));
 
 // We can get value for the specified index of the list item.
-ASSERT_EQ(u"iv", ListLevel::GetEffectiveValue(4, NumberStyle::LowercaseRoman, nullptr));
-ASSERT_EQ(u"005", ListLevel::GetEffectiveValue(5, NumberStyle::Custom, customNumberStyleFormat));
+ASSERT_EQ(ListLevel::GetEffectiveValue(4, NumberStyle::LowercaseRoman, nullptr), u"iv");
+ASSERT_EQ(ListLevel::GetEffectiveValue(5, NumberStyle::Custom, customNumberStyleFormat), u"005");
 ```
 
 Shows how to set customer number style format.
@@ -48,17 +48,17 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 doc->UpdateListLabels();
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paras = doc->get_FirstSection()->get_Body()->get_Paragraphs();
-ASSERT_EQ(u"001.", paras->idx_get(0)->get_ListLabel()->get_LabelString());
-ASSERT_EQ(u"0001.", paras->idx_get(1)->get_ListLabel()->get_LabelString());
-ASSERT_EQ(u"0002.", paras->idx_get(2)->get_ListLabel()->get_LabelString());
+ASSERT_EQ(paras->idx_get(0)->get_ListLabel()->get_LabelString(), u"001.");
+ASSERT_EQ(paras->idx_get(1)->get_ListLabel()->get_LabelString(), u"0001.");
+ASSERT_EQ(paras->idx_get(2)->get_ListLabel()->get_LabelString(), u"0002.");
 
 paras->idx_get(1)->get_ListFormat()->get_ListLevel()->set_CustomNumberStyleFormat(u"001, 002, 003, ...");
 
 doc->UpdateListLabels();
 
-ASSERT_EQ(u"001.", paras->idx_get(0)->get_ListLabel()->get_LabelString());
-ASSERT_EQ(u"001.", paras->idx_get(1)->get_ListLabel()->get_LabelString());
-ASSERT_EQ(u"002.", paras->idx_get(2)->get_ListLabel()->get_LabelString());
+ASSERT_EQ(paras->idx_get(0)->get_ListLabel()->get_LabelString(), u"001.");
+ASSERT_EQ(paras->idx_get(1)->get_ListLabel()->get_LabelString(), u"001.");
+ASSERT_EQ(paras->idx_get(2)->get_ListLabel()->get_LabelString(), u"002.");
 ```
 ## See Also
 

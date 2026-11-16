@@ -43,11 +43,11 @@ if (listLevel->get_NumberStyle() == NumberStyle::Custom)
     customNumberStyleFormat = listLevel->get_CustomNumberStyleFormat();
 }
 
-ASSERT_EQ((u"001, 002, 003, ..."), customNumberStyleFormat);
+ASSERT_EQ(customNumberStyleFormat, (u"001, 002, 003, ..."));
 
 // We can get value for the specified index of the list item.
-ASSERT_EQ(u"iv", ListLevel::GetEffectiveValue(4, NumberStyle::LowercaseRoman, nullptr));
-ASSERT_EQ(u"005", ListLevel::GetEffectiveValue(5, NumberStyle::Custom, customNumberStyleFormat));
+ASSERT_EQ(ListLevel::GetEffectiveValue(4, NumberStyle::LowercaseRoman, nullptr), u"iv");
+ASSERT_EQ(ListLevel::GetEffectiveValue(5, NumberStyle::Custom, customNumberStyleFormat), u"005");
 ```
 ## Exceptions
 

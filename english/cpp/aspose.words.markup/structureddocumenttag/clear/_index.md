@@ -35,7 +35,7 @@ auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc,
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 
 // This structured document tag, which is in the form of a text box, already displays placeholder text.
-ASSERT_EQ(u"Click here to enter text.", tag->GetText().Trim());
+ASSERT_EQ(tag->GetText().Trim(), u"Click here to enter text.");
 ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
 
 // Create a building block with text contents.
@@ -51,7 +51,7 @@ glossaryDoc->AppendChild<System::SharedPtr<Aspose::Words::BuildingBlocks::Buildi
 // the structured document tag to display the contents of the building block in place of the original default text.
 tag->set_PlaceholderName(u"My placeholder");
 
-ASSERT_EQ(u"Custom placeholder text.", tag->GetText().Trim());
+ASSERT_EQ(tag->GetText().Trim(), u"Custom placeholder text.");
 ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
 
 // Edit the text of the structured document tag and hide the placeholder text.
@@ -59,13 +59,13 @@ auto run = System::ExplicitCast<Aspose::Words::Run>(tag->GetChild(NodeType::Run,
 run->set_Text(u"New text.");
 tag->set_IsShowingPlaceholderText(false);
 
-ASSERT_EQ(u"New text.", tag->GetText().Trim());
+ASSERT_EQ(tag->GetText().Trim(), u"New text.");
 
 // Use the "Clear" method to clear this structured document tag's contents and display the placeholder again.
 tag->Clear();
 
 ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
-ASSERT_EQ(u"Custom placeholder text.", tag->GetText().Trim());
+ASSERT_EQ(tag->GetText().Trim(), u"Custom placeholder text.");
 ```
 ## See Also
 

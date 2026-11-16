@@ -30,7 +30,7 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.Load.docx");
 
 auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.Load.docx");
 
-ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
+ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
 ```
 ## See Also
 

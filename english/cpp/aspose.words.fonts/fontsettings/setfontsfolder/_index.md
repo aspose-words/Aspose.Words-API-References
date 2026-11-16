@@ -40,7 +40,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(1, originalFontSources->get_Length());
+ASSERT_EQ(originalFontSources->get_Length(), 1);
 ASSERT_TRUE(originalFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -65,7 +65,7 @@ FontSettings::get_DefaultInstance()->SetFontsFolder(get_FontsDir(), recursive);
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> newFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(1, newFontSources->get_Length());
+ASSERT_EQ(newFontSources->get_Length(), 1);
 ASSERT_FALSE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -78,7 +78,7 @@ ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System:
 // The "Amethysta" font is in a subfolder of the font directory.
 if (recursive)
 {
-    ASSERT_EQ(30, newFontSources[0]->GetAvailableFonts()->get_Count());
+    ASSERT_EQ(newFontSources[0]->GetAvailableFonts()->get_Count(), 30);
     ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Amethysta";
@@ -86,7 +86,7 @@ if (recursive)
 }
 else
 {
-    ASSERT_EQ(18, newFontSources[0]->GetAvailableFonts()->get_Count());
+    ASSERT_EQ(newFontSources[0]->GetAvailableFonts()->get_Count(), 18);
     ASSERT_FALSE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Amethysta";

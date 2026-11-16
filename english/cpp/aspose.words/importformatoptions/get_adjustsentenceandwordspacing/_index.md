@@ -35,7 +35,7 @@ auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_AdjustSentenceAndWordSpacing(true);
 builder->InsertDocument(srcDoc, ImportFormatMode::UseDestinationStyles, options);
 
-ASSERT_EQ(u"Lorem ipsum. Dolor sit amet.", dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+ASSERT_EQ(dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"Lorem ipsum. Dolor sit amet.");
 ```
 ## See Also
 

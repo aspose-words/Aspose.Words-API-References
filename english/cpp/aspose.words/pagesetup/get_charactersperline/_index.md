@@ -38,7 +38,7 @@ builder->get_PageSetup()->set_CharactersPerLine(10);
 // The number of characters also depends on the size of the font.
 doc->get_Styles()->idx_get(u"Normal")->get_Font()->set_Size(20);
 
-ASSERT_EQ(8, doc->get_FirstSection()->get_PageSetup()->get_CharactersPerLine());
+ASSERT_EQ(doc->get_FirstSection()->get_PageSetup()->get_CharactersPerLine(), 8);
 
 builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 

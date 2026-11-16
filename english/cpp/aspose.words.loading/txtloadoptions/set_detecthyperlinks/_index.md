@@ -40,8 +40,8 @@ const System::String inputText = System::String(u"Some links in TXT:\n") + u"htt
         std::cout << field->get_Result() << std::endl;
     }
 
-    ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result().Trim(), u"https://www.aspose.com/");
-    ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result().Trim(), u"https://docs.aspose.com/words/net/");
+    ASSERT_EQ(u"https://www.aspose.com/", doc->get_Range()->get_Fields()->idx_get(0)->get_Result().Trim());
+    ASSERT_EQ(u"https://docs.aspose.com/words/net/", doc->get_Range()->get_Fields()->idx_get(1)->get_Result().Trim());
 }
 ```
 ## See Also

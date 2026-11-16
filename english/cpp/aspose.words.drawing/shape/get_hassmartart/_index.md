@@ -29,7 +29,7 @@ int32_t numberOfSmartArtShapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ
     return shape->get_HasSmartArt();
 })));
 
-ASSERT_EQ(2, numberOfSmartArtShapes);
+ASSERT_EQ(numberOfSmartArtShapes, 2);
 ```
 ## See Also
 

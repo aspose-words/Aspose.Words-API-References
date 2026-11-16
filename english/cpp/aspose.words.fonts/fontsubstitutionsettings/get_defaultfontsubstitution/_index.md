@@ -30,7 +30,7 @@ doc->set_FontSettings(fontSettings);
 // This rule will substitute all missing fonts with "Times New Roman".
 System::SharedPtr<Aspose::Words::Fonts::DefaultFontSubstitutionRule> defaultFontSubstitutionRule = fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution();
 ASSERT_TRUE(defaultFontSubstitutionRule->get_Enabled());
-ASSERT_EQ(u"Times New Roman", defaultFontSubstitutionRule->get_DefaultFontName());
+ASSERT_EQ(defaultFontSubstitutionRule->get_DefaultFontName(), u"Times New Roman");
 
 // Set the default font substitute to "Courier New".
 defaultFontSubstitutionRule->set_DefaultFontName(u"Courier New");

@@ -34,7 +34,7 @@ auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>()
 loadOptions->set_SupportFontFaceRules(true);
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Html with FontFace.html", loadOptions);
 
-ASSERT_EQ(u"Squarish Sans CT Regular", doc->get_FontInfos()->idx_get(0)->get_Name());
+ASSERT_EQ(doc->get_FontInfos()->idx_get(0)->get_Name(), u"Squarish Sans CT Regular");
 ```
 ## See Also
 

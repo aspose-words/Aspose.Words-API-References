@@ -44,8 +44,8 @@ imageData->set_Title(u"Imported Image");
 ASSERT_TRUE(imageData->get_HasImage());
 
 // If an image has no borders, its ImageData object will define the border color as empty.
-ASSERT_EQ(4, imageData->get_Borders()->get_Count());
-ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, imageData->get_Borders()->idx_get(0)->get_Color());
+ASSERT_EQ(imageData->get_Borders()->get_Count(), 4);
+ASPOSE_ASSERT_EQ(imageData->get_Borders()->idx_get(0)->get_Color(), System::Drawing::Color::Empty);
 
 // This image does not link to another shape or image file in the local file system.
 ASSERT_FALSE(imageData->get_IsLink());

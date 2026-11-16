@@ -47,7 +47,7 @@ tag->set_PlaceholderName(u"Custom Placeholder");
 
 // If "PlaceholderName" refers to an existing block in the parent document's glossary document,
 // we will be able to verify the building block via the "Placeholder" property.
-ASPOSE_ASSERT_EQ(substituteBlock, tag->get_Placeholder());
+ASPOSE_ASSERT_EQ(tag->get_Placeholder(), substituteBlock);
 
 // Set the "IsShowingPlaceholderText" property to "true" to treat the
 // structured document tag's current contents as placeholder text.

@@ -38,14 +38,14 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 
 // If any number of these runs are adjacent with identical formatting,
 // then the document may be simplified.
-ASSERT_EQ(317, doc->GetChildNodes(NodeType::Run, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Run, true)->get_Count(), 317);
 
 // Combine such runs with this method and verify the number of run joins that will take place.
-ASSERT_EQ(121, doc->JoinRunsWithSameFormatting());
+ASSERT_EQ(doc->JoinRunsWithSameFormatting(), 121);
 
 // The number of joins and the number of runs we have after the join
 // should add up the number of runs we had initially.
-ASSERT_EQ(196, doc->GetChildNodes(NodeType::Run, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Run, true)->get_Count(), 196);
 ```
 ## See Also
 

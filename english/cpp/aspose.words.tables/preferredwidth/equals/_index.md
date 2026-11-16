@@ -45,7 +45,7 @@ builder->InsertCell();
 builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::Auto());
 
 // Each configuration of the "PreferredWidth" property creates a new object.
-ASSERT_NE(System::ObjectExt::GetHashCode(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_PreferredWidth()), System::ObjectExt::GetHashCode(builder->get_CellFormat()->get_PreferredWidth()));
+ASSERT_NE(System::ObjectExt::GetHashCode(builder->get_CellFormat()->get_PreferredWidth()), System::ObjectExt::GetHashCode(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_PreferredWidth()));
 
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_LightGreen());
 builder->Writeln(u"Automatically sized cell.");
@@ -95,7 +95,7 @@ builder->InsertCell();
 builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::Auto());
 
 // Each configuration of the "PreferredWidth" property creates a new object.
-ASSERT_NE(System::ObjectExt::GetHashCode(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_PreferredWidth()), System::ObjectExt::GetHashCode(builder->get_CellFormat()->get_PreferredWidth()));
+ASSERT_NE(System::ObjectExt::GetHashCode(builder->get_CellFormat()->get_PreferredWidth()), System::ObjectExt::GetHashCode(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_PreferredWidth()));
 
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_LightGreen());
 builder->Writeln(u"Automatically sized cell.");

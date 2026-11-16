@@ -36,7 +36,7 @@ doc->get_ViewOptions()->set_FormsDesign(useFormsDesign);
 
 doc->Save(get_ArtifactsDir() + u"ViewOptions.FormsDesign.xml");
 
-ASPOSE_ASSERT_EQ(useFormsDesign, System::IO::File::ReadAllText(get_ArtifactsDir() + u"ViewOptions.FormsDesign.xml").Contains(u"<w:formsDesign />"));
+ASPOSE_ASSERT_EQ(System::IO::File::ReadAllText(get_ArtifactsDir() + u"ViewOptions.FormsDesign.xml").Contains(u"<w:formsDesign />"), useFormsDesign);
 ```
 ## See Also
 

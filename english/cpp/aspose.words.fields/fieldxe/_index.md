@@ -81,7 +81,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 index->set_BookmarkName(u"MainBookmark");
 index->set_EntryType(u"A");
 
-ASSERT_EQ(u" INDEX  \\b MainBookmark \\f A", index->GetFieldCode());
+ASSERT_EQ(index->GetFieldCode(), u" INDEX  \\b MainBookmark \\f A");
 
 // On a new page, start the bookmark with a name that matches the value
 // of the INDEX field's "BookmarkName" property.
@@ -94,7 +94,7 @@ auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->
 indexEntry->set_Text(u"Index entry 1");
 indexEntry->set_EntryType(u"A");
 
-ASSERT_EQ(u" XE  \"Index entry 1\" \\f A", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  \"Index entry 1\" \\f A");
 
 // Insert an XE field that will not appear in the INDEX because the entry types do not match.
 builder->InsertBreak(BreakType::PageBreak);
@@ -140,7 +140,7 @@ index->set_NumberOfColumns(u"2");
 // Set any entries with starting letters outside the "a-c" character range to be omitted.
 index->set_LetterRange(u"a-c");
 
-ASSERT_EQ(u" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index->GetFieldCode());
+ASSERT_EQ(index->GetFieldCode(), u" INDEX  \\z 1033 \\h A \\c 2 \\p a-c");
 
 // These next two XE fields will show up under the "A" heading,
 // with their respective text stylings also applied to their page numbers.
@@ -149,14 +149,14 @@ auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->
 indexEntry->set_Text(u"Apple");
 indexEntry->set_IsItalic(true);
 
-ASSERT_EQ(u" XE  Apple \\i", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  Apple \\i");
 
 builder->InsertBreak(BreakType::PageBreak);
 indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Apricot");
 indexEntry->set_IsBold(true);
 
-ASSERT_EQ(u" XE  Apricot \\b", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  Apricot \\b");
 
 // Both the next two XE fields will be under a "B" and "C" heading in the INDEX fields table of contents.
 builder->InsertBreak(BreakType::PageBreak);

@@ -31,7 +31,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 // Enable automatic style updating, but do not attach a template document.
 doc->set_AutomaticallyUpdateStyles(true);
 
-ASSERT_EQ(System::String::Empty, doc->get_AttachedTemplate());
+ASSERT_EQ(doc->get_AttachedTemplate(), System::String::Empty);
 
 // Since there is no template document, the document had nowhere to track style changes.
 // Use a SaveOptions object to automatically set a template

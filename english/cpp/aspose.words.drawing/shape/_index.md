@@ -223,10 +223,10 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // and save the image data of every shape with an image as a file to the local file system.
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
+ASSERT_EQ(shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Drawing::Shape>(s))->get_HasImage();
-}))));
+}))), 9);
 
 int32_t imageIndex = 0;
 for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()))
@@ -283,23 +283,23 @@ subShape->set_Top(0);
 group->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(subShape);
 builder->InsertNode(group);
 
-ASSERT_EQ(3, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
-ASSERT_EQ(1, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Shape, true)->get_Count(), 3);
+ASSERT_EQ(doc->GetChildNodes(NodeType::GroupShape, true)->get_Count(), 1);
 
 // Remove all Shape nodes from the document.
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 shapes->Clear();
 
 // All shapes are gone, but the group shape is still in the document.
-ASSERT_EQ(1, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::GroupShape, true)->get_Count(), 1);
+ASSERT_EQ(doc->GetChildNodes(NodeType::Shape, true)->get_Count(), 0);
 
 // Remove all group shapes separately.
 System::SharedPtr<Aspose::Words::NodeCollection> groupShapes = doc->GetChildNodes(NodeType::GroupShape, true);
 groupShapes->Clear();
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::GroupShape, true)->get_Count(), 0);
+ASSERT_EQ(doc->GetChildNodes(NodeType::Shape, true)->get_Count(), 0);
 ```
 ## See Also
 

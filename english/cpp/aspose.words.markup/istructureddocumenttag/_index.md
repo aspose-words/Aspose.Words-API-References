@@ -60,7 +60,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 
 // This collection provides a unified interface for accessing ranged and non-ranged structured tags.
 System::SharedPtr<System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag>>> sdts = doc->get_Range()->get_StructuredDocumentTags()->LINQ_ToList();
-ASSERT_EQ(5, sdts->LINQ_Count());
+ASSERT_EQ(sdts->LINQ_Count(), 5);
 
 // Here we can get child nodes from the common interface of ranged and non-ranged structured tags.
 for (auto&& sdt : System::IterateOver(sdts))
@@ -72,7 +72,7 @@ for (auto&& sdt : System::IterateOver(sdts))
 }
 
 sdts = doc->get_Range()->get_StructuredDocumentTags()->LINQ_ToList();
-ASSERT_EQ(0, sdts->LINQ_Count());
+ASSERT_EQ(sdts->LINQ_Count(), 0);
 ```
 ## See Also
 

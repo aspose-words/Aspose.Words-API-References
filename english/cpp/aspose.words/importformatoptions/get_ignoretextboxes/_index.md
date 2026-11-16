@@ -51,13 +51,13 @@ dstDoc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->AppendChil
 
 if (ignoreTextBoxes)
 {
-    ASPOSE_ASSERT_EQ(12.0, importedTextBox->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Size());
-    ASSERT_EQ(u"Times New Roman", importedTextBox->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name());
+    ASPOSE_ASSERT_EQ(importedTextBox->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Size(), 12.0);
+    ASSERT_EQ(importedTextBox->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name(), u"Times New Roman");
 }
 else
 {
-    ASPOSE_ASSERT_EQ(24.0, importedTextBox->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Size());
-    ASSERT_EQ(u"Courier New", importedTextBox->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name());
+    ASPOSE_ASSERT_EQ(importedTextBox->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Size(), 24.0);
+    ASSERT_EQ(importedTextBox->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name(), u"Courier New");
 }
 
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.IgnoreTextBoxes.docx");

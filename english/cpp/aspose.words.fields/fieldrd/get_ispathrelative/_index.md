@@ -37,7 +37,7 @@ builder->Writeln(u"TOC entry from within this document");
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldRD>(builder->InsertField(FieldType::FieldRefDoc, true));
 field->set_FileName(get_ArtifactsDir() + u"ReferencedDocument.docx");
 
-ASSERT_EQ(System::String::Format(u" RD  {0}ReferencedDocument.docx", get_ArtifactsDir().Replace(u"\\", u"\\\\")), field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), System::String::Format(u" RD  {0}ReferencedDocument.docx", get_ArtifactsDir().Replace(u"\\", u"\\\\")));
 
 // Create the document that the RD field is referencing and insert a heading.
 // This heading will show up as an entry in the TOC field in our first document.

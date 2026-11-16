@@ -51,20 +51,20 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()-
 switch (tableContentAlignment)
 {
     case TableContentAlignment::Auto:
-        ASSERT_EQ(ParagraphAlignment::Right, table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
-        ASSERT_EQ(ParagraphAlignment::Center, table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Right);
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Center);
         break;
     case TableContentAlignment::Left:
-        ASSERT_EQ(ParagraphAlignment::Left, table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
-        ASSERT_EQ(ParagraphAlignment::Left, table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Left);
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Left);
         break;
     case TableContentAlignment::Center:
-        ASSERT_EQ(ParagraphAlignment::Center, table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
-        ASSERT_EQ(ParagraphAlignment::Center, table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Center);
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Center);
         break;
     case TableContentAlignment::Right:
-        ASSERT_EQ(ParagraphAlignment::Right, table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
-        ASSERT_EQ(ParagraphAlignment::Right, table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Right);
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Right);
         break;
 }
 ```

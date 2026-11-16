@@ -49,7 +49,7 @@ tableStyle->get_ConditionalStyles()->idx_get(ConditionalStyleType::FirstRow)->ge
 // 2 -  By index:
 tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_Color(System::Drawing::Color::get_Black());
 tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_LineStyle(LineStyle::DotDash);
-ASSERT_EQ(ConditionalStyleType::FirstRow, tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type());
+ASSERT_EQ(tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type(), ConditionalStyleType::FirstRow);
 
 // 3 -  As a property:
 tableStyle->get_ConditionalStyles()->get_FirstRow()->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
@@ -78,7 +78,7 @@ tableStyle->get_ConditionalStyles()->get_LastColumn()->get_Font()->set_Bold(true
 table->set_Style(tableStyle);
 
 // Our style applies some conditional styles by default.
-ASSERT_EQ(TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands, table->get_StyleOptions());
+ASSERT_EQ(table->get_StyleOptions(), TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands);
 
 // We will need to enable all other styles ourselves via the "StyleOptions" property.
 table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow | TableStyleOptions::LastColumn);
@@ -136,7 +136,7 @@ tableStyle->get_ConditionalStyles()->idx_get(ConditionalStyleType::FirstRow)->ge
 // 2 -  By index:
 tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_Color(System::Drawing::Color::get_Black());
 tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_LineStyle(LineStyle::DotDash);
-ASSERT_EQ(ConditionalStyleType::FirstRow, tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type());
+ASSERT_EQ(tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type(), ConditionalStyleType::FirstRow);
 
 // 3 -  As a property:
 tableStyle->get_ConditionalStyles()->get_FirstRow()->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
@@ -165,7 +165,7 @@ tableStyle->get_ConditionalStyles()->get_LastColumn()->get_Font()->set_Bold(true
 table->set_Style(tableStyle);
 
 // Our style applies some conditional styles by default.
-ASSERT_EQ(TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands, table->get_StyleOptions());
+ASSERT_EQ(table->get_StyleOptions(), TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands);
 
 // We will need to enable all other styles ourselves via the "StyleOptions" property.
 table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow | TableStyleOptions::LastColumn);

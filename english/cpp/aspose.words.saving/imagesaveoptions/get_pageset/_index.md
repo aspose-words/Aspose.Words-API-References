@@ -62,7 +62,7 @@ builder->Writeln(u"This is page 2.");
 builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"This is page 3.");
 
-ASSERT_EQ(3, doc->get_PageCount());
+ASSERT_EQ(doc->get_PageCount(), 3);
 
 // When we save the document as an image, Aspose.Words only renders the first page by default.
 // We can pass a SaveOptions object to specify a different page to render.

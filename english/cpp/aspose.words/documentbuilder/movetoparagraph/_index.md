@@ -36,14 +36,14 @@ Shows how to move a builder's cursor position to a specified paragraph.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
 
-ASSERT_EQ(22, paragraphs->get_Count());
+ASSERT_EQ(paragraphs->get_Count(), 22);
 
 // Create document builder to edit the document. The builder's cursor,
 // which is the point where it will insert new nodes when we call its document construction methods,
 // is currently at the beginning of the document.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-ASSERT_EQ(0, paragraphs->IndexOf(builder->get_CurrentParagraph()));
+ASSERT_EQ(paragraphs->IndexOf(builder->get_CurrentParagraph()), 0);
 
 // Move that cursor to a different paragraph will place that cursor in front of that paragraph.
 builder->MoveToParagraph(2, 0);

@@ -36,7 +36,7 @@ field->set_PostalAddress(u"96801");
 field->set_IsUSPostalAddress(true);
 field->set_FacingIdentificationMark(u"C");
 
-ASSERT_EQ(u" BARCODE  96801 \\u \\f C", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" BARCODE  96801 \\u \\f C");
 
 builder->InsertBreak(BreakType::LineBreak);
 
@@ -45,7 +45,7 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldBarcode>(builder->Inser
 field->set_PostalAddress(u"BarcodeBookmark");
 field->set_IsBookmark(true);
 
-ASSERT_EQ(u" BARCODE  BarcodeBookmark \\b", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" BARCODE  BarcodeBookmark \\b");
 
 // The bookmark that the BARCODE field references in its PostalAddress property
 // need to contain nothing besides the valid ZIP code.

@@ -32,13 +32,13 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Math shap
 
 if (isConvertShapeToOfficeMath)
 {
-    ASSERT_EQ(16, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
-    ASSERT_EQ(34, doc->GetChildNodes(NodeType::OfficeMath, true)->get_Count());
+    ASSERT_EQ(doc->GetChildNodes(NodeType::Shape, true)->get_Count(), 16);
+    ASSERT_EQ(doc->GetChildNodes(NodeType::OfficeMath, true)->get_Count(), 34);
 }
 else
 {
-    ASSERT_EQ(24, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
-    ASSERT_EQ(0, doc->GetChildNodes(NodeType::OfficeMath, true)->get_Count());
+    ASSERT_EQ(doc->GetChildNodes(NodeType::Shape, true)->get_Count(), 24);
+    ASSERT_EQ(doc->GetChildNodes(NodeType::OfficeMath, true)->get_Count(), 0);
 }
 ```
 ## See Also

@@ -31,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // If a run's Font object does not specify text color, it will automatically
 // select either black or white depending on the background color's color.
-ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), builder->get_Font()->get_Color().ToArgb());
+ASSERT_EQ(builder->get_Font()->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
 
 // The default color for text is black. If the color of the background is dark, black text will be difficult to see.
 // To solve this problem, the AutoColor property will display this text in white.
@@ -39,7 +39,7 @@ builder->get_Font()->get_Shading()->set_BackgroundPatternColor(System::Drawing::
 
 builder->Writeln(u"The text color automatically chosen for this run is white.");
 
-ASSERT_EQ(System::Drawing::Color::get_White().ToArgb(), doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_Runs()->idx_get(0)->get_Font()->get_AutoColor().ToArgb());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_Runs()->idx_get(0)->get_Font()->get_AutoColor().ToArgb(), System::Drawing::Color::get_White().ToArgb());
 
 // If we change the background to a light color, black will be a more
 // suitable text color than white so that the auto color will display it in black.
@@ -47,7 +47,7 @@ builder->get_Font()->get_Shading()->set_BackgroundPatternColor(System::Drawing::
 
 builder->Writeln(u"The text color automatically chosen for this run is black.");
 
-ASSERT_EQ(System::Drawing::Color::get_Black().ToArgb(), doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_Runs()->idx_get(0)->get_Font()->get_AutoColor().ToArgb());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_Runs()->idx_get(0)->get_Font()->get_AutoColor().ToArgb(), System::Drawing::Color::get_Black().ToArgb());
 
 doc->Save(get_ArtifactsDir() + u"Font.SetFontAutoColor.docx");
 ```

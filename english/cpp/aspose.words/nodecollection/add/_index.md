@@ -36,24 +36,24 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // A blank document comes with a section, which has a body, which in turn has a paragraph.
 // We can add contents to this document by adding elements such as text runs, shapes, or tables to that paragraph.
-ASSERT_EQ(NodeType::Section, doc->GetChild(NodeType::Any, 0, true)->get_NodeType());
-ASSERT_EQ(NodeType::Body, doc->get_Sections()->idx_get(0)->GetChild(NodeType::Any, 0, true)->get_NodeType());
-ASSERT_EQ(NodeType::Paragraph, doc->get_Sections()->idx_get(0)->get_Body()->GetChild(NodeType::Any, 0, true)->get_NodeType());
+ASSERT_EQ(doc->GetChild(NodeType::Any, 0, true)->get_NodeType(), NodeType::Section);
+ASSERT_EQ(doc->get_Sections()->idx_get(0)->GetChild(NodeType::Any, 0, true)->get_NodeType(), NodeType::Body);
+ASSERT_EQ(doc->get_Sections()->idx_get(0)->get_Body()->GetChild(NodeType::Any, 0, true)->get_NodeType(), NodeType::Paragraph);
 
 // If we add a new section like this, it will not have a body, or any other child nodes.
 doc->get_Sections()->Add(System::MakeObject<Aspose::Words::Section>(doc));
 
-ASSERT_EQ(0, doc->get_Sections()->idx_get(1)->GetChildNodes(NodeType::Any, true)->get_Count());
+ASSERT_EQ(doc->get_Sections()->idx_get(1)->GetChildNodes(NodeType::Any, true)->get_Count(), 0);
 
 // Run the "EnsureMinimum" method to add a body and a paragraph to this section to begin editing it.
 doc->get_LastSection()->EnsureMinimum();
 
-ASSERT_EQ(NodeType::Body, doc->get_Sections()->idx_get(1)->GetChild(NodeType::Any, 0, true)->get_NodeType());
-ASSERT_EQ(NodeType::Paragraph, doc->get_Sections()->idx_get(1)->get_Body()->GetChild(NodeType::Any, 0, true)->get_NodeType());
+ASSERT_EQ(doc->get_Sections()->idx_get(1)->GetChild(NodeType::Any, 0, true)->get_NodeType(), NodeType::Body);
+ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_Body()->GetChild(NodeType::Any, 0, true)->get_NodeType(), NodeType::Paragraph);
 
 doc->get_Sections()->idx_get(0)->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
 ## Exceptions
 

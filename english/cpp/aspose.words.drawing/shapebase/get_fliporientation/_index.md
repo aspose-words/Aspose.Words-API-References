@@ -33,7 +33,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, static_cast<double>(100), RelativeVerticalPosition::TopMargin, static_cast<double>(100), static_cast<double>(100), static_cast<double>(100), WrapType::None);
 shape->get_ImageData()->SetImage(get_ImageDir() + u"Logo.jpg");
 
-ASSERT_EQ(FlipOrientation::None, shape->get_FlipOrientation());
+ASSERT_EQ(shape->get_FlipOrientation(), FlipOrientation::None);
 
 shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, static_cast<double>(250), RelativeVerticalPosition::TopMargin, static_cast<double>(100), static_cast<double>(100), static_cast<double>(100), WrapType::None);
 shape->get_ImageData()->SetImage(get_ImageDir() + u"Logo.jpg");

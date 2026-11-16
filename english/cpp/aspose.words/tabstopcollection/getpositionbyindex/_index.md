@@ -37,7 +37,7 @@ tabStops->Add(ConvertUtil::MillimeterToPoint(30), TabAlignment::Left, TabLeader:
 tabStops->Add(ConvertUtil::MillimeterToPoint(60), TabAlignment::Left, TabLeader::Dashes);
 
 // Verify the position of the second tab stop in the collection.
-ASSERT_NEAR(ConvertUtil::MillimeterToPoint(60), tabStops->GetPositionByIndex(1), 0.1);
+ASSERT_NEAR(tabStops->GetPositionByIndex(1), ConvertUtil::MillimeterToPoint(60), 0.1);
 ```
 ## See Also
 

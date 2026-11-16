@@ -52,7 +52,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldOcx>(builder->InsertField(FieldType::FieldOcx, true));
 
-ASSERT_EQ(u" OCX ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" OCX ");
 ```
 ## See Also
 

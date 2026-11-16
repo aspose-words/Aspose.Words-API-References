@@ -34,7 +34,7 @@ builder->Write(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 auto findReplaceOptions = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 findReplaceOptions->set_IgnoreShapes(true);
 builder->get_Document()->get_Range()->Replace(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.", u"Lorem ipsum dolor sit amet, consectetur adipiscing elit.", findReplaceOptions);
-ASSERT_EQ((u"Lorem ipsum dolor sit amet, consectetur adipiscing elit."), builder->get_Document()->GetText().Trim());
+ASSERT_EQ(builder->get_Document()->GetText().Trim(), (u"Lorem ipsum dolor sit amet, consectetur adipiscing elit."));
 ```
 ## See Also
 
