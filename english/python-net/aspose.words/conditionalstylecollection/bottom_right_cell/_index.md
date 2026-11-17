@@ -5,7 +5,7 @@ articleTitle: bottom_right_cell property
 second_title: Aspose.Words for Python
 description: "ConditionalStyleCollection.bottom_right_cell property. Gets the bottom right cell style."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/conditionalstylecollection/bottom_right_cell/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_table method
 second_title: Aspose.Words for Python
 description: "Node.as_table method. Cast Node to [Table](../../../aspose.words.tables/table/)."
 type: docs
-weight: 420
+weight: 12600
 url: /python-net/aspose.words/node/as_table/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: bounds property
 second_title: Aspose.Words for Python
 description: "ShapeBase.bounds property. Gets or sets the location and size of the containing block of the shape."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing/shapebase/bounds/
 ---
 

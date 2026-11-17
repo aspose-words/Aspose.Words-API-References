@@ -5,7 +5,7 @@ articleTitle: right_expression property
 second_title: Aspose.Words for Python
 description: "FieldIf.right_expression property. Gets or sets the right part of the comparison expression."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldif/right_expression/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: unit property
 second_title: Aspose.Words for Python
 description: "MergeFieldImageDimension.unit property. The unit."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/mergefieldimagedimension/unit/
 ---
 

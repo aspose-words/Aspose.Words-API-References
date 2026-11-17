@@ -5,7 +5,7 @@ articleTitle: design_mode property
 second_title: Aspose.Words for Python
 description: "DocumentBuilderOptions.design_mode property. Corresponds to Design Mode in Microsoft Word."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/documentbuilderoptions/design_mode/
 ---
 

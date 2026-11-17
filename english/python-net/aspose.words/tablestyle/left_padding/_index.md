@@ -5,7 +5,7 @@ articleTitle: left_padding property
 second_title: Aspose.Words for Python
 description: "TableStyle.left_padding property. Gets or sets the amount of space (in points) to add to the left of the contents of table cells."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/tablestyle/left_padding/
 ---
 

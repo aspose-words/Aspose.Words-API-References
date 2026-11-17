@@ -5,7 +5,7 @@ articleTitle: no_subsetting property
 second_title: Aspose.Words for Python
 description: "FontEmbeddingLicensingRights.no_subsetting property. Indicates the No subsetting restriction."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/fontembeddinglicensingrights/no_subsetting/
 ---
 

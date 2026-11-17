@@ -5,7 +5,7 @@ articleTitle: JustificationMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.settings.JustificationMode enumeration. Specifies the character spacing adjustment for a document"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.settings/justificationmode/
 ---
 

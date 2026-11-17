@@ -5,7 +5,7 @@ articleTitle: groups property
 second_title: Aspose.Words for Python
 description: "RevisionCollection.groups property. Collection of revision groups."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/revisioncollection/groups/
 ---
 

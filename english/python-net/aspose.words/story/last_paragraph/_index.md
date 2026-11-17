@@ -5,7 +5,7 @@ articleTitle: last_paragraph property
 second_title: Aspose.Words for Python
 description: "Story.last_paragraph property. Gets the last paragraph in the story."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/story/last_paragraph/
 ---
 

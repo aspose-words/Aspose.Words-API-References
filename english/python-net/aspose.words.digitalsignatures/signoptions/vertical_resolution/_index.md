@@ -5,7 +5,7 @@ articleTitle: vertical_resolution property
 second_title: Aspose.Words for Python
 description: "SignOptions.vertical_resolution property. Gets or sets the vertical resolution for the digital signature"
 type: docs
-weight: 130
+weight: 3600
 url: /python-net/aspose.words.digitalsignatures/signoptions/vertical_resolution/
 ---
 

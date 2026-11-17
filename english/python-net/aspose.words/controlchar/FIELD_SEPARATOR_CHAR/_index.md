@@ -5,7 +5,7 @@ articleTitle: FIELD_SEPARATOR_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.FIELD_SEPARATOR_CHAR property. Field separator character separates field code from field value"
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/controlchar/FIELD_SEPARATOR_CHAR/
 ---
 

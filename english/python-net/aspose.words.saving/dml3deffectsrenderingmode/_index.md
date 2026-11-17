@@ -5,7 +5,7 @@ articleTitle: Dml3DEffectsRenderingMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.Dml3DEffectsRenderingMode enumeration. Specifies how 3D shape effects are rendered."
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.saving/dml3deffectsrenderingmode/
 ---
 

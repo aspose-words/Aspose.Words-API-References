@@ -5,7 +5,7 @@ articleTitle: base_uri property
 second_title: Aspose.Words for Python
 description: "LoadOptions.base_uri property. Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.loading/loadoptions/base_uri/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: convert_svg_to_emf property
 second_title: Aspose.Words for Python
 description: "HtmlLoadOptions.convert_svg_to_emf property. Gets or sets a value indicating whether to convert loaded SVG images to the EMF format"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.loading/htmlloadoptions/convert_svg_to_emf/
 ---
 

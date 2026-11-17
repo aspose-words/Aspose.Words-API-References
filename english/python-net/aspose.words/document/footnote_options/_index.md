@@ -5,7 +5,7 @@ articleTitle: footnote_options property
 second_title: Aspose.Words for Python
 description: "Document.footnote_options property. Provides options that control numbering and positioning of footnotes in this document."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words/document/footnote_options/
 ---
 

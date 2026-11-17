@@ -5,7 +5,7 @@ articleTitle: last_row property
 second_title: Aspose.Words for Python
 description: "ConditionalStyleCollection.last_row property. Gets the last row style."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/conditionalstylecollection/last_row/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: preserve_line_breaks property
 second_title: Aspose.Words for Python
 description: "FieldToc.preserve_line_breaks property. Gets or sets whether to preserve newline characters within table entries."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.fields/fieldtoc/preserve_line_breaks/
 ---
 

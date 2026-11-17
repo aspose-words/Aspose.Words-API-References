@@ -5,7 +5,7 @@ articleTitle: as_field_num_chars method
 second_title: Aspose.Words for Python
 description: "Field.as_field_num_chars method. Cast Field to [FieldNumChars](../../fieldnumchars/)."
 type: docs
-weight: 710
+weight: 21300
 url: /python-net/aspose.words.fields/field/as_field_num_chars/
 ---
 

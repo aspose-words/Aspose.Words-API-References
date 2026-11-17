@@ -5,7 +5,7 @@ articleTitle: is_us_postal_address property
 second_title: Aspose.Words for Python
 description: "FieldBarcode.is_us_postal_address property. Gets or sets whether [FieldBarcode.postal_address](../postal_address/) is a U.S"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldbarcode/is_us_postal_address/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: reset_heading_level property
 second_title: Aspose.Words for Python
 description: "FieldSeq.reset_heading_level property. Gets or sets an integer number representing a heading level to reset the sequence number to"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldseq/reset_heading_level/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: previous_cell property
 second_title: Aspose.Words for Python
 description: "Cell.previous_cell property. Gets the previous [Cell](../) node."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.tables/cell/previous_cell/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: position property
 second_title: Aspose.Words for Python
 description: "FootnoteOptions.position property. Specifies the footnotes position."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.notes/footnoteoptions/position/
 ---
 

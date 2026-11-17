@@ -5,7 +5,7 @@ articleTitle: remove_at method
 second_title: Aspose.Words for Python
 description: "DropDownItemCollection.remove_at method. Removes a value at the specified index."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/dropdownitemcollection/remove_at/
 ---
 

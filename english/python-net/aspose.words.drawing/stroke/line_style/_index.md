@@ -5,7 +5,7 @@ articleTitle: line_style property
 second_title: Aspose.Words for Python
 description: "Stroke.line_style property. Defines the line style of the stroke."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.drawing/stroke/line_style/
 ---
 

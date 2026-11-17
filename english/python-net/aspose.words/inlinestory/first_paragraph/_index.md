@@ -5,7 +5,7 @@ articleTitle: first_paragraph property
 second_title: Aspose.Words for Python
 description: "InlineStory.first_paragraph property. Gets the first paragraph in the story."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/inlinestory/first_paragraph/
 ---
 

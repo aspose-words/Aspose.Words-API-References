@@ -5,7 +5,7 @@ articleTitle: appearance property
 second_title: Aspose.Words for Python
 description: "IStructuredDocumentTag.appearance property. Gets or sets the appearance of the structured document tag."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.markup/istructureddocumenttag/appearance/
 ---
 

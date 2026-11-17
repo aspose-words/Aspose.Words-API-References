@@ -5,7 +5,7 @@ articleTitle: Replacer class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Replacer class. Provides methods intended to find and replace text in the document."
 type: docs
-weight: 140
+weight: 2800
 url: /python-net/aspose.words.lowcode/replacer/
 ---
 

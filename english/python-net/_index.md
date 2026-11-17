@@ -4,7 +4,7 @@ linktitle: Aspose.Words for Python
 articleTitle: Aspose.Words for Python
 description: "Aspose.Words for Python is a class library that can be used by developers for various platforms for a variety of document processing tasks. "
 type: docs
-weight: 100
+weight: 10
 url: /python-net/
 keywords: Aspose.Words for Python, Aspose Words, Aspose API Reference.
 is_root: true

@@ -5,7 +5,7 @@ articleTitle: compare_options property
 second_title: Aspose.Words for Python
 description: "ComparerContext.compare_options property. Options used upon comparing documents."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.lowcode/comparercontext/compare_options/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: AiModelType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.AiModelType enumeration. Represents the types of [AiModel](../aimodel/) that can be integrated into the document processing workflow."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.ai/aimodeltype/
 ---
 

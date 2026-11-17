@@ -5,7 +5,7 @@ articleTitle: number_spacing property
 second_title: Aspose.Words for Python
 description: "Font.number_spacing property. Gets or sets the spacing type of the numeral being displayed."
 type: docs
-weight: 290
+weight: 8700
 url: /python-net/aspose.words/font/number_spacing/
 ---
 

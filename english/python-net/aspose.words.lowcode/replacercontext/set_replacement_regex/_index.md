@@ -5,7 +5,7 @@ articleTitle: set_replacement_regex method
 second_title: Aspose.Words for Python
 description: "ReplacerContext.set_replacement_regex method. Sets pattern and replacement used by find/replace operation."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.lowcode/replacercontext/set_replacement_regex/
 ---
 

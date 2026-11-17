@@ -5,7 +5,7 @@ articleTitle: time_value property
 second_title: Aspose.Words for Python
 description: "ChartYValue.time_value property. Gets the stored time value."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartyvalue/time_value/
 ---
 

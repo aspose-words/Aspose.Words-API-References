@@ -5,7 +5,7 @@ articleTitle: automatically_update property
 second_title: Aspose.Words for Python
 description: "Style.automatically_update property. Specifies whether this style is automatically redefined based on the appropriate value."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/style/automatically_update/
 ---
 

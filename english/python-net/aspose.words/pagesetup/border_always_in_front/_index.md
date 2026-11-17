@@ -5,7 +5,7 @@ articleTitle: border_always_in_front property
 second_title: Aspose.Words for Python
 description: "PageSetup.border_always_in_front property. Specifies where the page border is positioned relative to intersecting texts and objects."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/pagesetup/border_always_in_front/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "Run.node_type property. Returns [NodeType.RUN](../../nodetype/#RUN)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/run/node_type/
 ---
 

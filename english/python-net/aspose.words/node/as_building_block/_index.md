@@ -5,7 +5,7 @@ articleTitle: as_building_block method
 second_title: Aspose.Words for Python
 description: "Node.as_building_block method. Cast Node to [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words/node/as_building_block/
 ---
 

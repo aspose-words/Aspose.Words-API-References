@@ -5,7 +5,7 @@ articleTitle: compatibility_options property
 second_title: Aspose.Words for Python
 description: "Document.compatibility_options property. Provides access to document compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Word)."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/document/compatibility_options/
 ---
 

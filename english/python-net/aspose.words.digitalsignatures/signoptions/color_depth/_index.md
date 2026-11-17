@@ -5,7 +5,7 @@ articleTitle: color_depth property
 second_title: Aspose.Words for Python
 description: "SignOptions.color_depth property. Gets or sets the color depth for the digital signature"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.digitalsignatures/signoptions/color_depth/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: view_type property
 second_title: Aspose.Words for Python
 description: "ViewOptions.view_type property. Controls the view mode in Microsoft Word."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.settings/viewoptions/view_type/
 ---
 

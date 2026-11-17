@@ -5,7 +5,7 @@ articleTitle: has_data_labels property
 second_title: Aspose.Words for Python
 description: "ChartSeries.has_data_labels property. Gets or sets a flag indicating whether data labels are displayed for the series."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing.charts/chartseries/has_data_labels/
 ---
 

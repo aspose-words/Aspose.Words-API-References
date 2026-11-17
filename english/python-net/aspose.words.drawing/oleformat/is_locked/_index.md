@@ -5,7 +5,7 @@ articleTitle: is_locked property
 second_title: Aspose.Words for Python
 description: "OleFormat.is_locked property. Specifies whether the link to the OLE object is locked from updates."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing/oleformat/is_locked/
 ---
 

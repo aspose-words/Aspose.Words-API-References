@@ -5,7 +5,7 @@ articleTitle: contains method
 second_title: Aspose.Words for Python
 description: "PersonCollection.contains method. Determines whether the collection contains a specific person."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.bibliography/personcollection/contains/
 ---
 

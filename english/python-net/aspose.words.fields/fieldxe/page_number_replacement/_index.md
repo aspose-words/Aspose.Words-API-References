@@ -5,7 +5,7 @@ articleTitle: page_number_replacement property
 second_title: Aspose.Words for Python
 description: "FieldXE.page_number_replacement property. Gets or sets text used in place of a page number."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldxe/page_number_replacement/
 ---
 

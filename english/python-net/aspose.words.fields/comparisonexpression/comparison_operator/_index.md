@@ -5,7 +5,7 @@ articleTitle: comparison_operator property
 second_title: Aspose.Words for Python
 description: "ComparisonExpression.comparison_operator property. Gets the comparison operator."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/comparisonexpression/comparison_operator/
 ---
 

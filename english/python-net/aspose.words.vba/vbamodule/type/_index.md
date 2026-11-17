@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "VbaModule.type property. Specifies whether the module is a procedural module, document module, class module, or designer module."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.vba/vbamodule/type/
 ---
 

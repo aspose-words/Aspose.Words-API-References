@@ -5,7 +5,7 @@ articleTitle: font_format property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.font_format property. Gets or sets [ExportFontFormat](../../exportfontformat/) used for font exporting"
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/font_format/
 ---
 

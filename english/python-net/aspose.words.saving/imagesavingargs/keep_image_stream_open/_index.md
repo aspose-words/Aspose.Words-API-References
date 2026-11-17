@@ -5,7 +5,7 @@ articleTitle: keep_image_stream_open property
 second_title: Aspose.Words for Python
 description: "ImageSavingArgs.keep_image_stream_open property. Specifies whether Aspose.Words should keep the stream open or close it after saving an image."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/imagesavingargs/keep_image_stream_open/
 ---
 

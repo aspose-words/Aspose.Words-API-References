@@ -5,7 +5,7 @@ articleTitle: DmlEffectsRenderingMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.DmlEffectsRenderingMode enumeration. Specifies how DrawingML effects are rendered to fixed page formats."
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.saving/dmleffectsrenderingmode/
 ---
 

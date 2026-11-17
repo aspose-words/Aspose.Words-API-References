@@ -5,7 +5,7 @@ articleTitle: ComparisonExpression class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.ComparisonExpression class. The comparison expression"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.fields/comparisonexpression/
 ---
 

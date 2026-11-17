@@ -5,7 +5,7 @@ articleTitle: base_fore_color property
 second_title: Aspose.Words for Python
 description: "Fill.base_fore_color property. Gets a Color object that represents the base foreground color for the fill without any modifiers."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.drawing/fill/base_fore_color/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: insert_as_rtf property
 second_title: Aspose.Words for Python
 description: "FieldLink.insert_as_rtf property. Gets or sets whether to insert the linked object in rich-text format (RTF)."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fieldlink/insert_as_rtf/
 ---
 

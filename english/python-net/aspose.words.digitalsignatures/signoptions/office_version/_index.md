@@ -5,7 +5,7 @@ articleTitle: office_version property
 second_title: Aspose.Words for Python
 description: "SignOptions.office_version property. Gets or sets the Office version for the digital signature"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.digitalsignatures/signoptions/office_version/
 ---
 

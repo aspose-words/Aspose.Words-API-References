@@ -5,7 +5,7 @@ articleTitle: FieldUpdateCultureSource enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldUpdateCultureSource enumeration. Indicates what culture to use during field update."
 type: docs
-weight: 1100
+weight: 22000
 url: /python-net/aspose.words.fields/fieldupdateculturesource/
 ---
 

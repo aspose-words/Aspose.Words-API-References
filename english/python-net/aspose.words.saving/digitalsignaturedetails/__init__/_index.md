@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureDetails constructor
 second_title: Aspose.Words for Python
 description: "DigitalSignatureDetails constructor. Initializes a new instance of [DigitalSignatureDetails](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/digitalsignaturedetails/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "AxisScaling.type property. Gets or sets scaling type of the axis."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.charts/axisscaling/type/
 ---
 

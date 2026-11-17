@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "VbaModuleCollection.count property. Returns the number of VBA modules in the collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.vba/vbamodulecollection/count/
 ---
 

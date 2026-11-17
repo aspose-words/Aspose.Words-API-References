@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "ChartAxisCollection.count property. Gets the number of axes in this collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartaxiscollection/count/
 ---
 

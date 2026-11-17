@@ -5,7 +5,7 @@ articleTitle: FieldAutoNum class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldAutoNum class. Implements the AUTONUM field"
 type: docs
-weight: 120
+weight: 2400
 url: /python-net/aspose.words.fields/fieldautonum/
 ---
 

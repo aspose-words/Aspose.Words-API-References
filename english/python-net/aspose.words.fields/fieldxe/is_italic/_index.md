@@ -5,7 +5,7 @@ articleTitle: is_italic property
 second_title: Aspose.Words for Python
 description: "FieldXE.is_italic property. Gets or sets whether to apply italic formatting to the entry's page number."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldxe/is_italic/
 ---
 

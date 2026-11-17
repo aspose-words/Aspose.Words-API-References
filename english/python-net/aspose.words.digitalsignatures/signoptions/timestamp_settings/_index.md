@@ -5,7 +5,7 @@ articleTitle: timestamp_settings property
 second_title: Aspose.Words for Python
 description: "SignOptions.timestamp_settings property. Specifies settings for timestamping the digital signature using an RFC 3161 timestamp authority (TSA)"
 type: docs
-weight: 120
+weight: 3301
 url: /python-net/aspose.words.digitalsignatures/signoptions/timestamp_settings/
 ---
 

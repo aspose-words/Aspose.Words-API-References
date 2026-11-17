@@ -5,7 +5,7 @@ articleTitle: FieldTA class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldTA class. Implements the TA field"
 type: docs
-weight: 1010
+weight: 20200
 url: /python-net/aspose.words.fields/fieldta/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "Shape.accept_end method. Accepts a visitor for visiting the end of the shape."
 type: docs
-weight: 260
+weight: 7800
 url: /python-net/aspose.words.drawing/shape/accept_end/
 ---
 

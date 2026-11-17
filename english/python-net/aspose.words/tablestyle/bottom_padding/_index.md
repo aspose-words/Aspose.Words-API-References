@@ -5,7 +5,7 @@ articleTitle: bottom_padding property
 second_title: Aspose.Words for Python
 description: "TableStyle.bottom_padding property. Gets or sets the amount of space (in points) to add below the contents of table cells."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/tablestyle/bottom_padding/
 ---
 

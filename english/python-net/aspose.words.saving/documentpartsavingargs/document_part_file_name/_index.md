@@ -5,7 +5,7 @@ articleTitle: document_part_file_name property
 second_title: Aspose.Words for Python
 description: "DocumentPartSavingArgs.document_part_file_name property. Gets or sets the file name (without path) where the document part will be saved to."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/documentpartsavingargs/document_part_file_name/
 ---
 

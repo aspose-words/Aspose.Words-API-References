@@ -5,7 +5,7 @@ articleTitle: export_original_url_for_linked_images property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_original_url_for_linked_images property. Specifies whether original URL should be used as the URL of the linked images"
 type: docs
-weight: 200
+weight: 6000
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_original_url_for_linked_images/
 ---
 

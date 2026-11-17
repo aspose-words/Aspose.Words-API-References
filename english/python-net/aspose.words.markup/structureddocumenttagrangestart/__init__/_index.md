@@ -5,7 +5,7 @@ articleTitle: StructuredDocumentTagRangeStart constructor
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart constructor. Initializes a new instance of the Structured document tag range start class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: scale property
 second_title: Aspose.Words for Python
 description: "ImageWatermarkOptions.scale property. Gets or sets the scale factor expressed as a fraction of the image"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/imagewatermarkoptions/scale/
 ---
 

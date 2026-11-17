@@ -5,7 +5,7 @@ articleTitle: hidden property
 second_title: Aspose.Words for Python
 description: "ShapeBase.hidden property. Gets or sets a boolean value indicating whether the shape is visible."
 type: docs
-weight: 230
+weight: 6900
 url: /python-net/aspose.words.drawing/shapebase/hidden/
 ---
 

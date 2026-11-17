@@ -5,7 +5,7 @@ articleTitle: volume property
 second_title: Aspose.Words for Python
 description: "Source.volume property. Gets or sets the volume of a source."
 type: docs
-weight: 520
+weight: 15600
 url: /python-net/aspose.words.bibliography/source/volume/
 ---
 

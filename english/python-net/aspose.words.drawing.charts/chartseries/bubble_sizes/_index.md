@@ -5,7 +5,7 @@ articleTitle: bubble_sizes property
 second_title: Aspose.Words for Python
 description: "ChartSeries.bubble_sizes property. Gets a collection of bubble sizes for this chart series."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartseries/bubble_sizes/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FieldToa class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldToa class. Implements the TOA field"
 type: docs
-weight: 1060
+weight: 21200
 url: /python-net/aspose.words.fields/fieldtoa/
 ---
 

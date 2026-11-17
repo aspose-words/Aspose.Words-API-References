@@ -5,7 +5,7 @@ articleTitle: size_in_points property
 second_title: Aspose.Words for Python
 description: "NodeRendererBase.size_in_points property. Gets the actual size of the shape in points."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.rendering/noderendererbase/size_in_points/
 ---
 

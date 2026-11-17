@@ -5,7 +5,7 @@ articleTitle: PAGE_BREAK property
 second_title: Aspose.Words for Python
 description: "ControlChar.PAGE_BREAK property. Page break character: \\x000c or \\f"
 type: docs
-weight: 200
+weight: 6000
 url: /python-net/aspose.words/controlchar/PAGE_BREAK/
 ---
 

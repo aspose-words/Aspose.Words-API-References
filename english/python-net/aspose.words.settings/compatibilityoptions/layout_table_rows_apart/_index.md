@@ -5,7 +5,7 @@ articleTitle: layout_table_rows_apart property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.layout_table_rows_apart property. Allow Table Rows to Wrap Inline Objects Independently."
 type: docs
-weight: 300
+weight: 9000
 url: /python-net/aspose.words.settings/compatibilityoptions/layout_table_rows_apart/
 ---
 

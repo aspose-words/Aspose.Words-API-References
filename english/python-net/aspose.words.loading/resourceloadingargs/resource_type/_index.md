@@ -5,7 +5,7 @@ articleTitle: resource_type property
 second_title: Aspose.Words for Python
 description: "ResourceLoadingArgs.resource_type property. Type of resource."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.loading/resourceloadingargs/resource_type/
 ---
 

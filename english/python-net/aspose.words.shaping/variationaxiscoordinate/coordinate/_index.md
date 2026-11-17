@@ -5,7 +5,7 @@ articleTitle: coordinate property
 second_title: Aspose.Words for Python
 description: "VariationAxisCoordinate.coordinate property. Coordinate."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.shaping/variationaxiscoordinate/coordinate/
 ---
 

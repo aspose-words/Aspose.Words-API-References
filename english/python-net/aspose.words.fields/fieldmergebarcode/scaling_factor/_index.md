@@ -5,7 +5,7 @@ articleTitle: scaling_factor property
 second_title: Aspose.Words for Python
 description: "FieldMergeBarcode.scaling_factor property. Gets or sets a scaling factor for the symbol"
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.fields/fieldmergebarcode/scaling_factor/
 ---
 

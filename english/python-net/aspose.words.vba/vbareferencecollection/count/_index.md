@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "VbaReferenceCollection.count property. Returns the number of VBA references in the collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.vba/vbareferencecollection/count/
 ---
 

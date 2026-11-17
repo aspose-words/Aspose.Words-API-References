@@ -5,7 +5,7 @@ articleTitle: doughnut_hole_size property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.doughnut_hole_size property. Gets or sets the hole size of the parent doughnut chart as a percentage."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/doughnut_hole_size/
 ---
 

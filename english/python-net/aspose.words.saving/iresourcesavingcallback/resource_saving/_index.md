@@ -5,7 +5,7 @@ articleTitle: resource_saving method
 second_title: Aspose.Words for Python
 description: "IResourceSavingCallback.resource_saving method. Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/iresourcesavingcallback/resource_saving/
 ---
 

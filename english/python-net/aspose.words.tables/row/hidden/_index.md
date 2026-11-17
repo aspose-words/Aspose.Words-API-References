@@ -5,7 +5,7 @@ articleTitle: hidden property
 second_title: Aspose.Words for Python
 description: "Row.hidden property. Gets or sets a flag indicating whether this row is hidden or not."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.tables/row/hidden/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: load_noto_fallback_settings method
 second_title: Aspose.Words for Python
 description: "FontFallbackSettings.load_noto_fallback_settings method. Loads predefined fallback settings which uses Google Noto fonts."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fonts/fontfallbacksettings/load_noto_fallback_settings/
 ---
 

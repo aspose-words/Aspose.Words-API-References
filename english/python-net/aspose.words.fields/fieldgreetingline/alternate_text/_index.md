@@ -5,7 +5,7 @@ articleTitle: alternate_text property
 second_title: Aspose.Words for Python
 description: "FieldGreetingLine.alternate_text property. Gets or sets the text to include in the field if the name is blank."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldgreetingline/alternate_text/
 ---
 

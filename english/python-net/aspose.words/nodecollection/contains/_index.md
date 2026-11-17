@@ -5,7 +5,7 @@ articleTitle: contains method
 second_title: Aspose.Words for Python
 description: "NodeCollection.contains method. Determines whether a node is in the collection."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/nodecollection/contains/
 ---
 

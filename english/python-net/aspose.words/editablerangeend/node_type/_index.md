@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "EditableRangeEnd.node_type property. Returns [NodeType.EDITABLE_RANGE_END](../../nodetype/#EDITABLE_RANGE_END)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/editablerangeend/node_type/
 ---
 

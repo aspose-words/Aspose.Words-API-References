@@ -5,7 +5,7 @@ articleTitle: sdt_type property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.sdt_type property. Gets type of this Structured document tag."
 type: docs
-weight: 250
+weight: 7500
 url: /python-net/aspose.words.markup/structureddocumenttag/sdt_type/
 ---
 

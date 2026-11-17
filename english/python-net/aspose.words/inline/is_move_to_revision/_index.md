@@ -5,7 +5,7 @@ articleTitle: is_move_to_revision property
 second_title: Aspose.Words for Python
 description: "Inline.is_move_to_revision property. Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/inline/is_move_to_revision/
 ---
 

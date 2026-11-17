@@ -5,7 +5,7 @@ articleTitle: accept method
 second_title: Aspose.Words for Python
 description: "Node.accept method. Accepts a visitor."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/node/accept/
 ---
 

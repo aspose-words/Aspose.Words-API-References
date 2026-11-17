@@ -5,7 +5,7 @@ articleTitle: section_mode property
 second_title: Aspose.Words for Python
 description: "XlsxSaveOptions.section_mode property. Gets or sets the way how sections are handled when saving to the output XLSX document"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.saving/xlsxsaveoptions/section_mode/
 ---
 

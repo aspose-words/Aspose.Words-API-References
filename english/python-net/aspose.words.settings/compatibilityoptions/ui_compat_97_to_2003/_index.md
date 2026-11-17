@@ -5,7 +5,7 @@ articleTitle: ui_compat_97_to_2003 property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.ui_compat_97_to_2003 property. True to disable UI functionality which is not compatible with Word97-2003"
 type: docs
-weight: 570
+weight: 17100
 url: /python-net/aspose.words.settings/compatibilityoptions/ui_compat_97_to_2003/
 ---
 

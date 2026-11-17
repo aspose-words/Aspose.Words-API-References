@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "StyleCollection.document property. Gets the owner document."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/stylecollection/document/
 ---
 

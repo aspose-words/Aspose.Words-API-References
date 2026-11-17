@@ -5,7 +5,7 @@ articleTitle: as_field_template method
 second_title: Aspose.Words for Python
 description: "Field.as_field_template method. Cast Field to [FieldTemplate](../../fieldtemplate/)."
 type: docs
-weight: 960
+weight: 28800
 url: /python-net/aspose.words.fields/field/as_field_template/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: date_time property
 second_title: Aspose.Words for Python
 description: "Comment.date_time property. Gets the date and time that the comment was made."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/comment/date_time/
 ---
 

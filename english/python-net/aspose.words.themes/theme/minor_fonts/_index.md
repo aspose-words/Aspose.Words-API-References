@@ -5,7 +5,7 @@ articleTitle: minor_fonts property
 second_title: Aspose.Words for Python
 description: "Theme.minor_fonts property. Allows to specify the set of minor fonts for different languages."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.themes/theme/minor_fonts/
 ---
 

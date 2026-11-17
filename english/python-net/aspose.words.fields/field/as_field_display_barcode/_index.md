@@ -5,7 +5,7 @@ articleTitle: as_field_display_barcode method
 second_title: Aspose.Words for Python
 description: "Field.as_field_display_barcode method. Cast Field to [FieldDisplayBarcode](../../fielddisplaybarcode/)."
 type: docs
-weight: 340
+weight: 10200
 url: /python-net/aspose.words.fields/field/as_field_display_barcode/
 ---
 

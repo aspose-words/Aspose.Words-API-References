@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "FieldComments.text property. Gets or sets the text of the comments."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldcomments/text/
 ---
 

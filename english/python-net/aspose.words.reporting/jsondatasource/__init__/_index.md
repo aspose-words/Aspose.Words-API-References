@@ -5,7 +5,7 @@ articleTitle: JsonDataSource constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.reporting.JsonDataSource constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.reporting/jsondatasource/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FieldCollection indexer
 second_title: Aspose.Words for Python
 description: "FieldCollection indexer. Returns a field at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldcollection/__getitem__/
 ---
 

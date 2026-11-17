@@ -5,7 +5,7 @@ articleTitle: resolution property
 second_title: Aspose.Words for Python
 description: "DownsampleOptions.resolution property. Specifies the resolution in pixels per inch which the images should be downsampled to."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/downsampleoptions/resolution/
 ---
 

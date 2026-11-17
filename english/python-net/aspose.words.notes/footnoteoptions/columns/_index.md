@@ -5,7 +5,7 @@ articleTitle: columns property
 second_title: Aspose.Words for Python
 description: "FootnoteOptions.columns property. Specifies the number of columns with which the footnotes area is formatted."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.notes/footnoteoptions/columns/
 ---
 

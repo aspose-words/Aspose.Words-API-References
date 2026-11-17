@@ -5,7 +5,7 @@ articleTitle: insert_chart method
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_chart method"
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words/documentbuilder/insert_chart/
 ---
 

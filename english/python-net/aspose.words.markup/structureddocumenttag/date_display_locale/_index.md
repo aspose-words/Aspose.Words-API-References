@@ -5,7 +5,7 @@ articleTitle: date_display_locale property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.date_display_locale property. Allows to set/get the language format for the date displayed in this SDT."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.markup/structureddocumenttag/date_display_locale/
 ---
 

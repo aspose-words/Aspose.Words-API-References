@@ -5,7 +5,7 @@ articleTitle: type_identifier property
 second_title: Aspose.Words for Python
 description: "FieldTC.type_identifier property. Gets or sets a type identifier for this field (which is typically a letter)."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldtc/type_identifier/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_field_form_text method
 second_title: Aspose.Words for Python
 description: "Field.as_field_form_text method. Cast Field to [FieldFormText](../../fieldformtext/)."
 type: docs
-weight: 460
+weight: 13800
 url: /python-net/aspose.words.fields/field/as_field_form_text/
 ---
 

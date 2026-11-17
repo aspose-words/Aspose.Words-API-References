@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "FormFieldCollection.clear method. Removes all form fields from this collection and from the document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/formfieldcollection/clear/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: compliance property
 second_title: Aspose.Words for Python
 description: "OoxmlSaveOptions.compliance property. Specifies the OOXML version for the output document"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/compliance/
 ---
 

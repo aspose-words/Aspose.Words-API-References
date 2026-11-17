@@ -5,7 +5,7 @@ articleTitle: bidi property
 second_title: Aspose.Words for Python
 description: "PageSetup.bidi property. Specifies that this section contains bidirectional (complex scripts) text."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/pagesetup/bidi/
 ---
 

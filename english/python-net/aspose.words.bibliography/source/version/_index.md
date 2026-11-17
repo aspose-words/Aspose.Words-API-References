@@ -5,7 +5,7 @@ articleTitle: version property
 second_title: Aspose.Words for Python
 description: "Source.version property. Gets or sets the version of a source."
 type: docs
-weight: 510
+weight: 15300
 url: /python-net/aspose.words.bibliography/source/version/
 ---
 

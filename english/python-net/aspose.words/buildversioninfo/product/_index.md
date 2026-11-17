@@ -5,7 +5,7 @@ articleTitle: product property
 second_title: Aspose.Words for Python
 description: "BuildVersionInfo.product property. Gets the full name of the product."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/buildversioninfo/product/
 ---
 

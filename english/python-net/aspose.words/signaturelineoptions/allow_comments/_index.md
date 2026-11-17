@@ -5,7 +5,7 @@ articleTitle: allow_comments property
 second_title: Aspose.Words for Python
 description: "SignatureLineOptions.allow_comments property. Gets or sets a value indicating that the signer can add comments in the Sign dialog"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/signaturelineoptions/allow_comments/
 ---
 

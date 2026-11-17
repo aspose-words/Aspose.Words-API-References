@@ -5,7 +5,7 @@ articleTitle: lock_fields property
 second_title: Aspose.Words for Python
 description: "FieldIncludeText.lock_fields property. Gets or sets whether to prevent fields in the included document from being updated."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldincludetext/lock_fields/
 ---
 

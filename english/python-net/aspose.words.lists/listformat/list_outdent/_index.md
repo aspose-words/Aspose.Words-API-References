@@ -5,7 +5,7 @@ articleTitle: list_outdent method
 second_title: Aspose.Words for Python
 description: "ListFormat.list_outdent method. Decreases the list level of the current paragraph by one level."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.lists/listformat/list_outdent/
 ---
 

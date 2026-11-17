@@ -5,7 +5,7 @@ articleTitle: building_block_gallery property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.building_block_gallery property. Specifies type of building block for this SDT"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.markup/structureddocumenttag/building_block_gallery/
 ---
 

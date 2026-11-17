@@ -5,7 +5,7 @@ articleTitle: FieldBarcode class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldBarcode class. Implements the BARCODE field"
 type: docs
-weight: 170
+weight: 3400
 url: /python-net/aspose.words.fields/fieldbarcode/
 ---
 

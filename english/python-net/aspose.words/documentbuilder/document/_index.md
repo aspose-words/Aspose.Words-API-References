@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.document property. Gets or sets the [DocumentBuilder.document](./) object that this object is attached to."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/documentbuilder/document/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: NodeCollection indexer
 second_title: Aspose.Words for Python
 description: "NodeCollection indexer. Retrieves a node at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/nodecollection/__getitem__/
 ---
 

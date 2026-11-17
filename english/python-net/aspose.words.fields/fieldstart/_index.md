@@ -5,7 +5,7 @@ articleTitle: FieldStart class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldStart class. Represents a start of a Word field in a document"
 type: docs
-weight: 970
+weight: 19400
 url: /python-net/aspose.words.fields/fieldstart/
 ---
 

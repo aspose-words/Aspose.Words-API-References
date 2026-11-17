@@ -5,7 +5,7 @@ articleTitle: sheets_per_booklet property
 second_title: Aspose.Words for Python
 description: "PageSetup.sheets_per_booklet property. Returns or sets the number of pages to be included in each booklet."
 type: docs
-weight: 400
+weight: 12000
 url: /python-net/aspose.words/pagesetup/sheets_per_booklet/
 ---
 

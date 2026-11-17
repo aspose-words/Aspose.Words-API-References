@@ -5,7 +5,7 @@ articleTitle: periodical_title property
 second_title: Aspose.Words for Python
 description: "Source.periodical_title property. Gets or sets the periodical title of a source."
 type: docs
-weight: 330
+weight: 9900
 url: /python-net/aspose.words.bibliography/source/periodical_title/
 ---
 

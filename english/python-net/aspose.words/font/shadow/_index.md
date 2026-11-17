@@ -5,7 +5,7 @@ articleTitle: shadow property
 second_title: Aspose.Words for Python
 description: "Font.shadow property. True if the font is formatted as shadowed."
 type: docs
-weight: 340
+weight: 10200
 url: /python-net/aspose.words/font/shadow/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: digital_signature_details property
 second_title: Aspose.Words for Python
 description: "OoxmlSaveOptions.digital_signature_details property. Gets or sets [DigitalSignatureDetails](../../digitalsignaturedetails/) object used to sign a document."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/digital_signature_details/
 ---
 

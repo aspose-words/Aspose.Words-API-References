@@ -5,7 +5,7 @@ articleTitle: alignment property
 second_title: Aspose.Words for Python
 description: "ParagraphFormat.alignment property. Gets or sets text alignment for the paragraph."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/paragraphformat/alignment/
 ---
 

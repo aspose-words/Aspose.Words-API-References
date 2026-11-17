@@ -5,7 +5,7 @@ articleTitle: save_format_to_extension method
 second_title: Aspose.Words for Python
 description: "FileFormatUtil.save_format_to_extension method. Converts a save format enumerated value into a file extension"
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/fileformatutil/save_format_to_extension/
 ---
 

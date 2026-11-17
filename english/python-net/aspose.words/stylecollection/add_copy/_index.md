@@ -5,7 +5,7 @@ articleTitle: add_copy method
 second_title: Aspose.Words for Python
 description: "StyleCollection.add_copy method. Copies a style into this collection."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/stylecollection/add_copy/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: fore_tint_and_shade property
 second_title: Aspose.Words for Python
 description: "Stroke.fore_tint_and_shade property. Gets or sets a double value that lightens or darkens the stroke foreground color."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.drawing/stroke/fore_tint_and_shade/
 ---
 

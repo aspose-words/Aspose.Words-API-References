@@ -5,7 +5,7 @@ articleTitle: end_bookmark method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.end_bookmark method. Marks the current position in the document as a bookmark end."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words/documentbuilder/end_bookmark/
 ---
 

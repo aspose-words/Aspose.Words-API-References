@@ -5,7 +5,7 @@ articleTitle: FieldMergeBarcode constructor
 second_title: Aspose.Words for Python
 description: "FieldMergeBarcode constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldmergebarcode/__init__/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: code_page property
 second_title: Aspose.Words for Python
 description: "VbaProject.code_page property. Gets or sets the VBA project’s code page."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.vba/vbaproject/code_page/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: height property
 second_title: Aspose.Words for Python
 description: "FrameFormat.height property. Gets the height of the specified frame."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/frameformat/height/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: allow_break_across_pages property
 second_title: Aspose.Words for Python
 description: "RowFormat.allow_break_across_pages property. True if the text in a table row is allowed to split across a page break."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.tables/rowformat/allow_break_across_pages/
 ---
 

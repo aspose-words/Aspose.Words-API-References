@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "Cell.accept_start method. Accepts a visitor for visiting the start of the cell."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.tables/cell/accept_start/
 ---
 

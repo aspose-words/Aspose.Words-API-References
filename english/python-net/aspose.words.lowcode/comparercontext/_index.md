@@ -5,7 +5,7 @@ articleTitle: ComparerContext class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.ComparerContext class. Document comparer context"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.lowcode/comparercontext/
 ---
 

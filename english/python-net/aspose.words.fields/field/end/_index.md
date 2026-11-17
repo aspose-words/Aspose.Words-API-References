@@ -5,7 +5,7 @@ articleTitle: end property
 second_title: Aspose.Words for Python
 description: "Field.end property. Gets the node that represents the field end."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/field/end/
 ---
 

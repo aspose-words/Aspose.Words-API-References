@@ -5,7 +5,7 @@ articleTitle: allow_negative_indent property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.allow_negative_indent property. Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/htmlsaveoptions/allow_negative_indent/
 ---
 

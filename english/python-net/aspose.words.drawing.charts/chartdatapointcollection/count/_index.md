@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "ChartDataPointCollection.count property. Returns the number of [ChartDataPoint](../../chartdatapoint/) in this collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartdatapointcollection/count/
 ---
 

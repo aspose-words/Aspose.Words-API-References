@@ -5,7 +5,7 @@ articleTitle: AxisGroup enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisGroup enumeration. Represents a type of a chart axis group."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.drawing.charts/axisgroup/
 ---
 

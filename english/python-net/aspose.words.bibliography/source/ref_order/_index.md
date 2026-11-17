@@ -5,7 +5,7 @@ articleTitle: ref_order property
 second_title: Aspose.Words for Python
 description: "Source.ref_order property. Gets or sets the reference order of a source."
 type: docs
-weight: 380
+weight: 11400
 url: /python-net/aspose.words.bibliography/source/ref_order/
 ---
 

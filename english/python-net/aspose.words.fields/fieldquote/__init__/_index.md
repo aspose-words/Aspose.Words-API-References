@@ -5,7 +5,7 @@ articleTitle: FieldQuote constructor
 second_title: Aspose.Words for Python
 description: "FieldQuote constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldquote/__init__/
 ---
 

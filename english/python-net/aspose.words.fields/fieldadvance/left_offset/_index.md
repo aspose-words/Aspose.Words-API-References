@@ -5,7 +5,7 @@ articleTitle: left_offset property
 second_title: Aspose.Words for Python
 description: "FieldAdvance.left_offset property. Gets or sets the number of points by which the text that follows the field should be moved left."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldadvance/left_offset/
 ---
 

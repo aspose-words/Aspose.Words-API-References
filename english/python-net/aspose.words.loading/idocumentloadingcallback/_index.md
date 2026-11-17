@@ -5,7 +5,7 @@ articleTitle: IDocumentLoadingCallback class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.IDocumentLoadingCallback class. Implement this interface if you want to have your own custom method called during loading a document."
 type: docs
-weight: 90
+weight: 1800
 url: /python-net/aspose.words.loading/idocumentloadingcallback/
 ---
 

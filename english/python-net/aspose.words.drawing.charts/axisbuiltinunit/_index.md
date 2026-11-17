@@ -5,7 +5,7 @@ articleTitle: AxisBuiltInUnit enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisBuiltInUnit enumeration. Specifies the display units for an axis."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.drawing.charts/axisbuiltinunit/
 ---
 

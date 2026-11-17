@@ -5,7 +5,7 @@ articleTitle: text_position property
 second_title: Aspose.Words for Python
 description: "ListLevel.text_position property. Returns or sets the position (in points) for the second line of wrapping text for the list level."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.lists/listlevel/text_position/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: vertical_anchor property
 second_title: Aspose.Words for Python
 description: "Table.vertical_anchor property. Gets the base object from which the vertical positioning of floating table should be calculated"
 type: docs
-weight: 340
+weight: 10200
 url: /python-net/aspose.words.tables/table/vertical_anchor/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: match_end_node property
 second_title: Aspose.Words for Python
 description: "ReplacingArgs.match_end_node property. Gets the node that contains the end of the match."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.replacing/replacingargs/match_end_node/
 ---
 

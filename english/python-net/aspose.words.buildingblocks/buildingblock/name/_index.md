@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "BuildingBlock.name property. Gets or sets the name of this building block."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.buildingblocks/buildingblock/name/
 ---
 

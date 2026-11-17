@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "AxisDisplayUnit.document property. Returns the document containing the parent chart."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/axisdisplayunit/document/
 ---
 

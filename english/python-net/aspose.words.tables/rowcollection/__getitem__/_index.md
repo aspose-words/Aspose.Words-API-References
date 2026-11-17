@@ -5,7 +5,7 @@ articleTitle: RowCollection indexer
 second_title: Aspose.Words for Python
 description: "RowCollection indexer. Retrieves a [Row](../../row/) at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.tables/rowcollection/__getitem__/
 ---
 

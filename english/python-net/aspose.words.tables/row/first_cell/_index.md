@@ -5,7 +5,7 @@ articleTitle: first_cell property
 second_title: Aspose.Words for Python
 description: "Row.first_cell property. Returns the first [Cell](../../cell/) in the row."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.tables/row/first_cell/
 ---
 

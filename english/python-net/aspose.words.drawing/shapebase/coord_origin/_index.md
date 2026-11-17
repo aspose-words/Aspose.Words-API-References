@@ -5,7 +5,7 @@ articleTitle: coord_origin property
 second_title: Aspose.Words for Python
 description: "ShapeBase.coord_origin property. The coordinates at the top-left corner of the containing block of this shape."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.drawing/shapebase/coord_origin/
 ---
 

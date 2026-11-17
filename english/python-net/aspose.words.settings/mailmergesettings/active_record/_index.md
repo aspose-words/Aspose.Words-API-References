@@ -5,7 +5,7 @@ articleTitle: active_record property
 second_title: Aspose.Words for Python
 description: "MailMergeSettings.active_record property. Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.settings/mailmergesettings/active_record/
 ---
 

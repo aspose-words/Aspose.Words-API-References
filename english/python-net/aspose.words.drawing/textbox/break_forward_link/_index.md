@@ -5,7 +5,7 @@ articleTitle: break_forward_link method
 second_title: Aspose.Words for Python
 description: "TextBox.break_forward_link method. Breaks the link to the next [TextBox](../)."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.drawing/textbox/break_forward_link/
 ---
 

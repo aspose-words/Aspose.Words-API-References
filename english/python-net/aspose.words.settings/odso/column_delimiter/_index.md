@@ -5,7 +5,7 @@ articleTitle: column_delimiter property
 second_title: Aspose.Words for Python
 description: "Odso.column_delimiter property. Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.settings/odso/column_delimiter/
 ---
 

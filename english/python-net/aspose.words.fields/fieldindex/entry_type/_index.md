@@ -5,7 +5,7 @@ articleTitle: entry_type property
 second_title: Aspose.Words for Python
 description: "FieldIndex.entry_type property. Gets or sets an index entry type used to build the index."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldindex/entry_type/
 ---
 

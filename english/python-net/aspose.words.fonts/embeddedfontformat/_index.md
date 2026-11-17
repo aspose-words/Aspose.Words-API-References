@@ -5,7 +5,7 @@ articleTitle: EmbeddedFontFormat enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.EmbeddedFontFormat enumeration. Specifies format of particular embedded font inside [FontInfo](../fontinfo/) object."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.fonts/embeddedfontformat/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: conductor property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.conductor property. Gets or sets the conductor of a source."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.bibliography/contributorcollection/conductor/
 ---
 

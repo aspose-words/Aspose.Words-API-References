@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "BuildingBlock.accept_end method. Accepts a visitor for visiting the end of the BuildingBlock."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.buildingblocks/buildingblock/accept_end/
 ---
 

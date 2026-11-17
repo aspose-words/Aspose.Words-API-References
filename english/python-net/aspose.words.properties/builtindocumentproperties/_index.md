@@ -5,7 +5,7 @@ articleTitle: BuiltInDocumentProperties class
 second_title: Aspose.Words for Python
 description: "aspose.words.properties.BuiltInDocumentProperties class. A collection of built-in document properties"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.properties/builtindocumentproperties/
 ---
 

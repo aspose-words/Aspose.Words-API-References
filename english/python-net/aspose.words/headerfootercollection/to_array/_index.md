@@ -5,7 +5,7 @@ articleTitle: to_array method
 second_title: Aspose.Words for Python
 description: "HeaderFooterCollection.to_array method. Copies all ``HeaderFooter`` s from the collection to a new array of ``HeaderFooter`` s."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/headerfootercollection/to_array/
 ---
 

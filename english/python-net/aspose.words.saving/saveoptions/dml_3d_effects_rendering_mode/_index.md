@@ -5,7 +5,7 @@ articleTitle: dml_3d_effects_rendering_mode property
 second_title: Aspose.Words for Python
 description: "SaveOptions.dml_3d_effects_rendering_mode property. Gets or sets a value determining how 3D effects are rendered."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/saveoptions/dml_3d_effects_rendering_mode/
 ---
 

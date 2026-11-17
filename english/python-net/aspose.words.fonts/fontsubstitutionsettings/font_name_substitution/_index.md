@@ -5,7 +5,7 @@ articleTitle: font_name_substitution property
 second_title: Aspose.Words for Python
 description: "FontSubstitutionSettings.font_name_substitution property. Settings related to font name substitution rule."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fonts/fontsubstitutionsettings/font_name_substitution/
 ---
 

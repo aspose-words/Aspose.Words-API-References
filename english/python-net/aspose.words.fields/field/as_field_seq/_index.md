@@ -5,7 +5,7 @@ articleTitle: as_field_seq method
 second_title: Aspose.Words for Python
 description: "Field.as_field_seq method. Cast Field to [FieldSeq](../../fieldseq/)."
 type: docs
-weight: 870
+weight: 26100
 url: /python-net/aspose.words.fields/field/as_field_seq/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: load_ms_office_fallback_settings method
 second_title: Aspose.Words for Python
 description: "FontFallbackSettings.load_ms_office_fallback_settings method. Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fonts/fontfallbacksettings/load_ms_office_fallback_settings/
 ---
 

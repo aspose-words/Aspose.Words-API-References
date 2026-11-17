@@ -5,7 +5,7 @@ articleTitle: export_drop_down_form_field_as_text property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_drop_down_form_field_as_text property. Controls how drop-down form fields are saved to HTML or MHTML"
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_drop_down_form_field_as_text/
 ---
 

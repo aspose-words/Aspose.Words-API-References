@@ -5,7 +5,7 @@ articleTitle: day property
 second_title: Aspose.Words for Python
 description: "Source.day property. Gets or sets the day of a source."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.bibliography/source/day/
 ---
 

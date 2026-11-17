@@ -5,7 +5,7 @@ articleTitle: as_google_ai_model method
 second_title: Aspose.Words for Python
 description: "AiModel.as_google_ai_model method. Cast AiModel to [GoogleAiModel](../../googleaimodel/)."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.ai/aimodel/as_google_ai_model/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: suppress_year property
 second_title: Aspose.Words for Python
 description: "FieldCitation.suppress_year property. Gets or sets whether the year information is suppressed from the citation."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.fields/fieldcitation/suppress_year/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: has_outline_border property
 second_title: Aspose.Words for Python
 description: "ChartDataTable.has_outline_border property. Gets or sets a flag indicating whether an outline border, that is, a border around series and category names, is displayed"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.charts/chartdatatable/has_outline_border/
 ---
 

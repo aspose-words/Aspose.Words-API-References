@@ -5,7 +5,7 @@ articleTitle: create_picture_bullet method
 second_title: Aspose.Words for Python
 description: "ListLevel.create_picture_bullet method. Creates picture bullet shape for the current list level."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.lists/listlevel/create_picture_bullet/
 ---
 

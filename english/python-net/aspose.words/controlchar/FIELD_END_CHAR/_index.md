@@ -5,7 +5,7 @@ articleTitle: FIELD_END_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.FIELD_END_CHAR property. End of MS Word field character: (char)21."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/controlchar/FIELD_END_CHAR/
 ---
 

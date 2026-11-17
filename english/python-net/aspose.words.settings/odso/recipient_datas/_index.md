@@ -5,7 +5,7 @@ articleTitle: recipient_datas property
 second_title: Aspose.Words for Python
 description: "Odso.recipient_datas property. Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.settings/odso/recipient_datas/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: building_block_category property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.building_block_category property. Specifies category of building block for this SDT node"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.markup/structureddocumenttag/building_block_category/
 ---
 

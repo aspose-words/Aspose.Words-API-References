@@ -5,7 +5,7 @@ articleTitle: ListCollection indexer
 second_title: Aspose.Words for Python
 description: "ListCollection indexer. Gets a list by index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lists/listcollection/__getitem__/
 ---
 

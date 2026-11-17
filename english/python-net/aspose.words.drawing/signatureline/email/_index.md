@@ -5,7 +5,7 @@ articleTitle: email property
 second_title: Aspose.Words for Python
 description: "SignatureLine.email property. Gets or sets suggested signer's e-mail address"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing/signatureline/email/
 ---
 

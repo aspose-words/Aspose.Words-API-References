@@ -5,7 +5,7 @@ articleTitle: page_count property
 second_title: Aspose.Words for Python
 description: "PdfLoadOptions.page_count property. Gets or sets the number of pages to read"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.loading/pdfloadoptions/page_count/
 ---
 

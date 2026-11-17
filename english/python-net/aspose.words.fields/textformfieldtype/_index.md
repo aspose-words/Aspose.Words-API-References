@@ -5,7 +5,7 @@ articleTitle: TextFormFieldType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.TextFormFieldType enumeration. Specifies the type of a text form field."
 type: docs
-weight: 1310
+weight: 26200
 url: /python-net/aspose.words.fields/textformfieldtype/
 ---
 

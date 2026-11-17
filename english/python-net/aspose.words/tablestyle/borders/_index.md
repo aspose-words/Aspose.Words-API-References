@@ -5,7 +5,7 @@ articleTitle: borders property
 second_title: Aspose.Words for Python
 description: "TableStyle.borders property. Gets the collection of default cell borders for the style."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/tablestyle/borders/
 ---
 

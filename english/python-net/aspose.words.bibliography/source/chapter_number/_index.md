@@ -5,7 +5,7 @@ articleTitle: chapter_number property
 second_title: Aspose.Words for Python
 description: "Source.chapter_number property. Gets or sets the chapter number of a source."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.bibliography/source/chapter_number/
 ---
 

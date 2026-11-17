@@ -5,7 +5,7 @@ articleTitle: unlink method
 second_title: Aspose.Words for Python
 description: "Field.unlink method. Performs the field unlink."
 type: docs
-weight: 1080
+weight: 32400
 url: /python-net/aspose.words.fields/field/unlink/
 ---
 

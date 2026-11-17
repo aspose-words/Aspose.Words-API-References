@@ -5,7 +5,7 @@ articleTitle: start_number property
 second_title: Aspose.Words for Python
 description: "EndnoteOptions.start_number property. Specifies the starting number or character for the first automatically numbered endnotes."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.notes/endnoteoptions/start_number/
 ---
 

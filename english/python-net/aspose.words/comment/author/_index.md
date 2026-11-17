@@ -5,7 +5,7 @@ articleTitle: author property
 second_title: Aspose.Words for Python
 description: "Comment.author property. Returns or sets the author name for a comment."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/comment/author/
 ---
 

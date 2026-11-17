@@ -5,7 +5,7 @@ articleTitle: brightness property
 second_title: Aspose.Words for Python
 description: "ImageData.brightness property. Gets or sets the brightness of the picture"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing/imagedata/brightness/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: format_address_on_country_or_region property
 second_title: Aspose.Words for Python
 description: "FieldAddressBlock.format_address_on_country_or_region property. Gets or sets whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldaddressblock/format_address_on_country_or_region/
 ---
 

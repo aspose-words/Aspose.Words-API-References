@@ -5,7 +5,7 @@ articleTitle: MergerContext constructor
 second_title: Aspose.Words for Python
 description: "MergerContext constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lowcode/mergercontext/__init__/
 ---
 

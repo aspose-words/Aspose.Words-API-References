@@ -5,7 +5,7 @@ articleTitle: FontSettings class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontSettings class. Specifies font settings for a document"
 type: docs
-weight: 160
+weight: 3200
 url: /python-net/aspose.words.fonts/fontsettings/
 ---
 

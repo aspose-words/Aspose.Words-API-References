@@ -5,7 +5,7 @@ articleTitle: export_language_information property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.export_language_information property. Specifies whether language information is exported to HTML, MHTML or EPUB"
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_language_information/
 ---
 

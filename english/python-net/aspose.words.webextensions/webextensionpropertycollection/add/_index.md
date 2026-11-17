@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "WebExtensionPropertyCollection.add method. "
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.webextensions/webextensionpropertycollection/add/
 ---
 

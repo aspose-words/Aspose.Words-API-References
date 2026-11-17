@@ -5,7 +5,7 @@ articleTitle: clear_formatting method
 second_title: Aspose.Words for Python
 description: "Shading.clear_formatting method. Removes shading from the object."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/shading/clear_formatting/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: to_double method
 second_title: Aspose.Words for Python
 description: "DocumentProperty.to_double method. Returns the property value as double."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.properties/documentproperty/to_double/
 ---
 

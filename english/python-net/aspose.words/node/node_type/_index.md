@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "Node.node_type property. Gets the type of this node."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/node/node_type/
 ---
 

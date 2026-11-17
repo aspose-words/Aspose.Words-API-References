@@ -5,7 +5,7 @@ articleTitle: is_frame property
 second_title: Aspose.Words for Python
 description: "FrameFormat.is_frame property. Returns ``True`` if the paragraph is a frame."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/frameformat/is_frame/
 ---
 

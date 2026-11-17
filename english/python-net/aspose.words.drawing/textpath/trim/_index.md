@@ -5,7 +5,7 @@ articleTitle: trim property
 second_title: Aspose.Words for Python
 description: "TextPath.trim property. Determines whether extra space is removed above and below the text."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.drawing/textpath/trim/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: rotation property
 second_title: Aspose.Words for Python
 description: "AxisTickLabels.rotation property. Gets or sets the rotation of the tick labels in degrees."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing.charts/axisticklabels/rotation/
 ---
 

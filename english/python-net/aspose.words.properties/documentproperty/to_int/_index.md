@@ -5,7 +5,7 @@ articleTitle: to_int method
 second_title: Aspose.Words for Python
 description: "DocumentProperty.to_int method. Returns the property value as integer."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.properties/documentproperty/to_int/
 ---
 

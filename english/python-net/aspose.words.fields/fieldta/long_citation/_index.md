@@ -5,7 +5,7 @@ articleTitle: long_citation property
 second_title: Aspose.Words for Python
 description: "FieldTA.long_citation property. Gets or sets the long citation for the entry."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldta/long_citation/
 ---
 

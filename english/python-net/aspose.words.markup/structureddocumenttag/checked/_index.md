@@ -5,7 +5,7 @@ articleTitle: checked property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.checked property. Gets/Sets current state of the Checkbox SDT"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.markup/structureddocumenttag/checked/
 ---
 

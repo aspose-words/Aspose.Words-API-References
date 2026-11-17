@@ -5,7 +5,7 @@ articleTitle: Cluster class
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.Cluster class. Encapsulates code points and glyphs composing a grapheme."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.shaping/cluster/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "Bookmark.text property. Gets or sets the text enclosed in the bookmark."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/bookmark/text/
 ---
 

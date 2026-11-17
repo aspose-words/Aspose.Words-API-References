@@ -5,7 +5,7 @@ articleTitle: width property
 second_title: Aspose.Words for Python
 description: "Forms2OleControl.width property. Gets or sets a width of the control in points."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/width/
 ---
 

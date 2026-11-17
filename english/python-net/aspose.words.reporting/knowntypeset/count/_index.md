@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "KnownTypeSet.count property. Gets the count of items in the set."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.reporting/knowntypeset/count/
 ---
 

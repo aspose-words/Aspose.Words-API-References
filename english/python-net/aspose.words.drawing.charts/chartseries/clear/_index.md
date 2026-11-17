@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "ChartSeries.clear method. Removes all data values from the chart series"
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.drawing.charts/chartseries/clear/
 ---
 

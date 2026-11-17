@@ -5,7 +5,7 @@ articleTitle: suppress_title property
 second_title: Aspose.Words for Python
 description: "FieldCitation.suppress_title property. Gets or sets whether the title information is suppressed from the citation."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/fieldcitation/suppress_title/
 ---
 

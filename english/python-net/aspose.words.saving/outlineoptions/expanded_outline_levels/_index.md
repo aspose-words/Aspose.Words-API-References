@@ -5,7 +5,7 @@ articleTitle: expanded_outline_levels property
 second_title: Aspose.Words for Python
 description: "OutlineOptions.expanded_outline_levels property. Specifies how many levels in the document outline to show expanded when the file is viewed."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/outlineoptions/expanded_outline_levels/
 ---
 

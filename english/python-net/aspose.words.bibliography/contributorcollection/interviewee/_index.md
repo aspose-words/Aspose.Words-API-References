@@ -5,7 +5,7 @@ articleTitle: interviewee property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.interviewee property. Gets or sets the interviewee of a source."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.bibliography/contributorcollection/interviewee/
 ---
 

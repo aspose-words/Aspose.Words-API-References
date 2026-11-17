@@ -5,7 +5,7 @@ articleTitle: DocumentLoadingArgs class
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.DocumentLoadingArgs class. An argument passed into [IDocumentLoadingCallback.notify()](../idocumentloadingcallback/notify/#documentloadingargs)"
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.loading/documentloadingargs/
 ---
 

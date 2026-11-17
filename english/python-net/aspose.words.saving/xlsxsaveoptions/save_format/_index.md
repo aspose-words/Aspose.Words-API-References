@@ -5,7 +5,7 @@ articleTitle: save_format property
 second_title: Aspose.Words for Python
 description: "XlsxSaveOptions.save_format property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/xlsxsaveoptions/save_format/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: security property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.security property. Specifies the security level of a document as a numeric value."
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words.properties/builtindocumentproperties/security/
 ---
 

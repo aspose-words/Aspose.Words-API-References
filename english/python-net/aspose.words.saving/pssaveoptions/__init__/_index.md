@@ -5,7 +5,7 @@ articleTitle: PsSaveOptions constructor
 second_title: Aspose.Words for Python
 description: "PsSaveOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/pssaveoptions/__init__/
 ---
 

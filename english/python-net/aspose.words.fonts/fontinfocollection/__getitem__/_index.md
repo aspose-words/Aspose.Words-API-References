@@ -5,7 +5,7 @@ articleTitle: FontInfoCollection indexer
 second_title: Aspose.Words for Python
 description: "FontInfoCollection indexer. Gets a font at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/fontinfocollection/__getitem__/
 ---
 

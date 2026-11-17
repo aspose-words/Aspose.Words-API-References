@@ -5,7 +5,7 @@ articleTitle: bottom property
 second_title: Aspose.Words for Python
 description: "BorderCollection.bottom property. Gets the bottom border."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/bordercollection/bottom/
 ---
 

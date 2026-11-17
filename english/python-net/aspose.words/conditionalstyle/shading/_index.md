@@ -5,7 +5,7 @@ articleTitle: shading property
 second_title: Aspose.Words for Python
 description: "ConditionalStyle.shading property. Gets a [Shading](../../shading/) object that refers to the shading formatting for this conditional style."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/conditionalstyle/shading/
 ---
 

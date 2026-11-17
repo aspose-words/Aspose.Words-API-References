@@ -5,7 +5,7 @@ articleTitle: border_applies_to property
 second_title: Aspose.Words for Python
 description: "PageSetup.border_applies_to property. Specifies which pages the page border is printed on."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/pagesetup/border_applies_to/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: is_path_relative property
 second_title: Aspose.Words for Python
 description: "FieldRD.is_path_relative property. Gets or sets whether the path is relative to the current document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldrd/is_path_relative/
 ---
 

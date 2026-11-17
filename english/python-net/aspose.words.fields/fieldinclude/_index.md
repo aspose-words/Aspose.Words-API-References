@@ -5,7 +5,7 @@ articleTitle: FieldInclude class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldInclude class. Implements the INCLUDE field"
 type: docs
-weight: 570
+weight: 11400
 url: /python-net/aspose.words.fields/fieldinclude/
 ---
 

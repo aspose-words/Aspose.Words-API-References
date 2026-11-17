@@ -5,7 +5,7 @@ articleTitle: MailMergeMainDocumentType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.settings.MailMergeMainDocumentType enumeration. Specifies the possible types for a mail merge source document."
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 

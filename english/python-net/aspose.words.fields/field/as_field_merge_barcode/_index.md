@@ -5,7 +5,7 @@ articleTitle: as_field_merge_barcode method
 second_title: Aspose.Words for Python
 description: "Field.as_field_merge_barcode method. Cast Field to [FieldMergeBarcode](../../fieldmergebarcode/)."
 type: docs
-weight: 640
+weight: 19200
 url: /python-net/aspose.words.fields/field/as_field_merge_barcode/
 ---
 

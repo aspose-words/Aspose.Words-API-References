@@ -5,7 +5,7 @@ articleTitle: merge_to_images method
 second_title: Aspose.Words for Python
 description: "Merger.merge_to_images method. Merges the given input documents into a single output document using specified input output file names and save options"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.lowcode/merger/merge_to_images/
 ---
 

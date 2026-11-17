@@ -5,7 +5,7 @@ articleTitle: as_run method
 second_title: Aspose.Words for Python
 description: "Node.as_run method. Cast Node to [Run](../../run/)."
 type: docs
-weight: 330
+weight: 9900
 url: /python-net/aspose.words/node/as_run/
 ---
 

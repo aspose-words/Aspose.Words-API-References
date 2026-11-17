@@ -5,7 +5,7 @@ articleTitle: default_instructions property
 second_title: Aspose.Words for Python
 description: "SignatureLineOptions.default_instructions property. Gets or sets a value indicating that default instructions is shown in the Sign dialog"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/signaturelineoptions/default_instructions/
 ---
 

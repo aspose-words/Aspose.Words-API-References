@@ -5,7 +5,7 @@ articleTitle: no_leading property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.no_leading property. Do Not Add Leading Between Lines of Text."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words.settings/compatibilityoptions/no_leading/
 ---
 

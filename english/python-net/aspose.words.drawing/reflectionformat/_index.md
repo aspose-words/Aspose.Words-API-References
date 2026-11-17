@@ -5,7 +5,7 @@ articleTitle: ReflectionFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ReflectionFormat class. Represents the reflection formatting for an object."
 type: docs
-weight: 290
+weight: 5800
 url: /python-net/aspose.words.drawing/reflectionformat/
 ---
 

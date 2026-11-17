@@ -5,7 +5,7 @@ articleTitle: from_date_time method
 second_title: Aspose.Words for Python
 description: "ChartYValue.from_date_time method. Creates a [ChartYValue](../) instance of the [ChartYValueType.DATE_TIME](../../chartyvaluetype/#DATE_TIME) type."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.charts/chartyvalue/from_date_time/
 ---
 

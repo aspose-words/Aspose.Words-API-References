@@ -5,7 +5,7 @@ articleTitle: replacing method
 second_title: Aspose.Words for Python
 description: "IReplacingCallback.replacing method. A user defined method that is called during a replace operation for each match found just before a replace is made."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: semi_hidden property
 second_title: Aspose.Words for Python
 description: "Style.semi_hidden property. Gets/sets whether the style hides from the Styles gallery and from the Styles task pane."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words/style/semi_hidden/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "GroupShape.node_type property. Returns [NodeType.GROUP_SHAPE](../../../aspose.words/nodetype/#GROUP_SHAPE)."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/groupshape/node_type/
 ---
 

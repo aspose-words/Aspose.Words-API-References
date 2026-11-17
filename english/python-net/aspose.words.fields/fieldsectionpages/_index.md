@@ -5,7 +5,7 @@ articleTitle: FieldSectionPages class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldSectionPages class. Implements the SECTIONPAGES field"
 type: docs
-weight: 910
+weight: 18200
 url: /python-net/aspose.words.fields/fieldsectionpages/
 ---
 

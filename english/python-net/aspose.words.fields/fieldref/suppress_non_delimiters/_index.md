@@ -5,7 +5,7 @@ articleTitle: suppress_non_delimiters property
 second_title: Aspose.Words for Python
 description: "FieldRef.suppress_non_delimiters property. Gets or sets whether to suppress non-delimiter characters."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.fields/fieldref/suppress_non_delimiters/
 ---
 

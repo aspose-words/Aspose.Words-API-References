@@ -5,7 +5,7 @@ articleTitle: result_formatter property
 second_title: Aspose.Words for Python
 description: "FieldOptions.result_formatter property. Allows to control how the field result is formatted."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.fields/fieldoptions/result_formatter/
 ---
 

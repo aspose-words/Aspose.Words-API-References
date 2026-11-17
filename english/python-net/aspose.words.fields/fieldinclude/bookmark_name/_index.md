@@ -5,7 +5,7 @@ articleTitle: bookmark_name property
 second_title: Aspose.Words for Python
 description: "FieldInclude.bookmark_name property. Gets or sets the name of the bookmark in the document to include."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldinclude/bookmark_name/
 ---
 

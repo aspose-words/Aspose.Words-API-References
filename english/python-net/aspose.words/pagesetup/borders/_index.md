@@ -5,7 +5,7 @@ articleTitle: borders property
 second_title: Aspose.Words for Python
 description: "PageSetup.borders property. Gets a collection of the page borders."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/pagesetup/borders/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: has_vertical_border property
 second_title: Aspose.Words for Python
 description: "ChartDataTable.has_vertical_border property. Gets or sets a flag indicating whether a vertical border of the data table is displayed"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing.charts/chartdatatable/has_vertical_border/
 ---
 

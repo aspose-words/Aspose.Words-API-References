@@ -5,7 +5,7 @@ articleTitle: emulate_rendering_to_size_on_page property
 second_title: Aspose.Words for Python
 description: "MetafileRenderingOptions.emulate_rendering_to_size_on_page property. Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/
 ---
 

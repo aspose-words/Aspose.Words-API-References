@@ -5,7 +5,7 @@ articleTitle: image_type_to_extension method
 second_title: Aspose.Words for Python
 description: "FileFormatUtil.image_type_to_extension method. Converts an Aspose.Words image type enumerated value into a file extension"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/fileformatutil/image_type_to_extension/
 ---
 

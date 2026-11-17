@@ -5,7 +5,7 @@ articleTitle: list_label property
 second_title: Aspose.Words for Python
 description: "Paragraph.list_label property. Gets a [Paragraph.list_label](./) object that provides access to list numbering value and formatting for this paragraph."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words/paragraph/list_label/
 ---
 

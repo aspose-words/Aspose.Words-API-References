@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Python
 description: "CustomPart.clone method. Makes a deep enough copy of the object"
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.markup/custompart/clone/
 ---
 

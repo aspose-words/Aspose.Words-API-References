@@ -5,7 +5,7 @@ articleTitle: FieldLastSavedBy class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldLastSavedBy class. Implements the LASTSAVEDBY field"
 type: docs
-weight: 640
+weight: 12800
 url: /python-net/aspose.words.fields/fieldlastsavedby/
 ---
 

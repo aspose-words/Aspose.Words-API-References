@@ -5,7 +5,7 @@ articleTitle: editor property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.editor property. Gets or sets the editor of a source."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.bibliography/contributorcollection/editor/
 ---
 

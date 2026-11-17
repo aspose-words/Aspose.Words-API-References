@@ -5,7 +5,7 @@ articleTitle: anchor_locked property
 second_title: Aspose.Words for Python
 description: "ShapeBase.anchor_locked property. Specifies whether the shape's anchor is locked."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing/shapebase/anchor_locked/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: header_first property
 second_title: Aspose.Words for Python
 description: "HeaderFooterCollection.header_first property. Retrieves a header for the first page of the section."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/headerfootercollection/header_first/
 ---
 

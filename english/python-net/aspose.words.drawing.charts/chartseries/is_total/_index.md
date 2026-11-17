@@ -5,7 +5,7 @@ articleTitle: is_total method
 second_title: Aspose.Words for Python
 description: "ChartSeries.is_total method. Determines whether the data point at the specified index is a total"
 type: docs
-weight: 210
+weight: 6001
 url: /python-net/aspose.words.drawing.charts/chartseries/is_total/
 ---
 

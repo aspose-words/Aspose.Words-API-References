@@ -5,7 +5,7 @@ articleTitle: ComparisonEvaluationResult constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.ComparisonEvaluationResult constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/comparisonevaluationresult/__init__/
 ---
 

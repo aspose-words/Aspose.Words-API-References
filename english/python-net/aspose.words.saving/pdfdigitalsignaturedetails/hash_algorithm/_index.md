@@ -5,7 +5,7 @@ articleTitle: hash_algorithm property
 second_title: Aspose.Words for Python
 description: "PdfDigitalSignatureDetails.hash_algorithm property. Gets or sets the hash algorithm."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/hash_algorithm/
 ---
 
@@ -27,7 +27,7 @@ def hash_algorithm(self, value: aspose.words.saving.PdfDigitalSignatureHashAlgor
 
 ### Remarks
 
-The default value is the SHA-256 algorithm.
+The default value is [PdfDigitalSignatureHashAlgorithm.AUTO](../../pdfdigitalsignaturehashalgorithm/#AUTO).
 
 
 ### Examples

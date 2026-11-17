@@ -5,7 +5,7 @@ articleTitle: table_format property
 second_title: Aspose.Words for Python
 description: "FieldDatabase.table_format property. Gets or sets the format that is to be applied to the result of the database query."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.fields/fielddatabase/table_format/
 ---
 

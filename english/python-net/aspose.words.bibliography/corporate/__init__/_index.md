@@ -5,7 +5,7 @@ articleTitle: Corporate constructor
 second_title: Aspose.Words for Python
 description: "Corporate constructor. Initialize a new instance of the [Corporate](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.bibliography/corporate/__init__/
 ---
 

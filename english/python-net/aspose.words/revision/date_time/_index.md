@@ -5,7 +5,7 @@ articleTitle: date_time property
 second_title: Aspose.Words for Python
 description: "Revision.date_time property. Gets or sets the date/time of this revision."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/revision/date_time/
 ---
 

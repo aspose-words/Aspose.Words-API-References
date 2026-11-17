@@ -5,7 +5,7 @@ articleTitle: ShapeRenderer constructor
 second_title: Aspose.Words for Python
 description: "ShapeRenderer constructor. Initializes a new instance of this class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.rendering/shaperenderer/__init__/
 ---
 

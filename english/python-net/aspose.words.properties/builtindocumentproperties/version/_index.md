@@ -5,7 +5,7 @@ articleTitle: version property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.version property. Represents the version number of the application that created the document."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words.properties/builtindocumentproperties/version/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: load_format_to_extension method
 second_title: Aspose.Words for Python
 description: "FileFormatUtil.load_format_to_extension method. Converts a load format enumerated value into a file extension"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/fileformatutil/load_format_to_extension/
 ---
 

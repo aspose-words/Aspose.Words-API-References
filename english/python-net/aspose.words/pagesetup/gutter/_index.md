@@ -5,7 +5,7 @@ articleTitle: gutter property
 second_title: Aspose.Words for Python
 description: "PageSetup.gutter property. Gets or sets the amount of extra space added to the margin for document binding."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words/pagesetup/gutter/
 ---
 

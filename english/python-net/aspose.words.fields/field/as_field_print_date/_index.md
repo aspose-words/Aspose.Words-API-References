@@ -5,7 +5,7 @@ articleTitle: as_field_print_date method
 second_title: Aspose.Words for Python
 description: "Field.as_field_print_date method. Cast Field to [FieldPrintDate](../../fieldprintdate/)."
 type: docs
-weight: 780
+weight: 23400
 url: /python-net/aspose.words.fields/field/as_field_print_date/
 ---
 

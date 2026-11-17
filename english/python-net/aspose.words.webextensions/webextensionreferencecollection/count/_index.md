@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "WebExtensionReferenceCollection.count property. "
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.webextensions/webextensionreferencecollection/count/
 ---
 

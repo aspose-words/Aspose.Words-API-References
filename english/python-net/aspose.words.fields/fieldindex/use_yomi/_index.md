@@ -5,7 +5,7 @@ articleTitle: use_yomi property
 second_title: Aspose.Words for Python
 description: "FieldIndex.use_yomi property. Gets or sets whether to enable the use of yomi text for index entries."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.fields/fieldindex/use_yomi/
 ---
 

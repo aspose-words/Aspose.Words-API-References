@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "FieldTC.text property. Gets or sets the text of the entry."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldtc/text/
 ---
 

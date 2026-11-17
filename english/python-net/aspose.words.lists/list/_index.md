@@ -5,7 +5,7 @@ articleTitle: List class
 second_title: Aspose.Words for Python
 description: "aspose.words.lists.List class. Represents formatting of a list"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.lists/list/
 ---
 

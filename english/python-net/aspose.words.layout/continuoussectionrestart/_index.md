@@ -5,7 +5,7 @@ articleTitle: ContinuousSectionRestart enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.ContinuousSectionRestart enumeration. Represents different behaviors when computing page numbers in a continuous section that restarts page numbering."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.layout/continuoussectionrestart/
 ---
 

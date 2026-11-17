@@ -5,7 +5,7 @@ articleTitle: signature_date property
 second_title: Aspose.Words for Python
 description: "PdfDigitalSignatureDetails.signature_date property. Gets or sets the date of the signing."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/signature_date/
 ---
 

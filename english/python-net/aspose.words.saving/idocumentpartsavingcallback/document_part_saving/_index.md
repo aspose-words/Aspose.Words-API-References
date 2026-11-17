@@ -5,7 +5,7 @@ articleTitle: document_part_saving method
 second_title: Aspose.Words for Python
 description: "IDocumentPartSavingCallback.document_part_saving method. Called when Aspose.Words is about to save a document part."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/idocumentpartsavingcallback/document_part_saving/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: calendar_type property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.calendar_type property. Specifies the type of calendar for this SDT"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.markup/structureddocumenttag/calendar_type/
 ---
 

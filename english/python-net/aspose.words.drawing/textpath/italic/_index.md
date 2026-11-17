@@ -5,7 +5,7 @@ articleTitle: italic property
 second_title: Aspose.Words for Python
 description: "TextPath.italic property. True if the font is formatted as italic."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing/textpath/italic/
 ---
 

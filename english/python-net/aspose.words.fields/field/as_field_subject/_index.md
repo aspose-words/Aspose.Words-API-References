@@ -5,7 +5,7 @@ articleTitle: as_field_subject method
 second_title: Aspose.Words for Python
 description: "Field.as_field_subject method. Cast Field to [FieldSubject](../../fieldsubject/)."
 type: docs
-weight: 920
+weight: 27600
 url: /python-net/aspose.words.fields/field/as_field_subject/
 ---
 

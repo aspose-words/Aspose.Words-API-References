@@ -5,7 +5,7 @@ articleTitle: actual_reference_mark property
 second_title: Aspose.Words for Python
 description: "Footnote.actual_reference_mark property. Gets the actual text of the reference mark displayed in the document for this footnote."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.notes/footnote/actual_reference_mark/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: start property
 second_title: Aspose.Words for Python
 description: "Field.start property. Gets the node that represents the start of the field."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/field/start/
 ---
 

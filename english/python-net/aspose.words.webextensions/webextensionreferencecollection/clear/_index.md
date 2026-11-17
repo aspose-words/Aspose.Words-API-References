@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "WebExtensionReferenceCollection.clear method. "
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.webextensions/webextensionreferencecollection/clear/
 ---
 

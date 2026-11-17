@@ -5,7 +5,7 @@ articleTitle: built_in property
 second_title: Aspose.Words for Python
 description: "Style.built_in property. True if this style is one of the built-in styles in MS Word."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/style/built_in/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_field_doc_property method
 second_title: Aspose.Words for Python
 description: "Field.as_field_doc_property method. Cast Field to [FieldDocProperty](../../fielddocproperty/)."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words.fields/field/as_field_doc_property/
 ---
 

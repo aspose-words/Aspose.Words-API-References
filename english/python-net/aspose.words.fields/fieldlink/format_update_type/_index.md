@@ -5,7 +5,7 @@ articleTitle: format_update_type property
 second_title: Aspose.Words for Python
 description: "FieldLink.format_update_type property. Gets or sets a way the linked object updates its formatting."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldlink/format_update_type/
 ---
 

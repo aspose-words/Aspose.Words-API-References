@@ -5,7 +5,7 @@ articleTitle: use_alt_kinsoku_line_break_rules property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.use_alt_kinsoku_line_break_rules property. Use Alternate Set of East Asian Line Breaking Rules."
 type: docs
-weight: 600
+weight: 18000
 url: /python-net/aspose.words.settings/compatibilityoptions/use_alt_kinsoku_line_break_rules/
 ---
 

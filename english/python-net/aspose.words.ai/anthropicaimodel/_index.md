@@ -5,7 +5,7 @@ articleTitle: AnthropicAiModel class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.AnthropicAiModel class. An abstract class representing the integration with Anthropic’s AI models within the Aspose.Words."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.ai/anthropicaimodel/
 ---
 

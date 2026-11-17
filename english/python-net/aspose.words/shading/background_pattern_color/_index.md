@@ -5,7 +5,7 @@ articleTitle: background_pattern_color property
 second_title: Aspose.Words for Python
 description: "Shading.background_pattern_color property. Gets or sets the color that's applied to the background of the [Shading](../) object."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/shading/background_pattern_color/
 ---
 

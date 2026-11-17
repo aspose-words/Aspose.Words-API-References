@@ -5,7 +5,7 @@ articleTitle: FieldOcx class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldOcx class. Implements the OCX field"
 type: docs
-weight: 780
+weight: 15600
 url: /python-net/aspose.words.fields/fieldocx/
 ---
 

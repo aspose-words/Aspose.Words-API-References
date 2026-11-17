@@ -5,7 +5,7 @@ articleTitle: full_date property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.full_date property. Specifies the full date and time last entered into this SDT."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.markup/structureddocumenttag/full_date/
 ---
 

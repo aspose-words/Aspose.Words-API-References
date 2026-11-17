@@ -5,7 +5,7 @@ articleTitle: compiler property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.compiler property. Gets or sets the compiler of a source."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.bibliography/contributorcollection/compiler/
 ---
 

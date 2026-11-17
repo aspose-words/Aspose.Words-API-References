@@ -5,7 +5,7 @@ articleTitle: detect_file_format method
 second_title: Aspose.Words for Python
 description: "aspose.words.FileFormatUtil.detect_file_format method"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/fileformatutil/detect_file_format/
 ---
 

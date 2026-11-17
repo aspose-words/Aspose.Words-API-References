@@ -5,7 +5,7 @@ articleTitle: Orientation enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.Orientation enumeration. Specifies page orientation."
 type: docs
-weight: 880
+weight: 17600
 url: /python-net/aspose.words/orientation/
 ---
 

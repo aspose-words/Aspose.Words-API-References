@@ -5,7 +5,7 @@ articleTitle: display_type property
 second_title: Aspose.Words for Python
 description: "OfficeMath.display_type property. Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.math/officemath/display_type/
 ---
 

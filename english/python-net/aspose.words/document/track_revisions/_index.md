@@ -5,7 +5,7 @@ articleTitle: track_revisions property
 second_title: Aspose.Words for Python
 description: "Document.track_revisions property. True if changes are tracked when this document is edited in Microsoft Word."
 type: docs
-weight: 460
+weight: 13800
 url: /python-net/aspose.words/document/track_revisions/
 ---
 

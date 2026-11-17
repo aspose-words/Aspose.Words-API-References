@@ -5,7 +5,7 @@ articleTitle: explosion property
 second_title: Aspose.Words for Python
 description: "ChartSeries.explosion property. Specifies the amount the data point shall be moved from the center of the pie"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing.charts/chartseries/explosion/
 ---
 

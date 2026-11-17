@@ -5,7 +5,7 @@ articleTitle: source_full_name property
 second_title: Aspose.Words for Python
 description: "FieldImport.source_full_name property. Gets or sets the location of the picture."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldimport/source_full_name/
 ---
 

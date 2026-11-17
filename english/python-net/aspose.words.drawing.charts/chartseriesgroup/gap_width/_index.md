@@ -5,7 +5,7 @@ articleTitle: gap_width property
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroup.gap_width property. Gets or sets the percentage of gap width between chart elements."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing.charts/chartseriesgroup/gap_width/
 ---
 

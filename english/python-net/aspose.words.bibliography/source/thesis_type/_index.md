@@ -5,7 +5,7 @@ articleTitle: thesis_type property
 second_title: Aspose.Words for Python
 description: "Source.thesis_type property. Gets or sets the thesis type of a source."
 type: docs
-weight: 470
+weight: 14100
 url: /python-net/aspose.words.bibliography/source/thesis_type/
 ---
 

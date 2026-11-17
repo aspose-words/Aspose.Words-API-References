@@ -5,7 +5,7 @@ articleTitle: case_number property
 second_title: Aspose.Words for Python
 description: "Source.case_number property. Gets or sets the case number of a source."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.bibliography/source/case_number/
 ---
 

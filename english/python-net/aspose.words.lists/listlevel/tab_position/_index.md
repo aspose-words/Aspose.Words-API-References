@@ -5,7 +5,7 @@ articleTitle: tab_position property
 second_title: Aspose.Words for Python
 description: "ListLevel.tab_position property. Returns or sets the tab position (in points) for the list level."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.lists/listlevel/tab_position/
 ---
 

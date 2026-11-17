@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.accept_end method. Accepts a visitor for visiting the end of the StructuredDocumentTag."
 type: docs
-weight: 340
+weight: 10200
 url: /python-net/aspose.words.markup/structureddocumenttag/accept_end/
 ---
 

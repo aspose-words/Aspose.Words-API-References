@@ -5,7 +5,7 @@ articleTitle: FieldSkipIf class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldSkipIf class. Implements the SKIPIF field"
 type: docs
-weight: 960
+weight: 19200
 url: /python-net/aspose.words.fields/fieldskipif/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: BookmarkEnd constructor
 second_title: Aspose.Words for Python
 description: "BookmarkEnd constructor. Initializes a new instance of the [BookmarkEnd](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/bookmarkend/__init__/
 ---
 

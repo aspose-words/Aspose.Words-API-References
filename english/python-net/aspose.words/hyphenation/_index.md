@@ -5,7 +5,7 @@ articleTitle: Hyphenation class
 second_title: Aspose.Words for Python
 description: "aspose.words.Hyphenation class. Provides methods for working with hyphenation dictionaries"
 type: docs
-weight: 530
+weight: 10600
 url: /python-net/aspose.words/hyphenation/
 ---
 

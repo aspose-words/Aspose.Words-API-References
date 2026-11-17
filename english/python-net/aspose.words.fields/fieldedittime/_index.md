@@ -5,7 +5,7 @@ articleTitle: FieldEditTime class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldEditTime class. Implements the EDITTIME field"
 type: docs
-weight: 380
+weight: 7600
 url: /python-net/aspose.words.fields/fieldedittime/
 ---
 

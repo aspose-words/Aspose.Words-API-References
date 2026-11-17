@@ -5,7 +5,7 @@ articleTitle: save_search_cache method
 second_title: Aspose.Words for Python
 description: "FontSettings.save_search_cache method. Saves the font search cache to the stream."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fonts/fontsettings/save_search_cache/
 ---
 

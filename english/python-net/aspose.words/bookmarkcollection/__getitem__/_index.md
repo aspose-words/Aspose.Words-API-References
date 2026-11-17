@@ -5,7 +5,7 @@ articleTitle: BookmarkCollection indexer
 second_title: Aspose.Words for Python
 description: "BookmarkCollection indexer. Returns a bookmark at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/bookmarkcollection/__getitem__/
 ---
 

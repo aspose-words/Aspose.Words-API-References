@@ -5,7 +5,7 @@ articleTitle: LINE_FEED_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.LINE_FEED_CHAR property. Line feed character: (char)10 or \\n."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words/controlchar/LINE_FEED_CHAR/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "SystemFontSource.type property. Returns the type of the font source."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fonts/systemfontsource/type/
 ---
 

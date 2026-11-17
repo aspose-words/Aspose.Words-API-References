@@ -5,7 +5,7 @@ articleTitle: OdsoRecipientData class
 second_title: Aspose.Words for Python
 description: "aspose.words.settings.OdsoRecipientData class. Represents information about a single record within an external data source that is to be excluded from the mail merge"
 type: docs
-weight: 170
+weight: 3400
 url: /python-net/aspose.words.settings/odsorecipientdata/
 ---
 

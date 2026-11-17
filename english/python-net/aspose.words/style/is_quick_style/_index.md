@@ -5,7 +5,7 @@ articleTitle: is_quick_style property
 second_title: Aspose.Words for Python
 description: "Style.is_quick_style property. Specifies whether this style is shown in the Quick Style gallery inside MS Word UI."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/style/is_quick_style/
 ---
 

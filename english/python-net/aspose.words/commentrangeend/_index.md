@@ -5,7 +5,7 @@ articleTitle: CommentRangeEnd class
 second_title: Aspose.Words for Python
 description: "aspose.words.CommentRangeEnd class. Denotes the end of a region of text that has a comment associated with it"
 type: docs
-weight: 200
+weight: 4000
 url: /python-net/aspose.words/commentrangeend/
 ---
 

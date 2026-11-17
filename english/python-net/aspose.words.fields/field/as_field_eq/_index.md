@@ -5,7 +5,7 @@ articleTitle: as_field_eq method
 second_title: Aspose.Words for Python
 description: "Field.as_field_eq method. Cast Field to [FieldEQ](../../fieldeq/)."
 type: docs
-weight: 390
+weight: 11700
 url: /python-net/aspose.words.fields/field/as_field_eq/
 ---
 

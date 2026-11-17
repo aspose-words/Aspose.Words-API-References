@@ -5,7 +5,7 @@ articleTitle: ignore_footnotes property
 second_title: Aspose.Words for Python
 description: "CompareOptions.ignore_footnotes property. Specifies whether to compare differences in footnotes and endnotes."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.comparing/compareoptions/ignore_footnotes/
 ---
 

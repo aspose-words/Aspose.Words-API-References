@@ -5,7 +5,7 @@ articleTitle: theater property
 second_title: Aspose.Words for Python
 description: "Source.theater property. Gets or sets the theater of a source."
 type: docs
-weight: 460
+weight: 13800
 url: /python-net/aspose.words.bibliography/source/theater/
 ---
 

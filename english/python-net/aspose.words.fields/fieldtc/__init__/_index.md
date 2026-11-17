@@ -5,7 +5,7 @@ articleTitle: FieldTC constructor
 second_title: Aspose.Words for Python
 description: "FieldTC constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldtc/__init__/
 ---
 

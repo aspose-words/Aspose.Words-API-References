@@ -5,7 +5,7 @@ articleTitle: as_field_author method
 second_title: Aspose.Words for Python
 description: "Field.as_field_author method. Cast Field to [FieldAuthor](../../fieldauthor/)."
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.fields/field/as_field_author/
 ---
 

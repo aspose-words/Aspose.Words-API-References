@@ -5,7 +5,7 @@ articleTitle: Person class
 second_title: Aspose.Words for Python
 description: "aspose.words.bibliography.Person class. Represents individual (a person) bibliography source contributor."
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.bibliography/person/
 ---
 
