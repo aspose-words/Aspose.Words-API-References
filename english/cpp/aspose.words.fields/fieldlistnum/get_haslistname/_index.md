@@ -4,7 +4,7 @@ linktitle: get_HasListName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldListNum::get_HasListName method. Returns a value indicating whether the name of an abstract numbering definition is provided by the field''s code in C++.'
 type: docs
-weight: 7600
+weight: 2000
 url: /cpp/aspose.words.fields/fieldlistnum/get_haslistname/
 ---
 ## FieldListNum::get_HasListName method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldlistnum/get_haslistname/
 Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldListNum::get_HasListName()
+bool Aspose::Words::Fields::FieldListNum::get_HasListName()
 ```
+
 
 ## Examples
 
 
-Shows how to number paragraphs with LISTNUM fields.
 
+Shows how to number paragraphs with LISTNUM fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -34,7 +35,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldListNum>(builder->
 field->set_StartingNumber(u"0");
 builder->Writeln(u"Paragraph 1");
 
-ASSERT_EQ(field->GetFieldCode(), u" LISTNUM  \\s 0");
+ASSERT_EQ(u" LISTNUM  \\s 0", field->GetFieldCode());
 
 // LISTNUM fields maintain separate counts for each list level.
 // Inserting a LISTNUM field in the same paragraph as another LISTNUM field
@@ -60,7 +61,7 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldListNum>(builder->Inser
 field->set_ListLevel(u"2");
 builder->Writeln(u"Paragraph 3");
 
-ASSERT_EQ(field->GetFieldCode(), u" LISTNUM  \\l 2");
+ASSERT_EQ(u" LISTNUM  \\l 2", field->GetFieldCode());
 
 // We can set the ListName property to get the field to emulate a different AUTONUM field type.
 // "NumberDefault" emulates AUTONUM, "OutlineDefault" emulates AUTONUMOUT,
@@ -72,7 +73,7 @@ field->set_ListName(u"OutlineDefault");
 builder->Writeln(u"Paragraph 4");
 
 ASSERT_TRUE(field->get_HasListName());
-ASSERT_EQ(field->GetFieldCode(), u" LISTNUM  OutlineDefault \\s 1");
+ASSERT_EQ(u" LISTNUM  OutlineDefault \\s 1", field->GetFieldCode());
 
 // The ListName does not carry over from the previous field, so we will need to set it for each new field.
 // This field continues the count with the different list name and displays "II.".
@@ -83,6 +84,7 @@ builder->Writeln(u"Paragraph 5");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.LISTNUM.docx");
 ```
+
 ## See Also
 
 * Class [FieldListNum](../)

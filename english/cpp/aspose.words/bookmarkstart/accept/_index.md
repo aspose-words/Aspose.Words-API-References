@@ -13,7 +13,7 @@ url: /cpp/aspose.words/bookmarkstart/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::BookmarkStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::BookmarkStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,8 +30,10 @@ _Bool Aspose::Words::BookmarkStart::Accept(System::SharedPtr<Aspose::Words::Docu
 Calls [VisitBookmarkStart()](../../documentvisitor/visitbookmarkstart/).
 
 For more info see the Visitor design pattern.
+
 ## See Also
 
+* Class [DocumentVisitor](../../documentvisitor/)
 * Class [BookmarkStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

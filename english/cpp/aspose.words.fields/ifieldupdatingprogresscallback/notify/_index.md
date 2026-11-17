@@ -13,11 +13,12 @@ url: /cpp/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 A user defined method that is called when updating progress is changed.
 
 ```cpp
-virtual void Aspose::Words::Fields::IFieldUpdatingProgressCallback::Notify(System::SharedPtr<Aspose::Words::Fields::FieldUpdatingProgressArgs> args)
+virtual void Aspose::Words::Fields::IFieldUpdatingProgressCallback::Notify(System::SharedPtr<Aspose::Words::Fields::FieldUpdatingProgressArgs> args)=0
 ```
 
 ## See Also
 
+* Class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * Interface [IFieldUpdatingProgressCallback](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

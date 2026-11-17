@@ -13,14 +13,17 @@ url: /cpp/aspose.words.fields/ifieldupdatingprogresscallback/
 Implement this interface if you want to track field updating progress.
 
 ```cpp
-class IFieldUpdatingProgressCallback : public System::Object
+class IFieldUpdatingProgressCallback : public virtual System::Object
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [Notify](./notify/)(System::SharedPtr\<Aspose::Words::Fields::FieldUpdatingProgressArgs\>) | A user defined method that is called when updating progress is changed. |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

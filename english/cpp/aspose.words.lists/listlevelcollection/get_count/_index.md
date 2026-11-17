@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevelCollection::get_Count method. Gets the number of levels in this list in C++.'
 type: docs
-weight: 8000
+weight: 6000
 url: /cpp/aspose.words.lists/listlevelcollection/get_count/
 ---
 ## ListLevelCollection::get_Count method
@@ -20,11 +20,12 @@ int32_t Aspose::Words::Lists::ListLevelCollection::get_Count()
 
 
 There could be 1 or 9 levels in a list.
+
 ## Examples
 
 
-Shows how to create a list style and use it in a document.
 
+Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -40,7 +41,7 @@ System::SharedPtr<Aspose::Words::Lists::List> list1 = listStyle->get_List();
 ASSERT_TRUE(list1->get_IsListStyleDefinition());
 ASSERT_FALSE(list1->get_IsListStyleReference());
 ASSERT_TRUE(list1->get_IsMultiLevel());
-ASPOSE_ASSERT_EQ(list1->get_Style(), listStyle);
+ASPOSE_ASSERT_EQ(listStyle, list1->get_Style());
 
 // Change the appearance of all list levels in our list.
 for (auto&& level : list1->get_ListLevels())
@@ -59,7 +60,7 @@ System::SharedPtr<Aspose::Words::Lists::List> list2 = doc->get_Lists()->Add(list
 
 ASSERT_FALSE(list2->get_IsListStyleDefinition());
 ASSERT_TRUE(list2->get_IsListStyleReference());
-ASPOSE_ASSERT_EQ(list2->get_Style(), listStyle);
+ASPOSE_ASSERT_EQ(listStyle, list2->get_Style());
 
 // Add some list items that our list will format.
 builder->get_ListFormat()->set_List(list2);
@@ -78,6 +79,7 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
+
 ## See Also
 
 * Class [ListLevelCollection](../)

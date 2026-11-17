@@ -7,46 +7,48 @@ type: docs
 weight: 22000
 url: /cpp/aspose.words.drawing/imagedata/save/
 ---
-## ImageData::Save(const System::SharedPtr\<System::IO::Stream\> \&) method
+## ImageData::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
 Saves the image into the specified stream.
 
 ```cpp
-void Aspose::Words::Drawing::ImageData::Save(const System::SharedPtr<System::IO::Stream> & stream)
+void Aspose::Words::Drawing::ImageData::Save(const System::SharedPtr<System::IO::Stream> &stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream where to save the image to. |
+| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream where to save the image to. |
 ## Remarks
 
 
 Is it the responsibility of the caller to dispose the stream object.
+
 ## See Also
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## ImageData::Save(const System::String \&) method
+## ImageData::Save(const System::String\&) method
 
 
 Saves the image into a file.
 
 ```cpp
-void Aspose::Words::Drawing::ImageData::Save(const System::String & fileName)
+void Aspose::Words::Drawing::ImageData::Save(const System::String &fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String \& | The file name where to save the image. |
+| fileName | const System::String\& | The file name where to save the image. |
+
 ## Examples
 
 
-Shows how to extract images from a document, and save them to the local file system as individual files.
 
+Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -54,10 +56,10 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // and save the image data of every shape with an image as a file to the local file system.
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
-ASSERT_EQ(shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
+ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Drawing::Shape>(s))->get_HasImage();
-}))), 9);
+}))));
 
 int32_t imageIndex = 0;
 for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()))
@@ -72,28 +74,21 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
     }
 }
 ```
+
 ## See Also
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## ImageData::Save(std::basic_ostream\<CharType, Traits\> \&) method
+## ImageData::Save(std::basic_ostream\<CharType, Traits\>\&) method
 
 
-Saves the image into the specified stream.
+
 
 ```cpp
-template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageData::Save(std::basic_ostream<CharType, Traits> & stream)
+template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageData::Save(std::basic_ostream<CharType, Traits> &stream)
 ```
 
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | std::basic_ostream\<CharType, Traits\> \& | The stream where to save the image to. |
-## Remarks
-
-
-Is it the responsibility of the caller to dispose the stream object.
 ## See Also
 
 * Class [ImageData](../)

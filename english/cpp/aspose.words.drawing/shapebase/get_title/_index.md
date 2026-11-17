@@ -4,7 +4,7 @@ linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Title method. Gets or sets the title (caption) of the current shape object in C++.'
 type: docs
-weight: 61865
+weight: 51000
 url: /cpp/aspose.words.drawing/shapebase/get_title/
 ---
 ## ShapeBase::get_Title method
@@ -22,11 +22,12 @@ System::String Aspose::Words::Drawing::ShapeBase::get_Title()
 Default is empty string.
 
 Cannot be **null**, but can be an empty string.
+
 ## Examples
 
 
-Shows how to set the title of a shape.
 
+Shows how to set the title of a shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,9 +47,10 @@ doc->Save(get_ArtifactsDir() + u"Shape.Title.docx");
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Title.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
-ASSERT_EQ(shape->get_Title(), System::String::Empty);
-ASSERT_EQ(shape->get_AlternativeText(), u"Title: My cube");
+ASSERT_EQ(System::String::Empty, shape->get_Title());
+ASSERT_EQ(u"Title: My cube", shape->get_AlternativeText());
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

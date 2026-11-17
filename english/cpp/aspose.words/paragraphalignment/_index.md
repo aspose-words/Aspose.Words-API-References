@@ -13,29 +13,30 @@ url: /cpp/aspose.words/paragraphalignment/
 Specifies text alignment in a paragraph.
 
 ```cpp
-enum class ParagraphAlignment : int
+enum class ParagraphAlignment
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Left | 0 | Text is aligned to the left. |
+| Center | 1 | Text is centered horizontally. |
+| Right | 2 | Text is aligned to the right. |
+| Justify | 3 | Text is aligned to both left and right. |
+| Distributed | 4 | Text is evenly distributed. |
+| ArabicMediumKashida | 5 | Arabic only. Kashida length for text is extended to a medium length determined by the consumer. |
 | ArabicHighKashida | 7 | Arabic only. Kashida length for text is extended to its widest possible length. |
 | ArabicLowKashida | 8 | Arabic only. Kashida length for text is extended to a slightly longer length. |
-| ArabicMediumKashida | 5 | Arabic only. Kashida length for text is extended to a medium length determined by the consumer. |
-| Center | 1 | Text is centered horizontally. |
-| Distributed | 4 | Text is evenly distributed. |
-| Justify | 3 | Text is aligned to both left and right. |
-| Left | 0 | Text is aligned to the left. |
-| MathElementCenterAsGroup | 10 | The only Math element in a line, aligned as 'Centered As Group'. |
-| Right | 2 | Text is aligned to the right. |
 | ThaiDistributed | 9 | Thai only. Text is justified with an optimization for Thai. |
+| MathElementCenterAsGroup | 10 | The only [Math](../../aspose.words.math/) element in a line, aligned as 'Centered As Group'. |
+
 
 ## Examples
 
 
-Shows how to construct an Aspose.Words document by hand.
 
+Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -74,10 +75,11 @@ run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-ASSERT_EQ(doc->GetText().Trim(), u"Hello World!");
+ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

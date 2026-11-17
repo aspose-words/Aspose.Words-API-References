@@ -16,11 +16,12 @@ Provides access to fill of text background and border formatting of the data tab
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> Aspose::Words::Drawing::Charts::ChartDataTable::get_Format()
 ```
 
+
 ## Examples
 
 
-Shows how to show data table with chart series data.
 
+Shows how to show data table with chart series data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,8 +51,10 @@ dataTable->get_Format()->get_Stroke()->set_Color(System::Drawing::Color::get_Dar
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
 ```
+
 ## See Also
 
+* Class [ChartFormat](../../chartformat/)
 * Class [ChartDataTable](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

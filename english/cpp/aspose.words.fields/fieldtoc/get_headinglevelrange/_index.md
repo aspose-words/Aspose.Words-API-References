@@ -4,7 +4,7 @@ linktitle: get_HeadingLevelRange
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::get_HeadingLevelRange method. Gets a range of heading levels to include in C++.'
 type: docs
-weight: 46000
+weight: 10000
 url: /cpp/aspose.words.fields/fieldtoc/get_headinglevelrange/
 ---
 ## FieldToc::get_HeadingLevelRange method

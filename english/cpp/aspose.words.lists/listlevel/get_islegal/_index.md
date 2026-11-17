@@ -4,7 +4,7 @@ linktitle: get_IsLegal
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::ListLevel::get_IsLegal method. True if the level turns all inherited numbers to Arabic, false if it preserves their number style in C++.'
 type: docs
-weight: 22670
+weight: 10000
 url: /cpp/aspose.words.lists/listlevel/get_islegal/
 ---
 ## ListLevel::get_IsLegal method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.lists/listlevel/get_islegal/
 True if the level turns all inherited numbers to Arabic, false if it preserves their number style.
 
 ```cpp
-_Bool Aspose::Words::Lists::ListLevel::get_IsLegal() const
+bool Aspose::Words::Lists::ListLevel::get_IsLegal() const
 ```
+
 
 ## Examples
 
 
-Shows advances ways of customizing list labels.
 
+Shows advances ways of customizing list labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,6 +77,7 @@ builder->get_ListFormat()->RemoveNumbers();
 
 doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
+
 ## See Also
 
 * Class [ListLevel](../)

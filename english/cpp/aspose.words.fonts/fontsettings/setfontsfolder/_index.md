@@ -10,22 +10,23 @@ url: /cpp/aspose.words.fonts/fontsettings/setfontsfolder/
 ## FontSettings::SetFontsFolder method
 
 
-Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [SetFontsFolders()](../setfontsfolders/) for setting only one font directory.
+Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [SetFontsFolders()](../) for setting only one font directory.
 
 ```cpp
-void Aspose::Words::Fonts::FontSettings::SetFontsFolder(const System::String & fontFolder, bool recursive)
+void Aspose::Words::Fonts::FontSettings::SetFontsFolder(const System::String &fontFolder, bool recursive)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontFolder | const System::String \& | The folder that contains TrueType fonts. |
+| fontFolder | const System::String\& | The folder that contains TrueType fonts. |
 | recursive | bool | True to scan the specified folders for fonts recursively. |
+
 ## Examples
 
 
-Shows how to set a font source directory.
 
+Shows how to set a font source directory. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +41,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(originalFontSources->get_Length(), 1);
+ASSERT_EQ(1, originalFontSources->get_Length());
 ASSERT_TRUE(originalFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -65,7 +66,7 @@ FontSettings::get_DefaultInstance()->SetFontsFolder(get_FontsDir(), recursive);
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> newFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(newFontSources->get_Length(), 1);
+ASSERT_EQ(1, newFontSources->get_Length());
 ASSERT_FALSE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -78,7 +79,7 @@ ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System:
 // The "Amethysta" font is in a subfolder of the font directory.
 if (recursive)
 {
-    ASSERT_EQ(newFontSources[0]->GetAvailableFonts()->get_Count(), 30);
+    ASSERT_EQ(30, newFontSources[0]->GetAvailableFonts()->get_Count());
     ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Amethysta";
@@ -86,7 +87,7 @@ if (recursive)
 }
 else
 {
-    ASSERT_EQ(newFontSources[0]->GetAvailableFonts()->get_Count(), 18);
+    ASSERT_EQ(18, newFontSources[0]->GetAvailableFonts()->get_Count());
     ASSERT_FALSE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Amethysta";
@@ -98,6 +99,7 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.SetFontsFolder.pdf");
 // Restore the original font sources.
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
+
 ## See Also
 
 * Class [FontSettings](../)

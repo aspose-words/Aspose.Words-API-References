@@ -4,7 +4,7 @@ linktitle: get_SnapToGrid
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_SnapToGrid method. Specifies whether the current font should use the document grid characters per line settings when laying out in C++.'
 type: docs
-weight: 59368
+weight: 39000
 url: /cpp/aspose.words/font/get_snaptogrid/
 ---
 ## Font::get_SnapToGrid method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_snaptogrid/
 Specifies whether the current font should use the document grid characters per line settings when laying out.
 
 ```cpp
-_Bool Aspose::Words::Font::get_SnapToGrid()
+bool Aspose::Words::Font::get_SnapToGrid()
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Style
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_Style method. Gets or sets the table style applied to this table in C++.'
 type: docs
-weight: 97000
+weight: 34000
 url: /cpp/aspose.words.tables/table/get_style/
 ---
 ## Table::get_Style method
@@ -16,11 +16,12 @@ Gets or sets the table style applied to this table.
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::Tables::Table::get_Style()
 ```
 
+
 ## Examples
 
 
-Shows how to create custom style settings for the table.
 
+Shows how to create custom style settings for the table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,13 +52,15 @@ table->set_Style(tableStyle);
 
 // Setting the style properties of a table may affect the properties of the table itself.
 ASSERT_FALSE(table->get_Bidi());
-ASPOSE_ASSERT_EQ(table->get_CellSpacing(), 5.0);
-ASSERT_EQ(table->get_StyleName(), u"MyTableStyle1");
+ASPOSE_ASSERT_EQ(5.0, table->get_CellSpacing());
+ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 
 doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
+
 ## See Also
 
+* Class [Style](../../../aspose.words/style/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

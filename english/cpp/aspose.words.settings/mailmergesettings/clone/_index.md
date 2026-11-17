@@ -19,5 +19,6 @@ System::SharedPtr<Aspose::Words::Settings::MailMergeSettings> Aspose::Words::Set
 ## See Also
 
 * Class [MailMergeSettings](../)
+* Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

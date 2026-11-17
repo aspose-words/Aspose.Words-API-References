@@ -2,7 +2,7 @@
 title: Aspose::Words::Fonts::FontSettings class
 linktitle: FontSettings
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fonts::FontSettings class. Specifies font settings for a document. To learn more, visit the Working with Fonts documentation article in C++.'
+description: 'Aspose::Words::Fonts::FontSettings class. Specifies font settings for a document. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.fonts/fontsettings/
@@ -10,8 +10,7 @@ url: /cpp/aspose.words.fonts/fontsettings/
 ## FontSettings class
 
 
-Specifies font settings for a document. 
-To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
+Specifies font settings for a document. To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/cpp/working-with-fonts/) documentation article.
 
 ```cpp
 class FontSettings : public System::Object
@@ -22,29 +21,33 @@ class FontSettings : public System::Object
 | Method | Description |
 | --- | --- |
 | [FontSettings](./fontsettings/)() |  |
-| [GetFontsSources](./getfontssources/)() | Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts. |
-| [ResetFontSources](./resetfontsources/)() | Resets the fonts sources to the system default. |
-| [SaveSearchCache](./savesearchcache/)(const System::SharedPtr\<System::IO::Stream\> \&) | Saves the font search cache to the stream. |
-| [SetFontsFolder](./setfontsfolder/)(const System::String \&, bool) | Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [SetFontsFolders()](./setfontsfolders/) for setting only one font directory. |
-| [SetFontsFolders](./setfontsfolders/)(const System::ArrayPtr\<System::String\> \&, bool) | Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
-| [SetFontsSources](./setfontssources/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\> \&) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
-| [SetFontsSources](./setfontssources/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\> \&, const System::SharedPtr\<System::IO::Stream\> \&) | Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache. |
 | static [get_DefaultInstance](./get_defaultinstance/)() | Static default font settings. |
-| [get_FallbackSettings](./get_fallbacksettings/)() const | Settings related to font fallback mechanism. |
-| [get_SubstitutionSettings](./get_substitutionsettings/)() const | Settings related to font substitution mechanism. |
+| [get_FallbackSettings](./get_fallbacksettings/)() const | [Settings](../../aspose.words.settings/) related to font fallback mechanism. |
+| [get_SubstitutionSettings](./get_substitutionsettings/)() const | [Settings](../../aspose.words.settings/) related to font substitution mechanism. |
+| [GetFontsSources](./getfontssources/)() | Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [ResetFontSources](./resetfontsources/)() | Resets the fonts sources to the system default. |
+| [SaveSearchCache](./savesearchcache/)(const System::SharedPtr\<System::IO::Stream\>\&) | Saves the font search cache to the stream. |
+| [SetFontsFolder](./setfontsfolder/)(const System::String\&, bool) | Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [SetFontsFolders()](../) for setting only one font directory. |
+| [SetFontsFolders](./setfontsfolders/)(const System::ArrayPtr\<System::String\>\&, bool) | Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
+| [SetFontsSources](./setfontssources/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\>\&) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
+| [SetFontsSources](./setfontssources/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\>\&, const System::SharedPtr\<System::IO::Stream\>\&) | Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache. |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
-Aspose.Words uses font settings to resolve the fonts in the document. Fonts are resolved mostly when building document layout or rendering to fixed page formats. But when loading some formats, Aspose.Words also may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback. So it is recommended that you set the font settings in [LoadOptions](../../aspose.words.loading/loadoptions/) when loading the document. Or at least before building the layout or rendering the document to the fixed-page format.
+Aspose.Words uses font settings to resolve the fonts in the document. [Fonts](../) are resolved mostly when building document layout or rendering to fixed page formats. But when loading some formats, Aspose.Words also may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback. So it is recommended that you set the font settings in [LoadOptions](../../aspose.words.loading/loadoptions/) when loading the document. Or at least before building the layout or rendering the document to the fixed-page format.
 
 By default all documents uses single static font settings instance. It could be accessed by [DefaultInstance](./get_defaultinstance/) property.
 
 Changing font settings is safe at any time from any thread. But it is recommended that you do not change the font settings while processing some documents which uses this settings. This can lead to the fact that the same font will be resolved differently in different parts of the document.
+
 ## Examples
 
 
-Shows how to set a font source directory.
 
+Shows how to set a font source directory. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,7 +62,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(originalFontSources->get_Length(), 1);
+ASSERT_EQ(1, originalFontSources->get_Length());
 ASSERT_TRUE(originalFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -84,7 +87,7 @@ FontSettings::get_DefaultInstance()->SetFontsFolder(get_FontsDir(), recursive);
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> newFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(newFontSources->get_Length(), 1);
+ASSERT_EQ(1, newFontSources->get_Length());
 ASSERT_FALSE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -97,7 +100,7 @@ ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System:
 // The "Amethysta" font is in a subfolder of the font directory.
 if (recursive)
 {
-    ASSERT_EQ(newFontSources[0]->GetAvailableFonts()->get_Count(), 30);
+    ASSERT_EQ(30, newFontSources[0]->GetAvailableFonts()->get_Count());
     ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Amethysta";
@@ -105,7 +108,7 @@ if (recursive)
 }
 else
 {
-    ASSERT_EQ(newFontSources[0]->GetAvailableFonts()->get_Count(), 18);
+    ASSERT_EQ(18, newFontSources[0]->GetAvailableFonts()->get_Count());
     ASSERT_FALSE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Amethysta";
@@ -118,8 +121,8 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.SetFontsFolder.pdf");
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
 
-Shows how to set multiple font source directories.
 
+Shows how to set multiple font source directories. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -134,7 +137,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(originalFontSources->get_Length(), 1);
+ASSERT_EQ(1, originalFontSources->get_Length());
 ASSERT_TRUE(originalFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -160,12 +163,12 @@ FontSettings::get_DefaultInstance()->SetFontsFolders(System::MakeArray<System::S
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> newFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(newFontSources->get_Length(), 2);
+ASSERT_EQ(2, newFontSources->get_Length());
 ASSERT_FALSE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
 }))));
-ASSERT_EQ(newFontSources[0]->GetAvailableFonts()->get_Count(), 1);
+ASSERT_EQ(1, newFontSources[0]->GetAvailableFonts()->get_Count());
 ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Amethysta";
@@ -174,7 +177,7 @@ ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System:
 // The "Junction" folder itself contains no font files, but has subfolders that do.
 if (recursive)
 {
-    ASSERT_EQ(newFontSources[1]->GetAvailableFonts()->get_Count(), 11);
+    ASSERT_EQ(11, newFontSources[1]->GetAvailableFonts()->get_Count());
     ASSERT_TRUE(newFontSources[1]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Junction Light";
@@ -182,7 +185,7 @@ if (recursive)
 }
 else
 {
-    ASSERT_EQ(newFontSources[1]->GetAvailableFonts()->get_Count(), 0);
+    ASSERT_EQ(0, newFontSources[1]->GetAvailableFonts()->get_Count());
 }
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.SetFontsFolders.pdf");
@@ -191,8 +194,8 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.SetFontsFolders.pdf");
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
 
-Shows how to add a font source to our existing font sources.
 
+Shows how to add a font source to our existing font sources. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -206,7 +209,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(originalFontSources->get_Length(), 1);
+ASSERT_EQ(1, originalFontSources->get_Length());
 
 ASSERT_TRUE(originalFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
@@ -252,6 +255,7 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.AddFontSource.pdf");
 // Restore the original font sources.
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

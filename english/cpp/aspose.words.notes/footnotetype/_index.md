@@ -13,25 +13,26 @@ url: /cpp/aspose.words.notes/footnotetype/
 Specifies whether this is a footnote or an endnote.
 
 ```cpp
-enum class FootnoteType : int
+enum class FootnoteType
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Endnote | 1 | The object is an endnote. |
 | Footnote | 0 | The object is a footnote. |
+| Endnote | 1 | The object is an endnote. |
 
 ## Remarks
 
 
 Both footnotes and endnotes are represented by objects by the [Footnote](./) class. Use [FootnoteType](../footnote/get_footnotetype/) to distinguish between footnotes and endnotes.
+
 ## Examples
 
 
-Shows how to reference text with a footnote and an endnote.
 
+Shows how to reference text with a footnote and an endnote. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,8 +57,8 @@ builder->InsertBreak(BreakType::PageBreak);
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
 
-Shows how to insert and customize footnotes.
 
+Shows how to insert and customize footnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -79,7 +80,7 @@ builder->MoveTo(footnote->get_FirstParagraph());
 builder->Write(u" More text added by a DocumentBuilder.");
 builder->MoveToDocumentEnd();
 
-ASSERT_EQ(footnote->GetText().Trim(), u"\u0002 Footnote text. More text added by a DocumentBuilder.");
+ASSERT_EQ(u"\u0002 Footnote text. More text added by a DocumentBuilder.", footnote->GetText().Trim());
 
 builder->Write(u" More main body text.");
 footnote = builder->InsertFootnote(FootnoteType::Footnote, u"Footnote text.");
@@ -98,6 +99,7 @@ ASSERT_TRUE(footnote->get_IsAuto());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddFootnote.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Notes](../)

@@ -10,18 +10,18 @@ url: /cpp/aspose.words/paragraphformat/get_firstlineindent/
 ## ParagraphFormat::get_FirstLineIndent method
 
 
-Gets or sets the value (in points) for a first line or hanging indent. 
-Use positive values to set the first-line indent, and negative values to set the hanging indent.
+Gets or sets the value (in points) for a first line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent.
 
 ```cpp
 double Aspose::Words::ParagraphFormat::get_FirstLineIndent()
 ```
 
+
 ## Examples
 
 
-Shows how to insert a paragraph into the document.
 
+Shows how to insert a paragraph into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,6 +46,7 @@ builder->Writeln(u"Hello world!");
 
 ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
+
 ## See Also
 
 * Class [ParagraphFormat](../)

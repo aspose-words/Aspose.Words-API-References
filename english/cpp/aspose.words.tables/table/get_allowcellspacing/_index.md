@@ -4,7 +4,7 @@ linktitle: get_AllowCellSpacing
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_AllowCellSpacing method. Gets or sets the "Allow spacing between cells" option in C++.'
 type: docs
-weight: 76000
+weight: 13000
 url: /cpp/aspose.words.tables/table/get_allowcellspacing/
 ---
 ## Table::get_AllowCellSpacing method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.tables/table/get_allowcellspacing/
 Gets or sets the "Allow spacing between cells" option.
 
 ```cpp
-_Bool Aspose::Words::Tables::Table::get_AllowCellSpacing()
+bool Aspose::Words::Tables::Table::get_AllowCellSpacing()
 ```
+
 
 ## Examples
 
 
-Shows how to enable spacing between individual cells in a table.
 
+Shows how to enable spacing between individual cells in a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,6 +53,7 @@ table->set_CellSpacing(5);
 
 ASSERT_TRUE(table->get_AllowCellSpacing());
 ```
+
 ## See Also
 
 * Class [Table](../)

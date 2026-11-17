@@ -19,14 +19,15 @@ int32_t Aspose::Words::Saving::SvgSaveOptions::get_MaxImageResolution() const
 ## Remarks
 
 
- If the value of this property is non-zero, it limits resolution of exported raster images. That is, higher-resolution images are resampled down to the limit and lower-resolution images are exported as is. 
+If the value of this property is non-zero, it limits resolution of exported raster images. That is, higher-resolution images are resampled down to the limit and lower-resolution images are exported as is.
 
- If the value of this property is zero, all raster images are exported without resampling. 
+If the value of this property is zero, all raster images are exported without resampling.
+
 ## Examples
 
 
-Shows how to set limit for image resolution.
 
+Shows how to set limit for image resolution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -35,6 +36,7 @@ saveOptions->set_MaxImageResolution(72);
 
 doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.MaxImageResolution.svg", saveOptions);
 ```
+
 ## See Also
 
 * Class [SvgSaveOptions](../)

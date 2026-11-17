@@ -19,7 +19,7 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_Pages()
 ## Remarks
 
 
-Aspose.Words updates this property when you call [UpdatePageLayout](../../../aspose.words/document/updatepagelayout/).
+Aspose.Words updates this property when you call [UpdatePageLayout](../../../aspose.words/document/updatepagelayout/). 
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

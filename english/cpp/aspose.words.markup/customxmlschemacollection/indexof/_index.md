@@ -13,22 +13,23 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/indexof/
 Returns the zero-based index of the specified value in the collection.
 
 ```cpp
-int32_t Aspose::Words::Markup::CustomXmlSchemaCollection::IndexOf(const System::String & value)
+int32_t Aspose::Words::Markup::CustomXmlSchemaCollection::IndexOf(const System::String &value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::String \& | The case-sensitive value to locate. |
+| value | const System::String\& | The case-sensitive value to locate. |
 
 ### ReturnValue
 
 The zero based index. Negative value if not found.
+
 ## Examples
 
 
-Shows how to work with an XML schema collection.
 
+Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -45,8 +46,8 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlSchemaCollection> schemas = xm
 schemas->Add(u"http://www.w3.org/2001/XMLSchema-instance");
 schemas->Add(u"http://schemas.microsoft.com/office/2006/metadata/contentType");
 
-ASSERT_EQ(schemas->get_Count(), 3);
-ASSERT_EQ(schemas->IndexOf(u"http://schemas.microsoft.com/office/2006/metadata/contentType"), 2);
+ASSERT_EQ(3, schemas->get_Count());
+ASSERT_EQ(2, schemas->IndexOf(u"http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
 // Enumerate the schemas and print each element.
 {
@@ -67,8 +68,9 @@ schemas->Remove(u"http://www.w3.org/2001/XMLSchema");
 // 3 -  Use the "Clear" method to empty the collection at once.
 schemas->Clear();
 
-ASSERT_EQ(schemas->get_Count(), 0);
+ASSERT_EQ(0, schemas->get_Count());
 ```
+
 ## See Also
 
 * Class [CustomXmlSchemaCollection](../)

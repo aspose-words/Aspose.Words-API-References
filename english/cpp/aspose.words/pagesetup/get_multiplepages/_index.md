@@ -16,11 +16,12 @@ For multiple page documents, gets or sets how a document is printed or rendered 
 Aspose::Words::Settings::MultiplePagesType Aspose::Words::PageSetup::get_MultiplePages()
 ```
 
+
 ## Examples
 
 
-Shows how to set gutter margins.
 
+Shows how to set gutter margins. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -37,7 +38,7 @@ for (int32_t i = 0; i < 6; i++)
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
 
 // Determine how much space our pages have for text within the margins and then add an amount to pad a margin.
-ASSERT_NEAR(pageSetup->get_PageWidth() - pageSetup->get_LeftMargin() - pageSetup->get_RightMargin(), 470.30, 0.01);
+ASSERT_NEAR(470.30, pageSetup->get_PageWidth() - pageSetup->get_LeftMargin() - pageSetup->get_RightMargin(), 0.01);
 
 pageSetup->set_Gutter(100.0);
 
@@ -51,8 +52,8 @@ pageSetup->set_MultiplePages(MultiplePagesType::MirrorMargins);
 doc->Save(get_ArtifactsDir() + u"PageSetup.Gutter.docx");
 ```
 
-Shows how to configure a document that can be printed as a book fold.
 
+Shows how to configure a document that can be printed as a book fold. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -77,8 +78,10 @@ pageSetup->set_SheetsPerBooklet(4);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.Booklet.docx");
 ```
+
 ## See Also
 
+* Enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

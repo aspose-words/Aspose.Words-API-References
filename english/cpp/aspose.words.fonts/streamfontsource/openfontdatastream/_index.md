@@ -13,16 +13,14 @@ url: /cpp/aspose.words.fonts/streamfontsource/openfontdatastream/
 This method should open the stream with font data on demand.
 
 ```cpp
-virtual System::SharedPtr<System::IO::Stream> Aspose::Words::Fonts::StreamFontSource::OpenFontDataStream()
+virtual System::SharedPtr<System::IO::Stream> Aspose::Words::Fonts::StreamFontSource::OpenFontDataStream()=0
 ```
 
 
 ### ReturnValue
 
-Font data stream.
-## Remarks
+[Font](../../../aspose.words/font/) data stream.
 
- The stream will be closed after reading. There is no need to close it explicitly. 
 ## See Also
 
 * Class [StreamFontSource](../)

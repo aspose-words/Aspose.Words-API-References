@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/field/unlink/
 Performs the field unlink.
 
 ```cpp
-_Bool Aspose::Words::Fields::Field::Unlink()
+bool Aspose::Words::Fields::Field::Unlink()
 ```
 
 
@@ -26,15 +26,17 @@ _Bool Aspose::Words::Fields::Field::Unlink()
 Replaces the field with its most recent result.
 
 Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+
 ## Examples
 
 
-Shows how to unlink a field.
 
+Shows how to unlink a field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Linked fields.docx"));
 doc->get_Range()->get_Fields()->idx_get(1)->Unlink();
 ```
+
 ## See Also
 
 * Class [Field](../)

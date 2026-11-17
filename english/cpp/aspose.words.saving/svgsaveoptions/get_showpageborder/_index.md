@@ -13,14 +13,15 @@ url: /cpp/aspose.words.saving/svgsaveoptions/get_showpageborder/
 Controls whether a border is added to the outline of the page. Default is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder() const
+bool Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder() const
 ```
+
 
 ## Examples
 
 
-Shows how to mimic the properties of images when converting a .docx document to .svg.
 
+Shows how to mimic the properties of images when converting a .docx document to .svg. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -32,6 +33,7 @@ options->set_TextOutputMode(SvgTextOutputMode::UsePlacedGlyphs);
 
 doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.SaveLikeImage.svg", options);
 ```
+
 ## See Also
 
 * Class [SvgSaveOptions](../)

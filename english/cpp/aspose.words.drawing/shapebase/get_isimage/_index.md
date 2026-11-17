@@ -4,7 +4,7 @@ linktitle: get_IsImage
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsImage method. Returns true if this shape is an image shape in C++.'
 type: docs
-weight: 61460
+weight: 29000
 url: /cpp/aspose.words.drawing/shapebase/get_isimage/
 ---
 ## ShapeBase::get_IsImage method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.drawing/shapebase/get_isimage/
 Returns **true** if this shape is an image shape.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsImage()
+bool Aspose::Words::Drawing::ShapeBase::get_IsImage()
 ```
+
 
 ## Examples
 
 
-Shows how to open an HTML document with images from a stream using a base URI.
 
+Shows how to open an HTML document with images from a stream using a base URI. 
 ```cpp
 {
     System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.html");
@@ -36,10 +37,11 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
-    ASSERT_NEAR(ConvertUtil::PointToPixel(shape->get_Width()), 32.0, 0.01);
-    ASSERT_NEAR(ConvertUtil::PointToPixel(shape->get_Height()), 32.0, 0.01);
+    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
+    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
 }
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

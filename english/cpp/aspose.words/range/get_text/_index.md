@@ -4,7 +4,7 @@ linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Range::get_Text method. Gets the text of the range in C++.'
 type: docs
-weight: 21000
+weight: 8000
 url: /cpp/aspose.words/range/get_text/
 ---
 ## Range::get_Text method
@@ -20,19 +20,21 @@ System::String Aspose::Words::Range::get_Text()
 
 
 The returned string includes all control and special characters as described in [ControlChar](../../controlchar/).
+
 ## Examples
 
 
-Shows how to get the text contents of all the nodes that a range covers.
 
+Shows how to get the text contents of all the nodes that a range covers. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Hello world!");
 
-ASSERT_EQ(doc->get_Range()->get_Text().Trim(), u"Hello world!");
+ASSERT_EQ(u"Hello world!", doc->get_Range()->get_Text().Trim());
 ```
+
 ## See Also
 
 * Class [Range](../)

@@ -13,14 +13,15 @@ url: /cpp/aspose.words.layout/layoutoptions/get_showparagraphmarks/
 Gets or sets indication of whether paragraph marks are rendered. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks() const
+bool Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks() const
 ```
+
 
 ## Examples
 
 
-Shows how to show paragraph marks in a rendered output document.
 
+Shows how to show paragraph marks in a rendered output document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -34,6 +35,7 @@ doc->get_LayoutOptions()->set_ShowParagraphMarks(showParagraphMarks);
 
 doc->Save(get_ArtifactsDir() + u"Document.LayoutOptionsParagraphMarks.pdf");
 ```
+
 ## See Also
 
 * Class [LayoutOptions](../)

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/set_usesingleborderforconti
 ## CompatibilityOptions::set_UseSingleBorderforContiguousCells method
 
 
-Use Simplified Rules For Table Border Conflicts.
+Use Simplified Rules For Table [Border](../../../aspose.words/border/) Conflicts.
 
 ```cpp
 void Aspose::Words::Settings::CompatibilityOptions::set_UseSingleBorderforContiguousCells(bool value)

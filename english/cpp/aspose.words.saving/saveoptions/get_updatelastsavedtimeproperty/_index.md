@@ -13,18 +13,19 @@ url: /cpp/aspose.words.saving/saveoptions/get_updatelastsavedtimeproperty/
 Gets or sets a value determining whether the [LastSavedTime](../../../aspose.words.properties/builtindocumentproperties/get_lastsavedtime/) property is updated before saving.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty() const
+bool Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty() const
 ```
+
 
 ## Examples
 
 
-Shows how to determine whether to preserve the document's "Last saved time" property when saving.
 
+Shows how to determine whether to preserve the document's "Last saved time" property when saving. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
-ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_LastSavedTime(), System::DateTime(2021, 5, 11, 6, 32, 0));
+ASSERT_EQ(System::DateTime(2021, 5, 11, 6, 32, 0), doc->get_BuiltInDocumentProperties()->get_LastSavedTime());
 
 // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
 // and then pass it to the document's saving method to modify how we save the document.
@@ -46,9 +47,10 @@ if (updateLastSavedTimeProperty)
 }
 else
 {
-    ASSERT_EQ(lastSavedTimeNew, System::DateTime(2021, 5, 11, 6, 32, 0));
+    ASSERT_EQ(System::DateTime(2021, 5, 11, 6, 32, 0), lastSavedTimeNew);
 }
 ```
+
 ## See Also
 
 * Class [SaveOptions](../)

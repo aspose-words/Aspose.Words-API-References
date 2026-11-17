@@ -4,7 +4,7 @@ linktitle: get_ParentStory
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Paragraph::get_ParentStory method. Retrieves the parent section-level story that can be Body or HeaderFooter in C++.'
 type: docs
-weight: 52000
+weight: 24000
 url: /cpp/aspose.words/paragraph/get_parentstory/
 ---
 ## Paragraph::get_ParentStory method
@@ -16,11 +16,12 @@ Retrieves the parent section-level story that can be [Body](../../body/) or [Hea
 System::SharedPtr<Aspose::Words::Story> Aspose::Words::Paragraph::get_ParentStory()
 ```
 
+
 ## Examples
 
 
-Shows how to create a header and a footer.
 
+Shows how to create a header and a footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -44,14 +45,16 @@ para = footer->AppendParagraph(u"My footer.");
 ASSERT_FALSE(footer->get_IsHeader());
 ASSERT_TRUE(para->get_IsEndOfHeaderFooter());
 
-ASPOSE_ASSERT_EQ(para->get_ParentStory(), footer);
-ASPOSE_ASSERT_EQ(para->get_ParentSection(), footer->get_ParentSection());
-ASPOSE_ASSERT_EQ(header->get_ParentSection(), footer->get_ParentSection());
+ASPOSE_ASSERT_EQ(footer, para->get_ParentStory());
+ASPOSE_ASSERT_EQ(footer->get_ParentSection(), para->get_ParentSection());
+ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
+
 ## See Also
 
+* Class [Story](../../story/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

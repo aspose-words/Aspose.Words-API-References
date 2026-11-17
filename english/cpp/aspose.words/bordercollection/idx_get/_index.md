@@ -24,11 +24,12 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::idx_ge
 
 
 Note that not all borders are present for different document elements. This method throws an exception if you request a border not applicable to the current object.
+
 ## Examples
 
 
-Shows how to decorate text with borders and shading.
 
+Shows how to decorate text with borders and shading. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,8 +49,11 @@ shading->set_ForegroundPatternColor(System::Drawing::Color::get_LightSalmon());
 builder->Write(u"This paragraph is formatted with a double border and shading.");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
+
 ## See Also
 
+* Class [Border](../../border/)
+* Enum [BorderType](../../bordertype/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -66,11 +70,12 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::idx_ge
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the border to retrieve. |
+
 ## Examples
 
 
-Shows how border collections can share elements.
 
+Shows how border collections can share elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,7 +91,7 @@ System::SharedPtr<Aspose::Words::BorderCollection> secondParagraphBorders = buil
 for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 {
     ASSERT_TRUE(System::ObjectExt::Equals(firstParagraphBorders->idx_get(i), secondParagraphBorders->idx_get(i)));
-    ASSERT_EQ(System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)));
+    ASSERT_EQ(System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)));
     ASSERT_FALSE(firstParagraphBorders->idx_get(i)->get_IsVisible());
 }
 
@@ -100,7 +105,7 @@ for (auto&& border : System::IterateOver(secondParagraphBorders))
 for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 {
     ASSERT_FALSE(System::ObjectExt::Equals(firstParagraphBorders->idx_get(i), secondParagraphBorders->idx_get(i)));
-    ASSERT_NE(System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)));
+    ASSERT_NE(System::ObjectExt::GetHashCode(firstParagraphBorders->idx_get(i)), System::ObjectExt::GetHashCode(secondParagraphBorders->idx_get(i)));
 
     // Changing the appearance of an empty border makes it visible.
     ASSERT_TRUE(secondParagraphBorders->idx_get(i)->get_IsVisible());
@@ -108,8 +113,10 @@ for (int32_t i = 0; i < firstParagraphBorders->get_Count(); i++)
 
 doc->Save(get_ArtifactsDir() + u"Border.SharedElements.docx");
 ```
+
 ## See Also
 
+* Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

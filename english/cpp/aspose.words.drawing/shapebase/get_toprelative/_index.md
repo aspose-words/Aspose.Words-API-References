@@ -4,7 +4,7 @@ linktitle: get_TopRelative
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_TopRelative method. Gets or sets the value that represents shape''s relative top position in percent in C++.'
 type: docs
-weight: 61895
+weight: 52500
 url: /cpp/aspose.words.drawing/shapebase/get_toprelative/
 ---
 ## ShapeBase::get_TopRelative method
@@ -16,11 +16,12 @@ Gets or sets the value that represents shape's relative top position in percent.
 float Aspose::Words::Drawing::ShapeBase::get_TopRelative()
 ```
 
+
 ## Examples
 
 
-Shows how to set relative size and position.
 
+Shows how to set relative size and position. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,6 +69,7 @@ if (shape->get_RelativeHorizontalPosition() == RelativeHorizontalPosition::Defau
 
 doc->Save(get_ArtifactsDir() + u"Shape.RelativeSizeAndPosition.docx");
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

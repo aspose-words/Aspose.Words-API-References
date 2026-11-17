@@ -13,14 +13,15 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoredeleted/
 Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreDeleted() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreDeleted() const
 ```
+
 
 ## Examples
 
 
-Shows how to include or ignore text inside delete revisions during a find-and-replace operation.
 
+Shows how to include or ignore text inside delete revisions during a find-and-replace operation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,8 +48,9 @@ options->set_IgnoreDeleted(ignoreTextInsideDeleteRevisions);
 
 doc->get_Range()->Replace(u"Hello", u"Greetings", options);
 
-ASSERT_EQ(doc->GetText().Trim(), ignoreTextInsideDeleteRevisions ? System::String(u"Greetings world!\rHello again!") : System::String(u"Greetings world!\rGreetings again!"));
+ASSERT_EQ(ignoreTextInsideDeleteRevisions ? System::String(u"Greetings world!\rHello again!") : System::String(u"Greetings world!\rGreetings again!"), doc->GetText().Trim());
 ```
+
 ## See Also
 
 * Class [FindReplaceOptions](../)

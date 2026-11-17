@@ -13,22 +13,23 @@ url: /cpp/aspose.words.tables/textwrapping/
 Specifies how text is wrapped around the table.
 
 ```cpp
-enum class TextWrapping : int
+enum class TextWrapping
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| None | 0 | Text and table is displayed in the order of their appearance in the document. |
 | Around | 1 | Text is wrapped around the table occupying available side space. |
 | Default | 0 | Default value. |
-| None | 0 | Text and table is displayed in the order of their appearance in the document. |
+
 
 ## Examples
 
 
-Shows how to work with table text wrapping.
 
+Shows how to work with table text wrapping. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,6 +53,7 @@ table->set_AbsoluteVerticalDistance(20);
 
 doc->Save(get_ArtifactsDir() + u"Table.WrapText.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)

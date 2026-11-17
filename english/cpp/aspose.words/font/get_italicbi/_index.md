@@ -4,7 +4,7 @@ linktitle: get_ItalicBi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_ItalicBi method. True if the right-to-left text is formatted as italic in C++.'
 type: docs
-weight: 58612
+weight: 19000
 url: /cpp/aspose.words/font/get_italicbi/
 ---
 ## Font::get_ItalicBi method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words/font/get_italicbi/
 True if the right-to-left text is formatted as italic.
 
 ```cpp
-_Bool Aspose::Words::Font::get_ItalicBi()
+bool Aspose::Words::Font::get_ItalicBi()
 ```
+
 
 ## Examples
 
 
-Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
 
+Shows how to define separate sets of font settings for right-to-left, and right-to-left text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,6 +53,7 @@ builder->Write(u" Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"Font.Bidi.docx");
 ```
+
 ## See Also
 
 * Class [Font](../)

@@ -19,7 +19,7 @@ System::String Aspose::Words::Drawing::TextPath::get_Text()
 ## Remarks
 
 
-The default value is an empty string.
+The default value is an empty string. 
 ## See Also
 
 * Class [TextPath](../)

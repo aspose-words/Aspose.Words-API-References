@@ -16,9 +16,6 @@ Timestamp server password.
 System::String Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_Password() const
 ```
 
-## Remarks
-
- The default value is **null**. 
 ## See Also
 
 * Class [PdfDigitalSignatureTimestampSettings](../)

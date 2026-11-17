@@ -7,23 +7,21 @@ type: docs
 weight: 13500
 url: /cpp/aspose.words.drawing.charts/chartseries/insert/
 ---
-## ChartSeries::Insert(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&) method
+## ChartSeries::Insert(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\>\&) method
 
 
 Inserts the specified X value into the chart series at the specified index. If the series supports Y values and bubble sizes, they will be empty for the X value.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartSeries::Insert(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> & xValue)
+void Aspose::Words::Drawing::Charts::ChartSeries::Insert(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> &xValue)
 ```
 
-## Remarks
 
- The corresponding data point with default formatting will be inserted into the data point collection. And, if data labels are displayed, the corresponding data label with default formatting will be inserted too. 
 ## Examples
 
 
-Shows how to insert data into a chart series.
 
+Shows how to insert data into a chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,28 +40,28 @@ series1->Insert(3, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10), stat
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
+
 ## See Also
 
+* Class [ChartXValue](../../chartxvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartSeries::Insert(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\> \&) method
+## ChartSeries::Insert(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\>\&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\>\&) method
 
 
 Inserts the specified X and Y values into the chart series at the specified index.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartSeries::Insert(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> & xValue, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> & yValue)
+void Aspose::Words::Drawing::Charts::ChartSeries::Insert(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> &xValue, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> &yValue)
 ```
 
-## Remarks
 
- The corresponding data point with default formatting will be inserted into the data point collection. And, if data labels are displayed, the corresponding data label with default formatting will be inserted too. 
 ## Examples
 
 
-Shows how to insert data into a chart series.
 
+Shows how to insert data into a chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,28 +80,29 @@ series1->Insert(3, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10), stat
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
+
 ## See Also
 
+* Class [ChartXValue](../../chartxvalue/)
+* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartSeries::Insert(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\> \&, double) method
+## ChartSeries::Insert(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\>\&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\>\&, double) method
 
 
 Inserts the specified X value, Y value and bubble size into the chart series at the specified index.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartSeries::Insert(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> & xValue, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> & yValue, double bubbleSize)
+void Aspose::Words::Drawing::Charts::ChartSeries::Insert(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> &xValue, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> &yValue, double bubbleSize)
 ```
 
-## Remarks
 
- The corresponding data point with default formatting will be inserted into the data point collection. And, if data labels are displayed, the corresponding data label with default formatting will be inserted too. 
 ## Examples
 
 
-Shows how to insert data into a chart series.
 
+Shows how to insert data into a chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -122,8 +121,11 @@ series1->Insert(3, ChartXValue::FromDouble(3), ChartYValue::FromDouble(10), stat
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
+
 ## See Also
 
+* Class [ChartXValue](../../chartxvalue/)
+* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

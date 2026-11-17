@@ -16,14 +16,16 @@ Gets the full name of the product.
 static System::String Aspose::Words::BuildVersionInfo::get_Product()
 ```
 
+
 ## Examples
 
 
-Shows how to display information about your installed version of Aspose.Words.
 
+Shows how to display information about your installed version of Aspose.Words. 
 ```cpp
 std::cout << System::String::Format(u"I am currently using {0}, version number {1}!", BuildVersionInfo::get_Product(), BuildVersionInfo::get_Version()) << std::endl;
 ```
+
 ## See Also
 
 * Class [BuildVersionInfo](../)

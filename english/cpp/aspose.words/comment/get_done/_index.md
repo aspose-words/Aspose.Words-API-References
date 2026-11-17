@@ -4,7 +4,7 @@ linktitle: get_Done
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::get_Done method. Gets or sets flag indicating that the comment has been marked done in C++.'
 type: docs
-weight: 27000
+weight: 8000
 url: /cpp/aspose.words/comment/get_done/
 ---
 ## Comment::get_Done method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words/comment/get_done/
 Gets or sets flag indicating that the comment has been marked done.
 
 ```cpp
-_Bool Aspose::Words::Comment::get_Done() const
+bool Aspose::Words::Comment::get_Done() const
 ```
+
 
 ## Examples
 
 
-Shows how to mark a comment as "done".
 
+Shows how to mark a comment as "done". 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,6 +48,7 @@ builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Co
 
 doc->Save(get_ArtifactsDir() + u"Comment.Done.docx");
 ```
+
 ## See Also
 
 * Class [Comment](../)

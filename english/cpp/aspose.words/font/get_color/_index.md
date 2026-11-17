@@ -4,7 +4,7 @@ linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Color method. Gets or sets the color of the font in C++.'
 type: docs
-weight: 58252
+weight: 9000
 url: /cpp/aspose.words/font/get_color/
 ---
 ## Font::get_Color method
@@ -16,11 +16,12 @@ Gets or sets the color of the font.
 System::Drawing::Color Aspose::Words::Font::get_Color()
 ```
 
+
 ## Examples
 
 
-Shows how to insert formatted text using DocumentBuilder.
 
+Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,8 +37,8 @@ font->set_Underline(Underline::Dash);
 builder->Write(u"Hello world!");
 ```
 
-Shows how to insert a hyperlink field.
 
+Shows how to insert a hyperlink field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,6 +56,7 @@ builder->Writeln(u".");
 // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHyperlink.docx");
 ```
+
 ## See Also
 
 * Class [Font](../)

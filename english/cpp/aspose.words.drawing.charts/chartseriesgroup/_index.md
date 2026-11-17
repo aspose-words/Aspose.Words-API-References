@@ -31,13 +31,16 @@ class ChartSeriesGroup : public System::Object
 | [get_SecondSectionSize](./get_secondsectionsize/)() | Gets or sets the size of the pie chart secondary section as a percentage. |
 | [get_Series](./get_series/)() | Gets a collection of series that belong to this series group. |
 | [get_SeriesType](./get_seriestype/)() | Gets the type of chart series included in this group. |
-| [set_AxisGroup](./set_axisgroup/)(Aspose::Words::Drawing::Charts::AxisGroup) | Sets the axis group to which this series group belongs. |
-| [set_BubbleScale](./set_bubblescale/)(int32_t) | Sets the size of the bubbles as a percentage of their default size. |
-| [set_DoughnutHoleSize](./set_doughnutholesize/)(int32_t) | Sets the hole size of the parent doughnut chart as a percentage. |
-| [set_FirstSliceAngle](./set_firstsliceangle/)(int32_t) | Sets the angle, in degrees, of the first slice of the parent pie chart. |
-| [set_GapWidth](./set_gapwidth/)(int32_t) | Sets the percentage of gap width between chart elements. |
-| [set_Overlap](./set_overlap/)(int32_t) | Sets the percentage of how much the series bars or columns overlap. |
-| [set_SecondSectionSize](./set_secondsectionsize/)(int32_t) | Sets the size of the pie chart secondary section as a percentage. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_AxisGroup](./set_axisgroup/)(Aspose::Words::Drawing::Charts::AxisGroup) | Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_AxisGroup](./get_axisgroup/). |
+| [set_BubbleScale](./set_bubblescale/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_BubbleScale](./get_bubblescale/). |
+| [set_DoughnutHoleSize](./set_doughnutholesize/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_DoughnutHoleSize](./get_doughnutholesize/). |
+| [set_FirstSliceAngle](./set_firstsliceangle/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_FirstSliceAngle](./get_firstsliceangle/). |
+| [set_GapWidth](./set_gapwidth/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_GapWidth](./get_gapwidth/). |
+| [set_Overlap](./set_overlap/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_Overlap](./get_overlap/). |
+| [set_SecondSectionSize](./set_secondsectionsize/)(int32_t) | Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_SecondSectionSize](./get_secondsectionsize/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
@@ -46,11 +49,12 @@ Combo charts contains multiple chart series groups, with a separate group for ea
 Also, you can create a chart series group to assign secondary axes to one or more chart series.
 
 To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
+
 ## Examples
 
 
-Shows how to work with the secondary axis of chart.
 
+Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -76,7 +80,7 @@ newSeriesGroup->get_AxisX()->set_Hidden(true);
 newSeriesGroup->get_AxisY()->get_Title()->set_Show(true);
 newSeriesGroup->get_AxisY()->get_Title()->set_Text(u"Secondary Y axis");
 
-ASSERT_EQ(newSeriesGroup->get_SeriesType(), ChartSeriesType::Line);
+ASSERT_EQ(ChartSeriesType::Line, newSeriesGroup->get_SeriesType());
 
 // Add a series to the new series group.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series3 = newSeriesGroup->get_Series()->Add(u"Series of secondary series group", categories, System::MakeArray<double>({13, 11, 16}));
@@ -84,6 +88,7 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

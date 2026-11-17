@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Saving::MetafileRenderingOptions> Aspose::Words
 
 ## See Also
 
+* Class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

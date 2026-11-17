@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::GradientStop class
 linktitle: GradientStop
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::GradientStop class. Represents one gradient stop. To learn more, visit the Working with Graphic Elements documentation article in C++.'
+description: 'Aspose::Words::Drawing::GradientStop class. Represents one gradient stop. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.drawing/gradientstop/
@@ -10,8 +10,7 @@ url: /cpp/aspose.words.drawing/gradientstop/
 ## GradientStop class
 
 
-Represents one gradient stop. 
-To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article.
+Represents one gradient stop. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article.
 
 ```cpp
 class GradientStop : public System::Object
@@ -21,21 +20,25 @@ class GradientStop : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [GradientStop](./gradientstop/)(System::Drawing::Color, double) | Initializes a new instance of the [GradientStop](./) class. |
-| [GradientStop](./gradientstop/)(System::Drawing::Color, double, double) | Initializes a new instance of the [GradientStop](./) class. |
-| [Remove](./remove/)() | Removes the gradient stop from the parent [GradientStopCollection](../gradientstopcollection/). |
 | [get_BaseColor](./get_basecolor/)() | Gets a value representing the color of the gradient stop without any modifiers. |
 | [get_Color](./get_color/)() | Gets or sets a value representing the color of the gradient stop. |
 | [get_Position](./get_position/)() const | Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [get_Transparency](./get_transparency/)() const | Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
-| [set_Color](./set_color/)(System::Drawing::Color) | Sets a value representing the color of the gradient stop. |
-| [set_Position](./set_position/)(double) | Sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
-| [set_Transparency](./set_transparency/)(double) | Sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
+| [GetType](./gettype/)() const override |  |
+| [GradientStop](./gradientstop/)(System::Drawing::Color, double) | Initializes a new instance of the [GradientStop](./) class. |
+| [GradientStop](./gradientstop/)(System::Drawing::Color, double, double) | Initializes a new instance of the [GradientStop](./) class. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [Remove](./remove/)() | Removes the gradient stop from the parent [GradientStopCollection](../gradientstopcollection/). |
+| [set_Color](./set_color/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::GradientStop::get_Color](./get_color/). |
+| [set_Position](./set_position/)(double) | Setter for [Aspose::Words::Drawing::GradientStop::get_Position](./get_position/). |
+| [set_Transparency](./set_transparency/)(double) | Setter for [Aspose::Words::Drawing::GradientStop::get_Transparency](./get_transparency/). |
+| static [Type](./type/)() |  |
+
 ## Examples
 
 
-Shows how to add gradient stops to the gradient fill.
 
+Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,16 +67,16 @@ gradientStops->Insert(1, System::MakeObject<Aspose::Words::Drawing::GradientStop
 gradientStop = gradientStops->idx_get(2);
 gradientStops->Remove(gradientStop);
 
-ASSERT_EQ(gradientStops->get_Count(), 2);
+ASSERT_EQ(2, gradientStops->get_Count());
 
-ASPOSE_ASSERT_EQ(gradientStops->idx_get(0)->get_BaseColor(), System::Drawing::Color::FromArgb(255, 0, 255, 255));
-ASSERT_EQ(gradientStops->idx_get(0)->get_Color().ToArgb(), System::Drawing::Color::get_Aqua().ToArgb());
-ASSERT_NEAR(gradientStops->idx_get(0)->get_Position(), 0.1, 0.01);
-ASSERT_NEAR(gradientStops->idx_get(0)->get_Transparency(), 0.25, 0.01);
+ASPOSE_ASSERT_EQ(System::Drawing::Color::FromArgb(255, 0, 255, 255), gradientStops->idx_get(0)->get_BaseColor());
+ASSERT_EQ(System::Drawing::Color::get_Aqua().ToArgb(), gradientStops->idx_get(0)->get_Color().ToArgb());
+ASSERT_NEAR(0.1, gradientStops->idx_get(0)->get_Position(), 0.01);
+ASSERT_NEAR(0.25, gradientStops->idx_get(0)->get_Transparency(), 0.01);
 
-ASSERT_EQ(gradientStops->idx_get(1)->get_Color().ToArgb(), System::Drawing::Color::get_Chocolate().ToArgb());
-ASSERT_NEAR(gradientStops->idx_get(1)->get_Position(), 0.75, 0.01);
-ASSERT_NEAR(gradientStops->idx_get(1)->get_Transparency(), 0.3, 0.01);
+ASSERT_EQ(System::Drawing::Color::get_Chocolate().ToArgb(), gradientStops->idx_get(1)->get_Color().ToArgb());
+ASSERT_NEAR(0.75, gradientStops->idx_get(1)->get_Position(), 0.01);
+ASSERT_NEAR(0.3, gradientStops->idx_get(1)->get_Transparency(), 0.01);
 
 // Use the compliance option to define the shape using DML
 // if you want to get "GradientStops" property after the document saves.
@@ -82,6 +85,7 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

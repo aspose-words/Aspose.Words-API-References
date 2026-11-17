@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::GlowFormat::set_Transparency method
 linktitle: set_Transparency
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::GlowFormat::set_Transparency method. Sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0 in C++.'
+description: 'Aspose::Words::Drawing::GlowFormat::set_Transparency method. Setter for Aspose::Words::Drawing::GlowFormat::get_Transparency in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.drawing/glowformat/set_transparency/
@@ -10,40 +10,12 @@ url: /cpp/aspose.words.drawing/glowformat/set_transparency/
 ## GlowFormat::set_Transparency method
 
 
-Sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0.
+Setter for [Aspose::Words::Drawing::GlowFormat::get_Transparency](../get_transparency/).
 
 ```cpp
 void Aspose::Words::Drawing::GlowFormat::set_Transparency(double value)
 ```
 
-## Examples
-
-
-Shows how to interact with glow shape effect.
-
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
-auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
-
-shape->get_Glow()->set_Color(System::Drawing::Color::get_Salmon());
-shape->get_Glow()->set_Radius(30);
-shape->get_Glow()->set_Transparency(0.15);
-
-doc->Save(get_ArtifactsDir() + u"Shape.Glow.docx");
-
-doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Glow.docx"));
-shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
-
-ASSERT_EQ(shape->get_Glow()->get_Color().ToArgb(), System::Drawing::Color::FromArgb(217, 250, 128, 114).ToArgb());
-ASPOSE_ASSERT_EQ(shape->get_Glow()->get_Radius(), 30);
-ASSERT_NEAR(shape->get_Glow()->get_Transparency(), 0.15, 0.01);
-
-shape->get_Glow()->Remove();
-
-ASSERT_EQ(shape->get_Glow()->get_Color().ToArgb(), System::Drawing::Color::get_Black().ToArgb());
-ASPOSE_ASSERT_EQ(shape->get_Glow()->get_Radius(), 0);
-ASPOSE_ASSERT_EQ(shape->get_Glow()->get_Transparency(), 0);
-```
 ## See Also
 
 * Class [GlowFormat](../)

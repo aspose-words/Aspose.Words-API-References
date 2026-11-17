@@ -20,11 +20,12 @@ void Aspose::Words::BookmarkCollection::RemoveAt(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the bookmark to remove. |
+
 ## Examples
 
 
-Shows how to remove bookmarks from a document.
 
+Shows how to remove bookmarks from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +44,7 @@ for (int32_t i = 1; i <= 5; i++)
 // This collection stores bookmarks.
 System::SharedPtr<Aspose::Words::BookmarkCollection> bookmarks = doc->get_Range()->get_Bookmarks();
 
-ASSERT_EQ(bookmarks->get_Count(), 5);
+ASSERT_EQ(5, bookmarks->get_Count());
 
 // There are several ways of removing bookmarks.
 // 1 -  Calling the bookmark's Remove method:
@@ -83,9 +84,10 @@ ASSERT_FALSE(bookmarks->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspo
 bookmarks->Clear();
 
 // The text that was inside the bookmarks is still present in the document.
-ASSERT_EQ(bookmarks->get_Count(), 0);
-ASSERT_EQ(doc->GetText().Trim(), System::String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r" + u"Text inside MyBookmark_3.\r" + u"Text inside MyBookmark_4.\r" + u"Text inside MyBookmark_5.");
+ASSERT_EQ(0, bookmarks->get_Count());
+ASSERT_EQ(System::String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r" + u"Text inside MyBookmark_3.\r" + u"Text inside MyBookmark_4.\r" + u"Text inside MyBookmark_5.", doc->GetText().Trim());
 ```
+
 ## See Also
 
 * Class [BookmarkCollection](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::IStructuredDocumentTag::set_Appearance method
 linktitle: set_Appearance
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::IStructuredDocumentTag::set_Appearance method. Sets the appearance of the structured document tag in C++.'
+description: 'Aspose::Words::Markup::IStructuredDocumentTag::set_Appearance method. Setter for Aspose::Words::Markup::IStructuredDocumentTag::get_Appearance in C++.'
 type: docs
 weight: 17750
 url: /cpp/aspose.words.markup/istructureddocumenttag/set_appearance/
@@ -10,28 +10,15 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/set_appearance/
 ## IStructuredDocumentTag::set_Appearance method
 
 
-Sets the appearance of the structured document tag.
+Setter for [Aspose::Words::Markup::IStructuredDocumentTag::get_Appearance](../get_appearance/).
 
 ```cpp
-virtual void Aspose::Words::Markup::IStructuredDocumentTag::set_Appearance(Aspose::Words::Markup::SdtAppearance value)
+virtual void Aspose::Words::Markup::IStructuredDocumentTag::set_Appearance(Aspose::Words::Markup::SdtAppearance value)=0
 ```
 
-## Examples
-
-
-Shows how to show tag around content.
-
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
-auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, true));
-
-if (tag->get_Appearance() == SdtAppearance::Hidden)
-{
-    tag->set_Appearance(SdtAppearance::Tags);
-}
-```
 ## See Also
 
+* Enum [SdtAppearance](../../sdtappearance/)
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

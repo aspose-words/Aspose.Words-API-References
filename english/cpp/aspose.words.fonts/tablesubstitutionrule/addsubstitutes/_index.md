@@ -13,36 +13,43 @@ url: /cpp/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
 Adds substitute font names for given original font name.
 
 ```cpp
-void Aspose::Words::Fonts::TableSubstitutionRule::AddSubstitutes(const System::String & originalFontName, const System::ArrayPtr<System::String> & substituteFontNames)
+void Aspose::Words::Fonts::TableSubstitutionRule::AddSubstitutes(const System::String &originalFontName, const System::ArrayPtr<System::String> &substituteFontNames)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| originalFontName | const System::String \& | Original font name. |
-| substituteFontNames | const System::ArrayPtr\<System::String\> \& | List of alternative font names. |
+| originalFontName | const System::String\& | Original font name. |
+| substituteFontNames | const System::ArrayPtr\<System::String\>\& | List of alternative font names. |
+
 ## Examples
 
 
-Shows how to access a document's system font source and set font substitutes.
 
+Shows how to access a document's system font source and set font substitutes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
 
 // By default, a blank document always contains a system font source.
-ASSERT_EQ(doc->get_FontSettings()->GetFontsSources()->get_Length(), 1);
+ASSERT_EQ(1, doc->get_FontSettings()->GetFontsSources()->get_Length());
 
 auto systemFontSource = System::ExplicitCast<Aspose::Words::Fonts::SystemFontSource>(doc->get_FontSettings()->GetFontsSources()[0]);
-ASSERT_EQ(systemFontSource->get_Type(), FontSourceType::SystemFonts);
-ASSERT_EQ(systemFontSource->get_Priority(), 0);
+ASSERT_EQ(FontSourceType::SystemFonts, systemFontSource->get_Type());
+ASSERT_EQ(0, systemFontSource->get_Priority());
 
 System::PlatformID pid = System::Environment::get_OSVersion().get_Platform();
 bool isWindows = (pid == System::PlatformID::Win32NT) || (pid == System::PlatformID::Win32S) || (pid == System::PlatformID::Win32Windows) || (pid == System::PlatformID::WinCE);
 if (isWindows)
 {
     const System::String fontsPath = u"C:\\WINDOWS\\Fonts";
-    ASSERT_EQ(System::SafeInvoke(SystemFontSource::GetSystemFontFolders()->LINQ_FirstOrDefault(), [&](auto&& expr){return expr.ToLower();}), fontsPath.ToLower());
+    System::String actual = System::Default<System::String>();
+    System::String condExpression = SystemFontSource::GetSystemFontFolders()->LINQ_FirstOrDefault();
+    if (condExpression != nullptr)
+    {
+        actual = condExpression.ToLower();
+    }
+    ASSERT_EQ(fontsPath.ToLower(), actual);
 }
 
 for (System::String systemFontFolder : SystemFontSource::GetSystemFontFolders())
@@ -55,25 +62,25 @@ doc->get_FontSettings()->get_SubstitutionSettings()->get_FontInfoSubstitution()-
 doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->AddSubstitutes(u"Kreon-Regular", System::MakeArray<System::String>({
     u"Calibri"}));
 
-ASSERT_EQ(doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count(), 1);
+ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_ToArray()->Contains(u"Calibri"));
 
 // Alternatively, we could add a folder font source in which the corresponding folder contains the font.
 auto folderFontSource = System::MakeObject<Aspose::Words::Fonts::FolderFontSource>(get_FontsDir(), false);
 doc->get_FontSettings()->SetFontsSources(System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({systemFontSource, folderFontSource}));
-ASSERT_EQ(doc->get_FontSettings()->GetFontsSources()->get_Length(), 2);
+ASSERT_EQ(2, doc->get_FontSettings()->GetFontsSources()->get_Length());
 
 // Resetting the font sources still leaves us with the system font source as well as our substitutes.
 doc->get_FontSettings()->ResetFontSources();
 
-ASSERT_EQ(doc->get_FontSettings()->GetFontsSources()->get_Length(), 1);
-ASSERT_EQ(doc->get_FontSettings()->GetFontsSources()[0]->get_Type(), FontSourceType::SystemFonts);
-ASSERT_EQ(doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count(), 1);
+ASSERT_EQ(1, doc->get_FontSettings()->GetFontsSources()->get_Length());
+ASSERT_EQ(FontSourceType::SystemFonts, doc->get_FontSettings()->GetFontsSources()[0]->get_Type());
+ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubstitution()->GetSubstitutes(u"Kreon-Regular")->LINQ_Count());
 ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSubstitution()->get_Enabled());
 ```
 
-Shows how to work with custom font substitution tables.
 
+Shows how to work with custom font substitution tables. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -100,25 +107,21 @@ tableSubstitutionRule->Load(get_MyDir() + u"Font substitution rules.xml");
 
 // Since we no longer have access to "Arial", our font table will first try substitute it with "Nonexistent Font".
 // We do not have this font so that it will move onto the next substitute, "Kreon", found in the "MyFonts" folder.
-ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Arial")->LINQ_ToArray(), System::MakeArray<System::String>({
-    u"Missing Font", u"Kreon"}));
+ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Missing Font", u"Kreon"}), tableSubstitutionRule->GetSubstitutes(u"Arial")->LINQ_ToArray());
 
 // We can expand this table programmatically. We will add an entry that substitutes "Times New Roman" with "Arvo"
 ASSERT_TRUE(System::TestTools::IsNull(tableSubstitutionRule->GetSubstitutes(u"Times New Roman")));
 tableSubstitutionRule->AddSubstitutes(u"Times New Roman", System::MakeArray<System::String>({u"Arvo"}));
-ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray(), System::MakeArray<System::String>({
-    u"Arvo"}));
+ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Arvo"}), tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray());
 
 // We can add a secondary fallback substitute for an existing font entry with AddSubstitutes().
 // In case "Arvo" is unavailable, our table will look for "M+ 2m" as a second substitute option.
 tableSubstitutionRule->AddSubstitutes(u"Times New Roman", System::MakeArray<System::String>({u"M+ 2m"}));
-ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray(), System::MakeArray<System::String>({
-    u"Arvo", u"M+ 2m"}));
+ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Arvo", u"M+ 2m"}), tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray());
 
 // SetSubstitutes() can set a new list of substitute fonts for a font.
 tableSubstitutionRule->SetSubstitutes(u"Times New Roman", System::MakeArray<System::String>({u"Squarish Sans CT", u"M+ 2m"}));
-ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray(), System::MakeArray<System::String>({
-    u"Squarish Sans CT", u"M+ 2m"}));
+ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Squarish Sans CT", u"M+ 2m"}), tableSubstitutionRule->GetSubstitutes(u"Times New Roman")->LINQ_ToArray());
 
 // Writing text in fonts that we do not have access to will invoke our substitution rules.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -130,6 +133,7 @@ builder->Writeln(u"Text written in Times New Roman, to be substituted by Squaris
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 ```
+
 ## See Also
 
 * Class [TableSubstitutionRule](../)

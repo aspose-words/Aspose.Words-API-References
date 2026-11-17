@@ -13,13 +13,13 @@ url: /cpp/aspose.words.drawing/textpath/get_fitpath/
 Defines whether the text fits the path of a shape.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextPath::get_FitPath()
+bool Aspose::Words::Drawing::TextPath::get_FitPath()
 ```
 
 ## Remarks
 
 
-The default value is **false**.
+The default value is **false**. 
 ## See Also
 
 * Class [TextPath](../)

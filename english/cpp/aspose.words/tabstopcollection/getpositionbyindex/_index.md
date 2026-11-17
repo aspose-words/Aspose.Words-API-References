@@ -24,11 +24,12 @@ double Aspose::Words::TabStopCollection::GetPositionByIndex(int32_t index)
 ### ReturnValue
 
 The position of the tab stop.
+
 ## Examples
 
 
-Shows how to find a tab, stop by its index and verify its position.
 
+Shows how to find a tab, stop by its index and verify its position. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::TabStopCollection> tabStops = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat()->get_TabStops();
@@ -37,8 +38,9 @@ tabStops->Add(ConvertUtil::MillimeterToPoint(30), TabAlignment::Left, TabLeader:
 tabStops->Add(ConvertUtil::MillimeterToPoint(60), TabAlignment::Left, TabLeader::Dashes);
 
 // Verify the position of the second tab stop in the collection.
-ASSERT_NEAR(tabStops->GetPositionByIndex(1), ConvertUtil::MillimeterToPoint(60), 0.1);
+ASSERT_NEAR(ConvertUtil::MillimeterToPoint(60), tabStops->GetPositionByIndex(1), 0.1);
 ```
+
 ## See Also
 
 * Class [TabStopCollection](../)

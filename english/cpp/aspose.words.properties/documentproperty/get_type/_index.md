@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::DocumentProperty::get_Type method. Gets the data type of the property in C++.'
 type: docs
-weight: 19000
+weight: 5000
 url: /cpp/aspose.words.properties/documentproperty/get_type/
 ---
 ## DocumentProperty::get_Type method
@@ -16,11 +16,12 @@ Gets the data type of the property.
 Aspose::Words::Properties::PropertyType Aspose::Words::Properties::DocumentProperty::get_Type() const
 ```
 
+
 ## Examples
 
 
-Shows how to work with built-in document properties.
 
+Shows how to work with built-in document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
@@ -50,13 +51,13 @@ for (auto&& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties
 }
 ```
 
-Shows how to work with a document's custom properties.
 
+Shows how to work with a document's custom properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
 
-ASSERT_EQ(properties->get_Count(), 0);
+ASSERT_EQ(0, properties->get_Count());
 
 // Custom document properties are key-value pairs that we can add to the document.
 properties->Add(u"Authorized", true);
@@ -66,8 +67,8 @@ properties->Add(u"Authorized Revision", doc->get_BuiltInDocumentProperties()->ge
 properties->Add(u"Authorized Amount", 123.45);
 
 // The collection sorts the custom properties in alphabetic order.
-ASSERT_EQ(properties->IndexOf(u"Authorized Amount"), 1);
-ASSERT_EQ(properties->get_Count(), 5);
+ASSERT_EQ(1, properties->IndexOf(u"Authorized Amount"));
+ASSERT_EQ(5, properties->get_Count());
 
 // Print every custom property in the document.
 {
@@ -83,7 +84,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
-ASSERT_EQ(field->get_Result(), u"John Doe");
+ASSERT_EQ(u"John Doe", field->get_Result());
 
 // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.DocumentPropertyCollection.docx");
@@ -93,21 +94,23 @@ doc->Save(get_ArtifactsDir() + u"DocumentProperties.DocumentPropertyCollection.d
 properties->RemoveAt(1);
 
 ASSERT_FALSE(properties->Contains(u"Authorized Amount"));
-ASSERT_EQ(properties->get_Count(), 4);
+ASSERT_EQ(4, properties->get_Count());
 
 // 2 -  Remove by name:
 properties->Remove(u"Authorized Revision");
 
 ASSERT_FALSE(properties->Contains(u"Authorized Revision"));
-ASSERT_EQ(properties->get_Count(), 3);
+ASSERT_EQ(3, properties->get_Count());
 
 // 3 -  Empty the entire collection at once:
 properties->Clear();
 
-ASSERT_EQ(properties->get_Count(), 0);
+ASSERT_EQ(0, properties->get_Count());
 ```
+
 ## See Also
 
+* Enum [PropertyType](../../propertytype/)
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

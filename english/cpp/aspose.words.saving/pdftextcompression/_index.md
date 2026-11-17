@@ -13,15 +13,15 @@ url: /cpp/aspose.words.saving/pdftextcompression/
 Specifies a type of compression applied to all content in the PDF file except images.
 
 ```cpp
-enum class PdfTextCompression : int
+enum class PdfTextCompression
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Flate | 1 | Flate (ZIP) compression. |
 | None | 0 | No compression. |
+| Flate | 1 | Flate (ZIP) compression. |
 
 ## See Also
 

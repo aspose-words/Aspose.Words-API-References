@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldinclude/get_lockfields/
 Gets or sets whether to prevent fields in the included document from being updated.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldInclude::get_LockFields() override
+bool Aspose::Words::Fields::FieldInclude::get_LockFields() override
 ```
+
 
 ## Examples
 
 
-Shows how to create an INCLUDE field, and set its properties.
 
+Shows how to create an INCLUDE field, and set its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,6 +39,7 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(field->GetFieldCode()
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INCLUDE.docx");
 ```
+
 ## See Also
 
 * Class [FieldInclude](../)

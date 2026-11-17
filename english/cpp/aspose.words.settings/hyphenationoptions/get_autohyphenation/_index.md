@@ -13,14 +13,15 @@ url: /cpp/aspose.words.settings/hyphenationoptions/get_autohyphenation/
 Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**.
 
 ```cpp
-_Bool Aspose::Words::Settings::HyphenationOptions::get_AutoHyphenation() const
+bool Aspose::Words::Settings::HyphenationOptions::get_AutoHyphenation() const
 ```
+
 
 ## Examples
 
 
-Shows how to configure automatic hyphenation.
 
+Shows how to configure automatic hyphenation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -35,6 +36,7 @@ doc->get_HyphenationOptions()->set_HyphenateCaps(true);
 
 doc->Save(get_ArtifactsDir() + u"Document.HyphenationOptions.docx");
 ```
+
 ## See Also
 
 * Class [HyphenationOptions](../)

@@ -20,8 +20,10 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 ### ReturnValue
 
 An IEnumerator.
+
 ## See Also
 
+* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

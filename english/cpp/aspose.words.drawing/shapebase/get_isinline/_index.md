@@ -4,7 +4,7 @@ linktitle: get_IsInline
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsInline method. A quick way to determine if this shape is positioned inline with text in C++.'
 type: docs
-weight: 61475
+weight: 30000
 url: /cpp/aspose.words.drawing/shapebase/get_isinline/
 ---
 ## ShapeBase::get_IsInline method
@@ -13,18 +13,19 @@ url: /cpp/aspose.words.drawing/shapebase/get_isinline/
 A quick way to determine if this shape is positioned inline with text.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsInline()
+bool Aspose::Words::Drawing::ShapeBase::get_IsInline()
 ```
 
 ## Remarks
 
 
 Has effect only for top level shapes.
+
 ## Examples
 
 
-Shows how to determine whether a shape is inline or floating.
 
+Shows how to determine whether a shape is inline or floating. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +41,7 @@ builder->Write(u" Hello again.");
 // In Microsoft Word, we may click and drag the shape to any paragraph as if it is a character.
 // If the shape is large, it will affect vertical paragraph spacing.
 // We cannot move this shape to a place with no paragraph.
-ASSERT_EQ(shape->get_WrapType(), WrapType::Inline);
+ASSERT_EQ(WrapType::Inline, shape->get_WrapType());
 ASSERT_TRUE(shape->get_IsInline());
 
 // 2 -  Floating:
@@ -52,11 +53,12 @@ shape->set_FillColor(System::Drawing::Color::get_Orange());
 // If the shape does not have a visible anchor symbol to its left,
 // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
 // In Microsoft Word, we may left click and drag this shape freely to any location.
-ASSERT_EQ(shape->get_WrapType(), WrapType::None);
+ASSERT_EQ(WrapType::None, shape->get_WrapType());
 ASSERT_FALSE(shape->get_IsInline());
 
 doc->Save(get_ArtifactsDir() + u"Shape.IsInline.docx");
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

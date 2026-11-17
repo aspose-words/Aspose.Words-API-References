@@ -16,11 +16,12 @@ Specifies version of HTML standard that should be used when saving the document 
 Aspose::Words::Saving::HtmlVersion Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion() const
 ```
 
+
 ## Examples
 
 
-Shows how to save a document to a specific version of HTML.
 
+Shows how to save a document to a specific version of HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -48,8 +49,8 @@ switch (htmlVersion)
 }
 ```
 
-Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
 
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,7 +66,7 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportXhtmlTransitional.html", 
 
 // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
 System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.ExportXhtmlTransitional.html");
-System::String newLine = ControlChar::CrLf();
+System::String newLine = System::Environment::get_NewLine();
 
 if (showDoctypeDeclaration)
 {
@@ -76,8 +77,10 @@ else
     ASSERT_TRUE(outDocContents.Contains(u"<html>"));
 }
 ```
+
 ## See Also
 
+* Enum [HtmlVersion](../../htmlversion/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

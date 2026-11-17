@@ -21,7 +21,7 @@ System::String Aspose::Words::Markup::CustomXmlProperty::get_Value() const
 
 Cannot be **null**.
 
-Default is empty string.
+Default is empty string. 
 ## See Also
 
 * Class [CustomXmlProperty](../)

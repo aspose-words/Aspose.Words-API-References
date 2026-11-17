@@ -16,11 +16,12 @@ If the last child is not a paragraph, creates and appends one empty paragraph.
 void Aspose::Words::Body::EnsureMinimum()
 ```
 
+
 ## Examples
 
 
-Clears main text from all sections from the document leaving the sections themselves.
 
+Clears main text from all sections from the document leaving the sections themselves. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -41,7 +42,7 @@ auto body = System::MakeObject<Aspose::Words::Body>(doc);
 section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 
 // This body has no children, so we cannot add runs to it yet.
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->GetChildNodes(NodeType::Any, true)->get_Count(), 0);
+ASSERT_EQ(0, doc->get_FirstSection()->get_Body()->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // Call the "EnsureMinimum" to make sure that this body contains at least one empty paragraph.
 body->EnsureMinimum();
@@ -49,8 +50,9 @@ body->EnsureMinimum();
 // Now, we can add runs to the body, and get the document to display them.
 body->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 
-ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
+ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
+
 ## See Also
 
 * Class [Body](../)

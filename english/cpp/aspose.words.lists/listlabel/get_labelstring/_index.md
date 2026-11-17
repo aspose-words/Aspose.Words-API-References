@@ -16,11 +16,12 @@ Gets a string representation of list label.
 System::String Aspose::Words::Lists::ListLabel::get_LabelString()
 ```
 
+
 ## Examples
 
 
-Shows how to extract the list labels of all paragraphs that are list items.
 
+Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
@@ -51,6 +52,7 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
     std::cout << System::String::Format(u"\tList label combined with text: {0} {1}", label->get_LabelString(), paragraphText) << std::endl;
 }
 ```
+
 ## See Also
 
 * Class [ListLabel](../)

@@ -23,12 +23,13 @@ System::String Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolder() cons
 
 [ResourceFolder](./) has a lower priority than folders specified via [FontsFolder](../get_fontsfolder/), [ImagesFolder](../get_imagesfolder/), and [CssStyleSheetFileName](../get_cssstylesheetfilename/). For example, if both [ResourceFolder](./) and [FontsFolder](../get_fontsfolder/) are specified, fonts will be saved to [FontsFolder](../get_fontsfolder/), while images and CSS will be saved to [ResourceFolder](./).
 
-If the folder specified by [ResourceFolder](./) doesn't exist, it will be created automatically. 
+If the folder specified by [ResourceFolder](./) doesn't exist, it will be created automatically.
+
 ## Examples
 
 
-Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -47,6 +48,7 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
+
 ## See Also
 
 * Class [HtmlSaveOptions](../)

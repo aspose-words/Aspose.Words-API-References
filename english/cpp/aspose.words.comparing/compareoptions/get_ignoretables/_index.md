@@ -13,17 +13,15 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignoretables/
 Specifies whether to compare the differences in data contained in tables.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreTables() const
+bool Aspose::Words::Comparing::CompareOptions::get_IgnoreTables() const
 ```
 
-## Remarks
 
- By default tables are not ignored. 
 ## Examples
 
 
-Shows how to filter specific types of document elements when making a comparison.
 
+Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -90,6 +88,7 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
+
 ## See Also
 
 * Class [CompareOptions](../)

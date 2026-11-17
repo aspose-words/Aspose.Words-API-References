@@ -16,14 +16,12 @@ Gets or sets the zoom factor for the generated images.
 float Aspose::Words::Saving::ImageSaveOptions::get_Scale() const
 ```
 
-## Remarks
 
- The default value is 1.0. The value must be greater than 0. 
 ## Examples
 
 
-Shows how to edit the image while Aspose.Words converts a document to one.
 
+Shows how to edit the image while Aspose.Words converts a document to one. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,8 +49,8 @@ options->set_Scale(96.f / 72.f);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.EditImage.png", options);
 ```
 
-Shows how to render an Office Math object into an image file in the local file system.
 
+Shows how to render an Office [Math](../../../aspose.words.math/) object into an image file in the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -67,6 +65,7 @@ saveOptions->set_Scale(5);
 
 math->GetMathRenderer()->Save(get_ArtifactsDir() + u"Shape.RenderOfficeMath.png", saveOptions);
 ```
+
 ## See Also
 
 * Class [ImageSaveOptions](../)

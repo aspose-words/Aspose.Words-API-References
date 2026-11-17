@@ -13,18 +13,19 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoreofficemath/
 Gets or sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreOfficeMath() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreOfficeMath() const
 ```
+
 
 ## Examples
 
 
-Shows how to find and replace text within OfficeMath.
 
+Shows how to find and replace text within OfficeMath. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"i+b-c≥iM+bM-cM");
+ASSERT_EQ(u"i+b-c≥iM+bM-cM", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
 
 auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 options->set_IgnoreOfficeMath(isIgnoreOfficeMath);
@@ -32,13 +33,14 @@ doc->get_Range()->Replace(u"b", u"x", options);
 
 if (isIgnoreOfficeMath)
 {
-    ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"i+b-c≥iM+bM-cM");
+    ASSERT_EQ(u"i+b-c≥iM+bM-cM", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
 }
 else
 {
-    ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"i+x-c≥iM+xM-cM");
+    ASSERT_EQ(u"i+x-c≥iM+xM-cM", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
 }
 ```
+
 ## See Also
 
 * Class [FindReplaceOptions](../)

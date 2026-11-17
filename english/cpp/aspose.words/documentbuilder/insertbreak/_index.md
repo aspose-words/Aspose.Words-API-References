@@ -20,14 +20,12 @@ void Aspose::Words::DocumentBuilder::InsertBreak(Aspose::Words::BreakType breakT
 | Parameter | Type | Description |
 | --- | --- | --- |
 | breakType | Aspose::Words::BreakType | Specifies the type of the break to insert. |
-## Remarks
 
- Use this method to insert paragraph, page, column, section or line break into the document. 
 ## Examples
 
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,8 +71,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
 
-Shows how to apply and revert page setup settings to sections in a document.
 
+Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -88,21 +86,23 @@ builder->Writeln(u"This is the first section, which landscape oriented with vert
 // it will inherit the builder's current page setup properties.
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation(), Orientation::Landscape);
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment(), PageVerticalAlignment::Center);
+ASSERT_EQ(Orientation::Landscape, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
+ASSERT_EQ(PageVerticalAlignment::Center, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
 
 // We can revert its page setup properties to their default values using the "ClearFormatting" method.
 builder->get_PageSetup()->ClearFormatting();
 
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation(), Orientation::Portrait);
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment(), PageVerticalAlignment::Top);
+ASSERT_EQ(Orientation::Portrait, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
+ASSERT_EQ(PageVerticalAlignment::Top, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
 
 builder->Writeln(u"This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
+
 ## See Also
 
+* Enum [BreakType](../../breaktype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

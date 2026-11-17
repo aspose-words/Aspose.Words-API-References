@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartaxistype/
 Specifies type of chart axis.
 
 ```cpp
-enum class ChartAxisType : int
+enum class ChartAxisType
 ```
 
 ### Values

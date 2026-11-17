@@ -4,31 +4,32 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_get method. Gets or a sets a bookmark outline level by the bookmark name in C++.'
 type: docs
-weight: 20500
+weight: 13000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/idx_get/
 ---
-## BookmarksOutlineLevelCollection::idx_get(const System::String \&) method
+## BookmarksOutlineLevelCollection::idx_get(const System::String\&) method
 
 
 Gets or a sets a bookmark outline level by the bookmark name.
 
 ```cpp
-int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_get(const System::String & name)
+int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_get(const System::String &name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String \& | Case-insensitive name of the bookmark. |
+| name | const System::String\& | Case-insensitive name of the bookmark. |
 
 ### ReturnValue
 
 The outline level of the bookmark. Valid range is 0 to 9.
+
 ## Examples
 
 
-Shows how to set outline levels for bookmarks.
 
+Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,11 +60,11 @@ outlineLevels->Add(u"Bookmark 1", 1);
 outlineLevels->Add(u"Bookmark 2", 2);
 outlineLevels->Add(u"Bookmark 3", 3);
 
-ASSERT_EQ(outlineLevels->get_Count(), 3);
+ASSERT_EQ(3, outlineLevels->get_Count());
 ASSERT_TRUE(outlineLevels->Contains(u"Bookmark 1"));
-ASSERT_EQ(outlineLevels->idx_get(0), 1);
-ASSERT_EQ(outlineLevels->idx_get(u"Bookmark 2"), 2);
-ASSERT_EQ(outlineLevels->IndexOfKey(u"Bookmark 3"), 2);
+ASSERT_EQ(1, outlineLevels->idx_get(0));
+ASSERT_EQ(2, outlineLevels->idx_get(u"Bookmark 2"));
+ASSERT_EQ(2, outlineLevels->IndexOfKey(u"Bookmark 3"));
 
 // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
 outlineLevels->RemoveAt(2);
@@ -79,6 +80,7 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
+
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)
@@ -101,11 +103,12 @@ int32_t Aspose::Words::Saving::BookmarksOutlineLevelCollection::idx_get(int32_t 
 ### ReturnValue
 
 The outline level of the bookmark. Valid range is 0 to 9.
+
 ## Examples
 
 
-Shows how to set outline levels for bookmarks.
 
+Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -136,11 +139,11 @@ outlineLevels->Add(u"Bookmark 1", 1);
 outlineLevels->Add(u"Bookmark 2", 2);
 outlineLevels->Add(u"Bookmark 3", 3);
 
-ASSERT_EQ(outlineLevels->get_Count(), 3);
+ASSERT_EQ(3, outlineLevels->get_Count());
 ASSERT_TRUE(outlineLevels->Contains(u"Bookmark 1"));
-ASSERT_EQ(outlineLevels->idx_get(0), 1);
-ASSERT_EQ(outlineLevels->idx_get(u"Bookmark 2"), 2);
-ASSERT_EQ(outlineLevels->IndexOfKey(u"Bookmark 3"), 2);
+ASSERT_EQ(1, outlineLevels->idx_get(0));
+ASSERT_EQ(2, outlineLevels->idx_get(u"Bookmark 2"));
+ASSERT_EQ(2, outlineLevels->IndexOfKey(u"Bookmark 3"));
 
 // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
 outlineLevels->RemoveAt(2);
@@ -156,6 +159,7 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
+
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)

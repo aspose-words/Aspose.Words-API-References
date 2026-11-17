@@ -16,11 +16,12 @@ Gets or sets a ThemeColor object that represents the stroke background color.
 Aspose::Words::Themes::ThemeColor Aspose::Words::Drawing::Stroke::get_BackThemeColor()
 ```
 
+
 ## Examples
 
 
-Shows how to set back theme color and tint and shade.
 
+Shows how to set back theme color and tint and shade. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Stroke gradient outline.docx"));
 
@@ -31,8 +32,10 @@ stroke->set_BackTintAndShade(0.2);
 
 doc->Save(get_ArtifactsDir() + u"Shape.StrokeBackThemeColors.docx");
 ```
+
 ## See Also
 
+* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

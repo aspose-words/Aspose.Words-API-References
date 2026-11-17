@@ -4,7 +4,7 @@ linktitle: get_TableOfFiguresLabel
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::get_TableOfFiguresLabel method. Gets or sets the name of the sequence identifier used when building a table of figures in C++.'
 type: docs
-weight: 54000
+weight: 19000
 url: /cpp/aspose.words.fields/fieldtoc/get_tableoffigureslabel/
 ---
 ## FieldToc::get_TableOfFiguresLabel method
@@ -16,11 +16,12 @@ Gets or sets the name of the sequence identifier used when building a table of f
 System::String Aspose::Words::Fields::FieldToc::get_TableOfFiguresLabel()
 ```
 
+
 ## Examples
 
 
-Shows how to populate a TOC field with entries using SEQ fields.
 
+Shows how to populate a TOC field with entries using SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,7 +48,7 @@ fieldToc->set_PrefixedSequenceIdentifier(u"PrefixSequence");
 // We can specify a custom separator that will appear between these two numbers.
 fieldToc->set_SequenceSeparator(u">");
 
-ASSERT_EQ(fieldToc->GetFieldCode(), u" TOC  \\c MySequence \\s PrefixSequence \\d >");
+ASSERT_EQ(u" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc->GetFieldCode());
 
 builder->InsertBreak(BreakType::PageBreak);
 
@@ -60,7 +61,7 @@ auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->I
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
 
-ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  PrefixSequence");
+ASSERT_EQ(u" SEQ  PrefixSequence", fieldSeq->GetFieldCode());
 
 // 2 -  Inserting a SEQ field that belongs to the TOC's main sequence:
 // This SEQ field will create an entry in the TOC.
@@ -73,7 +74,7 @@ builder->Write(u"First TOC entry, MySequence #");
 fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
-ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence");
+ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
 
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
@@ -89,6 +90,7 @@ fieldSeq->set_SequenceIdentifier(u"MySequence");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TOC.SEQ.docx");
 ```
+
 ## See Also
 
 * Class [FieldToc](../)

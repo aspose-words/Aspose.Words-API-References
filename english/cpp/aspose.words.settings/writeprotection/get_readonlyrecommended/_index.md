@@ -4,7 +4,7 @@ linktitle: get_ReadOnlyRecommended
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended method. Specifies whether the document author has recommended that the document be opened as read-only in C++.'
 type: docs
-weight: 10000
+weight: 3000
 url: /cpp/aspose.words.settings/writeprotection/get_readonlyrecommended/
 ---
 ## WriteProtection::get_ReadOnlyRecommended method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.settings/writeprotection/get_readonlyrecommended/
 Specifies whether the document author has recommended that the document be opened as read-only.
 
 ```cpp
-_Bool Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended() const
+bool Aspose::Words::Settings::WriteProtection::get_ReadOnlyRecommended() const
 ```
+
 
 ## Examples
 
 
-Shows how to protect a document with a password.
 
+Shows how to protect a document with a password. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,8 +44,9 @@ builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->Writeln(u"Writing text in a protected document.");
 
-ASSERT_EQ(doc->GetText().Trim(), System::String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.");
+ASSERT_EQ(System::String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
+
 ## See Also
 
 * Class [WriteProtection](../)

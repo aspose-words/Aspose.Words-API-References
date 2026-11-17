@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::Document> & Aspose::Words::Layout::PageLa
 
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
 * Class [PageLayoutCallbackArgs](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

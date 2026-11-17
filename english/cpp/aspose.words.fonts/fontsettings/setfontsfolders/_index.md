@@ -13,13 +13,13 @@ url: /cpp/aspose.words.fonts/fontsettings/setfontsfolders/
 Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts.
 
 ```cpp
-void Aspose::Words::Fonts::FontSettings::SetFontsFolders(const System::ArrayPtr<System::String> & fontsFolders, bool recursive)
+void Aspose::Words::Fonts::FontSettings::SetFontsFolders(const System::ArrayPtr<System::String> &fontsFolders, bool recursive)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontsFolders | const System::ArrayPtr\<System::String\> \& | An array of folders that contain TrueType fonts. |
+| fontsFolders | const System::ArrayPtr\<System::String\>\& | An array of folders that contain TrueType fonts. |
 | recursive | bool | True to scan the specified folders for fonts recursively. |
 ## Remarks
 
@@ -27,11 +27,12 @@ void Aspose::Words::Fonts::FontSettings::SetFontsFolders(const System::ArrayPtr<
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
+
 ## Examples
 
 
-Shows how to set multiple font source directories.
 
+Shows how to set multiple font source directories. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +47,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> originalFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(originalFontSources->get_Length(), 1);
+ASSERT_EQ(1, originalFontSources->get_Length());
 ASSERT_TRUE(originalFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -72,12 +73,12 @@ FontSettings::get_DefaultInstance()->SetFontsFolders(System::MakeArray<System::S
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> newFontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
-ASSERT_EQ(newFontSources->get_Length(), 2);
+ASSERT_EQ(2, newFontSources->get_Length());
 ASSERT_FALSE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
 }))));
-ASSERT_EQ(newFontSources[0]->GetAvailableFonts()->get_Count(), 1);
+ASSERT_EQ(1, newFontSources[0]->GetAvailableFonts()->get_Count());
 ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Amethysta";
@@ -86,7 +87,7 @@ ASSERT_TRUE(newFontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System:
 // The "Junction" folder itself contains no font files, but has subfolders that do.
 if (recursive)
 {
-    ASSERT_EQ(newFontSources[1]->GetAvailableFonts()->get_Count(), 11);
+    ASSERT_EQ(11, newFontSources[1]->GetAvailableFonts()->get_Count());
     ASSERT_TRUE(newFontSources[1]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
     {
         return f->get_FullFontName() == u"Junction Light";
@@ -94,7 +95,7 @@ if (recursive)
 }
 else
 {
-    ASSERT_EQ(newFontSources[1]->GetAvailableFonts()->get_Count(), 0);
+    ASSERT_EQ(0, newFontSources[1]->GetAvailableFonts()->get_Count());
 }
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.SetFontsFolders.pdf");
@@ -102,6 +103,7 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.SetFontsFolders.pdf");
 // Restore the original font sources.
 FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
+
 ## See Also
 
 * Class [FontSettings](../)

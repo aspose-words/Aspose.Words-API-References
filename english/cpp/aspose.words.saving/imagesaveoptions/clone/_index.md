@@ -19,5 +19,6 @@ System::SharedPtr<Aspose::Words::Saving::ImageSaveOptions> Aspose::Words::Saving
 ## See Also
 
 * Class [ImageSaveOptions](../)
+* Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

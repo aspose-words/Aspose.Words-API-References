@@ -2,26 +2,20 @@
 title: Aspose::Words::Fields::FormField::set_ExitMacro method
 linktitle: set_ExitMacro
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FormField::set_ExitMacro method. Sets an exit macro name for the form field in C++.'
+description: 'Aspose::Words::Fields::FormField::set_ExitMacro method. Setter for Aspose::Words::Fields::FormField::get_ExitMacro in C++.'
 type: docs
-weight: 77000
+weight: 35000
 url: /cpp/aspose.words.fields/formfield/set_exitmacro/
 ---
 ## FormField::set_ExitMacro method
 
 
-Sets an exit macro name for the form field.
+Setter for [Aspose::Words::Fields::FormField::get_ExitMacro](../get_exitmacro/).
 
 ```cpp
-void Aspose::Words::Fields::FormField::set_ExitMacro(const System::String & value)
+void Aspose::Words::Fields::FormField::set_ExitMacro(const System::String &value)
 ```
 
-## Remarks
-
-
-The exit macro runs when the form field loses the focus in Microsoft Word.
-
-Microsoft Word allows strings with at most 32 characters.
 ## See Also
 
 * Class [FormField](../)

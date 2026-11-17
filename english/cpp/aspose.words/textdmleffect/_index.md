@@ -13,25 +13,26 @@ url: /cpp/aspose.words/textdmleffect/
 Dml text effect for text runs.
 
 ```cpp
-enum class TextDmlEffect : int
+enum class TextDmlEffect
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Effect3D | 4 | 3D effect. |
-| Fill | 1 | Fill overlay effect. |
 | Glow | 0 | Glow effect, in which a color blurred outline is added outside the edges of the object. |
-| Outline | 3 | Outline effect. |
-| Reflection | 5 | Reflection effect. |
+| Fill | 1 | Fill overlay effect. |
 | Shadow | 2 | Shadow effect. |
+| Outline | 3 | Outline effect. |
+| Effect3D | 4 | 3D effect. |
+| Reflection | 5 | Reflection effect. |
+
 
 ## Examples
 
 
-Shows how to check if a run displays a DrawingML text effect.
 
+Shows how to check if a run displays a DrawingML text effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DrawingML text effects.docx"));
 
@@ -43,6 +44,7 @@ ASSERT_TRUE(runs->idx_get(2)->get_Font()->HasDmlEffect(TextDmlEffect::Reflection
 ASSERT_TRUE(runs->idx_get(3)->get_Font()->HasDmlEffect(TextDmlEffect::Effect3D));
 ASSERT_TRUE(runs->idx_get(4)->get_Font()->HasDmlEffect(TextDmlEffect::Fill));
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

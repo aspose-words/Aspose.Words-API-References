@@ -13,14 +13,15 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedimages/
 Specifies whether images should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedImages() const
+bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedImages() const
 ```
+
 
 ## Examples
 
 
-Shows how to determine where to store images when exporting a document to Html.
 
+Shows how to determine where to store images when exporting a document to Html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -48,6 +49,7 @@ else
     ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" ") + u"src=\"HtmlFixedSaveOptions[.]ExportEmbeddedImages/image001[.]jpeg\" />")->get_Success());
 }
 ```
+
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

@@ -13,22 +13,23 @@ url: /cpp/aspose.words.saving/exportlistlabels/
 Specifies how list labels are exported to HTML, MHTML and EPUB.
 
 ```cpp
-enum class ExportListLabels : int
+enum class ExportListLabels
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AsInlineText | 1 | Outputs all list labels as inline text. |
 | Auto | 0 | Outputs list labels in auto mode. Uses HTML native elements when possible. |
+| AsInlineText | 1 | Outputs all list labels as inline text. |
 | ByHtmlTags | 2 | Outputs all list labels as HTML native elements. |
+
 
 ## Examples
 
 
-Shows how to configure list exporting to HTML.
 
+Shows how to configure list exporting to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -83,9 +84,8 @@ switch (exportListLabels)
         break;
 }
 ```
-## See Also
 
-* [ExportListLabels](../htmlsaveoptions/get_exportlistlabels/)
+## See Also
 
 * Namespace [Aspose::Words::Saving](../)
 * Library [Aspose.Words for C++](../../)

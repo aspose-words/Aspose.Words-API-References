@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::SdtListItemCollection::iterator_holder_type typedef
 linktitle: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::SdtListItemCollection::iterator_holder_type typedef. A collection type whose iterator types is used as iterator types in the current collection in C++.'
+description: 'How to use Aspose::Words::Markup::SdtListItemCollection::iterator_holder_type typedef of Aspose::Words::Markup::SdtListItemCollection class in C++.'
 type: docs
 weight: 22000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/iterator_holder_type/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.markup/sdtlistitemcollection/iterator_holder_type/
 ## iterator_holder_type typedef
 
 
-A collection type whose iterator types is used as iterator types in the current collection.
+
 
 ```cpp
-using Aspose::Words::Markup::SdtListItemCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Markup::SdtListItem> >
+using Aspose::Words::Markup::SdtListItemCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Markup::SdtListItem> >
 ```
 
 ## See Also

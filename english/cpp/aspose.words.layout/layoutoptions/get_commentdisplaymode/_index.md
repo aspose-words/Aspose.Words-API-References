@@ -16,14 +16,12 @@ Gets or sets the way comments are rendered. Default value is [ShowInBalloons](..
 Aspose::Words::Layout::CommentDisplayMode Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode() const
 ```
 
-## Remarks
 
- Note that revisions are not rendered in balloons for [ShowInAnnotations](../../commentdisplaymode/). 
 ## Examples
 
 
-Shows how to show comments when saving a document to a rendered format.
 
+Shows how to show comments when saving a document to a rendered format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,8 +45,10 @@ doc->UpdatePageLayout();
 
 doc->Save(get_ArtifactsDir() + u"Document.ShowCommentsInBalloons.pdf");
 ```
+
 ## See Also
 
+* Enum [CommentDisplayMode](../../commentdisplaymode/)
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

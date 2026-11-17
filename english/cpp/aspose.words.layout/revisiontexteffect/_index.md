@@ -13,28 +13,29 @@ url: /cpp/aspose.words.layout/revisiontexteffect/
 Allows to specify decoration effect for revisions of document text.
 
 ```cpp
-enum class RevisionTextEffect : int
+enum class RevisionTextEffect
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bold | 2 | Revised content is made bold and colored. |
-| Color | 1 | Revised content is highlighted with color only. |
-| DoubleStrikeThrough | 7 | Revised content is double stroked through and colored. |
-| DoubleUnderline | 5 | Revised content is double underlined and colored. |
-| Hidden | 8 | Revised content is hidden. |
-| Italic | 3 | Revised content is made italic and colored. |
 | None | 0 | Revised content has no special effects applied. This corresponds to [NoHighlight](../revisioncolor/). |
-| StrikeThrough | 6 | Revised content is stroked through and colored. |
+| Color | 1 | Revised content is highlighted with color only. |
+| Bold | 2 | Revised content is made bold and colored. |
+| Italic | 3 | Revised content is made italic and colored. |
 | Underline | 4 | Revised content is underlined and colored. |
+| DoubleUnderline | 5 | Revised content is double underlined and colored. |
+| StrikeThrough | 6 | Revised content is stroked through and colored. |
+| DoubleStrikeThrough | 7 | Revised content is double stroked through and colored. |
+| Hidden | 8 | Revised content is hidden. |
+
 
 ## Examples
 
 
-Shows how to modify the appearance of revisions.
 
+Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -78,6 +79,7 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)

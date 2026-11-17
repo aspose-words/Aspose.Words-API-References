@@ -16,11 +16,12 @@ Gets or sets OLE Package file name.
 System::String Aspose::Words::Drawing::OlePackage::get_FileName() const
 ```
 
+
 ## Examples
 
 
-Shows how insert an OLE object into a document.
 
+Shows how insert an OLE object into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,6 +41,7 @@ System::ArrayPtr<uint8_t> zipFileBytes = System::IO::File::ReadAllBytes(get_Data
 
 doc->Save(get_ArtifactsDir() + u"Shape.InsertOlePackage.docx");
 ```
+
 ## See Also
 
 * Class [OlePackage](../)

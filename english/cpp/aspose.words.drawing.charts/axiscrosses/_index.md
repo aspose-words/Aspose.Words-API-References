@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/axiscrosses/
 Specifies the possible crossing points for an axis.
 
 ```cpp
-enum class AxisCrosses : int
+enum class AxisCrosses
 ```
 
 ### Values
@@ -21,15 +21,16 @@ enum class AxisCrosses : int
 | Name | Value | Description |
 | --- | --- | --- |
 | Automatic | 0 | The category axis crosses at the zero point of the value axis (if possible), or at the minimum value if the minimum is greater than zero, or at the maximum if the maximum is less than zero. |
-| Custom | 3 | A perpendicular axis crosses at the specified value of the axis. |
 | Maximum | 1 | A perpendicular axis crosses at the maximum value of the axis. |
 | Minimum | 2 | A perpendicular axis crosses at the minimum value of the axis. |
+| Custom | 3 | A perpendicular axis crosses at the specified value of the axis. |
+
 
 ## Examples
 
 
-Shows how to insert a chart and modify the appearance of its axes.
 
+Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +42,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -59,7 +60,7 @@ xAxis->get_TickLabels()->set_Position(AxisTickLabelPosition::Low);
 xAxis->get_TickLabels()->set_IsAutoSpacing(false);
 xAxis->set_TickMarkSpacing(1);
 
-ASPOSE_ASSERT_EQ(xAxis->get_Document(), doc);
+ASPOSE_ASSERT_EQ(doc, xAxis->get_Document());
 
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> yAxis = chart->get_AxisY();
 yAxis->set_CategoryType(AxisCategoryType::Automatic);
@@ -79,6 +80,7 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

@@ -4,7 +4,7 @@ linktitle: set_PreserveTabs
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::set_PreserveTabs method. Sets whether to preserve tab entries within table entries in C++.'
 type: docs
-weight: 68000
+weight: 35000
 url: /cpp/aspose.words.fields/fieldtoc/set_preservetabs/
 ---
 ## FieldToc::set_PreserveTabs method

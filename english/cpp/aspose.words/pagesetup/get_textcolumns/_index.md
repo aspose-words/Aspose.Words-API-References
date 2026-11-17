@@ -16,11 +16,12 @@ Returns a collection that represents the set of text columns.
 System::SharedPtr<Aspose::Words::TextColumnCollection> Aspose::Words::PageSetup::get_TextColumns()
 ```
 
+
 ## Examples
 
 
-Shows how to create multiple evenly spaced columns in a section.
 
+Shows how to create multiple evenly spaced columns in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -35,8 +36,10 @@ builder->Writeln(u"Column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ColumnsSameWidth.docx");
 ```
+
 ## See Also
 
+* Class [TextColumnCollection](../../textcolumncollection/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

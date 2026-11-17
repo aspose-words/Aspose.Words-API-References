@@ -13,14 +13,15 @@ url: /cpp/aspose.words/paragraphformat/get_pagebreakbefore/
 True if a page break is forced before the paragraph.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_PageBreakBefore()
+bool Aspose::Words::ParagraphFormat::get_PageBreakBefore()
 ```
+
 
 ## Examples
 
 
-Shows how to create paragraphs with page breaks at the beginning.
 
+Shows how to create paragraphs with page breaks at the beginning. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,17 +41,18 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_Firs
 
 if (pageBreakBefore)
 {
-    ASSERT_EQ(layoutCollector->GetStartPageIndex(paragraphs->idx_get(0)), 1);
-    ASSERT_EQ(layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)), 2);
+    ASSERT_EQ(1, layoutCollector->GetStartPageIndex(paragraphs->idx_get(0)));
+    ASSERT_EQ(2, layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)));
 }
 else
 {
-    ASSERT_EQ(layoutCollector->GetStartPageIndex(paragraphs->idx_get(0)), 1);
-    ASSERT_EQ(layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)), 1);
+    ASSERT_EQ(1, layoutCollector->GetStartPageIndex(paragraphs->idx_get(0)));
+    ASSERT_EQ(1, layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)));
 }
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.PageBreakBefore.docx");
 ```
+
 ## See Also
 
 * Class [ParagraphFormat](../)

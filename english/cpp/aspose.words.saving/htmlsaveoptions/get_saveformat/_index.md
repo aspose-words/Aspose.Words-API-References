@@ -16,11 +16,12 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::HtmlSaveOptions::get_SaveFormat() override
 ```
 
+
 ## Examples
 
 
-Shows how to use a specific encoding when saving a document to .epub.
 
+Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -40,8 +41,10 @@ saveOptions->set_ExportDocumentProperties(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
+
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

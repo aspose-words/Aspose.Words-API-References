@@ -13,21 +13,22 @@ url: /cpp/aspose.words.saving/txtofficemathexportmode/
 Specifies how Aspose.Words exports OfficeMath to [Text](../../aspose.words/saveformat/).
 
 ```cpp
-enum class TxtOfficeMathExportMode : int
+enum class TxtOfficeMathExportMode
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Latex | 3 | Export OfficeMath as LaTeX. |
 | Text | 0 | Export OfficeMath as plain text. |
+| Latex | 3 | Export OfficeMath as LaTeX. |
+
 
 ## Examples
 
 
-Shows how to export OfficeMath object as Latex in TXT.
 
+Shows how to export OfficeMath object as Latex in TXT. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -36,6 +37,7 @@ saveOptions->set_OfficeMathExportMode(TxtOfficeMathExportMode::Latex);
 
 doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.ExportOfficeMathAsLatexToText.txt", saveOptions);
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

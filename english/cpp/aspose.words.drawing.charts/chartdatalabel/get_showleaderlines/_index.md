@@ -13,12 +13,9 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showleaderlines/
 Allows to specify if data label leader lines need be shown. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowLeaderLines()
+bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowLeaderLines()
 ```
 
-## Remarks
-
- Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point. 
 ## See Also
 
 * Class [ChartDataLabel](../)

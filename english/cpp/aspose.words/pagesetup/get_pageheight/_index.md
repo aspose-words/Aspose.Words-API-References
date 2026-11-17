@@ -16,11 +16,12 @@ Returns or sets the height of the page in points.
 double Aspose::Words::PageSetup::get_PageHeight()
 ```
 
+
 ## Examples
 
 
-Shows how to insert an image, and use it as a watermark.
 
+Shows how to insert an image, and use it as a watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,6 +40,7 @@ shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
 ```
+
 ## See Also
 
 * Class [PageSetup](../)

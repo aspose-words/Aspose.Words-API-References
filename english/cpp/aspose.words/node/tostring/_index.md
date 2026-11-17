@@ -20,11 +20,12 @@ System::String Aspose::Words::Node::ToString(Aspose::Words::SaveFormat saveForma
 ### ReturnValue
 
 The content of the node in the specified format.
+
 ## Examples
 
 
-Shows the difference between calling the GetText and ToString methods on a node.
 
+Shows the difference between calling the GetText and ToString methods on a node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -32,14 +33,14 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->InsertField(u"MERGEFIELD Field");
 
 // GetText will retrieve the visible text as well as field codes and special characters.
-ASSERT_EQ(doc->GetText().Trim(), u"\u0013MERGEFIELD Field\u0014«Field»\u0015");
+ASSERT_EQ(u"\u0013MERGEFIELD Field\u0014«Field»\u0015", doc->GetText().Trim());
 
 // ToString will give us the document's appearance if saved to a passed save format.
-ASSERT_EQ(doc->ToString(SaveFormat::Text).Trim(), u"«Field»");
+ASSERT_EQ(u"«Field»", doc->ToString(SaveFormat::Text).Trim());
 ```
 
-Shows how to extract the list labels of all paragraphs that are list items.
 
+Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
@@ -71,8 +72,8 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
 }
 ```
 
-Exports the content of a node to String in HTML format.
 
+Exports the content of a node to String in HTML format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -80,41 +81,44 @@ System::SharedPtr<Aspose::Words::Node> node = doc->get_LastSection()->get_Body()
 
 // When we call the ToString method using the html SaveFormat overload,
 // it converts the node's contents to their raw html representation.
-ASSERT_EQ(node->ToString(SaveFormat::Html), System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>");
+ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(SaveFormat::Html));
 
 // We can also modify the result of this conversion using a SaveOptions object.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 saveOptions->set_ExportRelativeFontSize(true);
 
-ASSERT_EQ(node->ToString(saveOptions), System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>");
+ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(saveOptions));
 ```
+
 ## See Also
 
+* Enum [SaveFormat](../../saveformat/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Node::ToString(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) method
+## Node::ToString(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
 
 
 Exports the content of the node into a string using the specified save options.
 
 ```cpp
-System::String Aspose::Words::Node::ToString(const System::SharedPtr<Aspose::Words::Saving::SaveOptions> & saveOptions)
+System::String Aspose::Words::Node::ToString(const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \& | Specifies the options that control how the node is saved. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | Specifies the options that control how the node is saved. |
 
 ### ReturnValue
 
 The content of the node in the specified format.
+
 ## Examples
 
 
-Exports the content of a node to String in HTML format.
 
+Exports the content of a node to String in HTML format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -122,16 +126,18 @@ System::SharedPtr<Aspose::Words::Node> node = doc->get_LastSection()->get_Body()
 
 // When we call the ToString method using the html SaveFormat overload,
 // it converts the node's contents to their raw html representation.
-ASSERT_EQ(node->ToString(SaveFormat::Html), System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>");
+ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(SaveFormat::Html));
 
 // We can also modify the result of this conversion using a SaveOptions object.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 saveOptions->set_ExportRelativeFontSize(true);
 
-ASSERT_EQ(node->ToString(saveOptions), System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>");
+ASSERT_EQ(System::String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">") + u"<span style=\"font-family:'Times New Roman'\">Hello World!</span>" + u"</p>", node->ToString(saveOptions));
 ```
+
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

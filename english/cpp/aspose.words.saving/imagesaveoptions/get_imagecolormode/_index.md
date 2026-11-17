@@ -21,9 +21,10 @@ Aspose::Words::Saving::ImageColorMode Aspose::Words::Saving::ImageSaveOptions::g
 
 This property has effect only when saving to raster image formats.
 
-The default value is [None](../../imagecolormode/).
+The default value is [None](../../imagecolormode/). 
 ## See Also
 
+* Enum [ImageColorMode](../../imagecolormode/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

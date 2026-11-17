@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldta/get_isitalic/
 Gets whether to apply italic formatting to the page number for the entry.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldTA::get_IsItalic()
+bool Aspose::Words::Fields::FieldTA::get_IsItalic()
 ```
 
 ## See Also

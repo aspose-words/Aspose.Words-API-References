@@ -16,14 +16,12 @@ Gets or sets the text of the chart title. If **null** or empty value is specifie
 System::String Aspose::Words::Drawing::Charts::ChartTitle::get_Text()
 ```
 
-## Remarks
 
-Use [Show](../get_show/) option if you need to hide the Title.
 ## Examples
 
 
-Shows how to insert a chart and set a title.
 
+Shows how to insert a chart and set a title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,6 +44,7 @@ title->set_Overlay(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartTitle.docx");
 ```
+
 ## See Also
 
 * Class [ChartTitle](../)

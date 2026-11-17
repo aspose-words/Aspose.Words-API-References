@@ -21,7 +21,7 @@ System::String Aspose::Words::MailMerging::FieldMergingArgsBase::get_DocumentFie
 
 If you have a mapping from a document field name to a different data source field name, then this is the original field name as specified in the document.
 
-If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [DocumentFieldName](./) returns field name without the prefix, that is "MyFieldName".
+If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [DocumentFieldName](./) returns field name without the prefix, that is "MyFieldName". 
 ## See Also
 
 * Class [FieldMergingArgsBase](../)

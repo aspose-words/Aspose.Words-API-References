@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldifcomparisonresult/
 Specifies the result of the IF field condition evaluation.
 
 ```cpp
-enum class FieldIfComparisonResult : int
+enum class FieldIfComparisonResult
 ```
 
 ### Values
@@ -21,14 +21,15 @@ enum class FieldIfComparisonResult : int
 | Name | Value | Description |
 | --- | --- | --- |
 | Error | 0 | There is an error in the condition. |
-| False | 2 | The condition is **false**. |
 | True | 1 | The condition is **true**. |
+| False | 2 | The condition is **false**. |
+
 
 ## Examples
 
 
-Shows how to insert an IF field.
 
+Shows how to insert an IF field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,9 +47,9 @@ field->set_FalseText(u"False");
 field->Update();
 
 // In this case, "0 = 1" is incorrect, so the displayed result will be "False".
-ASSERT_EQ(field->GetFieldCode(), u" IF  0 = 1 True False");
-ASSERT_EQ(field->EvaluateCondition(), FieldIfComparisonResult::False);
-ASSERT_EQ(field->get_Result(), u"False");
+ASSERT_EQ(u" IF  0 = 1 True False", field->GetFieldCode());
+ASSERT_EQ(FieldIfComparisonResult::False, field->EvaluateCondition());
+ASSERT_EQ(u"False", field->get_Result());
 
 builder->Write(u"\nStatement 2: ");
 field = System::ExplicitCast<Aspose::Words::Fields::FieldIf>(builder->InsertField(FieldType::FieldIf, true));
@@ -60,13 +61,14 @@ field->set_FalseText(u"False");
 field->Update();
 
 // This time the statement is correct, so the displayed result will be "True".
-ASSERT_EQ(field->GetFieldCode(), u" IF  5 = \"2 + 3\" True False");
-ASSERT_EQ(field->EvaluateCondition(), FieldIfComparisonResult::True);
-ASSERT_EQ(field->get_Result(), u"True");
+ASSERT_EQ(u" IF  5 = \"2 + 3\" True False", field->GetFieldCode());
+ASSERT_EQ(FieldIfComparisonResult::True, field->EvaluateCondition());
+ASSERT_EQ(u"True", field->get_Result());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IF.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

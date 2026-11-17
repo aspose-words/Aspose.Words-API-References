@@ -2,7 +2,7 @@
 title: Aspose::Words::Vba::VbaReferenceCollection::virtualized_iterator typedef
 linktitle: virtualized_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Vba::VbaReferenceCollection::virtualized_iterator typedef. Virtualized type in C++.'
+description: 'How to use Aspose::Words::Vba::VbaReferenceCollection::virtualized_iterator typedef of Aspose::Words::Vba::VbaReferenceCollection class in C++.'
 type: docs
 weight: 19000
 url: /cpp/aspose.words.vba/vbareferencecollection/virtualized_iterator/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.vba/vbareferencecollection/virtualized_iterator/
 ## virtualized_iterator typedef
 
 
-Virtualized type.
+
 
 ```cpp
-using Aspose::Words::Vba::VbaReferenceCollection::virtualized_iterator = typename iterator_holder_type::virtualized_iterator
+using Aspose::Words::Vba::VbaReferenceCollection::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
 ```
 
 ## See Also

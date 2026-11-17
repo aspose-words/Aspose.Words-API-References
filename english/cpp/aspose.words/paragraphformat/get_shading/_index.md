@@ -16,11 +16,12 @@ Returns a [Shading](../../shading/) object that refers to the shading formatting
 System::SharedPtr<Aspose::Words::Shading> Aspose::Words::ParagraphFormat::get_Shading()
 ```
 
+
 ## Examples
 
 
-Shows how to decorate text with borders and shading.
 
+Shows how to decorate text with borders and shading. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,8 +41,10 @@ shading->set_ForegroundPatternColor(System::Drawing::Color::get_LightSalmon());
 builder->Write(u"This paragraph is formatted with a double border and shading.");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
+
 ## See Also
 
+* Class [Shading](../../shading/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

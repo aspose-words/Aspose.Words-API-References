@@ -20,16 +20,17 @@ void Aspose::Words::Document::RemoveMacros()
 
 
 By removing all macros from a document you can ensure the document contains no macro viruses.
+
 ## Examples
 
 
-Shows how to remove all macros from a document.
 
+Shows how to remove all macros from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Macro.docm"));
 
 ASSERT_TRUE(doc->get_HasMacros());
-ASSERT_EQ(doc->get_VbaProject()->get_Name(), u"Project");
+ASSERT_EQ(u"Project", doc->get_VbaProject()->get_Name());
 
 // Remove the document's VBA project, along with all its macros.
 doc->RemoveMacros();
@@ -37,6 +38,7 @@ doc->RemoveMacros();
 ASSERT_FALSE(doc->get_HasMacros());
 ASSERT_TRUE(System::TestTools::IsNull(doc->get_VbaProject()));
 ```
+
 ## See Also
 
 * Class [Document](../)

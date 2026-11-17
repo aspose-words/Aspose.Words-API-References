@@ -13,14 +13,15 @@ url: /cpp/aspose.words.loading/htmlloadoptions/get_supportvml/
 Gets or sets a value indicating whether to support VML images.
 
 ```cpp
-_Bool Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml() const
+bool Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml() const
 ```
+
 
 ## Examples
 
 
-Shows how to support conditional comments while loading an HTML document.
 
+Shows how to support conditional comments while loading an HTML document. 
 ```cpp
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>();
 
@@ -35,13 +36,14 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VML condi
 
 if (supportVml)
 {
-    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType(), ImageType::Jpeg);
+    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 else
 {
-    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType(), ImageType::Png);
+    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 ```
+
 ## See Also
 
 * Class [HtmlLoadOptions](../)

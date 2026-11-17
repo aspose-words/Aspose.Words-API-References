@@ -4,7 +4,7 @@ linktitle: get_Hidden
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Hidden method. True if the font is formatted as hidden text in C++.'
 type: docs
-weight: 58504
+weight: 16000
 url: /cpp/aspose.words/font/get_hidden/
 ---
 ## Font::get_Hidden method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words/font/get_hidden/
 True if the font is formatted as hidden text.
 
 ```cpp
-_Bool Aspose::Words::Font::get_Hidden()
+bool Aspose::Words::Font::get_Hidden()
 ```
+
 
 ## Examples
 
 
-Shows how to create a run of hidden text.
 
+Shows how to create a run of hidden text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,6 +38,7 @@ builder->Writeln(u"This text will not be visible in the document.");
 
 doc->Save(get_ArtifactsDir() + u"Font.Hidden.docx");
 ```
+
 ## See Also
 
 * Class [Font](../)

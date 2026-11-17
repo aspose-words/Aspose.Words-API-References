@@ -13,14 +13,15 @@ url: /cpp/aspose.words/paragraphformat/get_snaptogrid/
 Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_SnapToGrid()
+bool Aspose::Words::ParagraphFormat::get_SnapToGrid()
 ```
+
 
 ## Examples
 
 
-Shows how to specify a limit for the number of lines that each page may have.
 
+Shows how to specify a limit for the number of lines that each page may have. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,6 +40,7 @@ for (int32_t i = 0; i < 30; i++)
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.LinesPerPage.docx");
 ```
+
 ## See Also
 
 * Class [ParagraphFormat](../)

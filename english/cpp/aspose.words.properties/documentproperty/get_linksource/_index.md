@@ -4,7 +4,7 @@ linktitle: get_LinkSource
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Properties::DocumentProperty::get_LinkSource method. Gets the source of a linked custom document property in C++.'
 type: docs
-weight: 17000
+weight: 3000
 url: /cpp/aspose.words.properties/documentproperty/get_linksource/
 ---
 ## DocumentProperty::get_LinkSource method
@@ -16,11 +16,12 @@ Gets the source of a linked custom document property.
 System::String Aspose::Words::Properties::DocumentProperty::get_LinkSource() const
 ```
 
+
 ## Examples
 
 
-Shows how to link a custom document property to a bookmark.
 
+Shows how to link a custom document property to a bookmark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -34,12 +35,13 @@ builder->EndBookmark(u"MyBookmark");
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> customProperties = doc->get_CustomDocumentProperties();
 System::SharedPtr<Aspose::Words::Properties::DocumentProperty> customProperty = customProperties->AddLinkToContent(u"Bookmark", u"MyBookmark");
 
-ASPOSE_ASSERT_EQ(customProperty->get_IsLinkToContent(), true);
-ASSERT_EQ(customProperty->get_LinkSource(), u"MyBookmark");
-ASPOSE_ASSERT_EQ(customProperty->get_Value(), u"Hello world!");
+ASPOSE_ASSERT_EQ(true, customProperty->get_IsLinkToContent());
+ASSERT_EQ(u"MyBookmark", customProperty->get_LinkSource());
+ASPOSE_ASSERT_EQ(u"Hello world!", customProperty->get_Value());
 
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```
+
 ## See Also
 
 * Class [DocumentProperty](../)

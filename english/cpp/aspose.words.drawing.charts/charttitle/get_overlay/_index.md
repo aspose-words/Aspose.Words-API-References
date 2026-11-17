@@ -13,14 +13,15 @@ url: /cpp/aspose.words.drawing.charts/charttitle/get_overlay/
 Determines whether other chart elements shall be allowed to overlap title. By default overlay is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartTitle::get_Overlay()
+bool Aspose::Words::Drawing::Charts::ChartTitle::get_Overlay()
 ```
+
 
 ## Examples
 
 
-Shows how to insert a chart and set a title.
 
+Shows how to insert a chart and set a title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,6 +44,7 @@ title->set_Overlay(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartTitle.docx");
 ```
+
 ## See Also
 
 * Class [ChartTitle](../)

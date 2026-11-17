@@ -13,22 +13,23 @@ url: /cpp/aspose.words.layout/layoutcollector/getendpageindex/
 Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page.
 
 ```cpp
-int32_t Aspose::Words::Layout::LayoutCollector::GetEndPageIndex(const System::SharedPtr<Aspose::Words::Node> & node)
+int32_t Aspose::Words::Layout::LayoutCollector::GetEndPageIndex(const System::SharedPtr<Aspose::Words::Node> &node)
 ```
+
 
 ## Examples
 
 
-Shows how to see the the ranges of pages that a node spans.
 
+Shows how to see the the ranges of pages that a node spans. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto layoutCollector = System::MakeObject<Aspose::Words::Layout::LayoutCollector>(doc);
 
 // Call the "GetNumPagesSpanned" method to count how many pages the content of our document spans.
 // Since the document is empty, that number of pages is currently zero.
-ASPOSE_ASSERT_EQ(layoutCollector->get_Document(), doc);
-ASSERT_EQ(layoutCollector->GetNumPagesSpanned(doc), 0);
+ASPOSE_ASSERT_EQ(doc, layoutCollector->get_Document());
+ASSERT_EQ(0, layoutCollector->GetNumPagesSpanned(doc));
 
 // Populate the document with 5 pages of content.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,12 +43,12 @@ builder->InsertBreak(BreakType::PageBreak);
 
 // Before the layout collector, we need to call the "UpdatePageLayout" method to give us
 // an accurate figure for any layout-related metric, such as the page count.
-ASSERT_EQ(layoutCollector->GetNumPagesSpanned(doc), 0);
+ASSERT_EQ(0, layoutCollector->GetNumPagesSpanned(doc));
 
 layoutCollector->Clear();
 doc->UpdatePageLayout();
 
-ASSERT_EQ(layoutCollector->GetNumPagesSpanned(doc), 5);
+ASSERT_EQ(5, layoutCollector->GetNumPagesSpanned(doc));
 
 // We can see the numbers of the start and end pages of any node and their overall page spans.
 System::SharedPtr<Aspose::Words::NodeCollection> nodes = doc->GetChildNodes(NodeType::Any, true);
@@ -60,17 +61,19 @@ for (auto&& node : System::IterateOver(nodes))
 // We can iterate over the layout entities using a LayoutEnumerator.
 auto layoutEnumerator = System::MakeObject<Aspose::Words::Layout::LayoutEnumerator>(doc);
 
-ASSERT_EQ(layoutEnumerator->get_Type(), LayoutEntityType::Page);
+ASSERT_EQ(LayoutEntityType::Page, layoutEnumerator->get_Type());
 
 // The LayoutEnumerator can traverse the collection of layout entities like a tree.
 // We can also apply it to any node's corresponding layout entity.
 layoutEnumerator->set_Current(layoutCollector->GetEntity(doc->GetChild(NodeType::Paragraph, 1, true)));
 
-ASSERT_EQ(layoutEnumerator->get_Type(), LayoutEntityType::Span);
-ASSERT_EQ(layoutEnumerator->get_Text(), u"¶");
+ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
+ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 ```
+
 ## See Also
 
+* Class [Node](../../../aspose.words/node/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

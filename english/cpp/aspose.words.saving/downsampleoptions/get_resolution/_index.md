@@ -16,9 +16,6 @@ Specifies the resolution in pixels per inch which the images should be downsampl
 int32_t Aspose::Words::Saving::DownsampleOptions::get_Resolution() const
 ```
 
-## Remarks
-
- The default value is 220 ppi. 
 ## See Also
 
 * Class [DownsampleOptions](../)

@@ -13,18 +13,19 @@ url: /cpp/aspose.words.saving/docsaveoptions/get_savepicturebullet/
 When **false**, PictureBullet data is not saved to output document. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet() const
+bool Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet() const
 ```
 
 ## Remarks
 
 
 This option is provided for Word 97, which cannot work correctly with PictureBullet data. To remove PictureBullet data, set the option to "false".
+
 ## Examples
 
 
-Shows how to omit PictureBullet data from the document when saving.
 
+Shows how to omit PictureBullet data from the document when saving. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Image bullet points.docx"));
 
@@ -36,6 +37,7 @@ saveOptions->set_SavePictureBullet(false);
 
 doc->Save(get_ArtifactsDir() + u"DocSaveOptions.PictureBullets.doc", saveOptions);
 ```
+
 ## See Also
 
 * Class [DocSaveOptions](../)

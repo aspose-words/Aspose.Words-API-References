@@ -13,21 +13,22 @@ url: /cpp/aspose.words/pageborderdistancefrom/
 Specifies the positioning of the page border relative to the page margin.
 
 ```cpp
-enum class PageBorderDistanceFrom : int
+enum class PageBorderDistanceFrom
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| PageEdge | 1 | Border position is measured from the page edge. |
-| Text | 0 | Border position is measured from the page margin. |
+| Text | 0 | [Border](../border/) position is measured from the page margin. |
+| PageEdge | 1 | [Border](../border/) position is measured from the page edge. |
+
 
 ## Examples
 
 
-Shows how to create a wide blue band border at the top of the first page.
 
+Shows how to create a wide blue band border at the top of the first page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -44,10 +45,8 @@ border->set_DistanceFromText(0);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorderProperties.docx");
 ```
-## See Also
 
-* [PageSetup](../pagesetup/)
-* [BorderDistanceFrom](../pagesetup/get_borderdistancefrom/)
+## See Also
 
 * Namespace [Aspose::Words](../)
 * Library [Aspose.Words for C++](../../)

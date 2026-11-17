@@ -16,11 +16,12 @@ Gets or sets the position for a drop cap text.
 Aspose::Words::DropCapPosition Aspose::Words::ParagraphFormat::get_DropCapPosition()
 ```
 
+
 ## Examples
 
 
-Shows how to nest a list inside another list.
 
+Shows how to nest a list inside another list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,8 +68,10 @@ builder->get_ParagraphFormat()->ClearFormatting();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.NestedLists.docx");
 ```
+
 ## See Also
 
+* Enum [DropCapPosition](../../dropcapposition/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

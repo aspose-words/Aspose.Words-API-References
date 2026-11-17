@@ -16,11 +16,12 @@ Resets to default cell formatting. Does not change the width of the cell.
 void Aspose::Words::Tables::CellFormat::ClearFormatting()
 ```
 
+
 ## Examples
 
 
-Shows how to combine the rows from two tables into one.
 
+Shows how to combine the rows from two tables into one. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
@@ -42,6 +43,7 @@ secondTable->Remove();
 
 doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
 ```
+
 ## See Also
 
 * Class [CellFormat](../)

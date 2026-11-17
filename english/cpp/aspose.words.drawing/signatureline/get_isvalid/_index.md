@@ -13,14 +13,15 @@ url: /cpp/aspose.words.drawing/signatureline/get_isvalid/
 Indicates that signature line is signed by digital signature and this digital signature is valid.
 
 ```cpp
-_Bool Aspose::Words::Drawing::SignatureLine::get_IsValid()
+bool Aspose::Words::Drawing::SignatureLine::get_IsValid()
 ```
+
 
 ## Examples
 
 
-Shows how to sign a document with a personal certificate and a signature line.
 
+Shows how to sign a document with a personal certificate and a signature line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,6 +62,7 @@ signatureLine = shape->get_SignatureLine();
 ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
+
 ## See Also
 
 * Class [SignatureLine](../)

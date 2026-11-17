@@ -20,6 +20,7 @@ System::String Aspose::Words::Run::GetText() override
 ### ReturnValue
 
 The text of the run.
+
 ## See Also
 
 * Class [Run](../)

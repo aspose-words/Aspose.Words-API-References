@@ -16,14 +16,12 @@ Specifies whether changes are tracked by character or by word.
 Aspose::Words::Comparing::Granularity Aspose::Words::Comparing::CompareOptions::get_Granularity() const
 ```
 
-## Remarks
 
- Default value is [WordLevel](../../granularity/). 
 ## Examples
 
 
-Shows to specify a granularity while comparing documents.
 
+Shows to specify a granularity while comparing documents. 
 ```cpp
 auto docA = System::MakeObject<Aspose::Words::Document>();
 auto builderA = System::MakeObject<Aspose::Words::DocumentBuilder>(docA);
@@ -42,10 +40,12 @@ docA->Compare(docB, u"author", System::DateTime::get_Now(), compareOptions);
 
 // The first document's collection of revision groups contains all the differences between documents.
 System::SharedPtr<Aspose::Words::RevisionGroupCollection> groups = docA->get_Revisions()->get_Groups();
-ASSERT_EQ(groups->get_Count(), 5);
+ASSERT_EQ(5, groups->get_Count());
 ```
+
 ## See Also
 
+* Enum [Granularity](../../granularity/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -20,11 +20,12 @@ int32_t Aspose::Words::Notes::FootnoteOptions::get_StartNumber() override
 
 
 This property has effect only when [RestartRule](../get_restartrule/) is set to [Continuous](../../footnotenumberingrule/).
+
 ## Examples
 
 
-Shows how to set a number at which the document begins the footnote/endnote count.
 
+Shows how to set a number at which the document begins the footnote/endnote count. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,8 +58,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes, which both begin at 1.
-ASSERT_EQ(doc->get_FootnoteOptions()->get_StartNumber(), 1);
-ASSERT_EQ(doc->get_EndnoteOptions()->get_StartNumber(), 1);
+ASSERT_EQ(1, doc->get_FootnoteOptions()->get_StartNumber());
+ASSERT_EQ(1, doc->get_EndnoteOptions()->get_StartNumber());
 
 // We can use the "StartNumber" property to get the document to
 // begin a footnote or endnote count at a different number.
@@ -67,6 +68,7 @@ doc->get_EndnoteOptions()->set_StartNumber(50);
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.StartNumber.docx");
 ```
+
 ## See Also
 
 * Class [FootnoteOptions](../)

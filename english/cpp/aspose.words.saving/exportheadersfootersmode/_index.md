@@ -13,28 +13,29 @@ url: /cpp/aspose.words.saving/exportheadersfootersmode/
 Specifies how headers and footers are exported to HTML, MHTML or EPUB.
 
 ```cpp
-enum class ExportHeadersFootersMode : int
+enum class ExportHeadersFootersMode
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FirstPageHeaderFooterPerSection | 3 | First page header and footer are exported at the beginning and the end of each section. |
-| FirstSectionHeaderLastSectionFooter | 2 | Primary header of the first section is exported at the beginning of the document and primary footer is at the end. |
 | None | 0 | Headers and footers are not exported. |
 | PerSection | 1 | Primary headers and footers are exported at the beginning and the end of each section. |
+| FirstSectionHeaderLastSectionFooter | 2 | Primary header of the first section is exported at the beginning of the document and primary footer is at the end. |
+| FirstPageHeaderFooterPerSection | 3 | First page header and footer are exported at the beginning and the end of each section. |
+
 
 ## Examples
 
 
-Shows how to omit headers/footers when saving a document to HTML.
 
+Shows how to omit headers/footers when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
 // This document contains headers and footers. We can access them via the "HeadersFooters" collection.
-ASSERT_EQ(doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderFirst)->GetText().Trim(), u"First header");
+ASSERT_EQ(u"First header", doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderFirst)->GetText().Trim());
 
 // Formats such as .html do not split the document into pages, so headers/footers will not function the same way
 // they would when we open the document as a .docx using Microsoft Word.
@@ -50,9 +51,8 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ```
-## See Also
 
-* [ExportHeadersFootersMode](../htmlsaveoptions/get_exportheadersfootersmode/)
+## See Also
 
 * Namespace [Aspose::Words::Saving](../)
 * Library [Aspose.Words for C++](../../)

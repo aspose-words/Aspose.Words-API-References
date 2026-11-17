@@ -16,11 +16,12 @@ Removes tab stop from the list level.
 void Aspose::Words::Lists::ListLevel::RemoveTabStop()
 ```
 
+
 ## Examples
 
 
-Shows how to clear the list level tab stop.
 
+Shows how to clear the list level tab stop. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,6 +37,7 @@ listLevel->RemoveTabStop();
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.RemoveTabStopFromListLevel.docx");
 ```
+
 ## See Also
 
 * Class [ListLevel](../)

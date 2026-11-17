@@ -1,8 +1,8 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Remove method
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::Remove method
 linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Remove method. Removes the item at the specified index from the collection in C++.'
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::Remove method. Removes the item at the specified index from the collection in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/remove/
@@ -20,15 +20,16 @@ void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Remove(int32_t
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the collection item. |
+
 ## Examples
 
 
-Shows how to work with a document's collection of web extensions.
 
+Shows how to work with a document's collection of web extensions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Web extension.docx"));
 
-ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 1);
+ASSERT_EQ(1, doc->get_WebExtensionTaskPanes()->get_Count());
 
 // Print all properties of the document's web extension.
 System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> webExtensionPropertyCollection = doc->get_WebExtensionTaskPanes()->idx_get(0)->get_WebExtension()->get_Properties();
@@ -44,8 +45,9 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> 
 // Remove the web extension.
 doc->get_WebExtensionTaskPanes()->Remove(0);
 
-ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 0);
+ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
+
 ## See Also
 
 * Class [BaseWebExtensionCollection](../)

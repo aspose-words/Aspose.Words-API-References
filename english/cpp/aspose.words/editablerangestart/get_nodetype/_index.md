@@ -16,11 +16,12 @@ Returns [EditableRangeStart](../../nodetype/).
 Aspose::Words::NodeType Aspose::Words::EditableRangeStart::get_NodeType() const override
 ```
 
+
 ## Examples
 
 
-Shows how to work with an editable range.
 
+Shows how to work with an editable range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
@@ -37,19 +38,19 @@ System::SharedPtr<Aspose::Words::EditableRangeEnd> editableRangeEnd = builder->E
 // These nodes have matching IDs and encompass editable nodes.
 System::SharedPtr<Aspose::Words::EditableRange> editableRange = editableRangeStart->get_EditableRange();
 
-ASSERT_EQ(editableRange->get_Id(), editableRangeStart->get_Id());
-ASSERT_EQ(editableRange->get_Id(), editableRangeEnd->get_Id());
+ASSERT_EQ(editableRangeStart->get_Id(), editableRange->get_Id());
+ASSERT_EQ(editableRangeEnd->get_Id(), editableRange->get_Id());
 
 // Different parts of the editable range link to each other.
-ASSERT_EQ(editableRange->get_EditableRangeStart()->get_Id(), editableRangeStart->get_Id());
-ASSERT_EQ(editableRangeEnd->get_EditableRangeStart()->get_Id(), editableRangeStart->get_Id());
-ASSERT_EQ(editableRangeStart->get_EditableRange()->get_Id(), editableRange->get_Id());
-ASSERT_EQ(editableRange->get_EditableRangeEnd()->get_Id(), editableRangeEnd->get_Id());
+ASSERT_EQ(editableRangeStart->get_Id(), editableRange->get_EditableRangeStart()->get_Id());
+ASSERT_EQ(editableRangeStart->get_Id(), editableRangeEnd->get_EditableRangeStart()->get_Id());
+ASSERT_EQ(editableRange->get_Id(), editableRangeStart->get_EditableRange()->get_Id());
+ASSERT_EQ(editableRangeEnd->get_Id(), editableRange->get_EditableRangeEnd()->get_Id());
 
 // We can access the node types of each part like this. The editable range itself is not a node,
 // but an entity which consists of a start, an end, and their enclosed contents.
-ASSERT_EQ(editableRangeStart->get_NodeType(), NodeType::EditableRangeStart);
-ASSERT_EQ(editableRangeEnd->get_NodeType(), NodeType::EditableRangeEnd);
+ASSERT_EQ(NodeType::EditableRangeStart, editableRangeStart->get_NodeType());
+ASSERT_EQ(NodeType::EditableRangeEnd, editableRangeEnd->get_NodeType());
 
 builder->Writeln(u"This paragraph is outside the editable range, and cannot be edited.");
 
@@ -58,8 +59,10 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();
 ```
+
 ## See Also
 
+* Enum [NodeType](../../nodetype/)
 * Class [EditableRangeStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

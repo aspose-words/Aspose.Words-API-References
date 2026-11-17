@@ -13,11 +13,12 @@ url: /cpp/aspose.words/inodechangingcallback/noderemoving/
 Called just before a node belonging to this document is about to be removed from the document.
 
 ```cpp
-virtual void Aspose::Words::INodeChangingCallback::NodeRemoving(System::SharedPtr<Aspose::Words::NodeChangingArgs> args)
+virtual void Aspose::Words::INodeChangingCallback::NodeRemoving(System::SharedPtr<Aspose::Words::NodeChangingArgs> args)=0
 ```
 
 ## See Also
 
+* Class [NodeChangingArgs](../../nodechangingargs/)
 * Interface [INodeChangingCallback](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

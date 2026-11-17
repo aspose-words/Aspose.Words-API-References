@@ -16,11 +16,12 @@ Gets or sets the name of the style by which the text to search for is formatted.
 System::String Aspose::Words::Fields::FieldStyleRef::get_StyleName()
 ```
 
+
 ## Examples
 
 
-Shows how to use STYLEREF fields.
 
+Shows how to use STYLEREF fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,6 +85,7 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.STYLEREF.docx");
 ```
+
 ## See Also
 
 * Class [FieldStyleRef](../)

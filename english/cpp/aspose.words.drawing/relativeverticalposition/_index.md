@@ -13,29 +13,30 @@ url: /cpp/aspose.words.drawing/relativeverticalposition/
 Specifies to what the vertical position of a shape or text frame is relative.
 
 ```cpp
-enum class RelativeVerticalPosition : int
+enum class RelativeVerticalPosition
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| BottomMargin | 5 | Specifies that the vertical positioning shall be relative to the bottom margin of the current page. |
-| InsideMargin | 6 | Specifies that the vertical positioning shall be relative to the inside margin of the current page. |
-| Line | 3 | Undocumented. |
 | Margin | 0 | Specifies that the vertical positioning shall be relative to the page margins. |
-| OutsideMargin | 7 | Specifies that the vertical positioning shall be relative to the outside margin of the current page. |
 | Page | 1 | The object is positioned relative to the top edge of the page. |
 | Paragraph | 2 | The object is positioned relative to the top of the paragraph that contains the anchor. |
+| Line | 3 | Undocumented. |
+| TopMargin | 4 | Specifies that the vertical positioning shall be relative to the top margin of the current page. |
+| BottomMargin | 5 | Specifies that the vertical positioning shall be relative to the bottom margin of the current page. |
+| InsideMargin | 6 | Specifies that the vertical positioning shall be relative to the inside margin of the current page. |
+| OutsideMargin | 7 | Specifies that the vertical positioning shall be relative to the outside margin of the current page. |
 | TableDefault | 0 | Default value is [Margin](./). |
 | TextFrameDefault | 2 | Default value is [Paragraph](./). |
-| TopMargin | 4 | Specifies that the vertical positioning shall be relative to the top margin of the current page. |
+
 
 ## Examples
 
 
-Shows how to insert an image, and use it as a watermark.
 
+Shows how to insert an image, and use it as a watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,8 +56,8 @@ shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
 ```
 
-Shows how to insert a floating image to the center of a page.
 
+Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,9 +73,8 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
-## See Also
 
-* [RelativeVerticalPosition](../shapebase/get_relativeverticalposition/)
+## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

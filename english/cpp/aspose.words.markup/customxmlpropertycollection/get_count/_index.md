@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlPropertyCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 13000
+weight: 5000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/get_count/
 ---
 ## CustomXmlPropertyCollection::get_Count method
@@ -16,11 +16,12 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::Markup::CustomXmlPropertyCollection::get_Count()
 ```
 
+
 ## Examples
 
 
-Shows how to work with smart tag properties to get in depth information about smart tags.
 
+Shows how to work with smart tag properties to get in depth information about smart tags. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Smart tags.doc"));
 
@@ -31,45 +32,46 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // Smart tags may be nested, so this collection contains more.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Markup::SmartTag>> smartTags = doc->GetChildNodes(NodeType::SmartTag, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Markup::SmartTag>>()->LINQ_ToArray();
 
-ASSERT_EQ(smartTags->get_Length(), 8);
+ASSERT_EQ(8, smartTags->get_Length());
 
 // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
 // The properties of a "date"-type smart tag contain its year, month, and day.
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPropertyCollection> properties = smartTags[7]->get_Properties();
 
-ASSERT_EQ(properties->get_Count(), 4);
+ASSERT_EQ(4, properties->get_Count());
 
 {
     System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Markup::CustomXmlProperty>>> enumerator = properties->GetEnumerator();
     while (enumerator->MoveNext())
     {
         std::cout << System::String::Format(u"Property name: {0}, value: {1}", enumerator->get_Current()->get_Name(), enumerator->get_Current()->get_Value()) << std::endl;
-        ASSERT_EQ(enumerator->get_Current()->get_Uri(), u"");
+        ASSERT_EQ(u"", enumerator->get_Current()->get_Uri());
     }
 }
 
 // We can also access the properties in various ways, such as a key-value pair.
 ASSERT_TRUE(properties->Contains(u"Day"));
-ASSERT_EQ(properties->idx_get(u"Day")->get_Value(), u"22");
-ASSERT_EQ(properties->idx_get(2)->get_Value(), u"2003");
-ASSERT_EQ(properties->IndexOfKey(u"Month"), 1);
+ASSERT_EQ(u"22", properties->idx_get(u"Day")->get_Value());
+ASSERT_EQ(u"2003", properties->idx_get(2)->get_Value());
+ASSERT_EQ(1, properties->IndexOfKey(u"Month"));
 
 // Below are three ways of removing elements from the properties collection.
 // 1 -  Remove by index:
 properties->RemoveAt(3);
 
-ASSERT_EQ(properties->get_Count(), 3);
+ASSERT_EQ(3, properties->get_Count());
 
 // 2 -  Remove by name:
 properties->Remove(u"Year");
 
-ASSERT_EQ(properties->get_Count(), 2);
+ASSERT_EQ(2, properties->get_Count());
 
 // 3 -  Clear the entire collection at once:
 properties->Clear();
 
-ASSERT_EQ(properties->get_Count(), 0);
+ASSERT_EQ(0, properties->get_Count());
 ```
+
 ## See Also
 
 * Class [CustomXmlPropertyCollection](../)

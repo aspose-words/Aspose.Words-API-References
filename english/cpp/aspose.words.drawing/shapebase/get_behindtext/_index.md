@@ -4,7 +4,7 @@ linktitle: get_BehindText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_BehindText method. Specifies whether the shape is below or above text in C++.'
 type: docs
-weight: 61080
+weight: 7000
 url: /cpp/aspose.words.drawing/shapebase/get_behindtext/
 ---
 ## ShapeBase::get_BehindText method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_behindtext/
 Specifies whether the shape is below or above text.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_BehindText()
+bool Aspose::Words::Drawing::ShapeBase::get_BehindText()
 ```
 
 ## Remarks
@@ -22,11 +22,12 @@ _Bool Aspose::Words::Drawing::ShapeBase::get_BehindText()
 Has effect only for top level shapes.
 
 The default value is **false**.
+
 ## Examples
 
 
-Shows how to insert a floating image to the center of a page.
 
+Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,6 +43,7 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

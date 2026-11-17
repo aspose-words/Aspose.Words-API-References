@@ -13,14 +13,15 @@ url: /cpp/aspose.words/importformatoptions/get_mergepastedlists/
 Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::ImportFormatOptions::get_MergePastedLists() const
+bool Aspose::Words::ImportFormatOptions::get_MergePastedLists() const
 ```
+
 
 ## Examples
 
 
-Shows how to merge lists from a documents.
 
+Shows how to merge lists from a documents. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
 auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List destination.docx"));
@@ -33,6 +34,7 @@ dstDoc->AppendDocument(srcDoc, ImportFormatMode::UseDestinationStyles, options);
 
 dstDoc->Save(get_ArtifactsDir() + u"Document.MergePastedLists.docx");
 ```
+
 ## See Also
 
 * Class [ImportFormatOptions](../)

@@ -16,11 +16,12 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::XlsxSaveOptions::get_SaveFormat() override
 ```
 
+
 ## Examples
 
 
-Shows how to compress XLSX document.
 
+Shows how to compress XLSX document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape with linked chart.docx"));
 
@@ -30,8 +31,10 @@ xlsxSaveOptions->set_SaveFormat(SaveFormat::Xlsx);
 
 doc->Save(get_ArtifactsDir() + u"XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 ```
+
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [XlsxSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

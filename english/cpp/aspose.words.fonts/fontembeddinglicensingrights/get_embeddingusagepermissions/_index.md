@@ -16,11 +16,12 @@ Usage permissions.
 Aspose::Words::Fonts::FontEmbeddingUsagePermissions Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_EmbeddingUsagePermissions() const
 ```
 
+
 ## Examples
 
 
-Shows how to get license rights information for embedded fonts (FontInfo).
 
+Shows how to get license rights information for embedded fonts ([FontInfo](../../fontinfo/)). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font rights.docx"));
 
@@ -37,8 +38,10 @@ for (auto&& fontInfo : fontInfos)
     }
 }
 ```
+
 ## See Also
 
+* Enum [FontEmbeddingUsagePermissions](../../fontembeddingusagepermissions/)
 * Class [FontEmbeddingLicensingRights](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

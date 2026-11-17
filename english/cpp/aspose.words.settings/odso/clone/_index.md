@@ -19,5 +19,6 @@ System::SharedPtr<Aspose::Words::Settings::Odso> Aspose::Words::Settings::Odso::
 ## See Also
 
 * Class [Odso](../)
+* Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

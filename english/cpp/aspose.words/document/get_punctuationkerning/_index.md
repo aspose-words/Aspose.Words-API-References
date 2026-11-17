@@ -4,7 +4,7 @@ linktitle: get_PunctuationKerning
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_PunctuationKerning method. Specifies whether kerning applies to both Latin text and punctuation in C++.'
 type: docs
-weight: 135000
+weight: 44500
 url: /cpp/aspose.words/document/get_punctuationkerning/
 ---
 ## Document::get_PunctuationKerning method
@@ -13,18 +13,20 @@ url: /cpp/aspose.words/document/get_punctuationkerning/
 Specifies whether kerning applies to both Latin text and punctuation.
 
 ```cpp
-_Bool Aspose::Words::Document::get_PunctuationKerning()
+bool Aspose::Words::Document::get_PunctuationKerning()
 ```
+
 
 ## Examples
 
 
-Shows how to work with kerning applies to both Latin text and punctuation.
 
+Shows how to work with kerning applies to both Latin text and punctuation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 ASSERT_TRUE(doc->get_PunctuationKerning());
 ```
+
 ## See Also
 
 * Class [Document](../)

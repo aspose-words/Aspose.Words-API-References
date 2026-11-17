@@ -13,18 +13,19 @@ url: /cpp/aspose.words.vba/vbamodulecollection/remove/
 Removes the specified module from the collection.
 
 ```cpp
-void Aspose::Words::Vba::VbaModuleCollection::Remove(const System::SharedPtr<Aspose::Words::Vba::VbaModule> & module_)
+void Aspose::Words::Vba::VbaModuleCollection::Remove(const System::SharedPtr<Aspose::Words::Vba::VbaModule> &module_)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| module_ | const System::SharedPtr\<Aspose::Words::Vba::VbaModule\> \& | The module to remove. |
+| module_ | const System::SharedPtr\<Aspose::Words::Vba::VbaModule\>\& | The module to remove. |
+
 ## Examples
 
 
-Shows how to access a document's VBA project information.
 
+Shows how to access a document's VBA project information. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 
@@ -34,7 +35,7 @@ std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name
 
 System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
 
-ASSERT_EQ(3, vbaModules->LINQ_Count());
+ASSERT_EQ(vbaModules->LINQ_Count(), 3);
 
 for (auto&& module_ : vbaModules)
 {
@@ -48,8 +49,10 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 // Remove a module from the collection.
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
+
 ## See Also
 
+* Class [VbaModule](../../vbamodule/)
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

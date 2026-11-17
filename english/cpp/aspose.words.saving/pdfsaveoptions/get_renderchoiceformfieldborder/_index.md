@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/
 Specifies whether to render PDF choice form field border.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_RenderChoiceFormFieldBorder() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_RenderChoiceFormFieldBorder() const
 ```
 
 ## Remarks
@@ -21,7 +21,7 @@ _Bool Aspose::Words::Saving::PdfSaveOptions::get_RenderChoiceFormFieldBorder() c
 
 PDF choice form fields are used for export of SDT Combo Box Content Control, SDT Drop-Down List Content Control and legacy Drop-Down Form Field when [PreserveFormFields](../get_preserveformfields/) option is enabled.
 
-The default value is **true**.
+The default value is **true**. 
 ## See Also
 
 * Class [PdfSaveOptions](../)

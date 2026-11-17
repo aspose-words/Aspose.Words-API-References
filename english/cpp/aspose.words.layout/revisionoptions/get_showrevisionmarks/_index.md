@@ -13,14 +13,15 @@ url: /cpp/aspose.words.layout/revisionoptions/get_showrevisionmarks/
 Allow to specify whether revision text should be marked with special formatting markup. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks() const
+bool Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks() const
 ```
+
 
 ## Examples
 
 
-Shows how to modify the appearance of revisions.
 
+Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -64,6 +65,7 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
+
 ## See Also
 
 * Class [RevisionOptions](../)

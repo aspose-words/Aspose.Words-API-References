@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/joinstyle/
 Line join style.
 
 ```cpp
-enum class JoinStyle : int
+enum class JoinStyle
 ```
 
 ### Values
@@ -24,9 +24,8 @@ enum class JoinStyle : int
 | Miter | 1 | Extend edges until they join. |
 | Round | 2 | Draw an arc between the two edges. |
 
-## See Also
 
-* [JoinStyle](../stroke/get_joinstyle/)
+## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

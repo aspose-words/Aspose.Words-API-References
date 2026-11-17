@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontfamily/
 Represents the font family.
 
 ```cpp
-enum class FontFamily : int
+enum class FontFamily
 ```
 
 ### Values
@@ -21,21 +21,22 @@ enum class FontFamily : int
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | 0 | Specifies a generic family name. This name is used when information about a font does not exist or does not matter. The default font is used. |
-| Decorative | 5 | Specifies a novelty font. An example is Old English. |
-| Modern | 3 | Specifies a monospace font with or without serifs. Monospace fonts are usually modern; examples include Pica, Elite, and Courier New. |
 | Roman | 1 | Specifies a proportional font with serifs. An example is Times New Roman. |
-| Script | 4 | Specifies a font that is designed to look like handwriting; examples include Script and Cursive. |
 | Swiss | 2 | Specifies a proportional font without serifs. An example is Arial. |
+| Modern | 3 | Specifies a monospace font with or without serifs. Monospace fonts are usually modern; examples include Pica, Elite, and Courier New. |
+| Script | 4 | Specifies a font that is designed to look like handwriting; examples include Script and Cursive. |
+| Decorative | 5 | Specifies a novelty font. An example is Old English. |
 
 ## Remarks
 
 
 A font family is a set of fonts having common stroke width and serif characteristics.
+
 ## Examples
 
 
-Shows how to access and print details of each font in a document.
 
+Shows how to access and print details of each font in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -67,6 +68,7 @@ while (fontCollectionEnumerator->MoveNext())
     }
 }
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

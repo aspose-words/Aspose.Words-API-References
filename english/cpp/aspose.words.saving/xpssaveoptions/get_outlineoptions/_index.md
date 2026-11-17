@@ -20,11 +20,12 @@ System::SharedPtr<Aspose::Words::Saving::OutlineOptions> Aspose::Words::Saving::
 
 
 Note that [ExpandedOutlineLevels](../../outlineoptions/get_expandedoutlinelevels/) option will not work when saving to XPS.
+
 ## Examples
 
 
-Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 
+Shows how to limit the headings' level that will appear in the outline of a saved XPS document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +51,7 @@ builder->Writeln(u"Heading 1.2.2");
 // to modify how that method converts the document to .XPS.
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::XpsSaveOptions>();
 
-ASSERT_EQ(saveOptions->get_SaveFormat(), SaveFormat::Xps);
+ASSERT_EQ(SaveFormat::Xps, saveOptions->get_SaveFormat());
 
 // The output XPS document will contain an outline, a table of contents that lists headings in the document body.
 // Clicking on an entry in this outline will take us to the location of its respective heading.
@@ -60,8 +61,10 @@ saveOptions->get_OutlineOptions()->set_HeadingsOutlineLevels(2);
 
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ```
+
 ## See Also
 
+* Class [OutlineOptions](../../outlineoptions/)
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

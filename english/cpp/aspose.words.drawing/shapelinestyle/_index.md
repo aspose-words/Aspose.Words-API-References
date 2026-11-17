@@ -13,25 +13,26 @@ url: /cpp/aspose.words.drawing/shapelinestyle/
 Specifies the compound line style of a [Shape](../shape/).
 
 ```cpp
-enum class ShapeLineStyle : int
+enum class ShapeLineStyle
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | 0 | Default value is [Single](./). |
-| Double | 1 | Double lines of equal width. |
 | Single | 0 | Single line. |
+| Double | 1 | Double lines of equal width. |
 | ThickThin | 2 | Double lines, one thick, one thin. |
 | ThinThick | 3 | Double lines, one thin, one thick. |
 | Triple | 4 | Three lines, thin, thick, thin. |
+| Default | 0 | Default value is [Single](./). |
+
 
 ## Examples
 
 
-Shows how change stroke properties.
 
+Shows how change stroke properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,9 +57,8 @@ stroke->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Red(), System::
 
 doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
-## See Also
 
-* [LineStyle](../stroke/get_linestyle/)
+## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

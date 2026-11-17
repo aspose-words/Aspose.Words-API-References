@@ -24,11 +24,12 @@ System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag> Aspose::Words::
 
 
 Returns null if the structured document tag with the specified identifier cannot be found.
+
 ## Examples
 
 
-Shows how to get structured document tag.
 
+Shows how to get structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags by id.docx"));
 
@@ -41,8 +42,10 @@ std::cout << sdt->get_Title() << std::endl;
 sdt = doc->get_Range()->get_StructuredDocumentTags()->GetByTitle(u"Alias4");
 std::cout << sdt->get_Id() << std::endl;
 ```
+
 ## See Also
 
+* Interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * Class [StructuredDocumentTagCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

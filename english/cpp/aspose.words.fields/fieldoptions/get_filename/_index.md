@@ -20,11 +20,12 @@ System::String Aspose::Words::Fields::FieldOptions::get_FileName() const
 
 
 This property is used by the [FieldFileName](../../fieldfilename/) field with higher priority than the [OriginalFileName](../../../aspose.words/document/get_originalfilename/) property.
+
 ## Examples
 
 
-Shows how to use FieldOptions to override the default value for the FILENAME field.
 
+Shows how to use [FieldOptions](../) to override the default value for the FILENAME field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,8 +37,8 @@ builder->Writeln();
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" FILENAME ");
-ASSERT_EQ(field->get_Result(), u"Document.docx");
+ASSERT_EQ(u" FILENAME ", field->GetFieldCode());
+ASSERT_EQ(u"Document.docx", field->get_Result());
 
 builder->Writeln();
 
@@ -47,19 +48,20 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldFileName>(builder->Inse
 field->set_IncludeFullPath(true);
 field->Update();
 
-ASSERT_EQ(field->get_Result(), get_MyDir() + u"Document.docx");
+ASSERT_EQ(get_MyDir() + u"Document.docx", field->get_Result());
 
 // We can also set a value for this property to
 // override the value that the FILENAME field displays.
 doc->get_FieldOptions()->set_FileName(u"FieldOptions.FILENAME.docx");
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" FILENAME  \\p");
-ASSERT_EQ(field->get_Result(), u"FieldOptions.FILENAME.docx");
+ASSERT_EQ(u" FILENAME  \\p", field->GetFieldCode());
+ASSERT_EQ(u"FieldOptions.FILENAME.docx", field->get_Result());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + doc->get_FieldOptions()->get_FileName());
 ```
+
 ## See Also
 
 * Class [FieldOptions](../)

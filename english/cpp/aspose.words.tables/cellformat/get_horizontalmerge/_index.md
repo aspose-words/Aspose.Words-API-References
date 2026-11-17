@@ -4,7 +4,7 @@ linktitle: get_HorizontalMerge
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_HorizontalMerge method. Specifies how the cell is merged horizontally with other cells in the row in C++.'
 type: docs
-weight: 36000
+weight: 6000
 url: /cpp/aspose.words.tables/cellformat/get_horizontalmerge/
 ---
 ## CellFormat::get_HorizontalMerge method
@@ -16,11 +16,12 @@ Specifies how the cell is merged horizontally with other cells in the row.
 Aspose::Words::Tables::CellMerge Aspose::Words::Tables::CellFormat::get_HorizontalMerge()
 ```
 
+
 ## Examples
 
 
-Shows how to merge table cells horizontally.
 
+Shows how to merge table cells horizontally. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +49,10 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"CellFormat.HorizontalMerge.docx");
 ```
+
 ## See Also
 
-* [VerticalMerge](../get_verticalmerge/)
-
+* Enum [CellMerge](../../cellmerge/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

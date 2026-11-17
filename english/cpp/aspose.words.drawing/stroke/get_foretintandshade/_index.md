@@ -19,12 +19,13 @@ double Aspose::Words::Drawing::Stroke::get_ForeTintAndShade()
 ## Remarks
 
 
- The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in ArgumentOutOfRangeException.
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in [ArgumentOutOfRangeException](../).
+
 ## Examples
 
 
-Shows how to set fore theme color and tint and shade.
 
+Shows how to set fore theme color and tint and shade. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,6 +37,7 @@ stroke->set_ForeTintAndShade(0.5);
 
 doc->Save(get_ArtifactsDir() + u"Shape.StrokeForeThemeColors.docx");
 ```
+
 ## See Also
 
 * Class [Stroke](../)

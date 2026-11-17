@@ -4,7 +4,7 @@ linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_Width method. Gets the width of the cell in points in C++.'
 type: docs
-weight: 45000
+weight: 15000
 url: /cpp/aspose.words.tables/cellformat/get_width/
 ---
 ## CellFormat::get_Width method
@@ -19,14 +19,15 @@ double Aspose::Words::Tables::CellFormat::get_Width()
 ## Remarks
 
 
- The width is calculated by Aspose.Words on document loading and saving. Currently, not every combination of table, cell and document properties is supported. The returned value may not be accurate for some documents. It may not exactly match the cell width as calculated by MS Word when the document is opened in MS Word. 
+The width is calculated by Aspose.Words on document loading and saving. Currently, not every combination of table, cell and document properties is supported. The returned value may not be accurate for some documents. It may not exactly match the cell width as calculated by MS Word when the document is opened in MS Word.
 
- Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [PreferredWidth](../get_preferredwidth/) for setting the cell width. Setting this property sets [PreferredWidth](../get_preferredwidth/) implicitly since version 15.8. 
+Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [PreferredWidth](../get_preferredwidth/) for setting the cell width. Setting this property sets [PreferredWidth](../get_preferredwidth/) implicitly since version 15.8.
+
 ## Examples
 
 
-Shows how to build a table with custom borders.
 
+Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -86,8 +87,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
-Shows how to format cells with a document builder.
 
+Shows how to format cells with a document builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -112,21 +113,22 @@ builder->EndRow();
 builder->EndTable();
 
 // The first cell was unaffected by the padding reconfiguration, and still holds the default values.
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_Width(), 0.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_LeftPadding(), 5.4);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_RightPadding(), 5.4);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_TopPadding(), 0.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_BottomPadding(), 0.0);
+ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_Width());
+ASPOSE_ASSERT_EQ(5.4, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_LeftPadding());
+ASPOSE_ASSERT_EQ(5.4, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_RightPadding());
+ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_TopPadding());
+ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_BottomPadding());
 
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_Width(), 250.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_LeftPadding(), 30.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_RightPadding(), 30.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_TopPadding(), 30.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_BottomPadding(), 30.0);
+ASPOSE_ASSERT_EQ(250.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_Width());
+ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_LeftPadding());
+ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_RightPadding());
+ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_TopPadding());
+ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_BottomPadding());
 
 // The first cell will still grow in the output document to match the size of its neighboring cell.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetCellFormatting.docx");
 ```
+
 ## See Also
 
 * Class [CellFormat](../)

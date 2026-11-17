@@ -4,7 +4,7 @@ linktitle: get_ShowCategoryName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryName method. Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is false in C++.'
 type: docs
-weight: 16180
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showcategoryname/
 ---
 ## ChartDataLabelCollection::get_ShowCategoryName method
@@ -13,17 +13,15 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showcategoryn
 Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryName()
+bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryName()
 ```
 
-## Remarks
 
- Value defined for this property can be overridden for an individual data label with using the [ShowCategoryName](../../chartdatalabel/get_showcategoryname/) property. 
 ## Examples
 
 
-Shows how to work with data labels of a bubble chart.
 
+Shows how to work with data labels of a bubble chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,6 +46,7 @@ dataLabels->set_Separator(u" & ");
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsBubbleChart.docx");
 ```
+
 ## See Also
 
 * Class [ChartDataLabelCollection](../)

@@ -16,11 +16,12 @@ Gets or sets the user's initials.
 System::String Aspose::Words::Fields::UserInformation::get_Initials() const
 ```
 
+
 ## Examples
 
 
-Shows how to set user details, and display them using fields.
 
+Shows how to set user details, and display them using fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -34,9 +35,9 @@ doc->get_FieldOptions()->set_CurrentUser(userInformation);
 
 // Insert USERNAME, USERINITIALS, and USERADDRESS fields, which display values of
 // the respective properties of the UserInformation object that we have created above.
-ASSERT_EQ(builder->InsertField(u" USERNAME ")->get_Result(), userInformation->get_Name());
-ASSERT_EQ(builder->InsertField(u" USERINITIALS ")->get_Result(), userInformation->get_Initials());
-ASSERT_EQ(builder->InsertField(u" USERADDRESS ")->get_Result(), userInformation->get_Address());
+ASSERT_EQ(userInformation->get_Name(), builder->InsertField(u" USERNAME ")->get_Result());
+ASSERT_EQ(userInformation->get_Initials(), builder->InsertField(u" USERINITIALS ")->get_Result());
+ASSERT_EQ(userInformation->get_Address(), builder->InsertField(u" USERADDRESS ")->get_Result());
 
 // The field options object also has a static default user that fields from all documents can refer to.
 UserInformation::get_DefaultUser()->set_Name(u"Default User");
@@ -44,13 +45,14 @@ UserInformation::get_DefaultUser()->set_Initials(u"D. U.");
 UserInformation::get_DefaultUser()->set_Address(u"One Microsoft Way");
 doc->get_FieldOptions()->set_CurrentUser(UserInformation::get_DefaultUser());
 
-ASSERT_EQ(builder->InsertField(u" USERNAME ")->get_Result(), u"Default User");
-ASSERT_EQ(builder->InsertField(u" USERINITIALS ")->get_Result(), u"D. U.");
-ASSERT_EQ(builder->InsertField(u" USERADDRESS ")->get_Result(), u"One Microsoft Way");
+ASSERT_EQ(u"Default User", builder->InsertField(u" USERNAME ")->get_Result());
+ASSERT_EQ(u"D. U.", builder->InsertField(u" USERINITIALS ")->get_Result());
+ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Result());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
+
 ## See Also
 
 * Class [UserInformation](../)

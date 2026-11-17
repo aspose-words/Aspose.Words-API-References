@@ -13,14 +13,15 @@ url: /cpp/aspose.words/pagesetup/get_borderalwaysinfront/
 Specifies where the page border is positioned relative to intersecting texts and objects.
 
 ```cpp
-_Bool Aspose::Words::PageSetup::get_BorderAlwaysInFront()
+bool Aspose::Words::PageSetup::get_BorderAlwaysInFront()
 ```
+
 
 ## Examples
 
 
-Shows how to create a wide blue band border at the top of the first page.
 
+Shows how to create a wide blue band border at the top of the first page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -37,6 +38,7 @@ border->set_DistanceFromText(0);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorderProperties.docx");
 ```
+
 ## See Also
 
 * Class [PageSetup](../)

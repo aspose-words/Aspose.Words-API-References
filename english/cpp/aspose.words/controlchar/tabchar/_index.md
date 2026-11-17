@@ -13,14 +13,15 @@ url: /cpp/aspose.words/controlchar/tabchar/
 Tab character: (char)9 or "\t".
 
 ```cpp
-static const char16_t Aspose::Words::ControlChar::TabChar
+static constexpr char16_t Aspose::Words::ControlChar::TabChar
 ```
+
 
 ## Examples
 
 
-Shows how to set a custom interval for tab stop positions.
 
+Shows how to set a custom interval for tab stop positions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,6 +33,7 @@ builder->get_Document()->set_DefaultTabStop(72);
 builder->Writeln(System::String(u"Hello") + ControlChar::Tab() + u"World!");
 builder->Writeln(System::String(u"Hello") + ControlChar::TabChar + u"World!");
 ```
+
 ## See Also
 
 * Class [ControlChar](../)

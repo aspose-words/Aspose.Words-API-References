@@ -13,16 +13,19 @@ url: /cpp/aspose.words.bibliography/corporate/
 Represents a corporate (an organization) bibliography source contributor.
 
 ```cpp
-class Corporate : public Contributor
+class Corporate : public Aspose::Words::Bibliography::Contributor
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [Corporate](./corporate/)(const System::String \&) | Initialize a new instance of the [Corporate](./) class. |
+| [Corporate](./corporate/)(const System::String\&) | Initialize a new instance of the [Corporate](./) class. |
 | [get_Name](./get_name/)() const | Gets the name of an organization. |
-| [set_Name](./set_name/)(const System::String \&) | Sets the name of an organization. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_Name](./set_name/)(const System::String\&) | Sets the name of an organization. |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Class [Contributor](../contributor/)

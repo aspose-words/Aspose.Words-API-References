@@ -16,11 +16,12 @@ Returns or sets the number of pages to be included in each booklet.
 int32_t Aspose::Words::PageSetup::get_SheetsPerBooklet()
 ```
 
+
 ## Examples
 
 
-Shows how to configure a document that can be printed as a book fold.
 
+Shows how to configure a document that can be printed as a book fold. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -45,6 +46,7 @@ pageSetup->set_SheetsPerBooklet(4);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.Booklet.docx");
 ```
+
 ## See Also
 
 * Class [PageSetup](../)

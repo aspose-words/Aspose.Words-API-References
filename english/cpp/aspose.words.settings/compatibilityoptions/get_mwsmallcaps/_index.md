@@ -4,7 +4,7 @@ linktitle: get_MWSmallCaps
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_MWSmallCaps method. Emulate Word 5.x for the Macintosh Small Caps Formatting in C++.'
 type: docs
-weight: 75448
+weight: 33000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_mwsmallcaps/
 ---
 ## CompatibilityOptions::get_MWSmallCaps method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_mwsmallcaps/
 Emulate Word 5.x for the Macintosh Small Caps Formatting.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_MWSmallCaps()
+bool Aspose::Words::Settings::CompatibilityOptions::get_MWSmallCaps()
 ```
 
 ## See Also

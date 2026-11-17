@@ -16,11 +16,12 @@ Size of generated thumbnail in pixels. Default is 600x900.
 System::Drawing::Size Aspose::Words::Rendering::ThumbnailGeneratingOptions::get_ThumbnailSize() const
 ```
 
+
 ## Examples
 
 
-Shows how to update a document's thumbnail.
 
+Shows how to update a document's thumbnail. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,6 +42,7 @@ options->set_GenerateFromFirstPage(false);
 doc->UpdateThumbnail(options);
 doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
+
 ## See Also
 
 * Class [ThumbnailGeneratingOptions](../)

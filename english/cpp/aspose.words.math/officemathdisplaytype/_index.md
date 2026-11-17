@@ -13,21 +13,22 @@ url: /cpp/aspose.words.math/officemathdisplaytype/
 Specifies the display format type of the equation.
 
 ```cpp
-enum class OfficeMathDisplayType : int
+enum class OfficeMathDisplayType
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Display | 0 | The Office Math is displayed on its own line. |
-| Inline | 1 | The Office Math is displayed inline with the text. |
+| Display | 0 | The Office [Math](../) is displayed on its own line. |
+| Inline | 1 | The Office [Math](../) is displayed inline with the text. |
+
 
 ## Examples
 
 
-Shows how to set office math display formatting.
 
+Shows how to set office math display formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -35,9 +36,9 @@ auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->Get
 
 // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
 // The node we are working with is the base node to change its location and display type.
-ASSERT_EQ(officeMath->get_MathObjectType(), MathObjectType::OMathPara);
-ASSERT_EQ(officeMath->get_NodeType(), NodeType::OfficeMath);
-ASPOSE_ASSERT_EQ(officeMath->get_ParentParagraph(), officeMath->get_ParentNode());
+ASSERT_EQ(MathObjectType::OMathPara, officeMath->get_MathObjectType());
+ASSERT_EQ(NodeType::OfficeMath, officeMath->get_NodeType());
+ASPOSE_ASSERT_EQ(officeMath->get_ParentNode(), officeMath->get_ParentParagraph());
 
 // Change the location and display type of the OfficeMath node.
 officeMath->set_DisplayType(OfficeMathDisplayType::Display);
@@ -45,6 +46,7 @@ officeMath->set_Justification(OfficeMathJustification::Left);
 
 doc->Save(get_ArtifactsDir() + u"Shape.OfficeMath.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Math](../)

@@ -13,23 +13,22 @@ url: /cpp/aspose.words.drawing/textpathalignment/
 WordArt alignment.
 
 ```cpp
-enum class TextPathAlignment : int
+enum class TextPathAlignment
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Stretch | 0 | Stretch each line of text to fit width. |
 | Center | 1 | Center text on width. |
 | Left | 2 | Left justify. |
-| LetterJustify | 4 | Spread letters out to fit width. |
 | Right | 3 | Right justify. |
-| Stretch | 0 | Stretch each line of text to fit width. |
+| LetterJustify | 4 | Spread letters out to fit width. |
 | WordJustify | 5 | Spread words out to fit width. |
 
-## See Also
 
-* [TextPathAlignment](../textpath/get_textpathalignment/)
+## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

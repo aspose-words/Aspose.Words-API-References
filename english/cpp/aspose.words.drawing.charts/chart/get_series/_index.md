@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> Aspose:
 
 ## See Also
 
+* Class [ChartSeriesCollection](../../chartseriescollection/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

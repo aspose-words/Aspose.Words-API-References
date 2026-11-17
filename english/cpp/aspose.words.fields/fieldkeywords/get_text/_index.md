@@ -16,11 +16,12 @@ Gets or sets the text of the keywords.
 System::String Aspose::Words::Fields::FieldKeywords::get_Text()
 ```
 
+
 ## Examples
 
 
-Shows to insert a KEYWORDS field.
 
+Shows to insert a KEYWORDS field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,20 +33,21 @@ doc->get_BuiltInDocumentProperties()->set_Keywords(u"Keyword1, Keyword2");
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldKeywords>(builder->InsertField(FieldType::FieldKeyword, true));
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" KEYWORDS ");
-ASSERT_EQ(field->get_Result(), (u"Keyword1, Keyword2"));
+ASSERT_EQ(u" KEYWORDS ", field->GetFieldCode());
+ASSERT_EQ((u"Keyword1, Keyword2"), field->get_Result());
 
 // Setting a value for the field's Text property,
 // and then updating the field will also overwrite the corresponding built-in property with the new value.
 field->set_Text(u"OverridingKeyword");
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" KEYWORDS  OverridingKeyword");
-ASSERT_EQ(field->get_Result(), u"OverridingKeyword");
-ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Keywords(), u"OverridingKeyword");
+ASSERT_EQ(u" KEYWORDS  OverridingKeyword", field->GetFieldCode());
+ASSERT_EQ(u"OverridingKeyword", field->get_Result());
+ASSERT_EQ(u"OverridingKeyword", doc->get_BuiltInDocumentProperties()->get_Keywords());
 
 doc->Save(get_ArtifactsDir() + u"Field.KEYWORDS.docx");
 ```
+
 ## See Also
 
 * Class [FieldKeywords](../)

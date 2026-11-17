@@ -2,7 +2,7 @@
 title: Aspose::Words::Layout::LayoutCollector class
 linktitle: LayoutCollector
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Layout::LayoutCollector class. This class allows to compute page numbers of document nodes.To learn more, visit the Converting to Fixed-page Format documentation article in C++.'
+description: 'Aspose::Words::Layout::LayoutCollector class. This class allows to compute page numbers of document nodes. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.layout/layoutcollector/
@@ -10,9 +10,7 @@ url: /cpp/aspose.words.layout/layoutcollector/
 ## LayoutCollector class
 
 
-This class allows to compute page numbers of document nodes.
-
-To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/cpp/converting-to-fixed-page-format/) documentation article.
+This class allows to compute page numbers of document nodes. To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/cpp/converting-to-fixed-page-format/) documentation article.
 
 ```cpp
 class LayoutCollector : public System::Object
@@ -23,34 +21,38 @@ class LayoutCollector : public System::Object
 | Method | Description |
 | --- | --- |
 | [Clear](./clear/)() | Clears all collected layout data. Call this method after document was manually updated, or layout was rebuilt. |
-| [GetEndPageIndex](./getendpageindex/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page. |
-| [GetEntity](./getentity/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Returns an opaque position of the [LayoutEnumerator](../layoutenumerator/) which corresponds to the specified node. You can use returned value as an argument to [Current](../layoutenumerator/get_current/) given the document being enumerated and the document of the node are the same. |
-| [GetNumPagesSpanned](./getnumpagesspanned/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [GetEndPageIndex()](./getendpageindex/) - [GetStartPageIndex()](./getstartpageindex/). |
-| [GetStartPageIndex](./getstartpageindex/)(const System::SharedPtr\<Aspose::Words::Node\> \&) | Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page. |
-| [LayoutCollector](./layoutcollector/)(const System::SharedPtr\<Aspose::Words::Document\> \&) | Initializes an instance of this class. |
 | [get_Document](./get_document/)() const | Gets or sets the document this collector instance is attached to. |
-| [set_Document](./set_document/)(const System::SharedPtr\<Aspose::Words::Document\> \&) | Sets the document this collector instance is attached to. |
+| [GetEndPageIndex](./getendpageindex/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page. |
+| [GetEntity](./getentity/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Returns an opaque position of the [LayoutEnumerator](../layoutenumerator/) which corresponds to the specified node. You can use returned value as an argument to [Current](../layoutenumerator/get_current/) given the document being enumerated and the document of the node are the same. |
+| [GetNumPagesSpanned](./getnumpagesspanned/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [GetEndPageIndex()](../) - [GetStartPageIndex()](../). |
+| [GetStartPageIndex](./getstartpageindex/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [LayoutCollector](./layoutcollector/)(const System::SharedPtr\<Aspose::Words::Document\>\&) | Initializes an instance of this class. |
+| [set_Document](./set_document/)(const System::SharedPtr\<Aspose::Words::Document\>\&) | Setter for [Aspose::Words::Layout::LayoutCollector::get_Document](./get_document/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
 When you create a [LayoutCollector](./) and specify a [Document](../../aspose.words/document/) document object to attach to, the collector will record mapping of document nodes to layout objects when the document is formatted into pages.
 
-You will be able to find out on which page a particular document node (e.g. run, paragraph or table cell) is located by using the [GetStartPageIndex()](./getstartpageindex/), [GetEndPageIndex()](./getendpageindex/) and [GetNumPagesSpanned()](./getnumpagesspanned/) methods. These methods automatically build page layout model of the document and update fields if required.
+You will be able to find out on which page a particular document node (e.g. run, paragraph or table cell) is located by using the [GetStartPageIndex()](../), [GetEndPageIndex()](../) and [GetNumPagesSpanned()](../) methods. These methods automatically build page layout model of the document and update fields if required.
 
 When you no longer need to collect layout information, it is best to set the [Document](./get_document/) property to **null** to avoid unnecessary collection of more layout mappings.
+
 ## Examples
 
 
-Shows how to see the the ranges of pages that a node spans.
 
+Shows how to see the the ranges of pages that a node spans. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto layoutCollector = System::MakeObject<Aspose::Words::Layout::LayoutCollector>(doc);
 
 // Call the "GetNumPagesSpanned" method to count how many pages the content of our document spans.
 // Since the document is empty, that number of pages is currently zero.
-ASPOSE_ASSERT_EQ(layoutCollector->get_Document(), doc);
-ASSERT_EQ(layoutCollector->GetNumPagesSpanned(doc), 0);
+ASPOSE_ASSERT_EQ(doc, layoutCollector->get_Document());
+ASSERT_EQ(0, layoutCollector->GetNumPagesSpanned(doc));
 
 // Populate the document with 5 pages of content.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,12 +66,12 @@ builder->InsertBreak(BreakType::PageBreak);
 
 // Before the layout collector, we need to call the "UpdatePageLayout" method to give us
 // an accurate figure for any layout-related metric, such as the page count.
-ASSERT_EQ(layoutCollector->GetNumPagesSpanned(doc), 0);
+ASSERT_EQ(0, layoutCollector->GetNumPagesSpanned(doc));
 
 layoutCollector->Clear();
 doc->UpdatePageLayout();
 
-ASSERT_EQ(layoutCollector->GetNumPagesSpanned(doc), 5);
+ASSERT_EQ(5, layoutCollector->GetNumPagesSpanned(doc));
 
 // We can see the numbers of the start and end pages of any node and their overall page spans.
 System::SharedPtr<Aspose::Words::NodeCollection> nodes = doc->GetChildNodes(NodeType::Any, true);
@@ -82,15 +84,16 @@ for (auto&& node : System::IterateOver(nodes))
 // We can iterate over the layout entities using a LayoutEnumerator.
 auto layoutEnumerator = System::MakeObject<Aspose::Words::Layout::LayoutEnumerator>(doc);
 
-ASSERT_EQ(layoutEnumerator->get_Type(), LayoutEntityType::Page);
+ASSERT_EQ(LayoutEntityType::Page, layoutEnumerator->get_Type());
 
 // The LayoutEnumerator can traverse the collection of layout entities like a tree.
 // We can also apply it to any node's corresponding layout entity.
 layoutEnumerator->set_Current(layoutCollector->GetEntity(doc->GetChild(NodeType::Paragraph, 1, true)));
 
-ASSERT_EQ(layoutEnumerator->get_Type(), LayoutEntityType::Span);
-ASSERT_EQ(layoutEnumerator->get_Text(), u"¶");
+ASSERT_EQ(LayoutEntityType::Span, layoutEnumerator->get_Type());
+ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)

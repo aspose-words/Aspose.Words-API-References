@@ -7,19 +7,19 @@ type: docs
 weight: 58000
 url: /cpp/aspose.words/documentbuilder/movetomergefield/
 ---
-## DocumentBuilder::MoveToMergeField(const System::String \&) method
+## DocumentBuilder::MoveToMergeField(const System::String\&) method
 
 
 Moves the cursor to a position just beyond the specified merge field and removes the merge field.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String & fieldName)
+bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String &fieldName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldName | const System::String \& | The case-insensitive name of the mail merge field. |
+| fieldName | const System::String\& | The case-insensitive name of the mail merge field. |
 
 ### ReturnValue
 
@@ -28,11 +28,12 @@ _Bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String & fi
 
 
 Note that this method deletes the merge field from the document after moving the cursor.
+
 ## Examples
 
 
-Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
 
+Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,35 +58,37 @@ builder->Writeln(u"John Bloggs");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.FillMergeFields.docx");
 ```
+
 ## See Also
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::MoveToMergeField(const System::String \&, bool, bool) method
+## DocumentBuilder::MoveToMergeField(const System::String\&, bool, bool) method
 
 
 Moves the merge field to the specified merge field.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String & fieldName, bool isAfter, bool isDeleteField)
+bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String &fieldName, bool isAfter, bool isDeleteField)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldName | const System::String \& | The case-insensitive name of the mail merge field. |
+| fieldName | const System::String\& | The case-insensitive name of the mail merge field. |
 | isAfter | bool | When **true**, moves the cursor to be after the field end. When **false**, moves the cursor to be before the field start. |
 | isDeleteField | bool | When **true**, deletes the merge field. |
 
 ### ReturnValue
 
 **true** if the merge field was found and the cursor was moved; **false** otherwise.
+
 ## Examples
 
 
-Shows how to insert fields, and move the document builder's cursor to them.
 
+Shows how to insert fields, and move the document builder's cursor to them. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -96,8 +99,8 @@ builder->InsertField(u"MERGEFIELD MyMergeField2 \\* MERGEFORMAT");
 builder->MoveToMergeField(u"MyMergeField1", true, false);
 
 // Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
-ASPOSE_ASSERT_EQ(builder->get_CurrentNode(), doc->get_Range()->get_Fields()->idx_get(1)->get_Start());
-ASPOSE_ASSERT_EQ(builder->get_CurrentNode()->get_PreviousSibling(), doc->get_Range()->get_Fields()->idx_get(0)->get_End());
+ASPOSE_ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Start(), builder->get_CurrentNode());
+ASPOSE_ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_End(), builder->get_CurrentNode()->get_PreviousSibling());
 
 // If we wish to edit the field's field code or contents using the builder,
 // its cursor would need to be inside a field.
@@ -107,6 +110,7 @@ builder->Write(u" Text between our merge fields. ");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.MergeFields.docx");
 ```
+
 ## See Also
 
 * Class [DocumentBuilder](../)

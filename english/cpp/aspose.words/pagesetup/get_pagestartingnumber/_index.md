@@ -16,14 +16,12 @@ Gets or sets the starting page number of the section.
 int32_t Aspose::Words::PageSetup::get_PageStartingNumber()
 ```
 
-## Remarks
 
- The [RestartPageNumbering](../get_restartpagenumbering/) property, if set to **false**, will override the [PageStartingNumber](./) property so that page numbering can continue from the previous section. 
 ## Examples
 
 
-Shows how to set up page numbering in a section.
 
+Shows how to set up page numbering in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -73,6 +71,7 @@ pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```
+
 ## See Also
 
 * Class [PageSetup](../)

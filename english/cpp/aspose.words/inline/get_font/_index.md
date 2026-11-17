@@ -16,11 +16,12 @@ Provides access to the font formatting of this object.
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Inline::get_Font()
 ```
 
+
 ## Examples
 
 
-Shows how to construct an Aspose.Words document by hand.
 
+Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -59,12 +60,14 @@ run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-ASSERT_EQ(doc->GetText().Trim(), u"Hello World!");
+ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
+
 ## See Also
 
+* Class [Font](../../font/)
 * Class [Inline](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

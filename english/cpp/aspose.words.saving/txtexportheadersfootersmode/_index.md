@@ -13,22 +13,23 @@ url: /cpp/aspose.words.saving/txtexportheadersfootersmode/
 Specifies the way headers and footers are exported to plain text format.
 
 ```cpp
-enum class TxtExportHeadersFootersMode : int
+enum class TxtExportHeadersFootersMode
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AllAtEnd | 2 | All headers and footers are placed after all section bodies at the very end of a document. |
 | None | 0 | No headers and footers are exported. |
 | PrimaryOnly | 1 | Only primary headers and footers are exported at the beginning and end of each section. |
+| AllAtEnd | 2 | All headers and footers are placed after all section bodies at the very end of a document. |
+
 
 ## Examples
 
 
-Shows how to specify how to export headers and footers to plain text format.
 
+Shows how to specify how to export headers and footers to plain text format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -67,22 +68,21 @@ doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.ExportHeadersFooters.txt", saveO
 
 System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"TxtSaveOptions.ExportHeadersFooters.txt");
 
-// ControlChar.CrLf is used as a paragraph break by default in text formats.
-// This can be configured using TxtSaveOptions.ParagraphBreak.
-System::String newLine = ControlChar::CrLf();
+System::String newLine = System::Environment::get_NewLine();
 switch (txtExportHeadersFootersMode)
 {
     case TxtExportHeadersFootersMode::AllAtEnd:
-        ASSERT_EQ(docText, System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine) + System::String::Format(u"Even header{0}{1}", newLine, newLine) + System::String::Format(u"Primary header{0}{1}", newLine, newLine) + System::String::Format(u"Even footer{0}{1}", newLine, newLine) + System::String::Format(u"Primary footer{0}{1}", newLine, newLine));
+        ASSERT_EQ(System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine) + System::String::Format(u"Even header{0}{1}", newLine, newLine) + System::String::Format(u"Primary header{0}{1}", newLine, newLine) + System::String::Format(u"Even footer{0}{1}", newLine, newLine) + System::String::Format(u"Primary footer{0}{1}", newLine, newLine), docText);
         break;
     case TxtExportHeadersFootersMode::PrimaryOnly:
-        ASSERT_EQ(docText, System::String::Format(u"Primary header{0}", newLine) + System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine) + System::String::Format(u"Primary footer{0}", newLine));
+        ASSERT_EQ(System::String::Format(u"Primary header{0}", newLine) + System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine) + System::String::Format(u"Primary footer{0}", newLine), docText);
         break;
     case TxtExportHeadersFootersMode::None:
-        ASSERT_EQ(docText, System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine));
+        ASSERT_EQ(System::String::Format(u"Page 1{0}", newLine) + System::String::Format(u"Page 2{0}", newLine) + System::String::Format(u"Page 3{0}", newLine), docText);
         break;
 }
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -13,16 +13,16 @@ url: /cpp/aspose.words/comment/addreply/
 Adds a reply to this comment.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Comment> Aspose::Words::Comment::AddReply(const System::String & author, const System::String & initial, System::DateTime dateTime, const System::String & text)
+System::SharedPtr<Aspose::Words::Comment> Aspose::Words::Comment::AddReply(const System::String &author, const System::String &initial, System::DateTime dateTime, const System::String &text)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| author | const System::String \& | The author name for the reply. |
-| initial | const System::String \& | The author initials for the reply. |
+| author | const System::String\& | The author name for the reply. |
+| initial | const System::String\& | The author initials for the reply. |
 | dateTime | System::DateTime | The date and time for the reply. |
-| text | const System::String \& | The reply text. |
+| text | const System::String\& | The reply text. |
 
 ### ReturnValue
 
@@ -31,11 +31,12 @@ The created [Comment](../) node for the reply.
 
 
 Due to the existing MS Office limitations only 1 level of replies is allowed in the document.
+
 ## Examples
 
 
-Shows how to add a comment to a document, and then reply to it.
 
+Shows how to add a comment to a document, and then reply to it. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,22 +53,20 @@ builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Co
 comment->AddReply(u"Joe Bloggs", u"J.B.", System::DateTime::get_Now(), u"New reply");
 
 // Comments and replies are both Comment nodes.
-ASSERT_EQ(doc->GetChildNodes(NodeType::Comment, true)->get_Count(), 2);
+ASSERT_EQ(2, doc->GetChildNodes(NodeType::Comment, true)->get_Count());
 
 // Comments that do not reply to other comments are "top-level". They have no ancestor comments.
 ASSERT_TRUE(System::TestTools::IsNull(comment->get_Ancestor()));
 
 // Replies have an ancestor top-level comment.
-ASPOSE_ASSERT_EQ(comment->get_Replies()->idx_get(0)->get_Ancestor(), comment);
+ASPOSE_ASSERT_EQ(comment, comment->get_Replies()->idx_get(0)->get_Ancestor());
 
 doc->Save(get_ArtifactsDir() + u"Comment.AddCommentWithReply.docx");
 ```
-## Exceptions
-
-* InvalidOperationException - Throws if this method is called on the existing Reply comment.
 
 ## See Also
 
+* Class [Comment](../)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

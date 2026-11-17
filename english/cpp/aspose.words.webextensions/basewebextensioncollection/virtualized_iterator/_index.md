@@ -2,7 +2,7 @@
 title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::virtualized_iterator typedef
 linktitle: virtualized_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::virtualized_iterator typedef. Virtualized type in C++.'
+description: 'How to use Aspose::Words::WebExtensions::BaseWebExtensionCollection::virtualized_iterator typedef of Aspose::Words::WebExtensions::BaseWebExtensionCollection class in C++.'
 type: docs
 weight: 21000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/virtualized_iterator/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.webextensions/basewebextensioncollection/virtualized_iter
 ## virtualized_iterator typedef
 
 
-Virtualized type.
+
 
 ```cpp
-using Aspose::Words::WebExtensions::BaseWebExtensionCollection::virtualized_iterator = typename iterator_holder_type::virtualized_iterator
+using Aspose::Words::WebExtensions::BaseWebExtensionCollection< T >::virtualized_iterator =  typename iterator_holder_type::virtualized_iterator
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_InternalMarginBottom
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::TextBox::get_InternalMarginBottom method. Specifies the inner bottom margin in points for a shape in C++.'
 type: docs
-weight: 17154
+weight: 4000
 url: /cpp/aspose.words.drawing/textbox/get_internalmarginbottom/
 ---
 ## TextBox::get_InternalMarginBottom method
@@ -20,11 +20,12 @@ double Aspose::Words::Drawing::TextBox::get_InternalMarginBottom()
 
 
 The default value is 1/20 inch.
+
 ## Examples
 
 
-Shows how to set internal margins for a text box.
 
+Shows how to set internal margins for a text box. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,6 +43,7 @@ builder->Write(u"Text placed according to textbox margins.");
 
 doc->Save(get_ArtifactsDir() + u"Shape.TextBoxMargins.docx");
 ```
+
 ## See Also
 
 * Class [TextBox](../)

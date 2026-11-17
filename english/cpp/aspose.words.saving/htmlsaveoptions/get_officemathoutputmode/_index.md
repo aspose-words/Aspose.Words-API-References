@@ -16,11 +16,12 @@ Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default val
 Aspose::Words::Saving::HtmlOfficeMathOutputMode Aspose::Words::Saving::HtmlSaveOptions::get_OfficeMathOutputMode() const
 ```
 
+
 ## Examples
 
 
-Shows how to specify how to export Microsoft OfficeMath objects to HTML.
 
+Shows how to specify how to export Microsoft OfficeMath objects to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -51,8 +52,10 @@ switch (htmlOfficeMathOutputMode)
         break;
 }
 ```
+
 ## See Also
 
+* Enum [HtmlOfficeMathOutputMode](../../htmlofficemathoutputmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

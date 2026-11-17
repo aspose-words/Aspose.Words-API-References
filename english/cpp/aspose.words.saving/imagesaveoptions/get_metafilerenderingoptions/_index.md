@@ -26,11 +26,12 @@ When [Bitmap](../../metafilerenderingmode/) is specified, Aspose.Words renders m
 GDI+ metafile rendering engine works faster, supports almost all metafile features but on low resolutions may produce inconsistent result when compared to the rest of vector graphics (especially for text) on the page. Aspose.Words metafile rendering engine will produce more consistent result even on low resolutions but works slower and may inaccurately render complex metafiles.
 
 The default value for [MetafileRenderingMode](../../metafilerenderingmode/) is [Bitmap](../../metafilerenderingmode/).
+
 ## Examples
 
 
-Shows how to set the rendering mode when saving documents with Windows Metafile images to other image formats.
 
+Shows how to set the rendering mode when saving documents with Windows Metafile images to other image formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,8 +50,10 @@ options->get_MetafileRenderingOptions()->set_UseGdiRasterOperationsEmulation(tru
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.WindowsMetaFile.png", options);
 ```
+
 ## See Also
 
+* Class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

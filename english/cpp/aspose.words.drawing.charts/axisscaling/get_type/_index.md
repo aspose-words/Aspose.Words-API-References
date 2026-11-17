@@ -16,14 +16,12 @@ Gets or sets scaling type of the axis.
 Aspose::Words::Drawing::Charts::AxisScaleType Aspose::Words::Drawing::Charts::AxisScaling::get_Type() const
 ```
 
-## Remarks
 
- The [Linear](../../axisscaletype/) value is the only that is allowed in MS Office 2016 new charts. 
 ## Examples
 
 
-Shows how to apply logarithmic scaling to a chart axis.
 
+Shows how to apply logarithmic scaling to a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,8 +47,10 @@ chart->get_AxisY()->get_Scaling()->set_LogBase(20);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisScaling.docx");
 ```
+
 ## See Also
 
+* Enum [AxisScaleType](../../axisscaletype/)
 * Class [AxisScaling](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

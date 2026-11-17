@@ -20,14 +20,18 @@ class ChartAxisCollection : public System::Collections::Generic::IEnumerable<Sys
 
 | Method | Description |
 | --- | --- |
-| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
 | [get_Count](./get_count/)() | Gets the number of axes in this collection. |
+| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets the axis at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
+
 ## Examples
 
 
-Shows how to work with axes collection.
 
+Shows how to work with axes collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,6 +50,7 @@ for (auto&& axis : System::IterateOver(chart->get_Axes()))
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisCollection.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

@@ -4,7 +4,7 @@ linktitle: get_FootnoteOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_FootnoteOptions method. Provides options that control numbering and positioning of footnotes in this document in C++.'
 type: docs
-weight: 116000
+weight: 26000
 url: /cpp/aspose.words/document/get_footnoteoptions/
 ---
 ## Document::get_FootnoteOptions method
@@ -16,11 +16,12 @@ Provides options that control numbering and positioning of footnotes in this doc
 System::SharedPtr<Aspose::Words::Notes::FootnoteOptions> Aspose::Words::Document::get_FootnoteOptions()
 ```
 
+
 ## Examples
 
 
-Shows how to select a different place where the document collects and displays its footnotes.
 
+Shows how to select a different place where the document collects and displays its footnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,8 +46,8 @@ doc->get_FootnoteOptions()->set_Position(footnotePosition);
 doc->Save(get_ArtifactsDir() + u"InlineStory.PositionFootnote.docx");
 ```
 
-Shows how to change the number style of footnote/endnote reference marks.
 
+Shows how to change the number style of footnote/endnote reference marks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -79,8 +80,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.", u"Custom endnote r
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes. By default, footnotes display their numbers using Arabic numerals,
 // and endnotes display their numbers in lowercase Roman numerals.
-ASSERT_EQ(doc->get_FootnoteOptions()->get_NumberStyle(), NumberStyle::Arabic);
-ASSERT_EQ(doc->get_EndnoteOptions()->get_NumberStyle(), NumberStyle::LowercaseRoman);
+ASSERT_EQ(NumberStyle::Arabic, doc->get_FootnoteOptions()->get_NumberStyle());
+ASSERT_EQ(NumberStyle::LowercaseRoman, doc->get_EndnoteOptions()->get_NumberStyle());
 
 // We can use the "NumberStyle" property to apply custom numbering styles to footnotes and endnotes.
 // This will not affect footnotes/endnotes with custom reference marks.
@@ -90,8 +91,8 @@ doc->get_EndnoteOptions()->set_NumberStyle(NumberStyle::UppercaseLetter);
 doc->Save(get_ArtifactsDir() + u"InlineStory.RefMarkNumberStyle.docx");
 ```
 
-Shows how to restart footnote/endnote numbering at certain places in the document.
 
+Shows how to restart footnote/endnote numbering at certain places in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -129,8 +130,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 4.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and endnotes and does not restart these counts at any point.
-ASSERT_EQ(FootnoteNumberingRule::Default, doc->get_FootnoteOptions()->get_RestartRule());
-ASSERT_EQ(FootnoteNumberingRule::Continuous, FootnoteNumberingRule::Default);
+ASSERT_EQ(doc->get_FootnoteOptions()->get_RestartRule(), FootnoteNumberingRule::Default);
+ASSERT_EQ(FootnoteNumberingRule::Default, FootnoteNumberingRule::Continuous);
 
 // We can use the "RestartRule" property to get the document to restart
 // the footnote/endnote counts at a new page or section.
@@ -140,8 +141,8 @@ doc->get_EndnoteOptions()->set_RestartRule(FootnoteNumberingRule::RestartSection
 doc->Save(get_ArtifactsDir() + u"InlineStory.NumberingRule.docx");
 ```
 
-Shows how to set a number at which the document begins the footnote/endnote count.
 
+Shows how to set a number at which the document begins the footnote/endnote count. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -174,8 +175,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes, which both begin at 1.
-ASSERT_EQ(doc->get_FootnoteOptions()->get_StartNumber(), 1);
-ASSERT_EQ(doc->get_EndnoteOptions()->get_StartNumber(), 1);
+ASSERT_EQ(1, doc->get_FootnoteOptions()->get_StartNumber());
+ASSERT_EQ(1, doc->get_EndnoteOptions()->get_StartNumber());
 
 // We can use the "StartNumber" property to get the document to
 // begin a footnote or endnote count at a different number.
@@ -184,8 +185,10 @@ doc->get_EndnoteOptions()->set_StartNumber(50);
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.StartNumber.docx");
 ```
+
 ## See Also
 
+* Class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

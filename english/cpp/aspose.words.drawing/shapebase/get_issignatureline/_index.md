@@ -4,7 +4,7 @@ linktitle: get_IsSignatureLine
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsSignatureLine method. Indicates that shape is a SignatureLine in C++.'
 type: docs
-weight: 61550
+weight: 35000
 url: /cpp/aspose.words.drawing/shapebase/get_issignatureline/
 ---
 ## ShapeBase::get_IsSignatureLine method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.drawing/shapebase/get_issignatureline/
 Indicates that shape is a [SignatureLine](../../signatureline/).
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsSignatureLine()
+bool Aspose::Words::Drawing::ShapeBase::get_IsSignatureLine()
 ```
+
 
 ## Examples
 
 
-Shows how to create a line for a signature and insert it into a document.
 
+Shows how to create a line for a signature and insert it into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,16 +46,17 @@ ASSERT_TRUE(shape->get_IsSignatureLine());
 // Verify the properties of our signature line via its Shape object.
 System::SharedPtr<Aspose::Words::Drawing::SignatureLine> signatureLine = shape->get_SignatureLine();
 
-ASSERT_EQ(signatureLine->get_Email(), u"john.doe@management.com");
-ASSERT_EQ(signatureLine->get_Signer(), u"John Doe");
-ASSERT_EQ(signatureLine->get_SignerTitle(), u"Senior Manager");
-ASSERT_EQ(signatureLine->get_Instructions(), u"Please sign here");
+ASSERT_EQ(u"john.doe@management.com", signatureLine->get_Email());
+ASSERT_EQ(u"John Doe", signatureLine->get_Signer());
+ASSERT_EQ(u"Senior Manager", signatureLine->get_SignerTitle());
+ASSERT_EQ(u"Please sign here", signatureLine->get_Instructions());
 ASSERT_TRUE(signatureLine->get_ShowDate());
 ASSERT_TRUE(signatureLine->get_AllowComments());
 ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 
 doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

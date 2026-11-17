@@ -20,11 +20,12 @@ Aspose::Words::PaperSize Aspose::Words::PageSetup::get_PaperSize()
 
 
 Setting this property updates [PageWidth](../get_pagewidth/) and [PageHeight](../get_pageheight/) values. Setting this value to [Custom](../../papersize/) does not change existing values.
+
 ## Examples
 
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,8 +44,8 @@ builder->Writeln(u"Hello world!");
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
 
-Shows how to set page sizes.
 
+Shows how to set page sizes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,8 +54,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // by using the "PaperSize" property of this section's PageSetup object.
 builder->get_PageSetup()->set_PaperSize(PaperSize::Tabloid);
 
-ASPOSE_ASSERT_EQ(builder->get_PageSetup()->get_PageWidth(), 792.0);
-ASPOSE_ASSERT_EQ(builder->get_PageSetup()->get_PageHeight(), 1224.0);
+ASPOSE_ASSERT_EQ(792.0, builder->get_PageSetup()->get_PageWidth());
+ASPOSE_ASSERT_EQ(1224.0, builder->get_PageSetup()->get_PageHeight());
 
 builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
 
@@ -62,13 +63,13 @@ builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_P
 // that section's PageSetup object inherits all the previous section's PageSetup object's values.
 builder->InsertBreak(BreakType::SectionBreakEvenPage);
 
-ASSERT_EQ(builder->get_PageSetup()->get_PaperSize(), PaperSize::Tabloid);
+ASSERT_EQ(PaperSize::Tabloid, builder->get_PageSetup()->get_PaperSize());
 
 builder->get_PageSetup()->set_PaperSize(PaperSize::A5);
 builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
 
-ASPOSE_ASSERT_EQ(builder->get_PageSetup()->get_PageWidth(), 419.55);
-ASPOSE_ASSERT_EQ(builder->get_PageSetup()->get_PageHeight(), 595.30);
+ASPOSE_ASSERT_EQ(419.55, builder->get_PageSetup()->get_PageWidth());
+ASPOSE_ASSERT_EQ(595.30, builder->get_PageSetup()->get_PageHeight());
 
 builder->InsertBreak(BreakType::SectionBreakEvenPage);
 
@@ -76,15 +77,15 @@ builder->InsertBreak(BreakType::SectionBreakEvenPage);
 builder->get_PageSetup()->set_PageWidth(620);
 builder->get_PageSetup()->set_PageHeight(480);
 
-ASSERT_EQ(builder->get_PageSetup()->get_PaperSize(), PaperSize::Custom);
+ASSERT_EQ(PaperSize::Custom, builder->get_PageSetup()->get_PaperSize());
 
 builder->Writeln(System::String::Format(u"This page is {0}x{1}.", builder->get_PageSetup()->get_PageWidth(), builder->get_PageSetup()->get_PageHeight()));
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PaperSizes.docx");
 ```
 
-Shows how to set the paper size of JisB4 or JisB5.
 
+Shows how to set the paper size of JisB4 or JisB5. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -95,8 +96,8 @@ pageSetup->set_PaperSize(PaperSize::JisB4);
 pageSetup->set_PaperSize(PaperSize::JisB5);
 ```
 
-Shows how to construct an Aspose.Words document by hand.
 
+Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -135,12 +136,14 @@ run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-ASSERT_EQ(doc->GetText().Trim(), u"Hello World!");
+ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
+
 ## See Also
 
+* Enum [PaperSize](../../papersize/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -21,7 +21,7 @@ System::String Aspose::Words::Markup::SmartTag::get_Uri() const
 
 Cannot be **null**.
 
-Default is empty string.
+Default is empty string. 
 ## See Also
 
 * Class [SmartTag](../)

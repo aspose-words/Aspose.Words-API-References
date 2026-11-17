@@ -4,7 +4,7 @@ linktitle: get_Pattern
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Fill::get_Pattern method. Gets a PatternType for the fill in C++.'
 type: docs
-weight: 60000
+weight: 17000
 url: /cpp/aspose.words.drawing/fill/get_pattern/
 ---
 ## Fill::get_Pattern method
@@ -16,11 +16,12 @@ Gets a [PatternType](../../patterntype/) for the fill.
 Aspose::Words::Drawing::PatternType Aspose::Words::Drawing::Fill::get_Pattern()
 ```
 
+
 ## Examples
 
 
-Shows how to set pattern for a shape.
 
+Shows how to set pattern for a shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape stroke pattern border.docx"));
 
@@ -38,8 +39,10 @@ fill->Patterned(PatternType::DiagonalBrick, System::Drawing::Color::get_Aqua(), 
 
 doc->Save(get_ArtifactsDir() + u"Shape.FillPattern.docx");
 ```
+
 ## See Also
 
+* Enum [PatternType](../../patterntype/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

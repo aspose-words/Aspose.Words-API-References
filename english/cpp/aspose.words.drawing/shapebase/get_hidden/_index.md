@@ -4,7 +4,7 @@ linktitle: get_Hidden
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Hidden method. Gets or sets a boolean value indicating whether the shape is visible in C++.'
 type: docs
-weight: 61370
+weight: 22750
 url: /cpp/aspose.words.drawing/shapebase/get_hidden/
 ---
 ## ShapeBase::get_Hidden method
@@ -13,17 +13,15 @@ url: /cpp/aspose.words.drawing/shapebase/get_hidden/
 Gets or sets a boolean value indicating whether the shape is visible.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_Hidden()
+bool Aspose::Words::Drawing::ShapeBase::get_Hidden()
 ```
 
-## Remarks
 
- The default value is **false**. 
 ## Examples
 
 
-Shows how to hide the shape.
 
+Shows how to hide the shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
 
@@ -35,6 +33,7 @@ if (!shape->get_Hidden())
 
 doc->Save(get_ArtifactsDir() + u"Shape.Hidden.docx");
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

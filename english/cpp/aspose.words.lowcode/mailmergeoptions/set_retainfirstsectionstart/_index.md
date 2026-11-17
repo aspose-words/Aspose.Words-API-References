@@ -16,9 +16,6 @@ Sets a value indicating whether the section start of the first document section 
 void Aspose::Words::LowCode::MailMergeOptions::set_RetainFirstSectionStart(bool value)
 ```
 
-## Remarks
-
- The default value is **true**. 
 ## See Also
 
 * Class [MailMergeOptions](../)

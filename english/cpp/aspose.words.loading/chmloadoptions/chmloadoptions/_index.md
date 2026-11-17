@@ -16,11 +16,12 @@ Initializes a new instance of this class with default values.
 Aspose::Words::Loading::ChmLoadOptions::ChmLoadOptions()
 ```
 
+
 ## Examples
 
 
-Shows how to resolve URLs like "ms-its:myfile.chm::/index.htm".
 
+Shows how to resolve URLs like "ms-its:myfile.chm::/index.htm". 
 ```cpp
 // Our document contains URLs like "ms-its:amhelp.chm::....htm", but it has a different name,
 // so file links don't work after saving it to HTML.
@@ -32,6 +33,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::MakeObject<System
 
 doc->Save(get_ArtifactsDir() + u"ExChmLoadOptions.OriginalFileName.html");
 ```
+
 ## See Also
 
 * Class [ChmLoadOptions](../)

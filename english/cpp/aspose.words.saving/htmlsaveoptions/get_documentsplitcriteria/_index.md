@@ -22,11 +22,12 @@ Aspose::Words::Saving::DocumentSplitCriteria Aspose::Words::Saving::HtmlSaveOpti
 Normally you would want a document saved to HTML as a single file. But in some cases it is preferable to split the output into several smaller HTML pages. When saving to HTML format these pages will be output to individual files or streams. When saving to EPUB format they will be incorporated into corresponding packages.
 
 A document cannot be split when saving in the MHTML format.
+
 ## Examples
 
 
-Shows how to use a specific encoding when saving a document to .epub.
 
+Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -46,8 +47,10 @@ saveOptions->set_ExportDocumentProperties(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
+
 ## See Also
 
+* Enum [DocumentSplitCriteria](../../documentsplitcriteria/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

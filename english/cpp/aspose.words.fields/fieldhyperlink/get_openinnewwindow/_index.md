@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldhyperlink/get_openinnewwindow/
 Gets or sets whether to open the destination site in a new web browser window.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldHyperlink::get_OpenInNewWindow()
+bool Aspose::Words::Fields::FieldHyperlink::get_OpenInNewWindow()
 ```
+
 
 ## Examples
 
 
-Shows how to use HYPERLINK fields to link to documents in the local file system.
 
+Shows how to use HYPERLINK fields to link to documents in the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,6 +48,7 @@ field->set_IsImageMap(false);
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.HYPERLINK.docx");
 ```
+
 ## See Also
 
 * Class [FieldHyperlink](../)

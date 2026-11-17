@@ -19,9 +19,10 @@ Aspose::Words::Saving::PdfCompliance Aspose::Words::Saving::PdfSaveOptions::get_
 ## Remarks
 
 
-Default is [Pdf17](../../pdfcompliance/).
+Default is [Pdf17](../../pdfcompliance/). 
 ## See Also
 
+* Enum [PdfCompliance](../../pdfcompliance/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

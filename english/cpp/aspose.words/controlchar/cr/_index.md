@@ -16,11 +16,12 @@ Carriage return character: "\x000d" or "\r". Same as [ParagraphBreak](../paragra
 static System::String & Aspose::Words::ControlChar::Cr()
 ```
 
+
 ## Examples
 
 
-Shows how to use control characters.
 
+Shows how to use control characters. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,12 +32,13 @@ builder->Writeln(u"Hello again!");
 
 // Converting the document to text form reveals that control characters
 // represent some of the document's structural elements, such as page breaks.
-ASSERT_EQ(doc->GetText(), System::String::Format(u"Hello world!{0}", ControlChar::Cr()) + System::String::Format(u"Hello again!{0}", ControlChar::Cr()) + ControlChar::PageBreak());
+ASSERT_EQ(System::String::Format(u"Hello world!{0}", ControlChar::Cr()) + System::String::Format(u"Hello again!{0}", ControlChar::Cr()) + ControlChar::PageBreak(), doc->GetText());
 
 // When converting a document to string form,
 // we can omit some of the control characters with the Trim method.
-ASSERT_EQ(doc->GetText().Trim(), System::String::Format(u"Hello world!{0}", ControlChar::Cr()) + u"Hello again!");
+ASSERT_EQ(System::String::Format(u"Hello world!{0}", ControlChar::Cr()) + u"Hello again!", doc->GetText().Trim());
 ```
+
 ## See Also
 
 * Class [ControlChar](../)

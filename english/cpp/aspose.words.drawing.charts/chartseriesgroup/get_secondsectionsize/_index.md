@@ -22,11 +22,12 @@ int32_t Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_SecondSectionSize(
 Applies to series groups of the [PieOfPie](../../chartseriestype/) and [PieOfBar](../../chartseriestype/) types.
 
 The range of acceptable values is from 5 to 200 inclusive. The default value is 75.
+
 ## Examples
 
 
-Shows how to create and format pie of Pie chart.
 
+Shows how to create and format pie of Pie chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,6 +47,7 @@ seriesGroup->set_SecondSectionSize(77);
 
 doc->Save(get_ArtifactsDir() + u"Charts.PieOfPieChart.docx");
 ```
+
 ## See Also
 
 * Class [ChartSeriesGroup](../)

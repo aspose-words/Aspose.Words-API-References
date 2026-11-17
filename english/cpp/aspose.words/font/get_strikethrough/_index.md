@@ -4,7 +4,7 @@ linktitle: get_StrikeThrough
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_StrikeThrough method. True if the font is formatted as strikethrough text in C++.'
 type: docs
-weight: 59440
+weight: 41000
 url: /cpp/aspose.words/font/get_strikethrough/
 ---
 ## Font::get_StrikeThrough method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words/font/get_strikethrough/
 True if the font is formatted as strikethrough text.
 
 ```cpp
-_Bool Aspose::Words::Font::get_StrikeThrough()
+bool Aspose::Words::Font::get_StrikeThrough()
 ```
+
 
 ## Examples
 
 
-Shows how to add a line strikethrough to text.
 
+Shows how to add a line strikethrough to text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
@@ -37,6 +38,7 @@ para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 doc->Save(get_ArtifactsDir() + u"Font.StrikeThrough.docx");
 ```
+
 ## See Also
 
 * Class [Font](../)

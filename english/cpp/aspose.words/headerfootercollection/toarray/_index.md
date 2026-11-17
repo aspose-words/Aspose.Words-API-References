@@ -20,8 +20,10 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::HeaderFooter>> Aspose::Words::
 ### ReturnValue
 
 An array of **HeaderFooter**s.
+
 ## See Also
 
+* Class [HeaderFooter](../../headerfooter/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

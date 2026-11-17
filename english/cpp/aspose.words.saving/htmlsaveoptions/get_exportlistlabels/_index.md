@@ -16,11 +16,12 @@ Controls how list labels are output to HTML, MHTML or EPUB. Default value is [Au
 Aspose::Words::Saving::ExportListLabels Aspose::Words::Saving::HtmlSaveOptions::get_ExportListLabels() const
 ```
 
+
 ## Examples
 
 
-Shows how to configure list exporting to HTML.
 
+Shows how to configure list exporting to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -75,8 +76,10 @@ switch (exportListLabels)
         break;
 }
 ```
+
 ## See Also
 
+* Enum [ExportListLabels](../../exportlistlabels/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

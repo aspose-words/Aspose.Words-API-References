@@ -10,20 +10,18 @@ url: /cpp/aspose.words.drawing.charts/chartlegendentry/get_ishidden/
 ## ChartLegendEntry::get_IsHidden method
 
 
-Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is false.
+Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartLegendEntry::get_IsHidden() const
+bool Aspose::Words::Drawing::Charts::ChartLegendEntry::get_IsHidden() const
 ```
 
-## Remarks
 
- When a chart legend entry is hidden, it does not affect the corresponding chart series or trendline that is still displayed on the chart. 
 ## Examples
 
 
-Shows how to work with a legend entry for chart series.
 
+Shows how to work with a legend entry for chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,6 +44,7 @@ legendEntries->idx_get(3)->set_IsHidden(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.LegendEntries.docx");
 ```
+
 ## See Also
 
 * Class [ChartLegendEntry](../)

@@ -16,11 +16,12 @@ Specifies color for a hyperlink.
 System::Drawing::Color Aspose::Words::Themes::ThemeColors::get_Hyperlink()
 ```
 
+
 ## Examples
 
 
-Shows how to set custom colors and fonts for themes.
 
+Shows how to set custom colors and fonts for themes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Theme colors.docx"));
 
@@ -32,10 +33,10 @@ theme->get_MajorFonts()->set_Latin(u"Courier New");
 theme->get_MinorFonts()->set_Latin(u"Agency FB");
 
 // Other languages may also have their custom fonts in this theme.
-ASSERT_EQ(theme->get_MajorFonts()->get_ComplexScript(), System::String::Empty);
-ASSERT_EQ(theme->get_MajorFonts()->get_EastAsian(), System::String::Empty);
-ASSERT_EQ(theme->get_MinorFonts()->get_ComplexScript(), System::String::Empty);
-ASSERT_EQ(theme->get_MinorFonts()->get_EastAsian(), System::String::Empty);
+ASSERT_EQ(System::String::Empty, theme->get_MajorFonts()->get_ComplexScript());
+ASSERT_EQ(System::String::Empty, theme->get_MajorFonts()->get_EastAsian());
+ASSERT_EQ(System::String::Empty, theme->get_MinorFonts()->get_ComplexScript());
+ASSERT_EQ(System::String::Empty, theme->get_MinorFonts()->get_EastAsian());
 
 // The "Colors" property contains the color palette from Microsoft Word,
 // which appears when changing shading or font color.
@@ -61,6 +62,7 @@ colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 
 doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
+
 ## See Also
 
 * Class [ThemeColors](../)

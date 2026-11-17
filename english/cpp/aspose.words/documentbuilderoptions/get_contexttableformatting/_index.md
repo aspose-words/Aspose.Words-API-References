@@ -13,14 +13,15 @@ url: /cpp/aspose.words/documentbuilderoptions/get_contexttableformatting/
 True if the formatting applied to table content does not affect the formatting of the content that follows it. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilderOptions::get_ContextTableFormatting() const
+bool Aspose::Words::DocumentBuilderOptions::get_ContextTableFormatting() const
 ```
+
 
 ## Examples
 
 
-Shows how to ignore table formatting for content after.
 
+Shows how to ignore table formatting for content after. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builderOptions = System::MakeObject<Aspose::Words::DocumentBuilderOptions>();
@@ -46,6 +47,7 @@ builder->Writeln(u"Font size 12 here.");
 
 doc->Save(get_ArtifactsDir() + u"Table.ContextTableFormatting.docx");
 ```
+
 ## See Also
 
 * Class [DocumentBuilderOptions](../)

@@ -16,11 +16,12 @@ Specifies chart data marker.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMarker> Aspose::Words::Drawing::Charts::ChartDataPoint::get_Marker() override
 ```
 
+
 ## Examples
 
 
-Show how to set marker formatting.
 
+Show how to set marker formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,8 +52,10 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 
 doc->Save(get_ArtifactsDir() + u"Charts.MarkerFormatting.docx");
 ```
+
 ## See Also
 
+* Class [ChartMarker](../../chartmarker/)
 * Class [ChartDataPoint](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

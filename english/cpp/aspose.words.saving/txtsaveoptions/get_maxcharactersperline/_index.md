@@ -16,11 +16,12 @@ Gets or sets an integer value that specifies the maximum number of characters pe
 int32_t Aspose::Words::Saving::TxtSaveOptions::get_MaxCharactersPerLine() const
 ```
 
+
 ## Examples
 
 
-Shows how to set maximum number of characters per line.
 
+Shows how to set maximum number of characters per line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,6 +34,7 @@ saveOptions->set_MaxCharactersPerLine(30);
 
 doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
 ```
+
 ## See Also
 
 * Class [TxtSaveOptions](../)

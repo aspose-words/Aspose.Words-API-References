@@ -13,15 +13,17 @@ url: /cpp/aspose.words.rendering/shaperenderer/shaperenderer/
 Initializes a new instance of this class.
 
 ```cpp
-Aspose::Words::Rendering::ShapeRenderer::ShapeRenderer(const System::SharedPtr<Aspose::Words::Drawing::ShapeBase> & shape)
+Aspose::Words::Rendering::ShapeRenderer::ShapeRenderer(const System::SharedPtr<Aspose::Words::Drawing::ShapeBase> &shape)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | const System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\> \& | The DrawinML shape object that you want to render. |
+| shape | const System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\& | The DrawinML shape object that you want to render. |
+
 ## See Also
 
+* Class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * Class [ShapeRenderer](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)

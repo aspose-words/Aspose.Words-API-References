@@ -4,7 +4,7 @@ linktitle: get_SpellingChecked
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_SpellingChecked method. Returns true if the document has been checked for spelling in C++.'
 type: docs
-weight: 144000
+weight: 52000
 url: /cpp/aspose.words/document/get_spellingchecked/
 ---
 ## Document::get_SpellingChecked method
@@ -13,17 +13,15 @@ url: /cpp/aspose.words/document/get_spellingchecked/
 Returns **true** if the document has been checked for spelling.
 
 ```cpp
-_Bool Aspose::Words::Document::get_SpellingChecked()
+bool Aspose::Words::Document::get_SpellingChecked()
 ```
 
-## Remarks
 
- To recheck the spelling in the document, set this property to **false**. 
 ## Examples
 
 
-Shows how to set spelling or grammar verifying.
 
+Shows how to set spelling or grammar verifying. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -38,6 +36,7 @@ doc->set_GrammarChecked(checkSpellingGrammar);
 
 doc->Save(get_ArtifactsDir() + u"Document.SpellingOrGrammar.docx");
 ```
+
 ## See Also
 
 * Class [Document](../)

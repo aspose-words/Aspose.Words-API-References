@@ -16,11 +16,12 @@ Loads predefined fallback settings which mimics the Microsoft Word fallback and 
 void Aspose::Words::Fonts::FontFallbackSettings::LoadMsOfficeFallbackSettings()
 ```
 
+
 ## Examples
 
 
-Shows how to load pre-defined fallback font settings.
 
+Shows how to load pre-defined fallback font settings. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -43,6 +44,7 @@ fontFallbackSettings->Save(get_ArtifactsDir() + u"FontSettings.FallbackSettings.
 fontFallbackSettings->LoadNotoFallbackSettings();
 fontFallbackSettings->Save(get_ArtifactsDir() + u"FontSettings.FallbackSettings.LoadNotoFallbackSettings.xml");
 ```
+
 ## See Also
 
 * Class [FontFallbackSettings](../)

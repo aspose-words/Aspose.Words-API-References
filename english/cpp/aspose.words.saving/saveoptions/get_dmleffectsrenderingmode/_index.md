@@ -18,10 +18,13 @@ virtual Aspose::Words::Saving::DmlEffectsRenderingMode Aspose::Words::Saving::Sa
 
 ## Remarks
 
- The default value is [Simplified](../../dmleffectsrenderingmode/). 
-This property is used when the document is exported to fixed page formats.
+
+The default value is [Simplified](../../dmleffectsrenderingmode/).
+
+This property is used when the document is exported to fixed page formats. 
 ## See Also
 
+* Enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

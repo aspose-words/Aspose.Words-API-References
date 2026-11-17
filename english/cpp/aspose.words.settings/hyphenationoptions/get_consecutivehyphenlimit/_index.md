@@ -22,11 +22,12 @@ int32_t Aspose::Words::Settings::HyphenationOptions::get_ConsecutiveHyphenLimit(
 If value of this property is set to 0, any number of consecutive lines can end with hyphens.
 
 The property does not have effect when saving to fixed page formats e.g. PDF.
+
 ## Examples
 
 
-Shows how to configure automatic hyphenation.
 
+Shows how to configure automatic hyphenation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,6 +42,7 @@ doc->get_HyphenationOptions()->set_HyphenateCaps(true);
 
 doc->Save(get_ArtifactsDir() + u"Document.HyphenationOptions.docx");
 ```
+
 ## See Also
 
 * Class [HyphenationOptions](../)

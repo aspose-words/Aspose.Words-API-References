@@ -13,11 +13,12 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/set_replacingcallback/
 The user-defined method which is called before every replace occurrence.
 
 ```cpp
-void Aspose::Words::Replacing::FindReplaceOptions::set_ReplacingCallback(const System::SharedPtr<Aspose::Words::Replacing::IReplacingCallback> & value)
+void Aspose::Words::Replacing::FindReplaceOptions::set_ReplacingCallback(const System::SharedPtr<Aspose::Words::Replacing::IReplacingCallback> &value)
 ```
 
 ## See Also
 
+* Interface [IReplacingCallback](../../ireplacingcallback/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

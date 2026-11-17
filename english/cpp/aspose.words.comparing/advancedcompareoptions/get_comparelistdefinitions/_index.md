@@ -13,17 +13,15 @@ url: /cpp/aspose.words.comparing/advancedcompareoptions/get_comparelistdefinitio
 Specifies whether list definition contents are compared instead of list definition Ids.
 
 ```cpp
-_Bool Aspose::Words::Comparing::AdvancedCompareOptions::get_CompareListDefinitions() const
+bool Aspose::Words::Comparing::AdvancedCompareOptions::get_CompareListDefinitions() const
 ```
 
-## Remarks
 
- Default value is **false**. 
 ## Examples
 
 
-Shows how to control whether list definition content will be compared during document comparison.
 
+Shows how to control whether list definition content will be compared during document comparison. 
 ```cpp
 auto docA = System::MakeObject<Aspose::Words::Document>();
 auto builderA = System::MakeObject<Aspose::Words::DocumentBuilder>(docA);
@@ -44,6 +42,7 @@ auto options = System::MakeObject<Aspose::Words::Comparing::CompareOptions>();
 options->get_AdvancedOptions()->set_CompareListDefinitions(isCompareListDefinitions);
 docA->Compare(docB, u"test", System::DateTime::get_Now(), options);
 ```
+
 ## See Also
 
 * Class [AdvancedCompareOptions](../)

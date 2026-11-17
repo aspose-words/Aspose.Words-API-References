@@ -13,14 +13,15 @@ url: /cpp/aspose.words.saving/saveoptions/get_updatelastprintedproperty/
 Gets or sets a value determining whether the [LastPrinted](../../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty() const
+bool Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty() const
 ```
+
 
 ## Examples
 
 
-Shows how to update a document's "Last printed" property when saving.
 
+Shows how to update a document's "Last printed" property when saving. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -42,13 +43,14 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 if (isUpdateLastPrintedProperty)
 {
-    ASSERT_NE(doc->get_BuiltInDocumentProperties()->get_LastPrinted(), lastPrinted);
+    ASSERT_NE(lastPrinted, doc->get_BuiltInDocumentProperties()->get_LastPrinted());
 }
 else
 {
-    ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_LastPrinted(), lastPrinted);
+    ASSERT_EQ(lastPrinted, doc->get_BuiltInDocumentProperties()->get_LastPrinted());
 }
 ```
+
 ## See Also
 
 * Class [SaveOptions](../)

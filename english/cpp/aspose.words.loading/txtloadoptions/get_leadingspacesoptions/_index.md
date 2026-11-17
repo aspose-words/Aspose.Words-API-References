@@ -16,11 +16,12 @@ Gets or sets preferred option of a leading space handling. Default value is [Con
 Aspose::Words::Loading::TxtLeadingSpacesOptions Aspose::Words::Loading::TxtLoadOptions::get_LeadingSpacesOptions() const
 ```
 
+
 ## Examples
 
 
-Shows how to trim whitespace when loading plaintext documents.
 
+Shows how to trim whitespace when loading plaintext documents. 
 ```cpp
 System::String textDoc = System::String(u"      Line 1 \n") + u"    Line 2   \n" + u" Line 3       ";
 
@@ -49,9 +50,9 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_Firs
 switch (txtLeadingSpacesOptions)
 {
     case TxtLeadingSpacesOptions::ConvertToIndent:
-        ASPOSE_ASSERT_EQ(paragraphs->idx_get(0)->get_ParagraphFormat()->get_FirstLineIndent(), 37.8);
-        ASPOSE_ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_FirstLineIndent(), 25.2);
-        ASPOSE_ASSERT_EQ(paragraphs->idx_get(2)->get_ParagraphFormat()->get_FirstLineIndent(), 6.3);
+        ASPOSE_ASSERT_EQ(37.8, paragraphs->idx_get(0)->get_ParagraphFormat()->get_FirstLineIndent());
+        ASPOSE_ASSERT_EQ(25.2, paragraphs->idx_get(1)->get_ParagraphFormat()->get_FirstLineIndent());
+        ASPOSE_ASSERT_EQ(6.3, paragraphs->idx_get(2)->get_ParagraphFormat()->get_FirstLineIndent());
         ASSERT_TRUE(paragraphs->idx_get(0)->GetText().StartsWith(u"Line 1"));
         ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"Line 2"));
         ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u"Line 3"));
@@ -90,8 +91,10 @@ switch (txtTrailingSpacesOptions)
         break;
 }
 ```
+
 ## See Also
 
+* Enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

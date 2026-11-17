@@ -13,7 +13,7 @@ url: /cpp/aspose.words/editablerangestart/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::EditableRangeStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::EditableRangeStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,8 +30,10 @@ _Bool Aspose::Words::EditableRangeStart::Accept(System::SharedPtr<Aspose::Words:
 Calls [VisitEditableRangeStart()](../../documentvisitor/visiteditablerangestart/).
 
 For more info see the Visitor design pattern.
+
 ## See Also
 
+* Class [DocumentVisitor](../../documentvisitor/)
 * Class [EditableRangeStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

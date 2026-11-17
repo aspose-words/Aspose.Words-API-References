@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Replacing::IReplacingCallback> Aspose::Words::R
 
 ## See Also
 
+* Interface [IReplacingCallback](../../ireplacingcallback/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

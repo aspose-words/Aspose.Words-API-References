@@ -35,9 +35,12 @@ For example, a field that displays a page number can be represented as follows:
 
 The field separator separates field code from field value in the document. Note that some fields have only field code and do not have field separator and field value.
 
-Fields can be nested.
+[Fields](../../../aspose.words.fields/) can be nested.
+
 ## See Also
 
+* Enum [VisitorAction](../../visitoraction/)
+* Class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

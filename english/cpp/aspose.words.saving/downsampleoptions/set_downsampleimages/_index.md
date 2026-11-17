@@ -16,9 +16,6 @@ Specifies whether images should be downsampled.
 void Aspose::Words::Saving::DownsampleOptions::set_DownsampleImages(bool value)
 ```
 
-## Remarks
-
- The default value is **true**. 
 ## See Also
 
 * Class [DownsampleOptions](../)

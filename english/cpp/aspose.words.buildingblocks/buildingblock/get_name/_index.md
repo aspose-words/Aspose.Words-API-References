@@ -23,7 +23,8 @@ The name may contain any string content, usually a friendly identifier. Multiple
 
 Cannot be **null** and cannot be an empty string.
 
-Corresponds to the docPartPr.name element in OOXML.
+Corresponds to the **docPartPr.name** element in OOXML.
+
 ## See Also
 
 * Class [BuildingBlock](../)

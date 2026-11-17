@@ -16,11 +16,12 @@ Gets or sets the printer-specific control code characters or PostScript instruct
 System::String Aspose::Words::Fields::FieldPrint::get_PrinterInstructions()
 ```
 
+
 ## Examples
 
 
-Shows to insert a PRINT field.
 
+Shows to insert a PRINT field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,11 +39,12 @@ field->set_PostScriptGroup(u"para");
 // this command will turn the entire area that we specified in "field.PostScriptGroup" white.
 field->set_PrinterInstructions(u"erasepage");
 
-ASSERT_EQ(field->GetFieldCode(), u" PRINT  erasepage \\p para");
+ASSERT_EQ(u" PRINT  erasepage \\p para", field->GetFieldCode());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.PRINT.docx");
 ```
+
 ## See Also
 
 * Class [FieldPrint](../)

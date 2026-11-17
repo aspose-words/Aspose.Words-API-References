@@ -19,12 +19,13 @@ int32_t Aspose::Words::Paragraph::JoinRunsWithSameFormatting()
 
 ### ReturnValue
 
-Number of joins performed. When N adjacent runs are being joined they count as N - 1 joins.
+Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
+
 ## Examples
 
 
-Shows how to simplify paragraphs by merging superfluous runs.
 
+Shows how to simplify paragraphs by merging superfluous runs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +41,7 @@ builder->Write(u"Run 4. ");
 // may occur when we manually edit parts of one paragraph many times in Microsoft Word.
 System::SharedPtr<Aspose::Words::Paragraph> para = builder->get_CurrentParagraph();
 
-ASSERT_EQ(para->get_Runs()->get_Count(), 4);
+ASSERT_EQ(4, para->get_Runs()->get_Count());
 
 // Change the style of the last run to set it apart from the first three.
 para->get_Runs()->idx_get(3)->get_Font()->set_StyleIdentifier(StyleIdentifier::Emphasis);
@@ -50,41 +51,43 @@ para->get_Runs()->idx_get(3)->get_Font()->set_StyleIdentifier(StyleIdentifier::E
 // This method also returns the number of runs that this method merged.
 // These two merges occurred to combine Runs #1, #2, and #3,
 // while leaving out Run #4 because it has an incompatible style.
-ASSERT_EQ(para->JoinRunsWithSameFormatting(), 2);
+ASSERT_EQ(2, para->JoinRunsWithSameFormatting());
 
 // The number of runs left will equal the original count
 // minus the number of run merges that the "JoinRunsWithSameFormatting" method carried out.
-ASSERT_EQ(para->get_Runs()->get_Count(), 2);
-ASSERT_EQ(para->get_Runs()->idx_get(0)->get_Text(), u"Run 1. Run 2. Run 3. ");
-ASSERT_EQ(para->get_Runs()->idx_get(1)->get_Text(), u"Run 4. ");
+ASSERT_EQ(2, para->get_Runs()->get_Count());
+ASSERT_EQ(u"Run 1. Run 2. Run 3. ", para->get_Runs()->idx_get(0)->get_Text());
+ASSERT_EQ(u"Run 4. ", para->get_Runs()->idx_get(1)->get_Text());
 ```
+
 ## See Also
 
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Paragraph::JoinRunsWithSameFormatting(const System::SharedPtr\<Aspose::Words::JoinRunsOptions\> \&) method
+## Paragraph::JoinRunsWithSameFormatting(const System::SharedPtr\<Aspose::Words::JoinRunsOptions\>\&) method
 
 
 Joins runs with the same formatting in the paragraph.
 
 ```cpp
-int32_t Aspose::Words::Paragraph::JoinRunsWithSameFormatting(const System::SharedPtr<Aspose::Words::JoinRunsOptions> & options)
+int32_t Aspose::Words::Paragraph::JoinRunsWithSameFormatting(const System::SharedPtr<Aspose::Words::JoinRunsOptions> &options)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | const System::SharedPtr\<Aspose::Words::JoinRunsOptions\> \& | Additional options |
+| options | const System::SharedPtr\<Aspose::Words::JoinRunsOptions\>\& | Additional options |
 
 ### ReturnValue
 
-Number of joins performed. When N adjacent runs are being joined they count as N - 1 joins.
+Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
+
 ## Examples
 
 
-Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes.
 
+Shows how to join runs with the same formatting while ignoring redundant and insignificant attributes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -96,9 +99,9 @@ builder->Write(u"Hello ");
 builder->Write(u"world");
 
 // Verify runs before join.
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->get_Count(), 2);
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Text(), u"Hello ");
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(1)->get_Text(), u"world");
+ASSERT_EQ(2, doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->get_Count());
+ASSERT_EQ(u"Hello ", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Text());
+ASSERT_EQ(u"world", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(1)->get_Text());
 
 // Configure options to ignore redundant and insignificant attributes during join.
 auto options = System::MakeObject<Aspose::Words::JoinRunsOptions>();
@@ -111,13 +114,15 @@ options->set_IgnoreInsignificant(true);
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->JoinRunsWithSameFormatting(options);
 
 // Verify that runs were successfully joined.
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->get_Count(), 1);
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Text(), u"Hello world");
+ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->get_Count());
+ASSERT_EQ(u"Hello world", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Text());
 
 doc->Save(get_ArtifactsDir() + u"Paragraph.JoinRunsWithSameFormattingWithOptions.docx");
 ```
+
 ## See Also
 
+* Class [JoinRunsOptions](../../joinrunsoptions/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

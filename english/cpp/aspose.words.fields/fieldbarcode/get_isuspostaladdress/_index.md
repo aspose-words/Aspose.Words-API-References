@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldbarcode/get_isuspostaladdress/
 Gets or sets whether [PostalAddress](../get_postaladdress/) is a U.S. postal address.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldBarcode::get_IsUSPostalAddress()
+bool Aspose::Words::Fields::FieldBarcode::get_IsUSPostalAddress()
 ```
+
 
 ## Examples
 
 
-Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 
+Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,7 +37,7 @@ field->set_PostalAddress(u"96801");
 field->set_IsUSPostalAddress(true);
 field->set_FacingIdentificationMark(u"C");
 
-ASSERT_EQ(field->GetFieldCode(), u" BARCODE  96801 \\u \\f C");
+ASSERT_EQ(u" BARCODE  96801 \\u \\f C", field->GetFieldCode());
 
 builder->InsertBreak(BreakType::LineBreak);
 
@@ -45,7 +46,7 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldBarcode>(builder->Inser
 field->set_PostalAddress(u"BarcodeBookmark");
 field->set_IsBookmark(true);
 
-ASSERT_EQ(field->GetFieldCode(), u" BARCODE  BarcodeBookmark \\b");
+ASSERT_EQ(u" BARCODE  BarcodeBookmark \\b", field->GetFieldCode());
 
 // The bookmark that the BARCODE field references in its PostalAddress property
 // need to contain nothing besides the valid ZIP code.
@@ -56,6 +57,7 @@ builder->EndBookmark(u"BarcodeBookmark");
 
 doc->Save(get_ArtifactsDir() + u"Field.BARCODE.docx");
 ```
+
 ## See Also
 
 * Class [FieldBarcode](../)

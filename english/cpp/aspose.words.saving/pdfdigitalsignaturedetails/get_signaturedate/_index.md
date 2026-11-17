@@ -21,7 +21,7 @@ System::DateTime Aspose::Words::Saving::PdfDigitalSignatureDetails::get_Signatur
 
 The default value is the current time.
 
-This value will appear in the digital signature as an unverified computer time.
+This value will appear in the digital signature as an unverified computer time. 
 ## See Also
 
 * Class [PdfDigitalSignatureDetails](../)

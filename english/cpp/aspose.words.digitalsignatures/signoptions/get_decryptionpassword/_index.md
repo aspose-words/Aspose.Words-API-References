@@ -10,20 +10,18 @@ url: /cpp/aspose.words.digitalsignatures/signoptions/get_decryptionpassword/
 ## SignOptions::get_DecryptionPassword method
 
 
-The password to decrypt source document. Default value is empty string.
+The password to decrypt source document. Default value is **empty string**.
 
 ```cpp
 System::String Aspose::Words::DigitalSignatures::SignOptions::get_DecryptionPassword() const
 ```
 
-## Remarks
 
- If OOXML document is encrypted, you should provide decryption password to decrypt source document before it will be signed. This is not required for documents in binary DOC format. 
 ## Examples
 
 
-Shows how to sign encrypted document file.
 
+Shows how to sign encrypted document file. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -40,6 +38,7 @@ System::String outputFileName = get_ArtifactsDir() + u"DigitalSignatureUtil.Decr
 
 DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
+
 ## See Also
 
 * Class [SignOptions](../)

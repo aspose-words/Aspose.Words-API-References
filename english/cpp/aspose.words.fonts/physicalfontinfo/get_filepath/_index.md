@@ -16,11 +16,12 @@ Path to the font file if any.
 System::String Aspose::Words::Fonts::PhysicalFontInfo::get_FilePath() const
 ```
 
+
 ## Examples
 
 
-Shows how to list available fonts.
 
+Shows how to list available fonts. 
 ```cpp
 // Configure Aspose.Words to source fonts from a custom folder, and then print every available font.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> folderFontSource = System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({System::MakeObject<Aspose::Words::Fonts::FolderFontSource>(get_FontsDir(), true)});
@@ -34,6 +35,7 @@ for (auto&& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailableFont
     std::cout << std::endl;
 }
 ```
+
 ## See Also
 
 * Class [PhysicalFontInfo](../)

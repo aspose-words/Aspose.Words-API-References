@@ -4,7 +4,7 @@ linktitle: get_AutoSpaceLikeWord95
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_AutoSpaceLikeWord95 method. Emulate Word 95 Full-Width Character Spacing in C++.'
 type: docs
-weight: 75070
+weight: 7000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_autospacelikeword95/
 ---
 ## CompatibilityOptions::get_AutoSpaceLikeWord95 method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_autospacelikeword95/
 Emulate Word 95 Full-Width Character Spacing.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_AutoSpaceLikeWord95()
+bool Aspose::Words::Settings::CompatibilityOptions::get_AutoSpaceLikeWord95()
 ```
 
 ## See Also

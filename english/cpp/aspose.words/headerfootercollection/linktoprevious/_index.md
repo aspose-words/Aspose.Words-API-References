@@ -25,11 +25,12 @@ void Aspose::Words::HeaderFooterCollection::LinkToPrevious(Aspose::Words::Header
 
 
 If the header or footer of the specified type does not exist, creates it automatically.
+
 ## Examples
 
 
-Shows how to link headers and footers between sections.
 
+Shows how to link headers and footers between sections. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,8 +57,8 @@ doc->get_Sections()->idx_get(1)->get_HeadersFooters()->LinkToPrevious(true);
 
 // Each section will still have its own header/footer objects. When we link sections,
 // the linking section will display the linked section's header/footers while keeping its own.
-ASPOSE_ASSERT_NE(doc->get_Sections()->idx_get(1)->get_HeadersFooters()->idx_get(0), doc->get_Sections()->idx_get(0)->get_HeadersFooters()->idx_get(0));
-ASPOSE_ASSERT_NE(doc->get_Sections()->idx_get(1)->get_HeadersFooters()->idx_get(0)->get_ParentSection(), doc->get_Sections()->idx_get(0)->get_HeadersFooters()->idx_get(0)->get_ParentSection());
+ASPOSE_ASSERT_NE(doc->get_Sections()->idx_get(0)->get_HeadersFooters()->idx_get(0), doc->get_Sections()->idx_get(1)->get_HeadersFooters()->idx_get(0));
+ASPOSE_ASSERT_NE(doc->get_Sections()->idx_get(0)->get_HeadersFooters()->idx_get(0)->get_ParentSection(), doc->get_Sections()->idx_get(1)->get_HeadersFooters()->idx_get(0)->get_ParentSection());
 
 // Link the headers/footers of the third section to the headers/footers of the second section.
 // The second section already links to the first section's header/footers,
@@ -73,31 +74,33 @@ doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LinkToPrevious(false);
 doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LinkToPrevious(HeaderFooterType::FooterPrimary, true);
 
 // The first section's header/footers cannot link themselves to anything because there is no previous section.
-ASSERT_EQ(doc->get_Sections()->idx_get(0)->get_HeadersFooters()->get_Count(), 2);
-ASSERT_EQ(doc->get_Sections()->idx_get(0)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
+ASSERT_EQ(2, doc->get_Sections()->idx_get(0)->get_HeadersFooters()->get_Count());
+ASSERT_EQ(2, doc->get_Sections()->idx_get(0)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
 {
     return !(System::ExplicitCast<Aspose::Words::HeaderFooter>(hf))->get_IsLinkedToPrevious();
-}))), 2);
+}))));
 
 // All the second section's header/footers are linked to the first section's headers/footers.
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_HeadersFooters()->get_Count(), 6);
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
+ASSERT_EQ(6, doc->get_Sections()->idx_get(1)->get_HeadersFooters()->get_Count());
+ASSERT_EQ(6, doc->get_Sections()->idx_get(1)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::HeaderFooter>(hf))->get_IsLinkedToPrevious();
-}))), 6);
+}))));
 
 // In the third section, only the footer is linked to the first section's footer via the second section.
-ASSERT_EQ(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->get_Count(), 6);
-ASSERT_EQ(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
+ASSERT_EQ(6, doc->get_Sections()->idx_get(2)->get_HeadersFooters()->get_Count());
+ASSERT_EQ(5, doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
 {
     return !(System::ExplicitCast<Aspose::Words::HeaderFooter>(hf))->get_IsLinkedToPrevious();
-}))), 5);
+}))));
 ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->get_IsLinkedToPrevious());
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
+
 ## See Also
 
+* Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -118,11 +121,12 @@ void Aspose::Words::HeaderFooterCollection::LinkToPrevious(bool isLinkToPrevious
 
 
 If any of the headers or footers do not exist, creates them automatically.
+
 ## Examples
 
 
-Shows how to link headers and footers between sections.
 
+Shows how to link headers and footers between sections. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -149,8 +153,8 @@ doc->get_Sections()->idx_get(1)->get_HeadersFooters()->LinkToPrevious(true);
 
 // Each section will still have its own header/footer objects. When we link sections,
 // the linking section will display the linked section's header/footers while keeping its own.
-ASPOSE_ASSERT_NE(doc->get_Sections()->idx_get(1)->get_HeadersFooters()->idx_get(0), doc->get_Sections()->idx_get(0)->get_HeadersFooters()->idx_get(0));
-ASPOSE_ASSERT_NE(doc->get_Sections()->idx_get(1)->get_HeadersFooters()->idx_get(0)->get_ParentSection(), doc->get_Sections()->idx_get(0)->get_HeadersFooters()->idx_get(0)->get_ParentSection());
+ASPOSE_ASSERT_NE(doc->get_Sections()->idx_get(0)->get_HeadersFooters()->idx_get(0), doc->get_Sections()->idx_get(1)->get_HeadersFooters()->idx_get(0));
+ASPOSE_ASSERT_NE(doc->get_Sections()->idx_get(0)->get_HeadersFooters()->idx_get(0)->get_ParentSection(), doc->get_Sections()->idx_get(1)->get_HeadersFooters()->idx_get(0)->get_ParentSection());
 
 // Link the headers/footers of the third section to the headers/footers of the second section.
 // The second section already links to the first section's header/footers,
@@ -166,29 +170,30 @@ doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LinkToPrevious(false);
 doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LinkToPrevious(HeaderFooterType::FooterPrimary, true);
 
 // The first section's header/footers cannot link themselves to anything because there is no previous section.
-ASSERT_EQ(doc->get_Sections()->idx_get(0)->get_HeadersFooters()->get_Count(), 2);
-ASSERT_EQ(doc->get_Sections()->idx_get(0)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
+ASSERT_EQ(2, doc->get_Sections()->idx_get(0)->get_HeadersFooters()->get_Count());
+ASSERT_EQ(2, doc->get_Sections()->idx_get(0)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
 {
     return !(System::ExplicitCast<Aspose::Words::HeaderFooter>(hf))->get_IsLinkedToPrevious();
-}))), 2);
+}))));
 
 // All the second section's header/footers are linked to the first section's headers/footers.
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_HeadersFooters()->get_Count(), 6);
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
+ASSERT_EQ(6, doc->get_Sections()->idx_get(1)->get_HeadersFooters()->get_Count());
+ASSERT_EQ(6, doc->get_Sections()->idx_get(1)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::HeaderFooter>(hf))->get_IsLinkedToPrevious();
-}))), 6);
+}))));
 
 // In the third section, only the footer is linked to the first section's footer via the second section.
-ASSERT_EQ(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->get_Count(), 6);
-ASSERT_EQ(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
+ASSERT_EQ(6, doc->get_Sections()->idx_get(2)->get_HeadersFooters()->get_Count());
+ASSERT_EQ(5, doc->get_Sections()->idx_get(2)->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
 {
     return !(System::ExplicitCast<Aspose::Words::HeaderFooter>(hf))->get_IsLinkedToPrevious();
-}))), 5);
+}))));
 ASSERT_TRUE(doc->get_Sections()->idx_get(2)->get_HeadersFooters()->idx_get(3)->get_IsLinkedToPrevious());
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
+
 ## See Also
 
 * Class [HeaderFooterCollection](../)

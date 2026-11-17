@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldrd/get_ispathrelative/
 Gets or sets whether the path is relative to the current document.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldRD::get_IsPathRelative()
+bool Aspose::Words::Fields::FieldRD::get_IsPathRelative()
 ```
+
 
 ## Examples
 
 
-Shows to use the RD field to create a table of contents entries from headings in other documents.
 
+Shows to use the RD field to create a table of contents entries from headings in other documents. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,7 +38,7 @@ builder->Writeln(u"TOC entry from within this document");
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldRD>(builder->InsertField(FieldType::FieldRefDoc, true));
 field->set_FileName(get_ArtifactsDir() + u"ReferencedDocument.docx");
 
-ASSERT_EQ(field->GetFieldCode(), System::String::Format(u" RD  {0}ReferencedDocument.docx", get_ArtifactsDir().Replace(u"\\", u"\\\\")));
+ASSERT_EQ(System::String::Format(u" RD  {0}ReferencedDocument.docx", get_ArtifactsDir().Replace(u"\\", u"\\\\")), field->GetFieldCode());
 
 // Create the document that the RD field is referencing and insert a heading.
 // This heading will show up as an entry in the TOC field in our first document.
@@ -50,6 +51,7 @@ referencedDoc->Save(get_ArtifactsDir() + u"ReferencedDocument.docx");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.RD.docx");
 ```
+
 ## See Also
 
 * Class [FieldRD](../)

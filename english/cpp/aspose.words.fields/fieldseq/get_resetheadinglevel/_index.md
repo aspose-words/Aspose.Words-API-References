@@ -16,11 +16,12 @@ Gets or sets an integer number representing a heading level to reset the sequenc
 System::String Aspose::Words::Fields::FieldSeq::get_ResetHeadingLevel()
 ```
 
+
 ## Examples
 
 
-Shows create numbering using SEQ fields.
 
+Shows create numbering using SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,8 +37,8 @@ fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetNumber(u"100");
 fieldSeq->Update();
 
-ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\r 100");
-ASSERT_EQ(fieldSeq->get_Result(), u"100");
+ASSERT_EQ(u" SEQ  MySequence \\r 100", fieldSeq->GetFieldCode());
+ASSERT_EQ(u"100", fieldSeq->get_Result());
 
 // Display the next number in this sequence with another SEQ field.
 builder->Write(u", #");
@@ -45,7 +46,7 @@ fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->Insert
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->Update();
 
-ASSERT_EQ(fieldSeq->get_Result(), u"101");
+ASSERT_EQ(u"101", fieldSeq->get_Result());
 
 // Insert a level 1 heading.
 builder->InsertBreak(BreakType::ParagraphBreak);
@@ -61,8 +62,8 @@ fieldSeq->set_ResetHeadingLevel(u"1");
 fieldSeq->Update();
 
 // The above heading is a level 1 heading, so the count for this sequence is reset to 1.
-ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\s 1");
-ASSERT_EQ(fieldSeq->get_Result(), u"1");
+ASSERT_EQ(u" SEQ  MySequence \\s 1", fieldSeq->GetFieldCode());
+ASSERT_EQ(u"1", fieldSeq->get_Result());
 
 // Move to the next number of this sequence.
 builder->Write(u", #");
@@ -71,12 +72,13 @@ fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_InsertNextNumber(true);
 fieldSeq->Update();
 
-ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\n");
-ASSERT_EQ(fieldSeq->get_Result(), u"2");
+ASSERT_EQ(u" SEQ  MySequence \\n", fieldSeq->GetFieldCode());
+ASSERT_EQ(u"2", fieldSeq->get_Result());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SEQ.ResetNumbering.docx");
 ```
+
 ## See Also
 
 * Class [FieldSeq](../)

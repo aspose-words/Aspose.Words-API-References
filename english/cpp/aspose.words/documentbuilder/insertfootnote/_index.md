@@ -7,29 +7,30 @@ type: docs
 weight: 35000
 url: /cpp/aspose.words/documentbuilder/insertfootnote/
 ---
-## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String \&) method
+## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&) method
 
 
 Inserts a footnote or endnote into the document.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Notes::Footnote> Aspose::Words::DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType footnoteType, const System::String & footnoteText)
+System::SharedPtr<Aspose::Words::Notes::Footnote> Aspose::Words::DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType footnoteType, const System::String &footnoteText)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | footnoteType | Aspose::Words::Notes::FootnoteType | Specifies whether to insert a footnote or an endnote. |
-| footnoteText | const System::String \& | Specifies the text of the footnote. |
+| footnoteText | const System::String\& | Specifies the text of the footnote. |
 
 ### ReturnValue
 
 Returns a footnote object that was just created.
+
 ## Examples
 
 
-Shows how to reference text with a footnote and an endnote.
 
+Shows how to reference text with a footnote and an endnote. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,35 +54,39 @@ builder->InsertBreak(BreakType::PageBreak);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
+
 ## See Also
 
+* Class [Footnote](../../../aspose.words.notes/footnote/)
+* Enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String \&, const System::String \&) method
+## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&, const System::String\&) method
 
 
 Inserts a footnote or endnote into the document.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Notes::Footnote> Aspose::Words::DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType footnoteType, const System::String & footnoteText, const System::String & referenceMark)
+System::SharedPtr<Aspose::Words::Notes::Footnote> Aspose::Words::DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType footnoteType, const System::String &footnoteText, const System::String &referenceMark)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | footnoteType | Aspose::Words::Notes::FootnoteType | Specifies whether to insert a footnote or an endnote. |
-| footnoteText | const System::String \& | Specifies the text of the footnote. |
-| referenceMark | const System::String \& | Specifies the custom reference mark of the footnote. |
+| footnoteText | const System::String\& | Specifies the text of the footnote. |
+| referenceMark | const System::String\& | Specifies the custom reference mark of the footnote. |
 
 ### ReturnValue
 
 Returns a footnote object that was just created.
+
 ## Examples
 
 
-Shows how to reference text with a footnote and an endnote.
 
+Shows how to reference text with a footnote and an endnote. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -105,8 +110,11 @@ builder->InsertBreak(BreakType::PageBreak);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
+
 ## See Also
 
+* Class [Footnote](../../../aspose.words.notes/footnote/)
+* Enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

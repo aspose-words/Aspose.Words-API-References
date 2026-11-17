@@ -16,11 +16,12 @@ Allows to specify the color to be used for deleted cells [Deletion](../../../asp
 Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get_DeleteCellColor()
 ```
 
+
 ## Examples
 
 
-Shows how to work with insert/delete cell revision color.
 
+Shows how to work with insert/delete cell revision color. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Cell revisions.docx"));
 
@@ -29,8 +30,10 @@ doc->get_LayoutOptions()->get_RevisionOptions()->set_DeleteCellColor(RevisionCol
 
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionCellColor.pdf");
 ```
+
 ## See Also
 
+* Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

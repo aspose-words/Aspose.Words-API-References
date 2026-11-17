@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/footnotenumberingrule/
 Determines when automatic footnote or endnote numbering restarts.
 
 ```cpp
-enum class FootnoteNumberingRule : int
+enum class FootnoteNumberingRule
 ```
 
 ### Values
@@ -21,15 +21,16 @@ enum class FootnoteNumberingRule : int
 | Name | Value | Description |
 | --- | --- | --- |
 | Continuous | 0 | Numbering continuous throughout the document. |
-| Default | 0 | Equals [Continuous](./). |
-| RestartPage | 2 | Numbering restarts at each page. Valid for footnotes only. |
 | RestartSection | 1 | Numbering restarts at each section. |
+| RestartPage | 2 | Numbering restarts at each page. Valid for footnotes only. |
+| Default | 0 | Equals [Continuous](./). |
+
 
 ## Examples
 
 
-Shows how to restart footnote/endnote numbering at certain places in the document.
 
+Shows how to restart footnote/endnote numbering at certain places in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,8 +68,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 4.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and endnotes and does not restart these counts at any point.
-ASSERT_EQ(FootnoteNumberingRule::Default, doc->get_FootnoteOptions()->get_RestartRule());
-ASSERT_EQ(FootnoteNumberingRule::Continuous, FootnoteNumberingRule::Default);
+ASSERT_EQ(doc->get_FootnoteOptions()->get_RestartRule(), FootnoteNumberingRule::Default);
+ASSERT_EQ(FootnoteNumberingRule::Default, FootnoteNumberingRule::Continuous);
 
 // We can use the "RestartRule" property to get the document to restart
 // the footnote/endnote counts at a new page or section.
@@ -77,10 +78,8 @@ doc->get_EndnoteOptions()->set_RestartRule(FootnoteNumberingRule::RestartSection
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.NumberingRule.docx");
 ```
-## See Also
 
-* [FootnoteOptions](../footnoteoptions/)
-* [EndnoteOptions](../endnoteoptions/)
+## See Also
 
 * Namespace [Aspose::Words::Notes](../)
 * Library [Aspose.Words for C++](../../)

@@ -4,7 +4,7 @@ linktitle: get_Author
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::get_Author method. Returns or sets the author name for a comment in C++.'
 type: docs
-weight: 24000
+weight: 6000
 url: /cpp/aspose.words/comment/get_author/
 ---
 ## Comment::get_Author method
@@ -22,11 +22,12 @@ System::String Aspose::Words::Comment::get_Author() const
 Cannot be **null**.
 
 Default is empty string.
+
 ## Examples
 
 
-Shows how to print all of a document's comments and their replies.
 
+Shows how to print all of a document's comments and their replies. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Comments.docx"));
 
@@ -49,6 +50,7 @@ for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Com
     std::cout << std::endl;
 }
 ```
+
 ## See Also
 
 * Class [Comment](../)

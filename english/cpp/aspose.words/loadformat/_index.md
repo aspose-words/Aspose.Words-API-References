@@ -13,7 +13,7 @@ url: /cpp/aspose.words/loadformat/
 Indicates the format of the document that is to be loaded.
 
 ```cpp
-enum class LoadFormat : int
+enum class LoadFormat
 ```
 
 ### Values
@@ -21,39 +21,39 @@ enum class LoadFormat : int
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | 0 | Instructs Aspose.Words to recognize the format automatically. |
-| Azw3 | 54 | AZW3 format. Used by Amazon Kindle readers. |
-| Chm | 53 | CHM (Compiled HTML Help) format. |
-| Doc | 10 | Microsoft Word 95 or Word 97 - 2003 Document. |
-| DocPreWord60 | 12 | The document is in pre-Word 95 format. Aspose.Words does not currently support loading such documents. |
-| Docm | 21 | Office Open XML WordprocessingML Macro-Enabled Document. |
-| Docx | 20 | Office Open XML WordprocessingML Document (macro-free). |
+| MsWorks | 8 | Microsoft Works 8 [Document](../document/). |
+| Doc | 10 | Microsoft Word 95 or Word 97 - 2003 [Document](../document/). |
 | Dot | 11 | Microsoft Word 95 or Word 97 - 2003 Template. |
-| Dotm | 23 | Office Open XML WordprocessingML Macro-Enabled Template. |
+| DocPreWord60 | 12 | The document is in pre-Word 95 format. Aspose.Words does not currently support loading such documents. |
+| Docx | 20 | Office Open XML WordprocessingML [Document](../document/) (macro-free). |
+| Docm | 21 | Office Open XML WordprocessingML Macro-Enabled [Document](../document/). |
 | Dotx | 22 | Office Open XML WordprocessingML Template (macro-free). |
-| Epub | 55 | EPUB format. |
+| Dotm | 23 | Office Open XML WordprocessingML Macro-Enabled Template. |
 | FlatOpc | 24 | Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package. |
-| FlatOpcMacroEnabled | 25 | Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package. |
+| FlatOpcMacroEnabled | 25 | Office Open XML WordprocessingML Macro-Enabled [Document](../document/) stored in a flat XML file instead of a ZIP package. |
 | FlatOpcTemplate | 26 | Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package. |
 | FlatOpcTemplateMacroEnabled | 27 | Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package. |
+| Rtf | 30 | RTF format. |
+| WordML | 31 | Microsoft Word 2003 WordprocessingML format. |
 | Html | 50 | HTML format. |
-| Markdown | 63 | Markdown text document. |
 | Mhtml | 51 | MHTML (Web archive) format. |
 | Mobi | 52 | MOBI format. Used by MobiPocket reader and Amazon Kindle readers. |
-| MsWorks | 8 | Microsoft Works 8 Document. |
-| Odt | 60 | ODF Text Document. |
-| Ott | 61 | ODF Text Document Template. |
-| Pdf | 64 | Pdf document. |
-| Rtf | 30 | RTF format. |
+| Chm | 53 | CHM (Compiled HTML Help) format. |
+| Azw3 | 54 | AZW3 format. Used by Amazon Kindle readers. |
+| Epub | 55 | EPUB format. |
+| Odt | 60 | ODF Text [Document](../document/). |
+| Ott | 61 | ODF Text [Document](../document/) Template. |
 | Text | 62 | Plain Text. |
-| Unknown | 255 | Unrecognized format, cannot be loaded by Aspose.Words. |
-| WordML | 31 | Microsoft Word 2003 WordprocessingML format. |
+| Markdown | 63 | Markdown text document. |
 | Xml | 65 | XML document. |
+| Unknown | 255 | Unrecognized format, cannot be loaded by [Aspose.Words](../). |
+
 
 ## Examples
 
 
-Shows how to use the FileFormatUtil methods to detect the format of a document.
 
+Shows how to use the [FileFormatUtil](../fileformatutil/) methods to detect the format of a document. 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
@@ -61,7 +61,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(docStream);
     Aspose::Words::LoadFormat loadFormat = info->get_LoadFormat();
 
-    ASSERT_EQ(loadFormat, LoadFormat::Doc);
+    ASSERT_EQ(LoadFormat::Doc, loadFormat);
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -74,21 +74,21 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
     // Load a document from the stream, and then save it to the automatically detected file extension.
     auto doc = System::MakeObject<Aspose::Words::Document>(docStream);
 
-    ASSERT_EQ(FileFormatUtil::SaveFormatToExtension(saveFormat), u".doc");
+    ASSERT_EQ(u".doc", FileFormatUtil::SaveFormatToExtension(saveFormat));
 
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
 ```
 
-Shows how to specify a base URI when opening an html document.
 
+Shows how to specify a base URI when opening an html document. 
 ```cpp
 // Suppose we want to load an .html document that contains an image linked by a relative URI
 // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
 // We can provide a base URI using an HtmlLoadOptions object.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>(LoadFormat::Html, u"", get_ImageDir());
 
-ASSERT_EQ(loadOptions->get_LoadFormat(), LoadFormat::Html);
+ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
 
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing image.html", loadOptions);
 
@@ -99,6 +99,7 @@ ASSERT_TRUE(imageShape->get_IsImage());
 // This output document will display the image that was missing.
 doc->Save(get_ArtifactsDir() + u"HtmlLoadOptions.BaseUri.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

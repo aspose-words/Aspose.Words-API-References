@@ -13,19 +13,20 @@ url: /cpp/aspose.words/variablecollection/add/
 Adds a document variable to the collection.
 
 ```cpp
-void Aspose::Words::VariableCollection::Add(const System::String & name, const System::String & value)
+void Aspose::Words::VariableCollection::Add(const System::String &name, const System::String &value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String \& | The case-insensitive name of the variable to add. |
-| value | const System::String \& | The value of the variable. The value cannot be **null**, if value is null empty string will be used instead. |
+| name | const System::String\& | The case-insensitive name of the variable to add. |
+| value | const System::String\& | The value of the variable. The value cannot be **null**, if value is null empty string will be used instead. |
+
 ## Examples
 
 
-Shows how to work with a document's variable collection.
 
+Shows how to work with a document's variable collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
@@ -35,7 +36,7 @@ variables->Add(u"Home address", u"123 Main St.");
 variables->Add(u"City", u"London");
 variables->Add(u"Bedrooms", u"3");
 
-ASSERT_EQ(variables->get_Count(), 3);
+ASSERT_EQ(3, variables->get_Count());
 
 // We can display the values of variables in the document body using DOCVARIABLE fields.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,17 +44,17 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDocVariable>(build
 field->set_VariableName(u"Home address");
 field->Update();
 
-ASSERT_EQ(field->get_Result(), u"123 Main St.");
+ASSERT_EQ(u"123 Main St.", field->get_Result());
 
 // Assigning values to existing keys will update them.
 variables->Add(u"Home address", u"456 Queen St.");
 
 // We will then have to update DOCVARIABLE fields to ensure they display an up-to-date value.
-ASSERT_EQ(field->get_Result(), u"123 Main St.");
+ASSERT_EQ(u"123 Main St.", field->get_Result());
 
 field->Update();
 
-ASSERT_EQ(field->get_Result(), u"456 Queen St.");
+ASSERT_EQ(u"456 Queen St.", field->get_Result());
 
 // Verify that the document variables with a certain name or value exist.
 ASSERT_TRUE(variables->Contains(u"City"));
@@ -63,12 +64,12 @@ ASSERT_TRUE(variables->LINQ_Any(static_cast<System::Func<System::Collections::Ge
 }))));
 
 // The collection of variables automatically sorts variables alphabetically by name.
-ASSERT_EQ(variables->IndexOfKey(u"Bedrooms"), 0);
-ASSERT_EQ(variables->IndexOfKey(u"City"), 1);
-ASSERT_EQ(variables->IndexOfKey(u"Home address"), 2);
+ASSERT_EQ(0, variables->IndexOfKey(u"Bedrooms"));
+ASSERT_EQ(1, variables->IndexOfKey(u"City"));
+ASSERT_EQ(2, variables->IndexOfKey(u"Home address"));
 
-ASSERT_EQ(variables->idx_get(0), u"3");
-ASSERT_EQ(variables->idx_get(u"City"), u"London");
+ASSERT_EQ(u"3", variables->idx_get(0));
+ASSERT_EQ(u"London", variables->idx_get(u"City"));
 
 // Enumerate over the collection of variables.
 {
@@ -93,8 +94,9 @@ ASSERT_FALSE(variables->Contains(u"Home address"));
 // 3 -  Clear the whole collection at once:
 variables->Clear();
 
-ASSERT_EQ(variables->get_Count(), 0);
+ASSERT_EQ(0, variables->get_Count());
 ```
+
 ## See Also
 
 * Class [VariableCollection](../)

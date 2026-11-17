@@ -4,7 +4,7 @@ linktitle: get_WrapText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_WrapText method. If true, wrap text for the cell in C++.'
 type: docs
-weight: 46000
+weight: 16000
 url: /cpp/aspose.words.tables/cellformat/get_wraptext/
 ---
 ## CellFormat::get_WrapText method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.tables/cellformat/get_wraptext/
 If **true**, wrap text for the cell.
 
 ```cpp
-_Bool Aspose::Words::Tables::CellFormat::get_WrapText()
+bool Aspose::Words::Tables::CellFormat::get_WrapText()
 ```
+
 
 ## Examples
 
 
-Shows how to build a table with custom borders.
 
+Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -79,6 +80,7 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
+
 ## See Also
 
 * Class [CellFormat](../)

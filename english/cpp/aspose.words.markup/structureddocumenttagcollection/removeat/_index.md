@@ -20,11 +20,12 @@ void Aspose::Words::Markup::StructuredDocumentTagCollection::RemoveAt(int32_t in
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | An index into the collection. |
+
 ## Examples
 
 
-Shows how to remove structured document tag.
 
+Shows how to remove structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
@@ -37,15 +38,16 @@ for (int32_t i = 0; i < structuredDocumentTags->get_Count(); i++)
 }
 
 sdt = structuredDocumentTags->GetById(1691867797);
-ASSERT_EQ(sdt->get_Id(), 1691867797);
+ASSERT_EQ(1691867797, sdt->get_Id());
 
-ASSERT_EQ(structuredDocumentTags->get_Count(), 5);
+ASSERT_EQ(5, structuredDocumentTags->get_Count());
 // Remove the structured document tag by Id.
 structuredDocumentTags->Remove(1691867797);
 // Remove the structured document tag at position 0.
 structuredDocumentTags->RemoveAt(0);
-ASSERT_EQ(structuredDocumentTags->get_Count(), 3);
+ASSERT_EQ(3, structuredDocumentTags->get_Count());
 ```
+
 ## See Also
 
 * Class [StructuredDocumentTagCollection](../)

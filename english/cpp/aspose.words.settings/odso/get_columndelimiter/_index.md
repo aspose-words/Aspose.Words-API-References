@@ -19,7 +19,7 @@ char16_t Aspose::Words::Settings::Odso::get_ColumnDelimiter() const
 ## Remarks
 
 
-RK I have never seen this in use.
+RK I have never seen this in use. 
 ## See Also
 
 * Class [Odso](../)

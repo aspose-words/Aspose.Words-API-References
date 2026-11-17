@@ -16,14 +16,12 @@ Gets or sets the interpretation mode of the [Left](../get_left/) property value:
 Aspose::Words::Drawing::Charts::ChartDataLabelLocationMode Aspose::Words::Drawing::Charts::ChartDataLabel::get_LeftMode()
 ```
 
-## Remarks
 
- The property cannot be set in a Word 2016 chart. 
 ## Examples
 
 
-Shows how to place data labels of doughnut chart outside doughnut.
 
+Shows how to place data labels of doughnut chart outside doughnut. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -132,8 +130,10 @@ for (int32_t i = 0; i < series->get_YValues()->get_Count(); i++)
 
 doc->Save(get_ArtifactsDir() + u"Charts.DoughnutChartLabelPosition.docx");
 ```
+
 ## See Also
 
+* Enum [ChartDataLabelLocationMode](../../chartdatalabellocationmode/)
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

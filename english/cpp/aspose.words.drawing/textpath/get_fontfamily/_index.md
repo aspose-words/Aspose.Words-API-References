@@ -19,7 +19,7 @@ System::String Aspose::Words::Drawing::TextPath::get_FontFamily()
 ## Remarks
 
 
-The default value is Arial.
+The default value is Arial. 
 ## See Also
 
 * Class [TextPath](../)

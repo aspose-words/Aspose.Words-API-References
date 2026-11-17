@@ -13,7 +13,7 @@ url: /cpp/aspose.words/documentbuilderoptions/get_designmode/
 Corresponds to Design Mode in Microsoft Word.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilderOptions::get_DesignMode() const
+bool Aspose::Words::DocumentBuilderOptions::get_DesignMode() const
 ```
 
 ## See Also

@@ -13,14 +13,17 @@ url: /cpp/aspose.words.mailmerging/imailmergecallback/
 Implement this interface if you want to receive notifications while mail merge is performed.
 
 ```cpp
-class IMailMergeCallback : public System::Object
+class IMailMergeCallback : public virtual System::Object
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [TagsReplaced](./tagsreplaced/)() | Called when "mustache" text tags are replaced with MERGEFIELD fields. |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)

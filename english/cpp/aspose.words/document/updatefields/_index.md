@@ -30,11 +30,12 @@ This method does not update fields that are related to the page layout algorithm
 Use the [NormalizeFieldTypes](../normalizefieldtypes/) method before fields updating if there were document changes that affected field types.
 
 To update fields in a specific part of the document use [UpdateFields](../../range/updatefields/).
+
 ## Examples
 
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -80,8 +81,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
 
-Shows to use the QUOTE field.
 
+Shows to use the QUOTE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,7 +91,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
 field->set_Text(u"\"Quoted text\"");
 
-ASSERT_EQ(field->GetFieldCode(), u" QUOTE  \"\\\"Quoted text\\\"\"");
+ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
 
 // Insert a QUOTE field and nest a DATE field inside it.
 // DATE fields update their value to the current date every time we open the document using Microsoft Word.
@@ -101,18 +102,18 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertF
 builder->MoveTo(field->get_Separator());
 builder->InsertField(FieldType::FieldDate, true);
 
-ASSERT_EQ(field->GetFieldCode(), System::String(u" QUOTE \u0013 DATE \u0014") + System::DateTime::get_Now().get_Date().ToShortDateString() + u"\u0015");
+ASSERT_EQ(System::String(u" QUOTE \u0013 DATE \u0014") + System::DateTime::get_Now().get_Date().ToShortDateString() + u"\u0015", field->GetFieldCode());
 
 // Update all the fields to display their correct results.
 doc->UpdateFields();
 
-ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), u"\"Quoted text\"");
+ASSERT_EQ(u"\"Quoted text\"", doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
 
 doc->Save(get_ArtifactsDir() + u"Field.QUOTE.docx");
 ```
 
-Shows how to set user details, and display them using fields.
 
+Shows how to set user details, and display them using fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -126,9 +127,9 @@ doc->get_FieldOptions()->set_CurrentUser(userInformation);
 
 // Insert USERNAME, USERINITIALS, and USERADDRESS fields, which display values of
 // the respective properties of the UserInformation object that we have created above.
-ASSERT_EQ(builder->InsertField(u" USERNAME ")->get_Result(), userInformation->get_Name());
-ASSERT_EQ(builder->InsertField(u" USERINITIALS ")->get_Result(), userInformation->get_Initials());
-ASSERT_EQ(builder->InsertField(u" USERADDRESS ")->get_Result(), userInformation->get_Address());
+ASSERT_EQ(userInformation->get_Name(), builder->InsertField(u" USERNAME ")->get_Result());
+ASSERT_EQ(userInformation->get_Initials(), builder->InsertField(u" USERINITIALS ")->get_Result());
+ASSERT_EQ(userInformation->get_Address(), builder->InsertField(u" USERADDRESS ")->get_Result());
 
 // The field options object also has a static default user that fields from all documents can refer to.
 UserInformation::get_DefaultUser()->set_Name(u"Default User");
@@ -136,13 +137,14 @@ UserInformation::get_DefaultUser()->set_Initials(u"D. U.");
 UserInformation::get_DefaultUser()->set_Address(u"One Microsoft Way");
 doc->get_FieldOptions()->set_CurrentUser(UserInformation::get_DefaultUser());
 
-ASSERT_EQ(builder->InsertField(u" USERNAME ")->get_Result(), u"Default User");
-ASSERT_EQ(builder->InsertField(u" USERINITIALS ")->get_Result(), u"D. U.");
-ASSERT_EQ(builder->InsertField(u" USERADDRESS ")->get_Result(), u"One Microsoft Way");
+ASSERT_EQ(u"Default User", builder->InsertField(u" USERNAME ")->get_Result());
+ASSERT_EQ(u"D. U.", builder->InsertField(u" USERINITIALS ")->get_Result());
+ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Result());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
+
 ## See Also
 
 * Class [Document](../)

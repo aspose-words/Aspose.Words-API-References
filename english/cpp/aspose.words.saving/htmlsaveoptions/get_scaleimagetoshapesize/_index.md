@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_scaleimagetoshapesize/
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ScaleImageToShapeSize()
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ScaleImageToShapeSize()
 ```
 
 ## Remarks
@@ -23,14 +23,13 @@ An image in a Microsoft Word document is a shape. The shape has a size and the i
 
 In order to display an image in the browser, it must be scaled to the shape size. The [ScaleImageToShapeSize](./) property controls where the scaling of the image takes place: in Aspose.Words during export to HTML or in the browser when displaying the document.
 
-When [ScaleImageToShapeSize](./) is **true**, the image is scaled by Aspose.Words using high quality scaling during export to HTML. When [ScaleImageToShapeSize](./) is **false**, the image is output with its original size and the browser has to scale it.
+When [ScaleImageToShapeSize](./) is **true**, the image is scaled by [Aspose.Words](../../../aspose.words/) using high quality scaling during export to HTML. When [ScaleImageToShapeSize](./) is **false**, the image is output with its original size and the browser has to scale it.
 
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when [ScaleImageToShapeSize](./) is **true**, but better printing quality and faster conversion when [ScaleImageToShapeSize](./) is **false**.
 
 In addition to shapes containing individual raster images, this option also affects group shapes consisting of raster images. If [ScaleImageToShapeSize](./) is **false** and a group shape contains raster images whose intrinsic resolution is higher than the value specified in [ImageResolution](../get_imageresolution/), Aspose.Words will increase rendering resolution for that group. This allows to better preserve quality of grouped high resolution images when saving to HTML.
-## See Also
 
-* [ImageResolution](../get_imageresolution/)
+## See Also
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

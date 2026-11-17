@@ -23,13 +23,17 @@ class DocumentBuilderOptions : public System::Object
 | [DocumentBuilderOptions](./documentbuilderoptions/)() |  |
 | [get_ContextTableFormatting](./get_contexttableformatting/)() const | True if the formatting applied to table content does not affect the formatting of the content that follows it. Default value is **true**. |
 | [get_DesignMode](./get_designmode/)() const | Corresponds to Design Mode in Microsoft Word. |
-| [set_ContextTableFormatting](./set_contexttableformatting/)(bool) | True if the formatting applied to table content does not affect the formatting of the content that follows it. Default value is **true**. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_ContextTableFormatting](./set_contexttableformatting/)(bool) | Setter for [Aspose::Words::DocumentBuilderOptions::get_ContextTableFormatting](./get_contexttableformatting/). |
 | [set_DesignMode](./set_designmode/)(bool) | Corresponds to Design Mode in Microsoft Word. |
+| static [Type](./type/)() |  |
+
 ## Examples
 
 
-Shows how to ignore table formatting for content after.
 
+Shows how to ignore table formatting for content after. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builderOptions = System::MakeObject<Aspose::Words::DocumentBuilderOptions>();
@@ -55,6 +59,7 @@ builder->Writeln(u"Font size 12 here.");
 
 doc->Save(get_ArtifactsDir() + u"Table.ContextTableFormatting.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

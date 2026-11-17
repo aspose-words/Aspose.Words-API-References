@@ -16,14 +16,12 @@ Gets or sets the rotation of the tick labels in degrees.
 int32_t Aspose::Words::Drawing::Charts::AxisTickLabels::get_Rotation()
 ```
 
-## Remarks
 
- The range of acceptable values is from -180 to 180 inclusive. The default value is 0. 
 ## Examples
 
 
-Shows how to change orientation and rotation for axis tick labels.
 
+Shows how to change orientation and rotation for axis tick labels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,6 +39,7 @@ yTickLabels->set_Rotation(45);
 
 doc->Save(get_ArtifactsDir() + u"Charts.TickLabelsOrientationRotation.docx");
 ```
+
 ## See Also
 
 * Class [AxisTickLabels](../)

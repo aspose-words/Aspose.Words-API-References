@@ -13,14 +13,15 @@ url: /cpp/aspose.words/paragraphformat/get_suppresslinenumbers/
 Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_SuppressLineNumbers()
+bool Aspose::Words::ParagraphFormat::get_SuppressLineNumbers()
 ```
+
 
 ## Examples
 
 
-Shows how to enable line numbering for a section.
 
+Shows how to enable line numbering for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,6 +50,7 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.LineNumbers.docx");
 ```
+
 ## See Also
 
 * Class [ParagraphFormat](../)

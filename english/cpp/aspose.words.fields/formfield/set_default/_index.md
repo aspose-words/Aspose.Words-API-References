@@ -2,24 +2,20 @@
 title: Aspose::Words::Fields::FormField::set_Default method
 linktitle: set_Default
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FormField::set_Default method. Sets the default value of the check box form field. Default value for this property is false in C++.'
+description: 'Aspose::Words::Fields::FormField::set_Default method. Setter for Aspose::Words::Fields::FormField::get_Default in C++.'
 type: docs
-weight: 73000
+weight: 31000
 url: /cpp/aspose.words.fields/formfield/set_default/
 ---
 ## FormField::set_Default method
 
 
-Sets the default value of the check box form field. Default value for this property is **false**.
+Setter for [Aspose::Words::Fields::FormField::get_Default](../get_default/).
 
 ```cpp
 void Aspose::Words::Fields::FormField::set_Default(bool value)
 ```
 
-## Remarks
-
-
-Applicable for a check box form field only.
 ## See Also
 
 * Class [FormField](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldindex/get_useyomi/
 Gets whether to enable the use of yomi text for index entries.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldIndex::get_UseYomi()
+bool Aspose::Words::Fields::FieldIndex::get_UseYomi()
 ```
 
 ## See Also

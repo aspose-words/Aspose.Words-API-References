@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GradientStopCollection::get_Count method. Gets an integer value indicating the number of items in the collection in C++.'
 type: docs
-weight: 12000
+weight: 3000
 url: /cpp/aspose.words.drawing/gradientstopcollection/get_count/
 ---
 ## GradientStopCollection::get_Count method
@@ -16,11 +16,12 @@ Gets an integer value indicating the number of items in the collection.
 int32_t Aspose::Words::Drawing::GradientStopCollection::get_Count()
 ```
 
+
 ## Examples
 
 
-Shows how to add gradient stops to the gradient fill.
 
+Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,16 +50,16 @@ gradientStops->Insert(1, System::MakeObject<Aspose::Words::Drawing::GradientStop
 gradientStop = gradientStops->idx_get(2);
 gradientStops->Remove(gradientStop);
 
-ASSERT_EQ(gradientStops->get_Count(), 2);
+ASSERT_EQ(2, gradientStops->get_Count());
 
-ASPOSE_ASSERT_EQ(gradientStops->idx_get(0)->get_BaseColor(), System::Drawing::Color::FromArgb(255, 0, 255, 255));
-ASSERT_EQ(gradientStops->idx_get(0)->get_Color().ToArgb(), System::Drawing::Color::get_Aqua().ToArgb());
-ASSERT_NEAR(gradientStops->idx_get(0)->get_Position(), 0.1, 0.01);
-ASSERT_NEAR(gradientStops->idx_get(0)->get_Transparency(), 0.25, 0.01);
+ASPOSE_ASSERT_EQ(System::Drawing::Color::FromArgb(255, 0, 255, 255), gradientStops->idx_get(0)->get_BaseColor());
+ASSERT_EQ(System::Drawing::Color::get_Aqua().ToArgb(), gradientStops->idx_get(0)->get_Color().ToArgb());
+ASSERT_NEAR(0.1, gradientStops->idx_get(0)->get_Position(), 0.01);
+ASSERT_NEAR(0.25, gradientStops->idx_get(0)->get_Transparency(), 0.01);
 
-ASSERT_EQ(gradientStops->idx_get(1)->get_Color().ToArgb(), System::Drawing::Color::get_Chocolate().ToArgb());
-ASSERT_NEAR(gradientStops->idx_get(1)->get_Position(), 0.75, 0.01);
-ASSERT_NEAR(gradientStops->idx_get(1)->get_Transparency(), 0.3, 0.01);
+ASSERT_EQ(System::Drawing::Color::get_Chocolate().ToArgb(), gradientStops->idx_get(1)->get_Color().ToArgb());
+ASSERT_NEAR(0.75, gradientStops->idx_get(1)->get_Position(), 0.01);
+ASSERT_NEAR(0.3, gradientStops->idx_get(1)->get_Transparency(), 0.01);
 
 // Use the compliance option to define the shape using DML
 // if you want to get "GradientStops" property after the document saves.
@@ -67,6 +68,7 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
+
 ## See Also
 
 * Class [GradientStopCollection](../)

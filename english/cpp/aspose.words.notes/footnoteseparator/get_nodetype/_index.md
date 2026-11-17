@@ -16,15 +16,16 @@ Gets the type of this node.
 Aspose::Words::NodeType Aspose::Words::Notes::FootnoteSeparator::get_NodeType() const override
 ```
 
+
 ## Examples
 
 
-Shows how to remove all child nodes of a specific type from a composite node.
 
+Shows how to remove all child nodes of a specific type from a composite node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
-ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 2);
+ASSERT_EQ(2, doc->GetChildNodes(NodeType::Table, true)->get_Count());
 
 System::SharedPtr<Aspose::Words::Node> curNode = doc->get_FirstSection()->get_Body()->get_FirstChild();
 
@@ -43,11 +44,11 @@ while (curNode != nullptr)
     curNode = nextNode;
 }
 
-ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 0);
+ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
 ```
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children.
 
+Shows how to use a node's NextSibling property to enumerate through its immediate children. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
@@ -60,8 +61,10 @@ for (System::SharedPtr<Aspose::Words::Node> node = doc->get_FirstSection()->get_
     std::cout << (contents == System::String::Empty ? System::String(u"This node contains no text") : System::String::Format(u"Contents: \"{0}\"", node->GetText().Trim())) << std::endl;
 }
 ```
+
 ## See Also
 
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [FootnoteSeparator](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -19,33 +19,31 @@ void Aspose::Words::DocumentBuilder::Writeln()
 ## Remarks
 
 
-Calls [InsertParagraph](../insertparagraph/).
+Calls [InsertParagraph](../insertparagraph/). 
 ## See Also
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::Writeln(const System::String \&) method
+## DocumentBuilder::Writeln(const System::String\&) method
 
 
 Inserts a string and a paragraph break into the document.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::Writeln(const System::String & text)
+void Aspose::Words::DocumentBuilder::Writeln(const System::String &text)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | const System::String \& | The string to insert into the document. |
-## Remarks
+| text | const System::String\& | The string to insert into the document. |
 
- Current font and paragraph formatting specified by the [Font](../get_font/) and [ParagraphFormat](../get_paragraphformat/) properties are used. 
 ## Examples
 
 
-Shows how to build a formatted 2x2 table.
 
+Shows how to build a formatted 2x2 table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,8 +58,8 @@ builder->EndRow();
 
 // While building the table, the document builder will apply its current RowFormat/CellFormat property values
 // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-ASSERT_EQ(table->get_Rows()->idx_get(0)->get_Cells()->idx_get(0)->get_CellFormat()->get_VerticalAlignment(), CellVerticalAlignment::Center);
-ASSERT_EQ(table->get_Rows()->idx_get(0)->get_Cells()->idx_get(1)->get_CellFormat()->get_VerticalAlignment(), CellVerticalAlignment::Center);
+ASSERT_EQ(CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(0)->get_CellFormat()->get_VerticalAlignment());
+ASSERT_EQ(CellVerticalAlignment::Center, table->get_Rows()->idx_get(0)->get_Cells()->idx_get(1)->get_CellFormat()->get_VerticalAlignment());
 
 builder->InsertCell();
 builder->get_RowFormat()->set_Height(100);
@@ -75,15 +73,16 @@ builder->EndRow();
 builder->EndTable();
 
 // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-ASPOSE_ASSERT_EQ(table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height(), 0);
-ASSERT_EQ(table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule(), HeightRule::Auto);
-ASPOSE_ASSERT_EQ(table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height(), 100);
-ASSERT_EQ(table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule(), HeightRule::Exactly);
-ASSERT_EQ(table->get_Rows()->idx_get(1)->get_Cells()->idx_get(0)->get_CellFormat()->get_Orientation(), TextOrientation::Upward);
-ASSERT_EQ(table->get_Rows()->idx_get(1)->get_Cells()->idx_get(1)->get_CellFormat()->get_Orientation(), TextOrientation::Downward);
+ASPOSE_ASSERT_EQ(0, table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height());
+ASSERT_EQ(HeightRule::Auto, table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule());
+ASPOSE_ASSERT_EQ(100, table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height());
+ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule());
+ASSERT_EQ(TextOrientation::Upward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(0)->get_CellFormat()->get_Orientation());
+ASSERT_EQ(TextOrientation::Downward, table->get_Rows()->idx_get(1)->get_Cells()->idx_get(1)->get_CellFormat()->get_Orientation());
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
+
 ## See Also
 
 * Class [DocumentBuilder](../)

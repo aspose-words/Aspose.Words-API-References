@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/mswordversion/
 Allows Aspose.Wods to mimic MS Word version-specific application behavior.
 
 ```cpp
-enum class MsWordVersion : int
+enum class MsWordVersion
 ```
 
 ### Values

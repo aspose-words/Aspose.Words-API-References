@@ -4,7 +4,7 @@ linktitle: get_AutomaticallyUpdate
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_AutomaticallyUpdate method. Specifies whether this style is automatically redefined based on the appropriate value in C++.'
 type: docs
-weight: 22092
+weight: 4000
 url: /cpp/aspose.words/style/get_automaticallyupdate/
 ---
 ## Style::get_AutomaticallyUpdate method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words/style/get_automaticallyupdate/
 Specifies whether this style is automatically redefined based on the appropriate value.
 
 ```cpp
-_Bool Aspose::Words::Style::get_AutomaticallyUpdate() const
+bool Aspose::Words::Style::get_AutomaticallyUpdate() const
 ```
 
 ## Remarks
@@ -24,11 +24,12 @@ If the property value is set to true, MS Word automatically redefines the curren
 AutomaticallyUpdate property is applicable to paragraph styles only.
 
 The default value is **false**.
+
 ## Examples
 
 
-Shows how to create and apply a custom style.
 
+Shows how to create and apply a custom style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -47,7 +48,7 @@ builder->Writeln(u"Hello world!");
 
 System::SharedPtr<Aspose::Words::Style> firstParagraphStyle = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Style();
 
-ASPOSE_ASSERT_EQ(firstParagraphStyle, style);
+ASPOSE_ASSERT_EQ(style, firstParagraphStyle);
 
 // Remove our custom style from the document's styles collection.
 doc->get_Styles()->idx_get(u"MyStyle")->Remove();
@@ -59,10 +60,11 @@ ASSERT_FALSE(doc->get_Styles()->LINQ_Any(static_cast<System::Func<System::Shared
 {
     return s->get_Name() == u"MyStyle";
 }))));
-ASSERT_EQ(firstParagraphStyle->get_Font()->get_Name(), u"Times New Roman");
-ASPOSE_ASSERT_EQ(firstParagraphStyle->get_Font()->get_Size(), 12.0);
-ASSERT_EQ(firstParagraphStyle->get_Font()->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
+ASSERT_EQ(u"Times New Roman", firstParagraphStyle->get_Font()->get_Name());
+ASPOSE_ASSERT_EQ(12.0, firstParagraphStyle->get_Font()->get_Size());
+ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font()->get_Color().ToArgb());
 ```
+
 ## See Also
 
 * Class [Style](../)

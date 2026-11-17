@@ -13,14 +13,15 @@ url: /cpp/aspose.words/textwatermarkoptions/get_issemitrasparent/
 Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::TextWatermarkOptions::get_IsSemitrasparent() const
+bool Aspose::Words::TextWatermarkOptions::get_IsSemitrasparent() const
 ```
+
 
 ## Examples
 
 
-Shows how to create a text watermark.
 
+Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,6 +47,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
+
 ## See Also
 
 * Class [TextWatermarkOptions](../)

@@ -16,11 +16,12 @@ Allows to specify the effect for content areas with changes of formatting proper
 Aspose::Words::Layout::RevisionTextEffect Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesEffect()
 ```
 
+
 ## Examples
 
 
-Shows how to modify the appearance of revisions.
 
+Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -64,12 +65,10 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
-## Exceptions
-
-* ArgumentOutOfRangeException - [Hidden](../../revisiontexteffect/) is not allowed.
 
 ## See Also
 
+* Enum [RevisionTextEffect](../../revisiontexteffect/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

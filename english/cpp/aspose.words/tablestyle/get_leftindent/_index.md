@@ -16,11 +16,12 @@ Gets or sets the value that represents the left indent of a table.
 double Aspose::Words::TableStyle::get_LeftIndent()
 ```
 
+
 ## Examples
 
 
-Shows how to set the position of a table.
 
+Shows how to set the position of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -57,6 +58,7 @@ table->set_Style(tableStyle);
 
 doc->Save(get_ArtifactsDir() + u"Table.SetTableAlignment.docx");
 ```
+
 ## See Also
 
 * Class [TableStyle](../)

@@ -13,14 +13,12 @@ url: /cpp/aspose.words.drawing.charts/chartxvaluecollection/idx_set/
 Gets or sets the X value at the specified index.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartXValueCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> & value)
+void Aspose::Words::Drawing::Charts::ChartXValueCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> &value)
 ```
 
-## Remarks
-
- Empty values are represented as null. 
 ## See Also
 
+* Class [ChartXValue](../../chartxvalue/)
 * Class [ChartXValueCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -16,9 +16,6 @@ True indicates that the spacing attributes of all runs will be ignored when join
 void Aspose::Words::JoinRunsOptions::set_IgnoreSpacing(bool value)
 ```
 
-## Remarks
-
- The default value is False. 
 ## See Also
 
 * Class [JoinRunsOptions](../)

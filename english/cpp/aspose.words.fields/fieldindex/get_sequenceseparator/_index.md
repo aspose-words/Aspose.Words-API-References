@@ -16,11 +16,12 @@ Gets or sets the character sequence that is used to separate sequence numbers an
 System::String Aspose::Words::Fields::FieldIndex::get_SequenceSeparator()
 ```
 
+
 ## Examples
 
 
-Shows how to split a document into portions by combining INDEX and SEQ fields.
 
+Shows how to split a document into portions by combining INDEX and SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +44,7 @@ index->set_PageNumberSeparator(u"\tMySequence at ");
 index->set_SequenceSeparator(u" on page ");
 ASSERT_TRUE(index->get_HasSequenceName());
 
-ASSERT_EQ(index->GetFieldCode(), u" INDEX  \\s MySequence \\e \"\tMySequence at \" \\d \" on page \"");
+ASSERT_EQ(u" INDEX  \\s MySequence \\e \"\tMySequence at \" \\d \" on page \"", index->GetFieldCode());
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -54,7 +55,7 @@ builder->InsertBreak(BreakType::PageBreak);
 auto sequenceField = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 sequenceField->set_SequenceIdentifier(u"MySequence");
 
-ASSERT_EQ(sequenceField->GetFieldCode(), u" SEQ  MySequence");
+ASSERT_EQ(u" SEQ  MySequence", sequenceField->GetFieldCode());
 
 // Insert an XE field which will create an entry in the INDEX field.
 // Since "MySequence" is at 1 and this XE field is on page 2, along with the custom separators we defined above,
@@ -62,7 +63,7 @@ ASSERT_EQ(sequenceField->GetFieldCode(), u" SEQ  MySequence");
 auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Cat");
 
-ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  Cat");
+ASSERT_EQ(u" XE  Cat", indexEntry->GetFieldCode());
 
 // Insert a page break and use SEQ fields to advance "MySequence" to 3.
 builder->InsertBreak(BreakType::PageBreak);
@@ -89,6 +90,7 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Sequence.docx");
 ```
+
 ## See Also
 
 * Class [FieldIndex](../)

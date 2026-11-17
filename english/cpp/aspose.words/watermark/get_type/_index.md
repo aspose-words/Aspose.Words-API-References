@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Watermark::get_Type method. Gets the watermark type in C++.'
 type: docs
-weight: 8000
+weight: 2000
 url: /cpp/aspose.words/watermark/get_type/
 ---
 ## Watermark::get_Type method
@@ -16,11 +16,12 @@ Gets the watermark type.
 Aspose::Words::WatermarkType Aspose::Words::Watermark::get_Type()
 ```
 
+
 ## Examples
 
 
-Shows how to create a text watermark.
 
+Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,8 +47,10 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
+
 ## See Also
 
+* Enum [WatermarkType](../../watermarktype/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

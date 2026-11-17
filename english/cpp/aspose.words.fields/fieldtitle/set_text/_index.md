@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldTitle::set_Text method
 linktitle: set_Text
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldTitle::set_Text method. Sets the text of the title in C++.'
+description: 'Aspose::Words::Fields::FieldTitle::set_Text method. Setter for Aspose::Words::Fields::FieldTitle::get_Text in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.fields/fieldtitle/set_text/
@@ -10,45 +10,12 @@ url: /cpp/aspose.words.fields/fieldtitle/set_text/
 ## FieldTitle::set_Text method
 
 
-Sets the text of the title.
+Setter for [Aspose::Words::Fields::FieldTitle::get_Text](../get_text/).
 
 ```cpp
-void Aspose::Words::Fields::FieldTitle::set_Text(const System::String & value)
+void Aspose::Words::Fields::FieldTitle::set_Text(const System::String &value)
 ```
 
-## Examples
-
-
-Shows how to use the TITLE field.
-
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>();
-
-// Set a value for the "Title" built-in document property.
-doc->get_BuiltInDocumentProperties()->set_Title(u"My Title");
-
-// We can use the TITLE field to display the value of this property in the document.
-auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
-field->Update();
-
-ASSERT_EQ(field->GetFieldCode(), u" TITLE ");
-ASSERT_EQ(field->get_Result(), u"My Title");
-
-// Setting a value for the field's Text property,
-// and then updating the field will also overwrite the corresponding built-in property with the new value.
-builder->Writeln();
-field = System::ExplicitCast<Aspose::Words::Fields::FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
-field->set_Text(u"My New Title");
-field->Update();
-
-ASSERT_EQ(field->GetFieldCode(), u" TITLE  \"My New Title\"");
-ASSERT_EQ(field->get_Result(), u"My New Title");
-ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Title(), u"My New Title");
-
-doc->UpdateFields();
-doc->Save(get_ArtifactsDir() + u"Field.TITLE.docx");
-```
 ## See Also
 
 * Class [FieldTitle](../)

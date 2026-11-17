@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldUserInitials::set_UserInitials method
 linktitle: set_UserInitials
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldUserInitials::set_UserInitials method. Sets the current user''s initials in C++.'
+description: 'Aspose::Words::Fields::FieldUserInitials::set_UserInitials method. Setter for Aspose::Words::Fields::FieldUserInitials::get_UserInitials in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.fields/fielduserinitials/set_userinitials/
@@ -10,47 +10,12 @@ url: /cpp/aspose.words.fields/fielduserinitials/set_userinitials/
 ## FieldUserInitials::set_UserInitials method
 
 
-Sets the current user's initials.
+Setter for [Aspose::Words::Fields::FieldUserInitials::get_UserInitials](../get_userinitials/).
 
 ```cpp
-void Aspose::Words::Fields::FieldUserInitials::set_UserInitials(const System::String & value)
+void Aspose::Words::Fields::FieldUserInitials::set_UserInitials(const System::String &value)
 ```
 
-## Examples
-
-
-Shows how to use the USERINITIALS field.
-
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>();
-
-// Create a UserInformation object and set it as the source of user information for any fields that we create.
-auto userInformation = System::MakeObject<Aspose::Words::Fields::UserInformation>();
-userInformation->set_Initials(u"J. D.");
-doc->get_FieldOptions()->set_CurrentUser(userInformation);
-
-// Create a USERINITIALS field to display the current user's initials,
-// taken from the UserInformation object we created above.
-auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-auto fieldUserInitials = System::ExplicitCast<Aspose::Words::Fields::FieldUserInitials>(builder->InsertField(FieldType::FieldUserInitials, true));
-ASSERT_EQ(fieldUserInitials->get_Result(), userInformation->get_Initials());
-
-ASSERT_EQ(fieldUserInitials->GetFieldCode(), u" USERINITIALS ");
-ASSERT_EQ(fieldUserInitials->get_Result(), u"J. D.");
-
-// We can set this property to get our field to override the value currently stored in the UserInformation object.
-fieldUserInitials->set_UserInitials(u"J. C.");
-fieldUserInitials->Update();
-
-ASSERT_EQ(fieldUserInitials->GetFieldCode(), u" USERINITIALS  \"J. C.\"");
-ASSERT_EQ(fieldUserInitials->get_Result(), u"J. C.");
-
-// This does not affect the value in the UserInformation object.
-ASSERT_EQ(doc->get_FieldOptions()->get_CurrentUser()->get_Initials(), u"J. D.");
-
-doc->UpdateFields();
-doc->Save(get_ArtifactsDir() + u"Field.USERINITIALS.docx");
-```
 ## See Also
 
 * Class [FieldUserInitials](../)

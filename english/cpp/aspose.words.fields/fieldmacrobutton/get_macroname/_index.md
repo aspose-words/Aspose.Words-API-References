@@ -16,11 +16,12 @@ Gets or sets the name of the macro or command to run.
 System::String Aspose::Words::Fields::FieldMacroButton::get_MacroName()
 ```
 
+
 ## Examples
 
 
-Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
 
+Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Macro.docm"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,7 +33,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(build
 field->set_MacroName(u"MyMacro");
 field->set_DisplayText(System::String(u"Double click to run macro: ") + field->get_MacroName());
 
-ASSERT_EQ(field->GetFieldCode(), u" MACROBUTTON  MyMacro Double click to run macro: MyMacro");
+ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->GetFieldCode());
 
 // Use the property to reference "ViewZoom200", a macro that ships with Microsoft Word.
 // We can find all other macros via View -> Macros (dropdown) -> View Macros.
@@ -44,11 +45,12 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->I
 field->set_MacroName(u"ViewZoom200");
 field->set_DisplayText(System::String(u"Run ") + field->get_MacroName());
 
-ASSERT_EQ(field->GetFieldCode(), u" MACROBUTTON  ViewZoom200 Run ViewZoom200");
+ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
 
 // Save the document as a macro-enabled document type.
 doc->Save(get_ArtifactsDir() + u"Field.MACROBUTTON.docm");
 ```
+
 ## See Also
 
 * Class [FieldMacroButton](../)

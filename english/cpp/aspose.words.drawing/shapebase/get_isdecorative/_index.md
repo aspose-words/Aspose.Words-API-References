@@ -4,7 +4,7 @@ linktitle: get_IsDecorative
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsDecorative method. Gets or sets the flag that specifies whether the shape is decorative in the document in C++.'
 type: docs
-weight: 61400
+weight: 25000
 url: /cpp/aspose.words.drawing/shapebase/get_isdecorative/
 ---
 ## ShapeBase::get_IsDecorative method
@@ -13,17 +13,15 @@ url: /cpp/aspose.words.drawing/shapebase/get_isdecorative/
 Gets or sets the flag that specifies whether the shape is decorative in the document.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsDecorative()
+bool Aspose::Words::Drawing::ShapeBase::get_IsDecorative()
 ```
 
-## Remarks
 
- Note that shape having not empty [AlternativeText](../get_alternativetext/) cannot be decorative. 
 ## Examples
 
 
-Shows how to set that the shape is decorative.
 
+Shows how to set that the shape is decorative. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Decorative shapes.docx"));
 
@@ -44,6 +42,7 @@ shape->set_IsDecorative(true);
 
 doc->Save(get_ArtifactsDir() + u"Shape.IsDecorative.docx");
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

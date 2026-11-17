@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/cell/get_isfirstcell/
 True if this is the first cell inside a row; false otherwise.
 
 ```cpp
-_Bool Aspose::Words::Tables::Cell::get_IsFirstCell()
+bool Aspose::Words::Tables::Cell::get_IsFirstCell()
 ```
 
 ## See Also

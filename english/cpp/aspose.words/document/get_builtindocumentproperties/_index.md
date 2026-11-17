@@ -4,7 +4,7 @@ linktitle: get_BuiltInDocumentProperties
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_BuiltInDocumentProperties method. Returns a collection that represents all the built-in document properties of the document in C++.'
 type: docs
-weight: 105000
+weight: 15000
 url: /cpp/aspose.words/document/get_builtindocumentproperties/
 ---
 ## Document::get_BuiltInDocumentProperties method
@@ -16,11 +16,12 @@ Returns a collection that represents all the built-in document properties of the
 System::SharedPtr<Aspose::Words::Properties::BuiltInDocumentProperties> Aspose::Words::Document::get_BuiltInDocumentProperties() const
 ```
 
+
 ## Examples
 
 
-Shows how to work with built-in document properties.
 
+Shows how to work with built-in document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
@@ -49,8 +50,10 @@ for (auto&& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties
     }
 }
 ```
+
 ## See Also
 
+* Class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

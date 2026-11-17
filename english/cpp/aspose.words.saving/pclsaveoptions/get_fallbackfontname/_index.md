@@ -16,14 +16,12 @@ Name of the font that will be used if no expected font is found in printer and b
 System::String Aspose::Words::Saving::PclSaveOptions::get_FallbackFontName() const
 ```
 
-## Remarks
 
- If no fallback is found, a warning is generated and "Arial" font is used. 
 ## Examples
 
 
-Shows how to declare a font that a printer will apply to printed text as a substitute should its original font be unavailable.
 
+Shows how to declare a font that a printer will apply to printed text as a substitute should its original font be unavailable. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,6 +36,7 @@ saveOptions->set_FallbackFontName(u"Times New Roman");
 // Should "Times New Roman" also be unavailable, the printer will default to the "Arial" font.
 doc->Save(get_ArtifactsDir() + u"PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ```
+
 ## See Also
 
 * Class [PclSaveOptions](../)

@@ -16,11 +16,12 @@ Returns a value that specifies whether this is a footnote or endnote.
 Aspose::Words::Notes::FootnoteType Aspose::Words::Notes::Footnote::get_FootnoteType() const
 ```
 
+
 ## Examples
 
 
-Shows the difference between footnotes and endnotes.
 
+Shows the difference between footnotes and endnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,13 +42,15 @@ System::SharedPtr<Aspose::Words::Notes::Footnote> endnote = builder->InsertFootn
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(footnote->get_FootnoteType(), FootnoteType::Footnote);
-ASSERT_EQ(endnote->get_FootnoteType(), FootnoteType::Endnote);
+ASSERT_EQ(FootnoteType::Footnote, footnote->get_FootnoteType());
+ASSERT_EQ(FootnoteType::Endnote, endnote->get_FootnoteType());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.FootnoteEndnote.docx");
 ```
+
 ## See Also
 
+* Enum [FootnoteType](../../footnotetype/)
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

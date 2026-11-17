@@ -13,14 +13,15 @@ url: /cpp/aspose.words/paragraphformat/get_suppressautohyphens/
 Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens()
+bool Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens()
 ```
+
 
 ## Examples
 
 
-Shows how to suppress hyphenation for a paragraph.
 
+Shows how to suppress hyphenation for a paragraph. 
 ```cpp
 Hyphenation::RegisterDictionary(u"de-CH", get_MyDir() + u"hyph_de_CH.dic");
 
@@ -38,6 +39,7 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.SuppressHyphens.pdf");
 ```
+
 ## See Also
 
 * Class [ParagraphFormat](../)

@@ -21,27 +21,38 @@ class ChartSeriesGroupCollection : public System::Collections::Generic::IEnumera
 | Method | Description |
 | --- | --- |
 | [Add](./add/)(Aspose::Words::Drawing::Charts::ChartSeriesType) | Adds a new series group of the specified series type to this collection. |
-| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
-| [RemoveAt](./removeat/)(int32_t) | Removes a series group at the specified index. All child series will be removed from the chart. |
+| [begin](./begin/)() |  |
+| [begin](./begin/)() const |  |
+| [cbegin](./cbegin/)() const |  |
+| [cend](./cend/)() const |  |
+| [end](./end/)() |  |
+| [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Returns the number of series groups in this collection. |
+| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns a [ChartSeriesGroup](../chartseriesgroup/) at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [RemoveAt](./removeat/)(int32_t) | Removes a series group at the specified index. All child series will be removed from the chart. |
+| static [Type](./type/)() |  |
+| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
+| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
+| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
+| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
 ## Typedefs
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) | Const iterator type. |
-| [iterator](./iterator/) | Iterator type. |
-| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
-| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
-| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
-## Remarks
+| [const_iterator](./const_iterator/) |  |
+| [iterator](./iterator/) |  |
+| [iterator_holder_type](./iterator_holder_type/) |  |
+| [virtualized_iterator](./virtualized_iterator/) |  |
+| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
 
- To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. 
 ## Examples
 
 
-Shows how to work with the secondary axis of chart.
 
+Shows how to work with the secondary axis of chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,7 +78,7 @@ newSeriesGroup->get_AxisX()->set_Hidden(true);
 newSeriesGroup->get_AxisY()->get_Title()->set_Show(true);
 newSeriesGroup->get_AxisY()->get_Title()->set_Text(u"Secondary Y axis");
 
-ASSERT_EQ(newSeriesGroup->get_SeriesType(), ChartSeriesType::Line);
+ASSERT_EQ(ChartSeriesType::Line, newSeriesGroup->get_SeriesType());
 
 // Add a series to the new series group.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series3 = newSeriesGroup->get_Series()->Add(u"Series of secondary series group", categories, System::MakeArray<double>({13, 11, 16}));
@@ -75,6 +86,7 @@ series3->get_Format()->get_Stroke()->set_Weight(3.5);
 
 doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

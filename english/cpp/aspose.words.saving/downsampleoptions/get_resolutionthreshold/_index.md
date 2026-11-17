@@ -16,9 +16,6 @@ Specifies the threshold resolution in pixels per inch. If resolution of an image
 int32_t Aspose::Words::Saving::DownsampleOptions::get_ResolutionThreshold() const
 ```
 
-## Remarks
-
- The default value is 0. 
 ## See Also
 
 * Class [DownsampleOptions](../)

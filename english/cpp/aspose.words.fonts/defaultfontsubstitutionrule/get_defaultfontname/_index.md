@@ -20,11 +20,12 @@ System::String Aspose::Words::Fonts::DefaultFontSubstitutionRule::get_DefaultFon
 
 
 The default value is 'Times New Roman'.
+
 ## Examples
 
 
-Shows how to specify a default font.
 
+Shows how to specify a default font. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,7 +38,7 @@ builder->Writeln(u"The quick brown fox jumps over the lazy dog.");
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> fontSources = FontSettings::get_DefaultInstance()->GetFontsSources();
 
 // The font sources that the document uses contain the font "Arial", but not "Arvo".
-ASSERT_EQ(fontSources->get_Length(), 1);
+ASSERT_EQ(1, fontSources->get_Length());
 ASSERT_TRUE(fontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f)>>([](System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> f) -> bool
 {
     return f->get_FullFontName() == u"Arial";
@@ -60,8 +61,8 @@ ASSERT_TRUE(fontSources[0]->GetAvailableFonts()->LINQ_Any(static_cast<System::Fu
 doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontName.pdf");
 ```
 
-Shows how to set the default font substitution rule.
 
+Shows how to set the default font substitution rule. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -71,7 +72,7 @@ doc->set_FontSettings(fontSettings);
 // This rule will substitute all missing fonts with "Times New Roman".
 System::SharedPtr<Aspose::Words::Fonts::DefaultFontSubstitutionRule> defaultFontSubstitutionRule = fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution();
 ASSERT_TRUE(defaultFontSubstitutionRule->get_Enabled());
-ASSERT_EQ(defaultFontSubstitutionRule->get_DefaultFontName(), u"Times New Roman");
+ASSERT_EQ(u"Times New Roman", defaultFontSubstitutionRule->get_DefaultFontName());
 
 // Set the default font substitute to "Courier New".
 defaultFontSubstitutionRule->set_DefaultFontName(u"Courier New");
@@ -85,6 +86,7 @@ builder->Writeln(u"Line written in a missing font, which will be substituted wit
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
+
 ## See Also
 
 * Class [DefaultFontSubstitutionRule](../)

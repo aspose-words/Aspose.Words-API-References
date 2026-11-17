@@ -4,7 +4,7 @@ linktitle: get_PlaceholderName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_PlaceholderName method. Gets or sets Name of the BuildingBlock containing placeholder text in C++.'
 type: docs
-weight: 83000
+weight: 27000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_placeholdername/
 ---
 ## StructuredDocumentTag::get_PlaceholderName method
@@ -16,11 +16,12 @@ Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/bu
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_PlaceholderName() override
 ```
 
+
 ## Examples
 
 
-Shows how to use a building block's contents as a custom placeholder text for a structured document tag.
 
+Shows how to use a building block's contents as a custom placeholder text for a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -45,7 +46,7 @@ tag->set_PlaceholderName(u"Custom Placeholder");
 
 // If "PlaceholderName" refers to an existing block in the parent document's glossary document,
 // we will be able to verify the building block via the "Placeholder" property.
-ASPOSE_ASSERT_EQ(tag->get_Placeholder(), substituteBlock);
+ASPOSE_ASSERT_EQ(substituteBlock, tag->get_Placeholder());
 
 // Set the "IsShowingPlaceholderText" property to "true" to treat the
 // structured document tag's current contents as placeholder text.
@@ -60,9 +61,6 @@ builder->InsertNode(tag);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ```
-## Exceptions
-
-* InvalidOperationException - Throw if BuildingBlock with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) is not present in [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/).
 
 ## See Also
 

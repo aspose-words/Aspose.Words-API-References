@@ -22,11 +22,15 @@ class ReadabilityStatistics : public System::Object
 | --- | --- |
 | [get_FleschKincaidGradeLevel](./get_fleschkincaidgradelevel/)() | Flesch-Kincaid Grade Level score. |
 | [get_FleschReadingEasy](./get_fleschreadingeasy/)() | Flesch Reading Easy score. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
+
 ## Examples
 
 
-Shows how to calculate and display the Flesch reading scores for a document.
 
+Shows how to calculate and display the Flesch reading scores for a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -41,6 +45,7 @@ System::SharedPtr<Aspose::Words::ReadabilityStatistics> stats = doc->get_Readabi
 ASSERT_LE(stats->get_FleschReadingEasy(), 190);
 ASSERT_LE(stats->get_FleschKincaidGradeLevel(), 0);
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

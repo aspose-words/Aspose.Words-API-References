@@ -16,11 +16,12 @@ Initializes a new instance of this class that can be used to save a document in 
 Aspose::Words::Saving::DocSaveOptions::DocSaveOptions()
 ```
 
+
 ## Examples
 
 
-Shows how to set save options for older Microsoft Word formats.
 
+Shows how to set save options for older Microsoft Word formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,16 +40,17 @@ doc->Save(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc", options);
 
 // To be able to load the document,
 // we will need to apply the password we specified in the DocSaveOptions object in a LoadOptions object.
-ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc"));
-}))(), Aspose::Words::IncorrectPasswordException);
+})(), Aspose::Words::IncorrectPasswordException);
 
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"MyPassword");
 doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc", loadOptions);
 
-ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
+ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
+
 ## See Also
 
 * Class [DocSaveOptions](../)
@@ -67,11 +69,12 @@ Aspose::Words::Saving::DocSaveOptions::DocSaveOptions(Aspose::Words::SaveFormat 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | Aspose::Words::SaveFormat | Can be [Doc](../../../aspose.words/saveformat/) or [Dot](../../../aspose.words/saveformat/). |
+
 ## Examples
 
 
-Shows how to set save options for older Microsoft Word formats.
 
+Shows how to set save options for older Microsoft Word formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -90,18 +93,20 @@ doc->Save(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc", options);
 
 // To be able to load the document,
 // we will need to apply the password we specified in the DocSaveOptions object in a LoadOptions object.
-ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc"));
-}))(), Aspose::Words::IncorrectPasswordException);
+})(), Aspose::Words::IncorrectPasswordException);
 
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"MyPassword");
 doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc", loadOptions);
 
-ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
+ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```
+
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

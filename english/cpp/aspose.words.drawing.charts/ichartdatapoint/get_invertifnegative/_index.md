@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/ichartdatapoint/get_invertifnegative/
 Specifies whether the parent element shall inverts its colors if the value is negative.
 
 ```cpp
-virtual _Bool Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative()
+virtual bool Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative()=0
 ```
 
 ## See Also

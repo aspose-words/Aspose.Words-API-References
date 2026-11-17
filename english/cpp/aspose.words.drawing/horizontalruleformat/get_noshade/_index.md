@@ -13,18 +13,19 @@ url: /cpp/aspose.words.drawing/horizontalruleformat/get_noshade/
 Indicates the presence of 3D shading for the horizontal rule. If **true**, then the horizontal rule is without 3D shading and solid color is used.
 
 ```cpp
-_Bool Aspose::Words::Drawing::HorizontalRuleFormat::get_NoShade()
+bool Aspose::Words::Drawing::HorizontalRuleFormat::get_NoShade()
 ```
 
 ## Remarks
 
 
 The default value is **false**.
+
 ## Examples
 
 
-Shows how to insert a horizontal rule shape, and customize its formatting.
 
+Shows how to insert a horizontal rule shape, and customize its formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,6 +41,7 @@ horizontalRuleFormat->set_NoShade(true);
 ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
+
 ## See Also
 
 * Class [HorizontalRuleFormat](../)

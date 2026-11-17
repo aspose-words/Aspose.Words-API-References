@@ -4,7 +4,7 @@ linktitle: get_NameOther
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_NameOther method. Returns or sets the font used for characters with character codes from 128 through 255 in C++.'
 type: docs
-weight: 58972
+weight: 29000
 url: /cpp/aspose.words/font/get_nameother/
 ---
 ## Font::get_NameOther method
@@ -16,11 +16,12 @@ Returns or sets the font used for characters with character codes from 128 throu
 System::String Aspose::Words::Font::get_NameOther()
 ```
 
+
 ## Examples
 
 
-Shows how Microsoft Word can combine two different fonts in one run.
 
+Shows how Microsoft Word can combine two different fonts in one run. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,7 +32,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->get_Font()->set_NameAscii(u"Calibri");
 
 // With no other font specified, the builder will also apply this font to all characters that it inserts.
-ASSERT_EQ(builder->get_Font()->get_Name(), u"Calibri");
+ASSERT_EQ(u"Calibri", builder->get_Font()->get_Name());
 
 // Specify a font to use for all characters outside of the ASCII range.
 // Ideally, this font should have a glyph for each required non-ASCII character code.
@@ -43,9 +44,8 @@ builder->Writeln(u"Hello, Привет");
 
 doc->Save(get_ArtifactsDir() + u"Font.NameAscii.docx");
 ```
-## See Also
 
-* [Name](../get_name/)
+## See Also
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

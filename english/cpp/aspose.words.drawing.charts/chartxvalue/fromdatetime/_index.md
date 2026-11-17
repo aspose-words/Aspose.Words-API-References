@@ -4,7 +4,7 @@ linktitle: FromDateTime
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartXValue::FromDateTime method. Creates a ChartXValue instance of the DateTime type in C++.'
 type: docs
-weight: 8167
+weight: 1000
 url: /cpp/aspose.words.drawing.charts/chartxvalue/fromdatetime/
 ---
 ## ChartXValue::FromDateTime method
@@ -18,6 +18,7 @@ static System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> Aspose::Wo
 
 ## See Also
 
+* Class [ChartXValue](../)
 * Class [ChartXValue](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

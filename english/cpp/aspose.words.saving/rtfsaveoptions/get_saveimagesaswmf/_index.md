@@ -13,17 +13,15 @@ url: /cpp/aspose.words.saving/rtfsaveoptions/get_saveimagesaswmf/
 When **true** all images will be saved as WMF.
 
 ```cpp
-_Bool Aspose::Words::Saving::RtfSaveOptions::get_SaveImagesAsWmf() const
+bool Aspose::Words::Saving::RtfSaveOptions::get_SaveImagesAsWmf() const
 ```
 
-## Remarks
 
- This option might help to avoid WordPad warning messages. 
 ## Examples
 
 
-Shows how to convert all images in a document to the Windows Metafile format as we save the document as an RTF.
 
+Shows how to convert all images in a document to the Windows Metafile format as we save the document as an RTF. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,13 +29,13 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Jpeg image:");
 System::SharedPtr<Aspose::Words::Drawing::Shape> imageShape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
-ASSERT_EQ(imageShape->get_ImageData()->get_ImageType(), ImageType::Jpeg);
+ASSERT_EQ(ImageType::Jpeg, imageShape->get_ImageData()->get_ImageType());
 
 builder->InsertParagraph();
 builder->Writeln(u"Png image:");
 imageShape = builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
 
-ASSERT_EQ(imageShape->get_ImageData()->get_ImageType(), ImageType::Png);
+ASSERT_EQ(ImageType::Png, imageShape->get_ImageData()->get_ImageType());
 
 // Create an "RtfSaveOptions" object to pass to the document's "Save" method to modify how we save it to an RTF.
 auto rtfSaveOptions = System::MakeObject<Aspose::Words::Saving::RtfSaveOptions>();
@@ -56,15 +54,16 @@ System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Nod
 
 if (saveImagesAsWmf)
 {
-    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType(), ImageType::Wmf);
-    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType(), ImageType::Wmf);
+    ASSERT_EQ(ImageType::Wmf, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Wmf, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
 }
 else
 {
-    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType(), ImageType::Jpeg);
-    ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType(), ImageType::Png);
+    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(1)))->get_ImageData()->get_ImageType());
 }
 ```
+
 ## See Also
 
 * Class [RtfSaveOptions](../)

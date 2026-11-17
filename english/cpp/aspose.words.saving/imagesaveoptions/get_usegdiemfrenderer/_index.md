@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/imagesaveoptions/get_usegdiemfrenderer/
 Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
 
 ```cpp
-_Bool Aspose::Words::Saving::ImageSaveOptions::get_UseGdiEmfRenderer() const
+bool Aspose::Words::Saving::ImageSaveOptions::get_UseGdiEmfRenderer() const
 ```
 
 ## Remarks
@@ -28,11 +28,12 @@ Has effect only when saving to EMF.
 GDI+ saving works only on .NET.
 
 The default value is **true**.
+
 ## Examples
 
 
-Shows how to choose a renderer when converting a document to .emf.
 
+Shows how to choose a renderer when converting a document to .emf. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,6 +50,7 @@ saveOptions->set_UseGdiEmfRenderer(useGdiEmfRenderer);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Renderer.emf", saveOptions);
 ```
+
 ## See Also
 
 * Class [ImageSaveOptions](../)

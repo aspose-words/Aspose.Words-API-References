@@ -13,7 +13,7 @@ url: /cpp/aspose.words.bibliography/person/equals/
 
 
 ```cpp
-_Bool Aspose::Words::Bibliography::Person::Equals(System::SharedPtr<System::Object> obj) override
+bool Aspose::Words::Bibliography::Person::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## See Also

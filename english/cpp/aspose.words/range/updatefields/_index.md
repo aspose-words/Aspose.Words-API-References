@@ -28,11 +28,12 @@ This method does not update all field types. For the detailed list of supported 
 This method does not update fields that are related to the page layout algorithms (e.g. PAGE, PAGES, PAGEREF). The page layout-related fields are updated when you render a document or call [UpdatePageLayout](../../document/updatepagelayout/).
 
 To update fields in the whole document use [UpdateFields](../../document/updatefields/).
+
 ## Examples
 
 
-Shows how to update all the fields in a range.
 
+Shows how to update all the fields in a range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,15 +46,16 @@ builder->InsertField(u" DOCPROPERTY Category");
 doc->get_BuiltInDocumentProperties()->set_Category(u"MyCategory");
 
 // If we update the value of a document property, we will need to update all the DOCPROPERTY fields to display it.
-ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), System::String::Empty);
-ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), System::String::Empty);
+ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
+ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
 
 // Update all the fields that are in the range of the first section.
 doc->get_FirstSection()->get_Range()->UpdateFields();
 
-ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), u"MyCategory");
-ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(1)->get_Result(), System::String::Empty);
+ASSERT_EQ(u"MyCategory", doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
+ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
 ```
+
 ## See Also
 
 * Class [Range](../)

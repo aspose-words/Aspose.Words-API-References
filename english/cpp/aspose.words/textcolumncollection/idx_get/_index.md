@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::TextColumnCollection::idx_get method. Returns a text column at the specified index in C++.'
 type: docs
-weight: 19000
+weight: 8000
 url: /cpp/aspose.words/textcolumncollection/idx_get/
 ---
 ## TextColumnCollection::idx_get method
@@ -16,11 +16,12 @@ Returns a text column at the specified index.
 System::SharedPtr<Aspose::Words::TextColumn> Aspose::Words::TextColumnCollection::idx_get(int32_t index)
 ```
 
+
 ## Examples
 
 
-Shows how to create unevenly spaced columns.
 
+Shows how to create unevenly spaced columns. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +34,7 @@ columns->SetCount(2);
 // Determine the amount of room that we have available for arranging columns.
 double contentWidth = pageSetup->get_PageWidth() - pageSetup->get_LeftMargin() - pageSetup->get_RightMargin();
 
-ASSERT_NEAR(contentWidth, 470.30, 0.01);
+ASSERT_NEAR(470.30, contentWidth, 0.01);
 
 // Set the first column to be narrow.
 System::SharedPtr<Aspose::Words::TextColumn> column = columns->idx_get(0);
@@ -50,8 +51,10 @@ builder->Writeln(u"Wide column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CustomColumnWidth.docx");
 ```
+
 ## See Also
 
+* Class [TextColumn](../../textcolumn/)
 * Class [TextColumnCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

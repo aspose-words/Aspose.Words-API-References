@@ -4,7 +4,7 @@ linktitle: get_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_StyleIdentifier method. Gets or sets the locale independent style identifier of the table style applied to this table in C++.'
 type: docs
-weight: 98000
+weight: 35000
 url: /cpp/aspose.words.tables/table/get_styleidentifier/
 ---
 ## Table::get_StyleIdentifier method
@@ -16,11 +16,12 @@ Gets or sets the locale independent style identifier of the table style applied 
 Aspose::Words::StyleIdentifier Aspose::Words::Tables::Table::get_StyleIdentifier()
 ```
 
+
 ## Examples
 
 
-Shows how to build a new table while applying a style.
 
+Shows how to build a new table while applying a style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,8 +64,10 @@ builder->EndRow();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
+
 ## See Also
 
+* Enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

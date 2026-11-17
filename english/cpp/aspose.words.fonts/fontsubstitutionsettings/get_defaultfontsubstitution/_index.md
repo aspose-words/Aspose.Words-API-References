@@ -10,17 +10,18 @@ url: /cpp/aspose.words.fonts/fontsubstitutionsettings/get_defaultfontsubstitutio
 ## FontSubstitutionSettings::get_DefaultFontSubstitution method
 
 
-Settings related to default font substitution rule.
+[Settings](../../../aspose.words.settings/) related to default font substitution rule.
 
 ```cpp
 const System::SharedPtr<Aspose::Words::Fonts::DefaultFontSubstitutionRule> & Aspose::Words::Fonts::FontSubstitutionSettings::get_DefaultFontSubstitution() const
 ```
 
+
 ## Examples
 
 
-Shows how to set the default font substitution rule.
 
+Shows how to set the default font substitution rule. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -30,7 +31,7 @@ doc->set_FontSettings(fontSettings);
 // This rule will substitute all missing fonts with "Times New Roman".
 System::SharedPtr<Aspose::Words::Fonts::DefaultFontSubstitutionRule> defaultFontSubstitutionRule = fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution();
 ASSERT_TRUE(defaultFontSubstitutionRule->get_Enabled());
-ASSERT_EQ(defaultFontSubstitutionRule->get_DefaultFontName(), u"Times New Roman");
+ASSERT_EQ(u"Times New Roman", defaultFontSubstitutionRule->get_DefaultFontName());
 
 // Set the default font substitute to "Courier New".
 defaultFontSubstitutionRule->set_DefaultFontName(u"Courier New");
@@ -44,8 +45,10 @@ builder->Writeln(u"Line written in a missing font, which will be substituted wit
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
+
 ## See Also
 
+* Class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

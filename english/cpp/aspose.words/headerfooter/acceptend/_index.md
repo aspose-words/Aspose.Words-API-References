@@ -24,8 +24,11 @@ Aspose::Words::VisitorAction Aspose::Words::HeaderFooter::AcceptEnd(System::Shar
 ### ReturnValue
 
 The action to be taken by the visitor.
+
 ## See Also
 
+* Enum [VisitorAction](../../visitoraction/)
+* Class [DocumentVisitor](../../documentvisitor/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

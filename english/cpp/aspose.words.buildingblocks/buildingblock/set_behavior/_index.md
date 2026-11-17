@@ -18,6 +18,7 @@ void Aspose::Words::BuildingBlocks::BuildingBlock::set_Behavior(Aspose::Words::B
 
 ## See Also
 
+* Enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

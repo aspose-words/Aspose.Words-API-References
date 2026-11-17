@@ -16,11 +16,12 @@ Clears shadow format.
 void Aspose::Words::Drawing::ShadowFormat::Clear()
 ```
 
+
 ## Examples
 
 
-Shows how to work with a shadow formatting for the shape.
 
+Shows how to work with a shadow formatting for the shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape stroke pattern border.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -35,6 +36,7 @@ if (shape->get_ShadowFormat()->get_Type() == ShadowType::ShadowMixed)
     shape->get_ShadowFormat()->Clear();
 }
 ```
+
 ## See Also
 
 * Class [ShadowFormat](../)

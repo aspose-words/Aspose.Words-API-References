@@ -21,7 +21,7 @@ System::Guid Aspose::Words::BuildingBlocks::BuildingBlock::get_Guid() const
 
 Can be used by an application to uniquely reference a building block regardless of different naming due to localization.
 
-Corresponds to the docPartPr.guid element in OOXML.
+Corresponds to the **docPartPr.guid** element in OOXML. 
 ## See Also
 
 * Class [BuildingBlock](../)

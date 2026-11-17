@@ -13,23 +13,24 @@ url: /cpp/aspose.words/fileformatinfo/get_hasdigitalsignature/
 Returns **true** if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not specify whether the signature is valid or not.
 
 ```cpp
-_Bool Aspose::Words::FileFormatInfo::get_HasDigitalSignature() const
+bool Aspose::Words::FileFormatInfo::get_HasDigitalSignature() const
 ```
 
 ## Remarks
 
 
-This property exists to help you sort documents that are digitally signed from those that are not. If you use Aspose.Words to modify and save a document that is digitally signed, then the digital signature will be lost. This is by design because a digital signature exists to guard the authenticity of a document. Using this property you can detect digitally signed documents before processing them in the same way as normal documents and take some action to avoid losing the digital signature, for example notify the user. 
+This property exists to help you sort documents that are digitally signed from those that are not. If you use Aspose.Words to modify and save a document that is digitally signed, then the digital signature will be lost. This is by design because a digital signature exists to guard the authenticity of a document. Using this property you can detect digitally signed documents before processing them in the same way as normal documents and take some action to avoid losing the digital signature, for example notify the user.
+
 ## Examples
 
 
-Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
 
+Shows how to use the [FileFormatUtil](../../fileformatutil/) class to detect the document format and presence of digital signatures. 
 ```cpp
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
 System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx");
 
-ASSERT_EQ(FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()), u".docx");
+ASSERT_EQ(u".docx", FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()));
 ASSERT_FALSE(info->get_HasDigitalSignature());
 
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw", nullptr);
@@ -43,8 +44,9 @@ info = FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"File.DetectDigita
 ASSERT_TRUE(info->get_HasDigitalSignature());
 
 // We can load and access the signatures of a signed document in a collection like this.
-ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count(), 1);
+ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count());
 ```
+
 ## See Also
 
 * Class [FileFormatInfo](../)

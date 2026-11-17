@@ -4,16 +4,16 @@ linktitle: get_AdjustLineHeightInTable
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_AdjustLineHeightInTable method. Add Document Grid Line Pitch To Lines in Table Cells in C++.'
 type: docs
-weight: 75014
+weight: 2000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_adjustlineheightintable/
 ---
 ## CompatibilityOptions::get_AdjustLineHeightInTable method
 
 
-Add Document Grid Line Pitch To Lines in Table Cells.
+Add [Document](../../../aspose.words/document/) Grid Line Pitch To Lines in Table Cells.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_AdjustLineHeightInTable()
+bool Aspose::Words::Settings::CompatibilityOptions::get_AdjustLineHeightInTable()
 ```
 
 ## See Also

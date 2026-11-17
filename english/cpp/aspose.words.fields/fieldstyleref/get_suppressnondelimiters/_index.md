@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldstyleref/get_suppressnondelimiters/
 Gets or sets whether to suppress non-delimiter characters.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldStyleRef::get_SuppressNonDelimiters()
+bool Aspose::Words::Fields::FieldStyleRef::get_SuppressNonDelimiters()
 ```
+
 
 ## Examples
 
 
-Shows how to use STYLEREF fields.
 
+Shows how to use STYLEREF fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,6 +85,7 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.STYLEREF.docx");
 ```
+
 ## See Also
 
 * Class [FieldStyleRef](../)

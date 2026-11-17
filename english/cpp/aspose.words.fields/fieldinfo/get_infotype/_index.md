@@ -16,11 +16,12 @@ Gets or sets the type of the document property to insert.
 System::String Aspose::Words::Fields::FieldInfo::get_InfoType()
 ```
 
+
 ## Examples
 
 
-Shows how to work with INFO fields.
 
+Shows how to work with INFO fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,8 +32,8 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldInfo>(builder->Ins
 field->set_InfoType(u"Comments");
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" INFO  Comments");
-ASSERT_EQ(field->get_Result(), u"My comment");
+ASSERT_EQ(u" INFO  Comments", field->GetFieldCode());
+ASSERT_EQ(u"My comment", field->get_Result());
 
 builder->Writeln();
 
@@ -43,12 +44,13 @@ field->set_InfoType(u"Comments");
 field->set_NewValue(u"New comment");
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" INFO  Comments \"New comment\"");
-ASSERT_EQ(field->get_Result(), u"New comment");
-ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Comments(), u"New comment");
+ASSERT_EQ(u" INFO  Comments \"New comment\"", field->GetFieldCode());
+ASSERT_EQ(u"New comment", field->get_Result());
+ASSERT_EQ(u"New comment", doc->get_BuiltInDocumentProperties()->get_Comments());
 
 doc->Save(get_ArtifactsDir() + u"Field.INFO.docx");
 ```
+
 ## See Also
 
 * Class [FieldInfo](../)

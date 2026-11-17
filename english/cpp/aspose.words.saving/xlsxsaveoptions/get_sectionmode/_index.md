@@ -16,11 +16,12 @@ Gets or sets the way how sections are handled when saving to the output XLSX doc
 Aspose::Words::Saving::XlsxSectionMode Aspose::Words::Saving::XlsxSaveOptions::get_SectionMode() const
 ```
 
+
 ## Examples
 
 
-Shows how to save document as a separate worksheets.
 
+Shows how to save document as a separate worksheets. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -31,8 +32,10 @@ xlsxSaveOptions->set_SectionMode(XlsxSectionMode::MultipleWorksheets);
 
 doc->Save(get_ArtifactsDir() + u"XlsxSaveOptions.SelectionMode.xlsx", xlsxSaveOptions);
 ```
+
 ## See Also
 
+* Enum [XlsxSectionMode](../../xlsxsectionmode/)
 * Class [XlsxSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

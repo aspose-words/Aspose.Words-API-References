@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_spacebeforeauto/
 True if the amount of spacing before the paragraph is set automatically.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_SpaceBeforeAuto()
+bool Aspose::Words::ParagraphFormat::get_SpaceBeforeAuto()
 ```
 
 ## Remarks
@@ -21,7 +21,8 @@ _Bool Aspose::Words::ParagraphFormat::get_SpaceBeforeAuto()
 
 When set to **true**, overrides the effect of [SpaceBefore](../get_spacebefore/).
 
-When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
+When you set paragraph Space Before and Space After to Auto, **Microsoft** Word adds 14 points spacing between paragraphs automatically according to the following rules:
+
 * Normally, spacing is added after all paragraphs.
 * In a bulleted or numbered list, spacing is added only after the last item in the list. Spacing is not added between the list items.
 * In a nested bulleted or numbered list spacing is not added.
@@ -29,11 +30,13 @@ When you set paragraph Space Before and Space After to Auto, Microsoft Word adds
 * Spacing is not added after a table if it is the last block in a table cell.
 * Spacing is not added after the last paragraph in a table cell.
 
+
+
 ## Examples
 
 
-Shows how to set automatic paragraph spacing.
 
+Shows how to set automatic paragraph spacing. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,6 +57,7 @@ builder->Writeln(u"Paragraph 2.");
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
+
 ## See Also
 
 * Class [ParagraphFormat](../)

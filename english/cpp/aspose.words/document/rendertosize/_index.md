@@ -10,17 +10,17 @@ url: /cpp/aspose.words/document/rendertosize/
 ## Document::RenderToSize method
 
 
-Renders a document page into a Graphics object to a specified size.
+Renders a document page into a **Graphics** object to a specified size.
 
 ```cpp
-float Aspose::Words::Document::RenderToSize(int32_t pageIndex, const System::SharedPtr<System::Drawing::Graphics> & graphics, float x, float y, float width, float height)
+float Aspose::Words::Document::RenderToSize(int32_t pageIndex, const System::SharedPtr<System::Drawing::Graphics> &graphics, float x, float y, float width, float height)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pageIndex | int32_t | The 0-based page index. |
-| graphics | const System::SharedPtr\<System::Drawing::Graphics\> \& | The object where to render to. |
+| graphics | const System::SharedPtr\<System::Drawing::Graphics\>\& | The object where to render to. |
 | x | float | The X coordinate (in world units) of the top left corner of the rendered page. |
 | y | float | The Y coordinate (in world units) of the top left corner of the rendered page. |
 | width | float | The maximum width (in world units) that can be occupied by the rendered page. |
@@ -29,6 +29,7 @@ float Aspose::Words::Document::RenderToSize(int32_t pageIndex, const System::Sha
 ### ReturnValue
 
 The scale that was automatically calculated for the rendered page to fit the specified size.
+
 ## See Also
 
 * Class [Document](../)

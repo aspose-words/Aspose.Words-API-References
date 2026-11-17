@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldFormat::set_NumericFormat method
 linktitle: set_NumericFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldFormat::set_NumericFormat method. Sets a formatting that is applied to a numeric field result. Corresponds to the \# switch in C++.'
+description: 'Aspose::Words::Fields::FieldFormat::set_NumericFormat method. Setter for Aspose::Words::Fields::FieldFormat::get_NumericFormat in C++.'
 type: docs
 weight: 8000
 url: /cpp/aspose.words.fields/fieldformat/set_numericformat/
@@ -10,77 +10,12 @@ url: /cpp/aspose.words.fields/fieldformat/set_numericformat/
 ## FieldFormat::set_NumericFormat method
 
 
-Sets a formatting that is applied to a numeric field result. Corresponds to the \# switch.
+Setter for [Aspose::Words::Fields::FieldFormat::get_NumericFormat](../get_numericformat/).
 
 ```cpp
-void Aspose::Words::Fields::FieldFormat::set_NumericFormat(const System::String & value)
+void Aspose::Words::Fields::FieldFormat::set_NumericFormat(const System::String &value)
 ```
 
-## Examples
-
-
-Shows how to format field results.
-
-```cpp
-auto doc = System::MakeObject<Aspose::Words::Document>();
-auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-
-// Use a document builder to insert a field that displays a result with no format applied.
-System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"= 2 + 3");
-
-ASSERT_EQ(field->GetFieldCode(), u"= 2 + 3");
-ASSERT_EQ(field->get_Result(), u"5");
-
-// We can apply a format to a field's result using the field's properties.
-// Below are three types of formats that we can apply to a field's result.
-// 1 -  Numeric format:
-System::SharedPtr<Aspose::Words::Fields::FieldFormat> format = field->get_Format();
-format->set_NumericFormat(u"$###.00");
-field->Update();
-
-ASSERT_EQ(field->GetFieldCode(), u"= 2 + 3 \\# $###.00");
-ASSERT_EQ(field->get_Result(), u"$  5.00");
-
-// 2 -  Date/time format:
-field = builder->InsertField(u"DATE");
-format = field->get_Format();
-format->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
-field->Update();
-
-ASSERT_EQ(field->GetFieldCode(), (u"DATE \\@ \"dddd, MMMM dd, yyyy\""));
-std::cout << System::String::Format(u"Today's date, in {0} format:\n\t{1}", format->get_DateTimeFormat(), field->get_Result()) << std::endl;
-
-// 3 -  General format:
-field = builder->InsertField(u"= 25 + 33");
-format = field->get_Format();
-format->get_GeneralFormats()->Add(GeneralFormat::LowercaseRoman);
-format->get_GeneralFormats()->Add(GeneralFormat::Upper);
-field->Update();
-
-int32_t index = 0;
-{
-    System::SharedPtr<System::Collections::Generic::IEnumerator<Aspose::Words::Fields::GeneralFormat>> generalFormatEnumerator = format->get_GeneralFormats()->GetEnumerator();
-    while (generalFormatEnumerator->MoveNext())
-    {
-        std::cout << System::String::Format(u"General format index {0}: {1}", index++, generalFormatEnumerator->get_Current()) << std::endl;
-    }
-}
-
-ASSERT_EQ(field->GetFieldCode(), u"= 25 + 33 \\* roman \\* Upper");
-ASSERT_EQ(field->get_Result(), u"LVIII");
-ASSERT_EQ(format->get_GeneralFormats()->get_Count(), 2);
-ASSERT_EQ(format->get_GeneralFormats()->idx_get(0), GeneralFormat::LowercaseRoman);
-
-// We can remove our formats to revert the field's result to its original form.
-format->get_GeneralFormats()->Remove(GeneralFormat::LowercaseRoman);
-format->get_GeneralFormats()->RemoveAt(0);
-ASSERT_EQ(format->get_GeneralFormats()->get_Count(), 0);
-field->Update();
-
-ASSERT_EQ(field->GetFieldCode(), u"= 25 + 33  ");
-ASSERT_EQ(field->get_Result(), u"58");
-ASSERT_EQ(format->get_GeneralFormats()->get_Count(), 0);
-```
 ## See Also
 
 * Class [FieldFormat](../)

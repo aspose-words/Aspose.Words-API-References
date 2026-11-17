@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/imagesaveoptions/get_graphicsqualityoptions/
 ## ImageSaveOptions::get_GraphicsQualityOptions method
 
 
-Allows to specify rendering mode and quality for the Graphics object.
+Allows to specify rendering mode and quality for the **Graphics** object.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Saving::GraphicsQualityOptions> Aspose::Words::Saving::ImageSaveOptions::get_GraphicsQualityOptions() const
@@ -21,9 +21,10 @@ System::SharedPtr<Aspose::Words::Saving::GraphicsQualityOptions> Aspose::Words::
 
 Use this property to override the Graphics settings provided by Aspose.Words engine by default.
 
-It will take effect only when a document is being saved to an image-like format.
+It will take effect only when a document is being saved to an image-like format. 
 ## See Also
 
+* Class [GraphicsQualityOptions](../../graphicsqualityoptions/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

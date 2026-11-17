@@ -16,14 +16,12 @@ Gets or sets the mode of behavior for computing page numbers when a continuous s
 Aspose::Words::Layout::ContinuousSectionRestart Aspose::Words::Layout::LayoutOptions::get_ContinuousSectionPageNumberingRestart() const
 ```
 
-## Remarks
 
- The default value is [Always](../../continuoussectionrestart/). It matches the behavior of MS Word 2019 which was the latest version at the moment the option was introduced. Older page numbering logic demonstrated by MS Word 2016 is available via this option. Please [ContinuousSectionRestart](../../continuoussectionrestart/) for the behavior description. 
 ## Examples
 
 
-Shows how to control page numbering in a continuous section.
 
+Shows how to control page numbering in a continuous section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Continuous section page numbering.docx"));
 
@@ -36,8 +34,10 @@ doc->UpdatePageLayout();
 
 doc->Save(get_ArtifactsDir() + u"Layout.RestartPageNumberingInContinuousSection.pdf");
 ```
+
 ## See Also
 
+* Enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

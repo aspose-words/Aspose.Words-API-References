@@ -4,7 +4,7 @@ linktitle: get_WPSpaceWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_WPSpaceWidth method. Specifies whether to set the width of a space as is done in WordPerfect 5.x in C++.'
 type: docs
-weight: 75974
+weight: 71000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_wpspacewidth/
 ---
 ## CompatibilityOptions::get_WPSpaceWidth method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_wpspacewidth/
 Specifies whether to set the width of a space as is done in WordPerfect 5.x.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_WPSpaceWidth()
+bool Aspose::Words::Settings::CompatibilityOptions::get_WPSpaceWidth()
 ```
 
 ## See Also

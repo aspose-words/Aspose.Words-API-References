@@ -4,7 +4,7 @@ linktitle: get_RightPadding
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_RightPadding method. Returns or sets the amount of space (in points) to add to the right of the contents of cell in C++.'
 type: docs
-weight: 40000
+weight: 10000
 url: /cpp/aspose.words.tables/cellformat/get_rightpadding/
 ---
 ## CellFormat::get_RightPadding method
@@ -16,11 +16,12 @@ Returns or sets the amount of space (in points) to add to the right of the conte
 double Aspose::Words::Tables::CellFormat::get_RightPadding()
 ```
 
+
 ## Examples
 
 
-Shows how to format cells with a document builder.
 
+Shows how to format cells with a document builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,21 +46,22 @@ builder->EndRow();
 builder->EndTable();
 
 // The first cell was unaffected by the padding reconfiguration, and still holds the default values.
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_Width(), 0.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_LeftPadding(), 5.4);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_RightPadding(), 5.4);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_TopPadding(), 0.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_BottomPadding(), 0.0);
+ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_Width());
+ASPOSE_ASSERT_EQ(5.4, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_LeftPadding());
+ASPOSE_ASSERT_EQ(5.4, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_RightPadding());
+ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_TopPadding());
+ASPOSE_ASSERT_EQ(0.0, table->get_FirstRow()->get_Cells()->idx_get(0)->get_CellFormat()->get_BottomPadding());
 
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_Width(), 250.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_LeftPadding(), 30.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_RightPadding(), 30.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_TopPadding(), 30.0);
-ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_BottomPadding(), 30.0);
+ASPOSE_ASSERT_EQ(250.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_Width());
+ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_LeftPadding());
+ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_RightPadding());
+ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_TopPadding());
+ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_BottomPadding());
 
 // The first cell will still grow in the output document to match the size of its neighboring cell.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetCellFormatting.docx");
 ```
+
 ## See Also
 
 * Class [CellFormat](../)

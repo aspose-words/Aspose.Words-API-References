@@ -4,7 +4,7 @@ linktitle: get_IsRestartAtEachSection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Lists::List::get_IsRestartAtEachSection method. Specifies whether list should be restarted at each section. Default value is false in C++.'
 type: docs
-weight: 15112
+weight: 8000
 url: /cpp/aspose.words.lists/list/get_isrestartateachsection/
 ---
 ## List::get_IsRestartAtEachSection method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/list/get_isrestartateachsection/
 Specifies whether list should be restarted at each section. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Lists::List::get_IsRestartAtEachSection()
+bool Aspose::Words::Lists::List::get_IsRestartAtEachSection()
 ```
 
 ## Remarks
@@ -22,11 +22,12 @@ _Bool Aspose::Words::Lists::List::get_IsRestartAtEachSection()
 This option is supported only in RTF, DOC and DOCX document formats.
 
 This option will be written to DOCX only if [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/) is higher then [Ecma376_2006](../../../aspose.words.saving/ooxmlcompliance/).
+
 ## Examples
 
 
-Shows how to configure a list to restart numbering at each section.
 
+Shows how to configure a list to restart numbering at each section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,8 +54,9 @@ doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx", 
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx"));
 
-ASPOSE_ASSERT_EQ(doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection(), restartListAtEachSection);
+ASPOSE_ASSERT_EQ(restartListAtEachSection, doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection());
 ```
+
 ## See Also
 
 * Class [List](../)

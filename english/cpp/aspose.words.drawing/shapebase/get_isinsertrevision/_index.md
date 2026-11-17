@@ -4,7 +4,7 @@ linktitle: get_IsInsertRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsInsertRevision method. Returns true if this object was inserted in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 61490
+weight: 31000
 url: /cpp/aspose.words.drawing/shapebase/get_isinsertrevision/
 ---
 ## ShapeBase::get_IsInsertRevision method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.drawing/shapebase/get_isinsertrevision/
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsInsertRevision()
+bool Aspose::Words::Drawing::ShapeBase::get_IsInsertRevision()
 ```
+
 
 ## Examples
 
 
-Shows how to work with revision shapes.
 
+Shows how to work with revision shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -44,22 +45,23 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
-ASSERT_EQ(shapes->get_Length(), 2);
+ASSERT_EQ(2, shapes->get_Length());
 
 shapes[0]->Remove();
 
 // Since we removed that shape while we were tracking changes,
 // the shape persists in the document and counts as a delete revision.
 // Accepting this revision will remove the shape permanently, and rejecting it will keep it in the document.
-ASSERT_EQ(shapes[0]->get_ShapeType(), ShapeType::Cube);
+ASSERT_EQ(ShapeType::Cube, shapes[0]->get_ShapeType());
 ASSERT_TRUE(shapes[0]->get_IsDeleteRevision());
 
 // And we inserted another shape while tracking changes, so that shape will count as an insert revision.
 // Accepting this revision will assimilate this shape into the document as a non-revision,
 // and rejecting the revision will remove this shape permanently.
-ASSERT_EQ(shapes[1]->get_ShapeType(), ShapeType::Sun);
+ASSERT_EQ(ShapeType::Sun, shapes[1]->get_ShapeType());
 ASSERT_TRUE(shapes[1]->get_IsInsertRevision());
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

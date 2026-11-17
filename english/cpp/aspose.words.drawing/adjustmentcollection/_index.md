@@ -21,27 +21,32 @@ class AdjustmentCollection : public System::Object
 | Method | Description |
 | --- | --- |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Returns an adjustment at the specified index. |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
+
 ## Examples
 
 
-Shows how to work with adjustment raw values.
 
+Shows how to work with adjustment raw values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rounded rectangle shape.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 System::SharedPtr<Aspose::Words::Drawing::AdjustmentCollection> adjustments = shape->get_Adjustments();
-ASSERT_EQ(adjustments->get_Count(), 1);
+ASSERT_EQ(1, adjustments->get_Count());
 
 System::SharedPtr<Aspose::Words::Drawing::Adjustment> adjustment = adjustments->idx_get(0);
-ASSERT_EQ(adjustment->get_Name(), u"adj");
-ASSERT_EQ(adjustment->get_Value(), 16667);
+ASSERT_EQ(u"adj", adjustment->get_Name());
+ASSERT_EQ(16667, adjustment->get_Value());
 
 adjustment->set_Value(30000);
 
 doc->Save(get_ArtifactsDir() + u"Shape.Adjustments.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

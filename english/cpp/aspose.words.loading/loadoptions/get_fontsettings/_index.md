@@ -19,16 +19,17 @@ System::SharedPtr<Aspose::Words::Fonts::FontSettings> Aspose::Words::Loading::Lo
 ## Remarks
 
 
-When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
+When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents [Aspose.Words](../../../aspose.words/) may resolve the fonts to perform font fallback.
 
 If set to **null**, default static font settings [DefaultInstance](../../../aspose.words.fonts/fontsettings/get_defaultinstance/) will be used.
 
 The default value is **null**.
+
 ## Examples
 
 
-Shows how to designate font substitutes during loading.
 
+Shows how to designate font substitutes during loading. 
 ```cpp
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 loadOptions->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
@@ -44,13 +45,13 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Missing f
 
 // At this point such text will still be in "MissingFont".
 // Font substitution will take place when we render the document.
-ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name(), u"MissingFont");
+ASSERT_EQ(u"MissingFont", doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name());
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 ```
 
-Shows how to apply font substitution settings while loading a document.
 
+Shows how to apply font substitution settings while loading a document. 
 ```cpp
 // Create a FontSettings object that will substitute the "Times New Roman" font
 // with the font "Arvo" from our "MyFonts" folder.
@@ -67,8 +68,10 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.
 
 doc->Save(get_ArtifactsDir() + u"LoadOptions.FontSettings.pdf");
 ```
+
 ## See Also
 
+* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

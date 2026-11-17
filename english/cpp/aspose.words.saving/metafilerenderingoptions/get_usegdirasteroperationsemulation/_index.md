@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/metafilerenderingoptions/get_usegdirasteroperation
 Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation.
 
 ```cpp
-_Bool Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation() const
+bool Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation() const
 ```
 
 ## Remarks
@@ -28,11 +28,12 @@ When this value is set to **false**, Aspose.Words uses its own implementation of
 This option is used only when metafile is rendered as vector graphics.
 
 The default value is **false**.
+
 ## Examples
 
 
-Shows how to set the rendering mode when saving documents with Windows Metafile images to other image formats.
 
+Shows how to set the rendering mode when saving documents with Windows Metafile images to other image formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,6 +52,7 @@ options->get_MetafileRenderingOptions()->set_UseGdiRasterOperationsEmulation(tru
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.WindowsMetaFile.png", options);
 ```
+
 ## See Also
 
 * Class [MetafileRenderingOptions](../)

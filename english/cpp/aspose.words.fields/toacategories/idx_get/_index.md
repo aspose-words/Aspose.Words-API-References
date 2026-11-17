@@ -16,11 +16,12 @@ Gets or sets the category heading by category number.
 System::String Aspose::Words::Fields::ToaCategories::idx_get(int32_t number)
 ```
 
+
 ## Examples
 
 
-Shows how to specify a set of categories for TOA fields.
 
+Shows how to specify a set of categories for TOA fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -30,15 +31,15 @@ auto toaCategories = System::MakeObject<Aspose::Words::Fields::ToaCategories>();
 doc->get_FieldOptions()->set_ToaCategories(toaCategories);
 
 // This collection of categories comes with default values, which we can overwrite with custom values.
-ASSERT_EQ(toaCategories->idx_get(1), u"Cases");
-ASSERT_EQ(toaCategories->idx_get(2), u"Statutes");
+ASSERT_EQ(u"Cases", toaCategories->idx_get(1));
+ASSERT_EQ(u"Statutes", toaCategories->idx_get(2));
 
 toaCategories->idx_set(1, u"My Category 1");
 toaCategories->idx_set(2, u"My Category 2");
 
 // We can always access the default values via this collection.
-ASSERT_EQ(ToaCategories::get_DefaultCategories()->idx_get(1), u"Cases");
-ASSERT_EQ(ToaCategories::get_DefaultCategories()->idx_get(2), u"Statutes");
+ASSERT_EQ(u"Cases", ToaCategories::get_DefaultCategories()->idx_get(1));
+ASSERT_EQ(u"Statutes", ToaCategories::get_DefaultCategories()->idx_get(2));
 
 // Insert 2 TOA fields. TOA fields create an entry for each TA field in the document.
 // Use the "\c" switch to select the index of a category from our collection.
@@ -61,6 +62,7 @@ builder->InsertField(u"TA \\c 2 \\l \"entry 3\"");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.TOA.Categories.docx");
 ```
+
 ## See Also
 
 * Class [ToaCategories](../)

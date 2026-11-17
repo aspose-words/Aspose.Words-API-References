@@ -16,11 +16,12 @@ Provides support for the for each style iteration over the child nodes of this n
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Node>>> Aspose::Words::CompositeNode::GetEnumerator() override
 ```
 
+
 ## Examples
 
 
-Shows how to print all of a document's comments and their replies.
 
+Shows how to print all of a document's comments and their replies. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Comments.docx"));
 
@@ -43,8 +44,10 @@ for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Com
     std::cout << std::endl;
 }
 ```
+
 ## See Also
 
+* Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

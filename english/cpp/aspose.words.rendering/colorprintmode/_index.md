@@ -13,15 +13,15 @@ url: /cpp/aspose.words.rendering/colorprintmode/
 Specifies how non-colored pages are printed if the device supports color printing.
 
 ```cpp
-enum class ColorPrintMode : int
+enum class ColorPrintMode
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| GrayscaleAuto | 1 | Non-colored pages if detected are printed in grayscale. |
 | Normal | 0 | All pages are printed according to the printer's capabilities and settings. |
+| GrayscaleAuto | 1 | Non-colored pages if detected are printed in grayscale. |
 
 ## See Also
 

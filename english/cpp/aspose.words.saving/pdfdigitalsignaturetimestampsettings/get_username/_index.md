@@ -16,9 +16,6 @@ Timestamp server user name.
 System::String Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_UserName() const
 ```
 
-## Remarks
-
- The default value is **null**. 
 ## See Also
 
 * Class [PdfDigitalSignatureTimestampSettings](../)

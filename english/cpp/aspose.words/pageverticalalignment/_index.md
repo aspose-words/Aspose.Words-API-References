@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pageverticalalignment/
 Specifies vertical justification of text on each page.
 
 ```cpp
-enum class PageVerticalAlignment : int
+enum class PageVerticalAlignment
 ```
 
 ### Values
@@ -25,11 +25,12 @@ enum class PageVerticalAlignment : int
 | Justify | 2 | Text is spread to fill the page. |
 | Top | 0 | Text is aligned at the top of the page. |
 
+
 ## Examples
 
 
-Shows how to apply and revert page setup settings to sections in a document.
 
+Shows how to apply and revert page setup settings to sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,23 +44,21 @@ builder->Writeln(u"This is the first section, which landscape oriented with vert
 // it will inherit the builder's current page setup properties.
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation(), Orientation::Landscape);
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment(), PageVerticalAlignment::Center);
+ASSERT_EQ(Orientation::Landscape, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
+ASSERT_EQ(PageVerticalAlignment::Center, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
 
 // We can revert its page setup properties to their default values using the "ClearFormatting" method.
 builder->get_PageSetup()->ClearFormatting();
 
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation(), Orientation::Portrait);
-ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment(), PageVerticalAlignment::Top);
+ASSERT_EQ(Orientation::Portrait, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_Orientation());
+ASSERT_EQ(PageVerticalAlignment::Top, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_VerticalAlignment());
 
 builder->Writeln(u"This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
-## See Also
 
-* [PageSetup](../pagesetup/)
-* [VerticalAlignment](../pagesetup/get_verticalalignment/)
+## See Also
 
 * Namespace [Aspose::Words](../)
 * Library [Aspose.Words for C++](../../)

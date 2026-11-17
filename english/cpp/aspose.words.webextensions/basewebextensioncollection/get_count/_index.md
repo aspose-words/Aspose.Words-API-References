@@ -1,10 +1,10 @@
 ---
-title: Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::get_Count method
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::get_Count method
 linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::get_Count method. Gets the number of elements contained in the collection in C++.'
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 13500
+weight: 8000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/get_count/
 ---
 ## BaseWebExtensionCollection::get_Count method
@@ -16,15 +16,16 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::get_Count()
 ```
 
+
 ## Examples
 
 
-Shows how to work with a document's collection of web extensions.
 
+Shows how to work with a document's collection of web extensions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Web extension.docx"));
 
-ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 1);
+ASSERT_EQ(1, doc->get_WebExtensionTaskPanes()->get_Count());
 
 // Print all properties of the document's web extension.
 System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> webExtensionPropertyCollection = doc->get_WebExtensionTaskPanes()->idx_get(0)->get_WebExtension()->get_Properties();
@@ -40,8 +41,9 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> 
 // Remove the web extension.
 doc->get_WebExtensionTaskPanes()->Remove(0);
 
-ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 0);
+ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ```
+
 ## See Also
 
 * Class [BaseWebExtensionCollection](../)

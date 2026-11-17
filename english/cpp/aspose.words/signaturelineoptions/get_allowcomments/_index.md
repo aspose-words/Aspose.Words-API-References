@@ -13,14 +13,15 @@ url: /cpp/aspose.words/signaturelineoptions/get_allowcomments/
 Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**.
 
 ```cpp
-_Bool Aspose::Words::SignatureLineOptions::get_AllowComments() const
+bool Aspose::Words::SignatureLineOptions::get_AllowComments() const
 ```
+
 
 ## Examples
 
 
-Shows how to sign a document with a personal certificate and a signature line.
 
+Shows how to sign a document with a personal certificate and a signature line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,6 +62,7 @@ signatureLine = shape->get_SignatureLine();
 ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
+
 ## See Also
 
 * Class [SignatureLineOptions](../)

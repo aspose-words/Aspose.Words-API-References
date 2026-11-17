@@ -16,11 +16,9 @@ Gets the last section in the building block.
 System::SharedPtr<Aspose::Words::Section> Aspose::Words::BuildingBlocks::BuildingBlock::get_LastSection()
 ```
 
-## Remarks
-
- Returns **null** if there are no sections. 
 ## See Also
 
+* Class [Section](../../../aspose.words/section/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

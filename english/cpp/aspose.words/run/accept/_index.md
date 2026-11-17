@@ -13,7 +13,7 @@ url: /cpp/aspose.words/run/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::Run::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::Run::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,8 +30,10 @@ _Bool Aspose::Words::Run::Accept(System::SharedPtr<Aspose::Words::DocumentVisito
 Calls [VisitRun()](../../documentvisitor/visitrun/).
 
 For more info see the Visitor design pattern.
+
 ## See Also
 
+* Class [DocumentVisitor](../../documentvisitor/)
 * Class [Run](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

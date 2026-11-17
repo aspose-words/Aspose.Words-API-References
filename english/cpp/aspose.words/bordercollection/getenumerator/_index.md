@@ -16,11 +16,12 @@ Returns an enumerator object that can be used to iterate over all borders in the
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Border>>> Aspose::Words::BorderCollection::GetEnumerator() override
 ```
 
+
 ## Examples
 
 
-Shows how to iterate over and edit all of the borders in a paragraph format object.
 
+Shows how to iterate over and edit all of the borders in a paragraph format object. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,8 +45,10 @@ builder->Writeln(u"Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"BorderCollection.GetBordersEnumerator.docx");
 ```
+
 ## See Also
 
+* Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

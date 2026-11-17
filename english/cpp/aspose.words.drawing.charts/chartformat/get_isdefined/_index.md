@@ -4,7 +4,7 @@ linktitle: get_IsDefined
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartFormat::get_IsDefined method. Gets a flag indicating whether any format is defined in C++.'
 type: docs
-weight: 9000
+weight: 2250
 url: /cpp/aspose.words.drawing.charts/chartformat/get_isdefined/
 ---
 ## ChartFormat::get_IsDefined method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.drawing.charts/chartformat/get_isdefined/
 Gets a flag indicating whether any format is defined.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartFormat::get_IsDefined()
+bool Aspose::Words::Drawing::Charts::ChartFormat::get_IsDefined()
 ```
+
 
 ## Examples
 
 
-Shows how to reset the fill to the default value defined in the series.
 
+Shows how to reset the fill to the default value defined in the series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DataPoint format.docx"));
 
@@ -34,6 +35,7 @@ dataPoint->get_Format()->SetDefaultFill();
 
 doc->Save(get_ArtifactsDir() + u"Charts.ResetDataPointFill.docx");
 ```
+
 ## See Also
 
 * Class [ChartFormat](../)

@@ -13,21 +13,22 @@ url: /cpp/aspose.words/watermarklayout/
 Defines layout of the watermark relative to the watermark center.
 
 ```cpp
-enum class WatermarkLayout : int
+enum class WatermarkLayout
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Diagonal | 315 | Diagonal watermark layout. Corresponds to 315 degrees of rotation. |
 | Horizontal | 0 | Horizontal watermark layout. Corresponds to 0 degrees of rotation. |
+| Diagonal | 315 | Diagonal watermark layout. Corresponds to 315 degrees of rotation. |
+
 
 ## Examples
 
 
-Shows how to create a text watermark.
 
+Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -53,6 +54,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

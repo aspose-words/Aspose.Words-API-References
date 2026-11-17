@@ -16,9 +16,6 @@ Sets a value indicating whether fields in whole document are updated while execu
 void Aspose::Words::LowCode::MailMergeOptions::set_MergeWholeDocument(bool value)
 ```
 
-## Remarks
-
- The default value is **false**. 
 ## See Also
 
 * Class [MailMergeOptions](../)

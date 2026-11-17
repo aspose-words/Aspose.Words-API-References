@@ -16,11 +16,12 @@ Gets or sets the name of the bookmark that marks a range of pages that is insert
 System::String Aspose::Words::Fields::FieldXE::get_PageRangeBookmarkName()
 ```
 
+
 ## Examples
 
 
-Shows how to specify a bookmark's spanned pages as a page range for an INDEX field entry.
 
+Shows how to specify a bookmark's spanned pages as a page range for an INDEX field entry. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,7 +38,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 index->set_PageNumberSeparator(u", on page(s) ");
 index->set_PageRangeSeparator(u" to ");
 
-ASSERT_EQ(index->GetFieldCode(), (u" INDEX  \\e \", on page(s) \" \\g \" to \""));
+ASSERT_EQ((u" INDEX  \\e \", on page(s) \" \\g \" to \""), index->GetFieldCode());
 
 builder->InsertBreak(BreakType::PageBreak);
 auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
@@ -48,8 +49,8 @@ indexEntry->set_Text(u"My entry");
 // instead of the number of the page that contains the XE field.
 indexEntry->set_PageRangeBookmarkName(u"MyBookmark");
 
-ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  \"My entry\" \\r MyBookmark");
-ASSERT_EQ(indexEntry->get_PageRangeBookmarkName(), u"MyBookmark");
+ASSERT_EQ(u" XE  \"My entry\" \\r MyBookmark", indexEntry->GetFieldCode());
+ASSERT_EQ(u"MyBookmark", indexEntry->get_PageRangeBookmarkName());
 
 // Insert a bookmark that starts on page 3 and ends on page 5.
 // The INDEX entry for the XE field that references this bookmark will display this page range.
@@ -66,6 +67,7 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.PageRangeBookmark.docx");
 ```
+
 ## See Also
 
 * Class [FieldXE](../)

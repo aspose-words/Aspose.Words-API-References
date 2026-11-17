@@ -13,14 +13,15 @@ url: /cpp/aspose.words.layout/layoutoptions/get_keeporiginalfontmetrics/
 Gets or sets an indication of whether the original font metrics should be used after font substitution. Default is **true**.
 
 ```cpp
-_Bool Aspose::Words::Layout::LayoutOptions::get_KeepOriginalFontMetrics() const
+bool Aspose::Words::Layout::LayoutOptions::get_KeepOriginalFontMetrics() const
 ```
+
 
 ## Examples
 
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -49,6 +50,7 @@ for (auto&& info : warningCollector)
     }
 }
 ```
+
 ## See Also
 
 * Class [LayoutOptions](../)

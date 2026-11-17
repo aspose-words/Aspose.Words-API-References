@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldindex/get_haspagenumberseparator/
 Gets a value indicating whether a page number separator is overridden through the field's code.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldIndex::get_HasPageNumberSeparator()
+bool Aspose::Words::Fields::FieldIndex::get_HasPageNumberSeparator()
 ```
+
 
 ## Examples
 
 
-Shows how to edit the page number separator in an INDEX field.
 
+Shows how to edit the page number separator in an INDEX field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,7 +39,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 index->set_PageNumberSeparator(u", on page(s) ");
 index->set_PageNumberListSeparator(u" & ");
 
-ASSERT_EQ(index->GetFieldCode(), (u" INDEX  \\e \", on page(s) \" \\l \" & \""));
+ASSERT_EQ((u" INDEX  \\e \", on page(s) \" \\l \" & \""), index->GetFieldCode());
 ASSERT_TRUE(index->get_HasPageNumberSeparator());
 
 // After we insert these XE fields, the INDEX field will display "First entry, on page(s) 2 & 3 & 4".
@@ -46,7 +47,7 @@ builder->InsertBreak(BreakType::PageBreak);
 auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"First entry");
 
-ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  \"First entry\"");
+ASSERT_EQ(u" XE  \"First entry\"", indexEntry->GetFieldCode());
 
 builder->InsertBreak(BreakType::PageBreak);
 indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
@@ -60,6 +61,7 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.PageNumberList.docx");
 ```
+
 ## See Also
 
 * Class [FieldIndex](../)

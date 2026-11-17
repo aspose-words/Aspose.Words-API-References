@@ -22,11 +22,12 @@ System::String Aspose::Words::Loading::LoadOptions::get_TempFolder() const
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when reading is complete.
+
 ## Examples
 
 
-Shows how to load a document using temporary files.
 
+Shows how to load a document using temporary files. 
 ```cpp
 // Note that such an approach can reduce memory usage but degrades speed
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
@@ -38,8 +39,8 @@ System::IO::Directory::CreateDirectory_(loadOptions->get_TempFolder());
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx", loadOptions);
 ```
 
-Shows how to use the hard drive instead of memory when loading a document.
 
+Shows how to use the hard drive instead of memory when loading a document. 
 ```cpp
 // When we load a document, various elements are temporarily stored in memory as the save operation occurs.
 // We can use this option to use a temporary folder in the local file system instead,
@@ -53,8 +54,9 @@ System::IO::Directory::CreateDirectory_(options->get_TempFolder());
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx", options);
 
 // The folder will persist with no residual contents from the load operation.
-ASSERT_EQ(System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length(), 0);
+ASSERT_EQ(0, System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length());
 ```
+
 ## See Also
 
 * Class [LoadOptions](../)

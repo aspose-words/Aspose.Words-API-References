@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator typedef
 linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator typedef. Iterator type in C++.'
+description: 'How to use Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator typedef of Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection class in C++.'
 type: docs
 weight: 18000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/iterator/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/iterator/
 ## iterator typedef
 
 
-Iterator type.
+
 
 ```cpp
-using Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator = typename iterator_holder_type::iterator
+using Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator =  typename iterator_holder_type::iterator
 ```
 
 ## See Also

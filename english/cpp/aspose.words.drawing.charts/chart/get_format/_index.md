@@ -16,11 +16,12 @@ Provides access to fill and line formatting of the chart.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> Aspose::Words::Drawing::Charts::Chart::get_Format()
 ```
 
+
 ## Examples
 
 
-Shows how to use chart formating.
 
+Shows how to use chart formating. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -55,8 +56,10 @@ chart->get_Legend()->get_Format()->get_Fill()->Solid(System::Drawing::Color::get
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartFormat.docx");
 ```
+
 ## See Also
 
+* Class [ChartFormat](../../chartformat/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

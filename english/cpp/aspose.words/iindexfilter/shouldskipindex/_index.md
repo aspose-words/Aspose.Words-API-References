@@ -13,7 +13,7 @@ url: /cpp/aspose.words/iindexfilter/shouldskipindex/
 Determines whether the item with the specified index should be skipped.
 
 ```cpp
-virtual _Bool Aspose::Words::IIndexFilter::ShouldSkipIndex(int32_t index)
+virtual bool Aspose::Words::IIndexFilter::ShouldSkipIndex(int32_t index)=0
 ```
 
 
@@ -24,6 +24,7 @@ virtual _Bool Aspose::Words::IIndexFilter::ShouldSkipIndex(int32_t index)
 ### ReturnValue
 
 **true** if the item should be skipped; otherwise, **false**.
+
 ## See Also
 
 * Interface [IIndexFilter](../)

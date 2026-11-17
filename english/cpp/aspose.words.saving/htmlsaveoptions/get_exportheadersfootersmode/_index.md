@@ -26,16 +26,17 @@ When this property is [PerSection](../../exportheadersfootersmode/), Aspose.Word
 When it is [FirstSectionHeaderLastSectionFooter](../../exportheadersfootersmode/) only first primary header and the last primary footer (including linked to previous) are exported.
 
 You can disable export of headers and footers altogether by setting this property to [None](../../exportheadersfootersmode/).
+
 ## Examples
 
 
-Shows how to omit headers/footers when saving a document to HTML.
 
+Shows how to omit headers/footers when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Header and footer types.docx"));
 
 // This document contains headers and footers. We can access them via the "HeadersFooters" collection.
-ASSERT_EQ(doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderFirst)->GetText().Trim(), u"First header");
+ASSERT_EQ(u"First header", doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderFirst)->GetText().Trim());
 
 // Formats such as .html do not split the document into pages, so headers/footers will not function the same way
 // they would when we open the document as a .docx using Microsoft Word.
@@ -51,8 +52,10 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ```
+
 ## See Also
 
+* Enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

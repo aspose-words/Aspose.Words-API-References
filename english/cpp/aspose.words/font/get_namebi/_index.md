@@ -4,7 +4,7 @@ linktitle: get_NameBi
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_NameBi method. Returns or sets the name of the font in a right-to-left language document in C++.'
 type: docs
-weight: 58900
+weight: 27000
 url: /cpp/aspose.words/font/get_namebi/
 ---
 ## Font::get_NameBi method
@@ -16,11 +16,12 @@ Returns or sets the name of the font in a right-to-left language document.
 System::String Aspose::Words::Font::get_NameBi()
 ```
 
+
 ## Examples
 
 
-Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
 
+Shows how to define separate sets of font settings for right-to-left, and right-to-left text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,9 +53,8 @@ builder->Write(u" Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"Font.Bidi.docx");
 ```
-## See Also
 
-* [Name](../get_name/)
+## See Also
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

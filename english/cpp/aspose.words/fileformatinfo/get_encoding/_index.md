@@ -16,21 +16,22 @@ Gets the detected encoding if applicable to the current document format. At the 
 System::SharedPtr<System::Text::Encoding> Aspose::Words::FileFormatInfo::get_Encoding() const
 ```
 
+
 ## Examples
 
 
-Shows how to detect encoding in an html file.
 
+Shows how to detect encoding in an html file. 
 ```cpp
 System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.html");
 
-ASSERT_EQ(info->get_LoadFormat(), LoadFormat::Html);
+ASSERT_EQ(LoadFormat::Html, info->get_LoadFormat());
 
 // The Encoding property is used only when we create a FileFormatInfo object for an html document.
-// On Windows, the detected ISO-8859-1 encoding is reported as its Windows-1252 superset.
-ASSERT_EQ(info->get_Encoding()->get_EncodingName(), isLinux ? System::String(u"Western European (ISO)") : System::String(u"Western European (Windows)"));
-ASSERT_EQ(info->get_Encoding()->get_CodePage(), isLinux ? 28591 : 1252);
+ASSERT_EQ(u"Western European (Windows)", info->get_Encoding()->get_EncodingName());
+ASSERT_EQ(1252, info->get_Encoding()->get_CodePage());
 ```
+
 ## See Also
 
 * Class [FileFormatInfo](../)

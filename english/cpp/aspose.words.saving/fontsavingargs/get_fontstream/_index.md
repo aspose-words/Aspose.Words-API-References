@@ -22,6 +22,7 @@ System::SharedPtr<System::IO::Stream> Aspose::Words::Saving::FontSavingArgs::get
 This property allows you to save fonts to streams instead of files during HTML export.
 
 The default value is **null**. When this property is **null**, the font will be saved to a file specified in the [FontFileName](../get_fontfilename/) property.
+
 ## See Also
 
 * Class [FontSavingArgs](../)

@@ -16,11 +16,12 @@ Specifies the horizontal alignment of pages in an HTML document. Default value i
 Aspose::Words::Saving::HtmlFixedPageHorizontalAlignment Aspose::Words::Saving::HtmlFixedSaveOptions::get_PageHorizontalAlignment() const
 ```
 
+
 ## Examples
 
 
-Shows how to set the horizontal alignment of pages when saving a document to HTML.
 
+Shows how to set the horizontal alignment of pages when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -44,8 +45,10 @@ switch (pageHorizontalAlignment)
         break;
 }
 ```
+
 ## See Also
 
+* Enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment/)
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Top
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_Top method. Gets or sets the position of the top edge of the containing block of the shape in C++.'
 type: docs
-weight: 61880
+weight: 52000
 url: /cpp/aspose.words.drawing/shapebase/get_top/
 ---
 ## ShapeBase::get_Top method
@@ -26,11 +26,12 @@ For shapes in a group, the value is in the coordinate space and units of the par
 The default value is 0.
 
 Has effect only for floating shapes.
+
 ## Examples
 
 
-Shows how to insert a floating image, and specify its position and size.
 
+Shows how to insert a floating image, and specify its position and size. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,14 +53,15 @@ shape->set_Top(80);
 // Set the shape's height, which will automatically scale the width to preserve dimensions.
 shape->set_Height(125);
 
-ASPOSE_ASSERT_EQ(shape->get_Width(), 125.0);
+ASPOSE_ASSERT_EQ(125.0, shape->get_Width());
 
 // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
-ASPOSE_ASSERT_EQ(shape->get_Bottom(), shape->get_Top() + shape->get_Height());
-ASPOSE_ASSERT_EQ(shape->get_Right(), shape->get_Left() + shape->get_Width());
+ASPOSE_ASSERT_EQ(shape->get_Top() + shape->get_Height(), shape->get_Bottom());
+ASPOSE_ASSERT_EQ(shape->get_Left() + shape->get_Width(), shape->get_Right());
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPositionSize.docx");
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

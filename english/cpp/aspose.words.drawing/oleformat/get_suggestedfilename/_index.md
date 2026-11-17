@@ -4,7 +4,7 @@ linktitle: get_SuggestedFileName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_SuggestedFileName method. Gets the file name suggested for the current embedded object if you want to save it into a file in C++.'
 type: docs
-weight: 19929
+weight: 14000
 url: /cpp/aspose.words.drawing/oleformat/get_suggestedfilename/
 ---
 ## OleFormat::get_SuggestedFileName method
@@ -16,11 +16,12 @@ Gets the file name suggested for the current embedded object if you want to save
 System::String Aspose::Words::Drawing::OleFormat::get_SuggestedFileName()
 ```
 
+
 ## Examples
 
 
-Shows how to get an OLE object's suggested file name.
 
+Shows how to get an OLE object's suggested file name. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE shape.rtf"));
 
@@ -30,13 +31,14 @@ auto oleShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->get_Fir
 // which we can use when saving the object's contents into a file in the local file system.
 System::String suggestedFileName = oleShape->get_OleFormat()->get_SuggestedFileName();
 
-ASSERT_EQ(suggestedFileName, u"CSV.csv");
+ASSERT_EQ(u"CSV.csv", suggestedFileName);
 
 {
     auto fileStream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + suggestedFileName, System::IO::FileMode::Create);
     oleShape->get_OleFormat()->Save(fileStream);
 }
 ```
+
 ## See Also
 
 * Class [OleFormat](../)

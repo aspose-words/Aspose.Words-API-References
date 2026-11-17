@@ -2,7 +2,7 @@
 title: Aspose::Words::Lists::ListLabel class
 linktitle: ListLabel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Lists::ListLabel class. Defines properties specific to a list label. To learn more, visit the Working with Lists documentation article in C++.'
+description: 'Aspose::Words::Lists::ListLabel class. Defines properties specific to a list label. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 4000
 url: /cpp/aspose.words.lists/listlabel/
@@ -10,8 +10,7 @@ url: /cpp/aspose.words.lists/listlabel/
 ## ListLabel class
 
 
-Defines properties specific to a list label. 
-To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
+Defines properties specific to a list label. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/cpp/working-with-lists/) documentation article.
 
 ```cpp
 class ListLabel : public IRunAttrSource
@@ -24,11 +23,15 @@ class ListLabel : public IRunAttrSource
 | [get_Font](./get_font/)() | Gets the list label font. |
 | [get_LabelString](./get_labelstring/)() | Gets a string representation of list label. |
 | [get_LabelValue](./get_labelvalue/)() | Gets a numeric value for this label. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
+
 ## Examples
 
 
-Shows how to extract the list labels of all paragraphs that are list items.
 
+Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
@@ -59,6 +62,7 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
     std::cout << System::String::Format(u"\tList label combined with text: {0} {1}", label->get_LabelString(), paragraphText) << std::endl;
 }
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)

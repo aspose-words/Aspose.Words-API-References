@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifielddatabaseprovider/
 Implement this interface to provide data for the [FieldDatabase](../fielddatabase/) field when it's updated.
 
 ```cpp
-class IFieldDatabaseProvider : public System::Object
+class IFieldDatabaseProvider : public virtual System::Object
 ```
 
 ## Methods
@@ -21,6 +21,9 @@ class IFieldDatabaseProvider : public System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetQueryResult](./getqueryresult/)(System::String, System::String, System::String, System::SharedPtr\<Aspose::Words::Fields::FieldDatabase\>) | Returns query result. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

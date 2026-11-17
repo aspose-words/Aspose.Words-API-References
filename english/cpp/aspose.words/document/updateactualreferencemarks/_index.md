@@ -16,14 +16,12 @@ Updates the [ActualReferenceMark](../../../aspose.words.notes/footnote/get_actua
 void Aspose::Words::Document::UpdateActualReferenceMarks()
 ```
 
-## Remarks
 
- Updating fields ([UpdateFields](../updatefields/)) may be necessary to get the correct result. 
 ## Examples
 
 
-Shows how to get actual footnote reference mark.
 
+Shows how to get actual footnote reference mark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footnotes and endnotes.docx"));
 
@@ -31,8 +29,9 @@ auto footnote = System::ExplicitCast<Aspose::Words::Notes::Footnote>(doc->GetChi
 doc->UpdateFields();
 doc->UpdateActualReferenceMarks();
 
-ASSERT_EQ(footnote->get_ActualReferenceMark(), u"1");
+ASSERT_EQ(u"1", footnote->get_ActualReferenceMark());
 ```
+
 ## See Also
 
 * Class [Document](../)

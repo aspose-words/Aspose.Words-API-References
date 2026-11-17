@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldSectionPages class
 linktitle: FieldSectionPages
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldSectionPages class. Implements the SECTIONPAGES field. To learn more, visit the Working with Fields documentation article in C++.'
+description: 'Aspose::Words::Fields::FieldSectionPages class. Implements the SECTIONPAGES field. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 89000
 url: /cpp/aspose.words.fields/fieldsectionpages/
@@ -10,25 +10,20 @@ url: /cpp/aspose.words.fields/fieldsectionpages/
 ## FieldSectionPages class
 
 
-Implements the SECTIONPAGES field. 
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Implements the SECTIONPAGES field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
-class FieldSectionPages : public Field
+class FieldSectionPages : public Aspose::Words::Fields::Field
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [Unlink](../field/unlink/)() | Performs the field unlink. |
-| [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
+| [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
+| [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
@@ -37,18 +32,25 @@ class FieldSectionPages : public Field
 | [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [set_IsLocked](../field/set_islocked/)(bool) | Sets whether the field is locked (should not recalculate its result). |
-| [set_LocaleId](../field/set_localeid/)(int32_t) | Sets the LCID of the field. |
-| [set_Result](../field/set_result/)(const System::String \&) | Sets text that is between the field separator and field end. |
-## Remarks
+| [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
+| [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
+| [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
+| static [Type](./type/)() |  |
+| [Unlink](../field/unlink/)() | Performs the field unlink. |
+| [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
- Retrieves the number of the current page within the current section. 
 ## Examples
 
 
-Shows how to use SECTION and SECTIONPAGES fields to number pages by sections.
 
+Shows how to use SECTION and SECTIONPAGES fields to number pages by sections. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,19 +62,19 @@ builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 builder->Write(u"Section ");
 auto fieldSection = System::ExplicitCast<Aspose::Words::Fields::FieldSection>(builder->InsertField(FieldType::FieldSection, true));
 
-ASSERT_EQ(fieldSection->GetFieldCode(), u" SECTION ");
+ASSERT_EQ(u" SECTION ", fieldSection->GetFieldCode());
 
 // A PAGE field displays the number of the page it is in.
 builder->Write(u"\nPage ");
 auto fieldPage = System::ExplicitCast<Aspose::Words::Fields::FieldPage>(builder->InsertField(FieldType::FieldPage, true));
 
-ASSERT_EQ(fieldPage->GetFieldCode(), u" PAGE ");
+ASSERT_EQ(u" PAGE ", fieldPage->GetFieldCode());
 
 // A SECTIONPAGES field displays the number of pages that the section it is in spans across.
 builder->Write(u" of ");
 auto fieldSectionPages = System::ExplicitCast<Aspose::Words::Fields::FieldSectionPages>(builder->InsertField(FieldType::FieldSectionPages, true));
 
-ASSERT_EQ(fieldSectionPages->GetFieldCode(), u" SECTIONPAGES ");
+ASSERT_EQ(u" SECTIONPAGES ", fieldSectionPages->GetFieldCode());
 
 // Move out of the header back into the main document and insert two pages.
 // All these pages will be in the first section. Our fields, which appear once every header,
@@ -93,6 +95,7 @@ builder->InsertBreak(BreakType::PageBreak);
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SECTION.SECTIONPAGES.docx");
 ```
+
 ## See Also
 
 * Class [Field](../field/)

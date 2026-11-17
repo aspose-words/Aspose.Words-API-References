@@ -18,6 +18,7 @@ void Aspose::Words::Fields::MergeFieldImageDimension::set_Unit(Aspose::Words::Fi
 
 ## See Also
 
+* Enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * Class [MergeFieldImageDimension](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

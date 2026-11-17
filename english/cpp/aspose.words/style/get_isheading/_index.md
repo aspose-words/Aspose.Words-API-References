@@ -4,7 +4,7 @@ linktitle: get_IsHeading
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_IsHeading method. True when the style is one of the built-in Heading styles in C++.'
 type: docs
-weight: 22322
+weight: 9000
 url: /cpp/aspose.words/style/get_isheading/
 ---
 ## Style::get_IsHeading method
@@ -13,18 +13,19 @@ url: /cpp/aspose.words/style/get_isheading/
 True when the style is one of the built-in Heading styles.
 
 ```cpp
-_Bool Aspose::Words::Style::get_IsHeading()
+bool Aspose::Words::Style::get_IsHeading()
 ```
+
 
 ## Examples
 
 
-Shows how to access a document's style collection.
 
+Shows how to access a document's style collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
+ASSERT_EQ(4, doc->get_Styles()->get_Count());
 
 // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
 {
@@ -37,10 +38,11 @@ ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
         std::cout << System::String::Format(u"\tIs heading:\t\t\t{0}", curStyle->get_IsHeading()) << std::endl;
         std::cout << System::String::Format(u"\tIs QuickStyle:\t\t{0}", curStyle->get_IsQuickStyle()) << std::endl;
 
-        ASPOSE_ASSERT_EQ(curStyle->get_Document(), doc);
+        ASPOSE_ASSERT_EQ(doc, curStyle->get_Document());
     }
 }
 ```
+
 ## See Also
 
 * Class [Style](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/get_reverserows/
 Determines whether the layout order of rows is reversed.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextPath::get_ReverseRows()
+bool Aspose::Words::Drawing::TextPath::get_ReverseRows()
 ```
 
 ## Remarks
@@ -21,7 +21,7 @@ _Bool Aspose::Words::Drawing::TextPath::get_ReverseRows()
 
 The default value is **false**.
 
-If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout.
+If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout. 
 ## See Also
 
 * Class [TextPath](../)

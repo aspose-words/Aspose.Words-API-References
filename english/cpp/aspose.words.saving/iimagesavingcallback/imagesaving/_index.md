@@ -13,11 +13,12 @@ url: /cpp/aspose.words.saving/iimagesavingcallback/imagesaving/
 Called when Aspose.Words saves an image to HTML.
 
 ```cpp
-virtual void Aspose::Words::Saving::IImageSavingCallback::ImageSaving(System::SharedPtr<Aspose::Words::Saving::ImageSavingArgs> args)
+virtual void Aspose::Words::Saving::IImageSavingCallback::ImageSaving(System::SharedPtr<Aspose::Words::Saving::ImageSavingArgs> args)=0
 ```
 
 ## See Also
 
+* Class [ImageSavingArgs](../../imagesavingargs/)
 * Interface [IImageSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

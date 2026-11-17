@@ -16,11 +16,12 @@ Returns a [ChartNumberFormat](../../chartnumberformat/) object that allows defin
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartNumberFormat> Aspose::Words::Drawing::Charts::ChartAxis::get_NumberFormat()
 ```
 
+
 ## Examples
 
 
-Shows how to set formatting for chart values.
 
+Shows how to set formatting for chart values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +34,7 @@ chart->get_Series()->Clear();
 
 // Add a custom series to the chart with categories for the X-axis,
 // and large respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({1900000, 850000, 2100000, 600000, 1500000}));
 
 // Set the number format of the Y-axis tick labels to not group digits with commas.
@@ -44,8 +45,10 @@ ASSERT_FALSE(chart->get_AxisY()->get_NumberFormat()->get_IsLinkedToSource());
 
 doc->Save(get_ArtifactsDir() + u"Charts.SetNumberFormatToChartAxis.docx");
 ```
+
 ## See Also
 
+* Class [ChartNumberFormat](../../chartnumberformat/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

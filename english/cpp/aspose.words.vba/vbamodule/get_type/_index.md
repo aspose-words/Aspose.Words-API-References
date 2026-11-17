@@ -16,11 +16,12 @@ Specifies whether the module is a procedural module, document module, class modu
 Aspose::Words::Vba::VbaModuleType Aspose::Words::Vba::VbaModule::get_Type() const
 ```
 
+
 ## Examples
 
 
-Shows how to create a VBA project using macros.
 
+Shows how to create a VBA project using macros. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -40,8 +41,10 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 
 doc->Save(get_ArtifactsDir() + u"VbaProject.CreateVBAMacros.docm");
 ```
+
 ## See Also
 
+* Enum [VbaModuleType](../../vbamoduletype/)
 * Class [VbaModule](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

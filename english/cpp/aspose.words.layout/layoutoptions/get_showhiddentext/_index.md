@@ -13,17 +13,15 @@ url: /cpp/aspose.words.layout/layoutoptions/get_showhiddentext/
 Gets or sets indication of whether hidden text in the document is rendered. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText() const
+bool Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText() const
 ```
 
-## Remarks
 
-This property affects all hidden content, not just text.
 ## Examples
 
 
-Shows how to hide text in a rendered output document.
 
+Shows how to hide text in a rendered output document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,6 +35,7 @@ doc->get_LayoutOptions()->set_ShowHiddenText(showHiddenText);
 
 doc->Save(get_ArtifactsDir() + u"Document.LayoutOptionsHiddenText.pdf");
 ```
+
 ## See Also
 
 * Class [LayoutOptions](../)

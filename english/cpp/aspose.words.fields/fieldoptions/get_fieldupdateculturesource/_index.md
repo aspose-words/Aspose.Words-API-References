@@ -21,9 +21,10 @@ Aspose::Words::Fields::FieldUpdateCultureSource Aspose::Words::Fields::FieldOpti
 
 By default, the culture of the current thread is used.
 
-The setting affects only date/time fields with \\@ format switch.
+The setting affects only date/time fields with \\@ format switch. 
 ## See Also
 
+* Enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

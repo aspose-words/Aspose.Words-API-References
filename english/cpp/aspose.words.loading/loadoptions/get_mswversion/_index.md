@@ -16,19 +16,17 @@ Allows to specify that the document loading process should match a specific MS W
 Aspose::Words::Settings::MsWordVersion Aspose::Words::Loading::LoadOptions::get_MswVersion() const
 ```
 
-## Remarks
 
- Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model. 
 ## Examples
 
 
-Shows how to emulate the loading procedure of a specific Microsoft Word version during document loading.
 
+Shows how to emulate the loading procedure of a specific Microsoft Word version during document loading. 
 ```cpp
 // By default, Aspose.Words load documents according to Microsoft Word 2019 specification.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 
-ASSERT_EQ(loadOptions->get_MswVersion(), MsWordVersion::Word2019);
+ASSERT_EQ(MsWordVersion::Word2019, loadOptions->get_MswVersion());
 
 // This document is missing the default paragraph formatting style.
 // This default style will be regenerated when we load the document either with Microsoft Word or Aspose.Words.
@@ -36,10 +34,12 @@ loadOptions->set_MswVersion(MsWordVersion::Word2007);
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx", loadOptions);
 
 // The style's line spacing will have this value when loaded by Microsoft Word 2007 specification.
-ASSERT_NEAR(doc->get_Styles()->get_DefaultParagraphFormat()->get_LineSpacing(), 12.95, 0.01);
+ASSERT_NEAR(12.95, doc->get_Styles()->get_DefaultParagraphFormat()->get_LineSpacing(), 0.01);
 ```
+
 ## See Also
 
+* Enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

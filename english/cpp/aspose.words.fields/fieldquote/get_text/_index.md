@@ -16,11 +16,12 @@ Gets or sets the text to retrieve.
 System::String Aspose::Words::Fields::FieldQuote::get_Text()
 ```
 
+
 ## Examples
 
 
-Shows to use the QUOTE field.
 
+Shows to use the QUOTE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -29,7 +30,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
 field->set_Text(u"\"Quoted text\"");
 
-ASSERT_EQ(field->GetFieldCode(), u" QUOTE  \"\\\"Quoted text\\\"\"");
+ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
 
 // Insert a QUOTE field and nest a DATE field inside it.
 // DATE fields update their value to the current date every time we open the document using Microsoft Word.
@@ -40,15 +41,16 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertF
 builder->MoveTo(field->get_Separator());
 builder->InsertField(FieldType::FieldDate, true);
 
-ASSERT_EQ(field->GetFieldCode(), System::String(u" QUOTE \u0013 DATE \u0014") + System::DateTime::get_Now().get_Date().ToShortDateString() + u"\u0015");
+ASSERT_EQ(System::String(u" QUOTE \u0013 DATE \u0014") + System::DateTime::get_Now().get_Date().ToShortDateString() + u"\u0015", field->GetFieldCode());
 
 // Update all the fields to display their correct results.
 doc->UpdateFields();
 
-ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_Result(), u"\"Quoted text\"");
+ASSERT_EQ(u"\"Quoted text\"", doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
 
 doc->Save(get_ArtifactsDir() + u"Field.QUOTE.docx");
 ```
+
 ## See Also
 
 * Class [FieldQuote](../)

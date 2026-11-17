@@ -4,7 +4,7 @@ linktitle: get_ImageBytes
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_ImageBytes method. Gets or sets the raw bytes of the image stored in the shape in C++.'
 type: docs
-weight: 50000
+weight: 13000
 url: /cpp/aspose.words.drawing/imagedata/get_imagebytes/
 ---
 ## ImageData::get_ImageBytes method
@@ -21,12 +21,13 @@ System::ArrayPtr<uint8_t> Aspose::Words::Drawing::ImageData::get_ImageBytes()
 
 Setting the value to **null** or an empty array will remove the image from the shape.
 
-Returns **null** if the image is not stored in the document (e.g the image is probably linked in this case).
+Returns<c>null if the image is not stored in the document (e.g the image is probably linked in this case).
+
 ## Examples
 
 
-Shows how to create an image file from a shape's raw image data.
 
+Shows how to create an image file from a shape's raw image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -35,7 +36,7 @@ auto imgShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc
 ASSERT_TRUE(imgShape->get_HasImage());
 
 // ToByteArray() returns the array stored in the ImageBytes property.
-ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->ToByteArray(), imgShape->get_ImageData()->get_ImageBytes());
+ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_ImageData()->ToByteArray());
 
 // Save the shape's image data to an image file in the local file system.
 {
@@ -46,6 +47,7 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->ToByteArray(), imgShape->get_ImageDa
     }
 }
 ```
+
 ## See Also
 
 * Class [ImageData](../)

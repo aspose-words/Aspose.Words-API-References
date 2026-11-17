@@ -16,11 +16,12 @@ Returns the source of the warning.
 Aspose::Words::WarningSource Aspose::Words::WarningInfo::get_Source() const
 ```
 
+
 ## Examples
 
 
-Shows how to work with the warning source.
 
+Shows how to work with the warning source. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Emphases markdown warning.docx"));
 
@@ -32,13 +33,13 @@ for (auto&& warningInfo : warnings)
 {
     if (warningInfo->get_Source() == WarningSource::Markdown)
     {
-        ASSERT_EQ(warningInfo->get_Description(), u"The (*, 0:11) cannot be properly written into Markdown.");
+        ASSERT_EQ(u"The (*, 0:11) cannot be properly written into Markdown.", warningInfo->get_Description());
     }
 }
 ```
 
-Shows how to get additional information about font substitution.
 
+Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -54,16 +55,18 @@ doc->set_FontSettings(fontSettings);
 doc->Save(get_ArtifactsDir() + u"FontSettings.SubstitutionWarnings.pdf");
 
 auto warningInfo = System::ExplicitCast<Aspose::Words::FontSubstitutionWarningInfo>(callback->idx_get(0));
-ASSERT_EQ(warningInfo->get_Source(), WarningSource::Layout);
-ASSERT_EQ(warningInfo->get_WarningType(), WarningType::FontSubstitution);
-ASSERT_EQ(warningInfo->get_Reason(), FontSubstitutionReason::TableSubstitutionRule);
-ASSERT_EQ(warningInfo->get_Description(), u"Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.");
+ASSERT_EQ(WarningSource::Layout, warningInfo->get_Source());
+ASSERT_EQ(WarningType::FontSubstitution, warningInfo->get_WarningType());
+ASSERT_EQ(FontSubstitutionReason::TableSubstitutionRule, warningInfo->get_Reason());
+ASSERT_EQ(u"Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.", warningInfo->get_Description());
 ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
-ASSERT_EQ(warningInfo->get_RequestedFamilyName(), u"Arial");
+ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
 ```
+
 ## See Also
 
+* Enum [WarningSource](../../warningsource/)
 * Class [WarningInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

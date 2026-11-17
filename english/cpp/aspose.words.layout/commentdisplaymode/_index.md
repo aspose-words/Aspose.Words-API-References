@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/commentdisplaymode/
 Specifies the rendering mode for document comments.
 
 ```cpp
-enum class CommentDisplayMode : int
+enum class CommentDisplayMode
 ```
 
 ### Values
@@ -21,14 +21,15 @@ enum class CommentDisplayMode : int
 | Name | Value | Description |
 | --- | --- | --- |
 | Hide | 0 | No document comments are rendered. |
-| ShowInAnnotations | 2 | Renders document comments in annotations. This is only available for Pdf format. |
 | ShowInBalloons | 1 | Renders document comments in balloons in the margin. This is the default value. |
+| ShowInAnnotations | 2 | Renders document comments in annotations. This is only available for Pdf format. |
+
 
 ## Examples
 
 
-Shows how to show comments when saving a document to a rendered format.
 
+Shows how to show comments when saving a document to a rendered format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,6 +53,7 @@ doc->UpdatePageLayout();
 
 doc->Save(get_ArtifactsDir() + u"Document.ShowCommentsInBalloons.pdf");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)

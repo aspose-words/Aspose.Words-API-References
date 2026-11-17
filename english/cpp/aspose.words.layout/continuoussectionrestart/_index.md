@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/continuoussectionrestart/
 Represents different behaviors when computing page numbers in a continuous section that restarts page numbering.
 
 ```cpp
-enum class ContinuousSectionRestart : int
+enum class ContinuousSectionRestart
 ```
 
 ### Values
@@ -23,11 +23,12 @@ enum class ContinuousSectionRestart : int
 | Always | 0 | Page numbering always restarts regardless of content flow. |
 | FromNewPageOnly | 1 | Page numbering restarts only if there is no other content before the section on the page where the section starts. |
 
+
 ## Examples
 
 
-Shows how to control page numbering in a continuous section.
 
+Shows how to control page numbering in a continuous section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Continuous section page numbering.docx"));
 
@@ -40,6 +41,7 @@ doc->UpdatePageLayout();
 
 doc->Save(get_ArtifactsDir() + u"Layout.RestartPageNumberingInContinuousSection.pdf");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)

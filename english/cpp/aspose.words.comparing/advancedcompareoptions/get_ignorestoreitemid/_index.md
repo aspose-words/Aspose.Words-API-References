@@ -13,17 +13,15 @@ url: /cpp/aspose.words.comparing/advancedcompareoptions/get_ignorestoreitemid/
 Specifies whether to ignore difference in StructuredDocumentTag store item Id.
 
 ```cpp
-_Bool Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreStoreItemId() const
+bool Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreStoreItemId() const
 ```
 
-## Remarks
 
- Default value is **false**. 
 ## Examples
 
 
-Shows how to compare SDT with same content but different store item id.
 
+Shows how to compare SDT with same content but different store item id. 
 ```cpp
 auto docA = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document with SDT 1.docx"));
 auto docB = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document with SDT 2.docx"));
@@ -33,14 +31,15 @@ auto compareOptions = System::MakeObject<Aspose::Words::Comparing::CompareOption
 compareOptions->get_AdvancedOptions()->set_IgnoreStoreItemId(false);
 
 docA->Compare(docB, u"user", System::DateTime::get_Now(), compareOptions);
-ASSERT_EQ(docA->get_Revisions()->get_Count(), 8);
+ASSERT_EQ(8, docA->get_Revisions()->get_Count());
 
 compareOptions->get_AdvancedOptions()->set_IgnoreStoreItemId(true);
 
 docA->get_Revisions()->RejectAll();
 docA->Compare(docB, u"user", System::DateTime::get_Now(), compareOptions);
-ASSERT_EQ(docA->get_Revisions()->get_Count(), 0);
+ASSERT_EQ(0, docA->get_Revisions()->get_Count());
 ```
+
 ## See Also
 
 * Class [AdvancedCompareOptions](../)

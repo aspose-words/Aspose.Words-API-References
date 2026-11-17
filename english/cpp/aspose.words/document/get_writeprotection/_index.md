@@ -4,7 +4,7 @@ linktitle: get_WriteProtection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_WriteProtection method. Provides access to the document write protection options in C++.'
 type: docs
-weight: 153000
+weight: 61000
 url: /cpp/aspose.words/document/get_writeprotection/
 ---
 ## Document::get_WriteProtection method
@@ -16,11 +16,12 @@ Provides access to the document write protection options.
 System::SharedPtr<Aspose::Words::Settings::WriteProtection> Aspose::Words::Document::get_WriteProtection()
 ```
 
+
 ## Examples
 
 
-Shows how to protect a document with a password.
 
+Shows how to protect a document with a password. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,10 +44,12 @@ builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->Writeln(u"Writing text in a protected document.");
 
-ASSERT_EQ(doc->GetText().Trim(), System::String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.");
+ASSERT_EQ(System::String(u"Hello world! This document is protected.") + u"\rWriting text in a protected document.", doc->GetText().Trim());
 ```
+
 ## See Also
 
+* Class [WriteProtection](../../../aspose.words.settings/writeprotection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

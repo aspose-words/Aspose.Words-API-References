@@ -20,11 +20,12 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_RevisionNumber
 
 
 Aspose.Words does not update this property.
+
 ## Examples
 
 
-Shows how to work with document properties in the "Origin" category.
 
+Shows how to work with document properties in the "Origin" category. 
 ```cpp
 // Open a document that we have created and edited using Microsoft Word.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
@@ -54,8 +55,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
 
-Shows how to work with REVNUM fields.
 
+Shows how to work with REVNUM fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,9 +66,9 @@ builder->Write(u"Current revision #");
 // Insert a REVNUM field, which displays the document's current revision number property.
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldRevNum>(builder->InsertField(FieldType::FieldRevisionNum, true));
 
-ASSERT_EQ(field->GetFieldCode(), u" REVNUM ");
-ASSERT_EQ(field->get_Result(), u"1");
-ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_RevisionNumber(), 1);
+ASSERT_EQ(u" REVNUM ", field->GetFieldCode());
+ASSERT_EQ(u"1", field->get_Result());
+ASSERT_EQ(1, doc->get_BuiltInDocumentProperties()->get_RevisionNumber());
 
 // This property counts how many times a document has been saved in Microsoft Word,
 // and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
@@ -75,8 +76,9 @@ ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_RevisionNumber(), 1);
 System::WithLambda::setter_post_increment_wrap(GETTER_SETTER_LVAL_LAMBDA_ARGS(doc->get_BuiltInDocumentProperties(), RevisionNumber));
 field->Update();
 
-ASSERT_EQ(field->get_Result(), u"2");
+ASSERT_EQ(u"2", field->get_Result());
 ```
+
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

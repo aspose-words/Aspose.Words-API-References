@@ -13,7 +13,7 @@ url: /cpp/aspose.words/protectiontype/
 Protection type for a document.
 
 ```cpp
-enum class ProtectionType : int
+enum class ProtectionType
 ```
 
 ### Values
@@ -23,14 +23,15 @@ enum class ProtectionType : int
 | AllowOnlyComments | 1 | User can only modify comments in the document. |
 | AllowOnlyFormFields | 2 | User can only enter data in the form fields in the document. |
 | AllowOnlyRevisions | 0 | User can only add revision marks to the document. |
-| NoProtection | -1 | The document is not protected. |
 | ReadOnly | 3 | No changes are allowed to the document. Available since Microsoft Word 2003. |
+| NoProtection | -1 | The document is not protected. |
+
 
 ## Examples
 
 
-Shows how to turn off protection for a section.
 
+Shows how to turn off protection for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -52,6 +53,7 @@ doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);
 // and we will only be able to edit the contents of the form field in the second section.
 doc->Save(get_ArtifactsDir() + u"Section.Protect.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

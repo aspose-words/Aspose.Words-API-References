@@ -13,14 +13,15 @@ url: /cpp/aspose.words/paragraphformat/get_keeptogether/
 True if all lines in the paragraph are to remain on the same page.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_KeepTogether()
+bool Aspose::Words::ParagraphFormat::get_KeepTogether()
 ```
+
 
 ## Examples
 
 
-Shows how to insert a paragraph into the document.
 
+Shows how to insert a paragraph into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -45,6 +46,7 @@ builder->Writeln(u"Hello world!");
 
 ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
+
 ## See Also
 
 * Class [ParagraphFormat](../)

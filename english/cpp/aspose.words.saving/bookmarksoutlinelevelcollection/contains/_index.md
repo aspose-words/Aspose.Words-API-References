@@ -13,22 +13,23 @@ url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
 Determines whether the collection contains a bookmark with the given name.
 
 ```cpp
-_Bool Aspose::Words::Saving::BookmarksOutlineLevelCollection::Contains(const System::String & name)
+bool Aspose::Words::Saving::BookmarksOutlineLevelCollection::Contains(const System::String &name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String \& | Case-insensitive name of the bookmark to locate. |
+| name | const System::String\& | Case-insensitive name of the bookmark to locate. |
 
 ### ReturnValue
 
 **true** if item is found in the collection; otherwise, **false**.
+
 ## Examples
 
 
-Shows how to set outline levels for bookmarks.
 
+Shows how to set outline levels for bookmarks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,11 +60,11 @@ outlineLevels->Add(u"Bookmark 1", 1);
 outlineLevels->Add(u"Bookmark 2", 2);
 outlineLevels->Add(u"Bookmark 3", 3);
 
-ASSERT_EQ(outlineLevels->get_Count(), 3);
+ASSERT_EQ(3, outlineLevels->get_Count());
 ASSERT_TRUE(outlineLevels->Contains(u"Bookmark 1"));
-ASSERT_EQ(outlineLevels->idx_get(0), 1);
-ASSERT_EQ(outlineLevels->idx_get(u"Bookmark 2"), 2);
-ASSERT_EQ(outlineLevels->IndexOfKey(u"Bookmark 3"), 2);
+ASSERT_EQ(1, outlineLevels->idx_get(0));
+ASSERT_EQ(2, outlineLevels->idx_get(u"Bookmark 2"));
+ASSERT_EQ(2, outlineLevels->IndexOfKey(u"Bookmark 3"));
 
 // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
 outlineLevels->RemoveAt(2);
@@ -79,6 +80,7 @@ doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();
 ```
+
 ## See Also
 
 * Class [BookmarksOutlineLevelCollection](../)

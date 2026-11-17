@@ -22,11 +22,12 @@ void Aspose::Words::Tables::Table::SetBorders(Aspose::Words::LineStyle lineStyle
 | lineStyle | Aspose::Words::LineStyle | The line style to apply. |
 | lineWidth | double | The line width to set (in points). |
 | color | System::Drawing::Color | The color to use for the border. |
+
 ## Examples
 
 
-Shows how to apply border and shading color while building a table.
 
+Shows how to apply border and shading color while building a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,8 +62,8 @@ builder->Writeln(u"Row 2, Cell 2.");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.TableBordersAndShading.docx");
 ```
 
-Shows how to format of all of a table's borders at once.
 
+Shows how to format of all of a table's borders at once. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -75,8 +76,10 @@ table->SetBorders(LineStyle::Single, 1.5, System::Drawing::Color::get_Green());
 
 doc->Save(get_ArtifactsDir() + u"Table.SetBorders.docx");
 ```
+
 ## See Also
 
+* Enum [LineStyle](../../../aspose.words/linestyle/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

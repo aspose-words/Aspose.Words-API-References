@@ -13,16 +13,14 @@ url: /cpp/aspose.words.fields/formfieldcollection/remove/
 Removes a form field with the specified name.
 
 ```cpp
-void Aspose::Words::Fields::FormFieldCollection::Remove(const System::String & formField)
+void Aspose::Words::Fields::FormFieldCollection::Remove(const System::String &formField)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formField | const System::String \& | The case-insensitive name of the form field to remove. |
-## Remarks
+| formField | const System::String\& | The case-insensitive name of the form field to remove. |
 
- If there is a bookmark associated with the form field, the bookmark is not removed. 
 ## See Also
 
 * Class [FormFieldCollection](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::MarkdownSaveOptions::get_ImageResolution method
 linktitle: get_ImageResolution
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ImageResolution method. Specifies the output resolution for images when exporting to Markdown. Default is 96 dpi in C++.'
+description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ImageResolution method. Specifies the output resolution for images when exporting to Markdown. Default is %96 dpi in C++.'
 type: docs
 weight: 3750
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/
@@ -10,17 +10,18 @@ url: /cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/
 ## MarkdownSaveOptions::get_ImageResolution method
 
 
-Specifies the output resolution for images when exporting to Markdown. Default is **96 dpi**.
+Specifies the output resolution for images when exporting to Markdown. Default is **%96 dpi**.
 
 ```cpp
 int32_t Aspose::Words::Saving::MarkdownSaveOptions::get_ImageResolution()
 ```
 
+
 ## Examples
 
 
-Shows how to set the output resolution for images.
 
+Shows how to set the output resolution for images. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -29,6 +30,7 @@ saveOptions->set_ImageResolution(300);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ImageResolution.md", saveOptions);
 ```
+
 ## See Also
 
 * Class [MarkdownSaveOptions](../)

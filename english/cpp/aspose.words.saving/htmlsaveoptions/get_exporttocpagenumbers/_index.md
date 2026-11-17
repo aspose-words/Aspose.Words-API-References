@@ -13,14 +13,15 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exporttocpagenumbers/
 Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportTocPageNumbers() const
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportTocPageNumbers() const
 ```
+
 
 ## Examples
 
 
-Shows how to display page numbers when saving a document with a table of contents to .html.
 
+Shows how to display page numbers when saving a document with a table of contents to .html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -64,6 +65,7 @@ else
     ASSERT_TRUE(outDocContents.Contains(System::String(u"<p style=\"margin-top:0pt; margin-bottom:0pt\">") + u"<span>Entry 2</span>" + u"</p>"));
 }
 ```
+
 ## See Also
 
 * Class [HtmlSaveOptions](../)

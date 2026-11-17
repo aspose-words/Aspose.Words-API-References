@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldtemplate/get_includefullpath/
 Gets or sets whether to include the full file path name.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath()
+bool Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath()
 ```
+
 
 ## Examples
 
 
-Shows how to use a TEMPLATE field to display the local file system location of a document's template.
 
+Shows how to use a TEMPLATE field to display the local file system location of a document's template. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -30,17 +31,18 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 doc->get_FieldOptions()->set_TemplateName(System::String::Empty);
 
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
-ASSERT_EQ(field->GetFieldCode(), u" TEMPLATE ");
+ASSERT_EQ(u" TEMPLATE ", field->GetFieldCode());
 
 builder->Writeln();
 field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
 field->set_IncludeFullPath(true);
 
-ASSERT_EQ(field->GetFieldCode(), u" TEMPLATE  \\p");
+ASSERT_EQ(u" TEMPLATE  \\p", field->GetFieldCode());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TEMPLATE.docx");
 ```
+
 ## See Also
 
 * Class [FieldTemplate](../)

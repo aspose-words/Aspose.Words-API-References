@@ -13,26 +13,27 @@ url: /cpp/aspose.words.drawing/horizontalalignment/
 Specifies horizontal alignment of a floating shape, text frame or floating table.
 
 ```cpp
-enum class HorizontalAlignment : int
+enum class HorizontalAlignment
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | 2 | Specifies that the object shall be centered with respect to the horizontal alignment base. |
+| None | 0 | The object is explicitly positioned, usually using its **Left** property. |
 | Default | 0 | Same as [None](./). |
-| Inside | 4 | Specifies that the object shall be inside of the horizontal alignment base. |
 | Left | 1 | Specifies that the object shall be left aligned to the horizontal alignment base. |
-| None | 0 | The object is explicitly positioned, usually using its Left property. |
-| Outside | 5 | Specifies that the object shall be outside of the horizontal alignment base. |
+| Center | 2 | Specifies that the object shall be centered with respect to the horizontal alignment base. |
 | Right | 3 | Specifies that the object shall be right aligned to the horizontal alignment base. |
+| Inside | 4 | Specifies that the object shall be inside of the horizontal alignment base. |
+| Outside | 5 | Specifies that the object shall be outside of the horizontal alignment base. |
+
 
 ## Examples
 
 
-Shows how to insert a floating image to the center of a page.
 
+Shows how to insert a floating image to the center of a page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,9 +49,8 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
-## See Also
 
-* [HorizontalAlignment](../shapebase/get_horizontalalignment/)
+## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

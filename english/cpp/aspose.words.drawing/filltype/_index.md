@@ -13,25 +13,26 @@ url: /cpp/aspose.words.drawing/filltype/
 Specifies fill type for a fillable object.
 
 ```cpp
-enum class FillType : int
+enum class FillType
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Background | 5 | Fill is the same as the background. |
-| Gradient | 3 | Gradient fill. |
-| Patterned | 2 | Patterned fill. |
-| Picture | 6 | Picture fill. |
 | Solid | 1 | Solid fill. |
+| Patterned | 2 | Patterned fill. |
+| Gradient | 3 | Gradient fill. |
 | Textured | 4 | Textured fill. |
+| Background | 5 | [Fill](../fill/) is the same as the background. |
+| Picture | 6 | Picture fill. |
+
 
 ## Examples
 
 
-Shows how to convert any of the fills back to solid fill.
 
+Shows how to convert any of the fills back to solid fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Two color gradient.docx"));
 
@@ -52,6 +53,7 @@ std::cout << "The fill transparency is " << (fill->get_Transparency() * 100) << 
 
 doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

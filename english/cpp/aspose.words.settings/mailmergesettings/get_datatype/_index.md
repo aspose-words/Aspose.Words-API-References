@@ -18,6 +18,7 @@ Aspose::Words::Settings::MailMergeDataType Aspose::Words::Settings::MailMergeSet
 
 ## See Also
 
+* Enum [MailMergeDataType](../../mailmergedatatype/)
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

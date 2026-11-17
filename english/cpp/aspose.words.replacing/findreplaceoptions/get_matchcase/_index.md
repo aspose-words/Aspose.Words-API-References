@@ -13,14 +13,15 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_matchcase/
 True indicates case-sensitive comparison, false indicates case-insensitive comparison.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase() const
 ```
+
 
 ## Examples
 
 
-Shows how to toggle case sensitivity when performing a find-and-replace operation.
 
+Shows how to toggle case sensitivity when performing a find-and-replace operation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,8 +37,9 @@ options->set_MatchCase(matchCase);
 
 doc->get_Range()->Replace(u"Ruby", u"Jade", options);
 
-ASSERT_EQ(doc->GetText().Trim(), matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."));
+ASSERT_EQ(matchCase ? System::String(u"Jade bought a ruby necklace.") : System::String(u"Jade bought a Jade necklace."), doc->GetText().Trim());
 ```
+
 ## See Also
 
 * Class [FindReplaceOptions](../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::CompressionLevel enum
 linktitle: CompressionLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::CompressionLevel enum. Compression level for OOXML and XPS files.  (DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive.  Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.) in C++.'
+description: 'Aspose::Words::Saving::CompressionLevel enum. Compression level for OOXML and XPS files. (DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.) in C++.'
 type: docs
 weight: 47000
 url: /cpp/aspose.words.saving/compressionlevel/
@@ -10,29 +10,27 @@ url: /cpp/aspose.words.saving/compressionlevel/
 ## CompressionLevel enum
 
 
-Compression level for OOXML and XPS files. 
- (DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive. 
-
- Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
+Compression level for OOXML and XPS files. (DOCX, DOTX and XPS files are internally a ZIP-archive, this property controls the compression level of the archive. Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not affect the FlatOpc files.)
 
 ```cpp
-enum class CompressionLevel : int
+enum class CompressionLevel
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Fast | 2 | Fast compression level. |
+| Normal | 0 | Normal compression level. Default compression level used by [Aspose.Words](../../aspose.words/). |
 | Maximum | 1 | Maximum compression level. |
-| Normal | 0 | Normal compression level. Default compression level used by Aspose.Words. |
+| Fast | 2 | Fast compression level. |
 | SuperFast | 3 | Super Fast compression level. Microsoft Word uses this compression level. |
+
 
 ## Examples
 
 
-Shows how to specify the compression level to use while saving an OOXML document.
 
+Shows how to specify the compression level to use while saving an OOXML document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -58,8 +56,8 @@ std::cout << System::String::Format(u"\tDuration:\t{0} ms", st->get_ElapsedMilli
 std::cout << System::String::Format(u"\tFile Size:\t{0} bytes", fileInfo->get_Length()) << std::endl;
 ```
 
-Shows how to control the compression level when saving a document to XPS format.
 
+Shows how to control the compression level when saving a document to XPS format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,6 +70,7 @@ options->set_CompressionLevel(CompressionLevel::Maximum);
 
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.CompressionLevelXps.xps", options);
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

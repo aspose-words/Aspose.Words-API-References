@@ -13,13 +13,14 @@ url: /cpp/aspose.words.mailmerging/imailmergedatasource/movenext/
 Advances to the next record in the data source.
 
 ```cpp
-virtual _Bool Aspose::Words::MailMerging::IMailMergeDataSource::MoveNext()
+virtual bool Aspose::Words::MailMerging::IMailMergeDataSource::MoveNext()=0
 ```
 
 
 ### ReturnValue
 
 **true** if moved to next record successfully; **false** if reached end of the data source.
+
 ## See Also
 
 * Interface [IMailMergeDataSource](../)

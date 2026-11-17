@@ -4,7 +4,7 @@ linktitle: get_BuiltIn
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_BuiltIn method. True if this style is one of the built-in styles in MS Word in C++.'
 type: docs
-weight: 22184
+weight: 6000
 url: /cpp/aspose.words/style/get_builtin/
 ---
 ## Style::get_BuiltIn method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words/style/get_builtin/
 True if this style is one of the built-in styles in MS Word.
 
 ```cpp
-_Bool Aspose::Words::Style::get_BuiltIn()
+bool Aspose::Words::Style::get_BuiltIn()
 ```
+
 
 ## Examples
 
 
-Shows how to differentiate custom styles from built-in styles.
 
+Shows how to differentiate custom styles from built-in styles. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -40,6 +41,7 @@ style->get_Font()->set_Name(u"Courier New");
 
 ASSERT_FALSE(style->get_BuiltIn());
 ```
+
 ## See Also
 
 * Class [Style](../)

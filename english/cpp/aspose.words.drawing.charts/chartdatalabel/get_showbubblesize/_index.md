@@ -13,14 +13,15 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showbubblesize/
 Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowBubbleSize()
+bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowBubbleSize()
 ```
+
 
 ## Examples
 
 
-Shows how to use 3D effects with bubble charts.
 
+Shows how to use 3D effects with bubble charts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -28,8 +29,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Bubble3D, static_cast<double>(500), static_cast<double>(350));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
-ASSERT_EQ(chart->get_Series()->get_Count(), 1);
-ASSERT_EQ(chart->get_Series()->idx_get(0)->get_Name(), u"Y-Values");
+ASSERT_EQ(1, chart->get_Series()->get_Count());
+ASSERT_EQ(u"Y-Values", chart->get_Series()->idx_get(0)->get_Name());
 ASSERT_TRUE(chart->get_Series()->idx_get(0)->get_Bubble3D());
 
 // Apply a data label to each bubble that displays its diameter.
@@ -42,6 +43,7 @@ for (int32_t i = 0; i < 3; i++)
 
 doc->Save(get_ArtifactsDir() + u"Charts.Bubble3D.docx");
 ```
+
 ## See Also
 
 * Class [ChartDataLabel](../)

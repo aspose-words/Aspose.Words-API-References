@@ -16,11 +16,12 @@ Gets or sets [DigitalSignatureDetails](../../digitalsignaturedetails/) object us
 const System::SharedPtr<Aspose::Words::Saving::DigitalSignatureDetails> & Aspose::Words::Saving::OoxmlSaveOptions::get_DigitalSignatureDetails() const
 ```
 
+
 ## Examples
 
 
-Shows how to sign OOXML document.
 
+Shows how to sign OOXML document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -33,13 +34,15 @@ auto digitalSignatureDetails = System::MakeObject<Aspose::Words::Saving::Digital
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
 saveOptions->set_DigitalSignatureDetails(digitalSignatureDetails);
 
-ASPOSE_ASSERT_EQ(digitalSignatureDetails->get_CertificateHolder(), certificateHolder);
-ASSERT_EQ(digitalSignatureDetails->get_SignOptions()->get_Comments(), u"Some comments");
+ASPOSE_ASSERT_EQ(certificateHolder, digitalSignatureDetails->get_CertificateHolder());
+ASSERT_EQ(u"Some comments", digitalSignatureDetails->get_SignOptions()->get_Comments());
 
 doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
 ```
+
 ## See Also
 
+* Class [DigitalSignatureDetails](../../digitalsignaturedetails/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::XmlMapping class
 linktitle: XmlMapping
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::XmlMapping class. Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. To learn more, visit the Structured Document Tags or Content Control documentation article in C++.'
+description: 'Aspose::Words::Markup::XmlMapping class. Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words.markup/xmlmapping/
@@ -10,8 +10,7 @@ url: /cpp/aspose.words.markup/xmlmapping/
 ## XmlMapping class
 
 
-Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. 
-To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
+Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/cpp/working-with-content-control-sdt/) documentation article.
 
 ```cpp
 class XmlMapping : public System::Object
@@ -22,17 +21,21 @@ class XmlMapping : public System::Object
 | Method | Description |
 | --- | --- |
 | [Delete](./delete/)() | Deletes mapping of the parent structured document to XML data. |
-| [SetMapping](./setmapping/)(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\> \&, const System::String \&, const System::String \&) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
 | [get_CustomXmlPart](./get_customxmlpart/)() | Returns the custom XML data part to which the parent structured document tag is mapped. |
 | [get_IsMapped](./get_ismapped/)() | Returns **true** if the parent structured document tag is successfully mapped to XML data. |
 | [get_PrefixMappings](./get_prefixmappings/)() const | Returns XML namespace prefix mappings to evaluate the [XPath](./get_xpath/). |
 | [get_StoreItemId](./get_storeitemid/)() | Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [XPath](./get_xpath/) expression. |
 | [get_XPath](./get_xpath/)() const | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [SetMapping](./setmapping/)(const System::SharedPtr\<Aspose::Words::Markup::CustomXmlPart\>\&, const System::String\&, const System::String\&) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
+| static [Type](./type/)() |  |
+
 ## Examples
 
 
-Shows how to set XML mappings for custom XML parts.
 
+Shows how to set XML mappings for custom XML parts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -41,7 +44,7 @@ System::String xmlPartId = System::Guid::NewGuid().ToString(u"B");
 System::String xmlPartContent = u"<root><text>Text element #1</text><text>Text element #2</text></root>";
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> xmlPart = doc->get_CustomXmlParts()->Add(xmlPartId, xmlPartContent);
 
-ASSERT_EQ(System::Text::Encoding::get_UTF8()->GetString(xmlPart->get_Data()), u"<root><text>Text element #1</text><text>Text element #2</text></root>");
+ASSERT_EQ(u"<root><text>Text element #1</text><text>Text element #2</text></root>", System::Text::Encoding::get_UTF8()->GetString(xmlPart->get_Data()));
 
 // Create a structured document tag that will display the contents of our CustomXmlPart.
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Block);
@@ -52,14 +55,15 @@ auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc,
 tag->get_XmlMapping()->SetMapping(xmlPart, u"/root[1]/text[2]", u"xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 ASSERT_TRUE(tag->get_XmlMapping()->get_IsMapped());
-ASPOSE_ASSERT_EQ(tag->get_XmlMapping()->get_CustomXmlPart(), xmlPart);
-ASSERT_EQ(tag->get_XmlMapping()->get_XPath(), u"/root[1]/text[2]");
-ASSERT_EQ(tag->get_XmlMapping()->get_PrefixMappings(), u"xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+ASPOSE_ASSERT_EQ(xmlPart, tag->get_XmlMapping()->get_CustomXmlPart());
+ASSERT_EQ(u"/root[1]/text[2]", tag->get_XmlMapping()->get_XPath());
+ASSERT_EQ(u"xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag->get_XmlMapping()->get_PrefixMappings());
 
 // Add the structured document tag to the document to display the content from our custom part.
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.XmlMapping.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

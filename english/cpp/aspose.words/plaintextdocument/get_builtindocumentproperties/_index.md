@@ -16,11 +16,12 @@ Gets [BuiltInDocumentProperties](./) of the document.
 System::SharedPtr<Aspose::Words::Properties::BuiltInDocumentProperties> Aspose::Words::PlainTextDocument::get_BuiltInDocumentProperties() const
 ```
 
+
 ## Examples
 
 
-Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's built-in properties.
 
+Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's built-in properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,11 +33,13 @@ doc->Save(get_ArtifactsDir() + u"PlainTextDocument.BuiltInProperties.docx");
 
 auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.BuiltInProperties.docx");
 
-ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
-ASSERT_EQ(plaintext->get_BuiltInDocumentProperties()->get_Author(), u"John Doe");
+ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
+ASSERT_EQ(u"John Doe", plaintext->get_BuiltInDocumentProperties()->get_Author());
 ```
+
 ## See Also
 
+* Class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

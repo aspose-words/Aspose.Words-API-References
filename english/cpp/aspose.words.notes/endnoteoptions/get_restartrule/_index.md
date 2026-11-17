@@ -20,11 +20,12 @@ Aspose::Words::Notes::FootnoteNumberingRule Aspose::Words::Notes::EndnoteOptions
 
 
 Not all values are applicable to endnotes. To ascertain which values are applicable see [FootnoteNumberingRule](../../footnotenumberingrule/).
+
 ## Examples
 
 
-Shows how to restart footnote/endnote numbering at certain places in the document.
 
+Shows how to restart footnote/endnote numbering at certain places in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,8 +63,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 4.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and endnotes and does not restart these counts at any point.
-ASSERT_EQ(FootnoteNumberingRule::Default, doc->get_FootnoteOptions()->get_RestartRule());
-ASSERT_EQ(FootnoteNumberingRule::Continuous, FootnoteNumberingRule::Default);
+ASSERT_EQ(doc->get_FootnoteOptions()->get_RestartRule(), FootnoteNumberingRule::Default);
+ASSERT_EQ(FootnoteNumberingRule::Default, FootnoteNumberingRule::Continuous);
 
 // We can use the "RestartRule" property to get the document to restart
 // the footnote/endnote counts at a new page or section.
@@ -72,8 +73,10 @@ doc->get_EndnoteOptions()->set_RestartRule(FootnoteNumberingRule::RestartSection
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.NumberingRule.docx");
 ```
+
 ## See Also
 
+* Enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -21,9 +21,10 @@ Aspose::Words::BuildingBlocks::BuildingBlockType Aspose::Words::BuildingBlocks::
 
 The building block type can influence the visibility and behavior of the building block in Microsoft Word.
 
-Corresponds to the docPartPr.types element in OOXML.
+Corresponds to the **docPartPr.types** element in OOXML. 
 ## See Also
 
+* Enum [BuildingBlockType](../../buildingblocktype/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

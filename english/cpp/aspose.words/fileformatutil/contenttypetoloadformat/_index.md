@@ -13,71 +13,70 @@ url: /cpp/aspose.words/fileformatutil/contenttypetoloadformat/
 Converts IANA content type into a load format enumerated value.
 
 ```cpp
-static Aspose::Words::LoadFormat Aspose::Words::FileFormatUtil::ContentTypeToLoadFormat(const System::String & contentType)
+static Aspose::Words::LoadFormat Aspose::Words::FileFormatUtil::ContentTypeToLoadFormat(const System::String &contentType)
 ```
+
 
 ## Examples
 
 
-Shows how to find the corresponding Aspose load/save format from each media type string.
 
+Shows how to find the corresponding **Aspose** load/save format from each media type string. 
 ```cpp
 // The ContentTypeToSaveFormat/ContentTypeToLoadFormat methods only accept official IANA media type names, also known as MIME types.
 // All valid media types are listed here: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
 // Trying to associate a SaveFormat with a partial media type string will not work.
-ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([]() -> void
+ASSERT_THROW(static_cast<std::function<void()>>([]() -> void
 {
     FileFormatUtil::ContentTypeToSaveFormat(u"jpeg");
-}))(), System::ArgumentException);
+})(), System::ArgumentException);
 
 // If Aspose.Words does not have a corresponding save/load format for a content type, an exception will also be thrown.
-ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([]() -> void
+ASSERT_THROW(static_cast<std::function<void()>>([]() -> void
 {
     FileFormatUtil::ContentTypeToSaveFormat(u"application/zip");
-}))(), System::ArgumentException);
+})(), System::ArgumentException);
 
 // Files of the types listed below can be saved, but not loaded using Aspose.Words.
-ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([]() -> void
+ASSERT_THROW(static_cast<std::function<void()>>([]() -> void
 {
     FileFormatUtil::ContentTypeToLoadFormat(u"image/jpeg");
-}))(), System::ArgumentException);
+})(), System::ArgumentException);
 
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"image/jpeg"), SaveFormat::Jpeg);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"image/png"), SaveFormat::Png);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"image/tiff"), SaveFormat::Tiff);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"image/gif"), SaveFormat::Gif);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"image/x-emf"), SaveFormat::Emf);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"application/vnd.ms-xpsdocument"), SaveFormat::Xps);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"application/pdf"), SaveFormat::Pdf);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"image/svg+xml"), SaveFormat::Svg);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"application/epub+zip"), SaveFormat::Epub);
+ASSERT_EQ(SaveFormat::Jpeg, FileFormatUtil::ContentTypeToSaveFormat(u"image/jpeg"));
+ASSERT_EQ(SaveFormat::Png, FileFormatUtil::ContentTypeToSaveFormat(u"image/png"));
+ASSERT_EQ(SaveFormat::Tiff, FileFormatUtil::ContentTypeToSaveFormat(u"image/tiff"));
+ASSERT_EQ(SaveFormat::Gif, FileFormatUtil::ContentTypeToSaveFormat(u"image/gif"));
+ASSERT_EQ(SaveFormat::Emf, FileFormatUtil::ContentTypeToSaveFormat(u"image/x-emf"));
+ASSERT_EQ(SaveFormat::Xps, FileFormatUtil::ContentTypeToSaveFormat(u"application/vnd.ms-xpsdocument"));
+ASSERT_EQ(SaveFormat::Pdf, FileFormatUtil::ContentTypeToSaveFormat(u"application/pdf"));
+ASSERT_EQ(SaveFormat::Svg, FileFormatUtil::ContentTypeToSaveFormat(u"image/svg+xml"));
+ASSERT_EQ(SaveFormat::Epub, FileFormatUtil::ContentTypeToSaveFormat(u"application/epub+zip"));
 
 // For file types that can be saved and loaded, we can match a media type to both a load format and a save format.
-ASSERT_EQ(FileFormatUtil::ContentTypeToLoadFormat(u"application/msword"), LoadFormat::Doc);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"application/msword"), SaveFormat::Doc);
+ASSERT_EQ(LoadFormat::Doc, FileFormatUtil::ContentTypeToLoadFormat(u"application/msword"));
+ASSERT_EQ(SaveFormat::Doc, FileFormatUtil::ContentTypeToSaveFormat(u"application/msword"));
 
-ASSERT_EQ(FileFormatUtil::ContentTypeToLoadFormat(u"application/vnd.openxmlformats-officedocument.wordprocessingml.document"), LoadFormat::Docx);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"application/vnd.openxmlformats-officedocument.wordprocessingml.document"), SaveFormat::Docx);
+ASSERT_EQ(LoadFormat::Docx, FileFormatUtil::ContentTypeToLoadFormat(u"application/vnd.openxmlformats-officedocument.wordprocessingml.document"));
+ASSERT_EQ(SaveFormat::Docx, FileFormatUtil::ContentTypeToSaveFormat(u"application/vnd.openxmlformats-officedocument.wordprocessingml.document"));
 
-ASSERT_EQ(FileFormatUtil::ContentTypeToLoadFormat(u"text/plain"), LoadFormat::Text);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"text/plain"), SaveFormat::Text);
+ASSERT_EQ(LoadFormat::Text, FileFormatUtil::ContentTypeToLoadFormat(u"text/plain"));
+ASSERT_EQ(SaveFormat::Text, FileFormatUtil::ContentTypeToSaveFormat(u"text/plain"));
 
-ASSERT_EQ(FileFormatUtil::ContentTypeToLoadFormat(u"application/rtf"), LoadFormat::Rtf);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"application/rtf"), SaveFormat::Rtf);
+ASSERT_EQ(LoadFormat::Rtf, FileFormatUtil::ContentTypeToLoadFormat(u"application/rtf"));
+ASSERT_EQ(SaveFormat::Rtf, FileFormatUtil::ContentTypeToSaveFormat(u"application/rtf"));
 
-ASSERT_EQ(FileFormatUtil::ContentTypeToLoadFormat(u"text/html"), LoadFormat::Html);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"text/html"), SaveFormat::Html);
+ASSERT_EQ(LoadFormat::Html, FileFormatUtil::ContentTypeToLoadFormat(u"text/html"));
+ASSERT_EQ(SaveFormat::Html, FileFormatUtil::ContentTypeToSaveFormat(u"text/html"));
 
-ASSERT_EQ(FileFormatUtil::ContentTypeToLoadFormat(u"multipart/related"), LoadFormat::Mhtml);
-ASSERT_EQ(FileFormatUtil::ContentTypeToSaveFormat(u"multipart/related"), SaveFormat::Mhtml);
+ASSERT_EQ(LoadFormat::Mhtml, FileFormatUtil::ContentTypeToLoadFormat(u"multipart/related"));
+ASSERT_EQ(SaveFormat::Mhtml, FileFormatUtil::ContentTypeToSaveFormat(u"multipart/related"));
 ```
-## Exceptions
-
-* ArgumentException - Throws when cannot convert.
 
 ## See Also
 
+* Enum [LoadFormat](../../loadformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

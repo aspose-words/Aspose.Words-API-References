@@ -13,18 +13,19 @@ url: /cpp/aspose.words.settings/viewoptions/get_formsdesign/
 Specifies whether the document is in forms design mode.
 
 ```cpp
-_Bool Aspose::Words::Settings::ViewOptions::get_FormsDesign() const
+bool Aspose::Words::Settings::ViewOptions::get_FormsDesign() const
 ```
 
 ## Remarks
 
 
 Currently works only for documents in WordML format.
+
 ## Examples
 
 
-Shows how to enable/disable forms design mode.
 
+Shows how to enable/disable forms design mode. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,8 +37,9 @@ doc->get_ViewOptions()->set_FormsDesign(useFormsDesign);
 
 doc->Save(get_ArtifactsDir() + u"ViewOptions.FormsDesign.xml");
 
-ASPOSE_ASSERT_EQ(System::IO::File::ReadAllText(get_ArtifactsDir() + u"ViewOptions.FormsDesign.xml").Contains(u"<w:formsDesign />"), useFormsDesign);
+ASPOSE_ASSERT_EQ(useFormsDesign, System::IO::File::ReadAllText(get_ArtifactsDir() + u"ViewOptions.FormsDesign.xml").Contains(u"<w:formsDesign />"));
 ```
+
 ## See Also
 
 * Class [ViewOptions](../)

@@ -16,11 +16,12 @@ Gets or sets a ThemeColor object that represents the stroke foreground color.
 Aspose::Words::Themes::ThemeColor Aspose::Words::Drawing::Stroke::get_ForeThemeColor()
 ```
 
+
 ## Examples
 
 
-Shows how to set fore theme color and tint and shade.
 
+Shows how to set fore theme color and tint and shade. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,8 +33,10 @@ stroke->set_ForeTintAndShade(0.5);
 
 doc->Save(get_ArtifactsDir() + u"Shape.StrokeForeThemeColors.docx");
 ```
+
 ## See Also
 
+* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

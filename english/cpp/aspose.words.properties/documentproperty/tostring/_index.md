@@ -20,17 +20,18 @@ System::String Aspose::Words::Properties::DocumentProperty::ToString() const ove
 
 
 Converts a boolean property into "Y" or "N". Converts a date property into a short date string. For all other types converts a property using Object.ToString().
+
 ## Examples
 
 
-Shows how to work with custom document properties.
 
+Shows how to work with custom document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
 // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
 // The document has a fixed list of built-in properties. The user creates all of the custom properties.
-ASSERT_EQ(System::ObjectExt::ToString(doc->get_CustomDocumentProperties()->idx_get(u"CustomProperty")), u"Value of custom document property");
+ASSERT_EQ(u"Value of custom document property", System::ObjectExt::ToString(doc->get_CustomDocumentProperties()->idx_get(u"CustomProperty")));
 
 doc->get_CustomDocumentProperties()->Add(u"CustomProperty2", System::String(u"Value of custom document property #2"));
 
@@ -43,8 +44,8 @@ for (auto&& customDocumentProperty : System::IterateOver(doc->get_CustomDocument
 }
 ```
 
-Shows various type conversion methods of custom document properties.
 
+Shows various type conversion methods of custom document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -56,12 +57,13 @@ properties->Add(u"Authorized Date", authDate);
 properties->Add(u"Authorized Revision", doc->get_BuiltInDocumentProperties()->get_RevisionNumber());
 properties->Add(u"Authorized Amount", 123.45);
 
-ASPOSE_ASSERT_EQ(properties->idx_get(u"Authorized")->ToBool(), true);
-ASSERT_EQ(System::ObjectExt::ToString(properties->idx_get(u"Authorized By")), u"John Doe");
-ASSERT_EQ(properties->idx_get(u"Authorized Date")->ToDateTime(), authDate);
-ASSERT_EQ(properties->idx_get(u"Authorized Revision")->ToInt(), 1);
-ASPOSE_ASSERT_EQ(properties->idx_get(u"Authorized Amount")->ToDouble(), 123.45);
+ASPOSE_ASSERT_EQ(true, properties->idx_get(u"Authorized")->ToBool());
+ASSERT_EQ(u"John Doe", System::ObjectExt::ToString(properties->idx_get(u"Authorized By")));
+ASSERT_EQ(authDate, properties->idx_get(u"Authorized Date")->ToDateTime());
+ASSERT_EQ(1, properties->idx_get(u"Authorized Revision")->ToInt());
+ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
 ```
+
 ## See Also
 
 * Class [DocumentProperty](../)

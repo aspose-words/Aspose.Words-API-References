@@ -16,11 +16,12 @@ Returns an enumerator object.
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries>>> Aspose::Words::Drawing::Charts::ChartSeriesCollection::GetEnumerator() override
 ```
 
+
 ## Examples
 
 
-Shows how to add and remove series data in a chart.
 
+Shows how to add and remove series data in a chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +34,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = chartShape->get
 // Four clusters of three columns will represent this data.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> chartData = chart->get_Series();
 
-ASSERT_EQ(chartData->get_Count(), 3);
+ASSERT_EQ(3, chartData->get_Count());
 
 // Print the name of every series in the chart.
 {
@@ -65,8 +66,10 @@ ASSERT_FALSE(chartData->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspo
 // before we can begin working on a blank chart.
 chartData->Clear();
 ```
+
 ## See Also
 
+* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

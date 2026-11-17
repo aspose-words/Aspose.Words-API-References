@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldDate class
 linktitle: FieldDate
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldDate class. Implements the DATE field. To learn more, visit the Working with Fields documentation article in C++.'
+description: 'Aspose::Words::Fields::FieldDate class. Implements the DATE field. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 31000
 url: /cpp/aspose.words.fields/fielddate/
@@ -10,11 +10,10 @@ url: /cpp/aspose.words.fields/fielddate/
 ## FieldDate class
 
 
-Implements the DATE field. 
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Implements the DATE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
-class FieldDate : public Field,
+class FieldDate : public Aspose::Words::Fields::Field,
                   public IFieldCodeTokenInfoProvider,
                   public IFieldWithCalendar
 ```
@@ -23,22 +22,10 @@ class FieldDate : public Field,
 
 | Method | Description |
 | --- | --- |
-| [get_UseLastFormat](./get_uselastformat/)() | Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field. |
-| [get_UseLunarCalendar](./get_uselunarcalendar/)() override | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
-| [get_UseSakaEraCalendar](./get_usesakaeracalendar/)() override | Gets or sets whether to use the Saka Era calendar. |
-| [get_UseUmAlQuraCalendar](./get_useumalquracalendar/)() override | Gets or sets whether to use the Um-al-Qura calendar. |
-| [set_UseLastFormat](./set_uselastformat/)(bool) | Sets whether to use a format last used by the hosting application when inserting a new DATE field. |
-| [set_UseLunarCalendar](./set_uselunarcalendar/)(bool) | Sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
-| [set_UseSakaEraCalendar](./set_usesakaeracalendar/)(bool) | Sets whether to use the Saka Era calendar. |
-| [set_UseUmAlQuraCalendar](./set_useumalquracalendar/)(bool) | Sets whether to use the Um-al-Qura calendar. |
-| [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [Unlink](../field/unlink/)() | Performs the field unlink. |
-| [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
+| [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
+| [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
@@ -47,18 +34,33 @@ class FieldDate : public Field,
 | [get_Separator](../field/get_separator/)() | Gets the node that represents the field separator. Can be **null**. |
 | [get_Start](../field/get_start/)() const | Gets the node that represents the start of the field. |
 | virtual [get_Type](../field/get_type/)() const | Gets the Microsoft Word field type. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [set_IsLocked](../field/set_islocked/)(bool) | Sets whether the field is locked (should not recalculate its result). |
-| [set_LocaleId](../field/set_localeid/)(int32_t) | Sets the LCID of the field. |
-| [set_Result](../field/set_result/)(const System::String \&) | Sets text that is between the field separator and field end. |
-## Remarks
+| [get_UseLastFormat](./get_uselastformat/)() | Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field. |
+| [get_UseLunarCalendar](./get_uselunarcalendar/)() override | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
+| [get_UseSakaEraCalendar](./get_usesakaeracalendar/)() override | Gets or sets whether to use the Saka Era calendar. |
+| [get_UseUmAlQuraCalendar](./get_useumalquracalendar/)() override | Gets or sets whether to use the Um-al-Qura calendar. |
+| [GetFieldCode](../field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| virtual [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
+| [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
+| [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
+| [set_UseLastFormat](./set_uselastformat/)(bool) | Setter for [Aspose::Words::Fields::FieldDate::get_UseLastFormat](./get_uselastformat/). |
+| [set_UseLunarCalendar](./set_uselunarcalendar/)(bool) | Setter for [Aspose::Words::Fields::FieldDate::get_UseLunarCalendar](./get_uselunarcalendar/). |
+| [set_UseSakaEraCalendar](./set_usesakaeracalendar/)(bool) | Setter for [Aspose::Words::Fields::FieldDate::get_UseSakaEraCalendar](./get_usesakaeracalendar/). |
+| [set_UseUmAlQuraCalendar](./set_useumalquracalendar/)(bool) | Setter for [Aspose::Words::Fields::FieldDate::get_UseUmAlQuraCalendar](./get_useumalquracalendar/). |
+| static [Type](./type/)() |  |
+| [Unlink](../field/unlink/)() | Performs the field unlink. |
+| [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
- Inserts the current date and time. By default, the Gregorian calendar is used. 
 ## Examples
 
 
-Shows how to use DATE fields to display dates according to different kinds of calendars.
 
+Shows how to use DATE fields to display dates according to different kinds of calendars. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -68,31 +70,32 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // 1 -  Islamic Lunar Calendar:
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->set_UseLunarCalendar(true);
-ASSERT_EQ(field->GetFieldCode(), u" DATE  \\h");
+ASSERT_EQ(u" DATE  \\h", field->GetFieldCode());
 builder->Writeln();
 
 // 2 -  Umm al-Qura calendar:
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->set_UseUmAlQuraCalendar(true);
-ASSERT_EQ(field->GetFieldCode(), u" DATE  \\u");
+ASSERT_EQ(u" DATE  \\u", field->GetFieldCode());
 builder->Writeln();
 
 // 3 -  Indian National Calendar:
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->set_UseSakaEraCalendar(true);
-ASSERT_EQ(field->GetFieldCode(), u" DATE  \\s");
+ASSERT_EQ(u" DATE  \\s", field->GetFieldCode());
 builder->Writeln();
 
 // Insert a DATE field and set its calendar type to the one last used by the host application.
 // In Microsoft Word, the type will be the most recently used in the Insert -> Text -> Date and Time dialog box.
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->set_UseLastFormat(true);
-ASSERT_EQ(field->GetFieldCode(), u" DATE  \\l");
+ASSERT_EQ(u" DATE  \\l", field->GetFieldCode());
 builder->Writeln();
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.DATE.docx");
 ```
+
 ## See Also
 
 * Class [Field](../field/)

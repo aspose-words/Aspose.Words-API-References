@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::CustomXmlSchemaCollection::iterator typedef
 linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::CustomXmlSchemaCollection::iterator typedef. Iterator type in C++.'
+description: 'How to use Aspose::Words::Markup::CustomXmlSchemaCollection::iterator typedef of Aspose::Words::Markup::CustomXmlSchemaCollection class in C++.'
 type: docs
 weight: 23000
 url: /cpp/aspose.words.markup/customxmlschemacollection/iterator/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/iterator/
 ## iterator typedef
 
 
-Iterator type.
+
 
 ```cpp
-using Aspose::Words::Markup::CustomXmlSchemaCollection::iterator = typename iterator_holder_type::iterator
+using Aspose::Words::Markup::CustomXmlSchemaCollection::iterator =  typename iterator_holder_type::iterator
 ```
 
 ## See Also

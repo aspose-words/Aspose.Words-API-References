@@ -2,7 +2,7 @@
 title: Aspose::Words::Rendering::NodeRendererBase class
 linktitle: NodeRendererBase
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Rendering::NodeRendererBase class. Base class for ShapeRenderer and OfficeMathRenderer. To learn more, visit the Working with Shapes documentation article in C++.'
+description: 'Aspose::Words::Rendering::NodeRendererBase class. Base class for ShapeRenderer and OfficeMathRenderer. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.rendering/noderendererbase/
@@ -10,8 +10,7 @@ url: /cpp/aspose.words.rendering/noderendererbase/
 ## NodeRendererBase class
 
 
-Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/). 
-To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
+Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/). To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
 class NodeRendererBase : public System::Object
@@ -21,28 +20,33 @@ class NodeRendererBase : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [get_BoundsInPoints](./get_boundsinpoints/)() const | Gets the actual bounds of the shape in points. |
+| [get_OpaqueBoundsInPoints](./get_opaqueboundsinpoints/)() | Gets the opaque bounds of the shape in points. |
+| [get_SizeInPoints](./get_sizeinpoints/)() | Gets the actual size of the shape in points. |
 | [GetBoundsInPixels](./getboundsinpixels/)(float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetBoundsInPixels](./getboundsinpixels/)(float, float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetOpaqueBoundsInPixels](./getopaqueboundsinpixels/)(float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetOpaqueBoundsInPixels](./getopaqueboundsinpixels/)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](./getsizeinpixels/)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](./getsizeinpixels/)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
-| [RenderToScale](./rendertoscale/)(const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float) | Renders the shape into a Graphics object to a specified scale. |
-| [RenderToSize](./rendertosize/)(const System::SharedPtr\<System::Drawing::Graphics\> \&, float, float, float, float) | Renders the shape into a Graphics object to a specified size. |
-| [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a stream. |
-| [Save](./save/)(const System::SharedPtr\<System::IO::Stream\> \&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a stream. |
-| [Save](./save/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a file. |
-| [Save](./save/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a file. |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a stream. |
-| [Save](./save/)(std::basic_ostream\<CharType, Traits\> \&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a stream. |
-| [get_BoundsInPoints](./get_boundsinpoints/)() const | Gets the actual bounds of the shape in points. |
-| [get_OpaqueBoundsInPoints](./get_opaqueboundsinpoints/)() | Gets the opaque bounds of the shape in points. |
-| [get_SizeInPoints](./get_sizeinpoints/)() | Gets the actual size of the shape in points. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [NodeRendererBase](./noderendererbase/)() |  |
+| [RenderToScale](./rendertoscale/)(const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float) | Renders the shape into a **Graphics** object to a specified scale. |
+| [RenderToSize](./rendertosize/)(const System::SharedPtr\<System::Drawing::Graphics\>\&, float, float, float, float) | Renders the shape into a **Graphics** object to a specified size. |
+| [Save](./save/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a file. |
+| [Save](./save/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a file. |
+| [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) | Renders the shape into an image and saves into a stream. |
+| [Save](./save/)(const System::SharedPtr\<System::IO::Stream\>\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) | Renders the shape into an SVG image and saves into a stream. |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::ImageSaveOptions\>) |  |
+| [Save](./save/)(std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::Saving::SvgSaveOptions\>) |  |
+| static [Type](./type/)() |  |
+
 ## Examples
 
 
-Shows how to measure and scale shapes.
 
+Shows how to measure and scale shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -50,39 +54,40 @@ auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->Get
 auto renderer = System::MakeObject<Aspose::Words::Rendering::OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.
-ASSERT_NEAR(renderer->get_SizeInPoints().get_Width(), 122.0f, 0.25f);
-ASSERT_NEAR(renderer->get_SizeInPoints().get_Height(), 13.0f, 0.15f);
+ASSERT_NEAR(122.0f, renderer->get_SizeInPoints().get_Width(), 0.25f);
+ASSERT_NEAR(13.0f, renderer->get_SizeInPoints().get_Height(), 0.15f);
 
-ASSERT_NEAR(renderer->get_BoundsInPoints().get_Width(), 122.0f, 0.25f);
-ASSERT_NEAR(renderer->get_BoundsInPoints().get_Height(), 13.0f, 0.15f);
+ASSERT_NEAR(122.0f, renderer->get_BoundsInPoints().get_Width(), 0.25f);
+ASSERT_NEAR(13.0f, renderer->get_BoundsInPoints().get_Height(), 0.15f);
 
 // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
-ASSERT_NEAR(renderer->get_OpaqueBoundsInPoints().get_Width(), 119.5f, 0.25f);
-ASSERT_NEAR(renderer->get_OpaqueBoundsInPoints().get_Height(), 14.2f, 0.1f);
+ASSERT_NEAR(119.5f, renderer->get_OpaqueBoundsInPoints().get_Width(), 0.25f);
+ASSERT_NEAR(14.2f, renderer->get_OpaqueBoundsInPoints().get_Height(), 0.1f);
 
 // Get the shape size in pixels, with linear scaling to a specific DPI.
 System::Drawing::Rectangle bounds = renderer->GetBoundsInPixels(1.0f, 96.0f);
 System::String dpi96 = u"DPI 96";
-ASSERT_EQ(bounds.get_Width(), 163) << (dpi96);
-ASSERT_EQ(bounds.get_Height(), 18) << (dpi96);
+ASSERT_EQ(163, bounds.get_Width()) << (dpi96);
+ASSERT_EQ(18, bounds.get_Height()) << (dpi96);
 
 // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
 bounds = renderer->GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 System::String dpi96150 = u"DPI 96 150";
-ASSERT_EQ(bounds.get_Width(), 163) << (dpi96150);
-ASSERT_EQ(bounds.get_Height(), 27) << (dpi96150);
+ASSERT_EQ(163, bounds.get_Width()) << (dpi96150);
+ASSERT_EQ(27, bounds.get_Height()) << (dpi96150);
 
 // The opaque bounds may vary here also.
 bounds = renderer->GetOpaqueBoundsInPixels(1.0f, 96.0f);
 System::String dpi96Opaque = u"DPI 96 Opaque";
-ASSERT_EQ(bounds.get_Width(), 160) << (dpi96Opaque);
-ASSERT_EQ(bounds.get_Height(), 19) << (dpi96Opaque);
+ASSERT_EQ(160, bounds.get_Width()) << (dpi96Opaque);
+ASSERT_EQ(19, bounds.get_Height()) << (dpi96Opaque);
 
 bounds = renderer->GetOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
 System::String dpi96150Opaque = u"DPI 96 150 Opaque";
-ASSERT_EQ(bounds.get_Width(), 160) << (dpi96150Opaque);
-ASSERT_EQ(bounds.get_Height(), 29) << (dpi96150Opaque);
+ASSERT_EQ(160, bounds.get_Width()) << (dpi96150Opaque);
+ASSERT_EQ(29, bounds.get_Height()) << (dpi96150Opaque);
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Rendering](../)

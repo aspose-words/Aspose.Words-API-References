@@ -4,7 +4,7 @@ linktitle: get_FitText
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_FitText method. If true, fits text in the cell, compressing each paragraph to the width of the cell in C++.'
 type: docs
-weight: 34000
+weight: 5000
 url: /cpp/aspose.words.tables/cellformat/get_fittext/
 ---
 ## CellFormat::get_FitText method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words.tables/cellformat/get_fittext/
 If **true**, fits text in the cell, compressing each paragraph to the width of the cell.
 
 ```cpp
-_Bool Aspose::Words::Tables::CellFormat::get_FitText()
+bool Aspose::Words::Tables::CellFormat::get_FitText()
 ```
+
 
 ## Examples
 
 
-Shows how to build a table with custom borders.
 
+Shows how to build a table with custom borders. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -79,6 +80,7 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
+
 ## See Also
 
 * Class [CellFormat](../)

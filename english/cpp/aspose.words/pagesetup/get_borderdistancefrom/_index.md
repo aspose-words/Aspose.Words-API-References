@@ -16,11 +16,12 @@ Gets or sets a value that indicates whether the specified page border is measure
 Aspose::Words::PageBorderDistanceFrom Aspose::Words::PageSetup::get_BorderDistanceFrom()
 ```
 
+
 ## Examples
 
 
-Shows how to create a wide blue band border at the top of the first page.
 
+Shows how to create a wide blue band border at the top of the first page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -37,8 +38,10 @@ border->set_DistanceFromText(0);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorderProperties.docx");
 ```
+
 ## See Also
 
+* Enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

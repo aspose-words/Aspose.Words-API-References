@@ -13,18 +13,20 @@ url: /cpp/aspose.words.vba/vbaproject/get_isprotected/
 Shows whether the [VbaProject](../) is password protected.
 
 ```cpp
-_Bool Aspose::Words::Vba::VbaProject::get_IsProtected()
+bool Aspose::Words::Vba::VbaProject::get_IsProtected()
 ```
+
 
 ## Examples
 
 
-Shows whether the VbaProject is password protected.
 
+Shows whether the [VbaProject](../) is password protected. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Vba protected.docm"));
 ASSERT_TRUE(doc->get_VbaProject()->get_IsProtected());
 ```
+
 ## See Also
 
 * Class [VbaProject](../)

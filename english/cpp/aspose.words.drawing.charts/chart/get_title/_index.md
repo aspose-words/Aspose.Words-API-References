@@ -16,11 +16,12 @@ Provides access to the chart title properties.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartTitle> Aspose::Words::Drawing::Charts::Chart::get_Title()
 ```
 
+
 ## Examples
 
 
-Shows how to insert a chart and set a title.
 
+Shows how to insert a chart and set a title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,8 +44,10 @@ title->set_Overlay(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartTitle.docx");
 ```
+
 ## See Also
 
+* Class [ChartTitle](../../charttitle/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

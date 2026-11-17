@@ -21,16 +21,17 @@ System::ArrayPtr<System::SharedPtr<System::Object>> Aspose::Words::Properties::B
 
 Every heading pair occupies two elements in this array.
 
-The first element of the pair is a String and specifies the heading name. The second element of the pair is an Int32 and specifies the count of document parts for this heading in the [TitlesOfParts](../get_titlesofparts/) property.
+The first element of the pair is a **String** and specifies the heading name. The second element of the pair is an **Int32** and specifies the count of document parts for this heading in the [TitlesOfParts](../get_titlesofparts/) property.
 
 The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [TitlesOfParts](../get_titlesofparts/) property.
 
 Aspose.Words does not update this property.
+
 ## Examples
 
 
-Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties.
 
+Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Heading pairs and titles of parts.docx"));
 
@@ -56,6 +57,7 @@ while (headingPairsIndex < headingPairs->get_Length())
     }
 }
 ```
+
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

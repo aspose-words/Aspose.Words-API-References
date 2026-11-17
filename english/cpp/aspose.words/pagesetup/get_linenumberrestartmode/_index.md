@@ -16,11 +16,12 @@ Gets or sets the way line numbering runs that is, whether it starts over at the 
 Aspose::Words::LineNumberRestartMode Aspose::Words::PageSetup::get_LineNumberRestartMode()
 ```
 
+
 ## Examples
 
 
-Shows how to enable line numbering for a section.
 
+Shows how to enable line numbering for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,8 +50,10 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.LineNumbers.docx");
 ```
+
 ## See Also
 
+* Enum [LineNumberRestartMode](../../linenumberrestartmode/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

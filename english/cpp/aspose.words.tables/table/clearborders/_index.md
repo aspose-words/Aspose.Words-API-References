@@ -16,11 +16,12 @@ Removes all table and cell borders on this table.
 void Aspose::Words::Tables::Table::ClearBorders()
 ```
 
+
 ## Examples
 
 
-Shows how to apply an outline border to a table.
 
+Shows how to apply an outline border to a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -44,8 +45,8 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
 
-Shows how to remove all borders from a table.
 
+Shows how to remove all borders from a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,9 +60,9 @@ builder->EndTable();
 System::SharedPtr<Aspose::Words::Border> topBorder = table->get_FirstRow()->get_RowFormat()->get_Borders()->idx_get(BorderType::Top);
 table->SetBorder(BorderType::Top, LineStyle::Double, 1.5, System::Drawing::Color::get_Red(), true);
 
-ASPOSE_ASSERT_EQ(topBorder->get_LineWidth(), 1.5);
-ASSERT_EQ(topBorder->get_Color().ToArgb(), System::Drawing::Color::get_Red().ToArgb());
-ASSERT_EQ(topBorder->get_LineStyle(), LineStyle::Double);
+ASPOSE_ASSERT_EQ(1.5, topBorder->get_LineWidth());
+ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), topBorder->get_Color().ToArgb());
+ASSERT_EQ(LineStyle::Double, topBorder->get_LineStyle());
 
 // Clear the borders of all cells in the table, and then save the document.
 table->ClearBorders();
@@ -72,10 +73,11 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 topBorder = table->get_FirstRow()->get_RowFormat()->get_Borders()->idx_get(BorderType::Top);
 
-ASPOSE_ASSERT_EQ(topBorder->get_LineWidth(), 0.0);
-ASSERT_EQ(topBorder->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
-ASSERT_EQ(topBorder->get_LineStyle(), LineStyle::None);
+ASPOSE_ASSERT_EQ(0.0, topBorder->get_LineWidth());
+ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), topBorder->get_Color().ToArgb());
+ASSERT_EQ(LineStyle::None, topBorder->get_LineStyle());
 ```
+
 ## See Also
 
 * Class [Table](../)

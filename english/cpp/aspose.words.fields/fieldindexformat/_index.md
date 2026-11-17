@@ -13,26 +13,27 @@ url: /cpp/aspose.words.fields/fieldindexformat/
 Specifies the formatting for the [FieldIndex](../fieldindex/) fields in a document.
 
 ```cpp
-enum class FieldIndexFormat : int
+enum class FieldIndexFormat
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bulleted | 4 | Bulleted. |
+| Template | 0 | From template. |
 | Classic | 1 | Classic. |
 | Fancy | 2 | Fancy. |
-| Formal | 5 | Formal. |
 | Modern | 3 | Modern. |
+| Bulleted | 4 | Bulleted. |
+| Formal | 5 | Formal. |
 | Simple | 6 | Simple. |
-| Template | 0 | From template. |
+
 
 ## Examples
 
 
-Shows how to formatting FieldIndex fields.
 
+Shows how to formatting [FieldIndex](../fieldindex/) fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,6 +49,7 @@ doc->UpdateFields();
 
 doc->Save(get_ArtifactsDir() + u"Field.SetFieldIndexFormat.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

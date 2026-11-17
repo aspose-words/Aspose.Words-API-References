@@ -24,11 +24,12 @@ This is a shortcut to the [Height](../../shapebase/get_height/) property.
 Valid values ​​range from 0 to 1584 inclusive.
 
 The default value is 1.5.
+
 ## Examples
 
 
-Shows how to insert a horizontal rule shape, and customize its formatting.
 
+Shows how to insert a horizontal rule shape, and customize its formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,9 +45,6 @@ horizontalRuleFormat->set_NoShade(true);
 ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
-## Exceptions
-
-* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 

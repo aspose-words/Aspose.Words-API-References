@@ -4,7 +4,7 @@ linktitle: get_VerticalMerge
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::CellFormat::get_VerticalMerge method. Specifies how the cell is merged with other cells vertically in C++.'
 type: docs
-weight: 44000
+weight: 14000
 url: /cpp/aspose.words.tables/cellformat/get_verticalmerge/
 ---
 ## CellFormat::get_VerticalMerge method
@@ -22,11 +22,12 @@ Aspose::Words::Tables::CellMerge Aspose::Words::Tables::CellFormat::get_Vertical
 Cells can only be merged vertically if their left and right boundaries are identical.
 
 When cells are vertically merged, the display areas of the merged cells are consolidated. The consolidated area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
+
 ## Examples
 
 
-Shows how to merge table cells vertically.
 
+Shows how to merge table cells vertically. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,8 +59,10 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"CellFormat.VerticalMerge.docx");
 ```
+
 ## See Also
 
+* Enum [CellMerge](../../cellmerge/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -22,11 +22,12 @@ System::SharedPtr<System::Text::Encoding> Aspose::Words::Loading::LoadOptions::g
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is **null**, then the system will try to automatically detect the encoding.
+
 ## Examples
 
 
-Shows how to set the encoding with which to open a document.
 
+Shows how to set the encoding with which to open a document. 
 ```cpp
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 loadOptions->set_Encoding(System::Text::Encoding::get_ASCII());
@@ -36,6 +37,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"English t
 
 ASSERT_TRUE(doc->ToString(SaveFormat::Text).Contains(u"This is a sample text in English."));
 ```
+
 ## See Also
 
 * Class [LoadOptions](../)

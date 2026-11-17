@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldstart/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::Fields::FieldStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -23,15 +23,17 @@ _Bool Aspose::Words::Fields::FieldStart::Accept(System::SharedPtr<Aspose::Words:
 
 ### ReturnValue
 
-False if the visitor requested the enumeration to stop.
+**False** if the visitor requested the enumeration to stop.
 ## Remarks
 
 
 Calls [VisitFieldStart()](../../../aspose.words/documentvisitor/visitfieldstart/).
 
 For more info see the Visitor design pattern.
+
 ## See Also
 
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [FieldStart](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

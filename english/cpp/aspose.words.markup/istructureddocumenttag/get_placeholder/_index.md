@@ -4,7 +4,7 @@ linktitle: get_Placeholder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_Placeholder method. Gets the BuildingBlock containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the XmlMapping element or the IsShowingPlaceholderText element is true in C++.'
 type: docs
-weight: 17650
+weight: 8000
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_placeholder/
 ---
 ## IStructuredDocumentTag::get_Placeholder method
@@ -13,17 +13,15 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/get_placeholder/
 Gets the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [XmlMapping](../get_xmlmapping/) element or the [IsShowingPlaceholderText](../get_isshowingplaceholdertext/) element is true.
 
 ```cpp
-virtual System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock> Aspose::Words::Markup::IStructuredDocumentTag::get_Placeholder()
+virtual System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock> Aspose::Words::Markup::IStructuredDocumentTag::get_Placeholder()=0
 ```
 
-## Remarks
 
-Can be null, meaning that the placeholder is not applicable for this Sdt.
 ## Examples
 
 
-Shows how to use a building block's contents as a custom placeholder text for a structured document tag.
 
+Shows how to use a building block's contents as a custom placeholder text for a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -48,7 +46,7 @@ tag->set_PlaceholderName(u"Custom Placeholder");
 
 // If "PlaceholderName" refers to an existing block in the parent document's glossary document,
 // we will be able to verify the building block via the "Placeholder" property.
-ASPOSE_ASSERT_EQ(tag->get_Placeholder(), substituteBlock);
+ASPOSE_ASSERT_EQ(substituteBlock, tag->get_Placeholder());
 
 // Set the "IsShowingPlaceholderText" property to "true" to treat the
 // structured document tag's current contents as placeholder text.
@@ -63,8 +61,10 @@ builder->InsertNode(tag);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ```
+
 ## See Also
 
+* Class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

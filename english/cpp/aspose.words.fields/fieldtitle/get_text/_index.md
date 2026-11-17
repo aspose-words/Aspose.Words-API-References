@@ -16,11 +16,12 @@ Gets or sets the text of the title.
 System::String Aspose::Words::Fields::FieldTitle::get_Text()
 ```
 
+
 ## Examples
 
 
-Shows how to use the TITLE field.
 
+Shows how to use the TITLE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -32,8 +33,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" TITLE ");
-ASSERT_EQ(field->get_Result(), u"My Title");
+ASSERT_EQ(u" TITLE ", field->GetFieldCode());
+ASSERT_EQ(u"My Title", field->get_Result());
 
 // Setting a value for the field's Text property,
 // and then updating the field will also overwrite the corresponding built-in property with the new value.
@@ -42,13 +43,14 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldTitle>(builder->InsertF
 field->set_Text(u"My New Title");
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" TITLE  \"My New Title\"");
-ASSERT_EQ(field->get_Result(), u"My New Title");
-ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Title(), u"My New Title");
+ASSERT_EQ(u" TITLE  \"My New Title\"", field->GetFieldCode());
+ASSERT_EQ(u"My New Title", field->get_Result());
+ASSERT_EQ(u"My New Title", doc->get_BuiltInDocumentProperties()->get_Title());
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TITLE.docx");
 ```
+
 ## See Also
 
 * Class [FieldTitle](../)

@@ -4,7 +4,7 @@ linktitle: get_HasMacros
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_HasMacros method. Returns true if the document has a VBA project (macros) in C++.'
 type: docs
-weight: 120000
+weight: 30000
 url: /cpp/aspose.words/document/get_hasmacros/
 ---
 ## Document::get_HasMacros method
@@ -13,14 +13,15 @@ url: /cpp/aspose.words/document/get_hasmacros/
 Returns **true** if the document has a VBA project (macros).
 
 ```cpp
-_Bool Aspose::Words::Document::get_HasMacros()
+bool Aspose::Words::Document::get_HasMacros()
 ```
+
 
 ## Examples
 
 
-Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
 
+Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Macro.docm"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,7 +33,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(build
 field->set_MacroName(u"MyMacro");
 field->set_DisplayText(System::String(u"Double click to run macro: ") + field->get_MacroName());
 
-ASSERT_EQ(field->GetFieldCode(), u" MACROBUTTON  MyMacro Double click to run macro: MyMacro");
+ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->GetFieldCode());
 
 // Use the property to reference "ViewZoom200", a macro that ships with Microsoft Word.
 // We can find all other macros via View -> Macros (dropdown) -> View Macros.
@@ -44,14 +45,13 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->I
 field->set_MacroName(u"ViewZoom200");
 field->set_DisplayText(System::String(u"Run ") + field->get_MacroName());
 
-ASSERT_EQ(field->GetFieldCode(), u" MACROBUTTON  ViewZoom200 Run ViewZoom200");
+ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
 
 // Save the document as a macro-enabled document type.
 doc->Save(get_ArtifactsDir() + u"Field.MACROBUTTON.docm");
 ```
-## See Also
 
-* [RemoveMacros](../removemacros/)
+## See Also
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)

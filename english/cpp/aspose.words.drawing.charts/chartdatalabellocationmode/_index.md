@@ -13,21 +13,22 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabellocationmode/
 Specifies how the values ​​that specify the location of a data label - the [Left](../chartdatalabel/get_left/) and [Top](../chartdatalabel/get_top/) properties - are interpreted.
 
 ```cpp
-enum class ChartDataLabelLocationMode : int
+enum class ChartDataLabelLocationMode
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Absolute | 1 | The location of a data label is specified using absolute coordinates, staring from the upper left corner of a chart. |
 | Offset | 0 | The location of a data label is specified by an offset from the position defined by its [Position](../chartdatalabel/get_position/) property. |
+| Absolute | 1 | The location of a data label is specified using absolute coordinates, staring from the upper left corner of a chart. |
+
 
 ## Examples
 
 
-Shows how to place data labels of doughnut chart outside doughnut.
 
+Shows how to place data labels of doughnut chart outside doughnut. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -136,6 +137,7 @@ for (int32_t i = 0; i < series->get_YValues()->get_Count(); i++)
 
 doc->Save(get_ArtifactsDir() + u"Charts.DoughnutChartLabelPosition.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

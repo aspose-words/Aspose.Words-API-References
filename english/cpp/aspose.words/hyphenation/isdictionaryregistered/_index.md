@@ -13,14 +13,15 @@ url: /cpp/aspose.words/hyphenation/isdictionaryregistered/
 Returns **false** if for the specified language there is no dictionary registered or if registered is Null dictionary, **true** otherwise.
 
 ```cpp
-static _Bool Aspose::Words::Hyphenation::IsDictionaryRegistered(const System::String & language)
+static bool Aspose::Words::Hyphenation::IsDictionaryRegistered(const System::String &language)
 ```
+
 
 ## Examples
 
 
-Shows how to register a hyphenation dictionary.
 
+Shows how to register a hyphenation dictionary. 
 ```cpp
 // A hyphenation dictionary contains a list of strings that define hyphenation rules for the dictionary's language.
 // When a document contains lines of text in which a word could be split up and continued on the next line,
@@ -52,6 +53,7 @@ ASSERT_FALSE(Hyphenation::IsDictionaryRegistered(u"de-CH"));
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"German text.docx"));
 doc->Save(get_ArtifactsDir() + u"Hyphenation.Dictionary.Unregistered.pdf");
 ```
+
 ## See Also
 
 * Class [Hyphenation](../)

@@ -4,23 +4,24 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Vba::VbaModuleCollection::idx_get method. Retrieves a VbaModule object by name, or Null if not found in C++.'
 type: docs
-weight: 14334
+weight: 9000
 url: /cpp/aspose.words.vba/vbamodulecollection/idx_get/
 ---
-## VbaModuleCollection::idx_get(const System::String \&) method
+## VbaModuleCollection::idx_get(const System::String\&) method
 
 
 Retrieves a [VbaModule](../../vbamodule/) object by name, or Null if not found.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Vba::VbaModule> Aspose::Words::Vba::VbaModuleCollection::idx_get(const System::String & name)
+System::SharedPtr<Aspose::Words::Vba::VbaModule> Aspose::Words::Vba::VbaModuleCollection::idx_get(const System::String &name)
 ```
+
 
 ## Examples
 
 
-Shows how to access a document's VBA project information.
 
+Shows how to access a document's VBA project information. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 
@@ -30,7 +31,7 @@ std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name
 
 System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
 
-ASSERT_EQ(3, vbaModules->LINQ_Count());
+ASSERT_EQ(vbaModules->LINQ_Count(), 3);
 
 for (auto&& module_ : vbaModules)
 {
@@ -44,8 +45,10 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 // Remove a module from the collection.
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
+
 ## See Also
 
+* Class [VbaModule](../../vbamodule/)
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -62,11 +65,12 @@ System::SharedPtr<Aspose::Words::Vba::VbaModule> Aspose::Words::Vba::VbaModuleCo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the module to retrieve. |
+
 ## Examples
 
 
-Shows how to access a document's VBA project information.
 
+Shows how to access a document's VBA project information. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 
@@ -76,7 +80,7 @@ std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name
 
 System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
 
-ASSERT_EQ(3, vbaModules->LINQ_Count());
+ASSERT_EQ(vbaModules->LINQ_Count(), 3);
 
 for (auto&& module_ : vbaModules)
 {
@@ -90,8 +94,10 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 // Remove a module from the collection.
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
+
 ## See Also
 
+* Class [VbaModule](../../vbamodule/)
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

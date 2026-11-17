@@ -16,11 +16,12 @@ Gets or sets the pages to render. Default is all the pages in the document.
 System::SharedPtr<Aspose::Words::Saving::PageSet> Aspose::Words::Saving::FixedPageSaveOptions::get_PageSet() const
 ```
 
+
 ## Examples
 
 
-Shows how to extract pages based on exact page indices.
 
+Shows how to extract pages based on exact page indices. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,8 +43,10 @@ xpsOptions->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(Syste
 
 doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
+
 ## See Also
 
+* Class [PageSet](../../pageset/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

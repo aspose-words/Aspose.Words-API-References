@@ -16,11 +16,12 @@ Gets the last paragraph among the immediate children.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Tables::Cell::get_LastParagraph()
 ```
 
+
 ## Examples
 
 
-Shows how to apply settings to vertical borders to a table row's format.
 
+Shows how to apply settings to vertical borders to a table row's format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,14 +53,16 @@ for (int32_t i = 0; i < 3; i++)
 // A row format, and a cell's inner paragraph use different border settings.
 System::SharedPtr<Aspose::Words::Border> border = table->get_FirstRow()->get_FirstCell()->get_LastParagraph()->get_ParagraphFormat()->get_Borders()->get_Vertical();
 
-ASSERT_EQ(border->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
-ASPOSE_ASSERT_EQ(border->get_LineWidth(), 0.0);
-ASSERT_EQ(border->get_LineStyle(), LineStyle::None);
+ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), border->get_Color().ToArgb());
+ASPOSE_ASSERT_EQ(0.0, border->get_LineWidth());
+ASSERT_EQ(LineStyle::None, border->get_LineStyle());
 
 doc->Save(get_ArtifactsDir() + u"Border.VerticalBorders.docx");
 ```
+
 ## See Also
 
+* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -20,11 +20,12 @@ void Aspose::Words::NodeCollection::RemoveAt(int32_t index)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
+
 ## Examples
 
 
-Shows how to add and remove sections in a document.
 
+Shows how to add and remove sections in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,20 +34,21 @@ builder->Write(u"Section 1");
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Write(u"Section 2");
 
-ASSERT_EQ(doc->GetText().Trim(), u"Section 1\x000c" u"Section 2");
+ASSERT_EQ(u"Section 1\x000c" u"Section 2", doc->GetText().Trim());
 
 // Delete the first section from the document.
 doc->get_Sections()->RemoveAt(0);
 
-ASSERT_EQ(doc->GetText().Trim(), u"Section 2");
+ASSERT_EQ(u"Section 2", doc->GetText().Trim());
 
 // Append a copy of what is now the first section to the end of the document.
 int32_t lastSectionIdx = doc->get_Sections()->get_Count() - 1;
 System::SharedPtr<Aspose::Words::Section> newSection = doc->get_Sections()->idx_get(lastSectionIdx)->Clone();
 doc->get_Sections()->Add(newSection);
 
-ASSERT_EQ(doc->GetText().Trim(), u"Section 2\x000c" u"Section 2");
+ASSERT_EQ(u"Section 2\x000c" u"Section 2", doc->GetText().Trim());
 ```
+
 ## See Also
 
 * Class [NodeCollection](../)

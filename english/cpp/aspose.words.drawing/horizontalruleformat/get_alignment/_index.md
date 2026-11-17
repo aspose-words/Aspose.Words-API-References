@@ -20,11 +20,12 @@ Aspose::Words::Drawing::HorizontalRuleAlignment Aspose::Words::Drawing::Horizont
 
 
 The default value is [Left](../../horizontalrulealignment/).
+
 ## Examples
 
 
-Shows how to insert a horizontal rule shape, and customize its formatting.
 
+Shows how to insert a horizontal rule shape, and customize its formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,8 +41,10 @@ horizontalRuleFormat->set_NoShade(true);
 ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
+
 ## See Also
 
+* Enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
 * Class [HorizontalRuleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

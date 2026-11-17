@@ -13,22 +13,23 @@ url: /cpp/aspose.words.fields/dropdownitemcollection/add/
 Adds a string to the end of the collection.
 
 ```cpp
-int32_t Aspose::Words::Fields::DropDownItemCollection::Add(const System::String & value)
+int32_t Aspose::Words::Fields::DropDownItemCollection::Add(const System::String &value)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | const System::String \& | The string to add to the end of the collection. |
+| value | const System::String\& | The string to add to the end of the collection. |
 
 ### ReturnValue
 
 The zero-based index at which the new element is inserted.
+
 ## Examples
 
 
-Shows how to insert a combo box field, and edit the elements in its item collection.
 
+Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,9 +41,9 @@ System::ArrayPtr<System::String> items = System::MakeArray<System::String>({u"On
 System::SharedPtr<Aspose::Words::Fields::FormField> comboBoxField = builder->InsertComboBox(u"DropDown", items, 0);
 System::SharedPtr<Aspose::Words::Fields::DropDownItemCollection> dropDownItems = comboBoxField->get_DropDownItems();
 
-ASSERT_EQ(dropDownItems->get_Count(), 3);
-ASSERT_EQ(dropDownItems->idx_get(0), u"One");
-ASSERT_EQ(dropDownItems->IndexOf(u"Two"), 1);
+ASSERT_EQ(3, dropDownItems->get_Count());
+ASSERT_EQ(u"One", dropDownItems->idx_get(0));
+ASSERT_EQ(1, dropDownItems->IndexOf(u"Two"));
 ASSERT_TRUE(dropDownItems->Contains(u"Three"));
 
 // There are two ways of adding a new item to an existing collection of drop-down box items.
@@ -52,7 +53,7 @@ dropDownItems->Add(u"Four");
 // 2 -  Insert an item before another item at a specified index:
 dropDownItems->Insert(3, u"Three and a half");
 
-ASSERT_EQ(dropDownItems->get_Count(), 5);
+ASSERT_EQ(5, dropDownItems->get_Count());
 
 // Iterate over the collection and print every element.
 {
@@ -70,7 +71,7 @@ dropDownItems->Remove(u"Four");
 // 2 -  Remove an item at an index:
 dropDownItems->RemoveAt(3);
 
-ASSERT_EQ(dropDownItems->get_Count(), 3);
+ASSERT_EQ(3, dropDownItems->get_Count());
 ASSERT_FALSE(dropDownItems->Contains(u"Three and a half"));
 ASSERT_FALSE(dropDownItems->Contains(u"Four"));
 
@@ -79,6 +80,7 @@ doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();
 ```
+
 ## See Also
 
 * Class [DropDownItemCollection](../)

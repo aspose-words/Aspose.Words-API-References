@@ -13,22 +13,23 @@ url: /cpp/aspose.words.drawing/horizontalrulealignment/
 Represents the alignment for the specified horizontal rule.
 
 ```cpp
-enum class HorizontalRuleAlignment : int
+enum class HorizontalRuleAlignment
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | 1 | Aligned to the center. |
 | Left | 0 | Aligned to the left. |
+| Center | 1 | Aligned to the center. |
 | Right | 2 | Aligned to the right. |
+
 
 ## Examples
 
 
-Shows how to insert a horizontal rule shape, and customize its formatting.
 
+Shows how to insert a horizontal rule shape, and customize its formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,6 +45,7 @@ horizontalRuleFormat->set_NoShade(true);
 ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

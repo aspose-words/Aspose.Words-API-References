@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldend/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldEnd::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::Fields::FieldEnd::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -23,15 +23,17 @@ _Bool Aspose::Words::Fields::FieldEnd::Accept(System::SharedPtr<Aspose::Words::D
 
 ### ReturnValue
 
-False if the visitor requested the enumeration to stop.
+**False** if the visitor requested the enumeration to stop.
 ## Remarks
 
 
 Calls [VisitFieldEnd()](../../../aspose.words/documentvisitor/visitfieldend/).
 
 For more info see the Visitor design pattern.
+
 ## See Also
 
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [FieldEnd](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

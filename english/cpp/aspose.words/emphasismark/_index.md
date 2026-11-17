@@ -13,7 +13,7 @@ url: /cpp/aspose.words/emphasismark/
 Specifies possible types of emphasis mark.
 
 ```cpp
-enum class EmphasisMark : int
+enum class EmphasisMark
 ```
 
 ### Values
@@ -21,16 +21,17 @@ enum class EmphasisMark : int
 | Name | Value | Description |
 | --- | --- | --- |
 | None | 0 | No emphasis mark. |
-| OverComma | 2 | Emphasis mark is a comma character displayed above text. |
 | OverSolidCircle | 1 | Emphasis mark is a solid black circle displayed above text. |
+| OverComma | 2 | Emphasis mark is a comma character displayed above text. |
 | OverWhiteCircle | 3 | Emphasis mark is an empty white circle displayed above text. |
 | UnderSolidCircle | 4 | Emphasis mark is a solid black circle displayed below text. |
+
 
 ## Examples
 
 
-Shows how to add additional character rendered above/below the glyph-character.
 
+Shows how to add additional character rendered above/below the glyph-character. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
@@ -45,6 +46,7 @@ builder->Write(u"Simple text");
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Fonts.SetEmphasisMark.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

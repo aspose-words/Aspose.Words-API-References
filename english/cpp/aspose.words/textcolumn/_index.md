@@ -2,7 +2,7 @@
 title: Aspose::Words::TextColumn class
 linktitle: TextColumn
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::TextColumn class. Represents a single text column. TextColumn is a member of the TextColumnCollection collection. The TextColumn collection includes all the columns in a section of a document. To learn more, visit the Working with Sections documentation article in C++.'
+description: 'Aspose::Words::TextColumn class. Represents a single text column. TextColumn is a member of the TextColumnCollection collection. The TextColumn collection includes all the columns in a section of a document. To learn more, visit the  documentation article in C++.'
 type: docs
 weight: 70000
 url: /cpp/aspose.words/textcolumn/
@@ -10,8 +10,7 @@ url: /cpp/aspose.words/textcolumn/
 ## TextColumn class
 
 
-Represents a single text column. [TextColumn](./) is a member of the [TextColumnCollection](../textcolumncollection/) collection. The [TextColumn](./) collection includes all the columns in a section of a document. 
-To learn more, visit the [Working with Sections](https://docs.aspose.com/words/cpp/working-with-sections/) documentation article.
+Represents a single text column. [TextColumn](./) is a member of the [TextColumnCollection](../textcolumncollection/) collection. The [TextColumn](./) collection includes all the columns in a section of a document. To learn more, visit the [Working with Sections](https://docs.aspose.com/words/cpp/working-with-sections/) documentation article.
 
 ```cpp
 class TextColumn : public System::Object
@@ -23,19 +22,23 @@ class TextColumn : public System::Object
 | --- | --- |
 | [get_SpaceAfter](./get_spaceafter/)() | Gets or sets the space between this column and the next column in points. Not required for the last column. |
 | [get_Width](./get_width/)() | Gets or sets the width of the text column in points. |
-| [set_SpaceAfter](./set_spaceafter/)(double) | Sets the space between this column and the next column in points. Not required for the last column. |
-| [set_Width](./set_width/)(double) | Sets the width of the text column in points. |
+| [GetType](./gettype/)() const override |  |
+| [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_SpaceAfter](./set_spaceafter/)(double) | Setter for [Aspose::Words::TextColumn::get_SpaceAfter](./get_spaceafter/). |
+| [set_Width](./set_width/)(double) | Setter for [Aspose::Words::TextColumn::get_Width](./get_width/). |
+| static [Type](./type/)() |  |
 ## Remarks
 
 
 [TextColumn](./) objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns.[EvenlySpaced](../textcolumncollection/get_evenlyspaced/) to **true**.
 
 When a new [TextColumn](./) is created it has its width and spacing set to zero.
+
 ## Examples
 
 
-Shows how to create unevenly spaced columns.
 
+Shows how to create unevenly spaced columns. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +51,7 @@ columns->SetCount(2);
 // Determine the amount of room that we have available for arranging columns.
 double contentWidth = pageSetup->get_PageWidth() - pageSetup->get_LeftMargin() - pageSetup->get_RightMargin();
 
-ASSERT_NEAR(contentWidth, 470.30, 0.01);
+ASSERT_NEAR(470.30, contentWidth, 0.01);
 
 // Set the first column to be narrow.
 System::SharedPtr<Aspose::Words::TextColumn> column = columns->idx_get(0);
@@ -65,6 +68,7 @@ builder->Writeln(u"Wide column 2.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CustomColumnWidth.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

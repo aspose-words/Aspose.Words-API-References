@@ -22,11 +22,12 @@ double Aspose::Words::ParagraphFormat::get_LineSpacing()
 When [LineSpacingRule](../get_linespacingrule/) property is set to [AtLeast](../../linespacingrule/), the line spacing can be greater than or equal to, but never less than the specified [LineSpacing](./) value.
 
 When [LineSpacingRule](../get_linespacingrule/) property is set to [Exactly](../../linespacingrule/), the line spacing never changes from the specified [LineSpacing](./) value, even if a larger font is used within the paragraph.
+
 ## Examples
 
 
-Shows how to work with line spacing.
 
+Shows how to work with line spacing. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,6 +61,7 @@ builder->Writeln(u"Line spacing of 1.5 default lines.");
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.LineSpacing.docx");
 ```
+
 ## See Also
 
 * Class [ParagraphFormat](../)

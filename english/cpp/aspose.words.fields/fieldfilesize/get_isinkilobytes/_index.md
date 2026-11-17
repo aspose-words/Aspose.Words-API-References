@@ -13,18 +13,19 @@ url: /cpp/aspose.words.fields/fieldfilesize/get_isinkilobytes/
 Gets or sets whether to display the file size in kilobytes.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldFileSize::get_IsInKilobytes()
+bool Aspose::Words::Fields::FieldFileSize::get_IsInKilobytes()
 ```
+
 
 ## Examples
 
 
-Shows how to display the file size of a document with a FILESIZE field.
 
+Shows how to display the file size of a document with a FILESIZE field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
-ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Bytes(), 18105);
+ASSERT_EQ(18105, doc->get_BuiltInDocumentProperties()->get_Bytes());
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
@@ -36,8 +37,8 @@ builder->InsertParagraph();
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" FILESIZE ");
-ASSERT_EQ(field->get_Result(), u"18105");
+ASSERT_EQ(u" FILESIZE ", field->GetFieldCode());
+ASSERT_EQ(u"18105", field->get_Result());
 
 // 2 -  Kilobytes:
 builder->InsertParagraph();
@@ -45,8 +46,8 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldFileSize>(builder->Inse
 field->set_IsInKilobytes(true);
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" FILESIZE  \\k");
-ASSERT_EQ(field->get_Result(), u"18");
+ASSERT_EQ(u" FILESIZE  \\k", field->GetFieldCode());
+ASSERT_EQ(u"18", field->get_Result());
 
 // 3 -  Megabytes:
 builder->InsertParagraph();
@@ -54,13 +55,14 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldFileSize>(builder->Inse
 field->set_IsInMegabytes(true);
 field->Update();
 
-ASSERT_EQ(field->GetFieldCode(), u" FILESIZE  \\m");
-ASSERT_EQ(field->get_Result(), u"0");
+ASSERT_EQ(u" FILESIZE  \\m", field->GetFieldCode());
+ASSERT_EQ(u"0", field->get_Result());
 
 // To update the values of these fields while editing in Microsoft Word,
 // we must first save the changes, and then manually update these fields.
 doc->Save(get_ArtifactsDir() + u"Field.FILESIZE.docx");
 ```
+
 ## See Also
 
 * Class [FieldFileSize](../)

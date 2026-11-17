@@ -4,7 +4,7 @@ linktitle: get_ParentStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Revision::get_ParentStyle method. Gets the immediate parent style (owner) of this revision. This property will work for only for the StyleDefinitionChange revision type in C++.'
 type: docs
-weight: 11715
+weight: 7000
 url: /cpp/aspose.words/revision/get_parentstyle/
 ---
 ## Revision::get_ParentStyle method
@@ -16,14 +16,12 @@ Gets the immediate parent style (owner) of this revision. This property will wor
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::Revision::get_ParentStyle()
 ```
 
-## Remarks
 
- If this revision relates to changes on document nodes, use [ParentNode](../get_parentnode/) instead. 
 ## Examples
 
 
-Shows how to work with a document's collection of revisions.
 
+Shows how to work with a document's collection of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 System::SharedPtr<Aspose::Words::RevisionCollection> revisions = doc->get_Revisions();
@@ -67,10 +65,12 @@ std::cout << System::String::Format(u"\n{0} revisions:", revisions->get_Count())
 // Reject all revisions via the collection, reverting the document to its original form.
 revisions->RejectAll();
 
-ASSERT_EQ(revisions->get_Count(), 0);
+ASSERT_EQ(0, revisions->get_Count());
 ```
+
 ## See Also
 
+* Class [Style](../../style/)
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_LineWidth
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BorderCollection::get_LineWidth method. Gets or sets the border width in points in C++.'
 type: docs
-weight: 17232
+weight: 11000
 url: /cpp/aspose.words/bordercollection/get_linewidth/
 ---
 ## BorderCollection::get_LineWidth method
@@ -22,11 +22,12 @@ double Aspose::Words::BorderCollection::get_LineWidth()
 Returns the width of the first border in the collection.
 
 Sets the width of all borders in the collection excluding diagonal borders.
+
 ## Examples
 
 
-Shows how to create green wavy page border with a shadow.
 
+Shows how to create green wavy page border with a shadow. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
@@ -39,6 +40,7 @@ pageSetup->get_Borders()->set_Shadow(true);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorders.docx");
 ```
+
 ## See Also
 
 * Class [BorderCollection](../)

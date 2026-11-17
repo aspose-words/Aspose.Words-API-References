@@ -13,22 +13,23 @@ url: /cpp/aspose.words/dropcapposition/
 Specifies the position for a drop cap text.
 
 ```cpp
-enum class DropCapPosition : int
+enum class DropCapPosition
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Margin | 2 | The drop cap is positioned outside the text margin on the anchor paragraph. |
 | None | 0 | The paragraph does not have a drop cap. |
 | Normal | 1 | The drop cap is positioned inside the text margin on the anchor paragraph. |
+| Margin | 2 | The drop cap is positioned outside the text margin on the anchor paragraph. |
+
 
 ## Examples
 
 
-Shows how to create a drop cap.
 
+Shows how to create a drop cap. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,6 +54,7 @@ format->set_DropCapPosition(dropCapPosition);
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.DropCap.docx");
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

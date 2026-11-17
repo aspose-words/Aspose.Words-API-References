@@ -13,29 +13,30 @@ url: /cpp/aspose.words.drawing/texturealignment/
 Specifies the alignment for the tiling of the texture fill.
 
 ```cpp
-enum class TextureAlignment : int
+enum class TextureAlignment
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bottom | 7 | Bottom texture alignment. |
-| BottomLeft | 6 | Bottom left texture alignment. |
-| BottomRight | 8 | Bottom right texture alignment. |
-| Center | 4 | Center texture alignment. |
-| Left | 3 | Left texture alignment. |
-| None | 9 | None texture alignment. |
-| Right | 5 | Right texture alignment. |
-| Top | 1 | Top texture alignment. |
 | TopLeft | 0 | Top left texture alignment. |
+| Top | 1 | Top texture alignment. |
 | TopRight | 2 | Top right texture alignment. |
+| Left | 3 | Left texture alignment. |
+| Center | 4 | Center texture alignment. |
+| Right | 5 | Right texture alignment. |
+| BottomLeft | 6 | Bottom left texture alignment. |
+| Bottom | 7 | Bottom texture alignment. |
+| BottomRight | 8 | Bottom right texture alignment. |
+| None | 9 | None texture alignment. |
+
 
 ## Examples
 
 
-Shows how to fill and tiling the texture inside the shape.
 
+Shows how to fill and tiling the texture inside the shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,9 +57,10 @@ doc->Save(get_ArtifactsDir() + u"Shape.TextureFill.docx", saveOptions);
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.TextureFill.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
-ASSERT_EQ(shape->get_Fill()->get_TextureAlignment(), TextureAlignment::TopRight);
-ASSERT_EQ(shape->get_Fill()->get_PresetTexture(), PresetTexture::Canvas);
+ASSERT_EQ(TextureAlignment::TopRight, shape->get_Fill()->get_TextureAlignment());
+ASSERT_EQ(PresetTexture::Canvas, shape->get_Fill()->get_PresetTexture());
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

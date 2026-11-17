@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator typedef
 linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator typedef. Iterator type in C++.'
+description: 'How to use Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator typedef of Aspose::Words::DigitalSignatures::DigitalSignatureCollection class in C++.'
 type: docs
 weight: 18000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/iterator/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/iterator/
 ## iterator typedef
 
 
-Iterator type.
+
 
 ```cpp
-using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator = typename iterator_holder_type::iterator
+using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator =  typename iterator_holder_type::iterator
 ```
 
 ## See Also

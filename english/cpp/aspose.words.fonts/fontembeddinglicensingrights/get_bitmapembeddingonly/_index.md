@@ -13,17 +13,15 @@ url: /cpp/aspose.words.fonts/fontembeddinglicensingrights/get_bitmapembeddingonl
 Indicates the "Bitmap embedding only" restriction.
 
 ```cpp
-_Bool Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_BitmapEmbeddingOnly() const
+bool Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_BitmapEmbeddingOnly() const
 ```
 
-## Remarks
 
- When this bit is set, only bitmaps contained in the font may be embedded. No outline data may be embedded. If there are no bitmaps available in the font, then the font is considered unembeddable and the embedding services will fail. Other embedding restrictions also apply. 
 ## Examples
 
 
-Shows how to get license rights information for embedded fonts (FontInfo).
 
+Shows how to get license rights information for embedded fonts ([FontInfo](../../fontinfo/)). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font rights.docx"));
 
@@ -40,6 +38,7 @@ for (auto&& fontInfo : fontInfos)
     }
 }
 ```
+
 ## See Also
 
 * Class [FontEmbeddingLicensingRights](../)

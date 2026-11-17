@@ -13,14 +13,12 @@ url: /cpp/aspose.words.drawing.charts/chartyvaluecollection/idx_set/
 Gets or sets the Y value at the specified index.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartYValueCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> & value)
+void Aspose::Words::Drawing::Charts::ChartYValueCollection::idx_set(int32_t index, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> &value)
 ```
 
-## Remarks
-
- Empty values are represented as null. 
 ## See Also
 
+* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartYValueCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

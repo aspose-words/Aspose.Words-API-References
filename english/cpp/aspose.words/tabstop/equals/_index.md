@@ -13,14 +13,15 @@ url: /cpp/aspose.words/tabstop/equals/
 Compares with the specified [TabStop](../).
 
 ```cpp
-_Bool Aspose::Words::TabStop::Equals(const System::SharedPtr<Aspose::Words::TabStop> & rhs)
+bool Aspose::Words::TabStop::Equals(const System::SharedPtr<Aspose::Words::TabStop> &rhs)
 ```
+
 
 ## Examples
 
 
-Shows how to work with a document's collection of tab stops.
 
+Shows how to work with a document's collection of tab stops. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,7 +32,7 @@ System::SharedPtr<Aspose::Words::TabStopCollection> tabStops = builder->get_Para
 tabStops->Add(System::MakeObject<Aspose::Words::TabStop>(72.0));
 tabStops->Add(System::MakeObject<Aspose::Words::TabStop>(432.0, TabAlignment::Right, TabLeader::Dashes));
 
-ASSERT_EQ(tabStops->get_Count(), 2);
+ASSERT_EQ(2, tabStops->get_Count());
 ASSERT_FALSE(tabStops->idx_get(0)->get_IsClear());
 ASSERT_FALSE(System::ObjectExt::Equals(tabStops->idx_get(0), tabStops->idx_get(1)));
 
@@ -40,25 +41,27 @@ builder->Writeln(u"Start\tTab 1\tTab 2");
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
 
-ASSERT_EQ(paragraphs->get_Count(), 2);
+ASSERT_EQ(2, paragraphs->get_Count());
 
 // Each paragraph gets its tab stop collection, which clones its values from the document builder's tab stop collection.
-ASPOSE_ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops(), paragraphs->idx_get(0)->get_ParagraphFormat()->get_TabStops());
-ASSERT_FALSE(System::Object::ReferenceEquals(paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops(), paragraphs->idx_get(0)->get_ParagraphFormat()->get_TabStops()));
+ASPOSE_ASSERT_EQ(paragraphs->idx_get(0)->get_ParagraphFormat()->get_TabStops(), paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops());
+ASPOSE_ASSERT_NS(paragraphs->idx_get(0)->get_ParagraphFormat()->get_TabStops(), paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops());
 
 // A tab stop collection can point us to TabStops before and after certain positions.
-ASPOSE_ASSERT_EQ(tabStops->Before(100.0)->get_Position(), 72.0);
-ASPOSE_ASSERT_EQ(tabStops->After(100.0)->get_Position(), 432.0);
+ASPOSE_ASSERT_EQ(72.0, tabStops->Before(100.0)->get_Position());
+ASPOSE_ASSERT_EQ(432.0, tabStops->After(100.0)->get_Position());
 
 // We can clear a paragraph's tab stop collection to revert to the default tabbing behavior.
 paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->Clear();
 
-ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_Count(), 0);
+ASSERT_EQ(0, paragraphs->idx_get(1)->get_ParagraphFormat()->get_TabStops()->get_Count());
 
 doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
+
 ## See Also
 
+* Class [TabStop](../)
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

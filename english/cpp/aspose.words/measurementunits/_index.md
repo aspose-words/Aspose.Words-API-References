@@ -13,24 +13,25 @@ url: /cpp/aspose.words/measurementunits/
 Specifies the unit of measurement.
 
 ```cpp
-enum class MeasurementUnits : int
+enum class MeasurementUnits
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Centimeters | 1 | Centimeters. |
 | Inches | 0 | Inches. |
+| Centimeters | 1 | Centimeters. |
 | Millimeters | 2 | Millimeters. |
-| Picas | 4 | Picas (commonly used in traditional typewriter font spacing). |
 | Points | 3 | Points. |
+| Picas | 4 | Picas (commonly used in traditional typewriter font spacing). |
+
 
 ## Examples
 
 
-Shows how to make a saved document conform to an older ODT schema.
 
+Shows how to make a saved document conform to an older ODT schema. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -41,8 +42,9 @@ saveOptions->set_IsStrictSchema11(exportToOdt11Specs);
 doc->Save(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt"));
-ASSERT_EQ(doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit(), Aspose::Words::MeasurementUnits::Centimeters);
+ASSERT_EQ(Aspose::Words::MeasurementUnits::Centimeters, doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit());
 ```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

@@ -4,23 +4,24 @@ linktitle: get_IsTemporary
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_IsTemporary method. Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified in C++.'
 type: docs
-weight: 75000
+weight: 19000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_istemporary/
 ---
 ## StructuredDocumentTag::get_IsTemporary method
 
 
-Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified.
+Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified.
 
 ```cpp
-_Bool Aspose::Words::Markup::StructuredDocumentTag::get_IsTemporary() const
+bool Aspose::Words::Markup::StructuredDocumentTag::get_IsTemporary() const
 ```
+
 
 ## Examples
 
 
-Shows how to make single-use controls.
 
+Shows how to make single-use controls. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -52,6 +53,7 @@ builder->InsertNode(tag);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.IsTemporary.docx");
 ```
+
 ## See Also
 
 * Class [StructuredDocumentTag](../)

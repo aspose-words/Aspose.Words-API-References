@@ -4,7 +4,7 @@ linktitle: get_Kerning
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Font::get_Kerning method. Gets or sets the font size at which kerning starts in C++.'
 type: docs
-weight: 58648
+weight: 20000
 url: /cpp/aspose.words/font/get_kerning/
 ---
 ## Font::get_Kerning method
@@ -16,11 +16,12 @@ Gets or sets the font size at which kerning starts.
 double Aspose::Words::Font::get_Kerning()
 ```
 
+
 ## Examples
 
 
-Shows how to specify the font size at which kerning begins to take effect.
 
+Shows how to specify the font size at which kerning begins to take effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,6 +43,7 @@ builder->Writeln(u"TALLY. (Kerning applied)");
 
 doc->Save(get_ArtifactsDir() + u"Font.Kerning.docx");
 ```
+
 ## See Also
 
 * Class [Font](../)

@@ -4,7 +4,7 @@ linktitle: get_AllowOverlap
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_AllowOverlap method. Gets or sets a value that specifies whether this shape can overlap other shapes in C++.'
 type: docs
-weight: 61016
+weight: 3000
 url: /cpp/aspose.words.drawing/shapebase/get_allowoverlap/
 ---
 ## ShapeBase::get_AllowOverlap method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_allowoverlap/
 Gets or sets a value that specifies whether this shape can overlap other shapes.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_AllowOverlap()
+bool Aspose::Words::Drawing::ShapeBase::get_AllowOverlap()
 ```
 
 ## Remarks
@@ -24,11 +24,12 @@ This property affects behavior of the shape in Microsoft Word. Aspose.Words igno
 This property is applicable only to top level shapes.
 
 The default value is **true**.
+
 ## Examples
 
 
-Shows how to work with floating tables properties.
 
+Shows how to work with floating tables properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table wrapped by text.docx"));
 
@@ -36,9 +37,9 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()-
 
 if (table->get_TextWrapping() == TextWrapping::Around)
 {
-    ASSERT_EQ(table->get_HorizontalAnchor(), RelativeHorizontalPosition::Margin);
-    ASSERT_EQ(table->get_VerticalAnchor(), RelativeVerticalPosition::Paragraph);
-    ASPOSE_ASSERT_EQ(table->get_AllowOverlap(), false);
+    ASSERT_EQ(RelativeHorizontalPosition::Margin, table->get_HorizontalAnchor());
+    ASSERT_EQ(RelativeVerticalPosition::Paragraph, table->get_VerticalAnchor());
+    ASPOSE_ASSERT_EQ(false, table->get_AllowOverlap());
 
     // Only Margin, Page, Column available in RelativeHorizontalPosition for HorizontalAnchor setter.
     // The ArgumentException will be thrown for any other values.
@@ -49,6 +50,7 @@ if (table->get_TextWrapping() == TextWrapping::Around)
     table->set_VerticalAnchor(RelativeVerticalPosition::Page);
 }
 ```
+
 ## See Also
 
 * Class [ShapeBase](../)

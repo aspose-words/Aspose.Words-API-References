@@ -21,7 +21,7 @@ int32_t Aspose::Words::Saving::OutlineOptions::get_HeadingsOutlineLevels() const
 
 Specify 0 for no headings in the outline; specify 1 for one level of headings in the outline and so on.
 
-Default is 0. Valid range is 0 to 9.
+Default is 0. Valid range is 0 to 9. 
 ## See Also
 
 * Class [OutlineOptions](../)

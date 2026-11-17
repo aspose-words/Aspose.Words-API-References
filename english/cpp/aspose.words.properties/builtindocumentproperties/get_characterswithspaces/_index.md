@@ -19,7 +19,7 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_CharactersWith
 ## Remarks
 
 
-Aspose.Words updates this property when you call [UpdateWordCount](../../../aspose.words/document/updatewordcount/).
+Aspose.Words updates this property when you call [UpdateWordCount](../../../aspose.words/document/updatewordcount/). 
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

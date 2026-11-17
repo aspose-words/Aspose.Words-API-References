@@ -16,11 +16,12 @@ Allows to specify the color to be used for deleted content [Deletion](../../../a
 Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get_DeletedTextColor()
 ```
 
+
 ## Examples
 
 
-Shows how to modify the appearance of revisions.
 
+Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -64,8 +65,10 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
+
 ## See Also
 
+* Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

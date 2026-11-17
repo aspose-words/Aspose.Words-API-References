@@ -16,19 +16,20 @@ Removes itself from the parent.
 void Aspose::Words::Node::Remove()
 ```
 
+
 ## Examples
 
 
-Shows how to delete all shapes with images from a document.
 
+Shows how to delete all shapes with images from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
-ASSERT_EQ(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+ASSERT_EQ(9, shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
 {
     return s->get_HasImage();
-}))), 9);
+}))));
 
 for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()))
 {
@@ -38,18 +39,18 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
     }
 }
 
-ASSERT_EQ(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+ASSERT_EQ(0, shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
 {
     return s->get_HasImage();
-}))), 0);
+}))));
 ```
 
-Shows how to remove all child nodes of a specific type from a composite node.
 
+Shows how to remove all child nodes of a specific type from a composite node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
-ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 2);
+ASSERT_EQ(2, doc->GetChildNodes(NodeType::Table, true)->get_Count());
 
 System::SharedPtr<Aspose::Words::Node> curNode = doc->get_FirstSection()->get_Body()->get_FirstChild();
 
@@ -68,8 +69,9 @@ while (curNode != nullptr)
     curNode = nextNode;
 }
 
-ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 0);
+ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
 ```
+
 ## See Also
 
 * Class [Node](../)

@@ -19,9 +19,10 @@ Aspose::Words::Drawing::ArrowType Aspose::Words::Drawing::Stroke::get_StartArrow
 ## Remarks
 
 
-The default value is [None](../../arrowtype/).
+The default value is [None](../../arrowtype/). 
 ## See Also
 
+* Enum [ArrowType](../../arrowtype/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

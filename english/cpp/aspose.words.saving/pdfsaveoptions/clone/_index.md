@@ -19,5 +19,6 @@ System::SharedPtr<Aspose::Words::Saving::PdfSaveOptions> Aspose::Words::Saving::
 ## See Also
 
 * Class [PdfSaveOptions](../)
+* Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

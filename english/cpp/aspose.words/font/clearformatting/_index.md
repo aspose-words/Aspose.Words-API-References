@@ -20,11 +20,12 @@ void Aspose::Words::Font::ClearFormatting()
 
 
 Removes all font formatting specified explicitly on the object from which [Font](../) was obtained so the font formatting will be inherited from the appropriate parent.
+
 ## Examples
 
 
-Shows how to insert a hyperlink field.
 
+Shows how to insert a hyperlink field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -42,6 +43,7 @@ builder->Writeln(u".");
 // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHyperlink.docx");
 ```
+
 ## See Also
 
 * Class [Font](../)

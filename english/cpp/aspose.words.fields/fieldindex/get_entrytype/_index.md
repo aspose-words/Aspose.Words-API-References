@@ -16,11 +16,12 @@ Gets or sets an index entry type used to build the index.
 System::String Aspose::Words::Fields::FieldIndex::get_EntryType()
 ```
 
+
 ## Examples
 
 
-Shows how to create an INDEX field, and then use XE fields to populate it with entries.
 
+Shows how to create an INDEX field, and then use XE fields to populate it with entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,7 +39,7 @@ auto index = System::ExplicitCast<Aspose::Words::Fields::FieldIndex>(builder->In
 index->set_BookmarkName(u"MainBookmark");
 index->set_EntryType(u"A");
 
-ASSERT_EQ(index->GetFieldCode(), u" INDEX  \\b MainBookmark \\f A");
+ASSERT_EQ(u" INDEX  \\b MainBookmark \\f A", index->GetFieldCode());
 
 // On a new page, start the bookmark with a name that matches the value
 // of the INDEX field's "BookmarkName" property.
@@ -51,7 +52,7 @@ auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->
 indexEntry->set_Text(u"Index entry 1");
 indexEntry->set_EntryType(u"A");
 
-ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  \"Index entry 1\" \\f A");
+ASSERT_EQ(u" XE  \"Index entry 1\" \\f A", indexEntry->GetFieldCode());
 
 // Insert an XE field that will not appear in the INDEX because the entry types do not match.
 builder->InsertBreak(BreakType::PageBreak);
@@ -72,6 +73,7 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Filtering.docx");
 ```
+
 ## See Also
 
 * Class [FieldIndex](../)

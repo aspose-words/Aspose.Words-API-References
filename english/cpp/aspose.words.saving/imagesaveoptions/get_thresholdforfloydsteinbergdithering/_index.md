@@ -20,11 +20,12 @@ uint8_t Aspose::Words::Saving::ImageSaveOptions::get_ThresholdForFloydSteinbergD
 
 
 The default value is 128.
+
 ## Examples
 
 
-Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
 
+Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,6 +45,7 @@ options->set_ThresholdForFloydSteinbergDithering(240);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.FloydSteinbergDithering.tiff", options);
 ```
+
 ## See Also
 
 * Class [ImageSaveOptions](../)

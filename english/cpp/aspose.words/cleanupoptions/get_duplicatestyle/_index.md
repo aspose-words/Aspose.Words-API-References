@@ -13,14 +13,15 @@ url: /cpp/aspose.words/cleanupoptions/get_duplicatestyle/
 Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::CleanupOptions::get_DuplicateStyle() const
+bool Aspose::Words::CleanupOptions::get_DuplicateStyle() const
 ```
+
 
 ## Examples
 
 
-Shows how to remove duplicated styles from the document.
 
+Shows how to remove duplicated styles from the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -36,7 +37,7 @@ duplicateStyle->get_Font()->set_Size(14);
 duplicateStyle->get_Font()->set_Name(u"Courier New");
 duplicateStyle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 
-ASSERT_EQ(doc->get_Styles()->get_Count(), 6);
+ASSERT_EQ(6, doc->get_Styles()->get_Count());
 
 // Apply both styles to different paragraphs within the document.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,8 +49,8 @@ builder->Writeln(u"Hello again!");
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
 
-ASPOSE_ASSERT_EQ(paragraphs->idx_get(0)->get_ParagraphFormat()->get_Style(), myStyle);
-ASPOSE_ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_Style(), duplicateStyle);
+ASPOSE_ASSERT_EQ(myStyle, paragraphs->idx_get(0)->get_ParagraphFormat()->get_Style());
+ASPOSE_ASSERT_EQ(duplicateStyle, paragraphs->idx_get(1)->get_ParagraphFormat()->get_Style());
 
 // Configure a CleanOptions object, then call the Cleanup method to substitute all duplicate styles
 // with the original and remove the duplicates from the document.
@@ -58,10 +59,11 @@ cleanupOptions->set_DuplicateStyle(true);
 
 doc->Cleanup(cleanupOptions);
 
-ASSERT_EQ(doc->get_Styles()->get_Count(), 5);
-ASPOSE_ASSERT_EQ(paragraphs->idx_get(0)->get_ParagraphFormat()->get_Style(), myStyle);
-ASPOSE_ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_Style(), myStyle);
+ASSERT_EQ(5, doc->get_Styles()->get_Count());
+ASPOSE_ASSERT_EQ(myStyle, paragraphs->idx_get(0)->get_ParagraphFormat()->get_Style());
+ASPOSE_ASSERT_EQ(myStyle, paragraphs->idx_get(1)->get_ParagraphFormat()->get_Style());
 ```
+
 ## See Also
 
 * Class [CleanupOptions](../)

@@ -20,11 +20,12 @@ System::ArrayPtr<System::String> Aspose::Words::Properties::BuiltInDocumentPrope
 
 
 Aspose.Words does not update this property.
+
 ## Examples
 
 
-Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties.
 
+Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Heading pairs and titles of parts.docx"));
 
@@ -50,6 +51,7 @@ while (headingPairsIndex < headingPairs->get_Length())
     }
 }
 ```
+
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

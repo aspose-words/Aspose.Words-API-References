@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/splittercontext/get_splitoptions/
 ## SplitterContext::get_SplitOptions method
 
 
-Document split options.
+[Document](../../../aspose.words/document/) split options.
 
 ```cpp
 const System::SharedPtr<Aspose::Words::LowCode::SplitOptions> & Aspose::Words::LowCode::SplitterContext::get_SplitOptions() const
@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::LowCode::SplitOptions> & Aspose::Words::L
 
 ## See Also
 
+* Class [SplitOptions](../../splitoptions/)
 * Class [SplitterContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

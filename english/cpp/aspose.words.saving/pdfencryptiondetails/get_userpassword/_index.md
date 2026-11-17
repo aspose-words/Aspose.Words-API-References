@@ -21,7 +21,7 @@ System::String Aspose::Words::Saving::PdfEncryptionDetails::get_UserPassword() c
 
 The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [Permissions](../get_permissions/) will be enforced by the reader software.
 
-The user password can be **null** or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password.
+The user password can be **null** or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password. 
 ## See Also
 
 * Class [PdfEncryptionDetails](../)

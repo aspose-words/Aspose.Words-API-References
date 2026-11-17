@@ -4,7 +4,7 @@ linktitle: get_VerticalAnchor
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Table::get_VerticalAnchor method. Gets the base object from which the vertical positioning of floating table should be calculated. Default value is Margin in C++.'
 type: docs
-weight: 104000
+weight: 41000
 url: /cpp/aspose.words.tables/table/get_verticalanchor/
 ---
 ## Table::get_VerticalAnchor method
@@ -16,11 +16,12 @@ Gets the base object from which the vertical positioning of floating table shoul
 Aspose::Words::Drawing::RelativeVerticalPosition Aspose::Words::Tables::Table::get_VerticalAnchor()
 ```
 
+
 ## Examples
 
 
-Shows how to work with floating tables properties.
 
+Shows how to work with floating tables properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table wrapped by text.docx"));
 
@@ -28,9 +29,9 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()-
 
 if (table->get_TextWrapping() == TextWrapping::Around)
 {
-    ASSERT_EQ(table->get_HorizontalAnchor(), RelativeHorizontalPosition::Margin);
-    ASSERT_EQ(table->get_VerticalAnchor(), RelativeVerticalPosition::Paragraph);
-    ASPOSE_ASSERT_EQ(table->get_AllowOverlap(), false);
+    ASSERT_EQ(RelativeHorizontalPosition::Margin, table->get_HorizontalAnchor());
+    ASSERT_EQ(RelativeVerticalPosition::Paragraph, table->get_VerticalAnchor());
+    ASPOSE_ASSERT_EQ(false, table->get_AllowOverlap());
 
     // Only Margin, Page, Column available in RelativeHorizontalPosition for HorizontalAnchor setter.
     // The ArgumentException will be thrown for any other values.
@@ -41,8 +42,10 @@ if (table->get_TextWrapping() == TextWrapping::Around)
     table->set_VerticalAnchor(RelativeVerticalPosition::Page);
 }
 ```
+
 ## See Also
 
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

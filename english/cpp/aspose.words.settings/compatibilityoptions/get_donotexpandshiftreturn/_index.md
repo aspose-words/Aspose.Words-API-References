@@ -4,7 +4,7 @@ linktitle: get_DoNotExpandShiftReturn
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_DoNotExpandShiftReturn method. Don''t Justify Lines Ending in Soft Line Break in C++.'
 type: docs
-weight: 75210
+weight: 16000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_donotexpandshiftreturn/
 ---
 ## CompatibilityOptions::get_DoNotExpandShiftReturn method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_donotexpandshiftreturn/
 Don't Justify Lines Ending in Soft Line Break.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotExpandShiftReturn()
+bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotExpandShiftReturn()
 ```
 
 ## See Also

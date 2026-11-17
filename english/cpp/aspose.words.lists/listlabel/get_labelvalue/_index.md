@@ -16,14 +16,12 @@ Gets a numeric value for this label.
 int32_t Aspose::Words::Lists::ListLabel::get_LabelValue()
 ```
 
-## Remarks
 
- Use the [UpdateListLabels](../../../aspose.words/document/updatelistlabels/) method to update the value of this property. 
 ## Examples
 
 
-Shows how to extract the list labels of all paragraphs that are list items.
 
+Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
@@ -54,6 +52,7 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
     std::cout << System::String::Format(u"\tList label combined with text: {0} {1}", label->get_LabelString(), paragraphText) << std::endl;
 }
 ```
+
 ## See Also
 
 * Class [ListLabel](../)

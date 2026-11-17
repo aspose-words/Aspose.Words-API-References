@@ -13,11 +13,12 @@ url: /cpp/aspose.words/inodechangingcallback/noderemoved/
 Called when a node belonging to this document has been removed from its parent.
 
 ```cpp
-virtual void Aspose::Words::INodeChangingCallback::NodeRemoved(System::SharedPtr<Aspose::Words::NodeChangingArgs> args)
+virtual void Aspose::Words::INodeChangingCallback::NodeRemoved(System::SharedPtr<Aspose::Words::NodeChangingArgs> args)=0
 ```
 
 ## See Also
 
+* Class [NodeChangingArgs](../../nodechangingargs/)
 * Interface [INodeChangingCallback](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

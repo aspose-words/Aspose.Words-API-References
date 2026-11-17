@@ -24,8 +24,11 @@ Aspose::Words::VisitorAction Aspose::Words::Body::AcceptStart(System::SharedPtr<
 ### ReturnValue
 
 The action to be taken by the visitor.
+
 ## See Also
 
+* Enum [VisitorAction](../../visitoraction/)
+* Class [DocumentVisitor](../../documentvisitor/)
 * Class [Body](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

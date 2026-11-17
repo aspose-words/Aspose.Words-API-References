@@ -16,11 +16,9 @@ CertificateHolder object with certificate that used to sign file.
 const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & Aspose::Words::LowCode::SignerContext::get_CertificateHolder() const
 ```
 
-## Remarks
-
- The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. 
 ## See Also
 
+* Class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * Class [SignerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

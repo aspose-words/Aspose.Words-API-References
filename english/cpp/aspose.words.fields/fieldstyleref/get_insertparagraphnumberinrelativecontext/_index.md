@@ -13,14 +13,15 @@ url: /cpp/aspose.words.fields/fieldstyleref/get_insertparagraphnumberinrelativec
 Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumberInRelativeContext()
+bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumberInRelativeContext()
 ```
+
 
 ## Examples
 
 
-Shows how to use STYLEREF fields.
 
+Shows how to use STYLEREF fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,6 +85,7 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.STYLEREF.docx");
 ```
+
 ## See Also
 
 * Class [FieldStyleRef](../)

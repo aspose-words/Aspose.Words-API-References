@@ -13,14 +13,15 @@ url: /cpp/aspose.words.drawing/textbox/isvalidlinktarget/
 Determines whether this [TextBox](../) can be linked to the target [TextBox](../).
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextBox::IsValidLinkTarget(const System::SharedPtr<Aspose::Words::Drawing::TextBox> & target)
+bool Aspose::Words::Drawing::TextBox::IsValidLinkTarget(const System::SharedPtr<Aspose::Words::Drawing::TextBox> &target)
 ```
+
 
 ## Examples
 
 
-Shows how to link text boxes.
 
+Shows how to link text boxes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -81,8 +82,10 @@ if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 
 doc->Save(get_ArtifactsDir() + u"Shape.CreateLinkBetweenTextBoxes.docx");
 ```
+
 ## See Also
 
+* Class [TextBox](../)
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

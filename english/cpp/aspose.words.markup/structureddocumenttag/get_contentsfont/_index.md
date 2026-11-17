@@ -4,23 +4,24 @@ linktitle: get_ContentsFont
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_ContentsFont method. Font formatting that will be applied to text entered into SDT in C++.'
 type: docs
-weight: 67000
+weight: 11000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_contentsfont/
 ---
 ## StructuredDocumentTag::get_ContentsFont method
 
 
-Font formatting that will be applied to text entered into SDT.
+[Font](../../../aspose.words/font/) formatting that will be applied to text entered into **SDT**.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Markup::StructuredDocumentTag::get_ContentsFont()
 ```
 
+
 ## Examples
 
 
-Shows how to create a structured document tag in a plain text box and modify its appearance.
 
+Shows how to create a structured document tag in a plain text box and modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -70,8 +71,10 @@ tagClone->RemoveSelfOnly();
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
+
 ## See Also
 
+* Class [Font](../../../aspose.words/font/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

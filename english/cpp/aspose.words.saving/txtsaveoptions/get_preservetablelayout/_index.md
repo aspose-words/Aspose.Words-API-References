@@ -13,14 +13,15 @@ url: /cpp/aspose.words.saving/txtsaveoptions/get_preservetablelayout/
 Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout() const
+bool Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout() const
 ```
+
 
 ## Examples
 
 
-Shows how to preserve the layout of tables when converting to plaintext.
 
+Shows how to preserve the layout of tables when converting to plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,13 +54,14 @@ System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"Tx
 
 if (preserveTableLayout)
 {
-    ASSERT_EQ(docText, (System::String(u"Row 1, cell 1                                            Row 1, cell 2\r\n") + u"Row 2, cell 1                                            Row 2, cell 2\r\n\r\n"));
+    ASSERT_EQ((System::String(u"Row 1, cell 1                                            Row 1, cell 2\r\n") + u"Row 2, cell 1                                            Row 2, cell 2\r\n\r\n"), docText);
 }
 else
 {
-    ASSERT_EQ(docText, (System::String(u"Row 1, cell 1\r") + u"Row 1, cell 2\r" + u"Row 2, cell 1\r" + u"Row 2, cell 2\r\r\n"));
+    ASSERT_EQ((System::String(u"Row 1, cell 1\r") + u"Row 1, cell 2\r" + u"Row 2, cell 1\r" + u"Row 2, cell 2\r\r\n"), docText);
 }
 ```
+
 ## See Also
 
 * Class [TxtSaveOptions](../)

@@ -16,11 +16,12 @@ Gets or sets font family name. The default value is "Calibri".
 System::String Aspose::Words::TextWatermarkOptions::get_FontFamily() const
 ```
 
+
 ## Examples
 
 
-Shows how to create a text watermark.
 
+Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -46,6 +47,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
+
 ## See Also
 
 * Class [TextWatermarkOptions](../)

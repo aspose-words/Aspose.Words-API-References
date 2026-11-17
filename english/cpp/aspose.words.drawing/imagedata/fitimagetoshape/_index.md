@@ -10,17 +10,18 @@ url: /cpp/aspose.words.drawing/imagedata/fitimagetoshape/
 ## ImageData::FitImageToShape method
 
 
-Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame.
+Fits the image data to [Shape](../../shape/) frame so that the aspect ratio of the image data matches the aspect ratio of [Shape](../../shape/) frame.
 
 ```cpp
 void Aspose::Words::Drawing::ImageData::FitImageToShape()
 ```
 
+
 ## Examples
 
 
-Shows hot to fit the image data to Shape frame.
 
+Shows hot to fit the image data to [Shape](../../shape/) frame. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,6 +33,7 @@ shape->get_ImageData()->FitImageToShape();
 
 doc->Save(get_ArtifactsDir() + u"Shape.FitImageToShape.docx");
 ```
+
 ## See Also
 
 * Class [ImageData](../)

@@ -22,11 +22,12 @@ double Aspose::Words::ParagraphFormat::get_SpaceAfter()
 Has no effect when [SpaceAfterAuto](../get_spaceafterauto/) is **true**.
 
 Valid values ​​range from 0 to 1584 inclusive.
+
 ## Examples
 
 
-Shows how to set automatic paragraph spacing.
 
+Shows how to set automatic paragraph spacing. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,8 +49,8 @@ builder->Writeln(u"Paragraph 2.");
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-Shows how to apply no spacing between paragraphs with the same style.
 
+Shows how to apply no spacing between paragraphs with the same style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -77,9 +78,6 @@ builder->Writeln(System::String::Format(u"Paragraph in the \"{0}\" style.", buil
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ```
-## Exceptions
-
-* ArgumentOutOfRangeException -  Throws when argument was out of the range of valid values.
 
 ## See Also
 
