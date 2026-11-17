@@ -16,12 +16,11 @@ Gets or sets the name of the filter for the format of the graphic that is to be 
 System::String Aspose::Words::Fields::FieldIncludePicture::get_GraphicFilter()
 ```
 
-
 ## Examples
 
 
+Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 
-Shows how to insert images using IMPORT and INCLUDEPICTURE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldImport->GetField
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
-
 ## See Also
 
 * Class [FieldIncludePicture](../)

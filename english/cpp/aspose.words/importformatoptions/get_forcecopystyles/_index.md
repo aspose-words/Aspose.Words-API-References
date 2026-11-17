@@ -13,7 +13,7 @@ url: /cpp/aspose.words/importformatoptions/get_forcecopystyles/
 Gets or sets a boolean value indicating either to copy conflicting styles in [KeepSourceFormatting](../../importformatmode/) mode. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::ImportFormatOptions::get_ForceCopyStyles() const
+_Bool Aspose::Words::ImportFormatOptions::get_ForceCopyStyles() const
 ```
 
 ## Remarks
@@ -21,15 +21,14 @@ bool Aspose::Words::ImportFormatOptions::get_ForceCopyStyles() const
 
 By default, if a matching style already exists in a destination document, the source style formatting is expanded into direct node attributes and the style of this node is reset to a default.
 
-When this option is set to **true**, the source style will be forcibly copied into destination document with unique name and applied to the imported node.
+ When this option is set to **true**, the source style will be forcibly copied into destination document with unique name and applied to the imported node.
 
-Note, in this case it is not guaranteed that formatting of the imported node in destination document will be preserved.
-
+ Note, in this case it is not guaranteed that formatting of the imported node in destination document will be preserved. 
 ## Examples
 
 
+Shows how to copy source styles with unique names forcibly.
 
-Shows how to copy source styles with unique names forcibly. 
 ```cpp
 // Both documents contain MyStyle1 and MyStyle2, MyStyle3 exists only in a source document.
 auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Styles source.docx"));
@@ -41,11 +40,10 @@ dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
 
 System::SharedPtr<Aspose::Words::ParagraphCollection> paras = dstDoc->get_Sections()->idx_get(1)->get_Body()->get_Paragraphs();
 
-ASSERT_EQ(paras->idx_get(0)->get_ParagraphFormat()->get_Style()->get_Name(), u"MyStyle1_0");
-ASSERT_EQ(paras->idx_get(1)->get_ParagraphFormat()->get_Style()->get_Name(), u"MyStyle2_0");
-ASSERT_EQ(paras->idx_get(2)->get_ParagraphFormat()->get_Style()->get_Name(), u"MyStyle3");
+ASSERT_EQ(u"MyStyle1_0", paras->idx_get(0)->get_ParagraphFormat()->get_Style()->get_Name());
+ASSERT_EQ(u"MyStyle2_0", paras->idx_get(1)->get_ParagraphFormat()->get_Style()->get_Name());
+ASSERT_EQ(u"MyStyle3", paras->idx_get(2)->get_ParagraphFormat()->get_Style()->get_Name());
 ```
-
 ## See Also
 
 * Class [ImportFormatOptions](../)

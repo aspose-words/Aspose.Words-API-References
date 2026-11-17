@@ -13,26 +13,25 @@ url: /cpp/aspose.words/margins/
 Specifies preset margins.
 
 ```cpp
-enum class Margins
+enum class Margins : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Normal | 0 | Normal margins. |
-| Narrow | 1 | Narrow margins. |
-| Moderate | 2 | Moderate margins. |
-| Wide | 3 | Wide margins. |
-| Mirrored | 4 | Mirrored margins. |
 | Custom | 5 | Custom margins. |
-
+| Mirrored | 4 | Mirrored margins. |
+| Moderate | 2 | Moderate margins. |
+| Narrow | 1 | Narrow margins. |
+| Normal | 0 | Normal margins. |
+| Wide | 3 | Wide margins. |
 
 ## Examples
 
 
+Shows when to recalculate the page layout of the document.
 
-Shows when to recalculate the page layout of the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -52,7 +51,6 @@ doc->UpdatePageLayout();
 
 doc->Save(get_ArtifactsDir() + u"Document.UpdatePageLayout.2.pdf");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

@@ -13,12 +13,11 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_resourcesavingcallback/
 Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format.
 
 ```cpp
-void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ResourceSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IResourceSavingCallback> &value)
+void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ResourceSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IResourceSavingCallback> & value)
 ```
 
 ## See Also
 
-* Interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

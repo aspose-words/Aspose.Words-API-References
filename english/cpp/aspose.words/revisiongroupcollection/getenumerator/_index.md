@@ -16,12 +16,11 @@ Returns an enumerator object.
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::RevisionGroup>>> Aspose::Words::RevisionGroupCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document's collection of revisions.
 
-Shows how to work with a document's collection of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 System::SharedPtr<Aspose::Words::RevisionCollection> revisions = doc->get_Revisions();
@@ -65,12 +64,10 @@ std::cout << System::String::Format(u"\n{0} revisions:", revisions->get_Count())
 // Reject all revisions via the collection, reverting the document to its original form.
 revisions->RejectAll();
 
-ASSERT_EQ(0, revisions->get_Count());
+ASSERT_EQ(revisions->get_Count(), 0);
 ```
-
 ## See Also
 
-* Class [RevisionGroup](../../revisiongroup/)
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

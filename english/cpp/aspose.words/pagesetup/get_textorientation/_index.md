@@ -16,12 +16,14 @@ Allows to specify [TextOrientation](./) for the whole page. Default value is [Ho
 Aspose::Words::TextOrientation Aspose::Words::PageSetup::get_TextOrientation()
 ```
 
+## Remarks
 
+This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
 ## Examples
 
 
+Shows how to set text orientation.
 
-Shows how to set text orientation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -35,10 +37,8 @@ pageSetup->set_TextOrientation(TextOrientation::Upward);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.SetTextOrientation.docx");
 ```
-
 ## See Also
 
-* Enum [TextOrientation](../../textorientation/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

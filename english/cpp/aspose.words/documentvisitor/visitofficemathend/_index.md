@@ -10,7 +10,7 @@ url: /cpp/aspose.words/documentvisitor/visitofficemathend/
 ## DocumentVisitor::VisitOfficeMathEnd method
 
 
-Called when enumeration of a Office [Math](../../../aspose.words.math/) object has ended.
+Called when enumeration of a Office Math object has ended.
 
 ```cpp
 virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitOfficeMathEnd(System::SharedPtr<Aspose::Words::Math::OfficeMath> officeMath)
@@ -24,11 +24,8 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitOffice
 ### ReturnValue
 
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
-
 ## See Also
 
-* Enum [VisitorAction](../../visitoraction/)
-* Class [OfficeMath](../../../aspose.words.math/officemath/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

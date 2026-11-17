@@ -19,19 +19,18 @@ System::SharedPtr<System::IO::Stream> Aspose::Words::Drawing::ImageData::ToStrea
 ## Remarks
 
 
-If the image bytes are stored in the shape, creates and returns a **MemoryStream** object.
+If the image bytes are stored in the shape, creates and returns a MemoryStream object.
 
-If the image is linked and stored in a file, opens the file and returns a **FileStream** object.
+If the image is linked and stored in a file, opens the file and returns a FileStream object.
 
-If the image is linked and stored in an external URL, downloads the file and returns a **MemoryStream** object.
+If the image is linked and stored in an external URL, downloads the file and returns a MemoryStream object.
 
 Is it the responsibility of the caller to dispose the stream object.
-
 ## Examples
 
 
+Shows how to create an image file from a shape's raw image data.
 
-Shows how to create an image file from a shape's raw image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -40,7 +39,7 @@ auto imgShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc
 ASSERT_TRUE(imgShape->get_HasImage());
 
 // ToByteArray() returns the array stored in the ImageBytes property.
-ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_ImageData()->ToByteArray());
+ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->ToByteArray(), imgShape->get_ImageData()->get_ImageBytes());
 
 // Save the shape's image data to an image file in the local file system.
 {
@@ -51,7 +50,6 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_Imag
     }
 }
 ```
-
 ## See Also
 
 * Class [ImageData](../)

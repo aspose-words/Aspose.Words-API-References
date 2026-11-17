@@ -18,7 +18,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::PdfSaveOptions::get_SaveFormat(
 
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

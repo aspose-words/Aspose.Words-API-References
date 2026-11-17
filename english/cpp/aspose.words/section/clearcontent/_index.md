@@ -22,29 +22,27 @@ void Aspose::Words::Section::ClearContent()
 The text of [Body](../get_body/) is cleared, only one empty paragraph is left that represents the section break.
 
 The text of all headers and footers is cleared, but [HeaderFooter](../../headerfooter/) objects themselves are not removed.
-
 ## Examples
 
 
+Shows how to clear the contents of a section.
 
-Shows how to clear the contents of a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Hello world!");
 
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
-ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count(), 1);
 
 // Running the "ClearContent" method will remove all the section contents
 // but leave a blank paragraph to add content again.
 doc->get_FirstSection()->ClearContent();
 
-ASSERT_EQ(System::String::Empty, doc->GetText().Trim());
-ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count());
+ASSERT_EQ(doc->GetText().Trim(), System::String::Empty);
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count(), 1);
 ```
-
 ## See Also
 
 * Class [Section](../)

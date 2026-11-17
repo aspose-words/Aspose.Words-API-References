@@ -4,7 +4,7 @@ linktitle: NumberStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::NumberStyle enum. Specifies the number style for a list, footnotes and endnotes, page numbers in C++.'
 type: docs
-weight: 103000
+weight: 103750
 url: /cpp/aspose.words/numberstyle/
 ---
 ## NumberStyle enum
@@ -13,82 +13,81 @@ url: /cpp/aspose.words/numberstyle/
 Specifies the number style for a list, footnotes and endnotes, page numbers.
 
 ```cpp
-enum class NumberStyle
+enum class NumberStyle : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Aiueo | 20 | Aiueo full width |
+| AiueoHalfWidth | 12 | Aiueo |
 | Arabic | 0 | Arabic numbering (1, 2, 3, ...) |
-| UppercaseRoman | 1 | Upper case Roman (I, II, III, ...) |
-| LowercaseRoman | 2 | Lower case Roman (i, ii, iii, ...) |
-| UppercaseLetter | 3 | Upper case Letter (A, B, C, ...) |
-| LowercaseLetter | 4 | Lower case letter (a, b, c, ...) |
-| Ordinal | 5 | Ordinal (1st, 2nd, 3rd, ...) |
-| Number | 6 | Numbered (One, Two, Three, ...) |
-| OrdinalText | 7 | Ordinal (text) (First, Second, Third, ...) |
-| Hex | 8 | Hexadecimal: 8, 9, A, B, C, D, E, F, 10, 11, 12. |
-| ChicagoManual | 9 | Chicago Manual of [Style](../style/): *, †, † |
-| Kanji | 10 | Ideograph-digital. |
-| KanjiDigit | 11 | Japanese counting. |
-| AiueoHalfWidth | 12 | Aiueo. |
-| IrohaHalfWidth | 13 | Iroha. |
-| ArabicFullWidth | 14 | Full-width Arabic: 1, 2, 3, 4. |
-| ArabicHalfWidth | 15 | Half-width Arabic: 1, 2, 3, 4. |
-| KanjiTraditional | 16 | Japanese legal. |
-| KanjiTraditional2 | 17 | Japanese digital ten thousand. |
-| NumberInCircle | 18 | Enclosed circles. |
-| DecimalFullWidth | 19 | Decimal full width: 1, 2, 3, 4. |
-| Aiueo | 20 | Aiueo full width. |
-| Iroha | 21 | Iroha full width. |
-| LeadingZero | 22 | Leading Zero (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
+| Arabic1 | 46 | Arabic alpha |
+| Arabic2 | 48 | Arabic abjad |
+| ArabicFullWidth | 14 | Full-width Arabic: 1, 2, 3, 4 |
+| ArabicHalfWidth | 15 | Half-width Arabic: 1, 2, 3, 4 |
 | Bullet | 23 | Bullet (check the character code in the text) |
-| Ganada | 24 | Korean Ganada. |
-| Chosung | 25 | Korea Chosung. |
-| GB1 | 26 | Enclosed full stop. |
-| GB2 | 27 | Enclosed parenthesis. |
-| GB3 | 28 | Enclosed circle Chinese. |
-| GB4 | 29 | Ideograph enclosed circle. |
-| Zodiac1 | 30 | Ideograph traditional. |
-| Zodiac2 | 31 | Ideograph Zodiac. |
-| Zodiac3 | 32 | Ideograph Zodiac traditional. |
-| TradChinNum1 | 33 | Taiwanese counting. |
-| TradChinNum2 | 34 | Ideograph legal traditional. |
-| TradChinNum3 | 35 | Taiwanese counting thousand. |
-| TradChinNum4 | 36 | Taiwanese digital. |
-| SimpChinNum1 | 37 | Chinese counting. |
-| SimpChinNum2 | 38 | Chinese legal simplified. |
-| SimpChinNum3 | 39 | Chinese counting thousand. |
-| SimpChinNum4 | 40 | Chinese (not implemented) |
-| HanjaRead | 41 | Korean digital. |
-| HanjaReadDigit | 42 | Korean counting. |
-| Hangul | 43 | Korea legal. |
-| Hanja | 44 | Korea digital2. |
-| Hebrew1 | 45 | Hebrew-1. |
-| Arabic1 | 46 | Arabic alpha. |
-| Hebrew2 | 47 | Hebrew-2. |
-| Arabic2 | 48 | Arabic abjad. |
-| HindiLetter1 | 49 | Hindi vowels. |
-| HindiLetter2 | 50 | Hindi consonants. |
-| HindiArabic | 51 | Hindi numbers. |
-| HindiCardinalText | 52 | Hindi descriptive (cardinals) |
-| ThaiLetter | 53 | Thai letters. |
-| ThaiArabic | 54 | Thai numbers. |
-| ThaiCardinalText | 55 | Thai descriptive (cardinals) |
-| VietCardinalText | 56 | Vietnamese descriptive (cardinals) |
-| NumberInDash | 57 | Page number format: - 1 -, - 2 -, - 3 -, - 4 -. |
-| LowercaseRussian | 58 | Lowercase Russian alphabet. |
-| UppercaseRussian | 59 | Uppercase Russian alphabet. |
-| None | 255 | No bullet or number. |
+| ChicagoManual | 9 | Chicago Manual of Style: *, †, † |
+| Chosung | 25 | Korea Chosung |
 | Custom | 65280 | Custom number format. It is supported by DOCX format only. |
-
+| DecimalFullWidth | 19 | Decimal full width: 1, 2, 3, 4 |
+| GB1 | 26 | Enclosed full stop |
+| GB2 | 27 | Enclosed parenthesis |
+| GB3 | 28 | Enclosed circle Chinese |
+| GB4 | 29 | Ideograph enclosed circle |
+| Ganada | 24 | Korean Ganada |
+| Hangul | 43 | Korea legal |
+| Hanja | 44 | Korea digital2 |
+| HanjaRead | 41 | Korean digital |
+| HanjaReadDigit | 42 | Korean counting |
+| Hebrew1 | 45 | Hebrew-1 |
+| Hebrew2 | 47 | Hebrew-2 |
+| Hex | 8 | Hexadecimal: 8, 9, A, B, C, D, E, F, 10, 11, 12 |
+| HindiArabic | 51 | Hindi numbers |
+| HindiCardinalText | 52 | Hindi descriptive (cardinals) |
+| HindiLetter1 | 49 | Hindi vowels |
+| HindiLetter2 | 50 | Hindi consonants |
+| Iroha | 21 | Iroha full width |
+| IrohaHalfWidth | 13 | Iroha |
+| Kanji | 10 | Ideograph-digital |
+| KanjiDigit | 11 | Japanese counting |
+| KanjiTraditional | 16 | Japanese legal |
+| KanjiTraditional2 | 17 | Japanese digital ten thousand |
+| LeadingZero | 22 | Leading Zero (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
+| LowercaseLetter | 4 | Lower case letter (a, b, c, ...) |
+| LowercaseRoman | 2 | Lower case Roman (i, ii, iii, ...) |
+| LowercaseRussian | 58 | Lowercase Russian alphabet |
+| None | 255 | No bullet or number. |
+| Number | 6 | Numbered (One, Two, Three, ...) |
+| NumberInCircle | 18 | Enclosed circles |
+| NumberInDash | 57 | Page number format: - 1 -, - 2 -, - 3 -, - 4 - |
+| Ordinal | 5 | Ordinal (1st, 2nd, 3rd, ...) |
+| OrdinalText | 7 | Ordinal (text) (First, Second, Third, ...) |
+| SimpChinNum1 | 37 | Chinese counting |
+| SimpChinNum2 | 38 | Chinese legal simplified |
+| SimpChinNum3 | 39 | Chinese counting thousand |
+| SimpChinNum4 | 40 | Chinese (not implemented) |
+| ThaiArabic | 54 | Thai numbers |
+| ThaiCardinalText | 55 | Thai descriptive (cardinals) |
+| ThaiLetter | 53 | Thai letters |
+| TradChinNum1 | 33 | Taiwanese counting |
+| TradChinNum2 | 34 | Ideograph legal traditional |
+| TradChinNum3 | 35 | Taiwanese counting thousand |
+| TradChinNum4 | 36 | Taiwanese digital |
+| UppercaseLetter | 3 | Upper case Letter (A, B, C, ...) |
+| UppercaseRoman | 1 | Upper case Roman (I, II, III, ...) |
+| UppercaseRussian | 59 | Uppercase Russian alphabet |
+| VietCardinalText | 56 | Vietnamese descriptive (cardinals) |
+| Zodiac1 | 30 | Ideograph traditional |
+| Zodiac2 | 31 | Ideograph Zodiac |
+| Zodiac3 | 32 | Ideograph Zodiac traditional |
 
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -140,7 +139,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

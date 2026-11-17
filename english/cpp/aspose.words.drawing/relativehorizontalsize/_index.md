@@ -13,27 +13,26 @@ url: /cpp/aspose.words.drawing/relativehorizontalsize/
 Specifies relatively to what the width of a shape or a text frame is calculated horizontally.
 
 ```cpp
-enum class RelativeHorizontalSize
+enum class RelativeHorizontalSize : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Margin | 0 | Specifies that the width is calculated relatively to the space between the left and the right margins. |
-| Page | 1 | Specifies that the width is calculated relatively to the page width. |
-| LeftMargin | 2 | Specifies that the width is calculated relatively to the left margin area size. |
-| RightMargin | 3 | Specifies that the width is calculated relatively to the right margin area size. |
-| InnerMargin | 4 | Specifies that the width is calculated relatively to the inside margin area size, to the left margin area size for odd pages and to the right margin area size for even pages. |
-| OuterMargin | 5 | Specifies that the width is calculated relatively to the outside margin area size, to the right margin area size for odd pages and to the left margin area size for even pages. |
 | Default | 1 | Default value is [Margin](./). |
-
+| InnerMargin | 4 | Specifies that the width is calculated relatively to the inside margin area size, to the left margin area size for odd pages and to the right margin area size for even pages. |
+| LeftMargin | 2 | Specifies that the width is calculated relatively to the left margin area size. |
+| Margin | 0 | Specifies that the width is calculated relatively to the space between the left and the right margins. |
+| OuterMargin | 5 | Specifies that the width is calculated relatively to the outside margin area size, to the right margin area size for odd pages and to the left margin area size for even pages. |
+| Page | 1 | Specifies that the width is calculated relatively to the page width. |
+| RightMargin | 3 | Specifies that the width is calculated relatively to the right margin area size. |
 
 ## Examples
 
 
+Shows how to set relative size and position.
 
-Shows how to set relative size and position. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -81,8 +80,9 @@ if (shape->get_RelativeHorizontalPosition() == RelativeHorizontalPosition::Defau
 
 doc->Save(get_ArtifactsDir() + u"Shape.RelativeSizeAndPosition.docx");
 ```
-
 ## See Also
+
+* [RelativeHorizontalSize](../shapebase/get_relativehorizontalsize/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

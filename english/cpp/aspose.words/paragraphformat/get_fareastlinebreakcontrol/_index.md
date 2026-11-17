@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraphformat/get_fareastlinebreakcontrol/
 Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
 
 ```cpp
-bool Aspose::Words::ParagraphFormat::get_FarEastLineBreakControl()
+_Bool Aspose::Words::ParagraphFormat::get_FarEastLineBreakControl()
 ```
-
 
 ## Examples
 
 
+Shows how to set special properties for Asian typography.
 
-Shows how to set special properties for Asian typography. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -32,7 +31,6 @@ format->set_HangingPunctuation(true);
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.AsianTypographyProperties.docx");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

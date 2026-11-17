@@ -13,12 +13,11 @@ url: /cpp/aspose.words.fields/fieldoptions/set_fieldupdatingprogresscallback/
 Sets [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/) implementation.
 
 ```cpp
-void Aspose::Words::Fields::FieldOptions::set_FieldUpdatingProgressCallback(const System::SharedPtr<Aspose::Words::Fields::IFieldUpdatingProgressCallback> &value)
+void Aspose::Words::Fields::FieldOptions::set_FieldUpdatingProgressCallback(const System::SharedPtr<Aspose::Words::Fields::IFieldUpdatingProgressCallback> & value)
 ```
 
 ## See Also
 
-* Interface [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

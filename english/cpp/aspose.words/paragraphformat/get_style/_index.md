@@ -16,12 +16,11 @@ Gets or sets the paragraph style applied to this formatting.
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::ParagraphFormat::get_Style()
 ```
 
-
 ## Examples
 
 
+Shows how to create and use a paragraph style with list formatting.
 
-Shows how to create and use a paragraph style with list formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,10 +45,8 @@ builder->Writeln(u"Hello World: Normal.");
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBulletedList.docx");
 ```
-
 ## See Also
 
-* Class [Style](../../style/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -29,12 +29,11 @@ void Aspose::Words::DocumentBuilder::MoveToCell(int32_t tableIndex, int32_t rowI
 The navigation is performed inside the current story of the current section.
 
 For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
-
 ## Examples
 
 
+Shows how to move a document builder's cursor to a cell in a table.
 
-Shows how to move a document builder's cursor to a cell in a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,7 +57,6 @@ builder->Write(u"Column 2, cell 2.");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.MoveToCell.docx");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

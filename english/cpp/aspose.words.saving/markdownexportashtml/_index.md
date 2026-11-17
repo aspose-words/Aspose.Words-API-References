@@ -13,23 +13,22 @@ url: /cpp/aspose.words.saving/markdownexportashtml/
 Allows to specify the elements to be exported to Markdown as raw HTML.
 
 ```cpp
-enum class MarkdownExportAsHtml
+enum class MarkdownExportAsHtml : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NonCompatibleTables | 2 | Export tables that cannot be correctly represented in pure Markdown as raw HTML. |
 | None | 0 | Export all elements using Markdown syntax without any raw HTML. |
 | Tables | 1 | Export tables as raw HTML. |
-| NonCompatibleTables | 2 | Export tables that cannot be correctly represented in pure Markdown as raw HTML. |
-
 
 ## Examples
 
 
+Shows how to export a table to Markdown as raw HTML.
 
-Shows how to export a table to Markdown as raw HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,7 +48,6 @@ saveOptions->set_ExportAsHtml(MarkdownExportAsHtml::Tables);
 
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

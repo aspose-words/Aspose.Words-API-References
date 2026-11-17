@@ -7,29 +7,35 @@ type: docs
 weight: 6000
 url: /cpp/aspose.words.lowcode/replacercontext/setreplacement/
 ---
-## ReplacerContext::SetReplacement(const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) method
+## ReplacerContext::SetReplacement(const System::SharedPtr\<System::Text::RegularExpressions::Regex\> \&, const System::String \&) method
 
 
 Sets pattern and replacement used by find/replace operation.
 
 ```cpp
-void Aspose::Words::LowCode::ReplacerContext::SetReplacement(const System::SharedPtr<System::Text::RegularExpressions::Regex> &pattern, const System::String &replacement)
+void Aspose::Words::LowCode::ReplacerContext::SetReplacement(const System::SharedPtr<System::Text::RegularExpressions::Regex> & pattern, const System::String & replacement)
 ```
 
+## Remarks
+
+Using this method overrides previously set pattern and replacement.
 ## See Also
 
 * Class [ReplacerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
-## ReplacerContext::SetReplacement(const System::String\&, const System::String\&) method
+## ReplacerContext::SetReplacement(const System::String \&, const System::String \&) method
 
 
 Sets pattern and replacement used by find/replace operation.
 
 ```cpp
-void Aspose::Words::LowCode::ReplacerContext::SetReplacement(const System::String &pattern, const System::String &replacement)
+void Aspose::Words::LowCode::ReplacerContext::SetReplacement(const System::String & pattern, const System::String & replacement)
 ```
 
+## Remarks
+
+Using this method overrides previously set pattern and replacement.
 ## See Also
 
 * Class [ReplacerContext](../)

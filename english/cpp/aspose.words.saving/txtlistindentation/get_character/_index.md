@@ -16,12 +16,11 @@ Gets or sets which character to use for indenting list levels. The default value
 char16_t Aspose::Words::Saving::TxtListIndentation::get_Character() const
 ```
 
-
 ## Examples
 
 
+Shows how to configure list indenting when saving a document to plaintext.
 
-Shows how to configure list indenting when saving a document to plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,11 +48,13 @@ txtSaveOptions->get_ListIndentation()->set_Count(3);
 doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"TxtSaveOptions.TxtListIndentation.txt");
-System::String newLine = System::Environment::get_NewLine();
 
-ASSERT_EQ(System::String::Format(u"1. Item 1{0}", newLine) + System::String::Format(u"   a. Item 2{0}", newLine) + System::String::Format(u"      i. Item 3{0}", newLine), docText);
+// ControlChar.CrLf is used as a paragraph break by default in text formats.
+// This can be configured using TxtSaveOptions.ParagraphBreak.
+System::String newLine = ControlChar::CrLf();
+
+ASSERT_EQ(docText, System::String::Format(u"1. Item 1{0}", newLine) + System::String::Format(u"   a. Item 2{0}", newLine) + System::String::Format(u"      i. Item 3{0}", newLine));
 ```
-
 ## See Also
 
 * Class [TxtListIndentation](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldincludetext/set_textconverter/
 Sets the name of the text converter for the format of the included file.
 
 ```cpp
-void Aspose::Words::Fields::FieldIncludeText::set_TextConverter(const System::String &value)
+void Aspose::Words::Fields::FieldIncludeText::set_TextConverter(const System::String & value)
 ```
 
 ## See Also

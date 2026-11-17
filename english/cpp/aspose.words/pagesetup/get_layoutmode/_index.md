@@ -16,12 +16,11 @@ Gets or sets the layout mode of this section.
 Aspose::Words::SectionLayoutMode Aspose::Words::PageSetup::get_LayoutMode()
 ```
 
-
 ## Examples
 
 
+Shows how to specify a for the number of characters that each line may have.
 
-Shows how to specify a for the number of characters that each line may have. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,15 +32,15 @@ builder->get_PageSetup()->set_CharactersPerLine(10);
 // The number of characters also depends on the size of the font.
 doc->get_Styles()->idx_get(u"Normal")->get_Font()->set_Size(20);
 
-ASSERT_EQ(8, doc->get_FirstSection()->get_PageSetup()->get_CharactersPerLine());
+ASSERT_EQ(doc->get_FirstSection()->get_PageSetup()->get_CharactersPerLine(), 8);
 
 builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.CharactersPerLine.docx");
 ```
 
+Shows how to specify a limit for the number of lines that each page may have.
 
-Shows how to specify a limit for the number of lines that each page may have. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,10 +59,8 @@ for (int32_t i = 0; i < 30; i++)
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.LinesPerPage.docx");
 ```
-
 ## See Also
 
-* Enum [SectionLayoutMode](../../sectionlayoutmode/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,12 +13,11 @@ url: /cpp/aspose.words/idocumentprocessorplugin/topages/
 Saves each page of the document loaded by [Load()](../load/) method using the specified fixed page save options.
 
 ```cpp
-virtual System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::IDocumentProcessorPlugin::ToPages(System::SharedPtr<Aspose::Words::Saving::FixedPageSaveOptions> saveOptions)=0
+virtual System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::IDocumentProcessorPlugin::ToPages(System::SharedPtr<Aspose::Words::Saving::FixedPageSaveOptions> saveOptions)
 ```
 
 ## See Also
 
-* Class [FixedPageSaveOptions](../../../aspose.words.saving/fixedpagesaveoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/sdtdatestorageformat/
 Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store.
 
 ```cpp
-enum class SdtDateStorageFormat
+enum class SdtDateStorageFormat : int
 ```
 
 ### Values
@@ -22,15 +22,14 @@ enum class SdtDateStorageFormat
 | --- | --- | --- |
 | Date | 0 | The date value for a date SDT is stored as a date in the standard XML Schema Date format. |
 | DateTime | 1 | The date value for a date SDT is stored as a date in the standard XML Schema DateTime format. |
-| Text | 2 | The date value for a date SDT is stored as text. |
 | Default | 1 | Defaults to [DateTime](./) |
-
+| Text | 2 | The date value for a date SDT is stored as text. |
 
 ## Examples
 
 
+Shows how to prompt the user to enter a date with a structured document tag.
 
-Shows how to prompt the user to enter a date with a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -60,7 +59,6 @@ builder->InsertNode(sdtDate);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

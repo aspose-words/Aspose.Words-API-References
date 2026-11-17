@@ -13,7 +13,7 @@ url: /cpp/aspose.words/sectionstart/
 The type of break at the beginning of the section.
 
 ```cpp
-enum class SectionStart
+enum class SectionStart : int
 ```
 
 ### Values
@@ -21,17 +21,16 @@ enum class SectionStart
 | Name | Value | Description |
 | --- | --- | --- |
 | Continuous | 0 | The new section starts on the same page as the previous section. |
+| EvenPage | 3 | The section starts on a new even page. |
 | NewColumn | 1 | The section starts from a new column. |
 | NewPage | 2 | The section starts from a new page. |
-| EvenPage | 3 | The section starts on a new even page. |
 | OddPage | 4 | The section starts on a new odd page. |
-
 
 ## Examples
 
 
+Shows how to specify how a new section separates itself from the previous.
 
-Shows how to specify how a new section separates itself from the previous. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,25 +42,25 @@ builder->Writeln(u"This text is in section 1.");
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 builder->Writeln(u"This text is in section 2.");
 
-ASSERT_EQ(SectionStart::NewPage, doc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(doc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart(), SectionStart::NewPage);
 
 // 2 -  Starts the next section on the current page:
 builder->InsertBreak(BreakType::SectionBreakContinuous);
 builder->Writeln(u"This text is in section 3.");
 
-ASSERT_EQ(SectionStart::Continuous, doc->get_Sections()->idx_get(2)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(doc->get_Sections()->idx_get(2)->get_PageSetup()->get_SectionStart(), SectionStart::Continuous);
 
 // 3 -  Starts the next section on a new even page:
 builder->InsertBreak(BreakType::SectionBreakEvenPage);
 builder->Writeln(u"This text is in section 4.");
 
-ASSERT_EQ(SectionStart::EvenPage, doc->get_Sections()->idx_get(3)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(doc->get_Sections()->idx_get(3)->get_PageSetup()->get_SectionStart(), SectionStart::EvenPage);
 
 // 4 -  Starts the next section on a new odd page:
 builder->InsertBreak(BreakType::SectionBreakOddPage);
 builder->Writeln(u"This text is in section 5.");
 
-ASSERT_EQ(SectionStart::OddPage, doc->get_Sections()->idx_get(4)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(doc->get_Sections()->idx_get(4)->get_PageSetup()->get_SectionStart(), SectionStart::OddPage);
 
 // 5 -  Starts the next section on a new column:
 System::SharedPtr<Aspose::Words::TextColumnCollection> columns = builder->get_PageSetup()->get_TextColumns();
@@ -70,13 +69,13 @@ columns->SetCount(2);
 builder->InsertBreak(BreakType::SectionBreakNewColumn);
 builder->Writeln(u"This text is in section 6.");
 
-ASSERT_EQ(SectionStart::NewColumn, doc->get_Sections()->idx_get(5)->get_PageSetup()->get_SectionStart());
+ASSERT_EQ(doc->get_Sections()->idx_get(5)->get_PageSetup()->get_SectionStart(), SectionStart::NewColumn);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.SetSectionStart.docx");
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -115,11 +114,10 @@ run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello World!");
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

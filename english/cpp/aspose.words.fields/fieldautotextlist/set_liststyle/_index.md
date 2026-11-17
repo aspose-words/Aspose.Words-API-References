@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldautotextlist/set_liststyle/
 Sets the name of the style on which the list to contain entries is based.
 
 ```cpp
-void Aspose::Words::Fields::FieldAutoTextList::set_ListStyle(const System::String &value)
+void Aspose::Words::Fields::FieldAutoTextList::set_ListStyle(const System::String & value)
 ```
 
 ## See Also

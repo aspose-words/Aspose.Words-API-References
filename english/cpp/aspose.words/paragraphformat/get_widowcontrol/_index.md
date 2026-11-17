@@ -13,15 +13,14 @@ url: /cpp/aspose.words/paragraphformat/get_widowcontrol/
 True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
 
 ```cpp
-bool Aspose::Words::ParagraphFormat::get_WidowControl()
+_Bool Aspose::Words::ParagraphFormat::get_WidowControl()
 ```
-
 
 ## Examples
 
 
+Shows how to enable widow/orphan control for a paragraph.
 
-Shows how to enable widow/orphan control for a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipisci
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.WidowControl.docx");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

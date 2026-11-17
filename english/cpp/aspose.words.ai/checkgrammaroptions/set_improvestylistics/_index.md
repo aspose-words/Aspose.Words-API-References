@@ -10,7 +10,7 @@ url: /cpp/aspose.words.ai/checkgrammaroptions/set_improvestylistics/
 ## CheckGrammarOptions::set_ImproveStylistics method
 
 
-Allows to specify either [AI](../../) will try to improve stylistics of the text being proofed. Default value is **false**.
+Allows to specify either AI will try to improve stylistics of the text being proofed. Default value is **false**.
 
 ```cpp
 void Aspose::Words::AI::CheckGrammarOptions::set_ImproveStylistics(bool value)

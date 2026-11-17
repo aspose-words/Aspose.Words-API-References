@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartSeriesGroup::set_BubbleScale method
 linktitle: set_BubbleScale
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::set_BubbleScale method. Setter for Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_BubbleScale in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroup::set_BubbleScale method. Sets the size of the bubbles as a percentage of their default size in C++.'
 type: docs
 weight: 16000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroup/set_bubblescale/
@@ -10,12 +10,36 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroup/set_bubblescale/
 ## ChartSeriesGroup::set_BubbleScale method
 
 
-Setter for [Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_BubbleScale](../get_bubblescale/).
+Sets the size of the bubbles as a percentage of their default size.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartSeriesGroup::set_BubbleScale(int32_t value)
 ```
 
+## Remarks
+
+
+Applies only to series groups of the [Bubble](../../chartseriestype/) and [Bubble3D](../../chartseriestype/) types.
+
+The range of acceptable values is from 0 to 300 inclusive. The default value is 100.
+## Examples
+
+
+Show how to set size of the bubbles.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a bubble 3D chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Bubble3D, static_cast<double>(450), static_cast<double>(250));
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroup> seriesGroup = shape->get_Chart()->get_SeriesGroups()->idx_get(0);
+
+// Set bubble scale to 200%.
+seriesGroup->set_BubbleScale(200);
+
+doc->Save(get_ArtifactsDir() + u"Charts.BubbleScale.docx");
+```
 ## See Also
 
 * Class [ChartSeriesGroup](../)

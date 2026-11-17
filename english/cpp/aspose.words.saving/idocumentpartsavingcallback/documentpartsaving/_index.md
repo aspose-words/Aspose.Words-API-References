@@ -13,12 +13,11 @@ url: /cpp/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/
 Called when Aspose.Words is about to save a document part.
 
 ```cpp
-virtual void Aspose::Words::Saving::IDocumentPartSavingCallback::DocumentPartSaving(System::SharedPtr<Aspose::Words::Saving::DocumentPartSavingArgs> args)=0
+virtual void Aspose::Words::Saving::IDocumentPartSavingCallback::DocumentPartSaving(System::SharedPtr<Aspose::Words::Saving::DocumentPartSavingArgs> args)
 ```
 
 ## See Also
 
-* Class [DocumentPartSavingArgs](../../documentpartsavingargs/)
 * Interface [IDocumentPartSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

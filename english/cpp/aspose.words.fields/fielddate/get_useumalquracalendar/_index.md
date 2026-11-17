@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fielddate/get_useumalquracalendar/
 Gets or sets whether to use the Um-al-Qura calendar.
 
 ```cpp
-bool Aspose::Words::Fields::FieldDate::get_UseUmAlQuraCalendar() override
+_Bool Aspose::Words::Fields::FieldDate::get_UseUmAlQuraCalendar() override
 ```
-
 
 ## Examples
 
 
+Shows how to use DATE fields to display dates according to different kinds of calendars.
 
-Shows how to use DATE fields to display dates according to different kinds of calendars. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,32 +30,31 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 // 1 -  Islamic Lunar Calendar:
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->set_UseLunarCalendar(true);
-ASSERT_EQ(u" DATE  \\h", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" DATE  \\h");
 builder->Writeln();
 
 // 2 -  Umm al-Qura calendar:
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->set_UseUmAlQuraCalendar(true);
-ASSERT_EQ(u" DATE  \\u", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" DATE  \\u");
 builder->Writeln();
 
 // 3 -  Indian National Calendar:
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->set_UseSakaEraCalendar(true);
-ASSERT_EQ(u" DATE  \\s", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" DATE  \\s");
 builder->Writeln();
 
 // Insert a DATE field and set its calendar type to the one last used by the host application.
 // In Microsoft Word, the type will be the most recently used in the Insert -> Text -> Date and Time dialog box.
 field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->set_UseLastFormat(true);
-ASSERT_EQ(u" DATE  \\l", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" DATE  \\l");
 builder->Writeln();
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.DATE.docx");
 ```
-
 ## See Also
 
 * Class [FieldDate](../)

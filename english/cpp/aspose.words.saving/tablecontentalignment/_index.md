@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/tablecontentalignment/
 Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
 
 ```cpp
-enum class TableContentAlignment
+enum class TableContentAlignment : int
 ```
 
 ### Values
@@ -21,16 +21,15 @@ enum class TableContentAlignment
 | Name | Value | Description |
 | --- | --- | --- |
 | Auto | 0 | The alignment will be taken from the first paragraph in corresponding table column. |
-| Left | 1 | The content of tables will be aligned to the Left. |
 | Center | 2 | The content of tables will be aligned to the Center. |
+| Left | 1 | The content of tables will be aligned to the Left. |
 | Right | 3 | The content of tables will be aligned to the Right. |
-
 
 ## Examples
 
 
+Shows how to align contents in tables.
 
-Shows how to align contents in tables. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
@@ -52,24 +51,23 @@ System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()-
 switch (tableContentAlignment)
 {
     case TableContentAlignment::Auto:
-        ASSERT_EQ(ParagraphAlignment::Right, table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
-        ASSERT_EQ(ParagraphAlignment::Center, table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Right);
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Center);
         break;
     case TableContentAlignment::Left:
-        ASSERT_EQ(ParagraphAlignment::Left, table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
-        ASSERT_EQ(ParagraphAlignment::Left, table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Left);
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Left);
         break;
     case TableContentAlignment::Center:
-        ASSERT_EQ(ParagraphAlignment::Center, table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
-        ASSERT_EQ(ParagraphAlignment::Center, table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Center);
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Center);
         break;
     case TableContentAlignment::Right:
-        ASSERT_EQ(ParagraphAlignment::Right, table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
-        ASSERT_EQ(ParagraphAlignment::Right, table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment());
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(0)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Right);
+        ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_FirstParagraph()->get_ParagraphFormat()->get_Alignment(), ParagraphAlignment::Right);
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -10,10 +10,10 @@ url: /cpp/aspose.words.fields/fieldcitation/set_anothersourcetag/
 ## FieldCitation::set_AnotherSourceTag method
 
 
-Sets a value that matches the **Tag** element's value of another source to be included in the citation.
+Sets a value that matches the Tag element's value of another source to be included in the citation.
 
 ```cpp
-void Aspose::Words::Fields::FieldCitation::set_AnotherSourceTag(const System::String &value)
+void Aspose::Words::Fields::FieldCitation::set_AnotherSourceTag(const System::String & value)
 ```
 
 ## See Also

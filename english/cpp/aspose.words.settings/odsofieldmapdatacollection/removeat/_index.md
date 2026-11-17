@@ -20,7 +20,6 @@ void Aspose::Words::Settings::OdsoFieldMapDataCollection::RemoveAt(int32_t index
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | The zero-based index of the element. |
-
 ## See Also
 
 * Class [OdsoFieldMapDataCollection](../)

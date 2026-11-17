@@ -21,7 +21,7 @@ System::String Aspose::Words::Saving::PdfEncryptionDetails::get_OwnerPassword() 
 
 The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [Permissions](../get_permissions/).
 
-The owner password cannot be the same as the user password. 
+The owner password cannot be the same as the user password.
 ## See Also
 
 * Class [PdfEncryptionDetails](../)

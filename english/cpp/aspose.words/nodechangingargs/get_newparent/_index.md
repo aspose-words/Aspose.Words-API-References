@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::NodeChangingArgs::get_NewP
 
 ## See Also
 
-* Class [Node](../../node/)
 * Class [NodeChangingArgs](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

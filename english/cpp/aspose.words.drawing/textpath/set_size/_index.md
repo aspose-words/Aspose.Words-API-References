@@ -19,7 +19,7 @@ void Aspose::Words::Drawing::TextPath::set_Size(double value)
 ## Remarks
 
 
-The default value is 36. 
+The default value is 36.
 ## See Also
 
 * Class [TextPath](../)

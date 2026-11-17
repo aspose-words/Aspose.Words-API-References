@@ -16,12 +16,11 @@ Clears formatting of this conditional style.
 void Aspose::Words::ConditionalStyle::ClearFormatting()
 ```
 
-
 ## Examples
 
 
+Shows how to reset conditional table styles.
 
-Shows how to reset conditional table styles. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,7 +46,7 @@ tableStyle->get_ConditionalStyles()->get_LastRow()->get_Borders()->set_Color(Sys
 // 1 -  Clear the conditional styles for a specific part of a table:
 tableStyle->get_ConditionalStyles()->idx_get(0)->ClearFormatting();
 
-ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, tableStyle->get_ConditionalStyles()->get_FirstRow()->get_Borders()->get_Color());
+ASPOSE_ASSERT_EQ(tableStyle->get_ConditionalStyles()->get_FirstRow()->get_Borders()->get_Color(), System::Drawing::Color::Empty);
 
 // 2 -  Clear the conditional styles for the entire table:
 tableStyle->get_ConditionalStyles()->ClearFormatting();
@@ -57,7 +56,6 @@ ASSERT_TRUE(tableStyle->get_ConditionalStyles()->LINQ_All(static_cast<System::Fu
     return s->get_Borders()->get_Color() == System::Drawing::Color::Empty;
 }))));
 ```
-
 ## See Also
 
 * Class [ConditionalStyle](../)

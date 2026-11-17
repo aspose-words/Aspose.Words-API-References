@@ -22,10 +22,12 @@ static System::SharedPtr<Aspose::Words::Saving::MultiPageLayout> Aspose::Words::
 | columns | int32_t | The number of columns in the layout. Must be greater than zero. |
 | horizontalGap | float | The horizontal gap between columns in points. |
 | verticalGap | float | The vertical gap between rows in points. |
+## Exceptions
+
+* ArgumentOutOfRangeException - Thrown if columns is less than or equal to zero.
 
 ## See Also
 
-* Class [MultiPageLayout](../)
 * Class [MultiPageLayout](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

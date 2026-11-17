@@ -36,42 +36,38 @@ class ContributorCollection : public System::Collections::Generic::IEnumerable<S
 | [get_Producer](./get_producer/)() | Gets or sets the producer of a source. |
 | [get_Translator](./get_translator/)() | Gets or sets the translator of a source. |
 | [get_Writer](./get_writer/)() | Gets or sets the writer of a source. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Artist](./set_artist/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Artist](./get_artist/). |
-| [set_Author](./set_author/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Author](./get_author/). |
-| [set_BookAuthor](./set_bookauthor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_BookAuthor](./get_bookauthor/). |
-| [set_Compiler](./set_compiler/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Compiler](./get_compiler/). |
-| [set_Composer](./set_composer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Composer](./get_composer/). |
-| [set_Conductor](./set_conductor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Conductor](./get_conductor/). |
-| [set_Counsel](./set_counsel/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Counsel](./get_counsel/). |
-| [set_Director](./set_director/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Director](./get_director/). |
-| [set_Editor](./set_editor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Editor](./get_editor/). |
-| [set_Interviewee](./set_interviewee/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Interviewee](./get_interviewee/). |
-| [set_Interviewer](./set_interviewer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Interviewer](./get_interviewer/). |
-| [set_Inventor](./set_inventor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Inventor](./get_inventor/). |
-| [set_Performer](./set_performer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Performer](./get_performer/). |
-| [set_Producer](./set_producer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Producer](./get_producer/). |
-| [set_Translator](./set_translator/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Translator](./get_translator/). |
-| [set_Writer](./set_writer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\>\&) | Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Writer](./get_writer/). |
-| static [Type](./type/)() |  |
-
+| [set_Artist](./set_artist/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the artist of a source. |
+| [set_Author](./set_author/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the author of a source. |
+| [set_BookAuthor](./set_bookauthor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the book author of a source. |
+| [set_Compiler](./set_compiler/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the compiler of a source. |
+| [set_Composer](./set_composer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the composer of a source. |
+| [set_Conductor](./set_conductor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the conductor of a source. |
+| [set_Counsel](./set_counsel/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the counsel of a source. |
+| [set_Director](./set_director/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the director of a source. |
+| [set_Editor](./set_editor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the editor of a source. |
+| [set_Interviewee](./set_interviewee/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the interviewee of a source. |
+| [set_Interviewer](./set_interviewer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the interviewer of a source. |
+| [set_Inventor](./set_inventor/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the inventor of a source. |
+| [set_Performer](./set_performer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the performer of a source. |
+| [set_Producer](./set_producer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the producer of a source. |
+| [set_Translator](./set_translator/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the translator of a source. |
+| [set_Writer](./set_writer/)(const System::SharedPtr\<Aspose::Words::Bibliography::Contributor\> \&) | Sets the writer of a source. |
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
 System::SharedPtr<Aspose::Words::Bibliography::Bibliography> bibliography = document->get_Bibliography();
-ASSERT_EQ(12, bibliography->get_Sources()->get_Count());
+ASSERT_EQ(bibliography->get_Sources()->get_Count(), 12);
 
 // Get default data from bibliography sources.
 System::SharedPtr<Aspose::Words::Bibliography::Source> source = bibliography->get_Sources()->LINQ_FirstOrDefault();
-ASSERT_EQ(u"Book 0 (No LCID)", source->get_Title());
-ASSERT_EQ(SourceType::Book, source->get_SourceType());
-ASSERT_EQ(3, source->get_Contributors()->LINQ_Count());
+ASSERT_EQ(source->get_Title(), u"Book 0 (No LCID)");
+ASSERT_EQ(source->get_SourceType(), SourceType::Book);
+ASSERT_EQ(source->get_Contributors()->LINQ_Count(), 3);
 ASSERT_TRUE(System::TestTools::IsNull(source->get_AbbreviatedCaseNumber()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_AlbumTitle()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_BookTitle()));
@@ -112,7 +108,7 @@ ASSERT_TRUE(System::TestTools::IsNull(source->get_ShortTitle()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_StandardNumber()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_StateOrProvince()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Station()));
-ASSERT_EQ(u"BookNoLCID", source->get_Tag());
+ASSERT_EQ(source->get_Tag(), u"BookNoLCID");
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Theater()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_ThesisType()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Type()));
@@ -143,17 +139,16 @@ ASSERT_FALSE(System::TestTools::IsNull(contributors->get_Translator()));
 ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Writer()));
 
 System::SharedPtr<Aspose::Words::Bibliography::Contributor> editor = contributors->get_Editor();
-ASSERT_EQ(2, (System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(editor))->LINQ_Count());
+ASSERT_EQ((System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(editor))->LINQ_Count(), 2);
 
 auto authors = System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(contributors->get_Author());
-ASSERT_EQ(2, authors->LINQ_Count());
+ASSERT_EQ(authors->LINQ_Count(), 2);
 
 System::SharedPtr<Aspose::Words::Bibliography::Person> person = authors->idx_get(0);
-ASSERT_EQ(u"Roxanne", person->get_First());
-ASSERT_EQ(u"Brielle", person->get_Middle());
-ASSERT_EQ(u"Tejeda", person->get_Last());
+ASSERT_EQ(person->get_First(), u"Roxanne");
+ASSERT_EQ(person->get_Middle(), u"Brielle");
+ASSERT_EQ(person->get_Last(), u"Tejeda");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Bibliography](../)

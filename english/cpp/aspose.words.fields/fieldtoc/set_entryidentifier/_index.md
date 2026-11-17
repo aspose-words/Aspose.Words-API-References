@@ -4,7 +4,7 @@ linktitle: set_EntryIdentifier
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::set_EntryIdentifier method. Sets a string that should match type identifiers of TC fields being included in C++.'
 type: docs
-weight: 26000
+weight: 59000
 url: /cpp/aspose.words.fields/fieldtoc/set_entryidentifier/
 ---
 ## FieldToc::set_EntryIdentifier method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/set_entryidentifier/
 Sets a string that should match type identifiers of TC fields being included.
 
 ```cpp
-void Aspose::Words::Fields::FieldToc::set_EntryIdentifier(const System::String &value)
+void Aspose::Words::Fields::FieldToc::set_EntryIdentifier(const System::String & value)
 ```
 
 ## See Also

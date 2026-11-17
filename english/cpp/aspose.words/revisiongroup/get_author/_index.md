@@ -16,23 +16,21 @@ Gets the author of this revision group.
 System::String Aspose::Words::RevisionGroup::get_Author()
 ```
 
-
 ## Examples
 
 
+Shows how to print info about a group of revisions in a document.
 
-Shows how to print info about a group of revisions in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
-ASSERT_EQ(7, doc->get_Revisions()->get_Groups()->get_Count());
+ASSERT_EQ(doc->get_Revisions()->get_Groups()->get_Count(), 7);
 
 for (auto&& group : doc->get_Revisions()->get_Groups())
 {
     std::cout << System::String::Format(u"Revision author: {0}; Revision type: {1} \n\tRevision text: {2}", group->get_Author(), group->get_RevisionType(), group->get_Text()) << std::endl;
 }
 ```
-
 ## See Also
 
 * Class [RevisionGroup](../)

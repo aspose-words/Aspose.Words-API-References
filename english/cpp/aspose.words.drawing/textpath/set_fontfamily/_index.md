@@ -13,13 +13,13 @@ url: /cpp/aspose.words.drawing/textpath/set_fontfamily/
 Defines the family of the textpath font.
 
 ```cpp
-void Aspose::Words::Drawing::TextPath::set_FontFamily(const System::String &value)
+void Aspose::Words::Drawing::TextPath::set_FontFamily(const System::String & value)
 ```
 
 ## Remarks
 
 
-The default value is Arial. 
+The default value is Arial.
 ## See Also
 
 * Class [TextPath](../)

@@ -20,12 +20,11 @@ System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Hyperli
 
 
 Aspose.Words does not use this property.
-
 ## Examples
 
 
+Shows how to store the base part of a hyperlink in the document's properties.
 
-Shows how to store the base part of a hyperlink in the document's properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_TRUE(System::IO::File::Exists(properties->get_HyperlinkBase() + (System::
 
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

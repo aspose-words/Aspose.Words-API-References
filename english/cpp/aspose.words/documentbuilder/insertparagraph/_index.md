@@ -28,12 +28,11 @@ Current paragraph formatting specified by the [ParagraphFormat](../get_paragraph
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
 
 An exception is thrown if it is not possible to insert a paragraph break at the current cursor position.
-
 ## Examples
 
 
+Shows how to insert a paragraph into the document.
 
-Shows how to insert a paragraph into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,10 +57,8 @@ builder->Writeln(u"Hello world!");
 
 ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

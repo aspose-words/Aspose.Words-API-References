@@ -4,7 +4,7 @@ linktitle: get_RemovePersonalInformation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_RemovePersonalInformation method. Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document in C++.'
 type: docs
-weight: 45000
+weight: 137000
 url: /cpp/aspose.words/document/get_removepersonalinformation/
 ---
 ## Document::get_RemovePersonalInformation method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/document/get_removepersonalinformation/
 Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document.
 
 ```cpp
-bool Aspose::Words::Document::get_RemovePersonalInformation()
+_Bool Aspose::Words::Document::get_RemovePersonalInformation()
 ```
-
 
 ## Examples
 
 
+Shows how to enable the removal of personal information during a manual save.
 
-Shows how to enable the removal of personal information during a manual save. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,12 +42,11 @@ doc->set_RemovePersonalInformation(saveWithoutPersonalInfo);
 doc->Save(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx");
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx"));
 
-ASPOSE_ASSERT_EQ(saveWithoutPersonalInfo, doc->get_RemovePersonalInformation());
-ASSERT_EQ(u"John Doe", doc->get_BuiltInDocumentProperties()->get_Author());
-ASSERT_EQ(u"Placeholder Inc.", doc->get_BuiltInDocumentProperties()->get_Company());
-ASSERT_EQ(u"John Doe", doc->get_Revisions()->idx_get(0)->get_Author());
+ASPOSE_ASSERT_EQ(doc->get_RemovePersonalInformation(), saveWithoutPersonalInfo);
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Author(), u"John Doe");
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Company(), u"Placeholder Inc.");
+ASSERT_EQ(doc->get_Revisions()->idx_get(0)->get_Author(), u"John Doe");
 ```
-
 ## See Also
 
 * Class [Document](../)

@@ -16,6 +16,9 @@ The key of this source in the cache.
 System::String Aspose::Words::Fonts::MemoryFontSource::get_CacheKey() const
 ```
 
+## Remarks
+
+ This key is used to identify cache item when saving/loading font search cache with [SaveSearchCache()](../../fontsettings/savesearchcache/) and [SetFontsSources()](../../fontsettings/setfontssources/) methods. 
 ## See Also
 
 * Class [MemoryFontSource](../)

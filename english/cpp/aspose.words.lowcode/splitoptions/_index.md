@@ -20,14 +20,11 @@ class SplitOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [SplitOptions](./splitoptions/)() |  |
 | [get_SplitCriteria](./get_splitcriteria/)() const | Specifies the criteria for splitting the document into parts. |
 | [get_SplitStyle](./get_splitstyle/)() const | Specifies the paragraph style for splitting the document into parts when [Style](../splitcriteria/) is used. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_SplitCriteria](./set_splitcriteria/)(Aspose::Words::LowCode::SplitCriteria) | Specifies the criteria for splitting the document into parts. |
-| [set_SplitStyle](./set_splitstyle/)(const System::String\&) | Specifies the paragraph style for splitting the document into parts when [Style](../splitcriteria/) is used. |
-| [SplitOptions](./splitoptions/)() |  |
-| static [Type](./type/)() |  |
+| [set_SplitStyle](./set_splitstyle/)(const System::String \&) | Specifies the paragraph style for splitting the document into parts when [Style](../splitcriteria/) is used. |
 ## See Also
 
 * Namespace [Aspose::Words::LowCode](../)

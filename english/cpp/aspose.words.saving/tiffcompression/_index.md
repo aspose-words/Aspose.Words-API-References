@@ -13,18 +13,18 @@ url: /cpp/aspose.words.saving/tiffcompression/
 Specifies what type of compression to apply when saving page images into a TIFF file.
 
 ```cpp
-enum class TiffCompression
+enum class TiffCompression : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Specifies no compression. |
-| Rle | 1 | Specifies the RLE compression scheme. |
-| Lzw | 2 | Specifies the LZW compression scheme. In Java emulated by Deflate (Zip) compression. |
 | Ccitt3 | 3 | Specifies the CCITT3 compression scheme. |
 | Ccitt4 | 4 | Specifies the CCITT4 compression scheme. |
+| Lzw | 2 | Specifies the LZW compression scheme. In Java emulated by Deflate (Zip) compression. |
+| None | 0 | Specifies no compression. |
+| Rle | 1 | Specifies the RLE compression scheme. |
 
 ## See Also
 

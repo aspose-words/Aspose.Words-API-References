@@ -18,7 +18,6 @@ const System::SharedPtr<System::Collections::Generic::IList<System::SharedPtr<As
 
 ## See Also
 
-* Class [FieldDatabaseDataRow](../../fielddatabasedatarow/)
 * Class [FieldDatabaseDataTable](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

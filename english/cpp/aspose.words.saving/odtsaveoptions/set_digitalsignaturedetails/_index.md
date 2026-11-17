@@ -13,12 +13,11 @@ url: /cpp/aspose.words.saving/odtsaveoptions/set_digitalsignaturedetails/
 Sets [DigitalSignatureDetails](../../digitalsignaturedetails/) object used to sign a document.
 
 ```cpp
-void Aspose::Words::Saving::OdtSaveOptions::set_DigitalSignatureDetails(const System::SharedPtr<Aspose::Words::Saving::DigitalSignatureDetails> &value)
+void Aspose::Words::Saving::OdtSaveOptions::set_DigitalSignatureDetails(const System::SharedPtr<Aspose::Words::Saving::DigitalSignatureDetails> & value)
 ```
 
 ## See Also
 
-* Class [DigitalSignatureDetails](../../digitalsignaturedetails/)
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

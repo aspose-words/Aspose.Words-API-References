@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Fields::FieldSeparator> Aspose::Words::Fields::
 
 ## See Also
 
-* Class [FieldSeparator](../../fieldseparator/)
 * Class [FieldMacroButton](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/processor/
 ## Processor class
 
 
-[Processor](./) class for performing different document processing actions.
+Processor class for performing different document processing actions.
 
 ```cpp
 class Processor : public System::Object
@@ -22,20 +22,17 @@ class Processor : public System::Object
 | --- | --- |
 | [Execute](./execute/)() | Execute the processor action. |
 | [Execute](./execute/)(System::Threading::CancellationToken) | Execute the processor action allowing canceling document processing task using specified cancellation token. |
-| [From](./from/)(const System::String\&) | Specifies input document for processing. |
-| [From](./from/)(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Specifies input document for processing. |
-| [From](./from/)(const System::SharedPtr\<System::IO::Stream\>\&) | Specifies input document for processing. |
-| [From](./from/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) | Specifies input document for processing. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [To](./to/)(const System::String\&) | Specifies output file for the processor. |
-| [To](./to/)(const System::String\&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Specifies output file for the processor. |
-| [To](./to/)(const System::String\&, Aspose::Words::SaveFormat) | Specifies output file for the processor. |
-| [To](./to/)(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Specifies output stream for the processor. |
-| [To](./to/)(const System::SharedPtr\<System::IO::Stream\>\&, Aspose::Words::SaveFormat) | Specifies output stream for the processor. |
-| [To](./to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) |  |
-| [To](./to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\>\&, Aspose::Words::SaveFormat) |  |
-| static [Type](./type/)() |  |
+| [From](./from/)(const System::SharedPtr\<System::IO::Stream\> \&) | Specifies input document for processing. |
+| [From](./from/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
+| [From](./from/)(const System::String \&) | Specifies input document for processing. |
+| [From](./from/)(const System::String \&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> \&) | Specifies input document for processing. |
+| [To](./to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, Aspose::Words::SaveFormat) |  |
+| [To](./to/)(const System::SharedPtr\<System::Collections::Generic::List\<System::SharedPtr\<System::IO::Stream\>\>\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) |  |
+| [To](./to/)(const System::SharedPtr\<System::IO::Stream\> \&, Aspose::Words::SaveFormat) | Specifies output stream for the processor. |
+| [To](./to/)(const System::SharedPtr\<System::IO::Stream\> \&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> \&) | Specifies output stream for the processor. |
+| [To](./to/)(const System::String \&) | Specifies output file for the processor. |
+| [To](./to/)(const System::String \&, Aspose::Words::SaveFormat) | Specifies output file for the processor. |
+| [To](./to/)(const System::String \&, System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>) | Specifies output file for the processor. |
 ## See Also
 
 * Namespace [Aspose::Words::LowCode](../)

@@ -26,10 +26,8 @@ An array of nodes.
 You should not be adding/removing nodes while iterating over a collection of nodes because it invalidates the iterator and requires refreshes for live collections.
 
 To be able to add/remove nodes during iteration, use this method to copy nodes into a fixed-size array and then iterate over the array.
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [NodeList](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

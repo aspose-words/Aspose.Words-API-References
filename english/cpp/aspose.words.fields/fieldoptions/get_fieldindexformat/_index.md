@@ -16,12 +16,11 @@ Gets or sets a [FieldIndexFormat](./) that represents the formatting for the [Fi
 Aspose::Words::Fields::FieldIndexFormat Aspose::Words::Fields::FieldOptions::get_FieldIndexFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to formatting FieldIndex fields.
 
-Shows how to formatting [FieldIndex](../../fieldindex/) fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,10 +36,8 @@ doc->UpdateFields();
 
 doc->Save(get_ArtifactsDir() + u"Field.SetFieldIndexFormat.docx");
 ```
-
 ## See Also
 
-* Enum [FieldIndexFormat](../../fieldindexformat/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::BorderType enum
 linktitle: BorderType
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::BorderType enum. Specifies sides of a border. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::BorderType enum. Specifies sides of a border. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 81000
 url: /cpp/aspose.words/bordertype/
@@ -10,32 +10,32 @@ url: /cpp/aspose.words/bordertype/
 ## BorderType enum
 
 
-Specifies sides of a border. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Specifies sides of a border. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
-enum class BorderType
+enum class BorderType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | -1 | Default value. |
 | Bottom | 0 | Specifies the bottom border of a paragraph or a table cell. |
-| Left | 1 | Specifies the left border of a paragraph or a table cell. |
-| Right | 2 | Specifies the right border of a paragraph or a table cell. |
-| Top | 3 | Specifies the top border of a paragraph or a table cell. |
-| Horizontal | 4 | Specifies the horizontal border between cells in a table or between conforming paragraphs. |
-| Vertical | 5 | Specifies the vertical border between cells in a table. |
 | DiagonalDown | 6 | Specifies the diagonal border in a table cell. |
 | DiagonalUp | 7 | Specifies the diagonal border in a table cell. |
-
+| Horizontal | 4 | Specifies the horizontal border between cells in a table or between conforming paragraphs. |
+| Left | 1 | Specifies the left border of a paragraph or a table cell. |
+| None | -1 | Default value. |
+| Right | 2 | Specifies the right border of a paragraph or a table cell. |
+| Top | 3 | Specifies the top border of a paragraph or a table cell. |
+| Vertical | 5 | Specifies the vertical border between cells in a table. |
 
 ## Examples
 
 
+Shows how to insert a paragraph with a top border.
 
-Shows how to insert a paragraph with a top border. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +51,6 @@ builder->Writeln(u"Text with a top border.");
 
 doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

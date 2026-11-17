@@ -30,12 +30,12 @@ The child node that matches the criteria or **null** if no matching node is foun
 
 
 If index is out of range, a **null** is returned.
-
+ Note that markup nodes ([StructuredDocumentTag](../../nodetype/) and [SmartTag](../../nodetype/)) are traversed even when isDeep = **false** and [GetChild()](./) is invoked for non-markup node type. For example if the first run in a para is wrapped in a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), it will still be returned by [GetChild()](./)([Run](../../nodetype/), 0, **false**).
 ## Examples
 
 
+Shows how to traverse through a composite node's collection of child nodes.
 
-Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -57,7 +57,7 @@ paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject
 // and print any runs or shapes that we find within.
 System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(NodeType::Any, false);
 
-ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, false)->get_Count());
+ASSERT_EQ(paragraph->GetChildNodes(NodeType::Any, false)->get_Count(), 3);
 
 for (auto&& child : System::IterateOver(children))
 {
@@ -72,7 +72,7 @@ for (auto&& child : System::IterateOver(children))
             auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
             std::cout << "Shape:" << std::endl;
             std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
-            ASSERT_EQ(100, shape->get_CustomNodeId());
+            ASSERT_EQ(shape->get_CustomNodeId(), 100);
             break;
         }
         default:
@@ -80,11 +80,8 @@ for (auto&& child : System::IterateOver(children))
     }
 }
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
-* Enum [NodeType](../../nodetype/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

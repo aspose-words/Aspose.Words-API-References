@@ -16,12 +16,13 @@ Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default val
 System::SharedPtr<System::Text::Encoding> Aspose::Words::Saving::HtmlSaveOptions::get_Encoding() const
 ```
 
+## Remarks
 
 ## Examples
 
 
+Shows how to use a specific encoding when saving a document to .epub.
 
-Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -41,7 +42,6 @@ saveOptions->set_ExportDocumentProperties(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

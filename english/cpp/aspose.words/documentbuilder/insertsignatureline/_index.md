@@ -7,29 +7,28 @@ type: docs
 weight: 46000
 url: /cpp/aspose.words/documentbuilder/insertsignatureline/
 ---
-## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&) method
+## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\> \&) method
 
 
 Inserts a signature line at the current position.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertSignatureLine(const System::SharedPtr<Aspose::Words::SignatureLineOptions> &signatureLineOptions)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertSignatureLine(const System::SharedPtr<Aspose::Words::SignatureLineOptions> & signatureLineOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| signatureLineOptions | const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\& | The object that stores parameters of creating signature line. |
+| signatureLineOptions | const System::SharedPtr\<Aspose::Words::SignatureLineOptions\> \& | The object that stores parameters of creating signature line. |
 
 ### ReturnValue
 
 The signature line node that was just inserted.
-
 ## Examples
 
 
+Shows how to sign a document with a personal certificate and a signature line.
 
-Shows how to sign a document with a personal certificate and a signature line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -70,27 +69,24 @@ signatureLine = shape->get_SignatureLine();
 ASSERT_TRUE(signatureLine->get_IsSigned());
 ASSERT_TRUE(signatureLine->get_IsValid());
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Class [SignatureLineOptions](../../signaturelineoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, Aspose::Words::Drawing::WrapType) method
+## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\> \&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, Aspose::Words::Drawing::WrapType) method
 
 
 Inserts a signature line at the specified position.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertSignatureLine(const System::SharedPtr<Aspose::Words::SignatureLineOptions> &signatureLineOptions, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, Aspose::Words::Drawing::WrapType wrapType)
+System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder::InsertSignatureLine(const System::SharedPtr<Aspose::Words::SignatureLineOptions> & signatureLineOptions, Aspose::Words::Drawing::RelativeHorizontalPosition horzPos, double left, Aspose::Words::Drawing::RelativeVerticalPosition vertPos, double top, Aspose::Words::Drawing::WrapType wrapType)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| signatureLineOptions | const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\& | The object that stores parameters of creating signature line. |
+| signatureLineOptions | const System::SharedPtr\<Aspose::Words::SignatureLineOptions\> \& | The object that stores parameters of creating signature line. |
 | horzPos | Aspose::Words::Drawing::RelativeHorizontalPosition | Specifies where the distance to the signature line is measured from. |
 | left | double | Distance in points from the origin to the left side of the signature line. |
 | vertPos | Aspose::Words::Drawing::RelativeVerticalPosition | Specifies where the distance to the signature line measured from. |
@@ -104,12 +100,11 @@ The signature line node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
 ## Examples
 
 
+Shows how to insert an inline signature line into a document.
 
-Shows how to insert an inline signature line into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -128,14 +123,8 @@ builder->InsertSignatureLine(options, RelativeHorizontalPosition::RightMargin, 2
 // The signature line can be signed in Microsoft Word by double clicking it.
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SignatureLineInline.docx");
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Class [SignatureLineOptions](../../signaturelineoptions/)
-* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
-* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
-* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

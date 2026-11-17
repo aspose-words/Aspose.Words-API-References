@@ -18,8 +18,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::GoogleAiModel::Tra
 
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
-* Enum [Language](../../language/)
 * Class [GoogleAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

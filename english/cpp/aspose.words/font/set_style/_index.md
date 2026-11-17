@@ -2,7 +2,7 @@
 title: Aspose::Words::Font::set_Style method
 linktitle: set_Style
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Font::set_Style method. Setter for Aspose::Words::Font::get_Style in C++.'
+description: 'Aspose::Words::Font::set_Style method. Sets the character style applied to this formatting in C++.'
 type: docs
 weight: 94000
 url: /cpp/aspose.words/font/set_style/
@@ -10,15 +10,44 @@ url: /cpp/aspose.words/font/set_style/
 ## Font::set_Style method
 
 
-Setter for [Aspose::Words::Font::get_Style](../get_style/).
+Sets the character style applied to this formatting.
 
 ```cpp
-void Aspose::Words::Font::set_Style(const System::SharedPtr<Aspose::Words::Style> &value)
+void Aspose::Words::Font::set_Style(const System::SharedPtr<Aspose::Words::Style> & value)
 ```
 
+## Examples
+
+
+Applies a double underline to all runs in a document that are formatted with custom character styles.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a custom style and apply it to text created using a document builder.
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(StyleType::Character, u"MyStyle");
+style->get_Font()->set_Color(System::Drawing::Color::get_Red());
+style->get_Font()->set_Name(u"Courier New");
+
+builder->get_Font()->set_StyleName(u"MyStyle");
+builder->Write(u"This text is in a custom style.");
+
+// Iterate over every run and add a double underline to every custom style.
+for (auto&& run : System::IterateOver<Aspose::Words::Run>(doc->GetChildNodes(NodeType::Run, true)))
+{
+    System::SharedPtr<Aspose::Words::Style> charStyle = run->get_Font()->get_Style();
+
+    if (!charStyle->get_BuiltIn())
+    {
+        run->get_Font()->set_Underline(Underline::Double);
+    }
+}
+
+doc->Save(get_ArtifactsDir() + u"Font.Style.docx");
+```
 ## See Also
 
-* Class [Style](../../style/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

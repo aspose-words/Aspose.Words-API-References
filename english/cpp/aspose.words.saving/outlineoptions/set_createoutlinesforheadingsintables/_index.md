@@ -19,7 +19,7 @@ void Aspose::Words::Saving::OutlineOptions::set_CreateOutlinesForHeadingsInTable
 ## Remarks
 
 
-Default value is **false**. 
+Default value is **false**.
 ## See Also
 
 * Class [OutlineOptions](../)

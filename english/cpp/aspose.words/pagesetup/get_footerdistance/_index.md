@@ -16,12 +16,11 @@ Returns or sets the distance (in points) between the footer and the bottom of th
 double Aspose::Words::PageSetup::get_FooterDistance()
 ```
 
-
 ## Examples
 
 
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
-Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,6 @@ builder->Writeln(u"Hello world!");
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

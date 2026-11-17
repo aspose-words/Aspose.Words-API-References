@@ -18,7 +18,6 @@ Aspose::Words::NodeType Aspose::Words::Fields::FieldSeparator::get_NodeType() co
 
 ## See Also
 
-* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [FieldSeparator](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

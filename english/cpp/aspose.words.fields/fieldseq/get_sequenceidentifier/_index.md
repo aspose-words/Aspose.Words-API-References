@@ -16,12 +16,11 @@ Gets or sets the name assigned to the series of items that are to be numbered.
 System::String Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier()
 ```
 
-
 ## Examples
 
 
+Shows how to populate a TOC field with entries using SEQ fields.
 
-Shows how to populate a TOC field with entries using SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,7 +47,7 @@ fieldToc->set_PrefixedSequenceIdentifier(u"PrefixSequence");
 // We can specify a custom separator that will appear between these two numbers.
 fieldToc->set_SequenceSeparator(u">");
 
-ASSERT_EQ(u" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc->GetFieldCode());
+ASSERT_EQ(fieldToc->GetFieldCode(), u" TOC  \\c MySequence \\s PrefixSequence \\d >");
 
 builder->InsertBreak(BreakType::PageBreak);
 
@@ -61,7 +60,7 @@ auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->I
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
 
-ASSERT_EQ(u" SEQ  PrefixSequence", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  PrefixSequence");
 
 // 2 -  Inserting a SEQ field that belongs to the TOC's main sequence:
 // This SEQ field will create an entry in the TOC.
@@ -74,7 +73,7 @@ builder->Write(u"First TOC entry, MySequence #");
 fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
-ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence");
 
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
@@ -91,8 +90,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.TOC.SEQ.docx");
 ```
 
+Shows create numbering using SEQ fields.
 
-Shows create numbering using SEQ fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -108,8 +107,8 @@ fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetNumber(u"100");
 fieldSeq->Update();
 
-ASSERT_EQ(u" SEQ  MySequence \\r 100", fieldSeq->GetFieldCode());
-ASSERT_EQ(u"100", fieldSeq->get_Result());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\r 100");
+ASSERT_EQ(fieldSeq->get_Result(), u"100");
 
 // Display the next number in this sequence with another SEQ field.
 builder->Write(u", #");
@@ -117,7 +116,7 @@ fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->Insert
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->Update();
 
-ASSERT_EQ(u"101", fieldSeq->get_Result());
+ASSERT_EQ(fieldSeq->get_Result(), u"101");
 
 // Insert a level 1 heading.
 builder->InsertBreak(BreakType::ParagraphBreak);
@@ -133,8 +132,8 @@ fieldSeq->set_ResetHeadingLevel(u"1");
 fieldSeq->Update();
 
 // The above heading is a level 1 heading, so the count for this sequence is reset to 1.
-ASSERT_EQ(u" SEQ  MySequence \\s 1", fieldSeq->GetFieldCode());
-ASSERT_EQ(u"1", fieldSeq->get_Result());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\s 1");
+ASSERT_EQ(fieldSeq->get_Result(), u"1");
 
 // Move to the next number of this sequence.
 builder->Write(u", #");
@@ -143,13 +142,12 @@ fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_InsertNextNumber(true);
 fieldSeq->Update();
 
-ASSERT_EQ(u" SEQ  MySequence \\n", fieldSeq->GetFieldCode());
-ASSERT_EQ(u"2", fieldSeq->get_Result());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence \\n");
+ASSERT_EQ(fieldSeq->get_Result(), u"2");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SEQ.ResetNumbering.docx");
 ```
-
 ## See Also
 
 * Class [FieldSeq](../)

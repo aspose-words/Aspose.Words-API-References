@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator_holder_type typedef
 linktitle: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator_holder_type typedef of Aspose::Words::DigitalSignatures::DigitalSignatureCollection class in C++.'
+description: 'Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator_holder_type typedef. A collection type whose iterator types is used as iterator types in the current collection in C++.'
 type: docs
 weight: 19000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/iterator_holder_type/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/iterator_hol
 ## iterator_holder_type typedef
 
 
-
+A collection type whose iterator types is used as iterator types in the current collection.
 
 ```cpp
-using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> >
+using Aspose::Words::DigitalSignatures::DigitalSignatureCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> >
 ```
 
 ## See Also

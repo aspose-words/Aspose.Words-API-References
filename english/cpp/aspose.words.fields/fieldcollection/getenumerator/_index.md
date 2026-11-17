@@ -18,7 +18,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 ## See Also
 
-* Class [Field](../../field/)
 * Class [FieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

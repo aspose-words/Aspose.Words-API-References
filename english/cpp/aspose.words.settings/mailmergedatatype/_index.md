@@ -13,24 +13,25 @@ url: /cpp/aspose.words.settings/mailmergedatatype/
 Specifies the type of an external mail merge data source.
 
 ```cpp
-enum class MailMergeDataType
+enum class MailMergeDataType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | -1 | No mail merge data source is specified. |
-| TextFile | 0 | Specifies that a given document has been connected to a text file via the Dynamic Data Exchange (DDE) system. |
 | Database | 1 | Specifies that a given document has been connected to an Access database via the Dynamic Data Exchange (DDE) system. |
-| Spreadsheet | 2 | Specifies that a given document has been connected to an Excel spreadsheet via the Dynamic Data Exchange (DDE) system. |
-| Query | 3 | Specifies that a given document has been connected to an external data source using an external query tool. |
-| Odbc | 4 | Specifies that a given document has been connected to an external data source via the Open Database Connectivity interface. |
-| Native | 5 | Specifies that a given document has been connected to an external data source via the Office Data Source Object (ODSO) interface. |
 | Default | -1 | Equals to [None](./). |
-
+| Native | 5 | Specifies that a given document has been connected to an external data source via the Office Data Source Object (ODSO) interface. |
+| None | -1 | No mail merge data source is specified. |
+| Odbc | 4 | Specifies that a given document has been connected to an external data source via the Open Database Connectivity interface. |
+| Query | 3 | Specifies that a given document has been connected to an external data source using an external query tool. |
+| Spreadsheet | 2 | Specifies that a given document has been connected to an Excel spreadsheet via the Dynamic Data Exchange (DDE) system. |
+| TextFile | 0 | Specifies that a given document has been connected to a text file via the Dynamic Data Exchange (DDE) system. |
 
 ## See Also
+
+* [DataType](../mailmergesettings/get_datatype/)
 
 * Namespace [Aspose::Words::Settings](../)
 * Library [Aspose.Words for C++](../../)

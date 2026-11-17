@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldbibliography/set_filterlanguageid/
 Sets the language ID that is used to filter the bibliographic data to only the sources in the document that use that language.
 
 ```cpp
-void Aspose::Words::Fields::FieldBibliography::set_FilterLanguageId(const System::String &value)
+void Aspose::Words::Fields::FieldBibliography::set_FilterLanguageId(const System::String & value)
 ```
 
 ## See Also

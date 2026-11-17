@@ -16,12 +16,11 @@ Removes just this SDT node itself, but keeps the content of it inside the docume
 void Aspose::Words::Markup::StructuredDocumentTag::RemoveSelfOnly() override
 ```
 
-
 ## Examples
 
 
+Shows how to create a structured document tag in a plain text box and modify its appearance.
 
-Shows how to create a structured document tag in a plain text box and modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,7 +70,6 @@ tagClone->RemoveSelfOnly();
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

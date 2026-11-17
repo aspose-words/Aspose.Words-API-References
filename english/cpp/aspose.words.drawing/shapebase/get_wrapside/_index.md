@@ -4,7 +4,7 @@ linktitle: get_WrapSide
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_WrapSide method. Specifies how the text is wrapped around the shape in C++.'
 type: docs
-weight: 55000
+weight: 61955
 url: /cpp/aspose.words.drawing/shapebase/get_wrapside/
 ---
 ## ShapeBase::get_WrapSide method
@@ -22,25 +22,24 @@ Aspose::Words::Drawing::WrapSide Aspose::Words::Drawing::ShapeBase::get_WrapSide
 The default value is [Both](../../wrapside/).
 
 Has effect only for top level shapes.
-
 ## Examples
 
 
+Shows how to replace all textbox shapes with image shapes.
 
-Shows how to replace all textbox shapes with image shapes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Textboxes in drawing canvas.docx"));
 
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
-ASSERT_EQ(3, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+ASSERT_EQ(shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
 {
     return s->get_ShapeType() == ShapeType::TextBox;
-}))));
-ASSERT_EQ(1, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+}))), 3);
+ASSERT_EQ(shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
 {
     return s->get_ShapeType() == ShapeType::Image;
-}))));
+}))), 1);
 
 for (System::SharedPtr<Aspose::Words::Drawing::Shape> shape : shapes)
 {
@@ -66,21 +65,19 @@ for (System::SharedPtr<Aspose::Words::Drawing::Shape> shape : shapes)
 
 shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
-ASSERT_EQ(0, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+ASSERT_EQ(shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
 {
     return s->get_ShapeType() == ShapeType::TextBox;
-}))));
-ASSERT_EQ(4, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+}))), 0);
+ASSERT_EQ(shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
 {
     return s->get_ShapeType() == ShapeType::Image;
-}))));
+}))), 4);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ReplaceTextboxesWithImages.docx");
 ```
-
 ## See Also
 
-* Enum [WrapSide](../../wrapside/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

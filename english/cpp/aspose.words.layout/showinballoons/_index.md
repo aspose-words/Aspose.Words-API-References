@@ -13,23 +13,25 @@ url: /cpp/aspose.words.layout/showinballoons/
 Specifies which revisions are rendered in balloons.
 
 ```cpp
-enum class ShowInBalloons
+enum class ShowInBalloons : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Renders insert, delete and format revisions inline. |
 | Format | 1 | Renders insert and delete revisions inline, format revisions in balloons. |
 | FormatAndDelete | 2 | Renders insert revisions inline, delete and format revisions in balloons. |
+| None | 0 | Renders insert, delete and format revisions inline. |
 
+## Remarks
 
+ Note that revisions are not rendered in balloons for [ShowInAnnotations](../commentdisplaymode/). 
 ## Examples
 
 
+Shows how to modify the appearance of revisions.
 
-Shows how to modify the appearance of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 
@@ -73,7 +75,6 @@ revisionOptions->set_CommentColor(RevisionColor::BrightGreen);
 // These features are only applicable to formats such as .pdf or .jpg.
 doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)

@@ -4,7 +4,7 @@ linktitle: get_Vertical
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::BorderCollection::get_Vertical method. Gets the vertical border that is used between cells in C++.'
 type: docs
-weight: 15000
+weight: 17847
 url: /cpp/aspose.words/bordercollection/get_vertical/
 ---
 ## BorderCollection::get_Vertical method
@@ -16,12 +16,11 @@ Gets the vertical border that is used between cells.
 System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::get_Vertical()
 ```
 
-
 ## Examples
 
 
+Shows how to apply settings to vertical borders to a table row's format.
 
-Shows how to apply settings to vertical borders to a table row's format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -53,16 +52,14 @@ for (int32_t i = 0; i < 3; i++)
 // A row format, and a cell's inner paragraph use different border settings.
 System::SharedPtr<Aspose::Words::Border> border = table->get_FirstRow()->get_FirstCell()->get_LastParagraph()->get_ParagraphFormat()->get_Borders()->get_Vertical();
 
-ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), border->get_Color().ToArgb());
-ASPOSE_ASSERT_EQ(0.0, border->get_LineWidth());
-ASSERT_EQ(LineStyle::None, border->get_LineStyle());
+ASSERT_EQ(border->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
+ASPOSE_ASSERT_EQ(border->get_LineWidth(), 0.0);
+ASSERT_EQ(border->get_LineStyle(), LineStyle::None);
 
 doc->Save(get_ArtifactsDir() + u"Border.VerticalBorders.docx");
 ```
-
 ## See Also
 
-* Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

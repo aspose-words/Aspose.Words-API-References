@@ -28,12 +28,11 @@ If you save a document into a stream, Aspose.Words does not have a folder where 
 If the folder specified by [FontsFolder](./) doesn't exist, it will be created automatically.
 
 [ResourceFolder](../get_resourcefolder/) is another way to specify a folder where fonts should be saved.
-
 ## Examples
 
 
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 
-Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -52,7 +51,6 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

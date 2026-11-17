@@ -13,23 +13,22 @@ url: /cpp/aspose.words.loading/documentdirection/
 Allows to specify the direction to flow the text in a document.
 
 ```cpp
-enum class DocumentDirection
+enum class DocumentDirection : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Auto | 2 | Auto-detect direction. |
 | LeftToRight | 0 | Left to right direction. |
 | RightToLeft | 1 | Right to left direction. |
-| Auto | 2 | Auto-detect direction. |
-
 
 ## Examples
 
 
+Shows how to detect plaintext document text direction.
 
-Shows how to detect plaintext document text direction. 
 ```cpp
 // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
 // to modify how we load a plaintext document.
@@ -50,7 +49,6 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"English text.t
 
 ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Bidi());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)

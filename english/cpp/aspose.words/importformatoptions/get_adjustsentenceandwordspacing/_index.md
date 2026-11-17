@@ -13,15 +13,14 @@ url: /cpp/aspose.words/importformatoptions/get_adjustsentenceandwordspacing/
 Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::ImportFormatOptions::get_AdjustSentenceAndWordSpacing() const
+_Bool Aspose::Words::ImportFormatOptions::get_AdjustSentenceAndWordSpacing() const
 ```
-
 
 ## Examples
 
 
+Shows how to adjust sentence and word spacing automatically.
 
-Shows how to adjust sentence and word spacing automatically. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
@@ -36,9 +35,8 @@ auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_AdjustSentenceAndWordSpacing(true);
 builder->InsertDocument(srcDoc, ImportFormatMode::UseDestinationStyles, options);
 
-ASSERT_EQ(u"Lorem ipsum. Dolor sit amet.", dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim());
+ASSERT_EQ(dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText().Trim(), u"Lorem ipsum. Dolor sit amet.");
 ```
-
 ## See Also
 
 * Class [ImportFormatOptions](../)

@@ -24,12 +24,11 @@ void Aspose::Words::Tables::Table::AutoFit(Aspose::Words::Tables::AutoFitBehavio
 
 
 This method mimics the commands available in the Auto Fit menu for a table in Microsoft Word. The commands available are "Auto Fit to Contents", "Auto Fit to Window" and "Fixed Column Width". In Microsoft Word these commands set relevant table properties and then update the table layout and Aspose.Words does the same for you.
-
 ## Examples
 
 
+Shows how to build a new table while applying a style.
 
-Shows how to build a new table while applying a style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -72,10 +71,8 @@ builder->EndRow();
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
-
 ## See Also
 
-* Enum [AutoFitBehavior](../../autofitbehavior/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

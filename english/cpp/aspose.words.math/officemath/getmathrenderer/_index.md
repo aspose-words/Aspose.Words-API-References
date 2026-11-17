@@ -24,12 +24,11 @@ The renderer object for this equation.
 
 
 This method just invokes the [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/) constructor and passes this object as a parameter.
-
 ## Examples
 
 
+Shows how to render an Office Math object into an image file in the local file system.
 
-Shows how to render an Office [Math](../../) object into an image file in the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -44,10 +43,8 @@ saveOptions->set_Scale(5);
 
 math->GetMathRenderer()->Save(get_ArtifactsDir() + u"Shape.RenderOfficeMath.png", saveOptions);
 ```
-
 ## See Also
 
-* Class [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/)
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
 * Library [Aspose.Words for C++](../../../)

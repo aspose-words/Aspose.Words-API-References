@@ -16,12 +16,11 @@ Gets or sets the height of the table row in points.
 double Aspose::Words::Tables::RowFormat::get_Height()
 ```
 
-
 ## Examples
 
 
+Shows how to create a formatted table using DocumentBuilder.
 
-Shows how to create a formatted table using [DocumentBuilder](../../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -78,8 +77,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateFormattedTable.docx");
 ```
 
+Shows how to format rows with a document builder.
 
-Shows how to format rows with a document builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -101,15 +100,14 @@ builder->Write(u"Row 2, cell 1.");
 builder->EndTable();
 
 // The first row was unaffected by the padding reconfiguration and still holds the default values.
-ASPOSE_ASSERT_EQ(0.0, table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height());
-ASSERT_EQ(HeightRule::Auto, table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule());
+ASPOSE_ASSERT_EQ(table->get_Rows()->idx_get(0)->get_RowFormat()->get_Height(), 0.0);
+ASSERT_EQ(table->get_Rows()->idx_get(0)->get_RowFormat()->get_HeightRule(), HeightRule::Auto);
 
-ASPOSE_ASSERT_EQ(100.0, table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height());
-ASSERT_EQ(HeightRule::Exactly, table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule());
+ASPOSE_ASSERT_EQ(table->get_Rows()->idx_get(1)->get_RowFormat()->get_Height(), 100.0);
+ASSERT_EQ(table->get_Rows()->idx_get(1)->get_RowFormat()->get_HeightRule(), HeightRule::Exactly);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetRowFormatting.docx");
 ```
-
 ## See Also
 
 * Class [RowFormat](../)

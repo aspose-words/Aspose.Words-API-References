@@ -22,12 +22,11 @@ void Aspose::Words::Document::UpdateListLabels()
 This method updates list label properties such as [LabelValue](../../../aspose.words.lists/listlabel/get_labelvalue/) and [LabelString](../../../aspose.words.lists/listlabel/get_labelstring/) for each [ListLabel](../../paragraph/get_listlabel/) object in the document.
 
 Also, this method is sometimes implicitly called when updating fields in the document. This is required because some fields that may reference list numbers (such as TOC or REF) need them be up-to-date.
-
 ## Examples
 
 
+Shows how to extract the list labels of all paragraphs that are list items.
 
-Shows how to extract the list labels of all paragraphs that are list items. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 doc->UpdateListLabels();
@@ -58,7 +57,6 @@ for (auto&& paragraph : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Para
     std::cout << System::String::Format(u"\tList label combined with text: {0} {1}", label->get_LabelString(), paragraphText) << std::endl;
 }
 ```
-
 ## See Also
 
 * Class [Document](../)

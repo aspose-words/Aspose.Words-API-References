@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/xlsxsectionmode/
 Specifies how sections are handled when saving a document in the XLSX format.
 
 ```cpp
-enum class XlsxSectionMode
+enum class XlsxSectionMode : int
 ```
 
 ### Values
@@ -23,12 +23,11 @@ enum class XlsxSectionMode
 | MultipleWorksheets | 0 | Specifies that a separate worksheet is created for each section of a document. |
 | SingleWorksheet | 1 | Specifies that all sections of a document are saved on one worksheet. |
 
-
 ## Examples
 
 
+Shows how to save document as a separate worksheets.
 
-Shows how to save document as a separate worksheets. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -39,7 +38,6 @@ xlsxSaveOptions->set_SectionMode(XlsxSectionMode::MultipleWorksheets);
 
 doc->Save(get_ArtifactsDir() + u"XlsxSaveOptions.SelectionMode.xlsx", xlsxSaveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

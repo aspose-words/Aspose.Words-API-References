@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldindex/get_runsubentriesonsameline/
 Gets or sets whether run subentries into the same line as the main entry.
 
 ```cpp
-bool Aspose::Words::Fields::FieldIndex::get_RunSubentriesOnSameLine()
+_Bool Aspose::Words::Fields::FieldIndex::get_RunSubentriesOnSameLine()
 ```
-
 
 ## Examples
 
 
+Shows how to work with subentries in an INDEX field.
 
-Shows how to work with subentries in an INDEX field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -49,11 +48,11 @@ index->set_RunSubentriesOnSameLine(runSubentriesOnTheSameLine);
 
 if (runSubentriesOnTheSameLine)
 {
-    ASSERT_EQ((u" INDEX  \\e \", see page \" \\h A \\r"), index->GetFieldCode());
+    ASSERT_EQ(index->GetFieldCode(), (u" INDEX  \\e \", see page \" \\h A \\r"));
 }
 else
 {
-    ASSERT_EQ((u" INDEX  \\e \", see page \" \\h A"), index->GetFieldCode());
+    ASSERT_EQ(index->GetFieldCode(), (u" INDEX  \\e \", see page \" \\h A"));
 }
 
 // Insert two XE fields, each on a new page, and with the same heading named "Heading 1",
@@ -66,7 +65,7 @@ builder->InsertBreak(BreakType::PageBreak);
 auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Heading 1:Subheading 1");
 
-ASSERT_EQ(u" XE  \"Heading 1:Subheading 1\"", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  \"Heading 1:Subheading 1\"");
 
 builder->InsertBreak(BreakType::PageBreak);
 indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
@@ -76,7 +75,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + System::String::Format(u"Field.INDEX.XE.Subheading.docx", System::MakeObject<System::Array<System::SharedPtr<System::Object>>>(0)));
 ```
-
 ## See Also
 
 * Class [FieldIndex](../)

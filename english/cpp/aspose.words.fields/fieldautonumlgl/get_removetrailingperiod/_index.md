@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldautonumlgl/get_removetrailingperiod/
 Gets whether to display the number without a trailing period.
 
 ```cpp
-bool Aspose::Words::Fields::FieldAutoNumLgl::get_RemoveTrailingPeriod()
+_Bool Aspose::Words::Fields::FieldAutoNumLgl::get_RemoveTrailingPeriod()
 ```
 
 ## See Also

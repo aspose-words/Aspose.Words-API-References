@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergebarcode/set_barcodevalue/
 Sets the barcode value.
 
 ```cpp
-void Aspose::Words::Fields::FieldMergeBarcode::set_BarcodeValue(const System::String &value)
+void Aspose::Words::Fields::FieldMergeBarcode::set_BarcodeValue(const System::String & value)
 ```
 
 ## See Also

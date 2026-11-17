@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcitation/set_pagenumber/
 Sets a page number associated with the citation.
 
 ```cpp
-void Aspose::Words::Fields::FieldCitation::set_PageNumber(const System::String &value)
+void Aspose::Words::Fields::FieldCitation::set_PageNumber(const System::String & value)
 ```
 
 ## See Also

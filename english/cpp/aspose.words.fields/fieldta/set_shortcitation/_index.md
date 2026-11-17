@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldta/set_shortcitation/
 Sets the short citation for the entry.
 
 ```cpp
-void Aspose::Words::Fields::FieldTA::set_ShortCitation(const System::String &value)
+void Aspose::Words::Fields::FieldTA::set_ShortCitation(const System::String & value)
 ```
 
 ## See Also

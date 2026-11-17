@@ -23,7 +23,7 @@ Note that this options will not work when saving to XPS.
 
 Specify 0 and the document outline will be collapsed; specify 1 and the first level items in the outline will be expanded and so on.
 
-Default is 0. Valid range is 0 to 9. 
+Default is 0. Valid range is 0 to 9.
 ## See Also
 
 * Class [OutlineOptions](../)

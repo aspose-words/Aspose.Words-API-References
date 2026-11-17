@@ -31,12 +31,11 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 ### ReturnValue
 
 The shape node that was inserted.
-
 ## Examples
 
 
+Shows how to insert DML shapes into a document.
 
-Shows how to insert DML shapes into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,14 +55,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Enum [ShapeType](../../../aspose.words.drawing/shapetype/)
-* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
-* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
-* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -86,12 +79,11 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 ### ReturnValue
 
 The shape node that was inserted.
-
 ## Examples
 
 
+Shows how to insert DML shapes into a document.
 
-Shows how to insert DML shapes into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -111,11 +103,8 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
-
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
-* Enum [ShapeType](../../../aspose.words.drawing/shapetype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

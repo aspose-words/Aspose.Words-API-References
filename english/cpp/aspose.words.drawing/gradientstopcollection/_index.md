@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::GradientStopCollection class
 linktitle: GradientStopCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::GradientStopCollection class. Contains a collection of GradientStop objects. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::GradientStopCollection class. Contains a collection of GradientStop objects. To learn more, visit the Working with Graphic Elements documentation article in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.words.drawing/gradientstopcollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing/gradientstopcollection/
 ## GradientStopCollection class
 
 
-Contains a collection of [GradientStop](../gradientstop/) objects. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article.
+Contains a collection of [GradientStop](../gradientstop/) objects. 
+To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/cpp/working-with-graphic-elements/) documentation article.
 
 ```cpp
 class GradientStopCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Drawing::GradientStop>>
@@ -20,23 +21,22 @@ class GradientStopCollection : public System::Collections::Generic::IEnumerable<
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Drawing::GradientStop\>\&) | Adds a specified [GradientStop](../gradientstop/) to a gradient. |
-| [get_Count](./get_count/)() | Gets an integer value indicating the number of items in the collection. |
+| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Drawing::GradientStop\> \&) | Adds a specified [GradientStop](../gradientstop/) to a gradient. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator that iterates through the collection. |
-| [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets or sets a [GradientStop](../gradientstop/) object in the collection. |
-| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::GradientStop\>\&) | Gets or sets a [GradientStop](../gradientstop/) object in the collection. |
-| [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::GradientStop\>\&) | Inserts a [GradientStop](../gradientstop/) to the collection at a specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Drawing::GradientStop\>\&) | Removes a specified [GradientStop](../gradientstop/) from the collection. |
+| [Insert](./insert/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::GradientStop\> \&) | Inserts a [GradientStop](../gradientstop/) to the collection at a specified index. |
+| [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Drawing::GradientStop\> \&) | Removes a specified [GradientStop](../gradientstop/) from the collection. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a [GradientStop](../gradientstop/) from the collection at a specified index. |
-| static [Type](./type/)() |  |
+| [get_Count](./get_count/)() | Gets an integer value indicating the number of items in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Gets or sets a [GradientStop](../gradientstop/) object in the collection. |
+| [idx_set](./idx_set/)(int32_t, const System::SharedPtr\<Aspose::Words::Drawing::GradientStop\> \&) | Gets or sets a [GradientStop](../gradientstop/) object in the collection. |
+## Remarks
 
+ You do not create instances of this class directly. Use the [GradientStops](../fill/get_gradientstops/) property to access gradient stops of fill objects. 
 ## Examples
 
 
+Shows how to add gradient stops to the gradient fill.
 
-Shows how to add gradient stops to the gradient fill. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,16 +65,16 @@ gradientStops->Insert(1, System::MakeObject<Aspose::Words::Drawing::GradientStop
 gradientStop = gradientStops->idx_get(2);
 gradientStops->Remove(gradientStop);
 
-ASSERT_EQ(2, gradientStops->get_Count());
+ASSERT_EQ(gradientStops->get_Count(), 2);
 
-ASPOSE_ASSERT_EQ(System::Drawing::Color::FromArgb(255, 0, 255, 255), gradientStops->idx_get(0)->get_BaseColor());
-ASSERT_EQ(System::Drawing::Color::get_Aqua().ToArgb(), gradientStops->idx_get(0)->get_Color().ToArgb());
-ASSERT_NEAR(0.1, gradientStops->idx_get(0)->get_Position(), 0.01);
-ASSERT_NEAR(0.25, gradientStops->idx_get(0)->get_Transparency(), 0.01);
+ASPOSE_ASSERT_EQ(gradientStops->idx_get(0)->get_BaseColor(), System::Drawing::Color::FromArgb(255, 0, 255, 255));
+ASSERT_EQ(gradientStops->idx_get(0)->get_Color().ToArgb(), System::Drawing::Color::get_Aqua().ToArgb());
+ASSERT_NEAR(gradientStops->idx_get(0)->get_Position(), 0.1, 0.01);
+ASSERT_NEAR(gradientStops->idx_get(0)->get_Transparency(), 0.25, 0.01);
 
-ASSERT_EQ(System::Drawing::Color::get_Chocolate().ToArgb(), gradientStops->idx_get(1)->get_Color().ToArgb());
-ASSERT_NEAR(0.75, gradientStops->idx_get(1)->get_Position(), 0.01);
-ASSERT_NEAR(0.3, gradientStops->idx_get(1)->get_Transparency(), 0.01);
+ASSERT_EQ(gradientStops->idx_get(1)->get_Color().ToArgb(), System::Drawing::Color::get_Chocolate().ToArgb());
+ASSERT_NEAR(gradientStops->idx_get(1)->get_Position(), 0.75, 0.01);
+ASSERT_NEAR(gradientStops->idx_get(1)->get_Transparency(), 0.3, 0.01);
 
 // Use the compliance option to define the shape using DML
 // if you want to get "GradientStops" property after the document saves.
@@ -83,7 +83,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Strict);
 
 doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

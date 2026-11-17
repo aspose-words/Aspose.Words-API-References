@@ -13,28 +13,27 @@ url: /cpp/aspose.words.webextensions/webextensionstoretype/
 Enumerates available types of a web extension store.
 
 ```cpp
-enum class WebExtensionStoreType
+enum class WebExtensionStoreType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| SPCatalog | 0 | Specifies that the store type is SharePoint corporate catalog. |
-| OMEX | 1 | Specifies that the store type is Office.com. |
-| SPApp | 2 | Specifies that the store type is a SharePoint web application. |
+| Default | 0 | Default value. |
+| ExCatalog | 6 | Specifies that the store type is Centralized Deployment via Exchange. |
 | Exchange | 3 | Specifies that the store type is an Exchange server. |
 | FileSystem | 4 | Specifies that the store type is a file system share. |
+| OMEX | 1 | Specifies that the store type is Office.com. |
 | Registry | 5 | Specifies that the store type is the system registry. |
-| ExCatalog | 6 | Specifies that the store type is Centralized Deployment via Exchange. |
-| Default | 0 | Default value. |
-
+| SPApp | 2 | Specifies that the store type is a SharePoint web application. |
+| SPCatalog | 0 | Specifies that the store type is SharePoint corporate catalog. |
 
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -70,36 +69,35 @@ doc->Save(get_ArtifactsDir() + u"Document.WebExtension.docx");
 // Remove all web extension task panes at once like this.
 doc->get_WebExtensionTaskPanes()->Clear();
 
-ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
+ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 0);
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.WebExtension.docx"));
 
 myScriptTaskPane = doc->get_WebExtensionTaskPanes()->idx_get(0);
-ASSERT_EQ(TaskPaneDockState::Right, myScriptTaskPane->get_DockState());
+ASSERT_EQ(myScriptTaskPane->get_DockState(), TaskPaneDockState::Right);
 ASSERT_TRUE(myScriptTaskPane->get_IsVisible());
-ASPOSE_ASSERT_EQ(300.0, myScriptTaskPane->get_Width());
+ASPOSE_ASSERT_EQ(myScriptTaskPane->get_Width(), 300.0);
 ASSERT_TRUE(myScriptTaskPane->get_IsLocked());
-ASSERT_EQ(1, myScriptTaskPane->get_Row());
+ASSERT_EQ(myScriptTaskPane->get_Row(), 1);
 
 webExtension = myScriptTaskPane->get_WebExtension();
-ASSERT_EQ(System::String::Empty, webExtension->get_Id());
+ASSERT_EQ(webExtension->get_Id(), System::String::Empty);
 
-ASSERT_EQ(u"WA104380646", webExtension->get_Reference()->get_Id());
-ASSERT_EQ(u"1.0.0.0", webExtension->get_Reference()->get_Version());
-ASSERT_EQ(WebExtensionStoreType::OMEX, webExtension->get_Reference()->get_StoreType());
-ASSERT_EQ(System::Globalization::CultureInfo::get_CurrentCulture()->get_Name(), webExtension->get_Reference()->get_Store());
-ASSERT_EQ(0, webExtension->get_AlternateReferences()->get_Count());
+ASSERT_EQ(webExtension->get_Reference()->get_Id(), u"WA104380646");
+ASSERT_EQ(webExtension->get_Reference()->get_Version(), u"1.0.0.0");
+ASSERT_EQ(webExtension->get_Reference()->get_StoreType(), WebExtensionStoreType::OMEX);
+ASSERT_EQ(webExtension->get_Reference()->get_Store(), System::Globalization::CultureInfo::get_CurrentCulture()->get_Name());
+ASSERT_EQ(webExtension->get_AlternateReferences()->get_Count(), 0);
 
-ASSERT_EQ(u"MyScript", webExtension->get_Properties()->idx_get(0)->get_Name());
-ASSERT_EQ(u"MyScript Math Sample", webExtension->get_Properties()->idx_get(0)->get_Value());
+ASSERT_EQ(webExtension->get_Properties()->idx_get(0)->get_Name(), u"MyScript");
+ASSERT_EQ(webExtension->get_Properties()->idx_get(0)->get_Value(), u"MyScript Math Sample");
 
-ASSERT_EQ(u"MyScript", webExtension->get_Bindings()->idx_get(0)->get_Id());
-ASSERT_EQ(WebExtensionBindingType::Text, webExtension->get_Bindings()->idx_get(0)->get_BindingType());
-ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
+ASSERT_EQ(webExtension->get_Bindings()->idx_get(0)->get_Id(), u"MyScript");
+ASSERT_EQ(webExtension->get_Bindings()->idx_get(0)->get_BindingType(), WebExtensionBindingType::Text);
+ASSERT_EQ(webExtension->get_Bindings()->idx_get(0)->get_AppRef(), u"104380646");
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)

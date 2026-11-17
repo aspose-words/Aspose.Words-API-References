@@ -13,24 +13,23 @@ url: /cpp/aspose.words.drawing/fliporientation/
 Possible values for the orientation of a shape.
 
 ```cpp
-enum class FlipOrientation
+enum class FlipOrientation : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Coordinates are not flipped. |
-| Horizontal | 1 | Flip along the y-axis, reversing the x-coordinates. |
-| Vertical | 2 | Flip along the x-axis, reversing the y-coordinates. |
 | Both | 3 | Flip along both the y- and x-axis. |
-
+| Horizontal | 1 | Flip along the y-axis, reversing the x-coordinates. |
+| None | 0 | Coordinates are not flipped. |
+| Vertical | 2 | Flip along the x-axis, reversing the y-coordinates. |
 
 ## Examples
 
 
+Shows how to flip a shape on an axis.
 
-Shows how to flip a shape on an axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, static_cast<double>(100), RelativeVerticalPosition::TopMargin, static_cast<double>(100), static_cast<double>(100), static_cast<double>(100), WrapType::None);
 shape->get_ImageData()->SetImage(get_ImageDir() + u"Logo.jpg");
 
-ASSERT_EQ(FlipOrientation::None, shape->get_FlipOrientation());
+ASSERT_EQ(shape->get_FlipOrientation(), FlipOrientation::None);
 
 shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, static_cast<double>(250), RelativeVerticalPosition::TopMargin, static_cast<double>(100), static_cast<double>(100), static_cast<double>(100), WrapType::None);
 shape->get_ImageData()->SetImage(get_ImageDir() + u"Logo.jpg");
@@ -64,8 +63,9 @@ shape->set_FlipOrientation(FlipOrientation::Both);
 
 doc->Save(get_ArtifactsDir() + u"Shape.FlipShapeOrientation.docx");
 ```
-
 ## See Also
+
+* [FlipOrientation](../shapebase/get_fliporientation/)
 
 * Namespace [Aspose::Words::Drawing](../)
 * Library [Aspose.Words for C++](../../)

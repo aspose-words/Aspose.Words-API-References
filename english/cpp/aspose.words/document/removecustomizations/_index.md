@@ -16,12 +16,11 @@ Removes toolbar and keyboard command customizations from the document.
 void Aspose::Words::Document::RemoveCustomizations()
 ```
 
-
 ## Examples
 
 
+Shows how to remove toolbar and keyboard command customizations from the document.
 
-Shows how to remove toolbar and keyboard command customizations from the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Customized menu.docx"));
 
@@ -30,7 +29,6 @@ doc->RemoveCustomizations();
 
 doc->Save(get_ArtifactsDir() + u"Document.RemoveCustomizations.docx");
 ```
-
 ## See Also
 
 * Class [Document](../)

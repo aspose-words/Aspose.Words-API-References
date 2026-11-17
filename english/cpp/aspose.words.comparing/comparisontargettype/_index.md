@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/comparisontargettype/
 Allows to specify base document which will be used during comparison. Default value is [Current](./).
 
 ```cpp
-enum class ComparisonTargetType
+enum class ComparisonTargetType : int
 ```
 
 ### Values
@@ -23,12 +23,14 @@ enum class ComparisonTargetType
 | Current | 0 | This document is used as a base during comparison. |
 | New | 1 | Other document is used as a base during comparison. |
 
+## Remarks
 
+ Relates to Microsoft Word "Show changes in" option in "Compare Documents" dialog box. 
 ## Examples
 
 
+Shows how to filter specific types of document elements when making a comparison.
 
-Shows how to filter specific types of document elements when making a comparison. 
 ```cpp
 // Create the original document and populate it with various kinds of elements.
 auto docOriginal = System::MakeObject<Aspose::Words::Document>();
@@ -95,7 +97,6 @@ compareOptions->set_Target(ComparisonTargetType::New);
 docOriginal->Compare(docEdited, u"John Doe", System::DateTime::get_Now(), compareOptions);
 docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Comparing](../)

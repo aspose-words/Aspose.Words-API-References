@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/imailmergedatasourceroot/
 Implement this interface to allow mail merge from a custom data source with master-detail data.
 
 ```cpp
-class IMailMergeDataSourceRoot : public virtual System::Object
+class IMailMergeDataSourceRoot : public System::Object
 ```
 
 ## Methods
@@ -21,9 +21,6 @@ class IMailMergeDataSourceRoot : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetDataSource](./getdatasource/)(System::String) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)

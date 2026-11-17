@@ -18,7 +18,6 @@ const System::SharedPtr<Aspose::Words::Comparing::CompareOptions> & Aspose::Word
 
 ## See Also
 
-* Class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * Class [ComparerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

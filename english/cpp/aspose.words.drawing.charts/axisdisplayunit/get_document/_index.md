@@ -16,12 +16,11 @@ Returns the document containing the parent chart.
 System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_Document()
 ```
 
-
 ## Examples
 
 
+Shows how to manipulate the tick marks and displayed values of a chart axis.
 
-Shows how to manipulate the tick marks and displayed values of a chart axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -29,8 +28,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Scatter, static_cast<double>(450), static_cast<double>(250));
 System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
-ASSERT_EQ(1, chart->get_Series()->get_Count());
-ASSERT_EQ(u"Y-Values", chart->get_Series()->idx_get(0)->get_Name());
+ASSERT_EQ(chart->get_Series()->get_Count(), 1);
+ASSERT_EQ(chart->get_Series()->idx_get(0)->get_Name(), u"Y-Values");
 
 // Set the minor tick marks of the Y-axis to point away from the plot area,
 // and the major tick marks to cross the axis.
@@ -62,8 +61,8 @@ axis->get_Scaling()->set_Minimum(System::MakeObject<Aspose::Words::Drawing::Char
 axis->get_Scaling()->set_Maximum(System::MakeObject<Aspose::Words::Drawing::Charts::AxisBound>(static_cast<double>(30)));
 axis->get_TickLabels()->set_Alignment(ParagraphAlignment::Right);
 
-ASSERT_EQ(1, axis->get_TickLabels()->get_Spacing());
-ASPOSE_ASSERT_EQ(doc, axis->get_DisplayUnit()->get_Document());
+ASSERT_EQ(axis->get_TickLabels()->get_Spacing(), 1);
+ASPOSE_ASSERT_EQ(axis->get_DisplayUnit()->get_Document(), doc);
 
 // Set the tick labels to display their value in millions.
 axis->get_DisplayUnit()->set_Unit(AxisBuiltInUnit::Millions);
@@ -74,10 +73,8 @@ axis->get_DisplayUnit()->set_CustomUnit(1000000);
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [AxisDisplayUnit](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

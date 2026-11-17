@@ -20,10 +20,8 @@ static System::SharedPtr<Aspose::Words::Saving::MultiPageLayout> Aspose::Words::
 | Parameter | Type | Description |
 | --- | --- | --- |
 | horizontalGap | float | The horizontal gap between pages in points. |
-
 ## See Also
 
-* Class [MultiPageLayout](../)
 * Class [MultiPageLayout](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

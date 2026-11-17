@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldgreetingline/set_alternatetext/
 Sets the text to include in the field if the name is blank.
 
 ```cpp
-void Aspose::Words::Fields::FieldGreetingLine::set_AlternateText(const System::String &value)
+void Aspose::Words::Fields::FieldGreetingLine::set_AlternateText(const System::String & value)
 ```
 
 ## See Also

@@ -13,13 +13,11 @@ url: /cpp/aspose.words.lowcode/watermarker/create/
 Creates new instance of the watermarker processor.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::LowCode::Watermarker> Aspose::Words::LowCode::Watermarker::Create(const System::SharedPtr<Aspose::Words::LowCode::WatermarkerContext> &context)
+static System::SharedPtr<Aspose::Words::LowCode::Watermarker> Aspose::Words::LowCode::Watermarker::Create(const System::SharedPtr<Aspose::Words::LowCode::WatermarkerContext> & context)
 ```
 
 ## See Also
 
-* Class [Watermarker](../)
-* Class [WatermarkerContext](../../watermarkercontext/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

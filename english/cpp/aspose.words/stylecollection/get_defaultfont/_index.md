@@ -4,7 +4,7 @@ linktitle: get_DefaultFont
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::StyleCollection::get_DefaultFont method. Gets document default text formatting in C++.'
 type: docs
-weight: 6000
+weight: 9800
 url: /cpp/aspose.words/stylecollection/get_defaultfont/
 ---
 ## StyleCollection::get_DefaultFont method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::StyleCollection::get_Defau
 
 
 Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats ([Docx](../../loadformat/)) only. Earlier document formats have limited support for this feature and only font names can be stored.
-
 ## Examples
 
 
+Shows how to add a Style to a document's styles collection.
 
-Shows how to add a [Style](../../style/) to a document's styles collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -38,13 +37,11 @@ styles->get_DefaultParagraphFormat()->set_FirstLineIndent(15.0);
 // Add a style, and then verify that it has the default settings.
 styles->Add(StyleType::Paragraph, u"MyStyle");
 
-ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
-ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
+ASSERT_EQ(styles->idx_get(4)->get_Font()->get_Name(), u"Courier New");
+ASPOSE_ASSERT_EQ(styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent(), 15.0);
 ```
-
 ## See Also
 
-* Class [Font](../../font/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

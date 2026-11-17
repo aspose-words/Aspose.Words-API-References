@@ -18,7 +18,6 @@ void Aspose::Words::LowCode::MergerContext::set_MergeFormatMode(Aspose::Words::L
 
 ## See Also
 
-* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [MergerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

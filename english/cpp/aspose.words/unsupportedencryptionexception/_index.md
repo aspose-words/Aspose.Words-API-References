@@ -13,7 +13,7 @@ url: /cpp/aspose.words/unsupportedencryptionexception/
 Thrown during document load, when the document is encrypted with an unsupported method.
 
 ```cpp
-using Aspose::Words::UnsupportedEncryptionException = typedef System::ExceptionWrapper<Details_UnsupportedEncryptionException>
+using Aspose::Words::UnsupportedEncryptionException = System::ExceptionWrapper<Details_UnsupportedEncryptionException>
 ```
 
 ## See Also

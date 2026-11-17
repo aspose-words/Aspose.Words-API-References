@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/barcodeparameters/set_barcodevalue/
 Data to be encoded.
 
 ```cpp
-void Aspose::Words::Fields::BarcodeParameters::set_BarcodeValue(const System::String &value)
+void Aspose::Words::Fields::BarcodeParameters::set_BarcodeValue(const System::String & value)
 ```
 
 ## See Also

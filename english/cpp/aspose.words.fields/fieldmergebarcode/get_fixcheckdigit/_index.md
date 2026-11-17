@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergebarcode/get_fixcheckdigit/
 Gets whether to fix the check digit if it’s invalid.
 
 ```cpp
-bool Aspose::Words::Fields::FieldMergeBarcode::get_FixCheckDigit()
+_Bool Aspose::Words::Fields::FieldMergeBarcode::get_FixCheckDigit()
 ```
 
 ## See Also

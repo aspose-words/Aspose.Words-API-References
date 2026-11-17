@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> Aspose::W
 
 ## See Also
 
-* Class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

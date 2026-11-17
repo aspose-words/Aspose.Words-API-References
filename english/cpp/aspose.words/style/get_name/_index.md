@@ -4,7 +4,7 @@ linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_Name method. Gets or sets the name of the style in C++.'
 type: docs
-weight: 14000
+weight: 22595
 url: /cpp/aspose.words/style/get_name/
 ---
 ## Style::get_Name method
@@ -22,16 +22,15 @@ System::String Aspose::Words::Style::get_Name() const
 Can not be empty string.
 
 If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
-
 ## Examples
 
 
+Shows how to access a document's style collection.
 
-Shows how to access a document's style collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-ASSERT_EQ(4, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
 
 // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
 {
@@ -44,13 +43,13 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
         std::cout << System::String::Format(u"\tIs heading:\t\t\t{0}", curStyle->get_IsHeading()) << std::endl;
         std::cout << System::String::Format(u"\tIs QuickStyle:\t\t{0}", curStyle->get_IsQuickStyle()) << std::endl;
 
-        ASPOSE_ASSERT_EQ(doc, curStyle->get_Document());
+        ASPOSE_ASSERT_EQ(curStyle->get_Document(), doc);
     }
 }
 ```
 
+Shows how to clone a document's style.
 
-Shows how to clone a document's style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -65,15 +64,14 @@ newStyle->set_Name(u"My Heading 1");
 // Changing settings of one of the styles do not affect the other.
 newStyle->get_Font()->set_Color(System::Drawing::Color::get_Red());
 
-ASSERT_EQ(u"My Heading 1", newStyle->get_Name());
-ASSERT_EQ(u"Heading 1", doc->get_Styles()->idx_get(u"Heading 1")->get_Name());
+ASSERT_EQ(newStyle->get_Name(), u"My Heading 1");
+ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Name(), u"Heading 1");
 
-ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Type(), newStyle->get_Type());
-ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Name(), newStyle->get_Font()->get_Name());
-ASPOSE_ASSERT_EQ(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Size(), newStyle->get_Font()->get_Size());
-ASPOSE_ASSERT_NE(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Color(), newStyle->get_Font()->get_Color());
+ASSERT_EQ(newStyle->get_Type(), doc->get_Styles()->idx_get(u"Heading 1")->get_Type());
+ASSERT_EQ(newStyle->get_Font()->get_Name(), doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Name());
+ASPOSE_ASSERT_EQ(newStyle->get_Font()->get_Size(), doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Size());
+ASPOSE_ASSERT_NE(newStyle->get_Font()->get_Color(), doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Color());
 ```
-
 ## See Also
 
 * Class [Style](../)

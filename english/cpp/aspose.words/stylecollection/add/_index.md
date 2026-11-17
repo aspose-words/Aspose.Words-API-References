@@ -13,14 +13,14 @@ url: /cpp/aspose.words/stylecollection/add/
 Creates a new user defined style and adds it the collection.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::Add(Aspose::Words::StyleType type, const System::String &name)
+System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::Add(Aspose::Words::StyleType type, const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | Aspose::Words::StyleType | A [StyleType](../../styletype/) value that specifies the type of the style to create. |
-| name | const System::String\& | Case sensitive name of the style to create. |
+| name | const System::String \& | Case sensitive name of the style to create. |
 ## Remarks
 
 
@@ -29,12 +29,11 @@ You can create character, paragraph or a list style.
 When creating a list style, the style is created with default numbered list formatting (1 \ a \ i).
 
 Throws an exception if a style with this name already exists.
-
 ## Examples
 
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -50,7 +49,7 @@ System::SharedPtr<Aspose::Words::Lists::List> list1 = listStyle->get_List();
 ASSERT_TRUE(list1->get_IsListStyleDefinition());
 ASSERT_FALSE(list1->get_IsListStyleReference());
 ASSERT_TRUE(list1->get_IsMultiLevel());
-ASPOSE_ASSERT_EQ(listStyle, list1->get_Style());
+ASPOSE_ASSERT_EQ(list1->get_Style(), listStyle);
 
 // Change the appearance of all list levels in our list.
 for (auto&& level : list1->get_ListLevels())
@@ -69,7 +68,7 @@ System::SharedPtr<Aspose::Words::Lists::List> list2 = doc->get_Lists()->Add(list
 
 ASSERT_FALSE(list2->get_IsListStyleDefinition());
 ASSERT_TRUE(list2->get_IsListStyleReference());
-ASPOSE_ASSERT_EQ(listStyle, list2->get_Style());
+ASPOSE_ASSERT_EQ(list2->get_Style(), listStyle);
 
 // Add some list items that our list will format.
 builder->get_ListFormat()->set_List(list2);
@@ -89,8 +88,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
 
+Shows how to add a Style to a document's styles collection.
 
-Shows how to add a [Style](../../style/) to a document's styles collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -103,14 +102,11 @@ styles->get_DefaultParagraphFormat()->set_FirstLineIndent(15.0);
 // Add a style, and then verify that it has the default settings.
 styles->Add(StyleType::Paragraph, u"MyStyle");
 
-ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
-ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
+ASSERT_EQ(styles->idx_get(4)->get_Font()->get_Name(), u"Courier New");
+ASPOSE_ASSERT_EQ(styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent(), 15.0);
 ```
-
 ## See Also
 
-* Class [Style](../../style/)
-* Enum [StyleType](../../styletype/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

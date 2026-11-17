@@ -16,9 +16,11 @@ Specifies format of the replacement. Default is [Text](../../replacementformat/)
 void Aspose::Words::Replacing::FindReplaceOptions::set_ReplacementFormat(Aspose::Words::Replacing::ReplacementFormat value)
 ```
 
+## Remarks
+
+ Has effect only when using in [Replacer](../../../aspose.words.lowcode/replacer/)
 ## See Also
 
-* Enum [ReplacementFormat](../../replacementformat/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

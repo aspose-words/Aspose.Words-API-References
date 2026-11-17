@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldnoteref/get_insertreferencemark/
 Inserts the reference mark with the same character formatting as the Footnote Reference or Endnote Reference style.
 
 ```cpp
-bool Aspose::Words::Fields::FieldNoteRef::get_InsertReferenceMark()
+_Bool Aspose::Words::Fields::FieldNoteRef::get_InsertReferenceMark()
 ```
 
 ## See Also

@@ -4,7 +4,7 @@ linktitle: get_Watermark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_Watermark method. Provides access to the document watermark in C++.'
 type: docs
-weight: 59000
+weight: 151000
 url: /cpp/aspose.words/document/get_watermark/
 ---
 ## Document::get_Watermark method
@@ -16,12 +16,11 @@ Provides access to the document watermark.
 System::SharedPtr<Aspose::Words::Watermark> Aspose::Words::Document::get_Watermark()
 ```
 
-
 ## Examples
 
 
+Shows how to create a text watermark.
 
-Shows how to create a text watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -47,10 +46,8 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
     doc->get_Watermark()->Remove();
 }
 ```
-
 ## See Also
 
-* Class [Watermark](../../watermark/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

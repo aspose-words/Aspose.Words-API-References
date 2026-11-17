@@ -18,8 +18,6 @@ Aspose::Words::VisitorAction Aspose::Words::Section::AcceptEnd(System::SharedPtr
 
 ## See Also
 
-* Enum [VisitorAction](../../visitoraction/)
-* Class [DocumentVisitor](../../documentvisitor/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

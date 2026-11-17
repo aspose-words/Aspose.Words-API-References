@@ -18,13 +18,10 @@ Aspose::Words::Saving::DmlRenderingMode Aspose::Words::Saving::SaveOptions::get_
 
 ## Remarks
 
-
-The default value is [Fallback](../../dmlrenderingmode/).
-
-This property is used when the document is exported to fixed page formats. 
+ The default value is [Fallback](../../dmlrenderingmode/). 
+This property is used when the document is exported to fixed page formats.
 ## See Also
 
-* Enum [DmlRenderingMode](../../dmlrenderingmode/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

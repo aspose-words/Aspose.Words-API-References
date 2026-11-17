@@ -2,7 +2,7 @@
 title: Aspose::Words::ParagraphFormat::set_SnapToGrid method
 linktitle: set_SnapToGrid
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ParagraphFormat::set_SnapToGrid method. Setter for Aspose::Words::ParagraphFormat::get_SnapToGrid in C++.'
+description: 'Aspose::Words::ParagraphFormat::set_SnapToGrid method. Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph in C++.'
 type: docs
 weight: 68000
 url: /cpp/aspose.words/paragraphformat/set_snaptogrid/
@@ -10,12 +10,35 @@ url: /cpp/aspose.words/paragraphformat/set_snaptogrid/
 ## ParagraphFormat::set_SnapToGrid method
 
 
-Setter for [Aspose::Words::ParagraphFormat::get_SnapToGrid](../get_snaptogrid/).
+Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph.
 
 ```cpp
 void Aspose::Words::ParagraphFormat::set_SnapToGrid(bool value)
 ```
 
+## Examples
+
+
+Shows how to specify a limit for the number of lines that each page may have.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Enable pitching, and then use it to set the number of lines per page in this section.
+// A large enough font size will push some lines down onto the next page to avoid overlapping characters.
+builder->get_PageSetup()->set_LayoutMode(SectionLayoutMode::LineGrid);
+builder->get_PageSetup()->set_LinesPerPage(15);
+
+builder->get_ParagraphFormat()->set_SnapToGrid(true);
+
+for (int32_t i = 0; i < 30; i++)
+{
+    builder->Write(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
+}
+
+doc->Save(get_ArtifactsDir() + u"PageSetup.LinesPerPage.docx");
+```
 ## See Also
 
 * Class [ParagraphFormat](../)

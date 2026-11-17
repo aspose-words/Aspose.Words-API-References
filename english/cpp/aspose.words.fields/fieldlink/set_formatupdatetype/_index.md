@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldlink/set_formatupdatetype/
 Sets a way the linked object updates its formatting.
 
 ```cpp
-void Aspose::Words::Fields::FieldLink::set_FormatUpdateType(const System::String &value)
+void Aspose::Words::Fields::FieldLink::set_FormatUpdateType(const System::String & value)
 ```
 
 ## See Also

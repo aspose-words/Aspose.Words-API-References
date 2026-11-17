@@ -16,12 +16,11 @@ Specifies advanced compare options that might help to produce more precise compa
 const System::SharedPtr<Aspose::Words::Comparing::AdvancedCompareOptions> & Aspose::Words::Comparing::CompareOptions::get_AdvancedOptions() const
 ```
 
-
 ## Examples
 
 
+Shows how to compare documents ignoring DML unique ID.
 
-Shows how to compare documents ignoring DML unique ID. 
 ```cpp
 auto docA = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DML unique ID original.docx"));
 auto docB = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DML unique ID compare.docx"));
@@ -33,12 +32,10 @@ compareOptions->get_AdvancedOptions()->set_IgnoreDmlUniqueId(isIgnoreDmlUniqueId
 
 docA->Compare(docB, u"Aspose.Words", System::DateTime::get_Now(), compareOptions);
 
-ASSERT_EQ(isIgnoreDmlUniqueId ? 0 : 2, docA->get_Revisions()->get_Count());
+ASSERT_EQ(docA->get_Revisions()->get_Count(), isIgnoreDmlUniqueId ? 0 : 2);
 ```
-
 ## See Also
 
-* Class [AdvancedCompareOptions](../../advancedcompareoptions/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

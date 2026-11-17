@@ -8,14 +8,16 @@ weight: 19000
 url: /cpp/aspose.words.replacing/
 ---
 
-The **Aspose.Words.Replacing** namespace provides classes to manipulate with find/replace operations over the document tree.
+The Aspose.Words.Replacing namespace provides classes to manipulate with find/replace operations over the document tree.
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [FindReplaceOptions](./findreplaceoptions/) | Specifies options for find/replace operations. To learn more, visit the [Find and Replace](https://docs.aspose.com/words/cpp/find-and-replace/) documentation article. |
-| [ReplacingArgs](./replacingargs/) | Provides data for a custom replace operation. To learn more, visit the [Find and Replace](https://docs.aspose.com/words/cpp/find-and-replace/) documentation article. |
+| [FindReplaceOptions](./findreplaceoptions/) | Specifies options for find/replace operations. 
+To learn more, visit the [Find and Replace](https://docs.aspose.com/words/cpp/find-and-replace/) documentation article. |
+| [ReplacingArgs](./replacingargs/) | Provides data for a custom replace operation. 
+To learn more, visit the [Find and Replace](https://docs.aspose.com/words/cpp/find-and-replace/) documentation article. |
 ## Interfaces
 
 | Interface | Description |

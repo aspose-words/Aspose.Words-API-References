@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/set_bookmarkname/
 Sets the name of the bookmark that marks the portion of the document used to build the table.
 
 ```cpp
-void Aspose::Words::Fields::FieldToa::set_BookmarkName(const System::String &value)
+void Aspose::Words::Fields::FieldToa::set_BookmarkName(const System::String & value)
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/barcodeparameters/set_postaladdress/
 Barcode postal address.
 
 ```cpp
-void Aspose::Words::Fields::BarcodeParameters::set_PostalAddress(const System::String &value)
+void Aspose::Words::Fields::BarcodeParameters::set_PostalAddress(const System::String & value)
 ```
 
 ## See Also

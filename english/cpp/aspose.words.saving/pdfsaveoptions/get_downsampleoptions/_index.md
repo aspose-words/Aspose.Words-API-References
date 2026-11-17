@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Saving::DownsampleOptions> Aspose::Words::Savin
 
 ## See Also
 
-* Class [DownsampleOptions](../../downsampleoptions/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

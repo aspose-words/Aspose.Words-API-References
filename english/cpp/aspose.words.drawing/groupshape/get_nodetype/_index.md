@@ -18,7 +18,6 @@ Aspose::Words::NodeType Aspose::Words::Drawing::GroupShape::get_NodeType() const
 
 ## See Also
 
-* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [GroupShape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,23 +13,22 @@ url: /cpp/aspose.words.tables/cellmerge/
 Specifies how a cell in a table is merged with other cells.
 
 ```cpp
-enum class CellMerge
+enum class CellMerge : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | The cell is not merged. |
 | First | 1 | The cell is the first cell in a range of merged cells. |
+| None | 0 | The cell is not merged. |
 | Previous | 2 | The cell is merged to the previous cell horizontally or vertically. |
-
 
 ## Examples
 
 
+Shows how to merge table cells vertically.
 
-Shows how to merge table cells vertically. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -62,8 +61,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"CellFormat.VerticalMerge.docx");
 ```
 
+Shows how to merge table cells horizontally.
 
-Shows how to merge table cells horizontally. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -91,7 +90,6 @@ builder->EndTable();
 
 doc->Save(get_ArtifactsDir() + u"CellFormat.HorizontalMerge.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)

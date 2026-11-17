@@ -13,19 +13,18 @@ url: /cpp/aspose.words.markup/customxmlschemacollection/remove/
 Removes the specified value from the collection.
 
 ```cpp
-void Aspose::Words::Markup::CustomXmlSchemaCollection::Remove(const System::String &name)
+void Aspose::Words::Markup::CustomXmlSchemaCollection::Remove(const System::String & name)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The case-sensitive value to remove. |
-
+| name | const System::String \& | The case-sensitive value to remove. |
 ## Examples
 
 
+Shows how to work with an XML schema collection.
 
-Shows how to work with an XML schema collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -42,8 +41,8 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlSchemaCollection> schemas = xm
 schemas->Add(u"http://www.w3.org/2001/XMLSchema-instance");
 schemas->Add(u"http://schemas.microsoft.com/office/2006/metadata/contentType");
 
-ASSERT_EQ(3, schemas->get_Count());
-ASSERT_EQ(2, schemas->IndexOf(u"http://schemas.microsoft.com/office/2006/metadata/contentType"));
+ASSERT_EQ(schemas->get_Count(), 3);
+ASSERT_EQ(schemas->IndexOf(u"http://schemas.microsoft.com/office/2006/metadata/contentType"), 2);
 
 // Enumerate the schemas and print each element.
 {
@@ -64,9 +63,8 @@ schemas->Remove(u"http://www.w3.org/2001/XMLSchema");
 // 3 -  Use the "Clear" method to empty the collection at once.
 schemas->Clear();
 
-ASSERT_EQ(0, schemas->get_Count());
+ASSERT_EQ(schemas->get_Count(), 0);
 ```
-
 ## See Also
 
 * Class [CustomXmlSchemaCollection](../)

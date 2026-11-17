@@ -16,12 +16,14 @@ Automatically builds the fallback settings by scanning available fonts.
 void Aspose::Words::Fonts::FontFallbackSettings::BuildAutomatic()
 ```
 
+## Remarks
 
+ This method may produce non-optimal fallback settings. [Fonts are checked by Unicode Character Range](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) fields and not by the actual glyphs presence. Also Unicode ranges are checked individually and several ranges related to single language/script may use different fallback fonts. 
 ## Examples
 
 
+Shows how to distribute fallback fonts across Unicode character code ranges.
 
-Shows how to distribute fallback fonts across Unicode character code ranges. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,7 +73,6 @@ for (int32_t i = 0x0021; i < 0x0530; i++)
 
 doc->Save(get_ArtifactsDir() + u"FontSettings.FallbackSettingsCustom.pdf");
 ```
-
 ## See Also
 
 * Class [FontFallbackSettings](../)

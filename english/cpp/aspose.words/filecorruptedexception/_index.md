@@ -2,7 +2,7 @@
 title: Aspose::Words::FileCorruptedException typedef
 linktitle: FileCorruptedException
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::FileCorruptedException typedef. Thrown during document load, when the document appears to be corrupted and impossible to load. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::FileCorruptedException typedef. Thrown during document load, when the document appears to be corrupted and impossible to load. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 133000
 url: /cpp/aspose.words/filecorruptedexception/
@@ -10,18 +10,18 @@ url: /cpp/aspose.words/filecorruptedexception/
 ## FileCorruptedException typedef
 
 
-Thrown during document load, when the document appears to be corrupted and impossible to load. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Thrown during document load, when the document appears to be corrupted and impossible to load. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
-using Aspose::Words::FileCorruptedException = typedef System::ExceptionWrapper<Details_FileCorruptedException>
+using Aspose::Words::FileCorruptedException = System::ExceptionWrapper<Details_FileCorruptedException>
 ```
-
 
 ## Examples
 
 
+Shows how to catch a FileCorruptedException.
 
-Shows how to catch a FileCorruptedException. 
 ```cpp
 try
 {
@@ -34,7 +34,6 @@ catch (Aspose::Words::FileCorruptedException& e)
     std::cout << e->get_Message() << std::endl;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

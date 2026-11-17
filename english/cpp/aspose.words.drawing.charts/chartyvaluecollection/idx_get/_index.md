@@ -16,9 +16,11 @@ Gets or sets the Y value at the specified index.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> Aspose::Words::Drawing::Charts::ChartYValueCollection::idx_get(int32_t index)
 ```
 
+## Remarks
+
+ Empty values are represented as null. 
 ## See Also
 
-* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartYValueCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

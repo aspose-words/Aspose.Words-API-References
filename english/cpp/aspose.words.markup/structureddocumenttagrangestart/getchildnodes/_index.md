@@ -16,12 +16,11 @@ Returns a live collection of child nodes that match the specified types.
 System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::Markup::StructuredDocumentTagRangeStart::GetChildNodes(Aspose::Words::NodeType nodeType, bool isDeep) override
 ```
 
-
 ## Examples
 
 
+Shows how to get child nodes of StructuredDocumentTagRangeStart.
 
-Shows how to get child nodes of [StructuredDocumentTagRangeStart](../). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Multi-section structured document tags.docx"));
 auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
@@ -39,11 +38,8 @@ for (auto&& node : System::IterateOver(tag->GetChildNodes(NodeType::Run, true)))
     std::cout << System::String::Format(u"\t|Child node text: {0}", node->GetText()) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [NodeCollection](../../../aspose.words/nodecollection/)
-* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

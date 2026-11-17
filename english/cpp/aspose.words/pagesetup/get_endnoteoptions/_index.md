@@ -16,12 +16,11 @@ Provides options that control numbering and positioning of endnotes in this sect
 System::SharedPtr<Aspose::Words::Notes::EndnoteOptions> Aspose::Words::PageSetup::get_EndnoteOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to configure options affecting footnotes/endnotes in a section.
 
-Shows how to configure options affecting footnotes/endnotes in a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,10 +47,8 @@ endnoteOptions->set_StartNumber(1);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.FootnoteOptions.docx");
 ```
-
 ## See Also
 
-* Class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

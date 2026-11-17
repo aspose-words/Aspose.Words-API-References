@@ -13,32 +13,31 @@ url: /cpp/aspose.words/conditionalstyletype/
 Represents possible table areas to which conditional formatting may be defined in a table style.
 
 ```cpp
-enum class ConditionalStyleType
+enum class ConditionalStyleType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FirstRow | 0 | Specifies formatting of the first row of a table. |
-| FirstColumn | 1 | Specifies formatting of the first column of a table. |
-| LastRow | 2 | Specifies formatting of the last row of a table. |
-| LastColumn | 3 | Specifies formatting of the last column of a table. |
-| OddRowBanding | 4 | Specifies formatting of odd-numbered row stripe. |
-| OddColumnBanding | 5 | Specifies formatting of odd-numbered column stripe. |
-| EvenRowBanding | 6 | Specifies formatting of even-numbered row stripe. |
-| EvenColumnBanding | 7 | Specifies formatting of even-numbered column stripe. |
-| TopLeftCell | 8 | Specifies formatting of the top left cell of a table. |
-| TopRightCell | 9 | Specifies formatting of the top right cell of a table. |
 | BottomLeftCell | 10 | Specifies formatting of the bottom left cell of a table. |
 | BottomRightCell | 11 | Specifies formatting of the bottom right cell of a table. |
-
+| EvenColumnBanding | 7 | Specifies formatting of even-numbered column stripe. |
+| EvenRowBanding | 6 | Specifies formatting of even-numbered row stripe. |
+| FirstColumn | 1 | Specifies formatting of the first column of a table. |
+| FirstRow | 0 | Specifies formatting of the first row of a table. |
+| LastColumn | 3 | Specifies formatting of the last column of a table. |
+| LastRow | 2 | Specifies formatting of the last row of a table. |
+| OddColumnBanding | 5 | Specifies formatting of odd-numbered column stripe. |
+| OddRowBanding | 4 | Specifies formatting of odd-numbered row stripe. |
+| TopLeftCell | 8 | Specifies formatting of the top left cell of a table. |
+| TopRightCell | 9 | Specifies formatting of the top right cell of a table. |
 
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -67,7 +66,7 @@ tableStyle->get_ConditionalStyles()->idx_get(ConditionalStyleType::FirstRow)->ge
 // 2 -  By index:
 tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_Color(System::Drawing::Color::get_Black());
 tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_LineStyle(LineStyle::DotDash);
-ASSERT_EQ(ConditionalStyleType::FirstRow, tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type());
+ASSERT_EQ(tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type(), ConditionalStyleType::FirstRow);
 
 // 3 -  As a property:
 tableStyle->get_ConditionalStyles()->get_FirstRow()->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
@@ -96,14 +95,13 @@ tableStyle->get_ConditionalStyles()->get_LastColumn()->get_Font()->set_Bold(true
 table->set_Style(tableStyle);
 
 // Our style applies some conditional styles by default.
-ASSERT_EQ(TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands, table->get_StyleOptions());
+ASSERT_EQ(table->get_StyleOptions(), TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands);
 
 // We will need to enable all other styles ourselves via the "StyleOptions" property.
 table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow | TableStyleOptions::LastColumn);
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

@@ -22,12 +22,11 @@ int32_t Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_DoughnutHoleSize()
 Applies only to series groups of the [Doughnut](../../chartseriestype/) type.
 
 The range of acceptable values is from 0 to 90 inclusive. The default value is 75.
-
 ## Examples
 
 
+Shows how to create and format Doughnut chart.
 
-Shows how to create and format Doughnut chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,7 +46,6 @@ seriesGroup->set_FirstSliceAngle(270);
 
 doc->Save(get_ArtifactsDir() + u"Charts.DoughnutChart.docx");
 ```
-
 ## See Also
 
 * Class [ChartSeriesGroup](../)

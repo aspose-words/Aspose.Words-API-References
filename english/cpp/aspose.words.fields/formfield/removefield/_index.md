@@ -16,19 +16,20 @@ Removes the complete form field, not just the form field special character.
 void Aspose::Words::Fields::FormField::RemoveField()
 ```
 
+## Remarks
 
+ If there is a bookmark associated with the form field, the bookmark is not removed. 
 ## Examples
 
 
+Shows how to delete a form field.
 
-Shows how to delete a form field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Form fields.docx"));
 
 System::SharedPtr<Aspose::Words::Fields::FormField> formField = doc->get_Range()->get_FormFields()->idx_get(3);
 formField->RemoveField();
 ```
-
 ## See Also
 
 * Class [FormField](../)

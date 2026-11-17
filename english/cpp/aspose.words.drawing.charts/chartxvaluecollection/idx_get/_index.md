@@ -16,9 +16,11 @@ Gets or sets the X value at the specified index.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> Aspose::Words::Drawing::Charts::ChartXValueCollection::idx_get(int32_t index)
 ```
 
+## Remarks
+
+ Empty values are represented as null. 
 ## See Also
 
-* Class [ChartXValue](../../chartxvalue/)
 * Class [ChartXValueCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

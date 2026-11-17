@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddatabase/set_firstrecord/
 Sets the integral record number of the first data record to insert.
 
 ```cpp
-void Aspose::Words::Fields::FieldDatabase::set_FirstRecord(const System::String &value)
+void Aspose::Words::Fields::FieldDatabase::set_FirstRecord(const System::String & value)
 ```
 
 ## See Also

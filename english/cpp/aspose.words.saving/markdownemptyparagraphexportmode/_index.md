@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/markdownemptyparagraphexportmode/
 Specifies how Aspose.Words exports empty paragraphs to Markdown.
 
 ```cpp
-enum class MarkdownEmptyParagraphExportMode
+enum class MarkdownEmptyParagraphExportMode : int
 ```
 
 ### Values
@@ -24,12 +24,11 @@ enum class MarkdownEmptyParagraphExportMode
 | MarkdownHardLineBreak | 1 | Export as Markdown HardLineBreak character '\'. |
 | None | 2 | Don't export empty paragraphs. |
 
-
 ## Examples
 
 
+Shows how to export empty paragraphs.
 
-Shows how to export empty paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,17 +46,16 @@ System::String result = System::IO::File::ReadAllText(get_ArtifactsDir() + u"Mar
 switch (exportMode)
 {
     case MarkdownEmptyParagraphExportMode::None:
-        ASSERT_EQ(u"First\r\n\r\nLast\r\n", result);
+        ASSERT_EQ(result, u"First\r\n\r\nLast\r\n");
         break;
     case MarkdownEmptyParagraphExportMode::EmptyLine:
-        ASSERT_EQ(u"First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n", result);
+        ASSERT_EQ(result, u"First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n");
         break;
     case MarkdownEmptyParagraphExportMode::MarkdownHardLineBreak:
-        ASSERT_EQ(u"First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n", result);
+        ASSERT_EQ(result, u"First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n");
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

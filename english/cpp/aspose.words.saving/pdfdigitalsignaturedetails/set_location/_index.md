@@ -13,9 +13,12 @@ url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/set_location/
 Sets the location of the signing.
 
 ```cpp
-void Aspose::Words::Saving::PdfDigitalSignatureDetails::set_Location(const System::String &value)
+void Aspose::Words::Saving::PdfDigitalSignatureDetails::set_Location(const System::String & value)
 ```
 
+## Remarks
+
+ The default value is **null**. 
 ## See Also
 
 * Class [PdfDigitalSignatureDetails](../)

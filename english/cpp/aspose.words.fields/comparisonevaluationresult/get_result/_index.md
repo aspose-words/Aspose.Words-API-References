@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/comparisonevaluationresult/get_result/
 Gets the comparison evaluation result.
 
 ```cpp
-bool Aspose::Words::Fields::ComparisonEvaluationResult::get_Result() const
+_Bool Aspose::Words::Fields::ComparisonEvaluationResult::get_Result() const
 ```
 
 ## See Also

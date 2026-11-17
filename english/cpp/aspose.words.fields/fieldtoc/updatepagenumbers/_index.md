@@ -13,14 +13,13 @@ url: /cpp/aspose.words.fields/fieldtoc/updatepagenumbers/
 Updates the page numbers for items in this table of contents.
 
 ```cpp
-bool Aspose::Words::Fields::FieldToc::UpdatePageNumbers()
+_Bool Aspose::Words::Fields::FieldToc::UpdatePageNumbers()
 ```
 
 
 ### ReturnValue
 
 **true** if the operation is successful. If any of the related TOC bookmarks was removed, **false** will be returned.
-
 ## See Also
 
 * Class [FieldToc](../)

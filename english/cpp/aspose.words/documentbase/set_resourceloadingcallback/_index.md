@@ -13,12 +13,11 @@ url: /cpp/aspose.words/documentbase/set_resourceloadingcallback/
 Allows to control how external resources are loaded.
 
 ```cpp
-void Aspose::Words::DocumentBase::set_ResourceLoadingCallback(const System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> &value)
+void Aspose::Words::DocumentBase::set_ResourceLoadingCallback(const System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> & value)
 ```
 
 ## See Also
 
-* Interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

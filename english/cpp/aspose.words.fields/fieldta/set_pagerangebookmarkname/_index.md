@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldta/set_pagerangebookmarkname/
 Sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number.
 
 ```cpp
-void Aspose::Words::Fields::FieldTA::set_PageRangeBookmarkName(const System::String &value)
+void Aspose::Words::Fields::FieldTA::set_PageRangeBookmarkName(const System::String & value)
 ```
 
 ## See Also

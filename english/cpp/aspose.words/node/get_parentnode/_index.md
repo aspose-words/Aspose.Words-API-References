@@ -4,7 +4,7 @@ linktitle: get_ParentNode
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_ParentNode method. Gets the immediate parent of this node in C++.'
 type: docs
-weight: 10000
+weight: 28000
 url: /cpp/aspose.words/node/get_parentnode/
 ---
 ## Node::get_ParentNode method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::CompositeNode> Aspose::Words::Node::get_ParentN
 
 
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is **null**.
-
 ## Examples
 
 
+Shows how to access a node's parent node.
 
-Shows how to access a node's parent node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
@@ -36,14 +35,14 @@ para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 // The paragraph is the parent node of the run node. We can trace this lineage
 // all the way to the document node, which is the root of the document's node tree.
-ASPOSE_ASSERT_EQ(para, run->get_ParentNode());
-ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body(), para->get_ParentNode());
-ASPOSE_ASSERT_EQ(doc->get_FirstSection(), doc->get_FirstSection()->get_Body()->get_ParentNode());
-ASPOSE_ASSERT_EQ(doc, doc->get_FirstSection()->get_ParentNode());
+ASPOSE_ASSERT_EQ(run->get_ParentNode(), para);
+ASPOSE_ASSERT_EQ(para->get_ParentNode(), doc->get_FirstSection()->get_Body());
+ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_ParentNode(), doc->get_FirstSection());
+ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_ParentNode(), doc);
 ```
 
+Shows how to create a node and set its owning document.
 
-Shows how to create a node and set its owning document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
@@ -56,8 +55,8 @@ ASSERT_TRUE(System::TestTools::IsNull(para->get_ParentNode()));
 // we can attach it as a child only if both nodes have the same owner document.
 // The owner document is the document we passed to the node's constructor.
 // We have not attached this paragraph to the document, so the document does not contain its text.
-ASPOSE_ASSERT_EQ(para->get_Document(), doc);
-ASSERT_EQ(System::String::Empty, doc->GetText().Trim());
+ASPOSE_ASSERT_EQ(doc, para->get_Document());
+ASSERT_EQ(doc->GetText().Trim(), System::String::Empty);
 
 // Since the document owns this paragraph, we can apply one of its styles to the paragraph's contents.
 para->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Heading 1"));
@@ -65,13 +64,11 @@ para->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Heading 1"))
 // Add this node to the document, and then verify its contents.
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 
-ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body(), para->get_ParentNode());
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+ASPOSE_ASSERT_EQ(para->get_ParentNode(), doc->get_FirstSection()->get_Body());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
-
 ## See Also
 
-* Class [CompositeNode](../../compositenode/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

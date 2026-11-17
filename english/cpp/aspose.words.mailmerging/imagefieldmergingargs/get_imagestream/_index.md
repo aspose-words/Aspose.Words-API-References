@@ -19,7 +19,7 @@ const System::SharedPtr<System::IO::Stream> & Aspose::Words::MailMerging::ImageF
 ## Remarks
 
 
-Aspose.Words closes this stream after it merges the image into the document. 
+Aspose.Words closes this stream after it merges the image into the document.
 ## See Also
 
 * Class [ImageFieldMergingArgs](../)

@@ -24,7 +24,6 @@ This property allows you to save document pages to streams instead of files.
 The default value is **null**. When this property is **null**, the document page will be saved to a file specified in the [PageFileName](../get_pagefilename/) property.
 
 If both [PageStream](./) and [PageFileName](../get_pagefilename/) are set, then PageStream will be used.
-
 ## See Also
 
 * Class [PageSavingArgs](../)

@@ -16,12 +16,11 @@ Specifies a cyclic redundancy check (CRC) checksum of the [Data](../get_data/) c
 int64_t Aspose::Words::Markup::CustomXmlPart::get_DataChecksum()
 ```
 
-
 ## Examples
 
 
+Shows how the checksum is calculated in a runtime.
 
-Shows how the checksum is calculated in a runtime. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -40,9 +39,8 @@ int64_t updatedChecksum = richText->get_XmlMapping()->get_CustomXmlPart()->get_D
 std::cout << updatedChecksum << std::endl;
 
 // We changed the XmlPart of the tag, and the checksum was updated at runtime.
-ASSERT_NE(checksum, updatedChecksum);
+ASSERT_NE(updatedChecksum, checksum);
 ```
-
 ## See Also
 
 * Class [CustomXmlPart](../)

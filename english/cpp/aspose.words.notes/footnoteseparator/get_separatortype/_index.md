@@ -18,7 +18,6 @@ Aspose::Words::Notes::FootnoteSeparatorType Aspose::Words::Notes::FootnoteSepara
 
 ## See Also
 
-* Enum [FootnoteSeparatorType](../../footnoteseparatortype/)
 * Class [FootnoteSeparator](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

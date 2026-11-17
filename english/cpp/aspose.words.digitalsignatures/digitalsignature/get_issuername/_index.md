@@ -4,7 +4,7 @@ linktitle: get_IssuerName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_IssuerName method. Returns the subject distinguished name of the certificate isuuer in C++.'
 type: docs
-weight: 4000
+weight: 18000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_issuername/
 ---
 ## DigitalSignature::get_IssuerName method
@@ -16,12 +16,11 @@ Returns the subject distinguished name of the certificate isuuer.
 System::String Aspose::Words::DigitalSignatures::DigitalSignature::get_IssuerName()
 ```
 
-
 ## Examples
 
 
+Shows how to sign documents with X.509 certificates.
 
-Shows how to sign documents with X.509 certificates. 
 ```cpp
 // Verify that a document is not signed.
 ASSERT_FALSE(FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.docx")->get_HasDigitalSignature());
@@ -53,12 +52,11 @@ auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatureCollection = signedDoc->get_DigitalSignatures();
 
 ASSERT_TRUE(digitalSignatureCollection->get_IsValid());
-ASSERT_EQ(1, digitalSignatureCollection->get_Count());
-ASSERT_EQ(DigitalSignatureType::XmlDsig, digitalSignatureCollection->idx_get(0)->get_SignatureType());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName());
-ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName());
+ASSERT_EQ(digitalSignatureCollection->get_Count(), 1);
+ASSERT_EQ(digitalSignatureCollection->idx_get(0)->get_SignatureType(), DigitalSignatureType::XmlDsig);
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_IssuerName(), u"CN=Morzal.Me");
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"CN=Morzal.Me");
 ```
-
 ## See Also
 
 * Class [DigitalSignature](../)

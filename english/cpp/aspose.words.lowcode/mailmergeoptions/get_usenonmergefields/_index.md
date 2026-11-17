@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergeoptions/get_usenonmergefields/
 When **true**, specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into "{{fieldName}}" tags.
 
 ```cpp
-bool Aspose::Words::LowCode::MailMergeOptions::get_UseNonMergeFields() const
+_Bool Aspose::Words::LowCode::MailMergeOptions::get_UseNonMergeFields() const
 ```
 
 ## Remarks
@@ -29,7 +29,7 @@ MACROBUTTON NOMACRO FieldName
 
 IF 0 = 0 "{FieldName}" ""
 
-Also, when [UseNonMergeFields](./) is set to **true**, Aspose.Words will perform mail merge into text tags "{{fieldName}}". These are not fields, but just text tags. 
+Also, when [UseNonMergeFields](./) is set to **true**, Aspose.Words will perform mail merge into text tags "{{fieldName}}". These are not fields, but just text tags.
 ## See Also
 
 * Class [MailMergeOptions](../)

@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Replacing::FindReplaceOpti
 
 ## See Also
 
-* Class [Font](../../../aspose.words/font/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

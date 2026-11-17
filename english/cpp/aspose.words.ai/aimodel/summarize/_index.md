@@ -10,10 +10,10 @@ url: /cpp/aspose.words.ai/aimodel/summarize/
 ## AiModel::Summarize(System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Document\>\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) method
 
 
-Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected [AI](../../) model for processing each document in the array.
+Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected AI model for processing each document in the array.
 
 ```cpp
-virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::Summarize(System::ArrayPtr<System::SharedPtr<Aspose::Words::Document>> sourceDocuments, System::SharedPtr<Aspose::Words::AI::SummarizeOptions> options=nullptr)=0
+virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::Summarize(System::ArrayPtr<System::SharedPtr<Aspose::Words::Document>> sourceDocuments, System::SharedPtr<Aspose::Words::AI::SummarizeOptions> options = nullptr)
 ```
 
 
@@ -25,12 +25,11 @@ virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::S
 ### ReturnValue
 
 A summarized version of the document's content.
-
 ## Examples
 
 
+Shows how to summarize text using OpenAI and Google models.
 
-Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -49,21 +48,18 @@ options->set_SummaryLength(SummaryLength::Long);
 System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summarize(System::MakeArray<System::SharedPtr<Aspose::Words::Document>>({firstDoc, secondDoc}), options);
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
-
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
-* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)
 ## AiModel::Summarize(System::SharedPtr\<Aspose::Words::Document\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) method
 
 
-Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected [AI](../../) model for content processing.
+Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected AI model for content processing.
 
 ```cpp
-virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::Summarize(System::SharedPtr<Aspose::Words::Document> sourceDocument, System::SharedPtr<Aspose::Words::AI::SummarizeOptions> options=nullptr)=0
+virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::Summarize(System::SharedPtr<Aspose::Words::Document> sourceDocument, System::SharedPtr<Aspose::Words::AI::SummarizeOptions> options = nullptr)
 ```
 
 
@@ -75,12 +71,11 @@ virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::S
 ### ReturnValue
 
 A summarized version of the document's content.
-
 ## Examples
 
 
+Shows how to summarize text using OpenAI and Google models.
 
-Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -99,11 +94,8 @@ options->set_SummaryLength(SummaryLength::Long);
 System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summarize(System::MakeArray<System::SharedPtr<Aspose::Words::Document>>({firstDoc, secondDoc}), options);
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
-
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
-* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

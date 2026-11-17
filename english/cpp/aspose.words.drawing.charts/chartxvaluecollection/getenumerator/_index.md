@@ -18,7 +18,6 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 ## See Also
 
-* Class [ChartXValue](../../chartxvalue/)
 * Class [ChartXValueCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

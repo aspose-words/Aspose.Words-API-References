@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Range::ToDocument()
 
 ## See Also
 
-* Class [Document](../../document/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

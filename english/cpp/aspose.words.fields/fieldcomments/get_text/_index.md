@@ -16,12 +16,11 @@ Gets or sets the text of the comments.
 System::String Aspose::Words::Fields::FieldComments::get_Text()
 ```
 
-
 ## Examples
 
 
+Shows how to use the COMMENTS field.
 
-Shows how to use the COMMENTS field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,8 +32,8 @@ doc->get_BuiltInDocumentProperties()->set_Comments(u"My comment.");
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldComments>(builder->InsertField(FieldType::FieldComments, true));
 field->Update();
 
-ASSERT_EQ(u" COMMENTS ", field->GetFieldCode());
-ASSERT_EQ(u"My comment.", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" COMMENTS ");
+ASSERT_EQ(field->get_Result(), u"My comment.");
 
 // If we give the COMMENTS field's Text property value and update it, the field will
 // overwrite the current value of the "Comments" built-in property with the value of its Text property,
@@ -42,12 +41,11 @@ ASSERT_EQ(u"My comment.", field->get_Result());
 field->set_Text(u"My overriding comment.");
 field->Update();
 
-ASSERT_EQ(u" COMMENTS  \"My overriding comment.\"", field->GetFieldCode());
-ASSERT_EQ(u"My overriding comment.", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" COMMENTS  \"My overriding comment.\"");
+ASSERT_EQ(field->get_Result(), u"My overriding comment.");
 
 doc->Save(get_ArtifactsDir() + u"Field.COMMENTS.docx");
 ```
-
 ## See Also
 
 * Class [FieldComments](../)

@@ -13,24 +13,24 @@ url: /cpp/aspose.words.saving/imagepixelformat/
 Specifies the pixel format for the generated images of document pages.
 
 ```cpp
-enum class ImagePixelFormat
+enum class ImagePixelFormat : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Format16BppArgb1555 | 2 | 16 bits per pixel, ARGB. |
 | Format16BppRgb555 | 0 | 16 bits per pixel, RGB. |
 | Format16BppRgb565 | 1 | 16 bits per pixel, RGB. |
-| Format16BppArgb1555 | 2 | 16 bits per pixel, ARGB. |
+| Format1bppIndexed | 10 | 1 bit per pixel, Indexed. |
 | Format24BppRgb | 3 | 24 bits per pixel, RGB. |
-| Format32BppRgb | 4 | 32 bits per pixel, RGB. |
 | Format32BppArgb | 5 | 32 bits per pixel, ARGB. |
 | Format32BppPArgb | 6 | 32 bits per pixel, ARGB, premultiplied alpha. |
+| Format32BppRgb | 4 | 32 bits per pixel, RGB. |
 | Format48BppRgb | 7 | 48 bits per pixel, RGB. |
 | Format64BppArgb | 8 | 64 bits per pixel, ARGB. |
 | Format64BppPArgb | 9 | 64 bits per pixel, ARGB, premultiplied alpha. |
-| Format1bppIndexed | 10 | 1 bit per pixel, Indexed. |
 
 ## See Also
 

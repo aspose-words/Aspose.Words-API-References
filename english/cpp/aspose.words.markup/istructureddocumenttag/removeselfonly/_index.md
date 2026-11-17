@@ -13,21 +13,20 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/removeselfonly/
 Removes just this SDT node itself, but keeps the content of it inside the document tree.
 
 ```cpp
-virtual void Aspose::Words::Markup::IStructuredDocumentTag::RemoveSelfOnly()=0
+virtual void Aspose::Words::Markup::IStructuredDocumentTag::RemoveSelfOnly()
 ```
-
 
 ## Examples
 
 
+Shows how to remove structured document tag, but keeps content inside.
 
-Shows how to remove structured document tag, but keeps content inside. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 
 // This collection provides a unified interface for accessing ranged and non-ranged structured tags.
 System::SharedPtr<System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag>>> sdts = doc->get_Range()->get_StructuredDocumentTags()->LINQ_ToList();
-ASSERT_EQ(5, sdts->LINQ_Count());
+ASSERT_EQ(sdts->LINQ_Count(), 5);
 
 // Here we can get child nodes from the common interface of ranged and non-ranged structured tags.
 for (auto&& sdt : System::IterateOver(sdts))
@@ -39,9 +38,8 @@ for (auto&& sdt : System::IterateOver(sdts))
 }
 
 sdts = doc->get_Range()->get_StructuredDocumentTags()->LINQ_ToList();
-ASSERT_EQ(0, sdts->LINQ_Count());
+ASSERT_EQ(sdts->LINQ_Count(), 0);
 ```
-
 ## See Also
 
 * Interface [IStructuredDocumentTag](../)

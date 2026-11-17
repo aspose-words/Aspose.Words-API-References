@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_suppressendnotes/
 True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.
 
 ```cpp
-bool Aspose::Words::PageSetup::get_SuppressEndnotes()
+_Bool Aspose::Words::PageSetup::get_SuppressEndnotes()
 ```
 
 ## See Also

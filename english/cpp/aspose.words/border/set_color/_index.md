@@ -2,7 +2,7 @@
 title: Aspose::Words::Border::set_Color method
 linktitle: set_Color
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Border::set_Color method. Setter for Aspose::Words::Border::get_Color in C++.'
+description: 'Aspose::Words::Border::set_Color method. Sets the border color in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words/border/set_color/
@@ -10,12 +10,29 @@ url: /cpp/aspose.words/border/set_color/
 ## Border::set_Color method
 
 
-Setter for [Aspose::Words::Border::get_Color](../get_color/).
+Sets the border color.
 
 ```cpp
 void Aspose::Words::Border::set_Color(System::Drawing::Color value)
 ```
 
+## Examples
+
+
+Shows how to insert a string surrounded by a border into a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->get_Font()->get_Border()->set_Color(System::Drawing::Color::get_Green());
+builder->get_Font()->get_Border()->set_LineWidth(2.5);
+builder->get_Font()->get_Border()->set_LineStyle(LineStyle::DashDotStroker);
+
+builder->Write(u"Text surrounded by green border.");
+
+doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
+```
 ## See Also
 
 * Class [Border](../)

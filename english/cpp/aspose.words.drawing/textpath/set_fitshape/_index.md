@@ -19,7 +19,7 @@ void Aspose::Words::Drawing::TextPath::set_FitShape(bool value)
 ## Remarks
 
 
-The default value is **false**. 
+The default value is **false**.
 ## See Also
 
 * Class [TextPath](../)

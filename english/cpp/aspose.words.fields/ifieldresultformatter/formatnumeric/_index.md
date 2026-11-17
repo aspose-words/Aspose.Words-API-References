@@ -13,9 +13,12 @@ url: /cpp/aspose.words.fields/ifieldresultformatter/formatnumeric/
 Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##".
 
 ```cpp
-virtual System::String Aspose::Words::Fields::IFieldResultFormatter::FormatNumeric(double value, System::String format)=0
+virtual System::String Aspose::Words::Fields::IFieldResultFormatter::FormatNumeric(double value, System::String format)
 ```
 
+## Remarks
+
+ The implementation should return **null** to indicate that the default formatting should be applied. 
 ## See Also
 
 * Interface [IFieldResultFormatter](../)

@@ -28,11 +28,8 @@ A [VisitorAction](../../visitoraction/) value that specifies how to continue the
 
 
 For more info see [VisitFieldStart()](../visitfieldstart/)
-
 ## See Also
 
-* Enum [VisitorAction](../../visitoraction/)
-* Class [FieldEnd](../../../aspose.words.fields/fieldend/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

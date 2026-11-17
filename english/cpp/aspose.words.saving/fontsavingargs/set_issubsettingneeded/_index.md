@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::FontSavingArgs::set_IsSubsettingNeeded method
 linktitle: set_IsSubsettingNeeded
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::FontSavingArgs::set_IsSubsettingNeeded method. Setter for Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded in C++.'
+description: 'Aspose::Words::Saving::FontSavingArgs::set_IsSubsettingNeeded method. Allows to specify whether the current font will be subsetted before exporting as a font resource in C++.'
 type: docs
 weight: 18000
 url: /cpp/aspose.words.saving/fontsavingargs/set_issubsettingneeded/
@@ -10,12 +10,18 @@ url: /cpp/aspose.words.saving/fontsavingargs/set_issubsettingneeded/
 ## FontSavingArgs::set_IsSubsettingNeeded method
 
 
-Setter for [Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded](../get_issubsettingneeded/).
+Allows to specify whether the current font will be subsetted before exporting as a font resource.
 
 ```cpp
 void Aspose::Words::Saving::FontSavingArgs::set_IsSubsettingNeeded(bool value)
 ```
 
+## Remarks
+
+
+Fonts can be exported as complete original font files or subsetted to include only the characters that are used in the document. Subsetting allows to reduce the resulting font resource size.
+
+By default, Aspose.Words decides whether to perform subsetting or not by comparing the original font file size with the one specified in [FontResourcesSubsettingSizeThreshold](../../htmlsaveoptions/get_fontresourcessubsettingsizethreshold/). You can override this behavior for individual fonts by setting the [IsSubsettingNeeded](../get_issubsettingneeded/) property.
 ## See Also
 
 * Class [FontSavingArgs](../)

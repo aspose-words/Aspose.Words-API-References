@@ -18,20 +18,15 @@ void Aspose::Words::Style::Remove()
 
 ## Remarks
 
-
-[Style](../) removal has following effects on the document model:
-
-* All references to the style are removed from corresponding paragraphs, runs and tables.
+ Style removal has following effects on the document model: * All references to the style are removed from corresponding paragraphs, runs and tables.
 * If base style is removed its formatting is moved to child styles.
 * If style to be deleted has a linked style, then both of these are deleted.
-
-
 
 ## Examples
 
 
+Shows how to create and apply a custom style.
 
-Shows how to create and apply a custom style. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -50,7 +45,7 @@ builder->Writeln(u"Hello world!");
 
 System::SharedPtr<Aspose::Words::Style> firstParagraphStyle = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Style();
 
-ASPOSE_ASSERT_EQ(style, firstParagraphStyle);
+ASPOSE_ASSERT_EQ(firstParagraphStyle, style);
 
 // Remove our custom style from the document's styles collection.
 doc->get_Styles()->idx_get(u"MyStyle")->Remove();
@@ -62,11 +57,10 @@ ASSERT_FALSE(doc->get_Styles()->LINQ_Any(static_cast<System::Func<System::Shared
 {
     return s->get_Name() == u"MyStyle";
 }))));
-ASSERT_EQ(u"Times New Roman", firstParagraphStyle->get_Font()->get_Name());
-ASPOSE_ASSERT_EQ(12.0, firstParagraphStyle->get_Font()->get_Size());
-ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font()->get_Color().ToArgb());
+ASSERT_EQ(firstParagraphStyle->get_Font()->get_Name(), u"Times New Roman");
+ASPOSE_ASSERT_EQ(firstParagraphStyle->get_Font()->get_Size(), 12.0);
+ASSERT_EQ(firstParagraphStyle->get_Font()->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
 ```
-
 ## See Also
 
 * Class [Style](../)

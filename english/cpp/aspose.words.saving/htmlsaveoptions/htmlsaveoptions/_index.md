@@ -16,12 +16,11 @@ Initializes a new instance of this class that can be used to save a document in 
 Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to use a specific encoding when saving a document to .epub.
 
-Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -41,7 +40,6 @@ saveOptions->set_ExportDocumentProperties(true);
 
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)
@@ -60,12 +58,11 @@ Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveForma
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | Aspose::Words::SaveFormat | Can be [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/), [Azw3](../../../aspose.words/saveformat/) or [Mobi](../../../aspose.words/saveformat/). |
-
 ## Examples
 
 
+Shows how to save a document to a specific version of HTML.
 
-Shows how to save a document to a specific version of HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -92,10 +89,8 @@ switch (htmlVersion)
         break;
 }
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

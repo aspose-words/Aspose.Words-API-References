@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
 Returns query result.
 
 ```cpp
-virtual System::SharedPtr<Aspose::Words::Fields::FieldDatabaseDataTable> Aspose::Words::Fields::IFieldDatabaseProvider::GetQueryResult(System::String fileName, System::String connection, System::String query, System::SharedPtr<Aspose::Words::Fields::FieldDatabase> field)=0
+virtual System::SharedPtr<Aspose::Words::Fields::FieldDatabaseDataTable> Aspose::Words::Fields::IFieldDatabaseProvider::GetQueryResult(System::String fileName, System::String connection, System::String query, System::SharedPtr<Aspose::Words::Fields::FieldDatabase> field)
 ```
 
 
@@ -27,11 +27,8 @@ virtual System::SharedPtr<Aspose::Words::Fields::FieldDatabaseDataTable> Aspose:
 ### ReturnValue
 
 The [FieldDatabaseDataTable](../../fielddatabasedatatable/) instance that should be used for the field's update.
-
 ## See Also
 
-* Class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
-* Class [FieldDatabase](../../fielddatabase/)
 * Interface [IFieldDatabaseProvider](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

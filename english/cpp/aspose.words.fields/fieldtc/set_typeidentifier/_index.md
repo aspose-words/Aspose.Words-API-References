@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtc/set_typeidentifier/
 Sets a type identifier for this field (which is typically a letter).
 
 ```cpp
-void Aspose::Words::Fields::FieldTC::set_TypeIdentifier(const System::String &value)
+void Aspose::Words::Fields::FieldTC::set_TypeIdentifier(const System::String & value)
 ```
 
 ## See Also

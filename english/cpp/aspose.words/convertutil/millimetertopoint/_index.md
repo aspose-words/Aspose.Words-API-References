@@ -20,12 +20,14 @@ static double Aspose::Words::ConvertUtil::MillimeterToPoint(double millimeters)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | millimeters | double | The value to convert. |
+## Remarks
 
+ 1 inch equals 25.4 millimeters. 1 inch equals 72 points. 
 ## Examples
 
 
+Shows how to specify page properties in millimeters.
 
-Shows how to specify page properties in millimeters. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,14 +42,13 @@ pageSetup->set_LeftMargin(ConvertUtil::MillimeterToPoint(80));
 pageSetup->set_RightMargin(ConvertUtil::MillimeterToPoint(40));
 
 // A centimeter is approximately 28.3 points.
-ASSERT_NEAR(28.34, ConvertUtil::MillimeterToPoint(10), 0.01);
+ASSERT_NEAR(ConvertUtil::MillimeterToPoint(10), 28.34, 0.01);
 
 // Add content to demonstrate the new margins.
 builder->Writeln(System::String::Format(u"This Text is {0} points from the left, ", pageSetup->get_LeftMargin()) + System::String::Format(u"{0} points from the right, ", pageSetup->get_RightMargin()) + System::String::Format(u"{0} points from the top, ", pageSetup->get_TopMargin()) + System::String::Format(u"and {0} points from the bottom of the page.", pageSetup->get_BottomMargin()));
 
 doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndMillimeters.docx");
 ```
-
 ## See Also
 
 * Class [ConvertUtil](../)

@@ -13,15 +13,17 @@ url: /cpp/aspose.words.notes/footnote/get_isauto/
 Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark.
 
 ```cpp
-bool Aspose::Words::Notes::Footnote::get_IsAuto() const
+_Bool Aspose::Words::Notes::Footnote::get_IsAuto() const
 ```
 
+## Remarks
 
+[ReferenceMark](../get_referencemark/) initialized with empty string if [IsAuto](./) set to **false**. 
 ## Examples
 
 
+Shows how to insert and customize footnotes.
 
-Shows how to insert and customize footnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +45,7 @@ builder->MoveTo(footnote->get_FirstParagraph());
 builder->Write(u" More text added by a DocumentBuilder.");
 builder->MoveToDocumentEnd();
 
-ASSERT_EQ(u"\u0002 Footnote text. More text added by a DocumentBuilder.", footnote->GetText().Trim());
+ASSERT_EQ(footnote->GetText().Trim(), u"\u0002 Footnote text. More text added by a DocumentBuilder.");
 
 builder->Write(u" More main body text.");
 footnote = builder->InsertFootnote(FootnoteType::Footnote, u"Footnote text.");
@@ -62,7 +64,6 @@ ASSERT_TRUE(footnote->get_IsAuto());
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddFootnote.docx");
 ```
-
 ## See Also
 
 * Class [Footnote](../)

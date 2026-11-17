@@ -16,43 +16,41 @@ If the document contains no sections, creates one section with one paragraph.
 void Aspose::Words::Document::EnsureMinimum()
 ```
 
-
 ## Examples
 
 
+Shows how to ensure that a document contains the minimal set of nodes required for editing its contents.
 
-Shows how to ensure that a document contains the minimal set of nodes required for editing its contents. 
 ```cpp
 // A newly created document contains one child Section, which includes one child Body and one child Paragraph.
 // We can edit the document body's contents by adding nodes such as Runs or inline Shapes to that paragraph.
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::NodeCollection> nodes = doc->GetChildNodes(NodeType::Any, true);
 
-ASSERT_EQ(NodeType::Section, nodes->idx_get(0)->get_NodeType());
-ASPOSE_ASSERT_EQ(doc, nodes->idx_get(0)->get_ParentNode());
+ASSERT_EQ(nodes->idx_get(0)->get_NodeType(), NodeType::Section);
+ASPOSE_ASSERT_EQ(nodes->idx_get(0)->get_ParentNode(), doc);
 
-ASSERT_EQ(NodeType::Body, nodes->idx_get(1)->get_NodeType());
-ASPOSE_ASSERT_EQ(nodes->idx_get(0), nodes->idx_get(1)->get_ParentNode());
+ASSERT_EQ(nodes->idx_get(1)->get_NodeType(), NodeType::Body);
+ASPOSE_ASSERT_EQ(nodes->idx_get(1)->get_ParentNode(), nodes->idx_get(0));
 
-ASSERT_EQ(NodeType::Paragraph, nodes->idx_get(2)->get_NodeType());
-ASPOSE_ASSERT_EQ(nodes->idx_get(1), nodes->idx_get(2)->get_ParentNode());
+ASSERT_EQ(nodes->idx_get(2)->get_NodeType(), NodeType::Paragraph);
+ASPOSE_ASSERT_EQ(nodes->idx_get(2)->get_ParentNode(), nodes->idx_get(1));
 
 // This is the minimal set of nodes that we need to be able to edit the document.
 // We will no longer be able to edit the document if we remove any of them.
 doc->RemoveAllChildren();
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Any, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Any, true)->get_Count(), 0);
 
 // Call this method to make sure that the document has at least those three nodes so we can edit it again.
 doc->EnsureMinimum();
 
-ASSERT_EQ(NodeType::Section, nodes->idx_get(0)->get_NodeType());
-ASSERT_EQ(NodeType::Body, nodes->idx_get(1)->get_NodeType());
-ASSERT_EQ(NodeType::Paragraph, nodes->idx_get(2)->get_NodeType());
+ASSERT_EQ(nodes->idx_get(0)->get_NodeType(), NodeType::Section);
+ASSERT_EQ(nodes->idx_get(1)->get_NodeType(), NodeType::Body);
+ASSERT_EQ(nodes->idx_get(2)->get_NodeType(), NodeType::Paragraph);
 
 (System::ExplicitCast<Aspose::Words::Paragraph>(nodes->idx_get(2)))->get_Runs()->Add(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 ```
-
 ## See Also
 
 * Class [Document](../)

@@ -16,12 +16,11 @@ Removes all data values from the chart series. Format of all individual data poi
 void Aspose::Words::Drawing::Charts::ChartSeries::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to populate chart series with data.
 
-Shows how to populate chart series with data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +50,6 @@ series2->Add(ChartXValue::FromDouble(8), ChartYValue::FromDouble(7));
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
-
 ## See Also
 
 * Class [ChartSeries](../)

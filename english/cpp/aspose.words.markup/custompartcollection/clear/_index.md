@@ -16,22 +16,21 @@ Removes all elements from the collection.
 void Aspose::Words::Markup::CustomPartCollection::Clear()
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
-ASSERT_EQ(2, doc->get_PackageCustomParts()->get_Count());
+ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 2);
 
 // Clone the second part, then add the clone to the collection.
 System::SharedPtr<Aspose::Words::Markup::CustomPart> clonedPart = doc->get_PackageCustomParts()->idx_get(1)->Clone();
 doc->get_PackageCustomParts()->Add(clonedPart);
 
-ASSERT_EQ(3, doc->get_PackageCustomParts()->get_Count());
+ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 3);
 
 // Enumerate over the collection and print every part.
 {
@@ -51,13 +50,12 @@ ASSERT_EQ(3, doc->get_PackageCustomParts()->get_Count());
 // We can remove elements from this collection individually, or all at once.
 doc->get_PackageCustomParts()->RemoveAt(2);
 
-ASSERT_EQ(2, doc->get_PackageCustomParts()->get_Count());
+ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 2);
 
 doc->get_PackageCustomParts()->Clear();
 
-ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
+ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 0);
 ```
-
 ## See Also
 
 * Class [CustomPartCollection](../)

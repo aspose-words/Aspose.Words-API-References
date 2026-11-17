@@ -16,12 +16,14 @@ Gets the actual text of the reference mark displayed in the document for this fo
 System::String Aspose::Words::Notes::Footnote::get_ActualReferenceMark()
 ```
 
+## Remarks
 
+ To initially populate values of this property for all reference marks of the document, or to update the values after changes in the document that might affect the reference marks, you must execute the [UpdateActualReferenceMarks](../../../aspose.words/document/updateactualreferencemarks/) method. Updating fields ([UpdateFields](../../../aspose.words/document/updatefields/)) may also be necessary to get the correct result. 
 ## Examples
 
 
+Shows how to get actual footnote reference mark.
 
-Shows how to get actual footnote reference mark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footnotes and endnotes.docx"));
 
@@ -29,9 +31,8 @@ auto footnote = System::ExplicitCast<Aspose::Words::Notes::Footnote>(doc->GetChi
 doc->UpdateFields();
 doc->UpdateActualReferenceMarks();
 
-ASSERT_EQ(u"1", footnote->get_ActualReferenceMark());
+ASSERT_EQ(footnote->get_ActualReferenceMark(), u"1");
 ```
-
 ## See Also
 
 * Class [Footnote](../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showvalue/
 Allows to specify if values are to be displayed in the data labels. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowValue()
+_Bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowValue()
 ```
 
 ## See Also

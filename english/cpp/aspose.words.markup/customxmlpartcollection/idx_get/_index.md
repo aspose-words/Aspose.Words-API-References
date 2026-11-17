@@ -4,7 +4,7 @@ linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomXmlPartCollection::idx_get method. Gets or sets an item at the specified index in C++.'
 type: docs
-weight: 14000
+weight: 19500
 url: /cpp/aspose.words.markup/customxmlpartcollection/idx_get/
 ---
 ## CustomXmlPartCollection::idx_get method
@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> Aspose::Words::Markup::C
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int32_t | Zero-based index of the item. |
-
 ## Examples
 
 
+Shows how to create a structured document tag with custom XML data.
 
-Shows how to create a structured document tag with custom XML data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -36,15 +35,15 @@ System::String xmlPartId = System::Guid::NewGuid().ToString(u"B");
 System::String xmlPartContent = u"<root><text>Hello world!</text></root>";
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> xmlPart = doc->get_CustomXmlParts()->Add(xmlPartId, xmlPartContent);
 
-ASPOSE_ASSERT_EQ(System::Text::Encoding::get_ASCII()->GetBytes(xmlPartContent), xmlPart->get_Data());
-ASSERT_EQ(xmlPartId, xmlPart->get_Id());
+ASPOSE_ASSERT_EQ(xmlPart->get_Data(), System::Text::Encoding::get_ASCII()->GetBytes(xmlPartContent));
+ASSERT_EQ(xmlPart->get_Id(), xmlPartId);
 
 // Below are two ways to refer to XML parts.
 // 1 -  By an index in the custom XML part collection:
-ASPOSE_ASSERT_EQ(xmlPart, doc->get_CustomXmlParts()->idx_get(0));
+ASPOSE_ASSERT_EQ(doc->get_CustomXmlParts()->idx_get(0), xmlPart);
 
 // 2 -  By GUID:
-ASPOSE_ASSERT_EQ(xmlPart, doc->get_CustomXmlParts()->GetById(xmlPartId));
+ASPOSE_ASSERT_EQ(doc->get_CustomXmlParts()->GetById(xmlPartId), xmlPart);
 
 // Add an XML schema association.
 xmlPart->get_Schemas()->Add(u"http://www.w3.org/2001/XMLSchema");
@@ -54,7 +53,7 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> xmlPartClone = xmlPart->
 xmlPartClone->set_Id(System::Guid::NewGuid().ToString(u"B"));
 doc->get_CustomXmlParts()->Add(xmlPartClone);
 
-ASSERT_EQ(2, doc->get_CustomXmlParts()->get_Count());
+ASSERT_EQ(doc->get_CustomXmlParts()->get_Count(), 2);
 
 // Iterate through the collection and print the contents of each part.
 {
@@ -71,7 +70,7 @@ ASSERT_EQ(2, doc->get_CustomXmlParts()->get_Count());
 // Use the "RemoveAt" method to remove the cloned part by index.
 doc->get_CustomXmlParts()->RemoveAt(1);
 
-ASSERT_EQ(1, doc->get_CustomXmlParts()->get_Count());
+ASSERT_EQ(doc->get_CustomXmlParts()->get_Count(), 1);
 
 // Clone the XML parts collection, and then use the "Clear" method to remove all its elements at once.
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPartCollection> customXmlParts = doc->get_CustomXmlParts()->Clone();
@@ -85,10 +84,8 @@ doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
-
 ## See Also
 
-* Class [CustomXmlPart](../../customxmlpart/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

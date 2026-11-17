@@ -22,12 +22,11 @@ static System::String Aspose::Words::FileFormatUtil::SaveFormatToExtension(Aspos
 The [WordML](../../saveformat/) value is converted to ".wml".
 
 The [FlatOpc](../../saveformat/) value is converted to ".fopc".
-
 ## Examples
 
 
+Shows how to use the FileFormatUtil methods to detect the format of a document.
 
-Shows how to use the [FileFormatUtil](../) methods to detect the format of a document. 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
@@ -35,7 +34,7 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
     System::SharedPtr<Aspose::Words::FileFormatInfo> info = FileFormatUtil::DetectFileFormat(docStream);
     Aspose::Words::LoadFormat loadFormat = info->get_LoadFormat();
 
-    ASSERT_EQ(LoadFormat::Doc, loadFormat);
+    ASSERT_EQ(loadFormat, LoadFormat::Doc);
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -48,15 +47,17 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
     // Load a document from the stream, and then save it to the automatically detected file extension.
     auto doc = System::MakeObject<Aspose::Words::Document>(docStream);
 
-    ASSERT_EQ(u".doc", FileFormatUtil::SaveFormatToExtension(saveFormat));
+    ASSERT_EQ(FileFormatUtil::SaveFormatToExtension(saveFormat), u".doc");
 
     doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
 ```
+## Exceptions
+
+* ArgumentException - Throws when cannot convert.
 
 ## See Also
 
-* Enum [SaveFormat](../../saveformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

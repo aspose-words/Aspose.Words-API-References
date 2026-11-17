@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/idocumentpartsavingcallback/
 Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [Html](../../aspose.words/saveformat/) or [Epub](../../aspose.words/saveformat/) format.
 
 ```cpp
-class IDocumentPartSavingCallback : public virtual System::Object
+class IDocumentPartSavingCallback : public System::Object
 ```
 
 ## Methods
@@ -21,9 +21,6 @@ class IDocumentPartSavingCallback : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | virtual [DocumentPartSaving](./documentpartsaving/)(System::SharedPtr\<Aspose::Words::Saving::DocumentPartSavingArgs\>) | Called when Aspose.Words is about to save a document part. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -13,15 +13,14 @@ url: /cpp/aspose.words.vba/vbaproject/get_issigned/
 Shows whether the [VbaProject](../) is signed or not.
 
 ```cpp
-bool Aspose::Words::Vba::VbaProject::get_IsSigned()
+_Bool Aspose::Words::Vba::VbaProject::get_IsSigned()
 ```
-
 
 ## Examples
 
 
+Shows how to access a document's VBA project information.
 
-Shows how to access a document's VBA project information. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 
@@ -31,7 +30,7 @@ std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name
 
 System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
 
-ASSERT_EQ(vbaModules->LINQ_Count(), 3);
+ASSERT_EQ(3, vbaModules->LINQ_Count());
 
 for (auto&& module_ : vbaModules)
 {
@@ -45,7 +44,6 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 // Remove a module from the collection.
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
-
 ## See Also
 
 * Class [VbaProject](../)

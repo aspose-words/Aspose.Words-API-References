@@ -16,12 +16,14 @@ Provides access to line formatting of the axis and fill of the tick labels.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartFormat> Aspose::Words::Drawing::Charts::ChartAxis::get_Format()
 ```
 
+## Remarks
 
+ Fill of chart tick marks can be changed only for pre Word 2016 charts. Word 2016 charts do not support this. 
 ## Examples
 
 
+Shows how to insert a chart and modify the appearance of its axes.
 
-Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -33,7 +35,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Char
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel",
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", 
     u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
@@ -51,7 +53,7 @@ xAxis->get_TickLabels()->set_Position(AxisTickLabelPosition::Low);
 xAxis->get_TickLabels()->set_IsAutoSpacing(false);
 xAxis->set_TickMarkSpacing(1);
 
-ASPOSE_ASSERT_EQ(doc, xAxis->get_Document());
+ASPOSE_ASSERT_EQ(xAxis->get_Document(), doc);
 
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> yAxis = chart->get_AxisY();
 yAxis->set_CategoryType(AxisCategoryType::Automatic);
@@ -71,10 +73,8 @@ ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
 doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
-
 ## See Also
 
-* Class [ChartFormat](../../chartformat/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

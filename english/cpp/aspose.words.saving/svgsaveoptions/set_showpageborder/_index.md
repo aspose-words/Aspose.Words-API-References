@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::SvgSaveOptions::set_ShowPageBorder method
 linktitle: set_ShowPageBorder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::SvgSaveOptions::set_ShowPageBorder method. Setter for Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder in C++.'
+description: 'Aspose::Words::Saving::SvgSaveOptions::set_ShowPageBorder method. Controls whether a border is added to the outline of the page. Default is true in C++.'
 type: docs
 weight: 19000
 url: /cpp/aspose.words.saving/svgsaveoptions/set_showpageborder/
@@ -10,12 +10,28 @@ url: /cpp/aspose.words.saving/svgsaveoptions/set_showpageborder/
 ## SvgSaveOptions::set_ShowPageBorder method
 
 
-Setter for [Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder](../get_showpageborder/).
+Controls whether a border is added to the outline of the page. Default is **true**.
 
 ```cpp
 void Aspose::Words::Saving::SvgSaveOptions::set_ShowPageBorder(bool value)
 ```
 
+## Examples
+
+
+Shows how to mimic the properties of images when converting a .docx document to .svg.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
+
+// Configure the SvgSaveOptions object to save with no page borders or selectable text.
+auto options = System::MakeObject<Aspose::Words::Saving::SvgSaveOptions>();
+options->set_FitToViewPort(true);
+options->set_ShowPageBorder(false);
+options->set_TextOutputMode(SvgTextOutputMode::UsePlacedGlyphs);
+
+doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.SaveLikeImage.svg", options);
+```
 ## See Also
 
 * Class [SvgSaveOptions](../)

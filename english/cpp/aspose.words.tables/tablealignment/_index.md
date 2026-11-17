@@ -13,23 +13,22 @@ url: /cpp/aspose.words.tables/tablealignment/
 Specifies alignment for an inline table.
 
 ```cpp
-enum class TableAlignment
+enum class TableAlignment : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Left | 0 | The table is aligned to the left. |
 | Center | 1 | The table is centered. |
+| Left | 0 | The table is aligned to the left. |
 | Right | 2 | The table is aligned to the right. |
-
 
 ## Examples
 
 
+Shows how to apply an outline border to a table.
 
-Shows how to apply an outline border to a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -52,7 +51,6 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 
 doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)

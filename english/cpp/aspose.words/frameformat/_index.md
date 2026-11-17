@@ -32,21 +32,17 @@ class FrameFormat : public System::Object
 | [get_VerticalDistanceFromText](./get_verticaldistancefromtext/)() | Specifies vertical distance (in points) between a frame and the surrounding text. |
 | [get_VerticalPosition](./get_verticalposition/)() | Gets vertical distance between the edge of the frame and the item specified by the [RelativeVerticalPosition](./get_relativeverticalposition/) property. |
 | [get_Width](./get_width/)() | Gets the width of the specified frame, in points. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## Remarks
 
 
 This object is always created. If a paragraph is a frame, then all properties will contain respective values, otherwise all properties are set to their defaults.
 
 Use [IsFrame](./get_isframe/) to check whether paragraph is a frame.
-
 ## Examples
 
 
+Shows how to get information about formatting properties of paragraphs that are frames.
 
-Shows how to get information about formatting properties of paragraphs that are frames. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraph frame.docx"));
 
@@ -55,19 +51,18 @@ System::SharedPtr<Aspose::Words::Paragraph> paragraphFrame = doc->get_FirstSecti
     return p->get_FrameFormat()->get_IsFrame();
 })));
 
-ASPOSE_ASSERT_EQ(233.3, paragraphFrame->get_FrameFormat()->get_Width());
-ASPOSE_ASSERT_EQ(138.8, paragraphFrame->get_FrameFormat()->get_Height());
-ASSERT_EQ(HeightRule::AtLeast, paragraphFrame->get_FrameFormat()->get_HeightRule());
-ASSERT_EQ(HorizontalAlignment::Default, paragraphFrame->get_FrameFormat()->get_HorizontalAlignment());
-ASSERT_EQ(VerticalAlignment::Default, paragraphFrame->get_FrameFormat()->get_VerticalAlignment());
-ASPOSE_ASSERT_EQ(34.05, paragraphFrame->get_FrameFormat()->get_HorizontalPosition());
-ASSERT_EQ(RelativeHorizontalPosition::Page, paragraphFrame->get_FrameFormat()->get_RelativeHorizontalPosition());
-ASPOSE_ASSERT_EQ(9.0, paragraphFrame->get_FrameFormat()->get_HorizontalDistanceFromText());
-ASPOSE_ASSERT_EQ(20.5, paragraphFrame->get_FrameFormat()->get_VerticalPosition());
-ASSERT_EQ(RelativeVerticalPosition::Paragraph, paragraphFrame->get_FrameFormat()->get_RelativeVerticalPosition());
-ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText());
+ASPOSE_ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_Width(), 233.3);
+ASPOSE_ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_Height(), 138.8);
+ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_HeightRule(), HeightRule::AtLeast);
+ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_HorizontalAlignment(), HorizontalAlignment::Default);
+ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_VerticalAlignment(), VerticalAlignment::Default);
+ASPOSE_ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_HorizontalPosition(), 34.05);
+ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_RelativeHorizontalPosition(), RelativeHorizontalPosition::Page);
+ASPOSE_ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_HorizontalDistanceFromText(), 9.0);
+ASPOSE_ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_VerticalPosition(), 20.5);
+ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_RelativeVerticalPosition(), RelativeVerticalPosition::Paragraph);
+ASPOSE_ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText(), 0.0);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

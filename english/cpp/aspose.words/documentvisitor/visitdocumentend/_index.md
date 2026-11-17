@@ -24,11 +24,8 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitDocume
 ### ReturnValue
 
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
-
 ## See Also
 
-* Enum [VisitorAction](../../visitoraction/)
-* Class [Document](../../document/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

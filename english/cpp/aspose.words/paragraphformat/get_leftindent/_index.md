@@ -16,12 +16,11 @@ Gets or sets the value (in points) that represents the left indent for paragraph
 double Aspose::Words::ParagraphFormat::get_LeftIndent()
 ```
 
-
 ## Examples
 
 
+Shows how to configure paragraph formatting to create off-center text.
 
-Shows how to configure paragraph formatting to create off-center text. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +39,6 @@ builder->Writeln(u"The space between the above paragraph and this one depends on
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetParagraphFormatting.docx");
 ```
-
 ## See Also
 
 * Class [ParagraphFormat](../)

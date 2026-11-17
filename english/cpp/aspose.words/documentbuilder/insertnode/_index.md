@@ -13,15 +13,14 @@ url: /cpp/aspose.words/documentbuilder/insertnode/
 Inserts a node before the cursor.
 
 ```cpp
-void Aspose::Words::DocumentBuilder::InsertNode(const System::SharedPtr<Aspose::Words::Node> &node)
+void Aspose::Words::DocumentBuilder::InsertNode(const System::SharedPtr<Aspose::Words::Node> & node)
 ```
-
 
 ## Examples
 
 
+Shows how to insert a linked image into a document.
 
-Shows how to insert a linked image into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -56,10 +55,8 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx");
 // the image file is present at the location that the shape's "SourceFullName" property points to.
 ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

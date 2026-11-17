@@ -13,15 +13,15 @@ url: /cpp/aspose.words.drawing.charts/chartyvaluetype/
 Allows to specify type of an Y value of a chart series.
 
 ```cpp
-enum class ChartYValueType
+enum class ChartYValueType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Double | 0 | Specifies that an Y value is a double-precision floating-point number. |
 | DateTime | 1 | Specifies that an Y value is a date and time of day. |
+| Double | 0 | Specifies that an Y value is a double-precision floating-point number. |
 | Time | 2 | Specifies that an X value is a time of day. |
 
 ## See Also

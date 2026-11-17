@@ -19,6 +19,5 @@ const System::SharedPtr<Aspose::Words::MailMerging::MailMergeRegionInfo> & Aspos
 ## See Also
 
 * Class [MailMergeRegionInfo](../)
-* Class [MailMergeRegionInfo](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

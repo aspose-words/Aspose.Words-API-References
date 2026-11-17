@@ -16,12 +16,11 @@ Gets or sets the number of points by which the text that follows the field shoul
 System::String Aspose::Words::Fields::FieldAdvance::get_VerticalPosition()
 ```
 
-
 ## Examples
 
 
+Shows how to insert an ADVANCE field, and edit its properties.
 
-Shows how to insert an ADVANCE field, and edit its properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,7 +35,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAdvance>(builder->
 field->set_RightOffset(u"5");
 field->set_UpOffset(u"5");
 
-ASSERT_EQ(u" ADVANCE  \\r 5 \\u 5", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" ADVANCE  \\r 5 \\u 5");
 
 builder->Write(u"This text will be moved up and to the right.");
 
@@ -44,7 +43,7 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldAdvance>(builder->Inser
 field->set_DownOffset(u"5");
 field->set_LeftOffset(u"100");
 
-ASSERT_EQ(u" ADVANCE  \\d 5 \\l 100", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" ADVANCE  \\d 5 \\l 100");
 
 builder->Writeln(u"This text is moved down and to the left, overlapping the previous text.");
 
@@ -53,13 +52,12 @@ field = System::ExplicitCast<Aspose::Words::Fields::FieldAdvance>(builder->Inser
 field->set_HorizontalPosition(u"-100");
 field->set_VerticalPosition(u"200");
 
-ASSERT_EQ(u" ADVANCE  \\x -100 \\y 200", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" ADVANCE  \\x -100 \\y 200");
 
 builder->Write(u"This text is in a custom position.");
 
 doc->Save(get_ArtifactsDir() + u"Field.ADVANCE.docx");
 ```
-
 ## See Also
 
 * Class [FieldAdvance](../)

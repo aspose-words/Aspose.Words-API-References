@@ -13,20 +13,21 @@ url: /cpp/aspose.words.settings/mailmergecheckerrors/
 Specifies how Microsoft Word will report errors detected during mail merge.
 
 ```cpp
-enum class MailMergeCheckErrors
+enum class MailMergeCheckErrors : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Simulate | 1 | Simulate the merge and report errors in a new document. |
-| PauseOnError | 2 | Complete the merge and pause to report errors. |
 | CollectErrors | 3 | Complete the merge and report errors in a new document. |
 | Default | 2 | Equals to the [PauseOnError](./) value. |
-
+| PauseOnError | 2 | Complete the merge and pause to report errors. |
+| Simulate | 1 | Simulate the merge and report errors in a new document. |
 
 ## See Also
+
+* [CheckErrors](../mailmergesettings/get_checkerrors/)
 
 * Namespace [Aspose::Words::Settings](../)
 * Library [Aspose.Words for C++](../../)

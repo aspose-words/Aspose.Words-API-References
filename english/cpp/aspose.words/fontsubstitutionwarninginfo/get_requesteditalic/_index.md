@@ -13,15 +13,14 @@ url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requesteditalic/
 Indicates whether italic style was requested.
 
 ```cpp
-bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedItalic() const
+_Bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedItalic() const
 ```
-
 
 ## Examples
 
 
+Shows how to get additional information about font substitution.
 
-Shows how to get additional information about font substitution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -37,15 +36,14 @@ doc->set_FontSettings(fontSettings);
 doc->Save(get_ArtifactsDir() + u"FontSettings.SubstitutionWarnings.pdf");
 
 auto warningInfo = System::ExplicitCast<Aspose::Words::FontSubstitutionWarningInfo>(callback->idx_get(0));
-ASSERT_EQ(WarningSource::Layout, warningInfo->get_Source());
-ASSERT_EQ(WarningType::FontSubstitution, warningInfo->get_WarningType());
-ASSERT_EQ(FontSubstitutionReason::TableSubstitutionRule, warningInfo->get_Reason());
-ASSERT_EQ(u"Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.", warningInfo->get_Description());
+ASSERT_EQ(warningInfo->get_Source(), WarningSource::Layout);
+ASSERT_EQ(warningInfo->get_WarningType(), WarningType::FontSubstitution);
+ASSERT_EQ(warningInfo->get_Reason(), FontSubstitutionReason::TableSubstitutionRule);
+ASSERT_EQ(warningInfo->get_Description(), u"Font \'Arial\' has not been found. Using \'Arvo\' font instead. Reason: table substitution.");
 ASSERT_TRUE(warningInfo->get_RequestedBold());
 ASSERT_FALSE(warningInfo->get_RequestedItalic());
-ASSERT_EQ(u"Arial", warningInfo->get_RequestedFamilyName());
+ASSERT_EQ(warningInfo->get_RequestedFamilyName(), u"Arial");
 ```
-
 ## See Also
 
 * Class [FontSubstitutionWarningInfo](../)

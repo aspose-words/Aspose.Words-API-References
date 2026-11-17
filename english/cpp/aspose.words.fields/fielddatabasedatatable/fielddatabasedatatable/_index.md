@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddatabasedatatable/fielddatabasedatatable/
 Initializes a new instance of the [FieldDatabaseDataTable](../) class.
 
 ```cpp
-Aspose::Words::Fields::FieldDatabaseDataTable::FieldDatabaseDataTable(const System::ArrayPtr<System::String> &columnNames)
+Aspose::Words::Fields::FieldDatabaseDataTable::FieldDatabaseDataTable(const System::ArrayPtr<System::String> & columnNames)
 ```
 
 ## See Also

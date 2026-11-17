@@ -13,12 +13,11 @@ url: /cpp/aspose.words/documentbase/set_nodechangingcallback/
 Called when a node is inserted or removed in the document.
 
 ```cpp
-void Aspose::Words::DocumentBase::set_NodeChangingCallback(const System::SharedPtr<Aspose::Words::INodeChangingCallback> &value)
+void Aspose::Words::DocumentBase::set_NodeChangingCallback(const System::SharedPtr<Aspose::Words::INodeChangingCallback> & value)
 ```
 
 ## See Also
 
-* Interface [INodeChangingCallback](../../inodechangingcallback/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

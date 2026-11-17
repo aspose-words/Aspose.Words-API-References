@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/multipagelayout/set_bordercolor/
 ## MultiPageLayout::set_BorderColor method
 
 
-Sets the color of the pages border. The default is **Empty**.
+Sets the color of the pages border. The default is Empty.
 
 ```cpp
 void Aspose::Words::Saving::MultiPageLayout::set_BorderColor(System::Drawing::Color value)

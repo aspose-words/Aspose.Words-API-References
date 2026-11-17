@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldincludepicture/get_resizehorizontally/
 Gets or sets whether to resize the picture horizontally from the source.
 
 ```cpp
-bool Aspose::Words::Fields::FieldIncludePicture::get_ResizeHorizontally()
+_Bool Aspose::Words::Fields::FieldIncludePicture::get_ResizeHorizontally()
 ```
-
 
 ## Examples
 
 
+Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 
-Shows how to insert images using IMPORT and INCLUDEPICTURE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldImport->GetField
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
-
 ## See Also
 
 * Class [FieldIncludePicture](../)

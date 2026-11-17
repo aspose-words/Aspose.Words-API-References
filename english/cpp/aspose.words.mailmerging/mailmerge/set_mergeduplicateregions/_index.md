@@ -16,6 +16,9 @@ Sets a value indicating whether all of the document mail merge regions with the 
 void Aspose::Words::MailMerging::MailMerge::set_MergeDuplicateRegions(bool value)
 ```
 
+## Remarks
+
+ The default value is **false**. 
 ## See Also
 
 * Class [MailMerge](../)

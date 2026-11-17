@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> Aspose::Words::Draw
 
 ## See Also
 
-* Class [ChartAxis](../../chartaxis/)
 * Class [ChartAxisCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

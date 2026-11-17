@@ -4,7 +4,7 @@ linktitle: get_SourceItem
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_SourceItem method. Gets or sets a string that is used to identify the portion of the source file that is being linked in C++.'
 type: docs
-weight: 12000
+weight: 19787
 url: /cpp/aspose.words.drawing/oleformat/get_sourceitem/
 ---
 ## OleFormat::get_SourceItem method
@@ -22,12 +22,11 @@ System::String Aspose::Words::Drawing::OleFormat::get_SourceItem()
 The default value is an empty string.
 
 For example, if the source file is a Microsoft Excel workbook, the [SourceItem](./) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
-
 ## Examples
 
 
+Shows how to insert linked and unlinked OLE objects.
 
-Shows how to insert linked and unlinked OLE objects. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,28 +40,28 @@ builder->InsertOleObject(get_ImageDir() + u"Microsoft Visio drawing.vsd", u"Pack
 // Inserting OLE objects creates shapes that store these objects.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
-ASSERT_EQ(2, shapes->get_Length());
-ASSERT_EQ(2, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+ASSERT_EQ(shapes->get_Length(), 2);
+ASSERT_EQ(shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
 {
     return s->get_ShapeType() == ShapeType::OleObject;
-}))));
+}))), 2);
 
 // If a shape contains an OLE object, it will have a valid "OleFormat" property,
 // which we can use to verify some aspects of the shape.
 System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shapes[0]->get_OleFormat();
 
-ASPOSE_ASSERT_EQ(false, oleFormat->get_IsLink());
-ASPOSE_ASSERT_EQ(false, oleFormat->get_OleIcon());
+ASPOSE_ASSERT_EQ(oleFormat->get_IsLink(), false);
+ASPOSE_ASSERT_EQ(oleFormat->get_OleIcon(), false);
 
 oleFormat = shapes[1]->get_OleFormat();
 
-ASPOSE_ASSERT_EQ(true, oleFormat->get_IsLink());
-ASPOSE_ASSERT_EQ(true, oleFormat->get_OleIcon());
+ASPOSE_ASSERT_EQ(oleFormat->get_IsLink(), true);
+ASPOSE_ASSERT_EQ(oleFormat->get_OleIcon(), true);
 
 ASSERT_TRUE(oleFormat->get_SourceFullName().EndsWith(System::String(u"Images") + System::IO::Path::DirectorySeparatorChar + u"Microsoft Visio drawing.vsd"));
-ASSERT_EQ(u"", oleFormat->get_SourceItem());
+ASSERT_EQ(oleFormat->get_SourceItem(), u"");
 
-ASSERT_EQ(u"Microsoft Visio drawing.vsd", oleFormat->get_IconCaption());
+ASSERT_EQ(oleFormat->get_IconCaption(), u"Microsoft Visio drawing.vsd");
 
 doc->Save(get_ArtifactsDir() + u"Shape.OleLinks.docx");
 
@@ -70,10 +69,9 @@ doc->Save(get_ArtifactsDir() + u"Shape.OleLinks.docx");
 {
     System::SharedPtr<System::IO::MemoryStream> stream = oleFormat->GetOleEntry(u"\x0001" u"CompObj");
     System::ArrayPtr<uint8_t> oleEntryBytes = stream->ToArray();
-    ASSERT_EQ(76, oleEntryBytes->get_Length());
+    ASSERT_EQ(oleEntryBytes->get_Length(), 76);
 }
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

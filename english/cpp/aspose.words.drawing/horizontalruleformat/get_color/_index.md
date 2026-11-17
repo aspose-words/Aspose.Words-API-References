@@ -21,13 +21,12 @@ System::Drawing::Color Aspose::Words::Drawing::HorizontalRuleFormat::get_Color()
 
 This is a shortcut to the [Color](../../fill/get_color/) property.
 
-The default value is **Gray**.
-
+The default value is Gray. 
 ## Examples
 
 
+Shows how to insert a horizontal rule shape, and customize its formatting.
 
-Shows how to insert a horizontal rule shape, and customize its formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,6 @@ horizontalRuleFormat->set_NoShade(true);
 ASSERT_TRUE(shape->get_IsHorizontalRule());
 ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ```
-
 ## See Also
 
 * Class [HorizontalRuleFormat](../)

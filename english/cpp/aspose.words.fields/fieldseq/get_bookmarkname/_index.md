@@ -16,12 +16,11 @@ Gets or sets a bookmark name that refers to an item elsewhere in the document ra
 System::String Aspose::Words::Fields::FieldSeq::get_BookmarkName()
 ```
 
-
 ## Examples
 
 
+Shows how to combine table of contents and sequence fields.
 
-Shows how to combine table of contents and sequence fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,7 @@ fieldToc->set_TableOfFiguresLabel(u"MySequence");
 fieldToc->set_BookmarkName(u"TOCBookmark");
 builder->InsertBreak(BreakType::PageBreak);
 
-ASSERT_EQ(u" TOC  \\c MySequence \\b TOCBookmark", fieldToc->GetFieldCode());
+ASSERT_EQ(fieldToc->GetFieldCode(), u" TOC  \\c MySequence \\b TOCBookmark");
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -74,7 +73,7 @@ builder->Writeln(u", will not show up in the TOC because it's from a different s
 fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_BookmarkName(u"SEQBookmark");
-ASSERT_EQ(u" SEQ  MySequence SEQBookmark", fieldSeq->GetFieldCode());
+ASSERT_EQ(fieldSeq->GetFieldCode(), u" SEQ  MySequence SEQBookmark");
 
 // Create a bookmark with contents that will show up in the TOC entry due to the above SEQ field referencing it.
 builder->InsertBreak(BreakType::PageBreak);
@@ -90,7 +89,6 @@ builder->EndBookmark(u"TOCBookmark");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SEQ.Bookmark.docx");
 ```
-
 ## See Also
 
 * Class [FieldSeq](../)

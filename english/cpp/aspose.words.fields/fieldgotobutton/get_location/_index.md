@@ -16,12 +16,11 @@ Gets or sets the name of a bookmark, a page number, or some other item to jump t
 System::String Aspose::Words::Fields::FieldGoToButton::get_Location()
 ```
 
-
 ## Examples
 
 
+Shows to insert a GOTOBUTTON field.
 
-Shows to insert a GOTOBUTTON field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,7 +31,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldGoToButton>(builde
 field->set_DisplayText(u"My Button");
 field->set_Location(u"MyBookmark");
 
-ASSERT_EQ(u" GOTOBUTTON  MyBookmark My Button", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" GOTOBUTTON  MyBookmark My Button");
 
 // Insert a valid bookmark for the field to reference.
 builder->InsertBreak(BreakType::PageBreak);
@@ -43,7 +42,6 @@ builder->EndBookmark(field->get_Location());
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.GOTOBUTTON.docx");
 ```
-
 ## See Also
 
 * Class [FieldGoToButton](../)

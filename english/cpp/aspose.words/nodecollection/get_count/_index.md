@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::NodeCollection::get_Count method. Gets the number of nodes in the collection in C++.'
 type: docs
-weight: 5000
+weight: 15000
 url: /cpp/aspose.words/nodecollection/get_count/
 ---
 ## NodeCollection::get_Count method
@@ -16,12 +16,11 @@ Gets the number of nodes in the collection.
 int32_t Aspose::Words::NodeCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to traverse through a composite node's collection of child nodes.
 
-Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -43,7 +42,7 @@ paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject
 // and print any runs or shapes that we find within.
 System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(NodeType::Any, false);
 
-ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, false)->get_Count());
+ASSERT_EQ(paragraph->GetChildNodes(NodeType::Any, false)->get_Count(), 3);
 
 for (auto&& child : System::IterateOver(children))
 {
@@ -58,7 +57,7 @@ for (auto&& child : System::IterateOver(children))
             auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
             std::cout << "Shape:" << std::endl;
             std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
-            ASSERT_EQ(100, shape->get_CustomNodeId());
+            ASSERT_EQ(shape->get_CustomNodeId(), 100);
             break;
         }
         default:
@@ -66,7 +65,6 @@ for (auto&& child : System::IterateOver(children))
     }
 }
 ```
-
 ## See Also
 
 * Class [NodeCollection](../)

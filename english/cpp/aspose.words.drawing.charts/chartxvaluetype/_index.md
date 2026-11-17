@@ -13,18 +13,18 @@ url: /cpp/aspose.words.drawing.charts/chartxvaluetype/
 Allows to specify type of an X value of a chart series.
 
 ```cpp
-enum class ChartXValueType
+enum class ChartXValueType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| String | 0 | Specifies that an X value is a string category. |
-| Double | 1 | Specifies that an X value is a double-precision floating-point number. |
 | DateTime | 2 | Specifies that an X value is a date and time of day. |
-| Time | 3 | Specifies that an X value is a time of day. |
+| Double | 1 | Specifies that an X value is a double-precision floating-point number. |
 | Multilevel | 4 | Specifies that an X value is a multilevel value. |
+| String | 0 | Specifies that an X value is a string category. |
+| Time | 3 | Specifies that an X value is a time of day. |
 
 ## See Also
 

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangeend/accept/
 Accepts a visitor.
 
 ```cpp
-bool Aspose::Words::Markup::StructuredDocumentTagRangeEnd::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+_Bool Aspose::Words::Markup::StructuredDocumentTagRangeEnd::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,10 +30,8 @@ True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
-
 ## See Also
 
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [StructuredDocumentTagRangeEnd](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

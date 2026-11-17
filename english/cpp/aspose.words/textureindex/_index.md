@@ -13,7 +13,7 @@ url: /cpp/aspose.words/textureindex/
 Specifies shading texture.
 
 ```cpp
-enum class TextureIndex
+enum class TextureIndex : int
 ```
 
 ### Values
@@ -70,17 +70,16 @@ enum class TextureIndex
 | TextureDiagonalDown | 22 |  |
 | TextureDiagonalUp | 23 |  |
 | TextureHorizontal | 20 |  |
+| TextureNil | 65535 | Specifies that there shall be no pattern used on the current shaded region (i.e. the pattern shall be a complete fill with the background color). |
 | TextureNone | 0 |  |
 | TextureSolid | 1 |  |
 | TextureVertical | 21 |  |
-| TextureNil | 65535 | Specifies that there shall be no pattern used on the current shaded region (i.e. the pattern shall be a complete fill with the background color). |
-
 
 ## Examples
 
 
+Shows how to decorate text with borders and shading.
 
-Shows how to decorate text with borders and shading. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -101,8 +100,8 @@ builder->Write(u"This paragraph is formatted with a double border and shading.")
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
+Shows how to apply an outline border to a table.
 
-Shows how to apply an outline border to a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -125,7 +124,6 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 
 doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

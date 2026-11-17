@@ -4,24 +4,26 @@ linktitle: get_Style
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Style method. Gets or sets the Style of the structured document tag in C++.'
 type: docs
-weight: 29000
+weight: 85000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_style/
 ---
 ## StructuredDocumentTag::get_Style method
 
 
-Gets or sets the [Style](../../../aspose.words/style/) of the structured document tag.
+Gets or sets the Style of the structured document tag.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::Markup::StructuredDocumentTag::get_Style()
 ```
 
+## Remarks
 
+ Only [Character](../../../aspose.words/styletype/) style or [Paragraph](../../../aspose.words/styletype/) style with linked character style can be set. 
 ## Examples
 
 
+Shows how to work with styles for content control elements.
 
-Shows how to work with styles for content control elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +41,7 @@ sdtRichText->set_StyleName(u"Quote");
 builder->InsertNode(sdtPlainText);
 builder->InsertNode(sdtRichText);
 
-ASSERT_EQ(NodeType::StructuredDocumentTag, sdtPlainText->get_NodeType());
+ASSERT_EQ(sdtPlainText->get_NodeType(), NodeType::StructuredDocumentTag);
 
 System::SharedPtr<Aspose::Words::NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocumentTag, true);
 
@@ -49,14 +51,12 @@ for (auto&& node : System::IterateOver(tags))
 
     std::cout << sdt->get_WordOpenXMLMinimal() << std::endl;
 
-    ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
-    ASSERT_EQ(u"Quote", sdt->get_StyleName());
+    ASSERT_EQ(sdt->get_Style()->get_StyleIdentifier(), StyleIdentifier::Quote);
+    ASSERT_EQ(sdt->get_StyleName(), u"Quote");
 }
 ```
-
 ## See Also
 
-* Class [Style](../../../aspose.words/style/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

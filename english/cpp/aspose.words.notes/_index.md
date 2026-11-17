@@ -8,15 +8,18 @@ weight: 16000
 url: /cpp/aspose.words.notes/
 ---
 
-The **Aspose.Words.Notes** namespace provides classes to work with Microsoft Word endnotes and footnotes.
+The Aspose.Words.Notes namespace provides classes to work with Microsoft Word endnotes and footnotes.
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [EndnoteOptions](./endnoteoptions/) | Represents the endnote numbering options for a document or section. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
-| [Footnote](./footnote/) | Represents a container for text of a footnote or endnote. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
-| [FootnoteOptions](./footnoteoptions/) | Represents the footnote numbering options for a document or section. To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
+| [EndnoteOptions](./endnoteoptions/) | Represents the endnote numbering options for a document or section. 
+To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
+| [Footnote](./footnote/) | Represents a container for text of a footnote or endnote. 
+To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
+| [FootnoteOptions](./footnoteoptions/) | Represents the footnote numbering options for a document or section. 
+To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/) documentation article. |
 | [FootnoteSeparator](./footnoteseparator/) | Represents a container for the footnote/endnote separator and continuation content of a document. |
 | [FootnoteSeparatorCollection](./footnoteseparatorcollection/) | Provides typed access to [FootnoteSeparator](./footnoteseparator/) nodes of a document. |
 ## Enums

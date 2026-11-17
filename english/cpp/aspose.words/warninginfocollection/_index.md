@@ -2,7 +2,7 @@
 title: Aspose::Words::WarningInfoCollection class
 linktitle: WarningInfoCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WarningInfoCollection class. Represents a typed collection of WarningInfo objects. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::WarningInfoCollection class. Represents a typed collection of WarningInfo objects. To learn more, visit the Programming with Documents documentation article in C++.'
 type: docs
 weight: 75000
 url: /cpp/aspose.words/warninginfocollection/
@@ -10,10 +10,11 @@ url: /cpp/aspose.words/warninginfocollection/
 ## WarningInfoCollection class
 
 
-Represents a typed collection of [WarningInfo](../warninginfo/) objects. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
+Represents a typed collection of [WarningInfo](../warninginfo/) objects. 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/cpp/programming-with-documents/) documentation article.
 
 ```cpp
-class WarningInfoCollection : public Aspose::Words::IWarningCallback,
+class WarningInfoCollection : public IWarningCallback,
                               public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::WarningInfo>>
 ```
 
@@ -21,44 +22,31 @@ class WarningInfoCollection : public Aspose::Words::IWarningCallback,
 
 | Method | Description |
 | --- | --- |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
 | [Clear](./clear/)() | Removes all elements from the collection. |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
-| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
 | [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [GetType](./gettype/)() const override |  |
-| [idx_get](./idx_get/)(int32_t) | Gets an item at the specified index. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
 | [Warning](./warning/)(System::SharedPtr\<Aspose::Words::WarningInfo\>) override | Implements the [IWarningCallback](../iwarningcallback/) interface. Adds a warning to this collection. |
 | [WarningInfoCollection](./warninginfocollection/)() |  |
+| [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](./idx_get/)(int32_t) | Gets an item at the specified index. |
+| virtual [Warning](../iwarningcallback/warning/)(System::SharedPtr\<Aspose::Words::WarningInfo\>) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
 ## Typedefs
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Remarks
 
 
 You can use this collection object as the simplest form of [IWarningCallback](../iwarningcallback/) implementation to gather all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it to the [WarningCallback](../../aspose.words.loading/loadoptions/get_warningcallback/) or [WarningCallback](../documentbase/get_warningcallback/) property.
-
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -87,7 +75,6 @@ for (auto&& info : warningCollector)
     }
 }
 ```
-
 ## See Also
 
 * Interface [IWarningCallback](../iwarningcallback/)

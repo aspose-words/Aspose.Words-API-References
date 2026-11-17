@@ -18,7 +18,6 @@ void Aspose::Words::LowCode::SplitOptions::set_SplitCriteria(Aspose::Words::LowC
 
 ## See Also
 
-* Enum [SplitCriteria](../../splitcriteria/)
 * Class [SplitOptions](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

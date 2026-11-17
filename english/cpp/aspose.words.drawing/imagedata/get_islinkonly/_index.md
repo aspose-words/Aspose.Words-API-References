@@ -4,7 +4,7 @@ linktitle: get_IsLinkOnly
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_IsLinkOnly method. Returns true if the image is linked and not stored in the document in C++.'
 type: docs
-weight: 17000
+weight: 54000
 url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 ---
 ## ImageData::get_IsLinkOnly method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 Returns **true** if the image is linked and not stored in the document.
 
 ```cpp
-bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
+_Bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
 ```
-
 
 ## Examples
 
 
+Shows how to edit a shape's image data.
 
-Shows how to edit a shape's image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 auto sourceShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -39,8 +38,8 @@ imageData->set_Title(u"Imported Image");
 ASSERT_TRUE(imageData->get_HasImage());
 
 // If an image has no borders, its ImageData object will define the border color as empty.
-ASSERT_EQ(4, imageData->get_Borders()->get_Count());
-ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, imageData->get_Borders()->idx_get(0)->get_Color());
+ASSERT_EQ(imageData->get_Borders()->get_Count(), 4);
+ASPOSE_ASSERT_EQ(imageData->get_Borders()->idx_get(0)->get_Color(), System::Drawing::Color::Empty);
 
 // This image does not link to another shape or image file in the local file system.
 ASSERT_FALSE(imageData->get_IsLink());
@@ -77,7 +76,6 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 
 dstDoc->Save(get_ArtifactsDir() + u"Drawing.ImageData.docx");
 ```
-
 ## See Also
 
 * Class [ImageData](../)

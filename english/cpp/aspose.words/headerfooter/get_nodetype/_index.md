@@ -16,12 +16,11 @@ Returns [HeaderFooter](../../nodetype/).
 Aspose::Words::NodeType Aspose::Words::HeaderFooter::get_NodeType() const override
 ```
 
-
 ## Examples
 
 
+Shows how to iterate through the children of a composite node.
 
-Shows how to iterate through the children of a composite node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,10 +62,8 @@ for (auto&& node : System::IterateOver(section))
     }
 }
 ```
-
 ## See Also
 
-* Enum [NodeType](../../nodetype/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

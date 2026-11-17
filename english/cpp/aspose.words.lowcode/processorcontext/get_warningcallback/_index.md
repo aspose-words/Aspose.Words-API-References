@@ -18,7 +18,6 @@ const System::SharedPtr<Aspose::Words::IWarningCallback> & Aspose::Words::LowCod
 
 ## See Also
 
-* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [ProcessorContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -19,10 +19,9 @@ System::SharedPtr<Aspose::Words::Markup::CustomXmlPropertyCollection> Aspose::Wo
 ## Remarks
 
 
-Cannot be **null**. 
+Cannot be **null**.
 ## See Also
 
-* Class [CustomXmlPropertyCollection](../../customxmlpropertycollection/)
 * Class [SmartTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

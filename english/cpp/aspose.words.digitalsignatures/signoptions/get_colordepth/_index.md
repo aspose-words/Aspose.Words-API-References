@@ -16,12 +16,11 @@ Gets or sets the color depth for the digital signature. Default value is 32.
 int32_t Aspose::Words::DigitalSignatures::SignOptions::get_ColorDepth() const
 ```
 
-
 ## Examples
 
 
+Shows how to sign a document with additional signing options.
 
-Shows how to sign a document with additional signing options. 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
 signOptions->set_WindowsVersion(u"10.0");
@@ -38,16 +37,15 @@ DigitalSignatureUtil::Sign(get_MyDir() + u"Digitally signed.docx", get_Artifacts
 auto signedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DigitalSignatureUtil.docx"));
 
 System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> signature = signedDoc->get_DigitalSignatures()->idx_get(0);
-ASSERT_EQ(1, signedDoc->get_DigitalSignatures()->get_Count());
+ASSERT_EQ(signedDoc->get_DigitalSignatures()->get_Count(), 1);
 ASSERT_TRUE(signature->get_IsValid());
-ASSERT_EQ(u"10.0", signature->get_WindowsVersion());
-ASSERT_EQ(u"16.0.19127", signature->get_ApplicationVersion());
-ASSERT_EQ(u"16.0.19127/27", signature->get_OfficeVersion());
-ASSERT_EQ(1024, signature->get_HorizontalResolution());
-ASSERT_EQ(768, signature->get_VerticalResolution());
-ASSERT_EQ(24, signature->get_ColorDepth());
+ASSERT_EQ(signature->get_WindowsVersion(), u"10.0");
+ASSERT_EQ(signature->get_ApplicationVersion(), u"16.0.19127");
+ASSERT_EQ(signature->get_OfficeVersion(), u"16.0.19127/27");
+ASSERT_EQ(signature->get_HorizontalResolution(), 1024);
+ASSERT_EQ(signature->get_VerticalResolution(), 768);
+ASSERT_EQ(signature->get_ColorDepth(), 24);
 ```
-
 ## See Also
 
 * Class [SignOptions](../)

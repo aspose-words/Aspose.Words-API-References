@@ -16,12 +16,11 @@ Loads predefined table substitution settings for Linux platform.
 void Aspose::Words::Fonts::TableSubstitutionRule::LoadLinuxSettings()
 ```
 
-
 ## Examples
 
 
+Shows how to access font substitution tables for Windows and Linux.
 
-Shows how to access font substitution tables for Windows and Linux. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
@@ -32,7 +31,8 @@ System::SharedPtr<Aspose::Words::Fonts::TableSubstitutionRule> tableSubstitution
 tableSubstitutionRule->LoadWindowsSettings();
 
 // In Windows, the default substitute for the "Times New Roman CE" font is "Times New Roman".
-ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"Times New Roman"}), tableSubstitutionRule->GetSubstitutes(u"Times New Roman CE")->LINQ_ToArray());
+ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Times New Roman CE")->LINQ_ToArray(), System::MakeArray<System::String>({
+    u"Times New Roman"}));
 
 // We can save the table in the form of an XML document.
 tableSubstitutionRule->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitutionRule.Windows.xml");
@@ -42,7 +42,8 @@ tableSubstitutionRule->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitutio
 // If the first substitute, "FreeSerif" is also unavailable,
 // this rule will cycle through the others in the array until it finds an available one.
 tableSubstitutionRule->LoadLinuxSettings();
-ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"FreeSerif", u"Liberation Serif", u"DejaVu Serif"}), tableSubstitutionRule->GetSubstitutes(u"Times New Roman CE")->LINQ_ToArray());
+ASPOSE_ASSERT_EQ(tableSubstitutionRule->GetSubstitutes(u"Times New Roman CE")->LINQ_ToArray(), System::MakeArray<System::String>({
+    u"FreeSerif", u"Liberation Serif", u"DejaVu Serif"}));
 
 // Save the Linux substitution table in the form of an XML document using a stream.
 {
@@ -50,7 +51,6 @@ ASPOSE_ASSERT_EQ(System::MakeArray<System::String>({u"FreeSerif", u"Liberation S
     tableSubstitutionRule->Save(fileStream);
 }
 ```
-
 ## See Also
 
 * Class [TableSubstitutionRule](../)

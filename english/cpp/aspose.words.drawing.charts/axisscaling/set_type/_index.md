@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::AxisScaling::set_Type method
 linktitle: set_Type
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::AxisScaling::set_Type method. Setter for Aspose::Words::Drawing::Charts::AxisScaling::get_Type in C++.'
+description: 'Aspose::Words::Drawing::Charts::AxisScaling::set_Type method. Sets scaling type of the axis in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.drawing.charts/axisscaling/set_type/
@@ -10,15 +10,47 @@ url: /cpp/aspose.words.drawing.charts/axisscaling/set_type/
 ## AxisScaling::set_Type method
 
 
-Setter for [Aspose::Words::Drawing::Charts::AxisScaling::get_Type](../get_type/).
+Sets scaling type of the axis.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::AxisScaling::set_Type(Aspose::Words::Drawing::Charts::AxisScaleType value)
 ```
 
+## Remarks
+
+ The [Linear](../../axisscaletype/) value is the only that is allowed in MS Office 2016 new charts. 
+## Examples
+
+
+Shows how to apply logarithmic scaling to a chart axis.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> chartShape = builder->InsertChart(ChartType::Scatter, static_cast<double>(450), static_cast<double>(300));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = chartShape->get_Chart();
+
+// Clear the chart's demo data series to start with a clean chart.
+chart->get_Series()->Clear();
+
+// Insert a series with X/Y coordinates for five points.
+chart->get_Series()->Add(u"Series 1", System::MakeArray<double>({1.0, 2.0, 3.0, 4.0, 5.0}), System::MakeArray<double>({
+    1.0, 20.0, 400.0, 8000.0, 160000.0}));
+
+// The scaling of the X-axis is linear by default,
+// displaying evenly incrementing values that cover our X-value range (0, 1, 2, 3...).
+// A linear axis is not ideal for our Y-values
+// since the points with the smaller Y-values will be harder to read.
+// A logarithmic scaling with a base of 20 (1, 20, 400, 8000...)
+// will spread the plotted points, allowing us to read their values on the chart more easily.
+chart->get_AxisY()->get_Scaling()->set_Type(AxisScaleType::Logarithmic);
+chart->get_AxisY()->get_Scaling()->set_LogBase(20);
+
+doc->Save(get_ArtifactsDir() + u"Charts.AxisScaling.docx");
+```
 ## See Also
 
-* Enum [AxisScaleType](../../axisscaletype/)
 * Class [AxisScaling](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,22 +13,21 @@ url: /cpp/aspose.words.loading/txttrailingspacesoptions/
 Specifies available options for trailing spaces handling during import from [Text](../../aspose.words/loadformat/) file.
 
 ```cpp
-enum class TxtTrailingSpacesOptions
+enum class TxtTrailingSpacesOptions : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Trim | 0 | Trailing spaces are trimmed. |
 | Preserve | 1 | Trailing spaces are preserved. |
-
+| Trim | 0 | Trailing spaces are trimmed. |
 
 ## Examples
 
 
+Shows how to trim whitespace when loading plaintext documents.
 
-Shows how to trim whitespace when loading plaintext documents. 
 ```cpp
 System::String textDoc = System::String(u"      Line 1 \n") + u"    Line 2   \n" + u" Line 3       ";
 
@@ -57,9 +56,9 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_Firs
 switch (txtLeadingSpacesOptions)
 {
     case TxtLeadingSpacesOptions::ConvertToIndent:
-        ASPOSE_ASSERT_EQ(37.8, paragraphs->idx_get(0)->get_ParagraphFormat()->get_FirstLineIndent());
-        ASPOSE_ASSERT_EQ(25.2, paragraphs->idx_get(1)->get_ParagraphFormat()->get_FirstLineIndent());
-        ASPOSE_ASSERT_EQ(6.3, paragraphs->idx_get(2)->get_ParagraphFormat()->get_FirstLineIndent());
+        ASPOSE_ASSERT_EQ(paragraphs->idx_get(0)->get_ParagraphFormat()->get_FirstLineIndent(), 37.8);
+        ASPOSE_ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_FirstLineIndent(), 25.2);
+        ASPOSE_ASSERT_EQ(paragraphs->idx_get(2)->get_ParagraphFormat()->get_FirstLineIndent(), 6.3);
         ASSERT_TRUE(paragraphs->idx_get(0)->GetText().StartsWith(u"Line 1"));
         ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"Line 2"));
         ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u"Line 3"));
@@ -98,7 +97,6 @@ switch (txtTrailingSpacesOptions)
         break;
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)

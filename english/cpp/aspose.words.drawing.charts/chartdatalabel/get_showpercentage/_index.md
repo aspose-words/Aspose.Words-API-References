@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showpercentage/
 Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is **false**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowPercentage()
+_Bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowPercentage()
 ```
 
 ## See Also

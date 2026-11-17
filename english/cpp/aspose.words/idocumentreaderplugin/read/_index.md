@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentreaderplugin/read/
 Reads the data from the specified stream into the [Document](../../document/) instance.
 
 ```cpp
-virtual void Aspose::Words::IDocumentReaderPlugin::Read(System::SharedPtr<System::IO::Stream> src, System::SharedPtr<Aspose::Words::Loading::LoadOptions> loadOptions, System::SharedPtr<Aspose::Words::Document> document)=0
+virtual void Aspose::Words::IDocumentReaderPlugin::Read(System::SharedPtr<System::IO::Stream> src, System::SharedPtr<Aspose::Words::Loading::LoadOptions> loadOptions, System::SharedPtr<Aspose::Words::Document> document)
 ```
 
 
@@ -22,11 +22,8 @@ virtual void Aspose::Words::IDocumentReaderPlugin::Read(System::SharedPtr<System
 | src | System::SharedPtr\<System::IO::Stream\> | The source stream to read the document from. |
 | loadOptions | System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> | An additional load options to load the document. |
 | document | System::SharedPtr\<Aspose::Words::Document\> | The instance of the [Document](../../document/) class to read the data to. If the instance contains some content, it will be overridden by the data from the source stream |
-
 ## See Also
 
-* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
-* Class [Document](../../document/)
 * Interface [IDocumentReaderPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

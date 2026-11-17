@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtc/set_text/
 Sets the text of the entry.
 
 ```cpp
-void Aspose::Words::Fields::FieldTC::set_Text(const System::String &value)
+void Aspose::Words::Fields::FieldTC::set_Text(const System::String & value)
 ```
 
 ## See Also

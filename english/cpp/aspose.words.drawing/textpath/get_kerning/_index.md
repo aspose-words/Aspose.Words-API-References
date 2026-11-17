@@ -13,13 +13,13 @@ url: /cpp/aspose.words.drawing/textpath/get_kerning/
 Determines whether kerning is turned on.
 
 ```cpp
-bool Aspose::Words::Drawing::TextPath::get_Kerning()
+_Bool Aspose::Words::Drawing::TextPath::get_Kerning()
 ```
 
 ## Remarks
 
 
-The default value is **false**. 
+The default value is **false**.
 ## See Also
 
 * Class [TextPath](../)

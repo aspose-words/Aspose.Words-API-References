@@ -13,22 +13,21 @@ url: /cpp/aspose.words.loading/blockimportmode/
 Specifies how properties of block-level elements are imported from HTML-based documents.
 
 ```cpp
-enum class BlockImportMode
+enum class BlockImportMode : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Merge | 0 | [Properties](../../aspose.words.properties/) of parent blocks are merged and stored on child elements (i.e. paragraphs or tables). |
-| Preserve | 1 | [Properties](../../aspose.words.properties/) of parent blocks are imported to a special logical structure and are stored separately from document nodes. |
-
+| Merge | 0 | Properties of parent blocks are merged and stored on child elements (i.e. paragraphs or tables). |
+| Preserve | 1 | Properties of parent blocks are imported to a special logical structure and are stored separately from document nodes. |
 
 ## Examples
 
 
+Shows how properties of block-level elements are imported from HTML-based documents.
 
-Shows how properties of block-level elements are imported from HTML-based documents. 
 ```cpp
 const System::String html = u"\r\n            <html>\r\n                <div style='border:dotted'>\r\n                    <div style='border:solid'>\r\n                        <p>paragraph 1</p>\r\n                        <p>paragraph 2</p>\r\n                    </div>\r\n                </div>\r\n            </html>";
 auto stream = System::MakeObject<System::IO::MemoryStream>(System::Text::Encoding::get_UTF8()->GetBytes(html));
@@ -40,7 +39,6 @@ loadOptions->set_BlockImportMode(blockImportMode);
 auto doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
 doc->Save(get_ArtifactsDir() + u"HtmlLoadOptions.BlockImport.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)

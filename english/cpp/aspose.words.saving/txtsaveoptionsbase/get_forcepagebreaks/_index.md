@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks method
 linktitle: get_ForcePageBreaks
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks method. Allows to specify whether the page breaks should be preserved during export. The default value is false in C++.'
+description: 'Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks method. Allows to specify whether the page breaks should be preserved during export.The default value is false in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_forcepagebreaks/
@@ -10,18 +10,22 @@ url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_forcepagebreaks/
 ## TxtSaveOptionsBase::get_ForcePageBreaks method
 
 
-Allows to specify whether the page breaks should be preserved during export. The default value is **false**.
+Allows to specify whether the page breaks should be preserved during export.
+
+The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks() const
+_Bool Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks() const
 ```
 
+## Remarks
 
+ The property affects only page breaks that are inserted explicitly into a document. It is not related to page breaks that MS Word automatically inserts at the end of each page. 
 ## Examples
 
 
+Shows how to specify whether to preserve page breaks when exporting a document to plaintext.
 
-Shows how to specify whether to preserve page breaks when exporting a document to plaintext. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -48,9 +52,8 @@ doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt", saveOptions);
 // the "Document" object will use them to split the body into pages.
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"TxtSaveOptions.PageBreaks.txt"));
 
-ASSERT_EQ(forcePageBreaks ? 3 : 1, doc->get_PageCount());
+ASSERT_EQ(doc->get_PageCount(), forcePageBreaks ? 3 : 1);
 ```
-
 ## See Also
 
 * Class [TxtSaveOptionsBase](../)

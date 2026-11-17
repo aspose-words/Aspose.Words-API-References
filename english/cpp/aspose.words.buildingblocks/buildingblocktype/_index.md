@@ -13,28 +13,27 @@ url: /cpp/aspose.words.buildingblocks/buildingblocktype/
 Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word.
 
 ```cpp
-enum class BuildingBlockType
+enum class BuildingBlockType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No type information is specified for the building block. |
-| AutomaticallyReplaceNameWithContent | 1 | Allows the building block to be automatically inserted into the document whenever its name is entered into an application. |
-| StructuredDocumentTagPlaceholderText | 2 | The building block is a structured document tag placeholder text. |
-| FormFieldHelpText | 3 | The building block is a form field help text. |
-| Normal | 4 | The building block is a normal (i.e. regular) glossary document entry. |
+| All | 7 | The building block is associated with all types. |
 | AutoCorrect | 5 | The building block is associated with the spelling and grammar tools. |
 | AutoText | 6 | The building block is an AutoText entry. |
-| All | 7 | The building block is associated with all types. |
+| AutomaticallyReplaceNameWithContent | 1 | Allows the building block to be automatically inserted into the document whenever its name is entered into an application. |
 | Default | 0 | Save as [None](./). |
+| FormFieldHelpText | 3 | The building block is a form field help text. |
+| None | 0 | No type information is specified for the building block. |
+| Normal | 4 | The building block is a normal (i.e. regular) glossary document entry. |
+| StructuredDocumentTagPlaceholderText | 2 | The building block is a structured document tag placeholder text. |
 
 ## Remarks
 
 
-Corresponds to the **ST_DocPartType** type in OOXML.
-
+Corresponds to the ST_DocPartType type in OOXML.
 ## See Also
 
 * Namespace [Aspose::Words::BuildingBlocks](../)

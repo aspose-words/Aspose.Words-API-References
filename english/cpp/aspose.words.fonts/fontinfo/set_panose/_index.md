@@ -2,7 +2,7 @@
 title: Aspose::Words::Fonts::FontInfo::set_Panose method
 linktitle: set_Panose
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fonts::FontInfo::set_Panose method. Setter for Aspose::Words::Fonts::FontInfo::get_Panose in C++.'
+description: 'Aspose::Words::Fonts::FontInfo::set_Panose method. Sets the PANOSE typeface classification number in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words.fonts/fontinfo/set_panose/
@@ -10,12 +10,54 @@ url: /cpp/aspose.words.fonts/fontinfo/set_panose/
 ## FontInfo::set_Panose method
 
 
-Setter for [Aspose::Words::Fonts::FontInfo::get_Panose](../get_panose/).
+Sets the PANOSE typeface classification number.
 
 ```cpp
-void Aspose::Words::Fonts::FontInfo::set_Panose(const System::ArrayPtr<uint8_t> &value)
+void Aspose::Words::Fonts::FontInfo::set_Panose(const System::ArrayPtr<uint8_t> & value)
 ```
 
+## Remarks
+
+
+PANOSE is a compact 10-byte description of a fonts critical visual characteristics, such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style, Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
+
+Can be **null**.
+## Examples
+
+
+Shows how to access and print details of each font in a document.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
+
+System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Fonts::FontInfo>>> fontCollectionEnumerator = doc->get_FontInfos()->GetEnumerator();
+while (fontCollectionEnumerator->MoveNext())
+{
+    System::SharedPtr<Aspose::Words::Fonts::FontInfo> fontInfo = fontCollectionEnumerator->get_Current();
+    if (fontInfo != nullptr)
+    {
+        std::cout << (System::String(u"Font name: ") + fontInfo->get_Name()) << std::endl;
+
+        // Alt names are usually blank.
+        std::cout << (System::String(u"Alt name: ") + fontInfo->get_AltName()) << std::endl;
+        std::cout << (System::String(u"\t- Family: ") + System::ObjectExt::ToString(fontInfo->get_Family())) << std::endl;
+        std::cout << (System::String(u"\t- ") + (fontInfo->get_IsTrueType() ? System::String(u"Is TrueType") : System::String(u"Is not TrueType"))) << std::endl;
+        std::cout << (System::String(u"\t- Pitch: ") + System::ObjectExt::ToString(fontInfo->get_Pitch())) << std::endl;
+        std::cout << (System::String(u"\t- Charset: ") + fontInfo->get_Charset()) << std::endl;
+        std::cout << "\t- Panose:" << std::endl;
+        std::cout << (System::String(u"\t\tFamily Kind: ") + fontInfo->get_Panose()[0]) << std::endl;
+        std::cout << (System::String(u"\t\tSerif Style: ") + fontInfo->get_Panose()[1]) << std::endl;
+        std::cout << (System::String(u"\t\tWeight: ") + fontInfo->get_Panose()[2]) << std::endl;
+        std::cout << (System::String(u"\t\tProportion: ") + fontInfo->get_Panose()[3]) << std::endl;
+        std::cout << (System::String(u"\t\tContrast: ") + fontInfo->get_Panose()[4]) << std::endl;
+        std::cout << (System::String(u"\t\tStroke Variation: ") + fontInfo->get_Panose()[5]) << std::endl;
+        std::cout << (System::String(u"\t\tArm Style: ") + fontInfo->get_Panose()[6]) << std::endl;
+        std::cout << (System::String(u"\t\tLetterform: ") + fontInfo->get_Panose()[7]) << std::endl;
+        std::cout << (System::String(u"\t\tMidline: ") + fontInfo->get_Panose()[8]) << std::endl;
+        std::cout << (System::String(u"\t\tX-Height: ") + fontInfo->get_Panose()[9]) << std::endl;
+    }
+}
+```
 ## See Also
 
 * Class [FontInfo](../)

@@ -16,12 +16,11 @@ Gets or sets the location of the picture using an IRI.
 System::String Aspose::Words::Fields::FieldIncludePicture::get_SourceFullName() override
 ```
 
-
 ## Examples
 
 
+Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 
-Shows how to insert images using IMPORT and INCLUDEPICTURE fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,6 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldImport->GetField
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
-
 ## See Also
 
 * Class [FieldIncludePicture](../)

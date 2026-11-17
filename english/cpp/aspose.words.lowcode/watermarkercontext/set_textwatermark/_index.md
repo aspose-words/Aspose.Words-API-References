@@ -13,9 +13,12 @@ url: /cpp/aspose.words.lowcode/watermarkercontext/set_textwatermark/
 Text to be used as a watermark.
 
 ```cpp
-void Aspose::Words::LowCode::WatermarkerContext::set_TextWatermark(const System::String &value)
+void Aspose::Words::LowCode::WatermarkerContext::set_TextWatermark(const System::String & value)
 ```
 
+## Remarks
+
+ If both [ImageWatermark](../get_imagewatermark/) and [TextWatermark](../get_textwatermark/) are specified, text watermark overrides image watermark. 
 ## See Also
 
 * Class [WatermarkerContext](../)

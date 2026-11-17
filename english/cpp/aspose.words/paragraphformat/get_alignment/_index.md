@@ -16,12 +16,11 @@ Gets or sets text alignment for the paragraph.
 Aspose::Words::ParagraphAlignment Aspose::Words::ParagraphFormat::get_Alignment()
 ```
 
-
 ## Examples
 
 
+Shows how to insert a paragraph into the document.
 
-Shows how to insert a paragraph into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,8 +46,8 @@ builder->Writeln(u"Hello world!");
 ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
 
+Shows how to construct an Aspose.Words document by hand.
 
-Shows how to construct an Aspose.Words document by hand. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -87,14 +86,12 @@ run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
 para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello World!");
 
 doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
-
 ## See Also
 
-* Enum [ParagraphAlignment](../../paragraphalignment/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

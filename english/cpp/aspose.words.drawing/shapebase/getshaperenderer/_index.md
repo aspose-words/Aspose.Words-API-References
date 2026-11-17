@@ -24,17 +24,16 @@ The renderer object for this shape.
 
 
 This method just invokes the [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/) constructor and passes this object as a parameter.
-
 ## Examples
 
 
+Shows how to use a shape renderer to export shapes to files in the local file system.
 
-Shows how to use a shape renderer to export shapes to files in the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
-ASSERT_EQ(7, shapes->get_Length());
+ASSERT_EQ(shapes->get_Length(), 7);
 
 // There are 7 shapes in the document, including one group shape with 2 child shapes.
 // We will render every shape to an image file in the local file system
@@ -47,10 +46,8 @@ for (auto&& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape, true
     renderer->Save(get_ArtifactsDir() + System::String::Format(u"Shape.RenderAllShapes.{0}.png", shape->get_Name()), options);
 }
 ```
-
 ## See Also
 
-* Class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

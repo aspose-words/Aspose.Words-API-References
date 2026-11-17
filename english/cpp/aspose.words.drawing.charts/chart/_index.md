@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::Chart class
 linktitle: Chart
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::Chart class. Provides access to the chart shape properties. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Drawing::Charts::Chart class. Provides access to the chart shape properties. To learn more, visit the Working with Charts documentation article in C++.'
 type: docs
 weight: 4000
 url: /cpp/aspose.words.drawing.charts/chart/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.drawing.charts/chart/
 ## Chart class
 
 
-Provides access to the chart shape properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
+Provides access to the chart shape properties. 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article.
 
 ```cpp
 class Chart : public Core::IChartFormatSource
@@ -27,22 +28,19 @@ class Chart : public Core::IChartFormatSource
 | [get_DataTable](./get_datatable/)() | Provides access to properties of a data table of this chart. The data table can be shown using the [Show](../chartdatatable/get_show/) property. |
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of the chart. |
 | [get_Legend](./get_legend/)() | Provides access to the chart legend properties. |
+| [get_PlotArea](./get_plotarea/)() | Provides access to the plot area properties. |
 | [get_Series](./get_series/)() | Provides access to series collection. |
 | [get_SeriesGroups](./get_seriesgroups/)() | Provides access to a series group collection of this chart. |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [get_Style](./get_style/)() | Gets the style of the chart. |
 | [get_Title](./get_title/)() | Provides access to the chart title properties. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_SourceFullName](./set_sourcefullname/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::Chart::get_SourceFullName](./get_sourcefullname/). |
+| [set_SourceFullName](./set_sourcefullname/)(const System::String \&) | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [set_Style](./set_style/)(Aspose::Words::Drawing::Charts::ChartStyle) | Sets the style of the chart. |
-| static [Type](./type/)() |  |
-
 ## Examples
 
 
+Shows how to insert a chart and set a title.
 
-Shows how to insert a chart and set a title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -65,7 +63,6 @@ title->set_Overlay(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartTitle.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)

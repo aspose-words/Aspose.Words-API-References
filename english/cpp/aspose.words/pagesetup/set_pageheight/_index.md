@@ -2,7 +2,7 @@
 title: Aspose::Words::PageSetup::set_PageHeight method
 linktitle: set_PageHeight
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::PageSetup::set_PageHeight method. Setter for Aspose::Words::PageSetup::get_PageHeight in C++.'
+description: 'Aspose::Words::PageSetup::set_PageHeight method. Sets the height of the page in points in C++.'
 type: docs
 weight: 77000
 url: /cpp/aspose.words/pagesetup/set_pageheight/
@@ -10,12 +10,35 @@ url: /cpp/aspose.words/pagesetup/set_pageheight/
 ## PageSetup::set_PageHeight method
 
 
-Setter for [Aspose::Words::PageSetup::get_PageHeight](../get_pageheight/).
+Sets the height of the page in points.
 
 ```cpp
 void Aspose::Words::PageSetup::set_PageHeight(double value)
 ```
 
+## Examples
+
+
+Shows how to insert an image, and use it as a watermark.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert the image into the header so that it will be visible on every page.
+builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
+shape->set_WrapType(WrapType::None);
+shape->set_BehindText(true);
+
+// Place the image at the center of the page.
+shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
+shape->set_Left((builder->get_PageSetup()->get_PageWidth() - shape->get_Width()) / 2);
+shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()) / 2);
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
+```
 ## See Also
 
 * Class [PageSetup](../)

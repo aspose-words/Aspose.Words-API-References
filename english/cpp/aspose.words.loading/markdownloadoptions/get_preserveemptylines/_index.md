@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::MarkdownLoadOptions::get_PreserveEmptyLines method
 linktitle: get_PreserveEmptyLines
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::MarkdownLoadOptions::get_PreserveEmptyLines method. Gets or sets a boolean value indicating whether to preserve empty lines while load a Markdown document. The default value is false. Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines in C++.'
+description: 'Aspose::Words::Loading::MarkdownLoadOptions::get_PreserveEmptyLines method. Gets or sets a boolean value indicating whether to preserve empty lines while load a Markdown document. The default value is false.  Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines in C++.'
 type: docs
 weight: 4000
 url: /cpp/aspose.words.loading/markdownloadoptions/get_preserveemptylines/
@@ -10,18 +10,18 @@ url: /cpp/aspose.words.loading/markdownloadoptions/get_preserveemptylines/
 ## MarkdownLoadOptions::get_PreserveEmptyLines method
 
 
-Gets or sets a boolean value indicating whether to preserve empty lines while load a [Markdown](../../../aspose.words/loadformat/) document. The default value is **false**. Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines.
+Gets or sets a boolean value indicating whether to preserve empty lines while load a [Markdown](../../../aspose.words/loadformat/) document. The default value is **false**. 
+ Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines.
 
 ```cpp
-bool Aspose::Words::Loading::MarkdownLoadOptions::get_PreserveEmptyLines() const
+_Bool Aspose::Words::Loading::MarkdownLoadOptions::get_PreserveEmptyLines() const
 ```
-
 
 ## Examples
 
 
+Shows how to preserve empty line while load a document.
 
-Shows how to preserve empty line while load a document. 
 ```cpp
 System::String mdText = System::String::Format(u"{0}Line1{1}{2}Line2{3}{4}", System::Environment::get_NewLine(), System::Environment::get_NewLine(), System::Environment::get_NewLine(), System::Environment::get_NewLine(), System::Environment::get_NewLine());
 {
@@ -30,10 +30,9 @@ System::String mdText = System::String::Format(u"{0}Line1{1}{2}Line2{3}{4}", Sys
     loadOptions->set_PreserveEmptyLines(true);
     auto doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
 
-    ASSERT_EQ(u"\rLine1\r\rLine2\r\f", doc->GetText());
+    ASSERT_EQ(doc->GetText(), u"\rLine1\r\rLine2\r\f");
 }
 ```
-
 ## See Also
 
 * Class [MarkdownLoadOptions](../)

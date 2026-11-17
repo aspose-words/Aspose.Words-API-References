@@ -19,6 +19,5 @@ System::SharedPtr<Aspose::Words::Settings::OdsoRecipientData> Aspose::Words::Set
 ## See Also
 
 * Class [OdsoRecipientData](../)
-* Class [OdsoRecipientData](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

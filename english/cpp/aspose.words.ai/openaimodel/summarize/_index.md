@@ -10,10 +10,10 @@ url: /cpp/aspose.words.ai/openaimodel/summarize/
 ## OpenAiModel::Summarize(System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Document\>\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) method
 
 
-Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected [AI](../../) model for processing each document in the array.
+Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected AI model for processing each document in the array.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Summarize(System::ArrayPtr<System::SharedPtr<Aspose::Words::Document>> sourceDocuments, System::SharedPtr<Aspose::Words::AI::SummarizeOptions> options=nullptr) override
+System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Summarize(System::ArrayPtr<System::SharedPtr<Aspose::Words::Document>> sourceDocuments, System::SharedPtr<Aspose::Words::AI::SummarizeOptions> options = nullptr) override
 ```
 
 
@@ -25,21 +25,18 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Summa
 ### ReturnValue
 
 A summarized version of the document's content.
-
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
-* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [OpenAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)
 ## OpenAiModel::Summarize(System::SharedPtr\<Aspose::Words::Document\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) method
 
 
-Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected [AI](../../) model for content processing.
+Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected AI model for content processing.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Summarize(System::SharedPtr<Aspose::Words::Document> sourceDocument, System::SharedPtr<Aspose::Words::AI::SummarizeOptions> options=nullptr) override
+System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Summarize(System::SharedPtr<Aspose::Words::Document> sourceDocument, System::SharedPtr<Aspose::Words::AI::SummarizeOptions> options = nullptr) override
 ```
 
 
@@ -51,11 +48,8 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Summa
 ### ReturnValue
 
 A summarized version of the document's content.
-
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
-* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [OpenAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

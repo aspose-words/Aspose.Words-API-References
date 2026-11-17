@@ -16,6 +16,9 @@ The number of milliseconds to wait before the web request times out. The default
 void Aspose::Words::Loading::HtmlLoadOptions::set_WebRequestTimeout(int32_t value)
 ```
 
+## Remarks
+
+ The number of milliseconds that Aspose.Words waits for a response, when loading external resources (images, style sheets) linked in HTML and MHTML documents. 
 ## See Also
 
 * Class [HtmlLoadOptions](../)

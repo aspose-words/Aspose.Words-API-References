@@ -28,18 +28,17 @@ The string names of the properties correspond to the names of the typed properti
 If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../../documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, **false** or DateTime.MinValue depending on the type of the built-in property).
 
 If you request a property that is not present in the document and the name is not recognized as a built-in name, a **null** is returned.
-
 ## Examples
 
 
+Shows how to work with custom document properties.
 
-Shows how to work with custom document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
 
 // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
 // The document has a fixed list of built-in properties. The user creates all of the custom properties.
-ASSERT_EQ(u"Value of custom document property", System::ObjectExt::ToString(doc->get_CustomDocumentProperties()->idx_get(u"CustomProperty")));
+ASSERT_EQ(System::ObjectExt::ToString(doc->get_CustomDocumentProperties()->idx_get(u"CustomProperty")), u"Value of custom document property");
 
 doc->get_CustomDocumentProperties()->Add(u"CustomProperty2", System::String(u"Value of custom document property #2"));
 
@@ -51,10 +50,8 @@ for (auto&& customDocumentProperty : System::IterateOver(doc->get_CustomDocument
     std::cout << System::String::Format(u"\tValue:\t\"{0}\"", customDocumentProperty->get_Value()) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [DocumentProperty](../../documentproperty/)
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

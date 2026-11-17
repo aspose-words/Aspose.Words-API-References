@@ -22,12 +22,11 @@ void Aspose::Words::Tables::Table::SetShading(Aspose::Words::TextureIndex textur
 | texture | Aspose::Words::TextureIndex | The texture to apply. |
 | foregroundColor | System::Drawing::Color | The color of the texture. |
 | backgroundColor | System::Drawing::Color | The color of the background fill. |
-
 ## Examples
 
 
+Shows how to apply an outline border to a table.
 
-Shows how to apply an outline border to a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -50,10 +49,8 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 
 doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
-
 ## See Also
 
-* Enum [TextureIndex](../../../aspose.words/textureindex/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

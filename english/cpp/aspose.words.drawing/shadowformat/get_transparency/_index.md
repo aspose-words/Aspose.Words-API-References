@@ -16,12 +16,11 @@ Gets or sets the degree of transparency for the shadow effect as a value between
 double Aspose::Words::Drawing::ShadowFormat::get_Transparency()
 ```
 
-
 ## Examples
 
 
+Shows how to set a color with transparency.
 
-Shows how to set a color with transparency. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shadow color.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -33,7 +32,6 @@ shadowFormat->set_Transparency(0.8);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ShadowFormatTransparency.docx");
 ```
-
 ## See Also
 
 * Class [ShadowFormat](../)

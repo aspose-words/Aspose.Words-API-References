@@ -16,12 +16,11 @@ Returns an enumerator object that can be used to iterate over all items in the c
 System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Fonts::FontInfo>>> Aspose::Words::Fonts::FontInfoCollection::GetEnumerator() override
 ```
 
-
 ## Examples
 
 
+Shows how to access and print details of each font in a document.
 
-Shows how to access and print details of each font in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -53,10 +52,8 @@ while (fontCollectionEnumerator->MoveNext())
     }
 }
 ```
-
 ## See Also
 
-* Class [FontInfo](../../fontinfo/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

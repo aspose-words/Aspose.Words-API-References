@@ -13,15 +13,17 @@ url: /cpp/aspose.words.comparing/advancedcompareoptions/get_ignoredmluniqueid/
 Specifies whether to ignore difference in DrawingML unique Id.
 
 ```cpp
-bool Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreDmlUniqueId() const
+_Bool Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreDmlUniqueId() const
 ```
 
+## Remarks
 
+ Default value is **false**. 
 ## Examples
 
 
+Shows how to compare documents ignoring DML unique ID.
 
-Shows how to compare documents ignoring DML unique ID. 
 ```cpp
 auto docA = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DML unique ID original.docx"));
 auto docB = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DML unique ID compare.docx"));
@@ -33,9 +35,8 @@ compareOptions->get_AdvancedOptions()->set_IgnoreDmlUniqueId(isIgnoreDmlUniqueId
 
 docA->Compare(docB, u"Aspose.Words", System::DateTime::get_Now(), compareOptions);
 
-ASSERT_EQ(isIgnoreDmlUniqueId ? 0 : 2, docA->get_Revisions()->get_Count());
+ASSERT_EQ(docA->get_Revisions()->get_Count(), isIgnoreDmlUniqueId ? 0 : 2);
 ```
-
 ## See Also
 
 * Class [AdvancedCompareOptions](../)

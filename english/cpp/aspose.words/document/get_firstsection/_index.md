@@ -4,7 +4,7 @@ linktitle: get_FirstSection
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_FirstSection method. Gets the first section in the document in C++.'
 type: docs
-weight: 24000
+weight: 114000
 url: /cpp/aspose.words/document/get_firstsection/
 ---
 ## Document::get_FirstSection method
@@ -16,12 +16,14 @@ Gets the first section in the document.
 System::SharedPtr<Aspose::Words::Section> Aspose::Words::Document::get_FirstSection()
 ```
 
+## Remarks
 
+ Returns **null** if there are no sections. 
 ## Examples
 
 
+Shows how to replace text in a document's footer.
 
-Shows how to replace text in a document's footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Footer.docx"));
 
@@ -38,14 +40,14 @@ footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", System::String::Format
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.ReplaceText.docx");
 ```
 
+Shows how to create a new section with a document builder.
 
-Shows how to create a new section with a document builder. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // A blank document contains one section by default,
 // which contains child nodes that we can edit.
-ASSERT_EQ(1, doc->get_Sections()->get_Count());
+ASSERT_EQ(doc->get_Sections()->get_Count(), 1);
 
 // Use a document builder to add text to the first section.
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,7 +56,7 @@ builder->Writeln(u"Hello world!");
 // Create a second section by inserting a section break.
 builder->InsertBreak(BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(2, doc->get_Sections()->get_Count());
+ASSERT_EQ(doc->get_Sections()->get_Count(), 2);
 
 // Each section has its own page setup settings.
 // We can split the text in the second section into two columns.
@@ -64,14 +66,14 @@ builder->Writeln(u"Column 1.");
 builder->InsertBreak(BreakType::ColumnBreak);
 builder->Writeln(u"Column 2.");
 
-ASSERT_EQ(1, doc->get_FirstSection()->get_PageSetup()->get_TextColumns()->get_Count());
-ASSERT_EQ(2, doc->get_LastSection()->get_PageSetup()->get_TextColumns()->get_Count());
+ASSERT_EQ(doc->get_FirstSection()->get_PageSetup()->get_TextColumns()->get_Count(), 1);
+ASSERT_EQ(doc->get_LastSection()->get_PageSetup()->get_TextColumns()->get_Count(), 2);
 
 doc->Save(get_ArtifactsDir() + u"Section.Create.docx");
 ```
 
+Shows how to iterate through the children of a composite node.
 
-Shows how to iterate through the children of a composite node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -113,10 +115,8 @@ for (auto&& node : System::IterateOver(section))
     }
 }
 ```
-
 ## See Also
 
-* Class [Section](../../section/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

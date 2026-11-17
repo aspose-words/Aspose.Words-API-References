@@ -16,12 +16,11 @@ Gets or sets fonts vertical position on a line.
 Aspose::Words::BaselineAlignment Aspose::Words::ParagraphFormat::get_BaselineAlignment()
 ```
 
-
 ## Examples
 
 
+Shows how to set fonts vertical position on a line.
 
-Shows how to set fonts vertical position on a line. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
 
@@ -33,10 +32,8 @@ if (format->get_BaselineAlignment() == BaselineAlignment::Auto)
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphBaselineAlignment.docx");
 ```
-
 ## See Also
 
-* Enum [BaselineAlignment](../../baselinealignment/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
