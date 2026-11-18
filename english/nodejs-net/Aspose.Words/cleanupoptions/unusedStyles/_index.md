@@ -5,7 +5,7 @@ articleTitle: unusedStyles property
 second_title: Aspose.Words for Node.js
 description: "CleanupOptions.unusedStyles property. Specifies whether unused styles should be removed from document"
 type: docs
-weight: 50
+weight: 60
 url: /nodejs-net/aspose.words/cleanupoptions/unusedStyles/
 ---
 

@@ -45,9 +45,27 @@ Indicates the format of the document that is to be loaded.
 | Markdown | Markdown text document. |
 | Pdf | Pdf document. |
 | Xml | XML document. |
+| Hwp | Hancom Hangul (HWP 5.0) binary document. Load only. |
+| WordPerfect | WordPerfect 6.x or later document. |
 | Unknown | Unrecognized format, cannot be loaded by Aspose.Words. |
 
 ### Examples
+
+Shows how save a web page as a .docx file.
+
+```js
+const url = "https://products.aspose.com/words/";
+const response = await fetch(url);
+const blob = await response.blob();
+const arrayBuffer = await blob.arrayBuffer();
+const dataBytes = Buffer.from(arrayBuffer);    
+
+let doc = new aw.Document(dataBytes);
+
+// At this stage, we can read and edit the document's contents and then save it to the local file system.
+
+doc.save(base.artifactsDir + "Document.LoadFromWeb.docx");
+```
 
 Shows how to use the FileFormatUtil methods to detect the format of a document.
 
@@ -67,22 +85,6 @@ saveFormat = aw.FileFormatUtil.loadFormatToSaveFormat(loadFormat);
 let doc = new aw.Document(docStream);
 expect(aw.FileFormatUtil.saveFormatToExtension(saveFormat)).toEqual(".doc");
 doc.save(base.artifactsDir + "File.SaveToDetectedFileFormat" + aw.FileFormatUtil.saveFormatToExtension(saveFormat));
-```
-
-Shows how save a web page as a .docx file.
-
-```js
-const url = "https://products.aspose.com/words/";
-const response = await fetch(url);
-const blob = await response.blob();
-const arrayBuffer = await blob.arrayBuffer();
-const dataBytes = Buffer.from(arrayBuffer);    
-
-let doc = new aw.Document(dataBytes);
-
-// At this stage, we can read and edit the document's contents and then save it to the local file system.
-
-doc.save(base.artifactsDir + "Document.LoadFromWeb.docx");
 ```
 
 ### See Also

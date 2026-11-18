@@ -22,6 +22,7 @@ Specifies a digital hash algorithm used by a digital signature.
 | Sha384 | SHA-384 hash algorithm. |
 | Sha512 | SHA-512 hash algorithm. |
 | RipeMD160 | RIPEMD-160 hash algorithm. |
+| Auto | Automatically selects an appropriate hash algorithm based on the provided private key. |
 
 ### Examples
 
