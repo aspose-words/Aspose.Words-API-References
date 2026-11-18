@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignorefields/
 Specifies whether to compare differences in fields.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFields() const
+bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFields() const
 ```
 
 ## Remarks

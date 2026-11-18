@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldCitation::set_SuppressAuthor(bool value)
 
 ## See Also
 
+* [get_SuppressAuthor](../get_suppressauthor/)
+
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

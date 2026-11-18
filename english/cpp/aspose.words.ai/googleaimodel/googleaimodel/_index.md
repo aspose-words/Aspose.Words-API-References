@@ -52,7 +52,7 @@ Aspose::Words::AI::GoogleAiModel::GoogleAiModel(const System::String & name, con
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | const System::String \& | The name of the model. For example, gemini-2.5-flash. |
-| apiKey | const System::String \& | The API key to use the Gemini API. Please refer to https://ai.google.dev/gemini-api/docs/api-key for details. |
+| apiKey | const System::String \& | The API key to use the Gemini API. Please refer to [https://ai.google.dev/gemini-api/docs/api-key](https://ai.google.dev/gemini-api/docs/api-key) for details. |
 ## Examples
 
 

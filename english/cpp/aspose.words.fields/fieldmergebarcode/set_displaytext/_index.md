@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeBarcode::set_DisplayText(bool value)
 
 ## See Also
 
+* [get_DisplayText](../get_displaytext/)
+
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

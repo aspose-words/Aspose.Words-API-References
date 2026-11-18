@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_scaleimagetoshapesize/
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ScaleImageToShapeSize()
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ScaleImageToShapeSize()
 ```
 
 ## Remarks

@@ -35,6 +35,8 @@ System::String mdText = System::String::Format(u"{0}Line1{1}{2}Line2{3}{4}", Sys
 ```
 ## See Also
 
+* [get_PreserveEmptyLines](../get_preserveemptylines/)
+
 * Class [MarkdownLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

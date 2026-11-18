@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_ViewMergedData(bool value)
 
 ## See Also
 
+* [get_ViewMergedData](../get_viewmergeddata/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

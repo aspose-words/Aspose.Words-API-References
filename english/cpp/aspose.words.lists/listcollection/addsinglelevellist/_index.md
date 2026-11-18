@@ -49,6 +49,8 @@ doc->Save(get_ArtifactsDir() + u"Lists.AddSingleLevelList.docx");
 ```
 ## See Also
 
+* Class [List](../../list/)
+* Enum [ListTemplate](../../listtemplate/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

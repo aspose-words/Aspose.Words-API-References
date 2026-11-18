@@ -2,7 +2,7 @@
 title: Aspose::Words::Body class
 linktitle: Body
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Body class. Represents a container for the main text of a section. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::Body class. Represents a container for the main text of a section. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words/body/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/body/
 
 
 Represents a container for the main text of a section. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class Body : public Story

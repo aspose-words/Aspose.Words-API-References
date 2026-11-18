@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> Aspose::Word
 
 ## See Also
 
+* Interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

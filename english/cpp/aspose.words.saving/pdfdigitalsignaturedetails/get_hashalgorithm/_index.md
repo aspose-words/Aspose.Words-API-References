@@ -21,6 +21,7 @@ Aspose::Words::Saving::PdfDigitalSignatureHashAlgorithm Aspose::Words::Saving::P
 The default value is the SHA-256 algorithm.
 ## See Also
 
+* Enum [PdfDigitalSignatureHashAlgorithm](../../pdfdigitalsignaturehashalgorithm/)
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

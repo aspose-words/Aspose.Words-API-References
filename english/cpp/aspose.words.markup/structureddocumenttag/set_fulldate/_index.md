@@ -58,6 +58,8 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
 ## See Also
 
+* [get_FullDate](../get_fulldate/)
+
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

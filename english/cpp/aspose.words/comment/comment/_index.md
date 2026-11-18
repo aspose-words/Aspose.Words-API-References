@@ -30,6 +30,7 @@ To append [Comment](../) to the document use [InsertAfter()](../../compositenode
 After creating a comment, don't forget to set its [Author](../get_author/), [Initial](../get_initial/) and [DateTime](../get_datetime/) properties.
 ## See Also
 
+* Class [DocumentBase](../../documentbase/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -71,6 +72,7 @@ doc->Save(get_ArtifactsDir() + u"InlineStory.AddComment.docx");
 ```
 ## See Also
 
+* Class [DocumentBase](../../documentbase/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

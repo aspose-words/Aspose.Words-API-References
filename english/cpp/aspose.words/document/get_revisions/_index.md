@@ -102,6 +102,7 @@ ASSERT_EQ(doc->GetText().Trim(), u"This is revision #1. \rThis is revision #2.")
 ```
 ## See Also
 
+* Class [RevisionCollection](../../revisioncollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

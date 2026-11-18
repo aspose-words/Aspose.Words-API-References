@@ -24,6 +24,8 @@ This is a shortcut to the [Weight](../../stroke/get_weight/) property.
 The default value is 0.75.
 ## See Also
 
+* [get_StrokeWeight](../get_strokeweight/)
+
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

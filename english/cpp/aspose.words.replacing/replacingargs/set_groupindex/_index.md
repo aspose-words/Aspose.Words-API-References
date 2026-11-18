@@ -24,6 +24,8 @@ void Aspose::Words::Replacing::ReplacingArgs::set_GroupIndex(int32_t value)
 Default is zero.
 ## See Also
 
+* [get_GroupIndex](../get_groupindex/)
+
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

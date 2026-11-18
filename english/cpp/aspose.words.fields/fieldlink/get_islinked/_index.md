@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldlink/get_islinked/
 Gets whether to reduce the file size by not storing graphics data with the document.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldLink::get_IsLinked()
+bool Aspose::Words::Fields::FieldLink::get_IsLinked()
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/get_hideinweblayout/
 Gets whether to hide tab leader and page numbers in Web layout view.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldToc::get_HideInWebLayout()
+bool Aspose::Words::Fields::FieldToc::get_HideInWebLayout()
 ```
 
 ## See Also

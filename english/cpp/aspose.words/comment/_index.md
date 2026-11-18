@@ -113,6 +113,7 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 [Comment](./) is an inline-level node and can only be a child of [Paragraph](../paragraph/).
 
 [Comment](./) can contain [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/) child nodes.
+[CommentRangeStart](../commentrangestart/)[CommentRangeEnd](../commentrangeend/)
 ## Examples
 
 

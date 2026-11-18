@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_FitPath(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_FitPath](../get_fitpath/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

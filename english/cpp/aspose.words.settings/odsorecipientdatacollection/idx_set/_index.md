@@ -18,6 +18,7 @@ void Aspose::Words::Settings::OdsoRecipientDataCollection::idx_set(int32_t index
 
 ## See Also
 
+* Class [OdsoRecipientData](../../odsorecipientdata/)
 * Class [OdsoRecipientDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

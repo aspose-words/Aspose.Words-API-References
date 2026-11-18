@@ -37,6 +37,7 @@ for (auto&& signature : doc->get_DigitalSignatures())
 ```
 ## See Also
 
+* Enum [DigitalSignatureType](../../digitalsignaturetype/)
 * Class [DigitalSignature](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

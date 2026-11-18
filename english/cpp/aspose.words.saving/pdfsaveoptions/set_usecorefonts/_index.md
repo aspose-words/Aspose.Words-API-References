@@ -32,6 +32,8 @@ Core fonts are not supported when saving to PDF 2.0 format. **false** value will
 This option has a higher priority then [FontEmbeddingMode](../get_fontembeddingmode/) option.
 ## See Also
 
+* [get_UseCoreFonts](../get_usecorefonts/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

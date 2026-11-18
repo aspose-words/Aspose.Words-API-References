@@ -21,6 +21,8 @@ void Aspose::Words::Drawing::Fill::set_ForeColor(System::Drawing::Color value)
  This property resets the alpha component of the Color to fully opaque color unlike the [Color](../get_color/) property, which preserves it. 
 ## See Also
 
+* [get_ForeColor](../get_forecolor/)
+
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

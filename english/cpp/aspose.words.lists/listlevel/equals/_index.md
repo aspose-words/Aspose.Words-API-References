@@ -10,10 +10,10 @@ url: /cpp/aspose.words.lists/listlevel/equals/
 ## ListLevel::Equals method
 
 
-Compares with the specified ListLevel.
+Compares with the specified [ListLevel](../).
 
 ```cpp
-_Bool Aspose::Words::Lists::ListLevel::Equals(const System::SharedPtr<Aspose::Words::Lists::ListLevel> & level)
+bool Aspose::Words::Lists::ListLevel::Equals(const System::SharedPtr<Aspose::Words::Lists::ListLevel> & level)
 ```
 
 ## See Also

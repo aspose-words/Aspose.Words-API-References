@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldrd/get_ispathrelative/
 Gets or sets whether the path is relative to the current document.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldRD::get_IsPathRelative()
+bool Aspose::Words::Fields::FieldRD::get_IsPathRelative()
 ```
 
 ## Examples

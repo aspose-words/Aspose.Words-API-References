@@ -34,7 +34,7 @@ class DigitalSignatureTimestampSettings : public System::Object
 ## Examples
 
 
-Shows how to sign a document with timestamping using DigitalSignatureUtil.
+Shows how to sign a document with timestamping using [DigitalSignatureUtil](../digitalsignatureutil/).
 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();

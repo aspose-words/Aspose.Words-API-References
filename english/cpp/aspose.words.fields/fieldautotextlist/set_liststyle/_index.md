@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldAutoTextList::set_ListStyle(const System::Strin
 
 ## See Also
 
+* [get_ListStyle](../get_liststyle/)
+
 * Class [FieldAutoTextList](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

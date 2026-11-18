@@ -145,6 +145,7 @@ docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
 ## See Also
 
+* Class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

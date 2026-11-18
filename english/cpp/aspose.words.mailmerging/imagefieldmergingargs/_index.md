@@ -50,6 +50,7 @@ This event occurs during mail merge when an image mail merge field is encountere
 There are three properties available [ImageFileName](./get_imagefilename/), [ImageStream](./get_imagestream/) and [Image](./get_image/) to specify where the image must be taken from. Set only one of these properties.
 
 To insert an image mail merge field into a document in Word, select Insert/Field command, then select MergeField and type Image:MyFieldName.
+[IFieldMergingCallback](../ifieldmergingcallback/)
 ## See Also
 
 * Class [FieldMergingArgsBase](../fieldmergingargsbase/)

@@ -18,6 +18,7 @@ Aspose::Words::Drawing::Charts::ChartStyle Aspose::Words::Drawing::Charts::Chart
 
 ## See Also
 
+* Enum [ChartStyle](../../chartstyle/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -37,7 +37,7 @@ This method throws [FileCorruptedException](../../filecorruptedexception/) when 
 ## Examples
 
 
-Shows how to use the FileFormatUtil methods to detect the format of a document.
+Shows how to use the [FileFormatUtil](../) methods to detect the format of a document.
 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
@@ -66,6 +66,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
 ```
 ## See Also
 
+* Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -95,7 +96,7 @@ This method throws [FileCorruptedException](../../filecorruptedexception/) when 
 ## Examples
 
 
-Shows how to use the FileFormatUtil class to detect the document format and encryption.
+Shows how to use the [FileFormatUtil](../) class to detect the document format and encryption.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -114,7 +115,7 @@ ASSERT_EQ(FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()), u".odt"
 ASSERT_TRUE(info->get_IsEncrypted());
 ```
 
-Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
+Shows how to use the [FileFormatUtil](../) class to detect the document format and presence of digital signatures.
 
 ```cpp
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
@@ -138,6 +139,7 @@ ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.Detec
 ```
 ## See Also
 
+* Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -171,7 +173,7 @@ This method throws [FileCorruptedException](../../filecorruptedexception/) when 
 ## Examples
 
 
-Shows how to use the FileFormatUtil methods to detect the format of a document.
+Shows how to use the [FileFormatUtil](../) methods to detect the format of a document.
 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
@@ -200,6 +202,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
 ```
 ## See Also
 
+* Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

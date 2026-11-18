@@ -21,6 +21,8 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_RemoveJavaScriptFromLinks(bool 
  If this option is enabled, all links containing JavaScript (e.g., links with "javascript:" in the href attribute) will be replaced with "javascript:void(0)". This can help prevent potential security risks, such as XSS attacks. 
 ## See Also
 
+* [get_RemoveJavaScriptFromLinks](../get_removejavascriptfromlinks/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

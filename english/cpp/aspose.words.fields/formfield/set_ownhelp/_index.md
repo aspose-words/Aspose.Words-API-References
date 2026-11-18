@@ -22,6 +22,8 @@ void Aspose::Words::Fields::FormField::set_OwnHelp(bool value)
 If **true**, the text specified by the [HelpText](../get_helptext/) property is displayed. If **false**, the text in the AutoText entry specified by the [HelpText](../get_helptext/) property is displayed.
 ## See Also
 
+* [get_OwnHelp](../get_ownhelp/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

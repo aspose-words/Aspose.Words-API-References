@@ -21,6 +21,8 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_SaveFontFaceCssSeparately(
  Setting this property to **true** restores the old behavior (separate files) for compatibility with legacy code. 
 ## See Also
 
+* [get_SaveFontFaceCssSeparately](../get_savefontfacecssseparately/)
+
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -20,7 +20,10 @@ void Aspose::Words::Saving::PageSavingArgs::set_KeepPageStreamOpen(bool value)
 
 
 Default is **false** and Aspose.Words will close the stream you provided in the [PageStream](../get_pagestream/) property after writing a document page into it. Specify **true** to keep the stream open.
+[PageStream](../get_pagestream/)
 ## See Also
+
+* [get_KeepPageStreamOpen](../get_keeppagestreamopen/)
 
 * Class [PageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

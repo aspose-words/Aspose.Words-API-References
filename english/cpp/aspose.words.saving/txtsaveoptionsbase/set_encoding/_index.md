@@ -50,6 +50,8 @@ ASSERT_EQ(docText, u"? ? ? ? ?.\r\n");
 ```
 ## See Also
 
+* [get_Encoding](../get_encoding/)
+
 * Class [TxtSaveOptionsBase](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

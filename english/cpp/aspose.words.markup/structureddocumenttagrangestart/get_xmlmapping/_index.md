@@ -46,6 +46,7 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.StructuredDocumentTagRang
 ```
 ## See Also
 
+* Class [XmlMapping](../../xmlmapping/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

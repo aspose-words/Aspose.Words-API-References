@@ -92,6 +92,7 @@ doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
 ## See Also
 
+* Enum [ParagraphAlignment](../../paragraphalignment/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

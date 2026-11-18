@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/
 Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering() const
+bool Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering() const
 ```
 
 ## Remarks
@@ -23,7 +23,7 @@ This property is used when the document is exported to image formats: [Tiff](../
 ## Examples
 
 
-Shows how to improve the quality of a rendered document with SaveOptions.
+Shows how to improve the quality of a rendered document with [SaveOptions](../).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));

@@ -64,6 +64,8 @@ dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.IgnoreTextBoxes.docx");
 ```
 ## See Also
 
+* [get_IgnoreTextBoxes](../get_ignoretextboxes/)
+
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

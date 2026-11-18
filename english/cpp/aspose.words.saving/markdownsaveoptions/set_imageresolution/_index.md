@@ -31,6 +31,8 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ImageResolution.md", saveOp
 ```
 ## See Also
 
+* [get_ImageResolution](../get_imageresolution/)
+
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

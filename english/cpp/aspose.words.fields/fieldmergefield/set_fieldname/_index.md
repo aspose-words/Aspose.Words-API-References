@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeField::set_FieldName(const System::String 
 
 ## See Also
 
+* [get_FieldName](../get_fieldname/)
+
 * Class [FieldMergeField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

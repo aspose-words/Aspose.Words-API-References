@@ -18,6 +18,8 @@ void Aspose::Words::Settings::OdsoRecipientData::set_Column(int32_t value)
 
 ## See Also
 
+* [get_Column](../get_column/)
+
 * Class [OdsoRecipientData](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

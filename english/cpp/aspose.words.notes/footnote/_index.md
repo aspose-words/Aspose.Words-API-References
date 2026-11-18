@@ -94,6 +94,7 @@ The [Footnote](./) class is used to represent both footnotes and endnotes in a W
 [Footnote](./) is an inline-level node and can only be a child of [Paragraph](../../aspose.words/paragraph/).
 
 [Footnote](./) can contain [Paragraph](../../aspose.words/paragraph/) and [Table](../../aspose.words.tables/table/) child nodes.
+[FootnoteType](./get_footnotetype/)[InsertFootnote()](../../aspose.words/documentbuilder/insertfootnote/)[FootnoteOptions](../footnoteoptions/)[EndnoteOptions](../endnoteoptions/)
 ## Examples
 
 

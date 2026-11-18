@@ -46,6 +46,7 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ## See Also
 
 * [ScaleImageToShapeSize](../get_scaleimagetoshapesize/)
+* [get_ImageResolution](../get_imageresolution/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/documentbuilder/get_isatstartofparagraph/
 Returns **true** if the cursor is at the beginning of the current paragraph (no text before the cursor).
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilder::get_IsAtStartOfParagraph()
+bool Aspose::Words::DocumentBuilder::get_IsAtStartOfParagraph()
 ```
 
 ## Examples

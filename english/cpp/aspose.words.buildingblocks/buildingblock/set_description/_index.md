@@ -26,6 +26,8 @@ Cannot be **null**, but can be an empty string.
 Corresponds to the docPartPr.description element in OOXML.
 ## See Also
 
+* [get_Description](../get_description/)
+
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

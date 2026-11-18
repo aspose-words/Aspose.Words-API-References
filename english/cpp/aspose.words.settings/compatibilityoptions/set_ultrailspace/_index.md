@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UlTrailSpace(bool value)
 
 ## See Also
 
+* [get_UlTrailSpace](../get_ultrailspace/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

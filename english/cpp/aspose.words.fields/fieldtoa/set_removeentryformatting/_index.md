@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToa::set_RemoveEntryFormatting(bool value)
 
 ## See Also
 
+* [get_RemoveEntryFormatting](../get_removeentryformatting/)
+
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

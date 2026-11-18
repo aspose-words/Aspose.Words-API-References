@@ -21,6 +21,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> Aspose::Words::Drawing:
 This property will return the [Chart](../../../aspose.words.drawing.charts/chart/) object only if [HasChart](../get_haschart/) property is **true** for this [Shape](../), and will throw an exception otherwise.
 ## See Also
 
+* Class [Chart](../../../aspose.words.drawing.charts/chart/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

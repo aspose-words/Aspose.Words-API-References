@@ -20,6 +20,7 @@ System::ArrayPtr<uint8_t> Aspose::Words::Drawing::ImageData::ToByteArray()
 
 
 If the image is linked, downloads the image every time it is called.
+[ImageBytes](../get_imagebytes/)
 ## Examples
 
 

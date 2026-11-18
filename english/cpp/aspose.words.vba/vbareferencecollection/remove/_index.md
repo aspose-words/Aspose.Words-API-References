@@ -18,6 +18,7 @@ void Aspose::Words::Vba::VbaReferenceCollection::Remove(const System::SharedPtr<
 
 ## See Also
 
+* Class [VbaReference](../../vbareference/)
 * Class [VbaReferenceCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

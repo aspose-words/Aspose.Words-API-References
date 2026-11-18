@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/mailmergesettings/get_viewmergeddata/
 Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. preview merged data). The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Settings::MailMergeSettings::get_ViewMergedData() const
+bool Aspose::Words::Settings::MailMergeSettings::get_ViewMergedData() const
 ```
 
 ## See Also

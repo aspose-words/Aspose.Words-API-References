@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"ExChmLoadOptions.OriginalFileName.html");
 ```
 ## See Also
 
+* [get_OriginalFileName](../get_originalfilename/)
+
 * Class [ChmLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

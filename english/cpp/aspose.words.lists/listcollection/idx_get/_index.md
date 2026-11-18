@@ -69,6 +69,7 @@ std::cout << (System::String(u"List is the same by ListId: ") + (System::ObjectE
 ```
 ## See Also
 
+* Class [List](../../list/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergeoptions/get_mergewholedocument/
 Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions.
 
 ```cpp
-_Bool Aspose::Words::LowCode::MailMergeOptions::get_MergeWholeDocument() const
+bool Aspose::Words::LowCode::MailMergeOptions::get_MergeWholeDocument() const
 ```
 
 ## Remarks

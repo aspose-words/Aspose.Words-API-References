@@ -26,6 +26,8 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitGroupS
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
 ## See Also
 
+* Enum [VisitorAction](../../visitoraction/)
+* Class [GroupShape](../../../aspose.words.drawing/groupshape/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

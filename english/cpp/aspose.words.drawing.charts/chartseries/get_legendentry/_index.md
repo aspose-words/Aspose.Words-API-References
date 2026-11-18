@@ -38,6 +38,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.LegendFont.docx");
 ```
 ## See Also
 
+* Class [ChartLegendEntry](../../chartlegendentry/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

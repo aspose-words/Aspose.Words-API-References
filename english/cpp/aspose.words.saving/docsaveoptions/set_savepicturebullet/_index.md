@@ -38,6 +38,8 @@ doc->Save(get_ArtifactsDir() + u"DocSaveOptions.PictureBullets.doc", saveOptions
 ```
 ## See Also
 
+* [get_SavePictureBullet](../get_savepicturebullet/)
+
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

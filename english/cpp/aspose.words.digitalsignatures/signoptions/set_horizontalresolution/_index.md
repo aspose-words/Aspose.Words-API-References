@@ -48,6 +48,8 @@ ASSERT_EQ(signature->get_ColorDepth(), 24);
 ```
 ## See Also
 
+* [get_HorizontalResolution](../get_horizontalresolution/)
+
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

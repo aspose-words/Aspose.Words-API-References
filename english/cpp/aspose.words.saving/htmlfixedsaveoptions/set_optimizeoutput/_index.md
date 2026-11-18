@@ -18,6 +18,8 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_OptimizeOutput(bool value)
 
 ## See Also
 
+* [get_OptimizeOutput](../get_optimizeoutput/)
+
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -64,6 +64,7 @@ enum class BuildingBlockGallery : int
 
 
 Corresponds to the ST_DocPartGallery type in OOXML.
+[Gallery](../buildingblock/get_gallery/)
 ## See Also
 
 * Namespace [Aspose::Words::BuildingBlocks](../)

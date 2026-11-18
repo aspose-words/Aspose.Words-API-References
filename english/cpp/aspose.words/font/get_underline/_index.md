@@ -19,7 +19,7 @@ Aspose::Words::Underline Aspose::Words::Font::get_Underline()
 ## Examples
 
 
-Shows how to insert formatted text using DocumentBuilder.
+Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -71,6 +71,7 @@ doc->Save(get_ArtifactsDir() + u"Font.Underlines.docx");
 ```
 ## See Also
 
+* Enum [Underline](../../underline/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

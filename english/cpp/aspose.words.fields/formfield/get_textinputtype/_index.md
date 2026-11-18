@@ -18,6 +18,7 @@ Aspose::Words::Fields::TextFormFieldType Aspose::Words::Fields::FormField::get_T
 
 ## See Also
 
+* Enum [TextFormFieldType](../../textformfieldtype/)
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

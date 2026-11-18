@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_LinkToQuery(bool value)
 
 ## See Also
 
+* [get_LinkToQuery](../get_linktoquery/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

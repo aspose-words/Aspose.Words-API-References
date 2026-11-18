@@ -42,6 +42,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.BubbleScale.docx");
 ```
 ## See Also
 
+* [get_BubbleScale](../get_bubblescale/)
+
 * Class [ChartSeriesGroup](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

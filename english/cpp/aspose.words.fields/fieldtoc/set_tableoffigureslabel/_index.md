@@ -91,6 +91,8 @@ doc->Save(get_ArtifactsDir() + u"Field.TOC.SEQ.docx");
 ```
 ## See Also
 
+* [get_TableOfFiguresLabel](../get_tableoffigureslabel/)
+
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

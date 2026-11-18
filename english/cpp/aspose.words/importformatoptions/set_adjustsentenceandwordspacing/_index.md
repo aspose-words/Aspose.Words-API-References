@@ -39,6 +39,8 @@ ASSERT_EQ(dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetText(
 ```
 ## See Also
 
+* [get_AdjustSentenceAndWordSpacing](../get_adjustsentenceandwordspacing/)
+
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

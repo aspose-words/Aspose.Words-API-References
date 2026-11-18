@@ -71,6 +71,8 @@ doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
 ## See Also
 
+* [get_FontSize](../get_fontsize/)
+
 * Class [FieldSymbol](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

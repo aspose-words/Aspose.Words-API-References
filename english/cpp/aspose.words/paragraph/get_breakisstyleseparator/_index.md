@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraph/get_breakisstyleseparator/
 True if this paragraph break is a Style Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles.
 
 ```cpp
-_Bool Aspose::Words::Paragraph::get_BreakIsStyleSeparator()
+bool Aspose::Words::Paragraph::get_BreakIsStyleSeparator()
 ```
 
 ## Examples

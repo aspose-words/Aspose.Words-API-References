@@ -41,6 +41,8 @@ doc->Save(get_ArtifactsDir() + u"Font.ScalingSpacing.docx");
 ```
 ## See Also
 
+* [get_Spacing](../get_spacing/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

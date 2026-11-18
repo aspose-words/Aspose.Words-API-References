@@ -50,6 +50,8 @@ for (auto&& cell : System::IterateOver<Aspose::Words::Tables::Cell>(row->get_Cel
 ```
 ## See Also
 
+* [get_Hidden](../get_hidden/)
+
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

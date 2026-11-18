@@ -13,7 +13,7 @@ url: /cpp/aspose.words.buildingblocks/buildingblock/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::BuildingBlocks::BuildingBlock::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::BuildingBlocks::BuildingBlock::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -36,6 +36,7 @@ Calls [VisitBuildingBlockStart()](../../../aspose.words/documentvisitor/visitbui
  Note: A building block node and its children are not visited when you execute a Visitor over a [Document](../../../aspose.words/document/). If you want to execute a Visitor over a building block, you need to execute the visitor over [GlossaryDocument](../../glossarydocument/) or call [Accept()](./). 
 ## See Also
 
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

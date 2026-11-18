@@ -42,6 +42,8 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 ```
 ## See Also
 
+* [get_SignTime](../get_signtime/)
+
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -24,6 +24,7 @@ Default value is [None](../../pdfattachmentsembeddingmode/) and attachments are 
  PDF/A-1, PDF/A-2 and regular PDF/A-4 (not PDF/A-4f) standards do not allow embedded files. [None](../../pdfattachmentsembeddingmode/) value will be used automatically. 
 ## See Also
 
+* Enum [PdfAttachmentsEmbeddingMode](../../pdfattachmentsembeddingmode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

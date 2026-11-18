@@ -45,6 +45,7 @@ class CustomXmlPartCollection : public System::Collections::Generic::IEnumerable
 
 
 You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [CustomXmlParts](../../aspose.words/document/get_customxmlparts/) property.
+[CustomXmlPart](../customxmlpart/)[CustomXmlParts](../../aspose.words/document/get_customxmlparts/)
 ## Examples
 
 

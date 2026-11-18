@@ -98,6 +98,8 @@ doc->Save(get_ArtifactsDir() + u"Field.SAVEDATE.docx");
 ```
 ## See Also
 
+* [get_LastSavedTime](../get_lastsavedtime/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

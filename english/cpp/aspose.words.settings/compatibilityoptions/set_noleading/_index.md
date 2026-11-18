@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_NoLeading(bool value)
 
 ## See Also
 
+* [get_NoLeading](../get_noleading/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

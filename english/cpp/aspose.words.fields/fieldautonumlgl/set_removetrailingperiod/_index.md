@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldAutoNumLgl::set_RemoveTrailingPeriod(bool value
 
 ## See Also
 
+* [get_RemoveTrailingPeriod](../get_removetrailingperiod/)
+
 * Class [FieldAutoNumLgl](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

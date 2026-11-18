@@ -10,7 +10,7 @@ url: /cpp/aspose.words/documentbuilder/insertgroupshape/
 ## DocumentBuilder::InsertGroupShape(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\> \&) method
 
 
-Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position.
+Groups the shapes passed as a parameter into a new [GroupShape](../../../aspose.words.drawing/groupshape/) node which is inserted into the current position.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::GroupShape> Aspose::Words::DocumentBuilder::InsertGroupShape(const System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::ShapeBase>> & shapes)
@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::Drawing::GroupShape> Aspose::Words::DocumentBui
 ## Remarks
 
 
-The position and dimension of the new GroupShape will be calculated automatically.
+The position and dimension of the new [GroupShape](../../../aspose.words.drawing/groupshape/) will be calculated automatically.
 
 VML and DML shapes cannot be grouped together.
 ## Examples
@@ -87,13 +87,15 @@ doc->Save(get_ArtifactsDir() + u"Shape.CombineGroupShape.docx");
 ```
 ## See Also
 
+* Class [GroupShape](../../../aspose.words.drawing/groupshape/)
+* Class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertGroupShape(double, double, double, double, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\> \&) method
 
 
-Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position.
+Groups the shapes passed as a parameter into a new [GroupShape](../../../aspose.words.drawing/groupshape/) node of the specified size which is inserted into the specified position.
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::GroupShape> Aspose::Words::DocumentBuilder::InsertGroupShape(double left, double top, double width, double height, const System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::ShapeBase>> & shapes)
@@ -145,6 +147,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.InsertGroupShape.docx");
 ```
 ## See Also
 
+* Class [GroupShape](../../../aspose.words.drawing/groupshape/)
+* Class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_bidi/
 Gets or sets whether this is a right-to-left paragraph.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_Bidi()
+bool Aspose::Words::ParagraphFormat::get_Bidi()
 ```
 
 ## Remarks

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shape/get_shadowenabled/
 Returns **true** if a shadow effect is enabled.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Shape::get_ShadowEnabled()
+bool Aspose::Words::Drawing::Shape::get_ShadowEnabled()
 ```
 
 ## See Also

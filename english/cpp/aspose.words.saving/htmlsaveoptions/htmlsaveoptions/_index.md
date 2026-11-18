@@ -91,6 +91,7 @@ switch (htmlVersion)
 ```
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

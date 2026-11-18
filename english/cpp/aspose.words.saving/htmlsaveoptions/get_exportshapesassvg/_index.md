@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportshapesassvg/
 Controls whether [Shape](../../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportShapesAsSvg()
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportShapesAsSvg()
 ```
 
 ## Remarks

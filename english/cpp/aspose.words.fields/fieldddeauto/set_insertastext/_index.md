@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDdeAuto::set_InsertAsText(bool value)
 
 ## See Also
 
+* [get_InsertAsText](../get_insertastext/)
+
 * Class [FieldDdeAuto](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

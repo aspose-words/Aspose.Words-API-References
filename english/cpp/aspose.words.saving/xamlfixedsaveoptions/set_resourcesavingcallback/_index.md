@@ -18,6 +18,9 @@ void Aspose::Words::Saving::XamlFixedSaveOptions::set_ResourceSavingCallback(con
 
 ## See Also
 
+* [get_ResourceSavingCallback](../get_resourcesavingcallback/)
+
+* Interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * Class [XamlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

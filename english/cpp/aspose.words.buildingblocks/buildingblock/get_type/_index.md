@@ -24,6 +24,7 @@ The building block type can influence the visibility and behavior of the buildin
 Corresponds to the docPartPr.types element in OOXML.
 ## See Also
 
+* Enum [BuildingBlockType](../../buildingblocktype/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

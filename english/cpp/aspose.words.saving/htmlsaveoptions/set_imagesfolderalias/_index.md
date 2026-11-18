@@ -28,6 +28,7 @@ If [ImagesFolderAlias](../get_imagesfolderalias/) is an empty string, then the i
 If [ImagesFolderAlias](../get_imagesfolderalias/) is set to '.' (dot), then the image file name will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct image URIs is to use [ResourceFolderAlias](../get_resourcefolderalias/).
+[ResourceFolderAlias](../get_resourcefolderalias/)[ImagesFolder](../get_imagesfolder/)[ImageSavingCallback](../get_imagesavingcallback/)
 ## Examples
 
 
@@ -52,6 +53,8 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 ## See Also
+
+* [get_ImagesFolderAlias](../get_imagesfolderalias/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

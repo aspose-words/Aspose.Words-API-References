@@ -24,6 +24,7 @@ The list that is being assigned to this property must belong to the current docu
 The list that is being assigned to this property must not be a list style definition.
 
 Setting this property to **null** removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to **null** is equivalent to calling [RemoveNumbers](../removenumbers/).
+[ListLevelNumber](../get_listlevelnumber/)[RemoveNumbers](../removenumbers/)
 ## Examples
 
 
@@ -125,6 +126,7 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.NestedLists.docx");
 ```
 ## See Also
 
+* Class [List](../../list/)
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

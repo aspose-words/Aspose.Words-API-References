@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SwapBordersFacingPgs(boo
 
 ## See Also
 
+* [get_SwapBordersFacingPgs](../get_swapbordersfacingpgs/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

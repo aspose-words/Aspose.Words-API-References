@@ -31,6 +31,8 @@ ASSERT_TRUE(sourceFullName.Contains(u"Examples\\Data\\Spreadsheet.xlsx"));
 ```
 ## See Also
 
+* [get_SourceFullName](../get_sourcefullname/)
+
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

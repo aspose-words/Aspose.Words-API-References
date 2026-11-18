@@ -15,7 +15,7 @@ Gets or sets a boolean value indicating either to ignore shapes within a text.
 The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreShapes() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreShapes() const
 ```
 
 ## Examples

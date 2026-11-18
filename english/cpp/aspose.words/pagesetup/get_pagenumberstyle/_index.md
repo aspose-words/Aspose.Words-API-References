@@ -72,6 +72,7 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```
 ## See Also
 
+* Enum [NumberStyle](../../numberstyle/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

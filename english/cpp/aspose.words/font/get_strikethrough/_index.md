@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_strikethrough/
 True if the font is formatted as strikethrough text.
 
 ```cpp
-_Bool Aspose::Words::Font::get_StrikeThrough()
+bool Aspose::Words::Font::get_StrikeThrough()
 ```
 
 ## Examples

@@ -48,6 +48,9 @@ doc->Save(get_ArtifactsDir() + u"Shape.OfficeMath.docx");
 ```
 ## See Also
 
+* [get_Justification](../get_justification/)
+
+* Enum [OfficeMathJustification](../../officemathjustification/)
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
 * Library [Aspose.Words for C++](../../../)

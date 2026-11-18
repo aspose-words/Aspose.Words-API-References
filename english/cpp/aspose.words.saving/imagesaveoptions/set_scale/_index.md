@@ -69,6 +69,8 @@ math->GetMathRenderer()->Save(get_ArtifactsDir() + u"Shape.RenderOfficeMath.png"
 ```
 ## See Also
 
+* [get_Scale](../get_scale/)
+
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -58,6 +58,9 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CheckBox.docx");
 ```
 ## See Also
 
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Enum [SdtType](../../sdttype/)
+* Enum [MarkupLevel](../../markuplevel/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataPointCollection> Aspo
 
 ## See Also
 
+* Class [ChartDataPointCollection](../../chartdatapointcollection/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

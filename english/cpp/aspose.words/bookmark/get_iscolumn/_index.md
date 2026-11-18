@@ -13,7 +13,7 @@ url: /cpp/aspose.words/bookmark/get_iscolumn/
 Returns **true** if this bookmark is a table column bookmark.
 
 ```cpp
-_Bool Aspose::Words::Bookmark::get_IsColumn()
+bool Aspose::Words::Bookmark::get_IsColumn()
 ```
 
 ## Examples

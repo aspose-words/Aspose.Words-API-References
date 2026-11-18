@@ -41,6 +41,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
 ```
 ## See Also
 
+* [get_PageHeight](../get_pageheight/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

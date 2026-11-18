@@ -22,6 +22,8 @@ virtual Aspose::Words::Replacing::ReplaceAction Aspose::Words::Replacing::IRepla
 A [ReplaceAction](../../replaceaction/) value that specifies the action to be taken for the current match.
 ## See Also
 
+* Enum [ReplaceAction](../../replaceaction/)
+* Class [ReplacingArgs](../../replacingargs/)
 * Interface [IReplacingCallback](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

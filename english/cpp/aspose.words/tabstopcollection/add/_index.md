@@ -55,6 +55,7 @@ doc->Save(get_ArtifactsDir() + u"TabStopCollection.AddTabStops.docx");
 ```
 ## See Also
 
+* Class [TabStop](../../tabstop/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -108,6 +109,8 @@ doc->Save(get_ArtifactsDir() + u"TabStopCollection.AddTabStops.docx");
 ```
 ## See Also
 
+* Enum [TabAlignment](../../tabalignment/)
+* Enum [TabLeader](../../tableader/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

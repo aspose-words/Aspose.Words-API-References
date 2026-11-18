@@ -21,6 +21,7 @@ System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock> Aspose::Words::B
  Returns **null** if there are no building blocks available. 
 ## See Also
 
+* Class [BuildingBlock](../../buildingblock/)
 * Class [GlossaryDocument](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

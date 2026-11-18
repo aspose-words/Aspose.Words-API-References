@@ -40,6 +40,9 @@ doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.DigitalSignature.docx", saveOp
 ```
 ## See Also
 
+* [get_CertificateHolder](../get_certificateholder/)
+
+* Class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * Class [DigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -24,6 +24,9 @@ You can use this object to specify a mail merge data source for a document and t
 This object is never **null**.
 ## See Also
 
+* [get_MailMergeSettings](../get_mailmergesettings/)
+
+* Class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

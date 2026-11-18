@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/
 Specifies whether to render PDF choice form field border.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_RenderChoiceFormFieldBorder() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_RenderChoiceFormFieldBorder() const
 ```
 
 ## Remarks

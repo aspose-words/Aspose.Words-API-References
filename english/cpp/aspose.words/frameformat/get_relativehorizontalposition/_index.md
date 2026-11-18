@@ -43,6 +43,7 @@ ASPOSE_ASSERT_EQ(paragraphFrame->get_FrameFormat()->get_VerticalDistanceFromText
 ```
 ## See Also
 
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * Class [FrameFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

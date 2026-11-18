@@ -18,6 +18,8 @@ void Aspose::Words::LowCode::ComparerContext::set_AcceptRevisions(bool value)
 
 ## See Also
 
+* [get_AcceptRevisions](../get_acceptrevisions/)
+
 * Class [ComparerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

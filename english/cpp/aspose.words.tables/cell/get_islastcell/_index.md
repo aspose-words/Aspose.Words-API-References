@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/cell/get_islastcell/
 True if this is the last cell inside a row; false otherwise.
 
 ```cpp
-_Bool Aspose::Words::Tables::Cell::get_IsLastCell()
+bool Aspose::Words::Tables::Cell::get_IsLastCell()
 ```
 
 ## See Also

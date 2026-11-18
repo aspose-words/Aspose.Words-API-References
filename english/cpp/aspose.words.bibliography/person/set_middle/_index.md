@@ -115,6 +115,8 @@ ASSERT_EQ(person->get_Last(), u"Tejeda");
 ```
 ## See Also
 
+* [get_Middle](../get_middle/)
+
 * Class [Person](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

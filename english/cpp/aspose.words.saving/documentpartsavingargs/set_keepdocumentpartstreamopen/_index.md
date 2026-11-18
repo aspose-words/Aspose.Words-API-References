@@ -20,7 +20,10 @@ void Aspose::Words::Saving::DocumentPartSavingArgs::set_KeepDocumentPartStreamOp
 
 
 Default is **false** and Aspose.Words will close the stream you provided in the [DocumentPartStream](../get_documentpartstream/) property after writing a document part into it. Specify **true** to keep the stream open. Please note that the main output stream provided in the call to [Save()](../../../aspose.words/document/save/) or [Save()](../../../aspose.words/document/save/) will never be closed by Aspose.Words even if [KeepDocumentPartStreamOpen](../get_keepdocumentpartstreamopen/) is set to **false**.
+[DocumentPartStream](../get_documentpartstream/)
 ## See Also
+
+* [get_KeepDocumentPartStreamOpen](../get_keepdocumentpartstreamopen/)
 
 * Class [DocumentPartSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

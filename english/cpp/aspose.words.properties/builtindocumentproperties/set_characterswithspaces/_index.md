@@ -22,6 +22,8 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_CharactersWithSpa
 Aspose.Words updates this property when you call [UpdateWordCount](../../../aspose.words/document/updatewordcount/).
 ## See Also
 
+* [get_CharactersWithSpaces](../get_characterswithspaces/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

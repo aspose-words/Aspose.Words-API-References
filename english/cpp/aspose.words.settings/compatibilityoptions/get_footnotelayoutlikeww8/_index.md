@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_footnotelayoutlikeww8/
 Emulate Word 6.x/95/97 Footnote Placement.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_FootnoteLayoutLikeWW8()
+bool Aspose::Words::Settings::CompatibilityOptions::get_FootnoteLayoutLikeWW8()
 ```
 
 ## See Also

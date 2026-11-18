@@ -53,6 +53,7 @@ class CommentRangeStart : public Node,
 To create a comment anchored to a region of text, you need to create a [Comment](../comment/) and then create [CommentRangeStart](./) and [CommentRangeEnd](../commentrangeend/) and set their identifiers to the same [Id](../comment/get_id/) value.
 
 [CommentRangeStart](./) is an inline-level node and can only be a child of [Paragraph](../paragraph/).
+[Comment](../comment/)[CommentRangeEnd](../commentrangeend/)
 ## See Also
 
 * Class [Node](../node/)

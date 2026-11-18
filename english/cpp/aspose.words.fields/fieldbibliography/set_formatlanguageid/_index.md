@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldBibliography::set_FormatLanguageId(const System
 
 ## See Also
 
+* [get_FormatLanguageId](../get_formatlanguageid/)
+
 * Class [FieldBibliography](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

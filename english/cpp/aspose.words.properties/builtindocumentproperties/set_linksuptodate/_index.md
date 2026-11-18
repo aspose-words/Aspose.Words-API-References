@@ -22,6 +22,8 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_LinksUpToDate(boo
 Aspose.Words does not update this property.
 ## See Also
 
+* [get_LinksUpToDate](../get_linksuptodate/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

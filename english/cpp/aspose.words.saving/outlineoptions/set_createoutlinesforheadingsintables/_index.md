@@ -22,6 +22,8 @@ void Aspose::Words::Saving::OutlineOptions::set_CreateOutlinesForHeadingsInTable
 Default value is **false**.
 ## See Also
 
+* [get_CreateOutlinesForHeadingsInTables](../get_createoutlinesforheadingsintables/)
+
 * Class [OutlineOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

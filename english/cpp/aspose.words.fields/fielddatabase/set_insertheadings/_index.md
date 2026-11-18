@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDatabase::set_InsertHeadings(bool value)
 
 ## See Also
 
+* [get_InsertHeadings](../get_insertheadings/)
+
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

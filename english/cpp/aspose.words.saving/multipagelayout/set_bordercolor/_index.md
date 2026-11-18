@@ -18,6 +18,8 @@ void Aspose::Words::Saving::MultiPageLayout::set_BorderColor(System::Drawing::Co
 
 ## See Also
 
+* [get_BorderColor](../get_bordercolor/)
+
 * Class [MultiPageLayout](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

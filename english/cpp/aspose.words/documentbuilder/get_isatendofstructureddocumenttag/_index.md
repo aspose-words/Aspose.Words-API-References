@@ -13,13 +13,13 @@ url: /cpp/aspose.words/documentbuilder/get_isatendofstructureddocumenttag/
 Returns true if the cursor is at the end of a structured document tag.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilder::get_IsAtEndOfStructuredDocumentTag()
+bool Aspose::Words::DocumentBuilder::get_IsAtEndOfStructuredDocumentTag()
 ```
 
 ## Examples
 
 
-Shows how to move cursor of DocumentBuilder inside a structured document tag.
+Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));

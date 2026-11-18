@@ -65,6 +65,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.LayoutInTableCell.docx");
 ```
 ## See Also
 
+* [get_IsLayoutInCell](../get_islayoutincell/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

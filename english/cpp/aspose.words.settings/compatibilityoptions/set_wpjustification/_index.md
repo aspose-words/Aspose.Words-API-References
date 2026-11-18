@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_WPJustification(bool val
 
 ## See Also
 
+* [get_WPJustification](../get_wpjustification/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

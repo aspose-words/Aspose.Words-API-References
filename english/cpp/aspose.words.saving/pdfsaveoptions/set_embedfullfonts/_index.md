@@ -26,6 +26,8 @@ When this value is set to **true**, a complete font file is embedded into PDF wi
  Some fonts are large (several megabytes) and embedding them without subsetting will result in large output documents.
 ## See Also
 
+* [get_EmbedFullFonts](../get_embedfullfonts/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

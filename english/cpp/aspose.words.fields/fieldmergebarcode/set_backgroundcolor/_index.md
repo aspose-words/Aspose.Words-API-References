@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeBarcode::set_BackgroundColor(const System:
 
 ## See Also
 
+* [get_BackgroundColor](../get_backgroundcolor/)
+
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

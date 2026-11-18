@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_updatecreatedtimeproperty/
 Gets or sets a value determining whether the [CreatedTime](../../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_UpdateCreatedTimeProperty() const
+bool Aspose::Words::Saving::SaveOptions::get_UpdateCreatedTimeProperty() const
 ```
 
 ## Examples

@@ -24,6 +24,8 @@ If the [OwnHelp](../get_ownhelp/) property is set to **true**, [HelpText](../get
 Microsoft Word allows strings with at most 255 characters.
 ## See Also
 
+* [get_HelpText](../get_helptext/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

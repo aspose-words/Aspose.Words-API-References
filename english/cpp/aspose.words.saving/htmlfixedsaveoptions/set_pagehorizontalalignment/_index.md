@@ -46,6 +46,9 @@ switch (pageHorizontalAlignment)
 ```
 ## See Also
 
+* [get_PageHorizontalAlignment](../get_pagehorizontalalignment/)
+
+* Enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment/)
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

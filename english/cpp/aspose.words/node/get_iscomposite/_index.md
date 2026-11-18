@@ -13,7 +13,7 @@ url: /cpp/aspose.words/node/get_iscomposite/
 Returns **true** if this node can contain other nodes.
 
 ```cpp
-virtual _Bool Aspose::Words::Node::get_IsComposite()
+virtual bool Aspose::Words::Node::get_IsComposite()
 ```
 
 ## See Also

@@ -59,6 +59,7 @@ If you know a bit about WordprocessingML, then you might know it defines separat
 To simplify programming model, Aspose.Words hides the distinction between list and list definition in much the same way like Microsoft Word hides this in its user interface. This allows you to concentrate more on how you want your document to look like, rather than building low-level objects to satisfy requirements of the Microsoft Word file format.
 
 It is not possible to delete lists once they are created in the current version of Aspose.Words. This is similar to Microsoft Word where user does not have explicit control over list definitions.
+[List](../list/)[ListLevel](../listlevel/)[ListFormat](../listformat/)
 ## Examples
 
 

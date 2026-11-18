@@ -13,7 +13,7 @@ url: /cpp/aspose.words/absolutepositiontab/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::AbsolutePositionTab::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::AbsolutePositionTab::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -32,6 +32,7 @@ Calls [VisitAbsolutePositionTab()](../../documentvisitor/visitabsolutepositionta
 For more info see the Visitor design pattern.
 ## See Also
 
+* Class [DocumentVisitor](../../documentvisitor/)
 * Class [AbsolutePositionTab](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

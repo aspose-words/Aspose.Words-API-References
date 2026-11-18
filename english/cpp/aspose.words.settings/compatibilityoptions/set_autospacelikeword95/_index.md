@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_AutoSpaceLikeWord95(bool
 
 ## See Also
 
+* [get_AutoSpaceLikeWord95](../get_autospacelikeword95/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

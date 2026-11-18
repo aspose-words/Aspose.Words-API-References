@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/get_preservetabs/
 Gets whether to preserve tab entries within table entries.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldToc::get_PreserveTabs()
+bool Aspose::Words::Fields::FieldToc::get_PreserveTabs()
 ```
 
 ## See Also

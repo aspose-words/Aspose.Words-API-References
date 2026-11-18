@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotBreakWrappedTables(
 
 ## See Also
 
+* [get_DoNotBreakWrappedTables](../get_donotbreakwrappedtables/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

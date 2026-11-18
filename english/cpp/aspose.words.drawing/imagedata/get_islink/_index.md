@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/imagedata/get_islink/
 Returns **true** if the image is linked to the shape (when [SourceFullName](../get_sourcefullname/) is specified).
 
 ```cpp
-_Bool Aspose::Words::Drawing::ImageData::get_IsLink()
+bool Aspose::Words::Drawing::ImageData::get_IsLink()
 ```
 
 ## Examples

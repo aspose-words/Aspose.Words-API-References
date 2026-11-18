@@ -13,7 +13,7 @@ url: /cpp/aspose.words/cleanupoptions/get_unusedbuiltinstyles/
 Specifies that unused [BuiltIn](../../style/get_builtin/) styles should be removed from document.
 
 ```cpp
-_Bool Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles() const
+bool Aspose::Words::CleanupOptions::get_UnusedBuiltinStyles() const
 ```
 
 ## Examples

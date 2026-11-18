@@ -22,6 +22,7 @@ int32_t Aspose::Words::Saving::HtmlSaveOptions::get_DocumentSplitHeadingLevel() 
 When [DocumentSplitCriteria](../get_documentsplitcriteria/) includes [HeadingParagraph](../../documentsplitcriteria/) and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using Heading 1, Heading 2 , Heading 3 etc. styles up to the specified heading level.
 
 By default, only Heading 1 and Heading 2 paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
+[DocumentSplitCriteria](../get_documentsplitcriteria/)[DocumentPartSavingCallback](../get_documentpartsavingcallback/)
 ## Examples
 
 

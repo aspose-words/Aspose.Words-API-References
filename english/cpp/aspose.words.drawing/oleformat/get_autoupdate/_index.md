@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/oleformat/get_autoupdate/
 Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word.
 
 ```cpp
-_Bool Aspose::Words::Drawing::OleFormat::get_AutoUpdate()
+bool Aspose::Words::Drawing::OleFormat::get_AutoUpdate()
 ```
 
 ## Remarks

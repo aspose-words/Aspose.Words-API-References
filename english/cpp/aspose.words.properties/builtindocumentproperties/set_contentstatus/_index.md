@@ -18,6 +18,8 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_ContentStatus(con
 
 ## See Also
 
+* [get_ContentStatus](../get_contentstatus/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -29,6 +29,8 @@ virtual System::SharedPtr<Aspose::Words::Fields::FieldDatabaseDataTable> Aspose:
 The [FieldDatabaseDataTable](../../fielddatabasedatatable/) instance that should be used for the field's update.
 ## See Also
 
+* Class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
+* Class [FieldDatabase](../../fielddatabase/)
 * Interface [IFieldDatabaseProvider](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

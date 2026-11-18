@@ -20,10 +20,10 @@ class SignerContext : public ProcessorContext
 
 | Method | Description |
 | --- | --- |
-| [get_CertificateHolder](./get_certificateholder/)() const | CertificateHolder object with certificate that used to sign file. |
-| [get_SignOptions](./get_signoptions/)() const | SignOptions object with various signing options. |
-| [set_CertificateHolder](./set_certificateholder/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) | CertificateHolder object with certificate that used to sign file. |
-| [set_SignOptions](./set_signoptions/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) | SignOptions object with various signing options. |
+| [get_CertificateHolder](./get_certificateholder/)() const | [CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/) object with certificate that used to sign file. |
+| [get_SignOptions](./get_signoptions/)() const | [SignOptions](../../aspose.words.digitalsignatures/signoptions/) object with various signing options. |
+| [set_CertificateHolder](./set_certificateholder/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) | [CertificateHolder](../../aspose.words.digitalsignatures/certificateholder/) object with certificate that used to sign file. |
+| [set_SignOptions](./set_signoptions/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) | [SignOptions](../../aspose.words.digitalsignatures/signoptions/) object with various signing options. |
 | [ProcessorContext](../processorcontext/processorcontext/)() |  |
 | [get_FontSettings](../processorcontext/get_fontsettings/)() const | Font settings used by the processor. |
 | [get_LayoutOptions](../processorcontext/get_layoutoptions/)() const | Document layout options used by the processor. |

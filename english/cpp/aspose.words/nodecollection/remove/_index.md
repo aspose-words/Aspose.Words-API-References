@@ -23,7 +23,7 @@ void Aspose::Words::NodeCollection::Remove(const System::SharedPtr<Aspose::Words
 ## Examples
 
 
-Shows how to work with a NodeCollection.
+Shows how to work with a [NodeCollection](../).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -56,6 +56,7 @@ ASSERT_FALSE(runs->Contains(run));
 ```
 ## See Also
 
+* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -77,6 +77,7 @@ ASSERT_EQ(warningInfo->get_RequestedFamilyName(), u"Arial");
 ```
 ## See Also
 
+* Enum [WarningType](../../warningtype/)
 * Class [WarningInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

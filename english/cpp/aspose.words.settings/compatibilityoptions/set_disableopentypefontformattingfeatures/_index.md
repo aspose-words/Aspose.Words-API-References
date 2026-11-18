@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DisableOpenTypeFontForma
 
 ## See Also
 
+* [get_DisableOpenTypeFontFormattingFeatures](../get_disableopentypefontformattingfeatures/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -39,6 +39,8 @@ doc->Save(get_ArtifactsDir() + u"Font.StrikeThrough.docx");
 ```
 ## See Also
 
+* [get_StrikeThrough](../get_strikethrough/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

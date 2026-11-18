@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldNoteRef::set_BookmarkName(const System::String 
 
 ## See Also
 
+* [get_BookmarkName](../get_bookmarkname/)
+
 * Class [FieldNoteRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

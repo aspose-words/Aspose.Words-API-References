@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_IsBookmark(bool value)
 
 ## See Also
 
+* [get_IsBookmark](../get_isbookmark/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

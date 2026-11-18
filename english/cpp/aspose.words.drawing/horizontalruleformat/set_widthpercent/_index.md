@@ -48,6 +48,8 @@ ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 
 ## See Also
 
+* [get_WidthPercent](../get_widthpercent/)
+
 * Class [HorizontalRuleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

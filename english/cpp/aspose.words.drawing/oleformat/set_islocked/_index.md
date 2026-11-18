@@ -54,6 +54,8 @@ oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleForm
 ```
 ## See Also
 
+* [get_IsLocked](../get_islocked/)
+
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

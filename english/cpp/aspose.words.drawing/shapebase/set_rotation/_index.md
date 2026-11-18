@@ -41,6 +41,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.Rotate.docx");
 ```
 ## See Also
 
+* [get_Rotation](../get_rotation/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

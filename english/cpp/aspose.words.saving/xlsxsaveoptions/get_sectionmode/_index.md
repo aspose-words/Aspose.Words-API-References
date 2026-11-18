@@ -33,6 +33,7 @@ doc->Save(get_ArtifactsDir() + u"XlsxSaveOptions.SelectionMode.xlsx", xlsxSaveOp
 ```
 ## See Also
 
+* Enum [XlsxSectionMode](../../xlsxsectionmode/)
 * Class [XlsxSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

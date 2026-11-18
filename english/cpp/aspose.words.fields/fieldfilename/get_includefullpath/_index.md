@@ -13,13 +13,13 @@ url: /cpp/aspose.words.fields/fieldfilename/get_includefullpath/
 Gets or sets whether to include the full file path name.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldFileName::get_IncludeFullPath()
+bool Aspose::Words::Fields::FieldFileName::get_IncludeFullPath()
 ```
 
 ## Examples
 
 
-Shows how to use FieldOptions to override the default value for the FILENAME field.
+Shows how to use [FieldOptions](../../fieldoptions/) to override the default value for the FILENAME field.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));

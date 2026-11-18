@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeField::set_TextBefore(const System::String
 
 ## See Also
 
+* [get_TextBefore](../get_textbefore/)
+
 * Class [FieldMergeField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

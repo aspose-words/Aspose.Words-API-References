@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldTA::set_IsItalic(bool value)
 
 ## See Also
 
+* [get_IsItalic](../get_isitalic/)
+
 * Class [FieldTA](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

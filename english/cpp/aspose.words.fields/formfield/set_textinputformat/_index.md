@@ -26,6 +26,8 @@ If the text form field contains a number or a date/time value, then valid format
 Microsoft Word allows strings with at most 64 characters.
 ## See Also
 
+* [get_TextInputFormat](../get_textinputformat/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

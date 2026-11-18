@@ -22,6 +22,9 @@ void Aspose::Words::Saving::PdfSaveOptions::set_DigitalSignatureDetails(const Sy
 The default value is **null** and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/) object, then the output PDF document will be digitally signed.
 ## See Also
 
+* [get_DigitalSignatureDetails](../get_digitalsignaturedetails/)
+
+* Class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

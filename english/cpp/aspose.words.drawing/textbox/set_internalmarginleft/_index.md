@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.TextBoxMargins.docx");
 ```
 ## See Also
 
+* [get_InternalMarginLeft](../get_internalmarginleft/)
+
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

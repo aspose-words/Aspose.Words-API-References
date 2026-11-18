@@ -24,6 +24,7 @@ Use this property to override the Graphics settings provided by Aspose.Words eng
 It will take effect only when a document is being saved to an image-like format.
 ## See Also
 
+* Class [GraphicsQualityOptions](../../graphicsqualityoptions/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

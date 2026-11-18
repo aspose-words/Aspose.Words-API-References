@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_donotuseeastasianbreakr
 Do Not Compress Compressible Characters When Using Document Grid.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotUseEastAsianBreakRules()
+bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotUseEastAsianBreakRules()
 ```
 
 ## See Also

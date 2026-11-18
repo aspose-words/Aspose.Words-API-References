@@ -52,6 +52,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.Fill.docx");
 ```
 ## See Also
 
+* [get_Opacity](../get_opacity/)
+
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

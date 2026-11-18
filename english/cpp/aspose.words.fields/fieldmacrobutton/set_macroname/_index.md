@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"Field.MACROBUTTON.docm");
 ```
 ## See Also
 
+* [get_MacroName](../get_macroname/)
+
 * Class [FieldMacroButton](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

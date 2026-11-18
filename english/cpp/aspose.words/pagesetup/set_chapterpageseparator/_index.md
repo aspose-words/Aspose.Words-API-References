@@ -36,6 +36,9 @@ pageSetup->set_HeadingLevelForChapter(1);
 ```
 ## See Also
 
+* [get_ChapterPageSeparator](../get_chapterpageseparator/)
+
+* Enum [ChapterPageSeparator](../../chapterpageseparator/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

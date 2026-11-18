@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_additionaltextpositioning/
 A flag specifying whether to write additional text positioning operators or not.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning() const
 ```
 
 ## Remarks

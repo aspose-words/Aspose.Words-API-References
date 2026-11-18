@@ -21,6 +21,8 @@ void Aspose::Words::JoinRunsOptions::set_IgnoreInsignificant(bool value)
  Insignificant attributes are those attributes that do not have a noticeable effect on the formatting of a run with the given text content. The default value is False. 
 ## See Also
 
+* [get_IgnoreInsignificant](../get_ignoreinsignificant/)
+
 * Class [JoinRunsOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

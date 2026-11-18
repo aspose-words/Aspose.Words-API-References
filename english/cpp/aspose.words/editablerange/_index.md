@@ -2,7 +2,7 @@
 title: Aspose::Words::EditableRange class
 linktitle: EditableRange
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::EditableRange class. Represents a single editable range. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::EditableRange class. Represents a single editable range. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 24000
 url: /cpp/aspose.words/editablerange/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/editablerange/
 
 
 Represents a single editable range. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class EditableRange : public System::Object

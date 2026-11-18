@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldCitation::set_SuppressTitle(bool value)
 
 ## See Also
 
+* [get_SuppressTitle](../get_suppresstitle/)
+
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

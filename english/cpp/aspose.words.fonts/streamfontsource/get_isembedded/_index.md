@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/streamfontsource/get_isembedded/
 
 
 ```cpp
-_Bool Aspose::Words::Fonts::StreamFontSource::get_IsEmbedded() override
+bool Aspose::Words::Fonts::StreamFontSource::get_IsEmbedded() override
 ```
 
 ## See Also

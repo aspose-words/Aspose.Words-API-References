@@ -32,6 +32,7 @@ ASSERT_EQ(tags->idx_get(2)->get_SdtType(), SdtType::RichText);
 ```
 ## See Also
 
+* Enum [SdtType](../../sdttype/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

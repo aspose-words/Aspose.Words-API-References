@@ -13,7 +13,7 @@ url: /cpp/aspose.words/document/get_hasmacros/
 Returns **true** if the document has a VBA project (macros).
 
 ```cpp
-_Bool Aspose::Words::Document::get_HasMacros()
+bool Aspose::Words::Document::get_HasMacros()
 ```
 
 ## Examples

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldstyleref/get_searchfrombottom/
 Gets or sets whether to search from the bottom of the current page, rather from the top.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldStyleRef::get_SearchFromBottom()
+bool Aspose::Words::Fields::FieldStyleRef::get_SearchFromBottom()
 ```
 
 ## Examples

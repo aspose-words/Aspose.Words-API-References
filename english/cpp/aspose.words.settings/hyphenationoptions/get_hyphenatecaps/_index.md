@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/hyphenationoptions/get_hyphenatecaps/
 Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
 
 ```cpp
-_Bool Aspose::Words::Settings::HyphenationOptions::get_HyphenateCaps() const
+bool Aspose::Words::Settings::HyphenationOptions::get_HyphenateCaps() const
 ```
 
 ## Examples

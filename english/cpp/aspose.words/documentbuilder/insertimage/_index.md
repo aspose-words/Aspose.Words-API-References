@@ -57,6 +57,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -117,6 +118,10 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -172,6 +177,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromByteArray.
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -225,6 +231,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObjec
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -285,6 +292,10 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObjec
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -340,6 +351,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromImageObjec
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -409,6 +421,7 @@ doc->Save(get_ArtifactsDir() + u"Image.FromStream.docx");
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -470,6 +483,10 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.doc
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -526,6 +543,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.doc
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -665,6 +683,7 @@ doc->Save(get_ArtifactsDir() + u"Image.InsertWebpImage.docx");
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -757,6 +776,10 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.d
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -810,6 +833,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromFilename.d
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -879,6 +903,7 @@ doc->Save(get_ArtifactsDir() + u"Image.FromStream.docx");
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -940,6 +965,10 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.doc
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -996,6 +1025,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilderImages.InsertImageFromStream.doc
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

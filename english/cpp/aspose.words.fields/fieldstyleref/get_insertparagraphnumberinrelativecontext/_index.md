@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldstyleref/get_insertparagraphnumberinrelativec
 Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumberInRelativeContext()
+bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumberInRelativeContext()
 ```
 
 ## Examples

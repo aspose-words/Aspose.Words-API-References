@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldCitation::set_FormatLanguageId(const System::St
 
 ## See Also
 
+* [get_FormatLanguageId](../get_formatlanguageid/)
+
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -42,6 +42,8 @@ DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, sig
 ```
 ## See Also
 
+* [get_DecryptionPassword](../get_decryptionpassword/)
+
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

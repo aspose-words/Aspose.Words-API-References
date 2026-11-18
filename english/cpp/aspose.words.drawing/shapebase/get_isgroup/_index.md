@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_isgroup/
 Returns **true** if this is a group shape.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsGroup()
+bool Aspose::Words::Drawing::ShapeBase::get_IsGroup()
 ```
 
 ## See Also

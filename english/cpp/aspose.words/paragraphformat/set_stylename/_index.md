@@ -65,6 +65,8 @@ doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
 ## See Also
 
+* [get_StyleName](../get_stylename/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

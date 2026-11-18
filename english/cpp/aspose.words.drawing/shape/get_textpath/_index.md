@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::TextPath> Aspose::Words::Drawing::Shap
 
 ## See Also
 
+* Class [TextPath](../../textpath/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

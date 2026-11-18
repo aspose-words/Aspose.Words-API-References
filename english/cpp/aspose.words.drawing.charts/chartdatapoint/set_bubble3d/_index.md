@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartDataPoint::set_Bubble3D(bool value) ov
 
 ## See Also
 
+* [get_Bubble3D](../get_bubble3d/)
+
 * Class [ChartDataPoint](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -84,6 +84,7 @@ You can use this method only when [IsBidiTextSupportedOnUpdate](../../../aspose.
 This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
 ## See Also
 
+* Interface [IMailMergeDataSource](../../imailmergedatasource/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -48,6 +48,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.PieOfPieChart.docx");
 ```
 ## See Also
 
+* [get_SecondSectionSize](../get_secondsectionsize/)
+
 * Class [ChartSeriesGroup](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

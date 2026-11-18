@@ -49,6 +49,8 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", 
 ```
 ## See Also
 
+* [get_JpegQuality](../get_jpegquality/)
+
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

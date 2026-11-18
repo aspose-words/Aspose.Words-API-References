@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_AddStartStopChar(bool value)
 
 ## See Also
 
+* [get_AddStartStopChar](../get_addstartstopchar/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

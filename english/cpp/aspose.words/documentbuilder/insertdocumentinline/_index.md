@@ -60,6 +60,10 @@ ASSERT_EQ(dstDoc->get_Document()->GetText().TrimEnd(System::MakeObject<System::A
 ```
 ## See Also
 
+* Class [Node](../../node/)
+* Class [Document](../../document/)
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [ImportFormatOptions](../../importformatoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

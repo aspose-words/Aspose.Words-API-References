@@ -18,6 +18,8 @@ void Aspose::Words::PageSetup::set_SuppressEndnotes(bool value)
 
 ## See Also
 
+* [get_SuppressEndnotes](../get_suppressendnotes/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

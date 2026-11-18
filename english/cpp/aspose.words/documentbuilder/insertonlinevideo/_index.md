@@ -37,8 +37,8 @@ The image node that was just inserted.
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 Insertion of online video from the following resources is supported:
-* https://www.youtube.com/
-* https://vimeo.com/
+* [https://www.youtube.com/](https://www.youtube.com/)
+* [https://vimeo.com/](https://vimeo.com/)
 
 
 If your online video is not displaying correctly, use [InsertOnlineVideo()](./), which accepts custom embedded html code.
@@ -46,6 +46,10 @@ If your online video is not displaying correctly, use [InsertOnlineVideo()](./),
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -81,6 +85,10 @@ The image node that was just inserted.
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -111,6 +119,7 @@ The image node that was just inserted.
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -139,8 +148,8 @@ The image node that was just inserted.
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 Insertion of online video from the following resources is supported:
-* https://www.youtube.com/
-* https://vimeo.com/
+* [https://www.youtube.com/](https://www.youtube.com/)
+* [https://vimeo.com/](https://vimeo.com/)
 
 
 If your online video is not displaying correctly, use [InsertOnlineVideo()](./), which accepts custom embedded html code.
@@ -162,6 +171,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertVideoWithUrl.docx");
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

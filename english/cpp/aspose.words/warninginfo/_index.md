@@ -28,6 +28,7 @@ class WarningInfo : public System::Object
 
 
 You do not create instances of this class. Objects of this class are created and passed by Aspose.Words to the [Warning()](../iwarningcallback/warning/) method.
+[IWarningCallback](../iwarningcallback/)
 ## Examples
 
 

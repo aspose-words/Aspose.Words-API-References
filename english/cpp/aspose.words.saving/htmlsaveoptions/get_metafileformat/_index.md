@@ -70,6 +70,7 @@ switch (htmlMetafileFormat)
 * [ImageResolution](../get_imageresolution/)
 * [ScaleImageToShapeSize](../get_scaleimagetoshapesize/)
 
+* Enum [HtmlMetafileFormat](../../htmlmetafileformat/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

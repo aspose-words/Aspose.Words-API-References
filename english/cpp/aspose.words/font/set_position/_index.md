@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"Font.PositionSubscript.docx");
 ```
 ## See Also
 
+* [get_Position](../get_position/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

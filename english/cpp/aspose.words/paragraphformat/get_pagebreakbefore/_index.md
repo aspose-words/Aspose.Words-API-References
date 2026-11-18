@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_pagebreakbefore/
 True if a page break is forced before the paragraph.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_PageBreakBefore()
+bool Aspose::Words::ParagraphFormat::get_PageBreakBefore()
 ```
 
 ## Examples

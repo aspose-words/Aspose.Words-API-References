@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeBarcode::set_CaseCodeStyle(const System::S
 
 ## See Also
 
+* [get_CaseCodeStyle](../get_casecodestyle/)
+
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

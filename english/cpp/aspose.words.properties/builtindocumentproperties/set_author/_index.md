@@ -60,6 +60,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentProperties.Description.docx");
 ```
 ## See Also
 
+* [get_Author](../get_author/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

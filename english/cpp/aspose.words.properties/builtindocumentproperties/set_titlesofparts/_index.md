@@ -20,6 +20,7 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_TitlesOfParts(con
 
 
 Aspose.Words does not update this property.
+[HeadingPairs](../get_headingpairs/)
 ## Examples
 
 
@@ -51,6 +52,8 @@ while (headingPairsIndex < headingPairs->get_Length())
 }
 ```
 ## See Also
+
+* [get_TitlesOfParts](../get_titlesofparts/)
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)

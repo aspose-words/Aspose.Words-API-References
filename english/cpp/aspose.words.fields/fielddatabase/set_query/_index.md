@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDatabase::set_Query(const System::String & valu
 
 ## See Also
 
+* [get_Query](../get_query/)
+
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -223,7 +223,7 @@ To draw document pages directly onto a Graphics object use [RenderToScale()](./r
 
 To print the document, use one of the Print() methods.
 
-[MailMerge](./get_mailmerge/) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a or an array of values. MailMerge will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
+[MailMerge](./get_mailmerge/) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a or an array of values. [MailMerge](../../aspose.words.mailmerging/mailmerge/) will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
 
 [Document](./) stores document-wide information such as [Styles](../documentbase/get_styles/), [BuiltInDocumentProperties](./get_builtindocumentproperties/), [CustomDocumentProperties](./get_customdocumentproperties/), lists and macros. Most of these objects are accessible via the corresponding properties of the [Document](./).
 

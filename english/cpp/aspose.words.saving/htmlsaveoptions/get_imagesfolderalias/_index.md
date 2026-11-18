@@ -28,6 +28,7 @@ If [ImagesFolderAlias](./) is an empty string, then the image URI written to HTM
 If [ImagesFolderAlias](./) is set to '.' (dot), then the image file name will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct image URIs is to use [ResourceFolderAlias](../get_resourcefolderalias/).
+[ResourceFolderAlias](../get_resourcefolderalias/)[ImagesFolder](../get_imagesfolder/)[ImageSavingCallback](../get_imagesavingcallback/)
 ## Examples
 
 

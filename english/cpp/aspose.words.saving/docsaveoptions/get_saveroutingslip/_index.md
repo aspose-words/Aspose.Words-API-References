@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/docsaveoptions/get_saveroutingslip/
 When **false**, RoutingSlip data is not saved to output document. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip() const
+bool Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip() const
 ```
 
 ## Examples

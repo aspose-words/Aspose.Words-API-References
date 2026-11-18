@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldindex/get_hassequencename/
 Gets a value indicating whether a sequence should be used while the field's result building.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldIndex::get_HasSequenceName()
+bool Aspose::Words::Fields::FieldIndex::get_HasSequenceName()
 ```
 
 ## Examples

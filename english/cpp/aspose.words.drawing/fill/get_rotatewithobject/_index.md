@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/fill/get_rotatewithobject/
 Gets whether the fill rotates with the specified object.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Fill::get_RotateWithObject()
+bool Aspose::Words::Drawing::Fill::get_RotateWithObject()
 ```
 
 ## See Also

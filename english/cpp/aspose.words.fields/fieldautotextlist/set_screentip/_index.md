@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldAutoTextList::set_ScreenTip(const System::Strin
 
 ## See Also
 
+* [get_ScreenTip](../get_screentip/)
+
 * Class [FieldAutoTextList](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

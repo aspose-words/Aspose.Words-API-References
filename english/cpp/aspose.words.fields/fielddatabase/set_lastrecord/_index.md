@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDatabase::set_LastRecord(const System::String &
 
 ## See Also
 
+* [get_LastRecord](../get_lastrecord/)
+
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

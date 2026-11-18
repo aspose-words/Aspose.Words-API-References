@@ -52,6 +52,7 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.CustomColumnWidth.docx");
 ```
 ## See Also
 
+* Class [TextColumn](../../textcolumn/)
 * Class [TextColumnCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

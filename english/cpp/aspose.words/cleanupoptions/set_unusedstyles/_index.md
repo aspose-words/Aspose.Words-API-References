@@ -64,6 +64,8 @@ ASSERT_EQ(doc->get_Styles()->get_Count(), 2);
 ```
 ## See Also
 
+* [get_UnusedStyles](../get_unusedstyles/)
+
 * Class [CleanupOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

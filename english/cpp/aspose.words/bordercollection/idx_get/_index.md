@@ -50,6 +50,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 ## See Also
 
+* Class [Border](../../border/)
+* Enum [BorderType](../../bordertype/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -110,6 +112,7 @@ doc->Save(get_ArtifactsDir() + u"Border.SharedElements.docx");
 ```
 ## See Also
 
+* Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

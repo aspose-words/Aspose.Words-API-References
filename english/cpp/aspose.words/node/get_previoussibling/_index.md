@@ -22,7 +22,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::Node::get_PreviousSibling(
 ## Examples
 
 
-Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
+Shows how to use of methods of [Node](../) and [CompositeNode](../../compositenode/) to remove a section before the last section in the document.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

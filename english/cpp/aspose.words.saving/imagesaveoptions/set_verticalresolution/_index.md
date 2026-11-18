@@ -55,6 +55,8 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.EditImage.png", options);
 ```
 ## See Also
 
+* [get_VerticalResolution](../get_verticalresolution/)
+
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

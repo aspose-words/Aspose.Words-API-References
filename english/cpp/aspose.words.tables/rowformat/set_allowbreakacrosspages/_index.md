@@ -38,6 +38,8 @@ doc->Save(get_ArtifactsDir() + u"Table.AllowBreakAcrossPages.docx");
 ```
 ## See Also
 
+* [get_AllowBreakAcrossPages](../get_allowbreakacrosspages/)
+
 * Class [RowFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

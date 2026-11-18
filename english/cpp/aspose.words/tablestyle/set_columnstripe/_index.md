@@ -69,6 +69,8 @@ doc->Save(get_ArtifactsDir() + u"Table.AlternatingRowStyles.docx");
 ```
 ## See Also
 
+* [get_ColumnStripe](../get_columnstripe/)
+
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

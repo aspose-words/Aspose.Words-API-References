@@ -13,7 +13,7 @@ url: /cpp/aspose.words/cleanupoptions/get_unusedlists/
 Specifies whether unused list and list definitions should be removed from document. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::CleanupOptions::get_UnusedLists() const
+bool Aspose::Words::CleanupOptions::get_UnusedLists() const
 ```
 
 ## Examples

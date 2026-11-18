@@ -47,6 +47,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.ChartLegend.docx");
 ```
 ## See Also
 
+* [get_Position](../get_position/)
+
+* Enum [LegendPosition](../../legendposition/)
 * Class [ChartLegend](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -24,6 +24,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ExportDocumentStructure(bool val
  Note that exporting the document structure significantly increases the memory consumption, especially for the large documents. 
 ## See Also
 
+* [get_ExportDocumentStructure](../get_exportdocumentstructure/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

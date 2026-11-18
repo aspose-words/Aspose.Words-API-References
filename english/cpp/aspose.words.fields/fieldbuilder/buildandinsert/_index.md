@@ -47,6 +47,8 @@ doc->Save(get_ArtifactsDir() + u"Field.CreateWithFieldBuilder.docx");
 ```
 ## See Also
 
+* Class [Field](../../field/)
+* Class [Inline](../../../aspose.words/inline/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -143,6 +145,8 @@ doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
 ## See Also
 
+* Class [Field](../../field/)
+* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

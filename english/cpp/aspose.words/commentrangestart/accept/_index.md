@@ -13,7 +13,7 @@ url: /cpp/aspose.words/commentrangestart/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::CommentRangeStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::CommentRangeStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -32,6 +32,7 @@ Calls [VisitCommentRangeStart()](../../documentvisitor/visitcommentrangestart/).
 For more info see the Visitor design pattern.
 ## See Also
 
+* Class [DocumentVisitor](../../documentvisitor/)
 * Class [CommentRangeStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

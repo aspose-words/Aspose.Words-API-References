@@ -27,7 +27,7 @@ If the extension cannot be recognized, returns [Unknown](../../saveformat/).
 ## Examples
 
 
-Shows how to use the FileFormatUtil methods to detect the format of a document.
+Shows how to use the [FileFormatUtil](../) methods to detect the format of a document.
 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
@@ -60,6 +60,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
 
 ## See Also
 
+* Enum [SaveFormat](../../saveformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

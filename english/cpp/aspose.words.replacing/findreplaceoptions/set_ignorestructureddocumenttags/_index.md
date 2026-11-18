@@ -42,6 +42,8 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.IgnoreStructuredDocumentT
 ```
 ## See Also
 
+* [get_IgnoreStructuredDocumentTags](../get_ignorestructureddocumenttags/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

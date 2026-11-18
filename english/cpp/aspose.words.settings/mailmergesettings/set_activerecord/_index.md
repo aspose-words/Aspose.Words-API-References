@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_ActiveRecord(int32_t value)
 
 ## See Also
 
+* [get_ActiveRecord](../get_activerecord/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

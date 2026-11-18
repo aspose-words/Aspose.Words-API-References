@@ -46,6 +46,7 @@ ASSERT_EQ(digitalSignatures->get_Count(), 1);
 ```
 ## See Also
 
+* Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -110,6 +111,7 @@ ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"DigitalSig
 ```
 ## See Also
 
+* Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -152,6 +154,7 @@ ASSERT_EQ(digitalSignatures->get_Count(), 1);
 ```
 ## See Also
 
+* Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

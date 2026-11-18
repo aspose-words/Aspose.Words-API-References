@@ -56,6 +56,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.SecondaryAxis.docx");
 ```
 ## See Also
 
+* Enum [ChartSeriesType](../../chartseriestype/)
 * Class [ChartSeriesGroup](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

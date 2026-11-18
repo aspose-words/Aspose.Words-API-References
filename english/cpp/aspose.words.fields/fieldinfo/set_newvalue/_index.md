@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"Field.INFO.docx");
 ```
 ## See Also
 
+* [get_NewValue](../get_newvalue/)
+
 * Class [FieldInfo](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

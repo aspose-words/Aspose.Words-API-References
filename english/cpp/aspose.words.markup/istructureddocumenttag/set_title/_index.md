@@ -35,6 +35,8 @@ std::cout << sdt->get_Id() << std::endl;
 ```
 ## See Also
 
+* [get_Title](../get_title/)
+
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

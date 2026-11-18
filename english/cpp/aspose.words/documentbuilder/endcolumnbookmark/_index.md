@@ -81,6 +81,7 @@ doc->Save(get_ArtifactsDir() + u"Bookmarks.CreateColumnBookmark.docx");
 ```
 ## See Also
 
+* Class [BookmarkEnd](../../bookmarkend/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

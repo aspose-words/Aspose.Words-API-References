@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"PclSaveOptions.SetPrinterFont.pcl", saveOptions
 ```
 ## See Also
 
+* [get_FallbackFontName](../get_fallbackfontname/)
+
 * Class [PclSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SpacingInWholePoints(boo
 
 ## See Also
 
+* [get_SpacingInWholePoints](../get_spacinginwholepoints/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

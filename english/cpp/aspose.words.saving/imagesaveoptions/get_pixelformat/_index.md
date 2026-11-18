@@ -26,6 +26,7 @@ The default value is [Format32BppArgb](../../imagepixelformat/).
 Pixel format of the output image may differ from the set value because of work of GDI+.
 ## See Also
 
+* Enum [ImagePixelFormat](../../imagepixelformat/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

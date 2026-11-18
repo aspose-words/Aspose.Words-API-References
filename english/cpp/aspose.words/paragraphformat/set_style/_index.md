@@ -47,6 +47,9 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBullet
 ```
 ## See Also
 
+* [get_Style](../get_style/)
+
+* Class [Style](../../style/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

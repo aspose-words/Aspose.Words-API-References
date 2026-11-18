@@ -28,6 +28,7 @@ static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Wo
 List of page numbers has been considered as blank and removed.
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -52,6 +53,7 @@ static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Wo
 List of page numbers has been considered as blank and removed.
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -99,6 +101,7 @@ static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Wo
 List of page numbers has been considered as blank and removed.
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -123,6 +126,7 @@ static System::SharedPtr<System::Collections::Generic::List<int32_t>> Aspose::Wo
 List of page numbers has been considered as blank and removed.
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

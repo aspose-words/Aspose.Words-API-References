@@ -80,7 +80,7 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
 
-Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+Shows how to add, update and delete child nodes in a [CompositeNode](../compositenode/)'s collection of children.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

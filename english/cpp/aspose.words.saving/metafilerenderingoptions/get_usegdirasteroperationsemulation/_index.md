@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/metafilerenderingoptions/get_usegdirasteroperation
 Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation.
 
 ```cpp
-_Bool Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation() const
+bool Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation() const
 ```
 
 ## Remarks

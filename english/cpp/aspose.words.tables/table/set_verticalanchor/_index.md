@@ -43,6 +43,9 @@ if (table->get_TextWrapping() == TextWrapping::Around)
 ```
 ## See Also
 
+* [get_VerticalAnchor](../get_verticalanchor/)
+
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

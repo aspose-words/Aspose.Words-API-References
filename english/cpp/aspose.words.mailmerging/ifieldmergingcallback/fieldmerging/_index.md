@@ -18,6 +18,7 @@ virtual void Aspose::Words::MailMerging::IFieldMergingCallback::FieldMerging(Sys
 
 ## See Also
 
+* Class [FieldMergingArgs](../../fieldmergingargs/)
 * Interface [IFieldMergingCallback](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

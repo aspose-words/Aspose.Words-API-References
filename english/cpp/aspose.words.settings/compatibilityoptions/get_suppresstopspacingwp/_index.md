@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_suppresstopspacingwp/
 Emulate WordPerfect 5.x Line Spacing.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_SuppressTopSpacingWP()
+bool Aspose::Words::Settings::CompatibilityOptions::get_SuppressTopSpacingWP()
 ```
 
 ## See Also

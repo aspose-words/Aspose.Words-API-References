@@ -19,7 +19,7 @@ void Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::set_Ti
 ## Examples
 
 
-Shows how to sign a document with timestamping using DigitalSignatureUtil.
+Shows how to sign a document with timestamping using [DigitalSignatureUtil](../../digitalsignatureutil/).
 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
@@ -47,6 +47,8 @@ signOptions->set_TimestampSettings(System::MakeObject<Aspose::Words::DigitalSign
 ASPOSE_ASSERT_EQ(signOptions->get_TimestampSettings()->get_Timeout().get_TotalSeconds(), 1800.0);
 ```
 ## See Also
+
+* [get_Timeout](../get_timeout/)
 
 * Class [DigitalSignatureTimestampSettings](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)

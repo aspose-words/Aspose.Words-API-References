@@ -103,6 +103,7 @@ doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

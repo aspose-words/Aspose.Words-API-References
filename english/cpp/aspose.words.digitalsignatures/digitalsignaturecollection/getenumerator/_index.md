@@ -39,6 +39,7 @@ System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> 
 ```
 ## See Also
 
+* Class [DigitalSignature](../../digitalsignature/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/rowformat/get_allowbreakacrosspages/
 True if the text in a table row is allowed to split across a page break.
 
 ```cpp
-_Bool Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages()
+bool Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages()
 ```
 
 ## Examples

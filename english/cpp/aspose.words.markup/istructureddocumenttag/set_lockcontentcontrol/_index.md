@@ -47,6 +47,8 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Lock.docx");
 ```
 ## See Also
 
+* [get_LockContentControl](../get_lockcontentcontrol/)
+
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

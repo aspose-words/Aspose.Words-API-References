@@ -81,6 +81,9 @@ public:
 ```
 ## See Also
 
+* [get_ResourceLoadingCallback](../get_resourceloadingcallback/)
+
+* Interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
 ## See Also
 
+* [get_TotalEditingTime](../get_totaleditingtime/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -46,6 +46,7 @@ ASSERT_EQ(groups->get_Count(), 5);
 ```
 ## See Also
 
+* Enum [Granularity](../../granularity/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

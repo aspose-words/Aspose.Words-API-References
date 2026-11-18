@@ -19,7 +19,7 @@ System::SharedPtr<Aspose::Words::ParagraphFormat> Aspose::Words::DocumentBuilder
 ## Examples
 
 
-Shows how to create a formatted table using DocumentBuilder.
+Shows how to create a formatted table using [DocumentBuilder](../).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -78,6 +78,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateFormattedTable.docx");
 ```
 ## See Also
 
+* Class [ParagraphFormat](../../paragraphformat/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

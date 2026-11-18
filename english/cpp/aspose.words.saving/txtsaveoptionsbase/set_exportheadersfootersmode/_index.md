@@ -77,6 +77,9 @@ switch (txtExportHeadersFootersMode)
 ```
 ## See Also
 
+* [get_ExportHeadersFootersMode](../get_exportheadersfootersmode/)
+
+* Enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
 * Class [TxtSaveOptionsBase](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

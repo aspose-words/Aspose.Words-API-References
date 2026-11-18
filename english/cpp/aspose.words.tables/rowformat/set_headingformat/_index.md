@@ -57,6 +57,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableSetHeadingRow.docx")
 ```
 ## See Also
 
+* [get_HeadingFormat](../get_headingformat/)
+
 * Class [RowFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

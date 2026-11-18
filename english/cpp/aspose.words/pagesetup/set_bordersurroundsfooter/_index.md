@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorder.docx");
 ```
 ## See Also
 
+* [get_BorderSurroundsFooter](../get_bordersurroundsfooter/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

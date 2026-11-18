@@ -57,6 +57,8 @@ else
 ```
 ## See Also
 
+* [get_ExportDropDownFormFieldAsText](../get_exportdropdownformfieldastext/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

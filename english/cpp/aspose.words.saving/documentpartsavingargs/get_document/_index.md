@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Saving::DocumentPartSa
 
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
 * Class [DocumentPartSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

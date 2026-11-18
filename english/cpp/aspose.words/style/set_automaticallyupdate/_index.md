@@ -65,6 +65,8 @@ ASSERT_EQ(firstParagraphStyle->get_Font()->get_Color().ToArgb(), System::Drawing
 ```
 ## See Also
 
+* [get_AutomaticallyUpdate](../get_automaticallyupdate/)
+
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

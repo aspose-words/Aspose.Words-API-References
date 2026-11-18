@@ -18,6 +18,8 @@ void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageFileName(const 
 
 ## See Also
 
+* [get_ImageFileName](../get_imagefilename/)
+
 * Class [ImageFieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

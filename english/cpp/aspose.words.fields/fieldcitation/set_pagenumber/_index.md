@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldCitation::set_PageNumber(const System::String &
 
 ## See Also
 
+* [get_PageNumber](../get_pagenumber/)
+
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

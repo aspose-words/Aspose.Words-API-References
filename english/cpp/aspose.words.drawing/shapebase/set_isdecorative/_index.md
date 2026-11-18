@@ -46,6 +46,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.IsDecorative.docx");
 ```
 ## See Also
 
+* [get_IsDecorative](../get_isdecorative/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

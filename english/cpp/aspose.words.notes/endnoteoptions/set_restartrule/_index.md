@@ -74,6 +74,9 @@ doc->Save(get_ArtifactsDir() + u"InlineStory.NumberingRule.docx");
 ```
 ## See Also
 
+* [get_RestartRule](../get_restartrule/)
+
+* Enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

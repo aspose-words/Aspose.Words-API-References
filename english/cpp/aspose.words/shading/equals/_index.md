@@ -13,7 +13,7 @@ url: /cpp/aspose.words/shading/equals/
 Determines whether the specified object is equal in value to the current object.
 
 ```cpp
-_Bool Aspose::Words::Shading::Equals(System::SharedPtr<System::Object> obj) override
+bool Aspose::Words::Shading::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## See Also
@@ -27,7 +27,7 @@ _Bool Aspose::Words::Shading::Equals(System::SharedPtr<System::Object> obj) over
 Determines whether the specified [Shading](../) is equal in value to the current [Shading](../).
 
 ```cpp
-_Bool Aspose::Words::Shading::Equals(const System::SharedPtr<Aspose::Words::Shading> & rhs)
+bool Aspose::Words::Shading::Equals(const System::SharedPtr<Aspose::Words::Shading> & rhs)
 ```
 
 ## See Also

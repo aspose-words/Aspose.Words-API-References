@@ -13,7 +13,7 @@ url: /cpp/aspose.words/style/get_semihidden/
 Gets/sets whether the style hides from the Styles gallery and from the Styles task pane.
 
 ```cpp
-_Bool Aspose::Words::Style::get_SemiHidden() const
+bool Aspose::Words::Style::get_SemiHidden() const
 ```
 
 ## Examples

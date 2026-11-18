@@ -37,6 +37,8 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ReplaceBackslashWithYenSign.xam
 ```
 ## See Also
 
+* [get_ReplaceBackslashWithYenSign](../get_replacebackslashwithyensign/)
+
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

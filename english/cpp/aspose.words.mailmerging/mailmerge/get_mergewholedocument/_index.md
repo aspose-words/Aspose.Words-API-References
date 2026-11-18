@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mailmerge/get_mergewholedocument/
 Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions.
 
 ```cpp
-_Bool Aspose::Words::MailMerging::MailMerge::get_MergeWholeDocument() const
+bool Aspose::Words::MailMerging::MailMerge::get_MergeWholeDocument() const
 ```
 
 ## Remarks

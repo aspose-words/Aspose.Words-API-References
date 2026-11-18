@@ -15,7 +15,7 @@ Gets or sets a boolean value indicating either it is allowed to replace paragrap
 The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_SmartParagraphBreakReplacement() const
 ```
 
 ## Remarks

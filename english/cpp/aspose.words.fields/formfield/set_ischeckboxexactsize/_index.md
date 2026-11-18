@@ -20,7 +20,10 @@ void Aspose::Words::Fields::FormField::set_IsCheckBoxExactSize(bool value)
 
 
 Applicable for a check box form field only.
+[CheckBoxSize](../get_checkboxsize/)
 ## See Also
+
+* [get_IsCheckBoxExactSize](../get_ischeckboxexactsize/)
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)

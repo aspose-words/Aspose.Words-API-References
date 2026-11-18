@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.IsTemporary.docx");
 ```
 ## See Also
 
+* [get_IsTemporary](../get_istemporary/)
+
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

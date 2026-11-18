@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::Fields::IFieldResultFormatter> & Aspose::
 
 ## See Also
 
+* Interface [IFieldResultFormatter](../../ifieldresultformatter/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -20,6 +20,8 @@ void Aspose::Words::Loading::ResourceLoadingArgs::set_Uri(const System::String &
 
 ## See Also
 
+* [get_Uri](../get_uri/)
+
 * Class [ResourceLoadingArgs](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::Odso::set_UdlConnectString(const System::String & 
 
 ## See Also
 
+* [get_UdlConnectString](../get_udlconnectstring/)
+
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

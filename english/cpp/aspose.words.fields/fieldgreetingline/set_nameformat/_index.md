@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldGreetingLine::set_NameFormat(const System::Stri
 
 ## See Also
 
+* [get_NameFormat](../get_nameformat/)
+
 * Class [FieldGreetingLine](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

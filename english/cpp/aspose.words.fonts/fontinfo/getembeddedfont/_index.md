@@ -52,6 +52,8 @@ System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"Alte DIN 1451 Mittelschri
 ```
 ## See Also
 
+* Enum [EmbeddedFontFormat](../../embeddedfontformat/)
+* Enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

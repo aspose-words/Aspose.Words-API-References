@@ -21,6 +21,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UICompat97To2003(bool va
  Controls the Word97-2003 compatibility setting that disables UI functionality which is not compatible with Word97-2003. When **true**, 'w:uiCompat97To2003' XML element is written to '\word\settings.xml' document package part. Default value is **false**. When set to **false**, this element is not written. Technically this property is not part of compatibility options, but we have put it here for API convenience. 
 ## See Also
 
+* [get_UICompat97To2003](../get_uicompat97to2003/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -25,6 +25,8 @@ virtual void Aspose::Words::IDocumentConverterPlugin::Convert(System::SharedPtr<
 | saveOptions | System::SharedPtr\<Aspose::Words::Saving::SaveOptions\> | The save options. |
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Interface [IDocumentConverterPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

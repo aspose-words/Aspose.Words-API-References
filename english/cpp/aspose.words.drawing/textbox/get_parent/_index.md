@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::Drawing::TextBox
 
 ## See Also
 
+* Class [Shape](../../shape/)
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

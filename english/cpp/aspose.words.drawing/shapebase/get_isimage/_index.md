@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_isimage/
 Returns **true** if this shape is an image shape.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsImage()
+bool Aspose::Words::Drawing::ShapeBase::get_IsImage()
 ```
 
 ## Examples

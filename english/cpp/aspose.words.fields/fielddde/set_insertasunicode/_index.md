@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDde::set_InsertAsUnicode(bool value)
 
 ## See Also
 
+* [get_InsertAsUnicode](../get_insertasunicode/)
+
 * Class [FieldDde](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

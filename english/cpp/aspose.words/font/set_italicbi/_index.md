@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"Font.Bidi.docx");
 ```
 ## See Also
 
+* [get_ItalicBi](../get_italicbi/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/bordercollection/get_shadow/
 Gets or sets a value indicating whether the border has a shadow.
 
 ```cpp
-_Bool Aspose::Words::BorderCollection::get_Shadow()
+bool Aspose::Words::BorderCollection::get_Shadow()
 ```
 
 ## Remarks

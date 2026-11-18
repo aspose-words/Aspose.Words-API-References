@@ -21,6 +21,8 @@ void Aspose::Words::JoinRunsOptions::set_IgnoreSpacing(bool value)
  The default value is False. 
 ## See Also
 
+* [get_IgnoreSpacing](../get_ignorespacing/)
+
 * Class [JoinRunsOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

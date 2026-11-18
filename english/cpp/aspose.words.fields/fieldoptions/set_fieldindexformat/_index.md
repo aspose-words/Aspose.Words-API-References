@@ -19,7 +19,7 @@ void Aspose::Words::Fields::FieldOptions::set_FieldIndexFormat(Aspose::Words::Fi
 ## Examples
 
 
-Shows how to formatting FieldIndex fields.
+Shows how to formatting [FieldIndex](../../fieldindex/) fields.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -38,6 +38,9 @@ doc->Save(get_ArtifactsDir() + u"Field.SetFieldIndexFormat.docx");
 ```
 ## See Also
 
+* [get_FieldIndexFormat](../get_fieldindexformat/)
+
+* Enum [FieldIndexFormat](../../fieldindexformat/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

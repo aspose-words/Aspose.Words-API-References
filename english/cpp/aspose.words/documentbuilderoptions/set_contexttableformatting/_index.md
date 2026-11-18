@@ -48,6 +48,8 @@ doc->Save(get_ArtifactsDir() + u"Table.ContextTableFormatting.docx");
 ```
 ## See Also
 
+* [get_ContextTableFormatting](../get_contexttableformatting/)
+
 * Class [DocumentBuilderOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

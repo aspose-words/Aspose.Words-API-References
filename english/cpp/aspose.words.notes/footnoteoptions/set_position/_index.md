@@ -46,6 +46,9 @@ doc->Save(get_ArtifactsDir() + u"InlineStory.PositionFootnote.docx");
 ```
 ## See Also
 
+* [get_Position](../get_position/)
+
+* Enum [FootnotePosition](../../footnoteposition/)
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

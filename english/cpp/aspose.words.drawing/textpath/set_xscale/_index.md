@@ -24,6 +24,8 @@ The default value is **false**.
 If **true**, the text runs along a path from left to right along the x value of the lower boundary of the shape.
 ## See Also
 
+* [get_XScale](../get_xscale/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

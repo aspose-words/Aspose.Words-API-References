@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToc::set_PreserveLineBreaks(bool value)
 
 ## See Also
 
+* [get_PreserveLineBreaks](../get_preservelinebreaks/)
+
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

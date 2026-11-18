@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Vba::VbaReferenceCollection> Aspose::Words::Vba
 
 ## See Also
 
+* Class [VbaReferenceCollection](../../vbareferencecollection/)
 * Class [VbaProject](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

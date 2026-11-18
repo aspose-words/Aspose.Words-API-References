@@ -28,6 +28,7 @@ class IMailMergeDataSource : public System::Object
 
 
 When a data source is created, it should be initialized to point to BOF (before the first record). The Aspose.Words mail merge engine will invoke [MoveNext](./movenext/) to advance to next record and then invoke [GetValue()](./getvalue/) for every merge field it encounters in the document or the current mail merge region.
+[MailMerge](../mailmerge/)
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)

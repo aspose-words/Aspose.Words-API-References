@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_useword2010tablestyleru
 Specifies to use Word2010 table style rules.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_UseWord2010TableStyleRules()
+bool Aspose::Words::Settings::CompatibilityOptions::get_UseWord2010TableStyleRules()
 ```
 
 ## See Also

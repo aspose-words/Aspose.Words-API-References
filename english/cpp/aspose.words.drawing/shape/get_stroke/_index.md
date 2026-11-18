@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::Stroke> Aspose::Words::Drawing::Shape:
 
 ## See Also
 
+* Class [Stroke](../../stroke/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

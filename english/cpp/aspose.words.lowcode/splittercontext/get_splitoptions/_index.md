@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::LowCode::SplitOptions> & Aspose::Words::L
 
 ## See Also
 
+* Class [SplitOptions](../../splitoptions/)
 * Class [SplitterContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

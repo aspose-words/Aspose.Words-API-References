@@ -18,6 +18,8 @@ void Aspose::Words::LowCode::SplitOptions::set_SplitStyle(const System::String &
 
 ## See Also
 
+* [get_SplitStyle](../get_splitstyle/)
+
 * Class [SplitOptions](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -47,6 +47,7 @@ Aspose::Words::Fields::MergeFieldImageDimension::MergeFieldImageDimension(double
  You should use a negative value to indicate that the original value of the corresponding image dimension should be applied. 
 ## See Also
 
+* Enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * Class [MergeFieldImageDimension](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

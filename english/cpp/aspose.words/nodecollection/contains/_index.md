@@ -13,7 +13,7 @@ url: /cpp/aspose.words/nodecollection/contains/
 Determines whether a node is in the collection.
 
 ```cpp
-_Bool Aspose::Words::NodeCollection::Contains(const System::SharedPtr<Aspose::Words::Node> & node)
+bool Aspose::Words::NodeCollection::Contains(const System::SharedPtr<Aspose::Words::Node> & node)
 ```
 
 
@@ -31,7 +31,7 @@ This method performs a linear search; therefore, the average execution time is p
 ## Examples
 
 
-Shows how to work with a NodeCollection.
+Shows how to work with a [NodeCollection](../).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -64,6 +64,7 @@ ASSERT_FALSE(runs->Contains(run));
 ```
 ## See Also
 
+* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

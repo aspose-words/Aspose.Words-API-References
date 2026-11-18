@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldLink::set_InsertAsHtml(bool value)
 
 ## See Also
 
+* [get_InsertAsHtml](../get_insertashtml/)
+
 * Class [FieldLink](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

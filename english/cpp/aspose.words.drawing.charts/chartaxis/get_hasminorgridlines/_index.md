@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartaxis/get_hasminorgridlines/
 Gets or sets a flag indicating whether the axis has minor gridlines.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartAxis::get_HasMinorGridlines()
+bool Aspose::Words::Drawing::Charts::ChartAxis::get_HasMinorGridlines()
 ```
 
 ## Examples

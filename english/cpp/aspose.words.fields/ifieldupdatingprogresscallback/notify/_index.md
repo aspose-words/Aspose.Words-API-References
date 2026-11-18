@@ -18,6 +18,7 @@ virtual void Aspose::Words::Fields::IFieldUpdatingProgressCallback::Notify(Syste
 
 ## See Also
 
+* Class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * Interface [IFieldUpdatingProgressCallback](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

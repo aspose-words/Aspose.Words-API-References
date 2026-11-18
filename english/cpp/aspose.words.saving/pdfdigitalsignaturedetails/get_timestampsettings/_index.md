@@ -22,6 +22,7 @@ System::SharedPtr<Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings> A
 The default value is **null** and the digital signature will not be time-stamped. When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/) object, then the digital signature in the PDF document will be time-stamped.
 ## See Also
 
+* Class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

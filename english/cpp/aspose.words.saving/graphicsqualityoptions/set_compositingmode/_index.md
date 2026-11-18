@@ -18,6 +18,8 @@ void Aspose::Words::Saving::GraphicsQualityOptions::set_CompositingMode(System::
 
 ## See Also
 
+* [get_CompositingMode](../get_compositingmode/)
+
 * Class [GraphicsQualityOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

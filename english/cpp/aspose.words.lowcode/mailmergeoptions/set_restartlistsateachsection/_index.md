@@ -21,6 +21,8 @@ void Aspose::Words::LowCode::MailMergeOptions::set_RestartListsAtEachSection(boo
  The default value is **true**. 
 ## See Also
 
+* [get_RestartListsAtEachSection](../get_restartlistsateachsection/)
+
 * Class [MailMergeOptions](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

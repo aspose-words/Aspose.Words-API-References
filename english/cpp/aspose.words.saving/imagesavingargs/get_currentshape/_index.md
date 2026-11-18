@@ -26,6 +26,7 @@ Aspose.Words uses the document file name and a unique number to generate unique 
 Some images in the document can be unavailable. To check image availability use the [IsImageAvailable](../get_isimageavailable/) property.
 ## See Also
 
+* Class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * Class [ImageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

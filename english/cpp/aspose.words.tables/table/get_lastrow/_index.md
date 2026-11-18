@@ -40,6 +40,7 @@ ASSERT_EQ(tables->idx_get(1)->get_Rows()->get_Count(), 2);
 ```
 ## See Also
 
+* Class [Row](../../row/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

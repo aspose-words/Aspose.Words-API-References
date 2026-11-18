@@ -18,6 +18,7 @@ Aspose::Words::NodeChangingAction Aspose::Words::NodeChangingArgs::get_Action() 
 
 ## See Also
 
+* Enum [NodeChangingAction](../../nodechangingaction/)
 * Class [NodeChangingArgs](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

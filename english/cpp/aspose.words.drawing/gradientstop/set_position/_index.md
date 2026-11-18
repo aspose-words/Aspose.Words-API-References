@@ -69,6 +69,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.GradientStops.docx", saveOptions);
 ```
 ## See Also
 
+* [get_Position](../get_position/)
+
 * Class [GradientStop](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

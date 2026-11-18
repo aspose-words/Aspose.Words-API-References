@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::BuildingBlocks::BuildingBlock::get_NodeTy
 
 ## See Also
 
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

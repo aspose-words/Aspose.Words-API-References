@@ -76,6 +76,7 @@ Note that when [MailMerge](./) object encounters a NEXT field, it selects next r
 Use [ExecuteWithRegions()](./executewithregions/) and other overloads to merge information into a document with mail merge regions defined. You can use as data sources for this operation.
 
 You need to use mail merge regions if you want to dynamically grow portions inside the document. Without mail merge regions whole document will be repeated for every record of the data source.
+[Document](../../aspose.words/document/)[MailMerge](../../aspose.words/document/get_mailmerge/)
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)

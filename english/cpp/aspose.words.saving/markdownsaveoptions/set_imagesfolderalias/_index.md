@@ -26,6 +26,7 @@ If [ImagesFolderAlias](../get_imagesfolderalias/) is not an empty string, then t
 If [ImagesFolderAlias](../get_imagesfolderalias/) is an empty string, then the image URI written to Markdown will be ImagesFolder + <image file name>.
 
 If [ImagesFolderAlias](../get_imagesfolderalias/) is set to '.' (dot), then the image file name will be written to Markdown without path regardless of other options.
+[ImagesFolder](../get_imagesfolder/)[ImageSavingCallback](../get_imagesavingcallback/)
 ## Examples
 
 
@@ -49,6 +50,8 @@ saveOptions->set_ImagesFolderAlias(u"http://example.com/images");
 builder->get_Document()->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ImagesFolder.md", saveOptions);
 ```
 ## See Also
+
+* [get_ImagesFolderAlias](../get_imagesfolderalias/)
 
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

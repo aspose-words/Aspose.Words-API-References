@@ -48,6 +48,7 @@ To create a new list, use the Add methods of the [ListCollection](../listcollect
 To modify formatting of a list, use [ListLevel](../listlevel/) objects found in the [ListLevels](./get_listlevels/) collection.
 
 To apply or remove list formatting from a paragraph, use [ListFormat](../listformat/).
+[ListCollection](../listcollection/)[ListLevel](../listlevel/)[ListFormat](../listformat/)
 ## Examples
 
 
@@ -99,7 +100,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

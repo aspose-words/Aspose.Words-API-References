@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_smallcaps/
 True if the font is formatted as small capital letters.
 
 ```cpp
-_Bool Aspose::Words::Font::get_SmallCaps()
+bool Aspose::Words::Font::get_SmallCaps()
 ```
 
 ## Examples

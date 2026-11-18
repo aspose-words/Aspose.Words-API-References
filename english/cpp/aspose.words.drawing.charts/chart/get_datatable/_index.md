@@ -52,6 +52,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
 ```
 ## See Also
 
+* Class [ChartDataTable](../../chartdatatable/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

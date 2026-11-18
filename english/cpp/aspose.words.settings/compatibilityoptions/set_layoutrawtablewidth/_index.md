@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_LayoutRawTableWidth(bool
 
 ## See Also
 
+* [get_LayoutRawTableWidth](../get_layoutrawtablewidth/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergeoptions/get_preserveunusedtags/
 Gets or sets a value indicating whether the unused "mustache" tags should be preserved.
 
 ```cpp
-_Bool Aspose::Words::LowCode::MailMergeOptions::get_PreserveUnusedTags() const
+bool Aspose::Words::LowCode::MailMergeOptions::get_PreserveUnusedTags() const
 ```
 
 ## Remarks

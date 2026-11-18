@@ -66,6 +66,8 @@ else
 ```
 ## See Also
 
+* [get_DetectNumberingWithWhitespaces](../get_detectnumberingwithwhitespaces/)
+
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

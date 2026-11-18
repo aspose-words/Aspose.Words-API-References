@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_hidden/
 True if the font is formatted as hidden text.
 
 ```cpp
-_Bool Aspose::Words::Font::get_Hidden()
+bool Aspose::Words::Font::get_Hidden()
 ```
 
 ## Examples

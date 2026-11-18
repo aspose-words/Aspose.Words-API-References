@@ -38,6 +38,8 @@ pageSetup->set_HeadingLevelForChapter(1);
 ```
 ## See Also
 
+* [get_HeadingLevelForChapter](../get_headinglevelforchapter/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

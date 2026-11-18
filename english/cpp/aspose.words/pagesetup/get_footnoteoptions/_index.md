@@ -49,6 +49,7 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.FootnoteOptions.docx");
 ```
 ## See Also
 
+* Class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

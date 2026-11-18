@@ -26,6 +26,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ExportParagraphGraphicsToArtifac
  This value is ignored when [ExportDocumentStructure](../get_exportdocumentstructure/) is **false**. 
 ## See Also
 
+* [get_ExportParagraphGraphicsToArtifact](../get_exportparagraphgraphicstoartifact/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

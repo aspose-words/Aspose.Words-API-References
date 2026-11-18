@@ -92,6 +92,7 @@ ASSERT_EQ(variables->get_Count(), 0);
 ```
 ## See Also
 
+* Class [VariableCollection](../../variablecollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

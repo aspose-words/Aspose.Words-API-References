@@ -43,6 +43,7 @@ ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Para
 ```
 ## See Also
 
+* Enum [DocumentDirection](../../documentdirection/)
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

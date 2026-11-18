@@ -43,6 +43,8 @@ doc->Save(get_ArtifactsDir() + u"Bookmarks.Insert.docx");
 ```
 ## See Also
 
+* [get_Name](../get_name/)
+
 * Class [Bookmark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

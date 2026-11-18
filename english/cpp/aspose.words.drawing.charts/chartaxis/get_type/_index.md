@@ -18,6 +18,7 @@ Aspose::Words::Drawing::Charts::ChartAxisType Aspose::Words::Drawing::Charts::Ch
 
 ## See Also
 
+* Enum [ChartAxisType](../../chartaxistype/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

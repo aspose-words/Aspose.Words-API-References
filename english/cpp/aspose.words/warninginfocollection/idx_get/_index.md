@@ -36,6 +36,7 @@ ASSERT_EQ(warnings->get_Count(), 1);
 ```
 ## See Also
 
+* Class [WarningInfo](../../warninginfo/)
 * Class [WarningInfoCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

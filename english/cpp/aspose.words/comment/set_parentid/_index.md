@@ -18,6 +18,8 @@ void Aspose::Words::Comment::set_ParentId(int32_t value)
 
 ## See Also
 
+* [get_ParentId](../get_parentid/)
+
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

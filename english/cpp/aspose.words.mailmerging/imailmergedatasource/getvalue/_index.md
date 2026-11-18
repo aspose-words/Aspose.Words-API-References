@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/imailmergedatasource/getvalue/
 Returns a value for the specified field name or **false** if the field is not found.
 
 ```cpp
-virtual _Bool Aspose::Words::MailMerging::IMailMergeDataSource::GetValue(System::String fieldName, System::SharedPtr<System::Object> & fieldValue)
+virtual bool Aspose::Words::MailMerging::IMailMergeDataSource::GetValue(System::String fieldName, System::SharedPtr<System::Object> & fieldValue)
 ```
 
 

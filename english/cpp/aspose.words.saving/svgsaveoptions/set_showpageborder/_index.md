@@ -34,6 +34,8 @@ doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.SaveLikeImage.svg", options);
 ```
 ## See Also
 
+* [get_ShowPageBorder](../get_showpageborder/)
+
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

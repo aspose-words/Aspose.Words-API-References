@@ -21,6 +21,8 @@ void Aspose::Words::MailMerging::MailMerge::set_RetainFirstSectionStart(bool val
  The default value is **true**. 
 ## See Also
 
+* [get_RetainFirstSectionStart](../get_retainfirstsectionstart/)
+
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

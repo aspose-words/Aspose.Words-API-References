@@ -70,6 +70,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.DateTimeValues.docx");
 ```
 ## See Also
 
+* [get_BaseTimeUnit](../get_basetimeunit/)
+
+* Enum [AxisTimeUnit](../../axistimeunit/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

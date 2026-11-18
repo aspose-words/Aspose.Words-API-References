@@ -24,7 +24,7 @@ void Aspose::Words::DocumentBuilder::MoveToStructuredDocumentTag(const System::S
 ## Examples
 
 
-Shows how to move cursor of DocumentBuilder inside a structured document tag.
+Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
@@ -52,6 +52,7 @@ doc->Save(get_ArtifactsDir() + u"Document.MoveToStructuredDocumentTag.docx");
 ```
 ## See Also
 
+* Class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -78,7 +79,7 @@ When structuredDocumentTagIndex is greater than or equal to 0, it specifies an i
 ## Examples
 
 
-Shows how to move cursor of DocumentBuilder inside a structured document tag.
+Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));

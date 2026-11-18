@@ -50,6 +50,7 @@ for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph
 ```
 ## See Also
 
+* Class [ListFormat](../../../aspose.words.lists/listformat/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

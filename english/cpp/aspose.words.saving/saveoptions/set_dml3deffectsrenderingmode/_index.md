@@ -21,6 +21,9 @@ void Aspose::Words::Saving::SaveOptions::set_Dml3DEffectsRenderingMode(Aspose::W
  The default value is [Basic](../../dml3deffectsrenderingmode/). 
 ## See Also
 
+* [get_Dml3DEffectsRenderingMode](../get_dml3deffectsrenderingmode/)
+
+* Enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

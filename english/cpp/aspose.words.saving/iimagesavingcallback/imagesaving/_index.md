@@ -18,6 +18,7 @@ virtual void Aspose::Words::Saving::IImageSavingCallback::ImageSaving(System::Sh
 
 ## See Also
 
+* Class [ImageSavingArgs](../../imagesavingargs/)
 * Interface [IImageSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

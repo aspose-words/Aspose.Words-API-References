@@ -29,6 +29,9 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Corrupted
 ```
 ## See Also
 
+* [get_RecoveryMode](../get_recoverymode/)
+
+* Enum [DocumentRecoveryMode](../../documentrecoverymode/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

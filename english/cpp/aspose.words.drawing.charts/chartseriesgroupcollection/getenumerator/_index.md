@@ -18,6 +18,7 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 ## See Also
 
+* Class [ChartSeriesGroup](../../chartseriesgroup/)
 * Class [ChartSeriesGroupCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

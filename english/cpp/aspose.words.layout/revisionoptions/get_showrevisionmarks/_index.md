@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/revisionoptions/get_showrevisionmarks/
 Allow to specify whether revision text should be marked with special formatting markup. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks() const
+bool Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks() const
 ```
 
 ## Examples

@@ -48,6 +48,9 @@ ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Nod
 ```
 ## See Also
 
+* [get_SaveFormat](../get_saveformat/)
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

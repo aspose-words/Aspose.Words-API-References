@@ -24,6 +24,7 @@ The preferred width (along with the table's Auto Fit option) determines how the 
 The preferred width can be specified in points or in percent. The preferred width can also be specified as "auto", which means no preferred width is specified.
 
 The default value is [Auto](../../preferredwidth/auto/).
+[Width](../get_width/)
 ## Examples
 
 
@@ -62,6 +63,9 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCellsWithPreferredWidths.
 ```
 ## See Also
 
+* [get_PreferredWidth](../get_preferredwidth/)
+
+* Class [PreferredWidth](../../preferredwidth/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

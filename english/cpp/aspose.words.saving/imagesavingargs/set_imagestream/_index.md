@@ -24,7 +24,10 @@ This property allows you to save images to streams instead of files during HTML.
 The default value is **null**. When this property is **null**, the image will be saved to a file specified in the [ImageFileName](../get_imagefilename/) property.
 
 Using [IImageSavingCallback](../../iimagesavingcallback/) you cannot substitute one image with another. It is intended only for control over location where to save images.
+[ImageFileName](../get_imagefilename/)[KeepImageStreamOpen](../get_keepimagestreamopen/)
 ## See Also
+
+* [get_ImageStream](../get_imagestream/)
 
 * Class [ImageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
@@ -46,7 +49,10 @@ This property allows you to save images to streams instead of files during HTML.
 The default value is **null**. When this property is **null**, the image will be saved to a file specified in the [ImageFileName](../get_imagefilename/) property.
 
 Using [IImageSavingCallback](../../iimagesavingcallback/) you cannot substitute one image with another. It is intended only for control over location where to save images.
+[ImageFileName](../get_imagefilename/)[KeepImageStreamOpen](../get_keepimagestreamopen/)
 ## See Also
+
+* [get_ImageStream](../get_imagestream/)
 
 * Class [ImageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

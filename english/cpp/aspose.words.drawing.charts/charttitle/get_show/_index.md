@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/charttitle/get_show/
 Determines whether the title shall be shown for this chart. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartTitle::get_Show()
+bool Aspose::Words::Drawing::Charts::ChartTitle::get_Show()
 ```
 
 ## Examples

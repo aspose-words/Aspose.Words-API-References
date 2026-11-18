@@ -22,6 +22,7 @@ int32_t Aspose::Words::Lists::ListFormat::get_ListLevelNumber()
 In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
 
 Has effect only when the [List](../get_list/) property is set to reference a valid list.
+[List](../get_list/)
 ## Examples
 
 

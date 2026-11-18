@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.LineNumbers.docx");
 ```
 ## See Also
 
+* [get_LineNumberDistanceFromText](../get_linenumberdistancefromtext/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

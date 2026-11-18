@@ -41,6 +41,7 @@ ASSERT_EQ(doc->GetText().Trim(), u"Section 2.");
 ```
 ## See Also
 
+* Class [Range](../../range/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

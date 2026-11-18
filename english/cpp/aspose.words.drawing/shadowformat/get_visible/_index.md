@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shadowformat/get_visible/
 Returns **true** if the formatting applied to this instance is visible.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShadowFormat::get_Visible()
+bool Aspose::Words::Drawing::ShadowFormat::get_Visible()
 ```
 
 ## Remarks

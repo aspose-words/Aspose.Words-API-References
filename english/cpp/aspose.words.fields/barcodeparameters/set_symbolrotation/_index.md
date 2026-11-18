@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_SymbolRotation(const System::
 
 ## See Also
 
+* [get_SymbolRotation](../get_symbolrotation/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

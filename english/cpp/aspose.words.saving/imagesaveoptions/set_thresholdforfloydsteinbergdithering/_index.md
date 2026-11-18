@@ -46,6 +46,8 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.FloydSteinbergDithering.tiff",
 ```
 ## See Also
 
+* [get_ThresholdForFloydSteinbergDithering](../get_thresholdforfloydsteinbergdithering/)
+
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

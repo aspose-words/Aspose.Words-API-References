@@ -42,6 +42,7 @@ class WarningInfoCollection : public IWarningCallback,
 
 
 You can use this collection object as the simplest form of [IWarningCallback](../iwarningcallback/) implementation to gather all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it to the [WarningCallback](../../aspose.words.loading/loadoptions/get_warningcallback/) or [WarningCallback](../documentbase/get_warningcallback/) property.
+[WarningInfo](../warninginfo/)[IWarningCallback](../iwarningcallback/)
 ## Examples
 
 

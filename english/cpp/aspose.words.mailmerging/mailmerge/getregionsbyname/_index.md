@@ -26,6 +26,7 @@ System::SharedPtr<System::Collections::Generic::IList<System::SharedPtr<Aspose::
 The list of regions.
 ## See Also
 
+* Class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

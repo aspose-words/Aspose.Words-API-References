@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_useantialiasing/
 Gets or sets a value determining whether or not to use anti-aliasing for rendering.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing() const
+bool Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing() const
 ```
 
 ## Remarks
@@ -25,7 +25,7 @@ This property is used when the document is exported to the following formats: [T
 ## Examples
 
 
-Shows how to improve the quality of a rendered document with SaveOptions.
+Shows how to improve the quality of a rendered document with [SaveOptions](../).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));

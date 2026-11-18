@@ -22,7 +22,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::CompositeNode::get_LastChi
 ## Examples
 
 
-Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
+Shows how to use of methods of [Node](../../node/) and [CompositeNode](../) to remove a section before the last section in the document.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -47,6 +47,7 @@ ASSERT_EQ(doc->GetText().Trim(), u"Section 2 text.");
 ```
 ## See Also
 
+* Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

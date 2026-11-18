@@ -38,6 +38,8 @@ doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.IdPrefixSvg.html", saveOptions);
 
 ## See Also
 
+* [get_IdPrefix](../get_idprefix/)
+
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

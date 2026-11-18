@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::BookmarkEnd::get_NodeType() const overrid
 
 ## See Also
 
+* Enum [NodeType](../../nodetype/)
 * Class [BookmarkEnd](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

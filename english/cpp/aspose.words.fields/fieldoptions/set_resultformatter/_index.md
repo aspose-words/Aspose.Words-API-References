@@ -18,6 +18,9 @@ void Aspose::Words::Fields::FieldOptions::set_ResultFormatter(const System::Shar
 
 ## See Also
 
+* [get_ResultFormatter](../get_resultformatter/)
+
+* Interface [IFieldResultFormatter](../../ifieldresultformatter/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

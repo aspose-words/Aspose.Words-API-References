@@ -13,7 +13,7 @@ url: /cpp/aspose.words/irevisioncriteria/ismatch/
 Checks whether or not specified revision matches criteria.
 
 ```cpp
-virtual _Bool Aspose::Words::IRevisionCriteria::IsMatch(System::SharedPtr<Aspose::Words::Revision> revision)
+virtual bool Aspose::Words::IRevisionCriteria::IsMatch(System::SharedPtr<Aspose::Words::Revision> revision)
 ```
 
 
@@ -29,6 +29,7 @@ virtual _Bool Aspose::Words::IRevisionCriteria::IsMatch(System::SharedPtr<Aspose
  The method implementation should not accept/reject the revision or modify it in any way due to unexpected results. 
 ## See Also
 
+* Class [Revision](../../revision/)
 * Interface [IRevisionCriteria](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

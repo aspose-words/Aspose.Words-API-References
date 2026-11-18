@@ -15,7 +15,7 @@ Specifies whether the content of this structured document tag shall be interpret
  if set to **true**, this state shall be resumed (showing placeholder text) upon opening this document.
 
 ```cpp
-_Bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText() override
+bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText() override
 ```
 
 ## Examples

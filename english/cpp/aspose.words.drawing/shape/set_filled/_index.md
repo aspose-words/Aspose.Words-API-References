@@ -24,6 +24,8 @@ This is a shortcut to the [Visible](../../fill/get_visible/) property.
 The default value is **true**.
 ## See Also
 
+* [get_Filled](../get_filled/)
+
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

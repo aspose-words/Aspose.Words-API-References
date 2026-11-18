@@ -22,7 +22,7 @@ const System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureTimest
 ## Examples
 
 
-Shows how to sign a document with timestamping using DigitalSignatureUtil.
+Shows how to sign a document with timestamping using [DigitalSignatureUtil](../../digitalsignatureutil/).
 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
@@ -51,6 +51,7 @@ ASPOSE_ASSERT_EQ(signOptions->get_TimestampSettings()->get_Timeout().get_TotalSe
 ```
 ## See Also
 
+* Class [DigitalSignatureTimestampSettings](../../digitalsignaturetimestampsettings/)
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

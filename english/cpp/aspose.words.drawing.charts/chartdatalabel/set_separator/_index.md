@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartDataLabel::set_Separator(const System:
 
 ## See Also
 
+* [get_Separator](../get_separator/)
+
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

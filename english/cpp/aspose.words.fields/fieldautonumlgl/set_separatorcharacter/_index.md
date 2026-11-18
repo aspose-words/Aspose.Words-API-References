@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldAutoNumLgl::set_SeparatorCharacter(const System
 
 ## See Also
 
+* [get_SeparatorCharacter](../get_separatorcharacter/)
+
 * Class [FieldAutoNumLgl](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -49,9 +49,11 @@ std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeTy
 ```
 ## Exceptions
 
-* InvalidOperationException - Throw if BuildingBlock with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) is not present in [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/).
+* InvalidOperationException - Throw if [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) is not present in [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/).
 
 ## See Also
+
+* [get_PlaceholderName](../get_placeholdername/)
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)

@@ -63,6 +63,8 @@ else
 ```
 ## See Also
 
+* [get_ExportCidUrlsForMhtmlResources](../get_exportcidurlsformhtmlresources/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

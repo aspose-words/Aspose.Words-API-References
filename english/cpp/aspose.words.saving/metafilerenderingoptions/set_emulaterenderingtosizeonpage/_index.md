@@ -30,6 +30,8 @@ This option is used only when metafile is rendered as vector graphics.
 The default value is **true**.
 ## See Also
 
+* [get_EmulateRenderingToSizeOnPage](../get_emulaterenderingtosizeonpage/)
+
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

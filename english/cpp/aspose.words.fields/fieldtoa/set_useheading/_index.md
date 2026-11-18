@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToa::set_UseHeading(bool value)
 
 ## See Also
 
+* [get_UseHeading](../get_useheading/)
+
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

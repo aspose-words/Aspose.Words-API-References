@@ -18,6 +18,8 @@ void Aspose::Words::Settings::OdsoRecipientData::set_Hash(int32_t value)
 
 ## See Also
 
+* [get_Hash](../get_hash/)
+
 * Class [OdsoRecipientData](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

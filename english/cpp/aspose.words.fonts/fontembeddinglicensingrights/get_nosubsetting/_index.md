@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontembeddinglicensingrights/get_nosubsetting/
 Indicates the "No subsetting" restriction.
 
 ```cpp
-_Bool Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_NoSubsetting() const
+bool Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_NoSubsetting() const
 ```
 
 ## Remarks
@@ -22,7 +22,7 @@ _Bool Aspose::Words::Fonts::FontEmbeddingLicensingRights::get_NoSubsetting() con
 ## Examples
 
 
-Shows how to get license rights information for embedded fonts (FontInfo).
+Shows how to get license rights information for embedded fonts ([FontInfo](../../fontinfo/)).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font rights.docx"));

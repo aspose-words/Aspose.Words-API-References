@@ -87,6 +87,8 @@ ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
 ## See Also
 
+* [get_IsVisible](../get_isvisible/)
+
 * Class [TaskPane](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

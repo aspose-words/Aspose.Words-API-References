@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraph/get_islistitem/
 True when the paragraph is an item in a bulleted or numbered list in original revision.
 
 ```cpp
-_Bool Aspose::Words::Paragraph::get_IsListItem()
+bool Aspose::Words::Paragraph::get_IsListItem()
 ```
 
 ## Examples

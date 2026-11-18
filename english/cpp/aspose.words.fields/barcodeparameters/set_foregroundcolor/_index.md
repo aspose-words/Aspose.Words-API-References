@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_ForegroundColor(const System:
 
 ## See Also
 
+* [get_ForegroundColor](../get_foregroundcolor/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

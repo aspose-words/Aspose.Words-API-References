@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDatabase::set_Connection(const System::String &
 
 ## See Also
 
+* [get_Connection](../get_connection/)
+
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldTC::set_EntryLevel(const System::String & value
 
 ## See Also
 
+* [get_EntryLevel](../get_entrylevel/)
+
 * Class [FieldTC](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

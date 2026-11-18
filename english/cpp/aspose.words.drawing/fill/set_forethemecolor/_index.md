@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/fill/set_forethemecolor/
 ## Fill::set_ForeThemeColor method
 
 
-Sets a ThemeColor object that represents the foreground color for the fill.
+Sets a [ThemeColor](../../../aspose.words.themes/themecolor/) object that represents the foreground color for the fill.
 
 ```cpp
 void Aspose::Words::Drawing::Fill::set_ForeThemeColor(Aspose::Words::Themes::ThemeColor value)
@@ -41,6 +41,9 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillThemeColor.docx");
 ```
 ## See Also
 
+* [get_ForeThemeColor](../get_forethemecolor/)
+
+* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

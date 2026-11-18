@@ -13,7 +13,7 @@ url: /cpp/aspose.words.framesets/framesetcollection/iterator_holder_type/
 A collection type whose iterator types is used as iterator types in the current collection.
 
 ```cpp
-using Aspose::Words::Framesets::FramesetCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Framesets::Frameset> >
+using Aspose::Words::Framesets::FramesetCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Framesets::Frameset>>
 ```
 
 ## See Also

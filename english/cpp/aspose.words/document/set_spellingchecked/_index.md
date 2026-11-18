@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"Document.SpellingOrGrammar.docx");
 ```
 ## See Also
 
+* [get_SpellingChecked](../get_spellingchecked/)
+
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

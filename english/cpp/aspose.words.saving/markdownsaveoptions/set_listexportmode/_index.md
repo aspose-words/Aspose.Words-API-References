@@ -37,6 +37,9 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ListExportMode.md", options
 ```
 ## See Also
 
+* [get_ListExportMode](../get_listexportmode/)
+
+* Enum [MarkdownListExportMode](../../markdownlistexportmode/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

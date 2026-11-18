@@ -26,7 +26,7 @@ A field for the field char.
 ## Examples
 
 
-Shows how to work with a FieldStart node.
+Shows how to work with a [FieldStart](../../fieldstart/) node.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -53,6 +53,7 @@ field->Update();
 ```
 ## See Also
 
+* Class [Field](../../field/)
 * Class [FieldChar](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

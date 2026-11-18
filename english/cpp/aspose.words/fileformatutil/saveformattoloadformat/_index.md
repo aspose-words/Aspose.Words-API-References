@@ -37,6 +37,8 @@ ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([]() -> void
 
 ## See Also
 
+* Enum [LoadFormat](../../loadformat/)
+* Enum [SaveFormat](../../saveformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -46,6 +46,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.TickLabelsOrientationRotation.docx");
 ```
 ## See Also
 
+* Enum [ShapeTextOrientation](../../../aspose.words.drawing/shapetextorientation/)
 * Class [AxisTickLabels](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

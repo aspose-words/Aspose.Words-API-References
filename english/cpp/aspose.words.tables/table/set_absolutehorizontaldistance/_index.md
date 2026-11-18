@@ -49,6 +49,8 @@ doc->Save(get_ArtifactsDir() + u"Table.ChangeFloatingTableProperties.docx");
 ```
 ## See Also
 
+* [get_AbsoluteHorizontalDistance](../get_absolutehorizontaldistance/)
+
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

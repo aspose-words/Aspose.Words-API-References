@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_ApplyBreakingRules(bool 
 
 ## See Also
 
+* [get_ApplyBreakingRules](../get_applybreakingrules/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

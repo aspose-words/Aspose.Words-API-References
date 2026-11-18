@@ -24,6 +24,8 @@ If the [OwnStatus](../get_ownstatus/) property is set to **true**, the [StatusTe
  Microsoft Word allows strings with at most 138 characters.
 ## See Also
 
+* [get_StatusText](../get_statustext/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

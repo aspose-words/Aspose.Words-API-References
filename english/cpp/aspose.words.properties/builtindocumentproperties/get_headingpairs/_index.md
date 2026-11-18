@@ -26,6 +26,7 @@ The first element of the pair is a String and specifies the heading name. The se
 The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [TitlesOfParts](../get_titlesofparts/) property.
 
 Aspose.Words does not update this property.
+[TitlesOfParts](../get_titlesofparts/)
 ## Examples
 
 

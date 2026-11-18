@@ -50,6 +50,8 @@ multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -96,6 +98,8 @@ multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

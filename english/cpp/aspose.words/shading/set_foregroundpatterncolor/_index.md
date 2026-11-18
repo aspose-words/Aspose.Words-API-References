@@ -42,6 +42,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 ## See Also
 
+* [get_ForegroundPatternColor](../get_foregroundpatterncolor/)
+
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

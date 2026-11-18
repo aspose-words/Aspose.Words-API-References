@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/signatureline/get_defaultinstructions/
 Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::SignatureLine::get_DefaultInstructions()
+bool Aspose::Words::Drawing::SignatureLine::get_DefaultInstructions()
 ```
 
 ## Examples

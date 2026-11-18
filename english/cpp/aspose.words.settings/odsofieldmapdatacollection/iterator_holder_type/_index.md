@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/odsofieldmapdatacollection/iterator_holder_type/
 A collection type whose iterator types is used as iterator types in the current collection.
 
 ```cpp
-using Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Settings::OdsoFieldMapData> >
+using Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Settings::OdsoFieldMapData>>
 ```
 
 ## See Also

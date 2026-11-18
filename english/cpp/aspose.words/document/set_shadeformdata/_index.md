@@ -34,6 +34,8 @@ doc->Save(get_ArtifactsDir() + u"Document.ShadeFormData.docx");
 ```
 ## See Also
 
+* [get_ShadeFormData](../get_shadeformdata/)
+
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

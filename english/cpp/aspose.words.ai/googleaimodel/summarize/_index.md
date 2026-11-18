@@ -18,6 +18,8 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::GoogleAiModel::Sum
 
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [GoogleAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -32,6 +34,8 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::GoogleAiModel::Sum
 
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [GoogleAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

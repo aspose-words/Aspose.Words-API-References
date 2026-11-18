@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartSeries::set_InvertIfNegative(bool valu
 
 ## See Also
 
+* [get_InvertIfNegative](../get_invertifnegative/)
+
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

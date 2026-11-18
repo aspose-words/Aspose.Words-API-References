@@ -21,6 +21,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UsePrinterMetrics(bool v
  Printer Metrics may differ depending on drivers used. For instance, Windows "Microsoft OpenXPS Class Driver 2" and "Microsoft Print to PDF" provide slightly different metrics. Therefore, the final document's layout may change if this option is enabled. 
 ## See Also
 
+* [get_UsePrinterMetrics](../get_useprintermetrics/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

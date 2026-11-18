@@ -22,6 +22,7 @@ System::ArrayPtr<uint8_t> Aspose::Words::Drawing::ImageData::get_ImageBytes()
 Setting the value to **null** or an empty array will remove the image from the shape.
 
 Returns **null** if the image is not stored in the document (e.g the image is probably linked in this case).
+[SetImage()](../setimage/)[ToByteArray](../tobytearray/)[ToImage](../toimage/)[ToStream](../tostream/)[Save()](../save/)
 ## Examples
 
 

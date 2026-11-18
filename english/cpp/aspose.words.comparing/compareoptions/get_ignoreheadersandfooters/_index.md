@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignoreheadersandfooters/
 True indicates that headers and footers content is ignored.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreHeadersAndFooters() const
+bool Aspose::Words::Comparing::CompareOptions::get_IgnoreHeadersAndFooters() const
 ```
 
 ## Remarks

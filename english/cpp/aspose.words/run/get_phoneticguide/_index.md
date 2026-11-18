@@ -32,6 +32,7 @@ ASSERT_EQ(runs->idx_get(0)->get_PhoneticGuide()->get_RubyText(), u"ruby");
 ```
 ## See Also
 
+* Class [PhoneticGuide](../../phoneticguide/)
 * Class [Run](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

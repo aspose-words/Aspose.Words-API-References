@@ -22,6 +22,7 @@ Aspose::Words::Tables::CellMerge Aspose::Words::Tables::CellFormat::get_Vertical
 Cells can only be merged vertically if their left and right boundaries are identical.
 
 When cells are vertically merged, the display areas of the merged cells are consolidated. The consolidated area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
+[HorizontalMerge](../get_horizontalmerge/)
 ## Examples
 
 
@@ -60,6 +61,7 @@ doc->Save(get_ArtifactsDir() + u"CellFormat.VerticalMerge.docx");
 ```
 ## See Also
 
+* Enum [CellMerge](../../cellmerge/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -49,6 +49,8 @@ doc->Save(get_ArtifactsDir() + u"Field.HYPERLINK.docx");
 ```
 ## See Also
 
+* [get_ScreenTip](../get_screentip/)
+
 * Class [FieldHyperlink](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

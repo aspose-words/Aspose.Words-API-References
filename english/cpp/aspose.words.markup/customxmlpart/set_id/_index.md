@@ -90,6 +90,8 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
 ## See Also
 
+* [get_Id](../get_id/)
+
 * Class [CustomXmlPart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

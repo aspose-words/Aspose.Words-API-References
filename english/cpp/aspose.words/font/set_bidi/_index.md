@@ -62,6 +62,8 @@ doc->Save(get_ArtifactsDir() + u"Font.Bidi.docx");
 ```
 ## See Also
 
+* [get_Bidi](../get_bidi/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

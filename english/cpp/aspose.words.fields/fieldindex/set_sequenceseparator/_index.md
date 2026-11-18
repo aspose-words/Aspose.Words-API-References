@@ -91,6 +91,8 @@ doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Sequence.docx");
 ```
 ## See Also
 
+* [get_SequenceSeparator](../get_sequenceseparator/)
+
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

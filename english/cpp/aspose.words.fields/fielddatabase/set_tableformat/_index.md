@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDatabase::set_TableFormat(const System::String 
 
 ## See Also
 
+* [get_TableFormat](../get_tableformat/)
+
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

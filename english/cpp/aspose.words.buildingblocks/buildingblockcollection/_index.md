@@ -2,7 +2,7 @@
 title: Aspose::Words::BuildingBlocks::BuildingBlockCollection class
 linktitle: BuildingBlockCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::BuildingBlocks::BuildingBlockCollection class. A collection of BuildingBlock objects in the document. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::BuildingBlocks::BuildingBlockCollection class. A collection of BuildingBlock objects in the document. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.buildingblocks/buildingblockcollection/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words.buildingblocks/buildingblockcollection/
 
 
 A collection of [BuildingBlock](../buildingblock/) objects in the document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class BuildingBlockCollection : public NodeCollection
@@ -38,6 +38,7 @@ class BuildingBlockCollection : public NodeCollection
 
 
 You do not create instances of this class directly. To access a collection of building blocks use the [BuildingBlocks](../glossarydocument/get_buildingblocks/) property.
+[GlossaryDocument](../glossarydocument/)[BuildingBlocks](../glossarydocument/get_buildingblocks/)[BuildingBlock](../buildingblock/)
 ## See Also
 
 * Class [NodeCollection](../../aspose.words/nodecollection/)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergeoptions/get_unconditionalmergefieldsandr
 Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition.
 
 ```cpp
-_Bool Aspose::Words::LowCode::MailMergeOptions::get_UnconditionalMergeFieldsAndRegions() const
+bool Aspose::Words::LowCode::MailMergeOptions::get_UnconditionalMergeFieldsAndRegions() const
 ```
 
 ## Remarks

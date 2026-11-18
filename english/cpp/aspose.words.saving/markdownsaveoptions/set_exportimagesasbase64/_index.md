@@ -39,6 +39,8 @@ ASSERT_TRUE(exportImagesAsBase64 ? outDocContents.Contains(u"data:image/jpeg;bas
 ```
 ## See Also
 
+* [get_ExportImagesAsBase64](../get_exportimagesasbase64/)
+
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

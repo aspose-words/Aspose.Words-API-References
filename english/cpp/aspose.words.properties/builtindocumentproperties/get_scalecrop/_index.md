@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/builtindocumentproperties/get_scalecrop/
 Indicates whether document thumbnail is cropped or scaled to fit the display.
 
 ```cpp
-_Bool Aspose::Words::Properties::BuiltInDocumentProperties::get_ScaleCrop()
+bool Aspose::Words::Properties::BuiltInDocumentProperties::get_ScaleCrop()
 ```
 
 ## Remarks

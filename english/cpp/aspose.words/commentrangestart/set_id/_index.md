@@ -18,6 +18,8 @@ void Aspose::Words::CommentRangeStart::set_Id(int32_t value)
 
 ## See Also
 
+* [get_Id](../get_id/)
+
 * Class [CommentRangeStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

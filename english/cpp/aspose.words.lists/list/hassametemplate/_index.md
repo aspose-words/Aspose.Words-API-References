@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/list/hassametemplate/
 Returns true if the current list and the given list are created from the same template.
 
 ```cpp
-_Bool Aspose::Words::Lists::List::HasSameTemplate(const System::SharedPtr<Aspose::Words::Lists::List> & other)
+bool Aspose::Words::Lists::List::HasSameTemplate(const System::SharedPtr<Aspose::Words::Lists::List> & other)
 ```
 
 ## Examples

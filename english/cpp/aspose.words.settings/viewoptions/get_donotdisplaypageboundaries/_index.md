@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/viewoptions/get_donotdisplaypageboundaries/
 Turns off display of the space between the top of the text and the top edge of the page.
 
 ```cpp
-_Bool Aspose::Words::Settings::ViewOptions::get_DoNotDisplayPageBoundaries() const
+bool Aspose::Words::Settings::ViewOptions::get_DoNotDisplayPageBoundaries() const
 ```
 
 ## Examples

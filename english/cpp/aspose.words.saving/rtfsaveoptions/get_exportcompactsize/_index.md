@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/rtfsaveoptions/get_exportcompactsize/
 Allows to make output RTF documents smaller in size, but if they contain RTL (right-to-left) text, it will not be displayed correctly. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize() const
+bool Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize() const
 ```
 
 ## Remarks

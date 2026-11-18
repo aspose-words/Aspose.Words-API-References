@@ -134,7 +134,7 @@ for (auto&& child : System::IterateOver(children))
 }
 ```
 
-Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+Shows how to add, update and delete child nodes in a [CompositeNode](../)'s collection of children.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -183,6 +183,8 @@ ASSERT_EQ(paragraph->GetChildNodes(NodeType::Any, true)->get_Count(), 3);
 ```
 ## See Also
 
+* Class [NodeCollection](../../nodecollection/)
+* Enum [NodeType](../../nodetype/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

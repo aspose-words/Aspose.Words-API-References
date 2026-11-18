@@ -63,6 +63,8 @@ ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInf
 ```
 ## See Also
 
+* [get_SourceFullName](../get_sourcefullname/)
+
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

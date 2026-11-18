@@ -60,6 +60,9 @@ doc->Save(get_ArtifactsDir() + u"Shape.FlipShapeOrientation.docx");
 ```
 ## See Also
 
+* [get_FlipOrientation](../get_fliporientation/)
+
+* Enum [FlipOrientation](../../fliporientation/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

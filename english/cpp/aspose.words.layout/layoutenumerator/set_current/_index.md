@@ -71,6 +71,8 @@ ASSERT_EQ(layoutEnumerator->get_Text(), u"¶");
 ```
 ## See Also
 
+* [get_Current](../get_current/)
+
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

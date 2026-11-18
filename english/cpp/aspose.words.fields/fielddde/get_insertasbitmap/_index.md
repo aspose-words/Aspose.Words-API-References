@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddde/get_insertasbitmap/
 Gets whether to insert the linked object as a bitmap.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldDde::get_InsertAsBitmap()
+bool Aspose::Words::Fields::FieldDde::get_InsertAsBitmap()
 ```
 
 ## See Also

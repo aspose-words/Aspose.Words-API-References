@@ -24,6 +24,8 @@ The owner password allows the user to open an encrypted PDF document without any
 The owner password cannot be the same as the user password.
 ## See Also
 
+* [get_OwnerPassword](../get_ownerpassword/)
+
 * Class [PdfEncryptionDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

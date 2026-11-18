@@ -73,6 +73,8 @@ doc->Save(get_ArtifactsDir() + u"Field.DISPLAYBARCODE.docx");
 ```
 ## See Also
 
+* [get_AddStartStopChar](../get_addstartstopchar/)
+
 * Class [FieldDisplayBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

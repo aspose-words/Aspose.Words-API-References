@@ -32,6 +32,7 @@ doc->Save(get_ArtifactsDir() + u"XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOpt
 ```
 ## See Also
 
+* Enum [CompressionLevel](../../compressionlevel/)
 * Class [XlsxSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

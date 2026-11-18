@@ -21,6 +21,7 @@ System::SharedPtr<Aspose::Words::Drawing::ImageData> Aspose::Words::Lists::ListL
  If this level doesn't define picture bullet returns **null**. Before setting new image for non picture bullet shape, please use [CreatePictureBullet](../createpicturebullet/) method first. 
 ## See Also
 
+* Class [ImageData](../../../aspose.words.drawing/imagedata/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

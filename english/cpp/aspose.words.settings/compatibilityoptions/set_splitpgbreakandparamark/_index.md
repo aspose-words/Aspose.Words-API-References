@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SplitPgBreakAndParaMark(
 
 ## See Also
 
+* [get_SplitPgBreakAndParaMark](../get_splitpgbreakandparamark/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -52,6 +52,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
 ```
 ## See Also
 
+* [get_HasVerticalBorder](../get_hasverticalborder/)
+
 * Class [ChartDataTable](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

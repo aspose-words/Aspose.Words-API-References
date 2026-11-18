@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToa::set_SequenceName(const System::String & va
 
 ## See Also
 
+* [get_SequenceName](../get_sequencename/)
+
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -41,6 +41,7 @@ multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
 ## See Also
 
+* Enum [AiModelType](../../aimodeltype/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

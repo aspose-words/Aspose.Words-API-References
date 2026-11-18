@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergebarcode/get_displaytext/
 Gets whether to display barcode data (text) along with image.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldMergeBarcode::get_DisplayText()
+bool Aspose::Words::Fields::FieldMergeBarcode::get_DisplayText()
 ```
 
 ## See Also

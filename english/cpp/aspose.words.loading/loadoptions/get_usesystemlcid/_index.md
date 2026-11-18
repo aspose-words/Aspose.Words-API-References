@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/loadoptions/get_usesystemlcid/
 Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.
 
 ```cpp
-_Bool Aspose::Words::Loading::LoadOptions::get_UseSystemLcid() const
+bool Aspose::Words::Loading::LoadOptions::get_UseSystemLcid() const
 ```
 
 ## Remarks

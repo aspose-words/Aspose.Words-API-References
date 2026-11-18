@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_nocolumnbalance/
 Do Not Balance Text Columns within a Section.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_NoColumnBalance()
+bool Aspose::Words::Settings::CompatibilityOptions::get_NoColumnBalance()
 ```
 
 ## See Also

@@ -52,6 +52,7 @@ doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
 ## See Also
 
+* Class [Story](../../story/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

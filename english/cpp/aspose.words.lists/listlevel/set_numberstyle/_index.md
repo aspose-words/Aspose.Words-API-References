@@ -19,7 +19,7 @@ void Aspose::Words::Lists::ListLevel::set_NumberStyle(Aspose::Words::NumberStyle
 ## Examples
 
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -132,6 +132,9 @@ doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
 ## See Also
 
+* [get_NumberStyle](../get_numberstyle/)
+
+* Enum [NumberStyle](../../../aspose.words/numberstyle/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

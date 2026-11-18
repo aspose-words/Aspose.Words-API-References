@@ -31,6 +31,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.MirrorIndents.docx");
 ```
 ## See Also
 
+* [get_MirrorIndents](../get_mirrorindents/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldstyleref/get_insertparagraphnumberinfullconte
 Gets or sets whether to insert the paragraph number of the referenced paragraph in full context.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumberInFullContext()
+bool Aspose::Words::Fields::FieldStyleRef::get_InsertParagraphNumberInFullContext()
 ```
 
 ## Examples

@@ -77,6 +77,8 @@ doc->Save(get_ArtifactsDir() + System::String::Format(u"Field.INDEX.XE.Subheadin
 ```
 ## See Also
 
+* [get_RunSubentriesOnSameLine](../get_runsubentriesonsameline/)
+
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -80,6 +80,7 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle
 ```
 ## See Also
 
+* Class [List](../../../aspose.words.lists/list/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

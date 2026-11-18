@@ -18,6 +18,8 @@ void Aspose::Words::Bibliography::Bibliography::set_BibliographyStyle(const Syst
 
 ## See Also
 
+* [get_BibliographyStyle](../get_bibliographystyle/)
+
 * Class [Bibliography](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

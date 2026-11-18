@@ -21,6 +21,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ZoomFactor(int32_t value)
  This value is used only if [ZoomBehavior](../get_zoombehavior/) is set to [ZoomFactor](../../pdfzoombehavior/). 
 ## See Also
 
+* [get_ZoomFactor](../get_zoomfactor/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

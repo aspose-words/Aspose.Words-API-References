@@ -82,6 +82,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.ReplaceTextboxesWithImages.docx");
 ```
 ## See Also
 
+* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

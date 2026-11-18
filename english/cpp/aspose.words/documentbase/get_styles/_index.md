@@ -20,6 +20,7 @@ System::SharedPtr<Aspose::Words::StyleCollection> Aspose::Words::DocumentBase::g
 
 
 For more information see the description of the [StyleCollection](../../stylecollection/) class.
+[StyleCollection](../../stylecollection/)[Style](../../style/)
 ## Examples
 
 
@@ -74,6 +75,7 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBullet
 ```
 ## See Also
 
+* Class [StyleCollection](../../stylecollection/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

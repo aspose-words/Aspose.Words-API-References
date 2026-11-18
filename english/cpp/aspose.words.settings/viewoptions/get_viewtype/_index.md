@@ -40,6 +40,7 @@ doc->Save(get_ArtifactsDir() + u"ViewOptions.SetZoomPercentage.doc");
 ```
 ## See Also
 
+* Enum [ViewType](../../viewtype/)
 * Class [ViewOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -19,7 +19,7 @@ Aspose::Words::Fields::FieldType Aspose::Words::Fields::FieldChar::get_FieldType
 ## Examples
 
 
-Shows how to work with a FieldStart node.
+Shows how to work with a [FieldStart](../../fieldstart/) node.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -46,6 +46,7 @@ field->Update();
 ```
 ## See Also
 
+* Enum [FieldType](../../fieldtype/)
 * Class [FieldChar](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

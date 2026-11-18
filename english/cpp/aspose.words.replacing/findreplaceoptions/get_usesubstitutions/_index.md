@@ -13,12 +13,12 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_usesubstitutions/
 Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions() const
 ```
 
 ## Remarks
 
- For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions. 
+ For the details on substitution elements please refer to: [https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions](https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions). 
 ## Examples
 
 

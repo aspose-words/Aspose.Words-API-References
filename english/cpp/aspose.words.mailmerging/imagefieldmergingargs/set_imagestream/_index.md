@@ -22,6 +22,8 @@ void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageStream(const Sy
 Aspose.Words closes this stream after it merges the image into the document.
 ## See Also
 
+* [get_ImageStream](../get_imagestream/)
+
 * Class [ImageFieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -39,6 +41,8 @@ template<typename CharType,typename Traits> void Aspose::Words::MailMerging::Ima
 
 Aspose.Words closes this stream after it merges the image into the document.
 ## See Also
+
+* [get_ImageStream](../get_imagestream/)
 
 * Class [ImageFieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)

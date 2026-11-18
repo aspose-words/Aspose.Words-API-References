@@ -44,6 +44,7 @@ class CustomXmlSchemaCollection : public System::Collections::Generic::IEnumerab
 
 
 You do not create instances of this class. You access the collection of XML schemas of a custom XML part via the [Schemas](../customxmlpart/get_schemas/) property.
+[CustomXmlPart](../customxmlpart/)[Schemas](../customxmlpart/get_schemas/)
 ## Examples
 
 

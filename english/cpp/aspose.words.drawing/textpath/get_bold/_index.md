@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/get_bold/
 True if the font is formatted as bold.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextPath::get_Bold()
+bool Aspose::Words::Drawing::TextPath::get_Bold()
 ```
 
 ## Remarks

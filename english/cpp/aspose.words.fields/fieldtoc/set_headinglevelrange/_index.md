@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToc::set_HeadingLevelRange(const System::String
 
 ## See Also
 
+* [get_HeadingLevelRange](../get_headinglevelrange/)
+
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

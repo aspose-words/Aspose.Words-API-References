@@ -51,6 +51,8 @@ else
 ```
 ## See Also
 
+* [get_UpdateLastPrintedProperty](../get_updatelastprintedproperty/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

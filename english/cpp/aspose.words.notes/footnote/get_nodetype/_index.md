@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::Notes::Footnote::get_NodeType() const ove
 
 ## See Also
 
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

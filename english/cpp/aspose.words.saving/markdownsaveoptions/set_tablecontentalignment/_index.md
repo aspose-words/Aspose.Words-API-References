@@ -61,6 +61,9 @@ switch (tableContentAlignment)
 ```
 ## See Also
 
+* [get_TableContentAlignment](../get_tablecontentalignment/)
+
+* Enum [TableContentAlignment](../../tablecontentalignment/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

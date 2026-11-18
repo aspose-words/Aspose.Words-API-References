@@ -49,6 +49,9 @@ ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
 ## See Also
 
+* [get_SaveFormat](../get_saveformat/)
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

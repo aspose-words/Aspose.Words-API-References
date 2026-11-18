@@ -49,6 +49,9 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
 ## See Also
 
+* [get_VerticalAlignment](../get_verticalalignment/)
+
+* Enum [PageVerticalAlignment](../../pageverticalalignment/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

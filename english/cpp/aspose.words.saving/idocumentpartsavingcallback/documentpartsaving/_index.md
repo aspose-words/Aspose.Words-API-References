@@ -18,6 +18,7 @@ virtual void Aspose::Words::Saving::IDocumentPartSavingCallback::DocumentPartSav
 
 ## See Also
 
+* Class [DocumentPartSavingArgs](../../documentpartsavingargs/)
 * Interface [IDocumentPartSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

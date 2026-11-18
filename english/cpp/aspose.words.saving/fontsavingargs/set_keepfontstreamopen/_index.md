@@ -20,7 +20,10 @@ void Aspose::Words::Saving::FontSavingArgs::set_KeepFontStreamOpen(bool value)
 
 
 Default is **false** and Aspose.Words will close the stream you provided in the [FontStream](../get_fontstream/) property after writing a font into it. Specify **true** to keep the stream open.
+[FontStream](../get_fontstream/)
 ## See Also
+
+* [get_KeepFontStreamOpen](../get_keepfontstreamopen/)
 
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

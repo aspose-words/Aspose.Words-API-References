@@ -24,6 +24,8 @@ Aspose::Words::NodeImporter::NodeImporter(const System::SharedPtr<Aspose::Words:
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
 ## See Also
 
+* Class [DocumentBase](../../documentbase/)
+* Enum [ImportFormatMode](../../importformatmode/)
 * Class [NodeImporter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -99,6 +101,9 @@ else
 ```
 ## See Also
 
+* Class [DocumentBase](../../documentbase/)
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [ImportFormatOptions](../../importformatoptions/)
 * Class [NodeImporter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

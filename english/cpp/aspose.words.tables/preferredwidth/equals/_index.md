@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/preferredwidth/equals/
 Determines whether the specified object is equal in value to the current object.
 
 ```cpp
-_Bool Aspose::Words::Tables::PreferredWidth::Equals(System::SharedPtr<System::Object> obj) override
+bool Aspose::Words::Tables::PreferredWidth::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## Examples
@@ -63,7 +63,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCellsWithPreferredWidths.
 Determines whether the specified [PreferredWidth](../) is equal in value to the current [PreferredWidth](../).
 
 ```cpp
-_Bool Aspose::Words::Tables::PreferredWidth::Equals(const System::SharedPtr<Aspose::Words::Tables::PreferredWidth> & other)
+bool Aspose::Words::Tables::PreferredWidth::Equals(const System::SharedPtr<Aspose::Words::Tables::PreferredWidth> & other)
 ```
 
 ## Examples

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/loadoptions/get_convertmetafilestopng/
 Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format.
 
 ```cpp
-_Bool Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng() const
+bool Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng() const
 ```
 
 ## Remarks

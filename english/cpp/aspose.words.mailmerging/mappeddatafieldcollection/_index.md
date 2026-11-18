@@ -43,6 +43,7 @@ class MappedDataFieldCollection : public System::Collections::Generic::IEnumerab
 
 
 This is implemented as a collection of string keys into string values. The keys are the names of mail merge fields in the document and the values are the names of fields in your data source.
+[MailMerge](../mailmerge/)[MappedDataFields](../mailmerge/get_mappeddatafields/)
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)

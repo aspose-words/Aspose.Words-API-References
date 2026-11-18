@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_DataSource(const System::St
 
 ## See Also
 
+* [get_DataSource](../get_datasource/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

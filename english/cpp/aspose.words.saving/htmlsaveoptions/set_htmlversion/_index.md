@@ -78,6 +78,9 @@ else
 ```
 ## See Also
 
+* [get_HtmlVersion](../get_htmlversion/)
+
+* Enum [HtmlVersion](../../htmlversion/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

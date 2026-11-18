@@ -92,6 +92,8 @@ doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
 ## See Also
 
+* [get_CellSpacing](../get_cellspacing/)
+
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

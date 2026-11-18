@@ -13,7 +13,7 @@ url: /cpp/aspose.words.rendering/pageinfo/get_colored/
 Returns **true** if the page contains colored content.
 
 ```cpp
-_Bool Aspose::Words::Rendering::PageInfo::get_Colored()
+bool Aspose::Words::Rendering::PageInfo::get_Colored()
 ```
 
 ## Examples

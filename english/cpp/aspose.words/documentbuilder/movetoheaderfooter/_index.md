@@ -55,6 +55,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
 ```
 ## See Also
 
+* Enum [HeaderFooterType](../../headerfootertype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

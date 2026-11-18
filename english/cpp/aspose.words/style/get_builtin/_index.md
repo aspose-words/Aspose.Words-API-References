@@ -13,7 +13,7 @@ url: /cpp/aspose.words/style/get_builtin/
 True if this style is one of the built-in styles in MS Word.
 
 ```cpp
-_Bool Aspose::Words::Style::get_BuiltIn()
+bool Aspose::Words::Style::get_BuiltIn()
 ```
 
 ## Examples

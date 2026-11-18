@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DisplayHangulFixedWidth(
 
 ## See Also
 
+* [get_DisplayHangulFixedWidth](../get_displayhangulfixedwidth/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

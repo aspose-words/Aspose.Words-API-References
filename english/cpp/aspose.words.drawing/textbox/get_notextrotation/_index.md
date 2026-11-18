@@ -10,10 +10,10 @@ url: /cpp/aspose.words.drawing/textbox/get_notextrotation/
 ## TextBox::get_NoTextRotation method
 
 
-Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated.
+Gets or sets a boolean value indicating either text of the [TextBox](../) should not rotate when the shape is rotated.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextBox::get_NoTextRotation()
+bool Aspose::Words::Drawing::TextBox::get_NoTextRotation()
 ```
 
 ## Remarks

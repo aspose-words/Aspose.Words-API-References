@@ -22,7 +22,7 @@ class Stroke : public Core::IFillable
 | Method | Description |
 | --- | --- |
 | [get_BackColor](./get_backcolor/)() | Gets or sets the background color of the stroke. |
-| [get_BackThemeColor](./get_backthemecolor/)() | Gets or sets a ThemeColor object that represents the stroke background color. |
+| [get_BackThemeColor](./get_backthemecolor/)() | Gets or sets a [ThemeColor](../../aspose.words.themes/themecolor/) object that represents the stroke background color. |
 | [get_BackTintAndShade](./get_backtintandshade/)() | Gets or sets a double value that lightens or darkens the stroke background color. |
 | [get_BaseForeColor](./get_baseforecolor/)() | Gets the base foreground color of the stroke without any modifiers. |
 | [get_Color](./get_color/)() | Defines the color of a stroke. |
@@ -34,7 +34,7 @@ class Stroke : public Core::IFillable
 | [get_EndCap](./get_endcap/)() | Defines the cap style for the end of a stroke. |
 | [get_Fill](./get_fill/)() | Gets fill formatting for the [Stroke](./). |
 | [get_ForeColor](./get_forecolor/)() | Gets or sets the foreground color of the stroke. |
-| [get_ForeThemeColor](./get_forethemecolor/)() | Gets or sets a ThemeColor object that represents the stroke foreground color. |
+| [get_ForeThemeColor](./get_forethemecolor/)() | Gets or sets a [ThemeColor](../../aspose.words.themes/themecolor/) object that represents the stroke foreground color. |
 | [get_ForeTintAndShade](./get_foretintandshade/)() | Gets or sets a double value that lightens or darkens the stroke foreground color. |
 | [get_ImageBytes](./get_imagebytes/)() | Defines the image for a stroke image or pattern fill. |
 | [get_JoinStyle](./get_joinstyle/)() | Defines the join style of a polyline. |
@@ -48,7 +48,7 @@ class Stroke : public Core::IFillable
 | [get_Visible](./get_visible/)() | Gets or sets a flag indicating whether the stroke is visible. |
 | [get_Weight](./get_weight/)() | Defines the brush thickness that strokes the path of a shape in points. |
 | [set_BackColor](./set_backcolor/)(System::Drawing::Color) | Sets the background color of the stroke. |
-| [set_BackThemeColor](./set_backthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the stroke background color. |
+| [set_BackThemeColor](./set_backthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a [ThemeColor](../../aspose.words.themes/themecolor/) object that represents the stroke background color. |
 | [set_BackTintAndShade](./set_backtintandshade/)(double) | Sets a double value that lightens or darkens the stroke background color. |
 | [set_Color](./set_color/)(System::Drawing::Color) | Defines the color of a stroke. |
 | [set_Color2](./set_color2/)(System::Drawing::Color) | Defines a second color for a stroke. |
@@ -58,7 +58,7 @@ class Stroke : public Core::IFillable
 | [set_EndArrowWidth](./set_endarrowwidth/)(Aspose::Words::Drawing::ArrowWidth) | Defines the arrowhead width for the end of a stroke. |
 | [set_EndCap](./set_endcap/)(Aspose::Words::Drawing::EndCap) | Defines the cap style for the end of a stroke. |
 | [set_ForeColor](./set_forecolor/)(System::Drawing::Color) | Sets the foreground color of the stroke. |
-| [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the stroke foreground color. |
+| [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a [ThemeColor](../../aspose.words.themes/themecolor/) object that represents the stroke foreground color. |
 | [set_ForeTintAndShade](./set_foretintandshade/)(double) | Sets a double value that lightens or darkens the stroke foreground color. |
 | [set_JoinStyle](./set_joinstyle/)(Aspose::Words::Drawing::JoinStyle) | Defines the join style of a polyline. |
 | [set_LineStyle](./set_linestyle/)(Aspose::Words::Drawing::ShapeLineStyle) | Defines the line style of the stroke. |
@@ -74,6 +74,7 @@ class Stroke : public Core::IFillable
 
 
 Use the [Stroke](../shape/get_stroke/) property to access stroke properties of a shape. You do not create instances of the [Stroke](./) class directly.
+[Stroke](../shape/get_stroke/)
 ## Examples
 
 

@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Renderer.emf", saveOptions);
 ```
 ## See Also
 
+* [get_UseGdiEmfRenderer](../get_usegdiemfrenderer/)
+
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

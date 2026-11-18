@@ -21,6 +21,8 @@ void Aspose::Words::Fields::FieldOptions::set_CustomTocStyleSeparator(const Syst
  By default, custom styles defined by the \t switch in the [FieldToc](../../fieldtoc/) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter. 
 ## See Also
 
+* [get_CustomTocStyleSeparator](../get_customtocstyleseparator/)
+
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

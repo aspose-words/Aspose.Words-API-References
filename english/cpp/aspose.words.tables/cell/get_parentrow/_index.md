@@ -44,6 +44,7 @@ doc->Save(get_ArtifactsDir() + u"Table.KeepTableTogether.docx");
 ```
 ## See Also
 
+* Class [Row](../../row/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

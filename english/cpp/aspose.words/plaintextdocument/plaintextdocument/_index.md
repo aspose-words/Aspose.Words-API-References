@@ -116,6 +116,7 @@ loadOptions->set_Password(u"MyPassword");
 
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -211,6 +212,7 @@ ASSERT_EQ(plaintext->get_Text().Trim(), u"Hello world!");
 
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -323,6 +325,7 @@ loadOptions->set_Password(u"MyPassword");
 
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

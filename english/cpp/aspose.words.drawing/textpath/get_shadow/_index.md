@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/get_shadow/
 Defines whether a shadow is applied to the text on a text path.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextPath::get_Shadow()
+bool Aspose::Words::Drawing::TextPath::get_Shadow()
 ```
 
 ## Remarks

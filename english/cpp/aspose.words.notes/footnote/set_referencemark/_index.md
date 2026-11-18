@@ -69,6 +69,8 @@ doc->Save(get_ArtifactsDir() + u"InlineStory.AddFootnote.docx");
 ```
 ## See Also
 
+* [get_ReferenceMark](../get_referencemark/)
+
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

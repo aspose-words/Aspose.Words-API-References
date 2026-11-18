@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/stroke/set_forethemecolor/
 ## Stroke::set_ForeThemeColor method
 
 
-Sets a ThemeColor object that represents the stroke foreground color.
+Sets a [ThemeColor](../../../aspose.words.themes/themecolor/) object that represents the stroke foreground color.
 
 ```cpp
 void Aspose::Words::Drawing::Stroke::set_ForeThemeColor(Aspose::Words::Themes::ThemeColor value)
@@ -34,6 +34,9 @@ doc->Save(get_ArtifactsDir() + u"Shape.StrokeForeThemeColors.docx");
 ```
 ## See Also
 
+* [get_ForeThemeColor](../get_forethemecolor/)
+
+* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

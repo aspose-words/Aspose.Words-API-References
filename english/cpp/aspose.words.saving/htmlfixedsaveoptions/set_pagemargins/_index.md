@@ -43,6 +43,8 @@ ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"[.]
 ```
 ## See Also
 
+* [get_PageMargins](../get_pagemargins/)
+
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

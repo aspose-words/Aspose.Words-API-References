@@ -22,6 +22,8 @@ void Aspose::Words::Fields::FormField::set_Checked(bool value)
 Applicable for a check box form field only.
 ## See Also
 
+* [get_Checked](../get_checked/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

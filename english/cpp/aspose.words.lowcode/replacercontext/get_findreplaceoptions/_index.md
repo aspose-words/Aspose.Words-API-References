@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::Replacing::FindReplaceOptions> & Aspose::
 
 ## See Also
 
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [ReplacerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

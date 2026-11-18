@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Layout::LayoutEnumerat
 
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

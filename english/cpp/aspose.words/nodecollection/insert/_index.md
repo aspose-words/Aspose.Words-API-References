@@ -34,7 +34,7 @@ If the node being inserted was created from another document, you should use [Im
 ## Examples
 
 
-Shows how to work with a NodeCollection.
+Shows how to work with a [NodeCollection](../).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -71,6 +71,7 @@ ASSERT_FALSE(runs->Contains(run));
 
 ## See Also
 
+* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

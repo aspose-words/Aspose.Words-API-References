@@ -18,6 +18,7 @@ static System::SharedPtr<Aspose::Words::IWarningCallback> Aspose::Words::Hyphena
 
 ## See Also
 
+* Interface [IWarningCallback](../../iwarningcallback/)
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

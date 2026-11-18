@@ -21,6 +21,7 @@ Aspose::Words::Replacing::ReplacementFormat Aspose::Words::Replacing::FindReplac
  Has effect only when using in [Replacer](../../../aspose.words.lowcode/replacer/)
 ## See Also
 
+* Enum [ReplacementFormat](../../replacementformat/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

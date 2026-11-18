@@ -86,6 +86,8 @@ doc->Save(get_ArtifactsDir() + u"Field.STYLEREF.docx");
 ```
 ## See Also
 
+* [get_InsertRelativePosition](../get_insertrelativeposition/)
+
 * Class [FieldStyleRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

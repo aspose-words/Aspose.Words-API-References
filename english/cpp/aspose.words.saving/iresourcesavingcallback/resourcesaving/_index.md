@@ -18,6 +18,7 @@ virtual void Aspose::Words::Saving::IResourceSavingCallback::ResourceSaving(Syst
 
 ## See Also
 
+* Class [ResourceSavingArgs](../../resourcesavingargs/)
 * Interface [IResourceSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

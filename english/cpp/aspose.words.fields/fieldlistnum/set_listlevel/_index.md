@@ -85,6 +85,8 @@ doc->Save(get_ArtifactsDir() + u"Field.LISTNUM.docx");
 ```
 ## See Also
 
+* [get_ListLevel](../get_listlevel/)
+
 * Class [FieldListNum](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

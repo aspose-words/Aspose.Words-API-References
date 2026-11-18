@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shape/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Shape::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::Drawing::Shape::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -33,6 +33,7 @@ For more info see the Visitor design pattern.
  Calls [VisitShapeStart()](../../../aspose.words/documentvisitor/visitshapestart/), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of the shape and calls [VisitShapeEnd()](../../../aspose.words/documentvisitor/visitshapeend/) at the end. 
 ## See Also
 
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

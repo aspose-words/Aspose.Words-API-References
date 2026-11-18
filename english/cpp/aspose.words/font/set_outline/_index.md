@@ -37,6 +37,8 @@ doc->Save(get_ArtifactsDir() + u"Font.Outline.docx");
 ```
 ## See Also
 
+* [get_Outline](../get_outline/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

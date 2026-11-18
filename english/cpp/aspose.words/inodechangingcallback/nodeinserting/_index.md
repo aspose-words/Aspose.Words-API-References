@@ -18,6 +18,7 @@ virtual void Aspose::Words::INodeChangingCallback::NodeInserting(System::SharedP
 
 ## See Also
 
+* Class [NodeChangingArgs](../../nodechangingargs/)
 * Interface [INodeChangingCallback](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

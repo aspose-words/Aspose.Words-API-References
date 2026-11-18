@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_PrintBodyTextBeforeHeade
 
 ## See Also
 
+* [get_PrintBodyTextBeforeHeader](../get_printbodytextbeforeheader/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

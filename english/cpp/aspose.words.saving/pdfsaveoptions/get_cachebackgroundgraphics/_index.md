@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_cachebackgroundgraphics/
 Gets or sets a value determining whether or not to cache graphics placed in document's background.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_CacheBackgroundGraphics() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_CacheBackgroundGraphics() const
 ```
 
 ## Remarks

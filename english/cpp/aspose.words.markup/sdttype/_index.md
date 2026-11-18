@@ -118,7 +118,7 @@ row->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.RepeatingSectionItem.docx");
 ```
 
-Shows how to create group structured document tag at the Row level.
+Shows how to create group structured document tag at the [Row](../../aspose.words.tables/row/) level.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

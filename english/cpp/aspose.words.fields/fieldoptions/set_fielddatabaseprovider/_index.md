@@ -18,6 +18,9 @@ void Aspose::Words::Fields::FieldOptions::set_FieldDatabaseProvider(const System
 
 ## See Also
 
+* [get_FieldDatabaseProvider](../get_fielddatabaseprovider/)
+
+* Interface [IFieldDatabaseProvider](../../ifielddatabaseprovider/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

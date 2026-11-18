@@ -39,6 +39,8 @@ doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
 ```
 ## See Also
 
+* [get_LineWidth](../get_linewidth/)
+
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

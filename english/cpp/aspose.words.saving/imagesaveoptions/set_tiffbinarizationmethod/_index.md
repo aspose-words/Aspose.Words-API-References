@@ -46,6 +46,9 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.FloydSteinbergDithering.tiff",
 ```
 ## See Also
 
+* [get_TiffBinarizationMethod](../get_tiffbinarizationmethod/)
+
+* Enum [ImageBinarizationMethod](../../imagebinarizationmethod/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

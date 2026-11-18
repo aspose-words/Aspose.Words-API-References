@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_FontFamily(const System::String & val
 The default value is Arial.
 ## See Also
 
+* [get_FontFamily](../get_fontfamily/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

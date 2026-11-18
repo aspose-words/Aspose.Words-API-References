@@ -52,6 +52,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
 ## See Also
 
+* Class [ChartXValue](../../chartxvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -123,6 +124,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.ChartDataValues.docx");
 ```
 ## See Also
 
+* Class [ChartXValue](../../chartxvalue/)
+* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -171,6 +174,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
 ## See Also
 
+* Class [ChartXValue](../../chartxvalue/)
+* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

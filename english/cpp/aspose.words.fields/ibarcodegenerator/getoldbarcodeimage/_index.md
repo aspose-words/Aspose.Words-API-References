@@ -29,6 +29,7 @@ Stream with image data representing generated barcode.
 Supported image formats are Bmp, Emf, Gif, Jpeg, Png, Tiff, Wmf, Pict, Ico, WebP, Svg.
 ## See Also
 
+* Class [BarcodeParameters](../../barcodeparameters/)
 * Interface [IBarcodeGenerator](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

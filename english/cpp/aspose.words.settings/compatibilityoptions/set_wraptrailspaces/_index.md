@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_WrapTrailSpaces(bool val
 
 ## See Also
 
+* [get_WrapTrailSpaces](../get_wraptrailspaces/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -51,6 +51,7 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBullet
 ```
 ## See Also
 
+* Class [ListFormat](../../../aspose.words.lists/listformat/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

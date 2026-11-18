@@ -46,6 +46,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.CharactersPerLine.docx");
 ```
 ## See Also
 
+* [get_CharactersPerLine](../get_charactersperline/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

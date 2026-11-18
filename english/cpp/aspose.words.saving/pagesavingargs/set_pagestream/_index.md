@@ -24,7 +24,10 @@ This property allows you to save document pages to streams instead of files.
 The default value is **null**. When this property is **null**, the document page will be saved to a file specified in the [PageFileName](../get_pagefilename/) property.
 
 If both [PageStream](../get_pagestream/) and [PageFileName](../get_pagefilename/) are set, then PageStream will be used.
+[PageFileName](../get_pagefilename/)[KeepPageStreamOpen](../get_keeppagestreamopen/)
 ## See Also
+
+* [get_PageStream](../get_pagestream/)
 
 * Class [PageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
@@ -46,7 +49,10 @@ This property allows you to save document pages to streams instead of files.
 The default value is **null**. When this property is **null**, the document page will be saved to a file specified in the [PageFileName](../get_pagefilename/) property.
 
 If both [PageStream](../get_pagestream/) and [PageFileName](../get_pagefilename/) are set, then PageStream will be used.
+[PageFileName](../get_pagefilename/)[KeepPageStreamOpen](../get_keeppagestreamopen/)
 ## See Also
+
+* [get_PageStream](../get_pagestream/)
 
 * Class [PageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

@@ -22,6 +22,7 @@ int32_t Aspose::Words::Settings::OdsoRecipientDataCollection::Add(const System::
 | value | const System::SharedPtr\<Aspose::Words::Settings::OdsoRecipientData\> \& | The object to add. Cannot be **null**. |
 ## See Also
 
+* Class [OdsoRecipientData](../../odsorecipientdata/)
 * Class [OdsoRecipientDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

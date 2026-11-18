@@ -32,6 +32,7 @@ enum class DocumentSplitCriteria : int
 [DocumentSplitCriteria](./) is a set of flags which can be combined. For instance you can split the document at page breaks and heading paragraphs in the same export operation.
 
 Different criteria can partially overlap. For instance, Heading 1 style is frequently given [PageBreakBefore](../../aspose.words/paragraphformat/get_pagebreakbefore/) property so it falls under two criteria: [PageBreak](./) and [HeadingParagraph](./). Some section breaks can cause page breaks and so on. In typical cases specifying only one flag is the most practical option.
+[DocumentSplitCriteria](../htmlsaveoptions/get_documentsplitcriteria/)
 ## Examples
 
 

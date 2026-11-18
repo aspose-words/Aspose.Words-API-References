@@ -137,6 +137,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.DoughnutChartLabelPosition.docx");
 ```
 ## See Also
 
+* [get_Left](../get_left/)
+
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -34,6 +34,7 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphBaselineAlignment.docx
 ```
 ## See Also
 
+* Enum [BaselineAlignment](../../baselinealignment/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -43,6 +43,9 @@ doc->Save(get_ArtifactsDir() + u"Font.ForegroundAndBackground.docx");
 ```
 ## See Also
 
+* [get_ForegroundPatternThemeColor](../get_foregroundpatternthemecolor/)
+
+* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

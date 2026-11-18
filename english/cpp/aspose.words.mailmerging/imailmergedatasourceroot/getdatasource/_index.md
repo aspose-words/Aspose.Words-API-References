@@ -32,6 +32,7 @@ A data source object that will provide access to the data records of the specifi
  If a data source (table) with the specified name does not exist, your implementation should return **null**. 
 ## See Also
 
+* Interface [IMailMergeDataSource](../../imailmergedatasource/)
 * Interface [IMailMergeDataSourceRoot](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

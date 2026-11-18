@@ -22,6 +22,9 @@ void Aspose::Words::Drawing::Stroke::set_EndArrowWidth(Aspose::Words::Drawing::A
 The default value is [Medium](../../arrowwidth/).
 ## See Also
 
+* [get_EndArrowWidth](../get_endarrowwidth/)
+
+* Enum [ArrowWidth](../../arrowwidth/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

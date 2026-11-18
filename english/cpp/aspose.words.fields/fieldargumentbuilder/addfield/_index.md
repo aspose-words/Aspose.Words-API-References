@@ -96,6 +96,7 @@ doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
 ## See Also
 
+* Class [FieldBuilder](../../fieldbuilder/)
 * Class [FieldArgumentBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

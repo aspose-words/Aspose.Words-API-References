@@ -36,6 +36,8 @@ doc->Save(get_ArtifactsDir() + u"Font.NoProofing.docx");
 ```
 ## See Also
 
+* [get_NoProofing](../get_noproofing/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

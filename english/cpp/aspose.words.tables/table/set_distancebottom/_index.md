@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"Table.DistanceBetweenTableAndText.docx");
 ```
 ## See Also
 
+* [get_DistanceBottom](../get_distancebottom/)
+
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

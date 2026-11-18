@@ -18,6 +18,8 @@ void Aspose::Words::SignatureLineOptions::set_Signer(const System::String & valu
 
 ## See Also
 
+* [get_Signer](../get_signer/)
+
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/formfield/get_ownhelp/
 Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 
 ```cpp
-_Bool Aspose::Words::Fields::FormField::get_OwnHelp()
+bool Aspose::Words::Fields::FormField::get_OwnHelp()
 ```
 
 ## Remarks

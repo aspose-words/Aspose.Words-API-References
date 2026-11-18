@@ -58,6 +58,8 @@ while (fontCollectionEnumerator->MoveNext())
 ```
 ## See Also
 
+* [get_AltName](../get_altname/)
+
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

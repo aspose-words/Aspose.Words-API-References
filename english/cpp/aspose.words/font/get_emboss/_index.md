@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_emboss/
 True if the font is formatted as embossed.
 
 ```cpp
-_Bool Aspose::Words::Font::get_Emboss()
+bool Aspose::Words::Font::get_Emboss()
 ```
 
 ## Examples

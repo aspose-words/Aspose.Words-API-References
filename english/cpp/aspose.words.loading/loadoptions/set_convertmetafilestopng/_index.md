@@ -50,6 +50,8 @@ TestUtil::VerifyImageInShape(1666, 1666, ImageType::Png, shape);
 ```
 ## See Also
 
+* [get_ConvertMetafilesToPng](../get_convertmetafilestopng/)
+
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

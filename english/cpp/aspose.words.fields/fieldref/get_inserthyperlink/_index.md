@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldref/get_inserthyperlink/
 Gets whether to create a hyperlink to the bookmarked paragraph.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldRef::get_InsertHyperlink()
+bool Aspose::Words::Fields::FieldRef::get_InsertHyperlink()
 ```
 
 ## See Also

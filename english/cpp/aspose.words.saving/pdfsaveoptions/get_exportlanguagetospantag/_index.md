@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportlanguagetospantag/
 Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_ExportLanguageToSpanTag() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_ExportLanguageToSpanTag() const
 ```
 
 ## Remarks

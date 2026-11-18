@@ -38,6 +38,7 @@ std::cout << System::String::Format(u"Document authorized on {0}", authorization
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -78,6 +79,7 @@ for (auto&& customDocumentProperty : System::IterateOver(doc->get_CustomDocument
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

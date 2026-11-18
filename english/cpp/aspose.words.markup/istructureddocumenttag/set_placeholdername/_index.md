@@ -62,9 +62,11 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlaceholderBuildingBlock.
 ```
 ## Exceptions
 
-* InvalidOperationException - Throw if BuildingBlock with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) is not present in [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/).
+* InvalidOperationException - Throw if [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) with this name [Name](../../../aspose.words.buildingblocks/buildingblock/get_name/) is not present in [GlossaryDocument](../../../aspose.words/document/get_glossarydocument/).
 
 ## See Also
+
+* [get_PlaceholderName](../get_placeholdername/)
 
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)

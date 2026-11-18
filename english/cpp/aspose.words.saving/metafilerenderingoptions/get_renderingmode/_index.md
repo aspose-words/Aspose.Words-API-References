@@ -22,6 +22,7 @@ Aspose::Words::Saving::MetafileRenderingMode Aspose::Words::Saving::MetafileRend
 The default value depends on the save format. For images it is [Bitmap](../../metafilerenderingmode/). For other formats it is [VectorWithFallback](../../metafilerenderingmode/).
 ## See Also
 
+* Enum [MetafileRenderingMode](../../metafilerenderingmode/)
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

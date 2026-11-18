@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttag/get_checked/
 Gets/Sets current state of the Checkbox SDT. Default value for this property is **false**.
 
 ```cpp
-_Bool Aspose::Words::Markup::StructuredDocumentTag::get_Checked()
+bool Aspose::Words::Markup::StructuredDocumentTag::get_Checked()
 ```
 
 ## Remarks

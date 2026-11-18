@@ -43,6 +43,8 @@ doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
 ```
 ## See Also
 
+* [get_Name](../get_name/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

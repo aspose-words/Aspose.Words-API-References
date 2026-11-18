@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_Text(const System::String & value)
 The default value is an empty string.
 ## See Also
 
+* [get_Text](../get_text/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotUseIndentAsNumberin
 
 ## See Also
 
+* [get_DoNotUseIndentAsNumberingTabStop](../get_donotuseindentasnumberingtabstop/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

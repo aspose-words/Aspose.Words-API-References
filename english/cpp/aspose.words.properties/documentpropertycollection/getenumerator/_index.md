@@ -77,6 +77,7 @@ ASSERT_EQ(properties->get_Count(), 0);
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

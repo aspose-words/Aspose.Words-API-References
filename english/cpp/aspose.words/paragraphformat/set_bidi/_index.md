@@ -78,6 +78,8 @@ ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Para
 ```
 ## See Also
 
+* [get_Bidi](../get_bidi/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

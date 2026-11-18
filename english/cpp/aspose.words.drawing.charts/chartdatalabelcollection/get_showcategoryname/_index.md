@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showcategoryn
 Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryName()
+bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryName()
 ```
 
 ## Remarks

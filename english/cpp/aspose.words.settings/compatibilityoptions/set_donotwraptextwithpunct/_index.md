@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotWrapTextWithPunct(b
 
 ## See Also
 
+* [get_DoNotWrapTextWithPunct](../get_donotwraptextwithpunct/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

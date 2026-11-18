@@ -13,7 +13,7 @@ url: /cpp/aspose.words/border/equals/
 Determines whether the specified object is equal in value to the current object.
 
 ```cpp
-_Bool Aspose::Words::Border::Equals(System::SharedPtr<System::Object> obj) override
+bool Aspose::Words::Border::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## Examples
@@ -69,7 +69,7 @@ doc->Save(get_ArtifactsDir() + u"Border.SharedElements.docx");
 Determines whether the specified border is equal in value to the current border.
 
 ```cpp
-_Bool Aspose::Words::Border::Equals(const System::SharedPtr<Aspose::Words::Border> & rhs)
+bool Aspose::Words::Border::Equals(const System::SharedPtr<Aspose::Words::Border> & rhs)
 ```
 
 ## Examples

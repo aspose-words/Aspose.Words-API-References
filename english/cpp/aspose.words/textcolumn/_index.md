@@ -31,6 +31,7 @@ class TextColumn : public System::Object
 [TextColumn](./) objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns.[EvenlySpaced](../textcolumncollection/get_evenlyspaced/) to **true**.
 
 When a new [TextColumn](./) is created it has its width and spacing set to zero.
+[TextColumnCollection](../textcolumncollection/)[PageSetup](../pagesetup/)[Section](../section/)
 ## Examples
 
 

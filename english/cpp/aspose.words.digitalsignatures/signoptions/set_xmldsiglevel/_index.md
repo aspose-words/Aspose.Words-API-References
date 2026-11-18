@@ -38,6 +38,9 @@ DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, sig
 ```
 ## See Also
 
+* [get_XmlDsigLevel](../get_xmldsiglevel/)
+
+* Enum [XmlDsigLevel](../../xmldsiglevel/)
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

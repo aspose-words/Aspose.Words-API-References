@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_suppressspbfafterpgbrk/
 Do Not Use Space Before On First Line After a Page Break.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_SuppressSpBfAfterPgBrk()
+bool Aspose::Words::Settings::CompatibilityOptions::get_SuppressSpBfAfterPgBrk()
 ```
 
 ## See Also

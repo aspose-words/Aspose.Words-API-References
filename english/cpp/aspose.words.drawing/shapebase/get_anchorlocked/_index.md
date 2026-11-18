@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_anchorlocked/
 Specifies whether the shape's anchor is locked.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_AnchorLocked()
+bool Aspose::Words::Drawing::ShapeBase::get_AnchorLocked()
 ```
 
 ## Remarks

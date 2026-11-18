@@ -88,7 +88,7 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
 
-Shows how to add a Style to a document's styles collection.
+Shows how to add a [Style](../../style/) to a document's styles collection.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -107,6 +107,8 @@ ASPOSE_ASSERT_EQ(styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLi
 ```
 ## See Also
 
+* Class [Style](../../style/)
+* Enum [StyleType](../../styletype/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

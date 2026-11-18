@@ -67,6 +67,8 @@ else
 ```
 ## See Also
 
+* [get_SaveImagesAsWmf](../get_saveimagesaswmf/)
+
 * Class [RtfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

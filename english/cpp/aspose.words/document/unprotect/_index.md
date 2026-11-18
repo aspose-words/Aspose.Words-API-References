@@ -76,7 +76,7 @@ ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::NoProtection);
 Removes protection from the document if a correct password is specified.
 
 ```cpp
-_Bool Aspose::Words::Document::Unprotect(const System::String & password)
+bool Aspose::Words::Document::Unprotect(const System::String & password)
 ```
 
 

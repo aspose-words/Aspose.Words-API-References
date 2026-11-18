@@ -38,6 +38,9 @@ doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 ```
 ## See Also
 
+* [get_ThemeColor](../get_themecolor/)
+
+* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -35,6 +35,8 @@ ASSERT_EQ(doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit()
 ```
 ## See Also
 
+* [get_IsStrictSchema11](../get_isstrictschema11/)
+
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

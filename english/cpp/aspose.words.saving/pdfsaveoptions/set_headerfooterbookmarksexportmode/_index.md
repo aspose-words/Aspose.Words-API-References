@@ -24,6 +24,9 @@ The default value is [All](../../headerfooterbookmarksexportmode/).
 This property is used in conjunction with the [OutlineOptions](../get_outlineoptions/) option.
 ## See Also
 
+* [get_HeaderFooterBookmarksExportMode](../get_headerfooterbookmarksexportmode/)
+
+* Enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

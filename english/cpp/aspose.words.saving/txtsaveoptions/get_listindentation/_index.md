@@ -57,6 +57,7 @@ ASSERT_EQ(docText, System::String::Format(u"1. Item 1{0}", newLine) + System::St
 ```
 ## See Also
 
+* Class [TxtListIndentation](../../txtlistindentation/)
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

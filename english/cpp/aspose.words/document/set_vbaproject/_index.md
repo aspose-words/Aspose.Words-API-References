@@ -46,6 +46,9 @@ vbaModules->Remove(vbaModules->idx_get(2));
 ```
 ## See Also
 
+* [get_VbaProject](../get_vbaproject/)
+
+* Class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

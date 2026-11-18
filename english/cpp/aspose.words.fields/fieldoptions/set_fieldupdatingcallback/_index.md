@@ -18,6 +18,9 @@ void Aspose::Words::Fields::FieldOptions::set_FieldUpdatingCallback(const System
 
 ## See Also
 
+* [get_FieldUpdatingCallback](../get_fieldupdatingcallback/)
+
+* Interface [IFieldUpdatingCallback](../../ifieldupdatingcallback/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

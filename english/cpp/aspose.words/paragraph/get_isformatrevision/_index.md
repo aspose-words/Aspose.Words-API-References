@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraph/get_isformatrevision/
 Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
 
 ```cpp
-_Bool Aspose::Words::Paragraph::get_IsFormatRevision()
+bool Aspose::Words::Paragraph::get_IsFormatRevision()
 ```
 
 ## Examples

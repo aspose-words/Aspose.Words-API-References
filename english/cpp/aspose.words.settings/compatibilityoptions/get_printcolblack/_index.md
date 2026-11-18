@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_printcolblack/
 Print Colors as Black And White without Dithering.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_PrintColBlack()
+bool Aspose::Words::Settings::CompatibilityOptions::get_PrintColBlack()
 ```
 
 ## See Also

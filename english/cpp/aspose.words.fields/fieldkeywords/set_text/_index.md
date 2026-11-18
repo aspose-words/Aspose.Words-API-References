@@ -48,6 +48,8 @@ doc->Save(get_ArtifactsDir() + u"Field.KEYWORDS.docx");
 ```
 ## See Also
 
+* [get_Text](../get_text/)
+
 * Class [FieldKeywords](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

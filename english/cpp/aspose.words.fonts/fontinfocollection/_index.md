@@ -55,6 +55,7 @@ This option works only when [EmbedTrueTypeFonts](./get_embedtruetypefonts/) prop
 Items are [FontInfo](../fontinfo/) objects.
 
 You do not create instances of this class directly. Use the [FontInfos](../../aspose.words/documentbase/get_fontinfos/) property to access the collection of fonts defined in the document.
+[FontInfo](../fontinfo/)[FontInfos](../../aspose.words/documentbase/get_fontinfos/)
 ## Examples
 
 

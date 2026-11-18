@@ -50,6 +50,8 @@ doc->Save(get_ArtifactsDir() + u"PsSaveOptions.UseBookFoldPrintingSettings.ps", 
 ```
 ## See Also
 
+* [get_UseBookFoldPrintingSettings](../get_usebookfoldprintingsettings/)
+
 * Class [PsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -45,6 +45,9 @@ else
 ```
 ## See Also
 
+* [get_FontFormat](../get_fontformat/)
+
+* Enum [ExportFontFormat](../../exportfontformat/)
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

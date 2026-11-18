@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldLink::set_SourceItem(const System::String & val
 
 ## See Also
 
+* [get_SourceItem](../get_sourceitem/)
+
 * Class [FieldLink](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

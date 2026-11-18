@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/advancedcompareoptions/get_comparelistdefinitio
 Specifies whether list definition contents are compared instead of list definition Ids.
 
 ```cpp
-_Bool Aspose::Words::Comparing::AdvancedCompareOptions::get_CompareListDefinitions() const
+bool Aspose::Words::Comparing::AdvancedCompareOptions::get_CompareListDefinitions() const
 ```
 
 ## Remarks

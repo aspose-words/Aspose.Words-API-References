@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.LineNumbers.docx");
 ```
 ## See Also
 
+* [get_LineStartingNumber](../get_linestartingnumber/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

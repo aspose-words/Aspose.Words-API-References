@@ -23,8 +23,8 @@ class SmartTag : public CompositeNode,
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the SmartTag. |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the SmartTag. |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the [SmartTag](./). |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the [SmartTag](./). |
 | [SmartTag](./smarttag/)(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&) | Initializes a new instance of the [SmartTag](./) class. |
 | [get_Element](./get_element/)() const | Specifies the name of the smart tag within the document. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [SmartTag](../../aspose.words/nodetype/). |

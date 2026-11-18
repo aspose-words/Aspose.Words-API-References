@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_TruncateFontHeightsLikeW
 
 ## See Also
 
+* [get_TruncateFontHeightsLikeWP6](../get_truncatefontheightslikewp6/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

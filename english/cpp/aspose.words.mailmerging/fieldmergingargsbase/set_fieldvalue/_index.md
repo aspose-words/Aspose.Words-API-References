@@ -21,6 +21,8 @@ void Aspose::Words::MailMerging::FieldMergingArgsBase::set_FieldValue(const Syst
  This property contains a value that has just been selected from your data source for this field by the mail merge engine. You can also replace the value by setting the property. 
 ## See Also
 
+* [get_FieldValue](../get_fieldvalue/)
+
 * Class [FieldMergingArgsBase](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

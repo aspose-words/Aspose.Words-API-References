@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"Field.INCLUDE.docx");
 ```
 ## See Also
 
+* [get_TextConverter](../get_textconverter/)
+
 * Class [FieldInclude](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

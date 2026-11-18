@@ -28,6 +28,8 @@ auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Number de
 ```
 ## See Also
 
+* [get_AutoNumberingDetection](../get_autonumberingdetection/)
+
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

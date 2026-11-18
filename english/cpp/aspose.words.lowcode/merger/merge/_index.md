@@ -23,6 +23,8 @@ static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -42,6 +44,8 @@ static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -62,6 +66,9 @@ static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -81,6 +88,8 @@ static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -101,6 +110,9 @@ static System::SharedPtr<Aspose::Words::Document> Aspose::Words::LowCode::Merger
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -127,6 +139,7 @@ If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only 
 If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -155,6 +168,9 @@ If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only 
 If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -182,6 +198,8 @@ If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only 
 If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -234,6 +252,8 @@ If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each 
 If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -262,6 +282,9 @@ If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each 
 If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -289,6 +312,8 @@ If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each 
 If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

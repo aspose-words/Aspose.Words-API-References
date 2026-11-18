@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Fill::set_Visible(bool value)
 
 ## See Also
 
+* [get_Visible](../get_visible/)
+
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

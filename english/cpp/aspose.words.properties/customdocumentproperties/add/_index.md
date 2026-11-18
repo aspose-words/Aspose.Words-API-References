@@ -96,6 +96,7 @@ ASSERT_EQ(properties->get_Count(), 0);
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -178,6 +179,7 @@ ASSERT_EQ(properties->get_Count(), 0);
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -260,6 +262,7 @@ ASSERT_EQ(properties->get_Count(), 0);
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -342,6 +345,7 @@ ASSERT_EQ(properties->get_Count(), 0);
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -424,6 +428,7 @@ ASSERT_EQ(properties->get_Count(), 0);
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

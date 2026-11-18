@@ -39,6 +39,7 @@ ASSERT_EQ(doc->GetChildNodes(NodeType::Shape, true)->get_Count(), 0);
 ```
 ## See Also
 
+* Enum [StoryType](../../storytype/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

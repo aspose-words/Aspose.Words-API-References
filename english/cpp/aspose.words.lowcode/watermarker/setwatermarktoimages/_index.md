@@ -24,6 +24,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | watermarkImageStream | const System::SharedPtr\<System::IO::Stream\> \& | Image stream that is displayed as a watermark. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -45,6 +46,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\> \& | Defines additional options for the image watermark. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -65,6 +68,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | watermarkText | const System::String \& | Text that is displayed as a watermark. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -86,6 +90,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\> \& | Defines additional options for the text watermark. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -106,6 +112,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | watermarkImageBytes | const System::ArrayPtr\<uint8_t\> \& | Image bytes that is displayed as a watermark. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -127,6 +134,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\> \& | Defines additional options for the image watermark. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -147,6 +156,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | watermarkText | const System::String \& | Text that is displayed as a watermark. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -168,6 +178,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\> \& | Defines additional options for the text watermark. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [TextWatermarkOptions](../../../aspose.words/textwatermarkoptions/)
 * Class [Watermarker](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

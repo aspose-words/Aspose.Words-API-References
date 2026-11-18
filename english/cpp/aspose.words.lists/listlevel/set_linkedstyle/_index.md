@@ -82,6 +82,9 @@ doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
 ## See Also
 
+* [get_LinkedStyle](../get_linkedstyle/)
+
+* Class [Style](../../../aspose.words/style/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

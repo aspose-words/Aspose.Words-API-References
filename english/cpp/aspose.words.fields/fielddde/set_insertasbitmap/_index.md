@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDde::set_InsertAsBitmap(bool value)
 
 ## See Also
 
+* [get_InsertAsBitmap](../get_insertasbitmap/)
+
 * Class [FieldDde](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

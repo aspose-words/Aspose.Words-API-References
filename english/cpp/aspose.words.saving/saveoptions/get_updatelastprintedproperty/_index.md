@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_updatelastprintedproperty/
 Gets or sets a value determining whether the [LastPrinted](../../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty() const
+bool Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty() const
 ```
 
 ## Examples

@@ -51,6 +51,7 @@ for (auto&& info : warningCollector)
 ```
 ## See Also
 
+* Class [WarningInfo](../../warninginfo/)
 * Interface [IWarningCallback](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

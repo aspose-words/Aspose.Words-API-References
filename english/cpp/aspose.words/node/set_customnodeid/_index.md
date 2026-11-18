@@ -75,6 +75,8 @@ for (auto&& child : System::IterateOver(children))
 ```
 ## See Also
 
+* [get_CustomNodeId](../get_customnodeid/)
+
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

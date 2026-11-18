@@ -54,6 +54,7 @@ while (fontCollectionEnumerator->MoveNext())
 ```
 ## See Also
 
+* Class [FontInfo](../../fontinfo/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

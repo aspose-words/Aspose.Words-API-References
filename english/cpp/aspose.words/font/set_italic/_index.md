@@ -33,6 +33,8 @@ doc->Save(get_ArtifactsDir() + u"Font.Italic.docx");
 ```
 ## See Also
 
+* [get_Italic](../get_italic/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

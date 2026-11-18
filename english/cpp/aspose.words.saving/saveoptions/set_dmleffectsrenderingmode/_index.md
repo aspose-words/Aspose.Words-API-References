@@ -22,6 +22,9 @@ virtual void Aspose::Words::Saving::SaveOptions::set_DmlEffectsRenderingMode(Asp
 This property is used when the document is exported to fixed page formats.
 ## See Also
 
+* [get_DmlEffectsRenderingMode](../get_dmleffectsrenderingmode/)
+
+* Enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

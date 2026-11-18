@@ -28,6 +28,7 @@ When [Row](../) is created, it belongs to the specified document, but is not yet
 To append [Row](../) to the document use [InsertAfter()](../../../aspose.words/compositenode/insertafter/) or [InsertBefore()](../../../aspose.words/compositenode/insertbefore/) on the table where you want the row inserted.
 ## See Also
 
+* Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

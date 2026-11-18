@@ -37,6 +37,8 @@ The following types of SDT can be created:
 
 ## See Also
 
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Enum [SdtType](../../sdttype/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

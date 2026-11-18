@@ -57,6 +57,8 @@ doc->Save(get_ArtifactsDir() + u"Field.DATE.docx");
 ```
 ## See Also
 
+* [get_UseUmAlQuraCalendar](../get_useumalquracalendar/)
+
 * Class [FieldDate](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

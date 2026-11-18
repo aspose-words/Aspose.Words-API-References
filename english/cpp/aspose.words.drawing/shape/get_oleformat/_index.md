@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::OleFormat> Aspose::Words::Drawing::Sha
 
 ## See Also
 
+* Class [OleFormat](../../oleformat/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

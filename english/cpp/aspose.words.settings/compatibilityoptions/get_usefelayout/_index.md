@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_usefelayout/
 Do Not Bypass East Asian/Complex Script Layout Code.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_UseFELayout()
+bool Aspose::Words::Settings::CompatibilityOptions::get_UseFELayout()
 ```
 
 ## See Also

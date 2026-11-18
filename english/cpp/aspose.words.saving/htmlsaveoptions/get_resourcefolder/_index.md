@@ -24,6 +24,7 @@ System::String Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolder() cons
 [ResourceFolder](./) has a lower priority than folders specified via [FontsFolder](../get_fontsfolder/), [ImagesFolder](../get_imagesfolder/), and [CssStyleSheetFileName](../get_cssstylesheetfilename/). For example, if both [ResourceFolder](./) and [FontsFolder](../get_fontsfolder/) are specified, fonts will be saved to [FontsFolder](../get_fontsfolder/), while images and CSS will be saved to [ResourceFolder](./).
 
 If the folder specified by [ResourceFolder](./) doesn't exist, it will be created automatically. 
+[FontsFolder](../get_fontsfolder/)[ImagesFolder](../get_imagesfolder/)[CssStyleSheetFileName](../get_cssstylesheetfilename/)
 ## Examples
 
 

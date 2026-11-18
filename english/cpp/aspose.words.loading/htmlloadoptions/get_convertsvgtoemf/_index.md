@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/htmlloadoptions/get_convertsvgtoemf/
 Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is **false** and, if possible, loaded SVG images are stored as is without conversion.
 
 ```cpp
-_Bool Aspose::Words::Loading::HtmlLoadOptions::get_ConvertSvgToEmf() const
+bool Aspose::Words::Loading::HtmlLoadOptions::get_ConvertSvgToEmf() const
 ```
 
 ## Remarks

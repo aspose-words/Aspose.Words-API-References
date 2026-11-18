@@ -21,6 +21,8 @@ void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_Timeout(Sy
  The default value is 100 seconds. 
 ## See Also
 
+* [get_Timeout](../get_timeout/)
+
 * Class [PdfDigitalSignatureTimestampSettings](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

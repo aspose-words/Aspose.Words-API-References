@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_issignatureline/
 Indicates that shape is a [SignatureLine](../../signatureline/).
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsSignatureLine()
+bool Aspose::Words::Drawing::ShapeBase::get_IsSignatureLine()
 ```
 
 ## Examples

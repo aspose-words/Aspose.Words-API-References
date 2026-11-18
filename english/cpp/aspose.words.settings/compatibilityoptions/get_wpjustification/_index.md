@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_wpjustification/
 Emulate WordPerfect 6.x Paragraph Justification.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_WPJustification()
+bool Aspose::Words::Settings::CompatibilityOptions::get_WPJustification()
 ```
 
 ## See Also

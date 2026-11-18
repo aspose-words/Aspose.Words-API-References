@@ -57,6 +57,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.FormatDataLables.docx");
 ```
 ## See Also
 
+* [get_ShapeType](../get_shapetype/)
+
+* Enum [ChartShapeType](../../chartshapetype/)
 * Class [ChartFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

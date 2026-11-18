@@ -18,6 +18,8 @@ void Aspose::Words::LowCode::ComparerContext::set_Author(const System::String & 
 
 ## See Also
 
+* [get_Author](../get_author/)
+
 * Class [ComparerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

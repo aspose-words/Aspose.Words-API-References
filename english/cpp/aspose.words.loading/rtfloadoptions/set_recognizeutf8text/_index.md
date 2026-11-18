@@ -40,6 +40,8 @@ ASSERT_EQ(doc->get_FirstSection()->get_Body()->GetText().Trim(), (recognizeUtf8T
 ```
 ## See Also
 
+* [get_RecognizeUtf8Text](../get_recognizeutf8text/)
+
 * Class [RtfLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

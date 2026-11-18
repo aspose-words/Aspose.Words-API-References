@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Font.Kerning.docx");
 ```
 ## See Also
 
+* [get_Kerning](../get_kerning/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

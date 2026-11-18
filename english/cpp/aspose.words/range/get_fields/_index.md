@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Fields::FieldCollection> Aspose::Words::Range::
 
 ## See Also
 
+* Class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

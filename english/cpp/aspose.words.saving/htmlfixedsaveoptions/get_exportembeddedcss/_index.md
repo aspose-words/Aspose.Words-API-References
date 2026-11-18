@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedcss/
 Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss() const
+bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedCss() const
 ```
 
 ## Examples

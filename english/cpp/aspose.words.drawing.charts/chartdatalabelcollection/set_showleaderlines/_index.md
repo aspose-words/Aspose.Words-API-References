@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsPieChart.docx");
 ```
 ## See Also
 
+* [get_ShowLeaderLines](../get_showleaderlines/)
+
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

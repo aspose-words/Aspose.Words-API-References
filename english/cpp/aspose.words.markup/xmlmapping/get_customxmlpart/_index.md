@@ -50,6 +50,7 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.XmlMapping.docx");
 ```
 ## See Also
 
+* Class [CustomXmlPart](../../customxmlpart/)
 * Class [XmlMapping](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

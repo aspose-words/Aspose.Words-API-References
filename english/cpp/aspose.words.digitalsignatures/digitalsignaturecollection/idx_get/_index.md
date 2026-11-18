@@ -63,6 +63,7 @@ ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"C
 ```
 ## See Also
 
+* Class [DigitalSignature](../../digitalsignature/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

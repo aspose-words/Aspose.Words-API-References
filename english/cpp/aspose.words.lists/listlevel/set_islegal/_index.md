@@ -78,6 +78,8 @@ doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
 ## See Also
 
+* [get_IsLegal](../get_islegal/)
+
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

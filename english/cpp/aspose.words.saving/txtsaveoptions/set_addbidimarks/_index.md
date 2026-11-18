@@ -21,7 +21,7 @@ void Aspose::Words::Saving::TxtSaveOptions::set_AddBidiMarks(bool value)
 ## Examples
 
 
-Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text.
+Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional [Run](../../../aspose.words/run/) in text.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -59,6 +59,8 @@ else
 }
 ```
 ## See Also
+
+* [get_AddBidiMarks](../get_addbidimarks/)
 
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_generateformfieldscripts/
 Specifies whether to generate scripts that emulate specific Microsoft Word form field behavior in PDF. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_GenerateFormFieldScripts() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_GenerateFormFieldScripts() const
 ```
 
 ## Remarks

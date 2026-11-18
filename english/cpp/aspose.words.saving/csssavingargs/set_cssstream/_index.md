@@ -24,7 +24,10 @@ This property allows you to save CSS information to a stream.
 The default value is **null**. This property doesn't suppress saving CSS information to a file or embedding to HTML document. To suppress exporting CSS use the [IsExportNeeded](../get_isexportneeded/) property.
 
 Using [ICssSavingCallback](../../icsssavingcallback/) you cannot substitute CSS with another. It is intended only for saving CSS to a stream.
+[KeepCssStreamOpen](../get_keepcssstreamopen/)
 ## See Also
+
+* [get_CssStream](../get_cssstream/)
 
 * Class [CssSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
@@ -46,7 +49,10 @@ This property allows you to save CSS information to a stream.
 The default value is **null**. This property doesn't suppress saving CSS information to a file or embedding to HTML document. To suppress exporting CSS use the [IsExportNeeded](../get_isexportneeded/) property.
 
 Using [ICssSavingCallback](../../icsssavingcallback/) you cannot substitute CSS with another. It is intended only for saving CSS to a stream.
+[KeepCssStreamOpen](../get_keepcssstreamopen/)
 ## See Also
+
+* [get_CssStream](../get_cssstream/)
 
 * Class [CssSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

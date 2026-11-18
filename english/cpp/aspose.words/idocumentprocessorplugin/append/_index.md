@@ -23,6 +23,7 @@ virtual void Aspose::Words::IDocumentProcessorPlugin::Append(System::SharedPtr<S
 | loadOptions | System::SharedPtr\<Aspose::Words::Loading::LoadOptions\> | The document load options. Can be **null**, in this case the document is loaded with default load options. |
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

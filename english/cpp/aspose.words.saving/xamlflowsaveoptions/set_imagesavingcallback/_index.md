@@ -18,6 +18,9 @@ void Aspose::Words::Saving::XamlFlowSaveOptions::set_ImageSavingCallback(const S
 
 ## See Also
 
+* [get_ImageSavingCallback](../get_imagesavingcallback/)
+
+* Interface [IImageSavingCallback](../../iimagesavingcallback/)
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

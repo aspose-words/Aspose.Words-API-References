@@ -36,6 +36,7 @@ class AxisBound : public System::Object
 Bound can be specified as a numeric, datetime or a special "auto" value.
 
 The instances of this class are immutable.
+[Minimum](../axisscaling/get_minimum/)[Maximum](../axisscaling/get_maximum/)
 ## Examples
 
 

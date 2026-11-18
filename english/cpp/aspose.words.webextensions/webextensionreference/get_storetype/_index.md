@@ -87,6 +87,7 @@ ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
 ## See Also
 
+* Enum [WebExtensionStoreType](../../webextensionstoretype/)
 * Class [WebExtensionReference](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

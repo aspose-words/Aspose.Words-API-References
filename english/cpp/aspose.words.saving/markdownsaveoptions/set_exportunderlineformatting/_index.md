@@ -34,6 +34,8 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportUnderlineFormatting.m
 ```
 ## See Also
 
+* [get_ExportUnderlineFormatting](../get_exportunderlineformatting/)
+
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/get_xscale/
 Determines whether a straight textpath will be used instead of the shape path.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextPath::get_XScale()
+bool Aspose::Words::Drawing::TextPath::get_XScale()
 ```
 
 ## Remarks

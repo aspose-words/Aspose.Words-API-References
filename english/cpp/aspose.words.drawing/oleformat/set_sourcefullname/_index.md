@@ -74,6 +74,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.OleLinks.docx");
 ```
 ## See Also
 
+* [get_SourceFullName](../get_sourcefullname/)
+
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

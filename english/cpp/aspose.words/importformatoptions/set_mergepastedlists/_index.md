@@ -35,6 +35,8 @@ dstDoc->Save(get_ArtifactsDir() + u"Document.MergePastedLists.docx");
 ```
 ## See Also
 
+* [get_MergePastedLists](../get_mergepastedlists/)
+
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

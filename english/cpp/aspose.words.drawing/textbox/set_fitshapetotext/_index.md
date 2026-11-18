@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.TextBoxFitShapeToText.docx");
 ```
 ## See Also
 
+* [get_FitShapeToText](../get_fitshapetotext/)
+
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

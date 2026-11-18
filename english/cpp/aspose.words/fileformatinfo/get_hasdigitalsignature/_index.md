@@ -13,7 +13,7 @@ url: /cpp/aspose.words/fileformatinfo/get_hasdigitalsignature/
 Returns **true** if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not specify whether the signature is valid or not.
 
 ```cpp
-_Bool Aspose::Words::FileFormatInfo::get_HasDigitalSignature() const
+bool Aspose::Words::FileFormatInfo::get_HasDigitalSignature() const
 ```
 
 ## Remarks
@@ -23,7 +23,7 @@ This property exists to help you sort documents that are digitally signed from t
 ## Examples
 
 
-Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
+Shows how to use the [FileFormatUtil](../../fileformatutil/) class to detect the document format and presence of digital signatures.
 
 ```cpp
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.

@@ -22,6 +22,7 @@ System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag> Aspose::Words::
 | index | int32_t | An index into the collection. |
 ## See Also
 
+* Interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * Class [StructuredDocumentTagCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

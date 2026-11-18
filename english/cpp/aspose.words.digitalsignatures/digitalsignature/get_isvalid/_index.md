@@ -13,7 +13,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_isvalid/
 Returns **true** if this digital signature is valid and the document has not been tampered with.
 
 ```cpp
-_Bool Aspose::Words::DigitalSignatures::DigitalSignature::get_IsValid() const
+bool Aspose::Words::DigitalSignatures::DigitalSignature::get_IsValid() const
 ```
 
 ## Examples

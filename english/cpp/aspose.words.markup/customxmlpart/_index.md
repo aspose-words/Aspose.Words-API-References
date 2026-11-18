@@ -33,6 +33,7 @@ class CustomXmlPart : public System::Object
 
 
 A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [CustomXmlParts](../../aspose.words/document/get_customxmlparts/) collection.
+[CustomXmlParts](../../aspose.words/document/get_customxmlparts/)[CustomXmlPartCollection](../customxmlpartcollection/)
 ## Examples
 
 

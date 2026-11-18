@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportparagraphgraphicstoartifa
 Gets or sets a value determining whether a paragraph graphic should be marked as an artifact.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_ExportParagraphGraphicsToArtifact() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_ExportParagraphGraphicsToArtifact() const
 ```
 
 ## Remarks

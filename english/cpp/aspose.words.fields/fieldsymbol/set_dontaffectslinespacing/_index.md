@@ -71,6 +71,8 @@ doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
 ## See Also
 
+* [get_DontAffectsLineSpacing](../get_dontaffectslinespacing/)
+
 * Class [FieldSymbol](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

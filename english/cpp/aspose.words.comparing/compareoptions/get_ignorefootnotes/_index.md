@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignorefootnotes/
 Specifies whether to compare differences in footnotes and endnotes.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFootnotes() const
+bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFootnotes() const
 ```
 
 ## Remarks

@@ -47,6 +47,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.Booklet.docx");
 ```
 ## See Also
 
+* [get_SheetsPerBooklet](../get_sheetsperbooklet/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

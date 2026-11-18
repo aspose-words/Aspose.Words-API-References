@@ -18,6 +18,8 @@ void Aspose::Words::Loading::PdfLoadOptions::set_PageCount(int32_t value)
 
 ## See Also
 
+* [get_PageCount](../get_pagecount/)
+
 * Class [PdfLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

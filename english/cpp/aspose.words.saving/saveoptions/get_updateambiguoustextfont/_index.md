@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/
 Determines whether the font attributes will be changed according to the character code being used.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_UpdateAmbiguousTextFont() const
+bool Aspose::Words::Saving::SaveOptions::get_UpdateAmbiguousTextFont() const
 ```
 
 ## Examples

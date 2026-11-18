@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergeoptions/get_cleanupparagraphswithpunctua
 Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the [RemoveEmptyParagraphs](../../../aspose.words.mailmerging/mailmergecleanupoptions/) option is specified.
 
 ```cpp
-_Bool Aspose::Words::LowCode::MailMergeOptions::get_CleanupParagraphsWithPunctuationMarks() const
+bool Aspose::Words::LowCode::MailMergeOptions::get_CleanupParagraphsWithPunctuationMarks() const
 ```
 
 ## Remarks

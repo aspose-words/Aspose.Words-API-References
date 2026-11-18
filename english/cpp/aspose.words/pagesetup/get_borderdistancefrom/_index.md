@@ -39,6 +39,7 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorderProperties.docx");
 ```
 ## See Also
 
+* Enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

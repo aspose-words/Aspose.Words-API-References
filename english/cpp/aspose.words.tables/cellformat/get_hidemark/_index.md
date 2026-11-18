@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/cellformat/get_hidemark/
 Returns or sets visibility of cell mark.
 
 ```cpp
-_Bool Aspose::Words::Tables::CellFormat::get_HideMark()
+bool Aspose::Words::Tables::CellFormat::get_HideMark()
 ```
 
 ## Remarks

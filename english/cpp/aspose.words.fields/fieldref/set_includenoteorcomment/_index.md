@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldRef::set_IncludeNoteOrComment(bool value)
 
 ## See Also
 
+* [get_IncludeNoteOrComment](../get_includenoteorcomment/)
+
 * Class [FieldRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

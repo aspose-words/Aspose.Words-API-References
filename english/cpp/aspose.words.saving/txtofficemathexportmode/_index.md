@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/txtofficemathexportmode/
 ## TxtOfficeMathExportMode enum
 
 
-Specifies how Aspose.Words exports OfficeMath to [Text](../../aspose.words/saveformat/).
+Specifies how Aspose.Words exports [OfficeMath](../../aspose.words.math/officemath/) to [Text](../../aspose.words/saveformat/).
 
 ```cpp
 enum class TxtOfficeMathExportMode : int
@@ -20,13 +20,13 @@ enum class TxtOfficeMathExportMode : int
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Latex | 3 | Export OfficeMath as LaTeX. |
-| Text | 0 | Export OfficeMath as plain text. |
+| Latex | 3 | Export [OfficeMath](../../aspose.words.math/officemath/) as LaTeX. |
+| Text | 0 | Export [OfficeMath](../../aspose.words.math/officemath/) as plain text. |
 
 ## Examples
 
 
-Shows how to export OfficeMath object as Latex in TXT.
+Shows how to export [OfficeMath](../../aspose.words.math/officemath/) object as Latex in TXT.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));

@@ -41,6 +41,7 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorders.docx");
 ```
 ## See Also
 
+* Enum [LineStyle](../../linestyle/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

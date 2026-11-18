@@ -30,7 +30,7 @@ class TextBox : public System::Object
 | [get_InternalMarginTop](./get_internalmargintop/)() | Specifies the inner top margin in points for a shape. |
 | [get_LayoutFlow](./get_layoutflow/)() | Determines the flow of the text layout in a shape. |
 | [get_Next](./get_next/)() | Returns or sets a [TextBox](./) that represents the next [TextBox](./) in a sequence of shapes. |
-| [get_NoTextRotation](./get_notextrotation/)() | Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated. |
+| [get_NoTextRotation](./get_notextrotation/)() | Gets or sets a boolean value indicating either text of the [TextBox](./) should not rotate when the shape is rotated. |
 | [get_Parent](./get_parent/)() const | Gets a parent shape for the [TextBox](./). |
 | [get_Previous](./get_previous/)() | Returns a [TextBox](./) that represents the previous [TextBox](./) in a sequence of shapes. |
 | [get_TextBoxWrapMode](./get_textboxwrapmode/)() | Determines how text wraps inside a shape. |
@@ -42,13 +42,14 @@ class TextBox : public System::Object
 | [set_InternalMarginTop](./set_internalmargintop/)(double) | Specifies the inner top margin in points for a shape. |
 | [set_LayoutFlow](./set_layoutflow/)(Aspose::Words::Drawing::LayoutFlow) | Determines the flow of the text layout in a shape. |
 | [set_Next](./set_next/)(const System::SharedPtr\<Aspose::Words::Drawing::TextBox\> \&) | Sets a [TextBox](./) that represents the next [TextBox](./) in a sequence of shapes. |
-| [set_NoTextRotation](./set_notextrotation/)(bool) | Sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated. |
+| [set_NoTextRotation](./set_notextrotation/)(bool) | Sets a boolean value indicating either text of the [TextBox](./) should not rotate when the shape is rotated. |
 | [set_TextBoxWrapMode](./set_textboxwrapmode/)(Aspose::Words::Drawing::TextBoxWrapMode) | Determines how text wraps inside a shape. |
 | [set_VerticalAnchor](./set_verticalanchor/)(Aspose::Words::Drawing::TextBoxAnchor) | Specifies the vertical alignment of the text within a shape. |
 ## Remarks
 
 
 Use the [TextBox](../shape/get_textbox/) property to access text properties of a shape. You do not create instances of the [TextBox](./) class directly.
+[TextBox](../shape/get_textbox/)
 ## Examples
 
 

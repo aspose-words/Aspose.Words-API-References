@@ -60,6 +60,7 @@ doc->Save(get_ArtifactsDir() + u"Border.VerticalBorders.docx");
 ```
 ## See Also
 
+* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

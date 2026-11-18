@@ -39,6 +39,8 @@ ASSERT_EQ(docA->get_Revisions()->get_Count(), isIgnoreDmlUniqueId ? 0 : 2);
 ```
 ## See Also
 
+* [get_IgnoreDmlUniqueId](../get_ignoredmluniqueid/)
+
 * Class [AdvancedCompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

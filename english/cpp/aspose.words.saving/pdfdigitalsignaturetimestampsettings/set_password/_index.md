@@ -21,6 +21,8 @@ void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_Password(c
  The default value is **null**. 
 ## See Also
 
+* [get_Password](../get_password/)
+
 * Class [PdfDigitalSignatureTimestampSettings](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::Document::get_NodeType() const override
 
 ## See Also
 
+* Enum [NodeType](../../nodetype/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

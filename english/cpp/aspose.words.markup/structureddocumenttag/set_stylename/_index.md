@@ -54,6 +54,8 @@ for (auto&& node : System::IterateOver(tags))
 ```
 ## See Also
 
+* [get_StyleName](../get_stylename/)
+
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

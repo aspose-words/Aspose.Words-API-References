@@ -33,6 +33,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.AsianTypographyProperties.docx"
 ```
 ## See Also
 
+* [get_WordWrap](../get_wordwrap/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

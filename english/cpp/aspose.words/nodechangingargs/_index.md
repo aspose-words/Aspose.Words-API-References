@@ -2,7 +2,7 @@
 title: Aspose::Words::NodeChangingArgs class
 linktitle: NodeChangingArgs
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::NodeChangingArgs class. Provides data for methods of the INodeChangingCallback interface. DocumentBaseINodeChangingCallbackNodeChangingActionTo learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::NodeChangingArgs class. Provides data for methods of the INodeChangingCallback interface. DocumentBaseINodeChangingCallbackNodeChangingActionTo learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 42000
 url: /cpp/aspose.words/nodechangingargs/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/nodechangingargs/
 
 
 Provides data for methods of the [INodeChangingCallback](../inodechangingcallback/) interface. [DocumentBase](../documentbase/)[INodeChangingCallback](../inodechangingcallback/)[NodeChangingAction](../nodechangingaction/)
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class NodeChangingArgs : public System::Object

@@ -18,6 +18,7 @@ Aspose::Words::Fields::FieldType Aspose::Words::Fields::FieldMergeField::get_Typ
 
 ## See Also
 
+* Enum [FieldType](../../fieldtype/)
 * Class [FieldMergeField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

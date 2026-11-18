@@ -35,6 +35,8 @@ doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.SaveLikeImage.svg", options);
 ```
 ## See Also
 
+* [get_FitToViewPort](../get_fittoviewport/)
+
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

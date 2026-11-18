@@ -21,6 +21,8 @@ void Aspose::Words::AI::CheckGrammarOptions::set_PreserveFormatting(bool value)
  When the option is set to **false**, the quality of grammar checking is higher than when this option is set to **true**. However, the original formatting of the text is not preserved in this case. 
 ## See Also
 
+* [get_PreserveFormatting](../get_preserveformatting/)
+
 * Class [CheckGrammarOptions](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -46,6 +46,8 @@ doc->Save(get_ArtifactsDir() + u"Field.SET.REF.docx");
 ```
 ## See Also
 
+* [get_BookmarkText](../get_bookmarktext/)
+
 * Class [FieldSet](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

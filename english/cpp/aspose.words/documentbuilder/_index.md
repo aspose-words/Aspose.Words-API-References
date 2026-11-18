@@ -53,8 +53,8 @@ class DocumentBuilder : public IRunAttrSource,
 | [InsertFootnote](./insertfootnote/)(Aspose::Words::Notes::FootnoteType, const System::String \&) | Inserts a footnote or endnote into the document. |
 | [InsertFootnote](./insertfootnote/)(Aspose::Words::Notes::FootnoteType, const System::String \&, const System::String \&) | Inserts a footnote or endnote into the document. |
 | [InsertForms2OleControl](./insertforms2olecontrol/)(const System::SharedPtr\<Aspose::Words::Drawing::Ole::Forms2OleControl\> \&) | Inserts Forms2OleControl object into current position. |
-| [InsertGroupShape](./insertgroupshape/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\> \&) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
-| [InsertGroupShape](./insertgroupshape/)(double, double, double, double, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\> \&) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
+| [InsertGroupShape](./insertgroupshape/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\> \&) | Groups the shapes passed as a parameter into a new [GroupShape](../../aspose.words.drawing/groupshape/) node which is inserted into the current position. |
+| [InsertGroupShape](./insertgroupshape/)(double, double, double, double, const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Drawing::ShapeBase\>\> \&) | Groups the shapes passed as a parameter into a new [GroupShape](../../aspose.words.drawing/groupshape/) node of the specified size which is inserted into the specified position. |
 | [InsertHorizontalRule](./inserthorizontalrule/)() | Inserts a horizontal rule shape into the document. |
 | [InsertHtml](./inserthtml/)(const System::String \&) | Inserts an HTML string into the document. |
 | [InsertHtml](./inserthtml/)(const System::String \&, Aspose::Words::HtmlInsertOptions) | Inserts an HTML string into the document. Allows to specify additional options. |
@@ -124,7 +124,7 @@ class DocumentBuilder : public IRunAttrSource,
 | [Writeln](./writeln/)(const System::String \&) | Inserts a string and a paragraph break into the document. |
 | [get_Bold](./get_bold/)() | True if the font is formatted as bold. |
 | [get_CellFormat](./get_cellformat/)() | Returns an object that represents current table cell formatting properties. |
-| [get_CurrentNode](./get_currentnode/)() | Gets the node that is currently selected in this DocumentBuilder. |
+| [get_CurrentNode](./get_currentnode/)() | Gets the node that is currently selected in this [DocumentBuilder](./). |
 | [get_CurrentParagraph](./get_currentparagraph/)() | Gets the paragraph that is currently selected in this [DocumentBuilder](./). |
 | [get_CurrentSection](./get_currentsection/)() | Gets the section that is currently selected in this [DocumentBuilder](./). |
 | [get_CurrentStory](./get_currentstory/)() | Gets the story that is currently selected in this [DocumentBuilder](./). |

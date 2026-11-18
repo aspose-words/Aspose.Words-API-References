@@ -24,6 +24,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_AdditionalTextPositioning(bool v
 The default value is **false**.
 ## See Also
 
+* [get_AdditionalTextPositioning](../get_additionaltextpositioning/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

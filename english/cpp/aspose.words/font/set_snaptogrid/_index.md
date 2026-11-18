@@ -18,6 +18,8 @@ void Aspose::Words::Font::set_SnapToGrid(bool value)
 
 ## See Also
 
+* [get_SnapToGrid](../get_snaptogrid/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

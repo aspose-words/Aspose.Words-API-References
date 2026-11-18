@@ -76,6 +76,9 @@ ASSERT_EQ(listItems->get_Count(), 0);
 ```
 ## See Also
 
+* [get_SelectedValue](../get_selectedvalue/)
+
+* Class [SdtListItem](../../sdtlistitem/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

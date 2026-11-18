@@ -81,6 +81,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 ## See Also
 
+* Enum [CellVerticalAlignment](../../cellverticalalignment/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

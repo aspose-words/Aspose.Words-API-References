@@ -21,6 +21,8 @@ void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_UserName(c
  The default value is **null**. 
 ## See Also
 
+* [get_UserName](../get_username/)
+
 * Class [PdfDigitalSignatureTimestampSettings](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

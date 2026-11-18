@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_usesingleborderforconti
 Use Simplified Rules For Table Border Conflicts.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_UseSingleBorderforContiguousCells()
+bool Aspose::Words::Settings::CompatibilityOptions::get_UseSingleBorderforContiguousCells()
 ```
 
 ## See Also

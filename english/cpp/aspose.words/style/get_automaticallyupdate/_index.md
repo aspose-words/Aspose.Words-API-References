@@ -13,7 +13,7 @@ url: /cpp/aspose.words/style/get_automaticallyupdate/
 Specifies whether this style is automatically redefined based on the appropriate value.
 
 ```cpp
-_Bool Aspose::Words::Style::get_AutomaticallyUpdate() const
+bool Aspose::Words::Style::get_AutomaticallyUpdate() const
 ```
 
 ## Remarks

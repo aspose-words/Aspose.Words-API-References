@@ -34,6 +34,8 @@ This is a convenience method that iterates over all building blocks in this coll
 Microsoft Word organizes building blocks into galleries. The galleries are predefined using the [BuildingBlockGallery](../../buildingblockgallery/) enum. Within each gallery, building blocks can be organized into one or more categories. The category name is a string. Each building block has a name. A building block name is not guaranteed to be unique.
 ## See Also
 
+* Class [BuildingBlock](../../buildingblock/)
+* Enum [BuildingBlockGallery](../../buildingblockgallery/)
 * Class [GlossaryDocument](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

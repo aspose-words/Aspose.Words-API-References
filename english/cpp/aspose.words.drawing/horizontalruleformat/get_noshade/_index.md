@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/horizontalruleformat/get_noshade/
 Indicates the presence of 3D shading for the horizontal rule. If **true**, then the horizontal rule is without 3D shading and solid color is used.
 
 ```cpp
-_Bool Aspose::Words::Drawing::HorizontalRuleFormat::get_NoShade()
+bool Aspose::Words::Drawing::HorizontalRuleFormat::get_NoShade()
 ```
 
 ## Remarks

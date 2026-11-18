@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Paragraph::get_ParagraphBr
 
 ## See Also
 
+* Class [Font](../../font/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,7 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 ## See Also
 
+* Class [FootnoteSeparator](../../footnoteseparator/)
 * Class [FootnoteSeparatorCollection](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

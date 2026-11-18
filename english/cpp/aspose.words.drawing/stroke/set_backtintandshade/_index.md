@@ -37,6 +37,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.StrokeBackThemeColors.docx");
 ```
 ## See Also
 
+* [get_BackTintAndShade](../get_backtintandshade/)
+
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.notes/footnoteseparator/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::Notes::FootnoteSeparator::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::Notes::FootnoteSeparator::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -32,6 +32,7 @@ Enumerates over this node and all of its children. Each node calls a correspondi
 For more info see the Visitor design pattern.
 ## See Also
 
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [FootnoteSeparator](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

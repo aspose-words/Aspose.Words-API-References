@@ -21,6 +21,9 @@ void Aspose::Words::Saving::PdfSaveOptions::set_PageLayout(Aspose::Words::Saving
  The default value is [SinglePage](../../pdfpagelayout/). 
 ## See Also
 
+* [get_PageLayout](../get_pagelayout/)
+
+* Enum [PdfPageLayout](../../pdfpagelayout/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

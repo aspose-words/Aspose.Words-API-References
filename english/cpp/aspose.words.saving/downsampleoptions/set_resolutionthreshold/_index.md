@@ -21,6 +21,8 @@ void Aspose::Words::Saving::DownsampleOptions::set_ResolutionThreshold(int32_t v
  The default value is 0. 
 ## See Also
 
+* [get_ResolutionThreshold](../get_resolutionthreshold/)
+
 * Class [DownsampleOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

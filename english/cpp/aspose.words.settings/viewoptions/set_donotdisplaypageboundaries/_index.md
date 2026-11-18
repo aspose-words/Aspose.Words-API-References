@@ -49,6 +49,8 @@ doc->Save(get_ArtifactsDir() + u"ViewOptions.DisplayPageBoundaries.doc");
 ```
 ## See Also
 
+* [get_DoNotDisplayPageBoundaries](../get_donotdisplaypageboundaries/)
+
 * Class [ViewOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

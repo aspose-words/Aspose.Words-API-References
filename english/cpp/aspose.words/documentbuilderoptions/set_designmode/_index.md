@@ -18,6 +18,8 @@ void Aspose::Words::DocumentBuilderOptions::set_DesignMode(bool value)
 
 ## See Also
 
+* [get_DesignMode](../get_designmode/)
+
 * Class [DocumentBuilderOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -31,6 +31,7 @@ In addition to shapes containing individual raster images, this option also affe
 ## See Also
 
 * [ImageResolution](../get_imageresolution/)
+* [get_ScaleImageToShapeSize](../get_scaleimagetoshapesize/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

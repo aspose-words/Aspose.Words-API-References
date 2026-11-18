@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UseWord2002TableStyleRul
 
 ## See Also
 
+* [get_UseWord2002TableStyleRules](../get_useword2002tablestylerules/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

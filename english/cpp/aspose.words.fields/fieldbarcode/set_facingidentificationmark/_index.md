@@ -58,6 +58,8 @@ doc->Save(get_ArtifactsDir() + u"Field.BARCODE.docx");
 ```
 ## See Also
 
+* [get_FacingIdentificationMark](../get_facingidentificationmark/)
+
 * Class [FieldBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

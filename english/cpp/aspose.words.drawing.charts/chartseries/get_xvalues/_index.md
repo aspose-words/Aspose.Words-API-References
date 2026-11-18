@@ -49,6 +49,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.FormatCode.docx");
 ```
 ## See Also
 
+* Class [ChartXValueCollection](../../chartxvaluecollection/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

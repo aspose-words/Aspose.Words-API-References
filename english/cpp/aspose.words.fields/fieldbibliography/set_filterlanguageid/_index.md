@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldBibliography::set_FilterLanguageId(const System
 
 ## See Also
 
+* [get_FilterLanguageId](../get_filterlanguageid/)
+
 * Class [FieldBibliography](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

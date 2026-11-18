@@ -2,7 +2,7 @@
 title: Aspose::Words::BuildingBlocks::GlossaryDocument class
 linktitle: GlossaryDocument
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::BuildingBlocks::GlossaryDocument class. Represents the root element for a glossary document within a Word document. A glossary document is a storage for AutoText, AutoCorrect entries and Building Blocks. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::BuildingBlocks::GlossaryDocument class. Represents the root element for a glossary document within a Word document. A glossary document is a storage for AutoText, AutoCorrect entries and Building Blocks. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 3000
 url: /cpp/aspose.words.buildingblocks/glossarydocument/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words.buildingblocks/glossarydocument/
 
 
 Represents the root element for a glossary document within a Word document. A glossary document is a storage for AutoText, AutoCorrect entries and Building Blocks. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class GlossaryDocument : public DocumentBase
@@ -97,6 +97,7 @@ To access building blocks, you need to load a document into a [Document](../../a
 [GlossaryDocument](./) can contain any number of [BuildingBlock](../buildingblock/) objects. Each [BuildingBlock](../buildingblock/) represents one document part.
 
 Corresponds to the glossaryDocument and docParts elements in OOXML.
+[Document](../../aspose.words/document/)[GlossaryDocument](../../aspose.words/document/get_glossarydocument/)[BuildingBlock](../buildingblock/)
 ## See Also
 
 * Class [DocumentBase](../../aspose.words/documentbase/)

@@ -87,6 +87,8 @@ doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
 ## See Also
 
+* [get_RightPadding](../get_rightpadding/)
+
 * Class [ConditionalStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

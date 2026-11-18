@@ -22,6 +22,7 @@ void Aspose::Words::Drawing::ShapeBase::set_BehindText(bool value)
 Has effect only for top level shapes.
 
 The default value is **false**.
+[ZOrder](../get_zorder/)
 ## Examples
 
 
@@ -43,6 +44,8 @@ shape->set_VerticalAlignment(VerticalAlignment::Center);
 doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
 ## See Also
+
+* [get_BehindText](../get_behindtext/)
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)

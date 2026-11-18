@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 ## See Also
 
+* [get_UseBookFoldPrintingSettings](../get_usebookfoldprintingsettings/)
+
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

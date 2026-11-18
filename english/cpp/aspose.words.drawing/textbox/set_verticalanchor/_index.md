@@ -48,6 +48,9 @@ doc->Save(get_ArtifactsDir() + u"Shape.VerticalAnchor.docx");
 ```
 ## See Also
 
+* [get_VerticalAnchor](../get_verticalanchor/)
+
+* Enum [TextBoxAnchor](../../textboxanchor/)
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

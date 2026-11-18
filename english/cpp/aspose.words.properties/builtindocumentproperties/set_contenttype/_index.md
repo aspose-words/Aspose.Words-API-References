@@ -18,6 +18,8 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_ContentType(const
 
 ## See Also
 
+* [get_ContentType](../get_contenttype/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

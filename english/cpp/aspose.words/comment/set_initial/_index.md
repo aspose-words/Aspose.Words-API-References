@@ -24,6 +24,8 @@ Cannot be **null**.
 Default is empty string.
 ## See Also
 
+* [get_Initial](../get_initial/)
+
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDdeAuto::set_SourceItem(const System::String & 
 
 ## See Also
 
+* [get_SourceItem](../get_sourceitem/)
+
 * Class [FieldDdeAuto](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

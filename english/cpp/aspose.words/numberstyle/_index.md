@@ -86,7 +86,7 @@ enum class NumberStyle : int
 ## Examples
 
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

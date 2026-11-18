@@ -34,6 +34,7 @@ doc->Save(get_ArtifactsDir() + u"HtmlLoadOptions.BlockImport.docx");
 ```
 ## See Also
 
+* Enum [BlockImportMode](../../blockimportmode/)
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

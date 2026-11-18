@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldLink::set_InsertAsBitmap(bool value)
 
 ## See Also
 
+* [get_InsertAsBitmap](../get_insertasbitmap/)
+
 * Class [FieldLink](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

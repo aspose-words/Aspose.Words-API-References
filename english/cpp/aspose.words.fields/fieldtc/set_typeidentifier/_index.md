@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldTC::set_TypeIdentifier(const System::String & v
 
 ## See Also
 
+* [get_TypeIdentifier](../get_typeidentifier/)
+
 * Class [FieldTC](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

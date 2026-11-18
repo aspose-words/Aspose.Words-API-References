@@ -30,7 +30,7 @@ When saving a document to a file, the generated resource file name looks like <d
 When saving a document to a stream, the generated resource file name looks like Aspose.Words.<document guid>.<image number>.<extension>.
 
 [ResourceFileName](./) must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the **src** attribute for writing to fixed page HTML, SVG or Markdown using the document file name, the [ResourcesFolder](../../htmlfixedsaveoptions/get_resourcesfolder/) or [ResourcesFolder](../../svgsaveoptions/get_resourcesfolder/) and [ResourcesFolderAlias](../../htmlfixedsaveoptions/get_resourcesfolderalias/) or [ResourcesFolderAlias](../../svgsaveoptions/get_resourcesfolderalias/) or [ImagesFolder](../../markdownsaveoptions/get_imagesfolder/) or [ImagesFolderAlias](../../markdownsaveoptions/get_imagesfolderalias/) properties.
-[ResourcesFolder](../../htmlfixedsaveoptions/get_resourcesfolder/)[ResourcesFolder](../../svgsaveoptions/get_resourcesfolder/)[ResourcesFolderAlias](../../htmlfixedsaveoptions/get_resourcesfolderalias/)[ResourcesFolderAlias](../../svgsaveoptions/get_resourcesfolderalias/)
+[ResourceStream](../get_resourcestream/)[ResourcesFolder](../../htmlfixedsaveoptions/get_resourcesfolder/)[ResourcesFolder](../../svgsaveoptions/get_resourcesfolder/)[ResourcesFolderAlias](../../htmlfixedsaveoptions/get_resourcesfolderalias/)[ResourcesFolderAlias](../../svgsaveoptions/get_resourcesfolderalias/)
 ## See Also
 
 * Class [ResourceSavingArgs](../)

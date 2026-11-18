@@ -13,7 +13,7 @@ url: /cpp/aspose.words/document/get_showgrammaticalerrors/
 Specifies whether to display grammar errors in this document.
 
 ```cpp
-_Bool Aspose::Words::Document::get_ShowGrammaticalErrors()
+bool Aspose::Words::Document::get_ShowGrammaticalErrors()
 ```
 
 ## Examples

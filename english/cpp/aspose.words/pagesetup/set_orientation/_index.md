@@ -73,6 +73,9 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
 ## See Also
 
+* [get_Orientation](../get_orientation/)
+
+* Enum [Orientation](../../orientation/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

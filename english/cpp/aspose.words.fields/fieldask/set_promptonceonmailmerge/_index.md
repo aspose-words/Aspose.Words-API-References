@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldAsk::set_PromptOnceOnMailMerge(bool value)
 
 ## See Also
 
+* [get_PromptOnceOnMailMerge](../get_promptonceonmailmerge/)
+
 * Class [FieldAsk](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

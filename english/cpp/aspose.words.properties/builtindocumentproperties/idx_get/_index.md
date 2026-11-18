@@ -52,6 +52,7 @@ for (auto&& customDocumentProperty : System::IterateOver(doc->get_CustomDocument
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

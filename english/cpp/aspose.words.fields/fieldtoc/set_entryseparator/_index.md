@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToc::set_EntrySeparator(const System::String & 
 
 ## See Also
 
+* [get_EntrySeparator](../get_entryseparator/)
+
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

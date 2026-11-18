@@ -26,6 +26,7 @@ This collection contains OOXML parts whose parent is the OOXML package and they 
 Aspose.Words loads and saves custom parts into OOXML documents only.
 
 This property cannot be **null**.
+[CustomPart](../../../aspose.words.markup/custompart/)
 ## Examples
 
 
@@ -68,6 +69,9 @@ ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 0);
 ```
 ## See Also
 
+* [get_PackageCustomParts](../get_packagecustomparts/)
+
+* Class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -78,6 +78,7 @@ void Aspose::Words::DocumentBuilder::InsertHtml(const System::String & html, Asp
  You can use this method to insert an HTML fragment or whole HTML document. 
 ## See Also
 
+* Enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

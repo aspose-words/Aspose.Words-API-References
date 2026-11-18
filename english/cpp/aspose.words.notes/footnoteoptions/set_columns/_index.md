@@ -32,6 +32,8 @@ doc->Save(get_ArtifactsDir() + u"Document.FootnoteColumns.docx");
 ```
 ## See Also
 
+* [get_Columns](../get_columns/)
+
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

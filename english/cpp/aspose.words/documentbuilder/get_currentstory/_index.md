@@ -44,6 +44,7 @@ ASSERT_TRUE(builder->get_CurrentStory()->get_Tables()->Contains(table));
 ```
 ## See Also
 
+* Class [Story](../../story/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

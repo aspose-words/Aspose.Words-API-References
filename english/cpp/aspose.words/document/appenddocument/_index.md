@@ -73,6 +73,7 @@ dstDoc->Save(get_ArtifactsDir() + u"Document.AppendAllDocumentsInFolder.doc");
 ```
 ## See Also
 
+* Enum [ImportFormatMode](../../importformatmode/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -174,6 +175,8 @@ dstDoc->UpdateListLabels();
 ```
 ## See Also
 
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [ImportFormatOptions](../../importformatoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

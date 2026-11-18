@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/fontsavingargs/get_bold/
 Indicates whether the current font is bold.
 
 ```cpp
-_Bool Aspose::Words::Saving::FontSavingArgs::get_Bold() const
+bool Aspose::Words::Saving::FontSavingArgs::get_Bold() const
 ```
 
 ## See Also

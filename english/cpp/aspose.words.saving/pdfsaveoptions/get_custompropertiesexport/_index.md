@@ -26,6 +26,7 @@ Default value is [None](../../pdfcustompropertiesexport/).
 [Standard](../../pdfcustompropertiesexport/) value is not supported when saving to PDF 2.0. [Metadata](../../pdfcustompropertiesexport/) will be used instead.
 ## See Also
 
+* Enum [PdfCustomPropertiesExport](../../pdfcustompropertiesexport/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

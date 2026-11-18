@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_AllowSpaceOfSameStyleInT
 
 ## See Also
 
+* [get_AllowSpaceOfSameStyleInTable](../get_allowspaceofsamestyleintable/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

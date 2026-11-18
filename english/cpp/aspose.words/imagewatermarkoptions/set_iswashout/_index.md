@@ -43,6 +43,8 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 ```
 ## See Also
 
+* [get_IsWashout](../get_iswashout/)
+
 * Class [ImageWatermarkOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

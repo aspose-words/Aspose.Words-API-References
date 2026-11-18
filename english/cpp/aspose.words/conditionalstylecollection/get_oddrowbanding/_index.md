@@ -87,6 +87,7 @@ doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
 ## See Also
 
+* Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

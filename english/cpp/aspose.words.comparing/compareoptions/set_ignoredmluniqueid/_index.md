@@ -37,12 +37,14 @@ docA->Compare(docB, u"Aspose.Words", System::DateTime::get_Now(), compareOptions
 
 ASSERT_EQ(docA->get_Revisions()->get_Count(), isIgnoreDmlUniqueId ? 0 : 2);
 ```
+## See Also
+
+* [get_IgnoreDmlUniqueId](../get_ignoredmluniqueid/)
+
 ## Deprecated
 
 
 Obsolete, please use CompareOptions.AdvancedOptions.IgnoreDmlUniqueId property.
-## See Also
-
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

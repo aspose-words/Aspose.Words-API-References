@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/
 ## MarkdownSaveOptions::get_OfficeMathExportMode method
 
 
-Specifies how OfficeMath will be written to the output file. Default value is [Text](../../markdownofficemathexportmode/).
+Specifies how [OfficeMath](../../../aspose.words.math/officemath/) will be written to the output file. Default value is [Text](../../markdownofficemathexportmode/).
 
 ```cpp
 Aspose::Words::Saving::MarkdownOfficeMathExportMode Aspose::Words::Saving::MarkdownSaveOptions::get_OfficeMathExportMode() const
@@ -19,7 +19,7 @@ Aspose::Words::Saving::MarkdownOfficeMathExportMode Aspose::Words::Saving::Markd
 ## Examples
 
 
-Shows how OfficeMath will be written to the document.
+Shows how [OfficeMath](../../../aspose.words.math/officemath/) will be written to the document.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
@@ -30,7 +30,7 @@ saveOptions->set_OfficeMathExportMode(MarkdownOfficeMathExportMode::Image);
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
 ```
 
-Shows how to export OfficeMath object as Latex.
+Shows how to export [OfficeMath](../../../aspose.words.math/officemath/) object as Latex.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
@@ -41,7 +41,7 @@ saveOptions->set_OfficeMathExportMode(MarkdownOfficeMathExportMode::Latex);
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportOfficeMathAsLatex.md", saveOptions);
 ```
 
-Shows how to export OfficeMath object as MarkItDown.
+Shows how to export [OfficeMath](../../../aspose.words.math/officemath/) object as MarkItDown.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
@@ -53,6 +53,7 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportOfficeMathAsMarkItDow
 ```
 ## See Also
 
+* Enum [MarkdownOfficeMathExportMode](../../markdownofficemathexportmode/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

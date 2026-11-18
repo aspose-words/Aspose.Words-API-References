@@ -24,6 +24,8 @@ The exit macro runs when the form field loses the focus in Microsoft Word.
 Microsoft Word allows strings with at most 32 characters.
 ## See Also
 
+* [get_ExitMacro](../get_exitmacro/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

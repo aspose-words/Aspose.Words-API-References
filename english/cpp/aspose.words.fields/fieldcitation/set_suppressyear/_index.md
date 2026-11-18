@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldCitation::set_SuppressYear(bool value)
 
 ## See Also
 
+* [get_SuppressYear](../get_suppressyear/)
+
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

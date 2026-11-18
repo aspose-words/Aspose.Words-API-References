@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::Document> & Aspose::Words::MailMerging::F
 
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
 * Class [FieldMergingArgsBase](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

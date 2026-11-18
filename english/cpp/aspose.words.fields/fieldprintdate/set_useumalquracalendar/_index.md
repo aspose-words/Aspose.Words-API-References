@@ -57,6 +57,8 @@ ASSERT_EQ(field->GetFieldCode(), u" PRINTDATE  \\s");
 ```
 ## See Also
 
+* [get_UseUmAlQuraCalendar](../get_useumalquracalendar/)
+
 * Class [FieldPrintDate](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -21,6 +21,8 @@ void Aspose::Words::LowCode::MailMergeOptions::set_TrimWhitespaces(bool value)
  The default value is **true**. 
 ## See Also
 
+* [get_TrimWhitespaces](../get_trimwhitespaces/)
+
 * Class [MailMergeOptions](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

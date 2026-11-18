@@ -28,6 +28,8 @@ The default value is **false**.
 Interpolation flag is prohibited by PDF/A compliance. **false** value will be used automatically when saving to PDF/A.
 ## See Also
 
+* [get_InterpolateImages](../get_interpolateimages/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

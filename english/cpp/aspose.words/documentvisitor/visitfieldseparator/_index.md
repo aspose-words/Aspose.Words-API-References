@@ -32,6 +32,8 @@ The field separator separates field code from field value in the document. Note 
 For more info see [VisitFieldStart()](../visitfieldstart/)
 ## See Also
 
+* Enum [VisitorAction](../../visitoraction/)
+* Class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

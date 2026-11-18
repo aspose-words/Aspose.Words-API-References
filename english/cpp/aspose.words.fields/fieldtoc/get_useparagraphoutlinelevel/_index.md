@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/get_useparagraphoutlinelevel/
 Gets whether to use the applied paragraph outline level.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldToc::get_UseParagraphOutlineLevel()
+bool Aspose::Words::Fields::FieldToc::get_UseParagraphOutlineLevel()
 ```
 
 ## See Also

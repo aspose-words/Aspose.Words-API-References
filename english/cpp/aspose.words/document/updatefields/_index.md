@@ -33,7 +33,7 @@ To update fields in a specific part of the document use [UpdateFields](../../ran
 ## Examples
 
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
+Shows how to insert a [Table](../../../aspose.words.tables/table/) of contents (TOC) into a document using heading styles as entries.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

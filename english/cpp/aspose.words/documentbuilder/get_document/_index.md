@@ -49,6 +49,7 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.ClearFormatting.docx");
 ```
 ## See Also
 
+* Class [Document](../../document/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

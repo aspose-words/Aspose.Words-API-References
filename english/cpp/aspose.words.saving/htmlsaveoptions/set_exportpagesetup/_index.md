@@ -67,6 +67,8 @@ else
 ```
 ## See Also
 
+* [get_ExportPageSetup](../get_exportpagesetup/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

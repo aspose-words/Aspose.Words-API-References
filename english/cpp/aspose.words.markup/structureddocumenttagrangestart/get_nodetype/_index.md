@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::Markup::StructuredDocumentTagRangeStart::
 
 ## See Also
 
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

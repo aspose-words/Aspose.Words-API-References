@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddate/get_uselastformat/
 Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldDate::get_UseLastFormat()
+bool Aspose::Words::Fields::FieldDate::get_UseLastFormat()
 ```
 
 ## Examples

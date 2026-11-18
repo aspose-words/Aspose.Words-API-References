@@ -13,7 +13,7 @@ url: /cpp/aspose.words/run/get_isphoneticguide/
 Gets a boolean value indicating either the run is a phonetic guide.
 
 ```cpp
-_Bool Aspose::Words::Run::get_IsPhoneticGuide()
+bool Aspose::Words::Run::get_IsPhoneticGuide()
 ```
 
 ## Examples

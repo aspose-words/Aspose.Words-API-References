@@ -13,7 +13,7 @@ url: /cpp/aspose.words/document/get_spellingchecked/
 Returns **true** if the document has been checked for spelling.
 
 ```cpp
-_Bool Aspose::Words::Document::get_SpellingChecked()
+bool Aspose::Words::Document::get_SpellingChecked()
 ```
 
 ## Remarks

@@ -93,6 +93,7 @@ doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
 ## See Also
 
+* Class [Section](../../section/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

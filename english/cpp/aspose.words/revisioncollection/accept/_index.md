@@ -26,6 +26,7 @@ int32_t Aspose::Words::RevisionCollection::Accept(const System::SharedPtr<Aspose
 The count of accepted revisions.
 ## See Also
 
+* Interface [IRevisionCriteria](../../irevisioncriteria/)
 * Class [RevisionCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -20,6 +20,7 @@ System::String Aspose::Words::Document::get_AttachedTemplate()
 
 
 Empty string means the document is attached to the Normal template.
+[Template](../../../aspose.words.properties/builtindocumentproperties/get_template/)
 ## Examples
 
 

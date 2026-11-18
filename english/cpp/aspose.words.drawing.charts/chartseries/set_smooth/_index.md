@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartSeries::set_Smooth(bool value)
 
 ## See Also
 
+* [get_Smooth](../get_smooth/)
+
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

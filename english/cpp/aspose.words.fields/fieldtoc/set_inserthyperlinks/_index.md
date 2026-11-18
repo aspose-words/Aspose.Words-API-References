@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToc::set_InsertHyperlinks(bool value)
 
 ## See Also
 
+* [get_InsertHyperlinks](../get_inserthyperlinks/)
+
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

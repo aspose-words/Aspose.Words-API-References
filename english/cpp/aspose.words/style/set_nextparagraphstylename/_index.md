@@ -46,6 +46,8 @@ ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
 ```
 ## See Also
 
+* [get_NextParagraphStyleName](../get_nextparagraphstylename/)
+
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

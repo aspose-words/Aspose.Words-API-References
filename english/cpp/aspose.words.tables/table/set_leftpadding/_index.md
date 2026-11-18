@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetRowFormatting.docx");
 ```
 ## See Also
 
+* [get_LeftPadding](../get_leftpadding/)
+
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

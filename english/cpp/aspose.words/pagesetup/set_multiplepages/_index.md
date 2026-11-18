@@ -79,6 +79,9 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.Booklet.docx");
 ```
 ## See Also
 
+* [get_MultiplePages](../get_multiplepages/)
+
+* Enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

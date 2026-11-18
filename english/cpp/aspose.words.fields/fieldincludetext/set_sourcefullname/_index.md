@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIncludeText::set_SourceFullName(const System::S
 
 ## See Also
 
+* [get_SourceFullName](../get_sourcefullname/)
+
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

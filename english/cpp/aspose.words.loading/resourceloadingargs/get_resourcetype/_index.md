@@ -18,6 +18,7 @@ Aspose::Words::Loading::ResourceType Aspose::Words::Loading::ResourceLoadingArgs
 
 ## See Also
 
+* Enum [ResourceType](../../resourcetype/)
 * Class [ResourceLoadingArgs](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

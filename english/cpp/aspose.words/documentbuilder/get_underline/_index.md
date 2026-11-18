@@ -36,6 +36,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertUnderline.docx");
 ```
 ## See Also
 
+* Enum [Underline](../../underline/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

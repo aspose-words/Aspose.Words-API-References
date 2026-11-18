@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Fill::set_RotateWithObject(bool value)
 
 ## See Also
 
+* [get_RotateWithObject](../get_rotatewithobject/)
+
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

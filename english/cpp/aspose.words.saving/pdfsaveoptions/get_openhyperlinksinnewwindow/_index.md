@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_openhyperlinksinnewwindow/
 Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_OpenHyperlinksInNewWindow() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_OpenHyperlinksInNewWindow() const
 ```
 
 ## Remarks

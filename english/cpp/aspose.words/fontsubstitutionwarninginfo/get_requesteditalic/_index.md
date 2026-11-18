@@ -13,7 +13,7 @@ url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requesteditalic/
 Indicates whether italic style was requested.
 
 ```cpp
-_Bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedItalic() const
+bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedItalic() const
 ```
 
 ## Examples

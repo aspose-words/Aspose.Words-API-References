@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_bordersurroundsheader/
 Specifies whether the page border includes or excludes the header.
 
 ```cpp
-_Bool Aspose::Words::PageSetup::get_BorderSurroundsHeader()
+bool Aspose::Words::PageSetup::get_BorderSurroundsHeader()
 ```
 
 ## Remarks

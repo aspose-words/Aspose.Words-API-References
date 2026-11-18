@@ -28,6 +28,7 @@ If [FontsFolderAlias](./) is an empty string, then the font URI written to HTML 
 If [FontsFolderAlias](./) is set to '.' (dot), then the font file name will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct font URIs is to use [ResourceFolderAlias](../get_resourcefolderalias/).
+[ResourceFolderAlias](../get_resourcefolderalias/)[ExportFontResources](../get_exportfontresources/)[FontsFolder](../get_fontsfolder/)[FontSavingCallback](../get_fontsavingcallback/)
 ## Examples
 
 

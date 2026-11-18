@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToa::set_UsePassim(bool value)
 
 ## See Also
 
+* [get_UsePassim](../get_usepassim/)
+
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

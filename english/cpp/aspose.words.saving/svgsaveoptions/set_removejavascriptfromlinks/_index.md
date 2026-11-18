@@ -31,6 +31,8 @@ doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.RemoveJavaScriptFromLinksSvg.htm
 ```
 ## See Also
 
+* [get_RemoveJavaScriptFromLinks](../get_removejavascriptfromlinks/)
+
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_ScalingFactor(const System::S
 
 ## See Also
 
+* [get_ScalingFactor](../get_scalingfactor/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

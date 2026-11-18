@@ -60,6 +60,8 @@ doc->Save(get_ArtifactsDir() + u"Field.ADVANCE.docx");
 ```
 ## See Also
 
+* [get_VerticalPosition](../get_verticalposition/)
+
 * Class [FieldAdvance](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

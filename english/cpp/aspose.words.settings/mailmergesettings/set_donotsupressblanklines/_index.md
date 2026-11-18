@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_DoNotSupressBlankLines(bool
 
 ## See Also
 
+* [get_DoNotSupressBlankLines](../get_donotsupressblanklines/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -31,6 +31,7 @@ class FieldMergingArgsBase : public System::Object
 | [set_FieldValue](./set_fieldvalue/)(const System::SharedPtr\<System::Object\> \&) | Sets the value of the field from the data source. |
 ## Remarks
 
+[FieldMergingArgs](../fieldmergingargs/)[ImageFieldMergingArgs](../imagefieldmergingargs/)
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)

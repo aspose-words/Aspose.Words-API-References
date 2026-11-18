@@ -22,6 +22,9 @@ void Aspose::Words::Settings::Odso::set_DataSourceType(Aspose::Words::Settings::
 This setting is purely a suggestion of the data source type that is being used for this mail merge.
 ## See Also
 
+* [get_DataSourceType](../get_datasourcetype/)
+
+* Enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

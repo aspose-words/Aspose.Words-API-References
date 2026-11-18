@@ -18,6 +18,7 @@ Aspose::Words::Replacing::FindReplaceDirection Aspose::Words::Replacing::FindRep
 
 ## See Also
 
+* Enum [FindReplaceDirection](../../findreplacedirection/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

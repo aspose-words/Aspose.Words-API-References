@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartaxis/get_hasmajorgridlines/
 Gets or sets a flag indicating whether the axis has major gridlines.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartAxis::get_HasMajorGridlines()
+bool Aspose::Words::Drawing::Charts::ChartAxis::get_HasMajorGridlines()
 ```
 
 ## Examples

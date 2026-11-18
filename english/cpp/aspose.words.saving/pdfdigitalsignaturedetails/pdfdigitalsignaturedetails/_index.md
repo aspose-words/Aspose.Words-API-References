@@ -39,6 +39,7 @@ Aspose::Words::Saving::PdfDigitalSignatureDetails::PdfDigitalSignatureDetails(co
 | signatureDate | System::DateTime | The date and time of signing. |
 ## See Also
 
+* Class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

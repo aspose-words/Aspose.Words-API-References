@@ -40,7 +40,7 @@ builder->Write(u"Text surrounded by green border.");
 doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
 ```
 
-Shows how to create a formatted table using DocumentBuilder.
+Shows how to create a formatted table using [DocumentBuilder](../).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -99,6 +99,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateFormattedTable.docx");
 ```
 ## See Also
 
+* Class [Font](../../font/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -26,6 +26,7 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_ResourceFolderAlias(const Syste
 If [ResourceFolderAlias](../get_resourcefolderalias/) is empty, the [ResourceFolder](../get_resourcefolder/) property value will be used to construct resource URIs.
 
 If [ResourceFolderAlias](../get_resourcefolderalias/) is set to '.' (dot), resource URIs will contain file names only, without any path.
+[ResourceFolder](../get_resourcefolder/)[FontsFolderAlias](../get_fontsfolderalias/)[ImagesFolderAlias](../get_imagesfolderalias/)
 ## Examples
 
 
@@ -50,6 +51,8 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 ## See Also
+
+* [get_ResourceFolderAlias](../get_resourcefolderalias/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

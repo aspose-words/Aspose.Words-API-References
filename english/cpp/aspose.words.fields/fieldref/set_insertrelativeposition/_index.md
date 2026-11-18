@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldRef::set_InsertRelativePosition(bool value)
 
 ## See Also
 
+* [get_InsertRelativePosition](../get_insertrelativeposition/)
+
 * Class [FieldRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

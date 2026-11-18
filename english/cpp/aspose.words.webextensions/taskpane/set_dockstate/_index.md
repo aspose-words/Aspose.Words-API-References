@@ -87,6 +87,9 @@ ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
 ## See Also
 
+* [get_DockState](../get_dockstate/)
+
+* Enum [TaskPaneDockState](../../taskpanedockstate/)
 * Class [TaskPane](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
 * Library [Aspose.Words for C++](../../../)

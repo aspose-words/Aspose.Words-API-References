@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeBarcode::set_ErrorCorrectionLevel(const Sy
 
 ## See Also
 
+* [get_ErrorCorrectionLevel](../get_errorcorrectionlevel/)
+
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

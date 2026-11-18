@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/layoutoptions/get_showhiddentext/
 Gets or sets indication of whether hidden text in the document is rendered. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText() const
+bool Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText() const
 ```
 
 ## Remarks

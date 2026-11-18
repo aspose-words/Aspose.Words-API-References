@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingSameStyle.docx"
 ```
 ## See Also
 
+* [get_NoSpaceBetweenParagraphsOfSameStyle](../get_nospacebetweenparagraphsofsamestyle/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

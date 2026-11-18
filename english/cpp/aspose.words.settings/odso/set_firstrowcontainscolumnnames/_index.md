@@ -22,6 +22,8 @@ void Aspose::Words::Settings::Odso::set_FirstRowContainsColumnNames(bool value)
 RK I have never seen this in use.
 ## See Also
 
+* [get_FirstRowContainsColumnNames](../get_firstrowcontainscolumnnames/)
+
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

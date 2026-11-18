@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_MailSubject(const System::S
 
 ## See Also
 
+* [get_MailSubject](../get_mailsubject/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

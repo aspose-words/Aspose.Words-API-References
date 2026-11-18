@@ -72,6 +72,7 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.FallbackSettingsCustom.pdf");
 ```
 ## See Also
 
+* Class [FontFallbackSettings](../../fontfallbacksettings/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

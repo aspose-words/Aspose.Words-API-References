@@ -30,6 +30,8 @@ doc->Save(get_ArtifactsDir() + u"Document.IgnorePrinterMetrics.docx");
 ```
 ## See Also
 
+* [get_IgnorePrinterMetrics](../get_ignoreprintermetrics/)
+
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

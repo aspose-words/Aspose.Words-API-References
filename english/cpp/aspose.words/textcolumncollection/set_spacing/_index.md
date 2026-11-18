@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.ColumnsSameWidth.docx");
 ```
 ## See Also
 
+* [get_Spacing](../get_spacing/)
+
 * Class [TextColumnCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

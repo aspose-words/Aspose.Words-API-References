@@ -21,7 +21,7 @@ static const char16_t Aspose::Words::ControlChar::NonBreakingHyphenChar
 
 Non-breaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
 
-Useful info: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
+Useful info: [http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks](http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks).
 ## Examples
 
 

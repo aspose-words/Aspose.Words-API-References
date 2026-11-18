@@ -18,6 +18,9 @@ void Aspose::Words::Drawing::Charts::Chart::set_Style(Aspose::Words::Drawing::Ch
 
 ## See Also
 
+* [get_Style](../get_style/)
+
+* Enum [ChartStyle](../../chartstyle/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

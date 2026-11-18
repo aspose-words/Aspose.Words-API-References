@@ -18,7 +18,7 @@ double Aspose::Words::Border::get_DistanceFromText()
 
 ## Remarks
 
- Has no effect and will be automatically reset to zero for borders of table cells. 
+ Has no effect and will be automatically reset to zero for borders of table cells. [BorderDistanceFrom](../../pagesetup/get_borderdistancefrom/)
 ## Examples
 
 

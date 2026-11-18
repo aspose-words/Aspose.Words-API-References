@@ -59,6 +59,8 @@ doc->Save(get_ArtifactsDir() + u"Table.SetTableAlignment.docx");
 ```
 ## See Also
 
+* [get_LeftIndent](../get_leftindent/)
+
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

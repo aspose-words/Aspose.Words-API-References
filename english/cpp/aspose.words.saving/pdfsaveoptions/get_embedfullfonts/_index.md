@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_embedfullfonts/
 Controls how fonts are embedded into the resulting PDF documents.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_EmbedFullFonts() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_EmbedFullFonts() const
 ```
 
 ## Remarks

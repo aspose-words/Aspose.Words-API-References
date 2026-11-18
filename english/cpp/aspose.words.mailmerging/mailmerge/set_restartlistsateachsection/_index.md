@@ -21,6 +21,8 @@ void Aspose::Words::MailMerging::MailMerge::set_RestartListsAtEachSection(bool v
  The default value is **true**. 
 ## See Also
 
+* [get_RestartListsAtEachSection](../get_restartlistsateachsection/)
+
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

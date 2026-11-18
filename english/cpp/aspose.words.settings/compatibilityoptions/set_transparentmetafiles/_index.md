@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_TransparentMetafiles(boo
 
 ## See Also
 
+* [get_TransparentMetafiles](../get_transparentmetafiles/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

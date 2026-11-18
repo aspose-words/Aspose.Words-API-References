@@ -36,6 +36,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.ConfigureGapOverlap.docx");
 ```
 ## See Also
 
+* Class [ChartSeriesGroupCollection](../../chartseriesgroupcollection/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

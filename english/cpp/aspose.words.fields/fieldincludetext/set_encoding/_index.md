@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIncludeText::set_Encoding(const System::String 
 
 ## See Also
 
+* [get_Encoding](../get_encoding/)
+
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

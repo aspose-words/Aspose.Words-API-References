@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignorecomments/
 Specifies whether to compare differences in comments.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreComments() const
+bool Aspose::Words::Comparing::CompareOptions::get_IgnoreComments() const
 ```
 
 ## Remarks

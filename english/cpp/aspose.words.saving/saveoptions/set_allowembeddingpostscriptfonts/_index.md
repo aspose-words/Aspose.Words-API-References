@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"Document.AllowEmbeddingPostScriptFonts.docx", s
 ```
 ## See Also
 
+* [get_AllowEmbeddingPostScriptFonts](../get_allowembeddingpostscriptfonts/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

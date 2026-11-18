@@ -28,6 +28,7 @@ Use this method to fill mail merge fields in the document with values from any c
 You can use this method only when [IsBidiTextSupportedOnUpdate](../../../aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/) is **false**, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 ## See Also
 
+* Interface [IMailMergeDataSource](../../imailmergedatasource/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -52,6 +53,7 @@ Use this method to fill mail merge fields in the document with values from any c
 You can use this method only when [IsBidiTextSupportedOnUpdate](../../../aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/) is **false**, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 ## See Also
 
+* Interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

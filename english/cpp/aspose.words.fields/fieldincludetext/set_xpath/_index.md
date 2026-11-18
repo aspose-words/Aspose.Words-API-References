@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIncludeText::set_XPath(const System::String & v
 
 ## See Also
 
+* [get_XPath](../get_xpath/)
+
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

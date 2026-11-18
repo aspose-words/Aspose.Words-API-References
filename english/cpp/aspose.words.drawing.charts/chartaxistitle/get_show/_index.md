@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartaxistitle/get_show/
 Determines whether the title shall be shown for the axis. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Show()
+bool Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Show()
 ```
 
 ## Examples

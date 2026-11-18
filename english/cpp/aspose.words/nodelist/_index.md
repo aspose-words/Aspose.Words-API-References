@@ -2,7 +2,7 @@
 title: Aspose::Words::NodeList class
 linktitle: NodeList
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::NodeList class. Represents a collection of nodes matching an XPath query executed using the SelectNodes() method. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::NodeList class. Represents a collection of nodes matching an XPath query executed using the SelectNodes() method. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 45000
 url: /cpp/aspose.words/nodelist/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/nodelist/
 
 
 Represents a collection of nodes matching an XPath query executed using the [SelectNodes()](../compositenode/selectnodes/) method. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class NodeList : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Node>>

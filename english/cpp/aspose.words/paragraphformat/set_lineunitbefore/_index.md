@@ -67,6 +67,8 @@ builder->Write(System::String(u"测试文档测试文档测试文档测试文档
 ```
 ## See Also
 
+* [get_LineUnitBefore](../get_lineunitbefore/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

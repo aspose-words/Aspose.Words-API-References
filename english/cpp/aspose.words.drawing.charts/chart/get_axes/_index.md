@@ -41,6 +41,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisCollection.docx");
 ```
 ## See Also
 
+* Class [ChartAxisCollection](../../chartaxiscollection/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

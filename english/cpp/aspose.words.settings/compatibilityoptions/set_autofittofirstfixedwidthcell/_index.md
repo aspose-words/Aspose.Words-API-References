@@ -21,6 +21,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_AutofitToFirstFixedWidth
  The option is called "Use Word 2003 table autofit rules" in MS Word 2013 user interface. It actually affects how the grid is calculated for fixed layout tables, too (for some cases). 
 ## See Also
 
+* [get_AutofitToFirstFixedWidthCell](../get_autofittofirstfixedwidthcell/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

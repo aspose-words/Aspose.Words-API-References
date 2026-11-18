@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_allowoverlap/
 Gets or sets a value that specifies whether this shape can overlap other shapes.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_AllowOverlap()
+bool Aspose::Words::Drawing::ShapeBase::get_AllowOverlap()
 ```
 
 ## Remarks

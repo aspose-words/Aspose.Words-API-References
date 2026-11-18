@@ -15,13 +15,13 @@ Specifies whether to add bi-directional marks before each BiDi run when exportin
 The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks() const
+bool Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks() const
 ```
 
 ## Examples
 
 
-Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text.
+Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional [Run](../../../aspose.words/run/) in text.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

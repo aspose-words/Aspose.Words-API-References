@@ -141,6 +141,9 @@ doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
 ## See Also
 
+* [get_PaperSize](../get_papersize/)
+
+* Enum [PaperSize](../../papersize/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

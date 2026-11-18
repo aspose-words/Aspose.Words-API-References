@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_findwholewordsonly/
 True indicates the oldValue must be a standalone word.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_FindWholeWordsOnly() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_FindWholeWordsOnly() const
 ```
 
 ## Examples

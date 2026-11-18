@@ -10,7 +10,7 @@ url: /cpp/aspose.words.ai/openaimodel/get_url/
 ## OpenAiModel::get_Url method
 
 
-Gets or sets a URL of the model. The default value is "https://api.openai.com/".
+Gets or sets a URL of the model. The default value is "[https://api.openai.com/"](https://api.openai.com/").
 
 ```cpp
 System::String Aspose::Words::AI::OpenAiModel::get_Url() override

@@ -48,6 +48,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 ```
 ## See Also
 
+* Class [Watermark](../../watermark/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

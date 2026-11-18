@@ -52,6 +52,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
 ```
 ## See Also
 
+* [get_HasLegendKeys](../get_haslegendkeys/)
+
 * Class [ChartDataTable](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

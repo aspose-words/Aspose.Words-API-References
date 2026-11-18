@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Tables::TableCollection> Aspose::Words::Tables:
 
 ## See Also
 
+* Class [TableCollection](../../tablecollection/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

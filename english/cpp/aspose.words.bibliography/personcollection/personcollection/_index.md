@@ -90,6 +90,7 @@ ASSERT_EQ(persons->get_Count(), 0);
 ```
 ## See Also
 
+* Class [Person](../../person/)
 * Class [PersonCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -104,6 +105,7 @@ Aspose::Words::Bibliography::PersonCollection::PersonCollection(const System::Sh
 
 ## See Also
 
+* Class [Person](../../person/)
 * Class [PersonCollection](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

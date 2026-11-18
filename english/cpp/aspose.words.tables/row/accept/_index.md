@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/row/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::Tables::Row::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::Tables::Row::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -33,6 +33,7 @@ For more info see the Visitor design pattern.
  Calls [VisitRowStart()](../../../aspose.words/documentvisitor/visitrowstart/), then calls [Accept()](../../../aspose.words/node/accept/) for all child nodes of the section and calls [VisitRowEnd()](../../../aspose.words/documentvisitor/visitrowend/) at the end. 
 ## See Also
 
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -39,7 +39,7 @@ Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::DigitalSign
 ## Examples
 
 
-Shows how to sign a document with timestamping using DigitalSignatureUtil.
+Shows how to sign a document with timestamping using [DigitalSignatureUtil](../../digitalsignatureutil/).
 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
@@ -90,7 +90,7 @@ Aspose::Words::DigitalSignatures::DigitalSignatureTimestampSettings::DigitalSign
 ## Examples
 
 
-Shows how to sign a document with timestamping using DigitalSignatureUtil.
+Shows how to sign a document with timestamping using [DigitalSignatureUtil](../../digitalsignatureutil/).
 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();

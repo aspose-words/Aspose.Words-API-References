@@ -27,7 +27,7 @@ Use this method to transforms table cells horizontally merged by width to cells 
 ## Examples
 
 
-Shows how to convert cells horizontally merged by width to cells merged by CellFormat.HorizontalMerge.
+Shows how to convert cells horizontally merged by width to cells merged by [CellFormat](../../cellformat/).HorizontalMerge.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table with merged cells.docx"));

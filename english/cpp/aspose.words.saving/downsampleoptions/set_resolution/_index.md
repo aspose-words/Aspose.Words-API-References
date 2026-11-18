@@ -21,6 +21,8 @@ void Aspose::Words::Saving::DownsampleOptions::set_Resolution(int32_t value)
  The default value is 220 ppi. 
 ## See Also
 
+* [get_Resolution](../get_resolution/)
+
 * Class [DownsampleOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -37,6 +37,8 @@ doc->Save(get_ArtifactsDir() + u"Document.DoclingJson.json", saveOptions);
 ```
 ## See Also
 
+* [get_RenderNonImageShapes](../get_rendernonimageshapes/)
+
 * Class [DoclingSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

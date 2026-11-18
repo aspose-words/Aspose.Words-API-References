@@ -75,6 +75,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```
 ## See Also
 
+* [get_PageStartingNumber](../get_pagestartingnumber/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

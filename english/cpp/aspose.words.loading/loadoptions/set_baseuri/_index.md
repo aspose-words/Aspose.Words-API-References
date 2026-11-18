@@ -49,6 +49,8 @@ Shows how to open an HTML document with images from a stream using a base URI.
 ```
 ## See Also
 
+* [get_BaseUri](../get_baseuri/)
+
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

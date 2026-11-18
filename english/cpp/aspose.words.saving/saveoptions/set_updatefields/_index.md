@@ -21,6 +21,8 @@ void Aspose::Words::Saving::SaveOptions::set_UpdateFields(bool value)
  Allows to specify whether to mimic or not MS Word behavior. 
 ## See Also
 
+* [get_UpdateFields](../get_updatefields/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

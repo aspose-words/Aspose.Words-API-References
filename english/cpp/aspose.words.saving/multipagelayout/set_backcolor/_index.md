@@ -18,6 +18,8 @@ void Aspose::Words::Saving::MultiPageLayout::set_BackColor(System::Drawing::Colo
 
 ## See Also
 
+* [get_BackColor](../get_backcolor/)
+
 * Class [MultiPageLayout](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

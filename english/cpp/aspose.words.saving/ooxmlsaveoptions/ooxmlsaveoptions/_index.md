@@ -89,6 +89,7 @@ ASSERT_EQ(doc->get_FirstSection()->get_Body()->GetText(), keepLegacyControlChars
 ```
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

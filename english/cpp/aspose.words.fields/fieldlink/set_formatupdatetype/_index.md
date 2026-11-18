@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldLink::set_FormatUpdateType(const System::String
 
 ## See Also
 
+* [get_FormatUpdateType](../get_formatupdatetype/)
+
 * Class [FieldLink](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

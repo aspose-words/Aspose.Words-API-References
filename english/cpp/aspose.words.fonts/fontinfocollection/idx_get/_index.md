@@ -47,6 +47,7 @@ System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"Alte DIN 1451 Mittelschri
 ```
 ## See Also
 
+* Class [FontInfo](../../fontinfo/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -90,6 +91,7 @@ System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"Alte DIN 1451 Mittelschri
 ```
 ## See Also
 
+* Class [FontInfo](../../fontinfo/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

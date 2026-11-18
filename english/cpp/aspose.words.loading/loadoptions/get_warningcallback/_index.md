@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::IWarningCallback> Aspose::Words::Loading::LoadO
 
 ## See Also
 
+* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -19,7 +19,7 @@ void Aspose::Words::Fields::Field::Update()
 ## Examples
 
 
-Shows how to insert a field into a document using FieldType.
+Shows how to insert a field into a document using [FieldType](../../fieldtype/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

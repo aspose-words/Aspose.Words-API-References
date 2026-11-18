@@ -27,6 +27,7 @@ enum class FootnoteType : int
 
 
 Both footnotes and endnotes are represented by objects by the [Footnote](./) class. Use [FootnoteType](../footnote/get_footnotetype/) to distinguish between footnotes and endnotes.
+[Footnote](./)
 ## Examples
 
 

@@ -18,6 +18,7 @@ static System::SharedPtr<Aspose::Words::IHyphenationCallback> Aspose::Words::Hyp
 
 ## See Also
 
+* Interface [IHyphenationCallback](../../ihyphenationcallback/)
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

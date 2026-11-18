@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDatabase::set_FirstRecord(const System::String 
 
 ## See Also
 
+* [get_FirstRecord](../get_firstrecord/)
+
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

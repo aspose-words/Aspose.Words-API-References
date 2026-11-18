@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraph/get_isendofcell/
 True if this paragraph is the last paragraph in a [Cell](../../../aspose.words.tables/cell/); false otherwise.
 
 ```cpp
-_Bool Aspose::Words::Paragraph::get_IsEndOfCell()
+bool Aspose::Words::Paragraph::get_IsEndOfCell()
 ```
 
 ## Examples

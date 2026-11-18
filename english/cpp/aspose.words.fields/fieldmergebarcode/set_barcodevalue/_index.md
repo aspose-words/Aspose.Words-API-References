@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeBarcode::set_BarcodeValue(const System::St
 
 ## See Also
 
+* [get_BarcodeValue](../get_barcodevalue/)
+
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

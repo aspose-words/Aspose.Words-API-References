@@ -36,6 +36,8 @@ doc->Save(get_ArtifactsDir() + u"Document.LayoutOptionsParagraphMarks.pdf");
 ```
 ## See Also
 
+* [get_ShowParagraphMarks](../get_showparagraphmarks/)
+
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

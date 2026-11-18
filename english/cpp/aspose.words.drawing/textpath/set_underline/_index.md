@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_Underline(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_Underline](../get_underline/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

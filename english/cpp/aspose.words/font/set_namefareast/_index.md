@@ -47,6 +47,7 @@ doc->Save(get_ArtifactsDir() + u"Font.FarEast.docx");
 ## See Also
 
 * [Name](../get_name/)
+* [get_NameFarEast](../get_namefareast/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_SameLetterHeights(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_SameLetterHeights](../get_sameletterheights/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

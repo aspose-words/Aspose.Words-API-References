@@ -26,6 +26,8 @@ In order to properly display preblended images, PDF viewer application must supp
 The default value is **false**.
 ## See Also
 
+* [get_PreblendImages](../get_preblendimages/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -28,6 +28,8 @@ Script execution depends on the PDF viewer. Some PDF viewers might ignore script
 JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The **false** value will be used automatically in this case.
 ## See Also
 
+* [get_GenerateFormFieldScripts](../get_generateformfieldscripts/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

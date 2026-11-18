@@ -23,6 +23,7 @@ Aspose::Words::BookmarkEnd::BookmarkEnd(const System::SharedPtr<Aspose::Words::D
 | name | const System::String \& | The name of the bookmark. Cannot be **null**. |
 ## See Also
 
+* Class [DocumentBase](../../documentbase/)
 * Class [BookmarkEnd](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

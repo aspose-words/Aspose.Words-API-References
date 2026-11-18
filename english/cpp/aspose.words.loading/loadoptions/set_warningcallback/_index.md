@@ -18,6 +18,9 @@ void Aspose::Words::Loading::LoadOptions::set_WarningCallback(const System::Shar
 
 ## See Also
 
+* [get_WarningCallback](../get_warningcallback/)
+
+* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

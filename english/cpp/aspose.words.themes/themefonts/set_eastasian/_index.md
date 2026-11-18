@@ -63,6 +63,8 @@ doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
 ## See Also
 
+* [get_EastAsian](../get_eastasian/)
+
 * Class [ThemeFonts](../)
 * Namespace [Aspose::Words::Themes](../../)
 * Library [Aspose.Words for C++](../../../)

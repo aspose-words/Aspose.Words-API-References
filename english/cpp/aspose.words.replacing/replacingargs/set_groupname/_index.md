@@ -24,6 +24,8 @@ When group name is **null**, [GroupIndex](../get_groupindex/) is used to identif
 Default is **null**.
 ## See Also
 
+* [get_GroupName](../get_groupname/)
+
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

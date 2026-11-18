@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_HeaderSource(const System::
 
 ## See Also
 
+* [get_HeaderSource](../get_headersource/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

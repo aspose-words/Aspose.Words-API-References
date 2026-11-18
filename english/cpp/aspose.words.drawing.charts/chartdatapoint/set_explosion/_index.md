@@ -45,6 +45,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.PieChartExplosion.docx");
 ```
 ## See Also
 
+* [get_Explosion](../get_explosion/)
+
 * Class [ChartDataPoint](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -21,6 +21,8 @@ void Aspose::Words::Loading::HtmlLoadOptions::set_WebRequestTimeout(int32_t valu
  The number of milliseconds that Aspose.Words waits for a response, when loading external resources (images, style sheets) linked in HTML and MHTML documents. 
 ## See Also
 
+* [get_WebRequestTimeout](../get_webrequesttimeout/)
+
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

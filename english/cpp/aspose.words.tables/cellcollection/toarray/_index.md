@@ -65,6 +65,7 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
 ```
 ## See Also
 
+* Class [Cell](../../cell/)
 * Class [CellCollection](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

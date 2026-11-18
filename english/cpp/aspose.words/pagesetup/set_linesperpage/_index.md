@@ -47,6 +47,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.LinesPerPage.docx");
 ```
 ## See Also
 
+* [get_LinesPerPage](../get_linesperpage/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

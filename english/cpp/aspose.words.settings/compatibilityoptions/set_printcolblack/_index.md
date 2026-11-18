@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_PrintColBlack(bool value
 
 ## See Also
 
+* [get_PrintColBlack](../get_printcolblack/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

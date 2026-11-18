@@ -18,6 +18,8 @@ void Aspose::Words::Bookmark::set_Text(const System::String & value)
 
 ## See Also
 
+* [get_Text](../get_text/)
+
 * Class [Bookmark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

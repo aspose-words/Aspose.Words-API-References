@@ -45,6 +45,7 @@ doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 
 ## See Also
 
+* Enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

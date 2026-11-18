@@ -22,6 +22,7 @@ System::SharedPtr<Aspose::Words::MailMerging::MappedDataFieldCollection> Aspose:
  Mapped data fields allow to automatically map between names of fields in your data source and names of mail merge fields in the document. 
 ## See Also
 
+* Class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

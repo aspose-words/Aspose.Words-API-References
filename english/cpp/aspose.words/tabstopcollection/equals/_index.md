@@ -13,7 +13,7 @@ url: /cpp/aspose.words/tabstopcollection/equals/
 Determines whether the specified object is equal in value to the current object.
 
 ```cpp
-_Bool Aspose::Words::TabStopCollection::Equals(System::SharedPtr<System::Object> obj) override
+bool Aspose::Words::TabStopCollection::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## Examples
@@ -68,7 +68,7 @@ doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 Determines whether the specified [TabStopCollection](../) is equal in value to the current [TabStopCollection](../).
 
 ```cpp
-_Bool Aspose::Words::TabStopCollection::Equals(const System::SharedPtr<Aspose::Words::TabStopCollection> & rhs)
+bool Aspose::Words::TabStopCollection::Equals(const System::SharedPtr<Aspose::Words::TabStopCollection> & rhs)
 ```
 
 ## Examples

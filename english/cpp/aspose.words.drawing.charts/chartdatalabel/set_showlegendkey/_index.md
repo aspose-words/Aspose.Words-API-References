@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowLegendKey(bool valu
 
 ## See Also
 
+* [get_ShowLegendKey](../get_showlegendkey/)
+
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

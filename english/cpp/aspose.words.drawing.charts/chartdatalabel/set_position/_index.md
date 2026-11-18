@@ -65,6 +65,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.LabelPosition.docx");
 ```
 ## See Also
 
+* [get_Position](../get_position/)
+
+* Enum [ChartDataLabelPosition](../../chartdatalabelposition/)
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

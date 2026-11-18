@@ -13,7 +13,7 @@ url: /cpp/aspose.words/inline/get_isdeleterevision/
 Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 
 ```cpp
-_Bool Aspose::Words::Inline::get_IsDeleteRevision()
+bool Aspose::Words::Inline::get_IsDeleteRevision()
 ```
 
 ## Examples

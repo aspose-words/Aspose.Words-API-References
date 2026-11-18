@@ -76,6 +76,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.CreateTextBox.docx");
 ```
 ## See Also
 
+* Class [DocumentBase](../../../aspose.words/documentbase/)
+* Enum [ShapeType](../../shapetype/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ virtual void Aspose::Words::Saving::FixedPageSaveOptions::set_OptimizeOutput(boo
 
 ## See Also
 
+* [get_OptimizeOutput](../get_optimizeoutput/)
+
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

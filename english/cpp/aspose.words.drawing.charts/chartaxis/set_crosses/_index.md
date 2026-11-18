@@ -78,6 +78,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
 ## See Also
 
+* [get_Crosses](../get_crosses/)
+
+* Enum [AxisCrosses](../../axiscrosses/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_StrikeThrough(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_StrikeThrough](../get_strikethrough/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_snaptogrid/
 Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_SnapToGrid()
+bool Aspose::Words::ParagraphFormat::get_SnapToGrid()
 ```
 
 ## Examples

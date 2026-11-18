@@ -63,6 +63,8 @@ doc->Save(get_ArtifactsDir() + u"Field.FILESIZE.docx");
 ```
 ## See Also
 
+* [get_IsInKilobytes](../get_isinkilobytes/)
+
 * Class [FieldFileSize](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

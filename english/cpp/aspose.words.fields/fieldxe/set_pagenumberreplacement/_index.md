@@ -65,6 +65,8 @@ doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.CrossReferenceSeparator.docx");
 ```
 ## See Also
 
+* [get_PageNumberReplacement](../get_pagenumberreplacement/)
+
 * Class [FieldXE](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

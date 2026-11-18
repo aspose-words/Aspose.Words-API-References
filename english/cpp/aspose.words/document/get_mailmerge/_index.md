@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::MailMerging::MailMerge> Aspose::Words::Document
 
 ## See Also
 
+* Class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -14,7 +14,7 @@ Gets or sets a boolean value indicating whether to preserve empty lines while lo
  Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines.
 
 ```cpp
-_Bool Aspose::Words::Loading::MarkdownLoadOptions::get_PreserveEmptyLines() const
+bool Aspose::Words::Loading::MarkdownLoadOptions::get_PreserveEmptyLines() const
 ```
 
 ## Examples

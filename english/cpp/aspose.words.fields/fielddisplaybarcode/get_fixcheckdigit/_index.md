@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddisplaybarcode/get_fixcheckdigit/
 Gets or sets whether to fix the check digit if it’s invalid.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit()
+bool Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit()
 ```
 
 ## Examples

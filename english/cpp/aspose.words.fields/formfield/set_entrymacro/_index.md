@@ -24,6 +24,8 @@ The entry macro runs when the form field gets the focus in Microsoft Word.
 Microsoft Word allows strings with at most 32 characters.
 ## See Also
 
+* [get_EntryMacro](../get_entrymacro/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

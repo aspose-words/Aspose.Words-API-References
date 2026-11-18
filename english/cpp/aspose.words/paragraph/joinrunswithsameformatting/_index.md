@@ -118,6 +118,7 @@ doc->Save(get_ArtifactsDir() + u"Paragraph.JoinRunsWithSameFormattingWithOptions
 ```
 ## See Also
 
+* Class [JoinRunsOptions](../../joinrunsoptions/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

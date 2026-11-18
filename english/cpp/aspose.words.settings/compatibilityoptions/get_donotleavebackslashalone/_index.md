@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_donotleavebackslashalon
 Convert Backslash To Yen Sign When Entered.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotLeaveBackslashAlone()
+bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotLeaveBackslashAlone()
 ```
 
 ## See Also

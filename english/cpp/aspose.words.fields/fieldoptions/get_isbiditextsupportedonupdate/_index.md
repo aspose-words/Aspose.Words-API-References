@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/
 Gets or sets the value indicating whether bidirectional text is fully supported during field update or not.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldOptions::get_IsBidiTextSupportedOnUpdate() const
+bool Aspose::Words::Fields::FieldOptions::get_IsBidiTextSupportedOnUpdate() const
 ```
 
 ## Remarks
@@ -27,7 +27,7 @@ The default value is **false**.
 ## Examples
 
 
-Shows how to use FieldOptions to ensure that field updating fully supports bi-directional text.
+Shows how to use [FieldOptions](../) to ensure that field updating fully supports bi-directional text.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

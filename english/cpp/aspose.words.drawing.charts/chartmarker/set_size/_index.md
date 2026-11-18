@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartMarker::set_Size(int32_t value)
 
 ## See Also
 
+* [get_Size](../get_size/)
+
 * Class [ChartMarker](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldCitation::set_VolumeNumber(const System::String
 
 ## See Also
 
+* [get_VolumeNumber](../get_volumenumber/)
+
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

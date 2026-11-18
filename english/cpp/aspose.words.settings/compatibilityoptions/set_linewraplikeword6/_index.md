@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_LineWrapLikeWord6(bool v
 
 ## See Also
 
+* [get_LineWrapLikeWord6](../get_linewraplikeword6/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

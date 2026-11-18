@@ -76,6 +76,7 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitution.pdf");
 ```
 ## See Also
 
+* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

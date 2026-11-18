@@ -41,6 +41,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetParagraphFormatting.docx");
 ```
 ## See Also
 
+* [get_LeftIndent](../get_leftindent/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

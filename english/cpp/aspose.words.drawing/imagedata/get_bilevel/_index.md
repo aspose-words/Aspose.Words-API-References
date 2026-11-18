@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/imagedata/get_bilevel/
 Determines whether an image will be displayed in black and white.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ImageData::get_BiLevel()
+bool Aspose::Words::Drawing::ImageData::get_BiLevel()
 ```
 
 ## Remarks

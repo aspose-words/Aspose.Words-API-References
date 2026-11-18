@@ -77,6 +77,7 @@ doc->Save(get_ArtifactsDir() + u"Table.SetBorders.docx");
 ```
 ## See Also
 
+* Enum [LineStyle](../../../aspose.words/linestyle/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -23,7 +23,7 @@ This property is used by the [FieldFileName](../../fieldfilename/) field with hi
 ## Examples
 
 
-Shows how to use FieldOptions to override the default value for the FILENAME field.
+Shows how to use [FieldOptions](../) to override the default value for the FILENAME field.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -61,6 +61,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + doc->get_FieldOptions()->get_FileName());
 ```
 ## See Also
+
+* [get_FileName](../get_filename/)
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)

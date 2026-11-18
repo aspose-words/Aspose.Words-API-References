@@ -83,6 +83,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingSameStyle.docx"
 
 ## See Also
 
+* [get_SpaceAfter](../get_spaceafter/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,9 @@ void Aspose::Words::LowCode::ProcessorContext::set_FontSettings(const System::Sh
 
 ## See Also
 
+* [get_FontSettings](../get_fontsettings/)
+
+* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * Class [ProcessorContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

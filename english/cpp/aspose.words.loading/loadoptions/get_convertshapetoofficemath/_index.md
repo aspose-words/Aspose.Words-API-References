@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/loadoptions/get_convertshapetoofficemath/
 Gets or sets whether to convert shapes with EquationXML to Office Math objects.
 
 ```cpp
-_Bool Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath() const
+bool Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath() const
 ```
 
 ## Examples

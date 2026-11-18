@@ -24,6 +24,7 @@ This property allows to retrieve the currently set document protection type. To 
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 
 Note that document protection is different from write protection. Write protection is specified using the [WriteProtection](../get_writeprotection/)
+[Protect()](../protect/)[Unprotect](../unprotect/)[WriteProtection](../get_writeprotection/)
 ## Examples
 
 
@@ -69,6 +70,7 @@ ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::NoProtection);
 ```
 ## See Also
 
+* Enum [ProtectionType](../../protectiontype/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

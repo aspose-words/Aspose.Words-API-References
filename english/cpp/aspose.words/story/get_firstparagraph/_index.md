@@ -63,6 +63,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.CreateTextBox.docx");
 ```
 ## See Also
 
+* Class [Paragraph](../../paragraph/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

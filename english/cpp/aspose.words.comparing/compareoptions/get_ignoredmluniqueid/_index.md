@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignoredmluniqueid/
 Specifies whether to ignore difference in DrawingML unique Id.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreDmlUniqueId()
+bool Aspose::Words::Comparing::CompareOptions::get_IgnoreDmlUniqueId()
 ```
 
 ## Remarks

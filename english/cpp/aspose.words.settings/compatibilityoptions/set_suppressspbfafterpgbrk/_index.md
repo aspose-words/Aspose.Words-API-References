@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SuppressSpBfAfterPgBrk(b
 
 ## See Also
 
+* [get_SuppressSpBfAfterPgBrk](../get_suppressspbfafterpgbrk/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

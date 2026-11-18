@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_replacebackslashwithyensign/
 Specifies whether backslash characters should be replaced with yen signs. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ReplaceBackslashWithYenSign() const
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ReplaceBackslashWithYenSign() const
 ```
 
 ## Remarks

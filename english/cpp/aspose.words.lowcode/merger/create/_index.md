@@ -32,6 +32,7 @@ static System::SharedPtr<Aspose::Words::LowCode::Merger> Aspose::Words::LowCode:
 
 ## See Also
 
+* Class [MergerContext](../../mergercontext/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

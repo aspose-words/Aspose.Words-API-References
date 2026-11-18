@@ -35,6 +35,7 @@ Before a node from another document can be inserted into this document, it must 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 ## See Also
 
+* Class [Node](../../node/)
 * Class [NodeImporter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

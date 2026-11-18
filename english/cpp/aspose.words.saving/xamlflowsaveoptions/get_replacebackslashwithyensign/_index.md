@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/xamlflowsaveoptions/get_replacebackslashwithyensig
 Specifies whether backslash characters should be replaced with yen signs. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::XamlFlowSaveOptions::get_ReplaceBackslashWithYenSign() const
+bool Aspose::Words::Saving::XamlFlowSaveOptions::get_ReplaceBackslashWithYenSign() const
 ```
 
 ## Remarks

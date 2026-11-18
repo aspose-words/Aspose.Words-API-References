@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/axisticklabels/get_isautospacing/
 Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::AxisTickLabels::get_IsAutoSpacing()
+bool Aspose::Words::Drawing::Charts::AxisTickLabels::get_IsAutoSpacing()
 ```
 
 ## Remarks

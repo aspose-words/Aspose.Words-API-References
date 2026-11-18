@@ -20,6 +20,7 @@ void Aspose::Words::Document::set_AttachedTemplate(const System::String & value)
 
 
 Empty string means the document is attached to the Normal template.
+[Template](../../../aspose.words.properties/builtindocumentproperties/get_template/)
 ## Examples
 
 
@@ -46,6 +47,8 @@ doc->Save(get_ArtifactsDir() + u"Document.DefaultTemplate.docx", options);
 * ArgumentNullException - Throws if you attempt to set to a **null** value.
 
 ## See Also
+
+* [get_AttachedTemplate](../get_attachedtemplate/)
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)

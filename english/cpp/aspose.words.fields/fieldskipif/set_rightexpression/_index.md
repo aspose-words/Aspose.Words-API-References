@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldSkipIf::set_RightExpression(const System::Strin
 
 ## See Also
 
+* [get_RightExpression](../get_rightexpression/)
+
 * Class [FieldSkipIf](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

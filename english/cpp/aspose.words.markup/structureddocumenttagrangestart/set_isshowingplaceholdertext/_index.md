@@ -51,6 +51,8 @@ std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeTy
 ```
 ## See Also
 
+* [get_IsShowingPlaceholderText](../get_isshowingplaceholdertext/)
+
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

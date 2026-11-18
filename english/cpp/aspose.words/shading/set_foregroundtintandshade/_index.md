@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"Font.ForegroundAndBackground.docx");
 
 ## See Also
 
+* [get_ForegroundTintAndShade](../get_foregroundtintandshade/)
+
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

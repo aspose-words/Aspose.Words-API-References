@@ -18,6 +18,9 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_FontSavingCallback(const System
 
 ## See Also
 
+* [get_FontSavingCallback](../get_fontsavingcallback/)
+
+* Interface [IFontSavingCallback](../../ifontsavingcallback/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

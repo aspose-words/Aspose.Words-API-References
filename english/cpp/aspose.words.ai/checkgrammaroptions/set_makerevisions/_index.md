@@ -18,6 +18,8 @@ void Aspose::Words::AI::CheckGrammarOptions::set_MakeRevisions(bool value)
 
 ## See Also
 
+* [get_MakeRevisions](../get_makerevisions/)
+
 * Class [CheckGrammarOptions](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

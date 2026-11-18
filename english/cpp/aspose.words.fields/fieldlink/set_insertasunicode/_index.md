@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldLink::set_InsertAsUnicode(bool value)
 
 ## See Also
 
+* [get_InsertAsUnicode](../get_insertasunicode/)
+
 * Class [FieldLink](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

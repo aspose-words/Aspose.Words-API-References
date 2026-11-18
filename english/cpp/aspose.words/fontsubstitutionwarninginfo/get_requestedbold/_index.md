@@ -13,7 +13,7 @@ url: /cpp/aspose.words/fontsubstitutionwarninginfo/get_requestedbold/
 Indicates whether bold style was requested.
 
 ```cpp
-_Bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedBold() const
+bool Aspose::Words::FontSubstitutionWarningInfo::get_RequestedBold() const
 ```
 
 ## Examples

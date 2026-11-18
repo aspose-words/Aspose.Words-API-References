@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartseries/get_smooth/
 Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartSeries::get_Smooth() const
+bool Aspose::Words::Drawing::Charts::ChartSeries::get_Smooth() const
 ```
 
 ## See Also

@@ -20,10 +20,11 @@ double Aspose::Words::Lists::ListLevel::get_NumberPosition() const
 
 
 [NumberPosition](./) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
+[TextPosition](../get_textposition/)[TabPosition](../get_tabposition/)
 ## Examples
 
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

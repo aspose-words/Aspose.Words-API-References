@@ -66,6 +66,8 @@ doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
 ## See Also
 
+* [get_ShowOriginalRevision](../get_showoriginalrevision/)
+
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

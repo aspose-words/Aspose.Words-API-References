@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_usecorefonts/
 Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_UseCoreFonts() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_UseCoreFonts() const
 ```
 
 ## Remarks

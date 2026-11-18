@@ -18,6 +18,9 @@ void Aspose::Words::Fields::FieldOptions::set_FieldUpdatingProgressCallback(cons
 
 ## See Also
 
+* [get_FieldUpdatingProgressCallback](../get_fieldupdatingprogresscallback/)
+
+* Interface [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

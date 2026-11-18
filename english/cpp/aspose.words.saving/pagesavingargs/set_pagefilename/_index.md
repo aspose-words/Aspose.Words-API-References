@@ -21,6 +21,8 @@ void Aspose::Words::Saving::PageSavingArgs::set_PageFileName(const System::Strin
  If not specified then page file name and path will be generated automatically using original file name. 
 ## See Also
 
+* [get_PageFileName](../get_pagefilename/)
+
 * Class [PageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

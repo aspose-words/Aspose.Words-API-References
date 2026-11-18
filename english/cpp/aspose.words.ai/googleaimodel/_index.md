@@ -25,8 +25,8 @@ class GoogleAiModel : public AiModel
 | [Summarize](./summarize/)(System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Document\>\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) override | Summarizes specified [Document](../../aspose.words/document/) objects. |
 | [Summarize](./summarize/)(System::SharedPtr\<Aspose::Words::Document\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) override | Summarizes specified [Document](../../aspose.words/document/) object. |
 | [Translate](./translate/)(System::SharedPtr\<Aspose::Words::Document\>, Aspose::Words::AI::Language) override | Translates a specified document. |
-| [get_Url](./get_url/)() override | Gets or sets a URL of the model. The default value is "https://generativelanguage.googleapis.com/v1beta/models/". |
-| [set_Url](./set_url/)(System::String) override | Sets a URL of the model. The default value is "https://generativelanguage.googleapis.com/v1beta/models/". |
+| [get_Url](./get_url/)() override | Gets or sets a URL of the model. The default value is "[https://generativelanguage.googleapis.com/v1beta/models/"](https://generativelanguage.googleapis.com/v1beta/models/"). |
+| [set_Url](./set_url/)(System::String) override | Sets a URL of the model. The default value is "[https://generativelanguage.googleapis.com/v1beta/models/"](https://generativelanguage.googleapis.com/v1beta/models/"). |
 | virtual [CheckGrammar](../aimodel/checkgrammar/)(System::SharedPtr\<Aspose::Words::Document\>, System::SharedPtr\<Aspose::Words::AI::CheckGrammarOptions\>) | Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document. |
 | static [Create](../aimodel/create/)(Aspose::Words::AI::AiModelType) | Creates a new instance of [AiModel](../aimodel/) class. |
 | virtual [Summarize](../aimodel/summarize/)(System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Document\>\>, System::SharedPtr\<Aspose::Words::AI::SummarizeOptions\>) | Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected AI model for processing each document in the array. |
@@ -39,7 +39,7 @@ class GoogleAiModel : public AiModel
 | virtual [set_Url](../aimodel/set_url/)(System::String) | Sets a URL of the model. The default value is specific for the model. |
 ## Remarks
 
- Please refer to https://ai.google.dev/gemini-api/docs/models for Gemini models details. 
+ Please refer to [https://ai.google.dev/gemini-api/docs/models](https://ai.google.dev/gemini-api/docs/models) for Gemini models details. 
 ## Examples
 
 

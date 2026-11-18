@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/stroke/get_visible/
 Gets or sets a flag indicating whether the stroke is visible.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Stroke::get_Visible()
+bool Aspose::Words::Drawing::Stroke::get_Visible()
 ```
 
 ## Remarks

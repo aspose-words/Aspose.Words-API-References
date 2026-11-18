@@ -37,6 +37,7 @@ ASPOSE_ASSERT_EQ(plaintext->get_CustomDocumentProperties()->idx_get(u"Location o
 ```
 ## See Also
 
+* Class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

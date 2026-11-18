@@ -28,6 +28,7 @@ When [BuildingBlock](../) is created, it belongs to the specified glossary docum
 To append [BuildingBlock](../) to a [GlossaryDocument](../../glossarydocument/) use [AppendChild()](../../../aspose.words/compositenode/appendchild/).
 ## See Also
 
+* Class [GlossaryDocument](../../glossarydocument/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

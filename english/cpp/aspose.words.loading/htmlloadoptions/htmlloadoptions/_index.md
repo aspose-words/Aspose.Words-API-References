@@ -86,6 +86,7 @@ doc->Save(get_ArtifactsDir() + u"HtmlLoadOptions.BaseUri.docx");
 ```
 ## See Also
 
+* Enum [LoadFormat](../../../aspose.words/loadformat/)
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

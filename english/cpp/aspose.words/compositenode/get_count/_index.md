@@ -19,7 +19,7 @@ int32_t Aspose::Words::CompositeNode::get_Count()
 ## Examples
 
 
-Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+Shows how to add, update and delete child nodes in a [CompositeNode](../)'s collection of children.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotExpandShiftReturn(b
 
 ## See Also
 
+* [get_DoNotExpandShiftReturn](../get_donotexpandshiftreturn/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

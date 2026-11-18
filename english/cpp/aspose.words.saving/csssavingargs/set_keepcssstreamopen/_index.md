@@ -20,7 +20,10 @@ void Aspose::Words::Saving::CssSavingArgs::set_KeepCssStreamOpen(bool value)
 
 
 Default is **false** and Aspose.Words will close the stream you provided in the [CssStream](../get_cssstream/) property after writing an CSS information into it. Specify **true** to keep the stream open.
+[CssStream](../get_cssstream/)
 ## See Also
+
+* [get_KeepCssStreamOpen](../get_keepcssstreamopen/)
 
 * Class [CssSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

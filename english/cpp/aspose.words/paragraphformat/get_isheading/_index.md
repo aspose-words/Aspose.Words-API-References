@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_isheading/
 True when the paragraph style is one of the built-in Heading styles.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_IsHeading()
+bool Aspose::Words::ParagraphFormat::get_IsHeading()
 ```
 
 ## See Also

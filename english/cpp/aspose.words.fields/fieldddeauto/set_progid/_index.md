@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDdeAuto::set_ProgId(const System::String & valu
 
 ## See Also
 
+* [get_ProgId](../get_progid/)
+
 * Class [FieldDdeAuto](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -40,6 +40,8 @@ ASSERT_EQ(doc->GetText().Trim(), matchCase ? System::String(u"Jade bought a ruby
 ```
 ## See Also
 
+* [get_MatchCase](../get_matchcase/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

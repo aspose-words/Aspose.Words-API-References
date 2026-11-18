@@ -88,6 +88,7 @@ ASSERT_EQ(doc->GetText().Trim(), System::String(u"Text inside MyBookmark_1.\r") 
 ```
 ## See Also
 
+* Class [Bookmark](../../bookmark/)
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

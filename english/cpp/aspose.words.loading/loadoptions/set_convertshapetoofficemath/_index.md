@@ -43,6 +43,8 @@ else
 ```
 ## See Also
 
+* [get_ConvertShapeToOfficeMath](../get_convertshapetoofficemath/)
+
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

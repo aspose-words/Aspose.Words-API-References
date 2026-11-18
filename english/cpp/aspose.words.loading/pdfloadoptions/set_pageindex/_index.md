@@ -18,6 +18,8 @@ void Aspose::Words::Loading::PdfLoadOptions::set_PageIndex(int32_t value)
 
 ## See Also
 
+* [get_PageIndex](../get_pageindex/)
+
 * Class [PdfLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

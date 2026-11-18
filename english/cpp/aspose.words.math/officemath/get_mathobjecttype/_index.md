@@ -18,6 +18,7 @@ Aspose::Words::Math::MathObjectType Aspose::Words::Math::OfficeMath::get_MathObj
 
 ## See Also
 
+* Enum [MathObjectType](../../mathobjecttype/)
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
 * Library [Aspose.Words for C++](../../../)

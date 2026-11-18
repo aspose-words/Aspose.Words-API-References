@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/markdownsaveoptions/get_exportimagesasbase64/
 Specifies whether images are saved in Base64 format to the output file. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::MarkdownSaveOptions::get_ExportImagesAsBase64()
+bool Aspose::Words::Saving::MarkdownSaveOptions::get_ExportImagesAsBase64()
 ```
 
 ## Remarks

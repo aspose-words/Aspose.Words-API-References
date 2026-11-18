@@ -13,7 +13,7 @@ url: /cpp/aspose.words.buildingblocks/glossarydocument/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::BuildingBlocks::GlossaryDocument::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::BuildingBlocks::GlossaryDocument::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -36,6 +36,7 @@ Calls [VisitGlossaryDocumentStart()](../../../aspose.words/documentvisitor/visit
  Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../../aspose.words/document/). If you want to execute a Visitor over a glossary document, you need to call [Accept()](./). 
 ## See Also
 
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [GlossaryDocument](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_useword2002tablestyleru
 Emulate Word 2002 Table Style Rules.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_UseWord2002TableStyleRules()
+bool Aspose::Words::Settings::CompatibilityOptions::get_UseWord2002TableStyleRules()
 ```
 
 ## See Also

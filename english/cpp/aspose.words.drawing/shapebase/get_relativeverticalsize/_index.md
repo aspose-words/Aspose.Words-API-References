@@ -76,6 +76,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.RelativeSizeAndPosition.docx");
 ```
 ## See Also
 
+* Enum [RelativeVerticalSize](../../relativeverticalsize/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

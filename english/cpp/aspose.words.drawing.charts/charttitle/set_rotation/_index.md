@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.TitleOrientation.docx");
 ```
 ## See Also
 
+* [get_Rotation](../get_rotation/)
+
 * Class [ChartTitle](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

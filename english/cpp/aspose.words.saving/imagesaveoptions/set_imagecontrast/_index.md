@@ -55,6 +55,8 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.EditImage.png", options);
 ```
 ## See Also
 
+* [get_ImageContrast](../get_imagecontrast/)
+
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

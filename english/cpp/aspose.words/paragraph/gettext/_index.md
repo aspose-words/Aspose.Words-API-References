@@ -29,7 +29,7 @@ The returned string includes all control and special characters as described in 
 ## Examples
 
 
-Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+Shows how to add, update and delete child nodes in a [CompositeNode](../../compositenode/)'s collection of children.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

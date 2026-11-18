@@ -28,6 +28,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_CacheBackgroundGraphics(bool val
  Document background graphic is various shapes, charts, images placed in the footer or header, well as background and border of a page.
 ## See Also
 
+* [get_CacheBackgroundGraphics](../get_cachebackgroundgraphics/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

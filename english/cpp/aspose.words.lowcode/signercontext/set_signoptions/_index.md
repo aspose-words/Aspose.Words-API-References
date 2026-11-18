@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/signercontext/set_signoptions/
 ## SignerContext::set_SignOptions method
 
 
-SignOptions object with various signing options.
+[SignOptions](../../../aspose.words.digitalsignatures/signoptions/) object with various signing options.
 
 ```cpp
 void Aspose::Words::LowCode::SignerContext::set_SignOptions(const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & value)
@@ -18,6 +18,9 @@ void Aspose::Words::LowCode::SignerContext::set_SignOptions(const System::Shared
 
 ## See Also
 
+* [get_SignOptions](../get_signoptions/)
+
+* Class [SignOptions](../../../aspose.words.digitalsignatures/signoptions/)
 * Class [SignerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

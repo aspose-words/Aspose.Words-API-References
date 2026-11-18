@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_NoExtraLineSpacing(bool 
 
 ## See Also
 
+* [get_NoExtraLineSpacing](../get_noextralinespacing/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

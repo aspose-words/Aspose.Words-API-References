@@ -27,7 +27,7 @@ The default value is **false**.
 ## Examples
 
 
-Shows how to use FieldOptions to ensure that field updating fully supports bi-directional text.
+Shows how to use [FieldOptions](../) to ensure that field updating fully supports bi-directional text.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -45,6 +45,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"FieldOptions.Bidi.docx");
 ```
 ## See Also
+
+* [get_IsBidiTextSupportedOnUpdate](../get_isbiditextsupportedonupdate/)
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)

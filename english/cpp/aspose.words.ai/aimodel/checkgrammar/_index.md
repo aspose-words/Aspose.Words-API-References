@@ -45,6 +45,8 @@ proofedDoc->Save(get_ArtifactsDir() + u"AI.AiGrammar.docx");
 ```
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [CheckGrammarOptions](../../checkgrammaroptions/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

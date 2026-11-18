@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_suppressautohyphens/
 Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens()
+bool Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens()
 ```
 
 ## Examples

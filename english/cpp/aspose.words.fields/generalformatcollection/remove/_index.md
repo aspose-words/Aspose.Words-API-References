@@ -87,6 +87,7 @@ ASSERT_EQ(format->get_GeneralFormats()->get_Count(), 0);
 ```
 ## See Also
 
+* Enum [GeneralFormat](../../generalformat/)
 * Class [GeneralFormatCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

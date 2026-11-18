@@ -18,6 +18,9 @@ void Aspose::Words::DocumentBase::set_ResourceLoadingCallback(const System::Shar
 
 ## See Also
 
+* [get_ResourceLoadingCallback](../get_resourceloadingcallback/)
+
+* Interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

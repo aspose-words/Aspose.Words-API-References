@@ -32,6 +32,7 @@ Aspose::Words::Saving::PdfEncryptionDetails::PdfEncryptionDetails(const System::
 
 ## See Also
 
+* Enum [PdfPermissions](../../pdfpermissions/)
 * Class [PdfEncryptionDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

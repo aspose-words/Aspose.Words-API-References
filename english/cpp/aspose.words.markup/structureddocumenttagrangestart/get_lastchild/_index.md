@@ -21,6 +21,7 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::Markup::StructuredDocument
  If there is no last child node, a **null** is returned. 
 ## See Also
 
+* Class [Node](../../../aspose.words/node/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

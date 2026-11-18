@@ -108,6 +108,7 @@ ASSERT_EQ(properties->get_Count(), 0);
 ```
 ## See Also
 
+* Enum [PropertyType](../../propertytype/)
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

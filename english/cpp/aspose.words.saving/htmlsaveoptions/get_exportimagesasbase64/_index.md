@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportimagesasbase64/
 Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportImagesAsBase64()
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportImagesAsBase64()
 ```
 
 ## Remarks

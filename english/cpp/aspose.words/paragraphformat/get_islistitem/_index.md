@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_islistitem/
 True when the paragraph is an item in a bulleted or numbered list.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_IsListItem()
+bool Aspose::Words::ParagraphFormat::get_IsListItem()
 ```
 
 ## Examples

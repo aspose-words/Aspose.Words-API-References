@@ -166,6 +166,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.BuildTable.docx");
 ```
 ## See Also
 
+* Class [Row](../../../aspose.words.tables/row/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

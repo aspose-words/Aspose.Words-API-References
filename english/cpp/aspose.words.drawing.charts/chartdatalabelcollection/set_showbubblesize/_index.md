@@ -50,6 +50,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsBubbleChart.docx");
 ```
 ## See Also
 
+* [get_ShowBubbleSize](../get_showbubblesize/)
+
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

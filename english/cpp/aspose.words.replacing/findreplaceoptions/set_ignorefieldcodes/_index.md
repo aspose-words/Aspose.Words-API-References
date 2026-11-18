@@ -44,6 +44,8 @@ ASSERT_EQ(doc->GetText().Trim(), ignoreFieldCodes ? System::String(u"\u0013INCLU
 ```
 ## See Also
 
+* [get_IgnoreFieldCodes](../get_ignorefieldcodes/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

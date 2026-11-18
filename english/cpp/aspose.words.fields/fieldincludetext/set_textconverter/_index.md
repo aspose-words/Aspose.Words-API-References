@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIncludeText::set_TextConverter(const System::St
 
 ## See Also
 
+* [get_TextConverter](../get_textconverter/)
+
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

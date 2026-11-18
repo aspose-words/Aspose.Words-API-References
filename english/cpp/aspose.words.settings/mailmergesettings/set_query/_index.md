@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_Query(const System::String 
 
 ## See Also
 
+* [get_Query](../get_query/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

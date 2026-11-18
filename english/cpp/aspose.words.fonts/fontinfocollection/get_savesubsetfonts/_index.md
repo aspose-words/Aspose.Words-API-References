@@ -15,7 +15,7 @@ Specifies whether or not to save a subset of the embedded TrueType fonts with th
 This option works only when [EmbedTrueTypeFonts](../get_embedtruetypefonts/) property is set to **true**.
 
 ```cpp
-_Bool Aspose::Words::Fonts::FontInfoCollection::get_SaveSubsetFonts() const
+bool Aspose::Words::Fonts::FontInfoCollection::get_SaveSubsetFonts() const
 ```
 
 ## Remarks

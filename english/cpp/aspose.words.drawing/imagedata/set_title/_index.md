@@ -82,6 +82,8 @@ dstDoc->Save(get_ArtifactsDir() + u"Drawing.ImageData.docx");
 ```
 ## See Also
 
+* [get_Title](../get_title/)
+
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

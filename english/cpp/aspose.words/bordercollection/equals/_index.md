@@ -13,7 +13,7 @@ url: /cpp/aspose.words/bordercollection/equals/
 Compares collections of borders.
 
 ```cpp
-_Bool Aspose::Words::BorderCollection::Equals(const System::SharedPtr<Aspose::Words::BorderCollection> & brColl)
+bool Aspose::Words::BorderCollection::Equals(const System::SharedPtr<Aspose::Words::BorderCollection> & brColl)
 ```
 
 ## Examples

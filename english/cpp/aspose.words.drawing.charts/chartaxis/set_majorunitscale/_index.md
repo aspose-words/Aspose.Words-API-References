@@ -78,6 +78,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisDisplayUnit.docx");
 ```
 ## See Also
 
+* [get_MajorUnitScale](../get_majorunitscale/)
+
+* Enum [AxisTimeUnit](../../axistimeunit/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

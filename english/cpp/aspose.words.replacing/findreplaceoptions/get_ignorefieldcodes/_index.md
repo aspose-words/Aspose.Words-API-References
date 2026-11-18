@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignorefieldcodes/
 Gets or sets a boolean value indicating either to ignore text inside field codes. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFieldCodes() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFieldCodes() const
 ```
 
 ## Remarks

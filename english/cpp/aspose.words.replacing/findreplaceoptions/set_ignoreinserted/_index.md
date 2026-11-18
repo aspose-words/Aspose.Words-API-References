@@ -49,6 +49,8 @@ ASSERT_EQ(doc->GetText().Trim(), ignoreTextInsideInsertRevisions ? System::Strin
 ```
 ## See Also
 
+* [get_IgnoreInserted](../get_ignoreinserted/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldRef::set_NumberSeparator(const System::String &
 
 ## See Also
 
+* [get_NumberSeparator](../get_numberseparator/)
+
 * Class [FieldRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

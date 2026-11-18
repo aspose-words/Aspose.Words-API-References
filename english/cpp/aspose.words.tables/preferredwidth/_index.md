@@ -36,6 +36,7 @@ class PreferredWidth : public System::Object
 Preferred width can be specified as a percentage, number of points or a special "none/auto" value.
 
 The instances of this class are immutable.
+[PreferredWidth](../table/get_preferredwidth/)[PreferredWidth](../cellformat/get_preferredwidth/)
 ## Examples
 
 

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldNoteRef::set_InsertReferenceMark(bool value)
 
 ## See Also
 
+* [get_InsertReferenceMark](../get_insertreferencemark/)
+
 * Class [FieldNoteRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
