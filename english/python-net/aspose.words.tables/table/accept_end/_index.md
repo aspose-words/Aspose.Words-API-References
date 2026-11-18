@@ -5,7 +5,7 @@ articleTitle: accept_end method
 second_title: Aspose.Words for Python
 description: "Table.accept_end method. Accepts a visitor for visiting the end of the table."
 type: docs
-weight: 360
+weight: 10800
 url: /python-net/aspose.words.tables/table/accept_end/
 ---
 

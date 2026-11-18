@@ -13,47 +13,46 @@ url: /cpp/aspose.words/linestyle/
 Specifies line style of a [Border](../border/).
 
 ```cpp
-enum class LineStyle
+enum class LineStyle : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 |  |
-| Single | 1 |  |
-| Thick | 2 |  |
-| Double | 3 |  |
-| Hairline | 5 |  |
-| Dot | 6 |  |
+| DashDotStroker | 23 |  |
 | DashLargeGap | 7 |  |
+| DashSmallGap | 22 |  |
+| Dot | 6 |  |
 | DotDash | 8 |  |
 | DotDotDash | 9 |  |
-| Triple | 10 |  |
-| ThinThickSmallGap | 11 |  |
-| ThickThinSmallGap | 12 |  |
-| ThinThickThinSmallGap | 13 |  |
-| ThinThickMediumGap | 14 |  |
-| ThickThinMediumGap | 15 |  |
-| ThinThickThinMediumGap | 16 |  |
-| ThinThickLargeGap | 17 |  |
-| ThickThinLargeGap | 18 |  |
-| ThinThickThinLargeGap | 19 |  |
-| Wave | 20 |  |
+| Double | 3 |  |
 | DoubleWave | 21 |  |
-| DashSmallGap | 22 |  |
-| DashDotStroker | 23 |  |
 | Emboss3D | 24 |  |
 | Engrave3D | 25 |  |
-| Outset | 26 |  |
+| Hairline | 5 |  |
 | Inset | 27 |  |
-
+| None | 0 |  |
+| Outset | 26 |  |
+| Single | 1 |  |
+| Thick | 2 |  |
+| ThickThinLargeGap | 18 |  |
+| ThickThinMediumGap | 15 |  |
+| ThickThinSmallGap | 12 |  |
+| ThinThickLargeGap | 17 |  |
+| ThinThickMediumGap | 14 |  |
+| ThinThickSmallGap | 11 |  |
+| ThinThickThinLargeGap | 19 |  |
+| ThinThickThinMediumGap | 16 |  |
+| ThinThickThinSmallGap | 13 |  |
+| Triple | 10 |  |
+| Wave | 20 |  |
 
 ## Examples
 
 
+Shows how to insert a string surrounded by a border into a document.
 
-Shows how to insert a string surrounded by a border into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +65,6 @@ builder->Write(u"Text surrounded by green border.");
 
 doc->Save(get_ArtifactsDir() + u"Border.FontBorder.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

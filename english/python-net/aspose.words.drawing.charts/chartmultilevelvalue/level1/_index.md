@@ -5,7 +5,7 @@ articleTitle: level1 property
 second_title: Aspose.Words for Python
 description: "ChartMultilevelValue.level1 property. Gets the name of the chart top level that this value refers to."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartmultilevelvalue/level1/
 ---
 

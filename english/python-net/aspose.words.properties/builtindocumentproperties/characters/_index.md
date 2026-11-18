@@ -5,7 +5,7 @@ articleTitle: characters property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.characters property. Represents an estimate of the number of characters in the document."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.properties/builtindocumentproperties/characters/
 ---
 

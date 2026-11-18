@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "WarningInfoCollection.clear method. Removes all elements from the collection."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/warninginfocollection/clear/
 ---
 

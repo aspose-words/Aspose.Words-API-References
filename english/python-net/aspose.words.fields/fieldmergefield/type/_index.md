@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "FieldMergeField.type property. Gets the Microsoft Word field type."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fieldmergefield/type/
 ---
 

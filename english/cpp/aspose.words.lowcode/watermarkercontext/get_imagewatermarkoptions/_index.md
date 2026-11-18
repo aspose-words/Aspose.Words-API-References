@@ -18,7 +18,6 @@ const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> & Aspose::Words::L
 
 ## See Also
 
-* Class [ImageWatermarkOptions](../../../aspose.words/imagewatermarkoptions/)
 * Class [WatermarkerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

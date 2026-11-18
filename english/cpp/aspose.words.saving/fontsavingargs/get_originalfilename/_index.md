@@ -20,7 +20,6 @@ System::String Aspose::Words::Saving::FontSavingArgs::get_OriginalFileName() con
 
 
 This property contains the original file name of the current font if it is known. Otherwise it can be an empty string.
-
 ## See Also
 
 * Class [FontSavingArgs](../)

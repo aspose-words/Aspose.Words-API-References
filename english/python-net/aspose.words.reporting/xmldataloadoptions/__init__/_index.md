@@ -5,7 +5,7 @@ articleTitle: XmlDataLoadOptions constructor
 second_title: Aspose.Words for Python
 description: "XmlDataLoadOptions constructor. Initializes a new instance of this class with default options."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.reporting/xmldataloadoptions/__init__/
 ---
 

@@ -21,7 +21,7 @@ int32_t Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes()
 
 Microsoft Word does not always set this property.
 
-Aspose.Words does not update this property. 
+Aspose.Words does not update this property.
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

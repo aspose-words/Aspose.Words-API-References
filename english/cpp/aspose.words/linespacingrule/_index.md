@@ -13,7 +13,7 @@ url: /cpp/aspose.words/linespacingrule/
 Specifies line spacing values for a paragraph.
 
 ```cpp
-enum class LineSpacingRule
+enum class LineSpacingRule : int
 ```
 
 ### Values
@@ -24,12 +24,11 @@ enum class LineSpacingRule
 | Exactly | 1 | The line spacing never changes from the value specified in the [LineSpacing](../paragraphformat/get_linespacing/) property, even if a larger font is used within the paragraph. |
 | Multiple | 2 | The line spacing is specified in the [LineSpacing](../paragraphformat/get_linespacing/) property as the number of lines. One line equals 12 points. |
 
-
 ## Examples
 
 
+Shows how to work with line spacing.
 
-Shows how to work with line spacing. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,7 +62,6 @@ builder->Writeln(u"Line spacing of 1.5 default lines.");
 
 doc->Save(get_ArtifactsDir() + u"ParagraphFormat.LineSpacing.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

@@ -5,7 +5,7 @@ articleTitle: story_type property
 second_title: Aspose.Words for Python
 description: "Comment.story_type property. Returns [StoryType.COMMENTS](../../storytype/#COMMENTS)."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/comment/story_type/
 ---
 

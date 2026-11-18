@@ -16,12 +16,11 @@ Returns or sets preset [Margins](../../margins/) of the page.
 Aspose::Words::Margins Aspose::Words::PageSetup::get_Margins()
 ```
 
-
 ## Examples
 
 
+Shows when to recalculate the page layout of the document.
 
-Shows when to recalculate the page layout of the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -41,10 +40,8 @@ doc->UpdatePageLayout();
 
 doc->Save(get_ArtifactsDir() + u"Document.UpdatePageLayout.2.pdf");
 ```
-
 ## See Also
 
-* Enum [Margins](../../margins/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

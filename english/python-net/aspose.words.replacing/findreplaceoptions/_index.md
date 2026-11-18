@@ -5,7 +5,7 @@ articleTitle: FindReplaceOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.replacing.FindReplaceOptions class. Specifies options for find/replace operations"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.replacing/findreplaceoptions/
 ---
 

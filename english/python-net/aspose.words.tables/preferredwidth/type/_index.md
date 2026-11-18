@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "PreferredWidth.type property. Gets the unit of measure used for this preferred width value."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.tables/preferredwidth/type/
 ---
 

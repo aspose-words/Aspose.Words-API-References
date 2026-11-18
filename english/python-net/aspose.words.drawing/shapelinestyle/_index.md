@@ -5,7 +5,7 @@ articleTitle: ShapeLineStyle enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ShapeLineStyle enumeration. Specifies the compound line style of a [Shape](../shape/)."
 type: docs
-weight: 380
+weight: 7600
 url: /python-net/aspose.words.drawing/shapelinestyle/
 ---
 

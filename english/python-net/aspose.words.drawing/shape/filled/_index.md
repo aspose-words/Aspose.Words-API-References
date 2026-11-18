@@ -5,7 +5,7 @@ articleTitle: filled property
 second_title: Aspose.Words for Python
 description: "Shape.filled property. Determines whether the closed path of the shape will be filled."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.drawing/shape/filled/
 ---
 

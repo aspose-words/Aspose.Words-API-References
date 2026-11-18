@@ -5,7 +5,7 @@ articleTitle: FillType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.FillType enumeration. Specifies fill type for a fillable object."
 type: docs
-weight: 90
+weight: 1800
 url: /python-net/aspose.words.drawing/filltype/
 ---
 

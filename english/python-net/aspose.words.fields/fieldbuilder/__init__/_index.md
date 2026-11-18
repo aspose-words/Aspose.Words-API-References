@@ -5,7 +5,7 @@ articleTitle: FieldBuilder constructor
 second_title: Aspose.Words for Python
 description: "FieldBuilder constructor. Initializes an instance of the [FieldBuilder](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldbuilder/__init__/
 ---
 

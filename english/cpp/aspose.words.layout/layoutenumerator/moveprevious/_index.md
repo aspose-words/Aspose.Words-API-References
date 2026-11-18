@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/layoutenumerator/moveprevious/
 Moves to the previous sibling entity.
 
 ```cpp
-bool Aspose::Words::Layout::LayoutEnumerator::MovePrevious()
+_Bool Aspose::Words::Layout::LayoutEnumerator::MovePrevious()
 ```
 
 ## See Also

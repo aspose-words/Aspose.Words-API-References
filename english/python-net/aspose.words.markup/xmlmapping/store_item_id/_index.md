@@ -5,7 +5,7 @@ articleTitle: store_item_id property
 second_title: Aspose.Words for Python
 description: "XmlMapping.store_item_id property. Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [XmlMapping.xpath](../xpath/) expression."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.markup/xmlmapping/store_item_id/
 ---
 

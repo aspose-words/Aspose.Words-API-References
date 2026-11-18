@@ -5,7 +5,7 @@ articleTitle: FieldRevNum class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldRevNum class. Implements the REVNUM field"
 type: docs
-weight: 880
+weight: 17600
 url: /python-net/aspose.words.fields/fieldrevnum/
 ---
 

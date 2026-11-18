@@ -5,7 +5,7 @@ articleTitle: number_volumes property
 second_title: Aspose.Words for Python
 description: "Source.number_volumes property. Gets or sets the number of volumes of a source."
 type: docs
-weight: 300
+weight: 9000
 url: /python-net/aspose.words.bibliography/source/number_volumes/
 ---
 

@@ -4,7 +4,7 @@ linktitle: DocumentBuilder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::DocumentBuilder constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 2000
+weight: 3500
 url: /cpp/aspose.words/documentbuilder/documentbuilder/
 ---
 ## DocumentBuilder::DocumentBuilder() constructor
@@ -16,12 +16,14 @@ Initializes a new instance of this class.
 Aspose::Words::DocumentBuilder::DocumentBuilder()
 ```
 
+## Remarks
 
+ Creates a new [DocumentBuilder](../) object and attaches it to a new [Document](../../document/) object. 
 ## Examples
 
 
+Shows how to insert formatted text using DocumentBuilder.
 
-Shows how to insert formatted text using [DocumentBuilder](../). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -36,31 +38,32 @@ font->set_Underline(Underline::Dash);
 
 builder->Write(u"Hello world!");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::Document\>\&) constructor
+## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::Document\> \&) constructor
 
 
 Initializes a new instance of this class.
 
 ```cpp
-Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::Words::Document> &doc)
+Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::Words::Document> & doc)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::Document\>\& | The [Document](../../document/) object to attach to. |
+| doc | const System::SharedPtr\<Aspose::Words::Document\> \& | The [Document](../../document/) object to attach to. |
+## Remarks
 
+ Creates a new [DocumentBuilder](../) object, attaches to the specified [Document](../../document/) object. The cursor is positioned at the beginning of the document. 
 ## Examples
 
 
+Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -105,33 +108,33 @@ builder->Writeln(u"Heading 3.3");
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
-
 ## See Also
 
-* Class [Document](../../document/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\&) constructor
+## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::Document\> \&, const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\> \&) constructor
 
 
 Initializes a new instance of this class.
 
 ```cpp
-Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::Words::Document> &doc, const System::SharedPtr<Aspose::Words::DocumentBuilderOptions> &options)
+Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::Words::Document> & doc, const System::SharedPtr<Aspose::Words::DocumentBuilderOptions> & options)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | const System::SharedPtr\<Aspose::Words::Document\>\& | The [Document](../../document/) object to attach to. |
-| options | const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\& | Additional options for the document building process. |
+| doc | const System::SharedPtr\<Aspose::Words::Document\> \& | The [Document](../../document/) object to attach to. |
+| options | const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\> \& | Additional options for the document building process. |
+## Remarks
 
+ Creates a new [DocumentBuilder](../) object, attaches to the specified [Document](../../document/) object. The cursor is positioned at the beginning of the document. 
 ## Examples
 
 
+Shows how to ignore table formatting for content after.
 
-Shows how to ignore table formatting for content after. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builderOptions = System::MakeObject<Aspose::Words::DocumentBuilderOptions>();
@@ -157,29 +160,28 @@ builder->Writeln(u"Font size 12 here.");
 
 doc->Save(get_ArtifactsDir() + u"Table.ContextTableFormatting.docx");
 ```
-
 ## See Also
 
-* Class [Document](../../document/)
-* Class [DocumentBuilderOptions](../../documentbuilderoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\>\&) constructor
+## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::DocumentBuilderOptions\> \&) constructor
 
 
 Initializes a new instance of this class.
 
 ```cpp
-Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::Words::DocumentBuilderOptions> &options)
+Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::Words::DocumentBuilderOptions> & options)
 ```
 
+## Remarks
 
+ Creates a new [DocumentBuilder](../) object and attaches it to a new [Document](../../document/) object. Additional document building options can be specified. 
 ## Examples
 
 
+Shows how to ignore table formatting for content after.
 
-Shows how to ignore table formatting for content after. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builderOptions = System::MakeObject<Aspose::Words::DocumentBuilderOptions>();
@@ -205,10 +207,8 @@ builder->Writeln(u"Font size 12 here.");
 
 doc->Save(get_ArtifactsDir() + u"Table.ContextTableFormatting.docx");
 ```
-
 ## See Also
 
-* Class [DocumentBuilderOptions](../../documentbuilderoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

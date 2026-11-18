@@ -5,7 +5,7 @@ articleTitle: binding_type property
 second_title: Aspose.Words for Python
 description: "WebExtensionBinding.binding_type property. Specifies the binding type."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.webextensions/webextensionbinding/binding_type/
 ---
 

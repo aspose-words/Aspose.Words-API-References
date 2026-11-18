@@ -13,19 +13,18 @@ url: /cpp/aspose.words.properties/documentproperty/tobool/
 Returns the property value as bool.
 
 ```cpp
-bool Aspose::Words::Properties::DocumentProperty::ToBool()
+_Bool Aspose::Words::Properties::DocumentProperty::ToBool()
 ```
 
 ## Remarks
 
 
 Throws an exception if the property type is not [Boolean](../../propertytype/).
-
 ## Examples
 
 
+Shows various type conversion methods of custom document properties.
 
-Shows various type conversion methods of custom document properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
@@ -37,13 +36,12 @@ properties->Add(u"Authorized Date", authDate);
 properties->Add(u"Authorized Revision", doc->get_BuiltInDocumentProperties()->get_RevisionNumber());
 properties->Add(u"Authorized Amount", 123.45);
 
-ASPOSE_ASSERT_EQ(true, properties->idx_get(u"Authorized")->ToBool());
-ASSERT_EQ(u"John Doe", System::ObjectExt::ToString(properties->idx_get(u"Authorized By")));
-ASSERT_EQ(authDate, properties->idx_get(u"Authorized Date")->ToDateTime());
-ASSERT_EQ(1, properties->idx_get(u"Authorized Revision")->ToInt());
-ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
+ASPOSE_ASSERT_EQ(properties->idx_get(u"Authorized")->ToBool(), true);
+ASSERT_EQ(System::ObjectExt::ToString(properties->idx_get(u"Authorized By")), u"John Doe");
+ASSERT_EQ(properties->idx_get(u"Authorized Date")->ToDateTime(), authDate);
+ASSERT_EQ(properties->idx_get(u"Authorized Revision")->ToInt(), 1);
+ASPOSE_ASSERT_EQ(properties->idx_get(u"Authorized Amount")->ToDouble(), 123.45);
 ```
-
 ## See Also
 
 * Class [DocumentProperty](../)

@@ -13,27 +13,26 @@ url: /cpp/aspose.words.lists/listlevelalignment/
 Specifies alignment for the list number or bullet.
 
 ```cpp
-enum class ListLevelAlignment
+enum class ListLevelAlignment : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Left | 0 | The list label is aligned to the left of the number position. |
 | Center | 1 | The list label is centered at the number position. |
+| Left | 0 | The list label is aligned to the left of the number position. |
 | Right | 2 | This list label is aligned to the right of the number position. |
 
 ## Remarks
 
 
 Used as a value for the [Alignment](../listlevel/get_alignment/) property.
-
 ## Examples
 
 
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 
-Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../aspose.words/documentbuilder/). 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -85,7 +84,6 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)

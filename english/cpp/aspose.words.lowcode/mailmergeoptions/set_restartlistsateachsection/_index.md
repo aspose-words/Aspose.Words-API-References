@@ -16,6 +16,9 @@ Sets a value indicating whether lists are restarted at each section after execut
 void Aspose::Words::LowCode::MailMergeOptions::set_RestartListsAtEachSection(bool value)
 ```
 
+## Remarks
+
+ The default value is **true**. 
 ## See Also
 
 * Class [MailMergeOptions](../)

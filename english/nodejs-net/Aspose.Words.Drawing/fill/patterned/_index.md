@@ -5,7 +5,7 @@ articleTitle: patterned method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Fill.patterned method"
 type: docs
-weight: 230
+weight: 260
 url: /nodejs-net/aspose.words.drawing/fill/patterned/
 ---
 

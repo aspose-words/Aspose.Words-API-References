@@ -5,7 +5,7 @@ articleTitle: is_composite property
 second_title: Aspose.Words for Python
 description: "Node.is_composite property. Returns ``True`` if this node can contain other nodes."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/node/is_composite/
 ---
 

@@ -13,15 +13,14 @@ url: /cpp/aspose.words.ai/openaimodel/withproject/
 Sets a specified Project to the model.
 
 ```cpp
-System::SharedPtr<Aspose::Words::AI::OpenAiModel> Aspose::Words::AI::OpenAiModel::WithProject(const System::String &projectId)
+System::SharedPtr<Aspose::Words::AI::OpenAiModel> Aspose::Words::AI::OpenAiModel::WithProject(const System::String & projectId)
 ```
-
 
 ## Examples
 
 
+Shows how to summarize text using OpenAI and Google models.
 
-Shows how to summarize text using OpenAI and Google models. 
 ```cpp
 auto firstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 auto secondDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -40,10 +39,8 @@ options->set_SummaryLength(SummaryLength::Long);
 System::SharedPtr<Aspose::Words::Document> multiDocumentSummary = model->Summarize(System::MakeArray<System::SharedPtr<Aspose::Words::Document>>({firstDoc, secondDoc}), options);
 multiDocumentSummary->Save(get_ArtifactsDir() + u"AI.AiSummarize.Multi.docx");
 ```
-
 ## See Also
 
-* Class [OpenAiModel](../)
 * Class [OpenAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

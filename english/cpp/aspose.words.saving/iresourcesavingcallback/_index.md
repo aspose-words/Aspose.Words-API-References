@@ -13,17 +13,14 @@ url: /cpp/aspose.words.saving/iresourcesavingcallback/
 Implement this interface if you want to control how Aspose.Words saves external resources (images, fonts and css) when saving a document to fixed page HTML or SVG.
 
 ```cpp
-class IResourceSavingCallback : public virtual System::Object
+class IResourceSavingCallback : public System::Object
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
 | virtual [ResourceSaving](./resourcesaving/)(System::SharedPtr\<Aspose::Words::Saving::ResourceSavingArgs\>) | Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats. |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

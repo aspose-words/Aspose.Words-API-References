@@ -5,7 +5,7 @@ articleTitle: underline property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.underline property. Gets/sets underline type for the current font."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words/documentbuilder/underline/
 ---
 

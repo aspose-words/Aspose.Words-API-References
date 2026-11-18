@@ -5,7 +5,7 @@ articleTitle: has_macros property
 second_title: Aspose.Words for Python
 description: "FileFormatInfo.has_macros property. Returns ``True`` if this document contains a VBA macros."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/fileformatinfo/has_macros/
 ---
 

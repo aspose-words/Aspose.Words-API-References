@@ -5,7 +5,7 @@ articleTitle: Chart class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.Chart class. Provides access to the chart shape properties"
 type: docs
-weight: 140
+weight: 2800
 url: /python-net/aspose.words.drawing.charts/chart/
 ---
 

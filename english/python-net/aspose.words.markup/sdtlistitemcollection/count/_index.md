@@ -5,7 +5,7 @@ articleTitle: count property
 second_title: Aspose.Words for Python
 description: "SdtListItemCollection.count property. Gets number of items in the collection."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.markup/sdtlistitemcollection/count/
 ---
 

@@ -4,7 +4,7 @@ linktitle: get_PreserveTabs
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldToc::get_PreserveTabs method. Gets whether to preserve tab entries within table entries in C++.'
 type: docs
-weight: 16000
+weight: 52000
 url: /cpp/aspose.words.fields/fieldtoc/get_preservetabs/
 ---
 ## FieldToc::get_PreserveTabs method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/get_preservetabs/
 Gets whether to preserve tab entries within table entries.
 
 ```cpp
-bool Aspose::Words::Fields::FieldToc::get_PreserveTabs()
+_Bool Aspose::Words::Fields::FieldToc::get_PreserveTabs()
 ```
 
 ## See Also

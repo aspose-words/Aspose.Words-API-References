@@ -5,7 +5,7 @@ articleTitle: FieldSection class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldSection class. Implements the SECTION field"
 type: docs
-weight: 900
+weight: 18000
 url: /python-net/aspose.words.fields/fieldsection/
 ---
 

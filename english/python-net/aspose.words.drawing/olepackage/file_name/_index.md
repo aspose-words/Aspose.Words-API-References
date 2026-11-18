@@ -5,7 +5,7 @@ articleTitle: file_name property
 second_title: Aspose.Words for Python
 description: "OlePackage.file_name property. Gets or sets OLE Package file name."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/olepackage/file_name/
 ---
 

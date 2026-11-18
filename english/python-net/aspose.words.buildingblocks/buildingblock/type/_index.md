@@ -5,7 +5,7 @@ articleTitle: type property
 second_title: Aspose.Words for Python
 description: "BuildingBlock.type property. Specifies the building block type."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.buildingblocks/buildingblock/type/
 ---
 

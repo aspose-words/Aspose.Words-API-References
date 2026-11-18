@@ -13,13 +13,11 @@ url: /cpp/aspose.words.lowcode/replacer/create/
 Creates new instance of the replacer processor.
 
 ```cpp
-static System::SharedPtr<Aspose::Words::LowCode::Replacer> Aspose::Words::LowCode::Replacer::Create(const System::SharedPtr<Aspose::Words::LowCode::ReplacerContext> &context)
+static System::SharedPtr<Aspose::Words::LowCode::Replacer> Aspose::Words::LowCode::Replacer::Create(const System::SharedPtr<Aspose::Words::LowCode::ReplacerContext> & context)
 ```
 
 ## See Also
 
-* Class [Replacer](../)
-* Class [ReplacerContext](../../replacercontext/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

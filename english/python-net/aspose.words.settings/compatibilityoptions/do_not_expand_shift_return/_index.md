@@ -5,7 +5,7 @@ articleTitle: do_not_expand_shift_return property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.do_not_expand_shift_return property. Don't Justify Lines Ending in Soft Line Break."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.settings/compatibilityoptions/do_not_expand_shift_return/
 ---
 

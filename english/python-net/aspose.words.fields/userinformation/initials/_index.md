@@ -5,7 +5,7 @@ articleTitle: initials property
 second_title: Aspose.Words for Python
 description: "UserInformation.initials property. Gets or sets the user's initials."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/userinformation/initials/
 ---
 

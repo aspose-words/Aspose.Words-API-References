@@ -13,16 +13,16 @@ url: /cpp/aspose.words.drawing.charts/markersymbol/
 Specifies marker symbol style.
 
 ```cpp
-enum class MarkerSymbol
+enum class MarkerSymbol : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | 0 | Specifies a default marker symbol shall be drawn at each data point. |
 | Circle | 1 | Specifies a circle shall be drawn at each data point. |
 | Dash | 2 | Specifies a dash shall be drawn at each data point. |
+| Default | 0 | Specifies a default marker symbol shall be drawn at each data point. |
 | Diamond | 3 | Specifies a diamond shall be drawn at each data point. |
 | Dot | 4 | Specifies a dot shall be drawn at each data point. |
 | None | 5 | Specifies nothing shall be drawn at each data point. |

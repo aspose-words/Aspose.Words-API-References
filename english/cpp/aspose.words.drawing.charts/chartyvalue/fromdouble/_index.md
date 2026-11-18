@@ -4,7 +4,7 @@ linktitle: FromDouble
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::Charts::ChartYValue::FromDouble method. Creates a ChartYValue instance of the Double type in C++.'
 type: docs
-weight: 2000
+weight: 7500
 url: /cpp/aspose.words.drawing.charts/chartyvalue/fromdouble/
 ---
 ## ChartYValue::FromDouble method
@@ -16,12 +16,11 @@ Creates a [ChartYValue](../) instance of the [Double](../../chartyvaluetype/) ty
 static System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> Aspose::Words::Drawing::Charts::ChartYValue::FromDouble(double value)
 ```
 
-
 ## Examples
 
 
+Shows how to populate chart series with data.
 
-Shows how to populate chart series with data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,10 +50,8 @@ series2->Add(ChartXValue::FromDouble(8), ChartYValue::FromDouble(7));
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
-
 ## See Also
 
-* Class [ChartYValue](../)
 * Class [ChartYValue](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

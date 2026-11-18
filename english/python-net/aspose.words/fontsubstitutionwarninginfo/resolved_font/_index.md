@@ -5,7 +5,7 @@ articleTitle: resolved_font property
 second_title: Aspose.Words for Python
 description: "FontSubstitutionWarningInfo.resolved_font property. Resolved font."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/fontsubstitutionwarninginfo/resolved_font/
 ---
 

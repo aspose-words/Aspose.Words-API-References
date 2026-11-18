@@ -13,24 +13,23 @@ url: /cpp/aspose.words.vba/vbamoduletype/
 Specifies the type of a model in a VBA project.
 
 ```cpp
-enum class VbaModuleType
+enum class VbaModuleType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| DocumentModule | 0 | A type of VBA project item that specifies a module for embedded macros and programmatic access operations that are associated with a document. |
-| ProceduralModule | 1 | A collection of subroutines and functions. |
 | ClassModule | 2 | A module that contains the definition for a new object. Each instance of a class creates a new object, and procedures that are defined in the module become properties and methods of the object. |
 | DesignerModule | 3 | A VBA module that extends the methods and properties of an ActiveX control that has been registered with the project. |
-
+| DocumentModule | 0 | A type of VBA project item that specifies a module for embedded macros and programmatic access operations that are associated with a document. |
+| ProceduralModule | 1 | A collection of subroutines and functions. |
 
 ## Examples
 
 
+Shows how to create a VBA project using macros.
 
-Shows how to create a VBA project using macros. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -50,7 +49,6 @@ doc->get_VbaProject()->get_Modules()->Add(module_);
 
 doc->Save(get_ArtifactsDir() + u"VbaProject.CreateVBAMacros.docm");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Vba](../)

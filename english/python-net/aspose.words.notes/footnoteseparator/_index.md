@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparator class
 second_title: Aspose.Words for Python
 description: "aspose.words.notes.FootnoteSeparator class. Represents a container for the footnote/endnote separator and continuation content of a document."
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.notes/footnoteseparator/
 ---
 

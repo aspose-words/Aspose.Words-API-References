@@ -5,7 +5,7 @@ articleTitle: BorderCollection indexer
 second_title: Aspose.Words for Python
 description: "BorderCollection indexer. Retrieves a [Border](../../border/) object by index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/bordercollection/__getitem__/
 ---
 

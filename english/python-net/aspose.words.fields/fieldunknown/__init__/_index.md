@@ -5,7 +5,7 @@ articleTitle: FieldUnknown constructor
 second_title: Aspose.Words for Python
 description: "FieldUnknown constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldunknown/__init__/
 ---
 

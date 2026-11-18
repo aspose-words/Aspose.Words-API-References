@@ -16,12 +16,11 @@ Initializes a new instance of this class that can be used to save a document in 
 Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to make a saved document conform to an older ODT schema.
 
-Shows how to make a saved document conform to an older ODT schema. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -32,9 +31,8 @@ saveOptions->set_IsStrictSchema11(exportToOdt11Specs);
 doc->Save(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt"));
-ASSERT_EQ(Aspose::Words::MeasurementUnits::Centimeters, doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit());
+ASSERT_EQ(doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit(), Aspose::Words::MeasurementUnits::Centimeters);
 ```
-
 ## See Also
 
 * Class [OdtSaveOptions](../)
@@ -53,12 +51,11 @@ Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions(Aspose::Words::SaveFormat 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | Aspose::Words::SaveFormat | Can be [Odt](../../../aspose.words/saveformat/) or [Ott](../../../aspose.words/saveformat/). |
-
 ## Examples
 
 
+Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
 
-Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -83,22 +80,20 @@ ASSERT_TRUE(docInfo->get_IsEncrypted());
 // we will have to provide a LoadOptions object with the correct password to the loading constructor.
 doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString, System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"@sposeEncrypted_1145"));
 
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)
-## OdtSaveOptions::OdtSaveOptions(const System::String\&) constructor
+## OdtSaveOptions::OdtSaveOptions(const System::String \&) constructor
 
 
 Initializes a new instance of this class that can be used to save a document in the [Odt](../../../aspose.words/saveformat/) format encrypted with a password.
 
 ```cpp
-Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions(const System::String &password)
+Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions(const System::String & password)
 ```
 
 ## See Also

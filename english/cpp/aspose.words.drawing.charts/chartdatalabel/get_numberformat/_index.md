@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartNumberFormat> Aspose::Wor
 
 ## See Also
 
-* Class [ChartNumberFormat](../../chartnumberformat/)
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

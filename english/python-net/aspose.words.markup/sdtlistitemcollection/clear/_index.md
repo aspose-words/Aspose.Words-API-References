@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "SdtListItemCollection.clear method. Clears all items from this collection."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.markup/sdtlistitemcollection/clear/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparatorCollection constructor
 second_title: Aspose.Words for Python
 description: "FootnoteSeparatorCollection constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.notes/footnoteseparatorcollection/__init__/
 ---
 

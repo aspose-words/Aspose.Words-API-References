@@ -5,7 +5,7 @@ articleTitle: as_field_edit_time method
 second_title: Aspose.Words for Python
 description: "Field.as_field_edit_time method. Cast Field to [FieldEditTime](../../fieldedittime/)."
 type: docs
-weight: 370
+weight: 11100
 url: /python-net/aspose.words.fields/field/as_field_edit_time/
 ---
 

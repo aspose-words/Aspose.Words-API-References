@@ -5,7 +5,7 @@ articleTitle: even_column_banding property
 second_title: Aspose.Words for Python
 description: "ConditionalStyleCollection.even_column_banding property. Gets the even column banding style."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/conditionalstylecollection/even_column_banding/
 ---
 

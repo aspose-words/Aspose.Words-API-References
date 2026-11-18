@@ -5,7 +5,7 @@ articleTitle: cell_spacing property
 second_title: Aspose.Words for Python
 description: "Table.cell_spacing property. Gets or sets the amount of space (in points) between the cells."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.tables/table/cell_spacing/
 ---
 

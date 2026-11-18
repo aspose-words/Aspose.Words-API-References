@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartTitle::set_Text method
 linktitle: set_Text
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartTitle::set_Text method. Setter for Aspose::Words::Drawing::Charts::ChartTitle::get_Text in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartTitle::set_Text method. Sets the text of the chart title. If null or empty value is specified, auto generated title will be shown in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.drawing.charts/charttitle/set_text/
@@ -10,12 +10,42 @@ url: /cpp/aspose.words.drawing.charts/charttitle/set_text/
 ## ChartTitle::set_Text method
 
 
-Setter for [Aspose::Words::Drawing::Charts::ChartTitle::get_Text](../get_text/).
+Sets the text of the chart title. If **null** or empty value is specified, auto generated title will be shown.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartTitle::set_Text(const System::String &value)
+void Aspose::Words::Drawing::Charts::ChartTitle::set_Text(const System::String & value)
 ```
 
+## Remarks
+
+Use [Show](../get_show/) option if you need to hide the Title.
+## Examples
+
+
+Shows how to insert a chart and set a title.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a chart shape with a document builder and get its chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> chartShape = builder->InsertChart(ChartType::Bar, static_cast<double>(400), static_cast<double>(300));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = chartShape->get_Chart();
+
+// Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartTitle> title = chart->get_Title();
+title->set_Text(u"My Chart");
+title->get_Font()->set_Size(15);
+title->get_Font()->set_Color(System::Drawing::Color::get_Blue());
+
+// Set the "Show" property to "true" to make the title visible.
+title->set_Show(true);
+
+// Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+title->set_Overlay(true);
+
+doc->Save(get_ArtifactsDir() + u"Charts.ChartTitle.docx");
+```
 ## See Also
 
 * Class [ChartTitle](../)

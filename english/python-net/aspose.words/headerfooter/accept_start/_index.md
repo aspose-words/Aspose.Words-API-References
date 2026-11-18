@@ -5,7 +5,7 @@ articleTitle: accept_start method
 second_title: Aspose.Words for Python
 description: "HeaderFooter.accept_start method. Accepts a visitor for visiting the start of the header."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/headerfooter/accept_start/
 ---
 

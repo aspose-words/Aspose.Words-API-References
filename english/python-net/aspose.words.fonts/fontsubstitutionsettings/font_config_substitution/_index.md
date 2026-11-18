@@ -5,7 +5,7 @@ articleTitle: font_config_substitution property
 second_title: Aspose.Words for Python
 description: "FontSubstitutionSettings.font_config_substitution property. Settings related to font config substitution rule."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fonts/fontsubstitutionsettings/font_config_substitution/
 ---
 

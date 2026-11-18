@@ -5,7 +5,7 @@ articleTitle: search_from_bottom property
 second_title: Aspose.Words for Python
 description: "FieldStyleRef.search_from_bottom property. Gets or sets whether to search from the bottom of the current page, rather from the top."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldstyleref/search_from_bottom/
 ---
 

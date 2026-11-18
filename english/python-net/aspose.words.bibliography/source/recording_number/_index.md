@@ -5,7 +5,7 @@ articleTitle: recording_number property
 second_title: Aspose.Words for Python
 description: "Source.recording_number property. Gets or sets the recording number of a source."
 type: docs
-weight: 370
+weight: 11100
 url: /python-net/aspose.words.bibliography/source/recording_number/
 ---
 

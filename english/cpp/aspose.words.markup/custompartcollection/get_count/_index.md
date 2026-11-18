@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::CustomPartCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 10000
+weight: 17250
 url: /cpp/aspose.words.markup/custompartcollection/get_count/
 ---
 ## CustomPartCollection::get_Count method
@@ -16,22 +16,21 @@ Gets the number of elements contained in the collection.
 int32_t Aspose::Words::Markup::CustomPartCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to access a document's arbitrary custom parts collection.
 
-Shows how to access a document's arbitrary custom parts collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom parts OOXML package.docx"));
 
-ASSERT_EQ(2, doc->get_PackageCustomParts()->get_Count());
+ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 2);
 
 // Clone the second part, then add the clone to the collection.
 System::SharedPtr<Aspose::Words::Markup::CustomPart> clonedPart = doc->get_PackageCustomParts()->idx_get(1)->Clone();
 doc->get_PackageCustomParts()->Add(clonedPart);
 
-ASSERT_EQ(3, doc->get_PackageCustomParts()->get_Count());
+ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 3);
 
 // Enumerate over the collection and print every part.
 {
@@ -51,13 +50,12 @@ ASSERT_EQ(3, doc->get_PackageCustomParts()->get_Count());
 // We can remove elements from this collection individually, or all at once.
 doc->get_PackageCustomParts()->RemoveAt(2);
 
-ASSERT_EQ(2, doc->get_PackageCustomParts()->get_Count());
+ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 2);
 
 doc->get_PackageCustomParts()->Clear();
 
-ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
+ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 0);
 ```
-
 ## See Also
 
 * Class [CustomPartCollection](../)

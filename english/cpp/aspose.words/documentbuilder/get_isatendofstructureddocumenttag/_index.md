@@ -4,24 +4,23 @@ linktitle: get_IsAtEndOfStructuredDocumentTag
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_IsAtEndOfStructuredDocumentTag method. Returns true if the cursor is at the end of a structured document tag in C++.'
 type: docs
-weight: 19000
+weight: 84000
 url: /cpp/aspose.words/documentbuilder/get_isatendofstructureddocumenttag/
 ---
 ## DocumentBuilder::get_IsAtEndOfStructuredDocumentTag method
 
 
-Returns **true** if the cursor is at the end of a structured document tag.
+Returns true if the cursor is at the end of a structured document tag.
 
 ```cpp
-bool Aspose::Words::DocumentBuilder::get_IsAtEndOfStructuredDocumentTag()
+_Bool Aspose::Words::DocumentBuilder::get_IsAtEndOfStructuredDocumentTag()
 ```
-
 
 ## Examples
 
 
+Shows how to move cursor of DocumentBuilder inside a structured document tag.
 
-Shows how to move cursor of [DocumentBuilder](../) inside a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Structured document tags.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -35,7 +34,7 @@ auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(do
 builder->MoveToStructuredDocumentTag(tag, 1);
 builder->Write(u" New text.");
 
-ASSERT_EQ(u"R New text.ichText", tag->GetText().Trim());
+ASSERT_EQ(tag->GetText().Trim(), u"R New text.ichText");
 
 // 3 -  Move to the end of the second structured document tag.
 builder->MoveToStructuredDocumentTag(1, -1);
@@ -46,7 +45,6 @@ builder->get_CurrentStructuredDocumentTag()->set_Color(System::Drawing::Color::g
 
 doc->Save(get_ArtifactsDir() + u"Document.MoveToStructuredDocumentTag.docx");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

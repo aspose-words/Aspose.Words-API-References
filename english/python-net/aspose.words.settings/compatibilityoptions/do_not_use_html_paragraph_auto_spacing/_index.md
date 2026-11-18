@@ -5,7 +5,7 @@ articleTitle: do_not_use_html_paragraph_auto_spacing property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.do_not_use_html_paragraph_auto_spacing property. Use Fixed Paragraph Spacing for HTML Auto Setting."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.settings/compatibilityoptions/do_not_use_html_paragraph_auto_spacing/
 ---
 

@@ -4,7 +4,7 @@ linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Bibliography::PersonCollection::get_Count method. Gets the number of persons contained in the collection in C++.'
 type: docs
-weight: 6000
+weight: 13000
 url: /cpp/aspose.words.bibliography/personcollection/get_count/
 ---
 ## PersonCollection::get_Count method
@@ -16,23 +16,22 @@ Gets the number of persons contained in the collection.
 int32_t Aspose::Words::Bibliography::PersonCollection::get_Count()
 ```
 
-
 ## Examples
 
 
+Shows how to get bibliography sources available in the document.
 
-Shows how to get bibliography sources available in the document. 
 ```cpp
 auto document = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Bibliography sources.docx"));
 
 System::SharedPtr<Aspose::Words::Bibliography::Bibliography> bibliography = document->get_Bibliography();
-ASSERT_EQ(12, bibliography->get_Sources()->get_Count());
+ASSERT_EQ(bibliography->get_Sources()->get_Count(), 12);
 
 // Get default data from bibliography sources.
 System::SharedPtr<Aspose::Words::Bibliography::Source> source = bibliography->get_Sources()->LINQ_FirstOrDefault();
-ASSERT_EQ(u"Book 0 (No LCID)", source->get_Title());
-ASSERT_EQ(SourceType::Book, source->get_SourceType());
-ASSERT_EQ(3, source->get_Contributors()->LINQ_Count());
+ASSERT_EQ(source->get_Title(), u"Book 0 (No LCID)");
+ASSERT_EQ(source->get_SourceType(), SourceType::Book);
+ASSERT_EQ(source->get_Contributors()->LINQ_Count(), 3);
 ASSERT_TRUE(System::TestTools::IsNull(source->get_AbbreviatedCaseNumber()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_AlbumTitle()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_BookTitle()));
@@ -73,7 +72,7 @@ ASSERT_TRUE(System::TestTools::IsNull(source->get_ShortTitle()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_StandardNumber()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_StateOrProvince()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Station()));
-ASSERT_EQ(u"BookNoLCID", source->get_Tag());
+ASSERT_EQ(source->get_Tag(), u"BookNoLCID");
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Theater()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_ThesisType()));
 ASSERT_TRUE(System::TestTools::IsNull(source->get_Type()));
@@ -104,17 +103,16 @@ ASSERT_FALSE(System::TestTools::IsNull(contributors->get_Translator()));
 ASSERT_TRUE(System::TestTools::IsNull(contributors->get_Writer()));
 
 System::SharedPtr<Aspose::Words::Bibliography::Contributor> editor = contributors->get_Editor();
-ASSERT_EQ(2, (System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(editor))->LINQ_Count());
+ASSERT_EQ((System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(editor))->LINQ_Count(), 2);
 
 auto authors = System::ExplicitCast<Aspose::Words::Bibliography::PersonCollection>(contributors->get_Author());
-ASSERT_EQ(2, authors->LINQ_Count());
+ASSERT_EQ(authors->LINQ_Count(), 2);
 
 System::SharedPtr<Aspose::Words::Bibliography::Person> person = authors->idx_get(0);
-ASSERT_EQ(u"Roxanne", person->get_First());
-ASSERT_EQ(u"Brielle", person->get_Middle());
-ASSERT_EQ(u"Tejeda", person->get_Last());
+ASSERT_EQ(person->get_First(), u"Roxanne");
+ASSERT_EQ(person->get_Middle(), u"Brielle");
+ASSERT_EQ(person->get_Last(), u"Tejeda");
 ```
-
 ## See Also
 
 * Class [PersonCollection](../)

@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "FieldEnd.node_type property. Returns [NodeType.FIELD_END](../../../aspose.words/nodetype/#FIELD_END)."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldend/node_type/
 ---
 

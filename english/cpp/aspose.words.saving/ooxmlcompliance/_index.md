@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/ooxmlcompliance/
 Allows to specify which OOXML specification will be used when saving in the DOCX format.
 
 ```cpp
-enum class OoxmlCompliance
+enum class OoxmlCompliance : int
 ```
 
 ### Values
@@ -21,15 +21,14 @@ enum class OoxmlCompliance
 | Name | Value | Description |
 | --- | --- | --- |
 | Ecma376_2006 | 0 | ECMA-376 1st Edition, 2006. |
-| Iso29500_2008_Transitional | 1 | ISO/IEC 29500:2008 Transitional compliance level. |
 | Iso29500_2008_Strict | 2 | ISO/IEC 29500:2008 Strict compliance level. |
-
+| Iso29500_2008_Transitional | 1 | ISO/IEC 29500:2008 Transitional compliance level. |
 
 ## Examples
 
 
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
-Shows how to set an OOXML compliance specification for a saved document to adhere to. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
 builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
 
-ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage(), ShapeMarkupLanguage::Vml);
 
 // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
 // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
@@ -53,11 +52,11 @@ doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.Iso29500Strict.docx", saveOpti
 // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.Iso29500Strict.docx"));
 
-ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage(), ShapeMarkupLanguage::Dml);
 ```
 
+Shows how to configure a list to restart numbering at each section.
 
-Shows how to configure a list to restart numbering at each section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -84,11 +83,11 @@ doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx", 
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx"));
 
-ASPOSE_ASSERT_EQ(restartListAtEachSection, doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection());
+ASPOSE_ASSERT_EQ(doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection(), restartListAtEachSection);
 ```
 
+Shows how to insert DML shapes into a document.
 
-Shows how to insert DML shapes into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -108,7 +107,6 @@ saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
 
 doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -16,12 +16,14 @@ Gets or sets the background color of the stroke.
 System::Drawing::Color Aspose::Words::Drawing::Stroke::get_BackColor()
 ```
 
+## Remarks
 
+ The default value for a [Shape](../../shape/) is White. 
 ## Examples
 
 
+Show how to set marker formatting.
 
-Show how to set marker formatting. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,7 +54,6 @@ dataPoints->idx_get(3)->get_Marker()->get_Format()->get_Stroke()->set_Transparen
 
 doc->Save(get_ArtifactsDir() + u"Charts.MarkerFormatting.docx");
 ```
-
 ## See Also
 
 * Class [Stroke](../)

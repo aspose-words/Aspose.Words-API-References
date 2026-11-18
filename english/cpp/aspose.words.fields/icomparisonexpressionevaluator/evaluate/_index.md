@@ -13,14 +13,14 @@ url: /cpp/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 Evaluates comparison expression.
 
 ```cpp
-virtual System::SharedPtr<Aspose::Words::Fields::ComparisonEvaluationResult> Aspose::Words::Fields::IComparisonExpressionEvaluator::Evaluate(System::SharedPtr<Aspose::Words::Fields::Field> field, System::SharedPtr<Aspose::Words::Fields::ComparisonExpression> expression)=0
+virtual System::SharedPtr<Aspose::Words::Fields::ComparisonEvaluationResult> Aspose::Words::Fields::IComparisonExpressionEvaluator::Evaluate(System::SharedPtr<Aspose::Words::Fields::Field> field, System::SharedPtr<Aspose::Words::Fields::ComparisonExpression> expression)
 ```
 
+## Remarks
+
+ The implementation should return **null** to indicate that the default evaluation should be performed. 
 ## See Also
 
-* Class [ComparisonEvaluationResult](../../comparisonevaluationresult/)
-* Class [Field](../../field/)
-* Class [ComparisonExpression](../../comparisonexpression/)
 * Interface [IComparisonExpressionEvaluator](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

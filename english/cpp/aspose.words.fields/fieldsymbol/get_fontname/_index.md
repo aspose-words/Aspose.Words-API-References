@@ -16,12 +16,11 @@ Gets or sets the name of the font of the character retrieved by the field.
 System::String Aspose::Words::Fields::FieldSymbol::get_FontName()
 ```
 
-
 ## Examples
 
 
+Shows how to use the SYMBOL field.
 
-Shows how to use the SYMBOL field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -34,7 +33,7 @@ auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSymbol>(builder->I
 field->set_CharacterCode(System::Convert::ToString(0x00a9));
 field->set_IsAnsi(true);
 
-ASSERT_EQ(u" SYMBOL  169 \\a", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" SYMBOL  169 \\a");
 
 builder->Writeln(u" Line 1");
 
@@ -53,7 +52,7 @@ field->set_FontSize(u"24");
 // We can set this flag for tall symbols to make them not push down the rest of the text on their line.
 field->set_DontAffectsLineSpacing(true);
 
-ASSERT_EQ(u" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h");
 
 builder->Writeln(u"Line 2");
 
@@ -64,13 +63,12 @@ field->set_FontName(u"MS Gothic");
 field->set_CharacterCode(System::Convert::ToString(0x82A0));
 field->set_IsShiftJis(true);
 
-ASSERT_EQ(u" SYMBOL  33440 \\f \"MS Gothic\" \\j", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" SYMBOL  33440 \\f \"MS Gothic\" \\j");
 
 builder->Write(u"Line 3");
 
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldSymbol](../)

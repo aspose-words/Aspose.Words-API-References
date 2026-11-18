@@ -5,7 +5,7 @@ articleTitle: FieldIncludePicture class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldIncludePicture class. Implements the INCLUDEPICTURE field"
 type: docs
-weight: 580
+weight: 11600
 url: /python-net/aspose.words.fields/fieldincludepicture/
 ---
 

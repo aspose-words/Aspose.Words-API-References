@@ -5,7 +5,7 @@ articleTitle: BaselineAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.BaselineAlignment enumeration. Specifies fonts vertical position on a line."
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words/baselinealignment/
 ---
 

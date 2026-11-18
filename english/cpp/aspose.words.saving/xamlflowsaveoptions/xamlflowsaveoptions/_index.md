@@ -34,10 +34,8 @@ Aspose::Words::Saving::XamlFlowSaveOptions::XamlFlowSaveOptions(Aspose::Words::S
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | Aspose::Words::SaveFormat | Can be [XamlFlow](../../../aspose.words/saveformat/) or [XamlFlowPack](../../../aspose.words/saveformat/). |
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

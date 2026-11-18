@@ -5,7 +5,7 @@ articleTitle: rasterize_transformed_elements property
 second_title: Aspose.Words for Python
 description: "PclSaveOptions.rasterize_transformed_elements property. Gets or sets a value determining whether or not complex transformed elements should be rasterized before saving to PCL document"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/pclsaveoptions/rasterize_transformed_elements/
 ---
 

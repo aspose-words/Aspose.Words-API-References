@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "ShapeBase.font property. Provides access to the font formatting of this object."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words.drawing/shapebase/font/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: guid property
 second_title: Aspose.Words for Python
 description: "Source.guid property. Gets or sets the guid of a source."
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.bibliography/source/guid/
 ---
 

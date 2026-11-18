@@ -5,7 +5,7 @@ articleTitle: FieldUserInitials class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldUserInitials class. Implements the USERINITIALS field"
 type: docs
-weight: 1130
+weight: 22600
 url: /python-net/aspose.words.fields/fielduserinitials/
 ---
 

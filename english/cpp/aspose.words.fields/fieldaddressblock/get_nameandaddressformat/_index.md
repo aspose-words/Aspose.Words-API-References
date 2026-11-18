@@ -4,7 +4,7 @@ linktitle: get_NameAndAddressFormat
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldAddressBlock::get_NameAndAddressFormat method. Gets or sets the name and address format in C++.'
 type: docs
-weight: 7000
+weight: 10500
 url: /cpp/aspose.words.fields/fieldaddressblock/get_nameandaddressformat/
 ---
 ## FieldAddressBlock::get_NameAndAddressFormat method
@@ -16,19 +16,18 @@ Gets or sets the name and address format.
 System::String Aspose::Words::Fields::FieldAddressBlock::get_NameAndAddressFormat()
 ```
 
-
 ## Examples
 
 
+Shows how to insert an ADDRESSBLOCK field.
 
-Shows how to insert an ADDRESSBLOCK field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAddressBlock>(builder->InsertField(FieldType::FieldAddressBlock, true));
 
-ASSERT_EQ(u" ADDRESSBLOCK ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" ADDRESSBLOCK ");
 
 // Setting this to "2" will include all countries and regions,
 // unless it is the one specified in the ExcludedCountryOrRegionName property.
@@ -41,9 +40,8 @@ field->set_NameAndAddressFormat(u"<Title> <Forename> <Surname> <Address Line 1> 
 // We can set a different culture for the field to format the result with like this.
 field->set_LanguageId(System::Convert::ToString(System::MakeObject<System::Globalization::CultureInfo>(u"en-US")->get_LCID()));
 
-ASSERT_EQ(u" ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033");
 ```
-
 ## See Also
 
 * Class [FieldAddressBlock](../)

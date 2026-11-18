@@ -5,7 +5,7 @@ articleTitle: suppress_bottom_spacing property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.suppress_bottom_spacing property. Ignore Exact Line Height for Last Line on Page."
 type: docs
-weight: 480
+weight: 14400
 url: /python-net/aspose.words.settings/compatibilityoptions/suppress_bottom_spacing/
 ---
 

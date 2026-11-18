@@ -16,6 +16,9 @@ Text to be used as a watermark.
 System::String Aspose::Words::LowCode::WatermarkerContext::get_TextWatermark() const
 ```
 
+## Remarks
+
+ If both [ImageWatermark](../get_imagewatermark/) and [TextWatermark](./) are specified, text watermark overrides image watermark. 
 ## See Also
 
 * Class [WatermarkerContext](../)

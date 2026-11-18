@@ -38,51 +38,6 @@ This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [P
 
 ### Examples
 
-Shows how to digitally sign documents.
-
-```js
-// Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
-let certificateHolder = aw.DigitalSignatures.CertificateHolder.create(base.myDir + "morzal.pfx", "aw");
-
-// Create a comment and date which will be applied with our new digital signature.
-let signOptions = new aw.DigitalSignatures.SignOptions
-{
-  Comments = "My comment",
-  SignTime = Date.now()
-};
-
-// Take an unsigned document from the local file system via a file stream,
-// then create a signed copy of it determined by the filename of the output file stream.
-using (Stream streamIn = new FileStream(base.myDir + "Document.docx", FileMode.open))
-{
-  using (Stream streamOut = new FileStream(base.artifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
-  {
-    aw.DigitalSignatures.DigitalSignatureUtil.sign(streamIn, streamOut, certificateHolder, signOptions);
-  }
-}
-```
-
-Shows how to sign encrypted document file.
-
-```js
-// Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
-let certificateHolder = aw.DigitalSignatures.CertificateHolder.create(base.myDir + "morzal.pfx", "aw");
-
-// Create a comment, date, and decryption password which will be applied with our new digital signature.
-let signOptions = new aw.DigitalSignatures.SignOptions
-{
-  Comments = "Comment",
-  SignTime = Date.now(),
-  DecryptionPassword = "docPassword"
-};
-
-// Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
-string inputFileName = base.myDir + "Encrypted.docx";
-string outputFileName = base.artifactsDir + "DigitalSignatureUtil.decryptionPassword.docx";
-
-aw.DigitalSignatures.DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
-```
-
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 
 ```js
@@ -140,6 +95,51 @@ function createSignees() {
     {personId: Guid.newGuid().toString(), name: "Stephen Morse", position: "Head of Compliance", image: imageByte}
   ];
 }
+```
+
+Shows how to digitally sign documents.
+
+```js
+// Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+let certificateHolder = aw.DigitalSignatures.CertificateHolder.create(base.myDir + "morzal.pfx", "aw");
+
+// Create a comment and date which will be applied with our new digital signature.
+let signOptions = new aw.DigitalSignatures.SignOptions
+{
+  Comments = "My comment",
+  SignTime = Date.now()
+};
+
+// Take an unsigned document from the local file system via a file stream,
+// then create a signed copy of it determined by the filename of the output file stream.
+using (Stream streamIn = new FileStream(base.myDir + "Document.docx", FileMode.open))
+{
+  using (Stream streamOut = new FileStream(base.artifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
+  {
+    aw.DigitalSignatures.DigitalSignatureUtil.sign(streamIn, streamOut, certificateHolder, signOptions);
+  }
+}
+```
+
+Shows how to sign encrypted document file.
+
+```js
+// Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+let certificateHolder = aw.DigitalSignatures.CertificateHolder.create(base.myDir + "morzal.pfx", "aw");
+
+// Create a comment, date, and decryption password which will be applied with our new digital signature.
+let signOptions = new aw.DigitalSignatures.SignOptions
+{
+  Comments = "Comment",
+  SignTime = Date.now(),
+  DecryptionPassword = "docPassword"
+};
+
+// Set a local system filename for the unsigned input document, and an output filename for its new digitally signed copy.
+string inputFileName = base.myDir + "Encrypted.docx";
+string outputFileName = base.artifactsDir + "DigitalSignatureUtil.decryptionPassword.docx";
+
+aw.DigitalSignatures.DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
 
 ### See Also

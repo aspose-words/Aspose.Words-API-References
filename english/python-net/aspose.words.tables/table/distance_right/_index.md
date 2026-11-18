@@ -5,7 +5,7 @@ articleTitle: distance_right property
 second_title: Aspose.Words for Python
 description: "Table.distance_right property. Gets or sets distance between table right and the surrounding text, in points."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.tables/table/distance_right/
 ---
 

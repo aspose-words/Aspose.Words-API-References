@@ -5,7 +5,7 @@ articleTitle: millimeter_to_point method
 second_title: Aspose.Words for Python
 description: "ConvertUtil.millimeter_to_point method. Converts millimeters to points."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/convertutil/millimeter_to_point/
 ---
 

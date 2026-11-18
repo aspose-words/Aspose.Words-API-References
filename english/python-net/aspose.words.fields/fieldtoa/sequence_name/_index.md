@@ -5,7 +5,7 @@ articleTitle: sequence_name property
 second_title: Aspose.Words for Python
 description: "FieldToa.sequence_name property. Gets or sets the name of a sequence whose number is included with the page number."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.fields/fieldtoa/sequence_name/
 ---
 

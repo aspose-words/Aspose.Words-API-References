@@ -4,7 +4,7 @@ linktitle: get_FlipOrientation
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_FlipOrientation method. Switches the orientation of a shape in C++.'
 type: docs
-weight: 20000
+weight: 61280
 url: /cpp/aspose.words.drawing/shapebase/get_fliporientation/
 ---
 ## ShapeBase::get_FlipOrientation method
@@ -20,12 +20,11 @@ Aspose::Words::Drawing::FlipOrientation Aspose::Words::Drawing::ShapeBase::get_F
 
 
 The default value is [None](../../fliporientation/).
-
 ## Examples
 
 
+Shows how to flip a shape on an axis.
 
-Shows how to flip a shape on an axis. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -34,7 +33,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, static_cast<double>(100), RelativeVerticalPosition::TopMargin, static_cast<double>(100), static_cast<double>(100), static_cast<double>(100), WrapType::None);
 shape->get_ImageData()->SetImage(get_ImageDir() + u"Logo.jpg");
 
-ASSERT_EQ(FlipOrientation::None, shape->get_FlipOrientation());
+ASSERT_EQ(shape->get_FlipOrientation(), FlipOrientation::None);
 
 shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, static_cast<double>(250), RelativeVerticalPosition::TopMargin, static_cast<double>(100), static_cast<double>(100), static_cast<double>(100), WrapType::None);
 shape->get_ImageData()->SetImage(get_ImageDir() + u"Logo.jpg");
@@ -59,10 +58,8 @@ shape->set_FlipOrientation(FlipOrientation::Both);
 
 doc->Save(get_ArtifactsDir() + u"Shape.FlipShapeOrientation.docx");
 ```
-
 ## See Also
 
-* Enum [FlipOrientation](../../fliporientation/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -5,7 +5,7 @@ articleTitle: update_page_starting_number property
 second_title: Aspose.Words for Python
 description: "PageExtractOptions.update_page_starting_number property. Specifies whether the start page number in the resulting document shall be updated"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/pageextractoptions/update_page_starting_number/
 ---
 

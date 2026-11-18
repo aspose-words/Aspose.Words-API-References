@@ -5,7 +5,7 @@ articleTitle: CsvDataLoadOptions constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.reporting.CsvDataLoadOptions constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.reporting/csvdataloadoptions/__init__/
 ---
 

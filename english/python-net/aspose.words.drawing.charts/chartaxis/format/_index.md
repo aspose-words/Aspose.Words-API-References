@@ -5,7 +5,7 @@ articleTitle: format property
 second_title: Aspose.Words for Python
 description: "ChartAxis.format property. Provides access to line formatting of the axis and fill of the tick labels."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.drawing.charts/chartaxis/format/
 ---
 

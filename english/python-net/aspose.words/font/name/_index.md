@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "Font.name property. Gets or sets the name of the font."
 type: docs
-weight: 230
+weight: 6900
 url: /python-net/aspose.words/font/name/
 ---
 

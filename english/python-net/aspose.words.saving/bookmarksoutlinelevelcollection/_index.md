@@ -5,7 +5,7 @@ articleTitle: BookmarksOutlineLevelCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.BookmarksOutlineLevelCollection class. A collection of individual bookmarks outline level"
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ParagraphCollection indexer
 second_title: Aspose.Words for Python
 description: "ParagraphCollection indexer. Retrieves a [Paragraph](../../paragraph/) at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/paragraphcollection/__getitem__/
 ---
 

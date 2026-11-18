@@ -10,7 +10,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/set_useword2002tablestyleru
 ## CompatibilityOptions::set_UseWord2002TableStyleRules method
 
 
-Emulate Word 2002 Table [Style](../../../aspose.words/style/) Rules.
+Emulate Word 2002 Table Style Rules.
 
 ```cpp
 void Aspose::Words::Settings::CompatibilityOptions::set_UseWord2002TableStyleRules(bool value)

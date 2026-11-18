@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "VbaModule.name property. Gets or sets VBA project module name."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.vba/vbamodule/name/
 ---
 

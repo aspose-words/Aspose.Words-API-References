@@ -13,12 +13,11 @@ url: /cpp/aspose.words.drawing.charts/ichartdatapoint/get_marker/
 Specifies a data marker. Marker is automatically created when requested.
 
 ```cpp
-virtual System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMarker> Aspose::Words::Drawing::Charts::IChartDataPoint::get_Marker()=0
+virtual System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMarker> Aspose::Words::Drawing::Charts::IChartDataPoint::get_Marker()
 ```
 
 ## See Also
 
-* Class [ChartMarker](../../chartmarker/)
 * Interface [IChartDataPoint](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

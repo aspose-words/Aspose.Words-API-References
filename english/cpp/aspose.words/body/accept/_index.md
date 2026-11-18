@@ -13,7 +13,7 @@ url: /cpp/aspose.words/body/accept/
 Accepts a visitor.
 
 ```cpp
-bool Aspose::Words::Body::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+_Bool Aspose::Words::Body::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,10 +30,9 @@ True if all nodes were visited; false if [DocumentVisitor](../../documentvisitor
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../documentvisitor/).
 
 For more info see the Visitor design pattern.
-
+ Calls [VisitBodyStart()](../../documentvisitor/visitbodystart/), then calls [Accept()](../../node/accept/) for all child nodes of the section and calls [VisitBodyEnd()](../../documentvisitor/visitbodyend/) at the end. 
 ## See Also
 
-* Class [DocumentVisitor](../../documentvisitor/)
 * Class [Body](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -5,7 +5,7 @@ articleTitle: is_healthy property
 second_title: Aspose.Words for Python
 description: "BillingHealthCheckResult.is_healthy property. Gets or sets a value indicating whether the billing system is healthy."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/billinghealthcheckresult/is_healthy/
 ---
 

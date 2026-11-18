@@ -5,7 +5,7 @@ articleTitle: number_position property
 second_title: Aspose.Words for Python
 description: "ListLevel.number_position property. Returns or sets the position (in points) of the number or bullet for the list level."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.lists/listlevel/number_position/
 ---
 

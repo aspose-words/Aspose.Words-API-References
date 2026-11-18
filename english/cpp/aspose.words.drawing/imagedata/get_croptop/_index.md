@@ -4,7 +4,7 @@ linktitle: get_CropTop
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ImageData::get_CropTop method. Defines the fraction of picture removal from the top side in C++.'
 type: docs
-weight: 10000
+weight: 47000
 url: /cpp/aspose.words.drawing/imagedata/get_croptop/
 ---
 ## ImageData::get_CropTop method
@@ -22,12 +22,11 @@ double Aspose::Words::Drawing::ImageData::get_CropTop()
 The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
 The default value is 0.
-
 ## Examples
 
 
+Shows how to edit a shape's image data.
 
-Shows how to edit a shape's image data. 
 ```cpp
 auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 auto sourceShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -45,8 +44,8 @@ imageData->set_Title(u"Imported Image");
 ASSERT_TRUE(imageData->get_HasImage());
 
 // If an image has no borders, its ImageData object will define the border color as empty.
-ASSERT_EQ(4, imageData->get_Borders()->get_Count());
-ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, imageData->get_Borders()->idx_get(0)->get_Color());
+ASSERT_EQ(imageData->get_Borders()->get_Count(), 4);
+ASPOSE_ASSERT_EQ(imageData->get_Borders()->idx_get(0)->get_Color(), System::Drawing::Color::Empty);
 
 // This image does not link to another shape or image file in the local file system.
 ASSERT_FALSE(imageData->get_IsLink());
@@ -83,7 +82,6 @@ importedShape->get_ImageData()->set_CropRight(0.3);
 
 dstDoc->Save(get_ArtifactsDir() + u"Drawing.ImageData.docx");
 ```
-
 ## See Also
 
 * Class [ImageData](../)

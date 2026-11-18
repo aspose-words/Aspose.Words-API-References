@@ -5,7 +5,7 @@ articleTitle: Forms2OleControlCollection constructor
 second_title: Aspose.Words for Python
 description: "Forms2OleControlCollection constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/__init__/
 ---
 

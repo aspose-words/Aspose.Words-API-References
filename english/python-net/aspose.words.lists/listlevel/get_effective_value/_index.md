@@ -5,7 +5,7 @@ articleTitle: get_effective_value method
 second_title: Aspose.Words for Python
 description: "ListLevel.get_effective_value method. Reports the string representation of the [ListLevel](../) object for the specified index of the list item"
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.lists/listlevel/get_effective_value/
 ---
 

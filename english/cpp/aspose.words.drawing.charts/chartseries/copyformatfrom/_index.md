@@ -16,12 +16,11 @@ Copies default data point format from the data point with the specified index.
 void Aspose::Words::Drawing::Charts::ChartSeries::CopyFormatFrom(int32_t dataPointIndex)
 ```
 
-
 ## Examples
 
 
+Shows how to copy data point format.
 
-Shows how to copy data point format. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"DataPoint format.docx"));
 
@@ -49,7 +48,6 @@ ASSERT_TRUE(dataPoints->HasDefaultFormat(1));
 
 doc->Save(get_ArtifactsDir() + u"Charts.CopyDataPointFormat.docx");
 ```
-
 ## See Also
 
 * Class [ChartSeries](../)

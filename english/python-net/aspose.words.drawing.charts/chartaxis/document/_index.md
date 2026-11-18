@@ -5,7 +5,7 @@ articleTitle: document property
 second_title: Aspose.Words for Python
 description: "ChartAxis.document property. Returns the document containing the parent chart."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.drawing.charts/chartaxis/document/
 ---
 

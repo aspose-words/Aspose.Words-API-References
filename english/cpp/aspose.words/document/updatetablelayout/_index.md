@@ -16,6 +16,13 @@ Implements an earlier approach to table column widths re-calculation that has kn
 void Aspose::Words::Document::UpdateTableLayout()
 ```
 
+## Remarks
+
+ The method is deprecated and it will be removed in a few releases. 
+## Deprecated
+
+
+Obsolete, column widths are re-calculated automatically before saving.
 ## See Also
 
 * Class [Document](../)

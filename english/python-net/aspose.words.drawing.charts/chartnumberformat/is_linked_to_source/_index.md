@@ -5,7 +5,7 @@ articleTitle: is_linked_to_source property
 second_title: Aspose.Words for Python
 description: "ChartNumberFormat.is_linked_to_source property. Specifies whether the format code is linked to a source cell"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartnumberformat/is_linked_to_source/
 ---
 

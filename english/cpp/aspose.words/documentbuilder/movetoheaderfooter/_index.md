@@ -30,12 +30,11 @@ If you want to create headers and footers different for the first page, you need
 If you want to create headers and footers different for even and odd pages, you need to set [OddAndEvenPagesHeaderFooter](../../pagesetup/get_oddandevenpagesheaderfooter/).
 
 Use [MoveToSection()](../movetosection/) to move out of the header into the main text.
-
 ## Examples
 
 
+Shows how to insert an image, and use it as a watermark.
 
-Shows how to insert an image, and use it as a watermark. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -54,10 +53,8 @@ shape->set_Top((builder->get_PageSetup()->get_PageHeight() - shape->get_Height()
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertWatermark.docx");
 ```
-
 ## See Also
 
-* Enum [HeaderFooterType](../../headerfootertype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

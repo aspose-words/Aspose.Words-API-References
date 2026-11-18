@@ -13,9 +13,12 @@ url: /cpp/aspose.words.lowcode/watermarkercontext/set_imagewatermark/
 Image bytes to be used as a watermark.
 
 ```cpp
-void Aspose::Words::LowCode::WatermarkerContext::set_ImageWatermark(const System::ArrayPtr<uint8_t> &value)
+void Aspose::Words::LowCode::WatermarkerContext::set_ImageWatermark(const System::ArrayPtr<uint8_t> & value)
 ```
 
+## Remarks
+
+ If both [ImageWatermark](../get_imagewatermark/) and [TextWatermark](../get_textwatermark/) are specified, text watermark overrides image watermark. 
 ## See Also
 
 * Class [WatermarkerContext](../)

@@ -5,7 +5,7 @@ articleTitle: do_not_suppress_indentation property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.do_not_suppress_indentation property. Do Not Ignore Floating Objects When Calculating Paragraph Indentation."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.settings/compatibilityoptions/do_not_suppress_indentation/
 ---
 

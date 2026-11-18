@@ -5,7 +5,7 @@ articleTitle: as_table_style method
 second_title: Aspose.Words for Python
 description: "Style.as_table_style method. Cast Style to [TableStyle](../../tablestyle/)."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words/style/as_table_style/
 ---
 

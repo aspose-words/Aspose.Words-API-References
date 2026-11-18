@@ -5,7 +5,7 @@ articleTitle: document_part_saving_callback property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.document_part_saving_callback property. Allows to control how document parts are saved when a document is saved to HTML or EPUB."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.saving/htmlsaveoptions/document_part_saving_callback/
 ---
 

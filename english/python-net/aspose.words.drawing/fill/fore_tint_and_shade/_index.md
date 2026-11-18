@@ -5,7 +5,7 @@ articleTitle: fore_tint_and_shade property
 second_title: Aspose.Words for Python
 description: "Fill.fore_tint_and_shade property. Gets or sets a double value that lightens or darkens the foreground color."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.drawing/fill/fore_tint_and_shade/
 ---
 

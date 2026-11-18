@@ -5,7 +5,7 @@ articleTitle: fit_text property
 second_title: Aspose.Words for Python
 description: "CellFormat.fit_text property. If ``True``, fits text in the cell, compressing each paragraph to the width of the cell."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.tables/cellformat/fit_text/
 ---
 

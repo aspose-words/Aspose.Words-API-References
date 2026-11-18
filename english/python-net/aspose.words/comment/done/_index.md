@@ -5,7 +5,7 @@ articleTitle: done property
 second_title: Aspose.Words for Python
 description: "Comment.done property. Gets or sets flag indicating that the comment has been marked done."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/comment/done/
 ---
 

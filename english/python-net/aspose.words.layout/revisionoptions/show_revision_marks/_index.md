@@ -5,7 +5,7 @@ articleTitle: show_revision_marks property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.show_revision_marks property. Allow to specify whether revision text should be marked with special formatting markup"
 type: docs
-weight: 210
+weight: 6300
 url: /python-net/aspose.words.layout/revisionoptions/show_revision_marks/
 ---
 

@@ -8,14 +8,15 @@ weight: 3000
 url: /cpp/aspose.words.comparing/
 ---
 
-The **Aspose.Words.Comparing** namespace provides classes and enumerations that allow to specify additional options when comparing documents.
+The Aspose.Words.Comparing namespace provides classes and enumerations that allow to specify additional options when comparing documents.
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
 | [AdvancedCompareOptions](./advancedcompareoptions/) | Allows to set advanced compare options. |
-| [CompareOptions](./compareoptions/) | Allows to choose additional options for document comparison operation. To learn more, visit the [Compare Documents](https://docs.aspose.com/words/cpp/compare-documents/) documentation article. |
+| [CompareOptions](./compareoptions/) | Allows to choose additional options for document comparison operation. 
+To learn more, visit the [Compare Documents](https://docs.aspose.com/words/cpp/compare-documents/) documentation article. |
 ## Enums
 
 | Enum | Description |

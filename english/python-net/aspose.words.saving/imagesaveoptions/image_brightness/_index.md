@@ -5,7 +5,7 @@ articleTitle: image_brightness property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.image_brightness property. Gets or sets the brightness for the generated images."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/imagesaveoptions/image_brightness/
 ---
 

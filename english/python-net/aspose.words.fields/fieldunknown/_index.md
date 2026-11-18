@@ -5,7 +5,7 @@ articleTitle: FieldUnknown class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldUnknown class. Implements an unknown or unrecognized field"
 type: docs
-weight: 1090
+weight: 21800
 url: /python-net/aspose.words.fields/fieldunknown/
 ---
 

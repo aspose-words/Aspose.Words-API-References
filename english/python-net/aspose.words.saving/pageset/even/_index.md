@@ -5,7 +5,7 @@ articleTitle: even property
 second_title: Aspose.Words for Python
 description: "PageSet.even property. Gets a set with all the even pages of the document in their original order."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/pageset/even/
 ---
 

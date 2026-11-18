@@ -18,7 +18,6 @@ const System::SharedPtr<System::Collections::Generic::IList<System::SharedPtr<As
 
 ## See Also
 
-* Class [Field](../../../aspose.words.fields/field/)
 * Class [MailMergeRegionInfo](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

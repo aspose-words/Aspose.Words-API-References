@@ -13,26 +13,25 @@ url: /cpp/aspose.words.settings/multiplepagestype/
 Specifies how document is printed out.
 
 ```cpp
-enum class MultiplePagesType
+enum class MultiplePagesType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Normal | 0 | Normal printing, no multiple pages specified. |
-| MirrorMargins | 1 | Swaps left and right margins on facing pages. |
-| TwoPagesPerSheet | 2 | Prints two pages per sheet. |
 | BookFoldPrinting | 3 | Specifies whether to print the document as a book fold. |
 | BookFoldPrintingReverse | 4 | Specifies whether to print the document as a reverse book fold. |
 | Default | 0 | Default value is [Normal](./) |
-
+| MirrorMargins | 1 | Swaps left and right margins on facing pages. |
+| Normal | 0 | Normal printing, no multiple pages specified. |
+| TwoPagesPerSheet | 2 | Prints two pages per sheet. |
 
 ## Examples
 
 
+Shows how to configure a document that can be printed as a book fold.
 
-Shows how to configure a document that can be printed as a book fold. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -57,7 +56,6 @@ pageSetup->set_SheetsPerBooklet(4);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.Booklet.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)

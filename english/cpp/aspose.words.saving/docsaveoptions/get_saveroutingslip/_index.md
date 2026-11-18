@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/docsaveoptions/get_saveroutingslip/
 When **false**, RoutingSlip data is not saved to output document. Default value is **true**.
 
 ```cpp
-bool Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip() const
+_Bool Aspose::Words::Saving::DocSaveOptions::get_SaveRoutingSlip() const
 ```
-
 
 ## Examples
 
 
+Shows how to set save options for older Microsoft Word formats.
 
-Shows how to set save options for older Microsoft Word formats. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,17 +39,16 @@ doc->Save(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc", options);
 
 // To be able to load the document,
 // we will need to apply the password we specified in the DocSaveOptions object in a LoadOptions object.
-ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+ASSERT_THROW(System::Action<>(static_cast<std::function<void()>>([&doc]() -> void
 {
     doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc"));
-})(), Aspose::Words::IncorrectPasswordException);
+}))(), Aspose::Words::IncorrectPasswordException);
 
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"MyPassword");
 doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"DocSaveOptions.SaveAsDoc.doc", loadOptions);
 
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
-
 ## See Also
 
 * Class [DocSaveOptions](../)

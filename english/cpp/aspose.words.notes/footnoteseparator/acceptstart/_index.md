@@ -18,8 +18,6 @@ Aspose::Words::VisitorAction Aspose::Words::Notes::FootnoteSeparator::AcceptStar
 
 ## See Also
 
-* Enum [VisitorAction](../../../aspose.words/visitoraction/)
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [FootnoteSeparator](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

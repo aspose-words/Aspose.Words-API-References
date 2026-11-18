@@ -5,7 +5,7 @@ articleTitle: legend_entry property
 second_title: Aspose.Words for Python
 description: "ChartSeries.legend_entry property. Gets a legend entry for this chart series."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.drawing.charts/chartseries/legend_entry/
 ---
 

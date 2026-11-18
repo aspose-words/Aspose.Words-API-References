@@ -5,7 +5,7 @@ articleTitle: bookmark_text property
 second_title: Aspose.Words for Python
 description: "FieldSet.bookmark_text property. Gets or sets the new text of the bookmark."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldset/bookmark_text/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: execute method
 second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.MailMerge.execute method"
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words.mailmerging/mailmerge/execute/
 ---
 

@@ -13,27 +13,26 @@ url: /cpp/aspose.words/texteffect/
 Animation effect for text runs.
 
 ```cpp
-enum class TextEffect
+enum class TextEffect : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 |  |
-| LasVegasLights | 1 |  |
 | BlinkingBackground | 2 |  |
-| SparkleText | 3 |  |
+| LasVegasLights | 1 |  |
 | MarchingBlackAnts | 4 |  |
 | MarchingRedAnts | 5 |  |
+| None | 0 |  |
 | Shimmer | 6 |  |
-
+| SparkleText | 3 |  |
 
 ## Examples
 
 
+Shows how to apply a visual effect to a run.
 
-Shows how to apply a visual effect to a run. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +45,6 @@ builder->Writeln(u"Text with a sparkle effect.");
 // Older versions of Microsoft Word only support font animation effects.
 doc->Save(get_ArtifactsDir() + u"Font.SparklingText.doc");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)

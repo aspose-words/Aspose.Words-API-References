@@ -5,7 +5,7 @@ articleTitle: suppress_endnotes property
 second_title: Aspose.Words for Python
 description: "PageSetup.suppress_endnotes property. True if endnotes are printed at the end of the next section that doesn't suppress endnotes"
 type: docs
-weight: 410
+weight: 12300
 url: /python-net/aspose.words/pagesetup/suppress_endnotes/
 ---
 

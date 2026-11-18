@@ -5,7 +5,7 @@ articleTitle: as_glossary_document method
 second_title: Aspose.Words for Python
 description: "Node.as_glossary_document method. Cast Node to [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)."
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words/node/as_glossary_document/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: heading property
 second_title: Aspose.Words for Python
 description: "FieldIndex.heading property. Gets or sets a heading that appears at the start of each set of entries for any given letter."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.fields/fieldindex/heading/
 ---
 

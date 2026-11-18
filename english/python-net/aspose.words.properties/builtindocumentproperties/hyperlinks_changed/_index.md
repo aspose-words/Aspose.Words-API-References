@@ -5,7 +5,7 @@ articleTitle: hyperlinks_changed property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.hyperlinks_changed property. Indicates whether hyperlinks in a document were changed."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.properties/builtindocumentproperties/hyperlinks_changed/
 ---
 

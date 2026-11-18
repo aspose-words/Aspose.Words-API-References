@@ -5,7 +5,7 @@ articleTitle: parent_style property
 second_title: Aspose.Words for Python
 description: "Revision.parent_style property. Gets the immediate parent style (owner) of this revision"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/revision/parent_style/
 ---
 

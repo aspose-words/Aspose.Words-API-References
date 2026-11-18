@@ -16,12 +16,11 @@ Rejects all revisions in this collection.
 void Aspose::Words::RevisionCollection::RejectAll()
 ```
 
-
 ## Examples
 
 
+Shows how to work with a document's collection of revisions.
 
-Shows how to work with a document's collection of revisions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revisions.docx"));
 System::SharedPtr<Aspose::Words::RevisionCollection> revisions = doc->get_Revisions();
@@ -65,9 +64,8 @@ std::cout << System::String::Format(u"\n{0} revisions:", revisions->get_Count())
 // Reject all revisions via the collection, reverting the document to its original form.
 revisions->RejectAll();
 
-ASSERT_EQ(0, revisions->get_Count());
+ASSERT_EQ(revisions->get_Count(), 0);
 ```
-
 ## See Also
 
 * Class [RevisionCollection](../)

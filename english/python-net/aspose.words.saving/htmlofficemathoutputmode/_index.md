@@ -5,7 +5,7 @@ articleTitle: HtmlOfficeMathOutputMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.HtmlOfficeMathOutputMode enumeration. Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB."
 type: docs
-weight: 270
+weight: 5400
 url: /python-net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 

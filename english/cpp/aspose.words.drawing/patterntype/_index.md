@@ -13,26 +13,13 @@ url: /cpp/aspose.words.drawing/patterntype/
 Specifies the fill pattern to be used to fill a shape.
 
 ```cpp
-enum class PatternType
+enum class PatternType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | -1 | No pattern. |
-| Percent10 | 1 | 10% of the foreground color. |
-| Percent20 | 2 | 20% of the foreground color. |
-| Percent25 | 3 | 25% of the foreground color. |
-| Percent30 | 4 | 30% of the foreground color. |
-| Percent40 | 5 | 40% of the foreground color |
-| Percent50 | 6 | 50% of the foreground color |
-| Percent5 | 7 | 5% of the foreground color. |
-| Percent60 | 8 | 60% of the foreground color. |
-| Percent70 | 9 | 70% of the foreground color. |
-| Percent75 | 10 | 75% of the foreground color. |
-| Percent80 | 11 | 80% of the foreground color. |
-| Percent90 | 12 | 90% of the foreground color. |
 | Cross | 13 | Cross. |
 | DarkDownwardDiagonal | 14 | Dark downward diagonal. |
 | DarkHorizontal | 15 | Dark horizontal. |
@@ -59,7 +46,20 @@ enum class PatternType
 | LightVertical | 37 | Light vertical. |
 | NarrowHorizontal | 38 | Narrow horizontal. |
 | NarrowVertical | 39 | Narrow vertical. |
+| None | -1 | No pattern. |
 | OutlinedDiamond | 40 | Outlined diamond. |
+| Percent10 | 1 | 10% of the foreground color. |
+| Percent20 | 2 | 20% of the foreground color. |
+| Percent25 | 3 | 25% of the foreground color. |
+| Percent30 | 4 | 30% of the foreground color. |
+| Percent40 | 5 | 40% of the foreground color |
+| Percent5 | 7 | 5% of the foreground color. |
+| Percent50 | 6 | 50% of the foreground color |
+| Percent60 | 8 | 60% of the foreground color. |
+| Percent70 | 9 | 70% of the foreground color. |
+| Percent75 | 10 | 75% of the foreground color. |
+| Percent80 | 11 | 80% of the foreground color. |
+| Percent90 | 12 | 90% of the foreground color. |
 | Plaid | 41 | Plaid. |
 | Shingle | 42 | Shingle. |
 | SmallCheckerBoard | 43 | Small checker board. |
@@ -76,12 +76,11 @@ enum class PatternType
 | WideUpwardDiagonal | 54 | Wide upward diagonal. |
 | ZigZag | 55 | Zig zag. |
 
-
 ## Examples
 
 
+Shows how to set pattern for a shape.
 
-Shows how to set pattern for a shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape stroke pattern border.docx"));
 
@@ -99,7 +98,6 @@ fill->Patterned(PatternType::DiagonalBrick, System::Drawing::Color::get_Aqua(), 
 
 doc->Save(get_ArtifactsDir() + u"Shape.FillPattern.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

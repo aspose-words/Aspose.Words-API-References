@@ -20,12 +20,11 @@ System::String Aspose::Words::Saving::OdtSaveOptions::get_Password() const
 
 
 In order to save document without encryption this property should be **null** or empty string.
-
 ## Examples
 
 
+Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
 
-Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,9 +49,8 @@ ASSERT_TRUE(docInfo->get_IsEncrypted());
 // we will have to provide a LoadOptions object with the correct password to the loading constructor.
 doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString, System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"@sposeEncrypted_1145"));
 
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
-
 ## See Also
 
 * Class [OdtSaveOptions](../)

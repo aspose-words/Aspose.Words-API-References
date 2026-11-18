@@ -5,7 +5,7 @@ articleTitle: as_field_skip_if method
 second_title: Aspose.Words for Python
 description: "Field.as_field_skip_if method. Cast Field to [FieldSkipIf](../../fieldskipif/)."
 type: docs
-weight: 900
+weight: 27000
 url: /python-net/aspose.words.fields/field/as_field_skip_if/
 ---
 

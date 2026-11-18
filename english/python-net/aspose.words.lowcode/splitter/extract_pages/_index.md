@@ -5,7 +5,7 @@ articleTitle: extract_pages method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Splitter.extract_pages method"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/splitter/extract_pages/
 ---
 

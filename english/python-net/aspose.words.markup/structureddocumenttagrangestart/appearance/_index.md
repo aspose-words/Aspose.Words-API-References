@@ -5,7 +5,7 @@ articleTitle: appearance property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTagRangeStart.appearance property. Gets or sets the appearance of the structured document tag."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/appearance/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: image_data property
 second_title: Aspose.Words for Python
 description: "ListLevel.image_data property. Returns image data of the picture bullet shape for the current list level."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.lists/listlevel/image_data/
 ---
 

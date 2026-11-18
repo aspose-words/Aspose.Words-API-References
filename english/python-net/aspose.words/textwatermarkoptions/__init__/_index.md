@@ -5,7 +5,7 @@ articleTitle: TextWatermarkOptions constructor
 second_title: Aspose.Words for Python
 description: "TextWatermarkOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/textwatermarkoptions/__init__/
 ---
 

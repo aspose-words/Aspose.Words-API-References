@@ -5,7 +5,7 @@ articleTitle: equals method
 second_title: Aspose.Words for Python
 description: "TabStop.equals method. Compares with the specified [TabStop](../)."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/tabstop/equals/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: color property
 second_title: Aspose.Words for Python
 description: "HorizontalRuleFormat.color property. Gets or sets the brush color that fills the horizontal rule."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/horizontalruleformat/color/
 ---
 

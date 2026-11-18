@@ -2,7 +2,7 @@
 title: Aspose::Words::PageSetup::set_RightMargin method
 linktitle: set_RightMargin
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::PageSetup::set_RightMargin method. Setter for Aspose::Words::PageSetup::get_RightMargin in C++.'
+description: 'Aspose::Words::PageSetup::set_RightMargin method. Sets the distance (in points) between the right edge of the page and the right boundary of the body text in C++.'
 type: docs
 weight: 83000
 url: /cpp/aspose.words/pagesetup/set_rightmargin/
@@ -10,12 +10,34 @@ url: /cpp/aspose.words/pagesetup/set_rightmargin/
 ## PageSetup::set_RightMargin method
 
 
-Setter for [Aspose::Words::PageSetup::get_RightMargin](../get_rightmargin/).
+Sets the distance (in points) between the right edge of the page and the right boundary of the body text.
 
 ```cpp
 void Aspose::Words::PageSetup::set_RightMargin(double value)
 ```
 
+## Examples
+
+
+Shows how to adjust paper size, orientation, margins, along with other settings for a section.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->get_PageSetup()->set_PaperSize(PaperSize::Legal);
+builder->get_PageSetup()->set_Orientation(Orientation::Landscape);
+builder->get_PageSetup()->set_TopMargin(ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_BottomMargin(ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_LeftMargin(ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_RightMargin(ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_HeaderDistance(ConvertUtil::InchToPoint(0.2));
+builder->get_PageSetup()->set_FooterDistance(ConvertUtil::InchToPoint(0.2));
+
+builder->Writeln(u"Hello world!");
+
+doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
+```
 ## See Also
 
 * Class [PageSetup](../)

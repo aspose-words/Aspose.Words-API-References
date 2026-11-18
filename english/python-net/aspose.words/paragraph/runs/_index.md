@@ -5,7 +5,7 @@ articleTitle: runs property
 second_title: Aspose.Words for Python
 description: "Paragraph.runs property. Provides access to the typed collection of pieces of text inside the paragraph."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words/paragraph/runs/
 ---
 

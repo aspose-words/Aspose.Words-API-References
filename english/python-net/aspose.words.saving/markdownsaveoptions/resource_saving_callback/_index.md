@@ -5,7 +5,7 @@ articleTitle: resource_saving_callback property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.resource_saving_callback property. Allows to control how resources are saved when a document is exported to [SaveFormat.MARKDOWN](../../../aspose.words/saveformat/#MARKDOWN) format."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.saving/markdownsaveoptions/resource_saving_callback/
 ---
 

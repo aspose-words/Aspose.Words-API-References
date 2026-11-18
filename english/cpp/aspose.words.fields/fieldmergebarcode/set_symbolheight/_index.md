@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergebarcode/set_symbolheight/
 Sets the height of the symbol. The units are in TWIPS (1/1440 inch).
 
 ```cpp
-void Aspose::Words::Fields::FieldMergeBarcode::set_SymbolHeight(const System::String &value)
+void Aspose::Words::Fields::FieldMergeBarcode::set_SymbolHeight(const System::String & value)
 ```
 
 ## See Also

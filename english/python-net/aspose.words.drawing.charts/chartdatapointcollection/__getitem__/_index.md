@@ -5,7 +5,7 @@ articleTitle: ChartDataPointCollection indexer
 second_title: Aspose.Words for Python
 description: "ChartDataPointCollection indexer. Returns [ChartDataPoint](../../chartdatapoint/) for the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartdatapointcollection/__getitem__/
 ---
 

@@ -16,12 +16,11 @@ Cleans unused styles and lists from the document.
 void Aspose::Words::Document::Cleanup()
 ```
 
-
 ## Examples
 
 
+Shows how to remove unused custom styles from a document.
 
-Shows how to remove unused custom styles from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -33,7 +32,7 @@ doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle2");
 // Combined with the built-in styles, the document now has eight styles.
 // A custom style counts as "used" while applied to some part of the document,
 // which means that the four styles we added are currently unused.
-ASSERT_EQ(8, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 8);
 
 // Apply a custom character style, and then a custom list style. Doing so will mark the styles as "used".
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,36 +46,34 @@ builder->Writeln(u"Item 2");
 
 doc->Cleanup();
 
-ASSERT_EQ(6, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 6);
 
 // Removing every node that a custom style is applied to marks it as "unused" again.
 // Run the Cleanup method again to remove them.
 doc->get_FirstSection()->get_Body()->RemoveAllChildren();
 doc->Cleanup();
 
-ASSERT_EQ(4, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
 ```
-
 ## See Also
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Cleanup(const System::SharedPtr\<Aspose::Words::CleanupOptions\>\&) method
+## Document::Cleanup(const System::SharedPtr\<Aspose::Words::CleanupOptions\> \&) method
 
 
 Cleans unused styles and lists from the document depending on given [CleanupOptions](../../cleanupoptions/).
 
 ```cpp
-void Aspose::Words::Document::Cleanup(const System::SharedPtr<Aspose::Words::CleanupOptions> &options)
+void Aspose::Words::Document::Cleanup(const System::SharedPtr<Aspose::Words::CleanupOptions> & options)
 ```
-
 
 ## Examples
 
 
+Shows how to remove all unused custom styles from a document.
 
-Shows how to remove all unused custom styles from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -88,7 +85,7 @@ doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle2");
 // Combined with the built-in styles, the document now has eight styles.
 // A custom style is marked as "used" while there is any text within the document
 // formatted in that style. This means that the 4 styles we added are currently unused.
-ASSERT_EQ(8, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 8);
 
 // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -109,19 +106,17 @@ cleanupOptions->set_UnusedBuiltinStyles(true);
 
 doc->Cleanup(cleanupOptions);
 
-ASSERT_EQ(4, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
 
 // Removing every node that a custom style is applied to marks it as "unused" again.
 // Rerun the Cleanup method to remove them.
 doc->get_FirstSection()->get_Body()->RemoveAllChildren();
 doc->Cleanup(cleanupOptions);
 
-ASSERT_EQ(2, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 2);
 ```
-
 ## See Also
 
-* Class [CleanupOptions](../../cleanupoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

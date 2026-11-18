@@ -5,7 +5,7 @@ articleTitle: horizontal_position property
 second_title: Aspose.Words for Python
 description: "FrameFormat.horizontal_position property. Gets horizontal distance between the edge of the frame and the item specified by the [FrameFormat.relative_horizontal_position](../relative_horizontal_position/) property."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/frameformat/horizontal_position/
 ---
 

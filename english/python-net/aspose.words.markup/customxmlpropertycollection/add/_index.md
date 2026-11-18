@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "CustomXmlPropertyCollection.add method. Adds a property to the collection."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.markup/customxmlpropertycollection/add/
 ---
 

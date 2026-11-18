@@ -5,7 +5,7 @@ articleTitle: as_person_collection method
 second_title: Aspose.Words for Python
 description: "Contributor.as_person_collection method. Cast Contributor to [PersonCollection](../../personcollection/)."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.bibliography/contributor/as_person_collection/
 ---
 

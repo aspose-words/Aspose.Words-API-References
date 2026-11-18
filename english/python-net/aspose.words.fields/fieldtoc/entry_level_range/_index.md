@@ -5,7 +5,7 @@ articleTitle: entry_level_range property
 second_title: Aspose.Words for Python
 description: "FieldToc.entry_level_range property. Gets or sets a range of levels of the table of contents entries to be included."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldtoc/entry_level_range/
 ---
 

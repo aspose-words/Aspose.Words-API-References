@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "Run.text property. Gets or sets the text of the run."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/run/text/
 ---
 

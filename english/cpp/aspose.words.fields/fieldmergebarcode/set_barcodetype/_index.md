@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergebarcode/set_barcodetype/
 Sets the barcode type (QR, etc.)
 
 ```cpp
-void Aspose::Words::Fields::FieldMergeBarcode::set_BarcodeType(const System::String &value)
+void Aspose::Words::Fields::FieldMergeBarcode::set_BarcodeType(const System::String & value)
 ```
 
 ## See Also

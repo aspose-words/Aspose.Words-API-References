@@ -10,10 +10,10 @@ url: /cpp/aspose.words.ai/aimodel/checkgrammar/
 ## AiModel::CheckGrammar method
 
 
-Checks grammar of the provided document. This operation leverages the connected [AI](../../) model for checking grammar of document.
+Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document.
 
 ```cpp
-virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::CheckGrammar(System::SharedPtr<Aspose::Words::Document> sourceDocument, System::SharedPtr<Aspose::Words::AI::CheckGrammarOptions> options=nullptr)
+virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::CheckGrammar(System::SharedPtr<Aspose::Words::Document> sourceDocument, System::SharedPtr<Aspose::Words::AI::CheckGrammarOptions> options = nullptr)
 ```
 
 
@@ -25,12 +25,11 @@ virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AiModel::C
 ### ReturnValue
 
 A new [Document](../../../aspose.words/document/) with checked grammar.
-
 ## Examples
 
 
+Shows how to check the grammar of a document.
 
-Shows how to check the grammar of a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Big document.docx"));
 
@@ -44,11 +43,8 @@ grammarOptions->set_ImproveStylistics(true);
 System::SharedPtr<Aspose::Words::Document> proofedDoc = model->CheckGrammar(doc, grammarOptions);
 proofedDoc->Save(get_ArtifactsDir() + u"AI.AiGrammar.docx");
 ```
-
 ## See Also
 
-* Class [Document](../../../aspose.words/document/)
-* Class [CheckGrammarOptions](../../checkgrammaroptions/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: get_Radius
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::GlowFormat::get_Radius method. Gets or sets a double value that represents the length of the radius for a glow effect in points (pt). The default value is 0.0 in C++.'
 type: docs
-weight: 3000
+weight: 7500
 url: /cpp/aspose.words.drawing/glowformat/get_radius/
 ---
 ## GlowFormat::get_Radius method
@@ -16,12 +16,11 @@ Gets or sets a double value that represents the length of the radius for a glow 
 double Aspose::Words::Drawing::GlowFormat::get_Radius()
 ```
 
-
 ## Examples
 
 
+Shows how to interact with glow shape effect.
 
-Shows how to interact with glow shape effect. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Various shapes.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -35,17 +34,16 @@ doc->Save(get_ArtifactsDir() + u"Shape.Glow.docx");
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Shape.Glow.docx"));
 shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
-ASSERT_EQ(System::Drawing::Color::FromArgb(217, 250, 128, 114).ToArgb(), shape->get_Glow()->get_Color().ToArgb());
-ASPOSE_ASSERT_EQ(30, shape->get_Glow()->get_Radius());
-ASSERT_NEAR(0.15, shape->get_Glow()->get_Transparency(), 0.01);
+ASSERT_EQ(shape->get_Glow()->get_Color().ToArgb(), System::Drawing::Color::FromArgb(217, 250, 128, 114).ToArgb());
+ASPOSE_ASSERT_EQ(shape->get_Glow()->get_Radius(), 30);
+ASSERT_NEAR(shape->get_Glow()->get_Transparency(), 0.15, 0.01);
 
 shape->get_Glow()->Remove();
 
-ASSERT_EQ(System::Drawing::Color::get_Black().ToArgb(), shape->get_Glow()->get_Color().ToArgb());
-ASPOSE_ASSERT_EQ(0, shape->get_Glow()->get_Radius());
-ASPOSE_ASSERT_EQ(0, shape->get_Glow()->get_Transparency());
+ASSERT_EQ(shape->get_Glow()->get_Color().ToArgb(), System::Drawing::Color::get_Black().ToArgb());
+ASPOSE_ASSERT_EQ(shape->get_Glow()->get_Radius(), 0);
+ASPOSE_ASSERT_EQ(shape->get_Glow()->get_Transparency(), 0);
 ```
-
 ## See Also
 
 * Class [GlowFormat](../)

@@ -5,7 +5,7 @@ articleTitle: EditingLanguage enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.EditingLanguage enumeration. Specifies the editing language."
 type: docs
-weight: 60
+weight: 1200
 url: /python-net/aspose.words.loading/editinglanguage/
 ---
 

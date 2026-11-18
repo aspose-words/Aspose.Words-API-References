@@ -5,7 +5,7 @@ articleTitle: apply_number_default method
 second_title: Aspose.Words for Python
 description: "ListFormat.apply_number_default method. Starts a new default numbered list and applies it to the paragraph."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.lists/listformat/apply_number_default/
 ---
 

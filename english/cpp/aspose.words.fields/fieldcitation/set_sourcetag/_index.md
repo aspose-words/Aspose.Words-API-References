@@ -10,10 +10,10 @@ url: /cpp/aspose.words.fields/fieldcitation/set_sourcetag/
 ## FieldCitation::set_SourceTag method
 
 
-Sets a value that matches the **Tag** element's value of the source to insert.
+Sets a value that matches the Tag element's value of the source to insert.
 
 ```cpp
-void Aspose::Words::Fields::FieldCitation::set_SourceTag(const System::String &value)
+void Aspose::Words::Fields::FieldCitation::set_SourceTag(const System::String & value)
 ```
 
 ## See Also

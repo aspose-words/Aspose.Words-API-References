@@ -5,7 +5,7 @@ articleTitle: Processor class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Processor class. Processor class for performing different document processing actions."
 type: docs
-weight: 120
+weight: 2400
 url: /python-net/aspose.words.lowcode/processor/
 ---
 

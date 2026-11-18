@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldref/get_insertrelativeposition/
 Gets whether to insert the relative position of the referenced paragraph.
 
 ```cpp
-bool Aspose::Words::Fields::FieldRef::get_InsertRelativePosition()
+_Bool Aspose::Words::Fields::FieldRef::get_InsertRelativePosition()
 ```
 
 ## See Also

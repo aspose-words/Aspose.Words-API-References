@@ -5,7 +5,7 @@ articleTitle: SvgTextOutputMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.SvgTextOutputMode enumeration. Allows to specify how text inside a document should be rendered when saving in SVG format."
 type: docs
-weight: 840
+weight: 16800
 url: /python-net/aspose.words.saving/svgtextoutputmode/
 ---
 

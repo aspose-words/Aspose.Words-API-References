@@ -13,15 +13,14 @@ url: /cpp/aspose.words/iwarningcallback/warning/
 Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity.
 
 ```cpp
-virtual void Aspose::Words::IWarningCallback::Warning(System::SharedPtr<Aspose::Words::WarningInfo> info)=0
+virtual void Aspose::Words::IWarningCallback::Warning(System::SharedPtr<Aspose::Words::WarningInfo> info)
 ```
-
 
 ## Examples
 
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
-Shows how to set the property for finding the closest match for a missing font from the available font sources. 
 ```cpp
 // Open a document that contains text formatted with a font that does not exist in any of our font sources.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Missing font.docx"));
@@ -50,10 +49,8 @@ for (auto&& info : warningCollector)
     }
 }
 ```
-
 ## See Also
 
-* Class [WarningInfo](../../warninginfo/)
 * Interface [IWarningCallback](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

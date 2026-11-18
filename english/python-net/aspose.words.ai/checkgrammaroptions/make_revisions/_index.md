@@ -5,7 +5,7 @@ articleTitle: make_revisions property
 second_title: Aspose.Words for Python
 description: "CheckGrammarOptions.make_revisions property. Allows to specify either final or revised document to be returned with proofed text"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.ai/checkgrammaroptions/make_revisions/
 ---
 

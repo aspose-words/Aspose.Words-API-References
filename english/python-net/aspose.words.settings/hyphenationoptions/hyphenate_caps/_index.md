@@ -5,7 +5,7 @@ articleTitle: hyphenate_caps property
 second_title: Aspose.Words for Python
 description: "HyphenationOptions.hyphenate_caps property. Gets or sets value determining whether words written in all capital letters are hyphenated"
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.settings/hyphenationoptions/hyphenate_caps/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: font_family_name property
 second_title: Aspose.Words for Python
 description: "FontSavingArgs.font_family_name property. Indicates the current font family name."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/fontsavingargs/font_family_name/
 ---
 

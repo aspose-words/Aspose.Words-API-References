@@ -19,13 +19,12 @@ Aspose::Words::NumberStyle Aspose::Words::Notes::FootnoteOptions::get_NumberStyl
 ## Remarks
 
 
-Not all number styles are applicable for this property. For the list of applicable number styles see the Insert [Footnote](../../footnote/) or Endnote dialog box in Microsoft Word. If you select a number style that is not applicable, Microsoft Word will revert to a default value.
-
+Not all number styles are applicable for this property. For the list of applicable number styles see the Insert Footnote or Endnote dialog box in Microsoft Word. If you select a number style that is not applicable, Microsoft Word will revert to a default value.
 ## Examples
 
 
+Shows how to change the number style of footnote/endnote reference marks.
 
-Shows how to change the number style of footnote/endnote reference marks. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,8 +57,8 @@ builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.", u"Custom endnote r
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes. By default, footnotes display their numbers using Arabic numerals,
 // and endnotes display their numbers in lowercase Roman numerals.
-ASSERT_EQ(NumberStyle::Arabic, doc->get_FootnoteOptions()->get_NumberStyle());
-ASSERT_EQ(NumberStyle::LowercaseRoman, doc->get_EndnoteOptions()->get_NumberStyle());
+ASSERT_EQ(doc->get_FootnoteOptions()->get_NumberStyle(), NumberStyle::Arabic);
+ASSERT_EQ(doc->get_EndnoteOptions()->get_NumberStyle(), NumberStyle::LowercaseRoman);
 
 // We can use the "NumberStyle" property to apply custom numbering styles to footnotes and endnotes.
 // This will not affect footnotes/endnotes with custom reference marks.
@@ -68,10 +67,8 @@ doc->get_EndnoteOptions()->set_NumberStyle(NumberStyle::UppercaseLetter);
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.RefMarkNumberStyle.docx");
 ```
-
 ## See Also
 
-* Enum [NumberStyle](../../../aspose.words/numberstyle/)
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

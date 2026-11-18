@@ -5,7 +5,7 @@ articleTitle: to_array method
 second_title: Aspose.Words for Python
 description: "NodeCollection.to_array method. Copies all nodes from the collection to a new array of nodes."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/nodecollection/to_array/
 ---
 

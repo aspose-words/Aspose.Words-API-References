@@ -5,7 +5,7 @@ articleTitle: reason property
 second_title: Aspose.Words for Python
 description: "FontSubstitutionWarningInfo.reason property. Font substitution reason."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/fontsubstitutionwarninginfo/reason/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: color property
 second_title: Aspose.Words for Python
 description: "ShadowFormat.color property. Gets or sets a aspose.pydrawing.Color object that represents the color for the shadow"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/shadowformat/color/
 ---
 

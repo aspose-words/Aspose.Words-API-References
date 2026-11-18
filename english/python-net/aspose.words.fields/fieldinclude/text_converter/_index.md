@@ -5,7 +5,7 @@ articleTitle: text_converter property
 second_title: Aspose.Words for Python
 description: "FieldInclude.text_converter property. Gets or sets the name of the text converter for the format of the included file."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldinclude/text_converter/
 ---
 

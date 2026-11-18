@@ -5,7 +5,7 @@ articleTitle: composer property
 second_title: Aspose.Words for Python
 description: "ContributorCollection.composer property. Gets or sets the composer of a source."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.bibliography/contributorcollection/composer/
 ---
 

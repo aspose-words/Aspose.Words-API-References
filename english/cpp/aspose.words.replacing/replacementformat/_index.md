@@ -13,16 +13,16 @@ url: /cpp/aspose.words.replacing/replacementformat/
 Specifies the replacement format.
 
 ```cpp
-enum class ReplacementFormat
+enum class ReplacementFormat : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Text | 0 | Replacement is treated as simple text. |
-| Markdown | 1 | Replacement is interpreted as Markdown text. |
 | Html | 2 | Replacement is interpreted as Html formatted string. |
+| Markdown | 1 | Replacement is interpreted as Markdown text. |
+| Text | 0 | Replacement is treated as simple text. |
 
 ## See Also
 

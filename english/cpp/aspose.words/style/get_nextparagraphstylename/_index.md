@@ -4,7 +4,7 @@ linktitle: get_NextParagraphStyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_NextParagraphStyleName method. Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style in C++.'
 type: docs
-weight: 15000
+weight: 22640
 url: /cpp/aspose.words/style/get_nextparagraphstylename/
 ---
 ## Style::get_NextParagraphStyleName method
@@ -16,16 +16,18 @@ Gets/sets the name of the style to be applied automatically to a new paragraph i
 System::String Aspose::Words::Style::get_NextParagraphStyleName()
 ```
 
+## Remarks
 
+ This property is not used by Aspose.Words. The next paragraph style will only be applied automatically when you edit the document in MS Word. 
 ## Examples
 
 
+Shows how to access a document's style collection.
 
-Shows how to access a document's style collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-ASSERT_EQ(4, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
 
 // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
 {
@@ -38,11 +40,10 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
         std::cout << System::String::Format(u"\tIs heading:\t\t\t{0}", curStyle->get_IsHeading()) << std::endl;
         std::cout << System::String::Format(u"\tIs QuickStyle:\t\t{0}", curStyle->get_IsQuickStyle()) << std::endl;
 
-        ASPOSE_ASSERT_EQ(doc, curStyle->get_Document());
+        ASPOSE_ASSERT_EQ(curStyle->get_Document(), doc);
     }
 }
 ```
-
 ## See Also
 
 * Class [Style](../)

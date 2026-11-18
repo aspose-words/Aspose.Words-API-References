@@ -5,7 +5,7 @@ articleTitle: WebExtensionPropertyCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.webextensions.WebExtensionPropertyCollection class. Specifies a set of web extension custom properties"
 type: docs
-weight: 90
+weight: 1800
 url: /python-net/aspose.words.webextensions/webextensionpropertycollection/
 ---
 

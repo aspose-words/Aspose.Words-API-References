@@ -5,7 +5,7 @@ articleTitle: ViewType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.settings.ViewType enumeration. Possible values for the view mode in Microsoft Word."
 type: docs
-weight: 200
+weight: 4000
 url: /python-net/aspose.words.settings/viewtype/
 ---
 

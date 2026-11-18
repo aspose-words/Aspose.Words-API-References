@@ -5,7 +5,7 @@ articleTitle: ListFormat class
 second_title: Aspose.Words for Python
 description: "aspose.words.lists.ListFormat class. Allows to control what list formatting is applied to a paragraph"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.lists/listformat/
 ---
 

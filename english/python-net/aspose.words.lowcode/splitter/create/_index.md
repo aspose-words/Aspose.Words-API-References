@@ -5,7 +5,7 @@ articleTitle: create method
 second_title: Aspose.Words for Python
 description: "Splitter.create method. Creates new instance of the splitter processor."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.lowcode/splitter/create/
 ---
 

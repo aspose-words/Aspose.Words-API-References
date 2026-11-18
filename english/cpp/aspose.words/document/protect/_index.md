@@ -28,12 +28,11 @@ When a document is protected, the user can make only limited changes, such as ad
 When you protect a document, and the document already has a protection password, the existing protection password is not changed.
 
 When you protect a document, and the document does not have a protection password, this method assigns a random password that makes it impossible to unprotect the document in Microsoft Word, but you still can unprotect the document in Aspose.Words as it does not require a password when unprotecting.
-
 ## Examples
 
 
+Shows how to turn off protection for a section.
 
-Shows how to turn off protection for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -55,44 +54,41 @@ doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);
 // and we will only be able to edit the contents of the form field in the second section.
 doc->Save(get_ArtifactsDir() + u"Section.Protect.docx");
 ```
-
 ## See Also
 
-* Enum [ProtectionType](../../protectiontype/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::Protect(Aspose::Words::ProtectionType, const System::String\&) method
+## Document::Protect(Aspose::Words::ProtectionType, const System::String \&) method
 
 
 Protects the document from changes and optionally sets a protection password.
 
 ```cpp
-void Aspose::Words::Document::Protect(Aspose::Words::ProtectionType type, const System::String &password)
+void Aspose::Words::Document::Protect(Aspose::Words::ProtectionType type, const System::String & password)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | Aspose::Words::ProtectionType | Specifies the protection type for the document. |
-| password | const System::String\& | The password to protect the document with. Specify **null** or empty string if you want to protect the document without a password. |
+| password | const System::String \& | The password to protect the document with. Specify **null** or empty string if you want to protect the document without a password. |
 ## Remarks
 
 
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 
 Note that document protection is different from write protection. Write protection is specified using the [WriteProtection](../get_writeprotection/).
-
 ## Examples
 
 
+Shows how to protect and unprotect a document.
 
-Shows how to protect and unprotect a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->Protect(ProtectionType::ReadOnly, u"password");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::ReadOnly);
 
 // If we open this document with Microsoft Word intending to edit it,
 // we will need to apply the password to get through the protection.
@@ -102,7 +98,7 @@ doc->Save(get_ArtifactsDir() + u"Document.Protect.docx");
 // We have not encrypted the document in any way, and we do not need the password to open and edit it programmatically.
 auto protectedDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.Protect.docx"));
 
-ASSERT_EQ(ProtectionType::ReadOnly, protectedDoc->get_ProtectionType());
+ASSERT_EQ(protectedDoc->get_ProtectionType(), ProtectionType::ReadOnly);
 
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(protectedDoc);
 builder->Writeln(u"Text added to a protected document.");
@@ -111,25 +107,23 @@ builder->Writeln(u"Text added to a protected document.");
 // 1 - With no password:
 doc->Unprotect();
 
-ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::NoProtection);
 
 doc->Protect(ProtectionType::ReadOnly, u"NewPassword");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::ReadOnly);
 
 doc->Unprotect(u"WrongPassword");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::ReadOnly);
 
 // 2 - With the correct password:
 doc->Unprotect(u"NewPassword");
 
-ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
+ASSERT_EQ(doc->get_ProtectionType(), ProtectionType::NoProtection);
 ```
-
 ## See Also
 
-* Enum [ProtectionType](../../protectiontype/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

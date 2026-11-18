@@ -4,7 +4,7 @@ linktitle: get_ShowGrammaticalErrors
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_ShowGrammaticalErrors method. Specifies whether to display grammar errors in this document in C++.'
 type: docs
-weight: 50000
+weight: 142000
 url: /cpp/aspose.words/document/get_showgrammaticalerrors/
 ---
 ## Document::get_ShowGrammaticalErrors method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/document/get_showgrammaticalerrors/
 Specifies whether to display grammar errors in this document.
 
 ```cpp
-bool Aspose::Words::Document::get_ShowGrammaticalErrors()
+_Bool Aspose::Words::Document::get_ShowGrammaticalErrors()
 ```
-
 
 ## Examples
 
 
+Shows how to show/hide errors in the document.
 
-Shows how to show/hide errors in the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,7 +37,6 @@ doc->set_ShowSpellingErrors(showErrors);
 
 doc->Save(get_ArtifactsDir() + u"Document.SpellingAndGrammarErrors.docx");
 ```
-
 ## See Also
 
 * Class [Document](../)

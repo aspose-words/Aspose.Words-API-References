@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::DocSaveOptions::set_SavePictureBullet method
 linktitle: set_SavePictureBullet
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::DocSaveOptions::set_SavePictureBullet method. Setter for Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet in C++.'
+description: 'Aspose::Words::Saving::DocSaveOptions::set_SavePictureBullet method. When false, PictureBullet data is not saved to output document. Default value is true in C++.'
 type: docs
 weight: 13000
 url: /cpp/aspose.words.saving/docsaveoptions/set_savepicturebullet/
@@ -10,12 +10,32 @@ url: /cpp/aspose.words.saving/docsaveoptions/set_savepicturebullet/
 ## DocSaveOptions::set_SavePictureBullet method
 
 
-Setter for [Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet](../get_savepicturebullet/).
+When **false**, PictureBullet data is not saved to output document. Default value is **true**.
 
 ```cpp
 void Aspose::Words::Saving::DocSaveOptions::set_SavePictureBullet(bool value)
 ```
 
+## Remarks
+
+
+This option is provided for Word 97, which cannot work correctly with PictureBullet data. To remove PictureBullet data, set the option to "false".
+## Examples
+
+
+Shows how to omit PictureBullet data from the document when saving.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Image bullet points.docx"));
+
+// Some word processors, such as Microsoft Word 97, are incompatible with PictureBullet data.
+// By setting a flag in the SaveOptions object,
+// we can convert all image bullet points to ordinary bullet points while saving.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::DocSaveOptions>(SaveFormat::Doc);
+saveOptions->set_SavePictureBullet(false);
+
+doc->Save(get_ArtifactsDir() + u"DocSaveOptions.PictureBullets.doc", saveOptions);
+```
 ## See Also
 
 * Class [DocSaveOptions](../)

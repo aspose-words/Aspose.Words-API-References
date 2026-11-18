@@ -5,7 +5,7 @@ articleTitle: set_replacement method
 second_title: Aspose.Words for Python
 description: "ReplacerContext.set_replacement method. Sets pattern and replacement used by find/replace operation."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/replacercontext/set_replacement/
 ---
 

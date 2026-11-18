@@ -4,7 +4,7 @@ linktitle: FieldArgumentBuilder
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Fields::FieldArgumentBuilder::FieldArgumentBuilder constructor. Initializes an instance of the FieldArgumentBuilder class in C++.'
 type: docs
-weight: 2000
+weight: 6000
 url: /cpp/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder::FieldArgumentBuilder constructor
@@ -16,12 +16,11 @@ Initializes an instance of the [FieldArgumentBuilder](../) class.
 Aspose::Words::Fields::FieldArgumentBuilder::FieldArgumentBuilder()
 ```
 
-
 ## Examples
 
 
+Shows how to construct fields using a field builder, and then insert them into the document.
 
-Shows how to construct fields using a field builder, and then insert them into the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -35,7 +34,7 @@ builder->AddSwitch(u"\\s", 25);
 builder->AddSwitch(u"\\u");
 System::SharedPtr<Aspose::Words::Fields::Field> field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->get_FirstParagraph());
 
-ASSERT_EQ(u" SYMBOL 402 \\f Arial \\s 25 \\u ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" SYMBOL 402 \\f Arial \\s 25 \\u ");
 
 // 2 -  Nested field:
 // Use a field builder to create a formula field used as an inner field by another field builder.
@@ -52,7 +51,7 @@ field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->AppendParag
 
 // The outer SYMBOL field will use the formula field result, 174, as its argument,
 // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
-ASSERT_EQ(u" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ");
 
 // 3 -  Multiple nested fields and arguments:
 // Now, we will use a builder to create an IF field, which displays one of two custom string values,
@@ -90,12 +89,11 @@ builder->AddArgument(trueOutput);
 builder->AddArgument(falseOutput);
 field = builder->BuildAndInsert(doc->get_FirstSection()->get_Body()->AppendParagraph(System::String::Empty));
 
-ASSERT_EQ((System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 ") + u"\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " + u"\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" "), field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), (System::String(u" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 ") + u"\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " + u"\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" "));
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
-
 ## See Also
 
 * Class [FieldArgumentBuilder](../)

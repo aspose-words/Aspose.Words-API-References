@@ -16,12 +16,11 @@ Gets or sets the current user's postal address.
 System::String Aspose::Words::Fields::FieldUserAddress::get_UserAddress()
 ```
 
-
 ## Examples
 
 
+Shows how to use the USERADDRESS field.
 
-Shows how to use the USERADDRESS field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -35,23 +34,22 @@ doc->get_FieldOptions()->set_CurrentUser(userInformation);
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto fieldUserAddress = System::ExplicitCast<Aspose::Words::Fields::FieldUserAddress>(builder->InsertField(FieldType::FieldUserAddress, true));
 
-ASSERT_EQ(u" USERADDRESS ", fieldUserAddress->GetFieldCode());
-ASSERT_EQ(u"123 Main Street", fieldUserAddress->get_Result());
+ASSERT_EQ(fieldUserAddress->GetFieldCode(), u" USERADDRESS ");
+ASSERT_EQ(fieldUserAddress->get_Result(), u"123 Main Street");
 
 // We can set this property to get our field to override the value currently stored in the UserInformation object.
 fieldUserAddress->set_UserAddress(u"456 North Road");
 fieldUserAddress->Update();
 
-ASSERT_EQ(u" USERADDRESS  \"456 North Road\"", fieldUserAddress->GetFieldCode());
-ASSERT_EQ(u"456 North Road", fieldUserAddress->get_Result());
+ASSERT_EQ(fieldUserAddress->GetFieldCode(), u" USERADDRESS  \"456 North Road\"");
+ASSERT_EQ(fieldUserAddress->get_Result(), u"456 North Road");
 
 // This does not affect the value in the UserInformation object.
-ASSERT_EQ(u"123 Main Street", doc->get_FieldOptions()->get_CurrentUser()->get_Address());
+ASSERT_EQ(doc->get_FieldOptions()->get_CurrentUser()->get_Address(), u"123 Main Street");
 
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.USERADDRESS.docx");
 ```
-
 ## See Also
 
 * Class [FieldUserAddress](../)

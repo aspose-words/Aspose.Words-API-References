@@ -26,12 +26,11 @@ Specifying a temporary folder using [TempFolder](./) will cause Aspose.Words to 
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
-
 ## Examples
 
 
+Shows how to use the hard drive instead of memory when saving a document.
 
-Shows how to use the hard drive instead of memory when saving a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -47,8 +46,11 @@ System::IO::Directory::CreateDirectory_(options->get_TempFolder());
 doc->Save(get_ArtifactsDir() + u"DocSaveOptions.TempFolder.doc", options);
 
 // The folder will persist with no residual contents from the load operation.
-ASSERT_EQ(0, System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length());
+ASSERT_EQ(System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length(), 0);
 ```
+## Exceptions
+
+* OutOfMemoryException - Throw if you are saving a very large document (thousands of pages) and/or processing many documents at the same time. The memory spike during saving can be significant enough to cause the exception.
 
 ## See Also
 

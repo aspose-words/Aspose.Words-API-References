@@ -5,7 +5,7 @@ articleTitle: is_inline property
 second_title: Aspose.Words for Python
 description: "ShapeBase.is_inline property. A quick way to determine if this shape is positioned inline with text."
 type: docs
-weight: 310
+weight: 9300
 url: /python-net/aspose.words.drawing/shapebase/is_inline/
 ---
 

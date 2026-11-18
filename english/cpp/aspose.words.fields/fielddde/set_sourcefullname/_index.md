@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddde/set_sourcefullname/
 Sets the name and location of the source file.
 
 ```cpp
-void Aspose::Words::Fields::FieldDde::set_SourceFullName(const System::String &value)
+void Aspose::Words::Fields::FieldDde::set_SourceFullName(const System::String & value)
 ```
 
 ## See Also

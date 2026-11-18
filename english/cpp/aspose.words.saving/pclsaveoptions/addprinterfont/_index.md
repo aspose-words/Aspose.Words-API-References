@@ -13,20 +13,22 @@ url: /cpp/aspose.words.saving/pclsaveoptions/addprinterfont/
 Adds information about font that is uploaded to the printer by manufacturer.
 
 ```cpp
-void Aspose::Words::Saving::PclSaveOptions::AddPrinterFont(const System::String &fontFullName, const System::String &fontPclName)
+void Aspose::Words::Saving::PclSaveOptions::AddPrinterFont(const System::String & fontFullName, const System::String & fontPclName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontFullName | const System::String\& | Full name of the font (e.g. "Times New Roman Bold Italic"). |
-| fontPclName | const System::String\& | Name of the font that is used in Pcl document. |
+| fontFullName | const System::String \& | Full name of the font (e.g. "Times New Roman Bold Italic"). |
+| fontPclName | const System::String \& | Name of the font that is used in Pcl document. |
+## Remarks
 
+ There are 52 fonts that are to be built in any printer according to Pcl specification. However manufactures can add some other fonts to their devices. 
 ## Examples
 
 
+Shows how to get a printer to substitute all instances of a specific font with a different font.
 
-Shows how to get a printer to substitute all instances of a specific font with a different font. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +43,6 @@ saveOptions->AddPrinterFont(u"Courier New", u"Courier");
 // to access places where our document used the "Courier" font.
 doc->Save(get_ArtifactsDir() + u"PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
-
 ## See Also
 
 * Class [PclSaveOptions](../)

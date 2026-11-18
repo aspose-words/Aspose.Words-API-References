@@ -5,7 +5,7 @@ articleTitle: internal_margin_bottom property
 second_title: Aspose.Words for Python
 description: "TextBox.internal_margin_bottom property. Specifies the inner bottom margin in points for a shape."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/textbox/internal_margin_bottom/
 ---
 

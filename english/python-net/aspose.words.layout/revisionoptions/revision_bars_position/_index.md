@@ -5,7 +5,7 @@ articleTitle: revision_bars_position property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.revision_bars_position property. Gets or sets rendering position of revision bars"
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.layout/revisionoptions/revision_bars_position/
 ---
 

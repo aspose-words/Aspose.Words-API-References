@@ -5,7 +5,7 @@ articleTitle: as_sub_document method
 second_title: Aspose.Words for Python
 description: "Node.as_sub_document method. Cast Node to [SubDocument](../../subdocument/)."
 type: docs
-weight: 410
+weight: 12300
 url: /python-net/aspose.words/node/as_sub_document/
 ---
 

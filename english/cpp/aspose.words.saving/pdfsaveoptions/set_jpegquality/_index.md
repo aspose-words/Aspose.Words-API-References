@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::PdfSaveOptions::set_JpegQuality method
 linktitle: set_JpegQuality
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::PdfSaveOptions::set_JpegQuality method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_JpegQuality in C++.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_JpegQuality method. Sets a value determining the quality of the JPEG images inside PDF document in C++.'
 type: docs
 weight: 56000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_jpegquality/
@@ -10,12 +10,22 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/set_jpegquality/
 ## PdfSaveOptions::set_JpegQuality method
 
 
-Setter for [Aspose::Words::Saving::PdfSaveOptions::get_JpegQuality](../get_jpegquality/).
+Sets a value determining the quality of the JPEG images inside PDF document.
 
 ```cpp
 void Aspose::Words::Saving::PdfSaveOptions::set_JpegQuality(int32_t value)
 ```
 
+## Remarks
+
+
+The default value is 100.
+
+This property is used in conjunction with the [ImageCompression](../get_imagecompression/) option.
+
+Has effect only when a document contains JPEG images.
+
+Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. If quality is 100 and source image is JPEG, it means no compression - original bytes will be saved.
 ## See Also
 
 * Class [PdfSaveOptions](../)

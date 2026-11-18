@@ -5,7 +5,7 @@ articleTitle: paragraph_break_font property
 second_title: Aspose.Words for Python
 description: "Paragraph.paragraph_break_font property. Provides access to the font formatting of the paragraph break character."
 type: docs
-weight: 180
+weight: 5400
 url: /python-net/aspose.words/paragraph/paragraph_break_font/
 ---
 

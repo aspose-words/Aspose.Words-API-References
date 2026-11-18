@@ -5,7 +5,7 @@ articleTitle: pos_code_style property
 second_title: Aspose.Words for Python
 description: "FieldMergeBarcode.pos_code_style property. Gets or sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8)"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.fields/fieldmergebarcode/pos_code_style/
 ---
 

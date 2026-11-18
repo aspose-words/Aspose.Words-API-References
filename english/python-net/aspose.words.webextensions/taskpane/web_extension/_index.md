@@ -5,7 +5,7 @@ articleTitle: web_extension property
 second_title: Aspose.Words for Python
 description: "TaskPane.web_extension property. Represents an web extension object."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.webextensions/taskpane/web_extension/
 ---
 

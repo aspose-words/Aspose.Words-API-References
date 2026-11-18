@@ -5,7 +5,7 @@ articleTitle: hidden property
 second_title: Aspose.Words for Python
 description: "Font.hidden property. True if the font is formatted as hidden text."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words/font/hidden/
 ---
 

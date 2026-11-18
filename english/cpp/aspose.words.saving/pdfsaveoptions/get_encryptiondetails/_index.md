@@ -27,10 +27,9 @@ Encryption is prohibited by PDF/A compliance. This option will be ignored when s
 
 [ContentCopyForAccessibility](../../pdfpermissions/) permission is required by PDF/UA compliance if the output document is encrypted. This permission will automatically used when saving to PDF/UA.
 
-[ContentCopyForAccessibility](../../pdfpermissions/) permission is deprecated in PDF 2.0 format. This permission will be ignored when saving to PDF 2.0. 
+[ContentCopyForAccessibility](../../pdfpermissions/) permission is deprecated in PDF 2.0 format. This permission will be ignored when saving to PDF 2.0.
 ## See Also
 
-* Class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

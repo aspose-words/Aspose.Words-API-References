@@ -5,7 +5,7 @@ articleTitle: patent_number property
 second_title: Aspose.Words for Python
 description: "Source.patent_number property. Gets or sets the patent number of a source."
 type: docs
-weight: 320
+weight: 9600
 url: /python-net/aspose.words.bibliography/source/patent_number/
 ---
 

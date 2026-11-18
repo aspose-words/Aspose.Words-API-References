@@ -5,7 +5,7 @@ articleTitle: lib_id property
 second_title: Aspose.Words for Python
 description: "VbaReference.lib_id property. Gets a string value containing the identifier of an Automation type library."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.vba/vbareference/lib_id/
 ---
 

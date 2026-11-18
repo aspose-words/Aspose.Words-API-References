@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_showpageborder/
 Specifies whether border around pages should be shown. Default is **true**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ShowPageBorder() const
+_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ShowPageBorder() const
 ```
 
 ## See Also

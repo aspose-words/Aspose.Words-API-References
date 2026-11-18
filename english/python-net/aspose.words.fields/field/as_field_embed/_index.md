@@ -5,7 +5,7 @@ articleTitle: as_field_embed method
 second_title: Aspose.Words for Python
 description: "Field.as_field_embed method. Cast Field to [FieldEmbed](../../fieldembed/)."
 type: docs
-weight: 380
+weight: 11400
 url: /python-net/aspose.words.fields/field/as_field_embed/
 ---
 

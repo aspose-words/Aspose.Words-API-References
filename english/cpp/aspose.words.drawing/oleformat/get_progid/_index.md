@@ -4,7 +4,7 @@ linktitle: get_ProgId
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::OleFormat::get_ProgId method. Gets or sets the ProgID of the OLE object in C++.'
 type: docs
-weight: 10000
+weight: 19645
 url: /cpp/aspose.words.drawing/oleformat/get_progid/
 ---
 ## OleFormat::get_ProgId method
@@ -24,12 +24,11 @@ The ProgID property is not always present in Microsoft Word documents and cannot
 Cannot be **null**.
 
 The default value is an empty string.
-
 ## Examples
 
 
+Shows how to extract embedded OLE objects into files.
 
-Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"OLE spreadsheet.docm"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true));
@@ -37,15 +36,15 @@ auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(N
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();
 
-ASSERT_EQ(u"Excel.Sheet.12", oleFormat->get_ProgId());
+ASSERT_EQ(oleFormat->get_ProgId(), u"Excel.Sheet.12");
 
 // Our object is neither auto updating nor locked from updates.
 ASSERT_FALSE(oleFormat->get_AutoUpdate());
-ASPOSE_ASSERT_EQ(false, oleFormat->get_IsLocked());
+ASPOSE_ASSERT_EQ(oleFormat->get_IsLocked(), false);
 
 // If we plan on saving the OLE object to a file in the local file system,
 // we can use the "SuggestedExtension" property to determine which file extension to apply to the file.
-ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
+ASSERT_EQ(oleFormat->get_SuggestedExtension(), u".xlsx");
 
 // Below are two ways of saving an OLE object to a file in the local file system.
 // 1 -  Save it via a stream:
@@ -57,7 +56,6 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 // 2 -  Save it directly to a filename:
 oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
-
 ## See Also
 
 * Class [OleFormat](../)

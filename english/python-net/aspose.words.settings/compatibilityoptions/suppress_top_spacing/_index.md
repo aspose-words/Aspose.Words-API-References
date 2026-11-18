@@ -5,7 +5,7 @@ articleTitle: suppress_top_spacing property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.suppress_top_spacing property. Ignore Minimum and Exact Line Height for First Line on Page."
 type: docs
-weight: 510
+weight: 15300
 url: /python-net/aspose.words.settings/compatibilityoptions/suppress_top_spacing/
 ---
 

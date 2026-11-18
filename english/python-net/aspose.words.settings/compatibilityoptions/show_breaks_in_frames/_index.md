@@ -5,7 +5,7 @@ articleTitle: show_breaks_in_frames property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.show_breaks_in_frames property. Display Page/Column Breaks Present in Frames."
 type: docs
-weight: 430
+weight: 12900
 url: /python-net/aspose.words.settings/compatibilityoptions/show_breaks_in_frames/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: prepend_content method
 second_title: Aspose.Words for Python
 description: "Section.prepend_content method. Inserts a copy of content of the source section at the beginning of this section."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words/section/prepend_content/
 ---
 

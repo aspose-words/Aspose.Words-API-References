@@ -16,12 +16,14 @@ Specifies the vertical alignment for the cells.
 Aspose::Words::Tables::CellVerticalAlignment Aspose::Words::TableStyle::get_VerticalAlignment()
 ```
 
+## Remarks
 
+ The default value is [Top](../../../aspose.words.tables/cellverticalalignment/). 
 ## Examples
 
 
+Shows how to create custom style settings for the table.
 
-Shows how to create custom style settings for the table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -52,15 +54,13 @@ table->set_Style(tableStyle);
 
 // Setting the style properties of a table may affect the properties of the table itself.
 ASSERT_FALSE(table->get_Bidi());
-ASPOSE_ASSERT_EQ(5.0, table->get_CellSpacing());
-ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
+ASPOSE_ASSERT_EQ(table->get_CellSpacing(), 5.0);
+ASSERT_EQ(table->get_StyleName(), u"MyTableStyle1");
 
 doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
-
 ## See Also
 
-* Enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -5,7 +5,7 @@ articleTitle: remove method
 second_title: Aspose.Words for Python
 description: "NodeCollection.remove method. Removes the node from the collection and from the document."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/nodecollection/remove/
 ---
 

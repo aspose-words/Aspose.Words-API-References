@@ -10,10 +10,10 @@ url: /cpp/aspose.words.fields/fieldxe/set_yomi/
 ## FieldXE::set_Yomi method
 
 
-Sets the yomi (first phonetic character for sorting indexes) for the index entry.
+Sets the yomi (first phonetic character for sorting indexes) for the index entry
 
 ```cpp
-void Aspose::Words::Fields::FieldXE::set_Yomi(const System::String &value)
+void Aspose::Words::Fields::FieldXE::set_Yomi(const System::String & value)
 ```
 
 ## See Also

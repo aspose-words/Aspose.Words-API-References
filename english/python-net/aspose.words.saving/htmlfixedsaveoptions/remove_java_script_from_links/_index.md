@@ -5,7 +5,7 @@ articleTitle: remove_java_script_from_links property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.remove_java_script_from_links property. Specifies whether JavaScript will be removed from links"
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/remove_java_script_from_links/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: is_clear property
 second_title: Aspose.Words for Python
 description: "TabStop.is_clear property. Returns ``True`` if this tab stop clears any existing tab stops in this position."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/tabstop/is_clear/
 ---
 

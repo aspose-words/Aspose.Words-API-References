@@ -5,7 +5,7 @@ articleTitle: OfficeMathJustification enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.math.OfficeMathJustification enumeration. Specifies the justification of the equation."
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.math/officemathjustification/
 ---
 

@@ -4,7 +4,7 @@ linktitle: get_WrapTrailSpaces
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Settings::CompatibilityOptions::get_WrapTrailSpaces method. Line Wrap Trailing Spaces in C++.'
 type: docs
-weight: 72000
+weight: 75987
 url: /cpp/aspose.words.settings/compatibilityoptions/get_wraptrailspaces/
 ---
 ## CompatibilityOptions::get_WrapTrailSpaces method
@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_wraptrailspaces/
 Line Wrap Trailing Spaces.
 
 ```cpp
-bool Aspose::Words::Settings::CompatibilityOptions::get_WrapTrailSpaces()
+_Bool Aspose::Words::Settings::CompatibilityOptions::get_WrapTrailSpaces()
 ```
 
 ## See Also

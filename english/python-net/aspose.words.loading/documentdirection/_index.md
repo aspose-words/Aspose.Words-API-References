@@ -5,7 +5,7 @@ articleTitle: DocumentDirection enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.loading.DocumentDirection enumeration. Allows to specify the direction to flow the text in a document."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.loading/documentdirection/
 ---
 

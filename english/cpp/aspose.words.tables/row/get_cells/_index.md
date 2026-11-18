@@ -4,7 +4,7 @@ linktitle: get_Cells
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Tables::Row::get_Cells method. Provides typed access to the Cell child nodes of the row in C++.'
 type: docs
-weight: 5000
+weight: 13462
 url: /cpp/aspose.words.tables/row/get_cells/
 ---
 ## Row::get_Cells method
@@ -16,17 +16,16 @@ Provides typed access to the [Cell](../../cell/) child nodes of the row.
 System::SharedPtr<Aspose::Words::Tables::CellCollection> Aspose::Words::Tables::Row::get_Cells()
 ```
 
-
 ## Examples
 
 
+Shows how to iterate through all tables in the document and print the contents of each cell.
 
-Shows how to iterate through all tables in the document and print the contents of each cell. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
 
-ASSERT_EQ(2, tables->ToArray()->get_Length());
+ASSERT_EQ(tables->ToArray()->get_Length(), 2);
 
 for (int32_t i = 0; i < tables->get_Count(); i++)
 {
@@ -35,8 +34,8 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
     System::SharedPtr<Aspose::Words::Tables::RowCollection> rows = tables->idx_get(i)->get_Rows();
 
     // We can use the "ToArray" method on a row collection to clone it into an array.
-    ASPOSE_ASSERT_EQ(rows, rows->ToArray());
-    ASPOSE_ASSERT_NS(rows, rows->ToArray());
+    ASPOSE_ASSERT_EQ(rows->ToArray(), rows);
+    ASSERT_FALSE(System::Object::ReferenceEquals(rows->ToArray(), rows));
 
     for (int32_t j = 0; j < rows->get_Count(); j++)
     {
@@ -45,8 +44,8 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
         System::SharedPtr<Aspose::Words::Tables::CellCollection> cells = rows->idx_get(j)->get_Cells();
 
         // We can use the "ToArray" method on a cell collection to clone it into an array.
-        ASPOSE_ASSERT_EQ(cells, cells->ToArray());
-        ASPOSE_ASSERT_NS(cells, cells->ToArray());
+        ASPOSE_ASSERT_EQ(cells->ToArray(), cells);
+        ASSERT_FALSE(System::Object::ReferenceEquals(cells->ToArray(), cells));
 
         for (int32_t k = 0; k < cells->get_Count(); k++)
         {
@@ -60,10 +59,8 @@ for (int32_t i = 0; i < tables->get_Count(); i++)
     std::cout << System::String::Format(u"End of Table {0}\n", i) << std::endl;
 }
 ```
-
 ## See Also
 
-* Class [CellCollection](../../cellcollection/)
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

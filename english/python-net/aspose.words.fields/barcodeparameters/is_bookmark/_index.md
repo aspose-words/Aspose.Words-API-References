@@ -5,7 +5,7 @@ articleTitle: is_bookmark property
 second_title: Aspose.Words for Python
 description: "BarcodeParameters.is_bookmark property. Whether [BarcodeParameters.postal_address](../postal_address/) is the name of a bookmark."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words.fields/barcodeparameters/is_bookmark/
 ---
 

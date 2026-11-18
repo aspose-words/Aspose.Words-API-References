@@ -5,7 +5,7 @@ articleTitle: major_fonts property
 second_title: Aspose.Words for Python
 description: "Theme.major_fonts property. Allows to specify the set of major fonts for different languages."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.themes/theme/major_fonts/
 ---
 

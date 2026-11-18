@@ -5,7 +5,7 @@ articleTitle: DocumentBuilderOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilderOptions class. Allows to specify additional options for the document building process."
 type: docs
-weight: 320
+weight: 6400
 url: /python-net/aspose.words/documentbuilderoptions/
 ---
 

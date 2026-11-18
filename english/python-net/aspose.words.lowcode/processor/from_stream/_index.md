@@ -5,7 +5,7 @@ articleTitle: from_stream method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Processor.from_stream method"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/processor/from_stream/
 ---
 

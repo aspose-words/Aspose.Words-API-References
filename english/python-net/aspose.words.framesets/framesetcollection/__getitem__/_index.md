@@ -5,7 +5,7 @@ articleTitle: FramesetCollection indexer
 second_title: Aspose.Words for Python
 description: "FramesetCollection indexer. Gets a frame or frames page at the specified index."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.framesets/framesetcollection/__getitem__/
 ---
 

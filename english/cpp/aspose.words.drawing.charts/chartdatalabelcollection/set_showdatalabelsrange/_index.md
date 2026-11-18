@@ -16,6 +16,9 @@ Allows to specify whether values from data labels range to be displayed in the d
 void Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_ShowDataLabelsRange(bool value)
 ```
 
+## Remarks
+
+ Value defined for this property can be overridden for an individual data label with using the [ShowDataLabelsRange](../../chartdatalabel/get_showdatalabelsrange/) property. 
 ## See Also
 
 * Class [ChartDataLabelCollection](../)

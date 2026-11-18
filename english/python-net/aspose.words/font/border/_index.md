@@ -5,7 +5,7 @@ articleTitle: border property
 second_title: Aspose.Words for Python
 description: "Font.border property. Returns a [Border](../../border/) object that specifies border for the font."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/font/border/
 ---
 

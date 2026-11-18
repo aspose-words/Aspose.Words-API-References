@@ -5,7 +5,7 @@ articleTitle: ChartDataLabelPosition enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartDataLabelPosition enumeration. Specifies the position for a chart data label."
 type: docs
-weight: 220
+weight: 4400
 url: /python-net/aspose.words.drawing.charts/chartdatalabelposition/
 ---
 

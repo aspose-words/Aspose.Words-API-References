@@ -16,12 +16,11 @@ Initializes a new instance of this class that can be used to save a document in 
 Aspose::Words::Saving::OoxmlSaveOptions::OoxmlSaveOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
-Shows how to set an OOXML compliance specification for a saved document to adhere to. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,7 +30,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
 builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
 
-ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage(), ShapeMarkupLanguage::Vml);
 
 // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
 // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
@@ -45,9 +44,8 @@ doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.Iso29500Strict.docx", saveOpti
 // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.Iso29500Strict.docx"));
 
-ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ((System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage(), ShapeMarkupLanguage::Dml);
 ```
-
 ## See Also
 
 * Class [OoxmlSaveOptions](../)
@@ -66,12 +64,11 @@ Aspose::Words::Saving::OoxmlSaveOptions::OoxmlSaveOptions(Aspose::Words::SaveFor
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | Aspose::Words::SaveFormat | Can be [Docx](../../../aspose.words/saveformat/), [Docm](../../../aspose.words/saveformat/), [Dotx](../../../aspose.words/saveformat/), [Dotm](../../../aspose.words/saveformat/) or [FlatOpc](../../../aspose.words/saveformat/). |
-
 ## Examples
 
 
+Shows how to support legacy control characters when converting to .docx.
 
-Shows how to support legacy control characters when converting to .docx. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Legacy control character.doc"));
 
@@ -88,12 +85,10 @@ doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.KeepLegacyControlChars.docx", 
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OoxmlSaveOptions.KeepLegacyControlChars.docx"));
 
-ASSERT_EQ(keepLegacyControlChars ? System::String(u"\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0015\f") : System::String(u"\u001e\f"), doc->get_FirstSection()->get_Body()->GetText());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->GetText(), keepLegacyControlChars ? System::String(u"\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0015\f") : System::String(u"\u001e\f"));
 ```
-
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

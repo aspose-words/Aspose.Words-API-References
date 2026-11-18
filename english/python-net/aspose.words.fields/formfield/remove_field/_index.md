@@ -5,7 +5,7 @@ articleTitle: remove_field method
 second_title: Aspose.Words for Python
 description: "FormField.remove_field method. Removes the complete form field, not just the form field special character."
 type: docs
-weight: 240
+weight: 7200
 url: /python-net/aspose.words.fields/formfield/remove_field/
 ---
 

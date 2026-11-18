@@ -5,7 +5,7 @@ articleTitle: as_field_bibliography method
 second_title: Aspose.Words for Python
 description: "Field.as_field_bibliography method. Cast Field to [FieldBibliography](../../fieldbibliography/)."
 type: docs
-weight: 230
+weight: 6900
 url: /python-net/aspose.words.fields/field/as_field_bibliography/
 ---
 

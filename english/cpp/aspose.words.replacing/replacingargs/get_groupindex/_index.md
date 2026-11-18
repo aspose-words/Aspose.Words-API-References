@@ -21,7 +21,7 @@ int32_t Aspose::Words::Replacing::ReplacingArgs::get_GroupIndex() const
 
 [GroupIndex](./) has effect only when [GroupName](../get_groupname/) is **null**.
 
-Default is zero. 
+Default is zero.
 ## See Also
 
 * Class [ReplacingArgs](../)

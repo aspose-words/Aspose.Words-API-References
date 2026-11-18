@@ -13,15 +13,14 @@ url: /cpp/aspose.words/headerfooter/get_isheader/
 True if this [HeaderFooter](../) object is a header.
 
 ```cpp
-bool Aspose::Words::HeaderFooter::get_IsHeader()
+_Bool Aspose::Words::HeaderFooter::get_IsHeader()
 ```
-
 
 ## Examples
 
 
+Shows how to create a header and a footer.
 
-Shows how to create a header and a footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -45,13 +44,12 @@ para = footer->AppendParagraph(u"My footer.");
 ASSERT_FALSE(footer->get_IsHeader());
 ASSERT_TRUE(para->get_IsEndOfHeaderFooter());
 
-ASPOSE_ASSERT_EQ(footer, para->get_ParentStory());
-ASPOSE_ASSERT_EQ(footer->get_ParentSection(), para->get_ParentSection());
-ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
+ASPOSE_ASSERT_EQ(para->get_ParentStory(), footer);
+ASPOSE_ASSERT_EQ(para->get_ParentSection(), footer->get_ParentSection());
+ASPOSE_ASSERT_EQ(header->get_ParentSection(), footer->get_ParentSection());
 
 doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
-
 ## See Also
 
 * Class [HeaderFooter](../)

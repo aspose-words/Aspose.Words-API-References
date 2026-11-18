@@ -5,7 +5,7 @@ articleTitle: tables property
 second_title: Aspose.Words for Python
 description: "InlineStory.tables property. Gets a collection of tables that are immediate children of the story."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/inlinestory/tables/
 ---
 

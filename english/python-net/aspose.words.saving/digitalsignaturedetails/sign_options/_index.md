@@ -5,7 +5,7 @@ articleTitle: sign_options property
 second_title: Aspose.Words for Python
 description: "DigitalSignatureDetails.sign_options property. Gets or sets a [DigitalSignatureDetails.sign_options](./) object used to sign a document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/digitalsignaturedetails/sign_options/
 ---
 

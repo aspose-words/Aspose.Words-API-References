@@ -5,7 +5,7 @@ articleTitle: FolderFontSource class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FolderFontSource class. Represents the folder that contains TrueType font files"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.fonts/folderfontsource/
 ---
 

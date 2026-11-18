@@ -5,7 +5,7 @@ articleTitle: save_format property
 second_title: Aspose.Words for Python
 description: "PsSaveOptions.save_format property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/pssaveoptions/save_format/
 ---
 

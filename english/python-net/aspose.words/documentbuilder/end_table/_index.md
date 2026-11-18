@@ -5,7 +5,7 @@ articleTitle: end_table method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.end_table method. Ends a table in the document."
 type: docs
-weight: 250
+weight: 7500
 url: /python-net/aspose.words/documentbuilder/end_table/
 ---
 

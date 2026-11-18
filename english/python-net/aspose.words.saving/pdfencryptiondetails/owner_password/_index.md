@@ -5,7 +5,7 @@ articleTitle: owner_password property
 second_title: Aspose.Words for Python
 description: "PdfEncryptionDetails.owner_password property. Specifies the owner password for the encrypted PDF document."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/pdfencryptiondetails/owner_password/
 ---
 

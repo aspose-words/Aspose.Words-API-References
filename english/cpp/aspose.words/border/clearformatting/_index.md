@@ -16,12 +16,14 @@ Resets border properties to default values.
 void Aspose::Words::Border::ClearFormatting()
 ```
 
+## Remarks
 
+ When border properties are reset to default values, the border is invisible. 
 ## Examples
 
 
+Shows how to remove borders from a paragraph.
 
-Shows how to remove borders from a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Borders.docx"));
 
@@ -29,9 +31,9 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // We can access the settings for the appearance of these borders via the paragraph format object.
 System::SharedPtr<Aspose::Words::BorderCollection> borders = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Borders();
 
-ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), borders->idx_get(0)->get_Color().ToArgb());
-ASPOSE_ASSERT_EQ(3.0, borders->idx_get(0)->get_LineWidth());
-ASSERT_EQ(LineStyle::Single, borders->idx_get(0)->get_LineStyle());
+ASSERT_EQ(borders->idx_get(0)->get_Color().ToArgb(), System::Drawing::Color::get_Red().ToArgb());
+ASPOSE_ASSERT_EQ(borders->idx_get(0)->get_LineWidth(), 3.0);
+ASSERT_EQ(borders->idx_get(0)->get_LineStyle(), LineStyle::Single);
 ASSERT_TRUE(borders->idx_get(0)->get_IsVisible());
 
 // We can remove a border at once by running the ClearFormatting method.
@@ -41,14 +43,13 @@ for (auto&& border : System::IterateOver(borders))
     border->ClearFormatting();
 }
 
-ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), borders->idx_get(0)->get_Color().ToArgb());
-ASPOSE_ASSERT_EQ(0.0, borders->idx_get(0)->get_LineWidth());
-ASSERT_EQ(LineStyle::None, borders->idx_get(0)->get_LineStyle());
+ASSERT_EQ(borders->idx_get(0)->get_Color().ToArgb(), System::Drawing::Color::Empty.ToArgb());
+ASPOSE_ASSERT_EQ(borders->idx_get(0)->get_LineWidth(), 0.0);
+ASSERT_EQ(borders->idx_get(0)->get_LineStyle(), LineStyle::None);
 ASSERT_FALSE(borders->idx_get(0)->get_IsVisible());
 
 doc->Save(get_ArtifactsDir() + u"Border.ClearFormatting.docx");
 ```
-
 ## See Also
 
 * Class [Border](../)

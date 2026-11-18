@@ -5,7 +5,7 @@ articleTitle: reject method
 second_title: Aspose.Words for Python
 description: "RevisionCollection.reject method. Rejects revisions that match specified criteria."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/revisioncollection/reject/
 ---
 

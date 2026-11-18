@@ -5,7 +5,7 @@ articleTitle: version property
 second_title: Aspose.Words for Python
 description: "WebExtensionReference.version property. Specifies the version of the web extension."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.webextensions/webextensionreference/version/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: update_ambiguous_text_font property
 second_title: Aspose.Words for Python
 description: "SaveOptions.update_ambiguous_text_font property. Determines whether the font attributes will be changed according to the character code being used."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: style_name property
 second_title: Aspose.Words for Python
 description: "Table.style_name property. Gets or sets the name of the table style applied to this table."
 type: docs
-weight: 290
+weight: 8700
 url: /python-net/aspose.words.tables/table/style_name/
 ---
 

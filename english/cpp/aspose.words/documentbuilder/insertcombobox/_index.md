@@ -13,14 +13,14 @@ url: /cpp/aspose.words/documentbuilder/insertcombobox/
 Inserts a combobox form field at the current position.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::DocumentBuilder::InsertComboBox(const System::String &name, const System::ArrayPtr<System::String> &items, int32_t selectedIndex)
+System::SharedPtr<Aspose::Words::Fields::FormField> Aspose::Words::DocumentBuilder::InsertComboBox(const System::String & name, const System::ArrayPtr<System::String> & items, int32_t selectedIndex)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const System::String\& | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
-| items | const System::ArrayPtr\<System::String\>\& | The items of the ComboBox. Maximum is 25 items. |
+| name | const System::String \& | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
+| items | const System::ArrayPtr\<System::String\> \& | The items of the ComboBox. Maximum is 25 items. |
 | selectedIndex | int32_t | The index of the selected item in the ComboBox. |
 
 ### ReturnValue
@@ -30,12 +30,11 @@ The form field node that was just inserted.
 
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
-
 ## Examples
 
 
+Shows how to create form fields.
 
-Shows how to create form fields. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
@@ -53,8 +52,8 @@ builder->InsertComboBox(u"My combo box", items, 0);
 builder->get_Document()->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateForm.docx");
 ```
 
+Shows how to insert a combo box form field into a document.
 
-Shows how to insert a combo box form field into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,10 +65,8 @@ builder->InsertComboBox(u"DropDown", items, 0);
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertComboBox.docx");
 ```
-
 ## See Also
 
-* Class [FormField](../../../aspose.words.fields/formfield/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

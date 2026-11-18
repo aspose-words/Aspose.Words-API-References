@@ -23,7 +23,7 @@ Individual bookmarks level could be specified using [BookmarksOutlineLevels](../
 
 Specify 0 and Word bookmarks will not be displayed in the document outline. Specify 1 and Word bookmarks will be displayed in the document outline at level 1; 2 for level 2 and so on.
 
-Default is 0. Valid range is 0 to 9. 
+Default is 0. Valid range is 0 to 9.
 ## See Also
 
 * Class [OutlineOptions](../)

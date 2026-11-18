@@ -20,20 +20,16 @@ class DigitalSignatureDetails : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [DigitalSignatureDetails](./digitalsignaturedetails/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) | Initializes a new instance of [DigitalSignatureDetails](./) class. |
+| [DigitalSignatureDetails](./digitalsignaturedetails/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) | Initializes a new instance of [DigitalSignatureDetails](./) class. |
 | [get_CertificateHolder](./get_certificateholder/)() const | Gets or sets a [CertificateHolder](./get_certificateholder/) object that contains the certificate used to sign a document. |
 | [get_SignOptions](./get_signoptions/)() const | Gets or sets a [SignOptions](./get_signoptions/) object used to sign a document. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_CertificateHolder](./set_certificateholder/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) | Setter for [Aspose::Words::Saving::DigitalSignatureDetails::get_CertificateHolder](./get_certificateholder/). |
-| [set_SignOptions](./set_signoptions/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) | Setter for [Aspose::Words::Saving::DigitalSignatureDetails::get_SignOptions](./get_signoptions/). |
-| static [Type](./type/)() |  |
-
+| [set_CertificateHolder](./set_certificateholder/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\> \&) | Sets a [CertificateHolder](./get_certificateholder/) object that contains the certificate used to sign a document. |
+| [set_SignOptions](./set_signoptions/)(const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\> \&) | Sets a [SignOptions](./get_signoptions/) object used to sign a document. |
 ## Examples
 
 
+Shows how to sign OOXML document.
 
-Shows how to sign OOXML document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -46,12 +42,11 @@ auto digitalSignatureDetails = System::MakeObject<Aspose::Words::Saving::Digital
 auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
 saveOptions->set_DigitalSignatureDetails(digitalSignatureDetails);
 
-ASPOSE_ASSERT_EQ(certificateHolder, digitalSignatureDetails->get_CertificateHolder());
-ASSERT_EQ(u"Some comments", digitalSignatureDetails->get_SignOptions()->get_Comments());
+ASPOSE_ASSERT_EQ(digitalSignatureDetails->get_CertificateHolder(), certificateHolder);
+ASSERT_EQ(digitalSignatureDetails->get_SignOptions()->get_Comments(), u"Some comments");
 
 doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

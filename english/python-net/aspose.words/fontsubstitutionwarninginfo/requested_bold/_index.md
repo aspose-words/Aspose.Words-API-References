@@ -5,7 +5,7 @@ articleTitle: requested_bold property
 second_title: Aspose.Words for Python
 description: "FontSubstitutionWarningInfo.requested_bold property. Indicates whether bold style was requested."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/fontsubstitutionwarninginfo/requested_bold/
 ---
 

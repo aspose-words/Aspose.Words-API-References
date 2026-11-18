@@ -5,7 +5,7 @@ articleTitle: complex_script property
 second_title: Aspose.Words for Python
 description: "ThemeFonts.complex_script property. Specifies font name for ComplexScript characters."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.themes/themefonts/complex_script/
 ---
 

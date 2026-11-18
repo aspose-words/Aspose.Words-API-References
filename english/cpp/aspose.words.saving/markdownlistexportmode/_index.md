@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/markdownlistexportmode/
 Specifies how lists are exported into Markdown.
 
 ```cpp
-enum class MarkdownListExportMode
+enum class MarkdownListExportMode : int
 ```
 
 ### Values
@@ -23,12 +23,11 @@ enum class MarkdownListExportMode
 | MarkdownSyntax | 0 | Export list items compatible with Markdown syntax. |
 | PlainText | 1 | Export list items as plain text. |
 
-
 ## Examples
 
 
+Shows how to list items will be written to the markdown document.
 
-Shows how to list items will be written to the markdown document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
 
@@ -37,7 +36,6 @@ auto options = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
 options->set_ListExportMode(markdownListExportMode);
 doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ListExportMode.md", options);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -5,7 +5,7 @@ articleTitle: Body constructor
 second_title: Aspose.Words for Python
 description: "Body constructor. Initializes a new instance of the [Body](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/body/__init__/
 ---
 

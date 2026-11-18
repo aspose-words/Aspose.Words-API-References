@@ -4,7 +4,7 @@ linktitle: get_IsMoveFromRevision
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_IsMoveFromRevision method. Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 33000
+weight: 61520
 url: /cpp/aspose.words.drawing/shapebase/get_ismovefromrevision/
 ---
 ## ShapeBase::get_IsMoveFromRevision method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing/shapebase/get_ismovefromrevision/
 Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
 ```cpp
-bool Aspose::Words::Drawing::ShapeBase::get_IsMoveFromRevision()
+_Bool Aspose::Words::Drawing::ShapeBase::get_IsMoveFromRevision()
 ```
-
 
 ## Examples
 
 
+Shows how to identify move revision shapes.
 
-Shows how to identify move revision shapes. 
 ```cpp
 // A move revision is when we move an element in the document body by cut-and-pasting it in Microsoft Word while
 // tracking changes. If we involve an inline shape in such a text movement, that shape will also be a revision.
@@ -32,7 +31,7 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 // but until we accept or reject the move revision, there will be two instances of that shape.
 System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape>>()->LINQ_ToArray();
 
-ASSERT_EQ(2, shapes->get_Length());
+ASSERT_EQ(shapes->get_Length(), 2);
 
 // This is the "Move to" revision, which is the shape at its arrival destination.
 // If we accept the revision, this "Move to" revision shape will disappear,
@@ -46,7 +45,6 @@ ASSERT_TRUE(shapes[0]->get_IsMoveToRevision());
 ASSERT_TRUE(shapes[1]->get_IsMoveFromRevision());
 ASSERT_FALSE(shapes[1]->get_IsMoveToRevision());
 ```
-
 ## See Also
 
 * Class [ShapeBase](../)

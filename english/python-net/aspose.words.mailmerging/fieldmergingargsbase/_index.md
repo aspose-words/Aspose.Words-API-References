@@ -5,7 +5,7 @@ articleTitle: FieldMergingArgsBase class
 second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.FieldMergingArgsBase class. Base class for [FieldMergingArgs](../fieldmergingargs/) and [ImageFieldMergingArgs](../imagefieldmergingargs/)"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 

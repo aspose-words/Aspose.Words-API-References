@@ -5,7 +5,7 @@ articleTitle: tag property
 second_title: Aspose.Words for Python
 description: "Source.tag property. Gets or sets the identifying tag name of a source."
 type: docs
-weight: 450
+weight: 13500
 url: /python-net/aspose.words.bibliography/source/tag/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ContentDisposition enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.ContentDisposition enumeration. Enumerates different ways of presenting the document at the client browser."
 type: docs
-weight: 260
+weight: 5200
 url: /python-net/aspose.words/contentdisposition/
 ---
 

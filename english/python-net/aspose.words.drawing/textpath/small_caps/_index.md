@@ -5,7 +5,7 @@ articleTitle: small_caps property
 second_title: Aspose.Words for Python
 description: "TextPath.small_caps property. True if the font is formatted as small capital letters."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.drawing/textpath/small_caps/
 ---
 

@@ -16,18 +16,16 @@ Removes external XML schema references from this document.
 void Aspose::Words::Document::RemoveExternalSchemaReferences()
 ```
 
-
 ## Examples
 
 
+Shows how to remove all external XML schema references from a document.
 
-Shows how to remove all external XML schema references from a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"External XML schema.docx"));
 
 doc->RemoveExternalSchemaReferences();
 ```
-
 ## See Also
 
 * Class [Document](../)

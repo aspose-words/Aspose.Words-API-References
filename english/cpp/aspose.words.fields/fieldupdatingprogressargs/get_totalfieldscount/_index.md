@@ -16,6 +16,9 @@ Gets the total fields count to be updated.
 int32_t Aspose::Words::Fields::FieldUpdatingProgressArgs::get_TotalFieldsCount() const
 ```
 
+## Remarks
+
+ The value is not constant and may be increased during updating process. 
 ## See Also
 
 * Class [FieldUpdatingProgressArgs](../)

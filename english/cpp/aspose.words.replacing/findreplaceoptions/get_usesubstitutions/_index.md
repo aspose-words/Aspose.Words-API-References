@@ -13,15 +13,17 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_usesubstitutions/
 Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions() const
+_Bool Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions() const
 ```
 
+## Remarks
 
+ For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions. 
 ## Examples
 
 
+Shows how to recognize and use substitutions within replacement patterns.
 
-Shows how to recognize and use substitutions within replacement patterns. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -38,11 +40,11 @@ options->set_LegacyMode(false);
 
 doc->get_Range()->Replace(regex, u"$2 took money from $1", options);
 
-ASSERT_EQ(doc->GetText(), u"Paul took money from Jason.\f");
+ASSERT_EQ(u"Paul took money from Jason.\f", doc->GetText());
 ```
 
+Shows how to replace the text with substitutions.
 
-Shows how to replace the text with substitutions. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,9 +63,8 @@ options->set_UseSubstitutions(useSubstitutions);
 auto regex = System::MakeObject<System::Text::RegularExpressions::Regex>(u"([A-z]+) sold a ([A-z]+) to ([A-z]+)");
 doc->get_Range()->Replace(regex, u"$3 bought a $2 from $1", options);
 
-ASSERT_EQ(useSubstitutions ? System::String(u"Paul bought a car from John.\rJoe bought a house from Jane.") : System::String(u"$3 bought a $2 from $1.\r$3 bought a $2 from $1."), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), useSubstitutions ? System::String(u"Paul bought a car from John.\rJoe bought a house from Jane.") : System::String(u"$3 bought a $2 from $1.\r$3 bought a $2 from $1."));
 ```
-
 ## See Also
 
 * Class [FindReplaceOptions](../)

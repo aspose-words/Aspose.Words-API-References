@@ -13,7 +13,7 @@ url: /cpp/aspose.words/idocumentprocessorplugin/settextwatermark/
 Adds text watermark on each page of the document loaded by [Load()](../load/) method.
 
 ```cpp
-virtual void Aspose::Words::IDocumentProcessorPlugin::SetTextWatermark(System::String textWatermark, System::SharedPtr<Aspose::Words::TextWatermarkOptions> textWatermarkOptions)=0
+virtual void Aspose::Words::IDocumentProcessorPlugin::SetTextWatermark(System::String textWatermark, System::SharedPtr<Aspose::Words::TextWatermarkOptions> textWatermarkOptions)
 ```
 
 
@@ -21,10 +21,8 @@ virtual void Aspose::Words::IDocumentProcessorPlugin::SetTextWatermark(System::S
 | --- | --- | --- |
 | textWatermark | System::String | Text used as a watermark. |
 | textWatermarkOptions | System::SharedPtr\<Aspose::Words::TextWatermarkOptions\> | Text watermark options. |
-
 ## See Also
 
-* Class [TextWatermarkOptions](../../textwatermarkoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

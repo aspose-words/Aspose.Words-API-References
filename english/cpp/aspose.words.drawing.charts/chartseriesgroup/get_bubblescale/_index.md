@@ -22,12 +22,11 @@ int32_t Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_BubbleScale()
 Applies only to series groups of the [Bubble](../../chartseriestype/) and [Bubble3D](../../chartseriestype/) types.
 
 The range of acceptable values is from 0 to 300 inclusive. The default value is 100.
-
 ## Examples
 
 
+Show how to set size of the bubbles.
 
-Show how to set size of the bubbles. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +40,6 @@ seriesGroup->set_BubbleScale(200);
 
 doc->Save(get_ArtifactsDir() + u"Charts.BubbleScale.docx");
 ```
-
 ## See Also
 
 * Class [ChartSeriesGroup](../)

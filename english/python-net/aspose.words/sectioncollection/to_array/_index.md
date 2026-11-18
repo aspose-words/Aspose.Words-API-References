@@ -5,7 +5,7 @@ articleTitle: to_array method
 second_title: Aspose.Words for Python
 description: "SectionCollection.to_array method. Copies all sections from the collection to a new array of sections."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/sectioncollection/to_array/
 ---
 

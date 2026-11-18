@@ -19,10 +19,9 @@ void Aspose::Words::Drawing::Stroke::set_StartArrowLength(Aspose::Words::Drawing
 ## Remarks
 
 
-The default value is [Medium](../../arrowlength/). 
+The default value is [Medium](../../arrowlength/).
 ## See Also
 
-* Enum [ArrowLength](../../arrowlength/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

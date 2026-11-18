@@ -2,7 +2,7 @@
 title: Aspose::Words::WebExtensions::WebExtensionBindingCollection class
 linktitle: WebExtensionBindingCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::WebExtensions::WebExtensionBindingCollection class. Specifies a list of web extension bindings. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::WebExtensions::WebExtensionBindingCollection class. Specifies a list of web extension bindings. To learn more, visit the Work with Office Add-ins documentation article in C++.'
 type: docs
 weight: 6000
 url: /cpp/aspose.words.webextensions/webextensionbindingcollection/
@@ -10,26 +10,29 @@ url: /cpp/aspose.words.webextensions/webextensionbindingcollection/
 ## WebExtensionBindingCollection class
 
 
-Specifies a list of web extension bindings. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
+Specifies a list of web extension bindings. 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/cpp/work-with-office-add-ins/) documentation article.
 
 ```cpp
-class WebExtensionBindingCollection : public Aspose::Words::WebExtensions::BaseWebExtensionCollection<System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionBinding>>
+class WebExtensionBindingCollection : public BaseWebExtensionCollection<System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionBinding>>
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [SetTemplateWeakPtr](./settemplateweakptr/)(uint32_t) override |  |
-| static [Type](./type/)() |  |
-
+| [Add](../basewebextensioncollection/add/)(T) | Adds specified item to the collection. |
+| [Clear](../basewebextensioncollection/clear/)() | Removes all elements from the collection. |
+| [GetEnumerator](../basewebextensioncollection/getenumerator/)() | Returns an enumerator that can iterate through a collection. |
+| [Remove](../basewebextensioncollection/remove/)(int32_t) | Removes the item at the specified index from the collection. |
+| [get_Count](../basewebextensioncollection/get_count/)() | Gets the number of elements contained in the collection. |
+| [idx_get](../basewebextensioncollection/idx_get/)(int32_t) | Gets or sets an item at the specified index. |
+| [idx_set](../basewebextensioncollection/idx_set/)(int32_t, T) | Gets or sets an item at the specified index. |
 ## Examples
 
 
+Shows how to add a web extension to a document.
 
-Shows how to add a web extension to a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -65,36 +68,35 @@ doc->Save(get_ArtifactsDir() + u"Document.WebExtension.docx");
 // Remove all web extension task panes at once like this.
 doc->get_WebExtensionTaskPanes()->Clear();
 
-ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
+ASSERT_EQ(doc->get_WebExtensionTaskPanes()->get_Count(), 0);
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"Document.WebExtension.docx"));
 
 myScriptTaskPane = doc->get_WebExtensionTaskPanes()->idx_get(0);
-ASSERT_EQ(TaskPaneDockState::Right, myScriptTaskPane->get_DockState());
+ASSERT_EQ(myScriptTaskPane->get_DockState(), TaskPaneDockState::Right);
 ASSERT_TRUE(myScriptTaskPane->get_IsVisible());
-ASPOSE_ASSERT_EQ(300.0, myScriptTaskPane->get_Width());
+ASPOSE_ASSERT_EQ(myScriptTaskPane->get_Width(), 300.0);
 ASSERT_TRUE(myScriptTaskPane->get_IsLocked());
-ASSERT_EQ(1, myScriptTaskPane->get_Row());
+ASSERT_EQ(myScriptTaskPane->get_Row(), 1);
 
 webExtension = myScriptTaskPane->get_WebExtension();
-ASSERT_EQ(System::String::Empty, webExtension->get_Id());
+ASSERT_EQ(webExtension->get_Id(), System::String::Empty);
 
-ASSERT_EQ(u"WA104380646", webExtension->get_Reference()->get_Id());
-ASSERT_EQ(u"1.0.0.0", webExtension->get_Reference()->get_Version());
-ASSERT_EQ(WebExtensionStoreType::OMEX, webExtension->get_Reference()->get_StoreType());
-ASSERT_EQ(System::Globalization::CultureInfo::get_CurrentCulture()->get_Name(), webExtension->get_Reference()->get_Store());
-ASSERT_EQ(0, webExtension->get_AlternateReferences()->get_Count());
+ASSERT_EQ(webExtension->get_Reference()->get_Id(), u"WA104380646");
+ASSERT_EQ(webExtension->get_Reference()->get_Version(), u"1.0.0.0");
+ASSERT_EQ(webExtension->get_Reference()->get_StoreType(), WebExtensionStoreType::OMEX);
+ASSERT_EQ(webExtension->get_Reference()->get_Store(), System::Globalization::CultureInfo::get_CurrentCulture()->get_Name());
+ASSERT_EQ(webExtension->get_AlternateReferences()->get_Count(), 0);
 
-ASSERT_EQ(u"MyScript", webExtension->get_Properties()->idx_get(0)->get_Name());
-ASSERT_EQ(u"MyScript Math Sample", webExtension->get_Properties()->idx_get(0)->get_Value());
+ASSERT_EQ(webExtension->get_Properties()->idx_get(0)->get_Name(), u"MyScript");
+ASSERT_EQ(webExtension->get_Properties()->idx_get(0)->get_Value(), u"MyScript Math Sample");
 
-ASSERT_EQ(u"MyScript", webExtension->get_Bindings()->idx_get(0)->get_Id());
-ASSERT_EQ(WebExtensionBindingType::Text, webExtension->get_Bindings()->idx_get(0)->get_BindingType());
-ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
+ASSERT_EQ(webExtension->get_Bindings()->idx_get(0)->get_Id(), u"MyScript");
+ASSERT_EQ(webExtension->get_Bindings()->idx_get(0)->get_BindingType(), WebExtensionBindingType::Text);
+ASSERT_EQ(webExtension->get_Bindings()->idx_get(0)->get_AppRef(), u"104380646");
 
 ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
-
 ## See Also
 
 * Class [BaseWebExtensionCollection](../basewebextensioncollection/)

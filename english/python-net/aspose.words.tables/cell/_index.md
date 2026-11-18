@@ -5,7 +5,7 @@ articleTitle: Cell class
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.Cell class. Represents a table cell"
 type: docs
-weight: 20
+weight: 400
 url: /python-net/aspose.words.tables/cell/
 ---
 

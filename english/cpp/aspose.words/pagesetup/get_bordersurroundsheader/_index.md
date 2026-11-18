@@ -13,15 +13,17 @@ url: /cpp/aspose.words/pagesetup/get_bordersurroundsheader/
 Specifies whether the page border includes or excludes the header.
 
 ```cpp
-bool Aspose::Words::PageSetup::get_BorderSurroundsHeader()
+_Bool Aspose::Words::PageSetup::get_BorderSurroundsHeader()
 ```
 
+## Remarks
 
+ Note, changing this property affects all sections in the document. 
 ## Examples
 
 
+Shows how to apply a border to the page and header/footer.
 
-Shows how to apply a border to the page and header/footer. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -47,7 +49,6 @@ pageSetup->set_BorderSurroundsFooter(false);
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorder.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

@@ -5,7 +5,7 @@ articleTitle: is_vertical_formatting property
 second_title: Aspose.Words for Python
 description: "FieldMergeField.is_vertical_formatting property. Gets or sets whether to enable character conversion for vertical formatting."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.fields/fieldmergefield/is_vertical_formatting/
 ---
 

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldseparator/accept/
 Accepts a visitor.
 
 ```cpp
-bool Aspose::Words::Fields::FieldSeparator::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+_Bool Aspose::Words::Fields::FieldSeparator::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -23,17 +23,15 @@ bool Aspose::Words::Fields::FieldSeparator::Accept(System::SharedPtr<Aspose::Wor
 
 ### ReturnValue
 
-**False** if the visitor requested the enumeration to stop.
+False if the visitor requested the enumeration to stop.
 ## Remarks
 
 
 Calls [VisitFieldSeparator()](../../../aspose.words/documentvisitor/visitfieldseparator/).
 
 For more info see the Visitor design pattern.
-
 ## See Also
 
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [FieldSeparator](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -5,7 +5,7 @@ articleTitle: as_field_symbol method
 second_title: Aspose.Words for Python
 description: "Field.as_field_symbol method. Cast Field to [FieldSymbol](../../fieldsymbol/)."
 type: docs
-weight: 930
+weight: 27900
 url: /python-net/aspose.words.fields/field/as_field_symbol/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: presetTextured method
 second_title: Aspose.Words for Node.js
 description: "Fill.presetTextured method. Sets the fill to a preset texture."
 type: docs
-weight: 240
+weight: 270
 url: /nodejs-net/aspose.words.drawing/fill/presetTextured/
 ---
 

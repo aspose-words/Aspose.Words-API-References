@@ -5,7 +5,7 @@ articleTitle: Table constructor
 second_title: Aspose.Words for Python
 description: "Table constructor. Initializes a new instance of the [Table](../) class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.tables/table/__init__/
 ---
 

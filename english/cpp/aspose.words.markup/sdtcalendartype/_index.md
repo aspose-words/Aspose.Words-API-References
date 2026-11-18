@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/sdtcalendartype/
 Specifies the possible types of calendars which can be used to specify [CalendarType](../structureddocumenttag/get_calendartype/) in an Office Open XML document.
 
 ```cpp
-enum class SdtCalendarType
+enum class SdtCalendarType : int
 ```
 
 ### Values
@@ -36,12 +36,11 @@ enum class SdtCalendarType
 | Taiwan | 12 | Specifies that the Taiwanese calendar, as defined by the Chinese National Standard CNS 7648, shall be used. |
 | Thai | 13 | Specifies that the Thai calendar, as defined by the Royal Decree of H.M. King Vajiravudh (Rama VI) in Royal Gazette B. E. 2456 (1913 A.D.) and by the decree of Prime Minister Phibunsongkhram (1941 A.D.) to start the year on the Gregorian January 1 and to map year zero to Gregorian year 543 B.C., shall be used. |
 
-
 ## Examples
 
 
+Shows how to prompt the user to enter a date with a structured document tag.
 
-Shows how to prompt the user to enter a date with a structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -71,7 +70,6 @@ builder->InsertNode(sdtDate);
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

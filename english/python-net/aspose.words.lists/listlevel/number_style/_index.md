@@ -5,7 +5,7 @@ articleTitle: number_style property
 second_title: Aspose.Words for Python
 description: "ListLevel.number_style property. Returns or sets the number style for this list level."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.lists/listlevel/number_style/
 ---
 

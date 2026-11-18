@@ -5,7 +5,7 @@ articleTitle: insert_combo_box method
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.insert_combo_box method. Inserts a combobox form field at the current position."
 type: docs
-weight: 300
+weight: 9000
 url: /python-net/aspose.words/documentbuilder/insert_combo_box/
 ---
 

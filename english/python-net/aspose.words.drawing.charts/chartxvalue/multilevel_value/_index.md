@@ -5,7 +5,7 @@ articleTitle: multilevel_value property
 second_title: Aspose.Words for Python
 description: "ChartXValue.multilevel_value property. Gets the stored multilevel value."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartxvalue/multilevel_value/
 ---
 

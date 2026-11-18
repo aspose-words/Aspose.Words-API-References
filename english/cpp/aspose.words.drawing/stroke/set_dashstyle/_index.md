@@ -19,10 +19,9 @@ void Aspose::Words::Drawing::Stroke::set_DashStyle(Aspose::Words::Drawing::DashS
 ## Remarks
 
 
-The default value is [Solid](../../dashstyle/). 
+The default value is [Solid](../../dashstyle/).
 ## See Also
 
-* Enum [DashStyle](../../dashstyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

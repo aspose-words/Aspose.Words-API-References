@@ -13,14 +13,13 @@ url: /cpp/aspose.words.drawing/shadowtype/
 Specifies the type of a shape shadow.
 
 ```cpp
-enum class ShadowType
+enum class ShadowType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ShadowMixed | -2 | None of predefined shadow presets. |
 | Shadow1 | 1 | First shadow type. |
 | Shadow10 | 10 | Tenth shadow type. |
 | Shadow11 | 11 | Eleventh shadow type. |
@@ -64,13 +63,16 @@ enum class ShadowType
 | Shadow7 | 7 | Seventh shadow type. |
 | Shadow8 | 8 | Eighth shadow type. |
 | Shadow9 | 9 | Ninth shadow type. |
+| ShadowMixed | -2 | None of predefined shadow presets. |
 
+## Remarks
 
+ ShadowType is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance. 
 ## Examples
 
 
+Shows how to work with a shadow formatting for the shape.
 
-Shows how to work with a shadow formatting for the shape. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Shape stroke pattern border.docx"));
 auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
@@ -85,7 +87,6 @@ if (shape->get_ShadowFormat()->get_Type() == ShadowType::ShadowMixed)
     shape->get_ShadowFormat()->Clear();
 }
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

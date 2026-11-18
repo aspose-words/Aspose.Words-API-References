@@ -5,7 +5,7 @@ articleTitle: timeout property
 second_title: Aspose.Words for Python
 description: "AiModel.timeout property. Gets or sets the number of milliseconds to wait before the request to AI model times out"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.ai/aimodel/timeout/
 ---
 

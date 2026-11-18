@@ -5,7 +5,7 @@ articleTitle: is_dirty property
 second_title: Aspose.Words for Python
 description: "FieldChar.is_dirty property. Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldchar/is_dirty/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: HeaderFooterCollection indexer
 second_title: Aspose.Words for Python
 description: "HeaderFooterCollection indexer. Retrieves a [HeaderFooter](../../headerfooter/) at the given index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/headerfootercollection/__getitem__/
 ---
 

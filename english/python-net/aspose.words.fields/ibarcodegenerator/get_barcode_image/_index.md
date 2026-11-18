@@ -5,7 +5,7 @@ articleTitle: get_barcode_image method
 second_title: Aspose.Words for Python
 description: "IBarcodeGenerator.get_barcode_image method. Generate barcode image using the set of parameters (for DisplayBarcode field)."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/ibarcodegenerator/get_barcode_image/
 ---
 

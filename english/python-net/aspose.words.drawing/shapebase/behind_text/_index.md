@@ -5,7 +5,7 @@ articleTitle: behind_text property
 second_title: Aspose.Words for Python
 description: "ShapeBase.behind_text property. Specifies whether the shape is below or above text."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.drawing/shapebase/behind_text/
 ---
 

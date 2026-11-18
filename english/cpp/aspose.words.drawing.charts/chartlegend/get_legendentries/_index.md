@@ -16,12 +16,11 @@ Returns a collection of legend entries for all series and trendlines of the pare
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegendEntryCollection> Aspose::Words::Drawing::Charts::ChartLegend::get_LegendEntries() const
 ```
 
-
 ## Examples
 
 
+Shows how to work with a legend entry for chart series.
 
-Shows how to work with a legend entry for chart series. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,10 +43,8 @@ legendEntries->idx_get(3)->set_IsHidden(true);
 
 doc->Save(get_ArtifactsDir() + u"Charts.LegendEntries.docx");
 ```
-
 ## See Also
 
-* Class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * Class [ChartLegend](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -5,7 +5,7 @@ articleTitle: punctuation_kerning property
 second_title: Aspose.Words for Python
 description: "Document.punctuation_kerning property. Specifies whether kerning applies to both Latin text and punctuation."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words/document/punctuation_kerning/
 ---
 

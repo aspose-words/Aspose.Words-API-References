@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/ibibliographystylesprovider/
 Implement this interface to provide bibliography style for the [FieldBibliography](../fieldbibliography/) and [FieldCitation](../fieldcitation/) fields when they're updated.
 
 ```cpp
-class IBibliographyStylesProvider : public virtual System::Object
+class IBibliographyStylesProvider : public System::Object
 ```
 
 ## Methods
@@ -21,9 +21,6 @@ class IBibliographyStylesProvider : public virtual System::Object
 | Method | Description |
 | --- | --- |
 | virtual [GetStyle](./getstyle/)(System::String) | Returns bibliography style. |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

@@ -4,7 +4,7 @@ linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::ConditionalStyle::get_Type method. Gets table area to which this conditional style relates in C++.'
 type: docs
-weight: 12000
+weight: 15700
 url: /cpp/aspose.words/conditionalstyle/get_type/
 ---
 ## ConditionalStyle::get_Type method
@@ -16,12 +16,11 @@ Gets table area to which this conditional style relates.
 Aspose::Words::ConditionalStyleType Aspose::Words::ConditionalStyle::get_Type()
 ```
 
-
 ## Examples
 
 
+Shows how to work with certain area styles of a table.
 
-Shows how to work with certain area styles of a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +49,7 @@ tableStyle->get_ConditionalStyles()->idx_get(ConditionalStyleType::FirstRow)->ge
 // 2 -  By index:
 tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_Color(System::Drawing::Color::get_Black());
 tableStyle->get_ConditionalStyles()->idx_get(0)->get_Borders()->set_LineStyle(LineStyle::DotDash);
-ASSERT_EQ(ConditionalStyleType::FirstRow, tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type());
+ASSERT_EQ(tableStyle->get_ConditionalStyles()->idx_get(0)->get_Type(), ConditionalStyleType::FirstRow);
 
 // 3 -  As a property:
 tableStyle->get_ConditionalStyles()->get_FirstRow()->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
@@ -79,17 +78,15 @@ tableStyle->get_ConditionalStyles()->get_LastColumn()->get_Font()->set_Bold(true
 table->set_Style(tableStyle);
 
 // Our style applies some conditional styles by default.
-ASSERT_EQ(TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands, table->get_StyleOptions());
+ASSERT_EQ(table->get_StyleOptions(), TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands);
 
 // We will need to enable all other styles ourselves via the "StyleOptions" property.
 table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::LastRow | TableStyleOptions::LastColumn);
 
 doc->Save(get_ArtifactsDir() + u"Table.ConditionalStyles.docx");
 ```
-
 ## See Also
 
-* Enum [ConditionalStyleType](../../conditionalstyletype/)
 * Class [ConditionalStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

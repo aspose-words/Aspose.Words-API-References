@@ -13,15 +13,14 @@ url: /cpp/aspose.words.tables/rowformat/get_allowbreakacrosspages/
 True if the text in a table row is allowed to split across a page break.
 
 ```cpp
-bool Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages()
+_Bool Aspose::Words::Tables::RowFormat::get_AllowBreakAcrossPages()
 ```
-
 
 ## Examples
 
 
+Shows how to disable rows breaking across pages for every row in a table.
 
-Shows how to disable rows breaking across pages for every row in a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table spanning two pages.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -37,7 +36,6 @@ for (auto&& row : System::IterateOver<Aspose::Words::Tables::Row>(table))
 
 doc->Save(get_ArtifactsDir() + u"Table.AllowBreakAcrossPages.docx");
 ```
-
 ## See Also
 
 * Class [RowFormat](../)

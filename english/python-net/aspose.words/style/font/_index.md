@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "Style.font property. Gets the character formatting of the style."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/style/font/
 ---
 

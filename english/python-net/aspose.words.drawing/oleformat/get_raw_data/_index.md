@@ -5,7 +5,7 @@ articleTitle: get_raw_data method
 second_title: Aspose.Words for Python
 description: "OleFormat.get_raw_data method. Gets OLE object raw data."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.drawing/oleformat/get_raw_data/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ShapeBase class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ShapeBase class. Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture"
 type: docs
-weight: 370
+weight: 7400
 url: /python-net/aspose.words.drawing/shapebase/
 ---
 

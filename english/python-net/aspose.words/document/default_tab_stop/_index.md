@@ -5,7 +5,7 @@ articleTitle: default_tab_stop property
 second_title: Aspose.Words for Python
 description: "Document.default_tab_stop property. Gets or sets the interval (in points) between the default tab stops."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words/document/default_tab_stop/
 ---
 

@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::ImageSaveOptions::set_ThresholdForFloydSteinbergDithering method
 linktitle: set_ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::ImageSaveOptions::set_ThresholdForFloydSteinbergDithering method. Setter for Aspose::Words::Saving::ImageSaveOptions::get_ThresholdForFloydSteinbergDithering in C++.'
+description: 'Aspose::Words::Saving::ImageSaveOptions::set_ThresholdForFloydSteinbergDithering method. Sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when ImageBinarizationMethod is FloydSteinbergDithering in C++.'
 type: docs
 weight: 33000
 url: /cpp/aspose.words.saving/imagesaveoptions/set_thresholdforfloydsteinbergdithering/
@@ -10,12 +10,40 @@ url: /cpp/aspose.words.saving/imagesaveoptions/set_thresholdforfloydsteinbergdit
 ## ImageSaveOptions::set_ThresholdForFloydSteinbergDithering method
 
 
-Setter for [Aspose::Words::Saving::ImageSaveOptions::get_ThresholdForFloydSteinbergDithering](../get_thresholdforfloydsteinbergdithering/).
+Sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../../imagebinarizationmethod/) is [FloydSteinbergDithering](../../imagebinarizationmethod/).
 
 ```cpp
 void Aspose::Words::Saving::ImageSaveOptions::set_ThresholdForFloydSteinbergDithering(uint8_t value)
 ```
 
+## Remarks
+
+
+The default value is 128.
+## Examples
+
+
+Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Heading 1"));
+builder->Writeln(u"Hello world!");
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+
+// When we save the document as a TIFF, we can pass a SaveOptions object to
+// adjust the dithering that Aspose.Words will apply when rendering this image.
+// The default value of the "ThresholdForFloydSteinbergDithering" property is 128.
+// Higher values tend to produce darker images.
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Tiff);
+options->set_TiffCompression(TiffCompression::Ccitt3);
+options->set_TiffBinarizationMethod(ImageBinarizationMethod::FloydSteinbergDithering);
+options->set_ThresholdForFloydSteinbergDithering(240);
+
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.FloydSteinbergDithering.tiff", options);
+```
 ## See Also
 
 * Class [ImageSaveOptions](../)

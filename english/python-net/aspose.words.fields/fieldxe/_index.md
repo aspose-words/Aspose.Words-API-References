@@ -5,7 +5,7 @@ articleTitle: FieldXE class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldXE class. Implements the XE field"
 type: docs
-weight: 1150
+weight: 23000
 url: /python-net/aspose.words.fields/fieldxe/
 ---
 

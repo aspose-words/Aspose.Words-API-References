@@ -5,7 +5,7 @@ articleTitle: dock_state property
 second_title: Aspose.Words for Python
 description: "TaskPane.dock_state property. Specifies the last-docked location of this task pane object."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.webextensions/taskpane/dock_state/
 ---
 

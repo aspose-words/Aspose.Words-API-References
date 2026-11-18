@@ -5,7 +5,7 @@ articleTitle: delete_cell_color property
 second_title: Aspose.Words for Python
 description: "RevisionOptions.delete_cell_color property. Allows to specify the color to be used for deleted cells [RevisionType.DELETION](../../../aspose.words/revisiontype/#DELETION)"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.layout/revisionoptions/delete_cell_color/
 ---
 

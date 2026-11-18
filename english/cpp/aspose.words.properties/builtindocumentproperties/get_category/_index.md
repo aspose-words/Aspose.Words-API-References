@@ -16,12 +16,11 @@ Gets or sets the category of the document.
 System::String Aspose::Words::Properties::BuiltInDocumentProperties::get_Category()
 ```
 
-
 ## Examples
 
 
+Shows how to work with built-in document properties in the "Description" category.
 
-Shows how to work with built-in document properties in the "Description" category. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -59,7 +58,6 @@ properties->set_Keywords(u"Tag 1; Tag 2; Tag 3");
 // The "Author" built-in property is in the "Origin" group, and the others are in the "Description" group.
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Description.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

@@ -5,7 +5,7 @@ articleTitle: folder_path property
 second_title: Aspose.Words for Python
 description: "FolderFontSource.folder_path property. Path to the folder."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fonts/folderfontsource/folder_path/
 ---
 

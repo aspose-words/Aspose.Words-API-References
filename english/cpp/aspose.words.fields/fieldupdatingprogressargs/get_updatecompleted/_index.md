@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldupdatingprogressargs/get_updatecompleted/
 Gets a value indicating whether field updating is completed.
 
 ```cpp
-bool Aspose::Words::Fields::FieldUpdatingProgressArgs::get_UpdateCompleted() const
+_Bool Aspose::Words::Fields::FieldUpdatingProgressArgs::get_UpdateCompleted() const
 ```
 
 ## See Also

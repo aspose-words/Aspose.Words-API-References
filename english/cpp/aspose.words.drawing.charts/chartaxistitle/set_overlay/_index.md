@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartAxisTitle::set_Overlay method
 linktitle: set_Overlay
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::set_Overlay method. Setter for Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Overlay in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::set_Overlay method. Determines whether other chart elements shall be allowed to overlap the title. The default value is false in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/set_overlay/
@@ -10,12 +10,42 @@ url: /cpp/aspose.words.drawing.charts/chartaxistitle/set_overlay/
 ## ChartAxisTitle::set_Overlay method
 
 
-Setter for [Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Overlay](../get_overlay/).
+Determines whether other chart elements shall be allowed to overlap the title. The default value is **false**.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartAxisTitle::set_Overlay(bool value)
 ```
 
+## Examples
+
+
+Shows how to set chart axis title.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Column, static_cast<double>(432), static_cast<double>(252));
+
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesCollection> seriesColl = chart->get_Series();
+// Delete default generated series.
+seriesColl->Clear();
+
+seriesColl->Add(u"AW Series 1", System::MakeArray<System::String>({u"AW Category 1", u"AW Category 2"}), System::MakeArray<double>({1, 2}));
+
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxisTitle> chartAxisXTitle = chart->get_AxisX()->get_Title();
+chartAxisXTitle->set_Text(u"Categories");
+chartAxisXTitle->set_Show(true);
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxisTitle> chartAxisYTitle = chart->get_AxisY()->get_Title();
+chartAxisYTitle->set_Text(u"Values");
+chartAxisYTitle->set_Show(true);
+chartAxisYTitle->set_Overlay(true);
+chartAxisYTitle->get_Font()->set_Size(12);
+chartAxisYTitle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
+
+doc->Save(get_ArtifactsDir() + u"Charts.ChartAxisTitle.docx");
+```
 ## See Also
 
 * Class [ChartAxisTitle](../)

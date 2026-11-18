@@ -5,7 +5,7 @@ articleTitle: country_or_region property
 second_title: Aspose.Words for Python
 description: "Source.country_or_region property. Gets or sets the country or region of a source."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.bibliography/source/country_or_region/
 ---
 

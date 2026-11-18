@@ -2,7 +2,7 @@
 title: Aspose::Words::Vba::VbaModuleCollection class
 linktitle: VbaModuleCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Vba::VbaModuleCollection class. Represents a collection of VbaModule objects. To learn more, visit the  documentation article in C++.'
+description: 'Aspose::Words::Vba::VbaModuleCollection class. Represents a collection of VbaModule objects. To learn more, visit the Working with VBA Macros documentation article in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.vba/vbamodulecollection/
@@ -10,7 +10,8 @@ url: /cpp/aspose.words.vba/vbamodulecollection/
 ## VbaModuleCollection class
 
 
-Represents a collection of [VbaModule](../vbamodule/) objects. To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/cpp/working-with-vba-macros/) documentation article.
+Represents a collection of [VbaModule](../vbamodule/) objects. 
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/cpp/working-with-vba-macros/) documentation article.
 
 ```cpp
 class VbaModuleCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Vba::VbaModule>>
@@ -20,39 +21,25 @@ class VbaModuleCollection : public System::Collections::Generic::IEnumerable<Sys
 
 | Method | Description |
 | --- | --- |
-| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Vba::VbaModule\>\&) | Adds a module to the collection. |
-| [begin](./begin/)() |  |
-| [begin](./begin/)() const |  |
-| [cbegin](./cbegin/)() const |  |
-| [cend](./cend/)() const |  |
-| [end](./end/)() |  |
-| [end](./end/)() const |  |
+| [Add](./add/)(const System::SharedPtr\<Aspose::Words::Vba::VbaModule\> \&) | Adds a module to the collection. |
+| [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Vba::VbaModule\> \&) | Removes the specified module from the collection. |
 | [get_Count](./get_count/)() | Returns the number of VBA modules in the collection. |
-| [GetType](./gettype/)() const override |  |
+| [idx_get](./idx_get/)(const System::String \&) | Retrieves a [VbaModule](../vbamodule/) object by name, or Null if not found. |
 | [idx_get](./idx_get/)(int32_t) | Retrieves a [VbaModule](../vbamodule/) object by index. |
-| [idx_get](./idx_get/)(const System::String\&) | Retrieves a [VbaModule](../vbamodule/) object by name, or Null if not found. |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [Remove](./remove/)(const System::SharedPtr\<Aspose::Words::Vba::VbaModule\>\&) | Removes the specified module from the collection. |
-| static [Type](./type/)() |  |
-| [virtualizeBeginConstIterator](./virtualizebeginconstiterator/)() const override |  |
-| [virtualizeBeginIterator](./virtualizebeginiterator/)() override |  |
-| [virtualizeEndConstIterator](./virtualizeendconstiterator/)() const override |  |
-| [virtualizeEndIterator](./virtualizeenditerator/)() override |  |
 ## Typedefs
 
 | Typedef | Description |
 | --- | --- |
-| [const_iterator](./const_iterator/) |  |
-| [iterator](./iterator/) |  |
-| [iterator_holder_type](./iterator_holder_type/) |  |
-| [virtualized_iterator](./virtualized_iterator/) |  |
-| [virtualized_iterator_element](./virtualized_iterator_element/) |  |
-
+| [const_iterator](./const_iterator/) | Const iterator type. |
+| [iterator](./iterator/) | Iterator type. |
+| [iterator_holder_type](./iterator_holder_type/) | A collection type whose iterator types is used as iterator types in the current collection. |
+| [virtualized_iterator](./virtualized_iterator/) | Virtualized type. |
+| [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Examples
 
 
+Shows how to access a document's VBA project information.
 
-Shows how to access a document's VBA project information. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"VBA project.docm"));
 
@@ -62,7 +49,7 @@ std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name
 
 System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
 
-ASSERT_EQ(vbaModules->LINQ_Count(), 3);
+ASSERT_EQ(3, vbaModules->LINQ_Count());
 
 for (auto&& module_ : vbaModules)
 {
@@ -76,7 +63,6 @@ vbaModules->idx_get(u"Module1")->set_SourceCode(u"Your VBA code...");
 // Remove a module from the collection.
 vbaModules->Remove(vbaModules->idx_get(2));
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Vba](../)

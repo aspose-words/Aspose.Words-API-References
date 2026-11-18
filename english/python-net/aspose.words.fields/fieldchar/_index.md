@@ -5,7 +5,7 @@ articleTitle: FieldChar class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldChar class. Base class for nodes that represent field characters in a document"
 type: docs
-weight: 210
+weight: 4200
 url: /python-net/aspose.words.fields/fieldchar/
 ---
 

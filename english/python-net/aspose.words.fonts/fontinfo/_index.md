@@ -5,7 +5,7 @@ articleTitle: FontInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontInfo class. Specifies information about a font used in the document"
 type: docs
-weight: 110
+weight: 2200
 url: /python-net/aspose.words.fonts/fontinfo/
 ---
 

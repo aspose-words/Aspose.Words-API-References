@@ -13,15 +13,14 @@ url: /cpp/aspose.words.saving/odtsaveoptions/get_isstrictschema11/
 Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::OdtSaveOptions::get_IsStrictSchema11() const
+_Bool Aspose::Words::Saving::OdtSaveOptions::get_IsStrictSchema11() const
 ```
-
 
 ## Examples
 
 
+Shows how to make a saved document conform to an older ODT schema.
 
-Shows how to make a saved document conform to an older ODT schema. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -32,9 +31,8 @@ saveOptions->set_IsStrictSchema11(exportToOdt11Specs);
 doc->Save(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDir() + u"OdtSaveOptions.Odt11Schema.odt"));
-ASSERT_EQ(Aspose::Words::MeasurementUnits::Centimeters, doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit());
+ASSERT_EQ(doc->get_LayoutOptions()->get_RevisionOptions()->get_MeasurementUnit(), Aspose::Words::MeasurementUnits::Centimeters);
 ```
-
 ## See Also
 
 * Class [OdtSaveOptions](../)

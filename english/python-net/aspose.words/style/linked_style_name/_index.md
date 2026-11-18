@@ -5,7 +5,7 @@ articleTitle: linked_style_name property
 second_title: Aspose.Words for Python
 description: "Style.linked_style_name property. Gets/sets the name of the [Style](../) linked to this one"
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/style/linked_style_name/
 ---
 

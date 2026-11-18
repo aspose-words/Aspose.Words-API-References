@@ -21,7 +21,7 @@ System::SharedPtr<System::TimeZoneInfo> Aspose::Words::Saving::SaveOptions::get_
 
 This option is available in either .Net framework starting from 3.5 version or .Net Standard.
 
-By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value. 
+By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value.
 ## See Also
 
 * Class [SaveOptions](../)

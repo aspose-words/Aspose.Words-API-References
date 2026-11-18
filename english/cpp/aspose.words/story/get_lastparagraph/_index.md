@@ -16,12 +16,11 @@ Gets the last paragraph in the story.
 System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::get_LastParagraph() override
 ```
 
-
 ## Examples
 
 
+Shows how to move a DocumentBuilder's cursor position to a specified node.
 
-Shows how to move a [DocumentBuilder](../../documentbuilder/)'s cursor position to a specified node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,18 +38,16 @@ builder->MoveTo(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_R
 // Adding a second run will insert it in front of the first run.
 builder->Writeln(u"Run 2. ");
 
-ASSERT_EQ(u"Run 2. \rRun 1.", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Run 2. \rRun 1.");
 
 // Move the cursor to the end of the document to continue appending text to the end as before.
 builder->MoveTo(doc->get_LastSection()->get_Body()->get_LastParagraph());
 builder->Writeln(u"Run 3. ");
 
-ASSERT_EQ(u"Run 2. \rRun 1. \rRun 3.", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Run 2. \rRun 1. \rRun 3.");
 ```
-
 ## See Also
 
-* Class [Paragraph](../../paragraph/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

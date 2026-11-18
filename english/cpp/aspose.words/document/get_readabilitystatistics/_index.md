@@ -4,7 +4,7 @@ linktitle: get_ReadabilityStatistics
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Document::get_ReadabilityStatistics method. Provides readability score information for the document in C++.'
 type: docs
-weight: 44750
+weight: 136000
 url: /cpp/aspose.words/document/get_readabilitystatistics/
 ---
 ## Document::get_ReadabilityStatistics method
@@ -16,12 +16,11 @@ Provides readability score information for the document.
 System::SharedPtr<Aspose::Words::ReadabilityStatistics> Aspose::Words::Document::get_ReadabilityStatistics()
 ```
 
-
 ## Examples
 
 
+Shows how to calculate and display the Flesch reading scores for a document.
 
-Shows how to calculate and display the Flesch reading scores for a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -36,10 +35,8 @@ System::SharedPtr<Aspose::Words::ReadabilityStatistics> stats = doc->get_Readabi
 ASSERT_LE(stats->get_FleschReadingEasy(), 190);
 ASSERT_LE(stats->get_FleschKincaidGradeLevel(), 0);
 ```
-
 ## See Also
 
-* Class [ReadabilityStatistics](../../readabilitystatistics/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

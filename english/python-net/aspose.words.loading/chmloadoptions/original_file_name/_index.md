@@ -5,7 +5,7 @@ articleTitle: original_file_name property
 second_title: Aspose.Words for Python
 description: "ChmLoadOptions.original_file_name property. The name of the CHM file"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.loading/chmloadoptions/original_file_name/
 ---
 

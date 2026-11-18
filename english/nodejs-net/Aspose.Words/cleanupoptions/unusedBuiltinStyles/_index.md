@@ -3,15 +3,16 @@ title: CleanupOptions.unusedBuiltinStyles property
 linktitle: unusedBuiltinStyles property
 articleTitle: unusedBuiltinStyles property
 second_title: Aspose.Words for Node.js
-description: "CleanupOptions.unusedBuiltinStyles property. Specifies that unused [Style.builtIn](../../style/builtIn/) styles should be removed from document."
+description: "CleanupOptions.unusedBuiltinStyles property. Specifies that unused [Style.builtIn](../../style/builtIn/) styles should be removed from document"
 type: docs
-weight: 30
+weight: 40
 url: /nodejs-net/aspose.words/cleanupoptions/unusedBuiltinStyles/
 ---
 
 ## CleanupOptions.unusedBuiltinStyles property
 
 Specifies that unused [Style.builtIn](../../style/builtIn/) styles should be removed from document.
+Default value is ``false``.
 
 
 

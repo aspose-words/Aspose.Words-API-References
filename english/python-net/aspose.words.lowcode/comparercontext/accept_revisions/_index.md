@@ -5,7 +5,7 @@ articleTitle: accept_revisions property
 second_title: Aspose.Words for Python
 description: "ComparerContext.accept_revisions property. Indicates whether to accept revisions in the documents before comparing them"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.lowcode/comparercontext/accept_revisions/
 ---
 

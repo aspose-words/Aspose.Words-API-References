@@ -5,7 +5,7 @@ articleTitle: enabled property
 second_title: Aspose.Words for Python
 description: "FontConfigSubstitutionRule.enabled property. Specifies whether the rule is enabled or not."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
 ---
 

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/nodechangingaction/
 Specifies the type of node change.
 
 ```cpp
-enum class NodeChangingAction
+enum class NodeChangingAction : int
 ```
 
 ### Values
@@ -23,8 +23,10 @@ enum class NodeChangingAction
 | Insert | 0 | A node is being inserted in the tree. |
 | Remove | 1 | A node is being removed from the tree. |
 
-
 ## See Also
+
+* [NodeChangingArgs](../nodechangingargs/)
+* [Action](../nodechangingargs/get_action/)
 
 * Namespace [Aspose::Words](../)
 * Library [Aspose.Words for C++](../../)

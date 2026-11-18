@@ -5,7 +5,7 @@ articleTitle: template property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.template property. Gets or sets the informational name of the document template."
 type: docs
-weight: 300
+weight: 9000
 url: /python-net/aspose.words.properties/builtindocumentproperties/template/
 ---
 

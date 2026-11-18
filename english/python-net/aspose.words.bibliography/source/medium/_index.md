@@ -5,7 +5,7 @@ articleTitle: medium property
 second_title: Aspose.Words for Python
 description: "Source.medium property. Gets or sets the medium of a source."
 type: docs
-weight: 270
+weight: 8100
 url: /python-net/aspose.words.bibliography/source/medium/
 ---
 

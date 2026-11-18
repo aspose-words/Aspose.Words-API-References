@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldautotextlist/set_entryname/
 Sets the name of the AutoText entry.
 
 ```cpp
-void Aspose::Words::Fields::FieldAutoTextList::set_EntryName(const System::String &value)
+void Aspose::Words::Fields::FieldAutoTextList::set_EntryName(const System::String & value)
 ```
 
 ## See Also

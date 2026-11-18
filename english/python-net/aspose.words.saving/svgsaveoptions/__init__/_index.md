@@ -5,7 +5,7 @@ articleTitle: SvgSaveOptions constructor
 second_title: Aspose.Words for Python
 description: "SvgSaveOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/svgsaveoptions/__init__/
 ---
 

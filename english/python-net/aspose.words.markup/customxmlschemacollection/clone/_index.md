@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Python
 description: "CustomXmlSchemaCollection.clone method. Makes a deep clone of this object."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.markup/customxmlschemacollection/clone/
 ---
 

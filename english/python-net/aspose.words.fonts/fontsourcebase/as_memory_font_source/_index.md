@@ -5,7 +5,7 @@ articleTitle: as_memory_font_source method
 second_title: Aspose.Words for Python
 description: "FontSourceBase.as_memory_font_source method. Cast FontSourceBase to [MemoryFontSource](../../memoryfontsource/)."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fonts/fontsourcebase/as_memory_font_source/
 ---
 

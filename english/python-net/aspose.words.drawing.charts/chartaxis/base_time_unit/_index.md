@@ -5,7 +5,7 @@ articleTitle: base_time_unit property
 second_title: Aspose.Words for Python
 description: "ChartAxis.base_time_unit property. Returns or sets the smallest time unit that is represented on the time category axis."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing.charts/chartaxis/base_time_unit/
 ---
 

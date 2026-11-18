@@ -5,7 +5,7 @@ articleTitle: visit_comment_range_end method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_comment_range_end method. Called when the end of a commented range of text is encountered."
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words/documentvisitor/visit_comment_range_end/
 ---
 

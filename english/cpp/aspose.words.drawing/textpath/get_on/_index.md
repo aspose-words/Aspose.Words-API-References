@@ -13,13 +13,13 @@ url: /cpp/aspose.words.drawing/textpath/get_on/
 Defines whether the text is displayed.
 
 ```cpp
-bool Aspose::Words::Drawing::TextPath::get_On()
+_Bool Aspose::Words::Drawing::TextPath::get_On()
 ```
 
 ## Remarks
 
 
-The default value is **false**. 
+The default value is **false**.
 ## See Also
 
 * Class [TextPath](../)

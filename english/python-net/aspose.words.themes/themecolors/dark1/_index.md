@@ -5,7 +5,7 @@ articleTitle: dark1 property
 second_title: Aspose.Words for Python
 description: "ThemeColors.dark1 property. Specifies color Dark 1."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.themes/themecolors/dark1/
 ---
 

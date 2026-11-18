@@ -16,12 +16,11 @@ Gets a collection of paragraphs that are immediate children of the story.
 System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::InlineStory::get_Paragraphs() override
 ```
 
-
 ## Examples
 
 
+Shows how to insert and customize footnotes.
 
-Shows how to insert and customize footnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -43,7 +42,7 @@ builder->MoveTo(footnote->get_FirstParagraph());
 builder->Write(u" More text added by a DocumentBuilder.");
 builder->MoveToDocumentEnd();
 
-ASSERT_EQ(u"\u0002 Footnote text. More text added by a DocumentBuilder.", footnote->GetText().Trim());
+ASSERT_EQ(footnote->GetText().Trim(), u"\u0002 Footnote text. More text added by a DocumentBuilder.");
 
 builder->Write(u" More main body text.");
 footnote = builder->InsertFootnote(FootnoteType::Footnote, u"Footnote text.");
@@ -63,8 +62,8 @@ ASSERT_TRUE(footnote->get_IsAuto());
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddFootnote.docx");
 ```
 
+Shows how to add a comment to a paragraph.
 
-Shows how to add a comment to a paragraph. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -75,15 +74,13 @@ builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Co
 builder->MoveTo(comment->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc)));
 builder->Write(u"Comment text.");
 
-ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
+ASSERT_EQ(comment->get_DateTime(), System::DateTime::get_Today());
 
 // In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it.
 doc->Save(get_ArtifactsDir() + u"InlineStory.AddComment.docx");
 ```
-
 ## See Also
 
-* Class [ParagraphCollection](../../paragraphcollection/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

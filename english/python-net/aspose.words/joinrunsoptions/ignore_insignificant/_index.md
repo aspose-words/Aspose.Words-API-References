@@ -5,7 +5,7 @@ articleTitle: ignore_insignificant property
 second_title: Aspose.Words for Python
 description: "JoinRunsOptions.ignore_insignificant property. True indicates that the insignificant attributes of all runs will be ignored when joining runs with same formatting."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/joinrunsoptions/ignore_insignificant/
 ---
 

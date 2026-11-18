@@ -5,7 +5,7 @@ articleTitle: middle property
 second_title: Aspose.Words for Python
 description: "Person.middle property. Gets or sets the middle name of a person."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.bibliography/person/middle/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: IPageLayoutCallback class
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.IPageLayoutCallback class. Implement this interface if you want to have your own custom method called during build and rendering of page layout model."
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.layout/ipagelayoutcallback/
 ---
 

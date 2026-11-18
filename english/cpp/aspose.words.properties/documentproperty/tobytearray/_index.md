@@ -20,12 +20,11 @@ System::ArrayPtr<uint8_t> Aspose::Words::Properties::DocumentProperty::ToByteArr
 
 
 Throws an exception if the property type is not [ByteArray](../../propertytype/).
-
 ## Examples
 
 
+Shows how to add a thumbnail to a document that we save as an Epub.
 
-Shows how to add a thumbnail to a document that we save as an Epub. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,7 +43,6 @@ doc->Save(get_ArtifactsDir() + u"DocumentProperties.Thumbnail.epub");
 System::SharedPtr<Aspose::Words::Properties::DocumentProperty> thumbnail = doc->get_BuiltInDocumentProperties()->idx_get(u"Thumbnail");
 System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"DocumentProperties.Thumbnail.gif", thumbnail->ToByteArray());
 ```
-
 ## See Also
 
 * Class [DocumentProperty](../)

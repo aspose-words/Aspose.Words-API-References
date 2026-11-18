@@ -18,7 +18,6 @@ const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & Aspose:
 
 ## See Also
 
-* Class [SignOptions](../../../aspose.words.digitalsignatures/signoptions/)
 * Class [SignerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

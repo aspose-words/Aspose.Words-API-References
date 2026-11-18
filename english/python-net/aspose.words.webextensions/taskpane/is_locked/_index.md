@@ -5,7 +5,7 @@ articleTitle: is_locked property
 second_title: Aspose.Words for Python
 description: "TaskPane.is_locked property. Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.webextensions/taskpane/is_locked/
 ---
 

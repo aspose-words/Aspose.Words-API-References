@@ -5,7 +5,7 @@ articleTitle: visit_glossary_document_end method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_glossary_document_end method. Called when enumeration of a glossary document has ended."
 type: docs
-weight: 240
+weight: 7200
 url: /python-net/aspose.words/documentvisitor/visit_glossary_document_end/
 ---
 

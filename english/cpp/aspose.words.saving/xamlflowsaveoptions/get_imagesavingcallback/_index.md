@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Saving::IImageSavingCallback> Aspose::Words::Sa
 
 ## See Also
 
-* Interface [IImageSavingCallback](../../iimagesavingcallback/)
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

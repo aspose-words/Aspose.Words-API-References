@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_ishidden/
 Gets/sets a flag indicating whether this label is hidden. The default value is **false**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_IsHidden()
+_Bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_IsHidden()
 ```
 
 ## See Also

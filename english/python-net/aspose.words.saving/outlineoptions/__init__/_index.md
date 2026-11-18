@@ -5,7 +5,7 @@ articleTitle: OutlineOptions constructor
 second_title: Aspose.Words for Python
 description: "OutlineOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/outlineoptions/__init__/
 ---
 

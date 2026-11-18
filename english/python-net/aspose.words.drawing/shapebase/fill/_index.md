@@ -5,7 +5,7 @@ articleTitle: fill property
 second_title: Aspose.Words for Python
 description: "ShapeBase.fill property. Gets fill formatting for the shape."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.drawing/shapebase/fill/
 ---
 

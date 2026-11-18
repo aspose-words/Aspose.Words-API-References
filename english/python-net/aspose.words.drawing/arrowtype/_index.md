@@ -5,7 +5,7 @@ articleTitle: ArrowType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ArrowType enumeration. Specifies the type of an arrow at a line end."
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.drawing/arrowtype/
 ---
 

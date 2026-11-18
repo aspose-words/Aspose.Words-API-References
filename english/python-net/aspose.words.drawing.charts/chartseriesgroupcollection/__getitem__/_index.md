@@ -5,7 +5,7 @@ articleTitle: ChartSeriesGroupCollection indexer
 second_title: Aspose.Words for Python
 description: "ChartSeriesGroupCollection indexer. Returns a [ChartSeriesGroup](../../chartseriesgroup/) at the specified index."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing.charts/chartseriesgroupcollection/__getitem__/
 ---
 

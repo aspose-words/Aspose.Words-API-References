@@ -16,12 +16,11 @@ Returns the parent row of the cell.
 System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::Cell::get_ParentRow()
 ```
 
-
 ## Examples
 
 
+Shows how to set a table to stay together on the same page.
 
-Shows how to set a table to stay together on the same page. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Table spanning two pages.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -43,10 +42,8 @@ for (auto&& cell : System::IterateOver<Aspose::Words::Tables::Cell>(table->GetCh
 
 doc->Save(get_ArtifactsDir() + u"Table.KeepTableTogether.docx");
 ```
-
 ## See Also
 
-* Class [Row](../../row/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

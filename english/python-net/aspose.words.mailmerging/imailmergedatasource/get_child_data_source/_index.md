@@ -5,7 +5,7 @@ articleTitle: get_child_data_source method
 second_title: Aspose.Words for Python
 description: "IMailMergeDataSource.get_child_data_source method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.mailmerging/imailmergedatasource/get_child_data_source/
 ---
 

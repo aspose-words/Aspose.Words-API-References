@@ -5,7 +5,7 @@ articleTitle: xpath property
 second_title: Aspose.Words for Python
 description: "FieldIncludeText.xpath property. Gets or sets XPath for the desired portion of the XML file."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.fields/fieldincludetext/xpath/
 ---
 

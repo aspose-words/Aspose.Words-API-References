@@ -5,7 +5,7 @@ articleTitle: setImage method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Fill.setImage method"
 type: docs
-weight: 250
+weight: 280
 url: /nodejs-net/aspose.words.drawing/fill/setImage/
 ---
 

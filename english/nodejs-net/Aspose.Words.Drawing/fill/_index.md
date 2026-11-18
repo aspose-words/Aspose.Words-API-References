@@ -48,6 +48,9 @@ You do not create instances of the [Fill](./) class directly.
 | [presetTexture](./presetTexture/) | Gets a [PresetTexture](../presettexture/) for the fill. |
 | [rotateWithObject](./rotateWithObject/) | Gets or sets whether the fill rotates with the specified object. |
 | [textureAlignment](./textureAlignment/) | Gets or sets the alignment for tile texture fill. |
+| [textureHorizontalScale](./textureHorizontalScale/) | Gets or sets the horizontal scale for tile texture fill. |
+| [textureTile](./textureTile/) | Returns True if the current fill is a tile texture fill. |
+| [textureVerticalScale](./textureVerticalScale/) | Gets or sets the vertical scale for tile texture fill. |
 | [transparency](./transparency/) | Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
 | [visible](./visible/) | Gets or sets value that is ``true`` if the formatting applied to this instance, is visible. |
 

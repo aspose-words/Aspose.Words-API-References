@@ -5,7 +5,7 @@ articleTitle: FieldDocProperty constructor
 second_title: Aspose.Words for Python
 description: "FieldDocProperty constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fielddocproperty/__init__/
 ---
 

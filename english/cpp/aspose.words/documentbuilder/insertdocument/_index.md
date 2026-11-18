@@ -7,30 +7,32 @@ type: docs
 weight: 33000
 url: /cpp/aspose.words/documentbuilder/insertdocument/
 ---
-## DocumentBuilder::InsertDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) method
+## DocumentBuilder::InsertDocument(const System::SharedPtr\<Aspose::Words::Document\> \&, Aspose::Words::ImportFormatMode) method
 
 
 Inserts a document at the cursor position.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::InsertDocument(const System::SharedPtr<Aspose::Words::Document> &srcDoc, Aspose::Words::ImportFormatMode importFormatMode)
+System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::InsertDocument(const System::SharedPtr<Aspose::Words::Document> & srcDoc, Aspose::Words::ImportFormatMode importFormatMode)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcDoc | const System::SharedPtr\<Aspose::Words::Document\>\& | Source document for inserting. |
+| srcDoc | const System::SharedPtr\<Aspose::Words::Document\> \& | Source document for inserting. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
 ### ReturnValue
 
 First node of the inserted content.
+## Remarks
 
+ This method mimics the MS Word behavior, as if CTRL+'A' (select all content) was pressed, then CTRL+'C' (copy selected into the buffer) inside one document and then CTRL+'V' (insert content from the buffer) inside another document. 
 ## Examples
 
 
+Shows how to insert a document into another document.
 
-Shows how to insert a document into another document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
 
@@ -43,40 +45,38 @@ auto docToInsert = System::MakeObject<Aspose::Words::Document>(System::String(ge
 builder->InsertDocument(docToInsert, ImportFormatMode::KeepSourceFormatting);
 builder->get_Document()->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocument.docx");
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
-* Class [Document](../../document/)
-* Enum [ImportFormatMode](../../importformatmode/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## DocumentBuilder::InsertDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
+## DocumentBuilder::InsertDocument(const System::SharedPtr\<Aspose::Words::Document\> \&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \&) method
 
 
 Inserts a document at the cursor position.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::InsertDocument(const System::SharedPtr<Aspose::Words::Document> &srcDoc, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> &importFormatOptions)
+System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::InsertDocument(const System::SharedPtr<Aspose::Words::Document> & srcDoc, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> & importFormatOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcDoc | const System::SharedPtr\<Aspose::Words::Document\>\& | Source document for inserting. |
+| srcDoc | const System::SharedPtr\<Aspose::Words::Document\> \& | Source document for inserting. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
-| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\& | Allows to specify options that affect formatting of a result document. |
+| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \& | Allows to specify options that affect formatting of a result document. |
 
 ### ReturnValue
 
 First node of the inserted content.
+## Remarks
 
+ This method mimics the MS Word behavior, as if CTRL+'A' (select all content) was pressed, then CTRL+'C' (copy selected into the buffer) inside one document and then CTRL+'V' (insert content from the buffer) inside another document. 
 ## Examples
 
 
+Shows how to resolve duplicate styles while inserting documents.
 
-Shows how to resolve duplicate styles while inserting documents. 
 ```cpp
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
@@ -104,13 +104,8 @@ builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options)
 
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.SmartStyleBehavior.docx");
 ```
-
 ## See Also
 
-* Class [Node](../../node/)
-* Class [Document](../../document/)
-* Enum [ImportFormatMode](../../importformatmode/)
-* Class [ImportFormatOptions](../../importformatoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

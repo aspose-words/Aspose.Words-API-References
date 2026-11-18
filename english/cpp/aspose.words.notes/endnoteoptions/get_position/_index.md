@@ -16,12 +16,11 @@ Specifies the endnotes position.
 Aspose::Words::Notes::EndnotePosition Aspose::Words::Notes::EndnoteOptions::get_Position()
 ```
 
-
 ## Examples
 
 
+Shows how to select a different place where the document collects and displays its endnotes.
 
-Shows how to select a different place where the document collects and displays its endnotes. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,10 +46,8 @@ doc->get_EndnoteOptions()->set_Position(endnotePosition);
 
 doc->Save(get_ArtifactsDir() + u"InlineStory.PositionEndnote.docx");
 ```
-
 ## See Also
 
-* Enum [EndnotePosition](../../endnoteposition/)
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

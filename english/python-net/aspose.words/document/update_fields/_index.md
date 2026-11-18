@@ -5,7 +5,7 @@ articleTitle: update_fields method
 second_title: Aspose.Words for Python
 description: "Document.update_fields method. Updates the values of fields in the whole document."
 type: docs
-weight: 800
+weight: 24000
 url: /python-net/aspose.words/document/update_fields/
 ---
 

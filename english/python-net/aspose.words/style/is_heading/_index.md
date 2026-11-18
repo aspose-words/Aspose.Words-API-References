@@ -5,7 +5,7 @@ articleTitle: is_heading property
 second_title: Aspose.Words for Python
 description: "Style.is_heading property. True when the style is one of the built-in Heading styles."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/style/is_heading/
 ---
 

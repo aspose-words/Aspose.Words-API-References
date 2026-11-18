@@ -5,7 +5,7 @@ articleTitle: TableAlignment enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.tables.TableAlignment enumeration. Specifies alignment for an inline table."
 type: docs
-weight: 130
+weight: 2600
 url: /python-net/aspose.words.tables/tablealignment/
 ---
 

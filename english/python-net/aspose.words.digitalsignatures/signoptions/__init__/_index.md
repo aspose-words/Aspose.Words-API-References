@@ -5,7 +5,7 @@ articleTitle: SignOptions constructor
 second_title: Aspose.Words for Python
 description: "SignOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.digitalsignatures/signoptions/__init__/
 ---
 

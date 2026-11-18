@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlelementsizeoutputmode/
 Specifies how Aspose.Words exports element widths and heights to HTML, MHTML and EPUB.
 
 ```cpp
-enum class HtmlElementSizeOutputMode
+enum class HtmlElementSizeOutputMode : int
 ```
 
 ### Values
@@ -21,15 +21,14 @@ enum class HtmlElementSizeOutputMode
 | Name | Value | Description |
 | --- | --- | --- |
 | All | 0 | All element sizes, both in absolute and relative units, specified in the document are exported. |
-| RelativeOnly | 1 | Element sizes are exported only if they are specified in relative units in the document. Fixed sizes are not exported in this mode. Visual agents will calculate missing sizes to make document layout more natural. |
 | None | 2 | Element sizes are not exported. Visual agents will build layout automatically according to relationship between elements. |
-
+| RelativeOnly | 1 | Element sizes are exported only if they are specified in relative units in the document. Fixed sizes are not exported in this mode. Visual agents will calculate missing sizes to make document layout more natural. |
 
 ## Examples
 
 
+Shows how to preserve negative indents in the output .html.
 
-Shows how to preserve negative indents in the output .html. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -78,8 +77,9 @@ else
     ASSERT_TRUE(outDocContents.Contains(u"<table cellspacing=\"0\" cellpadding=\"0\" style=\"margin-left:30.35pt; border:0.75pt solid #000000; -aw-border:0.5pt single #000000; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
 }
 ```
-
 ## See Also
+
+* [TableWidthOutputMode](../htmlsaveoptions/get_tablewidthoutputmode/)
 
 * Namespace [Aspose::Words::Saving](../)
 * Library [Aspose.Words for C++](../../)

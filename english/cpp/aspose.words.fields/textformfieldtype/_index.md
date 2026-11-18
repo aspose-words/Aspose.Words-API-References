@@ -13,26 +13,25 @@ url: /cpp/aspose.words.fields/textformfieldtype/
 Specifies the type of a text form field.
 
 ```cpp
-enum class TextFormFieldType
+enum class TextFormFieldType : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Regular | 0 | The text form field can contain any text. |
-| Number | 1 | The text form field can contain only numbers. |
-| Date | 2 | The text form field can contain only a valid date value. |
+| Calculated | 5 | The text form field value is calculated from the expression specified in the [TextInputDefault](../formfield/get_textinputdefault/) property. |
 | CurrentDate | 3 | The text form field value is the current date when the field is updated. |
 | CurrentTime | 4 | The text form field value is the current time when the field is updated. |
-| Calculated | 5 | The text form field value is calculated from the expression specified in the [TextInputDefault](../formfield/get_textinputdefault/) property. |
-
+| Date | 2 | The text form field can contain only a valid date value. |
+| Number | 1 | The text form field can contain only numbers. |
+| Regular | 0 | The text form field can contain any text. |
 
 ## Examples
 
 
+Shows how to create form fields.
 
-Shows how to create form fields. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
@@ -49,7 +48,6 @@ builder->InsertComboBox(u"My combo box", items, 0);
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateForm.docx");
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

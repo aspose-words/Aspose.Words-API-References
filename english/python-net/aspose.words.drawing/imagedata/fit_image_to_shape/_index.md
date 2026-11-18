@@ -5,7 +5,7 @@ articleTitle: fit_image_to_shape method
 second_title: Aspose.Words for Python
 description: "ImageData.fit_image_to_shape method. Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame."
 type: docs
-weight: 190
+weight: 5700
 url: /python-net/aspose.words.drawing/imagedata/fit_image_to_shape/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ReportBuilder class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.ReportBuilder class. Provides methods intended to fill template with data using LINQ Reporting Engine."
 type: docs
-weight: 160
+weight: 3200
 url: /python-net/aspose.words.lowcode/reportbuilder/
 ---
 

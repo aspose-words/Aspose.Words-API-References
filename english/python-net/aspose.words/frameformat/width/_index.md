@@ -5,7 +5,7 @@ articleTitle: width property
 second_title: Aspose.Words for Python
 description: "FrameFormat.width property. Gets the width of the specified frame, in points."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/frameformat/width/
 ---
 

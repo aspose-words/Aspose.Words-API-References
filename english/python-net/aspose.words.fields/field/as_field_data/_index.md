@@ -5,7 +5,7 @@ articleTitle: as_field_data method
 second_title: Aspose.Words for Python
 description: "Field.as_field_data method. Cast Field to [FieldData](../../fielddata/)."
 type: docs
-weight: 290
+weight: 8700
 url: /python-net/aspose.words.fields/field/as_field_data/
 ---
 

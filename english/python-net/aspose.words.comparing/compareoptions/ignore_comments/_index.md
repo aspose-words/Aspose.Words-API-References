@@ -5,7 +5,7 @@ articleTitle: ignore_comments property
 second_title: Aspose.Words for Python
 description: "CompareOptions.ignore_comments property. Specifies whether to compare differences in comments."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.comparing/compareoptions/ignore_comments/
 ---
 

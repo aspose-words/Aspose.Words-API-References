@@ -5,7 +5,7 @@ articleTitle: contains_value method
 second_title: Aspose.Words for Python
 description: "MappedDataFieldCollection.contains_value method. Determines whether a mapping from the specified field in the data source exists in the collection."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.mailmerging/mappeddatafieldcollection/contains_value/
 ---
 

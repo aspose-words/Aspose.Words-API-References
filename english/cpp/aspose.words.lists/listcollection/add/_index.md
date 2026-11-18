@@ -30,12 +30,11 @@ The newly created list.
 Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.
 
 All lists created using this method have 9 list levels.
-
 ## Examples
 
 
+Shows how to work with list levels.
 
-Shows how to work with list levels. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -82,8 +81,8 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 
+Shows how to restart numbering in a list by copying a list.
 
-Shows how to restart numbering in a list by copying a list. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -121,8 +120,8 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(get_ArtifactsDir() + u"Lists.RestartNumberingUsingListCopy.docx");
 ```
 
+Shows how to create a list by applying a new list format to a collection of paragraphs.
 
-Shows how to create a list by applying a new list format to a collection of paragraphs. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -133,10 +132,10 @@ builder->Write(u"Paragraph 3");
 
 System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
-ASSERT_EQ(0, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+ASSERT_EQ(paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
-}))));
+}))), 0);
 
 System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(ListTemplate::NumberUppercaseLetterDot);
 
@@ -146,32 +145,29 @@ for (auto&& paragraph : System::IterateOver(paras->LINQ_OfType<System::SharedPtr
     paragraph->get_ListFormat()->set_ListLevelNumber(1);
 }
 
-ASSERT_EQ(3, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+ASSERT_EQ(paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
 {
     return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
-}))));
+}))), 3);
 ```
-
 ## See Also
 
-* Class [List](../../list/)
-* Enum [ListTemplate](../../listtemplate/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)
-## ListCollection::Add(const System::SharedPtr\<Aspose::Words::Style\>\&) method
+## ListCollection::Add(const System::SharedPtr\<Aspose::Words::Style\> \&) method
 
 
 Creates a new list that references a list style and adds it to the collection of lists in the document.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollection::Add(const System::SharedPtr<Aspose::Words::Style> &listStyle)
+System::SharedPtr<Aspose::Words::Lists::List> Aspose::Words::Lists::ListCollection::Add(const System::SharedPtr<Aspose::Words::Style> & listStyle)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| listStyle | const System::SharedPtr\<Aspose::Words::Style\>\& | The list style. |
+| listStyle | const System::SharedPtr\<Aspose::Words::Style\> \& | The list style. |
 
 ### ReturnValue
 
@@ -180,12 +176,11 @@ The newly created list.
 
 
 The newly created list references the list style. If you change the properties of the list style, it is reflected in the properties of the list. Vice versa, if you change the properties of the list, it is reflected in the properties of the list style.
-
 ## Examples
 
 
+Shows how to create a list style and use it in a document.
 
-Shows how to create a list style and use it in a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -201,7 +196,7 @@ System::SharedPtr<Aspose::Words::Lists::List> list1 = listStyle->get_List();
 ASSERT_TRUE(list1->get_IsListStyleDefinition());
 ASSERT_FALSE(list1->get_IsListStyleReference());
 ASSERT_TRUE(list1->get_IsMultiLevel());
-ASPOSE_ASSERT_EQ(listStyle, list1->get_Style());
+ASPOSE_ASSERT_EQ(list1->get_Style(), listStyle);
 
 // Change the appearance of all list levels in our list.
 for (auto&& level : list1->get_ListLevels())
@@ -220,7 +215,7 @@ System::SharedPtr<Aspose::Words::Lists::List> list2 = doc->get_Lists()->Add(list
 
 ASSERT_FALSE(list2->get_IsListStyleDefinition());
 ASSERT_TRUE(list2->get_IsListStyleReference());
-ASPOSE_ASSERT_EQ(listStyle, list2->get_Style());
+ASPOSE_ASSERT_EQ(list2->get_Style(), listStyle);
 
 // Add some list items that our list will format.
 builder->get_ListFormat()->set_List(list2);
@@ -239,11 +234,8 @@ builder->get_ListFormat()->RemoveNumbers();
 
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
-
 ## See Also
 
-* Class [List](../../list/)
-* Class [Style](../../../aspose.words/style/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -5,7 +5,7 @@ articleTitle: FieldFormText constructor
 second_title: Aspose.Words for Python
 description: "FieldFormText constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fields/fieldformtext/__init__/
 ---
 

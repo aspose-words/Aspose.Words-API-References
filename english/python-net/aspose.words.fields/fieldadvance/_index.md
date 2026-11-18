@@ -5,7 +5,7 @@ articleTitle: FieldAdvance class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldAdvance class. Implements the ADVANCE field"
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.fields/fieldadvance/
 ---
 

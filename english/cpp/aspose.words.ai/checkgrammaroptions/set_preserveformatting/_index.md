@@ -16,6 +16,9 @@ Allows to specify either [CheckGrammar()](../../aimodel/checkgrammar/) will try 
 void Aspose::Words::AI::CheckGrammarOptions::set_PreserveFormatting(bool value)
 ```
 
+## Remarks
+
+ When the option is set to **false**, the quality of grammar checking is higher than when this option is set to **true**. However, the original formatting of the text is not preserved in this case. 
 ## See Also
 
 * Class [CheckGrammarOptions](../)

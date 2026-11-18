@@ -5,7 +5,7 @@ articleTitle: load method
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontFallbackSettings.load method"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fonts/fontfallbacksettings/load/
 ---
 

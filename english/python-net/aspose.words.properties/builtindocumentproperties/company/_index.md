@@ -5,7 +5,7 @@ articleTitle: company property
 second_title: Aspose.Words for Python
 description: "BuiltInDocumentProperties.company property. Gets or sets the company property."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.properties/builtindocumentproperties/company/
 ---
 

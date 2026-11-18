@@ -5,7 +5,7 @@ articleTitle: insert_as_bitmap property
 second_title: Aspose.Words for Python
 description: "FieldDde.insert_as_bitmap property. Gets or sets whether to insert the linked object as a bitmap."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fielddde/insert_as_bitmap/
 ---
 

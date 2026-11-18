@@ -5,7 +5,7 @@ articleTitle: as_bookmark_start method
 second_title: Aspose.Words for Python
 description: "Node.as_bookmark_start method. Cast Node to [BookmarkStart](../../bookmarkstart/)."
 type: docs
-weight: 120
+weight: 3600
 url: /python-net/aspose.words/node/as_bookmark_start/
 ---
 

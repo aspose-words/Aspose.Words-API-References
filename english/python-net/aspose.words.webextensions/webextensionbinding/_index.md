@@ -5,7 +5,7 @@ articleTitle: WebExtensionBinding class
 second_title: Aspose.Words for Python
 description: "aspose.words.webextensions.WebExtensionBinding class. Specifies a binding relationship between a web extension and the data in the document"
 type: docs
-weight: 50
+weight: 1000
 url: /python-net/aspose.words.webextensions/webextensionbinding/
 ---
 

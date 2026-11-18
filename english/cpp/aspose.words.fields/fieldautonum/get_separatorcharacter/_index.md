@@ -16,12 +16,11 @@ Gets or sets the separator character to be used.
 System::String Aspose::Words::Fields::FieldAutoNum::get_SeparatorCharacter()
 ```
 
-
 ## Examples
 
 
+Shows how to number paragraphs using autonum fields.
 
-Shows how to number paragraphs using autonum fields. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -32,7 +31,7 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
 builder->Writeln(u"\tParagraph 1.");
 
-ASSERT_EQ(u" AUTONUM ", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" AUTONUM ");
 
 field = System::ExplicitCast<Aspose::Words::Fields::FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
 builder->Writeln(u"\tParagraph 2.");
@@ -45,11 +44,10 @@ ASSERT_TRUE(System::TestTools::IsNull(field->get_SeparatorCharacter()));
 // In this case, our AUTONUM field will now display "2:".
 field->set_SeparatorCharacter(u":");
 
-ASSERT_EQ(u" AUTONUM  \\s :", field->GetFieldCode());
+ASSERT_EQ(field->GetFieldCode(), u" AUTONUM  \\s :");
 
 doc->Save(get_ArtifactsDir() + u"Field.AUTONUM.docx");
 ```
-
 ## See Also
 
 * Class [FieldAutoNum](../)

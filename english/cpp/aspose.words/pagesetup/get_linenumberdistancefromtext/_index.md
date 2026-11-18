@@ -16,12 +16,14 @@ Gets or sets distance between the right edge of line numbers and the left edge o
 double Aspose::Words::PageSetup::get_LineNumberDistanceFromText()
 ```
 
+## Remarks
 
+ Set this property to zero for automatic distance between the line numbers and text of the document. 
 ## Examples
 
 
+Shows how to enable line numbering for a section.
 
-Shows how to enable line numbering for a section. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,7 +52,6 @@ doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(14)->get_Paragrap
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.LineNumbers.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

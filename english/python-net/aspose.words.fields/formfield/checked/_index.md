@@ -5,7 +5,7 @@ articleTitle: checked property
 second_title: Aspose.Words for Python
 description: "FormField.checked property. Gets or sets the checked status of the check box form field"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/formfield/checked/
 ---
 

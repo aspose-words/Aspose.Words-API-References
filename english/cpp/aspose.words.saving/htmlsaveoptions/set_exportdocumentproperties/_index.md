@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlSaveOptions::set_ExportDocumentProperties method
 linktitle: set_ExportDocumentProperties
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ExportDocumentProperties method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportDocumentProperties in C++.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ExportDocumentProperties method. Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is false in C++.'
 type: docs
 weight: 61000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportdocumentproperties/
@@ -10,12 +10,36 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportdocumentproperties/
 ## HtmlSaveOptions::set_ExportDocumentProperties method
 
 
-Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportDocumentProperties](../get_exportdocumentproperties/).
+Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is **false**.
 
 ```cpp
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportDocumentProperties(bool value)
 ```
 
+## Examples
+
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
+
+// Use a SaveOptions object to specify the encoding for a document that we will save.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
+saveOptions->set_SaveFormat(SaveFormat::Epub);
+saveOptions->set_Encoding(System::Text::Encoding::get_UTF8());
+
+// By default, an output .epub document will have all its contents in one HTML part.
+// A split criterion allows us to segment the document into several HTML parts.
+// We will set the criteria to split the document into heading paragraphs.
+// This is useful for readers who cannot read HTML files more significant than a specific size.
+saveOptions->set_DocumentSplitCriteria(DocumentSplitCriteria::HeadingParagraph);
+
+// Specify that we want to export document properties.
+saveOptions->set_ExportDocumentProperties(true);
+
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+```
 ## See Also
 
 * Class [HtmlSaveOptions](../)

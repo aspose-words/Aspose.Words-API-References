@@ -5,7 +5,7 @@ articleTitle: use_printer_metrics property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.use_printer_metrics property. Use Printer Metrics To Display Documents."
 type: docs
-weight: 640
+weight: 19200
 url: /python-net/aspose.words.settings/compatibilityoptions/use_printer_metrics/
 ---
 

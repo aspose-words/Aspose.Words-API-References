@@ -16,6 +16,9 @@ Timestamp server URL.
 System::String Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::get_ServerUrl() const
 ```
 
+## Remarks
+
+ The default value is **null**. If **null**, then the digital signature will not be time-stamped. 
 ## See Also
 
 * Class [PdfDigitalSignatureTimestampSettings](../)

@@ -5,7 +5,7 @@ articleTitle: adjustments property
 second_title: Aspose.Words for Python
 description: "Shape.adjustments property. Provides access to the adjustment raw values of a shape"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.drawing/shape/adjustments/
 ---
 

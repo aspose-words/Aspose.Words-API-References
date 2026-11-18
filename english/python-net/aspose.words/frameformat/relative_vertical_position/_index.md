@@ -5,7 +5,7 @@ articleTitle: relative_vertical_position property
 second_title: Aspose.Words for Python
 description: "FrameFormat.relative_vertical_position property. Gets the relative vertical position of a frame."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words/frameformat/relative_vertical_position/
 ---
 

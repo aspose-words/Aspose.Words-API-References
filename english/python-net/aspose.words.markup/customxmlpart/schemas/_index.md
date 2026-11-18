@@ -5,7 +5,7 @@ articleTitle: schemas property
 second_title: Aspose.Words for Python
 description: "CustomXmlPart.schemas property. Specifies the set of XML schemas that are associated with this custom XML part."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.markup/customxmlpart/schemas/
 ---
 

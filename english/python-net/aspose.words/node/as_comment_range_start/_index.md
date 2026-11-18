@@ -5,7 +5,7 @@ articleTitle: as_comment_range_start method
 second_title: Aspose.Words for Python
 description: "Node.as_comment_range_start method. Cast Node to [CommentRangeStart](../../commentrangestart/)."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words/node/as_comment_range_start/
 ---
 

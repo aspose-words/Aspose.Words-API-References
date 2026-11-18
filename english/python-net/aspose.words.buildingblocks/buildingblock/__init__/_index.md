@@ -5,7 +5,7 @@ articleTitle: BuildingBlock constructor
 second_title: Aspose.Words for Python
 description: "BuildingBlock constructor. Initializes a new instance of this class."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.buildingblocks/buildingblock/__init__/
 ---
 

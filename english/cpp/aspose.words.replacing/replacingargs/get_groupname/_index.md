@@ -21,7 +21,7 @@ System::String Aspose::Words::Replacing::ReplacingArgs::get_GroupName() const
 
 When group name is **null**, [GroupIndex](../get_groupindex/) is used to identify the group.
 
-Default is **null**. 
+Default is **null**.
 ## See Also
 
 * Class [ReplacingArgs](../)

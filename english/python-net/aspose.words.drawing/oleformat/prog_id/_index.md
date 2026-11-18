@@ -5,7 +5,7 @@ articleTitle: prog_id property
 second_title: Aspose.Words for Python
 description: "OleFormat.prog_id property. Gets or sets the ProgID of the OLE object."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.drawing/oleformat/prog_id/
 ---
 

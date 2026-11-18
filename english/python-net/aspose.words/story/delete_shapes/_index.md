@@ -5,7 +5,7 @@ articleTitle: delete_shapes method
 second_title: Aspose.Words for Python
 description: "Story.delete_shapes method. Deletes all shapes from the text of this story."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words/story/delete_shapes/
 ---
 

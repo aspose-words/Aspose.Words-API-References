@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldincludetext/set_namespacemappings/
 Sets the namespace mappings for XPath queries.
 
 ```cpp
-void Aspose::Words::Fields::FieldIncludeText::set_NamespaceMappings(const System::String &value)
+void Aspose::Words::Fields::FieldIncludeText::set_NamespaceMappings(const System::String & value)
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldincludetext/set_bookmarkname/
 Sets the name of the bookmark in the document to include.
 
 ```cpp
-void Aspose::Words::Fields::FieldIncludeText::set_BookmarkName(const System::String &value)
+void Aspose::Words::Fields::FieldIncludeText::set_BookmarkName(const System::String & value)
 ```
 
 ## See Also

@@ -5,7 +5,7 @@ articleTitle: adjust_sentence_and_word_spacing property
 second_title: Aspose.Words for Python
 description: "ImportFormatOptions.adjust_sentence_and_word_spacing property. Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/
 ---
 

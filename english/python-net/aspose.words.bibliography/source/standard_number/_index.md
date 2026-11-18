@@ -5,7 +5,7 @@ articleTitle: standard_number property
 second_title: Aspose.Words for Python
 description: "Source.standard_number property. Gets or sets the standard number of a source."
 type: docs
-weight: 420
+weight: 12600
 url: /python-net/aspose.words.bibliography/source/standard_number/
 ---
 

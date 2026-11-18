@@ -7,63 +7,60 @@ type: docs
 weight: 35000
 url: /cpp/aspose.words.drawing/imagedata/setimage/
 ---
-## ImageData::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
+## ImageData::SetImage(const System::SharedPtr\<System::Drawing::Image\> \&) method
 
 
 Sets the image that the shape displays.
 
 ```cpp
-void Aspose::Words::Drawing::ImageData::SetImage(const System::SharedPtr<System::Drawing::Image> &image)
+void Aspose::Words::Drawing::ImageData::SetImage(const System::SharedPtr<System::Drawing::Image> & image)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image | const System::SharedPtr\<System::Drawing::Image\>\& | The image object. |
-
+| image | const System::SharedPtr\<System::Drawing::Image\> \& | The image object. |
 ## See Also
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## ImageData::SetImage(const System::SharedPtr\<System::IO::Stream\>\&) method
+## ImageData::SetImage(const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Sets the image that the shape displays.
 
 ```cpp
-void Aspose::Words::Drawing::ImageData::SetImage(const System::SharedPtr<System::IO::Stream> &stream)
+void Aspose::Words::Drawing::ImageData::SetImage(const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream that contains the image. |
-
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream that contains the image. |
 ## See Also
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## ImageData::SetImage(const System::String\&) method
+## ImageData::SetImage(const System::String \&) method
 
 
 Sets the image that the shape displays.
 
 ```cpp
-void Aspose::Words::Drawing::ImageData::SetImage(const System::String &fileName)
+void Aspose::Words::Drawing::ImageData::SetImage(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The image file. Can be a file name or a URL. |
-
+| fileName | const System::String \& | The image file. Can be a file name or a URL. |
 ## Examples
 
 
+Shows how to insert a linked image into a document.
 
-Shows how to insert a linked image into a document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -98,21 +95,24 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx");
 // the image file is present at the location that the shape's "SourceFullName" property points to.
 ASSERT_TRUE(static_cast<int64_t>(10000) > System::MakeObject<System::IO::FileInfo>(get_ArtifactsDir() + u"Image.CreateLinkedImage.Linked.docx")->get_Length());
 ```
-
 ## See Also
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## ImageData::SetImage(std::basic_istream\<CharType, Traits\>\&) method
+## ImageData::SetImage(std::basic_istream\<CharType, Traits\> \&) method
 
 
-
+Sets the image that the shape displays.
 
 ```cpp
-template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageData::SetImage(std::basic_istream<CharType, Traits> &stream)
+template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageData::SetImage(std::basic_istream<CharType, Traits> & stream)
 ```
 
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | std::basic_istream\<CharType, Traits\> \& | The stream that contains the image. |
 ## See Also
 
 * Class [ImageData](../)

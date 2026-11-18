@@ -5,7 +5,7 @@ articleTitle: get_text method
 second_title: Aspose.Words for Python
 description: "Node.get_text method. Gets the text of this node and of all its children."
 type: docs
-weight: 450
+weight: 13500
 url: /python-net/aspose.words/node/get_text/
 ---
 

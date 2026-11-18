@@ -5,7 +5,7 @@ articleTitle: set_shading method
 second_title: Aspose.Words for Python
 description: "Table.set_shading method. Sets shading to the specified values on whole table."
 type: docs
-weight: 450
+weight: 13500
 url: /python-net/aspose.words.tables/table/set_shading/
 ---
 

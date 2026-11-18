@@ -5,7 +5,7 @@ articleTitle: bold property
 second_title: Aspose.Words for Python
 description: "TextPath.bold property. True if the font is formatted as bold."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.drawing/textpath/bold/
 ---
 

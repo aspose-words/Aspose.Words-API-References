@@ -18,7 +18,6 @@ Aspose::Words::NodeType Aspose::Words::CommentRangeEnd::get_NodeType() const ove
 
 ## See Also
 
-* Enum [NodeType](../../nodetype/)
 * Class [CommentRangeEnd](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

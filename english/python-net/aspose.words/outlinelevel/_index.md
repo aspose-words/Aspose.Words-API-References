@@ -5,7 +5,7 @@ articleTitle: OutlineLevel enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.OutlineLevel enumeration. Specifies the outline level of a paragraph in the document."
 type: docs
-weight: 890
+weight: 17800
 url: /python-net/aspose.words/outlinelevel/
 ---
 

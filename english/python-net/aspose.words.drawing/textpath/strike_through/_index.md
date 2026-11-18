@@ -5,7 +5,7 @@ articleTitle: strike_through property
 second_title: Aspose.Words for Python
 description: "TextPath.strike_through property. True if the font is formatted as strikethrough text."
 type: docs
-weight: 150
+weight: 4500
 url: /python-net/aspose.words.drawing/textpath/strike_through/
 ---
 

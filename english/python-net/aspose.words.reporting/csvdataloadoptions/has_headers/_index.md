@@ -5,7 +5,7 @@ articleTitle: has_headers property
 second_title: Aspose.Words for Python
 description: "CsvDataLoadOptions.has_headers property. Gets or sets a value indicating whether the first record of CSV data contains column names."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words.reporting/csvdataloadoptions/has_headers/
 ---
 

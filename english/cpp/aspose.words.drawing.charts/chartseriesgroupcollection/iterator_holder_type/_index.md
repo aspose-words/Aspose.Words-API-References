@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator_holder_type typedef
 linktitle: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
-description: 'How to use Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator_holder_type typedef of Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection class in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator_holder_type typedef. A collection type whose iterator types is used as iterator types in the current collection in C++.'
 type: docs
 weight: 19000
 url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/iterator_holder_type/
@@ -10,10 +10,10 @@ url: /cpp/aspose.words.drawing.charts/chartseriesgroupcollection/iterator_holder
 ## iterator_holder_type typedef
 
 
-
+A collection type whose iterator types is used as iterator types in the current collection.
 
 ```cpp
-using Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator_holder_type =  System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroup> >
+using Aspose::Words::Drawing::Charts::ChartSeriesGroupCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeriesGroup> >
 ```
 
 ## See Also

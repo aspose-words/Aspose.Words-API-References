@@ -13,24 +13,23 @@ url: /cpp/aspose.words.fonts/embeddedfontstyle/
 Specifies the style of an embedded font inside a [FontInfo](../fontinfo/) object.
 
 ```cpp
-enum class EmbeddedFontStyle
+enum class EmbeddedFontStyle : int
 ```
 
 ### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Regular | 0 | Specifies the Regular embedded font. |
 | Bold | 1 | Specifies the Bold embedded font. |
-| Italic | 2 | Specifies the Italic embedded font. |
 | BoldItalic | 3 | Specifies the Bold-Italic embedded font. |
-
+| Italic | 2 | Specifies the Italic embedded font. |
+| Regular | 0 | Specifies the Regular embedded font. |
 
 ## Examples
 
 
+Shows how to extract an embedded font from a document, and save it to the local file system.
 
-Shows how to extract an embedded font from a document, and save it to the local file system. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Embedded font.docx"));
 
@@ -51,7 +50,6 @@ embeddedFontBytes = doc->get_FontInfos()->idx_get(u"Alte DIN 1451 Mittelschrift"
 
 System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

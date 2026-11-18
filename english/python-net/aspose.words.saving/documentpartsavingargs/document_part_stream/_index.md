@@ -5,7 +5,7 @@ articleTitle: document_part_stream property
 second_title: Aspose.Words for Python
 description: "DocumentPartSavingArgs.document_part_stream property. Allows to specify the stream where the document part will be saved to."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/documentpartsavingargs/document_part_stream/
 ---
 

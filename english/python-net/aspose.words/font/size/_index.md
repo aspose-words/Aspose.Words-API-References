@@ -5,7 +5,7 @@ articleTitle: size property
 second_title: Aspose.Words for Python
 description: "Font.size property. Gets or sets the font size in points."
 type: docs
-weight: 350
+weight: 10500
 url: /python-net/aspose.words/font/size/
 ---
 

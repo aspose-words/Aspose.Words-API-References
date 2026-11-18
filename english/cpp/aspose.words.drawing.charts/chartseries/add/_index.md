@@ -7,21 +7,20 @@ type: docs
 weight: 1250
 url: /cpp/aspose.words.drawing.charts/chartseries/add/
 ---
-## ChartSeries::Add(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\>\&) method
+## ChartSeries::Add(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&) method
 
 
 Adds the specified X value to the chart series. If the series supports Y values and bubble sizes, they will be empty for the X value.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartSeries::Add(const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> &xValue)
+void Aspose::Words::Drawing::Charts::ChartSeries::Add(const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> & xValue)
 ```
-
 
 ## Examples
 
 
+Shows how to populate chart series with data.
 
-Shows how to populate chart series with data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,28 +50,25 @@ series2->Add(ChartXValue::FromDouble(8), ChartYValue::FromDouble(7));
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
-
 ## See Also
 
-* Class [ChartXValue](../../chartxvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartSeries::Add(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\>\&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\>\&) method
+## ChartSeries::Add(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\> \&) method
 
 
 Adds the specified X and Y values to the chart series.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartSeries::Add(const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> &xValue, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> &yValue)
+void Aspose::Words::Drawing::Charts::ChartSeries::Add(const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> & xValue, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> & yValue)
 ```
-
 
 ## Examples
 
 
+Shows how to populate chart series with data.
 
-Shows how to populate chart series with data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -103,8 +99,8 @@ series2->Add(ChartXValue::FromDouble(8), ChartYValue::FromDouble(7));
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
 
+Shows how to add/remove chart data values.
 
-Shows how to add/remove chart data values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
@@ -125,29 +121,25 @@ department2Series->Add(newXCategory, ChartYValue::FromDouble(5.7));
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartDataValues.docx");
 ```
-
 ## See Also
 
-* Class [ChartXValue](../../chartxvalue/)
-* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartSeries::Add(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\>\&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\>\&, double) method
+## ChartSeries::Add(const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartXValue\> \&, const System::SharedPtr\<Aspose::Words::Drawing::Charts::ChartYValue\> \&, double) method
 
 
 Adds the specified X value, Y value and bubble size to the chart series.
 
 ```cpp
-void Aspose::Words::Drawing::Charts::ChartSeries::Add(const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> &xValue, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> &yValue, double bubbleSize)
+void Aspose::Words::Drawing::Charts::ChartSeries::Add(const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartXValue> & xValue, const System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> & yValue, double bubbleSize)
 ```
-
 
 ## Examples
 
 
+Shows how to populate chart series with data.
 
-Shows how to populate chart series with data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -177,11 +169,8 @@ series2->Add(ChartXValue::FromDouble(8), ChartYValue::FromDouble(7));
 
 doc->Save(get_ArtifactsDir() + u"Charts.PopulateChartWithData.docx");
 ```
-
 ## See Also
 
-* Class [ChartXValue](../../chartxvalue/)
-* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -5,7 +5,7 @@ articleTitle: replace_backslash_with_yen_sign property
 second_title: Aspose.Words for Python
 description: "XamlFlowSaveOptions.replace_backslash_with_yen_sign property. Specifies whether backslash characters should be replaced with yen signs"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.saving/xamlflowsaveoptions/replace_backslash_with_yen_sign/
 ---
 

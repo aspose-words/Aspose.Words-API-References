@@ -5,7 +5,7 @@ articleTitle: resource_file_name property
 second_title: Aspose.Words for Python
 description: "ResourceSavingArgs.resource_file_name property. Gets or sets the file name (without path) where the resource will be saved to."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.saving/resourcesavingargs/resource_file_name/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: as_field_next_if method
 second_title: Aspose.Words for Python
 description: "Field.as_field_next_if method. Cast Field to [FieldNextIf](../../fieldnextif/)."
 type: docs
-weight: 690
+weight: 20700
 url: /python-net/aspose.words.fields/field/as_field_next_if/
 ---
 

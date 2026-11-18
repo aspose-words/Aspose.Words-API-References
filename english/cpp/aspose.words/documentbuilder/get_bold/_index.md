@@ -4,7 +4,7 @@ linktitle: get_Bold
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::DocumentBuilder::get_Bold method. True if the font is formatted as bold in C++.'
 type: docs
-weight: 9000
+weight: 74000
 url: /cpp/aspose.words/documentbuilder/get_bold/
 ---
 ## DocumentBuilder::get_Bold method
@@ -13,15 +13,14 @@ url: /cpp/aspose.words/documentbuilder/get_bold/
 True if the font is formatted as bold.
 
 ```cpp
-bool Aspose::Words::DocumentBuilder::get_Bold()
+_Bool Aspose::Words::DocumentBuilder::get_Bold()
 ```
-
 
 ## Examples
 
 
+Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
 
-Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,7 +45,6 @@ builder->Writeln(u"John Bloggs");
 
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.FillMergeFields.docx");
 ```
-
 ## See Also
 
 * Class [DocumentBuilder](../)

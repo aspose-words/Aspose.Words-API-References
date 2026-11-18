@@ -2,7 +2,7 @@
 title: Aspose::Words::MailMerging::ImageFieldMergingArgs::set_Shape method
 linktitle: set_Shape
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::MailMerging::ImageFieldMergingArgs::set_Shape method. Setter for Aspose::Words::MailMerging::ImageFieldMergingArgs::get_Shape in C++.'
+description: 'Aspose::Words::MailMerging::ImageFieldMergingArgs::set_Shape method. Specifies the shape that the mail merge engine must insert into the document in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/set_shape/
@@ -10,15 +10,20 @@ url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/set_shape/
 ## ImageFieldMergingArgs::set_Shape method
 
 
-Setter for [Aspose::Words::MailMerging::ImageFieldMergingArgs::get_Shape](../get_shape/).
+Specifies the shape that the mail merge engine must insert into the document.
 
 ```cpp
-void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_Shape(const System::SharedPtr<Aspose::Words::Drawing::Shape> &value)
+void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_Shape(const System::SharedPtr<Aspose::Words::Drawing::Shape> & value)
 ```
 
+## Remarks
+
+
+When this property is specified, the mail merge engine ignores all other properties like [ImageFileName](../get_imagefilename/) or [ImageStream](../get_imagestream/) and simply inserts the shape into the document.
+
+Use this property to fully control the process of merging an image merge field. For example, you can specify [WrapType](../../../aspose.words.drawing/shapebase/get_wraptype/) or any other shape property to fine tune the resulting node. However, please note that you are responsible for providing the content of the shape.
 ## See Also
 
-* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [ImageFieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

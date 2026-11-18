@@ -21,7 +21,7 @@ void Aspose::Words::MailMerging::MailMerge::DeleteFields()
 
 This method removes MERGEFIELD and NEXT fields from the document.
 
-This method could be useful if your mail merge operation does not always need to populate all fields in the document. Use this method to remove all remaining mail merge fields. 
+This method could be useful if your mail merge operation does not always need to populate all fields in the document. Use this method to remove all remaining mail merge fields.
 ## See Also
 
 * Class [MailMerge](../)

@@ -5,7 +5,7 @@ articleTitle: get_data_source method
 second_title: Aspose.Words for Python
 description: "IMailMergeDataSourceRoot.get_data_source method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.mailmerging/imailmergedatasourceroot/get_data_source/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: MemoryFontSource constructor
 second_title: Aspose.Words for Python
 description: "aspose.words.fonts.MemoryFontSource constructor"
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.fonts/memoryfontsource/__init__/
 ---
 

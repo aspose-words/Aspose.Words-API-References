@@ -13,7 +13,7 @@ url: /cpp/aspose.words.bibliography/corporate/set_name/
 Sets the name of an organization.
 
 ```cpp
-void Aspose::Words::Bibliography::Corporate::set_Name(const System::String &value)
+void Aspose::Words::Bibliography::Corporate::set_Name(const System::String & value)
 ```
 
 ## See Also

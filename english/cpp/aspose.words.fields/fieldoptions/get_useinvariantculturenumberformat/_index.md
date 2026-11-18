@@ -10,26 +10,25 @@ url: /cpp/aspose.words.fields/fieldoptions/get_useinvariantculturenumberformat/
 ## FieldOptions::get_UseInvariantCultureNumberFormat method
 
 
-Gets or sets the value indicating that number format is parsed using invariant culture or not.
+Gets or sets the value indicating that number format is parsed using invariant culture or not
 
 ```cpp
-bool Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat() const
+_Bool Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat() const
 ```
 
 ## Remarks
 
 
-When this property is set to **true**, number format is taken from an invariant culture.
+ When this property is set to **true**, number format is taken from an invariant culture. 
 
-When this property is set to **false**, number format is taken from the current thread's culture.
+ When this property is set to **false**, number format is taken from the current thread's culture. 
 
 The default value is **false**.
-
 ## Examples
 
 
+Shows how to format numbers according to the invariant culture.
 
-Shows how to format numbers according to the invariant culture. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,7 +39,7 @@ field->Update();
 
 // Sometimes, fields may not format their numbers correctly under certain cultures.
 ASSERT_FALSE(doc->get_FieldOptions()->get_UseInvariantCultureNumberFormat());
-ASSERT_EQ((u"$1.234.567,89 ,     "), field->get_Result());
+ASSERT_EQ(field->get_Result(), (u"$1.234.567,89 ,     "));
 
 // To fix this, we could change the culture for the entire thread.
 // Another way to fix this is to set this flag,
@@ -48,9 +47,8 @@ ASSERT_EQ((u"$1.234.567,89 ,     "), field->get_Result());
 // This way allows us to avoid changing the culture for the entire thread.
 doc->get_FieldOptions()->set_UseInvariantCultureNumberFormat(true);
 field->Update();
-ASSERT_EQ((u"$1.234.567,89"), field->get_Result());
+ASSERT_EQ(field->get_Result(), (u"$1.234.567,89"));
 ```
-
 ## See Also
 
 * Class [FieldOptions](../)

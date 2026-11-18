@@ -5,7 +5,7 @@ articleTitle: is_format_revision property
 second_title: Aspose.Words for Python
 description: "Paragraph.is_format_revision property. Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words/paragraph/is_format_revision/
 ---
 

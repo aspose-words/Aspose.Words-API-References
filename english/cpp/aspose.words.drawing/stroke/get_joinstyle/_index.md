@@ -20,12 +20,11 @@ Aspose::Words::Drawing::JoinStyle Aspose::Words::Drawing::Stroke::get_JoinStyle(
 
 
 The default value is [Round](../../joinstyle/).
-
 ## Examples
 
 
+Shows how change stroke properties.
 
-Shows how change stroke properties. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,10 +49,8 @@ stroke->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Red(), System::
 
 doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
-
 ## See Also
 
-* Enum [JoinStyle](../../joinstyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

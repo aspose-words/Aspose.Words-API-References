@@ -5,7 +5,7 @@ articleTitle: month property
 second_title: Aspose.Words for Python
 description: "Source.month property. Gets or sets the month of a source."
 type: docs
-weight: 280
+weight: 8400
 url: /python-net/aspose.words.bibliography/source/month/
 ---
 

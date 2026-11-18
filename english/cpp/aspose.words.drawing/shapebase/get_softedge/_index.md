@@ -4,7 +4,7 @@ linktitle: get_SoftEdge
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Drawing::ShapeBase::get_SoftEdge method. Gets soft edge formatting for the shape in C++.'
 type: docs
-weight: 49500
+weight: 61835
 url: /cpp/aspose.words.drawing/shapebase/get_softedge/
 ---
 ## ShapeBase::get_SoftEdge method
@@ -16,12 +16,11 @@ Gets soft edge formatting for the shape.
 System::SharedPtr<Aspose::Words::Drawing::SoftEdgeFormat> Aspose::Words::Drawing::ShapeBase::get_SoftEdge()
 ```
 
-
 ## Examples
 
 
+Shows how to work with soft edge formatting.
 
-Shows how to work with soft edge formatting. 
 ```cpp
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(ShapeType::Rectangle, static_cast<double>(200), static_cast<double>(200));
@@ -37,17 +36,17 @@ shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(NodeTy
 System::SharedPtr<Aspose::Words::Drawing::SoftEdgeFormat> softEdgeFormat = shape->get_SoftEdge();
 
 // Check soft edge radius.
-ASPOSE_ASSERT_EQ(30, softEdgeFormat->get_Radius());
+ASPOSE_ASSERT_EQ(softEdgeFormat->get_Radius(), 30);
 
 // Remove soft edge from the shape.
 softEdgeFormat->Remove();
 
 // Check radius of the removed soft edge.
-ASPOSE_ASSERT_EQ(0, softEdgeFormat->get_Radius());
+ASPOSE_ASSERT_EQ(softEdgeFormat->get_Radius(), 0);
 ```
 
+Shows how to set limit for image resolution.
 
-Shows how to set limit for image resolution. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -56,10 +55,8 @@ saveOptions->set_MaxImageResolution(72);
 
 doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.MaxImageResolution.svg", saveOptions);
 ```
-
 ## See Also
 
-* Class [SoftEdgeFormat](../../softedgeformat/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

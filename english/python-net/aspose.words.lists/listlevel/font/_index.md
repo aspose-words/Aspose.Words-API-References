@@ -5,7 +5,7 @@ articleTitle: font property
 second_title: Aspose.Words for Python
 description: "ListLevel.font property. Specifies character formatting used for the list label."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lists/listlevel/font/
 ---
 

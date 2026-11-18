@@ -5,7 +5,7 @@ articleTitle: VariationAxis enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.shaping.VariationAxis enumeration. Represents OpenType Design-Variation Axis Tag"
 type: docs
-weight: 110
+weight: 2200
 url: /python-net/aspose.words.shaping/variationaxis/
 ---
 

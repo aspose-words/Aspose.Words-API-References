@@ -5,7 +5,7 @@ articleTitle: AxisTickMark enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisTickMark enumeration. Specifies the possible positions for tick marks."
 type: docs
-weight: 110
+weight: 2200
 url: /python-net/aspose.words.drawing.charts/axistickmark/
 ---
 

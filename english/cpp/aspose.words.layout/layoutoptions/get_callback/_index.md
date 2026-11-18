@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Layout::IPageLayoutCallback> Aspose::Words::Lay
 
 ## See Also
 
-* Interface [IPageLayoutCallback](../../ipagelayoutcallback/)
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

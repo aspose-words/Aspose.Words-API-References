@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/builtindocumentproperties/set_contentstatus/
 Sets the content status of the document.
 
 ```cpp
-void Aspose::Words::Properties::BuiltInDocumentProperties::set_ContentStatus(const System::String &value)
+void Aspose::Words::Properties::BuiltInDocumentProperties::set_ContentStatus(const System::String & value)
 ```
 
 ## See Also

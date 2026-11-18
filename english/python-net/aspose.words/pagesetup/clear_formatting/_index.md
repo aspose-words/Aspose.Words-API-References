@@ -5,7 +5,7 @@ articleTitle: clear_formatting method
 second_title: Aspose.Words for Python
 description: "PageSetup.clear_formatting method. Resets page setup to default paper size, margins and orientation."
 type: docs
-weight: 460
+weight: 13800
 url: /python-net/aspose.words/pagesetup/clear_formatting/
 ---
 

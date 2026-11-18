@@ -18,7 +18,6 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::MarkdownSaveOptions::get_SaveFo
 
 ## See Also
 
-* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

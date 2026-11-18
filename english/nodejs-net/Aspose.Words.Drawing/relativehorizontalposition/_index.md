@@ -30,6 +30,24 @@ Specifies to what the horizontal position of a shape or text frame is relative.
 
 ### Examples
 
+Shows how to insert a floating image to the center of a page.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+let shape = builder.insertImage(base.imageDir + "Logo.jpg");
+shape.wrapType = aw.Drawing.WrapType.None;
+shape.behindText = true;
+shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
+shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
+shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
+shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
+
+doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
+
 Shows how to insert an image, and use it as a watermark.
 
 ```js
@@ -49,24 +67,6 @@ shape.left = (builder.pageSetup.pageWidth - shape.width) / 2;
 shape.top = (builder.pageSetup.pageHeight - shape.height) / 2;
 
 doc.save(base.artifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
-Shows how to insert a floating image to the center of a page.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-let shape = builder.insertImage(base.imageDir + "Logo.jpg");
-shape.wrapType = aw.Drawing.WrapType.None;
-shape.behindText = true;
-shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
-shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
-shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
-shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
-
-doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
 ### See Also

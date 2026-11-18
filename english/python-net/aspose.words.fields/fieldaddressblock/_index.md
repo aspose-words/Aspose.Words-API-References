@@ -5,7 +5,7 @@ articleTitle: FieldAddressBlock class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldAddressBlock class. Implements the ADDRESSBLOCK field"
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.fields/fieldaddressblock/
 ---
 

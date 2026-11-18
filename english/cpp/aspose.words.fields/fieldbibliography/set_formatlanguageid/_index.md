@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldbibliography/set_formatlanguageid/
 Sets the language ID that is used to format the bibliographic sources in the document.
 
 ```cpp
-void Aspose::Words::Fields::FieldBibliography::set_FormatLanguageId(const System::String &value)
+void Aspose::Words::Fields::FieldBibliography::set_FormatLanguageId(const System::String & value)
 ```
 
 ## See Also

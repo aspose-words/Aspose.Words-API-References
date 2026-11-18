@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages method
 linktitle: set_ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages in C++.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages method. Specifies whether original URL should be used as the URL of the linked images. Default value is false in C++.'
 type: docs
 weight: 69000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportoriginalurlforlinkedimages/
@@ -10,12 +10,41 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportoriginalurlforlinkedimag
 ## HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages method
 
 
-Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages](../get_exportoriginalurlforlinkedimages/).
+Specifies whether original URL should be used as the URL of the linked images. Default value is **false**.
 
 ```cpp
 void Aspose::Words::Saving::HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages(bool value)
 ```
 
+## Remarks
+
+
+If value is set to **true**[SourceFullName](../../../aspose.words.drawing/imagedata/get_sourcefullname/) value is used as the URL of linked images and linked images are not loaded into document's folder or [ImagesFolder](../get_imagesfolder/).
+
+If value is set to **false** linked images are loaded into document's folder or [ImagesFolder](../get_imagesfolder/) and URL of each linked image is constructed depending on document's folder, [ImagesFolder](../get_imagesfolder/) and [ImagesFolderAlias](../get_imagesfolderalias/) properties.
+## Examples
+
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
+
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
+options->set_CssStyleSheetType(CssStyleSheetType::External);
+options->set_ExportFontResources(true);
+options->set_ImageResolution(72);
+options->set_FontResourcesSubsettingSizeThreshold(0);
+options->set_FontsFolder(get_ArtifactsDir() + u"Fonts");
+options->set_ImagesFolder(get_ArtifactsDir() + u"Images");
+options->set_ResourceFolder(get_ArtifactsDir() + u"Resources");
+options->set_FontsFolderAlias(u"http://example.com/fonts");
+options->set_ImagesFolderAlias(u"http://example.com/images");
+options->set_ResourceFolderAlias(u"http://example.com/resources");
+options->set_ExportOriginalUrlForLinkedImages(true);
+
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
+```
 ## See Also
 
 * Class [HtmlSaveOptions](../)

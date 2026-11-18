@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/set_entryseparator/
 Sets the character sequence that is used to separate a table of authorities entry and its page number.
 
 ```cpp
-void Aspose::Words::Fields::FieldToa::set_EntrySeparator(const System::String &value)
+void Aspose::Words::Fields::FieldToa::set_EntrySeparator(const System::String & value)
 ```
 
 ## See Also

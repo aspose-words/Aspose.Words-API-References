@@ -16,6 +16,9 @@ The value.
 double Aspose::Words::Fields::MergeFieldImageDimension::get_Value() const
 ```
 
+## Remarks
+
+ You should use a negative value to indicate that the original value of the corresponding image dimension should be applied. 
 ## See Also
 
 * Class [MergeFieldImageDimension](../)

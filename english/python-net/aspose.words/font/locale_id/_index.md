@@ -5,7 +5,7 @@ articleTitle: locale_id property
 second_title: Aspose.Words for Python
 description: "Font.locale_id property. Gets or sets the locale identifier (language) of the formatted characters."
 type: docs
-weight: 200
+weight: 6000
 url: /python-net/aspose.words/font/locale_id/
 ---
 

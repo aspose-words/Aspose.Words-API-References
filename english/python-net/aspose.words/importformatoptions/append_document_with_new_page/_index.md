@@ -5,7 +5,7 @@ articleTitle: append_document_with_new_page property
 second_title: Aspose.Words for Python
 description: "ImportFormatOptions.append_document_with_new_page property. Gets or sets a boolean value indicating whether to change a first imported section type to the [SectionStart.NEW_PAGE](../../sectionstart/#NEW_PAGE) forcibly when call [Document.append_document()](../../document/append_document/#document_importformatmode_importformatoptions)"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/importformatoptions/append_document_with_new_page/
 ---
 

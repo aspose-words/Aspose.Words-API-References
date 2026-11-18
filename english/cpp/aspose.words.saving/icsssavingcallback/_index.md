@@ -10,20 +10,17 @@ url: /cpp/aspose.words.saving/icsssavingcallback/
 ## ICssSavingCallback interface
 
 
-Implement this interface if you want to control how Aspose.Words saves CSS (Cascading [Style](../../aspose.words/style/) Sheet) when saving a document to HTML.
+Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when saving a document to HTML.
 
 ```cpp
-class ICssSavingCallback : public virtual System::Object
+class ICssSavingCallback : public System::Object
 ```
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| virtual [CssSaving](./csssaving/)(System::SharedPtr\<Aspose::Words::Saving::CssSavingArgs\>) | Called when Aspose.Words saves an CSS (Cascading [Style](../../aspose.words/style/) Sheet). |
-| [GetType](./gettype/)() const override |  |
-| [Is](./is/)(const System::TypeInfo\&) const override |  |
-| static [Type](./type/)() |  |
+| virtual [CssSaving](./csssaving/)(System::SharedPtr\<Aspose::Words::Saving::CssSavingArgs\>) | Called when Aspose.Words saves an CSS (Cascading Style Sheet). |
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

@@ -13,15 +13,14 @@ url: /cpp/aspose.words.fields/fieldxe/get_isitalic/
 Gets or sets whether to apply italic formatting to the entry's page number.
 
 ```cpp
-bool Aspose::Words::Fields::FieldXE::get_IsItalic()
+_Bool Aspose::Words::Fields::FieldXE::get_IsItalic()
 ```
-
 
 ## Examples
 
 
+Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.
 
-Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -44,7 +43,7 @@ index->set_NumberOfColumns(u"2");
 // Set any entries with starting letters outside the "a-c" character range to be omitted.
 index->set_LetterRange(u"a-c");
 
-ASSERT_EQ(u" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index->GetFieldCode());
+ASSERT_EQ(index->GetFieldCode(), u" INDEX  \\z 1033 \\h A \\c 2 \\p a-c");
 
 // These next two XE fields will show up under the "A" heading,
 // with their respective text stylings also applied to their page numbers.
@@ -53,14 +52,14 @@ auto indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->
 indexEntry->set_Text(u"Apple");
 indexEntry->set_IsItalic(true);
 
-ASSERT_EQ(u" XE  Apple \\i", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  Apple \\i");
 
 builder->InsertBreak(BreakType::PageBreak);
 indexEntry = System::ExplicitCast<Aspose::Words::Fields::FieldXE>(builder->InsertField(FieldType::FieldIndexEntry, true));
 indexEntry->set_Text(u"Apricot");
 indexEntry->set_IsBold(true);
 
-ASSERT_EQ(u" XE  Apricot \\b", indexEntry->GetFieldCode());
+ASSERT_EQ(indexEntry->GetFieldCode(), u" XE  Apricot \\b");
 
 // Both the next two XE fields will be under a "B" and "C" heading in the INDEX fields table of contents.
 builder->InsertBreak(BreakType::PageBreak);
@@ -86,7 +85,6 @@ doc->UpdatePageLayout();
 doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Formatting.docx");
 ```
-
 ## See Also
 
 * Class [FieldXE](../)

@@ -5,7 +5,7 @@ articleTitle: Adjustment class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Adjustment class. Represents adjustment values that are applied to the specified shape."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.drawing/adjustment/
 ---
 

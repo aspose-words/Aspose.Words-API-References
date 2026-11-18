@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportpagesetup/
 Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageSetup() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageSetup() const
 ```
 
 ## Remarks
@@ -22,12 +22,11 @@ bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageSetup() const
 Each [Section](../../../aspose.words/section/) in Aspose.Words document model provides page setup information via [PageSetup](../../../aspose.words/pagesetup/) class. When you export a document to HTML format you might need to keep this information for further usage. In particular, page setup might be important for rendering to paged media (printing) or subsequent conversion to the native Microsoft Word file formats (DOCX, DOC, RTF, WML).
 
 In most cases HTML is intended for viewing in browsers where pagination is not performed. So this feature is inactive by default.
-
 ## Examples
 
 
+Shows how decide whether to preserve section structure/page setup information when saving to HTML.
 
-Shows how decide whether to preserve section structure/page setup information when saving to HTML. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -66,7 +65,6 @@ else
     ASSERT_TRUE(outDocContents.Contains(System::String(u"<div>") + u"<p style=\"margin-top:0pt; margin-bottom:0pt\">" + u"<span>Section 1</span>" + u"</p>" + u"</div>"));
 }
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

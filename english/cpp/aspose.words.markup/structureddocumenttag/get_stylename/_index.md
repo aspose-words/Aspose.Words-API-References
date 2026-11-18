@@ -4,7 +4,7 @@ linktitle: get_StyleName
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Markup::StructuredDocumentTag::get_StyleName method. Gets or sets the name of the style applied to the structured document tag in C++.'
 type: docs
-weight: 30000
+weight: 86000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_stylename/
 ---
 ## StructuredDocumentTag::get_StyleName method
@@ -16,12 +16,11 @@ Gets or sets the name of the style applied to the structured document tag.
 System::String Aspose::Words::Markup::StructuredDocumentTag::get_StyleName()
 ```
 
-
 ## Examples
 
 
+Shows how to work with styles for content control elements.
 
-Shows how to work with styles for content control elements. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -39,7 +38,7 @@ sdtRichText->set_StyleName(u"Quote");
 builder->InsertNode(sdtPlainText);
 builder->InsertNode(sdtRichText);
 
-ASSERT_EQ(NodeType::StructuredDocumentTag, sdtPlainText->get_NodeType());
+ASSERT_EQ(sdtPlainText->get_NodeType(), NodeType::StructuredDocumentTag);
 
 System::SharedPtr<Aspose::Words::NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocumentTag, true);
 
@@ -49,11 +48,10 @@ for (auto&& node : System::IterateOver(tags))
 
     std::cout << sdt->get_WordOpenXMLMinimal() << std::endl;
 
-    ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
-    ASSERT_EQ(u"Quote", sdt->get_StyleName());
+    ASSERT_EQ(sdt->get_Style()->get_StyleIdentifier(), StyleIdentifier::Quote);
+    ASSERT_EQ(sdt->get_StyleName(), u"Quote");
 }
 ```
-
 ## See Also
 
 * Class [StructuredDocumentTag](../)

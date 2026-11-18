@@ -5,7 +5,7 @@ articleTitle: alignment property
 second_title: Aspose.Words for Python
 description: "TabStop.alignment property. Gets or sets the alignment of text at this tab stop."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/tabstop/alignment/
 ---
 

@@ -22,8 +22,8 @@ get commentColor(): Aspose.Words.Layout.RevisionColor
 
 ### Remarks
 
-If set this property  to [RevisionColor.ByAuthor](../../revisioncolor/#ByAuthor) or [RevisionColor.NoHighlight](../../revisioncolor/#NoHighlight) values,
-as the result this property will be set to default color.
+If this property is set to [RevisionColor.NoHighlight](../../revisioncolor/#NoHighlight),
+the default color will be used for comments.
 
 
 ### See Also

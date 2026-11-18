@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddatabase/set_connection/
 Sets a connection to the data.
 
 ```cpp
-void Aspose::Words::Fields::FieldDatabase::set_Connection(const System::String &value)
+void Aspose::Words::Fields::FieldDatabase::set_Connection(const System::String & value)
 ```
 
 ## See Also

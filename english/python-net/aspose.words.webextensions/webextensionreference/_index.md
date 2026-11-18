@@ -5,7 +5,7 @@ articleTitle: WebExtensionReference class
 second_title: Aspose.Words for Python
 description: "aspose.words.webextensions.WebExtensionReference class. Represents the reference to a web extension"
 type: docs
-weight: 100
+weight: 2000
 url: /python-net/aspose.words.webextensions/webextensionreference/
 ---
 

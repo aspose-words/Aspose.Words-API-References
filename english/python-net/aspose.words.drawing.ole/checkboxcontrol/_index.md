@@ -5,7 +5,7 @@ articleTitle: CheckBoxControl class
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ole.CheckBoxControl class. The CheckBox control toggles a value."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.drawing.ole/checkboxcontrol/
 ---
 

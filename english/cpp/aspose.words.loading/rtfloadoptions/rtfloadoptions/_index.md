@@ -16,12 +16,11 @@ Initializes a new instance of this class with default values.
 Aspose::Words::Loading::RtfLoadOptions::RtfLoadOptions()
 ```
 
-
 ## Examples
 
 
+Shows how to detect UTF-8 characters while loading an RTF document.
 
-Shows how to detect UTF-8 characters while loading an RTF document. 
 ```cpp
 // Create an "RtfLoadOptions" object to modify how we load an RTF document.
 auto loadOptions = System::MakeObject<Aspose::Words::Loading::RtfLoadOptions>();
@@ -33,9 +32,8 @@ loadOptions->set_RecognizeUtf8Text(recognizeUtf8Text);
 
 auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"UTF-8 characters.rtf", loadOptions);
 
-ASSERT_EQ((recognizeUtf8Text ? System::String(u"“John Doe´s list of currency symbols”™\r") + u"€, ¢, £, ¥, ¤" : System::String(u"â€œJohn DoeÂ´s list of currency symbolsâ€\u009dâ„¢\r") + u"â‚¬, Â¢, Â£, Â¥, Â¤"), doc->get_FirstSection()->get_Body()->GetText().Trim());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->GetText().Trim(), (recognizeUtf8Text ? System::String(u"“John Doe´s list of currency symbols”™\r") + u"€, ¢, £, ¥, ¤" : System::String(u"â€œJohn DoeÂ´s list of currency symbolsâ€\u009dâ„¢\r") + u"â‚¬, Â¢, Â£, Â¥, Â¤"));
 ```
-
 ## See Also
 
 * Class [RtfLoadOptions](../)

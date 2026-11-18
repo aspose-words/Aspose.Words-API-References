@@ -5,7 +5,7 @@ articleTitle: page_range_bookmark_name property
 second_title: Aspose.Words for Python
 description: "FieldXE.page_range_bookmark_name property. Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.fields/fieldxe/page_range_bookmark_name/
 ---
 

@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataPoint> Aspose::Words:
 
 ## See Also
 
-* Class [ChartDataPoint](../../chartdatapoint/)
 * Class [ChartDataPointCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,7 +18,6 @@ const System::SharedPtr<Aspose::Words::Fields::IFieldDatabaseProvider> & Aspose:
 
 ## See Also
 
-* Interface [IFieldDatabaseProvider](../../ifielddatabaseprovider/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

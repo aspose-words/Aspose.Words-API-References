@@ -5,7 +5,7 @@ articleTitle: footer_distance property
 second_title: Aspose.Words for Python
 description: "PageSetup.footer_distance property. Returns or sets the distance (in points) between the footer and the bottom of the page."
 type: docs
-weight: 140
+weight: 4200
 url: /python-net/aspose.words/pagesetup/footer_distance/
 ---
 

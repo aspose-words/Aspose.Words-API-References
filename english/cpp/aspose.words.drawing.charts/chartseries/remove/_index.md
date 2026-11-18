@@ -16,12 +16,11 @@ Removes the X value, Y value, and bubble size, if supported, from the chart seri
 void Aspose::Words::Drawing::Charts::ChartSeries::Remove(int32_t index)
 ```
 
-
 ## Examples
 
 
+Shows how to add/remove chart data values.
 
-Shows how to add/remove chart data values. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
@@ -42,7 +41,6 @@ department2Series->Add(newXCategory, ChartYValue::FromDouble(5.7));
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartDataValues.docx");
 ```
-
 ## See Also
 
 * Class [ChartSeries](../)

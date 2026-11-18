@@ -5,7 +5,7 @@ articleTitle: open method
 second_title: Aspose.Words for Python
 description: "aspose.words.ComHelper.open method"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words/comhelper/open/
 ---
 

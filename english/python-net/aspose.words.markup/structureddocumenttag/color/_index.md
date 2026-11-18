@@ -5,7 +5,7 @@ articleTitle: color property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.color property. Gets or sets the color of the structured document tag."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.markup/structureddocumenttag/color/
 ---
 

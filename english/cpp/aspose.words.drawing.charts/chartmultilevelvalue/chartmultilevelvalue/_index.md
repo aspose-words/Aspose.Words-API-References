@@ -7,21 +7,20 @@ type: docs
 weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartmultilevelvalue/chartmultilevelvalue/
 ---
-## ChartMultilevelValue::ChartMultilevelValue(const System::String\&) constructor
+## ChartMultilevelValue::ChartMultilevelValue(const System::String \&) constructor
 
 
 Initializes a new instance of this class that represents a single-level value.
 
 ```cpp
-Aspose::Words::Drawing::Charts::ChartMultilevelValue::ChartMultilevelValue(const System::String &level1)
+Aspose::Words::Drawing::Charts::ChartMultilevelValue::ChartMultilevelValue(const System::String & level1)
 ```
-
 
 ## Examples
 
 
+Shows how to create treemap chart.
 
-Shows how to create treemap chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -46,27 +45,25 @@ series->get_DataLabels()->get_NumberFormat()->set_FormatCode(System::String::For
 
 doc->Save(get_ArtifactsDir() + u"Charts.Treemap.docx");
 ```
-
 ## See Also
 
 * Class [ChartMultilevelValue](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartMultilevelValue::ChartMultilevelValue(const System::String\&, const System::String\&) constructor
+## ChartMultilevelValue::ChartMultilevelValue(const System::String \&, const System::String \&) constructor
 
 
 Initializes a new instance of this class that represents a two-level value.
 
 ```cpp
-Aspose::Words::Drawing::Charts::ChartMultilevelValue::ChartMultilevelValue(const System::String &level1, const System::String &level2)
+Aspose::Words::Drawing::Charts::ChartMultilevelValue::ChartMultilevelValue(const System::String & level1, const System::String & level2)
 ```
-
 
 ## Examples
 
 
+Shows how to create treemap chart.
 
-Shows how to create treemap chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -91,27 +88,25 @@ series->get_DataLabels()->get_NumberFormat()->set_FormatCode(System::String::For
 
 doc->Save(get_ArtifactsDir() + u"Charts.Treemap.docx");
 ```
-
 ## See Also
 
 * Class [ChartMultilevelValue](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartMultilevelValue::ChartMultilevelValue(const System::String\&, const System::String\&, const System::String\&) constructor
+## ChartMultilevelValue::ChartMultilevelValue(const System::String \&, const System::String \&, const System::String \&) constructor
 
 
 Initializes a new instance of this class that represents a three-level value.
 
 ```cpp
-Aspose::Words::Drawing::Charts::ChartMultilevelValue::ChartMultilevelValue(const System::String &level1, const System::String &level2, const System::String &level3)
+Aspose::Words::Drawing::Charts::ChartMultilevelValue::ChartMultilevelValue(const System::String & level1, const System::String & level2, const System::String & level3)
 ```
-
 
 ## Examples
 
 
+Shows how to create treemap chart.
 
-Shows how to create treemap chart. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -136,7 +131,6 @@ series->get_DataLabels()->get_NumberFormat()->set_FormatCode(System::String::For
 
 doc->Save(get_ArtifactsDir() + u"Charts.Treemap.docx");
 ```
-
 ## See Also
 
 * Class [ChartMultilevelValue](../)

@@ -5,7 +5,7 @@ articleTitle: add method
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeries.add method"
 type: docs
-weight: 160
+weight: 4800
 url: /python-net/aspose.words.drawing.charts/chartseries/add/
 ---
 

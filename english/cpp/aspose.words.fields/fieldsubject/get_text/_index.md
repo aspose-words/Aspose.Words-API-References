@@ -16,12 +16,11 @@ Gets or sets the text of the subject.
 System::String Aspose::Words::Fields::FieldSubject::get_Text()
 ```
 
-
 ## Examples
 
 
+Shows how to use the SUBJECT field.
 
-Shows how to use the SUBJECT field. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -33,8 +32,8 @@ auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSubject>(builder->InsertField(FieldType::FieldSubject, true));
 field->Update();
 
-ASSERT_EQ(u" SUBJECT ", field->GetFieldCode());
-ASSERT_EQ(u"My subject", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" SUBJECT ");
+ASSERT_EQ(field->get_Result(), u"My subject");
 
 // If we give the SUBJECT field's Text property value and update it, the field will
 // overwrite the current value of the "Subject" built-in property with the value of its Text property,
@@ -42,14 +41,13 @@ ASSERT_EQ(u"My subject", field->get_Result());
 field->set_Text(u"My new subject");
 field->Update();
 
-ASSERT_EQ(u" SUBJECT  \"My new subject\"", field->GetFieldCode());
-ASSERT_EQ(u"My new subject", field->get_Result());
+ASSERT_EQ(field->GetFieldCode(), u" SUBJECT  \"My new subject\"");
+ASSERT_EQ(field->get_Result(), u"My new subject");
 
-ASSERT_EQ(u"My new subject", doc->get_BuiltInDocumentProperties()->get_Subject());
+ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Subject(), u"My new subject");
 
 doc->Save(get_ArtifactsDir() + u"Field.SUBJECT.docx");
 ```
-
 ## See Also
 
 * Class [FieldSubject](../)

@@ -16,12 +16,11 @@ Deletes all characters of the range.
 void Aspose::Words::Range::Delete()
 ```
 
-
 ## Examples
 
 
+Shows how to delete all the nodes from a range.
 
-Shows how to delete all the nodes from a range. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -31,16 +30,15 @@ builder->Write(u"Section 1. ");
 builder->InsertBreak(BreakType::SectionBreakContinuous);
 builder->Write(u"Section 2.");
 
-ASSERT_EQ(u"Section 1. \fSection 2.", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Section 1. \fSection 2.");
 
 // Remove the first section entirely by removing all the nodes
 // within its range, including the section itself.
 doc->get_Sections()->idx_get(0)->get_Range()->Delete();
 
-ASSERT_EQ(1, doc->get_Sections()->get_Count());
-ASSERT_EQ(u"Section 2.", doc->GetText().Trim());
+ASSERT_EQ(doc->get_Sections()->get_Count(), 1);
+ASSERT_EQ(doc->GetText().Trim(), u"Section 2.");
 ```
-
 ## See Also
 
 * Class [Range](../)

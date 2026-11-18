@@ -5,7 +5,7 @@ articleTitle: TabStop class
 second_title: Aspose.Words for Python
 description: "aspose.words.TabStop class. Represents a single custom tab stop"
 type: docs
-weight: 1300
+weight: 26000
 url: /python-net/aspose.words/tabstop/
 ---
 

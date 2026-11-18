@@ -5,7 +5,7 @@ articleTitle: clear method
 second_title: Aspose.Words for Python
 description: "FieldCollection.clear method. Removes all fields of this collection from the document and from this collection itself."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldcollection/clear/
 ---
 

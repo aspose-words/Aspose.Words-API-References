@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/htmlcontroltype/
 Type of document nodes that represent <input> and <select> elements imported from HTML.
 
 ```cpp
-enum class HtmlControlType
+enum class HtmlControlType : int
 ```
 
 ### Values
@@ -21,14 +21,13 @@ enum class HtmlControlType
 | Name | Value | Description |
 | --- | --- | --- |
 | FormField | 0 | A form field. |
-| StructuredDocumentTag | 1 | A structured document tag. |
-
+| StructuredDocumentTag | 1 | A structured document tag |
 
 ## Examples
 
 
+Shows how to set preferred type of document nodes that will represent imported <input> and <select> elements.
 
-Shows how to set preferred type of document nodes that will represent imported <input> and <select> elements. 
 ```cpp
 const System::String html = u"\r\n                <html>\r\n                    <select name='ComboBox' size='1'>\r\n                        <option value='val1'>item1</option>\r\n                        <option value='val2'></option>\r\n                    </select>\r\n                </html>\r\n            ";
 
@@ -40,7 +39,6 @@ System::SharedPtr<Aspose::Words::NodeCollection> nodes = doc->GetChildNodes(Node
 
 auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(nodes->idx_get(0));
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)

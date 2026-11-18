@@ -7,26 +7,25 @@ type: docs
 weight: 5000
 url: /cpp/aspose.words/document/appenddocument/
 ---
-## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) method
+## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\> \&, Aspose::Words::ImportFormatMode) method
 
 
 Appends the specified document to the end of this document.
 
 ```cpp
-void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Words::Document> &srcDoc, Aspose::Words::ImportFormatMode importFormatMode)
+void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Words::Document> & srcDoc, Aspose::Words::ImportFormatMode importFormatMode)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcDoc | const System::SharedPtr\<Aspose::Words::Document\>\& | The document to append. |
+| srcDoc | const System::SharedPtr\<Aspose::Words::Document\> \& | The document to append. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
-
 ## Examples
 
 
+Shows how to append a document to the end of another document.
 
-Shows how to append a document to the end of another document. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 srcDoc->get_FirstSection()->get_Body()->AppendParagraph(u"Source document text. ");
@@ -41,8 +40,8 @@ dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting);
 dstDoc->Save(get_ArtifactsDir() + u"Document.AppendDocument.docx");
 ```
 
+Shows how to append all the documents in a folder to the end of a template document.
 
-Shows how to append all the documents in a folder to the end of a template document. 
 ```cpp
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 
@@ -72,35 +71,31 @@ for (auto&& fileName : docFiles)
 
 dstDoc->Save(get_ArtifactsDir() + u"Document.AppendAllDocumentsInFolder.doc");
 ```
-
 ## See Also
 
 * Class [Document](../)
-* Enum [ImportFormatMode](../../importformatmode/)
-* Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
+## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\> \&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \&) method
 
 
 Appends the specified document to the end of this document.
 
 ```cpp
-void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Words::Document> &srcDoc, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> &importFormatOptions)
+void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Words::Document> & srcDoc, Aspose::Words::ImportFormatMode importFormatMode, const System::SharedPtr<Aspose::Words::ImportFormatOptions> & importFormatOptions)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcDoc | const System::SharedPtr\<Aspose::Words::Document\>\& | The document to append. |
+| srcDoc | const System::SharedPtr\<Aspose::Words::Document\> \& | The document to append. |
 | importFormatMode | Aspose::Words::ImportFormatMode | Specifies how to merge style formatting that clashes. |
-| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\& | Allows to specify options that affect formatting of a result document. |
-
+| importFormatOptions | const System::SharedPtr\<Aspose::Words::ImportFormatOptions\> \& | Allows to specify options that affect formatting of a result document. |
 ## Examples
 
 
+Shows how to manage list style clashes while appending a document.
 
-Shows how to manage list style clashes while appending a document. 
 ```cpp
 // Load a document with text in a custom style and clone it.
 auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Custom list numbering.docx"));
@@ -125,8 +120,8 @@ dstDoc->UpdateListLabels();
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.AppendDocumentAndResolveStyles.docx");
 ```
 
+Shows how to manage list style clashes while inserting a document.
 
-Shows how to manage list style clashes while inserting a document. 
 ```cpp
 auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
@@ -157,8 +152,8 @@ builder->InsertDocument(attachDoc, ImportFormatMode::KeepSourceFormatting, impor
 dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocumentAndResolveStyles.docx");
 ```
 
+Shows how to manage list style clashes while appending a clone of a document to itself.
 
-Shows how to manage list style clashes while appending a clone of a document to itself. 
 ```cpp
 auto srcDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
 auto dstDoc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"List item.docx"));
@@ -177,12 +172,8 @@ builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options)
 
 dstDoc->UpdateListLabels();
 ```
-
 ## See Also
 
-* Class [Document](../)
-* Enum [ImportFormatMode](../../importformatmode/)
-* Class [ImportFormatOptions](../../importformatoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

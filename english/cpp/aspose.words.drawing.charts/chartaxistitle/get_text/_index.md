@@ -16,12 +16,14 @@ Gets or sets the text of the axis title. If **null** or empty value is specified
 System::String Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Text()
 ```
 
+## Remarks
 
+Use [Show](../get_show/) option if you need to show the title.
 ## Examples
 
 
+Shows how to set chart axis title.
 
-Shows how to set chart axis title. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,7 +49,6 @@ chartAxisYTitle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 
 doc->Save(get_ArtifactsDir() + u"Charts.ChartAxisTitle.docx");
 ```
-
 ## See Also
 
 * Class [ChartAxisTitle](../)

@@ -5,7 +5,7 @@ articleTitle: should_skip_index method
 second_title: Aspose.Words for Python
 description: "IIndexFilter.should_skip_index method. Determines whether the item with the specified index should be skipped."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/iindexfilter/should_skip_index/
 ---
 

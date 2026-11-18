@@ -5,7 +5,7 @@ articleTitle: ThemeFont enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.themes.ThemeFont enumeration. Specifies the types of theme font names for document themes."
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.themes/themefont/
 ---
 

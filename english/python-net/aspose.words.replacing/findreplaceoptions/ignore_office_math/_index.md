@@ -5,7 +5,7 @@ articleTitle: ignore_office_math property
 second_title: Aspose.Words for Python
 description: "FindReplaceOptions.ignore_office_math property. Gets or sets a boolean value indicating either to ignore text inside OfficeMath/>"
 type: docs
-weight: 110
+weight: 3300
 url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_office_math/
 ---
 

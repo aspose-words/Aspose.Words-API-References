@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldask/set_prompttext/
 Sets the prompt text (the title of the prompt window).
 
 ```cpp
-void Aspose::Words::Fields::FieldAsk::set_PromptText(const System::String &value)
+void Aspose::Words::Fields::FieldAsk::set_PromptText(const System::String & value)
 ```
 
 ## See Also

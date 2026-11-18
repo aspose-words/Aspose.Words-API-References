@@ -5,7 +5,7 @@ articleTitle: current_section property
 second_title: Aspose.Words for Python
 description: "DocumentBuilder.current_section property. Gets the section that is currently selected in this [DocumentBuilder](../)."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/documentbuilder/current_section/
 ---
 

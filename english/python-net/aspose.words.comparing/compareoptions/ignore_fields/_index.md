@@ -5,7 +5,7 @@ articleTitle: ignore_fields property
 second_title: Aspose.Words for Python
 description: "CompareOptions.ignore_fields property. Specifies whether to compare differences in fields."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.comparing/compareoptions/ignore_fields/
 ---
 

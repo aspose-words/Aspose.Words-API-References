@@ -5,7 +5,7 @@ articleTitle: transparency property
 second_title: Aspose.Words for Python
 description: "GlowFormat.transparency property. Gets or sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear)"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing/glowformat/transparency/
 ---
 

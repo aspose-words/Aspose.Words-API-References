@@ -5,7 +5,7 @@ articleTitle: image_saving method
 second_title: Aspose.Words for Python
 description: "IImageSavingCallback.image_saving method. Called when Aspose.Words saves an image to HTML."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/iimagesavingcallback/image_saving/
 ---
 

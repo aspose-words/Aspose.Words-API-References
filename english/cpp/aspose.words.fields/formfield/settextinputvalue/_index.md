@@ -13,14 +13,16 @@ url: /cpp/aspose.words.fields/formfield/settextinputvalue/
 Applies the text format specified in [TextInputFormat](../get_textinputformat/) and stores the value in [Result](../get_result/).
 
 ```cpp
-void Aspose::Words::Fields::FormField::SetTextInputValue(const System::SharedPtr<System::Object> &newValue)
+void Aspose::Words::Fields::FormField::SetTextInputValue(const System::SharedPtr<System::Object> & newValue)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newValue | const System::SharedPtr\<System::Object\>\& | Can be a string, number or a **DateTime** object. |
+| newValue | const System::SharedPtr\<System::Object\> \& | Can be a string, number or a DateTime object. |
+## Remarks
 
+The [TextInputDefault](../get_textinputdefault/) value is applied if newValue is **null**.
 ## See Also
 
 * Class [FormField](../)

@@ -5,7 +5,7 @@ articleTitle: remove_blank_pages method
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Splitter.remove_blank_pages method"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/splitter/remove_blank_pages/
 ---
 

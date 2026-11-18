@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/groupshape/accept/
 Accepts a visitor.
 
 ```cpp
-bool Aspose::Words::Drawing::GroupShape::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+_Bool Aspose::Words::Drawing::GroupShape::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -30,10 +30,9 @@ True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
-
+ Calls [VisitGroupShapeStart()](../../../aspose.words/documentvisitor/visitgroupshapestart/), then calls [Accept()](../../../aspose.words/node/accept/) for all child shapes of this group shape and calls [VisitGroupShapeEnd()](../../../aspose.words/documentvisitor/visitgroupshapeend/) at the end. 
 ## See Also
 
-* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [GroupShape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

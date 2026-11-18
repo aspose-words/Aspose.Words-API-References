@@ -5,7 +5,7 @@ articleTitle: summarize method
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.AiModel.summarize method"
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.ai/aimodel/summarize/
 ---
 

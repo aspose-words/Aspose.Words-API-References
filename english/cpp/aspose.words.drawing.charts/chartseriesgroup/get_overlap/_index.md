@@ -22,12 +22,11 @@ int32_t Aspose::Words::Drawing::Charts::ChartSeriesGroup::get_Overlap()
 Applies to series groups of all bar and column types.
 
 The range of acceptable values is from -100 to 100 inclusive. A value of 0 indicates that there is no space between bars/columns. If the value is -100, the distance between bars/columns is equal to their width. A value of 100 means that the bars/columns overlap completely.
-
 ## Examples
 
 
+Show how to configure gap width and overlap.
 
-Show how to configure gap width and overlap. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -41,7 +40,6 @@ seriesGroup->set_Overlap(-75);
 
 doc->Save(get_ArtifactsDir() + u"Charts.ConfigureGapOverlap.docx");
 ```
-
 ## See Also
 
 * Class [ChartSeriesGroup](../)

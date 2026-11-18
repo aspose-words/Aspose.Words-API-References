@@ -16,12 +16,11 @@ Returns the Content-Type string (Internet Media Type) that identifies the type o
 System::String Aspose::Words::Saving::SaveOutputParameters::get_ContentType() const
 ```
 
-
 ## Examples
 
 
+Shows how to access output parameters of a document's save operation.
 
-Shows how to access output parameters of a document's save operation. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -30,14 +29,13 @@ builder->Writeln(u"Hello world!");
 // After we save a document, we can access the Internet Media Type (MIME type) of the newly created output document.
 System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> parameters = doc->Save(get_ArtifactsDir() + u"Document.SaveOutputParameters.doc");
 
-ASSERT_EQ(u"application/msword", parameters->get_ContentType());
+ASSERT_EQ(parameters->get_ContentType(), u"application/msword");
 
 // This property changes depending on the save format.
 parameters = doc->Save(get_ArtifactsDir() + u"Document.SaveOutputParameters.pdf");
 
-ASSERT_EQ(u"application/pdf", parameters->get_ContentType());
+ASSERT_EQ(parameters->get_ContentType(), u"application/pdf");
 ```
-
 ## See Also
 
 * Class [SaveOutputParameters](../)

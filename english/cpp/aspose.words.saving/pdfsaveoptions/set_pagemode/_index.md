@@ -16,9 +16,11 @@ Specifies how the PDF document should be displayed when opened in a PDF reader.
 void Aspose::Words::Saving::PdfSaveOptions::set_PageMode(Aspose::Words::Saving::PdfPageMode value)
 ```
 
+## Remarks
+
+ The default value is [UseOutlines](../../pdfpagemode/). 
 ## See Also
 
-* Enum [PdfPageMode](../../pdfpagemode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

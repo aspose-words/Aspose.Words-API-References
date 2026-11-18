@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.node_type property. Returns [NodeType.STRUCTURED_DOCUMENT_TAG](../../../aspose.words/nodetype/#STRUCTURED_DOCUMENT_TAG)."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words.markup/structureddocumenttag/node_type/
 ---
 

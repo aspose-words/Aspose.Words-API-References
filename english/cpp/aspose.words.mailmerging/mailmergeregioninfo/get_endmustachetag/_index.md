@@ -18,7 +18,6 @@ const System::SharedPtr<Aspose::Words::MailMerging::MustacheTag> & Aspose::Words
 
 ## See Also
 
-* Class [MustacheTag](../../mustachetag/)
 * Class [MailMergeRegionInfo](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

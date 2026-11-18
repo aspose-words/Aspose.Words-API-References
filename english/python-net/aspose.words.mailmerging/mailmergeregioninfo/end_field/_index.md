@@ -5,7 +5,7 @@ articleTitle: end_field property
 second_title: Aspose.Words for Python
 description: "MailMergeRegionInfo.end_field property. Returns an end field for the region."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/end_field/
 ---
 

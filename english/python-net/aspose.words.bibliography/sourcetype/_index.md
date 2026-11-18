@@ -5,7 +5,7 @@ articleTitle: SourceType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.bibliography.SourceType enumeration. Represents bibliography source types."
 type: docs
-weight: 80
+weight: 1600
 url: /python-net/aspose.words.bibliography/sourcetype/
 ---
 

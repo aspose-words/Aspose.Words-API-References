@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartSeries::set_HasDataLabels method
 linktitle: set_HasDataLabels
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartSeries::set_HasDataLabels method. Setter for Aspose::Words::Drawing::Charts::ChartSeries::get_HasDataLabels in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartSeries::set_HasDataLabels method. Sets a flag indicating whether data labels are displayed for the series in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words.drawing.charts/chartseries/set_hasdatalabels/
@@ -10,12 +10,43 @@ url: /cpp/aspose.words.drawing.charts/chartseries/set_hasdatalabels/
 ## ChartSeries::set_HasDataLabels method
 
 
-Setter for [Aspose::Words::Drawing::Charts::ChartSeries::get_HasDataLabels](../get_hasdatalabels/).
+Sets a flag indicating whether data labels are displayed for the series.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartSeries::set_HasDataLabels(bool value)
 ```
 
+## Examples
+
+
+Shows how to enable and configure data labels for a chart series.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Add a line chart, then clear its demo data series to start with a clean chart,
+// and then set a title.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(ChartType::Line, static_cast<double>(500), static_cast<double>(300));
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Series()->Clear();
+chart->get_Title()->set_Text(u"Monthly sales report");
+
+// Insert a custom chart series with months as categories for the X-axis,
+// and respective decimal amounts for the Y-axis.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series = chart->get_Series()->Add(u"Revenue", System::MakeArray<System::String>({
+    u"January", u"February", u"March"}), System::MakeArray<double>({25.611, 21.439, 33.750}));
+
+// Enable data labels, and then apply a custom number format for values displayed in the data labels.
+// This format will treat displayed decimal values as millions of US Dollars.
+series->set_HasDataLabels(true);
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataLabelCollection> dataLabels = series->get_DataLabels();
+dataLabels->set_ShowValue(true);
+dataLabels->get_NumberFormat()->set_FormatCode(u"\"US$\" #,##0.000\"M\"");
+dataLabels->get_Font()->set_Size(12);
+
+doc->Save(get_ArtifactsDir() + u"Charts.DataLabelNumberFormat.docx");
+```
 ## See Also
 
 * Class [ChartSeries](../)

@@ -5,7 +5,7 @@ articleTitle: field_merging_callback property
 second_title: Aspose.Words for Python
 description: "MailMerge.field_merging_callback property. Occurs during mail merge when a mail merge field is encountered in the document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.mailmerging/mailmerge/field_merging_callback/
 ---
 

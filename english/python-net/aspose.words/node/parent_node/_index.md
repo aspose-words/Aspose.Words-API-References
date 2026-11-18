@@ -5,7 +5,7 @@ articleTitle: parent_node property
 second_title: Aspose.Words for Python
 description: "Node.parent_node property. Gets the immediate parent of this node."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words/node/parent_node/
 ---
 

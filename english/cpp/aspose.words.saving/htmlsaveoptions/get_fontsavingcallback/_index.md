@@ -18,7 +18,6 @@ System::SharedPtr<Aspose::Words::Saving::IFontSavingCallback> Aspose::Words::Sav
 
 ## See Also
 
-* Interface [IFontSavingCallback](../../ifontsavingcallback/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

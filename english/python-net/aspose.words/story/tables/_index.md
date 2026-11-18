@@ -5,7 +5,7 @@ articleTitle: tables property
 second_title: Aspose.Words for Python
 description: "Story.tables property. Gets a collection of tables that are immediate children of the story."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/story/tables/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: do_not_break_constrained_forced_table property
 second_title: Aspose.Words for Python
 description: "CompatibilityOptions.do_not_break_constrained_forced_table property. Don't Break Table Rows Around Floating Tables."
 type: docs
-weight: 130
+weight: 3900
 url: /python-net/aspose.words.settings/compatibilityoptions/do_not_break_constrained_forced_table/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: ignore_dml_unique_id property
 second_title: Aspose.Words for Python
 description: "CompareOptions.ignore_dml_unique_id property. Specifies whether to ignore difference in DrawingML unique Id."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.comparing/compareoptions/ignore_dml_unique_id/
 ---
 

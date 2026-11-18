@@ -5,7 +5,7 @@ articleTitle: FieldPrintDate class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldPrintDate class. Implements the PRINTDATE field"
 type: docs
-weight: 830
+weight: 16600
 url: /python-net/aspose.words.fields/fieldprintdate/
 ---
 

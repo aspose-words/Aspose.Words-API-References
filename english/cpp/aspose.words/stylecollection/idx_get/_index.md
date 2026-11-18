@@ -24,12 +24,11 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(
 
 
 When accessing a style that does not yet exist, automatically creates it.
-
 ## Examples
 
 
+Shows how to add a Style to a document's styles collection.
 
-Shows how to add a [Style](../../style/) to a document's styles collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -42,24 +41,21 @@ styles->get_DefaultParagraphFormat()->set_FirstLineIndent(15.0);
 // Add a style, and then verify that it has the default settings.
 styles->Add(StyleType::Paragraph, u"MyStyle");
 
-ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
-ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
+ASSERT_EQ(styles->idx_get(4)->get_Font()->get_Name(), u"Courier New");
+ASPOSE_ASSERT_EQ(styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent(), 15.0);
 ```
-
 ## See Also
 
-* Class [Style](../../style/)
-* Enum [StyleIdentifier](../../styleidentifier/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
-## StyleCollection::idx_get(const System::String\&) method
+## StyleCollection::idx_get(const System::String \&) method
 
 
 Gets a style by name or alias.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(const System::String &name)
+System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(const System::String & name)
 ```
 
 ## Remarks
@@ -68,12 +64,11 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(
 Case sensitive, returns **null** if the style with the given name is not found.
 
 If this is an English name of a built in style that does not yet exist, automatically creates it.
-
 ## Examples
 
 
+Shows when to recalculate the page layout of the document.
 
-Shows when to recalculate the page layout of the document. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 
@@ -93,10 +88,8 @@ doc->UpdatePageLayout();
 
 doc->Save(get_ArtifactsDir() + u"Document.UpdatePageLayout.2.pdf");
 ```
-
 ## See Also
 
-* Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -109,12 +102,11 @@ Gets a style by index.
 System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(int32_t index)
 ```
 
-
 ## Examples
 
 
+Shows how to add a Style to a document's styles collection.
 
-Shows how to add a [Style](../../style/) to a document's styles collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -127,13 +119,11 @@ styles->get_DefaultParagraphFormat()->set_FirstLineIndent(15.0);
 // Add a style, and then verify that it has the default settings.
 styles->Add(StyleType::Paragraph, u"MyStyle");
 
-ASSERT_EQ(u"Courier New", styles->idx_get(4)->get_Font()->get_Name());
-ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent());
+ASSERT_EQ(styles->idx_get(4)->get_Font()->get_Name(), u"Courier New");
+ASPOSE_ASSERT_EQ(styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLineIndent(), 15.0);
 ```
-
 ## See Also
 
-* Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

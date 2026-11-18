@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/imlrenderingmode/
 Specifies how ink (InkML) objects are rendered to fixed page formats.
 
 ```cpp
-enum class ImlRenderingMode
+enum class ImlRenderingMode : int
 ```
 
 ### Values
@@ -23,12 +23,11 @@ enum class ImlRenderingMode
 | Fallback | 0 | If fall-back shape is available for ink (InkML) object, Aspose.Words renders fall-back shape instead of the InkML. |
 | InkML | 1 | Aspose.Words ignores fall-back shape of ink (InkML) object and renders InkML itself. This is the default mode. |
 
-
 ## Examples
 
 
+Shows how to render Ink object.
 
-Shows how to render Ink object. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Ink object.docx"));
 
@@ -40,7 +39,6 @@ saveOptions->set_ImlRenderingMode(ImlRenderingMode::InkML);
 
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

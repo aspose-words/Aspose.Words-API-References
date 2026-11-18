@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldlink/get_insertasrtf/
 Gets whether to insert the linked object in rich-text format (RTF).
 
 ```cpp
-bool Aspose::Words::Fields::FieldLink::get_InsertAsRtf()
+_Bool Aspose::Words::Fields::FieldLink::get_InsertAsRtf()
 ```
 
 ## See Also

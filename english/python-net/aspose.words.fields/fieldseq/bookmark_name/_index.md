@@ -5,7 +5,7 @@ articleTitle: bookmark_name property
 second_title: Aspose.Words for Python
 description: "FieldSeq.bookmark_name property. Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldseq/bookmark_name/
 ---
 

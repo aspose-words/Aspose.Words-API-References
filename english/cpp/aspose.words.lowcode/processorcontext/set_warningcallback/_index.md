@@ -13,12 +13,11 @@ url: /cpp/aspose.words.lowcode/processorcontext/set_warningcallback/
 Warning callback used by the processor.
 
 ```cpp
-void Aspose::Words::LowCode::ProcessorContext::set_WarningCallback(const System::SharedPtr<Aspose::Words::IWarningCallback> &value)
+void Aspose::Words::LowCode::ProcessorContext::set_WarningCallback(const System::SharedPtr<Aspose::Words::IWarningCallback> & value)
 ```
 
 ## See Also
 
-* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [ProcessorContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

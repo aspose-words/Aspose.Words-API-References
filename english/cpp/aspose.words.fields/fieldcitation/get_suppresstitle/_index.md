@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcitation/get_suppresstitle/
 Gets whether the title information is suppressed from the citation.
 
 ```cpp
-bool Aspose::Words::Fields::FieldCitation::get_SuppressTitle()
+_Bool Aspose::Words::Fields::FieldCitation::get_SuppressTitle()
 ```
 
 ## See Also

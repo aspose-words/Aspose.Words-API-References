@@ -20,12 +20,14 @@ static double Aspose::Words::ConvertUtil::PointToInch(double points)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | points | double | The value to convert. |
+## Remarks
 
+ 1 inch equals 72 points. 
 ## Examples
 
 
+Shows how to specify page properties in inches.
 
-Shows how to specify page properties in inches. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,15 +42,14 @@ pageSetup->set_LeftMargin(ConvertUtil::InchToPoint(2.5));
 pageSetup->set_RightMargin(ConvertUtil::InchToPoint(1.5));
 
 // An inch is 72 points.
-ASPOSE_ASSERT_EQ(72.0, ConvertUtil::InchToPoint(1));
-ASPOSE_ASSERT_EQ(1.0, ConvertUtil::PointToInch(72));
+ASPOSE_ASSERT_EQ(ConvertUtil::InchToPoint(1), 72.0);
+ASPOSE_ASSERT_EQ(ConvertUtil::PointToInch(72), 1.0);
 
 // Add content to demonstrate the new margins.
 builder->Writeln(System::String::Format(u"This Text is {0} points/{1} inches from the left, ", pageSetup->get_LeftMargin(), ConvertUtil::PointToInch(pageSetup->get_LeftMargin())) + System::String::Format(u"{0} points/{1} inches from the right, ", pageSetup->get_RightMargin(), ConvertUtil::PointToInch(pageSetup->get_RightMargin())) + System::String::Format(u"{0} points/{1} inches from the top, ", pageSetup->get_TopMargin(), ConvertUtil::PointToInch(pageSetup->get_TopMargin())) + System::String::Format(u"and {0} points/{1} inches from the bottom of the page.", pageSetup->get_BottomMargin(), ConvertUtil::PointToInch(pageSetup->get_BottomMargin())));
 
 doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndInches.docx");
 ```
-
 ## See Also
 
 * Class [ConvertUtil](../)

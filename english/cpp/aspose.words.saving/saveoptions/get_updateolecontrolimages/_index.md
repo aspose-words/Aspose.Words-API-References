@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_updateolecontrolimages/
 Gets a value determining whether OLE controls presentation image will be updated.
 
 ```cpp
-bool Aspose::Words::Saving::SaveOptions::get_UpdateOleControlImages() const
+_Bool Aspose::Words::Saving::SaveOptions::get_UpdateOleControlImages() const
 ```
 
 ## See Also

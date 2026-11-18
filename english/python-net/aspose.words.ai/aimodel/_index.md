@@ -5,7 +5,7 @@ articleTitle: AiModel class
 second_title: Aspose.Words for Python
 description: "aspose.words.ai.AiModel class. An abstract class representing the integration with various AI models within the Aspose.Words."
 type: docs
-weight: 10
+weight: 200
 url: /python-net/aspose.words.ai/aimodel/
 ---
 

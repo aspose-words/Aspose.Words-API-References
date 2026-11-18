@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "SubDocument.node_type property. Returns [NodeType.SUB_DOCUMENT](../../nodetype/#SUB_DOCUMENT)."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/subdocument/node_type/
 ---
 

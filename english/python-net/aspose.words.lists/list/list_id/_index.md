@@ -5,7 +5,7 @@ articleTitle: list_id property
 second_title: Aspose.Words for Python
 description: "List.list_id property. Gets the unique identifier of the list."
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.lists/list/list_id/
 ---
 

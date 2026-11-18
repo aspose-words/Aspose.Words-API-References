@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_PageHorizontalAlignment method
 linktitle: set_PageHorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_PageHorizontalAlignment method. Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_PageHorizontalAlignment in C++.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_PageHorizontalAlignment method. Specifies the horizontal alignment of pages in an HTML document. Default value is Center in C++.'
 type: docs
 weight: 32000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_pagehorizontalalignment/
@@ -10,15 +10,42 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_pagehorizontalalignment/
 ## HtmlFixedSaveOptions::set_PageHorizontalAlignment method
 
 
-Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_PageHorizontalAlignment](../get_pagehorizontalalignment/).
+Specifies the horizontal alignment of pages in an HTML document. Default value is [Center](../../htmlfixedpagehorizontalalignment/).
 
 ```cpp
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_PageHorizontalAlignment(Aspose::Words::Saving::HtmlFixedPageHorizontalAlignment value)
 ```
 
+## Examples
+
+
+Shows how to set the horizontal alignment of pages when saving a document to HTML.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
+
+auto htmlFixedSaveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
+htmlFixedSaveOptions->set_PageHorizontalAlignment(pageHorizontalAlignment);
+
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.HorizontalAlignment.html", htmlFixedSaveOptions);
+
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlFixedSaveOptions.HorizontalAlignment/styles.css");
+
+switch (pageHorizontalAlignment)
+{
+    case HtmlFixedPageHorizontalAlignment::Center:
+        ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }")->get_Success());
+        break;
+    case HtmlFixedPageHorizontalAlignment::Left:
+        ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }")->get_Success());
+        break;
+    case HtmlFixedPageHorizontalAlignment::Right:
+        ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }")->get_Success());
+        break;
+}
+```
 ## See Also
 
-* Enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment/)
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

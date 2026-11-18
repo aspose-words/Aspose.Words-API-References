@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::IStructuredDocumentTag::set_LockContents method
 linktitle: set_LockContents
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::IStructuredDocumentTag::set_LockContents method. Setter for Aspose::Words::Markup::IStructuredDocumentTag::get_LockContents in C++.'
+description: 'Aspose::Words::Markup::IStructuredDocumentTag::set_LockContents method. When set to true, this property will prohibit a user from editing the contents of this SDT in C++.'
 type: docs
 weight: 21000
 url: /cpp/aspose.words.markup/istructureddocumenttag/set_lockcontents/
@@ -10,12 +10,41 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/set_lockcontents/
 ## IStructuredDocumentTag::set_LockContents method
 
 
-Setter for [Aspose::Words::Markup::IStructuredDocumentTag::get_LockContents](../get_lockcontents/).
+When set to true, this property will prohibit a user from editing the contents of this SDT.
 
 ```cpp
-virtual void Aspose::Words::Markup::IStructuredDocumentTag::set_LockContents(bool value)=0
+virtual void Aspose::Words::Markup::IStructuredDocumentTag::set_LockContents(bool value)
 ```
 
+## Examples
+
+
+Shows how to apply editing restrictions to structured document tags.
+
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a plain text structured document tag, which acts as a text box that prompts the user to fill it in.
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
+
+// Set the "LockContents" property to "true" to prohibit the user from editing this text box's contents.
+tag->set_LockContents(true);
+builder->Write(u"The contents of this structured document tag cannot be edited: ");
+builder->InsertNode(tag);
+
+tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
+
+// Set the "LockContentControl" property to "true" to prohibit the user from
+// deleting this structured document tag manually in Microsoft Word.
+tag->set_LockContentControl(true);
+
+builder->InsertParagraph();
+builder->Write(u"This structured document tag cannot be deleted but its contents can be edited: ");
+builder->InsertNode(tag);
+
+doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Lock.docx");
+```
 ## See Also
 
 * Interface [IStructuredDocumentTag](../)

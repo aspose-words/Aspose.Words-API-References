@@ -5,7 +5,7 @@ articleTitle: text_path_alignment property
 second_title: Aspose.Words for Python
 description: "TextPath.text_path_alignment property. Defines the alignment of text."
 type: docs
-weight: 170
+weight: 5100
 url: /python-net/aspose.words.drawing/textpath/text_path_alignment/
 ---
 

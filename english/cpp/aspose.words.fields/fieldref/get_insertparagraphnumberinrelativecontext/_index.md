@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldref/get_insertparagraphnumberinrelativecontex
 Gets whether to insert the paragraph number of the referenced paragraph in relative context.
 
 ```cpp
-bool Aspose::Words::Fields::FieldRef::get_InsertParagraphNumberInRelativeContext()
+_Bool Aspose::Words::Fields::FieldRef::get_InsertParagraphNumberInRelativeContext()
 ```
 
 ## See Also

@@ -5,7 +5,7 @@ articleTitle: font_family property
 second_title: Aspose.Words for Python
 description: "TextWatermarkOptions.font_family property. Gets or sets font family name"
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/textwatermarkoptions/font_family/
 ---
 

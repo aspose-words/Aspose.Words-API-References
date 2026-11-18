@@ -5,7 +5,7 @@ articleTitle: is_protected property
 second_title: Aspose.Words for Python
 description: "VbaProject.is_protected property. Shows whether the [VbaProject](../) is password protected."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.vba/vbaproject/is_protected/
 ---
 

@@ -16,12 +16,11 @@ Gets or sets a number of columns to include in the banding when the style specif
 int32_t Aspose::Words::TableStyle::get_ColumnStripe()
 ```
 
-
 ## Examples
 
 
+Shows how to create conditional table styles that alternate between rows.
 
-Shows how to create conditional table styles that alternate between rows. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -61,14 +60,13 @@ tableStyle->get_ConditionalStyles()->idx_get(ConditionalStyleType::EvenColumnBan
 table->set_Style(tableStyle);
 
 // The "StyleOptions" property enables row banding by default.
-ASSERT_EQ(TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands, table->get_StyleOptions());
+ASSERT_EQ(table->get_StyleOptions(), TableStyleOptions::FirstRow | TableStyleOptions::FirstColumn | TableStyleOptions::RowBands);
 
 // Use the "StyleOptions" property also to enable column banding.
 table->set_StyleOptions(table->get_StyleOptions() | TableStyleOptions::ColumnBands);
 
 doc->Save(get_ArtifactsDir() + u"Table.AlternatingRowStyles.docx");
 ```
-
 ## See Also
 
 * Class [TableStyle](../)

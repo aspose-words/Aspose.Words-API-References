@@ -4,7 +4,7 @@ linktitle: get_Body
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Section::get_Body method. Returns the Body child node of the section in C++.'
 type: docs
-weight: 10000
+weight: 17286
 url: /cpp/aspose.words/section/get_body/
 ---
 ## Section::get_Body method
@@ -22,12 +22,11 @@ System::SharedPtr<Aspose::Words::Body> Aspose::Words::Section::get_Body()
 [Body](../../body/) contains main text of the section.
 
 Returns **null** if the section does not have a [Body](../../body/) node among its children.
-
 ## Examples
 
 
+Clears main text from all sections from the document leaving the sections themselves.
 
-Clears main text from all sections from the document leaving the sections themselves. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -48,7 +47,7 @@ auto body = System::MakeObject<Aspose::Words::Body>(doc);
 section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 
 // This body has no children, so we cannot add runs to it yet.
-ASSERT_EQ(0, doc->get_FirstSection()->get_Body()->GetChildNodes(NodeType::Any, true)->get_Count());
+ASSERT_EQ(doc->get_FirstSection()->get_Body()->GetChildNodes(NodeType::Any, true)->get_Count(), 0);
 
 // Call the "EnsureMinimum" to make sure that this body contains at least one empty paragraph.
 body->EnsureMinimum();
@@ -56,12 +55,10 @@ body->EnsureMinimum();
 // Now, we can add runs to the body, and get the document to display them.
 body->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 
-ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
-
 ## See Also
 
-* Class [Body](../../body/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

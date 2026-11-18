@@ -13,15 +13,14 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/get_haslegendkeys/
 Gets or sets a flag indicating whether legend keys are displayed in the data table. The default value is **true**.
 
 ```cpp
-bool Aspose::Words::Drawing::Charts::ChartDataTable::get_HasLegendKeys() const
+_Bool Aspose::Words::Drawing::Charts::ChartDataTable::get_HasLegendKeys() const
 ```
-
 
 ## Examples
 
 
+Shows how to show data table with chart series data.
 
-Shows how to show data table with chart series data. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -51,7 +50,6 @@ dataTable->get_Format()->get_Stroke()->set_Color(System::Drawing::Color::get_Dar
 
 doc->Save(get_ArtifactsDir() + u"Charts.DataTable.docx");
 ```
-
 ## See Also
 
 * Class [ChartDataTable](../)

@@ -5,7 +5,7 @@ articleTitle: as_field_last_saved_by method
 second_title: Aspose.Words for Python
 description: "Field.as_field_last_saved_by method. Cast Field to [FieldLastSavedBy](../../fieldlastsavedby/)."
 type: docs
-weight: 600
+weight: 18000
 url: /python-net/aspose.words.fields/field/as_field_last_saved_by/
 ---
 

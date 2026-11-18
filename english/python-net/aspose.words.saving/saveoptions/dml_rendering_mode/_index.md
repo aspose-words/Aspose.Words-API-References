@@ -5,7 +5,7 @@ articleTitle: dml_rendering_mode property
 second_title: Aspose.Words for Python
 description: "SaveOptions.dml_rendering_mode property. Gets or sets a value determining how DrawingML shapes are rendered."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.saving/saveoptions/dml_rendering_mode/
 ---
 

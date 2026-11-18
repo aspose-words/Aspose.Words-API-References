@@ -5,7 +5,7 @@ articleTitle: FieldInfo class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldInfo class. Implements the INFO field"
 type: docs
-weight: 620
+weight: 12400
 url: /python-net/aspose.words.fields/fieldinfo/
 ---
 

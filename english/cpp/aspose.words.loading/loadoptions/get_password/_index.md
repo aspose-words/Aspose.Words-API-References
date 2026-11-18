@@ -20,12 +20,11 @@ System::String Aspose::Words::Loading::LoadOptions::get_Password() const
 
 
 You need to know the password to open an encrypted document. If the document is not encrypted, set this to **null** or empty string.
-
 ## Examples
 
 
+Shows how to sign encrypted document file.
 
-Shows how to sign encrypted document file. 
 ```cpp
 // Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
 System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
@@ -42,7 +41,6 @@ System::String outputFileName = get_ArtifactsDir() + u"DigitalSignatureUtil.Decr
 
 DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
-
 ## See Also
 
 * Class [LoadOptions](../)

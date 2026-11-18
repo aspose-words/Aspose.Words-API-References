@@ -5,7 +5,7 @@ articleTitle: merge_docs method
 second_title: Aspose.Words for Python
 description: "Merger.merge_docs method. Merges the given input documents into a single document and returns [Document](../../../aspose.words/document/) instance of the final document."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/merger/merge_docs/
 ---
 

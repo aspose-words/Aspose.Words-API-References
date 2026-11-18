@@ -5,7 +5,7 @@ articleTitle: ControlChar class
 second_title: Aspose.Words for Python
 description: "aspose.words.ControlChar class. Control characters often encountered in documents"
 type: docs
-weight: 270
+weight: 5400
 url: /python-net/aspose.words/controlchar/
 ---
 

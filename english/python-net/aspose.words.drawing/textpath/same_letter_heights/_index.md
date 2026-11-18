@@ -5,7 +5,7 @@ articleTitle: same_letter_heights property
 second_title: Aspose.Words for Python
 description: "TextPath.same_letter_heights property. Determines whether all letters will be the same height regardless of initial case."
 type: docs
-weight: 100
+weight: 3000
 url: /python-net/aspose.words.drawing/textpath/same_letter_heights/
 ---
 

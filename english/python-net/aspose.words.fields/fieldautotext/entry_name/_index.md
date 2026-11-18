@@ -5,7 +5,7 @@ articleTitle: entry_name property
 second_title: Aspose.Words for Python
 description: "FieldAutoText.entry_name property. Gets or sets the name of the AutoText entry."
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.fields/fieldautotext/entry_name/
 ---
 

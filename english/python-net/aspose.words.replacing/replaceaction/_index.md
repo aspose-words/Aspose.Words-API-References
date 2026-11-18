@@ -5,7 +5,7 @@ articleTitle: ReplaceAction enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.replacing.ReplaceAction enumeration. Allows the user to specify what happens to the current match during a replace operation."
 type: docs
-weight: 40
+weight: 800
 url: /python-net/aspose.words.replacing/replaceaction/
 ---
 

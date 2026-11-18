@@ -5,7 +5,7 @@ articleTitle: author property
 second_title: Aspose.Words for Python
 description: "ComparerContext.author property. The author to be assigned to revisions created during document comparison."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/comparercontext/author/
 ---
 

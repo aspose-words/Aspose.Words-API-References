@@ -5,7 +5,7 @@ articleTitle: readability_statistics property
 second_title: Aspose.Words for Python
 description: "Document.readability_statistics property. Provides readability score information for the document."
 type: docs
-weight: 360
+weight: 10800
 url: /python-net/aspose.words/document/readability_statistics/
 ---
 

@@ -4,7 +4,7 @@ linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Node::get_NodeType method. Gets the type of this node in C++.'
 type: docs
-weight: 9000
+weight: 27000
 url: /cpp/aspose.words/node/get_nodetype/
 ---
 ## Node::get_NodeType method
@@ -13,19 +13,18 @@ url: /cpp/aspose.words/node/get_nodetype/
 Gets the type of this node.
 
 ```cpp
-virtual Aspose::Words::NodeType Aspose::Words::Node::get_NodeType() const =0
+virtual Aspose::Words::NodeType Aspose::Words::Node::get_NodeType() const
 ```
-
 
 ## Examples
 
 
+Shows how to remove all child nodes of a specific type from a composite node.
 
-Shows how to remove all child nodes of a specific type from a composite node. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 
-ASSERT_EQ(2, doc->GetChildNodes(NodeType::Table, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 2);
 
 System::SharedPtr<Aspose::Words::Node> curNode = doc->get_FirstSection()->get_Body()->get_FirstChild();
 
@@ -44,11 +43,11 @@ while (curNode != nullptr)
     curNode = nextNode;
 }
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
+ASSERT_EQ(doc->GetChildNodes(NodeType::Table, true)->get_Count(), 0);
 ```
 
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
 
-Shows how to use a node's NextSibling property to enumerate through its immediate children. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
 
@@ -61,10 +60,8 @@ for (System::SharedPtr<Aspose::Words::Node> node = doc->get_FirstSection()->get_
     std::cout << (contents == System::String::Empty ? System::String(u"This node contains no text") : System::String::Format(u"Contents: \"{0}\"", node->GetText().Trim())) << std::endl;
 }
 ```
-
 ## See Also
 
-* Enum [NodeType](../../nodetype/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::HtmlLoadOptions::set_IgnoreNoscriptElements method
 linktitle: set_IgnoreNoscriptElements
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::HtmlLoadOptions::set_IgnoreNoscriptElements method. Setter for Aspose::Words::Loading::HtmlLoadOptions::get_IgnoreNoscriptElements in C++.'
+description: 'Aspose::Words::Loading::HtmlLoadOptions::set_IgnoreNoscriptElements method. Sets a value indicating whether to ignore <noscript> HTML elements. Default value is false in C++.'
 type: docs
 weight: 13000
 url: /cpp/aspose.words.loading/htmlloadoptions/set_ignorenoscriptelements/
@@ -10,12 +10,29 @@ url: /cpp/aspose.words.loading/htmlloadoptions/set_ignorenoscriptelements/
 ## HtmlLoadOptions::set_IgnoreNoscriptElements method
 
 
-Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_IgnoreNoscriptElements](../get_ignorenoscriptelements/).
+Sets a value indicating whether to ignore <noscript> HTML elements. Default value is **false**.
 
 ```cpp
 void Aspose::Words::Loading::HtmlLoadOptions::set_IgnoreNoscriptElements(bool value)
 ```
 
+## Remarks
+
+ Like MS Word, Aspose.Words does not support scripts and by default loads content of <noscript> elements into the resulting document. In most browsers, however, scripts are supported and content from <noscript> is not visible. Setting this property to **true** forces Aspose.Words to ignore all <noscript> elements and helps to produce documents that look closer to what is seen in browsers. 
+## Examples
+
+
+Shows how to ignore <noscript> HTML elements.
+
+```cpp
+const System::String html = u"\r\n                <html>\r\n                  <head>\r\n                    <title>NOSCRIPT</title>\r\n                      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n                      <script type=\"text/javascript\">\r\n                        alert(\"Hello, world!\");\r\n                      </script>\r\n                  </head>\r\n                <body>\r\n                  <noscript><p>Your browser does not support JavaScript!</p></noscript>\r\n                </body>\r\n                </html>";
+
+auto htmlLoadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>();
+htmlLoadOptions->set_IgnoreNoscriptElements(ignoreNoscriptElements);
+
+auto doc = System::MakeObject<Aspose::Words::Document>(System::MakeObject<System::IO::MemoryStream>(System::Text::Encoding::get_UTF8()->GetBytes(html)), htmlLoadOptions);
+doc->Save(get_ArtifactsDir() + u"HtmlLoadOptions.IgnoreNoscriptElements.pdf");
+```
 ## See Also
 
 * Class [HtmlLoadOptions](../)

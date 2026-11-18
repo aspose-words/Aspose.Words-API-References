@@ -5,7 +5,7 @@ articleTitle: warning_callback property
 second_title: Aspose.Words for Python
 description: "ProcessorContext.warning_callback property. Warning callback used by the processor."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/processorcontext/warning_callback/
 ---
 

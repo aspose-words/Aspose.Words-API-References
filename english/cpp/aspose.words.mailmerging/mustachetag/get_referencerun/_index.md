@@ -18,7 +18,6 @@ const System::SharedPtr<Aspose::Words::Run> & Aspose::Words::MailMerging::Mustac
 
 ## See Also
 
-* Class [Run](../../../aspose.words/run/)
 * Class [MustacheTag](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

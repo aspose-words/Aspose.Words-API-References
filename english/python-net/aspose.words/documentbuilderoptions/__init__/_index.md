@@ -5,7 +5,7 @@ articleTitle: DocumentBuilderOptions constructor
 second_title: Aspose.Words for Python
 description: "DocumentBuilderOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/documentbuilderoptions/__init__/
 ---
 

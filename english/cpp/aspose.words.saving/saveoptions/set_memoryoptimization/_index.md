@@ -16,6 +16,9 @@ Sets value determining if memory optimization should be performed before saving 
 void Aspose::Words::Saving::SaveOptions::set_MemoryOptimization(bool value)
 ```
 
+## Remarks
+
+ Setting this option to **true** can significantly decrease memory consumption while saving large documents at the cost of slower saving time. 
 ## See Also
 
 * Class [SaveOptions](../)

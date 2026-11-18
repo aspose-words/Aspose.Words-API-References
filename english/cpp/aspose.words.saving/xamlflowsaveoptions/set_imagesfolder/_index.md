@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::XamlFlowSaveOptions::set_ImagesFolder method
 linktitle: set_ImagesFolder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::XamlFlowSaveOptions::set_ImagesFolder method. Setter for Aspose::Words::Saving::XamlFlowSaveOptions::get_ImagesFolder in C++.'
+description: 'Aspose::Words::Saving::XamlFlowSaveOptions::set_ImagesFolder method. Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/set_imagesfolder/
@@ -10,12 +10,20 @@ url: /cpp/aspose.words.saving/xamlflowsaveoptions/set_imagesfolder/
 ## XamlFlowSaveOptions::set_ImagesFolder method
 
 
-Setter for [Aspose::Words::Saving::XamlFlowSaveOptions::get_ImagesFolder](../get_imagesfolder/).
+Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string.
 
 ```cpp
-void Aspose::Words::Saving::XamlFlowSaveOptions::set_ImagesFolder(const System::String &value)
+void Aspose::Words::Saving::XamlFlowSaveOptions::set_ImagesFolder(const System::String & value)
 ```
 
+## Remarks
+
+
+When you save a [Document](../../../aspose.words/document/) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [ImagesFolder](../get_imagesfolder/) allows you to specify where the images will be saved and [ImagesFolderAlias](../get_imagesfolderalias/) allows to specify how the image URIs will be constructed.
+
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [ImagesFolder](../get_imagesfolder/) to override this behavior.
+
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [ImagesFolder](../get_imagesfolder/) property or provide custom streams via the [ImageSavingCallback](../get_imagesavingcallback/) event handler.
 ## See Also
 
 * Class [XamlFlowSaveOptions](../)

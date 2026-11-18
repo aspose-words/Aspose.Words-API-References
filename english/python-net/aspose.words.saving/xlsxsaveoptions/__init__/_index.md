@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions constructor
 second_title: Aspose.Words for Python
 description: "XlsxSaveOptions constructor. "
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words.saving/xlsxsaveoptions/__init__/
 ---
 

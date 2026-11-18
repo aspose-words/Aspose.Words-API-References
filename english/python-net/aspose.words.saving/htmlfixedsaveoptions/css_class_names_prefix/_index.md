@@ -5,7 +5,7 @@ articleTitle: css_class_names_prefix property
 second_title: Aspose.Words for Python
 description: "HtmlFixedSaveOptions.css_class_names_prefix property. Specifies prefix which is added to all class names in style.css file"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/css_class_names_prefix/
 ---
 

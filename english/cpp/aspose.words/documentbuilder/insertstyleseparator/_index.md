@@ -16,6 +16,9 @@ Inserts style separator into the document.
 void Aspose::Words::DocumentBuilder::InsertStyleSeparator()
 ```
 
+## Remarks
+
+ This method allows to apply different paragraph styles to two different parts of a text line. 
 ## See Also
 
 * Class [DocumentBuilder](../)

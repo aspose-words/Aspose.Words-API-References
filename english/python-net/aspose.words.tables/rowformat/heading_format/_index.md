@@ -5,7 +5,7 @@ articleTitle: heading_format property
 second_title: Aspose.Words for Python
 description: "RowFormat.heading_format property. True if the row is repeated as a table heading on every page when the table spans more than one page."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.tables/rowformat/heading_format/
 ---
 

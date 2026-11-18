@@ -5,7 +5,7 @@ articleTitle: RevisionTextEffect enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.layout.RevisionTextEffect enumeration. Allows to specify decoration effect for revisions of document text."
 type: docs
-weight: 120
+weight: 2400
 url: /python-net/aspose.words.layout/revisiontexteffect/
 ---
 

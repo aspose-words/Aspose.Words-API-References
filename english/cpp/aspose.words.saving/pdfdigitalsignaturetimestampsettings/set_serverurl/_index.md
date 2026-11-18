@@ -13,9 +13,12 @@ url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/set_serverurl
 Timestamp server URL.
 
 ```cpp
-void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_ServerUrl(const System::String &value)
+void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_ServerUrl(const System::String & value)
 ```
 
+## Remarks
+
+ The default value is **null**. If **null**, then the digital signature will not be time-stamped. 
 ## See Also
 
 * Class [PdfDigitalSignatureTimestampSettings](../)

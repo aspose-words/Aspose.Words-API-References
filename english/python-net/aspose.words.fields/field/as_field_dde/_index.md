@@ -5,7 +5,7 @@ articleTitle: as_field_dde method
 second_title: Aspose.Words for Python
 description: "Field.as_field_dde method. Cast Field to [FieldDde](../../fielddde/)."
 type: docs
-weight: 320
+weight: 9600
 url: /python-net/aspose.words.fields/field/as_field_dde/
 ---
 

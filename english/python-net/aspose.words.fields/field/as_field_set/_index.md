@@ -5,7 +5,7 @@ articleTitle: as_field_set method
 second_title: Aspose.Words for Python
 description: "Field.as_field_set method. Cast Field to [FieldSet](../../fieldset/)."
 type: docs
-weight: 880
+weight: 26400
 url: /python-net/aspose.words.fields/field/as_field_set/
 ---
 

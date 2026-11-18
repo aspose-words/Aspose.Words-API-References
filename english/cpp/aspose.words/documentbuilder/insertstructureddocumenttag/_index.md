@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag> Aspose::Words::D
 ### ReturnValue
 
 The [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) node that was just inserted.
-
 ## Examples
 
 
+Shows how to simply insert structured document tag.
 
-Shows how to simply insert structured document tag. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -40,11 +39,8 @@ System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag> sdtPlain = build
 
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.InsertStructuredDocumentTag.docx");
 ```
-
 ## See Also
 
-* Class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
-* Enum [SdtType](../../../aspose.words.markup/sdttype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

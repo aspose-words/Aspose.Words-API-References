@@ -5,7 +5,7 @@ articleTitle: as_field_citation method
 second_title: Aspose.Words for Python
 description: "Field.as_field_citation method. Cast Field to [FieldCitation](../../fieldcitation/)."
 type: docs
-weight: 250
+weight: 7500
 url: /python-net/aspose.words.fields/field/as_field_citation/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: starting_number property
 second_title: Aspose.Words for Python
 description: "FieldListNum.starting_number property. Gets or sets the starting value for this field."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldlistnum/starting_number/
 ---
 

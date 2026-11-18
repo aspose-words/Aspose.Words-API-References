@@ -5,7 +5,7 @@ articleTitle: visit_shape_start method
 second_title: Aspose.Words for Python
 description: "DocumentVisitor.visit_shape_start method. Called when enumeration of a shape has started."
 type: docs
-weight: 400
+weight: 12000
 url: /python-net/aspose.words/documentvisitor/visit_shape_start/
 ---
 

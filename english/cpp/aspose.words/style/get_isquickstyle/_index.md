@@ -4,28 +4,27 @@ linktitle: get_IsQuickStyle
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Style::get_IsQuickStyle method. Specifies whether this style is shown in the Quick Style gallery inside MS Word UI in C++.'
 type: docs
-weight: 10000
+weight: 22368
 url: /cpp/aspose.words/style/get_isquickstyle/
 ---
 ## Style::get_IsQuickStyle method
 
 
-Specifies whether this style is shown in the Quick [Style](../) gallery inside MS Word UI.
+Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 
 ```cpp
-bool Aspose::Words::Style::get_IsQuickStyle() const
+_Bool Aspose::Words::Style::get_IsQuickStyle() const
 ```
-
 
 ## Examples
 
 
+Shows how to access a document's style collection.
 
-Shows how to access a document's style collection. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
-ASSERT_EQ(4, doc->get_Styles()->get_Count());
+ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
 
 // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
 {
@@ -38,11 +37,10 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
         std::cout << System::String::Format(u"\tIs heading:\t\t\t{0}", curStyle->get_IsHeading()) << std::endl;
         std::cout << System::String::Format(u"\tIs QuickStyle:\t\t{0}", curStyle->get_IsQuickStyle()) << std::endl;
 
-        ASPOSE_ASSERT_EQ(doc, curStyle->get_Document());
+        ASPOSE_ASSERT_EQ(curStyle->get_Document(), doc);
     }
 }
 ```
-
 ## See Also
 
 * Class [Style](../)

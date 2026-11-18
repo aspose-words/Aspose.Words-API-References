@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontsourcetype/
 Specifies the type of font source.
 
 ```cpp
-enum class FontSourceType
+enum class FontSourceType : int
 ```
 
 ### Values
@@ -21,17 +21,16 @@ enum class FontSourceType
 | Name | Value | Description |
 | --- | --- | --- |
 | FontFile | 0 | A [FileFontSource](../filefontsource/) object that represents single font file. |
+| FontStream | 4 | A [StreamFontSource](../streamfontsource/) object that represents a stream with font data. |
 | FontsFolder | 1 | A [FolderFontSource](../folderfontsource/) object that represents folder with font files. |
 | MemoryFont | 2 | A [MemoryFontSource](../memoryfontsource/) object that represents single font in memory. |
 | SystemFonts | 3 | A [SystemFontSource](../systemfontsource/) object that represents all fonts installed to the system. |
-| FontStream | 4 | A [StreamFontSource](../streamfontsource/) object that represents a stream with font data. |
-
 
 ## Examples
 
 
+Shows how to use a font file in the local file system as a font source.
 
-Shows how to use a font file in the local file system as a font source. 
 ```cpp
 auto fileFontSource = System::MakeObject<Aspose::Words::Fonts::FileFontSource>(get_MyDir() + u"Alte DIN 1451 Mittelschrift.ttf", 0);
 
@@ -39,11 +38,10 @@ auto doc = System::MakeObject<Aspose::Words::Document>();
 doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
 doc->get_FontSettings()->SetFontsSources(System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({fileFontSource}));
 
-ASSERT_EQ(get_MyDir() + u"Alte DIN 1451 Mittelschrift.ttf", fileFontSource->get_FilePath());
-ASSERT_EQ(FontSourceType::FontFile, fileFontSource->get_Type());
-ASSERT_EQ(0, fileFontSource->get_Priority());
+ASSERT_EQ(fileFontSource->get_FilePath(), get_MyDir() + u"Alte DIN 1451 Mittelschrift.ttf");
+ASSERT_EQ(fileFontSource->get_Type(), FontSourceType::FontFile);
+ASSERT_EQ(fileFontSource->get_Priority(), 0);
 ```
-
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)

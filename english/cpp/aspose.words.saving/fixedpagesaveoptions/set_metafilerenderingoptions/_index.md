@@ -13,12 +13,11 @@ url: /cpp/aspose.words.saving/fixedpagesaveoptions/set_metafilerenderingoptions/
 Allows to specify metafile rendering options.
 
 ```cpp
-void Aspose::Words::Saving::FixedPageSaveOptions::set_MetafileRenderingOptions(const System::SharedPtr<Aspose::Words::Saving::MetafileRenderingOptions> &value)
+void Aspose::Words::Saving::FixedPageSaveOptions::set_MetafileRenderingOptions(const System::SharedPtr<Aspose::Words::Saving::MetafileRenderingOptions> & value)
 ```
 
 ## See Also
 
-* Class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

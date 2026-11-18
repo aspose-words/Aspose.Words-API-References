@@ -5,7 +5,7 @@ articleTitle: text property
 second_title: Aspose.Words for Python
 description: "RevisionGroup.text property. Returns inserted/deleted/moved text or description of format change."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words/revisiongroup/text/
 ---
 

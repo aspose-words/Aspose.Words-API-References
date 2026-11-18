@@ -24,11 +24,8 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitEditab
 ### ReturnValue
 
 A [VisitorAction](../../visitoraction/) value that specifies how to continue the enumeration.
-
 ## See Also
 
-* Enum [VisitorAction](../../visitoraction/)
-* Class [EditableRangeStart](../../editablerangestart/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

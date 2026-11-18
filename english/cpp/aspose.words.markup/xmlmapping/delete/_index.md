@@ -16,12 +16,11 @@ Deletes mapping of the parent structured document to XML data.
 void Aspose::Words::Markup::XmlMapping::Delete()
 ```
 
-
 ## Examples
 
 
+Shows how to set XML mappings for custom XML parts.
 
-Shows how to set XML mappings for custom XML parts. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -30,7 +29,7 @@ System::String xmlPartId = System::Guid::NewGuid().ToString(u"B");
 System::String xmlPartContent = u"<root><text>Text element #1</text><text>Text element #2</text></root>";
 System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> xmlPart = doc->get_CustomXmlParts()->Add(xmlPartId, xmlPartContent);
 
-ASSERT_EQ(u"<root><text>Text element #1</text><text>Text element #2</text></root>", System::Text::Encoding::get_UTF8()->GetString(xmlPart->get_Data()));
+ASSERT_EQ(System::Text::Encoding::get_UTF8()->GetString(xmlPart->get_Data()), u"<root><text>Text element #1</text><text>Text element #2</text></root>");
 
 // Create a structured document tag that will display the contents of our CustomXmlPart.
 auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Block);
@@ -41,15 +40,14 @@ auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc,
 tag->get_XmlMapping()->SetMapping(xmlPart, u"/root[1]/text[2]", u"xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 ASSERT_TRUE(tag->get_XmlMapping()->get_IsMapped());
-ASPOSE_ASSERT_EQ(xmlPart, tag->get_XmlMapping()->get_CustomXmlPart());
-ASSERT_EQ(u"/root[1]/text[2]", tag->get_XmlMapping()->get_XPath());
-ASSERT_EQ(u"xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag->get_XmlMapping()->get_PrefixMappings());
+ASPOSE_ASSERT_EQ(tag->get_XmlMapping()->get_CustomXmlPart(), xmlPart);
+ASSERT_EQ(tag->get_XmlMapping()->get_XPath(), u"/root[1]/text[2]");
+ASSERT_EQ(tag->get_XmlMapping()->get_PrefixMappings(), u"xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 // Add the structured document tag to the document to display the content from our custom part.
 doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.XmlMapping.docx");
 ```
-
 ## See Also
 
 * Class [XmlMapping](../)

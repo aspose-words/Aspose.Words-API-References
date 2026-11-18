@@ -5,7 +5,7 @@ articleTitle: top_mode property
 second_title: Aspose.Words for Python
 description: "ChartDataLabel.top_mode property. Gets or sets the interpretation mode of the [ChartDataLabel.top](../top/) property value: whether it sets the location of the data label from the top edge of the chart of from the position specified by its [ChartDataLabel.position](../position/) property."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/top_mode/
 ---
 

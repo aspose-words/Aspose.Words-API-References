@@ -5,7 +5,7 @@ articleTitle: ReportBuildOptions enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.reporting.ReportBuildOptions enumeration. Specifies options controlling behavior of [ReportingEngine](../reportingengine/) while building a report."
 type: docs
-weight: 70
+weight: 1400
 url: /python-net/aspose.words.reporting/reportbuildoptions/
 ---
 

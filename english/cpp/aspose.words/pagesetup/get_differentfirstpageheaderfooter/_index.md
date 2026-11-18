@@ -13,15 +13,14 @@ url: /cpp/aspose.words/pagesetup/get_differentfirstpageheaderfooter/
 True if a different header or footer is used on the first page.
 
 ```cpp
-bool Aspose::Words::PageSetup::get_DifferentFirstPageHeaderFooter()
+_Bool Aspose::Words::PageSetup::get_DifferentFirstPageHeaderFooter()
 ```
-
 
 ## Examples
 
 
+Shows how to enable or disable primary headers/footers.
 
-Shows how to enable or disable primary headers/footers. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -58,7 +57,6 @@ builder->get_PageSetup()->set_DifferentFirstPageHeaderFooter(differentFirstPageH
 
 doc->Save(get_ArtifactsDir() + u"PageSetup.DifferentFirstPageHeaderFooter.docx");
 ```
-
 ## See Also
 
 * Class [PageSetup](../)

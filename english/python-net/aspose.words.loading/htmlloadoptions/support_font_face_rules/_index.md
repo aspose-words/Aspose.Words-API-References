@@ -5,7 +5,7 @@ articleTitle: support_font_face_rules property
 second_title: Aspose.Words for Python
 description: "HtmlLoadOptions.support_font_face_rules property. Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts"
 type: docs
-weight: 60
+weight: 1800
 url: /python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/
 ---
 

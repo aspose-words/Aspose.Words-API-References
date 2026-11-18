@@ -22,12 +22,11 @@ System::DateTime Aspose::Words::Properties::BuiltInDocumentProperties::get_Creat
 For documents originated from RTF format this property returns local time of the author's machine at the moment of document creation.
 
 Aspose.Words does not update this property.
-
 ## Examples
 
 
+Shows how to work with document properties in the "Origin" category.
 
-Shows how to work with document properties in the "Origin" category. 
 ```cpp
 // Open a document that we have created and edited using Microsoft Word.
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Properties.docx"));
@@ -56,7 +55,6 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 // We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)

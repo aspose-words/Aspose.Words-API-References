@@ -5,7 +5,7 @@ articleTitle: compare_to method
 second_title: Aspose.Words for Python
 description: "aspose.words.lists.List.compare_to method"
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.lists/list/compare_to/
 ---
 

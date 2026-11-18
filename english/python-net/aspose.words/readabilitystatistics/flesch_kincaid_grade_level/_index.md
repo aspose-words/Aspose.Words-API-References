@@ -5,7 +5,7 @@ articleTitle: flesch_kincaid_grade_level property
 second_title: Aspose.Words for Python
 description: "ReadabilityStatistics.flesch_kincaid_grade_level property. Flesch-Kincaid Grade Level score."
 type: docs
-weight: 10
+weight: 300
 url: /python-net/aspose.words/readabilitystatistics/flesch_kincaid_grade_level/
 ---
 

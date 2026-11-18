@@ -5,7 +5,7 @@ articleTitle: Splitter class
 second_title: Aspose.Words for Python
 description: "aspose.words.lowcode.Splitter class. Provides methods intended to split the documents into parts using different criteria."
 type: docs
-weight: 220
+weight: 4400
 url: /python-net/aspose.words.lowcode/splitter/
 ---
 

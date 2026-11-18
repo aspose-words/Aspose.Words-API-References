@@ -5,7 +5,7 @@ articleTitle: sign_options property
 second_title: Aspose.Words for Python
 description: "SignerContext.sign_options property. SignOptions object with various signing options."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.lowcode/signercontext/sign_options/
 ---
 

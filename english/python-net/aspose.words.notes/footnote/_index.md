@@ -5,7 +5,7 @@ articleTitle: Footnote class
 second_title: Aspose.Words for Python
 description: "aspose.words.notes.Footnote class. Represents a container for text of a footnote or endnote"
 type: docs
-weight: 30
+weight: 600
 url: /python-net/aspose.words.notes/footnote/
 ---
 

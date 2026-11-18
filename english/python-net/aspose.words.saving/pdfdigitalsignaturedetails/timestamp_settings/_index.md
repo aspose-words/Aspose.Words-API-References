@@ -5,7 +5,7 @@ articleTitle: timestamp_settings property
 second_title: Aspose.Words for Python
 description: "PdfDigitalSignatureDetails.timestamp_settings property. Gets or sets the digital signature timestamp settings."
 type: docs
-weight: 70
+weight: 2100
 url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/timestamp_settings/
 ---
 

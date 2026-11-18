@@ -5,7 +5,7 @@ articleTitle: contents_font property
 second_title: Aspose.Words for Python
 description: "StructuredDocumentTag.contents_font property. Font formatting that will be applied to text entered into SDT."
 type: docs
-weight: 80
+weight: 2400
 url: /python-net/aspose.words.markup/structureddocumenttag/contents_font/
 ---
 

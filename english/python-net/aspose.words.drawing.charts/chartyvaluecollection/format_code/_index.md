@@ -5,7 +5,7 @@ articleTitle: format_code property
 second_title: Aspose.Words for Python
 description: "ChartYValueCollection.format_code property. Gets or sets the format code applied to the Y values."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.drawing.charts/chartyvaluecollection/format_code/
 ---
 

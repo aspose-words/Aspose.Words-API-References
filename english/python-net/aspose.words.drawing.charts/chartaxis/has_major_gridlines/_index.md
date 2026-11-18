@@ -5,7 +5,7 @@ articleTitle: has_major_gridlines property
 second_title: Aspose.Words for Python
 description: "ChartAxis.has_major_gridlines property. Gets or sets a flag indicating whether the axis has major gridlines."
 type: docs
-weight: 90
+weight: 2700
 url: /python-net/aspose.words.drawing.charts/chartaxis/has_major_gridlines/
 ---
 

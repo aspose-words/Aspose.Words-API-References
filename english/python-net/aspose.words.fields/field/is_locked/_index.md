@@ -5,7 +5,7 @@ articleTitle: is_locked property
 second_title: Aspose.Words for Python
 description: "Field.is_locked property. Gets or sets whether the field is locked (should not recalculate its result)."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/field/is_locked/
 ---
 

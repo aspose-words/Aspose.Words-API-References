@@ -10,7 +10,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/set_donotautofitconstrained
 ## CompatibilityOptions::set_DoNotAutofitConstrainedTables method
 
 
-Do Not AutoFit [Tables](../../../aspose.words.tables/) To Fit Next To Wrapped Objects.
+Do Not AutoFit Tables To Fit Next To Wrapped Objects.
 
 ```cpp
 void Aspose::Words::Settings::CompatibilityOptions::set_DoNotAutofitConstrainedTables(bool value)

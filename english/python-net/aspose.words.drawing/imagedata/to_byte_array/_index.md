@@ -5,7 +5,7 @@ articleTitle: to_byte_array method
 second_title: Aspose.Words for Python
 description: "ImageData.to_byte_array method. Returns image bytes for any image regardless whether the image is stored or linked."
 type: docs
-weight: 220
+weight: 6600
 url: /python-net/aspose.words.drawing/imagedata/to_byte_array/
 ---
 

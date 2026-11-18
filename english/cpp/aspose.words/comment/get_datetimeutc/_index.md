@@ -4,7 +4,7 @@ linktitle: get_DateTimeUtc
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::Comment::get_DateTimeUtc method. Gets the UTC date and time that the comment was made in C++.'
 type: docs
-weight: 7500
+weight: 26000
 url: /cpp/aspose.words/comment/get_datetimeutc/
 ---
 ## Comment::get_DateTimeUtc method
@@ -16,12 +16,14 @@ Gets the UTC date and time that the comment was made.
 System::DateTime Aspose::Words::Comment::get_DateTimeUtc()
 ```
 
+## Remarks
 
+ The default value is MinValue
 ## Examples
 
 
+Shows how to get UTC date and time.
 
-Shows how to get UTC date and time. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,9 +39,8 @@ doc = System::MakeObject<Aspose::Words::Document>(System::String(get_ArtifactsDi
 
 comment = System::ExplicitCast<Aspose::Words::Comment>(doc->GetChild(NodeType::Comment, 0, true));
 // DateTimeUtc return data without milliseconds.
-ASSERT_EQ(dateTime.ToUniversalTime().ToString(u"yyyy-MM-dd hh:mm:ss"), comment->get_DateTimeUtc().ToString(u"yyyy-MM-dd hh:mm:ss"));
+ASSERT_EQ(comment->get_DateTimeUtc().ToString(u"yyyy-MM-dd hh:mm:ss"), dateTime.ToUniversalTime().ToString(u"yyyy-MM-dd hh:mm:ss"));
 ```
-
 ## See Also
 
 * Class [Comment](../)

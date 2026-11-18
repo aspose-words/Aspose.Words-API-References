@@ -5,7 +5,7 @@ articleTitle: instructions property
 second_title: Aspose.Words for Python
 description: "SignatureLineOptions.instructions property. Gets or sets instructions to the signer that are displayed on signing the signature line"
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words/signaturelineoptions/instructions/
 ---
 

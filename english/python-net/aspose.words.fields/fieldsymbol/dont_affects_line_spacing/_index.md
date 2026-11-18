@@ -5,7 +5,7 @@ articleTitle: dont_affects_line_spacing property
 second_title: Aspose.Words for Python
 description: "FieldSymbol.dont_affects_line_spacing property. Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldsymbol/dont_affects_line_spacing/
 ---
 

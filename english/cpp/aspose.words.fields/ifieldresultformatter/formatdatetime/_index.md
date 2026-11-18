@@ -13,12 +13,14 @@ url: /cpp/aspose.words.fields/ifieldresultformatter/formatdatetime/
 Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy".
 
 ```cpp
-virtual System::String Aspose::Words::Fields::IFieldResultFormatter::FormatDateTime(System::DateTime value, System::String format, Aspose::Words::CalendarType calendarType)=0
+virtual System::String Aspose::Words::Fields::IFieldResultFormatter::FormatDateTime(System::DateTime value, System::String format, Aspose::Words::CalendarType calendarType)
 ```
 
+## Remarks
+
+ The implementation should return **null** to indicate that the default formatting should be applied. 
 ## See Also
 
-* Enum [CalendarType](../../../aspose.words/calendartype/)
 * Interface [IFieldResultFormatter](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

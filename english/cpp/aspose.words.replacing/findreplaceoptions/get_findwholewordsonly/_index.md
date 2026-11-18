@@ -13,15 +13,14 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_findwholewordsonly/
 True indicates the oldValue must be a standalone word.
 
 ```cpp
-bool Aspose::Words::Replacing::FindReplaceOptions::get_FindWholeWordsOnly() const
+_Bool Aspose::Words::Replacing::FindReplaceOptions::get_FindWholeWordsOnly() const
 ```
-
 
 ## Examples
 
 
+Shows how to toggle standalone word-only find-and-replace operations.
 
-Shows how to toggle standalone word-only find-and-replace operations. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -37,9 +36,8 @@ options->set_FindWholeWordsOnly(findWholeWordsOnly);
 
 doc->get_Range()->Replace(u"Jackson", u"Louis", options);
 
-ASSERT_EQ(findWholeWordsOnly ? System::String(u"Louis will meet you in Jacksonville.") : System::String(u"Louis will meet you in Louisville."), doc->GetText().Trim());
+ASSERT_EQ(doc->GetText().Trim(), findWholeWordsOnly ? System::String(u"Louis will meet you in Jacksonville.") : System::String(u"Louis will meet you in Louisville."));
 ```
-
 ## See Also
 
 * Class [FindReplaceOptions](../)

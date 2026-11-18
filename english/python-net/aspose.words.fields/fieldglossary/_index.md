@@ -5,7 +5,7 @@ articleTitle: FieldGlossary class
 second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldGlossary class. Implements the GLOSSARY field"
 type: docs
-weight: 500
+weight: 10000
 url: /python-net/aspose.words.fields/fieldglossary/
 ---
 

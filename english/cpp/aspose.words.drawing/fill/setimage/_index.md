@@ -7,25 +7,24 @@ type: docs
 weight: 42000
 url: /cpp/aspose.words.drawing/fill/setimage/
 ---
-## Fill::SetImage(const System::ArrayPtr\<uint8_t\>\&) method
+## Fill::SetImage(const System::ArrayPtr\<uint8_t\> \&) method
 
 
 Changes the fill type to single image.
 
 ```cpp
-void Aspose::Words::Drawing::Fill::SetImage(const System::ArrayPtr<uint8_t> &imageBytes)
+void Aspose::Words::Drawing::Fill::SetImage(const System::ArrayPtr<uint8_t> & imageBytes)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageBytes | const System::ArrayPtr\<uint8_t\>\& | The image bytes array. |
-
+| imageBytes | const System::ArrayPtr\<uint8_t\> \& | The image bytes array. |
 ## Examples
 
 
+Shows how to set shape fill type as image.
 
-Shows how to set shape fill type as image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -47,31 +46,29 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillImage.ByteArray.docx");
 }
 doc->Save(get_ArtifactsDir() + u"Shape.FillImage.Stream.docx");
 ```
-
 ## See Also
 
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## Fill::SetImage(const System::SharedPtr\<System::IO::Stream\>\&) method
+## Fill::SetImage(const System::SharedPtr\<System::IO::Stream\> \&) method
 
 
 Changes the fill type to single image.
 
 ```cpp
-void Aspose::Words::Drawing::Fill::SetImage(const System::SharedPtr<System::IO::Stream> &stream)
+void Aspose::Words::Drawing::Fill::SetImage(const System::SharedPtr<System::IO::Stream> & stream)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | const System::SharedPtr\<System::IO::Stream\>\& | The stream that contains the image bytes. |
-
+| stream | const System::SharedPtr\<System::IO::Stream\> \& | The stream that contains the image bytes. |
 ## Examples
 
 
+Shows how to set shape fill type as image.
 
-Shows how to set shape fill type as image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -93,31 +90,29 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillImage.ByteArray.docx");
 }
 doc->Save(get_ArtifactsDir() + u"Shape.FillImage.Stream.docx");
 ```
-
 ## See Also
 
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
-## Fill::SetImage(const System::String\&) method
+## Fill::SetImage(const System::String \&) method
 
 
 Changes the fill type to single image.
 
 ```cpp
-void Aspose::Words::Drawing::Fill::SetImage(const System::String &fileName)
+void Aspose::Words::Drawing::Fill::SetImage(const System::String & fileName)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | const System::String\& | The path to the image file. |
-
+| fileName | const System::String \& | The path to the image file. |
 ## Examples
 
 
+Shows how to set shape fill type as image.
 
-Shows how to set shape fill type as image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -139,7 +134,6 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillImage.ByteArray.docx");
 }
 doc->Save(get_ArtifactsDir() + u"Shape.FillImage.Stream.docx");
 ```
-
 ## See Also
 
 * Class [Fill](../)

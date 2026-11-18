@@ -5,7 +5,7 @@ articleTitle: COLUMN_BREAK_CHAR property
 second_title: Aspose.Words for Python
 description: "ControlChar.COLUMN_BREAK_CHAR property. End of column character: (char)14."
 type: docs
-weight: 40
+weight: 1200
 url: /python-net/aspose.words/controlchar/COLUMN_BREAK_CHAR/
 ---
 

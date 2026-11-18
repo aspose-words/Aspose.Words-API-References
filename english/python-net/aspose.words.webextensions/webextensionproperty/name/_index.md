@@ -5,7 +5,7 @@ articleTitle: name property
 second_title: Aspose.Words for Python
 description: "WebExtensionProperty.name property. Specifies a custom property name"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.webextensions/webextensionproperty/name/
 ---
 

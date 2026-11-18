@@ -5,7 +5,7 @@ articleTitle: right_expression property
 second_title: Aspose.Words for Python
 description: "ComparisonExpression.right_expression property. Gets the right expression."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/comparisonexpression/right_expression/
 ---
 

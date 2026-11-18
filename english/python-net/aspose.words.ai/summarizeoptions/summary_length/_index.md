@@ -5,7 +5,7 @@ articleTitle: summary_length property
 second_title: Aspose.Words for Python
 description: "SummarizeOptions.summary_length property. Allows to specify summary length"
 type: docs
-weight: 20
+weight: 600
 url: /python-net/aspose.words.ai/summarizeoptions/summary_length/
 ---
 

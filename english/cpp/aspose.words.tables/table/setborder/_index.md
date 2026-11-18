@@ -24,12 +24,11 @@ void Aspose::Words::Tables::Table::SetBorder(Aspose::Words::BorderType borderTyp
 | lineWidth | double | The line width to set (in points). |
 | color | System::Drawing::Color | The color to use for the border. |
 | isOverrideCellBorders | bool | When **true**, causes all existing explicit cell borders to be removed. |
-
 ## Examples
 
 
+Shows how to apply an outline border to a table.
 
-Shows how to apply an outline border to a table. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Tables.docx"));
 System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
@@ -52,11 +51,8 @@ table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightG
 
 doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
-
 ## See Also
 
-* Enum [BorderType](../../../aspose.words/bordertype/)
-* Enum [LineStyle](../../../aspose.words/linestyle/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

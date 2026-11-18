@@ -13,9 +13,12 @@ url: /cpp/aspose.words.saving/downsampleoptions/get_downsampleimages/
 Specifies whether images should be downsampled.
 
 ```cpp
-bool Aspose::Words::Saving::DownsampleOptions::get_DownsampleImages() const
+_Bool Aspose::Words::Saving::DownsampleOptions::get_DownsampleImages() const
 ```
 
+## Remarks
+
+ The default value is **true**. 
 ## See Also
 
 * Class [DownsampleOptions](../)

@@ -20,12 +20,11 @@ System::SharedPtr<Aspose::Words::Saving::PageSet> Aspose::Words::Saving::ImageSa
 
 
 This property has effect only when rendering document pages. This property is ignored when rendering shapes to images.
-
 ## Examples
 
 
+Shows how to render one page from a document to a JPEG image.
 
-Shows how to render one page from a document to a JPEG image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -50,8 +49,8 @@ options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.OnePage.jpg", options);
 ```
 
+Shows how to specify which page in a document to render as an image.
 
-Shows how to specify which page in a document to render as an image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -63,7 +62,7 @@ builder->Writeln(u"This is page 2.");
 builder->InsertBreak(BreakType::PageBreak);
 builder->Writeln(u"This is page 3.");
 
-ASSERT_EQ(3, doc->get_PageCount());
+ASSERT_EQ(doc->get_PageCount(), 3);
 
 // When we save the document as an image, Aspose.Words only renders the first page by default.
 // We can pass a SaveOptions object to specify a different page to render.
@@ -77,8 +76,8 @@ for (int32_t i = 1; i <= doc->get_PageCount(); i++)
 }
 ```
 
+Shows how to render every page of a document to a separate TIFF image.
 
-Shows how to render every page of a document to a separate TIFF image. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -107,8 +106,8 @@ for (int32_t i = 0; i < doc->get_PageCount(); i++)
 }
 ```
 
+Shows how to extract pages based on exact page ranges.
 
-Shows how to extract pages based on exact page ranges. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Images.docx"));
 
@@ -118,10 +117,8 @@ auto pageSet = System::MakeObject<Aspose::Words::Saving::PageSet>(System::MakeAr
 imageOptions->set_PageSet(pageSet);
 doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
-
 ## See Also
 
-* Class [PageSet](../../pageset/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

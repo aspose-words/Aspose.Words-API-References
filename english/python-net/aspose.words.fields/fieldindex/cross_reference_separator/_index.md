@@ -5,7 +5,7 @@ articleTitle: cross_reference_separator property
 second_title: Aspose.Words for Python
 description: "FieldIndex.cross_reference_separator property. Gets or sets the character sequence that is used to separate cross references and other entries."
 type: docs
-weight: 30
+weight: 900
 url: /python-net/aspose.words.fields/fieldindex/cross_reference_separator/
 ---
 

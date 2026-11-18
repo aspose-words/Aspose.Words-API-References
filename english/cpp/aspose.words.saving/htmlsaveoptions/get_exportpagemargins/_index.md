@@ -13,15 +13,17 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportpagemargins/
 Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is **false**.
 
 ```cpp
-bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageMargins() const
+_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageMargins() const
 ```
 
+## Remarks
 
+ Aspose.Words does not show area of page margins by default. If any elements are completely or partially clipped by the document edge the displayed area can be extended with this option. 
 ## Examples
 
 
+Shows how to show out-of-bounds objects in output HTML documents.
 
-Shows how to show out-of-bounds objects in output HTML documents. 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
 auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -60,7 +62,6 @@ else
     ASSERT_TRUE(outDocContents.Contains(u"<div><p style=\"margin-top:0pt; margin-left:220.85pt; margin-bottom:0pt\">"));
 }
 ```
-
 ## See Also
 
 * Class [HtmlSaveOptions](../)

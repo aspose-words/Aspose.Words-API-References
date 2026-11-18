@@ -13,12 +13,11 @@ url: /cpp/aspose.words.loading/loadoptions/set_warningcallback/
 Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
 
 ```cpp
-void Aspose::Words::Loading::LoadOptions::set_WarningCallback(const System::SharedPtr<Aspose::Words::IWarningCallback> &value)
+void Aspose::Words::Loading::LoadOptions::set_WarningCallback(const System::SharedPtr<Aspose::Words::IWarningCallback> & value)
 ```
 
 ## See Also
 
-* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

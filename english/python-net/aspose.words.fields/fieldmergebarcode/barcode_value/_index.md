@@ -5,7 +5,7 @@ articleTitle: barcode_value property
 second_title: Aspose.Words for Python
 description: "FieldMergeBarcode.barcode_value property. Gets or sets the barcode value."
 type: docs
-weight: 50
+weight: 1500
 url: /python-net/aspose.words.fields/fieldmergebarcode/barcode_value/
 ---
 
