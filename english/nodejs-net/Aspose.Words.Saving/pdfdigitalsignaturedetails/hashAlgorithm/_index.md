@@ -20,7 +20,7 @@ get hashAlgorithm(): Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm
 
 ### Remarks
 
-The default value is the SHA-256 algorithm.
+The default value is [PdfDigitalSignatureHashAlgorithm.Auto](../../pdfdigitalsignaturehashalgorithm/#Auto).
 
 
 ### Examples

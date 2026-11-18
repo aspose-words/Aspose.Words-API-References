@@ -38,7 +38,7 @@ doc.save(base.artifactsDir + "OoxmlSaveOptions.keepLegacyControlChars.docx", so)
 
 doc = new aw.Document(base.artifactsDir + "OoxmlSaveOptions.keepLegacyControlChars.docx");
 
-expect(doc.firstSection.body.getText()).toEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0015\f" : "\u001e\f");
+expect(doc.firstSection.body.getText()).toEqual(keepLegacyControlChars ? "\u0013date \\@ \"d/MM/yyyy\"\u0014\u0015\f" : "\u001e\f");
 ```
 
 ### See Also
