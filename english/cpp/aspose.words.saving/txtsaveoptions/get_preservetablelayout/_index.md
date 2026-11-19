@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/txtsaveoptions/get_preservetablelayout/
 Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout() const
+bool Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout() const
 ```
 
 ## Examples

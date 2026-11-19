@@ -70,6 +70,7 @@ To remove mail merge settings and data source information from a document you ca
 The best way to learn how to use the properties of this object is to create a document with a desired data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties of the [MailMergeSettings](../../aspose.words/document/get_mailmergesettings/) and [Odso](./get_odso/) objects. This is a good approach to take if you want to learn how to programmatically configure a data source, for example.
 
 Aspose.Words preserves mail merge information when loading, saving and converting documents between different formats, but does not use this information when performing its own mail merge using the [MailMerge](../../aspose.words.mailmerging/mailmerge/) object.
+[MailMergeSettings](../../aspose.words/document/get_mailmergesettings/)
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)

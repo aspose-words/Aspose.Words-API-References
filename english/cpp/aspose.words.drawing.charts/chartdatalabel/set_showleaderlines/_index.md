@@ -21,6 +21,8 @@ void Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowLeaderLines(bool va
  Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point. 
 ## See Also
 
+* [get_ShowLeaderLines](../get_showleaderlines/)
+
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

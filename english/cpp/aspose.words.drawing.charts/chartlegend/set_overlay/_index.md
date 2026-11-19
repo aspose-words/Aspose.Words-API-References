@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.ChartLegend.docx");
 ```
 ## See Also
 
+* [get_Overlay](../get_overlay/)
+
 * Class [ChartLegend](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

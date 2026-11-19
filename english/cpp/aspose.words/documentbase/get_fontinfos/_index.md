@@ -22,6 +22,7 @@ System::SharedPtr<Aspose::Words::Fonts::FontInfoCollection> Aspose::Words::Docum
 This collection of font definitions is loaded as is from the document. Font definitions might be optional, missing or incomplete in some documents.
 
 Do not rely on this collection to ascertain that a particular font is used in the document. You should only use this collection to get information about fonts that might be used in the document.
+[FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)[FontInfo](../../../aspose.words.fonts/fontinfo/)
 ## Examples
 
 
@@ -55,6 +56,7 @@ doc->Save(get_ArtifactsDir() + u"Font.FontInfoCollection.docx");
 ```
 ## See Also
 
+* Class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

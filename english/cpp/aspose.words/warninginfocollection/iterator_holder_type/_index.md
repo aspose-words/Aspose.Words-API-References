@@ -13,7 +13,7 @@ url: /cpp/aspose.words/warninginfocollection/iterator_holder_type/
 A collection type whose iterator types is used as iterator types in the current collection.
 
 ```cpp
-using Aspose::Words::WarningInfoCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::WarningInfo> >
+using Aspose::Words::WarningInfoCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::WarningInfo>>
 ```
 
 ## See Also

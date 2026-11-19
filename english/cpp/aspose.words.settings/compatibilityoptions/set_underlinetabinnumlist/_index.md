@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UnderlineTabInNumList(bo
 
 ## See Also
 
+* [get_UnderlineTabInNumList](../get_underlinetabinnumlist/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::MailMerging::IMailMergeCallback> & Aspose
 
 ## See Also
 
+* Interface [IMailMergeCallback](../../imailmergecallback/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

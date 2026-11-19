@@ -38,6 +38,8 @@ doc->Save(get_ArtifactsDir() + u"Font.FontInfoCollection.docx");
 ```
 ## See Also
 
+* [get_SaveSubsetFonts](../get_savesubsetfonts/)
+
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

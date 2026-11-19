@@ -18,7 +18,7 @@ int32_t Aspose::Words::Font::get_LocaleIdBi()
 
 ## Remarks
 
- For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx 
+ For the list of locale identifiers see [https://msdn.microsoft.com/en-us/library/cc233965.aspx](https://msdn.microsoft.com/en-us/library/cc233965.aspx) 
 ## Examples
 
 

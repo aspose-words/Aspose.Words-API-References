@@ -22,6 +22,7 @@ void Aspose::Words::Tables::CellFormat::set_Width(double value)
  The width is calculated by Aspose.Words on document loading and saving. Currently, not every combination of table, cell and document properties is supported. The returned value may not be accurate for some documents. It may not exactly match the cell width as calculated by MS Word when the document is opened in MS Word. 
 
  Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [PreferredWidth](../get_preferredwidth/) for setting the cell width. Setting this property sets [PreferredWidth](../get_preferredwidth/) implicitly since version 15.8. 
+[PreferredWidth](../get_preferredwidth/)
 ## Examples
 
 
@@ -128,6 +129,8 @@ ASPOSE_ASSERT_EQ(table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat(
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetCellFormatting.docx");
 ```
 ## See Also
+
+* [get_Width](../get_width/)
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)

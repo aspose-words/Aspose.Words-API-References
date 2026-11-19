@@ -18,6 +18,8 @@ void Aspose::Words::Saving::GraphicsQualityOptions::set_SmoothingMode(System::Nu
 
 ## See Also
 
+* [get_SmoothingMode](../get_smoothingmode/)
+
 * Class [GraphicsQualityOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

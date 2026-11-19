@@ -21,6 +21,8 @@ void Aspose::Words::Comment::set_DateTime(System::DateTime value)
  Default is MinValue
 ## See Also
 
+* [get_DateTime](../get_datetime/)
+
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

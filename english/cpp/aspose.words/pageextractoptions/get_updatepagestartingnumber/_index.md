@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pageextractoptions/get_updatepagestartingnumber/
 Specifies whether the start page number in the resulting document shall be updated. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::PageExtractOptions::get_UpdatePageStartingNumber() const
+bool Aspose::Words::PageExtractOptions::get_UpdatePageStartingNumber() const
 ```
 
 ## Examples

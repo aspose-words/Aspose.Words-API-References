@@ -38,6 +38,8 @@ ASSERT_TRUE(doc->ToString(SaveFormat::Text).Contains(u"This is a sample text in 
 ```
 ## See Also
 
+* [get_Encoding](../get_encoding/)
+
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

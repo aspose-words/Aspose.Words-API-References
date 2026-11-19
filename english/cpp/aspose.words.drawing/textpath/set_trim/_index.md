@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_Trim(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_Trim](../get_trim/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

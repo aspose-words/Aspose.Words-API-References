@@ -24,6 +24,8 @@ Can be used by an application to uniquely reference a building block regardless 
 Corresponds to the docPartPr.guid element in OOXML.
 ## See Also
 
+* [get_Guid](../get_guid/)
+
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

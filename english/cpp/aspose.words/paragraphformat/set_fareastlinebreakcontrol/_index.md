@@ -33,6 +33,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.AsianTypographyProperties.docx"
 ```
 ## See Also
 
+* [get_FarEastLineBreakControl](../get_fareastlinebreakcontrol/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

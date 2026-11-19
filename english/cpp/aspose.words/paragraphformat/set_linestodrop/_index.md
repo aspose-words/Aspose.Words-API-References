@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.LinesToDrop.odt");
 ```
 ## See Also
 
+* [get_LinesToDrop](../get_linestodrop/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

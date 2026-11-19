@@ -41,6 +41,7 @@ doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```
 ## See Also
 
+* Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

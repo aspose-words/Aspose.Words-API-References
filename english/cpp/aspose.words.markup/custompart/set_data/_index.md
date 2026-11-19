@@ -64,6 +64,8 @@ ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 0);
 ```
 ## See Also
 
+* [get_Data](../get_data/)
+
 * Class [CustomPart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

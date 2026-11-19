@@ -60,6 +60,7 @@ editableRange->Remove();
 ```
 ## See Also
 
+* Enum [NodeType](../../nodetype/)
 * Class [EditableRangeEnd](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

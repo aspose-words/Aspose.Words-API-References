@@ -13,7 +13,7 @@ url: /cpp/aspose.words.tables/cellformat/get_wraptext/
 If **true**, wrap text for the cell.
 
 ```cpp
-_Bool Aspose::Words::Tables::CellFormat::get_WrapText()
+bool Aspose::Words::Tables::CellFormat::get_WrapText()
 ```
 
 ## Examples

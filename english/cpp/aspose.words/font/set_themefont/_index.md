@@ -119,6 +119,9 @@ builder->Writeln(u"Text with themed style");
 ```
 ## See Also
 
+* [get_ThemeFont](../get_themefont/)
+
+* Enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

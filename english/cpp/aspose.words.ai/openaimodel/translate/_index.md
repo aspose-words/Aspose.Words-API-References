@@ -27,6 +27,8 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::OpenAiModel::Trans
 A new [Document](../../../aspose.words/document/) object containing the translated document.
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Enum [Language](../../language/)
 * Class [OpenAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

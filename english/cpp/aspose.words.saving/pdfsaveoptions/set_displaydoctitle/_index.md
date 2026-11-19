@@ -26,6 +26,8 @@ This flag is required by PDF/UA compliance. **true** value will be used automati
 The default value is **false**.
 ## See Also
 
+* [get_DisplayDocTitle](../get_displaydoctitle/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

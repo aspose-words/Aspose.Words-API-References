@@ -20,6 +20,7 @@ System::ArrayPtr<System::String> Aspose::Words::Properties::BuiltInDocumentPrope
 
 
 Aspose.Words does not update this property.
+[HeadingPairs](../get_headingpairs/)
 ## Examples
 
 

@@ -31,6 +31,7 @@ ASSERT_EQ(shadowFormat->get_Type(), ShadowType::ShadowMixed);
 ```
 ## See Also
 
+* Class [ShadowFormat](../../shadowformat/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

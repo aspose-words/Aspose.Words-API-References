@@ -18,6 +18,8 @@ void Aspose::Words::Settings::Odso::set_TableName(const System::String & value)
 
 ## See Also
 
+* [get_TableName](../get_tablename/)
+
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

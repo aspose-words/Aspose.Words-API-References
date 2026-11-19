@@ -13,7 +13,7 @@ url: /cpp/aspose.words/joinrunsoptions/get_ignorespacing/
 True indicates that the spacing attributes of all runs will be ignored when joining runs with same formatting.
 
 ```cpp
-_Bool Aspose::Words::JoinRunsOptions::get_IgnoreSpacing() const
+bool Aspose::Words::JoinRunsOptions::get_IgnoreSpacing() const
 ```
 
 ## Remarks

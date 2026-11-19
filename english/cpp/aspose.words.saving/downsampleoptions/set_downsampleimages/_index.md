@@ -21,6 +21,8 @@ void Aspose::Words::Saving::DownsampleOptions::set_DownsampleImages(bool value)
  The default value is **true**. 
 ## See Also
 
+* [get_DownsampleImages](../get_downsampleimages/)
+
 * Class [DownsampleOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

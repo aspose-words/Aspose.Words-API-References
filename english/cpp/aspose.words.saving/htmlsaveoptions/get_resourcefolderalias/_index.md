@@ -26,6 +26,7 @@ System::String Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolderAlias()
 If [ResourceFolderAlias](./) is empty, the [ResourceFolder](../get_resourcefolder/) property value will be used to construct resource URIs.
 
 If [ResourceFolderAlias](./) is set to '.' (dot), resource URIs will contain file names only, without any path.
+[ResourceFolder](../get_resourcefolder/)[FontsFolderAlias](../get_fontsfolderalias/)[ImagesFolderAlias](../get_imagesfolderalias/)
 ## Examples
 
 

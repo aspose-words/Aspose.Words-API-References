@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SpaceForUL(bool value)
 
 ## See Also
 
+* [get_SpaceForUL](../get_spaceforul/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

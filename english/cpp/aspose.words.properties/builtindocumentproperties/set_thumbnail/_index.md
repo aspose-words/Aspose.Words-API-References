@@ -53,6 +53,8 @@ System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"DocumentProperties.Thumbn
 
 ## See Also
 
+* [get_Thumbnail](../get_thumbnail/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

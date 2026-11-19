@@ -13,7 +13,7 @@ url: /cpp/aspose.words/document/get_includetextboxesfootnotesendnotesinstat/
 Specifies whether to include textboxes, footnotes and endnotes in word count statistics.
 
 ```cpp
-_Bool Aspose::Words::Document::get_IncludeTextboxesFootnotesEndnotesInStat()
+bool Aspose::Words::Document::get_IncludeTextboxesFootnotesEndnotesInStat()
 ```
 
 ## Examples

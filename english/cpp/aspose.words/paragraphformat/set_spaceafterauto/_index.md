@@ -56,6 +56,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 ## See Also
 
+* [get_SpaceAfterAuto](../get_spaceafterauto/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

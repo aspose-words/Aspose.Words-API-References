@@ -28,6 +28,7 @@ virtual void Aspose::Words::Saving::IDocumentSavingCallback::Notify(System::Shar
 
 ## See Also
 
+* Class [DocumentSavingArgs](../../documentsavingargs/)
 * Interface [IDocumentSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

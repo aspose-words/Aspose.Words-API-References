@@ -113,6 +113,7 @@ doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 ```
 ## See Also
 
+* Class [Shading](../../../aspose.words/shading/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

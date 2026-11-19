@@ -42,6 +42,8 @@ std::cout << run->get_Font()->get_Name() << std::endl;
 ```
 ## See Also
 
+* [get_UpdateAmbiguousTextFont](../get_updateambiguoustextfont/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

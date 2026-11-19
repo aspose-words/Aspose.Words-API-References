@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/svgsaveoptions/get_removejavascriptfromlinks/
 Specifies whether JavaScript will be removed from links. Default is **false**. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
 
 ```cpp
-_Bool Aspose::Words::Saving::SvgSaveOptions::get_RemoveJavaScriptFromLinks() const
+bool Aspose::Words::Saving::SvgSaveOptions::get_RemoveJavaScriptFromLinks() const
 ```
 
 ## Examples

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/htmlofficemathoutputmode/
 ## HtmlOfficeMathOutputMode enum
 
 
-Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB.
+Specifies how Aspose.Words exports [OfficeMath](../../aspose.words.math/officemath/) to HTML, MHTML and EPUB.
 
 ```cpp
 enum class HtmlOfficeMathOutputMode : int
@@ -20,14 +20,14 @@ enum class HtmlOfficeMathOutputMode : int
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Image | 0 | OfficeMath is converted to HTML as image specified by <img> tag. |
-| MathML | 1 | OfficeMath is converted to HTML using MathML. |
-| Text | 2 | OfficeMath is converted to HTML as sequence of runs specified by <span> tags. |
+| Image | 0 | [OfficeMath](../../aspose.words.math/officemath/) is converted to HTML as image specified by <img> tag. |
+| MathML | 1 | [OfficeMath](../../aspose.words.math/officemath/) is converted to HTML using MathML. |
+| Text | 2 | [OfficeMath](../../aspose.words.math/officemath/) is converted to HTML as sequence of runs specified by <span> tags. |
 
 ## Examples
 
 
-Shows how to specify how to export Microsoft OfficeMath objects to HTML.
+Shows how to specify how to export Microsoft [OfficeMath](../../aspose.words.math/officemath/) objects to HTML.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));

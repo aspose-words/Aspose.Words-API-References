@@ -34,6 +34,7 @@ ASSERT_EQ(fileFontSource->get_Priority(), 0);
 ```
 ## See Also
 
+* Enum [FontSourceType](../../fontsourcetype/)
 * Class [FontSourceBase](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

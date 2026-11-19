@@ -115,6 +115,7 @@ ASSERT_EQ(person->get_Last(), u"Tejeda");
 ```
 ## See Also
 
+* Class [Bibliography](../../../aspose.words.bibliography/bibliography/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

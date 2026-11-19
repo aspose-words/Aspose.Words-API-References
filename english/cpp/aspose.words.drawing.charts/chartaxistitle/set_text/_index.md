@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.ChartAxisTitle.docx");
 ```
 ## See Also
 
+* [get_Text](../get_text/)
+
 * Class [ChartAxisTitle](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

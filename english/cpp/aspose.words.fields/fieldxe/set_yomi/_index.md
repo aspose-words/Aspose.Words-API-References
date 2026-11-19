@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldXE::set_Yomi(const System::String & value)
 
 ## See Also
 
+* [get_Yomi](../get_yomi/)
+
 * Class [FieldXE](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

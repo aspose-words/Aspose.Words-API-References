@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIncludeText::set_MimeType(const System::String 
 
 ## See Also
 
+* [get_MimeType](../get_mimetype/)
+
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

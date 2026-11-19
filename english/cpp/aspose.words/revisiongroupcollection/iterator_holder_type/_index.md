@@ -13,7 +13,7 @@ url: /cpp/aspose.words/revisiongroupcollection/iterator_holder_type/
 A collection type whose iterator types is used as iterator types in the current collection.
 
 ```cpp
-using Aspose::Words::RevisionGroupCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::RevisionGroup> >
+using Aspose::Words::RevisionGroupCollection::iterator_holder_type = System::Collections::Generic::List<System::SharedPtr<Aspose::Words::RevisionGroup>>
 ```
 
 ## See Also

@@ -24,6 +24,7 @@ Microsoft Word allows only a shape that has its [ShapeType](../../../aspose.word
 Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
 Setting this property to a non-null value will also set the [DisplayBackgroundShape](../../../aspose.words.settings/viewoptions/get_displaybackgroundshape/) to **true**.
+[DisplayBackgroundShape](../../../aspose.words.settings/viewoptions/get_displaybackgroundshape/)[PageColor](../get_pagecolor/)
 ## Examples
 
 
@@ -65,6 +66,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBase.BackgroundShape.Image.pdf", saveOp
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

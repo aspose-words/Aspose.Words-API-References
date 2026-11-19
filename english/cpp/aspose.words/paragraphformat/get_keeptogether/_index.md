@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_keeptogether/
 True if all lines in the paragraph are to remain on the same page.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_KeepTogether()
+bool Aspose::Words::ParagraphFormat::get_KeepTogether()
 ```
 
 ## Examples

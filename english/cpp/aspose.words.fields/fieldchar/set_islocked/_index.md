@@ -19,7 +19,7 @@ void Aspose::Words::Fields::FieldChar::set_IsLocked(bool value)
 ## Examples
 
 
-Shows how to work with a FieldStart node.
+Shows how to work with a [FieldStart](../../fieldstart/) node.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -45,6 +45,8 @@ ASSERT_EQ(field->GetFieldCode(), (u" DATE  \\@ \"dddd, MMMM dd, yyyy\""));
 field->Update();
 ```
 ## See Also
+
+* [get_IsLocked](../get_islocked/)
 
 * Class [FieldChar](../)
 * Namespace [Aspose::Words::Fields](../../)

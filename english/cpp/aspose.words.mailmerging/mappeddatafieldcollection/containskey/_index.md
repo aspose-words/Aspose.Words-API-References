@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
 Determines whether a mapping from the specified field in the document exists in the collection.
 
 ```cpp
-_Bool Aspose::Words::MailMerging::MappedDataFieldCollection::ContainsKey(const System::String & documentFieldName)
+bool Aspose::Words::MailMerging::MappedDataFieldCollection::ContainsKey(const System::String & documentFieldName)
 ```
 
 

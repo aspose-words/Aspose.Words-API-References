@@ -20,10 +20,11 @@ Aspose::Words::LoadFormat Aspose::Words::FileFormatInfo::get_LoadFormat() const
 
 
 When an OOXML document is encrypted, it is not possible to ascertain whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return [Docx](../../loadformat/).
+[IsEncrypted](../get_isencrypted/)
 ## Examples
 
 
-Shows how to use the FileFormatUtil class to detect the document format and encryption.
+Shows how to use the [FileFormatUtil](../../fileformatutil/) class to detect the document format and encryption.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -42,7 +43,7 @@ ASSERT_EQ(FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()), u".odt"
 ASSERT_TRUE(info->get_IsEncrypted());
 ```
 
-Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
+Shows how to use the [FileFormatUtil](../../fileformatutil/) class to detect the document format and presence of digital signatures.
 
 ```cpp
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
@@ -65,7 +66,7 @@ ASSERT_TRUE(info->get_HasDigitalSignature());
 ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(get_ArtifactsDir() + u"File.DetectDigitalSignatures.docx")->get_Count(), 1);
 ```
 
-Shows how to use the FileFormatUtil methods to detect the format of a document.
+Shows how to use the [FileFormatUtil](../../fileformatutil/) methods to detect the format of a document.
 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
@@ -94,6 +95,7 @@ Shows how to use the FileFormatUtil methods to detect the format of a document.
 ```
 ## See Also
 
+* Enum [LoadFormat](../../loadformat/)
 * Class [FileFormatInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

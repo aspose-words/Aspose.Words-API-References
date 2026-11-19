@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_FacingIdentificationMark(cons
 
 ## See Also
 
+* [get_FacingIdentificationMark](../get_facingidentificationmark/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

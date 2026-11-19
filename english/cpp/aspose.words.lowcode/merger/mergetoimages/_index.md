@@ -24,6 +24,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -44,6 +46,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Enum [MergeFormatMode](../../mergeformatmode/)
 * Class [Merger](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

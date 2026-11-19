@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Saving::ResourceSaving
 
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
 * Class [ResourceSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

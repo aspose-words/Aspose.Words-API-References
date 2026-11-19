@@ -24,6 +24,7 @@ virtual void Aspose::Words::IDocumentMergerPlugin::Merge(System::SharedPtr<Syste
 | loadOptions | System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\> | Load options for the input files. |
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Interface [IDocumentMergerPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

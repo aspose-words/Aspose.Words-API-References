@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_CaseCodeStyle(const System::S
 
 ## See Also
 
+* [get_CaseCodeStyle](../get_casecodestyle/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

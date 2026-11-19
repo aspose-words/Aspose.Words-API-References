@@ -56,6 +56,7 @@ if (isLinuxOrMac)
 ```
 ## See Also
 
+* Class [FontConfigSubstitutionRule](../../fontconfigsubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

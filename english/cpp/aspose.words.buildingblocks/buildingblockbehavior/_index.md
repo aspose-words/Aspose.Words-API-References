@@ -29,6 +29,7 @@ enum class BuildingBlockBehavior : int
 
 
 Corresponds to the ST_DocPartBehavior type in OOXML.
+[Behavior](../buildingblock/get_behavior/)
 ## See Also
 
 * Namespace [Aspose::Words::BuildingBlocks](../)

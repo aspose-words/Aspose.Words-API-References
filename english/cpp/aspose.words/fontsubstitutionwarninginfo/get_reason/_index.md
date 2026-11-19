@@ -46,6 +46,7 @@ ASSERT_EQ(warningInfo->get_RequestedFamilyName(), u"Arial");
 ```
 ## See Also
 
+* Enum [FontSubstitutionReason](../../fontsubstitutionreason/)
 * Class [FontSubstitutionWarningInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

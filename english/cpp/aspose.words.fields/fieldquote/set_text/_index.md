@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"Field.QUOTE.docx");
 ```
 ## See Also
 
+* [get_Text](../get_text/)
+
 * Class [FieldQuote](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

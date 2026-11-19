@@ -20,6 +20,7 @@ Aspose::Words::Saving::Zip64Mode Aspose::Words::Saving::OoxmlSaveOptions::get_Zi
 
 * [Zip64Mode](./)
 
+* Enum [Zip64Mode](../../zip64mode/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

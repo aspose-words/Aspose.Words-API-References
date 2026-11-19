@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/builtindocumentproperties/get_shareddocument/
 Indicates whether the document is a shared document.
 
 ```cpp
-_Bool Aspose::Words::Properties::BuiltInDocumentProperties::get_SharedDocument()
+bool Aspose::Words::Properties::BuiltInDocumentProperties::get_SharedDocument()
 ```
 
 ## Remarks

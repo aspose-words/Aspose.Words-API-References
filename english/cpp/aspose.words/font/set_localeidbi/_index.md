@@ -18,7 +18,7 @@ void Aspose::Words::Font::set_LocaleIdBi(int32_t value)
 
 ## Remarks
 
- For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx 
+ For the list of locale identifiers see [https://msdn.microsoft.com/en-us/library/cc233965.aspx](https://msdn.microsoft.com/en-us/library/cc233965.aspx) 
 ## Examples
 
 
@@ -56,6 +56,8 @@ builder->Write(u" Hello world!");
 doc->Save(get_ArtifactsDir() + u"Font.Bidi.docx");
 ```
 ## See Also
+
+* [get_LocaleIdBi](../get_localeidbi/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

@@ -34,6 +34,8 @@ doc->Save(get_ArtifactsDir() + u"Styles.LockStyle.docx");
 ```
 ## See Also
 
+* [get_Locked](../get_locked/)
+
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

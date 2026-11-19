@@ -47,6 +47,8 @@ doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 
 ## See Also
 
+* [get_TintAndShade](../get_tintandshade/)
+
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

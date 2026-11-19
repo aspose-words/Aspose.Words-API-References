@@ -21,6 +21,9 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ZoomBehavior(Aspose::Words::Savi
  The default value is [None](../../pdfzoombehavior/), i.e. no fit is applied. 
 ## See Also
 
+* [get_ZoomBehavior](../get_zoombehavior/)
+
+* Enum [PdfZoomBehavior](../../pdfzoombehavior/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

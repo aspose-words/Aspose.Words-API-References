@@ -22,6 +22,8 @@ void Aspose::Words::Fields::FormField::set_CalculateOnExit(bool value)
 Setting [CalculateOnExit](../get_calculateonexit/) only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
 ## See Also
 
+* [get_CalculateOnExit](../get_calculateonexit/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

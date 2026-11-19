@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UseWord97LineBreakRules(
 
 ## See Also
 
+* [get_UseWord97LineBreakRules](../get_useword97linebreakrules/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

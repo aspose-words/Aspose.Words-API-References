@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportfontsasbase64/
 Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportFontsAsBase64() const
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportFontsAsBase64() const
 ```
 
 ## Remarks

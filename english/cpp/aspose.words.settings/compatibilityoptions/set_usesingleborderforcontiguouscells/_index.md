@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UseSingleBorderforContig
 
 ## See Also
 
+* [get_UseSingleBorderforContiguousCells](../get_usesingleborderforcontiguouscells/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

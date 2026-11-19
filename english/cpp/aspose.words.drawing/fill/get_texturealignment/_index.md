@@ -46,6 +46,7 @@ ASSERT_EQ(shape->get_Fill()->get_PresetTexture(), PresetTexture::Canvas);
 ```
 ## See Also
 
+* Enum [TextureAlignment](../../texturealignment/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

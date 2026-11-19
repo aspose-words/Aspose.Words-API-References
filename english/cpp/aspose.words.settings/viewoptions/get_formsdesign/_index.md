@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/viewoptions/get_formsdesign/
 Specifies whether the document is in forms design mode.
 
 ```cpp
-_Bool Aspose::Words::Settings::ViewOptions::get_FormsDesign() const
+bool Aspose::Words::Settings::ViewOptions::get_FormsDesign() const
 ```
 
 ## Remarks

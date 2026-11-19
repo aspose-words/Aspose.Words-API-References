@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 
 ## See Also
 
+* [get_Scale](../get_scale/)
+
 * Class [ImageWatermarkOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

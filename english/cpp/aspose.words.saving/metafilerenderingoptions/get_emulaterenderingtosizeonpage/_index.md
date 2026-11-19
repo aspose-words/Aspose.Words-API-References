@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emulaterenderingtosiz
 Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size.
 
 ```cpp
-_Bool Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPage() const
+bool Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRenderingToSizeOnPage() const
 ```
 
 ## Remarks

@@ -18,6 +18,7 @@ virtual void Aspose::Words::Saving::IPageSavingCallback::PageSaving(System::Shar
 
 ## See Also
 
+* Class [PageSavingArgs](../../pagesavingargs/)
 * Interface [IPageSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

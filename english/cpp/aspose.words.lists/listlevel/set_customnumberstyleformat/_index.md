@@ -62,6 +62,8 @@ ASSERT_EQ(paras->idx_get(2)->get_ListLabel()->get_LabelString(), u"002.");
 ```
 ## See Also
 
+* [get_CustomNumberStyleFormat](../get_customnumberstyleformat/)
+
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

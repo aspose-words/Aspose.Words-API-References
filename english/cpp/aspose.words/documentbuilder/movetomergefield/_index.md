@@ -13,7 +13,7 @@ url: /cpp/aspose.words/documentbuilder/movetomergefield/
 Moves the cursor to a position just beyond the specified merge field and removes the merge field.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String & fieldName)
+bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String & fieldName)
 ```
 
 
@@ -68,7 +68,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.FillMergeFields.docx");
 Moves the merge field to the specified merge field.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String & fieldName, bool isAfter, bool isDeleteField)
+bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String & fieldName, bool isAfter, bool isDeleteField)
 ```
 
 

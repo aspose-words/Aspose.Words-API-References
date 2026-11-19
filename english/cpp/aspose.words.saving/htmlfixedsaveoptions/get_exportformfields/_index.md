@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportformfields/
 Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields() const
+bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields() const
 ```
 
 ## Examples

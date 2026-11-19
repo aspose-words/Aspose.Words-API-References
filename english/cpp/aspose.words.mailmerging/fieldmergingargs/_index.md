@@ -35,6 +35,7 @@ class FieldMergingArgs : public FieldMergingArgsBase
 
 
 The MergeField event occurs during mail merge when a simple mail merge field is encountered in the document. You can respond to this event to return text for the mail merge engine to insert into the document.
+[IFieldMergingCallback](../ifieldmergingcallback/)
 ## See Also
 
 * Class [FieldMergingArgsBase](../fieldmergingargsbase/)

@@ -60,6 +60,8 @@ editableRange->Remove();
 ```
 ## See Also
 
+* [get_Id](../get_id/)
+
 * Class [EditableRangeStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,7 @@ Aspose::Words::Drawing::ShapeType Aspose::Words::Drawing::ShapeBase::get_ShapeTy
 
 ## See Also
 
+* Enum [ShapeType](../../shapetype/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

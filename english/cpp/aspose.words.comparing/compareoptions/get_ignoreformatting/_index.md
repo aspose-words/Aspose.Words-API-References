@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignoreformatting/
 True indicates that formatting is ignored.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting() const
+bool Aspose::Words::Comparing::CompareOptions::get_IgnoreFormatting() const
 ```
 
 ## Remarks

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/markdownsaveoptions/get_exportunderlineformatting/
 Gets or sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::MarkdownSaveOptions::get_ExportUnderlineFormatting() const
+bool Aspose::Words::Saving::MarkdownSaveOptions::get_ExportUnderlineFormatting() const
 ```
 
 ## Examples

@@ -10,13 +10,15 @@ url: /cpp/aspose.words.ai/googleaimodel/set_url/
 ## GoogleAiModel::set_Url method
 
 
-Sets a URL of the model. The default value is "https://generativelanguage.googleapis.com/v1beta/models/".
+Sets a URL of the model. The default value is "[https://generativelanguage.googleapis.com/v1beta/models/"](https://generativelanguage.googleapis.com/v1beta/models/").
 
 ```cpp
 void Aspose::Words::AI::GoogleAiModel::set_Url(System::String value) override
 ```
 
 ## See Also
+
+* [get_Url](../get_url/)
 
 * Class [GoogleAiModel](../)
 * Namespace [Aspose::Words::AI](../../)

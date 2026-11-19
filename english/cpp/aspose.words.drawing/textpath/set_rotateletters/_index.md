@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_RotateLetters(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_RotateLetters](../get_rotateletters/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

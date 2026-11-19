@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
 ## See Also
 
+* [get_RightMargin](../get_rightmargin/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

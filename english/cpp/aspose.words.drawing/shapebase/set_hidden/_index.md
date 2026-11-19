@@ -37,6 +37,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.Hidden.docx");
 ```
 ## See Also
 
+* [get_Hidden](../get_hidden/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

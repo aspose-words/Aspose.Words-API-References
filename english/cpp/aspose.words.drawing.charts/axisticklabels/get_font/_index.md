@@ -72,6 +72,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
 ## See Also
 
+* Class [Font](../../../aspose.words/font/)
 * Class [AxisTickLabels](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

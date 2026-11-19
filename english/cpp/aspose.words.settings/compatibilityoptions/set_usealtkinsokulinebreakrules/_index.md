@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UseAltKinsokuLineBreakRu
 
 ## See Also
 
+* [get_UseAltKinsokuLineBreakRules](../get_usealtkinsokulinebreakrules/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

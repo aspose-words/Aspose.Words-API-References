@@ -87,6 +87,7 @@ ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
 ## See Also
 
+* Class [TaskPaneCollection](../../../aspose.words.webextensions/taskpanecollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

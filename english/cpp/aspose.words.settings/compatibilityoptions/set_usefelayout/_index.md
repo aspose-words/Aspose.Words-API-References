@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UseFELayout(bool value)
 
 ## See Also
 
+* [get_UseFELayout](../get_usefelayout/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

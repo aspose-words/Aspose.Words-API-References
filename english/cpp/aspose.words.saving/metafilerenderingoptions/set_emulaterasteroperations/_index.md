@@ -30,6 +30,8 @@ This option is used only when metafile is rendered as vector graphics.
 The default value is **true**.
 ## See Also
 
+* [get_EmulateRasterOperations](../get_emulaterasteroperations/)
+
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

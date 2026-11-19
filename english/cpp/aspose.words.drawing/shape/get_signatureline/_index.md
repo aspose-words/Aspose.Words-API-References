@@ -18,7 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::SignatureLine> Aspose::Words::Drawing:
 
 ## Remarks
 
-You can insert new [SignatureLine](../../signatureline/) into the document using [InsertSignatureLine()](../../../aspose.words/documentbuilder/insertsignatureline/) and 
+You can insert new [SignatureLine](../../signatureline/) into the document using [InsertSignatureLine()](../../../aspose.words/documentbuilder/insertsignatureline/) and [InsertSignatureLine()](../../../aspose.words/documentbuilder/insertsignatureline/)
 ## Examples
 
 
@@ -60,6 +60,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
 ## See Also
 
+* Class [SignatureLine](../../signatureline/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

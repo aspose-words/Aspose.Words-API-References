@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_NoSpaceRaiseLower(bool v
 
 ## See Also
 
+* [get_NoSpaceRaiseLower](../get_nospaceraiselower/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

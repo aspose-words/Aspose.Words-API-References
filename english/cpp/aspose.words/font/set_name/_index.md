@@ -25,7 +25,7 @@ When setting, sets [NameAscii](../get_nameascii/), [NameBi](../get_namebi/), [Na
 ## Examples
 
 
-Shows how to insert formatted text using DocumentBuilder.
+Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -57,6 +57,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
 ## See Also
+
+* [get_Name](../get_name/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

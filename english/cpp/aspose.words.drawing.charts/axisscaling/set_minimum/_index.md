@@ -70,6 +70,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.DateTimeValues.docx");
 ```
 ## See Also
 
+* [get_Minimum](../get_minimum/)
+
+* Class [AxisBound](../../axisbound/)
 * Class [AxisScaling](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

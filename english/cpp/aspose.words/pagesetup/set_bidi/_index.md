@@ -48,6 +48,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.Bidi.docx");
 ```
 ## See Also
 
+* [get_Bidi](../get_bidi/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

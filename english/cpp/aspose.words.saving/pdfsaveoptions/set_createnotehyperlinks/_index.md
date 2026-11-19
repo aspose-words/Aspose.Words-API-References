@@ -18,6 +18,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_CreateNoteHyperlinks(bool value)
 
 ## See Also
 
+* [get_CreateNoteHyperlinks](../get_createnotehyperlinks/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

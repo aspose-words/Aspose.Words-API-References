@@ -57,6 +57,8 @@ else
 ```
 ## See Also
 
+* [get_ExportShapesAsSvg](../get_exportshapesassvg/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

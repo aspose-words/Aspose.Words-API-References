@@ -39,6 +39,9 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.SetTextOrientation.docx");
 ```
 ## See Also
 
+* [get_TextOrientation](../get_textorientation/)
+
+* Enum [TextOrientation](../../textorientation/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

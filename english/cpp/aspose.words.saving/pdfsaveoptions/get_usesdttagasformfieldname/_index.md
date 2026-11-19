@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_usesdttagasformfieldname/
 Specifies whether to use SDT control Tag or Id property as a name of form field in PDF.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_UseSdtTagAsFormFieldName() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_UseSdtTagAsFormFieldName() const
 ```
 
 ## Remarks

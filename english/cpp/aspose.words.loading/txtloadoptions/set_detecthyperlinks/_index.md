@@ -46,6 +46,8 @@ const System::String inputText = System::String(u"Some links in TXT:\n") + u"htt
 ```
 ## See Also
 
+* [get_DetectHyperlinks](../get_detecthyperlinks/)
+
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

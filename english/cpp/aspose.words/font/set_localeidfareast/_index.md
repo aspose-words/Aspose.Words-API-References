@@ -18,7 +18,7 @@ void Aspose::Words::Font::set_LocaleIdFarEast(int32_t value)
 
 ## Remarks
 
- For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx 
+ For the list of locale identifiers see [https://msdn.microsoft.com/en-us/library/cc233965.aspx](https://msdn.microsoft.com/en-us/library/cc233965.aspx) 
 ## Examples
 
 
@@ -48,6 +48,8 @@ builder->Writeln(u"你好世界");
 doc->Save(get_ArtifactsDir() + u"Font.FarEast.docx");
 ```
 ## See Also
+
+* [get_LocaleIdFarEast](../get_localeidfareast/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

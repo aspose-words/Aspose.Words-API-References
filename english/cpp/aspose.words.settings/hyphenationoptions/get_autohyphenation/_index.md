@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/hyphenationoptions/get_autohyphenation/
 Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**.
 
 ```cpp
-_Bool Aspose::Words::Settings::HyphenationOptions::get_AutoHyphenation() const
+bool Aspose::Words::Settings::HyphenationOptions::get_AutoHyphenation() const
 ```
 
 ## Examples

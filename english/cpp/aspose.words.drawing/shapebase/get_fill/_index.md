@@ -49,6 +49,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.Fill.docx");
 ```
 ## See Also
 
+* Class [Fill](../../fill/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

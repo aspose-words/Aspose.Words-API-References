@@ -70,6 +70,8 @@ doc->Save(get_ArtifactsDir() + u"Field.AUTHOR.docx");
 ```
 ## See Also
 
+* [get_DefaultDocumentAuthor](../get_defaultdocumentauthor/)
+
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

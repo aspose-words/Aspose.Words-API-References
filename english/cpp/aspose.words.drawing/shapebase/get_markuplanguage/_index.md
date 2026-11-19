@@ -32,6 +32,7 @@ ASPOSE_ASSERT_EQ(shape->get_SizeInPoints(), System::Drawing::SizeF(static_cast<f
 ```
 ## See Also
 
+* Enum [ShapeMarkupLanguage](../../shapemarkuplanguage/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

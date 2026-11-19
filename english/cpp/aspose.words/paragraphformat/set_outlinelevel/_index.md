@@ -50,6 +50,9 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphOutlineLevel.docx");
 ```
 ## See Also
 
+* [get_OutlineLevel](../get_outlinelevel/)
+
+* Enum [OutlineLevel](../../outlinelevel/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

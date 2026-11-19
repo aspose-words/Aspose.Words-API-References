@@ -87,6 +87,8 @@ doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Formatting.docx");
 ```
 ## See Also
 
+* [get_NumberOfColumns](../get_numberofcolumns/)
+
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

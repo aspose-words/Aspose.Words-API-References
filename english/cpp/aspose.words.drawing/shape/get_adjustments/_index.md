@@ -38,6 +38,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.Adjustments.docx");
 ```
 ## See Also
 
+* Class [AdjustmentCollection](../../adjustmentcollection/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

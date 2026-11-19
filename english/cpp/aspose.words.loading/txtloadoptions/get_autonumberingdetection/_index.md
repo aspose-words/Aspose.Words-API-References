@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/txtloadoptions/get_autonumberingdetection/
 Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Loading::TxtLoadOptions::get_AutoNumberingDetection() const
+bool Aspose::Words::Loading::TxtLoadOptions::get_AutoNumberingDetection() const
 ```
 
 ## Examples

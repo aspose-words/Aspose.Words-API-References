@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_FixCheckDigit(bool value)
 
 ## See Also
 
+* [get_FixCheckDigit](../get_fixcheckdigit/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

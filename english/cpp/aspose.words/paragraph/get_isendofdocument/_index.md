@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraph/get_isendofdocument/
 True if this paragraph is the last paragraph in the last section of the document.
 
 ```cpp
-_Bool Aspose::Words::Paragraph::get_IsEndOfDocument()
+bool Aspose::Words::Paragraph::get_IsEndOfDocument()
 ```
 
 ## Examples

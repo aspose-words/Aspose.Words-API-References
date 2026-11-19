@@ -72,6 +72,8 @@ doc->Save(get_ArtifactsDir() + u"Field.AUTOTEXT.GLOSSARY.dotx");
 ```
 ## See Also
 
+* [get_BuiltInTemplatesPaths](../get_builtintemplatespaths/)
+
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

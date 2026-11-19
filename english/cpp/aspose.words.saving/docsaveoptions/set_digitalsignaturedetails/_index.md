@@ -18,6 +18,9 @@ void Aspose::Words::Saving::DocSaveOptions::set_DigitalSignatureDetails(const Sy
 
 ## See Also
 
+* [get_DigitalSignatureDetails](../get_digitalsignaturedetails/)
+
+* Class [DigitalSignatureDetails](../../digitalsignaturedetails/)
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

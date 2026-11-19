@@ -19,7 +19,7 @@ void Aspose::Words::Fields::FieldFileName::set_IncludeFullPath(bool value)
 ## Examples
 
 
-Shows how to use FieldOptions to override the default value for the FILENAME field.
+Shows how to use [FieldOptions](../../fieldoptions/) to override the default value for the FILENAME field.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Document.docx"));
@@ -57,6 +57,8 @@ doc->UpdateFields();
 doc->Save(get_ArtifactsDir() + doc->get_FieldOptions()->get_FileName());
 ```
 ## See Also
+
+* [get_IncludeFullPath](../get_includefullpath/)
 
 * Class [FieldFileName](../)
 * Namespace [Aspose::Words::Fields](../../)

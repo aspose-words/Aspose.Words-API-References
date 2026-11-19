@@ -92,6 +92,8 @@ docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
 ## See Also
 
+* [get_IgnoreTables](../get_ignoretables/)
+
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

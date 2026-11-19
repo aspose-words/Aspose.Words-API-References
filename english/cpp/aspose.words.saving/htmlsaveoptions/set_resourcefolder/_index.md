@@ -24,6 +24,7 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_ResourceFolder(const System::St
 [ResourceFolder](../get_resourcefolder/) has a lower priority than folders specified via [FontsFolder](../get_fontsfolder/), [ImagesFolder](../get_imagesfolder/), and [CssStyleSheetFileName](../get_cssstylesheetfilename/). For example, if both [ResourceFolder](../get_resourcefolder/) and [FontsFolder](../get_fontsfolder/) are specified, fonts will be saved to [FontsFolder](../get_fontsfolder/), while images and CSS will be saved to [ResourceFolder](../get_resourcefolder/).
 
 If the folder specified by [ResourceFolder](../get_resourcefolder/) doesn't exist, it will be created automatically. 
+[FontsFolder](../get_fontsfolder/)[ImagesFolder](../get_imagesfolder/)[CssStyleSheetFileName](../get_cssstylesheetfilename/)
 ## Examples
 
 
@@ -48,6 +49,8 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 ## See Also
+
+* [get_ResourceFolder](../get_resourcefolder/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

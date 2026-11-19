@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeBarcode::set_SymbolHeight(const System::St
 
 ## See Also
 
+* [get_SymbolHeight](../get_symbolheight/)
+
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

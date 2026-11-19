@@ -32,6 +32,8 @@ doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.ExportGeneratorName.docx", sav
 ```
 ## See Also
 
+* [get_ExportGeneratorName](../get_exportgeneratorname/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

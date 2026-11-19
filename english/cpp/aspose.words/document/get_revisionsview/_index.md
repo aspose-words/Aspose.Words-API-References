@@ -42,6 +42,7 @@ ASSERT_EQ(paragraphs->idx_get(2)->get_ListLabel()->get_LabelString(), u"a.");
 ```
 ## See Also
 
+* Enum [RevisionsView](../../revisionsview/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

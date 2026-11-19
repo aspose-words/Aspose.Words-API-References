@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"Field.COMPARE.docx");
 ```
 ## See Also
 
+* [get_RightExpression](../get_rightexpression/)
+
 * Class [FieldCompare](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

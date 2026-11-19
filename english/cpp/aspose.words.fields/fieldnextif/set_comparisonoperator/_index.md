@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldNextIf::set_ComparisonOperator(const System::St
 
 ## See Also
 
+* [get_ComparisonOperator](../get_comparisonoperator/)
+
 * Class [FieldNextIf](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

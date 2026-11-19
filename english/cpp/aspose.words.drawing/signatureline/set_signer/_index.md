@@ -57,6 +57,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
 ## See Also
 
+* [get_Signer](../get_signer/)
+
 * Class [SignatureLine](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

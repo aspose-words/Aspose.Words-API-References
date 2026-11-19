@@ -25,6 +25,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | replacement | const System::String \& | A string to replace all occurrences of pattern. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -47,6 +48,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \& | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -68,6 +71,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | replacement | const System::String \& | A string to replace all occurrences of pattern. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -90,6 +94,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \& | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -111,6 +117,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | replacement | const System::String \& | A string to replace all occurrences of pattern. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -133,6 +140,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \& | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -154,6 +163,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | replacement | const System::String \& | A string to replace all occurrences of pattern. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -176,6 +186,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\> \& | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Replacer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

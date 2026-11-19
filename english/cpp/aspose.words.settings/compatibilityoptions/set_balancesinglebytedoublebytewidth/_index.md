@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_BalanceSingleByteDoubleB
 
 ## See Also
 
+* [get_BalanceSingleByteDoubleByteWidth](../get_balancesinglebytedoublebytewidth/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

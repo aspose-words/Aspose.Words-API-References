@@ -41,6 +41,9 @@ doc->Save(get_ArtifactsDir() + u"Fonts.NumberSpacing.docx");
 ```
 ## See Also
 
+* [get_NumberSpacing](../get_numberspacing/)
+
+* Enum [NumSpacing](../../numspacing/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

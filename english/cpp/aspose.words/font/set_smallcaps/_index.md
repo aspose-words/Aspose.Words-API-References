@@ -45,6 +45,8 @@ doc->Save(get_ArtifactsDir() + u"Font.Caps.docx");
 ```
 ## See Also
 
+* [get_SmallCaps](../get_smallcaps/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

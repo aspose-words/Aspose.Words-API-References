@@ -46,6 +46,8 @@ docA->Compare(docB, u"test", System::DateTime::get_Now(), options);
 ```
 ## See Also
 
+* [get_CompareListDefinitions](../get_comparelistdefinitions/)
+
 * Class [AdvancedCompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

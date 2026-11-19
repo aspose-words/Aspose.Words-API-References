@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_swapbordersfacingpgs/
 Swap Paragraph Borders on Odd Numbered Pages.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_SwapBordersFacingPgs()
+bool Aspose::Words::Settings::CompatibilityOptions::get_SwapBordersFacingPgs()
 ```
 
 ## See Also

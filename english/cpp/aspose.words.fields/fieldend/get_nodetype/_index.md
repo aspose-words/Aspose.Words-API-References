@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::Fields::FieldEnd::get_NodeType() const ov
 
 ## See Also
 
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [FieldEnd](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

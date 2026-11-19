@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIndex::set_UseYomi(bool value)
 
 ## See Also
 
+* [get_UseYomi](../get_useyomi/)
+
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

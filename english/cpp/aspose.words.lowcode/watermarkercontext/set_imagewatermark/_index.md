@@ -21,6 +21,8 @@ void Aspose::Words::LowCode::WatermarkerContext::set_ImageWatermark(const System
  If both [ImageWatermark](../get_imagewatermark/) and [TextWatermark](../get_textwatermark/) are specified, text watermark overrides image watermark. 
 ## See Also
 
+* [get_ImageWatermark](../get_imagewatermark/)
+
 * Class [WatermarkerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

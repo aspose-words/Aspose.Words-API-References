@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"Field.INCLUDE.docx");
 ```
 ## See Also
 
+* [get_LockFields](../get_lockfields/)
+
 * Class [FieldInclude](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

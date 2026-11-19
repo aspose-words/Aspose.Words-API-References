@@ -68,6 +68,7 @@ ASSERT_TRUE(doc->get_FontSettings()->get_SubstitutionSettings()->get_FontNameSub
 ```
 ## See Also
 
+* Class [FontNameSubstitutionRule](../../fontnamesubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

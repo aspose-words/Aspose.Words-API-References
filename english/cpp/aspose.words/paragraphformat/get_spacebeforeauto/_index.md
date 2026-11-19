@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_spacebeforeauto/
 True if the amount of spacing before the paragraph is set automatically.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_SpaceBeforeAuto()
+bool Aspose::Words::ParagraphFormat::get_SpaceBeforeAuto()
 ```
 
 ## Remarks

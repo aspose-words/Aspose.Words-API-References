@@ -26,6 +26,7 @@ virtual void Aspose::Words::Layout::IPageLayoutCallback::Notify(System::SharedPt
 
 ## See Also
 
+* Class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * Interface [IPageLayoutCallback](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

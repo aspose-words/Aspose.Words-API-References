@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::SpecialChar::get_NodeType() const overrid
 
 ## See Also
 
+* Enum [NodeType](../../nodetype/)
 * Class [SpecialChar](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

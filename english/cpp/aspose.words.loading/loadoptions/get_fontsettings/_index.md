@@ -69,6 +69,7 @@ doc->Save(get_ArtifactsDir() + u"LoadOptions.FontSettings.pdf");
 ```
 ## See Also
 
+* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

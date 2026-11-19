@@ -56,6 +56,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.Font.docx");
 ```
 ## See Also
 
+* Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

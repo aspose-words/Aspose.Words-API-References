@@ -77,6 +77,9 @@ switch (exportListLabels)
 ```
 ## See Also
 
+* [get_ExportListLabels](../get_exportlistlabels/)
+
+* Enum [ExportListLabels](../../exportlistlabels/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

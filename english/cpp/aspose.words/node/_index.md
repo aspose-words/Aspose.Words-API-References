@@ -2,7 +2,7 @@
 title: Aspose::Words::Node class
 linktitle: Node
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Node class. Base class for all nodes of a Word document. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::Node class. Base class for all nodes of a Word document. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 41000
 url: /cpp/aspose.words/node/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/node/
 
 
 Base class for all nodes of a Word document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class Node : public System::Object

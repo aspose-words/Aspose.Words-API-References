@@ -26,6 +26,8 @@ Aspose::Words::VisitorAction Aspose::Words::Drawing::Shape::AcceptStart(System::
 The action to be taken by the visitor.
 ## See Also
 
+* Enum [VisitorAction](../../../aspose.words/visitoraction/)
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

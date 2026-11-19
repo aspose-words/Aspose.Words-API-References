@@ -57,6 +57,8 @@ doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.MaxImageResolution.svg", saveOpt
 ```
 ## See Also
 
+* [get_Radius](../get_radius/)
+
 * Class [SoftEdgeFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

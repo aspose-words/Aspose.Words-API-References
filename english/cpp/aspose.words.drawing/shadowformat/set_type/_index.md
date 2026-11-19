@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/shadowformat/set_type/
 ## ShadowFormat::set_Type method
 
 
-Sets the specified [ShadowType](../../shadowtype/) for ShadowFormat.
+Sets the specified [ShadowType](../../shadowtype/) for [ShadowFormat](../).
 
 ```cpp
 void Aspose::Words::Drawing::ShadowFormat::set_Type(Aspose::Words::Drawing::ShadowType value)
@@ -34,6 +34,9 @@ ASSERT_EQ(shadowFormat->get_Type(), ShadowType::ShadowMixed);
 ```
 ## See Also
 
+* [get_Type](../get_type/)
+
+* Enum [ShadowType](../../shadowtype/)
 * Class [ShadowFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

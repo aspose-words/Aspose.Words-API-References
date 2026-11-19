@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_mwsmallcaps/
 Emulate Word 5.x for the Macintosh Small Caps Formatting.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_MWSmallCaps()
+bool Aspose::Words::Settings::CompatibilityOptions::get_MWSmallCaps()
 ```
 
 ## See Also

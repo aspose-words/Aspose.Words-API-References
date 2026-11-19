@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowSeriesName(bool val
 
 ## See Also
 
+* [get_ShowSeriesName](../get_showseriesname/)
+
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

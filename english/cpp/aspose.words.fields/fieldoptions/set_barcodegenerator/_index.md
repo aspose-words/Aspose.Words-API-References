@@ -21,6 +21,9 @@ void Aspose::Words::Fields::FieldOptions::set_BarcodeGenerator(const System::Sha
  Custom barcode generator should implement public interface [IBarcodeGenerator](../../ibarcodegenerator/). 
 ## See Also
 
+* [get_BarcodeGenerator](../get_barcodegenerator/)
+
+* Interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

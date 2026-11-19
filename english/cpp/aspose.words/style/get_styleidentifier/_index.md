@@ -20,6 +20,7 @@ Aspose::Words::StyleIdentifier Aspose::Words::Style::get_StyleIdentifier() const
 
 
 For user defined (custom) styles, this property returns [User](../../styleidentifier/).
+[Name](../get_name/)
 ## Examples
 
 
@@ -46,6 +47,7 @@ doc->Save(get_ArtifactsDir() + u"Styles.ChangeTocsTabStops.docx");
 ```
 ## See Also
 
+* Enum [StyleIdentifier](../../styleidentifier/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

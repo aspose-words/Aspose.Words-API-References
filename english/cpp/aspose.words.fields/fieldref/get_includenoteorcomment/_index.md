@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldref/get_includenoteorcomment/
 Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldRef::get_IncludeNoteOrComment()
+bool Aspose::Words::Fields::FieldRef::get_IncludeNoteOrComment()
 ```
 
 ## See Also

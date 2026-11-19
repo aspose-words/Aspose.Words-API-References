@@ -29,6 +29,8 @@ model->set_Timeout(250000);
 ```
 ## See Also
 
+* [get_Timeout](../get_timeout/)
+
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

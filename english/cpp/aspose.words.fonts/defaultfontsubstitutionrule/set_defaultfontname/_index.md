@@ -87,6 +87,8 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
 ## See Also
 
+* [get_DefaultFontName](../get_defaultfontname/)
+
 * Class [DefaultFontSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

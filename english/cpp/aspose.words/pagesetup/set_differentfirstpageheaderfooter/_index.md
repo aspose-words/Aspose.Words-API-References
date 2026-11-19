@@ -59,6 +59,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.DifferentFirstPageHeaderFooter.docx")
 ```
 ## See Also
 
+* [get_DifferentFirstPageHeaderFooter](../get_differentfirstpageheaderfooter/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

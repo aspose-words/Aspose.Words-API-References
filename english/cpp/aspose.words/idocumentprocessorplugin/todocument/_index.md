@@ -18,6 +18,7 @@ virtual System::SharedPtr<Aspose::Words::Document> Aspose::Words::IDocumentProce
 
 ## See Also
 
+* Class [Document](../../document/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

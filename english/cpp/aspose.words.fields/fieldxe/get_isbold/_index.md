@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldxe/get_isbold/
 Gets or sets whether to apply bold formatting to the entry's page number.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldXE::get_IsBold()
+bool Aspose::Words::Fields::FieldXE::get_IsBold()
 ```
 
 ## Examples

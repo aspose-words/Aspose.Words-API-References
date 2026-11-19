@@ -74,6 +74,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.VerticalAnchor.docx");
 ```
 ## See Also
 
+* Enum [MsWordVersion](../../mswordversion/)
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

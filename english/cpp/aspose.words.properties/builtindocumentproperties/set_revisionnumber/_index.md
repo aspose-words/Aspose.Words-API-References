@@ -79,6 +79,8 @@ ASSERT_EQ(field->get_Result(), u"2");
 ```
 ## See Also
 
+* [get_RevisionNumber](../get_revisionnumber/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

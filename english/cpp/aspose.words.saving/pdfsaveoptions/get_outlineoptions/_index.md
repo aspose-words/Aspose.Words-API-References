@@ -30,6 +30,7 @@ For bookmarks outline level may be set in options as a default value for all boo
 Also, outlines can be exported to XPS format by using the same [OutlineOptions](./) class.
 ## See Also
 
+* Class [OutlineOptions](../../outlineoptions/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

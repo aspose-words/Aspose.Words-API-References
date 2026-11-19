@@ -67,6 +67,7 @@ ASSERT_EQ(bounds.get_Height(), 29) << (dpi96150Opaque);
 ```
 ## See Also
 
+* Class [OfficeMath](../../../aspose.words.math/officemath/)
 * Class [OfficeMathRenderer](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)

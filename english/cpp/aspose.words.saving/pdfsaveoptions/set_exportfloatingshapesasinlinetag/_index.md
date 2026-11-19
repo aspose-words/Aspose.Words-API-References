@@ -26,6 +26,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ExportFloatingShapesAsInlineTag(
  This value is ignored when [ExportDocumentStructure](../get_exportdocumentstructure/) is **false**. 
 ## See Also
 
+* [get_ExportFloatingShapesAsInlineTag](../get_exportfloatingshapesasinlinetag/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

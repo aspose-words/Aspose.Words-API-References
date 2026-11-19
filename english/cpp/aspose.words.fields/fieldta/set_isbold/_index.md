@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldTA::set_IsBold(bool value)
 
 ## See Also
 
+* [get_IsBold](../get_isbold/)
+
 * Class [FieldTA](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/get_hasoutlineborder/
 Gets or sets a flag indicating whether an outline border, that is, a border around series and category names, is displayed. The default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataTable::get_HasOutlineBorder() const
+bool Aspose::Words::Drawing::Charts::ChartDataTable::get_HasOutlineBorder() const
 ```
 
 ## Examples

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/checkgrammaroptions/get_preserveformatting/
 Allows to specify either [CheckGrammar()](../../aimodel/checkgrammar/) will try to preserve layout and formatting of the original document, or not. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::AI::CheckGrammarOptions::get_PreserveFormatting() const
+bool Aspose::Words::AI::CheckGrammarOptions::get_PreserveFormatting() const
 ```
 
 ## Remarks

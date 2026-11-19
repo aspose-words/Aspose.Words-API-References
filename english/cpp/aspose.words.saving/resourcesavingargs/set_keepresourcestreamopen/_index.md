@@ -20,7 +20,10 @@ void Aspose::Words::Saving::ResourceSavingArgs::set_KeepResourceStreamOpen(bool 
 
 
 Default is **false** and Aspose.Words will close the stream you provided in the [ResourceStream](../get_resourcestream/) property after writing a resource into it. Specify **true** to keep the stream open.
+[ResourceStream](../get_resourcestream/)
 ## See Also
+
+* [get_KeepResourceStreamOpen](../get_keepresourcestreamopen/)
 
 * Class [ResourceSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

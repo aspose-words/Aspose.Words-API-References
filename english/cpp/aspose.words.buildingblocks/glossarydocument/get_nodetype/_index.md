@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::BuildingBlocks::GlossaryDocument::get_Nod
 
 ## See Also
 
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [GlossaryDocument](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

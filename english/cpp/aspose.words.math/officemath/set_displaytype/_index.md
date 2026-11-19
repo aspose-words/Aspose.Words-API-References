@@ -46,6 +46,9 @@ doc->Save(get_ArtifactsDir() + u"Shape.OfficeMath.docx");
 ```
 ## See Also
 
+* [get_DisplayType](../get_displaytype/)
+
+* Enum [OfficeMathDisplayType](../../officemathdisplaytype/)
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
 * Library [Aspose.Words for C++](../../../)

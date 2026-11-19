@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_swapinsideandoutsidefor
 Specifies to swap inside and outside for mirror indents and relative positioning.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning()
+bool Aspose::Words::Settings::CompatibilityOptions::get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning()
 ```
 
 ## See Also

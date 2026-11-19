@@ -46,6 +46,7 @@ doc->Save(get_ArtifactsDir() + u"Font.NameAscii.docx");
 ## See Also
 
 * [Name](../get_name/)
+* [get_NameOther](../get_nameother/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

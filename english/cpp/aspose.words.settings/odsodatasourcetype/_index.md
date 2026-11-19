@@ -35,7 +35,8 @@ enum class OdsoDataSourceType : int
 ## Remarks
 
 
-The OOXML specification is very vague for this enum. I guess it might correspond to the WdMergeSubType enumeration http://msdn.microsoft.com/en-us/library/bb237801.aspx.
+The OOXML specification is very vague for this enum. I guess it might correspond to the WdMergeSubType enumeration [http://msdn.microsoft.com/en-us/library/bb237801.aspx](http://msdn.microsoft.com/en-us/library/bb237801.aspx).
+[DataSourceType](../odso/get_datasourcetype/)
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)

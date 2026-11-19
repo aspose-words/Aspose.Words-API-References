@@ -13,7 +13,7 @@ url: /cpp/aspose.words/document/get_punctuationkerning/
 Specifies whether kerning applies to both Latin text and punctuation.
 
 ```cpp
-_Bool Aspose::Words::Document::get_PunctuationKerning()
+bool Aspose::Words::Document::get_PunctuationKerning()
 ```
 
 ## Examples

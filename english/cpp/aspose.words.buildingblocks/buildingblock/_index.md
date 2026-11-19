@@ -2,7 +2,7 @@
 title: Aspose::Words::BuildingBlocks::BuildingBlock class
 linktitle: BuildingBlock
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::BuildingBlocks::BuildingBlock class. Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::BuildingBlocks::BuildingBlock class. Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.words.buildingblocks/buildingblock/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words.buildingblocks/buildingblock/
 
 
 Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class BuildingBlock : public CompositeNode
@@ -22,8 +22,8 @@ class BuildingBlock : public CompositeNode
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the BuildingBlock. |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the BuildingBlock. |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the [BuildingBlock](./). |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the [BuildingBlock](./). |
 | [BuildingBlock](./buildingblock/)(const System::SharedPtr\<Aspose::Words::BuildingBlocks::GlossaryDocument\> \&) | Initializes a new instance of this class. |
 | [get_Behavior](./get_behavior/)() const | Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document. |
 | [get_Category](./get_category/)() const | Specifies the second-level categorization for the building block. |
@@ -93,6 +93,7 @@ class BuildingBlock : public CompositeNode
 You can create new building blocks and insert them into a glossary document. You can modify or delete existing building blocks. You can copy or move building blocks between documents. You can insert content of a building block into a document.
 
 Corresponds to the docPart, docPartPr and docPartBody elements in OOXML.
+[GlossaryDocument](../glossarydocument/)
 ## See Also
 
 * Class [CompositeNode](../../aspose.words/compositenode/)

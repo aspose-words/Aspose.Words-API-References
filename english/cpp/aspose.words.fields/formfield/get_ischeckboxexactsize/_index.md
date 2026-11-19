@@ -13,13 +13,14 @@ url: /cpp/aspose.words.fields/formfield/get_ischeckboxexactsize/
 Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.
 
 ```cpp
-_Bool Aspose::Words::Fields::FormField::get_IsCheckBoxExactSize()
+bool Aspose::Words::Fields::FormField::get_IsCheckBoxExactSize()
 ```
 
 ## Remarks
 
 
 Applicable for a check box form field only.
+[CheckBoxSize](../get_checkboxsize/)
 ## See Also
 
 * Class [FormField](../)

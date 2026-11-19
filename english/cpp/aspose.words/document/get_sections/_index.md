@@ -90,6 +90,7 @@ ASSERT_EQ(doc->GetText().Trim(), u"Section 2\x000c" u"Section 2");
 ```
 ## See Also
 
+* Class [SectionCollection](../../sectioncollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

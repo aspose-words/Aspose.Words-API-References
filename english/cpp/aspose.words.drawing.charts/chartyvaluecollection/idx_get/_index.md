@@ -21,6 +21,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValue> Aspose::Words::Dr
  Empty values are represented as null. 
 ## See Also
 
+* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartYValueCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

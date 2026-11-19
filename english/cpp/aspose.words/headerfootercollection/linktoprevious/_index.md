@@ -98,6 +98,7 @@ doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
 ## See Also
 
+* Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_donotwraptextwithpunct/
 Do Not Allow Hanging Punctuation With Character Grid.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotWrapTextWithPunct()
+bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotWrapTextWithPunct()
 ```
 
 ## See Also

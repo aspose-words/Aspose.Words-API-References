@@ -13,13 +13,13 @@ url: /cpp/aspose.words/inlinestory/get_isinsertrevision/
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
 ```cpp
-_Bool Aspose::Words::InlineStory::get_IsInsertRevision()
+bool Aspose::Words::InlineStory::get_IsInsertRevision()
 ```
 
 ## Examples
 
 
-Shows how to view revision-related properties of InlineStory nodes.
+Shows how to view revision-related properties of [InlineStory](../) nodes.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Revision footnotes.docx"));

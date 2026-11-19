@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_MailAsAttachment(bool value
 
 ## See Also
 
+* [get_MailAsAttachment](../get_mailasattachment/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/list/get_isliststyledefinition/
 Returns **true** if this list is a definition of a list style.
 
 ```cpp
-_Bool Aspose::Words::Lists::List::get_IsListStyleDefinition()
+bool Aspose::Words::Lists::List::get_IsListStyleDefinition()
 ```
 
 ## Remarks
@@ -24,6 +24,7 @@ When this property is **true**, the [Style](../get_style/) property returns the 
 By modifying properties of a list that defines a list style, you modify the properties of the list style.
 
 A list that is a definition of a list style cannot be applied directly to paragraphs to make them numbered.
+[Style](../get_style/)[IsListStyleReference](../get_isliststylereference/)
 ## Examples
 
 

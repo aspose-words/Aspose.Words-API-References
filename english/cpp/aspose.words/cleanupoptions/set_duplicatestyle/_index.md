@@ -64,6 +64,8 @@ ASPOSE_ASSERT_EQ(paragraphs->idx_get(1)->get_ParagraphFormat()->get_Style(), myS
 ```
 ## See Also
 
+* [get_DuplicateStyle](../get_duplicatestyle/)
+
 * Class [CleanupOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

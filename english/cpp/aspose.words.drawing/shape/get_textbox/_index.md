@@ -40,6 +40,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.TextBoxLayoutFlow.docx");
 ```
 ## See Also
 
+* Class [TextBox](../../textbox/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

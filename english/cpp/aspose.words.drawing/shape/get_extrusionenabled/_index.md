@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shape/get_extrusionenabled/
 Returns **true** if an extrusion effect is enabled.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Shape::get_ExtrusionEnabled()
+bool Aspose::Words::Drawing::Shape::get_ExtrusionEnabled()
 ```
 
 ## See Also

@@ -79,6 +79,8 @@ doc->Save(get_ArtifactsDir() + u"Field.SEQ.ResetNumbering.docx");
 ```
 ## See Also
 
+* [get_ResetNumber](../get_resetnumber/)
+
 * Class [FieldSeq](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

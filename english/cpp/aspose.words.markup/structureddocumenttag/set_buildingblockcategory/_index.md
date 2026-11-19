@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.BuildingBlockCategories.d
 ```
 ## See Also
 
+* [get_BuildingBlockCategory](../get_buildingblockcategory/)
+
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

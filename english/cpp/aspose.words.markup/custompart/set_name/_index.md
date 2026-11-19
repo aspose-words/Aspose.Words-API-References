@@ -22,6 +22,7 @@ void Aspose::Words::Markup::CustomPart::set_Name(const System::String & value)
 If the relationship target is internal, then this property is the absolute part name within the package. If the relationship target is external, then this property is the target URL.
 
 The default value is an empty string. A valid value must be a non-empty string.
+[IsExternal](../get_isexternal/)
 ## Examples
 
 
@@ -63,6 +64,8 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 0);
 ```
 ## See Also
+
+* [get_Name](../get_name/)
 
 * Class [CustomPart](../)
 * Namespace [Aspose::Words::Markup](../../)

@@ -22,6 +22,9 @@ void Aspose::Words::Settings::MailMergeSettings::set_MainDocumentType(Aspose::Wo
 The main document is the document that contains information that is the same for each version of the merged document.
 ## See Also
 
+* [get_MainDocumentType](../get_maindocumenttype/)
+
+* Enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

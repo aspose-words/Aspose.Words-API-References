@@ -43,6 +43,7 @@ doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
 ## See Also
 
+* Enum [FillType](../../filltype/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

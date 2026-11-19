@@ -45,6 +45,8 @@ extractedDoc2->Save(get_ArtifactsDir() + u"Document.ExtractPagesWithOptions.Opti
 ```
 ## See Also
 
+* [get_UpdatePageStartingNumber](../get_updatepagestartingnumber/)
+
 * Class [PageExtractOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

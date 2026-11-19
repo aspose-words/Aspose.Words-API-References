@@ -44,6 +44,9 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
 ## See Also
 
+* [get_RelativeVerticalPosition](../get_relativeverticalposition/)
+
+* Enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

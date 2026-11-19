@@ -41,6 +41,7 @@ To make all columns equal width and spaced evenly, set [EvenlySpaced](./get_even
 If you have [EvenlySpaced](./get_evenlyspaced/) set to **false**, you need to specify width and spacing for each column individually. Use the indexer to access individual [TextColumn](../textcolumn/) objects.
 
 When using custom column widths, make sure the sum of all column widths and spacings between them equals page width minus left and right page margins.
+[PageSetup](../pagesetup/)[Section](../section/)
 ## Examples
 
 

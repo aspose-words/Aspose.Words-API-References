@@ -32,6 +32,7 @@ ASPOSE_ASSERT_EQ(firstCell->get_CellFormat()->get_PreferredWidth()->get_Value(),
 ```
 ## See Also
 
+* Enum [PreferredWidthType](../../preferredwidthtype/)
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

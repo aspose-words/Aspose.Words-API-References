@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_exportgeneratorname/
 When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName() const
+bool Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName() const
 ```
 
 ## Examples

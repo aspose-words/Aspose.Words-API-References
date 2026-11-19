@@ -13,7 +13,7 @@ url: /cpp/aspose.words/fileformatinfo/get_hasmacros/
 Returns **true** if this document contains a VBA macros.
 
 ```cpp
-_Bool Aspose::Words::FileFormatInfo::get_HasMacros() const
+bool Aspose::Words::FileFormatInfo::get_HasMacros() const
 ```
 
 ## Examples

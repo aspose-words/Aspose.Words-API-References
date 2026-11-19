@@ -24,6 +24,9 @@ If the value of this property is set to **null**, the fields that require user r
 The default value is **null**.
 ## See Also
 
+* [get_UserPromptRespondent](../get_userpromptrespondent/)
+
+* Interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

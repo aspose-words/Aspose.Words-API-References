@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::Layout::LayoutOptions> & Aspose::Words::L
 
 ## See Also
 
+* Class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * Class [ProcessorContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -32,6 +32,9 @@ doc->Save(get_ArtifactsDir() + u"XlsxSaveOptions.DateTimeParsingMode.xlsx", save
 ```
 ## See Also
 
+* [get_DateTimeParsingMode](../get_datetimeparsingmode/)
+
+* Enum [XlsxDateTimeParsingMode](../../xlsxdatetimeparsingmode/)
 * Class [XlsxSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

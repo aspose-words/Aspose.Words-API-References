@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_showseriesname/
 Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. **true** to show the series name; **false** to hide. By default **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowSeriesName()
+bool Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowSeriesName()
 ```
 
 ## See Also

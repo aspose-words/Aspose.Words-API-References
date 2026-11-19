@@ -74,6 +74,8 @@ doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.Filtering.docx");
 ```
 ## See Also
 
+* [get_EntryType](../get_entrytype/)
+
 * Class [FieldXE](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

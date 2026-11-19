@@ -42,6 +42,8 @@ translatedDoc->Save(get_ArtifactsDir() + u"AI.AiTranslate.docx");
 ```
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Enum [Language](../../language/)
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

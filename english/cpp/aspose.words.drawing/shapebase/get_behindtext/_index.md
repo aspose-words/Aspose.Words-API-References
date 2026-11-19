@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_behindtext/
 Specifies whether the shape is below or above text.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_BehindText()
+bool Aspose::Words::Drawing::ShapeBase::get_BehindText()
 ```
 
 ## Remarks
@@ -22,6 +22,7 @@ _Bool Aspose::Words::Drawing::ShapeBase::get_BehindText()
 Has effect only for top level shapes.
 
 The default value is **false**.
+[ZOrder](../get_zorder/)
 ## Examples
 
 

@@ -37,6 +37,8 @@ doc->Save(get_ArtifactsDir() + u"Document.HyphenationOptions.docx");
 ```
 ## See Also
 
+* [get_AutoHyphenation](../get_autohyphenation/)
+
 * Class [HyphenationOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

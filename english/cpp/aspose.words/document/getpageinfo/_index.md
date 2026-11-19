@@ -33,6 +33,7 @@ ASSERT_FALSE(doc->GetPageInfo(0)->get_Colored());
 ```
 ## See Also
 
+* Class [PageInfo](../../../aspose.words.rendering/pageinfo/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

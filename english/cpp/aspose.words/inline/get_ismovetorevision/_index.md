@@ -13,7 +13,7 @@ url: /cpp/aspose.words/inline/get_ismovetorevision/
 Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
 ```cpp
-_Bool Aspose::Words::Inline::get_IsMoveToRevision()
+bool Aspose::Words::Inline::get_IsMoveToRevision()
 ```
 
 ## Examples

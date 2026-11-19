@@ -30,7 +30,10 @@ When saving a document to a file, the generated font file name looks like <docum
 When saving a document to a stream, the generated font file name looks like Aspose.Words.<document guid>.<original file name><optional suffix>.<extension>.
 
 [FontFileName](../get_fontfilename/) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [FontsFolder](../../htmlsaveoptions/get_fontsfolder/) and [FontsFolderAlias](../../htmlsaveoptions/get_fontsfolderalias/) properties.
+[FontStream](../get_fontstream/)[FontsFolder](../../htmlsaveoptions/get_fontsfolder/)[FontsFolderAlias](../../htmlsaveoptions/get_fontsfolderalias/)
 ## See Also
+
+* [get_FontFileName](../get_fontfilename/)
 
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

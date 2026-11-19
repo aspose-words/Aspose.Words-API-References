@@ -70,6 +70,9 @@ doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 
 ## See Also
 
+* [get_RevisedPropertiesEffect](../get_revisedpropertieseffect/)
+
+* Enum [RevisionTextEffect](../../revisiontexteffect/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -51,6 +51,8 @@ if (table->get_TextWrapping() == TextWrapping::Around)
 ```
 ## See Also
 
+* [get_AllowOverlap](../get_allowoverlap/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

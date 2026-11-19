@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::Stroke::set_Color(System::Drawing::Color value)
 The default value for a [Shape](../../shape/) is Black. 
 ## See Also
 
+* [get_Color](../get_color/)
+
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

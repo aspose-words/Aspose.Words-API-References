@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"Table.RemoveParagraphTextAndMark.docx");
 ```
 ## See Also
 
+* [get_SmartParagraphBreakReplacement](../get_smartparagraphbreakreplacement/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -56,6 +56,9 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.LineSpacing.docx");
 ```
 ## See Also
 
+* [get_LineSpacingRule](../get_linespacingrule/)
+
+* Enum [LineSpacingRule](../../linespacingrule/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

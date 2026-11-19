@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_PosCodeStyle(const System::St
 
 ## See Also
 
+* [get_PosCodeStyle](../get_poscodestyle/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

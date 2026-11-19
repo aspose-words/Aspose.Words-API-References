@@ -23,6 +23,7 @@ virtual void Aspose::Words::IDocumentProcessorPlugin::SetImageWatermark(System::
 | imageWatermarkOptions | System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\> | Image watermark options. |
 ## See Also
 
+* Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

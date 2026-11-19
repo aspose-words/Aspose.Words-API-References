@@ -79,6 +79,7 @@ else
 ```
 ## See Also
 
+* Enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

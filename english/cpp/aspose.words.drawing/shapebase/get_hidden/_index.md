@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_hidden/
 Gets or sets a boolean value indicating whether the shape is visible.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_Hidden()
+bool Aspose::Words::Drawing::ShapeBase::get_Hidden()
 ```
 
 ## Remarks

@@ -33,6 +33,7 @@ ASSERT_FALSE(subDocument->get_IsComposite());
 ```
 ## See Also
 
+* Enum [NodeType](../../nodetype/)
 * Class [SubDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

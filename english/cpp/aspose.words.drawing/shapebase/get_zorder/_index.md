@@ -28,6 +28,7 @@ The number represents the stacking precedence. A shape with a higher number will
 The order of overlapping shapes is independent for shapes in the header and in the main text of the document.
 
 The display order of child shapes in a group shape is determined by their order inside the group shape.
+[BehindText](../get_behindtext/)
 ## Examples
 
 

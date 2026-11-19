@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SuppressBottomSpacing(bo
 
 ## See Also
 
+* [get_SuppressBottomSpacing](../get_suppressbottomspacing/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

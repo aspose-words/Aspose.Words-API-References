@@ -22,6 +22,9 @@ void Aspose::Words::Drawing::Stroke::set_EndArrowType(Aspose::Words::Drawing::Ar
 The default value is [None](../../arrowtype/).
 ## See Also
 
+* [get_EndArrowType](../get_endarrowtype/)
+
+* Enum [ArrowType](../../arrowtype/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

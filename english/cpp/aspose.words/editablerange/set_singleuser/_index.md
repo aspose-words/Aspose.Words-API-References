@@ -30,6 +30,8 @@ user - for users whose access shall be authenticated using the current user's ma
 Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 ## See Also
 
+* [get_SingleUser](../get_singleuser/)
+
 * Class [EditableRange](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

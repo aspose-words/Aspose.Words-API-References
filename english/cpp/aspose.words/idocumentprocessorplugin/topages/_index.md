@@ -18,6 +18,7 @@ virtual System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::I
 
 ## See Also
 
+* Class [FixedPageSaveOptions](../../../aspose.words.saving/fixedpagesaveoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

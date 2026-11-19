@@ -57,6 +57,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
 ## See Also
 
+* [get_GradientAngle](../get_gradientangle/)
+
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

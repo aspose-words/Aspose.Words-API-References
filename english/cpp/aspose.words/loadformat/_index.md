@@ -52,7 +52,7 @@ enum class LoadFormat : int
 ## Examples
 
 
-Shows how to use the FileFormatUtil methods to detect the format of a document.
+Shows how to use the [FileFormatUtil](../fileformatutil/) methods to detect the format of a document.
 
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.

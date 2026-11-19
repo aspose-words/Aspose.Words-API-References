@@ -33,7 +33,7 @@ You do not create instances of this class directly. Objects of this class are re
 ## Examples
 
 
-Shows how to use the FileFormatUtil class to detect the document format and encryption.
+Shows how to use the [FileFormatUtil](../fileformatutil/) class to detect the document format and encryption.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -52,7 +52,7 @@ ASSERT_EQ(FileFormatUtil::LoadFormatToExtension(info->get_LoadFormat()), u".odt"
 ASSERT_TRUE(info->get_IsEncrypted());
 ```
 
-Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
+Shows how to use the [FileFormatUtil](../fileformatutil/) class to detect the document format and presence of digital signatures.
 
 ```cpp
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.

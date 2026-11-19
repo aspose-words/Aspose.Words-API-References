@@ -13,7 +13,7 @@ url: /cpp/aspose.words/document/get_hasrevisions/
 Returns **true** if the document has any tracked changes.
 
 ```cpp
-_Bool Aspose::Words::Document::get_HasRevisions()
+bool Aspose::Words::Document::get_HasRevisions()
 ```
 
 ## Remarks

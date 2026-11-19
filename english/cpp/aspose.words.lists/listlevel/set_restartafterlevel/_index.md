@@ -82,6 +82,8 @@ doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
 ## See Also
 
+* [get_RestartAfterLevel](../get_restartafterlevel/)
+
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

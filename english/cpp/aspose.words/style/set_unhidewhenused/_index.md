@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Styles.StylePriority.docx");
 ```
 ## See Also
 
+* [get_UnhideWhenUsed](../get_unhidewhenused/)
+
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

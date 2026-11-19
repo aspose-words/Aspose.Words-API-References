@@ -18,6 +18,8 @@ void Aspose::Words::Bibliography::Corporate::set_Name(const System::String & val
 
 ## See Also
 
+* [get_Name](../get_name/)
+
 * Class [Corporate](../)
 * Namespace [Aspose::Words::Bibliography](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -26,6 +26,9 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ImageColorSpaceExportMode(Aspose
 [SimpleCmyk](../../pdfimagecolorspaceexportmode/) value is not supported when saving to PDF/A. [Auto](../../pdfimagecolorspaceexportmode/) value will be used instead.
 ## See Also
 
+* [get_ImageColorSpaceExportMode](../get_imagecolorspaceexportmode/)
+
+* Enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

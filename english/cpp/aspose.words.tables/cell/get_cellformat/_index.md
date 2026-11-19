@@ -91,6 +91,7 @@ doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
 ```
 ## See Also
 
+* Class [CellFormat](../../cellformat/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

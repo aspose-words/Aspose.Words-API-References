@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_snaptogrid/
 Specifies whether the current font should use the document grid characters per line settings when laying out.
 
 ```cpp
-_Bool Aspose::Words::Font::get_SnapToGrid()
+bool Aspose::Words::Font::get_SnapToGrid()
 ```
 
 ## See Also

@@ -64,6 +64,7 @@ for (auto&& node : System::IterateOver(section))
 ```
 ## See Also
 
+* Enum [NodeType](../../nodetype/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

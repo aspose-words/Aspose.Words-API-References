@@ -18,6 +18,8 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ShowPageBorder(bool value)
 
 ## See Also
 
+* [get_ShowPageBorder](../get_showpageborder/)
+
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

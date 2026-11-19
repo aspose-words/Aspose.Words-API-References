@@ -22,6 +22,9 @@ void Aspose::Words::Saving::SaveOptions::set_ProgressCallback(const System::Shar
  Progress is reported when saving to [Docx](../../../aspose.words/saveformat/), [FlatOpc](../../../aspose.words/saveformat/), [Docm](../../../aspose.words/saveformat/), [Dotm](../../../aspose.words/saveformat/), [Dotx](../../../aspose.words/saveformat/), [Doc](../../../aspose.words/saveformat/), [Dot](../../../aspose.words/saveformat/), [Html](../../../aspose.words/saveformat/), [Mhtml](../../../aspose.words/saveformat/), [Epub](../../../aspose.words/saveformat/), [XamlFlow](../../../aspose.words/saveformat/), or [XamlFlowPack](../../../aspose.words/saveformat/). 
 ## See Also
 
+* [get_ProgressCallback](../get_progresscallback/)
+
+* Interface [IDocumentSavingCallback](../../idocumentsavingcallback/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

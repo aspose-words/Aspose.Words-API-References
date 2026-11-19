@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.Bubble3D.docx");
 ```
 ## See Also
 
+* [get_ShowBubbleSize](../get_showbubblesize/)
+
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -44,6 +44,9 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
 ## See Also
 
+* [get_HorizontalAlignment](../get_horizontalalignment/)
+
+* Enum [HorizontalAlignment](../../horizontalalignment/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

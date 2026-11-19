@@ -41,6 +41,8 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.InsertStructuredDocumentT
 ```
 ## See Also
 
+* Class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
+* Enum [SdtType](../../../aspose.words.markup/sdttype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

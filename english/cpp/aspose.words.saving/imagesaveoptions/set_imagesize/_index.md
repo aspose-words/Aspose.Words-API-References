@@ -56,6 +56,8 @@ for (int32_t i = 0; i < doc->get_PageCount(); i++)
 ```
 ## See Also
 
+* [get_ImageSize](../get_imagesize/)
+
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::Markup::SmartTag::get_NodeType() const ov
 
 ## See Also
 
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [SmartTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_ShapeLayoutLikeWW8(bool 
 
 ## See Also
 
+* [get_ShapeLayoutLikeWW8](../get_shapelayoutlikeww8/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

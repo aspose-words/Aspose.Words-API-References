@@ -35,7 +35,7 @@ enum class WarningSource : int
 | Metafile | 5 | Module that renders metafiles. |
 | Nrx | 14 | Common modules that are shared between DOCX/WML reader/writer modules. |
 | Odt | 15 | Module that reads/writes ODT files. |
-| OfficeMath | 3 | Module that renders OfficeMath. |
+| OfficeMath | 3 | Module that renders [OfficeMath](../../aspose.words.math/officemath/). |
 | Pdf | 7 | Module that renders PDF. |
 | Rtf | 12 | Module that reads/writes RTF files. |
 | Shapes | 4 | Module that renders ordinary shapes. |

@@ -43,6 +43,9 @@ if (table->get_TextWrapping() == TextWrapping::Around)
 ```
 ## See Also
 
+* [get_HorizontalAnchor](../get_horizontalanchor/)
+
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

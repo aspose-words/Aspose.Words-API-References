@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_wraptrailspaces/
 Line Wrap Trailing Spaces.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_WrapTrailSpaces()
+bool Aspose::Words::Settings::CompatibilityOptions::get_WrapTrailSpaces()
 ```
 
 ## See Also

@@ -49,6 +49,8 @@ doc->Save(get_ArtifactsDir() + u"Field.TEMPLATE.docx");
 ```
 ## See Also
 
+* [get_TemplateName](../get_templatename/)
+
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

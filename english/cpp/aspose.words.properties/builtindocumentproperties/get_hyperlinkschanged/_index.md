@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/builtindocumentproperties/get_hyperlinkschange
 Indicates whether hyperlinks in a document were changed.
 
 ```cpp
-_Bool Aspose::Words::Properties::BuiltInDocumentProperties::get_HyperlinksChanged()
+bool Aspose::Words::Properties::BuiltInDocumentProperties::get_HyperlinksChanged()
 ```
 
 ## Remarks

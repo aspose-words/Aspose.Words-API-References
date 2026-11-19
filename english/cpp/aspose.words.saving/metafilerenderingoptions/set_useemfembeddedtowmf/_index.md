@@ -30,6 +30,8 @@ This option is used only when metafile is rendered as vector graphics. When meta
 The default value is **true**.
 ## See Also
 
+* [get_UseEmfEmbeddedToWmf](../get_useemfembeddedtowmf/)
+
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

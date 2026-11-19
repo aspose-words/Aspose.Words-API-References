@@ -36,6 +36,8 @@ Shows how to set soft line break character.
 ```
 ## See Also
 
+* [get_SoftLineBreakCharacter](../get_softlinebreakcharacter/)
+
 * Class [MarkdownLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

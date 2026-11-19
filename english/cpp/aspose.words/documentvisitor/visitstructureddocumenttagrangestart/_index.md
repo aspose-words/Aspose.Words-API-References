@@ -10,7 +10,7 @@ url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagrangestart/
 ## DocumentVisitor::VisitStructuredDocumentTagRangeStart method
 
 
-Called when a StructuredDocumentTagRangeStart is encountered.
+Called when a [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/) is encountered.
 
 ```cpp
 virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitStructuredDocumentTagRangeStart(System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTagRangeStart> sdtRangeStart)
@@ -18,6 +18,8 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitStruct
 
 ## See Also
 
+* Enum [VisitorAction](../../visitoraction/)
+* Class [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

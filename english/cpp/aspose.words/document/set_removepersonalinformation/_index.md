@@ -49,6 +49,8 @@ ASSERT_EQ(doc->get_Revisions()->idx_get(0)->get_Author(), u"John Doe");
 ```
 ## See Also
 
+* [get_RemovePersonalInformation](../get_removepersonalinformation/)
+
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -24,6 +24,8 @@ Microsoft Word does not always set this property.
 Aspose.Words does not update this property.
 ## See Also
 
+* [get_Bytes](../get_bytes/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

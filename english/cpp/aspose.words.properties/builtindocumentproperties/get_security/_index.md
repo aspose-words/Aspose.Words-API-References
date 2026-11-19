@@ -65,6 +65,7 @@ ASSERT_EQ(System::MakeObject<Aspose::Words::Document>(System::String(get_Artifac
 ```
 ## See Also
 
+* Enum [DocumentSecurity](../../documentsecurity/)
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

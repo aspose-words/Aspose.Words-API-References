@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_restartpagenumbering/
 True if page numbering restarts at the beginning of the section.
 
 ```cpp
-_Bool Aspose::Words::PageSetup::get_RestartPageNumbering()
+bool Aspose::Words::PageSetup::get_RestartPageNumbering()
 ```
 
 ## Remarks

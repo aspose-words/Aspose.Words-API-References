@@ -49,6 +49,9 @@ doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
 ## See Also
 
+* [get_Alignment](../get_alignment/)
+
+* Enum [TableAlignment](../../tablealignment/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

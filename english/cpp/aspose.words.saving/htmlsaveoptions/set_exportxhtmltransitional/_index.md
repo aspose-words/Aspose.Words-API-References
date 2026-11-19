@@ -67,6 +67,8 @@ else
 ```
 ## See Also
 
+* [get_ExportXhtmlTransitional](../get_exportxhtmltransitional/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

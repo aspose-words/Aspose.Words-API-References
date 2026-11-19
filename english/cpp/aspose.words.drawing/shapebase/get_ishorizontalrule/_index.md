@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_ishorizontalrule/
 Returns **true** if this shape is a horizontal rule.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsHorizontalRule()
+bool Aspose::Words::Drawing::ShapeBase::get_IsHorizontalRule()
 ```
 
 ## Examples

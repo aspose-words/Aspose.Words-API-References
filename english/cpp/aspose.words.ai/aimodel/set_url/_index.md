@@ -29,6 +29,8 @@ model->set_Url(u"https://my.a.com/");
 ```
 ## See Also
 
+* [get_Url](../get_url/)
+
 * Class [AiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

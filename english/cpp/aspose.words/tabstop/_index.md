@@ -2,7 +2,7 @@
 title: Aspose::Words::TabStop class
 linktitle: TabStop
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::TabStop class. Represents a single custom tab stop. The TabStop object is a member of the TabStopCollection collection. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::TabStop class. Represents a single custom tab stop. The TabStop object is a member of the TabStopCollection collection. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 68000
 url: /cpp/aspose.words/tabstop/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/tabstop/
 
 
 Represents a single custom tab stop. The [TabStop](./) object is a member of the [TabStopCollection](../tabstopcollection/) collection. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class TabStop : public System::Object
@@ -37,6 +37,7 @@ class TabStop : public System::Object
 Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a [TabStop](./) object and set [Alignment](./get_alignment/) to [Clear](../tabalignment/).
 
 For more information see [TabStopCollection](../tabstopcollection/).
+[ParagraphFormat](../paragraphformat/)[TabStopCollection](../tabstopcollection/)[DefaultTabStop](../document/get_defaulttabstop/)
 ## Examples
 
 

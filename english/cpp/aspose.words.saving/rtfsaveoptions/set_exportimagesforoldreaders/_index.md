@@ -49,6 +49,8 @@ doc->Save(get_ArtifactsDir() + u"RtfSaveOptions.ExportImages.rtf", options);
 ```
 ## See Also
 
+* [get_ExportImagesForOldReaders](../get_exportimagesforoldreaders/)
+
 * Class [RtfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

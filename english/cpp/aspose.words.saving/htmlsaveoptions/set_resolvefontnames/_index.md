@@ -24,6 +24,8 @@ By default, this option is set to **false** and font family names are written to
 If this option is set to **true**, Aspose.Words uses [FontSettings](../../../aspose.words/document/get_fontsettings/) to resolve each font family name specified in a source document into the name of an available font family, performing font substitution as required.
 ## See Also
 
+* [get_ResolveFontNames](../get_resolvefontnames/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

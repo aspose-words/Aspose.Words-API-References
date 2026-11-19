@@ -68,6 +68,7 @@ ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"C
 ```
 ## See Also
 
+* Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -116,6 +117,8 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 ```
 ## See Also
 
+* Class [CertificateHolder](../../certificateholder/)
+* Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -178,6 +181,7 @@ ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"C
 ```
 ## See Also
 
+* Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -229,7 +233,7 @@ ASSERT_EQ(signature->get_VerticalResolution(), 768);
 ASSERT_EQ(signature->get_ColorDepth(), 24);
 ```
 
-Shows how to sign a document with timestamping using DigitalSignatureUtil.
+Shows how to sign a document with timestamping using [DigitalSignatureUtil](../).
 
 ```cpp
 auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
@@ -258,6 +262,8 @@ ASPOSE_ASSERT_EQ(signOptions->get_TimestampSettings()->get_Timeout().get_TotalSe
 ```
 ## See Also
 
+* Class [CertificateHolder](../../certificateholder/)
+* Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -322,6 +328,7 @@ ASSERT_EQ(signedDoc->get_DigitalSignatures()->idx_get(0)->get_SubjectName(), u"C
 ```
 ## See Also
 
+* Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -370,6 +377,8 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 ```
 ## See Also
 
+* Class [CertificateHolder](../../certificateholder/)
+* Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

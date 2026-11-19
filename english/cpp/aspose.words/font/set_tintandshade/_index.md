@@ -49,6 +49,8 @@ builder->Writeln(u"Text with themed style");
 
 ## See Also
 
+* [get_TintAndShade](../get_tintandshade/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

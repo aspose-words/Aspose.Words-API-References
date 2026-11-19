@@ -39,6 +39,8 @@ doc->Save(get_ArtifactsDir() + u"Document.SpellingAndGrammarErrors.docx");
 ```
 ## See Also
 
+* [get_ShowGrammaticalErrors](../get_showgrammaticalerrors/)
+
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

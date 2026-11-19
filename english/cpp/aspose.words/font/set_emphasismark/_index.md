@@ -37,6 +37,9 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Fonts.SetEmphasisMark.docx"
 ```
 ## See Also
 
+* [get_EmphasisMark](../get_emphasismark/)
+
+* Enum [EmphasisMark](../../emphasismark/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

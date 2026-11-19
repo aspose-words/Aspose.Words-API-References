@@ -51,6 +51,9 @@ doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
 ## See Also
 
+* [get_LineStyle](../get_linestyle/)
+
+* Enum [ShapeLineStyle](../../shapelinestyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

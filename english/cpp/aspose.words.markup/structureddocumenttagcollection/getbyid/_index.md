@@ -43,6 +43,7 @@ std::cout << sdt->get_Id() << std::endl;
 ```
 ## See Also
 
+* Interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * Class [StructuredDocumentTagCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

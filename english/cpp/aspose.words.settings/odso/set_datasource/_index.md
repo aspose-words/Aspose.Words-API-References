@@ -18,6 +18,8 @@ void Aspose::Words::Settings::Odso::set_DataSource(const System::String & value)
 
 ## See Also
 
+* [get_DataSource](../get_datasource/)
+
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

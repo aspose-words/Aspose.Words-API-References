@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartDataLabel::set_IsHidden(bool value)
 
 ## See Also
 
+* [get_IsHidden](../get_ishidden/)
+
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

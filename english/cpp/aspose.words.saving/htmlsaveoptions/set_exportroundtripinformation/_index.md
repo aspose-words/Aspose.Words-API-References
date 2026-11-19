@@ -91,6 +91,8 @@ else
 ```
 ## See Also
 
+* [get_ExportRoundtripInformation](../get_exportroundtripinformation/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

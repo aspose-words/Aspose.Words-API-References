@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_ForgetLastTabAlignment(b
 
 ## See Also
 
+* [get_ForgetLastTabAlignment](../get_forgetlasttabalignment/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_BarcodeType(const System::Str
 
 ## See Also
 
+* [get_BarcodeType](../get_barcodetype/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

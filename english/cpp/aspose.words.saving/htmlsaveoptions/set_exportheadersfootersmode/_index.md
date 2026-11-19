@@ -53,6 +53,9 @@ ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ```
 ## See Also
 
+* [get_ExportHeadersFootersMode](../get_exportheadersfootersmode/)
+
+* Enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/signercontext/set_certificateholder/
 ## SignerContext::set_CertificateHolder method
 
 
-CertificateHolder object with certificate that used to sign file.
+[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/) object with certificate that used to sign file.
 
 ```cpp
 void Aspose::Words::LowCode::SignerContext::set_CertificateHolder(const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> & value)
@@ -21,6 +21,9 @@ void Aspose::Words::LowCode::SignerContext::set_CertificateHolder(const System::
  The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. 
 ## See Also
 
+* [get_CertificateHolder](../get_certificateholder/)
+
+* Class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * Class [SignerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -37,6 +37,9 @@ auto tag = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(no
 ```
 ## See Also
 
+* [get_PreferredControlType](../get_preferredcontroltype/)
+
+* Enum [HtmlControlType](../../htmlcontroltype/)
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

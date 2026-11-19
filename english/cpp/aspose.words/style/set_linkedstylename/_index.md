@@ -72,6 +72,8 @@ ASSERT_EQ(styleHeading1Char->get_LinkedStyleName(), u"Heading 1");
 ```
 ## See Also
 
+* [get_LinkedStyleName](../get_linkedstylename/)
+
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

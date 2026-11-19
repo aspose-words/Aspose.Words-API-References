@@ -19,7 +19,7 @@ void Aspose::Words::Font::set_Color(System::Drawing::Color value)
 ## Examples
 
 
-Shows how to insert formatted text using DocumentBuilder.
+Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -56,6 +56,8 @@ builder->Writeln(u".");
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHyperlink.docx");
 ```
 ## See Also
+
+* [get_Color](../get_color/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showlegendkey
 Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLegendKey()
+bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLegendKey()
 ```
 
 ## Remarks

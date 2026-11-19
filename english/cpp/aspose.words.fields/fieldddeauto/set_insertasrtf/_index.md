@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDdeAuto::set_InsertAsRtf(bool value)
 
 ## See Also
 
+* [get_InsertAsRtf](../get_insertasrtf/)
+
 * Class [FieldDdeAuto](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

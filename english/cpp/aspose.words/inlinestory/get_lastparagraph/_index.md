@@ -19,7 +19,7 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::InlineStory::get_Last
 ## Examples
 
 
-Shows how to insert InlineStory nodes.
+Shows how to insert [InlineStory](../) nodes.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -74,6 +74,7 @@ doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 ## See Also
 
+* Class [Paragraph](../../paragraph/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

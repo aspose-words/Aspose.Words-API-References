@@ -51,6 +51,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentProperties.LinkCustomDocumentProperties
 ```
 ## See Also
 
+* Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_shadow/
 True if the font is formatted as shadowed.
 
 ```cpp
-_Bool Aspose::Words::Font::get_Shadow()
+bool Aspose::Words::Font::get_Shadow()
 ```
 
 ## Examples

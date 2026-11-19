@@ -18,6 +18,9 @@ void Aspose::Words::Saving::MarkdownSaveOptions::set_ImageSavingCallback(const S
 
 ## See Also
 
+* [get_ImageSavingCallback](../get_imagesavingcallback/)
+
+* Interface [IImageSavingCallback](../../iimagesavingcallback/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

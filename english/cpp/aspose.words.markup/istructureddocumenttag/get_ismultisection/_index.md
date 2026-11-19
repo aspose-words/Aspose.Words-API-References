@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/get_ismultisection/
 Returns true if this instance is a ranged (multi-section) structured document tag.
 
 ```cpp
-virtual _Bool Aspose::Words::Markup::IStructuredDocumentTag::get_IsMultiSection()
+virtual bool Aspose::Words::Markup::IStructuredDocumentTag::get_IsMultiSection()
 ```
 
 ## Examples

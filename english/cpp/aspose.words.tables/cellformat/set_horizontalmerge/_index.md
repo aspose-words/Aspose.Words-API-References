@@ -51,7 +51,9 @@ doc->Save(get_ArtifactsDir() + u"CellFormat.HorizontalMerge.docx");
 ## See Also
 
 * [VerticalMerge](../get_verticalmerge/)
+* [get_HorizontalMerge](../get_horizontalmerge/)
 
+* Enum [CellMerge](../../cellmerge/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

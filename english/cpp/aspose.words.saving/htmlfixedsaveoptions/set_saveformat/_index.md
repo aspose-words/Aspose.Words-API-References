@@ -18,6 +18,9 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_SaveFormat(Aspose::Words::
 
 ## See Also
 
+* [get_SaveFormat](../get_saveformat/)
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportdocumentstructure/
 Gets or sets a value determining whether or not to export document structure.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_ExportDocumentStructure() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_ExportDocumentStructure() const
 ```
 
 ## Remarks

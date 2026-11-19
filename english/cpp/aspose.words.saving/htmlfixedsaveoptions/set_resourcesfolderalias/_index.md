@@ -20,7 +20,10 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ResourcesFolderAlias(const
 
 
 When you save a [Document](../../../aspose.words/document/) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [ResourcesFolder](../get_resourcesfolder/) allows you to specify where the images will be saved and [ResourcesFolderAlias](../get_resourcesfolderalias/) allows to specify how the image URIs will be constructed.
+[ResourcesFolder](../get_resourcesfolder/)
 ## See Also
+
+* [get_ResourcesFolderAlias](../get_resourcesfolderalias/)
 
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

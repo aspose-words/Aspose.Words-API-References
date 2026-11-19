@@ -50,6 +50,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.DataLabelsPieChart.docx");
 ```
 ## See Also
 
+* [get_ShowPercentage](../get_showpercentage/)
+
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

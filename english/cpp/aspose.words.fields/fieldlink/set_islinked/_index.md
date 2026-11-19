@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldLink::set_IsLinked(bool value)
 
 ## See Also
 
+* [get_IsLinked](../get_islinked/)
+
 * Class [FieldLink](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

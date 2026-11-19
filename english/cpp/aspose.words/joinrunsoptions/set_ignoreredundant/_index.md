@@ -21,6 +21,8 @@ void Aspose::Words::JoinRunsOptions::set_IgnoreRedundant(bool value)
  Redundant attributes are those attributes that do not affect the run with the given text content. The default value is False. 
 ## See Also
 
+* [get_IgnoreRedundant](../get_ignoreredundant/)
+
 * Class [JoinRunsOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

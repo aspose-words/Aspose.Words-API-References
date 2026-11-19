@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::SectionCollection> Aspose::Words::BuildingBlock
 
 ## See Also
 
+* Class [SectionCollection](../../../aspose.words/sectioncollection/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

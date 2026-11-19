@@ -40,6 +40,8 @@ ASPOSE_ASSERT_EQ(System::IO::File::ReadAllText(get_ArtifactsDir() + u"ViewOption
 ```
 ## See Also
 
+* [get_FormsDesign](../get_formsdesign/)
+
 * Class [ViewOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Saving::GraphicsQualityOptions::set_TextRenderingHint(System
 
 ## See Also
 
+* [get_TextRenderingHint](../get_textrenderinghint/)
+
 * Class [GraphicsQualityOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

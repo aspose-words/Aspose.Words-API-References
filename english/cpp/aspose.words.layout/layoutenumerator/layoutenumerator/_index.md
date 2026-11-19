@@ -28,6 +28,7 @@ If page layout model of the document hasn't been built the enumerator calls [Upd
 Whenever document is updated and new page layout model is created, a new enumerator must be used to access it.
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

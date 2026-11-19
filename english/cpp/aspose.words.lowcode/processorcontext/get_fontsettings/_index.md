@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::Fonts::FontSettings> & Aspose::Words::Low
 
 ## See Also
 
+* Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * Class [ProcessorContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

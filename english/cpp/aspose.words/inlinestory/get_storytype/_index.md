@@ -19,7 +19,7 @@ Aspose::Words::StoryType Aspose::Words::InlineStory::get_StoryType() override
 ## Examples
 
 
-Shows how to insert InlineStory nodes.
+Shows how to insert [InlineStory](../) nodes.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -74,6 +74,7 @@ doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 ## See Also
 
+* Enum [StoryType](../../storytype/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

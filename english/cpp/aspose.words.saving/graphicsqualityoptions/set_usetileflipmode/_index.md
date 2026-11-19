@@ -26,6 +26,8 @@ By default uses Tile (specifies tiling without flipping). This causes inaccurate
 This property allows to switch WrapMode to TileFlipXY (specifies that tiles are flipped horizontally as you move along a row and flipped vertically as you move along a column).
 ## See Also
 
+* [get_UseTileFlipMode](../get_usetileflipmode/)
+
 * Class [GraphicsQualityOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

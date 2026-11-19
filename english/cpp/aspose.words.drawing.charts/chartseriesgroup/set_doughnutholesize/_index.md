@@ -48,6 +48,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.DoughnutChart.docx");
 ```
 ## See Also
 
+* [get_DoughnutHoleSize](../get_doughnutholesize/)
+
 * Class [ChartSeriesGroup](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

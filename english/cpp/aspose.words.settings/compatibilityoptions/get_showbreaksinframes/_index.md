@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_showbreaksinframes/
 Display Page/Column Breaks Present in Frames.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_ShowBreaksInFrames()
+bool Aspose::Words::Settings::CompatibilityOptions::get_ShowBreaksInFrames()
 ```
 
 ## See Also

@@ -56,6 +56,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.MarkerFormatting.docx");
 ```
 ## See Also
 
+* [get_Transparency](../get_transparency/)
+
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoc/get_preservelinebreaks/
 Gets whether to preserve newline characters within table entries.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldToc::get_PreserveLineBreaks()
+bool Aspose::Words::Fields::FieldToc::get_PreserveLineBreaks()
 ```
 
 ## See Also

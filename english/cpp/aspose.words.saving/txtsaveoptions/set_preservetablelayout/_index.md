@@ -62,6 +62,8 @@ else
 ```
 ## See Also
 
+* [get_PreserveTableLayout](../get_preservetablelayout/)
+
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -45,6 +45,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.ShadowFormatTransparency.docx");
 ```
 ## See Also
 
+* [get_Color](../get_color/)
+
 * Class [ShadowFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

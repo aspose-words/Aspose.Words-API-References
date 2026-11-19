@@ -18,7 +18,7 @@ void Aspose::Words::Replacing::FindReplaceOptions::set_UseSubstitutions(bool val
 
 ## Remarks
 
- For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions. 
+ For the details on substitution elements please refer to: [https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions](https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions). 
 ## Examples
 
 
@@ -66,6 +66,8 @@ doc->get_Range()->Replace(regex, u"$3 bought a $2 from $1", options);
 ASSERT_EQ(doc->GetText().Trim(), useSubstitutions ? System::String(u"Paul bought a car from John.\rJoe bought a house from Jane.") : System::String(u"$3 bought a $2 from $1.\r$3 bought a $2 from $1."));
 ```
 ## See Also
+
+* [get_UseSubstitutions](../get_usesubstitutions/)
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)

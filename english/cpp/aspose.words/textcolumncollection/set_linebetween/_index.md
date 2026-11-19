@@ -42,6 +42,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.VerticalLineBetweenColumns.docx");
 ```
 ## See Also
 
+* [get_LineBetween](../get_linebetween/)
+
 * Class [TextColumnCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

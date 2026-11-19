@@ -28,6 +28,7 @@ Using [Jpeg](../../pdfimagecompression/) provides the fastest conversion speed w
 Using [Auto](../../pdfimagecompression/) lets to control the quality of Jpeg in the output document through the [JpegQuality](../get_jpegquality/) property, but for other formats, raw pixel data is extracted and saved with Flate compression. This case is slower than Jpeg conversion but lossless.
 ## See Also
 
+* Enum [PdfImageCompression](../../pdfimagecompression/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

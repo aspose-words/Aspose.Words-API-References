@@ -22,6 +22,8 @@ void Aspose::Words::BookmarkEnd::set_Name(System::String value) override
 Cannot be **null**.
 ## See Also
 
+* [get_Name](../get_name/)
+
 * Class [BookmarkEnd](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

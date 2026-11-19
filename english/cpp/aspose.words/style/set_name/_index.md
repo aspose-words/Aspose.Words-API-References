@@ -74,6 +74,8 @@ ASPOSE_ASSERT_NE(newStyle->get_Font()->get_Color(), doc->get_Styles()->idx_get(u
 ```
 ## See Also
 
+* [get_Name](../get_name/)
+
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

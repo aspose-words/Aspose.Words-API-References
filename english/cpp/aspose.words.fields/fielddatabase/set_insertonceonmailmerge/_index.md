@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDatabase::set_InsertOnceOnMailMerge(bool value)
 
 ## See Also
 
+* [get_InsertOnceOnMailMerge](../get_insertonceonmailmerge/)
+
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

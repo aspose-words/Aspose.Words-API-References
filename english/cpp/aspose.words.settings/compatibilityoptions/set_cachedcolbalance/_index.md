@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_CachedColBalance(bool va
 
 ## See Also
 
+* [get_CachedColBalance](../get_cachedcolbalance/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

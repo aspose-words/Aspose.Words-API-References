@@ -45,6 +45,8 @@ doc->Save(get_ArtifactsDir() + u"Field.PRINT.docx");
 ```
 ## See Also
 
+* [get_PostScriptGroup](../get_postscriptgroup/)
+
 * Class [FieldPrint](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

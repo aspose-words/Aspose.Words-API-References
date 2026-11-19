@@ -13,7 +13,7 @@ url: /cpp/aspose.words.layout/layoutoptions/get_keeporiginalfontmetrics/
 Gets or sets an indication of whether the original font metrics should be used after font substitution. Default is **true**.
 
 ```cpp
-_Bool Aspose::Words::Layout::LayoutOptions::get_KeepOriginalFontMetrics() const
+bool Aspose::Words::Layout::LayoutOptions::get_KeepOriginalFontMetrics() const
 ```
 
 ## Examples

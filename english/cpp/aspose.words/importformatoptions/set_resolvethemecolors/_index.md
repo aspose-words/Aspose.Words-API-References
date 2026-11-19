@@ -51,6 +51,8 @@ dstDoc->Save(get_ArtifactsDir() + u"DocumentBase.ImportNodeWithResolveThemeColor
 ```
 ## See Also
 
+* [get_ResolveThemeColors](../get_resolvethemecolors/)
+
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

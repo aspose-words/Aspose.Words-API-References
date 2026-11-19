@@ -21,6 +21,7 @@ virtual System::String Aspose::Words::Fields::IFieldResultFormatter::Format(Syst
  The implementation should return **null** to indicate that the default formatting should be applied. 
 ## See Also
 
+* Enum [GeneralFormat](../../generalformat/)
 * Interface [IFieldResultFormatter](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -38,6 +39,7 @@ virtual System::String Aspose::Words::Fields::IFieldResultFormatter::Format(doub
  The implementation should return **null** to indicate that the default formatting should be applied. 
 ## See Also
 
+* Enum [GeneralFormat](../../generalformat/)
 * Interface [IFieldResultFormatter](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -23,10 +23,10 @@ class AdvancedCompareOptions : public System::Object
 | [AdvancedCompareOptions](./advancedcompareoptions/)() |  |
 | [get_CompareListDefinitions](./get_comparelistdefinitions/)() const | Specifies whether list definition contents are compared instead of list definition Ids. |
 | [get_IgnoreDmlUniqueId](./get_ignoredmluniqueid/)() const | Specifies whether to ignore difference in DrawingML unique Id. |
-| [get_IgnoreStoreItemId](./get_ignorestoreitemid/)() const | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |
+| [get_IgnoreStoreItemId](./get_ignorestoreitemid/)() const | Specifies whether to ignore difference in [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) store item Id. |
 | [set_CompareListDefinitions](./set_comparelistdefinitions/)(bool) | Specifies whether list definition contents are compared instead of list definition Ids. |
 | [set_IgnoreDmlUniqueId](./set_ignoredmluniqueid/)(bool) | Specifies whether to ignore difference in DrawingML unique Id. |
-| [set_IgnoreStoreItemId](./set_ignorestoreitemid/)(bool) | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |
+| [set_IgnoreStoreItemId](./set_ignorestoreitemid/)(bool) | Specifies whether to ignore difference in [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) store item Id. |
 ## Remarks
 
  These options have no equivalence in Microsoft Word and might help to produce more precise comparison result. 

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_prettyformat/
 When **true**, pretty formats output where applicable. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_PrettyFormat() const
+bool Aspose::Words::Saving::SaveOptions::get_PrettyFormat() const
 ```
 
 ## Remarks

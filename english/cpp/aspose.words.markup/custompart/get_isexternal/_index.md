@@ -13,13 +13,14 @@ url: /cpp/aspose.words.markup/custompart/get_isexternal/
 False if this custom part is stored inside the OOXML package. True if this custom part is an external target.
 
 ```cpp
-_Bool Aspose::Words::Markup::CustomPart::get_IsExternal() const
+bool Aspose::Words::Markup::CustomPart::get_IsExternal() const
 ```
 
 ## Remarks
 
 
 The default value is **false**.
+[Name](../get_name/)
 ## Examples
 
 

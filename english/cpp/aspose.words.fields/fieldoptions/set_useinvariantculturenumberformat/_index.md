@@ -51,6 +51,8 @@ ASSERT_EQ(field->get_Result(), (u"$1.234.567,89"));
 ```
 ## See Also
 
+* [get_UseInvariantCultureNumberFormat](../get_useinvariantculturenumberformat/)
+
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

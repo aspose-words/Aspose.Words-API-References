@@ -46,6 +46,8 @@ ASSERT_EQ(u"MyStyle3", paras->idx_get(2)->get_ParagraphFormat()->get_Style()->ge
 ```
 ## See Also
 
+* [get_ForceCopyStyles](../get_forcecopystyles/)
+
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

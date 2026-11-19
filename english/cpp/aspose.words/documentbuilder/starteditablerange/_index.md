@@ -105,6 +105,7 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.Nested.docx");
 ```
 ## See Also
 
+* Class [EditableRangeStart](../../editablerangestart/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/fill/get_backthemecolor/
 ## Fill::get_BackThemeColor method
 
 
-Gets or sets a ThemeColor object that represents the background color for the fill.
+Gets or sets a [ThemeColor](../../../aspose.words.themes/themecolor/) object that represents the background color for the fill.
 
 ```cpp
 Aspose::Words::Themes::ThemeColor Aspose::Words::Drawing::Fill::get_BackThemeColor()
@@ -41,6 +41,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillThemeColor.docx");
 ```
 ## See Also
 
+* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

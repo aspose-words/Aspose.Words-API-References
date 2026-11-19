@@ -41,6 +41,9 @@ doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.XpsDigitalSignature.docx", saveO
 ```
 ## See Also
 
+* [get_DigitalSignatureDetails](../get_digitalsignaturedetails/)
+
+* Class [DigitalSignatureDetails](../../digitalsignaturedetails/)
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

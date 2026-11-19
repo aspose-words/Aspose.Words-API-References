@@ -37,6 +37,7 @@ ASSERT_EQ(button1->get_Type(), Forms2OleControlType::CommandButton);
 * [OleFormat](../../../aspose.words.drawing/shape/get_oleformat/)
 * [OleControl](../../../aspose.words.drawing/oleformat/get_olecontrol/)
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -28,6 +28,7 @@ If you save a document into a stream, Aspose.Words does not have a folder where 
 If the folder specified by [ImagesFolder](../get_imagesfolder/) doesn't exist, it will be created automatically.
 
 [ResourceFolder](../get_resourcefolder/) is another way to specify a folder where images should be saved.
+[ResourceFolder](../get_resourcefolder/)[ImagesFolderAlias](../get_imagesfolderalias/)[ImageSavingCallback](../get_imagesavingcallback/)
 ## Examples
 
 
@@ -53,6 +54,8 @@ options->set_ImagesFolder(imagesDir);
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ```
 ## See Also
+
+* [get_ImagesFolder](../get_imagesfolder/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

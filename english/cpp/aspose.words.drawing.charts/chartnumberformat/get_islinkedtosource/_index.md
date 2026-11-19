@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartnumberformat/get_islinkedtosource/
 Specifies whether the format code is linked to a source cell. Default is true.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSource()
+bool Aspose::Words::Drawing::Charts::ChartNumberFormat::get_IsLinkedToSource()
 ```
 
 ## Remarks

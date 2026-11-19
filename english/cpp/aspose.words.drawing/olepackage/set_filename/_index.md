@@ -42,6 +42,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.InsertOlePackage.docx");
 ```
 ## See Also
 
+* [get_FileName](../get_filename/)
+
 * Class [OlePackage](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

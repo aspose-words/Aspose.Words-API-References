@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToc::set_EntryIdentifier(const System::String &
 
 ## See Also
 
+* [get_EntryIdentifier](../get_entryidentifier/)
+
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

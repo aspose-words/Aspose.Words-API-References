@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttag/get_multiline/
 Specifies whether this SDT allows multiple lines of text.
 
 ```cpp
-_Bool Aspose::Words::Markup::StructuredDocumentTag::get_Multiline()
+bool Aspose::Words::Markup::StructuredDocumentTag::get_Multiline()
 ```
 
 ## Remarks

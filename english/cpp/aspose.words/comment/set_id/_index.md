@@ -26,6 +26,8 @@ You would use this value when looking for the [CommentRangeStart](../../commentr
 Comment identifiers are supposed to be unique across a document and Aspose.Words automatically maintains comment identifiers when loading, saving and combining documents.
 ## See Also
 
+* [get_Id](../get_id/)
+
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -10,7 +10,7 @@ url: /cpp/aspose.words.lowcode/signercontext/get_signoptions/
 ## SignerContext::get_SignOptions method
 
 
-SignOptions object with various signing options.
+[SignOptions](../../../aspose.words.digitalsignatures/signoptions/) object with various signing options.
 
 ```cpp
 const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & Aspose::Words::LowCode::SignerContext::get_SignOptions() const
@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::DigitalSignatures::SignOptions> & Aspose:
 
 ## See Also
 
+* Class [SignOptions](../../../aspose.words.digitalsignatures/signoptions/)
 * Class [SignerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

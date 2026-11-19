@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/groupshape/acceptstart/
 ## GroupShape::AcceptStart method
 
 
-Accepts a visitor for visiting the start of the GroupShape.
+Accepts a visitor for visiting the start of the [GroupShape](../).
 
 ```cpp
 Aspose::Words::VisitorAction Aspose::Words::Drawing::GroupShape::AcceptStart(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
@@ -26,6 +26,8 @@ Aspose::Words::VisitorAction Aspose::Words::Drawing::GroupShape::AcceptStart(Sys
 The action to be taken by the visitor.
 ## See Also
 
+* Enum [VisitorAction](../../../aspose.words/visitoraction/)
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [GroupShape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

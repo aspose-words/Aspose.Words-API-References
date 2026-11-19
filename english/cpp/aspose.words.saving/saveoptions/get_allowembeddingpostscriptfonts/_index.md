@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_allowembeddingpostscriptfonts/
 Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts() const
+bool Aspose::Words::Saving::SaveOptions::get_AllowEmbeddingPostScriptFonts() const
 ```
 
 ## Remarks

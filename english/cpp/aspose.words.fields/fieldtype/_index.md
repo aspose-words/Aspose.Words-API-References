@@ -138,7 +138,7 @@ ASSERT_EQ(field->GetFieldCode(), (u"DATE \\@ \"dddd, MMMM dd, yyyy\""));
 ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);
 ```
 
-Shows how to work with a FieldStart node.
+Shows how to work with a [FieldStart](../fieldstart/) node.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

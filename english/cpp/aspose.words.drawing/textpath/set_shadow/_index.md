@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_Shadow(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_Shadow](../get_shadow/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

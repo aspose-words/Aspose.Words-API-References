@@ -19,7 +19,7 @@ void Aspose::Words::Font::set_Size(double value)
 ## Examples
 
 
-Shows how to insert formatted text using DocumentBuilder.
+Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -51,6 +51,8 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::S
 doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
 ## See Also
+
+* [get_Size](../get_size/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

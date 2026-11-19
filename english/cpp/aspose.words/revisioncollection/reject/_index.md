@@ -26,6 +26,7 @@ int32_t Aspose::Words::RevisionCollection::Reject(const System::SharedPtr<Aspose
 The count of rejected revisions.
 ## See Also
 
+* Interface [IRevisionCriteria](../../irevisioncriteria/)
 * Class [RevisionCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

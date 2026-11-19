@@ -28,6 +28,7 @@ When [Cell](../) is created, it belongs to the specified document, but is not ye
 To append [Cell](../) to the document use [InsertAfter()](../../../aspose.words/compositenode/insertafter/) or [InsertBefore()](../../../aspose.words/compositenode/insertbefore/) on the row where you want the cell inserted.
 ## See Also
 
+* Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

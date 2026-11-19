@@ -33,6 +33,8 @@ doc->Save(get_ArtifactsDir() + u"Font.ComplexScript.docx");
 ```
 ## See Also
 
+* [get_ComplexScript](../get_complexscript/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

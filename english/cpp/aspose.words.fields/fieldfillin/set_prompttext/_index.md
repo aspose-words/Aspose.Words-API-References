@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldFillIn::set_PromptText(const System::String & v
 
 ## See Also
 
+* [get_PromptText](../get_prompttext/)
+
 * Class [FieldFillIn](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

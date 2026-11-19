@@ -23,7 +23,7 @@ The list label is justified relative to the [NumberPosition](../get_numberpositi
 ## Examples
 
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -78,6 +78,9 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx
 ```
 ## See Also
 
+* [get_Alignment](../get_alignment/)
+
+* Enum [ListLevelAlignment](../../listlevelalignment/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

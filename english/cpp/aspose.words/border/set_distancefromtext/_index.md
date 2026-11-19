@@ -18,7 +18,7 @@ void Aspose::Words::Border::set_DistanceFromText(double value)
 
 ## Remarks
 
- Has no effect and will be automatically reset to zero for borders of table cells. 
+ Has no effect and will be automatically reset to zero for borders of table cells. [BorderDistanceFrom](../../pagesetup/get_borderdistancefrom/)
 ## Examples
 
 
@@ -41,6 +41,8 @@ border->set_DistanceFromText(0);
 doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorderProperties.docx");
 ```
 ## See Also
+
+* [get_DistanceFromText](../get_distancefromtext/)
 
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)

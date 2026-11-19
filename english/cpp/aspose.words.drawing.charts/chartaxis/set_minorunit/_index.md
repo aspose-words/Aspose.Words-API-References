@@ -78,6 +78,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
 ## See Also
 
+* [get_MinorUnit](../get_minorunit/)
+
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

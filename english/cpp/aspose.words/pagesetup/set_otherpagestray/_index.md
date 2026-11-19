@@ -18,6 +18,8 @@ void Aspose::Words::PageSetup::set_OtherPagesTray(int32_t value)
 
 ## See Also
 
+* [get_OtherPagesTray](../get_otherpagestray/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

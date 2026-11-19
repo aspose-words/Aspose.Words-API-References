@@ -46,6 +46,8 @@ ASPOSE_ASSERT_EQ(shape->get_Glow()->get_Transparency(), 0);
 ```
 ## See Also
 
+* [get_Color](../get_color/)
+
 * Class [GlowFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

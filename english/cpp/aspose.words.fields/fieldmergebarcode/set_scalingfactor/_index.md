@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeBarcode::set_ScalingFactor(const System::S
 
 ## See Also
 
+* [get_ScalingFactor](../get_scalingfactor/)
+
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

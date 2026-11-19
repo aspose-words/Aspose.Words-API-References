@@ -19,7 +19,7 @@ void Aspose::Words::StyleCollection::ClearQuickStyleGallery()
 ## Examples
 
 
-Shows how to remove styles from Style Gallery panel.
+Shows how to remove styles from [Style](../../style/) Gallery panel.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

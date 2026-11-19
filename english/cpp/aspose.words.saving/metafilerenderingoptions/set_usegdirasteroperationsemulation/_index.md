@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.WindowsMetaFile.png", options)
 ```
 ## See Also
 
+* [get_UseGdiRasterOperationsEmulation](../get_usegdirasteroperationsemulation/)
+
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

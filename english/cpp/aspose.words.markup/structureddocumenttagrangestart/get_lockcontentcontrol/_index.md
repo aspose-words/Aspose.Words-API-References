@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_lockcontentcon
 When set to **true**, this property will prohibit a user from deleting this structured document tag.
 
 ```cpp
-_Bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContentControl() override
+bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContentControl() override
 ```
 
 ## Examples

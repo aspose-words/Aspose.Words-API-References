@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Settings::OdsoFieldMapDataCollection> Aspose::W
 
 ## See Also
 
+* Class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

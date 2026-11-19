@@ -59,6 +59,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
 ## See Also
 
+* [get_LastPrinted](../get_lastprinted/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

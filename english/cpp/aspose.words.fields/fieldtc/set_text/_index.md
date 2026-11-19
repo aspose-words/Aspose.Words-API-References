@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldTC::set_Text(const System::String & value)
 
 ## See Also
 
+* [get_Text](../get_text/)
+
 * Class [FieldTC](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

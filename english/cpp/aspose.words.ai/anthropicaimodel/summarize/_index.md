@@ -27,6 +27,8 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AnthropicAiModel::
 A summarized version of the document's content.
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [AnthropicAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -50,6 +52,8 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::AI::AnthropicAiModel::
 A summarized version of the document's content.
 ## See Also
 
+* Class [Document](../../../aspose.words/document/)
+* Class [SummarizeOptions](../../summarizeoptions/)
 * Class [AnthropicAiModel](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

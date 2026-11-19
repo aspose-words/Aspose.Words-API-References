@@ -45,6 +45,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillTintAndShade.docx");
 
 ## See Also
 
+* [get_ForeTintAndShade](../get_foretintandshade/)
+
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

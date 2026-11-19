@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/stroke/get_backthemecolor/
 ## Stroke::get_BackThemeColor method
 
 
-Gets or sets a ThemeColor object that represents the stroke background color.
+Gets or sets a [ThemeColor](../../../aspose.words.themes/themecolor/) object that represents the stroke background color.
 
 ```cpp
 Aspose::Words::Themes::ThemeColor Aspose::Words::Drawing::Stroke::get_BackThemeColor()
@@ -33,6 +33,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.StrokeBackThemeColors.docx");
 ```
 ## See Also
 
+* Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

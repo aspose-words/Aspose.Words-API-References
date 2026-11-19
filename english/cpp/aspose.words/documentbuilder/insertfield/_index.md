@@ -29,10 +29,11 @@ A [Field](../../../aspose.words.fields/field/) object that represents the insert
 
 
 This method inserts a field into a document. Aspose.Words can update fields of most types, but not all. For more details see the [InsertField()](./) overload.
+[Field](../../../aspose.words.fields/field/)
 ## Examples
 
 
-Shows how to insert a field into a document using FieldType.
+Shows how to insert a field into a document using [FieldType](../../../aspose.words.fields/fieldtype/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -73,6 +74,8 @@ else
 ```
 ## See Also
 
+* Class [Field](../../../aspose.words.fields/field/)
+* Enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -97,6 +100,7 @@ A [Field](../../../aspose.words.fields/field/) object that represents the insert
 
 
 This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [InsertField()](./) overload.
+[Field](../../../aspose.words.fields/field/)
 ## Examples
 
 
@@ -140,6 +144,7 @@ ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_
 ```
 ## See Also
 
+* Class [Field](../../../aspose.words.fields/field/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -171,6 +176,7 @@ You can switch between displaying field codes and results in your document in Mi
 To create a field, you need to specify a field type, field code and a "placeholder" field value. If you are not sure about a particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
 
 Aspose.Words can calculate field results for most of the field types, but this method does not update the field result automatically. Because the field result is not calculated automatically, you are expected to pass some string value (or even an empty string) that will be inserted into the field result. This value will remain in the field result as a placeholder until the field is updated. To update the field result you can call [Update](../../../aspose.words.fields/field/update/) on the field object returned to you or [UpdateFields](../../document/updatefields/) to update fields in the whole document.
+[Field](../../../aspose.words.fields/field/)
 ## Examples
 
 
@@ -227,6 +233,7 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```
 ## See Also
 
+* Class [Field](../../../aspose.words.fields/field/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

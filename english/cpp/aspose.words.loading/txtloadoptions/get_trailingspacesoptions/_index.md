@@ -92,6 +92,7 @@ switch (txtTrailingSpacesOptions)
 ```
 ## See Also
 
+* Enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

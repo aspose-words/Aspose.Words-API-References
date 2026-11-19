@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowCategoryName(bool v
 
 ## See Also
 
+* [get_ShowCategoryName](../get_showcategoryname/)
+
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

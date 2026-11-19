@@ -51,6 +51,7 @@ ASSERT_EQ(row->IndexOf(cell), 4);
 ```
 ## See Also
 
+* Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

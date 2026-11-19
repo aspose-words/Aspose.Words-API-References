@@ -18,6 +18,8 @@ void Aspose::Words::Replacing::ReplacingArgs::set_Replacement(const System::Stri
 
 ## See Also
 
+* [get_Replacement](../get_replacement/)
+
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

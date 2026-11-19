@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_OverrideTableStyleFontSi
 
 ## See Also
 
+* [get_OverrideTableStyleFontSizeAndJustification](../get_overridetablestylefontsizeandjustification/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

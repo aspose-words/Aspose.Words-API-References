@@ -24,6 +24,8 @@ Cannot be **null**.
 Default is empty string.
 ## See Also
 
+* [get_Element](../get_element/)
+
 * Class [SmartTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

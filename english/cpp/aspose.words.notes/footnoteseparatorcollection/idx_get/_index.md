@@ -33,6 +33,8 @@ footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(Pa
 ```
 ## See Also
 
+* Class [FootnoteSeparator](../../footnoteseparator/)
+* Enum [FootnoteSeparatorType](../../footnoteseparatortype/)
 * Class [FootnoteSeparatorCollection](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

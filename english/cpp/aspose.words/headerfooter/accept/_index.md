@@ -13,7 +13,7 @@ url: /cpp/aspose.words/headerfooter/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::HeaderFooter::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::HeaderFooter::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -33,6 +33,7 @@ For more info see the Visitor design pattern.
  Calls [VisitHeaderFooterStart()](../../documentvisitor/visitheaderfooterstart/), then calls [Accept()](../../node/accept/) for all child nodes of the section and calls [VisitHeaderFooterEnd()](../../documentvisitor/visitheaderfooterend/) at the end. 
 ## See Also
 
+* Class [DocumentVisitor](../../documentvisitor/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

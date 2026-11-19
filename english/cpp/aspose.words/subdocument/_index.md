@@ -2,7 +2,7 @@
 title: Aspose::Words::SubDocument class
 linktitle: SubDocument
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::SubDocument class. Represents a SubDocument - which is a reference to an externally stored document. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::SubDocument class. Represents a SubDocument - which is a reference to an externally stored document. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 66000
 url: /cpp/aspose.words/subdocument/
@@ -10,8 +10,8 @@ url: /cpp/aspose.words/subdocument/
 ## SubDocument class
 
 
-Represents a SubDocument - which is a reference to an externally stored document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+Represents a [SubDocument](./) - which is a reference to an externally stored document. 
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class SubDocument : public Node

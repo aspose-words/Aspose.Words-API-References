@@ -42,6 +42,9 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 ## See Also
 
+* [get_Texture](../get_texture/)
+
+* Enum [TextureIndex](../../textureindex/)
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

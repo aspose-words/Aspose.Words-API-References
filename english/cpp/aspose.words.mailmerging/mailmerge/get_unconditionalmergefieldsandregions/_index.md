@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mailmerge/get_unconditionalmergefieldsandregi
 Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition.
 
 ```cpp
-_Bool Aspose::Words::MailMerging::MailMerge::get_UnconditionalMergeFieldsAndRegions() const
+bool Aspose::Words::MailMerging::MailMerge::get_UnconditionalMergeFieldsAndRegions() const
 ```
 
 ## Remarks

@@ -67,6 +67,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.DateTimeValues.docx");
 ```
 ## See Also
 
+* Class [AxisScaling](../../axisscaling/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

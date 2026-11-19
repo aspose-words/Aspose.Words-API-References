@@ -95,6 +95,8 @@ doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
 ## See Also
 
+* [get_IsLinkedToPrevious](../get_islinkedtoprevious/)
+
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

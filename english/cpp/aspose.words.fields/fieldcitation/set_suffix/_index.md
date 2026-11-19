@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldCitation::set_Suffix(const System::String & val
 
 ## See Also
 
+* [get_Suffix](../get_suffix/)
+
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

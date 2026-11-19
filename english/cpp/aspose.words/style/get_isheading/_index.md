@@ -13,7 +13,7 @@ url: /cpp/aspose.words/style/get_isheading/
 True when the style is one of the built-in Heading styles.
 
 ```cpp
-_Bool Aspose::Words::Style::get_IsHeading()
+bool Aspose::Words::Style::get_IsHeading()
 ```
 
 ## Examples

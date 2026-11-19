@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIncludeText::set_XslTransformation(const System
 
 ## See Also
 
+* [get_XslTransformation](../get_xsltransformation/)
+
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

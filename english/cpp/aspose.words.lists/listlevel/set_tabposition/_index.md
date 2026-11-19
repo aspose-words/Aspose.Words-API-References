@@ -20,10 +20,11 @@ void Aspose::Words::Lists::ListLevel::set_TabPosition(double value)
 
 
 Has effect only when [TrailingCharacter](../get_trailingcharacter/) is a tab.
+[NumberPosition](../get_numberposition/)[TextPosition](../get_textposition/)
 ## Examples
 
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -77,6 +78,8 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateCustomList.docx");
 ```
 ## See Also
+
+* [get_TabPosition](../get_tabposition/)
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)

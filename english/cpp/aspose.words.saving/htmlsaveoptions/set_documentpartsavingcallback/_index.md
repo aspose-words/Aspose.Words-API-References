@@ -18,6 +18,9 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_DocumentPartSavingCallback(cons
 
 ## See Also
 
+* [get_DocumentPartSavingCallback](../get_documentpartsavingcallback/)
+
+* Interface [IDocumentPartSavingCallback](../../idocumentpartsavingcallback/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

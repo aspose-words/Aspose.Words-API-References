@@ -18,6 +18,7 @@ void Aspose::Words::Settings::OdsoFieldMapDataCollection::idx_set(int32_t index,
 
 ## See Also
 
+* Class [OdsoFieldMapData](../../odsofieldmapdata/)
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

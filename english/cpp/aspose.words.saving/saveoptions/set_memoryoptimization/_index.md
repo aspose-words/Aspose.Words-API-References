@@ -21,6 +21,8 @@ void Aspose::Words::Saving::SaveOptions::set_MemoryOptimization(bool value)
  Setting this option to **true** can significantly decrease memory consumption while saving large documents at the cost of slower saving time. 
 ## See Also
 
+* [get_MemoryOptimization](../get_memoryoptimization/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

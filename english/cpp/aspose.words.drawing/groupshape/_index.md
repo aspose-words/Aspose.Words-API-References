@@ -22,8 +22,8 @@ class GroupShape : public ShapeBase
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the GroupShape. |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the GroupShape. |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the [GroupShape](./). |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the [GroupShape](./). |
 | [GroupShape](./groupshape/)(const System::SharedPtr\<Aspose::Words::DocumentBase\> \&) | Creates a new group shape. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [GroupShape](../../aspose.words/nodetype/). |
 | [AdjustWithEffects](../shapebase/adjustwitheffects/)(System::Drawing::RectangleF) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
@@ -179,6 +179,7 @@ class GroupShape : public ShapeBase
 A [GroupShape](./) is a composite node and can have [Shape](../shape/) and [GroupShape](./) nodes as children.
 
 Each [GroupShape](./) defines a new coordinate system for its child shapes. The coordinate system is defined using the [CoordSize](../shapebase/get_coordsize/) and [CoordOrigin](../shapebase/get_coordorigin/) properties.
+[ShapeBase](../shapebase/)[Shape](../shape/)
 ## See Also
 
 * Class [ShapeBase](../shapebase/)

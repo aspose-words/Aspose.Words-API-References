@@ -24,7 +24,10 @@ Building blocks in Microsoft Word user interface are arranged into Galleries. Ea
 Cannot be **null** and cannot be an empty string.
 
 Corresponds to the docPartPr.category.name element in OOXML.
+[Gallery](../get_gallery/)[Name](../get_name/)
 ## See Also
+
+* [get_Category](../get_category/)
 
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)

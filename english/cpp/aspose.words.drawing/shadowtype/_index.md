@@ -67,7 +67,7 @@ enum class ShadowType : int
 
 ## Remarks
 
- ShadowType is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance. 
+ [ShadowType](./) is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance. 
 ## Examples
 
 

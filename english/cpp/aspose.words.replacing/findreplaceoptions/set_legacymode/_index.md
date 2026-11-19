@@ -44,6 +44,8 @@ ASSERT_EQ(u"Paul took money from Jason.\f", doc->GetText());
 ```
 ## See Also
 
+* [get_LegacyMode](../get_legacymode/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

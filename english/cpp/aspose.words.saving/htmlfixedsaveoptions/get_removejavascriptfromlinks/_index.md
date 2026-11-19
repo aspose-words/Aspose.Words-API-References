@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_removejavascriptfromlinks
 Specifies whether JavaScript will be removed from links. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_RemoveJavaScriptFromLinks() const
+bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_RemoveJavaScriptFromLinks() const
 ```
 
 ## Remarks

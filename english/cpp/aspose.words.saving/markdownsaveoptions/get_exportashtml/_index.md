@@ -42,6 +42,7 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportTableAsHtml.md", save
 ```
 ## See Also
 
+* Enum [MarkdownExportAsHtml](../../markdownexportashtml/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

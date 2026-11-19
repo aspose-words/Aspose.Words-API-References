@@ -22,6 +22,7 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock>
 An array of building blocks.
 ## See Also
 
+* Class [BuildingBlock](../../buildingblock/)
 * Class [BuildingBlockCollection](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

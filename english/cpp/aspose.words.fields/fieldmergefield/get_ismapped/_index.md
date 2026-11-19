@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldmergefield/get_ismapped/
 Gets whether this field is a mapped field.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldMergeField::get_IsMapped()
+bool Aspose::Words::Fields::FieldMergeField::get_IsMapped()
 ```
 
 ## See Also

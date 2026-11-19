@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_noleading/
 Do Not Add Leading Between Lines of Text.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_NoLeading()
+bool Aspose::Words::Settings::CompatibilityOptions::get_NoLeading()
 ```
 
 ## See Also

@@ -15,7 +15,7 @@ Specifies whether the program should simplify list labels in case of complex lab
 If set to **true**, numbered list labels are written in simple numeric format and itemized list labels as simple ASCII characters. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels() const
+bool Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels() const
 ```
 
 ## Examples

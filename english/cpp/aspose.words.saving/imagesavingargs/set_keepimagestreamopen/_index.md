@@ -20,7 +20,10 @@ void Aspose::Words::Saving::ImageSavingArgs::set_KeepImageStreamOpen(bool value)
 
 
 Default is **false** and Aspose.Words will close the stream you provided in the [ImageStream](../get_imagestream/) property after writing an image into it. Specify **true** to keep the stream open.
+[ImageStream](../get_imagestream/)
 ## See Also
+
+* [get_KeepImageStreamOpen](../get_keepimagestreamopen/)
 
 * Class [ImageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)

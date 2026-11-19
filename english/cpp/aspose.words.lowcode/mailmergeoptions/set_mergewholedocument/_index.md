@@ -21,6 +21,8 @@ void Aspose::Words::LowCode::MailMergeOptions::set_MergeWholeDocument(bool value
  The default value is **false**. 
 ## See Also
 
+* [get_MergeWholeDocument](../get_mergewholedocument/)
+
 * Class [MailMergeOptions](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

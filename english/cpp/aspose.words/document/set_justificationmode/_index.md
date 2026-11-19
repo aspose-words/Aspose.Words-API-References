@@ -34,6 +34,9 @@ doc->Save(get_ArtifactsDir() + u"Document.SetJustificationMode.docx");
 ```
 ## See Also
 
+* [get_JustificationMode](../get_justificationmode/)
+
+* Enum [JustificationMode](../../../aspose.words.settings/justificationmode/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

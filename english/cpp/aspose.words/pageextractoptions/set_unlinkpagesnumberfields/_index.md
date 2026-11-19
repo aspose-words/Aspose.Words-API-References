@@ -45,6 +45,8 @@ extractedDoc2->Save(get_ArtifactsDir() + u"Document.ExtractPagesWithOptions.Opti
 ```
 ## See Also
 
+* [get_UnlinkPagesNumberFields](../get_unlinkpagesnumberfields/)
+
 * Class [PageExtractOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

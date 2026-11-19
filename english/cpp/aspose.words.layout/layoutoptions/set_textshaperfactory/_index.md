@@ -18,6 +18,8 @@ void Aspose::Words::Layout::LayoutOptions::set_TextShaperFactory(const System::S
 
 ## See Also
 
+* [get_TextShaperFactory](../get_textshaperfactory/)
+
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

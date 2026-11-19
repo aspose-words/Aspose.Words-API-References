@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_exportembeddedsvg/
 Specifies whether SVG resources should be embedded into Html document. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedSvg() const
+bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedSvg() const
 ```
 
 ## Examples

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/mailmerge/get_restartlistsateachsection/
 Gets or sets a value indicating whether lists are restarted at each section after executing of a mail merge.
 
 ```cpp
-_Bool Aspose::Words::MailMerging::MailMerge::get_RestartListsAtEachSection() const
+bool Aspose::Words::MailMerging::MailMerge::get_RestartListsAtEachSection() const
 ```
 
 ## Remarks

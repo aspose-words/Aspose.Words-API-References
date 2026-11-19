@@ -50,6 +50,8 @@ ASSERT_EQ(docText, System::String(u"Paragraph 1. End of paragraph.\n\n\t") + u"P
 ```
 ## See Also
 
+* [get_ParagraphBreak](../get_paragraphbreak/)
+
 * Class [TxtSaveOptionsBase](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

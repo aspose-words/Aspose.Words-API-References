@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_donotbreakwrappedtables
 Do Not Allow Floating Tables To Break Across Pages.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotBreakWrappedTables()
+bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotBreakWrappedTables()
 ```
 
 ## See Also

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.ai/checkgrammaroptions/get_makerevisions/
 Allows to specify either final or revised document to be returned with proofed text. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::AI::CheckGrammarOptions::get_MakeRevisions() const
+bool Aspose::Words::AI::CheckGrammarOptions::get_MakeRevisions() const
 ```
 
 ## See Also

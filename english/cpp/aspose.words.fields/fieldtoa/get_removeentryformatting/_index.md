@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldtoa/get_removeentryformatting/
 Gets or sets whether to remove the formatting of the entry text in the document from the entry in the table of authorities.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldToa::get_RemoveEntryFormatting()
+bool Aspose::Words::Fields::FieldToa::get_RemoveEntryFormatting()
 ```
 
 ## See Also

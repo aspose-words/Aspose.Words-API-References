@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 Returns **true** if the image is linked and not stored in the document.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
+bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
 ```
 
 ## Examples

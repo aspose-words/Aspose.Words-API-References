@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_ignoretextboxes/
 Specifies whether to compare differences in the data contained within text boxes.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_IgnoreTextboxes() const
+bool Aspose::Words::Comparing::CompareOptions::get_IgnoreTextboxes() const
 ```
 
 ## Remarks

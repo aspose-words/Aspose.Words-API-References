@@ -26,6 +26,7 @@ virtual void Aspose::Words::IDocumentProcessorPlugin::Save(System::SharedPtr<Sys
 If the specified output format is image, only the first page image is saved to the output stream. If the specified save format is not natively supported by the plugin (requires loading to [Document](../../document/)), method throws an exception.
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Interface [IDocumentProcessorPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

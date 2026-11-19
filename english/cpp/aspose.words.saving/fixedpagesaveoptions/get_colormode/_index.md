@@ -21,6 +21,7 @@ Aspose::Words::Saving::ColorMode Aspose::Words::Saving::FixedPageSaveOptions::ge
 The default value is [Normal](../../colormode/). 
 ## See Also
 
+* Enum [ColorMode](../../colormode/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

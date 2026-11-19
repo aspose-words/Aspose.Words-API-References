@@ -18,6 +18,9 @@ void Aspose::Words::LowCode::ProcessorContext::set_WarningCallback(const System:
 
 ## See Also
 
+* [get_WarningCallback](../get_warningcallback/)
+
+* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [ProcessorContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

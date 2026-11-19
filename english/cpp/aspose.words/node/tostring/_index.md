@@ -90,6 +90,7 @@ ASSERT_EQ(node->ToString(saveOptions), System::String(u"<p style=\"margin-top:0p
 ```
 ## See Also
 
+* Enum [SaveFormat](../../saveformat/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -132,6 +133,7 @@ ASSERT_EQ(node->ToString(saveOptions), System::String(u"<p style=\"margin-top:0p
 ```
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,7 @@ Aspose::Words::Layout::LayoutEntityType Aspose::Words::Layout::LayoutEnumerator:
 
 ## See Also
 
+* Enum [LayoutEntityType](../../layoutentitytype/)
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

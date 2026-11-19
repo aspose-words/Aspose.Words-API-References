@@ -49,6 +49,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.DataLabelNumberFormat.docx");
 ```
 ## See Also
 
+* [get_HasDataLabels](../get_hasdatalabels/)
+
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

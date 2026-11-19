@@ -38,6 +38,7 @@ doc->Save(get_ArtifactsDir() + u"Border.ParagraphTopBorder.docx");
 ```
 ## See Also
 
+* Class [BorderCollection](../../bordercollection/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

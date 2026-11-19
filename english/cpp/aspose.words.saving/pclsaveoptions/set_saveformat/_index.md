@@ -32,6 +32,9 @@ doc->Save(get_ArtifactsDir() + u"PclSaveOptions.RasterizeElements.pcl", saveOpti
 ```
 ## See Also
 
+* [get_SaveFormat](../get_saveformat/)
+
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [PclSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

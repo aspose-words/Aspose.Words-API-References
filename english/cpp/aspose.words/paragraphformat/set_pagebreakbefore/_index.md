@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.PageBreakBefore.docx");
 ```
 ## See Also
 
+* [get_PageBreakBefore](../get_pagebreakbefore/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

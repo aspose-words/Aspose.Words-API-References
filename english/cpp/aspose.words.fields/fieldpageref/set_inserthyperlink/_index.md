@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldPageRef::set_InsertHyperlink(bool value)
 
 ## See Also
 
+* [get_InsertHyperlink](../get_inserthyperlink/)
+
 * Class [FieldPageRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_Spacing(double value)
 The default value is 1.
 ## See Also
 
+* [get_Spacing](../get_spacing/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

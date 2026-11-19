@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.Coordinates.docx");
 ```
 ## See Also
 
+* [get_DistanceBottom](../get_distancebottom/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

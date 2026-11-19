@@ -22,7 +22,7 @@ Aspose::Words::DocumentBuilder::DocumentBuilder()
 ## Examples
 
 
-Shows how to insert formatted text using DocumentBuilder.
+Shows how to insert formatted text using [DocumentBuilder](../).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -62,7 +62,7 @@ Aspose::Words::DocumentBuilder::DocumentBuilder(const System::SharedPtr<Aspose::
 ## Examples
 
 
-Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
+Shows how to insert a [Table](../../../aspose.words.tables/table/) of contents (TOC) into a document using heading styles as entries.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -110,6 +110,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
 ## See Also
 
+* Class [Document](../../document/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -162,6 +163,8 @@ doc->Save(get_ArtifactsDir() + u"Table.ContextTableFormatting.docx");
 ```
 ## See Also
 
+* Class [Document](../../document/)
+* Class [DocumentBuilderOptions](../../documentbuilderoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -209,6 +212,7 @@ doc->Save(get_ArtifactsDir() + u"Table.ContextTableFormatting.docx");
 ```
 ## See Also
 
+* Class [DocumentBuilderOptions](../../documentbuilderoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

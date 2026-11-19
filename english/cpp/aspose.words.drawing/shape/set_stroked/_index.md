@@ -24,6 +24,8 @@ This is a shortcut to the [On](../../stroke/get_on/) property.
 The default value is **true**.
 ## See Also
 
+* [get_Stroked](../get_stroked/)
+
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

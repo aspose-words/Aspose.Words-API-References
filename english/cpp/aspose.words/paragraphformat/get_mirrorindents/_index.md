@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_mirrorindents/
 Gets or sets a flag indicating whether the left and right indents are of the same width.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_MirrorIndents()
+bool Aspose::Words::ParagraphFormat::get_MirrorIndents()
 ```
 
 ## Examples

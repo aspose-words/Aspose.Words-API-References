@@ -43,6 +43,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.TickLabelsOrientationRotation.docx");
 ```
 ## See Also
 
+* [get_Rotation](../get_rotation/)
+
 * Class [AxisTickLabels](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

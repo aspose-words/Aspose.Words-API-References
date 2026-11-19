@@ -18,6 +18,9 @@ void Aspose::Words::Saving::PdfEncryptionDetails::set_Permissions(Aspose::Words:
 
 ## See Also
 
+* [get_Permissions](../get_permissions/)
+
+* Enum [PdfPermissions](../../pdfpermissions/)
 * Class [PdfEncryptionDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

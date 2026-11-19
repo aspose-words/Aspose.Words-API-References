@@ -208,6 +208,7 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx
 
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -324,6 +325,7 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx
 
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -453,6 +455,7 @@ doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx
 
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

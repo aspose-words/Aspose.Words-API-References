@@ -63,6 +63,8 @@ doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
 ## See Also
 
+* [get_Light1](../get_light1/)
+
 * Class [ThemeColors](../)
 * Namespace [Aspose::Words::Themes](../../)
 * Library [Aspose.Words for C++](../../../)

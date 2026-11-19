@@ -15,7 +15,7 @@ Specifies whether the content of this SDT shall be interpreted to contain placeh
  if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
 
 ```cpp
-virtual _Bool Aspose::Words::Markup::IStructuredDocumentTag::get_IsShowingPlaceholderText()
+virtual bool Aspose::Words::Markup::IStructuredDocumentTag::get_IsShowingPlaceholderText()
 ```
 
 ## Examples

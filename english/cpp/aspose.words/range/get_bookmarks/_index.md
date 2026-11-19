@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::BookmarkCollection> Aspose::Words::Range::get_B
 
 ## See Also
 
+* Class [BookmarkCollection](../../bookmarkcollection/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

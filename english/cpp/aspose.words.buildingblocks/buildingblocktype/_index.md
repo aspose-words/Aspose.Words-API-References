@@ -34,6 +34,7 @@ enum class BuildingBlockType : int
 
 
 Corresponds to the ST_DocPartType type in OOXML.
+[Type](../buildingblock/get_type/)
 ## See Also
 
 * Namespace [Aspose::Words::BuildingBlocks](../)

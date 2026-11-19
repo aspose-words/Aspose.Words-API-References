@@ -39,6 +39,8 @@ ASSERT_EQ(dstDoc->get_Sections()->idx_get(1)->get_PageSetup()->get_SectionStart(
 ```
 ## See Also
 
+* [get_AppendDocumentWithNewPage](../get_appenddocumentwithnewpage/)
+
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

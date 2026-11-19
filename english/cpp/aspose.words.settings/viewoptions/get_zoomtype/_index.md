@@ -54,6 +54,7 @@ doc->Save(get_ArtifactsDir() + u"ViewOptions.SetZoomType.doc");
 ```
 ## See Also
 
+* Enum [ZoomType](../../zoomtype/)
 * Class [ViewOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

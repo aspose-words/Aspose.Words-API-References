@@ -66,6 +66,8 @@ else
 ```
 ## See Also
 
+* [get_ExportTocPageNumbers](../get_exporttocpagenumbers/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

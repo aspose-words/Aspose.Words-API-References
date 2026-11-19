@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Tables::Cell> Aspose::Words::Tables::Row::get_L
 
 ## See Also
 
+* Class [Cell](../../cell/)
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

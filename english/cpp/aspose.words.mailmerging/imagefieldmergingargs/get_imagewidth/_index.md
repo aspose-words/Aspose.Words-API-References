@@ -22,8 +22,10 @@ const System::SharedPtr<Aspose::Words::Fields::MergeFieldImageDimension> & Aspos
  The value of this property initially comes from the corresponding MERGEFIELD's code, contained in the template document. To override the initial value, you should assign an instance of [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/) class to this property or set the properties for the instance of [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/) class, returned by this property. 
 
  To indicate that the original value of the image width should be applied, you should assign the **null** value to this property or set the [Value](../../../aspose.words.fields/mergefieldimagedimension/get_value/) property for the instance of [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/) class, returned by this property, to a negative value. 
+[MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)[MergeFieldImageDimensionUnit](../../../aspose.words.fields/mergefieldimagedimensionunit/)
 ## See Also
 
+* Class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * Class [ImageFieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

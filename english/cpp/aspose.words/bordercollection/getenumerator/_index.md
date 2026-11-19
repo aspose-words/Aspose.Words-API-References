@@ -46,6 +46,7 @@ doc->Save(get_ArtifactsDir() + u"BorderCollection.GetBordersEnumerator.docx");
 ```
 ## See Also
 
+* Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

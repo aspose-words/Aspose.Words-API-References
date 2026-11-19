@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToa::set_EntryCategory(const System::String & v
 
 ## See Also
 
+* [get_EntryCategory](../get_entrycategory/)
+
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

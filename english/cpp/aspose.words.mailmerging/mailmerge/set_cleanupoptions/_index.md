@@ -18,6 +18,9 @@ void Aspose::Words::MailMerging::MailMerge::set_CleanupOptions(Aspose::Words::Ma
 
 ## See Also
 
+* [get_CleanupOptions](../get_cleanupoptions/)
+
+* Enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

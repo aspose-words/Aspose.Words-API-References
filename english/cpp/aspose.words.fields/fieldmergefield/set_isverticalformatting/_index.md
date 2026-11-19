@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldMergeField::set_IsVerticalFormatting(bool value
 
 ## See Also
 
+* [get_IsVerticalFormatting](../get_isverticalformatting/)
+
 * Class [FieldMergeField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

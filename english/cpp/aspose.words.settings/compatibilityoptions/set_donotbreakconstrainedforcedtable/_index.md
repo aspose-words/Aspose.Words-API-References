@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotBreakConstrainedFor
 
 ## See Also
 
+* [get_DoNotBreakConstrainedForcedTable](../get_donotbreakconstrainedforcedtable/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

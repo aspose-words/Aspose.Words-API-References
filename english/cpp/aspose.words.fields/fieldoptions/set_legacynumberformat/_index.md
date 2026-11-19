@@ -44,6 +44,8 @@ ASSERT_EQ(field->get_Result(), u"$5");
 ```
 ## See Also
 
+* [get_LegacyNumberFormat](../get_legacynumberformat/)
+
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

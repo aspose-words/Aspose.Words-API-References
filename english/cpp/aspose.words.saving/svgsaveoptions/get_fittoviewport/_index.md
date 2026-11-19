@@ -14,7 +14,7 @@ Specifies if the output SVG should fill the available viewport area (browser win
 The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::SvgSaveOptions::get_FitToViewPort() const
+bool Aspose::Words::Saving::SvgSaveOptions::get_FitToViewPort() const
 ```
 
 ## Examples

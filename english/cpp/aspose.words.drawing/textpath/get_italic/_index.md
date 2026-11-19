@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/get_italic/
 True if the font is formatted as italic.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextPath::get_Italic()
+bool Aspose::Words::Drawing::TextPath::get_Italic()
 ```
 
 ## Remarks

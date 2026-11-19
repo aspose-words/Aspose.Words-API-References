@@ -14,7 +14,7 @@ Gets or sets a boolean value indicating whether to change a first imported secti
 The default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::ImportFormatOptions::get_AppendDocumentWithNewPage() const
+bool Aspose::Words::ImportFormatOptions::get_AppendDocumentWithNewPage() const
 ```
 
 ## Remarks

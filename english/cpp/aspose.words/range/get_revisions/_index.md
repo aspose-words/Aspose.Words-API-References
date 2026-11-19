@@ -42,6 +42,7 @@ doc->get_FirstSection()->get_Range()->get_Revisions()->RejectAll();
 ```
 ## See Also
 
+* Class [RevisionCollection](../../revisioncollection/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

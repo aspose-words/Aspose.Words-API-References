@@ -78,6 +78,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
 ## See Also
 
+* [get_TickMarkSpacing](../get_tickmarkspacing/)
+
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

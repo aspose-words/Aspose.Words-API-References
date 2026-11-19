@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_donotvertaligncellwiths
 Don't Vertically Align Cells Containing Floating Objects.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotVertAlignCellWithSp()
+bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotVertAlignCellWithSp()
 ```
 
 ## See Also

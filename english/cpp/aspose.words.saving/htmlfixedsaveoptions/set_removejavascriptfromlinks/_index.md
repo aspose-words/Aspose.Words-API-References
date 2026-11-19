@@ -45,6 +45,8 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.RemoveJavaScriptFromLinks.html"
 ```
 ## See Also
 
+* [get_RemoveJavaScriptFromLinks](../get_removejavascriptfromlinks/)
+
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

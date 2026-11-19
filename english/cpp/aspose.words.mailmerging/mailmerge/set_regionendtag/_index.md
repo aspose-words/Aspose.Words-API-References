@@ -18,6 +18,8 @@ void Aspose::Words::MailMerging::MailMerge::set_RegionEndTag(const System::Strin
 
 ## See Also
 
+* [get_RegionEndTag](../get_regionendtag/)
+
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

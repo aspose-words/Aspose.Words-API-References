@@ -28,6 +28,8 @@ When exporting form fields to PDF as form fields, some formatting loss might occ
 Also, the output size depends on the content size because editable forms in Microsoft Word are inline objects.
 ## See Also
 
+* [get_PreserveFormFields](../get_preserveformfields/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

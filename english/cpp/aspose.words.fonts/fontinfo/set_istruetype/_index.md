@@ -36,6 +36,8 @@ for (int32_t i = 0; i < allFonts->get_Count(); i++)
 ```
 ## See Also
 
+* [get_IsTrueType](../get_istruetype/)
+
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -24,6 +24,7 @@ In Microsoft Word, this property is for informational purposes only and usually 
 Empty string means the document is attached to the Normal template.
 
 To get or set the actual name of the attached template, use the [AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/) property.
+[AttachedTemplate](../../../aspose.words/document/get_attachedtemplate/)
 ## Examples
 
 
@@ -58,6 +59,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(get_ArtifactsDir() + u"DocumentProperties.Origin.docx");
 ```
 ## See Also
+
+* [get_Template](../get_template/)
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)

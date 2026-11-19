@@ -24,6 +24,8 @@ Fonts can be exported as complete original font files or subsetted to include on
 By default, Aspose.Words decides whether to perform subsetting or not by comparing the original font file size with the one specified in [FontResourcesSubsettingSizeThreshold](../../htmlsaveoptions/get_fontresourcessubsettingsizethreshold/). You can override this behavior for individual fonts by setting the [IsSubsettingNeeded](../get_issubsettingneeded/) property.
 ## See Also
 
+* [get_IsSubsettingNeeded](../get_issubsettingneeded/)
+
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

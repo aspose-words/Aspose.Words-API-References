@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"Image.InsertImageWithHyperlink.docx");
 ```
 ## See Also
 
+* [get_ScreenTip](../get_screentip/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

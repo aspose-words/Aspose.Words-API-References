@@ -31,6 +31,7 @@ class ChartLegendEntry : public Aspose::Words::Drawing::Core::Dml::IDmlExtension
 A legend entry corresponds to a specific chart series or trendline.
 
 The text of the entry is the name of the series or trendline. The text cannot be changed.
+[LegendEntry](../chartseries/get_legendentry/)
 ## Examples
 
 

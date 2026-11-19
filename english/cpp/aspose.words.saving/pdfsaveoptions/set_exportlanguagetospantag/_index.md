@@ -26,6 +26,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ExportLanguageToSpanTag(bool val
  This value is ignored when [ExportDocumentStructure](../get_exportdocumentstructure/) is **false**. 
 ## See Also
 
+* [get_ExportLanguageToSpanTag](../get_exportlanguagetospantag/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -28,6 +28,7 @@ System::SharedPtr<Aspose::Words::RevisionGroup> revisionGroup = doc->get_Revisio
 ```
 ## See Also
 
+* Class [RevisionGroup](../../revisiongroup/)
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

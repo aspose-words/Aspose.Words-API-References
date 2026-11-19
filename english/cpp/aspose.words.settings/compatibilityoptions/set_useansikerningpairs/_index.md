@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UseAnsiKerningPairs(bool
 
 ## See Also
 
+* [get_UseAnsiKerningPairs](../get_useansikerningpairs/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

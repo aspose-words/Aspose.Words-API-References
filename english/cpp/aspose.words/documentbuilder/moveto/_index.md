@@ -80,7 +80,7 @@ builder->MoveToDocumentStart();
 ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
 
-Shows how to move a DocumentBuilder's cursor position to a specified node.
+Shows how to move a [DocumentBuilder](../)'s cursor position to a specified node.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -109,6 +109,7 @@ ASSERT_EQ(doc->GetText().Trim(), u"Run 2. \rRun 1. \rRun 3.");
 ```
 ## See Also
 
+* Class [Node](../../node/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

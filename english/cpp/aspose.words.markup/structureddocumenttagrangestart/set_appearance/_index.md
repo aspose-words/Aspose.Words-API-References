@@ -32,6 +32,9 @@ if (tag->get_Appearance() == SdtAppearance::Hidden)
 ```
 ## See Also
 
+* [get_Appearance](../get_appearance/)
+
+* Enum [SdtAppearance](../../sdtappearance/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

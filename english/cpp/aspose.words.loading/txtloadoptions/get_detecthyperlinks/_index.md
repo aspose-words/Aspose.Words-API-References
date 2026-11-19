@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/txtloadoptions/get_detecthyperlinks/
 Specifies either to detect hyperlinks in text. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Loading::TxtLoadOptions::get_DetectHyperlinks() const
+bool Aspose::Words::Loading::TxtLoadOptions::get_DetectHyperlinks() const
 ```
 
 ## Examples

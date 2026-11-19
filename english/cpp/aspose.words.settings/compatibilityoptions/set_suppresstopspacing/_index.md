@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SuppressTopSpacing(bool 
 
 ## See Also
 
+* [get_SuppressTopSpacing](../get_suppresstopspacing/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

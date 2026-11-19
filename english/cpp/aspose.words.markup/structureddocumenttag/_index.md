@@ -26,8 +26,8 @@ class StructuredDocumentTag : public CompositeNode,
 | Method | Description |
 | --- | --- |
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
-| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the StructuredDocumentTag. |
-| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the StructuredDocumentTag. |
+| [AcceptEnd](./acceptend/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the end of the [StructuredDocumentTag](./). |
+| [AcceptStart](./acceptstart/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor for visiting the start of the [StructuredDocumentTag](./). |
 | [Clear](./clear/)() | Clears contents of this structured document tag and displays a placeholder if it is defined. |
 | [GetChildNodes](./getchildnodes/)(Aspose::Words::NodeType, bool) override | Returns a live collection of child nodes that match the specified type. |
 | [RemoveSelfOnly](./removeselfonly/)() override | Removes just this SDT node itself, but keeps the content of it inside the document tree. |

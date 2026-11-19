@@ -44,6 +44,7 @@ ASSERT_EQ(structuredDocumentTags->get_Count(), 3);
 ```
 ## See Also
 
+* Class [StructuredDocumentTagCollection](../../../aspose.words.markup/structureddocumenttagcollection/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

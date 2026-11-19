@@ -18,6 +18,8 @@ void Aspose::Words::Replacing::FindReplaceOptions::set_UseLegacyOrder(bool value
 
 ## See Also
 
+* [get_UseLegacyOrder](../get_uselegacyorder/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

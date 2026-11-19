@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/svgsaveoptions/get_showpageborder/
 Controls whether a border is added to the outline of the page. Default is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder() const
+bool Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder() const
 ```
 
 ## Examples

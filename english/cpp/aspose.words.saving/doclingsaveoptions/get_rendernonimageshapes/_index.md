@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/doclingsaveoptions/get_rendernonimageshapes/
 Gets or sets a value indicating whether non-image shapes should be rendered and written to the output Docling JSON document.
 
 ```cpp
-_Bool Aspose::Words::Saving::DoclingSaveOptions::get_RenderNonImageShapes() const
+bool Aspose::Words::Saving::DoclingSaveOptions::get_RenderNonImageShapes() const
 ```
 
 ## Remarks

@@ -21,6 +21,8 @@ void Aspose::Words::LowCode::MailMergeOptions::set_UseWholeParagraphAsRegion(boo
  The default value is **true**. 
 ## See Also
 
+* [get_UseWholeParagraphAsRegion](../get_usewholeparagraphasregion/)
+
 * Class [MailMergeOptions](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

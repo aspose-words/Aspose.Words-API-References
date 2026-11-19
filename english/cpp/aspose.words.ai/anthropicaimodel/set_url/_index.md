@@ -10,13 +10,15 @@ url: /cpp/aspose.words.ai/anthropicaimodel/set_url/
 ## AnthropicAiModel::set_Url method
 
 
-Sets a URL of the model. The default value is "https://api.anthropic.com/".
+Sets a URL of the model. The default value is "[https://api.anthropic.com/"](https://api.anthropic.com/").
 
 ```cpp
 void Aspose::Words::AI::AnthropicAiModel::set_Url(System::String value) override
 ```
 
 ## See Also
+
+* [get_Url](../get_url/)
 
 * Class [AnthropicAiModel](../)
 * Namespace [Aspose::Words::AI](../../)

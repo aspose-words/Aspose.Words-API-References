@@ -58,6 +58,8 @@ doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
 ## See Also
 
+* [get_StyleName](../get_stylename/)
+
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -67,6 +67,8 @@ switch (htmlMetafileFormat)
 ```
 ## See Also
 
+* [get_ConvertSvgToEmf](../get_convertsvgtoemf/)
+
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

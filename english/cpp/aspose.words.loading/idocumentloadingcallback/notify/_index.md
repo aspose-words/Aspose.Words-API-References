@@ -30,6 +30,7 @@ virtual void Aspose::Words::Loading::IDocumentLoadingCallback::Notify(System::Sh
 
 * [ProgressCallback](../../loadoptions/get_progresscallback/)
 
+* Class [DocumentLoadingArgs](../../documentloadingargs/)
 * Interface [IDocumentLoadingCallback](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

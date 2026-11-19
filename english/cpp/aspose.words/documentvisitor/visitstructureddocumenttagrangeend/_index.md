@@ -10,7 +10,7 @@ url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/
 ## DocumentVisitor::VisitStructuredDocumentTagRangeEnd method
 
 
-Called when a StructuredDocumentTagRangeEnd is encountered.
+Called when a [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/) is encountered.
 
 ```cpp
 virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitStructuredDocumentTagRangeEnd(System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTagRangeEnd> sdtRangeEnd)
@@ -18,6 +18,8 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitStruct
 
 ## See Also
 
+* Enum [VisitorAction](../../visitoraction/)
+* Class [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

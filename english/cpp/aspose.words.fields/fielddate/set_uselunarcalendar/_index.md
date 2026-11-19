@@ -57,6 +57,8 @@ doc->Save(get_ArtifactsDir() + u"Field.DATE.docx");
 ```
 ## See Also
 
+* [get_UseLunarCalendar](../get_uselunarcalendar/)
+
 * Class [FieldDate](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

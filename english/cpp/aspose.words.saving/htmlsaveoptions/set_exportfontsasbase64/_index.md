@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportFontsAsBase64.html", opti
 ```
 ## See Also
 
+* [get_ExportFontsAsBase64](../get_exportfontsasbase64/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

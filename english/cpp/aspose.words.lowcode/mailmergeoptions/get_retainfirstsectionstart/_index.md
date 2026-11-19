@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergeoptions/get_retainfirstsectionstart/
 Gets or sets a value indicating whether the section start of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to MS Word behaviour.
 
 ```cpp
-_Bool Aspose::Words::LowCode::MailMergeOptions::get_RetainFirstSectionStart() const
+bool Aspose::Words::LowCode::MailMergeOptions::get_RetainFirstSectionStart() const
 ```
 
 ## Remarks

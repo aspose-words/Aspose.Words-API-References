@@ -10,10 +10,10 @@ url: /cpp/aspose.words.comparing/advancedcompareoptions/get_ignorestoreitemid/
 ## AdvancedCompareOptions::get_IgnoreStoreItemId method
 
 
-Specifies whether to ignore difference in StructuredDocumentTag store item Id.
+Specifies whether to ignore difference in [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) store item Id.
 
 ```cpp
-_Bool Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreStoreItemId() const
+bool Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreStoreItemId() const
 ```
 
 ## Remarks

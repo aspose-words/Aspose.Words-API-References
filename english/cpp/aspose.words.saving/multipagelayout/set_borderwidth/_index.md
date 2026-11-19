@@ -18,6 +18,8 @@ void Aspose::Words::Saving::MultiPageLayout::set_BorderWidth(float value)
 
 ## See Also
 
+* [get_BorderWidth](../get_borderwidth/)
+
 * Class [MultiPageLayout](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

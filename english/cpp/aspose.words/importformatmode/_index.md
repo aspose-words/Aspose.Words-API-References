@@ -44,6 +44,7 @@ The drawback of using [UseDestinationStyles](./) is that the imported text might
 The drawback of using [KeepSourceFormatting](./) is that if you perform several imports, you could end up with many styles in the destination document and that could make using consistent style formatting in Microsoft Word difficult for this document.
 
 Using [KeepDifferentStyles](./) option allows to reuse destination styles if the formatting they provide is identical to the styles in the source document. If the style in destination document is different from the source then it is imported.
+[ImportNode()](../documentbase/importnode/)
 ## Examples
 
 

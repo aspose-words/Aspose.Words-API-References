@@ -24,6 +24,8 @@ This option is used only when [EmulateRenderingToSizeOnPage](../get_emulaterende
 The default value is 96. This is a default display resolution. I.e. metafile rendering will emulate the display of the metafile in MS Word with a 100% zoom factor.
 ## See Also
 
+* [get_EmulateRenderingToSizeOnPageResolution](../get_emulaterenderingtosizeonpageresolution/)
+
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

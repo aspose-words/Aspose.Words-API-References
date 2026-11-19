@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::IWarningCallback> Aspose::Words::Fonts::FontSou
 
 ## See Also
 
+* Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [FontSourceBase](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

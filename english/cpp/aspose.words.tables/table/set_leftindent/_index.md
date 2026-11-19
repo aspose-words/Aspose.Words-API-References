@@ -19,7 +19,7 @@ void Aspose::Words::Tables::Table::set_LeftIndent(double value)
 ## Examples
 
 
-Shows how to create a formatted table using DocumentBuilder.
+Shows how to create a formatted table using [DocumentBuilder](../../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -77,6 +77,8 @@ builder->EndTable();
 doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateFormattedTable.docx");
 ```
 ## See Also
+
+* [get_LeftIndent](../get_leftindent/)
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)

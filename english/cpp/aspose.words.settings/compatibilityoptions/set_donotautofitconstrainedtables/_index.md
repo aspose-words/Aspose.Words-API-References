@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotAutofitConstrainedT
 
 ## See Also
 
+* [get_DoNotAutofitConstrainedTables](../get_donotautofitconstrainedtables/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

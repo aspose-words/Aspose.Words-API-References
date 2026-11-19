@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignorefootnotes/
 Gets or sets a boolean value indicating either to ignore footnotes. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes() const
 ```
 
 ## Examples

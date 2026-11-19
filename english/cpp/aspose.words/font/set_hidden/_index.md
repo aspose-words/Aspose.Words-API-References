@@ -39,6 +39,8 @@ doc->Save(get_ArtifactsDir() + u"Font.Hidden.docx");
 ```
 ## See Also
 
+* [get_Hidden](../get_hidden/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

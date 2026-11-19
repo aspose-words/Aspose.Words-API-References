@@ -18,6 +18,9 @@ void Aspose::Words::Layout::RevisionOptions::set_MeasurementUnit(Aspose::Words::
 
 ## See Also
 
+* [get_MeasurementUnit](../get_measurementunit/)
+
+* Enum [MeasurementUnits](../../../aspose.words/measurementunits/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

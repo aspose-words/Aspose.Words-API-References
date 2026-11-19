@@ -35,6 +35,8 @@ ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_
 ```
 ## See Also
 
+* [get_Result](../get_result/)
+
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

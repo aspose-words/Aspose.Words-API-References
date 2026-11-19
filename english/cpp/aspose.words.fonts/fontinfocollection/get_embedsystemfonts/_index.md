@@ -15,7 +15,7 @@ Specifies whether or not to embed System fonts into the document. Default value 
 This option works only when [EmbedTrueTypeFonts](../get_embedtruetypefonts/) option is set to **true**.
 
 ```cpp
-_Bool Aspose::Words::Fonts::FontInfoCollection::get_EmbedSystemFonts() const
+bool Aspose::Words::Fonts::FontInfoCollection::get_EmbedSystemFonts() const
 ```
 
 ## Remarks

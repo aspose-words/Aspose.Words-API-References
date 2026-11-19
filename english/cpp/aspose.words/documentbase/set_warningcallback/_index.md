@@ -54,6 +54,9 @@ for (auto&& info : warningCollector)
 ```
 ## See Also
 
+* [get_WarningCallback](../get_warningcallback/)
+
+* Interface [IWarningCallback](../../iwarningcallback/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

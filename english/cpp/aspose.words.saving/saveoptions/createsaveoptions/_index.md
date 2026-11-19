@@ -26,6 +26,7 @@ static System::SharedPtr<Aspose::Words::Saving::SaveOptions> Aspose::Words::Savi
 An object of a class that derives from [SaveOptions](../).
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

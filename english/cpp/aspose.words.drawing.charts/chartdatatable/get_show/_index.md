@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/get_show/
 Gets or sets a flag indicating whether the data table will be shown for the chart. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataTable::get_Show() const
+bool Aspose::Words::Drawing::Charts::ChartDataTable::get_Show() const
 ```
 
 ## Remarks

@@ -51,6 +51,8 @@ ASSERT_EQ(shape->get_AlternativeText(), u"Title: My cube");
 ```
 ## See Also
 
+* [get_Title](../get_title/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

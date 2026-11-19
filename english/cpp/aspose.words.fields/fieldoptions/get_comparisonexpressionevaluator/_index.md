@@ -20,6 +20,7 @@ const System::SharedPtr<Aspose::Words::Fields::IComparisonExpressionEvaluator> &
 
 * [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 
+* Interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

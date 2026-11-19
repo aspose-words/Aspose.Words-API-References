@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldTA::set_LongCitation(const System::String & val
 
 ## See Also
 
+* [get_LongCitation](../get_longcitation/)
+
 * Class [FieldTA](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

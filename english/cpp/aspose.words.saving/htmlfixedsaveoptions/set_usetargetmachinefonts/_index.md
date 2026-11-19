@@ -45,6 +45,8 @@ else
 ```
 ## See Also
 
+* [get_UseTargetMachineFonts](../get_usetargetmachinefonts/)
+
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

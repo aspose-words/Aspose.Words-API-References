@@ -63,6 +63,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ```
 ## See Also
 
+* [get_OddAndEvenPagesHeaderFooter](../get_oddandevenpagesheaderfooter/)
+
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

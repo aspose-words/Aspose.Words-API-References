@@ -10,7 +10,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/set_ignoreofficemath/
 ## FindReplaceOptions::set_IgnoreOfficeMath method
 
 
-Sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is **true**.
+Sets a boolean value indicating either to ignore text inside [OfficeMath](../../../aspose.words.math/officemath/)/>. The default value is **true**.
 
 ```cpp
 void Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreOfficeMath(bool value)
@@ -19,7 +19,7 @@ void Aspose::Words::Replacing::FindReplaceOptions::set_IgnoreOfficeMath(bool val
 ## Examples
 
 
-Shows how to find and replace text within OfficeMath.
+Shows how to find and replace text within [OfficeMath](../../../aspose.words.math/officemath/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
@@ -40,6 +40,8 @@ else
 }
 ```
 ## See Also
+
+* [get_IgnoreOfficeMath](../get_ignoreofficemath/)
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)

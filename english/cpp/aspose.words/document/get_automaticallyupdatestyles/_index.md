@@ -13,7 +13,7 @@ url: /cpp/aspose.words/document/get_automaticallyupdatestyles/
 Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word.
 
 ```cpp
-_Bool Aspose::Words::Document::get_AutomaticallyUpdateStyles()
+bool Aspose::Words::Document::get_AutomaticallyUpdateStyles()
 ```
 
 ## Examples

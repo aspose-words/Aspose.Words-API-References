@@ -56,6 +56,7 @@ ASSERT_EQ(ListLevel::GetEffectiveValue(5, NumberStyle::Custom, customNumberStyle
 
 ## See Also
 
+* Enum [NumberStyle](../../../aspose.words/numberstyle/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

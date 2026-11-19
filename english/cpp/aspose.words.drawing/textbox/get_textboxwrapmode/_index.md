@@ -46,6 +46,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.TextBoxContentsWrapMode.docx");
 ```
 ## See Also
 
+* Enum [TextBoxWrapMode](../../textboxwrapmode/)
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

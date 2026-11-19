@@ -47,6 +47,7 @@ doc->Save(get_ArtifactsDir() + u"Field.CreateWithFieldBuilder.docx");
 ```
 ## See Also
 
+* Enum [FieldType](../../fieldtype/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

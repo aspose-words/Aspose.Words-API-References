@@ -62,6 +62,8 @@ doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPositionSize.docx");
 ```
 ## See Also
 
+* [get_Left](../get_left/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

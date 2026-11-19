@@ -46,6 +46,9 @@ doc->Save(get_ArtifactsDir() + u"Table.WrapText.docx");
 ```
 ## See Also
 
+* [get_TextWrapping](../get_textwrapping/)
+
+* Enum [TextWrapping](../../textwrapping/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

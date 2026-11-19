@@ -53,6 +53,7 @@ ASSERT_EQ(doc->GetText().Trim(), System::String(u"Every paragraph that ends with
 ```
 ## See Also
 
+* Class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

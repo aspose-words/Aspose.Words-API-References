@@ -92,6 +92,7 @@ FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 ```
 ## See Also
 
+* Class [FontSourceBase](../../fontsourcebase/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -119,6 +120,7 @@ When saving and loading font search cache, fonts in the provided sources are ide
 It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved. Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the inaccurate font resolving by Aspose.Words.
 ## See Also
 
+* Class [FontSourceBase](../../fontsourcebase/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

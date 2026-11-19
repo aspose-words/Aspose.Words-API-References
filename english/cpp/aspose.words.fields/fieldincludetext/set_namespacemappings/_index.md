@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIncludeText::set_NamespaceMappings(const System
 
 ## See Also
 
+* [get_NamespaceMappings](../get_namespacemappings/)
+
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

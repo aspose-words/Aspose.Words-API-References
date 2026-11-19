@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToc::set_CustomStyles(const System::String & va
 
 ## See Also
 
+* [get_CustomStyles](../get_customstyles/)
+
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

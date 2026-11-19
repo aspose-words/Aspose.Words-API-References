@@ -49,6 +49,7 @@ In case if the OLE object does not have an icon or a caption cannot be retrieved
 
 
 Use the [OleFormat](../shape/get_oleformat/) property to access the data of an OLE object. You do not create instances of the [OleFormat](./) class directly.
+[OleFormat](../shape/get_oleformat/)
 ## Examples
 
 

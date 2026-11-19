@@ -47,6 +47,8 @@ ASSERT_EQ(doc->GetText().Trim(), System::String(u"Hello world! This document is 
 ```
 ## See Also
 
+* [get_ReadOnlyRecommended](../get_readonlyrecommended/)
+
 * Class [WriteProtection](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

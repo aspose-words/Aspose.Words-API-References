@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/htmlloadoptions/get_supportfontfacerules/
 Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Loading::HtmlLoadOptions::get_SupportFontFaceRules() const
+bool Aspose::Words::Loading::HtmlLoadOptions::get_SupportFontFaceRules() const
 ```
 
 ## Remarks

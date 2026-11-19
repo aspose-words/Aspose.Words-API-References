@@ -152,6 +152,8 @@ ASSERT_EQ(paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::W
 ```
 ## See Also
 
+* Class [List](../../list/)
+* Enum [ListTemplate](../../listtemplate/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -236,6 +238,8 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle
 ```
 ## See Also
 
+* Class [List](../../list/)
+* Class [Style](../../../aspose.words/style/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

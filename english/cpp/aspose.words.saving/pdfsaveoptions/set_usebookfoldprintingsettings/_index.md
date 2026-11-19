@@ -22,6 +22,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_UseBookFoldPrintingSettings(bool
  If this option is specified, [PageSet](../../fixedpagesaveoptions/get_pageset/) is ignored when saving. This behavior matches MS Word. If book fold printing settings are not specified in page setup, this option will have no effect. 
 ## See Also
 
+* [get_UseBookFoldPrintingSettings](../get_usebookfoldprintingsettings/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

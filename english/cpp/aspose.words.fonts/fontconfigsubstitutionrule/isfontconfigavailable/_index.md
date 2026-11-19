@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
 Check if fontconfig utility is available or not.
 
 ```cpp
-_Bool Aspose::Words::Fonts::FontConfigSubstitutionRule::IsFontConfigAvailable()
+bool Aspose::Words::Fonts::FontConfigSubstitutionRule::IsFontConfigAvailable()
 ```
 
 ## Examples

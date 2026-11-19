@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldaddressblock/get_formataddressoncountryorregi
 Gets or sets whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006).
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountryOrRegion()
+bool Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountryOrRegion()
 ```
 
 ## Examples

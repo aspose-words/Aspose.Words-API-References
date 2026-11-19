@@ -38,6 +38,8 @@ ASSERT_EQ(doc->get_FontInfos()->idx_get(0)->get_Name(), u"Squarish Sans CT Regul
 ```
 ## See Also
 
+* [get_SupportFontFaceRules](../get_supportfontfacerules/)
+
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

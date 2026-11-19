@@ -47,6 +47,7 @@ ODSO seems to be the "new" way the newer Microsoft Word versions prefer to use w
 The use of ODSO is poorly documented and the best way to learn how to use the properties of this object is to create a document with a desired data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties of the [MailMergeSettings](../../aspose.words/document/get_mailmergesettings/) and [Odso](../mailmergesettings/get_odso/) objects. This is a good approach to take if you want to learn how to programmatically configure a data source, for example.
 
 You do not normally need to create objects of this class directly because ODSO settings are always available via the [Odso](../mailmergesettings/get_odso/) property.
+[Odso](../mailmergesettings/get_odso/)
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)

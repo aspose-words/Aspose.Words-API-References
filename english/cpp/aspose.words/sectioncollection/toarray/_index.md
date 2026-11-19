@@ -22,6 +22,7 @@ System::ArrayPtr<System::SharedPtr<Aspose::Words::Section>> Aspose::Words::Secti
 An array of sections.
 ## See Also
 
+* Class [Section](../../section/)
 * Class [SectionCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -47,6 +47,7 @@ ASSERT_EQ(doc->GetText().Trim(), System::String(u"Hello world! This document is 
 ```
 ## See Also
 
+* Class [WriteProtection](../../../aspose.words.settings/writeprotection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

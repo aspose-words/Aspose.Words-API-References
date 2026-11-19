@@ -168,6 +168,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.Bounds.docx");
 ```
 ## See Also
 
+* [get_Bounds](../get_bounds/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

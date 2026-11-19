@@ -49,6 +49,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ShowCommentsInBalloons.pdf");
 ```
 ## See Also
 
+* Enum [CommentDisplayMode](../../commentdisplaymode/)
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

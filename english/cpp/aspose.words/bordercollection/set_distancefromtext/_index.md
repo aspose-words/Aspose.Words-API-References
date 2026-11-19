@@ -43,6 +43,8 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorders.docx");
 ```
 ## See Also
 
+* [get_DistanceFromText](../get_distancefromtext/)
+
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_AddressFieldName(const Syst
 
 ## See Also
 
+* [get_AddressFieldName](../get_addressfieldname/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

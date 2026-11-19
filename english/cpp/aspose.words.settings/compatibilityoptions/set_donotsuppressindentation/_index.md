@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotSuppressIndentation
 
 ## See Also
 
+* [get_DoNotSuppressIndentation](../get_donotsuppressindentation/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

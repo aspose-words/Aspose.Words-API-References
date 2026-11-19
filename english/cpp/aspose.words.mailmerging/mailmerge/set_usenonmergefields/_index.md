@@ -32,6 +32,8 @@ IF 0 = 0 "{FieldName}" ""
 Also, when [UseNonMergeFields](../get_usenonmergefields/) is set to **true**, Aspose.Words will perform mail merge into text tags "{{fieldName}}". These are not fields, but just text tags.
 ## See Also
 
+* [get_UseNonMergeFields](../get_usenonmergefields/)
+
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

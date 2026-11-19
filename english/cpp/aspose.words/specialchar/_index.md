@@ -2,7 +2,7 @@
 title: Aspose::Words::SpecialChar class
 linktitle: SpecialChar
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::SpecialChar class. Base class for special characters in the document. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::SpecialChar class. Base class for special characters in the document. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 62000
 url: /cpp/aspose.words/specialchar/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/specialchar/
 
 
 Base class for special characters in the document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class SpecialChar : public Inline

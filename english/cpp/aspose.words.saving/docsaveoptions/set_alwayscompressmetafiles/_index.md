@@ -35,6 +35,8 @@ doc->Save(get_ArtifactsDir() + u"DocSaveOptions.AlwaysCompressMetafiles.docx", s
 ```
 ## See Also
 
+* [get_AlwaysCompressMetafiles](../get_alwayscompressmetafiles/)
+
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

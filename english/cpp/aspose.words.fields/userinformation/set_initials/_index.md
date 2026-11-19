@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
 ## See Also
 
+* [get_Initials](../get_initials/)
+
 * Class [UserInformation](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

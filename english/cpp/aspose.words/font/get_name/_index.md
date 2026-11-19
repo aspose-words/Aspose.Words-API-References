@@ -25,7 +25,7 @@ When setting, sets [NameAscii](../get_nameascii/), [NameBi](../get_namebi/), [Na
 ## Examples
 
 
-Shows how to insert formatted text using DocumentBuilder.
+Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

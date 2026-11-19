@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_superscript/
 True if the font is formatted as superscript.
 
 ```cpp
-_Bool Aspose::Words::Font::get_Superscript()
+bool Aspose::Words::Font::get_Superscript()
 ```
 
 ## Examples

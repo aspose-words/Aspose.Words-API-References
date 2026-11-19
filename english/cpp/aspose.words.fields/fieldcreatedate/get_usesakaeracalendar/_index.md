@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldcreatedate/get_usesakaeracalendar/
 Gets or sets whether to use the Saka Era calendar.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldCreateDate::get_UseSakaEraCalendar() override
+bool Aspose::Words::Fields::FieldCreateDate::get_UseSakaEraCalendar() override
 ```
 
 ## Examples

@@ -72,6 +72,8 @@ field->set_IsDirty(true);
 ```
 ## See Also
 
+* [get_IsDirty](../get_isdirty/)
+
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

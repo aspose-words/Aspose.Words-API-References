@@ -35,6 +35,8 @@ doc->Save(get_ArtifactsDir() + u"PclSaveOptions.RasterizeElements.pcl", saveOpti
 ```
 ## See Also
 
+* [get_RasterizeTransformedElements](../get_rasterizetransformedelements/)
+
 * Class [PclSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

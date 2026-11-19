@@ -13,7 +13,7 @@ url: /cpp/aspose.words/style/get_unhidewhenused/
 Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery.
 
 ```cpp
-_Bool Aspose::Words::Style::get_UnhideWhenUsed() const
+bool Aspose::Words::Style::get_UnhideWhenUsed() const
 ```
 
 ## Examples

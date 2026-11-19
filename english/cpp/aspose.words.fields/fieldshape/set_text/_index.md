@@ -84,6 +84,8 @@ ASSERT_EQ(shape->get_ShapeType(), ShapeType::OleObject);
 ```
 ## See Also
 
+* [get_Text](../get_text/)
+
 * Class [FieldShape](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

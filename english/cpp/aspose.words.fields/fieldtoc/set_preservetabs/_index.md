@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToc::set_PreserveTabs(bool value)
 
 ## See Also
 
+* [get_PreserveTabs](../get_preservetabs/)
+
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/
 Gets a flag indicating whether the data point at the specified index has default format.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataPointCollection::HasDefaultFormat(int32_t dataPointIndex)
+bool Aspose::Words::Drawing::Charts::ChartDataPointCollection::HasDefaultFormat(int32_t dataPointIndex)
 ```
 
 ## Examples

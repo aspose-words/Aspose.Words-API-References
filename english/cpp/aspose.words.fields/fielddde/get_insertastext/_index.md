@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddde/get_insertastext/
 Gets whether to insert the linked object in text-only format.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldDde::get_InsertAsText()
+bool Aspose::Words::Fields::FieldDde::get_InsertAsText()
 ```
 
 ## See Also

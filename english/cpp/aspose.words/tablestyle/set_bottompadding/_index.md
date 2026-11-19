@@ -58,6 +58,8 @@ doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
 ## See Also
 
+* [get_BottomPadding](../get_bottompadding/)
+
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

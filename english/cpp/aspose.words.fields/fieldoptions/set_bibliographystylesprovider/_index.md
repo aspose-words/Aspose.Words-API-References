@@ -18,6 +18,9 @@ void Aspose::Words::Fields::FieldOptions::set_BibliographyStylesProvider(const S
 
 ## See Also
 
+* [get_BibliographyStylesProvider](../get_bibliographystylesprovider/)
+
+* Interface [IBibliographyStylesProvider](../../ibibliographystylesprovider/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

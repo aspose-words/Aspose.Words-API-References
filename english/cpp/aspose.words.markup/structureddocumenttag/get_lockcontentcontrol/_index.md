@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttag/get_lockcontentcontrol/
 When set to **true**, this property will prohibit a user from deleting this SDT.
 
 ```cpp
-_Bool Aspose::Words::Markup::StructuredDocumentTag::get_LockContentControl() override
+bool Aspose::Words::Markup::StructuredDocumentTag::get_LockContentControl() override
 ```
 
 ## Examples

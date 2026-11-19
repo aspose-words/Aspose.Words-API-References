@@ -58,6 +58,8 @@ oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleForm
 ```
 ## See Also
 
+* [get_ProgId](../get_progid/)
+
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

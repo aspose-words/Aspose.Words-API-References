@@ -40,6 +40,7 @@ ASSERT_NEAR(doc->get_Styles()->get_DefaultParagraphFormat()->get_LineSpacing(), 
 ```
 ## See Also
 
+* Enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

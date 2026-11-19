@@ -22,6 +22,7 @@ void Aspose::Words::Document::set_CustomXmlParts(const System::SharedPtr<Aspose:
 Aspose.Words loads and saves Custom XML Parts into OOXML and DOC documents only.
 
 This property cannot be **null**.
+[CustomXmlPart](../../../aspose.words.markup/customxmlpart/)
 ## Examples
 
 
@@ -88,6 +89,9 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CustomXml.docx");
 ```
 ## See Also
 
+* [get_CustomXmlParts](../get_customxmlparts/)
+
+* Class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

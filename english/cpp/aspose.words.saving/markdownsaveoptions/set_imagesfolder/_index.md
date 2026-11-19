@@ -50,6 +50,8 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ImagesF
 ```
 ## See Also
 
+* [get_ImagesFolder](../get_imagesfolder/)
+
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

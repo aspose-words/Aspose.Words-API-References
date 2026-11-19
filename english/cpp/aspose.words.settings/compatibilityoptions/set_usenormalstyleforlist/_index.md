@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_UseNormalStyleForList(bo
 
 ## See Also
 
+* [get_UseNormalStyleForList](../get_usenormalstyleforlist/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

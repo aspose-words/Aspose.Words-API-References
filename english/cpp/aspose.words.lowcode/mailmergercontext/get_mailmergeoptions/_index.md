@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::LowCode::MailMergeOptions> & Aspose::Word
 
 ## See Also
 
+* Class [MailMergeOptions](../../mailmergeoptions/)
 * Class [MailMergerContext](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

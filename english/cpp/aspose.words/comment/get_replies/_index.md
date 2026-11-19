@@ -45,6 +45,7 @@ for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Com
 ```
 ## See Also
 
+* Class [CommentCollection](../../commentcollection/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

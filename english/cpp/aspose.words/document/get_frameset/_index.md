@@ -42,6 +42,7 @@ doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx
 ```
 ## See Also
 
+* Class [Frameset](../../../aspose.words.framesets/frameset/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

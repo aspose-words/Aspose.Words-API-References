@@ -15,7 +15,7 @@ Allows to specify whether the page breaks should be preserved during export.
 The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks() const
+bool Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks() const
 ```
 
 ## Remarks

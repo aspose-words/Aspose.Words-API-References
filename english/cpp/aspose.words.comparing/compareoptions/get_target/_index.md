@@ -89,6 +89,7 @@ docOriginal->Save(get_ArtifactsDir() + u"Revision.CompareOptions.docx");
 ```
 ## See Also
 
+* Enum [ComparisonTargetType](../../comparisontargettype/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
 * Library [Aspose.Words for C++](../../../)

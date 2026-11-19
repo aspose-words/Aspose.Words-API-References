@@ -55,6 +55,7 @@ Returns processor with specified input file stream.
  If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../converter/) processor accepts only one file as an input, so only the last specified file will be converted. 
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [Processor](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -106,6 +107,7 @@ Returns processor with specified input file.
  If the processor accepts only one file as an input, only the last specified file will be processed. [Merger](../../merger/) processor accepts multiple files as an input, as the result all the specified documents will be merged. [Converter](../../converter/) processor accepts only one file as an input, so only the last specified file will be converted. 
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [Processor](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -51,6 +51,8 @@ for (auto&& info : warningCollector)
 ```
 ## See Also
 
+* [get_KeepOriginalFontMetrics](../get_keeporiginalfontmetrics/)
+
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -24,6 +24,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \& | Document split options. |
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [SplitOptions](../../splitoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -44,6 +46,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | options | const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \& | Document split options. |
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [SplitOptions](../../splitoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -65,6 +69,8 @@ static void Aspose::Words::LowCode::Splitter::Split(const System::String & input
 | options | const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \& | Document split options. |
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
+* Class [SplitOptions](../../splitoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -85,6 +91,7 @@ static void Aspose::Words::LowCode::Splitter::Split(const System::String & input
 | options | const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \& | Document split options. |
 ## See Also
 
+* Class [SplitOptions](../../splitoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -106,6 +113,8 @@ static void Aspose::Words::LowCode::Splitter::Split(const System::String & input
 | options | const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\> \& | Document split options. |
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
+* Class [SplitOptions](../../splitoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

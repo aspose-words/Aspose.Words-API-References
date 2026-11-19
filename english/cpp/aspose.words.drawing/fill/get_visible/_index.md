@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/fill/get_visible/
 Gets value that is **true** if the formatting applied to this instance, is visible.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Fill::get_Visible()
+bool Aspose::Words::Drawing::Fill::get_Visible()
 ```
 
 ## See Also

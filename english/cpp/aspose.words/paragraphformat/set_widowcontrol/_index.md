@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.WidowControl.docx");
 ```
 ## See Also
 
+* [get_WidowControl](../get_widowcontrol/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

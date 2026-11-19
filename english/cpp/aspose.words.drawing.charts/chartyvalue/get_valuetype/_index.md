@@ -18,6 +18,7 @@ Aspose::Words::Drawing::Charts::ChartYValueType Aspose::Words::Drawing::Charts::
 
 ## See Also
 
+* Enum [ChartYValueType](../../chartyvaluetype/)
 * Class [ChartYValue](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

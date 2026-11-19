@@ -46,6 +46,8 @@ doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
 ## See Also
 
+* [get_Transparency](../get_transparency/)
+
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

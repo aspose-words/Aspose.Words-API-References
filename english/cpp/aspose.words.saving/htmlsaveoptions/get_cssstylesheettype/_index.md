@@ -24,6 +24,7 @@ Saving CSS style sheet into an external file is only supported when saving to HT
 
 * [CssStyleSheetFileName](../get_cssstylesheetfilename/)
 
+* Enum [CssStyleSheetType](../../cssstylesheettype/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

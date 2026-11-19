@@ -24,6 +24,8 @@ Specify 0 for no headings in the outline; specify 1 for one level of headings in
 Default is 0. Valid range is 0 to 9.
 ## See Also
 
+* [get_HeadingsOutlineLevels](../get_headingsoutlinelevels/)
+
 * Class [OutlineOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

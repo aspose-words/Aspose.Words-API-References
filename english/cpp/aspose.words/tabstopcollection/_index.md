@@ -2,7 +2,7 @@
 title: Aspose::Words::TabStopCollection class
 linktitle: TabStopCollection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::TabStopCollection class. A collection of TabStop objects that represent custom tabs for a paragraph or a style. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::TabStopCollection class. A collection of TabStop objects that represent custom tabs for a paragraph or a style. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 69000
 url: /cpp/aspose.words/tabstopcollection/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/tabstopcollection/
 
 
 A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class TabStopCollection : public InternableComplexAttr,
@@ -43,6 +43,7 @@ class TabStopCollection : public InternableComplexAttr,
 In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph style or directly in the properties of a paragraph. A style can be based on another style. Therefore, the complete set of tab stops for a given object is a combination of tab stops defined directly on this object and tab stops inherited from the parent styles.
 
 In Aspose.Words, when you obtain a [TabStopCollection](./) for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
+[ParagraphFormat](../paragraphformat/)[TabStop](../tabstop/)[DefaultTabStop](../document/get_defaulttabstop/)
 ## Examples
 
 

@@ -37,6 +37,7 @@ ASSERT_EQ(plaintext->get_BuiltInDocumentProperties()->get_Author(), u"John Doe")
 ```
 ## See Also
 
+* Class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

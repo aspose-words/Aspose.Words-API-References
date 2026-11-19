@@ -13,7 +13,7 @@ url: /cpp/aspose.words/importformatoptions/get_adjustsentenceandwordspacing/
 Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::ImportFormatOptions::get_AdjustSentenceAndWordSpacing() const
+bool Aspose::Words::ImportFormatOptions::get_AdjustSentenceAndWordSpacing() const
 ```
 
 ## Examples

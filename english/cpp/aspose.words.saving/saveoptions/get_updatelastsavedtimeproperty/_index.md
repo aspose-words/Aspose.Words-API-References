@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/saveoptions/get_updatelastsavedtimeproperty/
 Gets or sets a value determining whether the [LastSavedTime](../../../aspose.words.properties/builtindocumentproperties/get_lastsavedtime/) property is updated before saving.
 
 ```cpp
-_Bool Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty() const
+bool Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty() const
 ```
 
 ## Examples

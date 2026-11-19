@@ -43,6 +43,9 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithPreferredWidth.d
 ```
 ## See Also
 
+* [get_PreferredWidth](../get_preferredwidth/)
+
+* Class [PreferredWidth](../../preferredwidth/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

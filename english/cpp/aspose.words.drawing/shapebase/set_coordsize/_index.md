@@ -158,6 +158,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.LocalToParent.docx");
 ```
 ## See Also
 
+* [get_CoordSize](../get_coordsize/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotVertAlignCellWithSp
 
 ## See Also
 
+* [get_DoNotVertAlignCellWithSp](../get_donotvertaligncellwithsp/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

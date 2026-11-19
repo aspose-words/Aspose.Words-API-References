@@ -22,8 +22,12 @@ void Aspose::Words::BuildingBlocks::BuildingBlock::set_Gallery(Aspose::Words::Bu
 Building blocks in Microsoft Word user interface are arranged into Galleries. Each [Gallery](../get_gallery/) can have multiple Categories. Each block within a [Category](../get_category/) has a [Name](../get_name/).
 
 Corresponds to the docPartPr.category.gallery element in OOXML.
+[Category](../get_category/)[Name](../get_name/)
 ## See Also
 
+* [get_Gallery](../get_gallery/)
+
+* Enum [BuildingBlockGallery](../../buildingblockgallery/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

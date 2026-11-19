@@ -42,6 +42,8 @@ doc->Save(get_ArtifactsDir() + u"Document.DefaultTemplate.docx", options);
 ```
 ## See Also
 
+* [get_DefaultTemplate](../get_defaulttemplate/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/loadoptions/get_ignoreoledata/
 Specifies whether to ignore the OLE data.
 
 ```cpp
-_Bool Aspose::Words::Loading::LoadOptions::get_IgnoreOleData() const
+bool Aspose::Words::Loading::LoadOptions::get_IgnoreOleData() const
 ```
 
 ## Remarks

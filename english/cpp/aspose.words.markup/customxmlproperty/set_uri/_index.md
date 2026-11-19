@@ -78,6 +78,8 @@ ASSERT_EQ(properties->get_Count(), 0);
 ```
 ## See Also
 
+* [get_Uri](../get_uri/)
+
 * Class [CustomXmlProperty](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

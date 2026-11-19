@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textbox/get_fitshapetotext/
 Determines whether Microsoft Word will grow the shape to fit text.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextBox::get_FitShapeToText()
+bool Aspose::Words::Drawing::TextBox::get_FitShapeToText()
 ```
 
 ## Remarks

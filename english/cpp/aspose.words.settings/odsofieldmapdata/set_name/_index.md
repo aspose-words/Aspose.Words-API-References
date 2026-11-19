@@ -18,6 +18,8 @@ void Aspose::Words::Settings::OdsoFieldMapData::set_Name(const System::String & 
 
 ## See Also
 
+* [get_Name](../get_name/)
+
 * Class [OdsoFieldMapData](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

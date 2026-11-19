@@ -48,6 +48,7 @@ for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<As
 ```
 ## See Also
 
+* Enum [ImageType](../../imagetype/)
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -24,6 +24,7 @@ Has effect only when saving to TIFF.
 The default value is [Lzw](../../tiffcompression/).
 ## See Also
 
+* Enum [TiffCompression](../../tiffcompression/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

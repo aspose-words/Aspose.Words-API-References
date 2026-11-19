@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldfilesize/get_isinkilobytes/
 Gets or sets whether to display the file size in kilobytes.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldFileSize::get_IsInKilobytes()
+bool Aspose::Words::Fields::FieldFileSize::get_IsInKilobytes()
 ```
 
 ## Examples

@@ -51,6 +51,7 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.GridLayout.jpg", options);
 ```
 ## See Also
 
+* Class [MultiPageLayout](../../multipagelayout/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

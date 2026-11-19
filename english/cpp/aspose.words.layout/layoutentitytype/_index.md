@@ -25,7 +25,7 @@ enum class LayoutEntityType : int
 | Comment | 4096 | Represents placeholder for comment content. Comment may have [Line](./) and [Row](./) child entities. |
 | Endnote | 512 | Represents placeholder for endnote content. Endnote may have [Note](./) child entities. |
 | Footnote | 256 | Represents placeholder for footnote content. Footnote may have [Note](./) child entities. |
-| HeaderFooter | 1024 | Represents placeholder for header/footer content on a page. HeaderFooter may have [Line](./) and [Row](./) child entities. |
+| HeaderFooter | 1024 | Represents placeholder for header/footer content on a page. [HeaderFooter](../../aspose.words/headerfooter/) may have [Line](./) and [Row](./) child entities. |
 | Line | 32 | Represents line of characters of text and inline objects. Line may have [Span](./) child entities. |
 | None | 0 | Default value. |
 | Note | 16384 | Represents placeholder for note content. Note may have [Line](./) and [Row](./) child entities. |

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::OdsoRecipientData::set_UniqueTag(const System::Arr
 
 ## See Also
 
+* [get_UniqueTag](../get_uniquetag/)
+
 * Class [OdsoRecipientData](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -61,6 +61,7 @@ ASSERT_EQ(comment->get_Replies()->get_Count(), 0);
 ```
 ## See Also
 
+* Class [Comment](../../comment/)
 * Class [CommentCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

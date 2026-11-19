@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldimport/get_islinked/
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldImport::get_IsLinked() override
+bool Aspose::Words::Fields::FieldImport::get_IsLinked() override
 ```
 
 ## Examples

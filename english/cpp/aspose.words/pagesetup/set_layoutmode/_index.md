@@ -61,6 +61,9 @@ doc->Save(get_ArtifactsDir() + u"PageSetup.LinesPerPage.docx");
 ```
 ## See Also
 
+* [get_LayoutMode](../get_layoutmode/)
+
+* Enum [SectionLayoutMode](../../sectionlayoutmode/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

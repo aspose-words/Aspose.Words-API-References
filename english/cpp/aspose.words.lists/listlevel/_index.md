@@ -23,7 +23,7 @@ class ListLevel : public IRunAttrSource
 | --- | --- |
 | [CreatePictureBullet](./createpicturebullet/)() | Creates picture bullet shape for the current list level. |
 | [DeletePictureBullet](./deletepicturebullet/)() | Deletes picture bullet for the current list level. |
-| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::ListLevel\> \&) | Compares with the specified ListLevel. |
+| [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::ListLevel\> \&) | Compares with the specified [ListLevel](./). |
 | static [GetEffectiveValue](./geteffectivevalue/)(int32_t, Aspose::Words::NumberStyle, const System::String \&) | Reports the string representation of the [ListLevel](./) object for the specified index of the list item. Parameters specify the [NumberStyle](../../aspose.words/numberstyle/) and an optional format string used when [Custom](../../aspose.words/numberstyle/) is specified. |
 | [GetHashCode](./gethashcode/)() const override | Calculates hash code for this object. |
 | [RemoveTabStop](./removetabstop/)() | Removes tab stop from the list level. |
@@ -62,7 +62,7 @@ Use the properties of [ListLevel](./) to specify list formatting for individual 
 ## Examples
 
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::MailMergeSettings::set_ConnectString(const System:
 
 ## See Also
 
+* [get_ConnectString](../get_connectstring/)
+
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

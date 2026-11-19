@@ -21,6 +21,9 @@ void Aspose::Words::Saving::FixedPageSaveOptions::set_NumeralFormat(Aspose::Word
  If the value of this property is changed and page layout is already built then [UpdatePageLayout](../../../aspose.words/document/updatepagelayout/) is invoked automatically to update any changes. 
 ## See Also
 
+* [get_NumeralFormat](../get_numeralformat/)
+
+* Enum [NumeralFormat](../../numeralformat/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

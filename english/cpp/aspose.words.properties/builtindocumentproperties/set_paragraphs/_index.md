@@ -54,6 +54,8 @@ ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Lines(), 4);
 ```
 ## See Also
 
+* [get_Paragraphs](../get_paragraphs/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

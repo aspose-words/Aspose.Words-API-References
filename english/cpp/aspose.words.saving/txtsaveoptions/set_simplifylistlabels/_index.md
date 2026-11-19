@@ -66,6 +66,8 @@ else
 ```
 ## See Also
 
+* [get_SimplifyListLabels](../get_simplifylistlabels/)
+
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

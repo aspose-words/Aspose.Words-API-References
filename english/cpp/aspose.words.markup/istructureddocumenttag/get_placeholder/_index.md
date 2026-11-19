@@ -65,6 +65,7 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlaceholderBuildingBlock.
 ```
 ## See Also
 
+* Class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

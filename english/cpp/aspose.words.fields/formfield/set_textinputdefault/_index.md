@@ -28,6 +28,8 @@ When [TextInputType](../get_textinputtype/) is [Calculated](../../textformfieldt
 Microsoft Word allows strings with at most 255 characters.
 ## See Also
 
+* [get_TextInputDefault](../get_textinputdefault/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

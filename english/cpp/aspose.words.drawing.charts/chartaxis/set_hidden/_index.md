@@ -46,6 +46,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.HideChartAxis.docx");
 ```
 ## See Also
 
+* [get_Hidden](../get_hidden/)
+
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

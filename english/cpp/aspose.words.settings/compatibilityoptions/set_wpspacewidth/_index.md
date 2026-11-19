@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_WPSpaceWidth(bool value)
 
 ## See Also
 
+* [get_WPSpaceWidth](../get_wpspacewidth/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

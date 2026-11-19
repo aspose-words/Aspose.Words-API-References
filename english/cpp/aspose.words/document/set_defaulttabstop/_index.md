@@ -36,6 +36,7 @@ builder->Writeln(System::String(u"Hello") + ControlChar::TabChar + u"World!");
 
 * [TabStopCollection](../../tabstopcollection/)
 * [TabStop](../../tabstop/)
+* [get_DefaultTabStop](../get_defaulttabstop/)
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)

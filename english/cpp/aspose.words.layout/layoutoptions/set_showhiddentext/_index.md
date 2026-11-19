@@ -39,6 +39,8 @@ doc->Save(get_ArtifactsDir() + u"Document.LayoutOptionsHiddenText.pdf");
 ```
 ## See Also
 
+* [get_ShowHiddenText](../get_showhiddentext/)
+
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

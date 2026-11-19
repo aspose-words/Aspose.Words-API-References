@@ -26,6 +26,8 @@ If you leave Text as **null**, the mail merge engine will insert [FieldValue](..
 If you set Text to any string (including empty), the string will be inserted into the document in place of the merge field.
 ## See Also
 
+* [get_Text](../get_text/)
+
 * Class [FieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

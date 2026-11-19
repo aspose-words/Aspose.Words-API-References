@@ -22,8 +22,12 @@ void Aspose::Words::Document::set_GlossaryDocument(const System::SharedPtr<Aspos
 This property returns **null** if the document does not have a glossary document.
 
 You can add a glossary document to a document by creating a [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) object and assigning to this property.
+[GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 ## See Also
 
+* [get_GlossaryDocument](../get_glossarydocument/)
+
+* Class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

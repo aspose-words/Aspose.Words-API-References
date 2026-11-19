@@ -21,6 +21,8 @@ void Aspose::Words::MailMerging::MailMerge::set_MergeDuplicateRegions(bool value
  The default value is **false**. 
 ## See Also
 
+* [get_MergeDuplicateRegions](../get_mergeduplicateregions/)
+
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

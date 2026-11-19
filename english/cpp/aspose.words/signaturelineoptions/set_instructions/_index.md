@@ -63,6 +63,8 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 ```
 ## See Also
 
+* [get_Instructions](../get_instructions/)
+
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

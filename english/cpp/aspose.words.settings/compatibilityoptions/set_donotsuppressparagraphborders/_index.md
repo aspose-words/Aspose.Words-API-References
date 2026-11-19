@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotSuppressParagraphBo
 
 ## See Also
 
+* [get_DoNotSuppressParagraphBorders](../get_donotsuppressparagraphborders/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

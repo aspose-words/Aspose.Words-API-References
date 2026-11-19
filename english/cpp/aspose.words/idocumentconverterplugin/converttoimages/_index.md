@@ -28,6 +28,8 @@ virtual System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::I
 Array of page images streams.
 ## See Also
 
+* Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Interface [IDocumentConverterPlugin](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

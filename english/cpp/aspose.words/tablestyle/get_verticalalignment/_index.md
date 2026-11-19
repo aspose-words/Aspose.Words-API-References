@@ -61,6 +61,7 @@ doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
 ## See Also
 
+* Enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

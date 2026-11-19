@@ -101,6 +101,7 @@ ASSERT_EQ(font->get_Color().ToArgb(), System::Drawing::Color::get_Blue().ToArgb(
 ```
 ## See Also
 
+* Enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -48,6 +48,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.LegendEntries.docx");
 ```
 ## See Also
 
+* [get_IsHidden](../get_ishidden/)
+
 * Class [ChartLegendEntry](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

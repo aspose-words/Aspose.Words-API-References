@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SelectFldWithFirstOrLast
 
 ## See Also
 
+* [get_SelectFldWithFirstOrLastChar](../get_selectfldwithfirstorlastchar/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldIncludeText::set_LockFields(bool value)
 
 ## See Also
 
+* [get_LockFields](../get_lockfields/)
+
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -27,7 +27,7 @@ class TxtSaveOptions : public TxtSaveOptionsBase
 The default value is **false**. |
 | [get_ListIndentation](./get_listindentation/)() const | Gets a [TxtListIndentation](../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default, it is zero count of character '\0', that means no indentation. |
 | [get_MaxCharactersPerLine](./get_maxcharactersperline/)() const | Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0, that means no limit. |
-| [get_OfficeMathExportMode](./get_officemathexportmode/)() const | Specifies how OfficeMath will be written to the output file. Default value is [Text](../txtofficemathexportmode/). |
+| [get_OfficeMathExportMode](./get_officemathexportmode/)() const | Specifies how [OfficeMath](../../aspose.words.math/officemath/) will be written to the output file. Default value is [Text](../txtofficemathexportmode/). |
 | [get_PreserveTableLayout](./get_preservetablelayout/)() const | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is **false**. |
 | [get_SaveFormat](./get_saveformat/)() override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Text](../../aspose.words/saveformat/). |
 | [get_SimplifyListLabels](./get_simplifylistlabels/)() const | Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.
@@ -37,7 +37,7 @@ If set to **true**, numbered list labels are written in simple numeric format an
 
 The default value is **false**. |
 | [set_MaxCharactersPerLine](./set_maxcharactersperline/)(int32_t) | Sets an integer value that specifies the maximum number of characters per one line. The default value is 0, that means no limit. |
-| [set_OfficeMathExportMode](./set_officemathexportmode/)(Aspose::Words::Saving::TxtOfficeMathExportMode) | Specifies how OfficeMath will be written to the output file. Default value is [Text](../txtofficemathexportmode/). |
+| [set_OfficeMathExportMode](./set_officemathexportmode/)(Aspose::Words::Saving::TxtOfficeMathExportMode) | Specifies how [OfficeMath](../../aspose.words.math/officemath/) will be written to the output file. Default value is [Text](../txtofficemathexportmode/). |
 | [set_PreserveTableLayout](./set_preservetablelayout/)(bool) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is **false**. |
 | [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) override | Specifies the format in which the document will be saved if this save options object is used. Can only be [Text](../../aspose.words/saveformat/). |
 | [set_SimplifyListLabels](./set_simplifylistlabels/)(bool) | Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.

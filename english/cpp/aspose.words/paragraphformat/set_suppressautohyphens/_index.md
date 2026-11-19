@@ -40,6 +40,8 @@ doc->Save(get_ArtifactsDir() + u"ParagraphFormat.SuppressHyphens.pdf");
 ```
 ## See Also
 
+* [get_SuppressAutoHyphens](../get_suppressautohyphens/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

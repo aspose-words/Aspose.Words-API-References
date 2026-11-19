@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldddeauto/get_insertashtml/
 Gets whether to insert the linked object as HTML format text.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldDdeAuto::get_InsertAsHtml()
+bool Aspose::Words::Fields::FieldDdeAuto::get_InsertAsHtml()
 ```
 
 ## See Also

@@ -21,10 +21,10 @@ class FindReplaceOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [FindReplaceOptions](./findreplaceoptions/)() | Initializes a new instance of the FindReplaceOptions class with default settings. |
-| [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection) | Initializes a new instance of the FindReplaceOptions class with the specified direction. |
-| [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\> \&) | Initializes a new instance of the FindReplaceOptions class with the specified direction and replacing callback. |
-| [FindReplaceOptions](./findreplaceoptions/)(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\> \&) | Initializes a new instance of the FindReplaceOptions class with the specified replacing callback. |
+| [FindReplaceOptions](./findreplaceoptions/)() | Initializes a new instance of the [FindReplaceOptions](./) class with default settings. |
+| [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection) | Initializes a new instance of the [FindReplaceOptions](./) class with the specified direction. |
+| [FindReplaceOptions](./findreplaceoptions/)(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\> \&) | Initializes a new instance of the [FindReplaceOptions](./) class with the specified direction and replacing callback. |
+| [FindReplaceOptions](./findreplaceoptions/)(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\> \&) | Initializes a new instance of the [FindReplaceOptions](./) class with the specified replacing callback. |
 | [get_ApplyFont](./get_applyfont/)() const | Text formatting applied to new content. |
 | [get_ApplyParagraphFormat](./get_applyparagraphformat/)() const | Paragraph formatting applied to new content. |
 | [get_Direction](./get_direction/)() const | Selects direction for replace. Default value is [Forward](../findreplacedirection/). |
@@ -34,7 +34,7 @@ class FindReplaceOptions : public System::Object
 | [get_IgnoreFields](./get_ignorefields/)() const | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is **false**. |
 | [get_IgnoreFootnotes](./get_ignorefootnotes/)() const | Gets or sets a boolean value indicating either to ignore footnotes. The default value is **false**. |
 | [get_IgnoreInserted](./get_ignoreinserted/)() const | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is **false**. |
-| [get_IgnoreOfficeMath](./get_ignoreofficemath/)() const | Gets or sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is **true**. |
+| [get_IgnoreOfficeMath](./get_ignoreofficemath/)() const | Gets or sets a boolean value indicating either to ignore text inside [OfficeMath](../../aspose.words.math/officemath/)/>. The default value is **true**. |
 | [get_IgnoreShapes](./get_ignoreshapes/)() const | Gets or sets a boolean value indicating either to ignore shapes within a text.
 
 The default value is **false**. |
@@ -55,7 +55,7 @@ The default value is **false**. |
 | [set_IgnoreFields](./set_ignorefields/)(bool) | Sets a boolean value indicating either to ignore text inside fields. The default value is **false**. |
 | [set_IgnoreFootnotes](./set_ignorefootnotes/)(bool) | Sets a boolean value indicating either to ignore footnotes. The default value is **false**. |
 | [set_IgnoreInserted](./set_ignoreinserted/)(bool) | Sets a boolean value indicating either to ignore text inside insert revisions. The default value is **false**. |
-| [set_IgnoreOfficeMath](./set_ignoreofficemath/)(bool) | Sets a boolean value indicating either to ignore text inside OfficeMath/>. The default value is **true**. |
+| [set_IgnoreOfficeMath](./set_ignoreofficemath/)(bool) | Sets a boolean value indicating either to ignore text inside [OfficeMath](../../aspose.words.math/officemath/)/>. The default value is **true**. |
 | [set_IgnoreShapes](./set_ignoreshapes/)(bool) | Sets a boolean value indicating either to ignore shapes within a text.
 
 The default value is **false**. |

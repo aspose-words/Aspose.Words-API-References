@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_aligntablesrowbyrow/
 Align Table Rows Independently.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_AlignTablesRowByRow()
+bool Aspose::Words::Settings::CompatibilityOptions::get_AlignTablesRowByRow()
 ```
 
 ## See Also

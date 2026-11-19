@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::Fonts::PhysicalFontInfo> & Aspose::Words:
 
 ## See Also
 
+* Class [PhysicalFontInfo](../../../aspose.words.fonts/physicalfontinfo/)
 * Class [FontSubstitutionWarningInfo](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

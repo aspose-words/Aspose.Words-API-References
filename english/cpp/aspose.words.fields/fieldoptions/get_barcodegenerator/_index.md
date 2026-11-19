@@ -21,6 +21,7 @@ const System::SharedPtr<Aspose::Words::Fields::IBarcodeGenerator> & Aspose::Word
  Custom barcode generator should implement public interface [IBarcodeGenerator](../../ibarcodegenerator/). 
 ## See Also
 
+* Interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -100,6 +100,8 @@ doc->Save(get_ArtifactsDir() + u"Image.ScaleImage.docx");
 ```
 ## See Also
 
+* [get_Height](../get_height/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

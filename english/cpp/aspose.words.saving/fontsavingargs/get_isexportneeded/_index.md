@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/fontsavingargs/get_isexportneeded/
 Allows to specify whether the current font will be exported as a font resource. Default is **true**.
 
 ```cpp
-_Bool Aspose::Words::Saving::FontSavingArgs::get_IsExportNeeded() const
+bool Aspose::Words::Saving::FontSavingArgs::get_IsExportNeeded() const
 ```
 
 ## See Also

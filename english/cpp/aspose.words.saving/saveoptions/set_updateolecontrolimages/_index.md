@@ -18,6 +18,8 @@ void Aspose::Words::Saving::SaveOptions::set_UpdateOleControlImages(bool value)
 
 ## See Also
 
+* [get_UpdateOleControlImages](../get_updateolecontrolimages/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

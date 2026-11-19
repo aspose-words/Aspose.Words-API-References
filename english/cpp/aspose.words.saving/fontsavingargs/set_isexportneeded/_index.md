@@ -18,6 +18,8 @@ void Aspose::Words::Saving::FontSavingArgs::set_IsExportNeeded(bool value)
 
 ## See Also
 
+* [get_IsExportNeeded](../get_isexportneeded/)
+
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

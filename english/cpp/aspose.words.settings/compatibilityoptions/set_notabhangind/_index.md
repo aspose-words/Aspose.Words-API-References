@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_NoTabHangInd(bool value)
 
 ## See Also
 
+* [get_NoTabHangInd](../get_notabhangind/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

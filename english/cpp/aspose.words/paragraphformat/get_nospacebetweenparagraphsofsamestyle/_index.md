@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_nospacebetweenparagraphsofsamestyle/
 When **true**, [SpaceBefore](../get_spacebefore/) and [SpaceAfter](../get_spaceafter/) will be ignored between the paragraphs of the same style.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_NoSpaceBetweenParagraphsOfSameStyle()
+bool Aspose::Words::ParagraphFormat::get_NoSpaceBetweenParagraphsOfSameStyle()
 ```
 
 ## Remarks

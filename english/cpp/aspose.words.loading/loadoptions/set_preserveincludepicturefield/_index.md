@@ -67,6 +67,8 @@ includePicture->Update(true);
 ```
 ## See Also
 
+* [get_PreserveIncludePictureField](../get_preserveincludepicturefield/)
+
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

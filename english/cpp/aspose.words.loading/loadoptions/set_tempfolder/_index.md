@@ -57,6 +57,8 @@ ASSERT_EQ(System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length
 ```
 ## See Also
 
+* [get_TempFolder](../get_tempfolder/)
+
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

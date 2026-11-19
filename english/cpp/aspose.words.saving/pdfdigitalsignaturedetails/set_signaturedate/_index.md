@@ -24,6 +24,8 @@ The default value is the current time.
 This value will appear in the digital signature as an unverified computer time.
 ## See Also
 
+* [get_SignatureDate](../get_signaturedate/)
+
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

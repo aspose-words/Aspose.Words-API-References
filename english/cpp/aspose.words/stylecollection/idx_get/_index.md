@@ -27,7 +27,7 @@ When accessing a style that does not yet exist, automatically creates it.
 ## Examples
 
 
-Shows how to add a Style to a document's styles collection.
+Shows how to add a [Style](../../style/) to a document's styles collection.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -46,6 +46,8 @@ ASPOSE_ASSERT_EQ(styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLi
 ```
 ## See Also
 
+* Class [Style](../../style/)
+* Enum [StyleIdentifier](../../styleidentifier/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -90,6 +92,7 @@ doc->Save(get_ArtifactsDir() + u"Document.UpdatePageLayout.2.pdf");
 ```
 ## See Also
 
+* Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -105,7 +108,7 @@ System::SharedPtr<Aspose::Words::Style> Aspose::Words::StyleCollection::idx_get(
 ## Examples
 
 
-Shows how to add a Style to a document's styles collection.
+Shows how to add a [Style](../../style/) to a document's styles collection.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -124,6 +127,7 @@ ASPOSE_ASSERT_EQ(styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_FirstLi
 ```
 ## See Also
 
+* Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

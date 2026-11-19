@@ -23,6 +23,7 @@ Aspose::Words::BookmarkStart::BookmarkStart(const System::SharedPtr<Aspose::Word
 | name | const System::String \& | The name of the bookmark. Cannot be **null**. |
 ## See Also
 
+* Class [DocumentBase](../../documentbase/)
 * Class [BookmarkStart](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

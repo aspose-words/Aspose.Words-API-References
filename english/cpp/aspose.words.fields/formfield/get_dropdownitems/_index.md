@@ -22,6 +22,7 @@ System::SharedPtr<Aspose::Words::Fields::DropDownItemCollection> Aspose::Words::
 Microsoft Word allows maximum 25 items in a dropdown form field.
 ## See Also
 
+* Class [DropDownItemCollection](../../dropdownitemcollection/)
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

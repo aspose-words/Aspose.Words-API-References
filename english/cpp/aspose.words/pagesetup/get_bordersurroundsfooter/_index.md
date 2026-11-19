@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_bordersurroundsfooter/
 Specifies whether the page border includes or excludes the footer.
 
 ```cpp
-_Bool Aspose::Words::PageSetup::get_BorderSurroundsFooter()
+bool Aspose::Words::PageSetup::get_BorderSurroundsFooter()
 ```
 
 ## Remarks

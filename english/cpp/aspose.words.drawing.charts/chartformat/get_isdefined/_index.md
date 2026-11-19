@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartformat/get_isdefined/
 Gets a flag indicating whether any format is defined.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartFormat::get_IsDefined()
+bool Aspose::Words::Drawing::Charts::ChartFormat::get_IsDefined()
 ```
 
 ## Examples

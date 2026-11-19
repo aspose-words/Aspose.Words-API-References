@@ -28,6 +28,7 @@ If you save a document into a stream, Aspose.Words does not have a folder where 
 If the folder specified by [FontsFolder](../get_fontsfolder/) doesn't exist, it will be created automatically.
 
 [ResourceFolder](../get_resourcefolder/) is another way to specify a folder where fonts should be saved.
+[ResourceFolder](../get_resourcefolder/)[ExportFontResources](../get_exportfontresources/)[FontsFolderAlias](../get_fontsfolderalias/)[FontSavingCallback](../get_fontsavingcallback/)
 ## Examples
 
 
@@ -52,6 +53,8 @@ options->set_ExportOriginalUrlForLinkedImages(true);
 doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 ## See Also
+
+* [get_FontsFolder](../get_fontsfolder/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

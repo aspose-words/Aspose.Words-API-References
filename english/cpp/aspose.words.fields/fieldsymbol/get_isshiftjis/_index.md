@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldsymbol/get_isshiftjis/
 Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldSymbol::get_IsShiftJis()
+bool Aspose::Words::Fields::FieldSymbol::get_IsShiftJis()
 ```
 
 ## Examples

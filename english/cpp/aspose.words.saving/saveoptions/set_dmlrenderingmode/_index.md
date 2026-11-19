@@ -22,6 +22,9 @@ void Aspose::Words::Saving::SaveOptions::set_DmlRenderingMode(Aspose::Words::Sav
 This property is used when the document is exported to fixed page formats.
 ## See Also
 
+* [get_DmlRenderingMode](../get_dmlrenderingmode/)
+
+* Enum [DmlRenderingMode](../../dmlrenderingmode/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

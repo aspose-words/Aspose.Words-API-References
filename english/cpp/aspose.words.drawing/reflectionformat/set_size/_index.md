@@ -51,6 +51,8 @@ ASPOSE_ASSERT_EQ(reflectionFormat->get_Distance(), 0);
 ```
 ## See Also
 
+* [get_Size](../get_size/)
+
 * Class [ReflectionFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -22,6 +22,8 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_Pages(int32_t val
 Aspose.Words updates this property when you call [UpdatePageLayout](../../../aspose.words/document/updatepagelayout/).
 ## See Also
 
+* [get_Pages](../get_pages/)
+
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatapoint/get_istotal/
 Gets a flag indicating whether the data point is a total. Applies only to Waterfall charts.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataPoint::get_IsTotal()
+bool Aspose::Words::Drawing::Charts::ChartDataPoint::get_IsTotal()
 ```
 
 ## Remarks

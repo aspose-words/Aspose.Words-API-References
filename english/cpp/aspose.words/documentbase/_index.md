@@ -2,7 +2,7 @@
 title: Aspose::Words::DocumentBase class
 linktitle: DocumentBase
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DocumentBase class. Provides the abstract base class for a main document and a glossary document of a Word document. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::DocumentBase class. Provides the abstract base class for a main document and a glossary document of a Word document. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 21000
 url: /cpp/aspose.words/documentbase/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/documentbase/
 
 
 Provides the abstract base class for a main document and a glossary document of a Word document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class DocumentBase : public CompositeNode
@@ -85,10 +85,11 @@ class DocumentBase : public CompositeNode
 Aspose.Words represents a Word document as a tree of nodes. [DocumentBase](./) is a root node of the tree that contains all other nodes of the document.
 
 [DocumentBase](./) also stores document-wide information such as [Styles](./get_styles/) and [Lists](./get_lists/) that the tree nodes might refer to.
+[Document](../document/)[DocumentBase](./)
 ## Examples
 
 
-Shows how to initialize the subclasses of DocumentBase.
+Shows how to initialize the subclasses of [DocumentBase](./).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

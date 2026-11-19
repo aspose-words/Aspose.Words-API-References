@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_LayoutTableRowsApart(boo
 
 ## See Also
 
+* [get_LayoutTableRowsApart](../get_layouttablerowsapart/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

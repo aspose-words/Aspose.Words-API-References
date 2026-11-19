@@ -56,6 +56,8 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 ```
 ## See Also
 
+* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
+* Enum [SaveFormat](../../saveformat/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -79,6 +81,8 @@ System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Do
 Additional information that you can optionally use.
 ## See Also
 
+* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -111,6 +115,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ConvertToPdf.pdf");
 ```
 ## See Also
 
+* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -144,6 +149,8 @@ doc->Save(get_ArtifactsDir() + u"Document.ConvertToHtml.html", SaveFormat::Html)
 ```
 ## See Also
 
+* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
+* Enum [SaveFormat](../../saveformat/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -168,7 +175,7 @@ Additional information that you can optionally use.
 ## Examples
 
 
-Shows how to improve the quality of a rendered document with SaveOptions.
+Shows how to improve the quality of a rendered document with [SaveOptions](../../../aspose.words.saving/saveoptions/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Rendering.docx"));
@@ -265,6 +272,8 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", 
 ```
 ## See Also
 
+* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -317,6 +326,8 @@ auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir(
 ```
 ## See Also
 
+* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
+* Enum [SaveFormat](../../saveformat/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -340,6 +351,8 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Sav
 Additional information that you can optionally use.
 ## See Also
 
+* Class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

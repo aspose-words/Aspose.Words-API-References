@@ -19,6 +19,8 @@ void Aspose::Words::Drawing::SignatureLine::set_Id(System::Guid value)
 
 ## See Also
 
+* [get_Id](../get_id/)
+
 * Class [SignatureLine](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shapebase/get_isinsertrevision/
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ShapeBase::get_IsInsertRevision()
+bool Aspose::Words::Drawing::ShapeBase::get_IsInsertRevision()
 ```
 
 ## Examples

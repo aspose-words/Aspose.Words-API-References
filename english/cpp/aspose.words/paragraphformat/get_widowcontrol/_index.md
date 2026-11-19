@@ -13,7 +13,7 @@ url: /cpp/aspose.words/paragraphformat/get_widowcontrol/
 True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
 
 ```cpp
-_Bool Aspose::Words::ParagraphFormat::get_WidowControl()
+bool Aspose::Words::ParagraphFormat::get_WidowControl()
 ```
 
 ## Examples

@@ -20,6 +20,7 @@ void Aspose::Words::Tables::Table::set_AllowAutoFit(bool value)
 
 
 The default value is **true**.
+[AutoFit()](../autofit/)
 ## Examples
 
 
@@ -49,6 +50,8 @@ table->set_AllowAutoFit(allowAutoFit);
 doc->Save(get_ArtifactsDir() + u"Table.AllowAutoFitOnTable.html");
 ```
 ## See Also
+
+* [get_AllowAutoFit](../get_allowautofit/)
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)

@@ -21,6 +21,7 @@ System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock> Aspose::Words::M
 Can be **null**, meaning that the placeholder is not applicable for this structured document tag.
 ## See Also
 
+* Class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

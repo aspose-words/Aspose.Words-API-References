@@ -69,6 +69,8 @@ doc->Save(get_ArtifactsDir() + u"InlineStory.StartNumber.docx");
 ```
 ## See Also
 
+* [get_StartNumber](../get_startnumber/)
+
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
 * Library [Aspose.Words for C++](../../../)

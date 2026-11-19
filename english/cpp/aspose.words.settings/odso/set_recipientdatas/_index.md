@@ -18,6 +18,9 @@ void Aspose::Words::Settings::Odso::set_RecipientDatas(const System::SharedPtr<A
 
 ## See Also
 
+* [get_RecipientDatas](../get_recipientdatas/)
+
+* Class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

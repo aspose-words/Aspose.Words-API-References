@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pagesetup/get_borderalwaysinfront/
 Specifies where the page border is positioned relative to intersecting texts and objects.
 
 ```cpp
-_Bool Aspose::Words::PageSetup::get_BorderAlwaysInFront()
+bool Aspose::Words::PageSetup::get_BorderAlwaysInFront()
 ```
 
 ## Examples

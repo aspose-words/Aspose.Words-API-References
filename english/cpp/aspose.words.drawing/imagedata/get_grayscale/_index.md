@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/imagedata/get_grayscale/
 Determines whether a picture will display in grayscale mode.
 
 ```cpp
-_Bool Aspose::Words::Drawing::ImageData::get_GrayScale()
+bool Aspose::Words::Drawing::ImageData::get_GrayScale()
 ```
 
 ## Remarks

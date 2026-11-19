@@ -49,6 +49,8 @@ ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
 ```
 ## See Also
 
+* [get_Password](../get_password/)
+
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

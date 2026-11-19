@@ -47,6 +47,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.FillMergeFields.docx");
 ```
 ## See Also
 
+* [get_Italic](../get_italic/)
+
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

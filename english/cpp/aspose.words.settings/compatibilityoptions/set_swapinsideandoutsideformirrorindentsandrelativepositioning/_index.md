@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SwapInsideAndOutsideForM
 
 ## See Also
 
+* [get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../get_swapinsideandoutsideformirrorindentsandrelativepositioning/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

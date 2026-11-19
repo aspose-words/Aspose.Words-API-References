@@ -13,7 +13,7 @@ url: /cpp/aspose.words.comparing/compareoptions/get_comparemoves/
 Specifies whether to compare differences between the two documents.
 
 ```cpp
-_Bool Aspose::Words::Comparing::CompareOptions::get_CompareMoves() const
+bool Aspose::Words::Comparing::CompareOptions::get_CompareMoves() const
 ```
 
 ## Remarks

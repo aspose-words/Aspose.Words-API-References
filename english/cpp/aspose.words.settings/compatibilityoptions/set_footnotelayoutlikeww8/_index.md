@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_FootnoteLayoutLikeWW8(bo
 
 ## See Also
 
+* [get_FootnoteLayoutLikeWW8](../get_footnotelayoutlikeww8/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

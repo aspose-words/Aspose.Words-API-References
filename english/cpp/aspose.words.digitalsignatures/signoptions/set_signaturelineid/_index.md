@@ -21,6 +21,8 @@ void Aspose::Words::DigitalSignatures::SignOptions::set_SignatureLineId(System::
  When set, it associates [SignatureLine](../../../aspose.words.drawing/signatureline/) with corresponding [DigitalSignature](../../digitalsignature/). 
 ## See Also
 
+* [get_SignatureLineId](../get_signaturelineid/)
+
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
 * Library [Aspose.Words for C++](../../../)

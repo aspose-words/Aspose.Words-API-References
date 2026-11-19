@@ -55,6 +55,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
 ## See Also
 
+* Class [Footnote](../../../aspose.words.notes/footnote/)
+* Enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -107,6 +109,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
 ## See Also
 
+* Class [Footnote](../../../aspose.words.notes/footnote/)
+* Enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

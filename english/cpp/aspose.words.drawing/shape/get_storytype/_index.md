@@ -18,6 +18,7 @@ Aspose::Words::StoryType Aspose::Words::Drawing::Shape::get_StoryType()
 
 ## See Also
 
+* Enum [StoryType](../../../aspose.words/storytype/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

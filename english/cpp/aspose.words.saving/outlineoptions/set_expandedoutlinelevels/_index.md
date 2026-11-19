@@ -26,6 +26,8 @@ Specify 0 and the document outline will be collapsed; specify 1 and the first le
 Default is 0. Valid range is 0 to 9.
 ## See Also
 
+* [get_ExpandedOutlineLevels](../get_expandedoutlinelevels/)
+
 * Class [OutlineOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

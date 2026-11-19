@@ -86,6 +86,7 @@ System::SharedPtr<Aspose::Words::Document> Aspose::Words::Document::ExtractPages
  The resulting document should look like the one in MS Word, as if we had performed 'Print specific pages' – the numbering, headers/footers and cross tables layout will be preserved. But due to a large number of nuances, appearing while reducing the number of pages, full match of the layout is a quiet complicated task requiring a lot of effort. Depending on the document complexity there might be slight differences in the resulting document contents layout comparing to the source document. Any feedback would be greatly appreciated. 
 ## See Also
 
+* Class [PageExtractOptions](../../pageextractoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

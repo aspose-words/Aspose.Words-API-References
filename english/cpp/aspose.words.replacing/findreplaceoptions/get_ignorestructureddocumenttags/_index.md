@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignorestructureddocument
 Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/). The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreStructuredDocumentTags() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreStructuredDocumentTags() const
 ```
 
 ## Remarks

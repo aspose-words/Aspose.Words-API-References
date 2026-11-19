@@ -40,6 +40,7 @@ class OdsoRecipientDataCollection : public System::Collections::Generic::IEnumer
 | [virtualized_iterator_element](./virtualized_iterator_element/) | Virtualized element type. |
 ## Remarks
 
+[OdsoRecipientData](../odsorecipientdata/)[RecipientDatas](../odso/get_recipientdatas/)
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)

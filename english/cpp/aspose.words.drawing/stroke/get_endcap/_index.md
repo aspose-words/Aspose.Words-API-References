@@ -22,6 +22,7 @@ Aspose::Words::Drawing::EndCap Aspose::Words::Drawing::Stroke::get_EndCap()
 The default value is [Flat](../../endcap/).
 ## See Also
 
+* Enum [EndCap](../../endcap/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

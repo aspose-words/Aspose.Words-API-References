@@ -13,7 +13,7 @@ url: /cpp/aspose.words/compositenode/get_haschildnodes/
 Returns **true** if this node has any child nodes.
 
 ```cpp
-_Bool Aspose::Words::CompositeNode::get_HasChildNodes()
+bool Aspose::Words::CompositeNode::get_HasChildNodes()
 ```
 
 ## Examples

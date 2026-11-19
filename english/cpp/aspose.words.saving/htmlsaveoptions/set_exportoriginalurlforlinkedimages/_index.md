@@ -47,6 +47,8 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 ## See Also
 
+* [get_ExportOriginalUrlForLinkedImages](../get_exportoriginalurlforlinkedimages/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lists/list/equals/
 Determines whether the specified object is equal in value to the current object.
 
 ```cpp
-_Bool Aspose::Words::Lists::List::Equals(System::SharedPtr<System::Object> obj) override
+bool Aspose::Words::Lists::List::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## See Also
@@ -27,7 +27,7 @@ _Bool Aspose::Words::Lists::List::Equals(System::SharedPtr<System::Object> obj) 
 Compares with the specified list.
 
 ```cpp
-_Bool Aspose::Words::Lists::List::Equals(const System::SharedPtr<Aspose::Words::Lists::List> & list)
+bool Aspose::Words::Lists::List::Equals(const System::SharedPtr<Aspose::Words::Lists::List> & list)
 ```
 
 ## See Also

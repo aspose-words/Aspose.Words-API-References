@@ -20,6 +20,7 @@ void Aspose::Words::Lists::ListFormat::ApplyNumberDefault()
 
 
 This is a shortcut method that creates a new list using the default numbered template, applies it to the paragraph and selects the 1st list level.
+[List](../get_list/)[RemoveNumbers](../removenumbers/)[ListLevelNumber](../get_listlevelnumber/)
 ## Examples
 
 

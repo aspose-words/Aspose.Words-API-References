@@ -13,7 +13,7 @@ url: /cpp/aspose.words/style/get_locked/
 Specifies whether this style is locked.
 
 ```cpp
-_Bool Aspose::Words::Style::get_Locked() const
+bool Aspose::Words::Style::get_Locked() const
 ```
 
 ## Examples

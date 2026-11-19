@@ -19,7 +19,7 @@ void Aspose::Words::Drawing::ImageData::FitImageToShape()
 ## Examples
 
 
-Shows hot to fit the image data to Shape frame.
+Shows hot to fit the image data to [Shape](../../shape/) frame.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

@@ -104,6 +104,8 @@ if (isLinuxOrMac)
 ```
 ## See Also
 
+* [get_Enabled](../get_enabled/)
+
 * Class [FontSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

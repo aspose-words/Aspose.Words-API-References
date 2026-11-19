@@ -79,6 +79,7 @@ doc->Save(get_ArtifactsDir() + u"FontSettings.TableSubstitutionRule.Custom.pdf")
 ```
 ## See Also
 
+* Class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

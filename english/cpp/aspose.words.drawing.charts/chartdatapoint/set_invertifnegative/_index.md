@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartDataPoint::set_InvertIfNegative(bool v
 
 ## See Also
 
+* [get_InvertIfNegative](../get_invertifnegative/)
+
 * Class [ChartDataPoint](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

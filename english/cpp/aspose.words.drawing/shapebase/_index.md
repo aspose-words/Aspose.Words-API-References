@@ -193,6 +193,7 @@ A shape can be positioned inline with text or floating. The positioning method i
 When a shape is floating, it is positioned relative to something (e.g the current paragraph, the margin or the page). The relative positioning of the shape is specified using the [RelativeHorizontalPosition](./get_relativehorizontalposition/) and [RelativeVerticalPosition](./get_relativeverticalposition/) properties.
 
 A floating shape be positioned explicitly using the [Left](./get_left/) and [Top](./get_top/) properties or aligned relative to some other object using the [HorizontalAlignment](./get_horizontalalignment/) and [VerticalAlignment](./get_verticalalignment/) properties.
+[Shape](../shape/)[GroupShape](../groupshape/)
 ## Examples
 
 

@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::Saving::DigitalSignatureDetails> & Aspose
 
 ## See Also
 
+* Class [DigitalSignatureDetails](../../digitalsignaturedetails/)
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

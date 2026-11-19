@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataLabelCollection> Aspo
 
 ## See Also
 
+* Class [ChartDataLabelCollection](../../chartdatalabelcollection/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

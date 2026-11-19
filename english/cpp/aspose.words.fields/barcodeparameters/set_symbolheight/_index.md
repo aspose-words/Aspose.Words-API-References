@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_SymbolHeight(const System::St
 
 ## See Also
 
+* [get_SymbolHeight](../get_symbolheight/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

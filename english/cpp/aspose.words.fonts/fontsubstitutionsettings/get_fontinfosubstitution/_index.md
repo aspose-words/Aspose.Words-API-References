@@ -51,6 +51,7 @@ for (auto&& info : warningCollector)
 ```
 ## See Also
 
+* Class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
 * Library [Aspose.Words for C++](../../../)

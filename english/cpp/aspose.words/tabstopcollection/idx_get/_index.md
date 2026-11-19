@@ -66,6 +66,7 @@ doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
 ## See Also
 
+* Class [TabStop](../../tabstop/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -125,6 +126,7 @@ doc->Save(get_ArtifactsDir() + u"TabStopCollection.TabStopCollection.docx");
 ```
 ## See Also
 
+* Class [TabStop](../../tabstop/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

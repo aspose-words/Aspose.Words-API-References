@@ -79,6 +79,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
 ## See Also
 
+* [get_Alignment](../get_alignment/)
+
+* Enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * Class [AxisTickLabels](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

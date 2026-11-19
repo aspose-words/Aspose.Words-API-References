@@ -22,6 +22,8 @@ void Aspose::Words::Fields::FormField::set_OwnStatus(bool value)
 If **true**, the text specified by the [StatusText](../get_statustext/) property is displayed. If **false**, the text of the AutoText entry specified by the [StatusText](../get_statustext/) property is displayed.
 ## See Also
 
+* [get_OwnStatus](../get_ownstatus/)
+
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

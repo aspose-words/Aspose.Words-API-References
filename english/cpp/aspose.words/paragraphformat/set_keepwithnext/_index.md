@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Table.KeepTableTogether.docx");
 ```
 ## See Also
 
+* [get_KeepWithNext](../get_keepwithnext/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

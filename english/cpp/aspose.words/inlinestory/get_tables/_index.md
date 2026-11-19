@@ -19,7 +19,7 @@ System::SharedPtr<Aspose::Words::Tables::TableCollection> Aspose::Words::InlineS
 ## Examples
 
 
-Shows how to insert InlineStory nodes.
+Shows how to insert [InlineStory](../) nodes.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -74,6 +74,7 @@ doc->Save(get_ArtifactsDir() + u"InlineStory.InsertInlineStoryNodes.docx");
 ```
 ## See Also
 
+* Class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

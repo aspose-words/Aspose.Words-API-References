@@ -83,6 +83,7 @@ ASSERT_EQ(format->get_GeneralFormats()->get_Count(), 0);
 ```
 ## See Also
 
+* Class [GeneralFormatCollection](../../generalformatcollection/)
 * Class [FieldFormat](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/importformatoptions/get_resolvethemecolors/
 Gets or sets a boolean value that specifies whether to resolve theme colors of the shapes forcibly. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::ImportFormatOptions::get_ResolveThemeColors() const
+bool Aspose::Words::ImportFormatOptions::get_ResolveThemeColors() const
 ```
 
 ## Remarks

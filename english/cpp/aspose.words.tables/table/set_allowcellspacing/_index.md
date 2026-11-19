@@ -54,6 +54,8 @@ ASSERT_TRUE(table->get_AllowCellSpacing());
 ```
 ## See Also
 
+* [get_AllowCellSpacing](../get_allowcellspacing/)
+
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

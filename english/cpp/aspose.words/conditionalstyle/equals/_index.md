@@ -13,7 +13,7 @@ url: /cpp/aspose.words/conditionalstyle/equals/
 Compares this conditional style with the specified object.
 
 ```cpp
-_Bool Aspose::Words::ConditionalStyle::Equals(System::SharedPtr<System::Object> obj) override
+bool Aspose::Words::ConditionalStyle::Equals(System::SharedPtr<System::Object> obj) override
 ```
 
 ## See Also

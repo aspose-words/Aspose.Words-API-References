@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportfloatingshapesasinlinetag
 Gets or sets a value determining whether floating shapes are exported as inline tags in the document structure.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_ExportFloatingShapesAsInlineTag() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_ExportFloatingShapesAsInlineTag() const
 ```
 
 ## Remarks

@@ -18,6 +18,7 @@ const System::SharedPtr<Aspose::Words::MailMerging::IFieldMergingCallback> & Asp
 
 ## See Also
 
+* Interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -48,6 +48,7 @@ doc->Save(get_ArtifactsDir() + u"Font.Style.docx");
 ```
 ## See Also
 
+* Class [Style](../../style/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

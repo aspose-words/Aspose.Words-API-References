@@ -55,6 +55,7 @@ doc->Save(get_ArtifactsDir() + u"Section.Create.docx");
 ```
 ## See Also
 
+* Class [Section](../../section/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

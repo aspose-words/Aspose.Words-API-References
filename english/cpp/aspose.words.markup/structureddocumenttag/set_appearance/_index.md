@@ -72,6 +72,9 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
 ## See Also
 
+* [get_Appearance](../get_appearance/)
+
+* Enum [SdtAppearance](../../sdtappearance/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

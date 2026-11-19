@@ -47,6 +47,8 @@ ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 ```
 ## See Also
 
+* [get_AddSpaceBetweenFarEastAndAlpha](../get_addspacebetweenfareastandalpha/)
+
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

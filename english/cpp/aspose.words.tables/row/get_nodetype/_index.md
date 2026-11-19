@@ -18,6 +18,7 @@ Aspose::Words::NodeType Aspose::Words::Tables::Row::get_NodeType() const overrid
 
 ## See Also
 
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -70,6 +70,7 @@ editableRange->Remove();
 ```
 ## See Also
 
+* Class [EditableRangeEnd](../../editablerangeend/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -137,6 +138,8 @@ doc->Save(get_ArtifactsDir() + u"EditableRange.Nested.docx");
 ```
 ## See Also
 
+* Class [EditableRangeEnd](../../editablerangeend/)
+* Class [EditableRangeStart](../../editablerangestart/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

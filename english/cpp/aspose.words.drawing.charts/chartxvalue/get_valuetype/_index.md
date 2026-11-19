@@ -18,6 +18,7 @@ Aspose::Words::Drawing::Charts::ChartXValueType Aspose::Words::Drawing::Charts::
 
 ## See Also
 
+* Enum [ChartXValueType](../../chartxvaluetype/)
 * Class [ChartXValue](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

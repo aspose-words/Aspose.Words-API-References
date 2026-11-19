@@ -43,6 +43,7 @@ ASSERT_EQ(doc->get_Styles()->get_Count(), 4);
 ```
 ## See Also
 
+* Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

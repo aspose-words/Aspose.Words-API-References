@@ -53,6 +53,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.MarkerFormatting.docx");
 ```
 ## See Also
 
+* Class [Fill](../../../aspose.words.drawing/fill/)
 * Class [ChartFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

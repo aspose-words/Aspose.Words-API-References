@@ -27,6 +27,8 @@ ASSERT_TRUE(doc->get_PunctuationKerning());
 ```
 ## See Also
 
+* [get_PunctuationKerning](../get_punctuationkerning/)
+
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -73,6 +73,7 @@ doc->Save(get_ArtifactsDir() + u"Lists.RestartNumberingUsingListCopy.docx");
 ```
 ## See Also
 
+* Class [List](../../list/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Section.Protect.docx");
 ```
 ## See Also
 
+* [get_ProtectedForForms](../get_protectedforforms/)
+
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Fields::BarcodeParameters::set_PostalAddress(const System::S
 
 ## See Also
 
+* [get_PostalAddress](../get_postaladdress/)
+
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

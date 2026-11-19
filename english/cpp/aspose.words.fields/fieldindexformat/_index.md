@@ -31,7 +31,7 @@ enum class FieldIndexFormat : int
 ## Examples
 
 
-Shows how to formatting FieldIndex fields.
+Shows how to formatting [FieldIndex](../fieldindex/) fields.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

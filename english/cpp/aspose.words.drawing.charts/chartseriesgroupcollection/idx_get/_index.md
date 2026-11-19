@@ -39,6 +39,7 @@ for (int32_t i = 0; i < seriesGroups->get_Count(); i++)
 ```
 ## See Also
 
+* Class [ChartSeriesGroup](../../chartseriesgroup/)
 * Class [ChartSeriesGroupCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

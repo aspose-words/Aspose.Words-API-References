@@ -23,6 +23,7 @@ Aspose::Words::Markup::StructuredDocumentTagRangeEnd::StructuredDocumentTagRange
 | id | int32_t | Identifier of the corresponding structured document tag range start. |
 ## See Also
 
+* Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [StructuredDocumentTagRangeEnd](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

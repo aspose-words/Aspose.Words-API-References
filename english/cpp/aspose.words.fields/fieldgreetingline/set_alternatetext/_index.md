@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldGreetingLine::set_AlternateText(const System::S
 
 ## See Also
 
+* [get_AlternateText](../get_alternatetext/)
+
 * Class [FieldGreetingLine](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

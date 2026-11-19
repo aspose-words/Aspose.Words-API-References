@@ -42,6 +42,8 @@ ASSERT_EQ(sdts->LINQ_Count(), 0);
 ```
 ## See Also
 
+* Class [NodeCollection](../../../aspose.words/nodecollection/)
+* Enum [NodeType](../../../aspose.words/nodetype/)
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

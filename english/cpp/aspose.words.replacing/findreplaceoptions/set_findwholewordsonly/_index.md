@@ -40,6 +40,8 @@ ASSERT_EQ(doc->GetText().Trim(), findWholeWordsOnly ? System::String(u"Louis wil
 ```
 ## See Also
 
+* [get_FindWholeWordsOnly](../get_findwholewordsonly/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

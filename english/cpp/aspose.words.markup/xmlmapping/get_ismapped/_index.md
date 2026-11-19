@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/xmlmapping/get_ismapped/
 Returns **true** if the parent structured document tag is successfully mapped to XML data.
 
 ```cpp
-_Bool Aspose::Words::Markup::XmlMapping::get_IsMapped()
+bool Aspose::Words::Markup::XmlMapping::get_IsMapped()
 ```
 
 ## Examples

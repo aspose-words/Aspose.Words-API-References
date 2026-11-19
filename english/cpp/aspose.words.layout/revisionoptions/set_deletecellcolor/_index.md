@@ -31,6 +31,9 @@ doc->Save(get_ArtifactsDir() + u"Revision.RevisionCellColor.pdf");
 ```
 ## See Also
 
+* [get_DeleteCellColor](../get_deletecellcolor/)
+
+* Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

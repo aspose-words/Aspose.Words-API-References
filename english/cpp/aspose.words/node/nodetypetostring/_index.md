@@ -35,6 +35,7 @@ for (System::SharedPtr<Aspose::Words::Node> node = doc->get_FirstSection()->get_
 ```
 ## See Also
 
+* Enum [NodeType](../../nodetype/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

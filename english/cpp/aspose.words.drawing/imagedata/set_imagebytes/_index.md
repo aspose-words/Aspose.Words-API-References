@@ -22,6 +22,7 @@ void Aspose::Words::Drawing::ImageData::set_ImageBytes(const System::ArrayPtr<ui
 Setting the value to **null** or an empty array will remove the image from the shape.
 
 Returns **null** if the image is not stored in the document (e.g the image is probably linked in this case).
+[SetImage()](../setimage/)[ToByteArray](../tobytearray/)[ToImage](../toimage/)[ToStream](../tostream/)[Save()](../save/)
 ## Examples
 
 
@@ -47,6 +48,8 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->ToByteArray(), imgShape->get_ImageDa
 }
 ```
 ## See Also
+
+* [get_ImageBytes](../get_imagebytes/)
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)

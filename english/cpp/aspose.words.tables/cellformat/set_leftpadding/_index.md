@@ -62,6 +62,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetCellFormatting.docx");
 ```
 ## See Also
 
+* [get_LeftPadding](../get_leftpadding/)
+
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

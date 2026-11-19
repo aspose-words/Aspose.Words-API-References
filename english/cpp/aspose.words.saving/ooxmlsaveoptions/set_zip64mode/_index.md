@@ -20,6 +20,7 @@ void Aspose::Words::Saving::OoxmlSaveOptions::set_Zip64Mode(Aspose::Words::Savin
 
 * [Zip64Mode](../get_zip64mode/)
 
+* Enum [Zip64Mode](../../zip64mode/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

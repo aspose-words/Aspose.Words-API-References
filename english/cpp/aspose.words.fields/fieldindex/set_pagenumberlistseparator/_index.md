@@ -62,6 +62,8 @@ doc->Save(get_ArtifactsDir() + u"Field.INDEX.XE.PageNumberList.docx");
 ```
 ## See Also
 
+* [get_PageNumberListSeparator](../get_pagenumberlistseparator/)
+
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

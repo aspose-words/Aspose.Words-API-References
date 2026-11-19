@@ -48,6 +48,8 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 ```
 ## See Also
 
+* [get_FontFamily](../get_fontfamily/)
+
 * Class [TextWatermarkOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -40,6 +40,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.RemoveSpecificChartSeries.docx");
 ```
 ## See Also
 
+* Enum [ChartSeriesType](../../chartseriestype/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

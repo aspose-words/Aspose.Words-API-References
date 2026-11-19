@@ -51,6 +51,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
 ## See Also
 
+* Enum [JoinStyle](../../joinstyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

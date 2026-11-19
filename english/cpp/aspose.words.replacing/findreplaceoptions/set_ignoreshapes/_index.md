@@ -38,6 +38,8 @@ ASSERT_EQ(builder->get_Document()->GetText().Trim(), (u"Lorem ipsum dolor sit am
 ```
 ## See Also
 
+* [get_IgnoreShapes](../get_ignoreshapes/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

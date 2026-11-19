@@ -13,7 +13,7 @@ url: /cpp/aspose.words.lowcode/mailmergeoptions/get_trimwhitespaces/
 Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values.
 
 ```cpp
-_Bool Aspose::Words::LowCode::MailMergeOptions::get_TrimWhitespaces() const
+bool Aspose::Words::LowCode::MailMergeOptions::get_TrimWhitespaces() const
 ```
 
 ## Remarks

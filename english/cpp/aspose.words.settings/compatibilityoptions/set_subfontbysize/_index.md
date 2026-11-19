@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SubFontBySize(bool value
 
 ## See Also
 
+* [get_SubFontBySize](../get_subfontbysize/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

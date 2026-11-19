@@ -83,6 +83,8 @@ ASSERT_EQ(format->get_GeneralFormats()->get_Count(), 0);
 ```
 ## See Also
 
+* [get_DateTimeFormat](../get_datetimeformat/)
+
 * Class [FieldFormat](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

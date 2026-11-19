@@ -61,6 +61,8 @@ doc->Save(get_ArtifactsDir() + u"Field.IF.docx");
 ```
 ## See Also
 
+* [get_RightExpression](../get_rightexpression/)
+
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words/pageextractoptions/get_unlinkpagesnumberfields/
 Specifies whether NUMPAGES fields in the resulting document will be replaced with their actual resulting values. Default value is **true**.
 
 ```cpp
-_Bool Aspose::Words::PageExtractOptions::get_UnlinkPagesNumberFields() const
+bool Aspose::Words::PageExtractOptions::get_UnlinkPagesNumberFields() const
 ```
 
 ## Examples

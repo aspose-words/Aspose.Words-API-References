@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldBibliography::set_SourceTag(const System::Strin
 
 ## See Also
 
+* [get_SourceTag](../get_sourcetag/)
+
 * Class [FieldBibliography](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

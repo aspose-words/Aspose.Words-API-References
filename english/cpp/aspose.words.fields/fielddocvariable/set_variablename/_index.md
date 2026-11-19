@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
 ```
 ## See Also
 
+* [get_VariableName](../get_variablename/)
+
 * Class [FieldDocVariable](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

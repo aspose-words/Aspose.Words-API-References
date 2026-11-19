@@ -35,6 +35,9 @@ doc->Save(get_ArtifactsDir() + u"Font.SparklingText.doc");
 ```
 ## See Also
 
+* [get_TextEffect](../get_texteffect/)
+
+* Enum [TextEffect](../../texteffect/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

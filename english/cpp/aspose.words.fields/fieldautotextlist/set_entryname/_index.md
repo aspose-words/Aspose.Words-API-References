@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldAutoTextList::set_EntryName(const System::Strin
 
 ## See Also
 
+* [get_EntryName](../get_entryname/)
+
 * Class [FieldAutoTextList](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

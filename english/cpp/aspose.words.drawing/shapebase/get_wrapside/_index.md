@@ -78,6 +78,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.ReplaceTextboxesWithImages.docx");
 ```
 ## See Also
 
+* Enum [WrapSide](../../wrapside/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

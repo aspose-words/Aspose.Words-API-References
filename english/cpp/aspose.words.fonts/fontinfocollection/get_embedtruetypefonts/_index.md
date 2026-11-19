@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontinfocollection/get_embedtruetypefonts/
 Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**.
 
 ```cpp
-_Bool Aspose::Words::Fonts::FontInfoCollection::get_EmbedTrueTypeFonts() const
+bool Aspose::Words::Fonts::FontInfoCollection::get_EmbedTrueTypeFonts() const
 ```
 
 ## Remarks

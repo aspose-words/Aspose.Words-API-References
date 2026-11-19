@@ -21,6 +21,9 @@ void Aspose::Words::Saving::PdfSaveOptions::set_PageMode(Aspose::Words::Saving::
  The default value is [UseOutlines](../../pdfpagemode/). 
 ## See Also
 
+* [get_PageMode](../get_pagemode/)
+
+* Enum [PdfPageMode](../../pdfpagemode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

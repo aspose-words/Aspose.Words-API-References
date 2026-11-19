@@ -72,6 +72,9 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
 ## See Also
 
+* [get_MinorTickMark](../get_minortickmark/)
+
+* Enum [AxisTickMark](../../axistickmark/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

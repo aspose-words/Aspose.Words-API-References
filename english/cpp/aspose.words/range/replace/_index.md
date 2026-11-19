@@ -114,6 +114,7 @@ Method is able to process breaks in both pattern and replacement strings.
 ```
 ## See Also
 
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -350,6 +351,7 @@ ASSERT_EQ(table->GetText().Trim(), System::String(u"Eggs\a50\a\a") + u"Potatoes\
 ```
 ## See Also
 
+* Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

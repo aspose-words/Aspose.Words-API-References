@@ -34,13 +34,13 @@ class Fill : public System::Object
 | [TwoColorGradient](./twocolorgradient/)(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) | Sets the specified fill to a two-color gradient. |
 | [TwoColorGradient](./twocolorgradient/)(System::Drawing::Color, System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) | Sets the specified fill to a two-color gradient. |
 | [get_BackColor](./get_backcolor/)() | Gets or sets a Color object that represents the background color for the fill. |
-| [get_BackThemeColor](./get_backthemecolor/)() | Gets or sets a ThemeColor object that represents the background color for the fill. |
+| [get_BackThemeColor](./get_backthemecolor/)() | Gets or sets a [ThemeColor](../../aspose.words.themes/themecolor/) object that represents the background color for the fill. |
 | [get_BackTintAndShade](./get_backtintandshade/)() | Gets or sets a double value that lightens or darkens the background color. |
 | [get_BaseForeColor](./get_baseforecolor/)() | Gets a Color object that represents the base foreground color for the fill without any modifiers. |
 | [get_Color](./get_color/)() | Gets or sets a Color object that represents the foreground color for the fill. |
 | [get_FillType](./get_filltype/)() | Gets a fill type. |
 | [get_ForeColor](./get_forecolor/)() | Gets or sets a Color object that represents the foreground color for the fill. |
-| [get_ForeThemeColor](./get_forethemecolor/)() | Gets or sets a ThemeColor object that represents the foreground color for the fill. |
+| [get_ForeThemeColor](./get_forethemecolor/)() | Gets or sets a [ThemeColor](../../aspose.words.themes/themecolor/) object that represents the foreground color for the fill. |
 | [get_ForeTintAndShade](./get_foretintandshade/)() | Gets or sets a double value that lightens or darkens the foreground color. |
 | [get_GradientAngle](./get_gradientangle/)() | Gets or sets the angle of the gradient fill. |
 | [get_GradientStops](./get_gradientstops/)() | Gets a collection of [GradientStop](../gradientstop/) objects for the fill. |
@@ -55,11 +55,11 @@ class Fill : public System::Object
 | [get_Transparency](./get_transparency/)() | Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
 | [get_Visible](./get_visible/)() | Gets value that is **true** if the formatting applied to this instance, is visible. |
 | [set_BackColor](./set_backcolor/)(System::Drawing::Color) | Sets a Color object that represents the background color for the fill. |
-| [set_BackThemeColor](./set_backthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the background color for the fill. |
+| [set_BackThemeColor](./set_backthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a [ThemeColor](../../aspose.words.themes/themecolor/) object that represents the background color for the fill. |
 | [set_BackTintAndShade](./set_backtintandshade/)(double) | Sets a double value that lightens or darkens the background color. |
 | [set_Color](./set_color/)(System::Drawing::Color) | Sets a Color object that represents the foreground color for the fill. |
 | [set_ForeColor](./set_forecolor/)(System::Drawing::Color) | Sets a Color object that represents the foreground color for the fill. |
-| [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the foreground color for the fill. |
+| [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a [ThemeColor](../../aspose.words.themes/themecolor/) object that represents the foreground color for the fill. |
 | [set_ForeTintAndShade](./set_foretintandshade/)(double) | Sets a double value that lightens or darkens the foreground color. |
 | [set_GradientAngle](./set_gradientangle/)(double) | Sets the angle of the gradient fill. |
 | [set_Opacity](./set_opacity/)(double) | Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |

@@ -13,13 +13,13 @@ url: /cpp/aspose.words.fields/fieldchar/get_isdirty/
 Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldChar::get_IsDirty() const
+bool Aspose::Words::Fields::FieldChar::get_IsDirty() const
 ```
 
 ## Examples
 
 
-Shows how to work with a FieldStart node.
+Shows how to work with a [FieldStart](../../fieldstart/) node.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

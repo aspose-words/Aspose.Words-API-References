@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textpath/get_fitshape/
 Defines whether the text fits bounding box of a shape.
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextPath::get_FitShape()
+bool Aspose::Words::Drawing::TextPath::get_FitShape()
 ```
 
 ## Remarks

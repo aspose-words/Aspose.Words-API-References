@@ -38,6 +38,9 @@ doc->Save(get_ArtifactsDir() + u"Layout.RestartPageNumberingInContinuousSection.
 ```
 ## See Also
 
+* [get_ContinuousSectionPageNumberingRestart](../get_continuoussectionpagenumberingrestart/)
+
+* Enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

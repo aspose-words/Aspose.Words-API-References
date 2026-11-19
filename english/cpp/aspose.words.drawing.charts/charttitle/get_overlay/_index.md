@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/charttitle/get_overlay/
 Determines whether other chart elements shall be allowed to overlap title. By default overlay is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartTitle::get_Overlay()
+bool Aspose::Words::Drawing::Charts::ChartTitle::get_Overlay()
 ```
 
 ## Examples

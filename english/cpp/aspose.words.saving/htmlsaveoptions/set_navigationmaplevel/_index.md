@@ -48,6 +48,8 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.CreateMobiToc.mobi", options);
 ```
 ## See Also
 
+* [get_NavigationMapLevel](../get_navigationmaplevel/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

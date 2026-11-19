@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/htmlloadoptions/get_supportvml/
 Gets or sets a value indicating whether to support VML images.
 
 ```cpp
-_Bool Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml() const
+bool Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml() const
 ```
 
 ## Examples

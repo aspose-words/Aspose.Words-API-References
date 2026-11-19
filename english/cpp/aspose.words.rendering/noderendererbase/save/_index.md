@@ -45,6 +45,7 @@ for (auto&& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape, true
 ```
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -84,6 +85,7 @@ math->GetMathRenderer()->Save(get_ArtifactsDir() + u"SvgSaveOptions.Output.svg",
 ```
 ## See Also
 
+* Class [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -122,6 +124,7 @@ math->GetMathRenderer()->Save(get_ArtifactsDir() + u"Shape.RenderOfficeMath.png"
 ```
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -161,6 +164,7 @@ math->GetMathRenderer()->Save(get_ArtifactsDir() + u"SvgSaveOptions.Output.svg",
 ```
 ## See Also
 
+* Class [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -202,6 +206,7 @@ for (auto&& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape, true
 ```
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -241,6 +246,7 @@ math->GetMathRenderer()->Save(get_ArtifactsDir() + u"SvgSaveOptions.Output.svg",
 ```
 ## See Also
 
+* Class [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/)
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
 * Library [Aspose.Words for C++](../../../)

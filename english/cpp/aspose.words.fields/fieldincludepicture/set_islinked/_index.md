@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
 ## See Also
 
+* [get_IsLinked](../get_islinked/)
+
 * Class [FieldIncludePicture](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

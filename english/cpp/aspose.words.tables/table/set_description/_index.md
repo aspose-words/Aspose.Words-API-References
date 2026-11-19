@@ -24,6 +24,8 @@ The default value is an empty string.
 This property is meaningful for ISO/IEC 29500 compliant DOCX documents ([OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 ## See Also
 
+* [get_Description](../get_description/)
+
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

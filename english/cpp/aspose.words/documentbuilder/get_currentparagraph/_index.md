@@ -72,6 +72,7 @@ ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 ```
 ## See Also
 
+* Class [Paragraph](../../paragraph/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

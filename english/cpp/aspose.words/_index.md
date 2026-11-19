@@ -26,9 +26,9 @@ The main classes in this namespace are:
 | Class | Description |
 | --- | --- |
 | [AbsolutePositionTab](./absolutepositiontab/) | An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [Body](./body/) | Represents a container for the main text of a section. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [Bookmark](./bookmark/) | Represents a single bookmark. 
 To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/) documentation article. |
 | [BookmarkCollection](./bookmarkcollection/) | A collection of [Bookmark](./bookmark/) objects that represent the bookmarks in the specified range. 
@@ -54,7 +54,7 @@ To learn more, visit the [Working with Comments](https://docs.aspose.com/words/c
 | [CommentRangeStart](./commentrangestart/) | Denotes the start of a region of text that has a comment associated with it. 
 To learn more, visit the [Working with Comments](https://docs.aspose.com/words/cpp/working-with-comments/) documentation article. |
 | [CompositeNode](./compositenode/) | Base class for nodes that can contain other nodes. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [ConditionalStyle](./conditionalstyle/) | Represents special formatting applied to some area of a table with assigned table style. 
 To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
 | [ConditionalStyleCollection](./conditionalstylecollection/) | Represents a collection of [ConditionalStyle](./conditionalstyle/) objects. 
@@ -66,18 +66,18 @@ To learn more, visit the [Convert Between Measurement Units](https://docs.aspose
 | [Document](./document/) | Represents a Word document. 
 To learn more, visit the [Working with Document](https://docs.aspose.com/words/cpp/working-with-document/) documentation article. |
 | [DocumentBase](./documentbase/) | Provides the abstract base class for a main document and a glossary document of a Word document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [DocumentBuilder](./documentbuilder/) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. 
 To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/cpp/document-builder-overview/) documentation article. |
 | [DocumentBuilderOptions](./documentbuilderoptions/) | Allows to specify additional options for the document building process. |
 | [DocumentVisitor](./documentvisitor/) | Base class for custom document visitors. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [EditableRange](./editablerange/) | Represents a single editable range. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [EditableRangeEnd](./editablerangeend/) | Represents an end of an editable range in a Word document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [EditableRangeStart](./editablerangestart/) | Represents a start of an editable range in a Word document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [FileFormatInfo](./fileformatinfo/) | Contains data returned by [FileFormatUtil](./fileformatutil/) document format detection methods. 
 To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/cpp/detect-file-format-and-check-format-compatibility/) documentation article. |
 | [FileFormatUtil](./fileformatutil/) | Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums. 
@@ -101,20 +101,20 @@ To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.as
 | [InlineStory](./inlinestory/) | Base class for inline-level nodes that can contain paragraphs and tables. 
 To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/cpp/logical-levels-of-nodes-in-a-document/) documentation article. |
 | [InternableComplexAttr](./internablecomplexattr/) | Base class for internable complex attribute. Internable complex attribute should notify parent collection when going to be changed. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [JoinRunsOptions](./joinrunsoptions/) | Provides configuration flags for the join runs operation. |
 | [License](./license/) | Provides methods to license the component. 
 To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/cpp/licensing/) documentation article. |
 | [Node](./node/) | Base class for all nodes of a Word document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [NodeChangingArgs](./nodechangingargs/) | Provides data for methods of the [INodeChangingCallback](./inodechangingcallback/) interface. [DocumentBase](./documentbase/)[INodeChangingCallback](./inodechangingcallback/)[NodeChangingAction](./nodechangingaction/)
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [NodeCollection](./nodecollection/) | Represents a collection of nodes of a specific type. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [NodeImporter](./nodeimporter/) | Allows to efficiently perform repeated import of nodes from one document to another. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [NodeList](./nodelist/) | Represents a collection of nodes matching an XPath query executed using the [SelectNodes()](./compositenode/selectnodes/) method. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [PageExtractOptions](./pageextractoptions/) | Allows to specify options for document page extracting. |
 | [PageSetup](./pagesetup/) | Represents the page setup properties of a section. 
 To learn more, visit the [Working with Sections](https://docs.aspose.com/words/cpp/working-with-sections/) documentation article. |
@@ -151,19 +151,19 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 | [SignatureLineOptions](./signaturelineoptions/) | Allows to specify options for signature line being inserted. Used in [DocumentBuilder](./documentbuilder/). 
 To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/cpp/working-with-digital-signatures/) documentation article. |
 | [SpecialChar](./specialchar/) | Base class for special characters in the document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [Story](./story/) | Base class for elements that contain block-level nodes [Paragraph](./paragraph/) and [Table](../aspose.words.tables/table/). 
 To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/cpp/logical-levels-of-nodes-in-a-document/) documentation article. |
 | [Style](./style/) | Represents a single built-in or user-defined style. 
 To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article. |
 | [StyleCollection](./stylecollection/) | A collection of [Style](./style/) objects that represent both the built-in and user-defined styles in a document. 
 To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/cpp/working-with-styles-and-themes/) documentation article. |
-| [SubDocument](./subdocument/) | Represents a SubDocument - which is a reference to an externally stored document. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+| [SubDocument](./subdocument/) | Represents a [SubDocument](./subdocument/) - which is a reference to an externally stored document. 
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [TabStop](./tabstop/) | Represents a single custom tab stop. The [TabStop](./tabstop/) object is a member of the [TabStopCollection](./tabstopcollection/) collection. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [TabStopCollection](./tabstopcollection/) | A collection of [TabStop](./tabstop/) objects that represent custom tabs for a paragraph or a style. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article. |
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article. |
 | [TableStyle](./tablestyle/) | Represents a table style. 
 To learn more, visit the [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/) documentation article. |
 | [TextColumn](./textcolumn/) | Represents a single text column. [TextColumn](./textcolumn/) is a member of the [TextColumnCollection](./textcolumncollection/) collection. The [TextColumn](./textcolumn/) collection includes all the columns in a section of a document. 

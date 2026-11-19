@@ -13,7 +13,7 @@ url: /cpp/aspose.words/documentbuilder/movetobookmark/
 Moves the cursor to a bookmark.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String & bookmarkName)
+bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String & bookmarkName)
 ```
 
 
@@ -96,7 +96,7 @@ ASSERT_TRUE(builder->get_IsAtStartOfParagraph());
 Moves the cursor to a bookmark with greater precision.
 
 ```cpp
-_Bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String & bookmarkName, bool isStart, bool isAfter)
+bool Aspose::Words::DocumentBuilder::MoveToBookmark(const System::String & bookmarkName, bool isStart, bool isAfter)
 ```
 
 

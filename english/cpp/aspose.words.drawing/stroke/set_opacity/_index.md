@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::Stroke::set_Opacity(double value)
 The default value is 1.
 ## See Also
 
+* [get_Opacity](../get_opacity/)
+
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

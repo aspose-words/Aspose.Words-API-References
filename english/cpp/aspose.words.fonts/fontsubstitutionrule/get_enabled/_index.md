@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontsubstitutionrule/get_enabled/
 Specifies whether the rule is enabled or not.
 
 ```cpp
-virtual _Bool Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled()
+virtual bool Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled()
 ```
 
 ## Examples

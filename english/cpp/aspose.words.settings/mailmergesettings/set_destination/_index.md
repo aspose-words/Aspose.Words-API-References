@@ -18,6 +18,9 @@ void Aspose::Words::Settings::MailMergeSettings::set_Destination(Aspose::Words::
 
 ## See Also
 
+* [get_Destination](../get_destination/)
+
+* Enum [MailMergeDestination](../../mailmergedestination/)
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

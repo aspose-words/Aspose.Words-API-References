@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/signatureline/get_isvalid/
 Indicates that signature line is signed by digital signature and this digital signature is valid.
 
 ```cpp
-_Bool Aspose::Words::Drawing::SignatureLine::get_IsValid()
+bool Aspose::Words::Drawing::SignatureLine::get_IsValid()
 ```
 
 ## Examples

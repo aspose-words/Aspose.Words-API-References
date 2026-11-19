@@ -63,6 +63,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
 ## See Also
 
+* Enum [GradientStyle](../../gradientstyle/)
+* Enum [GradientVariant](../../gradientvariant/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -123,6 +125,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.GradientFill.docx", saveOptions);
 ```
 ## See Also
 
+* Enum [GradientStyle](../../gradientstyle/)
+* Enum [GradientVariant](../../gradientvariant/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

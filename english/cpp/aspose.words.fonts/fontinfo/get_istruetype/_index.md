@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fonts/fontinfo/get_istruetype/
 Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is **true**.
 
 ```cpp
-_Bool Aspose::Words::Fonts::FontInfo::get_IsTrueType() const
+bool Aspose::Words::Fonts::FontInfo::get_IsTrueType() const
 ```
 
 ## Examples

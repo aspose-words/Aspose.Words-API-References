@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotSnapToGridInCell(bo
 
 ## See Also
 
+* [get_DoNotSnapToGridInCell](../get_donotsnaptogridincell/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

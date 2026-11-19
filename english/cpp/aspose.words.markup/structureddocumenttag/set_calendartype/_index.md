@@ -58,6 +58,9 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.Date.docx");
 ```
 ## See Also
 
+* [get_CalendarType](../get_calendartype/)
+
+* Enum [SdtCalendarType](../../sdtcalendartype/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -35,6 +35,8 @@ doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
 ## See Also
 
+* [get_HighlightColor](../get_highlightcolor/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

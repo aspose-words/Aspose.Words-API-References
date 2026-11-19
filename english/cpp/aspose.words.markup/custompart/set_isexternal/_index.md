@@ -20,6 +20,7 @@ void Aspose::Words::Markup::CustomPart::set_IsExternal(bool value)
 
 
 The default value is **false**.
+[Name](../get_name/)
 ## Examples
 
 
@@ -61,6 +62,8 @@ doc->get_PackageCustomParts()->Clear();
 ASSERT_EQ(doc->get_PackageCustomParts()->get_Count(), 0);
 ```
 ## See Also
+
+* [get_IsExternal](../get_isexternal/)
 
 * Class [CustomPart](../)
 * Namespace [Aspose::Words::Markup](../../)

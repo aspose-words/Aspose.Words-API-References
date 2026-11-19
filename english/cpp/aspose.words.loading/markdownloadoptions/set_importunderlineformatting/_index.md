@@ -41,6 +41,8 @@ Shows how to recognize plus characters "++" as underline text formatting.
 ```
 ## See Also
 
+* [get_ImportUnderlineFormatting](../get_importunderlineformatting/)
+
 * Class [MarkdownLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

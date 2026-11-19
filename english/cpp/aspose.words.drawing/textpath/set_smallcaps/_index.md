@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_SmallCaps(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_SmallCaps](../get_smallcaps/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

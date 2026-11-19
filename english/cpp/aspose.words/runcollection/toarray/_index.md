@@ -75,6 +75,7 @@ ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 ```
 ## See Also
 
+* Class [Run](../../run/)
 * Class [RunCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

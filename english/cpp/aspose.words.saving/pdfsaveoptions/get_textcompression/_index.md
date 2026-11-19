@@ -24,6 +24,7 @@ Default is [Flate](../../pdftextcompression/).
 Significantly increases output size when saving a document without compression.
 ## See Also
 
+* Enum [PdfTextCompression](../../pdftextcompression/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

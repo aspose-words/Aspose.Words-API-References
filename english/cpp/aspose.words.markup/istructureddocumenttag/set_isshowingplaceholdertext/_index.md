@@ -64,6 +64,8 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlaceholderBuildingBlock.
 ```
 ## See Also
 
+* [get_IsShowingPlaceholderText](../get_isshowingplaceholdertext/)
+
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

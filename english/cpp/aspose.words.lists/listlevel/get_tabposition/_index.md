@@ -20,10 +20,11 @@ double Aspose::Words::Lists::ListLevel::get_TabPosition() const
 
 
 Has effect only when [TrailingCharacter](../get_trailingcharacter/) is a tab.
+[NumberPosition](../get_numberposition/)[TextPosition](../get_textposition/)
 ## Examples
 
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

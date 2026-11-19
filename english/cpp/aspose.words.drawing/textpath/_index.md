@@ -65,6 +65,7 @@ class TextPath : public System::Object
 
 
 Use the [TextPath](../shape/get_textpath/) property to access WordArt properties of a shape. You do not create instances of the [TextPath](./) class directly.
+[TextPath](../shape/get_textpath/)
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

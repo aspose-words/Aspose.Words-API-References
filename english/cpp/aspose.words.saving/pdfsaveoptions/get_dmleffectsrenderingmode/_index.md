@@ -24,6 +24,7 @@ This property is used when the document is exported to fixed page formats.
 If [Compliance](../get_compliance/) is set to [PdfA1a](../../pdfcompliance/) or [PdfA1b](../../pdfcompliance/), property always returns [None](../../dmleffectsrenderingmode/).
 ## See Also
 
+* Enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

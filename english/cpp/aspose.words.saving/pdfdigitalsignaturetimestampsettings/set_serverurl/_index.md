@@ -21,6 +21,8 @@ void Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::set_ServerUrl(
  The default value is **null**. If **null**, then the digital signature will not be time-stamped. 
 ## See Also
 
+* [get_ServerUrl](../get_serverurl/)
+
 * Class [PdfDigitalSignatureTimestampSettings](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

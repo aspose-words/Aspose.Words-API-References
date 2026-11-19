@@ -38,11 +38,12 @@ class CustomPart : public System::Object
 
 This class represents an OOXML part that is a target of an "unknown relationship". All relationships not defined within ISO/IEC 29500 are considered "unknown relationships". Unknown relationships are permitted within an Office Open XML document provided that they conform to relationship markup guidelines.
 
-Microsoft Word preserves custom parts during open/save cycles. Some additional info can be found here http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx 
+Microsoft Word preserves custom parts during open/save cycles. Some additional info can be found here [http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx](http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx) 
 
 Aspose.Words also roundtrips custom parts and in addition, allows to programmatically access such parts via the [CustomPart](./) and [CustomPartCollection](../custompartcollection/) objects.
 
 Do not confuse custom parts with Custom XML Data. Use [CustomXmlPart](../customxmlpart/) if you need to access Custom XML Data.
+[CustomPartCollection](../custompartcollection/)[PackageCustomParts](../../aspose.words/document/get_packagecustomparts/)
 ## Examples
 
 

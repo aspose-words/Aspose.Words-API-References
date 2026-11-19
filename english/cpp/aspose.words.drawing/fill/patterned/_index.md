@@ -44,6 +44,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillPattern.docx");
 ```
 ## See Also
 
+* Enum [PatternType](../../patterntype/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -86,6 +87,7 @@ doc->Save(get_ArtifactsDir() + u"Shape.FillPattern.docx");
 ```
 ## See Also
 
+* Enum [PatternType](../../patterntype/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

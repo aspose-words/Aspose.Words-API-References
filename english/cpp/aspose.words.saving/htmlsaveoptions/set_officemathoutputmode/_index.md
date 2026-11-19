@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/set_officemathoutputmode/
 ## HtmlSaveOptions::set_OfficeMathOutputMode method
 
 
-Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is [Image](../../htmlofficemathoutputmode/).
+Controls how [OfficeMath](../../../aspose.words.math/officemath/) objects are exported to HTML, MHTML or EPUB. Default value is [Image](../../htmlofficemathoutputmode/).
 
 ```cpp
 void Aspose::Words::Saving::HtmlSaveOptions::set_OfficeMathOutputMode(Aspose::Words::Saving::HtmlOfficeMathOutputMode value)
@@ -19,7 +19,7 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_OfficeMathOutputMode(Aspose::Wo
 ## Examples
 
 
-Shows how to specify how to export Microsoft OfficeMath objects to HTML.
+Shows how to specify how to export Microsoft [OfficeMath](../../../aspose.words.math/officemath/) objects to HTML.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Office math.docx"));
@@ -53,6 +53,9 @@ switch (htmlOfficeMathOutputMode)
 ```
 ## See Also
 
+* [get_OfficeMathOutputMode](../get_officemathoutputmode/)
+
+* Enum [HtmlOfficeMathOutputMode](../../htmlofficemathoutputmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

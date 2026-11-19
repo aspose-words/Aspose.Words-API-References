@@ -18,6 +18,8 @@ void Aspose::Words::AI::CheckGrammarOptions::set_ImproveStylistics(bool value)
 
 ## See Also
 
+* [get_ImproveStylistics](../get_improvestylistics/)
+
 * Class [CheckGrammarOptions](../)
 * Namespace [Aspose::Words::AI](../../)
 * Library [Aspose.Words for C++](../../../)

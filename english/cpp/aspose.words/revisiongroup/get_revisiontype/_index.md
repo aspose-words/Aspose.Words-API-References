@@ -33,6 +33,7 @@ for (auto&& group : doc->get_Revisions()->get_Groups())
 ```
 ## See Also
 
+* Enum [RevisionType](../../revisiontype/)
 * Class [RevisionGroup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

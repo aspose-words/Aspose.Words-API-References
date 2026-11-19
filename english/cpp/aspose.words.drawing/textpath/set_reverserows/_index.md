@@ -24,6 +24,8 @@ The default value is **false**.
 If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout.
 ## See Also
 
+* [get_ReverseRows](../get_reverserows/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

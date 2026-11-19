@@ -35,6 +35,7 @@ Importing a node creates a copy of the source node belonging to the importing do
 Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore()](../../compositenode/insertbefore/) or [InsertAfter()](../../compositenode/insertafter/).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
+[NodeImporter](../../nodeimporter/)
 ## Examples
 
 
@@ -68,6 +69,7 @@ ASSERT_EQ(dstDoc->ToString(SaveFormat::Text), u"Destination document first parag
 ```
 ## See Also
 
+* Class [Node](../../node/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -100,6 +102,7 @@ Importing a node creates a copy of the source node belonging to the importing do
 Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore()](../../compositenode/insertbefore/) or [InsertAfter()](../../compositenode/insertafter/).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
+[ImportFormatMode](../../importformatmode/)[NodeImporter](../../nodeimporter/)
 ## Examples
 
 
@@ -137,6 +140,8 @@ ASSERT_EQ(dstDoc->get_Styles()->idx_get(u"My style_0")->get_Font()->get_Name(), 
 ```
 ## See Also
 
+* Class [Node](../../node/)
+* Enum [ImportFormatMode](../../importformatmode/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -170,6 +175,7 @@ Importing a node creates a copy of the source node belonging to the importing do
 Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [InsertBefore()](../../compositenode/insertbefore/) or [InsertAfter()](../../compositenode/insertafter/).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
+[ImportFormatMode](../../importformatmode/)[NodeImporter](../../nodeimporter/)
 ## Examples
 
 
@@ -199,6 +205,9 @@ dstDoc->Save(get_ArtifactsDir() + u"DocumentBase.ImportNodeWithResolveThemeColor
 ```
 ## See Also
 
+* Class [Node](../../node/)
+* Enum [ImportFormatMode](../../importformatmode/)
+* Class [ImportFormatOptions](../../importformatoptions/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

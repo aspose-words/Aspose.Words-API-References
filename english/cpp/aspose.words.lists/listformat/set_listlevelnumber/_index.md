@@ -22,6 +22,7 @@ void Aspose::Words::Lists::ListFormat::set_ListLevelNumber(int32_t value)
 In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
 
 Has effect only when the [List](../get_list/) property is set to reference a valid list.
+[List](../get_list/)
 ## Examples
 
 
@@ -153,6 +154,8 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 ## See Also
+
+* [get_ListLevelNumber](../get_listlevelnumber/)
 
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)

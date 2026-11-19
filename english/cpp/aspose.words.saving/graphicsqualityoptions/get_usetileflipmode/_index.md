@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/graphicsqualityoptions/get_usetileflipmode/
 Gets or sets a flag indicating whether WrapMode is TileFlipXY.
 
 ```cpp
-_Bool Aspose::Words::Saving::GraphicsQualityOptions::get_UseTileFlipMode() const
+bool Aspose::Words::Saving::GraphicsQualityOptions::get_UseTileFlipMode() const
 ```
 
 ## Remarks

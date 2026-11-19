@@ -43,6 +43,7 @@ doc->Save(get_ArtifactsDir() + u"Drawing.FillSolid.docx");
 ```
 ## See Also
 
+* Class [Fill](../../../aspose.words.drawing/fill/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

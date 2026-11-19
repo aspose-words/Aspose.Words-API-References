@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDde::set_InsertAsPicture(bool value)
 
 ## See Also
 
+* [get_InsertAsPicture](../get_insertaspicture/)
+
 * Class [FieldDde](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

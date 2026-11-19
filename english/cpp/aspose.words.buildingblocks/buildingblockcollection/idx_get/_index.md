@@ -32,6 +32,7 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 ## See Also
 
+* Class [BuildingBlock](../../buildingblock/)
 * Class [BuildingBlockCollection](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
 * Library [Aspose.Words for C++](../../../)

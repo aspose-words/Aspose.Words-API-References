@@ -102,6 +102,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 
 ## See Also
 
+* Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -148,6 +149,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermarkStream.docx");
 
 ## See Also
 
+* Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -199,6 +201,7 @@ doc->Save(get_ArtifactsDir() + u"Document.ImageWatermark.docx");
 
 ## See Also
 
+* Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -55,6 +55,7 @@ doc->Save(get_ArtifactsDir() + u"Font.Bidi.docx");
 ## See Also
 
 * [Name](../get_name/)
+* [get_NameBi](../get_namebi/)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)

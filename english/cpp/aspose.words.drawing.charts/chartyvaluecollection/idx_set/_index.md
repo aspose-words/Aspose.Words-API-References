@@ -21,6 +21,7 @@ void Aspose::Words::Drawing::Charts::ChartYValueCollection::idx_set(int32_t inde
  Empty values are represented as null. 
 ## See Also
 
+* Class [ChartYValue](../../chartyvalue/)
 * Class [ChartYValueCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

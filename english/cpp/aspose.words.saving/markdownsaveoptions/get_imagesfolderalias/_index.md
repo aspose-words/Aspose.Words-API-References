@@ -26,6 +26,7 @@ If [ImagesFolderAlias](./) is not an empty string, then the image URI written to
 If [ImagesFolderAlias](./) is an empty string, then the image URI written to Markdown will be ImagesFolder + <image file name>.
 
 If [ImagesFolderAlias](./) is set to '.' (dot), then the image file name will be written to Markdown without path regardless of other options.
+[ImagesFolder](../get_imagesfolder/)[ImageSavingCallback](../get_imagesavingcallback/)
 ## Examples
 
 

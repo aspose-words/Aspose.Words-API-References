@@ -57,6 +57,7 @@ doc->Save(get_ArtifactsDir() + u"Table.CreateTable.docx");
 ```
 ## See Also
 
+* Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

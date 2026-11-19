@@ -53,6 +53,8 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.PaperColor.LightCoral.png", im
 ```
 ## See Also
 
+* [get_PaperColor](../get_papercolor/)
+
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

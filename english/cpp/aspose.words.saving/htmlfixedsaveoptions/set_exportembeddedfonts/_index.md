@@ -57,6 +57,8 @@ else
 ```
 ## See Also
 
+* [get_ExportEmbeddedFonts](../get_exportembeddedfonts/)
+
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

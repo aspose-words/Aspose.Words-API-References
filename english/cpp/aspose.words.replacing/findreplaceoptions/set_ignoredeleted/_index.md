@@ -51,6 +51,8 @@ ASSERT_EQ(doc->GetText().Trim(), ignoreTextInsideDeleteRevisions ? System::Strin
 ```
 ## See Also
 
+* [get_IgnoreDeleted](../get_ignoredeleted/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -26,6 +26,7 @@ When you save a [Document](../../../aspose.words/document/) in SVG format, Aspos
 If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [ResourcesFolder](./) to override this behavior.
 
 If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [ResourcesFolder](./) property
+[ResourcesFolderAlias](../get_resourcesfolderalias/)
 ## See Also
 
 * Class [SvgSaveOptions](../)

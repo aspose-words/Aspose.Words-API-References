@@ -30,6 +30,8 @@ If set to **true** and Tag is empty, Id property will be used as a form field na
 If set to **true** and Tag values are not unique, duplicate Tag values will be altered to build unique PDF form field names.
 ## See Also
 
+* [get_UseSdtTagAsFormFieldName](../get_usesdttagasformfieldname/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

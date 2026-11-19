@@ -27,7 +27,7 @@ Null is not allowed, but an empty string meaning no number is valid.
 ## Examples
 
 
-Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+Shows how to apply custom list formatting to paragraphs when using [DocumentBuilder](../../../aspose.words/documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();
@@ -139,6 +139,8 @@ builder->get_ListFormat()->RemoveNumbers();
 doc->Save(get_ArtifactsDir() + u"Lists.CreateListRestartAfterHigher.docx");
 ```
 ## See Also
+
+* [get_NumberFormat](../get_numberformat/)
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)

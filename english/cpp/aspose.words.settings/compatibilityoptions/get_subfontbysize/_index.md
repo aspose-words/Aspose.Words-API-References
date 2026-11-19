@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_subfontbysize/
 Increase Priority Of Font Size During Font Substitution.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_SubFontBySize()
+bool Aspose::Words::Settings::CompatibilityOptions::get_SubFontBySize()
 ```
 
 ## See Also

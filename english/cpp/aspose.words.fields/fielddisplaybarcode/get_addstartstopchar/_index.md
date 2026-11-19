@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fielddisplaybarcode/get_addstartstopchar/
 Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE39.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldDisplayBarcode::get_AddStartStopChar()
+bool Aspose::Words::Fields::FieldDisplayBarcode::get_AddStartStopChar()
 ```
 
 ## Examples

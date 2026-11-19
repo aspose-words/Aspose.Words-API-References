@@ -56,6 +56,8 @@ ASSERT_EQ(doc->get_PageCount(), forcePageBreaks ? 3 : 1);
 ```
 ## See Also
 
+* [get_ForcePageBreaks](../get_forcepagebreaks/)
+
 * Class [TxtSaveOptionsBase](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

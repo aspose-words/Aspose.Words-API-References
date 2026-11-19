@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/shape/get_filled/
 Determines whether the closed path of the shape will be filled.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Shape::get_Filled()
+bool Aspose::Words::Drawing::Shape::get_Filled()
 ```
 
 ## Remarks

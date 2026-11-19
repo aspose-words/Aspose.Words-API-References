@@ -24,6 +24,8 @@ This option is available in either .Net framework starting from 3.5 version or .
 By default, Aspose.Words uses system local time zone when writes date/time fields, this option allows to set custom value.
 ## See Also
 
+* [get_CustomTimeZoneInfo](../get_customtimezoneinfo/)
+
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -26,6 +26,7 @@ static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::SharedP
 | pageCount | int32_t | Number of pages to be extracted. |
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -48,6 +49,7 @@ static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::SharedP
 | pageCount | int32_t | Number of pages to be extracted. |
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -70,6 +72,7 @@ static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::String 
 | pageCount | int32_t | Number of pages to be extracted. |
 ## See Also
 
+* Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -92,6 +95,7 @@ static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::String 
 | pageCount | int32_t | Number of pages to be extracted. |
 ## See Also
 
+* Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Splitter](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

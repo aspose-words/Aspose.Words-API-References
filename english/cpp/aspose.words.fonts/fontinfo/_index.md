@@ -41,6 +41,7 @@ class FontInfo : public System::Object
 
 
 You do not create instances of this class directly. Use the [FontInfos](../../aspose.words/documentbase/get_fontinfos/) property to access the collection of fonts defined in a document.
+[FontInfoCollection](../fontinfocollection/)[FontInfos](../../aspose.words/documentbase/get_fontinfos/)
 ## Examples
 
 

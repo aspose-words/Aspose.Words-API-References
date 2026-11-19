@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportpagemargins/
 Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageMargins() const
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageMargins() const
 ```
 
 ## Remarks

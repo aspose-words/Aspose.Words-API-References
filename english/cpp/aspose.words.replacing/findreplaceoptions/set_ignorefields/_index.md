@@ -49,6 +49,8 @@ ASSERT_EQ(doc->GetText().Trim(), ignoreTextInsideFields ? System::String(u"Greet
 ```
 ## See Also
 
+* [get_IgnoreFields](../get_ignorefields/)
+
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

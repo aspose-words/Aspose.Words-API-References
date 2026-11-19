@@ -29,6 +29,7 @@ When [CommentRangeEnd](../) is created, it belongs to the specified document, bu
 To append a [CommentRangeEnd](../) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 ## See Also
 
+* Class [DocumentBase](../../documentbase/)
 * Class [CommentRangeEnd](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/fontsavingargs/get_issubsettingneeded/
 Allows to specify whether the current font will be subsetted before exporting as a font resource.
 
 ```cpp
-_Bool Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded() const
+bool Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded() const
 ```
 
 ## Remarks

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/viewoptions/get_displaybackgroundshape/
 Controls display of the background shape in print layout view.
 
 ```cpp
-_Bool Aspose::Words::Settings::ViewOptions::get_DisplayBackgroundShape() const
+bool Aspose::Words::Settings::ViewOptions::get_DisplayBackgroundShape() const
 ```
 
 ## Examples

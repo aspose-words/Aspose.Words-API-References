@@ -48,6 +48,8 @@ doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.SaveHtmlWithOptions.html", opti
 ```
 ## See Also
 
+* [get_ExportTextInputFormFieldAsText](../get_exporttextinputformfieldastext/)
+
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -37,6 +37,7 @@ ASSERT_LE(stats->get_FleschKincaidGradeLevel(), 0);
 ```
 ## See Also
 
+* Class [ReadabilityStatistics](../../readabilitystatistics/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

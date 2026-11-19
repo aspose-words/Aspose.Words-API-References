@@ -86,6 +86,8 @@ doc->Save(get_ArtifactsDir() + u"Field.STYLEREF.docx");
 ```
 ## See Also
 
+* [get_InsertParagraphNumber](../get_insertparagraphnumber/)
+
 * Class [FieldStyleRef](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

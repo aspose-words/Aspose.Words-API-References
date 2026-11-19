@@ -35,6 +35,9 @@ doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.CompressionLevelXps.xps", option
 ```
 ## See Also
 
+* [get_CompressionLevel](../get_compressionlevel/)
+
+* Enum [CompressionLevel](../../compressionlevel/)
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

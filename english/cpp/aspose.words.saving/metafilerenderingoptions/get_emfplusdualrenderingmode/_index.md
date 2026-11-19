@@ -26,6 +26,7 @@ This option is used only when metafile is rendered as vector graphics. When meta
 The default value is [EmfPlusWithFallback](../../emfplusdualrenderingmode/).
 ## See Also
 
+* Enum [EmfPlusDualRenderingMode](../../emfplusdualrenderingmode/)
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

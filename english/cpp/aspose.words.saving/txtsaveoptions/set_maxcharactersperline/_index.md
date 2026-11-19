@@ -35,6 +35,8 @@ doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.MaxCharactersPerLine.txt", saveO
 ```
 ## See Also
 
+* [get_MaxCharactersPerLine](../get_maxcharactersperline/)
+
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

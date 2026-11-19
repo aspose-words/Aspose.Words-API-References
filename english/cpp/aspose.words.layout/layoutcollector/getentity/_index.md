@@ -81,6 +81,7 @@ ASSERT_EQ(layoutEnumerator->get_Text(), u"¶");
 ```
 ## See Also
 
+* Class [Node](../../../aspose.words/node/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

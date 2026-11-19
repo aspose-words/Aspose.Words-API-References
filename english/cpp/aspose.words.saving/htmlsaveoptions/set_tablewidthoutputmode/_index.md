@@ -79,6 +79,9 @@ else
 ```
 ## See Also
 
+* [get_TableWidthOutputMode](../get_tablewidthoutputmode/)
+
+* Enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

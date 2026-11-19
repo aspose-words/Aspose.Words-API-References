@@ -13,13 +13,13 @@ url: /cpp/aspose.words/font/get_bold/
 True if the font is formatted as bold.
 
 ```cpp
-_Bool Aspose::Words::Font::get_Bold()
+bool Aspose::Words::Font::get_Bold()
 ```
 
 ## Examples
 
 
-Shows how to insert formatted text using DocumentBuilder.
+Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>();

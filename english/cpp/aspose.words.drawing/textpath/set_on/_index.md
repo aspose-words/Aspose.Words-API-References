@@ -22,6 +22,8 @@ void Aspose::Words::Drawing::TextPath::set_On(bool value)
 The default value is **false**.
 ## See Also
 
+* [get_On](../get_on/)
+
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

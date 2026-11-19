@@ -42,6 +42,7 @@ doc->Save(get_ArtifactsDir() + u"Document.UpdatePageLayout.2.pdf");
 ```
 ## See Also
 
+* Enum [Margins](../../margins/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

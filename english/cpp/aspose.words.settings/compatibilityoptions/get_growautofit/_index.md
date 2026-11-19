@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_growautofit/
 Allow Tables to AutoFit Into Page Margins.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_GrowAutofit()
+bool Aspose::Words::Settings::CompatibilityOptions::get_GrowAutofit()
 ```
 
 ## See Also

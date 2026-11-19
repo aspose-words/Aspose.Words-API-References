@@ -119,6 +119,9 @@ doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.ExportVariousPageRanges.tiff",
 ```
 ## See Also
 
+* [get_PageSet](../get_pageset/)
+
+* Class [PageSet](../../pageset/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Saving::IResourceSavingCallback> Aspose::Words:
 
 ## See Also
 
+* Interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

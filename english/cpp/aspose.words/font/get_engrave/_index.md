@@ -13,7 +13,7 @@ url: /cpp/aspose.words/font/get_engrave/
 True if the font is formatted as engraved.
 
 ```cpp
-_Bool Aspose::Words::Font::get_Engrave()
+bool Aspose::Words::Font::get_Engrave()
 ```
 
 ## Examples

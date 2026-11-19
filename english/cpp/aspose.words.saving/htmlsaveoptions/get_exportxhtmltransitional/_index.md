@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportxhtmltransitional/
 Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When **true**, writes a DOCTYPE declaration in the document prior to the root element. Default value is **false**. When saving to EPUB or HTML5 ([Html5](../../htmlversion/)) the DOCTYPE declaration is always written.
 
 ```cpp
-_Bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportXhtmlTransitional() const
+bool Aspose::Words::Saving::HtmlSaveOptions::get_ExportXhtmlTransitional() const
 ```
 
 ## Remarks

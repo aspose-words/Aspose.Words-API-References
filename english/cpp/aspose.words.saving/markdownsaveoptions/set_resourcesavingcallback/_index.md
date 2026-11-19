@@ -21,6 +21,9 @@ void Aspose::Words::Saving::MarkdownSaveOptions::set_ResourceSavingCallback(cons
  Note, there is only one type of resources in Markdown. These are images. When you specify both [ImageSavingCallback](../get_imagesavingcallback/) and [ResourceSavingCallback](../get_resourcesavingcallback/), then first is called [ResourceSavingCallback](../get_resourcesavingcallback/). However, note it is not necessary to have both implementations, as [ImageSavingArgs](../../imagesavingargs/) is actually a subset of [ResourceSavingArgs](../../resourcesavingargs/). 
 ## See Also
 
+* [get_ResourceSavingCallback](../get_resourcesavingcallback/)
+
+* Interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

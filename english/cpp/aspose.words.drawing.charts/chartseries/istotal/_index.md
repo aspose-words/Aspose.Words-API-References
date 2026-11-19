@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartseries/istotal/
 Determines whether the data point at the specified index is a total. Applies only to Waterfall charts.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartSeries::IsTotal(int32_t index)
+bool Aspose::Words::Drawing::Charts::ChartSeries::IsTotal(int32_t index)
 ```
 
 

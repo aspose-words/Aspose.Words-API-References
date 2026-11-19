@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Saving::IDocumentPartSavingCallback> Aspose::Wo
 
 ## See Also
 
+* Interface [IDocumentPartSavingCallback](../../idocumentpartsavingcallback/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

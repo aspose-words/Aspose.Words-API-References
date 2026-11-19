@@ -13,7 +13,7 @@ url: /cpp/aspose.words.loading/rtfloadoptions/get_recognizeutf8text/
 When set to **true**, will try to detect UTF8 characters, they will be preserved during import.
 
 ```cpp
-_Bool Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text() const
+bool Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text() const
 ```
 
 ## Remarks

@@ -62,6 +62,9 @@ doc->Save(get_ArtifactsDir() + u"Table.SetTableAlignment.docx");
 ```
 ## See Also
 
+* [get_Alignment](../get_alignment/)
+
+* Enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

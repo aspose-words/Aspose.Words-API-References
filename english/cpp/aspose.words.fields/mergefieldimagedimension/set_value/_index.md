@@ -21,6 +21,8 @@ void Aspose::Words::Fields::MergeFieldImageDimension::set_Value(double value)
  You should use a negative value to indicate that the original value of the corresponding image dimension should be applied. 
 ## See Also
 
+* [get_Value](../get_value/)
+
 * Class [MergeFieldImageDimension](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

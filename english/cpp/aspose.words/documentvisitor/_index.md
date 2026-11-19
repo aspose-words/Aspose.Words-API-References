@@ -2,7 +2,7 @@
 title: Aspose::Words::DocumentVisitor class
 linktitle: DocumentVisitor
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DocumentVisitor class. Base class for custom document visitors. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::DocumentVisitor class. Base class for custom document visitors. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 23000
 url: /cpp/aspose.words/documentvisitor/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/documentvisitor/
 
 
 Base class for custom document visitors. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class DocumentVisitor : public System::Object
@@ -65,8 +65,8 @@ class DocumentVisitor : public System::Object
 | virtual [VisitSmartTagStart](./visitsmarttagstart/)(System::SharedPtr\<Aspose::Words::Markup::SmartTag\>) | Called when enumeration of a smart tag has started. |
 | virtual [VisitSpecialChar](./visitspecialchar/)(System::SharedPtr\<Aspose::Words::SpecialChar\>) | Called when a [SpecialChar](../specialchar/) node is encountered in the document. |
 | virtual [VisitStructuredDocumentTagEnd](./visitstructureddocumenttagend/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTag\>) | Called when enumeration of a structured document tag has ended. |
-| virtual [VisitStructuredDocumentTagRangeEnd](./visitstructureddocumenttagrangeend/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTagRangeEnd\>) | Called when a StructuredDocumentTagRangeEnd is encountered. |
-| virtual [VisitStructuredDocumentTagRangeStart](./visitstructureddocumenttagrangestart/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTagRangeStart\>) | Called when a StructuredDocumentTagRangeStart is encountered. |
+| virtual [VisitStructuredDocumentTagRangeEnd](./visitstructureddocumenttagrangeend/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTagRangeEnd\>) | Called when a [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/) is encountered. |
+| virtual [VisitStructuredDocumentTagRangeStart](./visitstructureddocumenttagrangestart/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTagRangeStart\>) | Called when a [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/) is encountered. |
 | virtual [VisitStructuredDocumentTagStart](./visitstructureddocumenttagstart/)(System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTag\>) | Called when enumeration of a structured document tag has started. |
 | virtual [VisitSubDocument](./visitsubdocument/)(System::SharedPtr\<Aspose::Words::SubDocument\>) | Called when a sub-document is encountered. |
 | virtual [VisitTableEnd](./visittableend/)(System::SharedPtr\<Aspose::Words::Tables::Table\>) | Called when enumeration of a table has ended. |

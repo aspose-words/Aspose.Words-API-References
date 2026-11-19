@@ -57,6 +57,8 @@ ASPOSE_ASSERT_EQ(doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection(), res
 ```
 ## See Also
 
+* [get_IsRestartAtEachSection](../get_isrestartateachsection/)
+
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
 * Library [Aspose.Words for C++](../../../)

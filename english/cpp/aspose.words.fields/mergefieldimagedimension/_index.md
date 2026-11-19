@@ -29,7 +29,7 @@ class MergeFieldImageDimension : public System::Object
 | [set_Value](./set_value/)(double) | The value. |
 ## Remarks
 
- To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [Value](./get_value/) property. 
+ To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [Value](./get_value/) property. [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)

@@ -69,6 +69,9 @@ builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.NestedLists.docx");
 ```
 ## See Also
 
+* [get_DropCapPosition](../get_dropcapposition/)
+
+* Enum [DropCapPosition](../../dropcapposition/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

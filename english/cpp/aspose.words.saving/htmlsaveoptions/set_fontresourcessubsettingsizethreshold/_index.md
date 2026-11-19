@@ -28,6 +28,7 @@ Font subsetting works as follows:
 
 
  Important! When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via @font-face rules in CSS style sheets is not allowed. Font subsetting can also violate license terms. 
+[ExportFontResources](../get_exportfontresources/)
 ## Examples
 
 
@@ -84,6 +85,8 @@ for (System::String filename : fontFileNames)
 }
 ```
 ## See Also
+
+* [get_FontResourcesSubsettingSizeThreshold](../get_fontresourcessubsettingsizethreshold/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

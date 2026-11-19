@@ -13,7 +13,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_disableopentypefontform
 Specifies to disable OpenType font formatting features.
 
 ```cpp
-_Bool Aspose::Words::Settings::CompatibilityOptions::get_DisableOpenTypeFontFormattingFeatures()
+bool Aspose::Words::Settings::CompatibilityOptions::get_DisableOpenTypeFontFormattingFeatures()
 ```
 
 ## See Also

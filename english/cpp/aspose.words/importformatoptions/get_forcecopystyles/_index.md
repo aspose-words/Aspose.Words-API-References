@@ -13,7 +13,7 @@ url: /cpp/aspose.words/importformatoptions/get_forcecopystyles/
 Gets or sets a boolean value indicating either to copy conflicting styles in [KeepSourceFormatting](../../importformatmode/) mode. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::ImportFormatOptions::get_ForceCopyStyles() const
+bool Aspose::Words::ImportFormatOptions::get_ForceCopyStyles() const
 ```
 
 ## Remarks

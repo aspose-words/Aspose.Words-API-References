@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_MWSmallCaps(bool value)
 
 ## See Also
 
+* [get_MWSmallCaps](../get_mwsmallcaps/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

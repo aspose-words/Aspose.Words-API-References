@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"Field.USERNAME.docx");
 ```
 ## See Also
 
+* [get_UserName](../get_username/)
+
 * Class [FieldUserName](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

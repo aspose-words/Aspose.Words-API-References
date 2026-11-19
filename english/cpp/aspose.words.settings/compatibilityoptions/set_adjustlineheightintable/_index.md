@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_AdjustLineHeightInTable(
 
 ## See Also
 
+* [get_AdjustLineHeightInTable](../get_adjustlineheightintable/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

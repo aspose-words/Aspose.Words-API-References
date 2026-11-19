@@ -18,6 +18,7 @@ Aspose::Words::Settings::MailMergeCheckErrors Aspose::Words::Settings::MailMerge
 
 ## See Also
 
+* Enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

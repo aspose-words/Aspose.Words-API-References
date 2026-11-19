@@ -51,6 +51,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.AxisCross.docx");
 ```
 ## See Also
 
+* [get_CrossesAt](../get_crossesat/)
+
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

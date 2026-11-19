@@ -26,6 +26,8 @@ void Aspose::Words::Saving::PdfSaveOptions::set_OpenHyperlinksInNewWindow(bool v
 JavaScript actions are prohibited by PDF/A-1, PDF/A-2 and PDF/A-3 compliance. The **false** value will be used automatically in this case.
 ## See Also
 
+* [get_OpenHyperlinksInNewWindow](../get_openhyperlinksinnewwindow/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

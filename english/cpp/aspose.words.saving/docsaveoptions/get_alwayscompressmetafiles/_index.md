@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/docsaveoptions/get_alwayscompressmetafiles/
 When **false**, small metafiles are not compressed for performance reason. Default value is **true**, all metafiles are compressed regardless of its size.
 
 ```cpp
-_Bool Aspose::Words::Saving::DocSaveOptions::get_AlwaysCompressMetafiles() const
+bool Aspose::Words::Saving::DocSaveOptions::get_AlwaysCompressMetafiles() const
 ```
 
 ## Examples

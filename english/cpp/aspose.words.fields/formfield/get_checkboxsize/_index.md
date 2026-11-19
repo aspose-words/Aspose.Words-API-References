@@ -20,6 +20,7 @@ double Aspose::Words::Fields::FormField::get_CheckBoxSize()
 
 
 Applicable for a check box form field only.
+[IsCheckBoxExactSize](../get_ischeckboxexactsize/)
 ## See Also
 
 * Class [FormField](../)

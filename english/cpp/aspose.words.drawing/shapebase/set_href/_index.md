@@ -54,6 +54,8 @@ doc->Save(get_ArtifactsDir() + u"Image.InsertImageWithHyperlink.docx");
 ```
 ## See Also
 
+* [get_HRef](../get_href/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

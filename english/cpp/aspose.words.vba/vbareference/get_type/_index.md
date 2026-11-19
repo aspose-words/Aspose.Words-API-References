@@ -18,6 +18,7 @@ virtual Aspose::Words::Vba::VbaReferenceType Aspose::Words::Vba::VbaReference::g
 
 ## See Also
 
+* Enum [VbaReferenceType](../../vbareferencetype/)
 * Class [VbaReference](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

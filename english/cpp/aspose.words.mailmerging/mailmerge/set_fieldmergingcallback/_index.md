@@ -18,6 +18,9 @@ void Aspose::Words::MailMerging::MailMerge::set_FieldMergingCallback(const Syste
 
 ## See Also
 
+* [get_FieldMergingCallback](../get_fieldmergingcallback/)
+
+* Interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

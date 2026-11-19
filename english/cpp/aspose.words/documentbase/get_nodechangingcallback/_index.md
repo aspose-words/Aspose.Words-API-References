@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::INodeChangingCallback> Aspose::Words::DocumentB
 
 ## See Also
 
+* Interface [INodeChangingCallback](../../inodechangingcallback/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

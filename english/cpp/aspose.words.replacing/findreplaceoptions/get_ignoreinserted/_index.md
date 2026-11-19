@@ -13,7 +13,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoreinserted/
 Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreInserted() const
+bool Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreInserted() const
 ```
 
 ## Examples

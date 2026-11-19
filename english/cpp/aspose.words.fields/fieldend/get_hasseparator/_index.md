@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldend/get_hasseparator/
 Returns **true** if this field has a separator.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldEnd::get_HasSeparator() const
+bool Aspose::Words::Fields::FieldEnd::get_HasSeparator() const
 ```
 
 ## See Also

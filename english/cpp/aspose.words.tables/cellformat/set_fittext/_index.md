@@ -81,6 +81,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 ## See Also
 
+* [get_FitText](../get_fittext/)
+
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

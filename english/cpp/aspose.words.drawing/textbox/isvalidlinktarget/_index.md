@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing/textbox/isvalidlinktarget/
 Determines whether this [TextBox](../) can be linked to the target [TextBox](../).
 
 ```cpp
-_Bool Aspose::Words::Drawing::TextBox::IsValidLinkTarget(const System::SharedPtr<Aspose::Words::Drawing::TextBox> & target)
+bool Aspose::Words::Drawing::TextBox::IsValidLinkTarget(const System::SharedPtr<Aspose::Words::Drawing::TextBox> & target)
 ```
 
 ## Examples

@@ -57,6 +57,11 @@ doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [ShapeType](../../../aspose.words.drawing/shapetype/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -105,6 +110,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [ShapeType](../../../aspose.words.drawing/shapetype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

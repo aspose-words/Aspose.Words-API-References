@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_createnotehyperlinks/
 Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::PdfSaveOptions::get_CreateNoteHyperlinks() const
+bool Aspose::Words::Saving::PdfSaveOptions::get_CreateNoteHyperlinks() const
 ```
 
 ## See Also

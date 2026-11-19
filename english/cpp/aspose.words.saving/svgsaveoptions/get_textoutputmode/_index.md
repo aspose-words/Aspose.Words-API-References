@@ -40,6 +40,7 @@ doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.SaveLikeImage.svg", options);
 ```
 ## See Also
 
+* Enum [SvgTextOutputMode](../../svgtextoutputmode/)
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

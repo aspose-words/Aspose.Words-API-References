@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartaxis/get_axisbetweencategories/
 Gets or sets a flag indicating whether the value axis crosses the category axis between categories.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories()
+bool Aspose::Words::Drawing::Charts::ChartAxis::get_AxisBetweenCategories()
 ```
 
 ## Remarks

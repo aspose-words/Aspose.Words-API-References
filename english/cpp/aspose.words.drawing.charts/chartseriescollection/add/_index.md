@@ -18,6 +18,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 
 ## See Also
 
+* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -90,6 +91,8 @@ doc->Save(get_ArtifactsDir() + u"Charts.Sunburst.docx");
 ```
 ## See Also
 
+* Class [ChartSeries](../../chartseries/)
+* Class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -178,16 +181,17 @@ doc->Save(get_ArtifactsDir() + u"Charts.Funnel.docx");
 ```
 ## See Also
 
+* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
-## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<System::String\> \&, const System::ArrayPtr\<double\> \&, const System::ArrayPtr\<_Bool\> \&) method
+## ChartSeriesCollection::Add(const System::String \&, const System::ArrayPtr\<System::String\> \&, const System::ArrayPtr\<double\> \&, const System::ArrayPtr\<bool\> \&) method
 
 
 Adds new [ChartSeries](../../chartseries/) to this collection. Use this method to add series to Waterfall charts.
 
 ```cpp
-System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<System::String> & categories, const System::ArrayPtr<double> & values, const System::ArrayPtr<_Bool> & isSubtotal)
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String & seriesName, const System::ArrayPtr<System::String> & categories, const System::ArrayPtr<double> & values, const System::ArrayPtr<bool> & isSubtotal)
 ```
 
 
@@ -196,7 +200,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 | seriesName | const System::String \& | A name of the series to be added. |
 | categories | const System::ArrayPtr\<System::String\> \& | Category names for the X axis. |
 | values | const System::ArrayPtr\<double\> \& | Y-axis values. |
-| isSubtotal | const System::ArrayPtr\<_Bool\> \& | Values indicating whether the corresponding Y value is a subtotal. |
+| isSubtotal | const System::ArrayPtr\<bool\> \& | Values indicating whether the corresponding Y value is a subtotal. |
 
 ### ReturnValue
 
@@ -231,6 +235,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.Waterfall.docx");
 ```
 ## See Also
 
+* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -274,6 +279,7 @@ doc->Save(get_ArtifactsDir() + u"Charts.Histogram.docx");
 ```
 ## See Also
 
+* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -292,6 +298,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 Recently added [ChartSeries](../../chartseries/) object.
 ## See Also
 
+* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -310,6 +317,7 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 Recently added [ChartSeries](../../chartseries/) object.
 ## See Also
 
+* Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

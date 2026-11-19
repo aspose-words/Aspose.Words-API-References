@@ -13,7 +13,7 @@ url: /cpp/aspose.words.fields/fieldddeauto/get_insertaspicture/
 Gets whether to insert the linked object as a picture.
 
 ```cpp
-_Bool Aspose::Words::Fields::FieldDdeAuto::get_InsertAsPicture()
+bool Aspose::Words::Fields::FieldDdeAuto::get_InsertAsPicture()
 ```
 
 ## See Also

@@ -75,6 +75,8 @@ doc->Save(get_ArtifactsDir() + u"HeaderFooter.ReplaceText.docx");
 ```
 ## See Also
 
+* Class [HeaderFooter](../../headerfooter/)
+* Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -174,6 +176,7 @@ doc->Save(get_ArtifactsDir() + u"HeaderFooter.Link.docx");
 ```
 ## See Also
 
+* Class [HeaderFooter](../../headerfooter/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

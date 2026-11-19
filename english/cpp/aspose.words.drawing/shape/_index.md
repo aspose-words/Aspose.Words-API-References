@@ -211,6 +211,7 @@ Using the [Shape](./) class you can create or modify shapes in a Microsoft Word 
 An important property of a shape is its [ShapeType](../shapebase/get_shapetype/). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.
 
 Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/) and [Table](../../aspose.words.tables/table/) nodes as children.
+[ShapeBase](../shapebase/)[GroupShape](../groupshape/)
 ## Examples
 
 

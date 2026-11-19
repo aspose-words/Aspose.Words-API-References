@@ -127,7 +127,7 @@ ASSERT_EQ(comboBox->get_Result(), u"Apple");
 doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
 ```
 
-Shows how to formatting the entire FormField, including the field value.
+Shows how to formatting the entire [FormField](./), including the field value.
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Form fields.docx"));

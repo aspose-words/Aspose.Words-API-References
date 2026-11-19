@@ -13,7 +13,7 @@ url: /cpp/aspose.words.markup/structureddocumenttagrangestart/accept/
 Accepts a visitor.
 
 ```cpp
-_Bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
+bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::Accept(System::SharedPtr<Aspose::Words::DocumentVisitor> visitor) override
 ```
 
 
@@ -32,6 +32,7 @@ Enumerates over this node and all of its children. Each node calls a correspondi
 For more info see the Visitor design pattern.
 ## See Also
 
+* Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

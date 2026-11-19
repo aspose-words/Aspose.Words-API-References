@@ -18,6 +18,8 @@ void Aspose::Words::Settings::OdsoRecipientData::set_Active(bool value)
 
 ## See Also
 
+* [get_Active](../get_active/)
+
 * Class [OdsoRecipientData](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

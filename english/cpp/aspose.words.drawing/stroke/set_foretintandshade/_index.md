@@ -38,6 +38,8 @@ doc->Save(get_ArtifactsDir() + u"Shape.StrokeForeThemeColors.docx");
 ```
 ## See Also
 
+* [get_ForeTintAndShade](../get_foretintandshade/)
+
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -22,6 +22,8 @@ void Aspose::Words::Settings::Odso::set_ColumnDelimiter(char16_t value)
 RK I have never seen this in use.
 ## See Also
 
+* [get_ColumnDelimiter](../get_columndelimiter/)
+
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

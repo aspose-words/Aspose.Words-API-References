@@ -50,6 +50,8 @@ doc->Save(get_ArtifactsDir() + u"Field.AUTONUM.docx");
 ```
 ## See Also
 
+* [get_SeparatorCharacter](../get_separatorcharacter/)
+
 * Class [FieldAutoNum](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

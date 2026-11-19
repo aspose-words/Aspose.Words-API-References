@@ -29,6 +29,8 @@ void Aspose::Words::MailMerging::MailMerge::set_CleanupParagraphsWithPunctuation
 
 ## See Also
 
+* [get_CleanupParagraphsWithPunctuationMarks](../get_cleanupparagraphswithpunctuationmarks/)
+
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
 * Library [Aspose.Words for C++](../../../)

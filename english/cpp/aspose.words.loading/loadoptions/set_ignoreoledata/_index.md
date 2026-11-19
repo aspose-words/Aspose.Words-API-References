@@ -38,6 +38,8 @@ doc->Save(get_ArtifactsDir() + u"LoadOptions.IgnoreOleData.docx");
 ```
 ## See Also
 
+* [get_IgnoreOleData](../get_ignoreoledata/)
+
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
 * Library [Aspose.Words for C++](../../../)

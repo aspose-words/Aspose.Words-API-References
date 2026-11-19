@@ -56,6 +56,8 @@ dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.SmartStyleBehavior.docx");
 ```
 ## See Also
 
+* [get_SmartStyleBehavior](../get_smartstylebehavior/)
+
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -71,6 +71,7 @@ ASSERT_EQ(revisions->get_Count(), 0);
 ```
 ## See Also
 
+* Class [Style](../../style/)
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

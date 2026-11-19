@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldNextIf::set_LeftExpression(const System::String
 
 ## See Also
 
+* [get_LeftExpression](../get_leftexpression/)
+
 * Class [FieldNextIf](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -2,7 +2,7 @@
 title: Aspose::Words::CompositeNode class
 linktitle: CompositeNode
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::CompositeNode class. Base class for nodes that can contain other nodes. To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article in C++.'
+description: 'Aspose::Words::CompositeNode class. Base class for nodes that can contain other nodes. To learn more, visit the Aspose.Words Document Object Model (DOM) documentation article in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words/compositenode/
@@ -11,7 +11,7 @@ url: /cpp/aspose.words/compositenode/
 
 
 Base class for nodes that can contain other nodes. 
-To learn more, visit the Aspose.Words Document Object Model (DOM) (https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/cpp/aspose-words-document-object-model/) documentation article.
 
 ```cpp
 class CompositeNode : public Node,

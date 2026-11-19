@@ -13,7 +13,7 @@ url: /cpp/aspose.words.properties/documentproperty/get_islinktocontent/
 Shows whether this property is linked to content or not.
 
 ```cpp
-_Bool Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent()
+bool Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent()
 ```
 
 ## Examples

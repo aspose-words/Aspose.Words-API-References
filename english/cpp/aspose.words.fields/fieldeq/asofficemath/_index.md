@@ -38,6 +38,7 @@ doc->Save(get_ArtifactsDir() + u"Field.EQAsOfficeMath.docx");
 ```
 ## See Also
 
+* Class [OfficeMath](../../../aspose.words.math/officemath/)
 * Class [FieldEQ](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

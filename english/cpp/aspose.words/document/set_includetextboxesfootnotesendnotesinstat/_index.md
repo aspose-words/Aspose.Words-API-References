@@ -39,6 +39,8 @@ ASSERT_EQ(doc->get_BuiltInDocumentProperties()->get_Words(), 4);
 ```
 ## See Also
 
+* [get_IncludeTextboxesFootnotesEndnotesInStat](../get_includetextboxesfootnotesendnotesinstat/)
+
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

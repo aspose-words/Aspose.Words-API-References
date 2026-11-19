@@ -24,6 +24,8 @@ PDF choice form fields are used for export of SDT Combo Box Content Control, SDT
 The default value is **true**.
 ## See Also
 
+* [get_RenderChoiceFormFieldBorder](../get_renderchoiceformfieldborder/)
+
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::OdsoFieldMapData::set_Column(int32_t value)
 
 ## See Also
 
+* [get_Column](../get_column/)
+
 * Class [OdsoFieldMapData](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

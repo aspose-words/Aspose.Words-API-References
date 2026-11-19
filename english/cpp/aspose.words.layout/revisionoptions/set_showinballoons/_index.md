@@ -80,6 +80,9 @@ doc->Save(get_ArtifactsDir() + u"Revision.RevisionOptions.pdf");
 ```
 ## See Also
 
+* [get_ShowInBalloons](../get_showinballoons/)
+
+* Enum [ShowInBalloons](../../showinballoons/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
 * Library [Aspose.Words for C++](../../../)

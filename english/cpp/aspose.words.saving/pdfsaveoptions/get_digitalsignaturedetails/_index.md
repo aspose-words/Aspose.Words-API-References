@@ -22,6 +22,7 @@ System::SharedPtr<Aspose::Words::Saving::PdfDigitalSignatureDetails> Aspose::Wor
 The default value is **null** and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/) object, then the output PDF document will be digitally signed.
 ## See Also
 
+* Class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

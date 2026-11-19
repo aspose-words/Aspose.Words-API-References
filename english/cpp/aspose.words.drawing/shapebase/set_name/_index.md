@@ -45,6 +45,8 @@ System::IO::File::Delete(get_ArtifactsDir() + u"Shape.AltText.001.png");
 ```
 ## See Also
 
+* [get_Name](../get_name/)
+
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

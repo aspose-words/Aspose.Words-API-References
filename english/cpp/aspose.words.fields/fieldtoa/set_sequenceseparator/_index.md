@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldToa::set_SequenceSeparator(const System::String
 
 ## See Also
 
+* [get_SequenceSeparator](../get_sequenceseparator/)
+
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -15,7 +15,7 @@ Gets or sets a value determining whether or not to create missing outline levels
 Default value for this property is **false**.
 
 ```cpp
-_Bool Aspose::Words::Saving::OutlineOptions::get_CreateMissingOutlineLevels() const
+bool Aspose::Words::Saving::OutlineOptions::get_CreateMissingOutlineLevels() const
 ```
 
 ## See Also

@@ -44,6 +44,8 @@ doc->Save(get_ArtifactsDir() + u"Font.EngraveEmboss.docx");
 ```
 ## See Also
 
+* [get_Emboss](../get_emboss/)
+
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

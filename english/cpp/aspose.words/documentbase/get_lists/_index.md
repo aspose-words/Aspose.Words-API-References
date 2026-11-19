@@ -20,6 +20,7 @@ System::SharedPtr<Aspose::Words::Lists::ListCollection> Aspose::Words::DocumentB
 
 
 For more information see the description of the [ListCollection](../../../aspose.words.lists/listcollection/) class.
+[ListCollection](../../../aspose.words.lists/listcollection/)[List](../../../aspose.words.lists/list/)[ListFormat](../../../aspose.words.lists/listformat/)
 ## Examples
 
 
@@ -72,6 +73,7 @@ doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 ## See Also
 
+* Class [ListCollection](../../../aspose.words.lists/listcollection/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

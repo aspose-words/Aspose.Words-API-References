@@ -28,7 +28,10 @@ If only path but no file name is specified in this property, the CSS file will b
 If the folder specified by this property doesn't exist, it will be created automatically before the CSS file is saved.
 
 Another way to specify a folder where external CSS file is saved is to use [ResourceFolder](../get_resourcefolder/). 
+[ResourceFolder](../get_resourcefolder/)[ResourceFolderAlias](../get_resourcefolderalias/)[CssStyleSheetType](../get_cssstylesheettype/)
 ## See Also
+
+* [get_CssStyleSheetFileName](../get_cssstylesheetfilename/)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)

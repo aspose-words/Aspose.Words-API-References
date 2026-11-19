@@ -42,6 +42,7 @@ doc->Save(get_ArtifactsDir() + u"VbaProject.CreateVBAMacros.docm");
 ```
 ## See Also
 
+* Class [VbaModule](../../vbamodule/)
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
 * Library [Aspose.Words for C++](../../../)

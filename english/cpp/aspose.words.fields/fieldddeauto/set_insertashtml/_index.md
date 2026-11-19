@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDdeAuto::set_InsertAsHtml(bool value)
 
 ## See Also
 
+* [get_InsertAsHtml](../get_insertashtml/)
+
 * Class [FieldDdeAuto](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -24,6 +24,8 @@ The user password will be required to open an encrypted PDF document for viewing
 The user password can be **null** or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password.
 ## See Also
 
+* [get_UserPassword](../get_userpassword/)
+
 * Class [PdfEncryptionDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotUseHTMLParagraphAut
 
 ## See Also
 
+* [get_DoNotUseHTMLParagraphAutoSpacing](../get_donotusehtmlparagraphautospacing/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -13,13 +13,14 @@ url: /cpp/aspose.words.saving/fontsavingargs/get_keepfontstreamopen/
 Specifies whether Aspose.Words should keep the stream open or close it after saving a font.
 
 ```cpp
-_Bool Aspose::Words::Saving::FontSavingArgs::get_KeepFontStreamOpen() const
+bool Aspose::Words::Saving::FontSavingArgs::get_KeepFontStreamOpen() const
 ```
 
 ## Remarks
 
 
 Default is **false** and Aspose.Words will close the stream you provided in the [FontStream](../get_fontstream/) property after writing a font into it. Specify **true** to keep the stream open.
+[FontStream](../get_fontstream/)
 ## See Also
 
 * Class [FontSavingArgs](../)

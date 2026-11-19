@@ -40,6 +40,8 @@ System::IO::File::WriteAllBytes(get_ArtifactsDir() + u"Drawing.StrokePattern.png
 ```
 ## See Also
 
+* [get_Color2](../get_color2/)
+
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
 * Library [Aspose.Words for C++](../../../)

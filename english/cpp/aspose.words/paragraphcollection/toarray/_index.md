@@ -23,7 +23,7 @@ An array of paragraphs.
 ## Examples
 
 
-Shows how to create an array from a NodeCollection.
+Shows how to create an array from a [NodeCollection](../../nodecollection/).
 
 ```cpp
 auto doc = System::MakeObject<Aspose::Words::Document>(System::String(get_MyDir() + u"Paragraphs.docx"));
@@ -57,6 +57,7 @@ ASSERT_FALSE(doc->GetText().Contains(u"The third paragraph"));
 ```
 ## See Also
 
+* Class [Paragraph](../../paragraph/)
 * Class [ParagraphCollection](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -117,6 +117,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 
 ## See Also
 
+* Class [TextWatermarkOptions](../../textwatermarkoptions/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

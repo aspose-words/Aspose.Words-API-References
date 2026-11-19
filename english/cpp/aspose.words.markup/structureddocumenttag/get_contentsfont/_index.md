@@ -72,6 +72,7 @@ doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
 ## See Also
 
+* Class [Font](../../../aspose.words/font/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
 * Library [Aspose.Words for C++](../../../)

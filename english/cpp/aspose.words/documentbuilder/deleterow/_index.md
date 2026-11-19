@@ -64,6 +64,7 @@ ASSERT_EQ(table->GetText().Trim(), (u"Row 2, cell 1.\aRow 2, cell 2.\a\a"));
 ```
 ## See Also
 
+* Class [Row](../../../aspose.words.tables/row/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

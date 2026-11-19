@@ -50,6 +50,11 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertedChartRelativePosition.d
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -84,6 +89,12 @@ The image node that was just inserted.
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
+* Enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* Enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* Enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* Enum [ChartStyle](../../../aspose.words.drawing.charts/chartstyle/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -128,6 +139,8 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertPieChart.docx");
 ```
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -157,6 +170,9 @@ The image node that was just inserted.
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 ## See Also
 
+* Class [Shape](../../../aspose.words.drawing/shape/)
+* Enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
+* Enum [ChartStyle](../../../aspose.words.drawing.charts/chartstyle/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

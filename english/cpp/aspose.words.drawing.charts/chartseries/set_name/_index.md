@@ -18,6 +18,8 @@ void Aspose::Words::Drawing::Charts::ChartSeries::set_Name(const System::String 
 
 ## See Also
 
+* [get_Name](../get_name/)
+
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -53,6 +53,9 @@ doc->Save(get_ArtifactsDir() + u"Font.ChangeStyle.docx");
 ```
 ## See Also
 
+* [get_StyleIdentifier](../get_styleidentifier/)
+
+* Enum [StyleIdentifier](../../styleidentifier/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)

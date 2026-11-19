@@ -13,7 +13,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showleaderlin
 Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is **false**.
 
 ```cpp
-_Bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLines()
+bool Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLines()
 ```
 
 ## Remarks

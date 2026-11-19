@@ -50,6 +50,8 @@ else
 ```
 ## See Also
 
+* [get_ExportEmbeddedSvg](../get_exportembeddedsvg/)
+
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

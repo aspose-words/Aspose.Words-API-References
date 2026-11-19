@@ -18,6 +18,8 @@ void Aspose::Words::Fields::FieldDde::set_AutoUpdate(bool value)
 
 ## See Also
 
+* [get_AutoUpdate](../get_autoupdate/)
+
 * Class [FieldDde](../)
 * Namespace [Aspose::Words::Fields](../../)
 * Library [Aspose.Words for C++](../../../)

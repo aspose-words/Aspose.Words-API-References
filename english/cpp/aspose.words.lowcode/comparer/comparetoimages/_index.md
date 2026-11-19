@@ -26,6 +26,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | dateTime | System::DateTime | The date and time to use for revisions. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Comparer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -49,6 +50,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | compareOptions | const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\> \& | Document comparison options. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * Class [Comparer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -71,6 +74,7 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | dateTime | System::DateTime | The date and time to use for revisions. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * Class [Comparer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)
@@ -94,6 +98,8 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 | compareOptions | const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\> \& | Document comparison options. |
 ## See Also
 
+* Class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
+* Class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * Class [Comparer](../)
 * Namespace [Aspose::Words::LowCode](../../)
 * Library [Aspose.Words for C++](../../../)

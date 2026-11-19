@@ -18,6 +18,8 @@ void Aspose::Words::Settings::CompatibilityOptions::set_NoColumnBalance(bool val
 
 ## See Also
 
+* [get_NoColumnBalance](../get_nocolumnbalance/)
+
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
 * Library [Aspose.Words for C++](../../../)

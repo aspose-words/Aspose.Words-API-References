@@ -65,6 +65,7 @@ doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithStyle.docx");
 ```
 ## See Also
 
+* Enum [TableStyleOptions](../../tablestyleoptions/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
 * Library [Aspose.Words for C++](../../../)

@@ -18,6 +18,9 @@ void Aspose::Words::Replacing::FindReplaceOptions::set_ReplacingCallback(const S
 
 ## See Also
 
+* [get_ReplacingCallback](../get_replacingcallback/)
+
+* Interface [IReplacingCallback](../../ireplacingcallback/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
 * Library [Aspose.Words for C++](../../../)

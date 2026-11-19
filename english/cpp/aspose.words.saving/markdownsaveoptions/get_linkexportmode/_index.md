@@ -41,6 +41,7 @@ doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.LinkExportMode.Inline.md", 
 ```
 ## See Also
 
+* Enum [MarkdownLinkExportMode](../../markdownlinkexportmode/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
 * Library [Aspose.Words for C++](../../../)

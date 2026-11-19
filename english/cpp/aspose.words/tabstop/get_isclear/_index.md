@@ -13,7 +13,7 @@ url: /cpp/aspose.words/tabstop/get_isclear/
 Returns **true** if this tab stop clears any existing tab stops in this position.
 
 ```cpp
-_Bool Aspose::Words::TabStop::get_IsClear()
+bool Aspose::Words::TabStop::get_IsClear()
 ```
 
 ## Examples
